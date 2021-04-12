@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.RaceSettings>
+		<defName>Mousekin_RaceSettings</defName>
+		<pawnKindSettings>
+			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>MousekinColonist</li>
+							</kindDefs>
+							<chance>50.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>Mousekin_PlayerFaction_Settlers</li>
+						<li>Mousekin_PlayerFaction_Refugees</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
+			<!-- TODO: alienslavekinds, alienrefugeekinds, alienwandererkinds -->
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
+
+</Defs>

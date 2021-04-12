@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+		<defName>Mousekin</defName>
+		<label>Mousekin</label>
+		<description>A race of small and agile anthropomorphic mice, readily identified by their large round ears, short-snouted faces, black beady eyes, pink noses, slight overbite, thin scaly tails and white fur.\n\nMousekin adult males can grow up to 100 centimeters tall, while females tend to reach 90 centimeters in height. They have a smaller head-to-body ratio compared with other humanoid races, resembling oversized toddlers with short legs and noticeable hind rumps.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single pup; twins, triplets and other multiple births are rare.\n\nVariations among individual Mousekin include different head hair color and lengths independent of their white body fur, as well as moustaches and other forms of facial hair for males.\n\nWhile the vast majority of humanoid rodent-like races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is generally understood that Mousekins are among the very few species that have evolved naturally from their non-sapient mouse ancestors.\n\nBarring accidents, injury or disease, a Mousekin’s average life expectancy is 90~100 years; their head hair turns fully grey by around 60 years of age, but no Mousekin will experience baldness.</description>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.45</maleGenderProbability>
+				<immuneToAge>false</immuneToAge>
+				<canLayDown>true</canLayDown>
+				<disallowedTraits>
+					<li>
+						<defName>AnnoyingVoice</defName>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+					</li>
+				</disallowedTraits>
+				<maxDamageForSocialfight>5</maxDamageForSocialfight>
+				<immuneToXenophobia>false</immuneToXenophobia>
+				<!-- Allows patches to make Mousekin always not be xenophobic towards certain races (e.g. Otters) -->
+				<notXenophobistTowards/>
+				<minAgeForAdulthood>18</minAgeForAdulthood>
+				<humanRecipeImport>true</humanRecipeImport>
+				<alienPartGenerator>
+					<aliencrowntypes>
+						<li>Normal</li>
+						<li>Sleepy</li>
+					</aliencrowntypes>
+					<alienbodytypes>
+						<li>Thin</li>
+					</alienbodytypes>
+					<useGenderedHeads>true</useGenderedHeads>
+					<useGenderedBodies>false</useGenderedBodies>
+					<!-- TODO: adjust as needed -->
+					<customDrawSize>(1.0, 1.0)</customDrawSize>
+					<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+					<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+					<headOffset>(0.0, 0.0)</headOffset>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!-- White fur only -->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,1.0,1.0,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!-- Black to Dark Brown -->
+									<li>
+										<weight>10</weight>
+										<min>(0.100,0.000,0.000)</min>
+										<max>(0.200,0.100,0.050)</max>
+									</li>
+									<!-- Burgundy to Mahogany Brown -->
+									<li>
+										<weight>15</weight>
+										<min>(0.250,0.100,0.000)</min>
+										<max>(0.400,0.150,0.050)</max>
+									</li>
+									<!-- Medium to Ash Brown -->
+									<li>
+										<weight>20</weight>
+										<min>(0.500,0.350,0.100)</min>
+										<max>(0.600,0.400,0.200)</max>
+									</li>
+									<!-- Honey to Golden Blonde -->
+									<li>
+										<weight>5</weight>
+										<min>(0.800,0.600,0.400)</min>
+										<max>(1.000,0.750,0.450)</max>
+									</li>
+									<!-- Platinum Blonde -->
+									<li>
+										<weight>5</weight>
+										<min>(0.900,0.850,0.700)</min>
+										<max>(1.000,0.900,0.800)</max>
+									</li>
+									<!-- Red to Copper -->
+									<li>
+										<weight>1</weight>
+										<min>(0.850,0.150,0.000)</min>
+										<max>(1.000,0.500,0.150)</max>
+									</li>
+									<!-- Copper to Strawberry Blonde -->
+									<li>
+										<weight>1</weight>
+										<min>(0.900,0.300,0.000)</min>
+										<max>(0.890,0.220,0.040)</max>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					<bodyAddons>
+						<li>
+							<path>Things/Pawn/Mousekin/Ears/EarLeft</path>
+							<bodyPart>left ear</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<drawSize>1</drawSize>
+							<drawnInBed>True</drawnInBed>
+							<colorChannel>skin</colorChannel>
+							<!-- TODO: add different graphics for fake cloth prosthetic ear -->
+							<hediffGraphics/>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Thin>(-0.475,0.67)</Thin>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Thin>(-0.45,0.67)</Thin>
+									</portraitBodyTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Thin>(0.05,0.98)</Thin>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Thin>(-0.04,0.89)</Thin>
+									</portraitBodyTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Thin>(-0.44,0.75)</Thin>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Thin>(-0.44,0.58)</Thin>
+									</portraitBodyTypes>
+								</east>
+							</offsets>
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+							</hiddenUnderApparelFor>
+						</li>
+						<li>
+							<path>Things/Pawn/Mousekin/Ears/EarRight</path>
+							<bodyPart>right ear</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<drawSize>1</drawSize>
+							<drawnInBed>True</drawnInBed>
+							<colorChannel>skin</colorChannel>
+							<!-- TODO: add different graphics for fake cloth prosthetic ear -->
+							<hediffGraphics/>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Thin>(-0.375,0.67)</Thin>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Thin>(-0.4,0.67)</Thin>
+									</portraitBodyTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Thin>(-0.038,0.98)</Thin>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Thin>(-0.01,1)</Thin>
+									</portraitBodyTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Thin>(-0.44,0.75)</Thin>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Thin>(-0.44,0.58)</Thin>
+									</portraitBodyTypes>
+								</east>
+							</offsets>
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+							</hiddenUnderApparelFor>
+						</li>
+						<li>
+							<path>Things/Pawn/Mousekin/Tails/Tail</path>
+							<bodyPart>tail</bodyPart>
+							<inFrontOfBody>false</inFrontOfBody>
+							<drawSize>1</drawSize>
+							<drawnInBed>false</drawnInBed>
+							<colorChannel>skin</colorChannel>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Thin>(-0.1,-0.2)</Thin>
+									</bodyTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Thin>(0,-0.05)</Thin>
+									</bodyTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Thin>(0.02,-0.2)</Thin>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
+					</bodyAddons>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths>
+				<li>
+					<body>Things/Pawn/Mousekin/Body/</body>
+					<head>Things/Pawn/Mousekin/Heads/</head>
+					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+				</li>
+			</graphicPaths>
+			<hairSettings>
+				<!-- TODO - Set to true -->
+				<hasHair>false</hasHair>
+				<getsGreyAt>60</getsGreyAt>
+			</hairSettings>
+			<thoughtSettings>
+				<!-- TODO: Mousekin-flavored vanilla thoughts -->
+				<replacerList/>
+				<cannotReceiveThoughts>
+					<li>EnvironmentDark</li>
+					<li>NeedOutdoors</li>
+				</cannotReceiveThoughts>
+				<!-- TODO: Add Mousekin-only thoughts -->
+				<restrictedThoughts/>
+				<!-- TODO: Add custom thoughts of Mousekins eating other sapient races (both Mousekin and non-Mousekin) -->
+			</thoughtSettings>
+			<raceRestriction>
+				<!-- TODO: Restrict the following apparel for Mousekin wear only -->
+				<apparelList/>
+				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+
+				<!-- TODO: Restrict the following weapons for Mousekin use only -->
+				<weaponList/>
+
+				<!-- TODO: Restrict the following buildings, furniture and facilities for Mousekin construction and use only -->
+				<buildingList/>
+				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
+
+				<!-- TODO: Restrict the following projects for Mousekin research only -->
+				<researchList/>
+			</raceRestriction>
+		</alienRace>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>45</Mass>
+			<MoveSpeed>4.85</MoveSpeed>
+			<Flammability>1.0</Flammability>
+			<PsychicSensitivity>1.1</PsychicSensitivity>
+			<ToxicSensitivity>0.9</ToxicSensitivity>
+			<EatingSpeed>1.2</EatingSpeed>
+			<ComfyTemperatureMin>18</ComfyTemperatureMin>
+			<ComfyTemperatureMax>32</ComfyTemperatureMax>
+			<ImmunityGainSpeed>1.10</ImmunityGainSpeed>
+			<PainShockThreshold>0.75</PainShockThreshold>
+			<MeleeDodgeChance>1.20</MeleeDodgeChance>
+			<AimingDelayFactor>1.35</AimingDelayFactor>
+			<NegotiationAbility>0.75</NegotiationAbility>
+			<SocialImpact>0.9</SocialImpact>
+			<MiningSpeed>1.2</MiningSpeed>
+			<ResearchSpeed>0.8</ResearchSpeed>
+			<PlantWorkSpeed>1.5</PlantWorkSpeed>
+			<HuntingStealth>1.2</HuntingStealth>
+			<ConstructionSpeed>0.85</ConstructionSpeed>
+		</statBases>
+		<tools>
+			<li>
+				<label>left paw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Scratch</def>
+							<amount>7</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right paw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Scratch</def>
+							<amount>7</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Bite</def>
+							<amount>12</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>100</lifeExpectancy>
+			<!-- TODO: Replace with Mousekin fur -->
+			<leatherDef>Leather_Light</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<hasGenders>true</hasGenders>
+			<body>Mousekin</body>
+			<baseBodySize>0.7</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<meatMarketValue>0.65</meatMarketValue>
+			<manhunterOnDamageChance>0.0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 0.30)</li>
+					<li>(2, 0.40)</li>
+					<li>(3, 0.10)</li>
+					<li>(4, 0.20)</li>
+					<li>(5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+				  <def>HumanlikeBaby</def>
+				  <minAge>0</minAge>
+				</li>
+				<li>
+				  <def>HumanlikeToddler</def>
+				  <minAge>1.2</minAge>
+				</li>
+				<li>
+				  <def>HumanlikeChild</def>
+				  <minAge>4</minAge>
+				</li>
+				<li>
+				  <def>HumanlikeTeenager</def>
+				  <minAge>13</minAge>
+				</li>
+				<li>
+				  <def>HumanlikeAdult</def>
+				  <minAge>18</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(5,0)</li>
+					<li>(8,75)</li>
+					<li>(10,75)</li>
+					<li>(15,100)</li>
+					<li>(20,100)</li>
+					<li>(30,100)</li>
+					<li>(40,100)</li>
+					<li>(50,100)</li>
+					<li>(60,100)</li>
+					<li>(70,75)</li>
+					<li>(80,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<li>InstallArchotechEye</li>
+			<li>InstallArchotechArm</li>
+			<li>InstallArchotechLeg</li>
+			<li>InstallPowerClaw</li>
+			<li>InstallBionicEye</li>
+			<li>InstallBionicArm</li>
+			<li>InstallBionicLeg</li>
+			<li>InstallBionicSpine</li>
+			<li>InstallBionicHeart</li>
+			<li>InstallBionicStomach</li>
+			<li>InstallSimpleProstheticArm</li>
+			<li>InstallSimpleProstheticLeg</li>
+			<li>InstallSimpleProstheticHeart</li>
+			<!-- TODO: Install fake Mousekin ear operation -->
+			<!-- TODO: Install fake Mousekin tail operation -->
+			<li>InstallPegLeg</li>
+			<li>InstallWoodenFoot</li>
+			<li>InstallDenture</li>
+			<li>InstallJoywire</li>
+			<li>InstallPainstopper</li>
+			<!-- TODO: Install natural Mousekin ear operation -->
+			<!-- TODO: Install natural Mousekin tail operation -->
+			<li>InstallNaturalHeart</li>
+			<li>InstallNaturalLung</li>
+			<li>InstallNaturalKidney</li>
+			<li>InstallNaturalLiver</li>
+			<li>ExciseCarcinoma</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+			<li>CureScaria</li>			
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+		</recipes>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

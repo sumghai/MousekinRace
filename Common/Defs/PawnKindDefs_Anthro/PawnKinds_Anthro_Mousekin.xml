@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef Abstract="True" Name="Mousekin_BasePawnKind">
+		<race>Mousekin</race>
+		<combatPower>20</combatPower>
+		<baseRecruitDifficulty>0.40</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<invNutrition>2</invNutrition>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<apparelColor>(255,255,255)</apparelColor>
+	</PawnKindDef>
+
+	<!-- Player starting colonists -->
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinColonist</defName>
+		<label>Mousekin colonist</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinStartingColonist</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<defaultFactionType>Mousekin_PlayerFaction_Settlers</defaultFactionType>
+		<minGenerationAge>19</minGenerationAge>
+		<maxGenerationAge>25</maxGenerationAge>
+	</PawnKindDef>
+
+</Defs>

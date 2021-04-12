@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FactionDef Abstract="True" Name="Mousekin_PlayerFactionBase">
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>MousekinColonist</basicMemberKind>
+		<pawnSingular>Mousekin</pawnSingular>
+		<pawnsPlural>Mousekins</pawnsPlural>
+		<techLevel>Medieval</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinStartingColonist</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<settlementTexturePath>Icon/RK_DefaultColony</settlementTexturePath>
+		<colorSpectrum>
+			<li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+		<pawnNameMaker>NamerPerson_MousekinMale</pawnNameMaker>
+		<pawnNameMakerFemale>NamerPerson_MousekinFemale</pawnNameMakerFemale>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+			<li>MousekinStartingResearch</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>MousekinStartingResearch</li>
+		</startingTechprintsResearchTags>
+		<!-- TODO: Setup hair tags -->
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+	<FactionDef ParentName="Mousekin_PlayerFactionBase">
+		<defName>Mousekin_PlayerFaction_Settlers</defName>
+		<label>New Mousekin Settlers</label>
+		<description>A new-established hamlet of Mousekin settlers.</description>
+	</FactionDef>
+
+	<FactionDef ParentName="Mousekin_PlayerFactionBase">
+		<defName>Mousekin_PlayerFaction_Refugees</defName>
+		<label>New Mousekin Refugees</label>
+		<description>A group of Mousekin who have lost their home village to Grimalkin invaders.</description>
+	</FactionDef>
+
+</Defs>
