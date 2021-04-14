@@ -120,7 +120,7 @@
 		<defName>Mousekin_ChildHood_CookApprentice</defName>
 		<title>Apprentice cook</title>
 		<titleShort>Apprentice cook</titleShort>
-		<baseDescription>After [PAWN_possessive] talent in the kitchen was discovered at an young age, [PAWN_nameDef]'s parents arranged for [PAWN_objective] to be taken in as an apprentice to a Mousekin cook who owned one of the few restaurants in their home village.\n\n[PAWN_pronoun] spent his days washing dirty dishes, cleaning benchtops and taking out the garbage, while [PAWN_possessive] master toiled in front of the stove and dealt with customers.\n\nIn time, [PAWN_nameDef] learned to prepare basic ingredients and soup bases, as well as how to choose and utilize the best herbs and nuts in a variety of dishes.</baseDescription>
+		<baseDescription>After [PAWN_possessive] talent in the kitchen was discovered at an young age, [PAWN_nameDef]'s parents arranged for [PAWN_objective] to be taken in as an apprentice to a Mousekin cook who worked at the village inn.\n\n[PAWN_pronoun] spent his days washing dirty dishes, cleaning benchtops and taking out the garbage, while [PAWN_possessive] master toiled in front of the stove and dealt with customers.\n\nIn time, [PAWN_nameDef] learned to prepare basic ingredients and soup bases, as well as how to choose and utilize the best herbs and nuts in a variety of dishes.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -525,7 +525,7 @@
 		<defName>Mousekin_Adulthood_Ambassador</defName>
 		<title>Ambassador</title>
 		<titleShort>Ambassador</titleShort>
-		<baseDescription>[PAWN_nameDef] was appointed as an ambassador for the Mousekin Kingdom for [PAWN_possessive] persuasive abilities, which [PAWN_pronoun] put to good use in swaying and influencing representatives of other non-Mousekin factions - a particularly difficult feat, as Mousekins are generally not taken seriously by other races due to their short stature, squeaky voices and obstensibly cute appearance.\n\nHowever, like any other Mousekin, [PAWN_pronoun] is easily offended by the stereotype of mice eating cheese, and has on several occassions flown into a rage after being served with only cheese for food by ignorant non-Mousekins at diplomatic dinners.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was appointed as an ambassador for the Mousekin Kingdom for [PAWN_possessive] persuasive abilities, which [PAWN_pronoun] put to good use in swaying and influencing representatives of other non-Mousekin factions - a particularly difficult feat, as Mousekins are generally not taken seriously by other races due to their short stature, squeaky voices and obstensibly cute appearance.\n\nHowever, like any other Mousekin, [PAWN_pronoun] is easily offended by the stereotype of mice eating cheese, and has on several occassions flown into a rage after being served with only cheese for food at diplomatic dinners held by ignorant non-Mousekins.</baseDescription>
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
