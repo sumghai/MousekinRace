@@ -609,8 +609,8 @@
 		<title>Head chef</title>
 		<titleShort>Chef</titleShort>
 		<baseDescription>[PAWN_nameDef] served as the head chef in the household staff of a Mousekin nobleman, and was responsible for preparing all the main courses and meat dishes in every meal.\n\n[PAWN_pronoun] also supervised dozens of specialist chefs and line cooks in preparing elaborate feasts for [PAWN_possessive] master's guests.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>MousekinServantChef</li>
@@ -622,8 +622,8 @@
 		<title>Pastry chef</title>
 		<titleShort>Chef</titleShort>
 		<baseDescription>[PAWN_nameDef]'s specialty was in making cakes and desserts, and was sought after by many wealthy Mousekin landowners and nobles for [PAWN_possessive] talent.\n\n[PAWN_possessive] most popular dish was Nyam nut-flavored ice cream sandwiched between puff pastry.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>MousekinServantChef</li>
@@ -635,8 +635,8 @@
 		<title>Sous chef</title>
 		<titleShort>Chef</titleShort>
 		<baseDescription>As the sous chef in the household staff of a Mousekin nobleman, [PAWN_nameDef] was responsible for preparing appetizers, soup and vegetable dishes.\n\n[PAWN_possessive] also acted as the second-in-command of the kitchen staff under the head chef.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>MousekinServantChef</li>
@@ -656,6 +656,19 @@
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_CobblerApprentice</linkedBackstory>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_Cook</defName>
+		<title>Line cook</title>
+		<titleShort>Cook</titleShort>
+		<baseDescription>[PAWN_nameDef] worked as a line cook in the household staff of a Mousekin nobleman, performing mundane tasks such as peeling potatoes, boiling vegetables and cracking nuts.\n\n[PAWN_pronoun] dreams of starting [PAWN_possessive] own inn someday, where [PAWN_pronoun] could cook whatever [PAWN_pronoun] wanted instead of whatever the head chef ordered [PAWN_objective] to do.</baseDescription>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>MousekinServantChef</li>
+		</spawnCategories>
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
@@ -710,6 +723,32 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>MousekinRaider</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_DoctorCity</defName>
+		<title>City Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<baseDescription>After many years of study, [PAWN_nameDef] became a doctor working in a bustling Mousekin city.\n\nMost of [PAWN_possessive] patients were nobles and other wealthy Mousekins, afflicted with heart and kidney diseases caused by their rich diets and lack of physical labor.\n\nOccassionally, [PAWN_pronoun] performed minor cosmetic operations for idle Mousekin ladies that wanted to appear more attractive to their spouses - [PAWN_pronoun] was particularly skilled in repairing damaged ears.</baseDescription>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>MousekinStartingColonist</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_DoctorVillage</defName>
+		<title>Village Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<baseDescription>After many years of study, [PAWN_nameDef] became a doctor working in a Mousekin village.\n\n[PAWN_pronoun] typically treated villagers for cuts, scrapes, bruises and broken bones from workplace and farmland accidents, as well as cases of Ear Rot caused by Mousekins not cleaning their ears regularly.\n\n[PAWN_pronoun] also made house calls to nearby hamlets that were too small to have their own doctors.</baseDescription>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 	
@@ -912,6 +951,32 @@
 		<slot>Adulthood</slot>
 		<spawnCategories>
 			<li>MousekinIndyTownSoldier</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_Innkeeper</defName>
+		<title>Innkeeper</title>
+		<titleShort>Innkeeper</titleShort>
+		<baseDescription>[PAWN_nameDef] owned a Mousekin village inn, where [PAWN_pronoun] offered home-cooked meals of roasts, pies and sausages accompanied by country-style bread, cheese and mead.\n\nAfter several profitable years, [PAWN_pronoun] sold the inn to one of [PAWN_possessive] most trusted employees, and decided to use the windfall to fund [PAWN_possessive] next venture.</baseDescription>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>MousekinStartingColonist</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_InnWench</defName>
+		<title>Inn Wench</title>
+		<titleShort>Wench</titleShort>
+		<baseDescription>[PAWN_nameDef] served meals and drinks at a Mousekin village inn, and was reknown for [PAWN_possessive] good looks - as well as [PAWN_possesive] lightning-fast reflexes with a dagger, which served to discourage boorish Mousekin laborers from hitting on [PAWN_objective] too much.</baseDescription>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 	
@@ -1123,6 +1188,32 @@
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_ShopkeeperBooks</defName>
+		<title>Book store owner</title>
+		<titleShort>Bookseller</titleShort>
+		<baseDescription>[PAWN_nameDef] owned a bookshop in a busy Mousekin town, selling everything from cookbooks and almanacs to romance novels, and had a knack for knowing exactly what book a customer needed, no matter how vague their requests were.\n\n[PAWN_pronoun] was also skilled at appraising and rebinding old books.</baseDescription>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>MousekinPeasant</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_ShopkeeperGeneral</defName>
+		<title>Shopkeeper</title>
+		<titleShort>Shopkeeper</titleShort>
+		<baseDescription>[PAWN_nameDef] owned a general store in a Mousekin village, and sold everything from cooking supplies and kitchenware to candles and bedroom linen.\n\n[PAWN_pronoun] placed great importance on good customer service, to the point that if a customer needed something [PAWN_pronoun] didn't stock, [PAWN_pronoun] would go get it from a competitor [PAWN_objective]self rather than turn the customer away.</baseDescription>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>MousekinPeasant</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_SlaveLaborer</defName>
 		<title>Slave laborer</title>
 		<titleShort>Slave</titleShort>
@@ -1199,6 +1290,20 @@
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_Woodcutter</defName>
+		<title>Woodcutter</title>
+		<titleShort>Woodcutter</titleShort>
+		<baseDescription>[PAWN_nameDef] toiled day and night in the forests near [PAWN_possessive] hometown, felling, delimbing and bucking trees into logs.\n\n[PAWN_pronoun] had a keen eye for choosing the best trees depending on whether a Mousekin needed the logs for building houses or furniture.</baseDescription>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>MousekinPeasant</li>
+			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
