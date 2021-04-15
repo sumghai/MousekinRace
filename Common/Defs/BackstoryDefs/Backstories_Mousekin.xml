@@ -5,18 +5,6 @@
 	
 	<AlienRace.BackstoryDef Name="Mousekin_BackstoryBase" Abstract="True">
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<disallowedTraits>
-			<li>
-				<defName>Beauty</defName>
-				<degree>-1</degree>
-				<chance>100</chance>
-			</li>
-			<li>
-				<defName>Beauty</defName>
-				<degree>-2</degree>
-				<chance>100</chance>
-			</li>
-		</disallowedTraits>
 	</AlienRace.BackstoryDef>
 	
 	<!-- ========== Childhood Backstories ========== -->

@@ -15,6 +15,16 @@
 						<defName>AnnoyingVoice</defName>
 					</li>
 					<li>
+						<defName>Beauty</defName>
+						<degree>-1</degree>
+						<chance>100</chance>
+					</li>
+					<li>
+						<defName>Beauty</defName>
+						<degree>-2</degree>
+						<chance>100</chance>
+					</li>
+					<li>
 						<defName>CreepyBreathing</defName>
 					</li>
 				</disallowedTraits>
@@ -354,24 +364,24 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-				  <def>HumanlikeBaby</def>
-				  <minAge>0</minAge>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
 				</li>
 				<li>
-				  <def>HumanlikeToddler</def>
-				  <minAge>1.2</minAge>
+					<def>HumanlikeToddler</def>
+					<minAge>1.2</minAge>
 				</li>
 				<li>
-				  <def>HumanlikeChild</def>
-				  <minAge>4</minAge>
+					<def>HumanlikeChild</def>
+					<minAge>4</minAge>
 				</li>
 				<li>
-				  <def>HumanlikeTeenager</def>
-				  <minAge>13</minAge>
+					<def>HumanlikeTeenager</def>
+					<minAge>13</minAge>
 				</li>
 				<li>
-				  <def>HumanlikeAdult</def>
-				  <minAge>18</minAge>
+					<def>HumanlikeAdult</def>
+					<minAge>18</minAge>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -433,7 +443,7 @@
 			<li>RemoveBodyPart</li>
 			<li>Euthanize</li>
 			<li>Anesthetize</li>
-			<li>CureScaria</li>			
+			<li>CureScaria</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
 		</recipes>
