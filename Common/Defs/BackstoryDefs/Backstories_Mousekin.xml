@@ -27,6 +27,28 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
