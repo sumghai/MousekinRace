@@ -17,6 +17,16 @@
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>60</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
@@ -32,6 +42,20 @@
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -51,6 +75,42 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
@@ -66,6 +126,20 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
@@ -82,6 +156,32 @@
 		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>-2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>-2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>-4</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
@@ -97,6 +197,46 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
@@ -112,6 +252,34 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinServantChef</li>
 		</spawnCategories>
@@ -125,6 +293,42 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
@@ -140,6 +344,50 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinGuardener</li>
 		</spawnCategories>
@@ -153,6 +401,50 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinGuardener</li>
 		</spawnCategories>
@@ -166,6 +458,24 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>-1</amount>
+			</li>
+		</skillGains>
 		<spawnCategories>
 			<li>MousekinTrader</li>
 			<li>MousekinTraderSlaver</li>
@@ -181,6 +491,12 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
 		<spawnCategories>
 			<li>MousekinServant</li>
 			<li>MousekinServantHighClass</li>
@@ -195,6 +511,32 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
@@ -210,6 +552,46 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
@@ -225,6 +607,47 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Brawler</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinKnight</li>
 			<li>MousekinKnightCommander</li>
@@ -239,6 +662,37 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<forcedTraits>
+			<li>
+				<defName>Tough</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Immunity</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+			<li>Caring</li>
+			<li>Cooking</li>
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<li>Crafting</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinWanderer</li>
 		</spawnCategories>
@@ -252,6 +706,45 @@
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Tough</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinWanderer</li>
 		</spawnCategories>
@@ -265,12 +758,44 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<li>Mining</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinServant</li>
 			<li>MousekinServantHighClass</li>
 		</spawnCategories>
-		<linkedBackstory>backstoryname</linkedBackstory>
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
@@ -281,6 +806,50 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
@@ -298,6 +867,42 @@
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+			</li>
+		</disallowedTraits>
+		<workAllows>
+			<li>Violent</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+		</workAllows>
 		<spawnCategories>
 			<li>MousekinNoble</li>
 		</spawnCategories>
@@ -311,6 +916,42 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+			</li>
+		</disallowedTraits>
+		<workAllows>
+			<li>Violent</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+		</workAllows>
 		<spawnCategories>
 			<li>MousekinNoble</li>
 		</spawnCategories>
@@ -324,6 +965,24 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
 		<spawnCategories>
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
@@ -341,6 +1000,42 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>10</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>10</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+			</li>
+		</disallowedTraits>
+		<workAllows>
+			<li>Violent</li>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+		</workAllows>
 		<spawnCategories>
 			<li>MousekinRoyalty</li>
 		</spawnCategories>
@@ -354,6 +1049,42 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman"</li>
@@ -369,6 +1100,48 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -390,6 +1163,42 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -406,6 +1215,34 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
@@ -423,6 +1260,70 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>-4</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>-4</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>-6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>-6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>-1</degree>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>-2</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinSlave</li>
 		</spawnCategories>
@@ -437,6 +1338,10 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
+		<workDisables>
+			<li>Violent</li>
+			<li>Firefighting</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -454,6 +1359,48 @@
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>-1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>-2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>-2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Kind</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
@@ -469,6 +1416,46 @@
 		<maleCommonality>90</maleCommonality>
 		<femaleCommonality>90</femaleCommonality>
 		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>Kind</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
