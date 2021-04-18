@@ -2,13 +2,13 @@
 <Defs>
 
 	<!-- ========== Backstory Bases ========== -->
-	
+
 	<AlienRace.BackstoryDef Name="Mousekin_BackstoryBase" Abstract="True">
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</AlienRace.BackstoryDef>
-	
+
 	<!-- ========== Childhood Backstories ========== -->
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_AlchemistApprentice</defName>
 		<title>Apprentice alchemist</title>
@@ -55,7 +55,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Alchemist</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_Bastard</defName>
 		<title>Bastard child</title>
@@ -88,7 +88,7 @@
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_BlacksmithApprentice</defName>
 		<title>Apprentice blacksmith</title>
@@ -139,7 +139,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Blacksmith</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_CaravanChild</defName>
 		<title>Caravan child</title>
@@ -169,7 +169,7 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_CityChild</defName>
 		<title>City child</title>
@@ -210,7 +210,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_CobblerApprentice</defName>
 		<title>Apprentice cobbler</title>
@@ -265,7 +265,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Cobbler</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_ChildHood_CookApprentice</defName>
 		<title>Apprentice cook</title>
@@ -306,7 +306,7 @@
 			<li>MousekinServantChef</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_CooperApprentice</defName>
 		<title>Apprentice cooper</title>
@@ -357,7 +357,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Cooper</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_GuardenerApprenticeBlessed</defName>
 		<title>Blessed Apprentice Guardener</title>
@@ -414,7 +414,7 @@
 			<li>MousekinGuardener</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_GuardenerApprenticeOrphan</defName>
 		<title>Orphaned Apprentice Guardener</title>
@@ -471,7 +471,7 @@
 			<li>MousekinGuardener</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_GypsyChild</defName>
 		<title>Gypsy child</title>
@@ -504,7 +504,7 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_Hallboy</defName>
 		<title>Hallboy</title>
@@ -524,7 +524,7 @@
 			<li>MousekinServantHighClass</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_HamletChild</defName>
 		<title>Hamlet child</title>
@@ -565,7 +565,7 @@
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_JoinerApprentice</defName>
 		<title>Apprentice joiner</title>
@@ -620,7 +620,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Joiner</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_KnightSquire</defName>
 		<title>Squire</title>
@@ -675,7 +675,7 @@
 			<li>MousekinKnightCommander</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_LabMouse</defName>
 		<title>Laboratory mouse</title>
@@ -719,7 +719,7 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_LostWildChild</defName>
 		<title>Lost wild child</title>
@@ -771,7 +771,7 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_MaidOfAllWork</defName>
 		<title>Maid-of-all-work</title>
@@ -819,7 +819,7 @@
 			<li>MousekinServantHighClass</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_MasonApprentice</defName>
 		<title>Apprentice stonemason</title>
@@ -878,7 +878,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Mason</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_NobleHeir</defName>
 		<title>Noble heir</title>
@@ -919,17 +919,24 @@
 				<degree>1</degree>
 			</li>
 		</disallowedTraits>
-		<workAllows>
-			<li>Violent</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-			<li>Social</li>
-		</workAllows>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Caring</li>
+			<li>Cooking</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<li>Firefighting</li>
+			<li>Mining</li>
+			<li>Hauling</li>
+			<li>Crafting</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinNoble</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_NobleNonHeir</defName>
 		<title>Noble child</title>
@@ -968,17 +975,24 @@
 				<degree>1</degree>
 			</li>
 		</disallowedTraits>
-		<workAllows>
-			<li>Violent</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-			<li>Social</li>
-		</workAllows>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Caring</li>
+			<li>Cooking</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<li>Firefighting</li>
+			<li>Mining</li>
+			<li>Hauling</li>
+			<li>Crafting</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinNoble</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_Orphan</defName>
 		<title>Orphan</title>
@@ -1011,7 +1025,7 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_RoyalChild</defName>
 		<title>Young Prince</title>
@@ -1052,17 +1066,24 @@
 				<degree>1</degree>
 			</li>
 		</disallowedTraits>
-		<workAllows>
-			<li>Violent</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-			<li>Social</li>
-		</workAllows>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Caring</li>
+			<li>Cooking</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<li>Firefighting</li>
+			<li>Mining</li>
+			<li>Hauling</li>
+			<li>Crafting</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinRoyalty</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_SeamstressApprentice</defName>
 		<title>Apprentice seamstress</title>
@@ -1113,7 +1134,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Seamstress</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_ServantChild</defName>
 		<title>Servant child</title>
@@ -1174,7 +1195,7 @@
 			<li>MousekinTrader</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_ShepherdChild</defName>
 		<title>Shepherd boy</title>
@@ -1228,7 +1249,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_ShopChild</defName>
 		<title>Shop child</title>
@@ -1273,7 +1294,7 @@
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_SlaveChild</defName>
 		<title>Slave child</title>
@@ -1351,7 +1372,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_SlaveLaborer</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_SoleSurvivor</defName>
 		<title>Sole survivor</title>
@@ -1372,7 +1393,7 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_TownChild</defName>
 		<title>Town child</title>
@@ -1429,7 +1450,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_VillageChild</defName>
 		<title>Village child</title>
@@ -1487,9 +1508,9 @@
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<!-- ========== Adulthood Backstories ========== -->
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_AbandonedSoldier</defName>
 		<title>Abandoned soldier</title>
@@ -1555,7 +1576,7 @@
 			<li>MousekinRaider</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Alchemist</defName>
 		<title>Alchemist</title>
@@ -1581,7 +1602,7 @@
 				<defName>Intellectual</defName>
 				<amount>6</amount>
 			</li>
-		</skillGains>		
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Industriousness</defName>
@@ -1610,7 +1631,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_AlchemistApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Ambassador</defName>
 		<title>Ambassador</title>
@@ -1643,7 +1664,7 @@
 			<li>MousekinRoyalty</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Blacksmith</defName>
 		<title>Blacksmith</title>
@@ -1665,7 +1686,7 @@
 				<defName>Crafting</defName>
 				<amount>4</amount>
 			</li>
-		</skillGains>		
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Industriousness</defName>
@@ -1698,7 +1719,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_BlacksmithApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Butcher</defName>
 		<title>Butcher</title>
@@ -1720,7 +1741,7 @@
 				<defName>Cooking</defName>
 				<amount>9</amount>
 			</li>
-		</skillGains>		
+		</skillGains>
 		<workDisables>
 			<li>Artistic</li>
 			<li>Intellectual</li>
@@ -1731,7 +1752,7 @@
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Butler</defName>
 		<title>Butler</title>
@@ -1791,7 +1812,7 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>			
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Animals</li>
@@ -1802,7 +1823,7 @@
 			<li>MousekinServantHighClass</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_CaravanMerchant</defName>
 		<title>Caravan merchant</title>
@@ -1864,7 +1885,7 @@
 			<li>MousekinTrader</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_CavyBreeder</defName>
 		<title>Giant Cavy Breeder</title>
@@ -1892,7 +1913,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_ChefHead</defName>
 		<title>Head chef</title>
@@ -1914,7 +1935,7 @@
 				<defName>Cooking</defName>
 				<amount>12</amount>
 			</li>
-		</skillGains>				
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Gourmand</defName>
@@ -1950,7 +1971,7 @@
 			<li>MousekinServantChef</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_ChefPastry</defName>
 		<title>Pastry chef</title>
@@ -1972,7 +1993,7 @@
 				<defName>Cooking</defName>
 				<amount>10</amount>
 			</li>
-		</skillGains>				
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Gourmand</defName>
@@ -2008,7 +2029,7 @@
 			<li>MousekinServantChef</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_ChefSous</defName>
 		<title>Sous chef</title>
@@ -2030,7 +2051,7 @@
 				<defName>Cooking</defName>
 				<amount>10</amount>
 			</li>
-		</skillGains>				
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Gourmand</defName>
@@ -2066,7 +2087,7 @@
 			<li>MousekinServantChef</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Cobbler</defName>
 		<title>Cobbler</title>
@@ -2088,7 +2109,7 @@
 				<defName>Crafting</defName>
 				<amount>4</amount>
 			</li>
-		</skillGains>		
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Industriousness</defName>
@@ -2123,7 +2144,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_CobblerApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Cook</defName>
 		<title>Line cook</title>
@@ -2131,7 +2152,7 @@
 		<baseDescription>[PAWN_nameDef] worked as a line cook in the household staff of a Mousekin nobleman, performing mundane tasks such as peeling potatoes, boiling vegetables and cracking nuts.\n\n[PAWN_pronoun] dreams of starting [PAWN_possessive] own inn someday, where [PAWN_pronoun] could cook whatever [PAWN_pronoun] wanted instead of whatever the head chef ordered [PAWN_objective] to do.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
-		<slot>Childhood</slot>		
+		<slot>Childhood</slot>
 		<bioAgeRange>
 			<min>18</min>
 			<max>30</max>
@@ -2145,7 +2166,7 @@
 				<defName>Cooking</defName>
 				<amount>8</amount>
 			</li>
-		</skillGains>				
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Gourmand</defName>
@@ -2181,7 +2202,7 @@
 			<li>MousekinServantChef</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Cooper</defName>
 		<title>Cooper</title>
@@ -2207,7 +2228,7 @@
 				<defName>Crafting</defName>
 				<amount>4</amount>
 			</li>
-		</skillGains>		
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Industriousness</defName>
@@ -2242,7 +2263,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_CooperApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_DeserterCoward</defName>
 		<title>Cowardly Deserter</title>
@@ -2315,7 +2336,7 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_DeserterGreedy</defName>
 		<title>Greedy Deserter</title>
@@ -2385,7 +2406,7 @@
 			<li>MousekinRaider</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_DestituteFarmer</defName>
 		<title>Destitute farmer</title>
@@ -2446,7 +2467,7 @@
 			<li>MousekinRaider</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_DoctorCity</defName>
 		<title>City Doctor</title>
@@ -2472,7 +2493,7 @@
 				<defName>Social</defName>
 				<amount>4</amount>
 			</li>
-		</skillGains>				
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Industriousness</defName>
@@ -2505,7 +2526,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_DoctorVillage</defName>
 		<title>Village Doctor</title>
@@ -2527,7 +2548,7 @@
 				<defName>Medicine</defName>
 				<amount>10</amount>
 			</li>
-		</skillGains>				
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Industriousness</defName>
@@ -2560,7 +2581,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_FarmerCrops</defName>
 		<title>Crop Farmer</title>
@@ -2619,7 +2640,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_FarmerFruit</defName>
 		<title>Fruit Farmer</title>
@@ -2682,7 +2703,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_FarmerNuts</defName>
 		<title>Nut Farmer</title>
@@ -2741,7 +2762,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_FarmerVegetables</defName>
 		<title>Vegetable Farmer</title>
@@ -2804,7 +2825,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Farmhand</defName>
 		<title>Farmhand</title>
@@ -2868,7 +2889,7 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Fishmonger</defName>
 		<title>Fishmonger</title>
@@ -2894,7 +2915,7 @@
 				<defName>Social</defName>
 				<amount>3</amount>
 			</li>
-		</skillGains>		
+		</skillGains>
 		<workDisables>
 			<li>Artistic</li>
 			<li>Intellectual</li>
@@ -2906,7 +2927,7 @@
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Footman</defName>
 		<title>Footman</title>
@@ -2962,7 +2983,7 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>			
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Animals</li>
@@ -2973,7 +2994,7 @@
 			<li>MousekinServant</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_GovtMinister</defName>
 		<title>Government Minister</title>
@@ -3022,18 +3043,24 @@
 				<degree>2</degree>
 			</li>
 		</disallowedTraits>
-		<workAllows>
-			<li>Violent</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-			<li>Social</li>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Caring</li>
+			<li>Cooking</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>PlantWork</li>
 			<li>Firefighting</li>
-		</workAllows>
+			<li>Mining</li>
+			<li>Hauling</li>
+			<li>Crafting</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinNoble</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_GuardenerCity</defName>
 		<title>City Guardener</title>
@@ -3096,7 +3123,7 @@
 				<degree>1</degree>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>		
+		</forcedTraits>
 		<disallowedTraits>
 			<li>
 				<defName>Abrasive</defName>
@@ -3135,7 +3162,7 @@
 			<li>MousekinGuardener</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_GuardenerTown</defName>
 		<title>Town Guardener</title>
@@ -3143,7 +3170,7 @@
 		<baseDescription>[PAWN_nameDef] was a Guardener based in a large Mousekin town, and lived with several other Guardeners and dozens more apprentices in a large lodgehouse.\n\nIn addition to tending and protecting the town gardens and parks, [PAWN_pronoun] was also responsible for educating Mousekin townsfolk on the proper selection and care of decorative plants, as well as training apprentices to become the next generation of Guardeners.</baseDescription>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
-		<slot>Adulthood</slot>		
+		<slot>Adulthood</slot>
 		<bioAgeRange>
 			<min>18</min>
 			<max>65</max>
@@ -3198,7 +3225,7 @@
 				<degree>1</degree>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>		
+		</forcedTraits>
 		<disallowedTraits>
 			<li>
 				<defName>Abrasive</defName>
@@ -3237,7 +3264,7 @@
 			<li>MousekinGuardener</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_GuardenerVillage</defName>
 		<title>Village Guardener</title>
@@ -3296,7 +3323,7 @@
 				<degree>1</degree>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>		
+		</forcedTraits>
 		<disallowedTraits>
 			<li>
 				<defName>Abrasive</defName>
@@ -3335,7 +3362,7 @@
 			<li>MousekinGuardener</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Housekeeper</defName>
 		<title>Housekeeper</title>
@@ -3395,7 +3422,7 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>			
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Animals</li>
@@ -3406,7 +3433,7 @@
 			<li>MousekinServantHighClass</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_IndyTownCouncilor</defName>
 		<title>Town Councilor</title>
@@ -3474,13 +3501,13 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>			
+			</li>
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinIndyTownCouncilor</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_IndyTownFarmer</defName>
 		<title>Town Farmer</title>
@@ -3544,13 +3571,13 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>			
+			</li>
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinIndyTownFarmer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_IndyTownSoldier</defName>
 		<title>Town Soldier</title>
@@ -3636,13 +3663,13 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>			
+			</li>
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinIndyTownSoldier</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Innkeeper</defName>
 		<title>Innkeeper</title>
@@ -3702,13 +3729,13 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>			
+			</li>
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_InnWench</defName>
 		<title>Inn Wench</title>
@@ -3782,7 +3809,7 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>			
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Animals</li>
@@ -3793,7 +3820,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Joiner</defName>
 		<title>Joiner</title>
@@ -3819,7 +3846,7 @@
 				<defName>Crafting</defName>
 				<amount>4</amount>
 			</li>
-		</skillGains>		
+		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>Industriousness</defName>
@@ -3854,7 +3881,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_JoinerApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_KitchenMaid</defName>
 		<title>Kitchen maid</title>
@@ -3887,7 +3914,7 @@
 			<li>MousekinServant</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Knight</defName>
 		<title>Knight</title>
@@ -3914,7 +3941,7 @@
 				<amount>6</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>			
+		<forcedTraits>
 			<li>
 				<defName>Bloodlust</defName>
 				<chance>50</chance>
@@ -3943,19 +3970,20 @@
 				<defName>Wimp</defName>
 			</li>
 		</disallowedTraits>
-		<workAllows>
-			<li>Violent</li>
-			<li>Caring</li>
-			<li>Social</li>
-			<li>Animals</li>
-			<li>Firefighting</li>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Cooking</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
 			<li>Hauling</li>
-		</workAllows>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinKnight</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_KnightCommander</defName>
 		<title>Knight Commander</title>
@@ -3982,7 +4010,7 @@
 				<amount>10</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>			
+		<forcedTraits>
 			<li>
 				<defName>Bloodlust</defName>
 				<chance>25</chance>
@@ -4009,19 +4037,20 @@
 				<defName>Wimp</defName>
 			</li>
 		</disallowedTraits>
-		<workAllows>
-			<li>Violent</li>
-			<li>Caring</li>
-			<li>Social</li>
-			<li>Animals</li>
-			<li>Firefighting</li>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Cooking</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>PlantWork</li>
+			<li>Mining</li>
 			<li>Hauling</li>
-		</workAllows>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinKnightCommander</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Maidservant</defName>
 		<title>Maidservant</title>
@@ -4067,7 +4096,7 @@
 			</li>
 			<li>
 				<defName>Psychopath</defName>
-			</li>		
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Artistic</li>
@@ -4079,7 +4108,7 @@
 			<li>MousekinServantHighClass</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_ManorLord</defName>
 		<title>Manor lord</title>
@@ -4126,18 +4155,24 @@
 				<degree>2</degree>
 			</li>
 		</disallowedTraits>
-		<workAllows>
-			<li>Violent</li>
-			<li>Artistic</li>
-			<li>Intellectual</li>
-			<li>Social</li>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>Caring</li>
+			<li>Cooking</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>PlantWork</li>
 			<li>Firefighting</li>
-		</workAllows>
+			<li>Mining</li>
+			<li>Hauling</li>
+			<li>Crafting</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinNoble</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Mason</defName>
 		<title>Stonemason</title>
@@ -4152,7 +4187,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_MasonApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Miner</defName>
 		<title>Miner</title>
@@ -4166,7 +4201,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Noblewoman</defName>
 		<title>Noblewoman</title>
@@ -4179,7 +4214,7 @@
 			<li>MousekinNoble</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Nun</defName>
 		<title>Nun</title>
@@ -4192,7 +4227,7 @@
 			<li>MousekinNun</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Priest</defName>
 		<title>Priest</title>
@@ -4205,7 +4240,7 @@
 			<li>MousekinPriest</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Royal</defName>
 		<title>Prince</title>
@@ -4220,7 +4255,7 @@
 			<li>MousekinRoyalty</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_SculleryMaid</defName>
 		<title>Scullery Maid</title>
@@ -4233,7 +4268,7 @@
 			<li>MousekinServant</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Seamstress</defName>
 		<title>Seamstress</title>
@@ -4248,7 +4283,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_SeamstressApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Shepherd</defName>
 		<title>Shepherd</title>
@@ -4264,7 +4299,7 @@
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_ShopkeeperBooks</defName>
 		<title>Book store owner</title>
@@ -4277,7 +4312,7 @@
 			<li>MousekinPeasant</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_ShopkeeperGeneral</defName>
 		<title>Shopkeeper</title>
@@ -4290,7 +4325,7 @@
 			<li>MousekinPeasant</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_SlaveLaborer</defName>
 		<title>Slave laborer</title>
@@ -4304,7 +4339,7 @@
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_SlaveChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_SlaveTrader</defName>
 		<title>Slave trader</title>
@@ -4317,7 +4352,7 @@
 			<li>MousekinTraderSlaver</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_SoldierCrossbow</defName>
 		<title>Crossbowman</title>
@@ -4330,7 +4365,7 @@
 			<li>MousekinCrossbowmen</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_SoldierMusket</defName>
 		<title>Mouseketeer</title>
@@ -4343,7 +4378,7 @@
 			<li>MousekinMusketeer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_SoldierPike</defName>
 		<title>Pikeman</title>
@@ -4356,7 +4391,7 @@
 			<li>MousekinPikeman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Toymaker</defName>
 		<title>Toymaker</title>
@@ -4370,7 +4405,7 @@
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_Woodcutter</defName>
 		<title>Woodcutter</title>
