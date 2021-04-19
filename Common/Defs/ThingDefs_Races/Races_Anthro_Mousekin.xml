@@ -273,6 +273,21 @@
 				<restrictedThoughts/>
 				<!-- TODO: Add custom thoughts of Mousekins eating other sapient races (both Mousekin and non-Mousekin) -->
 			</thoughtSettings>
+			<relationSettings>
+				<!-- 
+					Adjust Mousekin pawn relation chances:
+					- Most Mousekins mate for life, and divorces are unheard of in Mousekin society
+					- Mousekins are more likely to have siblings than baseline humanoids
+				-->
+				<relationChanceModifierLover>1</relationChanceModifierLover>
+				<relationChanceModifierExLover>0.5</relationChanceModifierExLover>
+				<relationChanceModifierFiance>1</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierParent>1</relationChanceModifierParent>
+				<relationChanceModifierChild>1</relationChanceModifierChild>
+				<relationChanceModifierSibling>3</relationChanceModifierSibling>
+			</relationSettings>
 			<raceRestriction>
 				<!-- TODO: Restrict the following apparel for Mousekin wear only -->
 				<apparelList/>
