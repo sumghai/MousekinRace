@@ -2554,6 +2554,7 @@
 		<spawnCategories>
 			<li>MousekinRaider</li>
 		</spawnCategories>
+		<linkedBackstory>Mousekin_Childhood_VillageChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
@@ -2727,6 +2728,7 @@
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
+		<linkedBackstory>Mousekin_Childhood_HamletChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
@@ -2790,6 +2792,7 @@
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
+		<linkedBackstory>Mousekin_Childhood_TownChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
@@ -2849,6 +2852,7 @@
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
+		<linkedBackstory>Mousekin_Childhood_VillageChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
@@ -2912,6 +2916,7 @@
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
+		<linkedBackstory>Mousekin_Childhood_VillageChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
