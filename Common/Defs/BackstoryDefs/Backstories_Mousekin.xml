@@ -78,6 +78,11 @@
 				<amount>-2</amount>
 			</li>
 		</skillGains>
+		<relationSettings>
+			<!-- Officially disowned by noble father, mother eventually died, and an only child -->
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -467,6 +472,11 @@
 				<degree>-2</degree>
 			</li>
 		</disallowedTraits>
+		<relationSettings>
+			<!-- Orphan and sole survivor of his/her family -->
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinGuardener</li>
 		</spawnCategories>
@@ -767,6 +777,11 @@
 			<li>Intellectual</li>
 			<li>Social</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Does not remember his/her family -->
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinWanderer</li>
 		</spawnCategories>
@@ -1019,6 +1034,11 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
+		<relationSettings>
+			<!-- Orphaned and an only child -->
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
@@ -1185,6 +1205,11 @@
 				<defName>Jealous</defName>
 			</li>
 		</disallowedTraits>
+		<relationSettings>
+			<!-- We never meet his/her parents, and he/she is an only -->
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -1385,6 +1410,11 @@
 			<li>Violent</li>
 			<li>Firefighting</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Orphan and sole survivor of his/her family -->
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -1572,6 +1602,15 @@
 			<li>Animals</li>
 			<li>PlantWork</li>
 		</workDisables>
+		<relationSettings>
+			<!-- No wife or children -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinRaider</li>
 		</spawnCategories>
@@ -1832,6 +1871,13 @@
 			<li>PlantWork</li>
 			<li>Mining</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Unmarried and childless, but may take (or previously have) lovers -->
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinServantHighClass</li>
 		</spawnCategories>
@@ -2344,6 +2390,15 @@
 			<li>Animals</li>
 			<li>PlantWork</li>
 		</workDisables>
+		<relationSettings>
+			<!-- No wife or children -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinRaider</li>
 			<li>MousekinWanderer</li>
@@ -2415,6 +2470,15 @@
 			<li>Animals</li>
 			<li>PlantWork</li>
 		</workDisables>
+		<relationSettings>
+			<!-- No wife or children -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinRaider</li>
 		</spawnCategories>
@@ -2476,6 +2540,17 @@
 			<li>Intellectual</li>
 			<li>Social</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Lost his/her entire family to starvation and disease -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinRaider</li>
 		</spawnCategories>
@@ -3003,6 +3078,13 @@
 			<li>PlantWork</li>
 			<li>Mining</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Unmarried and childless, but may have (secret) lovers -->
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinServant</li>
 		</spawnCategories>
@@ -3442,6 +3524,13 @@
 			<li>PlantWork</li>
 			<li>Mining</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Unmarried and childless, but may take (or previously have) lovers -->
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinServantHighClass</li>
 		</spawnCategories>
@@ -3829,6 +3918,12 @@
 			<li>PlantWork</li>
 			<li>Mining</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Unmarried and childless, but may take (or previously have) lovers -->
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
@@ -4309,6 +4404,11 @@
 			<li>Animals</li>
 			<li>PlantWork</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Lost his/her parents and siblings to various mining accidents -->
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
@@ -4482,6 +4582,15 @@
 			<li>PlantWork</li>
 			<li>Mining</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Unmarried and childless, and takes their vows of chastity seriously -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinNun</li>
 		</spawnCategories>
@@ -4566,6 +4675,13 @@
 			<li>PlantWork</li>
 			<li>Mining</li>
 		</workDisables>
+		<relationSettings>
+			<!-- No current or past lovers, and divorce is frowned upon in clergy -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinPriest</li>
 		</spawnCategories>
@@ -4679,6 +4795,13 @@
 			<li>Animals</li>
 			<li>Mining</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Unmarried and childless, but may take (or previously have) lovers -->
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinServant</li>
 		</spawnCategories>
@@ -4975,6 +5098,15 @@
 			<li>PlantWork</li>
 			<li>Crafting</li>
 		</workDisables>
+		<relationSettings>
+			<!-- Slaves have no time to start families of their own -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinSlave</li>
 		</spawnCategories>
@@ -5040,6 +5172,14 @@
 				<defName>Wimp</defName>
 			</li>
 		</disallowedTraits>
+		<relationSettings>
+			<!-- Unmarried and childless due to the social stigma of being slave traders, but may take (or previously have) lovers -->
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
 		<spawnCategories>
 			<li>MousekinTraderSlaver</li>
 		</spawnCategories>
