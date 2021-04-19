@@ -1605,7 +1605,7 @@
 		<relationSettings>
 			<!-- No wife or children -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
-            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
 			<relationChanceModifierFiance>0</relationChanceModifierFiance>
 			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
 			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
@@ -2393,7 +2393,7 @@
 		<relationSettings>
 			<!-- No wife or children -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
-            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
 			<relationChanceModifierFiance>0</relationChanceModifierFiance>
 			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
 			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
@@ -2473,7 +2473,7 @@
 		<relationSettings>
 			<!-- No wife or children -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
-            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
 			<relationChanceModifierFiance>0</relationChanceModifierFiance>
 			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
 			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
@@ -2543,7 +2543,7 @@
 		<relationSettings>
 			<!-- Lost his/her entire family to starvation and disease -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
-            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
 			<relationChanceModifierFiance>0</relationChanceModifierFiance>
 			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
 			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
@@ -4337,7 +4337,6 @@
 			<li>Intellectual</li>
 			<li>Animals</li>
 			<li>PlantWork</li>
-			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
@@ -4585,7 +4584,7 @@
 		<relationSettings>
 			<!-- Unmarried and childless, and takes their vows of chastity seriously -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
-            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
 			<relationChanceModifierFiance>0</relationChanceModifierFiance>
 			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
 			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
@@ -4678,7 +4677,7 @@
 		<relationSettings>
 			<!-- No current or past lovers, and divorce is frowned upon in clergy -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
-            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
 			<relationChanceModifierFiance>0</relationChanceModifierFiance>
 			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
 		</relationSettings>
@@ -5101,7 +5100,7 @@
 		<relationSettings>
 			<!-- Slaves have no time to start families of their own -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
-            		<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
 			<relationChanceModifierFiance>0</relationChanceModifierFiance>
 			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
 			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
