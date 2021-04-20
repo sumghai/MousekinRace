@@ -467,7 +467,7 @@
 		<defaultFactionType>Mousekin_FactionBrigand</defaultFactionType>
 	</PawnKindDef>
 	
-	<PawnKindDef ParentName="Mousekin_FactionBrigand_BasePawnKind_BasePawnKind">
+	<PawnKindDef ParentName="Mousekin_FactionBrigand_BasePawnKind">
 		<defName>MousekinRaider</defName>
 		<label>Mousekin brigand</label>
 		<isFighter>true</isFighter>
