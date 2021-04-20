@@ -6,6 +6,8 @@
 		<combatPower>20</combatPower>
 		<baseRecruitDifficulty>0.40</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
+		<!-- Most Mousekins (or their unseen world pawn relatives) are assumed to be from the Kingdom faction -->
+		<defaultFactionType>Mousekin_FactionKingdom</defaultFactionType>
 		<invNutrition>2</invNutrition>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
@@ -27,6 +29,473 @@
 		</backstoryFiltersOverride>
 		<defaultFactionType>Mousekin_PlayerFaction_Settlers</defaultFactionType>
 		<minGenerationAge>19</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
+	</PawnKindDef>
+	
+	<!-- NPCs from Mousekin Kingdom faction type -->	
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinRoyalty</defName>
+		<label>Mousekin royalty</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinRoyalty</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>70</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinNoble</defName>
+		<label>Mousekin noble</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinNoble</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>70</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinPriest</defName>
+		<label>Mousekin priest</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinPriest</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>30</minGenerationAge>
+		<maxGenerationAge>70</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>1.00</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinNun</defName>
+		<label>Mousekin nun</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinNun</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.00</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinKnightCommander</defName>
+		<label>Mousekin knight commander</label>
+		<isFighter>true</isFighter>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinKnightCommander</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>40</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinGuardenerElite</defName>
+		<label>Mousekin elite Guardener</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinGuardener</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>30</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.00</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinKnight</defName>
+		<label>Mousekin knight</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinKnight</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinGuardener</defName>
+		<label>Mousekin Guardener</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinGuardener</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.00</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinKnightApprentice</defName>
+		<label>Mousekin squire</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinKnight</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>14</minGenerationAge>
+		<maxGenerationAge>17</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinGuardenerApprentice</defName>
+		<label>Mousekin apprentice Guardener</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinGuardener</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>10</minGenerationAge>
+		<maxGenerationAge>17</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.00</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinServantHighClass</defName>
+		<label>Mousekin servant</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinServantHighClass</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinServantChef</defName>
+		<label>Mousekin chef</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinServantChef</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinServant</defName>
+		<label>Mousekin servant</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinServant</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinTradesman</defName>
+		<label>Mousekin tradesman</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTradesman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>25</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinMusketeer</defName>
+		<label>Mousekin mouseketeer</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinMusketeer</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>1.00</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinCrossbowman</defName>
+		<label>Mousekin crossbowman</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinCrossbowman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinPikeman</defName>
+		<label>Mousekin pikeman</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinPikeman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>1.00</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinTrader</defName>
+		<label>Mousekin trader</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTrader</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinPeasant</defName>
+		<label>Mousekin peasant</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinPeasant</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>70</maxGenerationAge>
+	</PawnKindDef>
+	
+	<!-- NPCs from Independent Mousekins faction type -->
+	
+	<PawnKindDef Abstract="True" Name="Mousekin_FactionIndyTown_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defaultFactionType>Mousekin_FactionIndyTown</defaultFactionType>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
+		<defName>MousekinIndyTownCouncilor</defName>
+		<label>Mousekin councilor</label>
+		<isFighter>true</isFighter>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinIndyTownCouncilor</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
+		<defName>MousekinIndyTownSoldier</defName>
+		<label>Mousekin town soldier</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinIndyTownSoldier</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
+		<defName>MousekinIndyTownFarmer</defName>
+		<label>Mousekin town farmer</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinIndyTownFarmer</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<!-- NPCs from Mousekin Gypsy faction type -->
+	
+	<PawnKindDef Abstract="True" Name="Mousekin_FactionGypsy_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defaultFactionType>Mousekin_FactionGypsy</defaultFactionType>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionGypsy_BasePawnKind">
+		<defName>MousekinTraderGypsy</defName>
+		<label>Mousekin gypsy</label>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTraderGypsy</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+	</PawnKindDef>
+	
+	<!-- NPCs from Mousekin Slaver faction type -->
+	
+	<PawnKindDef Abstract="True" Name="Mousekin_FactionSlaver_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defaultFactionType>Mousekin_FactionSlaver</defaultFactionType>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionSlaver_BasePawnKind">
+		<defName>MousekinTraderSlaver</defName>
+		<label>Mousekin slaver</label>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTraderSlaver</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionSlaver_BasePawnKind">
+		<defName>MousekinSlave</defName>
+		<label>Mousekin slave</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinSlave</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>30</maxGenerationAge>
+	</PawnKindDef>
+	
+	<!-- NPCs from Mousekin Brigand faction type -->
+	
+	<PawnKindDef Abstract="True" Name="Mousekin_FactionBrigand_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defaultFactionType>Mousekin_FactionBrigand</defaultFactionType>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionBrigand_BasePawnKind_BasePawnKind">
+		<defName>MousekinRaider</defName>
+		<label>Mousekin brigand</label>
+		<isFighter>true</isFighter>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinRaider</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+	</PawnKindDef>
+	
+	<!-- Miscellaneous Mousekin NPCs -->
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinWanderer</defName>
+		<label>Mousekin wanderer</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinWanderer</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>8</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
 	</PawnKindDef>
 
