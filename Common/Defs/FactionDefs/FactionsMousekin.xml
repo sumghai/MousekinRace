@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- Faction bases with common settings -->
-	
+
 	<FactionDef Abstract="True" Name="Mousekin_FactionBase" ParentName="HumanFactionBase">
 		<basicMemberKind>MousekinColonist</basicMemberKind>
 		<pawnSingular>Mousekin</pawnSingular>
@@ -20,23 +20,27 @@
 		<hairTags>
 			<li>Urban</li>
 		</hairTags>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
 		<apparelStuffFilter>
 			<thingDefs>
 				<li>Cloth</li>
 			</thingDefs>
 		</apparelStuffFilter>
+		<geneticVariance>1</geneticVariance>
 	</FactionDef>
-	
+
 	<FactionDef Abstract="True" Name="Mousekin_PlayerFactionBase" ParentName="Mousekin_FactionBase">
 		<isPlayer>true</isPlayer>
-		<backstoryFilters>
-			<li>
-				<categories>
-					<li>MousekinStartingColonist</li>
-				</categories>
-			</li>
-		</backstoryFilters>
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<colorSpectrum>
 			<li>(0, 0.737, 0.847)</li>
@@ -44,11 +48,17 @@
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<geneticVariance>1</geneticVariance>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinStartingColonist</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 	</FactionDef>
-	
+
 	<!-- Playable Mousekine Settler and Refugee factions -->
-	
+
 	<FactionDef ParentName="Mousekin_PlayerFactionBase">
 		<defName>Mousekin_PlayerFaction_Settlers</defName>
 		<label>New Mousekin Settlers</label>
@@ -60,9 +70,9 @@
 		<label>New Mousekin Refugees</label>
 		<description>A group of Mousekin who have lost their home village to Grimalkin invaders.</description>
 	</FactionDef>
-	
+
 	<!-- NPC Mousekin factions -->
-	
+
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionKingdom</defName>
 		<label>Mousekin Kingdom</label>
@@ -74,12 +84,307 @@
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Lord Protector</leaderTitle>
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
+		<colorSpectrum>
+			<li>(1.000, 0.843, 0.000)</li>
+		</colorSpectrum>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinCrossbowman</li>
+					<li>MousekinGuardener</li>
+					<li>MousekinKnight</li>
+					<li>MousekinKnightCommander</li>
+					<li>MousekinMusketeer</li>
+					<li>MousekinNoble</li>
+					<li>MousekinNun</li>
+					<li>MousekinPeasant</li>
+					<li>MousekinPikeman</li>
+					<li>MousekinPriest</li>
+					<li>MousekinRoyalty</li>
+					<li>MousekinServant</li>
+					<li>MousekinServantChef</li>
+					<li>MousekinServantHighClass</li>
+					<li>MousekinStartingColonist</li>
+					<li>MousekinTrader</li>
+					<li>MousekinTradesman</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<pawnGroupMakers>
+
+			<!-- ===== Medieval Melee Fighters ===== -->
+
+			<!-- Peasant Militia -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSmart</li>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+					<li>StageThenAttack</li>
+				</disallowedStrategies>
+				<commonality>100</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<MousekinPeasant>5</MousekinPeasant>
+					<MousekinTradesman>1</MousekinTradesman>
+				</options>
+			</li>
+
+			<!-- Guardeners (Basic) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>25</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<MousekinGuardenerApprentice>2</MousekinGuardenerApprentice>
+					<MousekinGuardener>1</MousekinGuardener>
+				</options>
+			</li>
+
+			<!-- Guardeners (Medium) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>50</commonality>
+				<maxTotalPoints>1500</maxTotalPoints>
+				<options>
+					<MousekinGuardener>3</MousekinGuardener>
+					<MousekinGuardenerElite>1</MousekinGuardenerElite>
+				</options>
+			</li>
+
+			<!-- Guardeners (Elite) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<maxTotalPoints>2000</maxTotalPoints>
+				<options>
+					<MousekinGuardenerElite>5</MousekinGuardenerElite>
+				</options>
+			</li>
+
+			<!-- Knights (Basic) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>25</commonality>
+				<maxTotalPoints>2000</maxTotalPoints>
+				<options>
+					<MousekinKnightApprentice>2</MousekinKnightApprentice>
+					<MousekinKnight>1</MousekinKnight>
+				</options>
+			</li>
+
+			<!-- Knights (Medium) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<options>
+					<MousekinKnightApprentice>1</MousekinKnightApprentice>
+					<MousekinKnight>4</MousekinKnight>
+				</options>
+			</li>
+
+			<!-- Knights (Elite) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>20</commonality>
+				<options>
+					<MousekinKnight>6</MousekinKnight>
+					<MousekinKnightCommander>1</MousekinKnightCommander>
+				</options>
+			</li>
+
+			<!-- ===== Combined Arms - Melee & Ranged ===== -->
+
+			<!-- Commando Team -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<options>
+					<MousekinGuardenerApprentice>5</MousekinGuardenerApprentice>
+					<MousekinGuardener>30</MousekinGuardener>
+					<MousekinGuardenerElite>10</MousekinGuardenerElite>
+					<MousekinKnightApprentice>5</MousekinKnightApprentice>
+					<MousekinKnight>30</MousekinKnight>
+					<MousekinKnightCommander>2</MousekinKnightCommander>
+				</options>
+			</li>
+
+			<!-- ===== Peaceful - Passing Travellers or Visitors ===== -->
+
+			<!-- Settlers on their way to start a new village -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<MousekinColonist>10</MousekinColonist>
+					<MousekinPeasant>30</MousekinPeasant>
+					<MousekinTradesman>5</MousekinTradesman>
+					<MousekinGuardener>2</MousekinGuardener>
+					<MousekinGuardenerElite>1</MousekinGuardenerElite>
+					<MousekinPriest>1</MousekinPriest>
+					<MousekinNun>2</MousekinNun>
+				</options>
+			</li>
+
+			<!-- Journeying Craftsmen -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<MousekinTradesman>10</MousekinTradesman>
+				</options>
+			</li>
+
+			<!-- Religious Pilgrims -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<MousekinPriest>3</MousekinPriest>
+					<MousekinNun>10</MousekinNun>
+				</options>
+			</li>
+
+			<!-- Noble Family Outing -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<MousekinNoble>4</MousekinNoble>
+					<MousekinServantHighClass>2</MousekinServantHighClass>
+					<MousekinServantChef>3</MousekinServantChef>
+					<MousekinServant>8</MousekinServant>
+				</options>
+			</li>
+
+			<!-- Royal Entourage -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<MousekinRoyalty>3</MousekinRoyalty>
+					<MousekinServantHighClass>4</MousekinServantHighClass>
+					<MousekinServantChef>6</MousekinServantChef>
+					<MousekinKnight>8</MousekinKnight>
+				</options>
+			</li>
+
+			<!-- ===== Traders ===== -->
+
+			<!-- Regular Caravan Trader -->
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<MousekinTrader>5</MousekinTrader>
+				</traders>
+				<carriers>
+					<!--<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>-->
+				</carriers>
+				<guards>
+					<MousekinCrossbowman>3</MousekinCrossbowman>
+					<MousekinPikeman>2</MousekinPikeman>
+				</guards>
+			</li>
+
+			<!-- ===== Settlements ===== -->
+
+			<!-- Village -->
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>70</commonality>
+				<options>
+					<MousekinColonist>10</MousekinColonist>
+					<MousekinPeasant>30</MousekinPeasant>
+					<MousekinTradesman>5</MousekinTradesman>
+					<MousekinGuardenerApprentice>2</MousekinGuardenerApprentice>
+					<MousekinGuardener>4</MousekinGuardener>
+					<MousekinGuardenerElite>2</MousekinGuardenerElite>
+					<MousekinPriest>1</MousekinPriest>
+					<MousekinNun>1</MousekinNun>
+				</options>
+			</li>
+
+			<!-- Town -->
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>70</commonality>
+				<options>
+					<MousekinColonist>5</MousekinColonist>
+					<MousekinPeasant>10</MousekinPeasant>
+					<MousekinTradesman>10</MousekinTradesman>
+					<MousekinGuardener>10</MousekinGuardener>
+					<MousekinGuardenerElite>5</MousekinGuardenerElite>
+					<MousekinKnight>5</MousekinKnight>
+					<MousekinPikeman>10</MousekinPikeman>
+					<MousekinServant>4</MousekinServant>
+					<MousekinServantChef>2</MousekinServantChef>
+					<MousekinServantHighClass>3</MousekinServantHighClass>
+					<MousekinNoble>2</MousekinNoble>
+					<MousekinPriest>2</MousekinPriest>
+					<MousekinNun>4</MousekinNun>
+				</options>
+			</li>
+
+			<!-- City -->
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>70</commonality>
+				<options>
+					<MousekinColonist>5</MousekinColonist>
+					<MousekinTradesman>10</MousekinTradesman>
+					<MousekinGuardener>10</MousekinGuardener>
+					<MousekinGuardenerElite>5</MousekinGuardenerElite>
+					<MousekinKnight>10</MousekinKnight>
+					<MousekinKnightCommander>2</MousekinKnightCommander>
+					<MousekinPikeman>30</MousekinPikeman>
+					<MousekinMusketeer>10</MousekinMusketeer>
+					<MousekinServant>8</MousekinServant>
+					<MousekinServantChef>4</MousekinServantChef>
+					<MousekinServantHighClass>6</MousekinServantHighClass>
+					<MousekinRoyalty>3</MousekinRoyalty>
+					<MousekinPriest>2</MousekinPriest>
+					<MousekinNun>4</MousekinNun>
+				</options>
+			</li>
+
+		</pawnGroupMakers>
 	</FactionDef>
-	
+
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionIndyTown</defName>
 		<label>Independent Mousekins</label>
@@ -91,12 +396,24 @@
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Prime Councilor</leaderTitle>
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
+		<colorSpectrum>
+			<li>(0.000, 0.500, 0.000)</li>
+		</colorSpectrum>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinIndyTownCouncilor</li>
+					<li>MousekinIndyTownFarmer</li>
+					<li>MousekinIndyTownSoldier</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 	</FactionDef>
-	
+
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionGypsy</defName>
 		<label>Mousekin Gypsies</label>
@@ -104,16 +421,27 @@
 		<listOrderPriority>27</listOrderPriority>
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<canMakeRandomly>true</canMakeRandomly>		
+		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>false</canSiege>
 		<canStageAttacks>false</canStageAttacks>
 		<!-- No leader title -->
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
+		<colorSpectrum>
+			<li>(0.35, 0.30, 0.60)</li>
+			<li>(0.45, 0.40, 0.90)</li>
+		</colorSpectrum>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinTraderGypsy</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 	</FactionDef>
-	
+
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionSlaver</defName>
 		<label>Mousekin Slavers</label>
@@ -125,12 +453,22 @@
 		<canSiege>false</canSiege>
 		<canStageAttacks>false</canStageAttacks>
 		<!-- No leader title -->
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
+		<colorSpectrum>
+			<li>(0.500, 0.500, 0.500)</li>
+		</colorSpectrum>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinTraderSlaver</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 	</FactionDef>
-	
+
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionBrigand</defName>
 		<label>Mousekin Brigands</label>
@@ -143,10 +481,22 @@
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<!-- No leader title -->
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
+		<colorSpectrum>
+			<li>(0.45, 0.05, 0.05)</li>
+			<li>(0.80, 0.25, 0.05)</li>
+		</colorSpectrum>
+		<permanentEnemy>true</permanentEnemy>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinRaider</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 	</FactionDef>
 
 </Defs>
