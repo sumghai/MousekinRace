@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Faction bases with common settings -->
+	
+	<FactionDef Abstract="True" Name="Mousekin_FactionBase" ParentName="HumanFactionBase">
+		<basicMemberKind>MousekinColonist</basicMemberKind>
+		<pawnSingular>Mousekin</pawnSingular>
+		<pawnsPlural>Mousekins</pawnsPlural>
+		<techLevel>Medieval</techLevel>
+		<pawnNameMaker>NamerPerson_MousekinMale</pawnNameMaker>
+		<pawnNameMakerFemale>NamerPerson_MousekinFemale</pawnNameMakerFemale>
+		<startingResearchTags>
+			<li>MousekinStartingResearch</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>MousekinStartingResearch</li>
+		</startingTechprintsResearchTags>
+		<!-- TODO: Setup hair tags -->
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+	
+	<FactionDef Abstract="True" Name="Mousekin_PlayerFactionBase" ParentName="Mousekin_FactionBase">
+		<isPlayer>true</isPlayer>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinStartingColonist</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<colorSpectrum>
+			<li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<geneticVariance>1</geneticVariance>
+	</FactionDef>
+	
+	<!-- Playable Mousekine Settler and Refugee factions -->
+	
+	<FactionDef ParentName="Mousekin_PlayerFactionBase">
+		<defName>Mousekin_PlayerFaction_Settlers</defName>
+		<label>New Mousekin Settlers</label>
+		<description>A newly-established hamlet of Mousekin settlers.</description>
+	</FactionDef>
+
+	<FactionDef ParentName="Mousekin_PlayerFactionBase">
+		<defName>Mousekin_PlayerFaction_Refugees</defName>
+		<label>New Mousekin Refugees</label>
+		<description>A group of Mousekin who have lost their home village to Grimalkin invaders.</description>
+	</FactionDef>
+	
+	<!-- NPC Mousekin factions -->
+	
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionKingdom</defName>
+		<label>Mousekin Kingdom</label>
+		<description>todo: description</description>
+		<listOrderPriority>29</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Lord Protector</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	</FactionDef>
+	
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionIndyTown</defName>
+		<label>Independent Mousekins</label>
+		<description>todo: description</description>
+		<listOrderPriority>28</listOrderPriority>
+		<settlementGenerationWeight>0.1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Prime Councilor</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	</FactionDef>
+	
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionGypsy</defName>
+		<label>Mousekin Gypsies</label>
+		<description>todo: description</description>
+		<listOrderPriority>27</listOrderPriority>
+		<settlementGenerationWeight>0</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>		
+		<canSiege>false</canSiege>
+		<canStageAttacks>false</canStageAttacks>
+		<!-- No leader title -->
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	</FactionDef>
+	
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionSlaver</defName>
+		<label>Mousekin Slavers</label>
+		<description>todo: description</description>
+		<listOrderPriority>26</listOrderPriority>
+		<settlementGenerationWeight>0</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>false</canStageAttacks>
+		<!-- No leader title -->
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	</FactionDef>
+	
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionBrigand</defName>
+		<label>Mousekin Brigands</label>
+		<description>aaa</description>
+		<listOrderPriority>9</listOrderPriority>
+		<settlementGenerationWeight>0</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<!-- No leader title -->
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	</FactionDef>
+
+</Defs>
