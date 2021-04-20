@@ -84,12 +84,17 @@
 			<relationChanceModifierSibling>0</relationChanceModifierSibling>
 		</relationSettings>
 		<spawnCategories>
+			<li>MousekinCrossbowman</li>
+			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
+			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
+			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTrader</li>
-			<li>MousekinTraderSlaver</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
@@ -168,10 +173,11 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
 			<li>MousekinTrader</li>
-			<li>MousekinWanderer</li>
+			<li>MousekinTraderGypsy</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -210,6 +216,7 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
 			<li>MousekinStartingColonist</li>
@@ -509,9 +516,8 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
-			<li>MousekinTrader</li>
+			<li>MousekinTraderGypsy</li>
 			<li>MousekinTraderSlaver</li>
-			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -570,7 +576,11 @@
 			<li>Intellectual</li>
 		</workDisables>
 		<spawnCategories>
+			<li>MousekinCrossbowman</li>
+			<li>MousekinMusketeer</li>
 			<li>MousekinPeasant</li>
+			<li>MousekinPikeman</li>
+			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
@@ -1040,9 +1050,13 @@
 			<relationChanceModifierSibling>0</relationChanceModifierSibling>
 		</relationSettings>
 		<spawnCategories>
+			<li>MousekinCrossbowman</li>
+			<li>MousekinMusketeer</li>
 			<li>MousekinPeasant</li>
+			<li>MousekinPikeman</li>
+			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
-			<li>MousekinWanderer</li>
+			<li>MousekinTraderSlaver</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -1211,8 +1225,11 @@
 			<relationChanceModifierSibling>0</relationChanceModifierSibling>
 		</relationSettings>
 		<spawnCategories>
+			<li>MousekinCrossbowman</li>
+			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
+			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
 			<li>MousekinServant</li>
 			<li>MousekinServantHighClass</li>
@@ -1268,9 +1285,15 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
+			<li>MousekinCrossbowman</li>
+			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
+			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
+			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
@@ -1312,8 +1335,14 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
+			<li>MousekinCrossbowman</li>
+			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
+			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
+			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTrader</li>
 			<li>MousekinTradesman</li>
@@ -1475,8 +1504,14 @@
 			</li>
 		</forcedTraits>
 		<spawnCategories>
+			<li>MousekinCrossbowman</li>
+			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
+			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
+			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
@@ -1530,9 +1565,15 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
+			<li>MousekinCrossbowman</li>
+			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
+			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
+			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTrader</li>
 			<li>MousekinTradesman</li>
@@ -1942,6 +1983,7 @@
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinTrader</li>
+			<li>MousekinTraderGypsy</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -5251,7 +5293,7 @@
 			<li>PlantWork</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinCrossbowmen</li>
+			<li>MousekinCrossbowman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
