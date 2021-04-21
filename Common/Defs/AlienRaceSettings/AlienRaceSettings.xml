@@ -20,7 +20,30 @@
 					</factionDefs>
 				</li>
 			</startingColonists>
-			<!-- TODO: alienslavekinds, alienrefugeekinds, alienwandererkinds -->
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>MousekinSlave</li>
+					</kindDefs>
+					<chance>40.0</chance>
+				</li>
+			</alienslavekinds>
+			<alienwandererkinds>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>MousekinWanderer</li>
+							</kindDefs>
+							<chance>50.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>Mousekin_FactionKingdom</li>
+						<li>Mousekin_FactionIndyTown</li>
+					</factionDefs>
+				</li>
+			</alienwandererkinds>
 		</pawnKindSettings>
 	</AlienRace.RaceSettings>
 
