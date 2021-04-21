@@ -416,8 +416,9 @@
 
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionGypsy</defName>
+		<!-- TODO: Seek ideas <fixedName>Rodemani</fixedName> -->
 		<label>Mousekin Gypsies</label>
-		<description>todo: description</description>
+		<description>A loose group of itinerant Mousekins who spend their entire lives travelling throughout the lands in Giant Cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
 		<listOrderPriority>27</listOrderPriority>
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
