@@ -474,7 +474,7 @@
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionBrigand</defName>
 		<label>Mousekin Brigands</label>
-		<description>aaa</description>
+		<description>A roving band of raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate.</description>
 		<listOrderPriority>9</listOrderPriority>
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
