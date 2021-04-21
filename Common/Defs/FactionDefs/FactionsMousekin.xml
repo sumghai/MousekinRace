@@ -445,8 +445,9 @@
 
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionSlaver</defName>
+		<fixedName>Mousekin Slavers</fixedName>
 		<label>Mousekin Slavers</label>
-		<description>todo: description</description>
+		<description>A loose collection of independently-operating groups of travelling Mousekin slave traders, generally loathed and despised by the majority of Mousekin society, but paradoxically tolerated by some Mousekin nobles and wealthy landowners for providing them with cheap, disposable labor.\n\nThey are more than happy to sell their merchandise to Mousekins and non-Mousekins alike, but will otherwise stay out of any factional conflicts.</description>
 		<listOrderPriority>26</listOrderPriority>
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
