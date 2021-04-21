@@ -76,7 +76,7 @@
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionKingdom</defName>
 		<label>Mousekin Kingdom</label>
-		<description>A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nWhile nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or vicious enemies if angered.</description>
+		<description>A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or vicious enemies if angered.</description>
 		<listOrderPriority>29</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -418,7 +418,7 @@
 		<defName>Mousekin_FactionGypsy</defName>
 		<fixedName>Rodemani Alliance</fixedName>
 		<label>Mousekin Gypsies</label>
-		<description>A loose group of itinerant Mousekins who spend their entire lives travelling throughout the lands in Giant Cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
+		<description>A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in Giant Cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
 		<listOrderPriority>27</listOrderPriority>
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -447,7 +447,7 @@
 		<defName>Mousekin_FactionSlaver</defName>
 		<fixedName>Mousekin Slavers</fixedName>
 		<label>Mousekin Slavers</label>
-		<description>A loose group of independent travelling Mousekin slave traders, tolerated by some Mousekin nobles and wealthy landowners for providing them with cheap, disposable labor, but otherwise generally loathed and despised by the majority of Mousekin society.\n\nThey are more than happy to sell their merchandise to Mousekins and non-Mousekins alike, but will otherwise stay out of any factional conflicts.</description>
+		<description>A group of travelling Mousekin slave traders, tolerated by some Mousekin nobles and wealthy landowners for providing them with cheap, disposable labor, but otherwise generally loathed and despised by the majority of Mousekin society.\n\nThey are more than happy to sell their merchandise to Mousekins and non-Mousekins alike, but will otherwise stay out of any factional conflicts.</description>
 		<listOrderPriority>26</listOrderPriority>
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -474,7 +474,7 @@
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionBrigand</defName>
 		<label>Mousekin Brigands</label>
-		<description>A roving band of raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate.</description>
+		<description>A roving band of Mousekin raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate.</description>
 		<listOrderPriority>9</listOrderPriority>
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
