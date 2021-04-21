@@ -388,7 +388,7 @@
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionIndyTown</defName>
 		<label>Independent Mousekins</label>
-		<description>todo: description</description>
+		<description>A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom.</description>
 		<listOrderPriority>28</listOrderPriority>
 		<settlementGenerationWeight>0.1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
