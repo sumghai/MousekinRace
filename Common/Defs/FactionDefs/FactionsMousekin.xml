@@ -436,7 +436,6 @@
 			<li>(0.35, 0.30, 0.60)</li>
 			<li>(0.45, 0.40, 0.90)</li>
 		</colorSpectrum>
-		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
@@ -464,7 +463,6 @@
 		<colorSpectrum>
 			<li>(0.500, 0.500, 0.500)</li>
 		</colorSpectrum>
-		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
