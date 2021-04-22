@@ -613,34 +613,6 @@
 		</pawnGroupMakers>
 	</FactionDef>
 
-	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
-		<defName>Mousekin_FactionSlaver</defName>
-		<fixedName>Mousekin Slavers</fixedName>
-		<label>Mousekin Slavers</label>
-		<description>A group of travelling Mousekin slave traders, tolerated by some Mousekin nobles and wealthy landowners for providing them with cheap, disposable labor, but otherwise generally loathed and despised by the majority of Mousekin society.\n\nThey are more than happy to sell their merchandise to Mousekins and non-Mousekins alike, but will otherwise stay out of any factional conflicts.</description>
-		<basicMemberKind>MousekinTraderSlaver</basicMemberKind>
-		<listOrderPriority>26</listOrderPriority>
-		<settlementGenerationWeight>0</settlementGenerationWeight>
-		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<canMakeRandomly>true</canMakeRandomly>
-		<canSiege>false</canSiege>
-		<canStageAttacks>false</canStageAttacks>
-		<!-- No leader title -->
-		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
-		<colorSpectrum>
-			<li>(0.500, 0.500, 0.500)</li>
-		</colorSpectrum>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-		<backstoryFilters>
-			<li>
-				<categories>
-					<li>MousekinTraderSlaver</li>
-				</categories>
-			</li>
-		</backstoryFilters>
-	</FactionDef>
-
 	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionBrigand</defName>
 		<label>Mousekin Brigands</label>

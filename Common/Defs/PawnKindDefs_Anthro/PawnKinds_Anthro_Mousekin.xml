@@ -352,6 +352,34 @@
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>70</maxGenerationAge>
 	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinTraderSlaver</defName>
+		<label>Mousekin slaver</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTraderSlaver</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinSlave</defName>
+		<label>Mousekin slave</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinSlave</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>30</maxGenerationAge>
+	</PawnKindDef>
 	
 	<!-- NPCs from Independent Mousekins faction type -->
 	
@@ -424,41 +452,6 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
-	</PawnKindDef>
-	
-	<!-- NPCs from Mousekin Slaver faction type -->
-	
-	<PawnKindDef Abstract="True" Name="Mousekin_FactionSlaver_BasePawnKind" ParentName="Mousekin_BasePawnKind">
-		<defaultFactionType>Mousekin_FactionSlaver</defaultFactionType>
-	</PawnKindDef>
-	
-	<PawnKindDef ParentName="Mousekin_FactionSlaver_BasePawnKind">
-		<defName>MousekinTraderSlaver</defName>
-		<label>Mousekin slaver</label>
-		<factionLeader>true</factionLeader>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>MousekinTraderSlaver</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<minGenerationAge>20</minGenerationAge>
-		<maxGenerationAge>50</maxGenerationAge>
-	</PawnKindDef>
-	
-	<PawnKindDef ParentName="Mousekin_FactionSlaver_BasePawnKind">
-		<defName>MousekinSlave</defName>
-		<label>Mousekin slave</label>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>MousekinSlave</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<minGenerationAge>18</minGenerationAge>
-		<maxGenerationAge>30</maxGenerationAge>
 	</PawnKindDef>
 	
 	<!-- NPCs from Mousekin Brigand faction type -->
