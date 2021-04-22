@@ -123,7 +123,7 @@
 		</backstoryFilters>
 		<pawnGroupMakers>
 
-			<!-- ===== Medieval Melee Fighters ===== -->
+			<!-- ===== Violent ===== -->
 
 			<!-- Peasant Militia -->
 			<li>
@@ -185,6 +185,24 @@
 					<MousekinGuardenerElite>5</MousekinGuardenerElite>
 				</options>
 			</li>
+			
+			<!-- Guardener-led Peasant Militia -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<maxTotalPoints>2000</maxTotalPoints>
+				<options>
+					<MousekinPeasant>5</MousekinPeasant>
+					<MousekinTradesman>1</MousekinTradesman>
+					<MousekinGuardenerApprentice>2</MousekinGuardenerApprentice>
+					<MousekinGuardener>3</MousekinGuardener>
+					<MousekinGuardenerElite>1</MousekinGuardenerElite>
+				</options>
+			</li>
 
 			<!-- Knights (Basic) -->
 			<li>
@@ -229,9 +247,42 @@
 				</options>
 			</li>
 
-			<!-- ===== Combined Arms - Melee & Ranged ===== -->
-
-			<!-- Commando Team -->
+			<!-- Kingdom Army (Basic) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<maxTotalPoints>2000</maxTotalPoints>
+				<options>
+					<MousekinPikeman>10</MousekinPikeman>
+					<MousekinCrossbowman>6</MousekinCrossbowman>
+					<MousekinKnightApprentice>2</MousekinKnightApprentice>
+					<MousekinKnight>5</MousekinKnight>
+				</options>
+			</li>
+			
+			<!-- Kingdom Army (Medium) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<maxTotalPoints>4000</maxTotalPoints>
+				<options>
+					<MousekinPikeman>20</MousekinPikeman>
+					<MousekinCrossbowman>15</MousekinCrossbowman>
+					<MousekinMusketeer>5</MousekinMusketeer>
+					<MousekinGuardener>6</MousekinGuardener>
+					<MousekinGuardenerElite>2</MousekinGuardenerElite>
+					<MousekinKnight>10</MousekinKnight>
+					<MousekinKnightCommander>2</MousekinKnightCommander>
+				</options>
+			</li>
+			
+			<!-- Kingdom Army (Elite) -->
 			<li>
 				<kindDef>Combat</kindDef>
 				<disallowedStrategies>
@@ -239,12 +290,13 @@
 				</disallowedStrategies>
 				<commonality>30</commonality>
 				<options>
-					<MousekinGuardenerApprentice>5</MousekinGuardenerApprentice>
-					<MousekinGuardener>30</MousekinGuardener>
-					<MousekinGuardenerElite>10</MousekinGuardenerElite>
-					<MousekinKnightApprentice>5</MousekinKnightApprentice>
-					<MousekinKnight>30</MousekinKnight>
-					<MousekinKnightCommander>2</MousekinKnightCommander>
+					<MousekinPikeman>20</MousekinPikeman>
+					<MousekinCrossbowman>20</MousekinCrossbowman>
+					<MousekinMusketeer>20</MousekinMusketeer>
+					<MousekinGuardener>10</MousekinGuardener>
+					<MousekinGuardenerElite>4</MousekinGuardenerElite>
+					<MousekinKnight>15</MousekinKnight>
+					<MousekinKnightCommander>5</MousekinKnightCommander>
 				</options>
 			</li>
 
@@ -304,7 +356,9 @@
 					<MousekinRoyalty>3</MousekinRoyalty>
 					<MousekinServantHighClass>4</MousekinServantHighClass>
 					<MousekinServantChef>6</MousekinServantChef>
-					<MousekinKnight>8</MousekinKnight>
+					<MousekinPikeman>8</MousekinPikeman>
+					<MousekinCrossbowman>6</MousekinCrossbowman>
+					<MousekinKnight>4</MousekinKnight>
 				</options>
 			</li>
 
@@ -331,7 +385,7 @@
 
 			<li>
 				<kindDef>Settlement</kindDef>
-				<commonality>70</commonality>
+				<commonality>75</commonality>
 				<options>
 					<MousekinColonist>10</MousekinColonist>
 					<MousekinPeasant>30</MousekinPeasant>
@@ -348,7 +402,7 @@
 
 			<li>
 				<kindDef>Settlement</kindDef>
-				<commonality>70</commonality>
+				<commonality>50</commonality>
 				<options>
 					<MousekinColonist>5</MousekinColonist>
 					<MousekinPeasant>10</MousekinPeasant>
@@ -370,7 +424,7 @@
 
 			<li>
 				<kindDef>Settlement</kindDef>
-				<commonality>70</commonality>
+				<commonality>25</commonality>
 				<options>
 					<MousekinColonist>5</MousekinColonist>
 					<MousekinTradesman>10</MousekinTradesman>
@@ -420,6 +474,87 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+		<pawnGroupMakers>
+		
+			<!-- ===== Violent ===== -->
+		
+			<!-- Indy Town Farmer Militia -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+					<li>StageThenAttack</li>
+				</disallowedStrategies>
+				<commonality>100</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<MousekinIndyTownFarmer>5</MousekinIndyTownFarmer>
+				</options>
+			</li>
+			
+			<!-- Indy Town Basic Army -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>75</commonality>
+				<maxTotalPoints>3000</maxTotalPoints>
+				<options>
+					<MousekinIndyTownFarmer>5</MousekinIndyTownFarmer>
+					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
+				</options>
+			</li>
+			
+			<!-- Indy Town Advanced Army -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>50</commonality>
+				<options>
+					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
+					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
+				</options>
+			</li>
+			
+			<!-- ===== Traders ===== -->
+			
+			<!-- Regular Caravan Trader -->
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<MousekinTrader>5</MousekinTrader>
+				</traders>
+				<carriers>
+					<!--<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>-->
+				</carriers>
+				<guards>
+					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
+					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
+				</guards>
+			</li>
+			
+			<!-- ===== Settlements ===== -->
+			
+			<!-- Indy Town -->
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<MousekinIndyTownFarmer>20</MousekinIndyTownFarmer>
+					<MousekinTradesman>5</MousekinTradesman>
+					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
+					<MousekinPriest>2</MousekinPriest>
+					<MousekinNun>4</MousekinNun>
+					<MousekinIndyTownCouncilor>5</MousekinIndyTownCouncilor>
+				</options>
+			</li>
+			
+		</pawnGroupMakers>
 	</FactionDef>
 
 	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
@@ -449,6 +584,33 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+		<pawnGroupMakers>
+		
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>0</commonality>
+				<options>
+					<MousekinTraderGypsy>5</MousekinTraderGypsy>
+				</options>
+			</li>
+		
+			<!-- ===== Traders ===== -->
+			
+			<!-- Regular Caravan Trader -->
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<MousekinTraderGypsy>5</MousekinTraderGypsy>
+				</traders>
+				<carriers>
+					<!--<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>-->
+				</carriers>
+				<guards>
+					<!-- TodoL generic Gypsy folk? -->
+				</guards>
+			</li>
+		
+		</pawnGroupMakers>
 	</FactionDef>
 
 	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
