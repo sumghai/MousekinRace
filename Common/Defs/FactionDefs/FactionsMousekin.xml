@@ -564,18 +564,20 @@
 		<description>A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in Giant Cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
 		<basicMemberKind>MousekinTraderGypsy</basicMemberKind>
 		<listOrderPriority>27</listOrderPriority>
-		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>false</canSiege>
 		<canStageAttacks>false</canStageAttacks>
 		<!-- No leader title -->
 		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
+		<raidCommonalityFromPointsCurve>
+			<points>
+			<li>(0, 0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
 		<colorSpectrum>
 			<li>(0.35, 0.30, 0.60)</li>
 			<li>(0.45, 0.40, 0.90)</li>
-		</colorSpectrum>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		</colorSpectrum>		
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -585,14 +587,6 @@
 			</li>
 		</backstoryFilters>
 		<pawnGroupMakers>
-		
-			<li>
-				<kindDef>Combat</kindDef>
-				<commonality>0</commonality>
-				<options>
-					<MousekinTraderGypsy>5</MousekinTraderGypsy>
-				</options>
-			</li>
 		
 			<!-- ===== Traders ===== -->
 			
@@ -611,6 +605,11 @@
 			</li>
 		
 		</pawnGroupMakers>
+		<modExtensions>
+			<li Class="MousekinRace.FactionHelperExtension">
+				<canSpawnSettlements>false</canSpawnSettlements>
+			</li>
+		</modExtensions>
 	</FactionDef>
 
 	<FactionDef ParentName="Mousekin_FactionBase">
@@ -633,7 +632,6 @@
 		</colorSpectrum>
 		<permanentEnemy>true</permanentEnemy>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -642,6 +640,11 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+		<modExtensions>
+			<li Class="MousekinRace.FactionHelperExtension">
+				<canSpawnSettlements>false</canSpawnSettlements>
+			</li>
+		</modExtensions>
 	</FactionDef>
 
 </Defs>
