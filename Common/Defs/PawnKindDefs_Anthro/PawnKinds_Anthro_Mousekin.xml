@@ -264,7 +264,7 @@
 			</li>
 		</backstoryFiltersOverride>
 		<minGenerationAge>25</minGenerationAge>
-		<maxGenerationAge>65</maxGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
