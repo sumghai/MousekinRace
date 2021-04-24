@@ -87,6 +87,7 @@
 		<listOrderPriority>29</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>3</maxCountAtGameStart>
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
@@ -454,6 +455,7 @@
 		<listOrderPriority>28</listOrderPriority>
 		<settlementGenerationWeight>0.1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
@@ -565,6 +567,7 @@
 		<basicMemberKind>MousekinTraderGypsy</basicMemberKind>
 		<listOrderPriority>27</listOrderPriority>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
 		<canSiege>false</canSiege>
 		<canStageAttacks>false</canStageAttacks>
 		<!-- No leader title -->
