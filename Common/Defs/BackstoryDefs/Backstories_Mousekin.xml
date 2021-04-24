@@ -1164,7 +1164,7 @@
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
-			<li>MousekinTradesman"</li>
+			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Seamstress</linkedBackstory>
 	</AlienRace.BackstoryDef>
@@ -1657,14 +1657,6 @@
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>60</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Plants</defName>
@@ -1758,14 +1750,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Crafting</defName>
@@ -2173,14 +2157,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Crafting</defName>
@@ -2288,14 +2264,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -2945,14 +2913,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -3864,14 +3824,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
@@ -4208,14 +4160,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
