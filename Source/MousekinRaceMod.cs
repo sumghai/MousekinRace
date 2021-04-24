@@ -17,7 +17,7 @@ namespace MousekinRace
             harmony.PatchAll();
         }
 
-        // Prevent nomadic Mousekin factions from generating settlements on the world map,
+        // Prevent non-hidden, nomadic factions from generating settlements on the world map,
         // by checking the appropriate flag in the FactionHelperExtension mod extension
         [HarmonyPatch(typeof(WorldObjectsHolder), nameof(WorldObjectsHolder.Add))]
         static class WorldObjectsHolder_Add_HideSettlementsForNomadicFactions
