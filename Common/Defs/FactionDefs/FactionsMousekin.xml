@@ -567,7 +567,7 @@
 
 	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
 		<defName>Mousekin_FactionGypsy</defName>
-		<fixedName>Rodemani Alliance</fixedName>
+		<fixedName>Rodemani</fixedName>
 		<label>Mousekin Gypsies</label>
 		<description>A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in Giant Cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
 		<basicMemberKind>MousekinTraderGypsy</basicMemberKind>
