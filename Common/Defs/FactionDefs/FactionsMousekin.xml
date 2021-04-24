@@ -83,7 +83,6 @@
 		<defName>Mousekin_FactionKingdom</defName>
 		<label>Mousekin Kingdom</label>
 		<description>A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or vicious enemies if angered.</description>
-		<basicMemberKind>MousekinColonist</basicMemberKind>
 		<listOrderPriority>29</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -96,6 +95,9 @@
 		<colorSpectrum>
 			<li>(1.000, 0.843, 0.000)</li>
 		</colorSpectrum>
+		<fixedLeaderKinds>
+			<li>MousekinKnightCommander</li>
+		</fixedLeaderKinds>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
@@ -451,7 +453,6 @@
 		<defName>Mousekin_FactionIndyTown</defName>
 		<label>Independent Mousekins</label>
 		<description>A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom.</description>
-		<basicMemberKind>MousekinIndyTownFarmer</basicMemberKind>
 		<listOrderPriority>28</listOrderPriority>
 		<settlementGenerationWeight>0.1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -464,6 +465,9 @@
 		<colorSpectrum>
 			<li>(0.000, 0.500, 0.000)</li>
 		</colorSpectrum>
+		<fixedLeaderKinds>
+			<li>MousekinIndyTownCouncilor</li>
+		</fixedLeaderKinds>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
@@ -636,6 +640,9 @@
 			<li>(0.45, 0.05, 0.05)</li>
 			<li>(0.80, 0.25, 0.05)</li>
 		</colorSpectrum>
+		<fixedLeaderKinds>
+			<li>MousekinRaider</li>
+		</fixedLeaderKinds>
 		<permanentEnemy>true</permanentEnemy>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
