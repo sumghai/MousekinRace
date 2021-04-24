@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<RulePackDef>
+		<defName>NamerFaction_MousekinKingdom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->The [KingdomKind] of [Herb]</li>
+				<li>r_name->The [KingdomKind] of the [Flower]</li>
+				<li>r_name->[KingdomKind] of [Herb]</li>
+				<li>r_name->[KingdomKind] of the [Flower]</li>
+				<li>r_name->The [Flower] [KingdomKind]</li>
+				<li>KingdomKind(p=4)->Kingdom</li>
+				<li>KingdomKind->Empire</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>Herb->Words/Nouns/CommonHerbs</li>
+				<li>Flower->Words/Nouns/CommonFlowers</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerFaction_MousekinIndyTown</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->Free Mousekin [PoliticalUnion]</li>
+				<li>r_name->[PoliticalUnion] of Free Mousekins</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>PoliticalUnion->Words/Nouns/PoliticalUnions_IndyTown</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerFaction_MousekinBrigands</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->The [MousekinGangName]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>MousekinGangName->Words/Nouns/GangNames</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>
