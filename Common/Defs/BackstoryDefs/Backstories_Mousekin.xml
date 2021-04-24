@@ -1976,8 +1976,8 @@
 		<title>Giant Cavy Breeder</title>
 		<titleShort>Breeder</titleShort>
 		<baseDescription>[PAWN_nameDef] owned a large pasture just outside a Mousekin village, where [PAWN_pronoun] specialized in breeding Giant Cavies - giant guinea pigs used by Mousekins as pack animals and riding mounts.\n\n[PAWN_pronoun] developed a keen eye and reputation for matching a Cavy to a prospective owner.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
@@ -2670,8 +2670,8 @@
 		<title>Crop Farmer</title>
 		<titleShort>Farmer</titleShort>
 		<baseDescription>Like generations before [PAWN_objective], [PAWN_nameDef] grew wheat, corn and potatoes in the fields outside the Mousekin hamlet [PAWN_pronoun] and [PAWN_possessive] family lived in.\n\n[PAWN_possessive] biggest worries were the increasing taxes being levied by the provincial lord, and the rats nesting in the granaries.</baseDescription>
-		<maleCommonality>50</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
+		<maleCommonality>75</maleCommonality>
+		<femaleCommonality>75</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
@@ -4269,8 +4269,8 @@
 		<title>Miner</title>
 		<titleShort>Miner</titleShort>
 		<baseDescription>[PAWN_nameDef] toiled in the deepest, darkest Mousekin mines, in search of coal, mineral ores and precious jewels.\n\nMining was extremely hazardous work, and [PAWN_pronoun] was no stranger to losing family and friends to mine explosions and cave-ins.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
@@ -4764,8 +4764,8 @@
 		<titleShort>Shepherd</titleShort>
 		<titleShortFemale>Shepherdess</titleShortFemale>
 		<baseDescription>[PAWN_nameDef] managed large flocks of sheep on the pastures outside a Mousekin village.\n\n[PAWN_pronoun] made a good living selling wool, lamb and mutton at the village market, but envied those selling bales of the more luxurious and lucrative Giant Cavy wool.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>100</femaleCommonality>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
@@ -5323,7 +5323,7 @@
 		<title>Woodcutter</title>
 		<titleShort>Woodcutter</titleShort>
 		<baseDescription>[PAWN_nameDef] toiled day and night in the forests near [PAWN_possessive] hometown, felling, delimbing and bucking trees into logs.\n\n[PAWN_pronoun] had a keen eye for choosing the best trees depending on whether a Mousekin needed the logs for building houses or furniture.</baseDescription>
-		<maleCommonality>100</maleCommonality>
+		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
