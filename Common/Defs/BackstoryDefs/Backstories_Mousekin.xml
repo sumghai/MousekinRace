@@ -4435,14 +4435,6 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>20</min>
-			<max>45</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>20</min>
-			<max>45</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Medicine</defName>
