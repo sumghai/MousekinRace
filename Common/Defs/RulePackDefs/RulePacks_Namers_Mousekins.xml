@@ -11,10 +11,10 @@
 				<li>Mousekin_LastName_Exotic->[mousekin_surname_exotic]</li>
 			</rulesStrings>
 			<rulesFiles>
-				<li>mousekin_firstname_male->Names/Mousekin_NamePack_Firstname_Male</li>
-				<li>mousekin_firstname_female->Names/Mousekin_NamePack_Firstname_Female</li>
-				<li>mousekin_surname_commoner->Names/Mousekin_NamePack_Surname_Commoner</li>
-				<li>mousekin_surname_exotic->Names/Mousekin_NamePack_Surname_Exotic</li>
+				<li>mousekin_firstname_male->Names/Mousekin_Firstname_Male</li>
+				<li>mousekin_firstname_female->Names/Mousekin_Firstname_Female</li>
+				<li>mousekin_surname_commoner->Names/Mousekin_Surname_Commoner</li>
+				<li>mousekin_surname_exotic->Names/Mousekin_Surname_Exotic</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>
