@@ -68,12 +68,12 @@
 	<FactionDef ParentName="Mousekin_PlayerFactionBase">
 		<defName>Mousekin_PlayerFaction_Refugees</defName>
 		<label>New Mousekin Refugees</label>
-		<description>A group of Mousekin who have lost their home village to Grimalkin invaders.</description>		
+		<description>A group of Mousekin who have lost their home village to Grimalkin invaders.</description>
 		<basicMemberKind>MousekinColonist</basicMemberKind>
 	</FactionDef>
 
 	<!-- NPC Mousekin factions -->
-	
+
 	<FactionDef Abstract="True" Name="Mousekin_AlliableNpcFactionBase" ParentName="Mousekin_FactionBase">
 		<goodwillDailyGain>0.10</goodwillDailyGain>
 		<goodwillDailyFall>0.10</goodwillDailyFall>
@@ -186,7 +186,7 @@
 					<MousekinGuardenerElite>5</MousekinGuardenerElite>
 				</options>
 			</li>
-			
+
 			<!-- Guardener-led Peasant Militia -->
 			<li>
 				<kindDef>Combat</kindDef>
@@ -263,7 +263,7 @@
 					<MousekinKnight>5</MousekinKnight>
 				</options>
 			</li>
-			
+
 			<!-- Kingdom Army (Medium) -->
 			<li>
 				<kindDef>Combat</kindDef>
@@ -282,7 +282,7 @@
 					<MousekinKnightCommander>2</MousekinKnightCommander>
 				</options>
 			</li>
-			
+
 			<!-- Kingdom Army (Elite) -->
 			<li>
 				<kindDef>Combat</kindDef>
@@ -477,9 +477,9 @@
 			</li>
 		</backstoryFilters>
 		<pawnGroupMakers>
-		
+
 			<!-- ===== Violent ===== -->
-		
+
 			<!-- Indy Town Farmer Militia -->
 			<li>
 				<kindDef>Combat</kindDef>
@@ -494,7 +494,7 @@
 					<MousekinIndyTownFarmer>5</MousekinIndyTownFarmer>
 				</options>
 			</li>
-			
+
 			<!-- Indy Town Basic Army -->
 			<li>
 				<kindDef>Combat</kindDef>
@@ -508,7 +508,7 @@
 					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
 				</options>
 			</li>
-			
+
 			<!-- Indy Town Advanced Army -->
 			<li>
 				<kindDef>Combat</kindDef>
@@ -521,9 +521,9 @@
 					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
 				</options>
 			</li>
-			
+
 			<!-- ===== Traders ===== -->
-			
+
 			<!-- Regular Caravan Trader -->
 			<li>
 				<kindDef>Trader</kindDef>
@@ -538,9 +538,9 @@
 					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
 				</guards>
 			</li>
-			
+
 			<!-- ===== Settlements ===== -->
-			
+
 			<!-- Indy Town -->
 
 			<li>
@@ -555,7 +555,7 @@
 					<MousekinIndyTownCouncilor>5</MousekinIndyTownCouncilor>
 				</options>
 			</li>
-			
+
 		</pawnGroupMakers>
 	</FactionDef>
 
@@ -574,13 +574,16 @@
 		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
 		<raidCommonalityFromPointsCurve>
 			<points>
-			<li>(0, 0)</li>
+				<li>(0, 0)</li>
 			</points>
 		</raidCommonalityFromPointsCurve>
 		<colorSpectrum>
 			<li>(0.35, 0.30, 0.60)</li>
 			<li>(0.45, 0.40, 0.90)</li>
-		</colorSpectrum>		
+		</colorSpectrum>
+		<fixedLeaderKinds>
+			<li>MousekinTraderGypsy</li>
+		</fixedLeaderKinds>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -590,9 +593,9 @@
 			</li>
 		</backstoryFilters>
 		<pawnGroupMakers>
-		
+
 			<!-- ===== Traders ===== -->
-			
+
 			<!-- Regular Caravan Trader -->
 			<li>
 				<kindDef>Trader</kindDef>
@@ -606,7 +609,7 @@
 					<!-- TodoL generic Gypsy folk? -->
 				</guards>
 			</li>
-		
+
 		</pawnGroupMakers>
 		<modExtensions>
 			<li Class="MousekinRace.FactionHelperExtension">
