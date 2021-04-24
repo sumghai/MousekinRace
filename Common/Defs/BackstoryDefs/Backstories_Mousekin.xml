@@ -3123,14 +3123,6 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -3225,14 +3217,6 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -3327,14 +3311,6 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
