@@ -72,8 +72,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<minGenerationAge>30</minGenerationAge>
-		<maxGenerationAge>70</maxGenerationAge>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -349,8 +349,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<minGenerationAge>18</minGenerationAge>
-		<maxGenerationAge>70</maxGenerationAge>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>60</maxGenerationAge>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
