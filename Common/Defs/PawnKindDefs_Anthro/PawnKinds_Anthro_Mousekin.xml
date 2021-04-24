@@ -474,6 +474,12 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>1.00</maleGenderProbability>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
 	<!-- Miscellaneous Mousekin NPCs -->
