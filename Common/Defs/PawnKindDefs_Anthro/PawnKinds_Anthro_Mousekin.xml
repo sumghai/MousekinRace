@@ -28,7 +28,7 @@
 			</li>
 		</backstoryFiltersOverride>
 		<defaultFactionType>Mousekin_PlayerFaction_Settlers</defaultFactionType>
-		<minGenerationAge>19</minGenerationAge>
+		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
 	</PawnKindDef>
 	
