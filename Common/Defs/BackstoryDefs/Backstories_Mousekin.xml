@@ -1795,7 +1795,7 @@
 		<titleShort>Butcher</titleShort>
 		<baseDescription>[PAWN_nameDef] owned a butcher's shop in a Mousekin village, and was particularly skilled at carving the best cuts of meat from various animals.\n\n[PAWN_pronoun] also made the best spiced pork sausages for kilometers around.</baseDescription>
 		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
+		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
@@ -2903,7 +2903,7 @@
 		<titleShort>Fishmonger</titleShort>
 		<baseDescription>[PAWN_nameDef] owned a fishmonger's stall in the market of a Mousekin village, offering the freshest fish and seafood at very affordable prices.\n\n[PAWN_pronoun] took great care to never reveal the secret of [PAWN_possessive] success: a trade network of Otters who helped [PAWN_objective] source high-quality seafood in exchange for shiny pebbles.</baseDescription>
 		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
+		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
