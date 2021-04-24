@@ -640,6 +640,19 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+		<pawnGroupMakers>
+			<!-- Raiding party - Melee & Ranged -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>100</commonality>
+				<options>
+					<MousekinRaider>5</MousekinRaider>
+				</options>
+			</li>
+		</pawnGroupMakers>
 		<modExtensions>
 			<li Class="MousekinRace.FactionHelperExtension">
 				<canSpawnSettlements>false</canSpawnSettlements>
