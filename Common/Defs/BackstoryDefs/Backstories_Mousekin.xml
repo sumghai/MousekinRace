@@ -1979,14 +1979,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Animals</defName>
@@ -2681,14 +2673,6 @@
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>70</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>70</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
@@ -2741,14 +2725,6 @@
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>70</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>70</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
@@ -2805,14 +2781,6 @@
 		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>70</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>70</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
@@ -2865,14 +2833,6 @@
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>70</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>70</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
@@ -2929,14 +2889,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>45</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>45</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
@@ -4344,14 +4296,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
@@ -4855,14 +4799,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Animals</defName>
@@ -5422,14 +5358,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>45</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>45</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
