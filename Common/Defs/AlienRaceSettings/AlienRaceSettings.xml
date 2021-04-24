@@ -27,10 +27,21 @@
 						</li>
 						<li>
 							<kindDefs>
+								<li>MousekinTradesman</li>
+							</kindDefs>
+							<chance>30.0</chance>
+						</li>
+						<li>
+							<kindDefs>
 								<li>MousekinPriest</li>
-								<li>MousekinNun</li>
 							</kindDefs>
 							<chance>10.0</chance>
+						</li>
+						<li>
+							<kindDefs>
+								<li>MousekinNun</li>
+							</kindDefs>
+							<chance>15.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
