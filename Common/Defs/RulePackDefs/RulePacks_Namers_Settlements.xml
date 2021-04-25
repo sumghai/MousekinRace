@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RulePackDef>
+		<defName>MousekinSettlementNameUtility</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix]</li>
+				<li>Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix]</li>
+				<li>Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix]</li>
+				<li>Settlement_Name->[Tree]bridge</li>
+				<li>Settlement_Name->[Metal]bridge</li>
+				<li>Settlement_Name->[Metal]forge</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>Herb->Words/Nouns/CommonHerbs</li>
+				<li>Flower->Words/Nouns/CommonFlowers</li>
+				<li>Tree->Words/Nouns/CommonTrees</li>
+				<li>Metal->Words/Nouns/Metals</li>
+				<li>Settlement_Name_Postfix->Words/Nouns/Settlement_Name_Postfix</li>
+				<li>Settlement_Type->Words/Nouns/Settlement_Types</li>
+				<li>Mousekin_LastName_Commoner->Names/Mousekin_Surname_Commoner</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSettlement_MousekinStandard</defName>
+		<include>
+			<li>MousekinSettlementNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[Settlement_Name]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSettlement_MousekinKingdom</defName>
+		<include>
+			<li>MousekinSettlementNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=10)->[Settlement_Name]</li>
+				<li>r_name->Whitefur's Keep</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSettlement_MousekinPlayerRefugees</defName>
+		<include>
+			<li>MousekinSettlementNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->New [Settlement_Name]</li>
+				<li>r_name->[Mousekin_LastName_Commoner]'s Rest</li>
+				<li>r_name->[Mousekin_LastName_Commoner]'s Sorrow</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSettlement_MousekinIndyTown</defName>
+		<include>
+			<li>MousekinSettlementNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->Free [Settlement_Type] of [Settlement_Name]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

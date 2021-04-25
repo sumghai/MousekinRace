@@ -46,7 +46,6 @@
 		</colorSpectrum>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -63,6 +62,7 @@
 		<label>New Mousekin Settlers</label>
 		<description>A newly-established hamlet of Mousekin settlers.</description>
 		<basicMemberKind>MousekinColonist</basicMemberKind>
+		<settlementNameMaker>NamerSettlement_MousekinStandard</settlementNameMaker>
 	</FactionDef>
 
 	<FactionDef ParentName="Mousekin_PlayerFactionBase">
@@ -70,6 +70,7 @@
 		<label>New Mousekin Refugees</label>
 		<description>A group of Mousekin who have lost their home village to Grimalkin invaders.</description>
 		<basicMemberKind>MousekinColonist</basicMemberKind>
+		<settlementNameMaker>NamerSettlement_MousekinPlayerRefugees</settlementNameMaker>
 	</FactionDef>
 
 	<!-- NPC Mousekin factions -->
@@ -100,7 +101,7 @@
 			<li>MousekinKnightCommander</li>
 		</fixedLeaderKinds>
 		<factionNameMaker>NamerFaction_MousekinKingdom</factionNameMaker>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>NamerSettlement_MousekinKingdom</settlementNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -471,7 +472,7 @@
 			<li>MousekinIndyTownCouncilor</li>
 		</fixedLeaderKinds>
 		<factionNameMaker>NamerFaction_MousekinIndyTown</factionNameMaker>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>NamerSettlement_MousekinIndyTown</settlementNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
