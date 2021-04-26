@@ -75,11 +75,12 @@
 					<useGenderedHeads>true</useGenderedHeads>
 					<useGenderedBodies>false</useGenderedBodies>
 					<!-- TODO: adjust as needed -->
-					<customDrawSize>(1.0, 1.0)</customDrawSize>
-					<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
-					<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
-					<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
-					<headOffset>(0.0, 0.0)</headOffset>
+					<customDrawSize>(0.9, 0.9)</customDrawSize>
+					<customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
+					<customPortraitDrawSize>(0.9, 0.9)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
+					<!--<headOffset>(0.0, -0.125)</headOffset>-->
+					<headOffset>(0.0, -0.175)</headOffset>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -148,7 +149,7 @@
 							<path>Things/Pawn/Mousekin/Ears/EarLeft</path>
 							<bodyPart>left ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<drawSize>1</drawSize>
+							<drawSize>0.9</drawSize>
 							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
 							<!-- TODO: add different graphics for fake cloth prosthetic ear -->
@@ -156,26 +157,26 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Thin>(-0.422,0.558)</Thin>
+										<Thin>(-0.422,0.384)</Thin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(-0.422,0.558)</Thin>
+										<Thin>(-0.422,0.384)</Thin>
 									</portraitBodyTypes>
 								</south>
 								<north>
 									<bodyTypes>
-										<Thin>(0,0.89)</Thin>
+										<Thin>(0,0.715)</Thin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(0,0.89)</Thin>
+										<Thin>(0,0.715)</Thin>
 									</portraitBodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<Thin>(-0.51,0.56)</Thin>
+										<Thin>(-0.51,0.384)</Thin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(-0.51,0.56)</Thin>
+										<Thin>(-0.51,0.384)</Thin>
 									</portraitBodyTypes>
 								</east>
 							</offsets>
@@ -187,7 +188,7 @@
 							<path>Things/Pawn/Mousekin/Ears/EarRight</path>
 							<bodyPart>right ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
-							<drawSize>1</drawSize>
+							<drawSize>0.9</drawSize>
 							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
 							<!-- TODO: add different graphics for fake cloth prosthetic ear -->
@@ -195,26 +196,26 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Thin>(-0.419,0.558)</Thin>
+										<Thin>(-0.418,0.384)</Thin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(-0.419,0.558)</Thin>
+										<Thin>(-0.418,0.384)</Thin>
 									</portraitBodyTypes>
 								</south>
 								<north>
 									<bodyTypes>
-										<Thin>(0,0.89)</Thin>
+										<Thin>(0,0.715)</Thin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(0,0.89)</Thin>
+										<Thin>(0,0.715)</Thin>
 									</portraitBodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<Thin>(-0.51,0.56)</Thin>
+										<Thin>(-0.51,0.384)</Thin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(-0.51,0.56)</Thin>
+										<Thin>(-0.51,0.384)</Thin>
 									</portraitBodyTypes>
 								</east>
 							</offsets>
