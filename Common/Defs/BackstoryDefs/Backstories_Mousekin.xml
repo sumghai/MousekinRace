@@ -4,7 +4,7 @@
 	<!-- ========== Backstory Bases ========== -->
 
 	<AlienRace.BackstoryDef Name="Mousekin_BackstoryBase" Abstract="True">
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<bodyTypeGlobal>Mousekin</bodyTypeGlobal>
 	</AlienRace.BackstoryDef>
 
 	<!-- ========== Childhood Backstories ========== -->

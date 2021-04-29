@@ -70,17 +70,14 @@
 						<li>Sleepy</li>
 					</aliencrowntypes>
 					<alienbodytypes>
-						<li>Thin</li>
+						<li>Mousekin</li>
 					</alienbodytypes>
 					<useGenderedHeads>true</useGenderedHeads>
 					<useGenderedBodies>false</useGenderedBodies>
-					<!-- TODO: adjust as needed -->
 					<customDrawSize>(0.9, 0.9)</customDrawSize>
 					<customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
 					<customPortraitDrawSize>(0.9, 0.9)</customPortraitDrawSize>
 					<customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
-					<!--<headOffset>(0.0, -0.125)</headOffset>-->
-					<headOffset>(0.0, -0.175)</headOffset>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -157,26 +154,26 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Thin>(-0.422,0.384)</Thin>
+										<Mousekin>(-0.422,0.384)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(-0.422,0.384)</Thin>
+										<Mousekin>(-0.422,0.384)</Mousekin>
 									</portraitBodyTypes>
 								</south>
 								<north>
 									<bodyTypes>
-										<Thin>(0,0.715)</Thin>
+										<Mousekin>(0,0.715)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(0,0.715)</Thin>
+										<Mousekin>(0,0.715)</Mousekin>
 									</portraitBodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<Thin>(-0.51,0.384)</Thin>
+										<Mousekin>(-0.51,0.384)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(-0.51,0.384)</Thin>
+										<Mousekin>(-0.51,0.384)</Mousekin>
 									</portraitBodyTypes>
 								</east>
 							</offsets>
@@ -196,26 +193,26 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Thin>(-0.418,0.384)</Thin>
+										<Mousekin>(-0.418,0.384)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(-0.418,0.384)</Thin>
+										<Mousekin>(-0.418,0.384)</Mousekin>
 									</portraitBodyTypes>
 								</south>
 								<north>
 									<bodyTypes>
-										<Thin>(0,0.715)</Thin>
+										<Mousekin>(0,0.715)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(0,0.715)</Thin>
+										<Mousekin>(0,0.715)</Mousekin>
 									</portraitBodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<Thin>(-0.51,0.384)</Thin>
+										<Mousekin>(-0.51,0.384)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Thin>(-0.51,0.384)</Thin>
+										<Mousekin>(-0.51,0.384)</Mousekin>
 									</portraitBodyTypes>
 								</east>
 							</offsets>
@@ -233,17 +230,17 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Thin>(-0.1,-0.2)</Thin>
+										<Mousekin>(-0.1,-0.2)</Mousekin>
 									</bodyTypes>
 								</south>
 								<north>
 									<bodyTypes>
-										<Thin>(0,-0.05)</Thin>
+										<Mousekin>(0,-0.05)</Mousekin>
 									</bodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<Thin>(0.02,-0.2)</Thin>
+										<Mousekin>(0.02,-0.2)</Mousekin>
 									</bodyTypes>
 								</east>
 							</offsets>
