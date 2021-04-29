@@ -230,17 +230,17 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Mousekin>(-0.1,-0.2)</Mousekin>
+										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
 								</south>
 								<north>
 									<bodyTypes>
-										<Mousekin>(0,-0.05)</Mousekin>
+										<Mousekin>(0,0.225)</Mousekin>
 									</bodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<Mousekin>(0.02,-0.2)</Mousekin>
+										<Mousekin>(-0.075,-0.11)</Mousekin>
 									</bodyTypes>
 								</east>
 							</offsets>
