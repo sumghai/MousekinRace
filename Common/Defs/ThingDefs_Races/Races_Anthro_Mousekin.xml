@@ -161,6 +161,7 @@
 									</portraitBodyTypes>
 								</south>
 								<north>
+									<layerOffset>-1</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0.715)</Mousekin>
 									</bodyTypes>
@@ -200,6 +201,7 @@
 									</portraitBodyTypes>
 								</south>
 								<north>
+									<layerOffset>-1</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0.715)</Mousekin>
 									</bodyTypes>
@@ -239,6 +241,7 @@
 									</bodyTypes>
 								</north>
 								<east>
+									<layerOffset>-1</layerOffset>
 									<bodyTypes>
 										<Mousekin>(-0.075,-0.11)</Mousekin>
 									</bodyTypes>
