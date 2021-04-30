@@ -146,6 +146,7 @@
 							<path>Things/Pawn/Mousekin/Ears/EarLeft</path>
 							<bodyPart>left ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
 							<drawSize>0.9</drawSize>
 							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
@@ -154,27 +155,27 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Mousekin>(-0.422,0.384)</Mousekin>
+										<Mousekin>(-0.422,0.219)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Mousekin>(-0.422,0.384)</Mousekin>
+										<Mousekin>(-0.422,0.219)</Mousekin>
 									</portraitBodyTypes>
 								</south>
 								<north>
 									<layerOffset>-1</layerOffset>
 									<bodyTypes>
-										<Mousekin>(0,0.715)</Mousekin>
+										<Mousekin>(0,0.55)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Mousekin>(0,0.715)</Mousekin>
+										<Mousekin>(0,0.55)</Mousekin>
 									</portraitBodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<Mousekin>(-0.42,0.384)</Mousekin>
+										<Mousekin>(-0.42,0.219)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Mousekin>(-0.42,0.384)</Mousekin>
+										<Mousekin>(-0.42,0.219)</Mousekin>
 									</portraitBodyTypes>
 								</east>
 							</offsets>
@@ -186,6 +187,7 @@
 							<path>Things/Pawn/Mousekin/Ears/EarRight</path>
 							<bodyPart>right ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
 							<drawSize>0.9</drawSize>
 							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
@@ -194,27 +196,27 @@
 							<offsets>
 								<south>
 									<bodyTypes>
-										<Mousekin>(-0.418,0.384)</Mousekin>
+										<Mousekin>(-0.418,0.219)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Mousekin>(-0.418,0.384)</Mousekin>
+										<Mousekin>(-0.418,0.219)</Mousekin>
 									</portraitBodyTypes>
 								</south>
 								<north>
 									<layerOffset>-1</layerOffset>
 									<bodyTypes>
-										<Mousekin>(0,0.715)</Mousekin>
+										<Mousekin>(0,0.55)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Mousekin>(0,0.715)</Mousekin>
+										<Mousekin>(0,0.55)</Mousekin>
 									</portraitBodyTypes>
 								</north>
 								<east>
 									<bodyTypes>
-										<Mousekin>(-0.42,0.384)</Mousekin>
+										<Mousekin>(-0.42,0.219)</Mousekin>
 									</bodyTypes>
 									<portraitBodyTypes>
-										<Mousekin>(-0.42,0.384)</Mousekin>
+										<Mousekin>(-0.42,0.219)</Mousekin>
 									</portraitBodyTypes>
 								</east>
 							</offsets>
