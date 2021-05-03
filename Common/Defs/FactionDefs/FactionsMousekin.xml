@@ -453,6 +453,17 @@
 			</li>
 
 		</pawnGroupMakers>
+		<modExtensions>
+			<li Class="MousekinRace.FactionHelperExtension">
+				<startingGoodwillByFactionDefs>
+					<Mousekin_FactionIndyTown>-100~-80</Mousekin_FactionIndyTown>
+					<Mousekin_FactionGypsy>30~40</Mousekin_FactionGypsy>
+				</startingGoodwillByFactionDefs>
+				<rivalFactionTypes>
+					<li>Mousekin_FactionIndyTown</li>
+				</rivalFactionTypes>
+			</li>
+		</modExtensions>
 	</FactionDef>
 
 	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
@@ -571,6 +582,16 @@
 			</li>
 
 		</pawnGroupMakers>
+		<modExtensions>
+			<li Class="MousekinRace.FactionHelperExtension">
+				<startingGoodwillByFactionDefs>					
+					<Mousekin_FactionGypsy>40~50</Mousekin_FactionGypsy>
+				</startingGoodwillByFactionDefs>
+				<rivalFactionTypes>
+					<li>Mousekin_FactionKingdom</li>
+				</rivalFactionTypes>
+			</li>
+		</modExtensions>
 	</FactionDef>
 
 	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
