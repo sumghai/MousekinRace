@@ -456,10 +456,12 @@
 		<modExtensions>
 			<li Class="MousekinRace.FactionHelperExtension">
 				<startingGoodwillByFactionDefs>
+					<Mousekin_FactionKingdom>-20~20</Mousekin_FactionKingdom>
 					<Mousekin_FactionIndyTown>-100~-80</Mousekin_FactionIndyTown>
 					<Mousekin_FactionGypsy>30~40</Mousekin_FactionGypsy>
 				</startingGoodwillByFactionDefs>
 				<rivalFactionTypes>
+					<li>Mousekin_FactionKingdom</li>
 					<li>Mousekin_FactionIndyTown</li>
 				</rivalFactionTypes>
 			</li>
