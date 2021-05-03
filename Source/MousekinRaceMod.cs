@@ -35,11 +35,13 @@ namespace MousekinRace
         [HarmonyPatch(typeof(Faction), nameof(Faction.TryMakeInitialRelationsWith))]
         static class Faction_TryMakeInitialRelationsWith_SetCustomRelationsBetweenNpcFactions
         {
+            // Helper function to fetch the faction's FactionHelperExtension, if it exists
             static FactionHelperExtension GetExtensionFor(Faction f)
             {
                 return f.def.GetModExtension<FactionHelperExtension>();
             }
 
+            // Helper function that calculates the minimum of two nullable integers
             static int MinOfNullableInts(int? num1, int? num2)
             {
                 if (num1.HasValue && num2.HasValue)
@@ -62,26 +64,24 @@ namespace MousekinRace
                 var currentFactionExt = GetExtensionFor(__instance);
                 var otherFactionExt = GetExtensionFor(other);
 
+                // If no relations already exist between factions, and at least one of the factions references the other
+                // via custom values in the FactionHelperExtension
                 if ((__instance.RelationWith(other, allowNull: true) == null) && ((currentFactionExt?.startingGoodwillByFactionDefs.Exists(x => x.factionDef == other.def) ?? false) || (otherFactionExt?.startingGoodwillByFactionDefs.Exists(x => x.factionDef == __instance.def) ?? false)))
                 {
+                    // Get the lowest range of goodwill possible between factions
                     int? currentToOtherFactionGoodwillMin = currentFactionExt.startingGoodwillByFactionDefs.Find(x => x.factionDef == other.def)?.Min ?? null;
                     int? currentToOtherFactionGoodwillMax = currentFactionExt.startingGoodwillByFactionDefs.Find(x => x.factionDef == other.def)?.Max ?? null;
                     int? otherToCurrentFactionGoodwillMin = otherFactionExt.startingGoodwillByFactionDefs.Find(x => x.factionDef == __instance.def)?.Min ?? null;
                     int? otherToCurrentFactionGoodwillMax = otherFactionExt.startingGoodwillByFactionDefs.Find(x => x.factionDef == __instance.def)?.Max ?? null;
-                    Log.Warning(currentToOtherFactionGoodwillMin + ", "
-                            + currentToOtherFactionGoodwillMax + ", "
-                            + otherToCurrentFactionGoodwillMin + ", "
-                            + otherToCurrentFactionGoodwillMax
-                        );
 
                     int mutualGoodwillMin = MinOfNullableInts(currentToOtherFactionGoodwillMin, otherToCurrentFactionGoodwillMin);
 
                     int mutualGoodwillMax = MinOfNullableInts(currentToOtherFactionGoodwillMax, otherToCurrentFactionGoodwillMax);
 
-                    Log.Warning(__instance + "(" + __instance.def + ")" + " and " + other + "(" + other.def + ") have custom starting goodwill ranges! (" + mutualGoodwillMin + "~" + mutualGoodwillMax + ")");
-
+                    // Generate a random goodwill value within the range
                     int finalMutualGoodWill = Rand.RangeInclusive(mutualGoodwillMin, mutualGoodwillMax);
 
+                    // Assign mutual faction relations
                     FactionRelationKind kind = (finalMutualGoodWill > -10) ? ((finalMutualGoodWill < 75) ? FactionRelationKind.Neutral : FactionRelationKind.Ally) : FactionRelationKind.Hostile;
                     FactionRelation factionRelation = new FactionRelation
                     {
@@ -106,18 +106,6 @@ namespace MousekinRace
                  * if ((currentFactionExt?.rivalFactionTypes.Contains(other.def) ?? false) || (otherFactionExt?.rivalFactionTypes.Contains(__instance.def) ?? false))
                 {
                     Log.Warning(__instance + " (" + __instance.def.label + ") and " + other + " (" + other.def.label + ") are rivals!");
-
-                    FactionRelationKind kind = FactionRelationKind.Hostile;
-                    FactionRelation factionRelation = new FactionRelation();
-                    factionRelation.other = other;
-                    factionRelation.goodwill = -80;
-                    factionRelation.kind = kind;
-                    __instance.relations.Add(factionRelation);
-                    FactionRelation factionRelation2 = new FactionRelation();
-                    factionRelation2.other = __instance;
-                    factionRelation2.goodwill = -80;
-                    factionRelation2.kind = kind;
-                    other.relations.Add(factionRelation2);
 
                     return false;
                 }*/
