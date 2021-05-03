@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>NewRatkinPlus</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<!--<success>Always</success>-->
+			<operations>
+
+				<!--
+					Set player and NPC faction relations between Ratkins and Mousekins 
+					
+					- Mousekins are generally uncomfortable with Ratkins for having cross-dressing males, while Ratkins generally hold Mousekins in contempt for their short height
+					
+					- This is further exemplified by the rivalry between Mousekin and Ratkin Kingdoms, as both have competing claims over the right to rule over all humanoid rodentkinds; in particular, the Mousekin Kingdom clergy consider Ratkins "heretics" for their unnatural genetically-engineered human-rat nature, while Ratkins believe their human-ness makes them superior to Mousekins
+					
+					- On the other hand, Ratkins are relatively friendlier towards Independent Mousekins and Rodemani Gypsies, as the latter Mousekins do not agree with the Mousekin Kingdom's church doctrine
+					
+					- Faction tensions aside, individual Mousekins and Ratkins are not xenophobic towards each other, to allow players to decide whether or not to get involved in the feud
+				-->
+
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/FactionDef[
+						defName="Rakinia" or
+						defName="RK_PlayerFaction"
+					]/modExtensions</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/FactionDef[
+							defName="Rakinia" or
+							defName="RK_PlayerFaction"
+						]</xpath>
+						<value>
+							<modExtensions />
+						</value>
+					</nomatch>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[
+						defName="Rakinia" or
+						defName="RK_PlayerFaction"
+					]/modExtensions</xpath>
+					<value>
+						<li Class="MousekinRace.FactionHelperExtension">
+							<startingGoodwillByFactionDefs>
+								<Mousekin_FactionKingdom>-90~-80</Mousekin_FactionKingdom>
+								<Mousekin_FactionIndyTown>10~20</Mousekin_FactionIndyTown>
+								<Mousekin_FactionGypsy>10~20</Mousekin_FactionGypsy>
+							</startingGoodwillByFactionDefs>
+							<rivalFactionTypes>
+								<li>Mousekin_FactionKingdom</li>
+							</rivalFactionTypes>
+						</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

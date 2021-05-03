@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Otter Pirates</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<!--<success>Always</success>-->
+			<operations>
+
+				<!--
+					Set player and NPC faction relations between Otters and Mousekins 
+					
+					Otters are fairly pretty chill when dealing with various Mousekin factions, but are noticeably friendlier towards the Mousekin Kingdom faction; it is said that back when the current Mousekin King was only a prince, he owed his life to a group of Otters that saved him from drowning during an ill-advised attempt to circumnavigate the planet in a flimsy Mousekin coracle, and he rewarded them handsomely with annual payments of shiny pebbles to this very day
+				-->
+
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/FactionDef[
+						defName="OtterPirate" or
+						defName="OtterPlayer"
+					]/modExtensions</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/FactionDef[
+							defName="OtterPirate" or
+							defName="OtterPlayer"
+						]</xpath>
+						<value>
+							<modExtensions />
+						</value>
+					</nomatch>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[
+						defName="OtterPirate" or
+						defName="OtterPlayer"
+					]/modExtensions</xpath>
+					<value>
+						<li Class="MousekinRace.FactionHelperExtension">
+							<startingGoodwillByFactionDefs>
+								<Mousekin_FactionKingdom>40~60</Mousekin_FactionKingdom>
+								<Mousekin_FactionIndyTown>30~40</Mousekin_FactionIndyTown>
+								<Mousekin_FactionGypsy>30~40</Mousekin_FactionGypsy>
+							</startingGoodwillByFactionDefs>
+						</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
