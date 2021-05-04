@@ -76,8 +76,8 @@
 	<!-- NPC Mousekin factions -->
 
 	<FactionDef Abstract="True" Name="Mousekin_AlliableNpcFactionBase" ParentName="Mousekin_FactionBase">
-		<!-- Generally speaking, Mousekins communities don't trust other factions easily, but are fairly loyal once you successfully befriend them -->
-		<goodwillDailyGain>0.10</goodwillDailyGain>
+		<!-- Generally speaking, Mousekins communities don't trust other factions easily, but are fairly loyal once you successfully befriend them.
+		     However, players have to actively maintain the relationship, or it will eventually fall back down to their natural goodwill range. -->
 		<goodwillDailyFall>0.10</goodwillDailyFall>
 	</FactionDef>
 
