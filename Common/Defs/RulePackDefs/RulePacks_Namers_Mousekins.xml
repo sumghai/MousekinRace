@@ -5,14 +5,17 @@
 		<defName>MousekinNamePackUtility</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>Mousekin_FirstName_Male->[mousekin_firstname_male]</li>
-				<li>Mousekin_FirstName_Female->[mousekin_firstname_female]</li>
+				<li>Mousekin_FirstName_Male(p=10)->[mousekin_firstname_male]</li>
+				<li>Mousekin_FirstName_Male(p=1)->[mousekin_firstname_unisex]</li>
+				<li>Mousekin_FirstName_Female(p=10)->[mousekin_firstname_female]</li>
+				<li>Mousekin_FirstName_Female(p=1)->[mousekin_firstname_unisex]</li>
 				<li>Mousekin_LastName_Commoner->[mousekin_surname_commoner]</li>
 				<li>Mousekin_LastName_Exotic->[mousekin_surname_exotic]</li>
 			</rulesStrings>
 			<rulesFiles>
 				<li>mousekin_firstname_male->Names/Mousekin_Firstname_Male</li>
 				<li>mousekin_firstname_female->Names/Mousekin_Firstname_Female</li>
+				<li>mousekin_firstname_unisex->Names/Mousekin_Firstname_Unisex</li>
 				<li>mousekin_surname_commoner->Names/Mousekin_Surname_Commoner</li>
 				<li>mousekin_surname_exotic->Names/Mousekin_Surname_Exotic</li>
 			</rulesFiles>
