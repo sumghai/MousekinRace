@@ -69,10 +69,10 @@ namespace MousekinRace
                 if ((__instance.RelationWith(other, allowNull: true) == null) && ((currentFactionExt?.startingGoodwillByFactionDefs.Exists(x => x.factionDef == other.def) ?? false) || (otherFactionExt?.startingGoodwillByFactionDefs.Exists(x => x.factionDef == __instance.def) ?? false)))
                 {
                     // Get the lowest range of goodwill possible between factions
-                    int? currentToOtherFactionGoodwillMin = currentFactionExt.startingGoodwillByFactionDefs.Find(x => x.factionDef == other.def)?.Min ?? null;
-                    int? currentToOtherFactionGoodwillMax = currentFactionExt.startingGoodwillByFactionDefs.Find(x => x.factionDef == other.def)?.Max ?? null;
-                    int? otherToCurrentFactionGoodwillMin = otherFactionExt.startingGoodwillByFactionDefs.Find(x => x.factionDef == __instance.def)?.Min ?? null;
-                    int? otherToCurrentFactionGoodwillMax = otherFactionExt.startingGoodwillByFactionDefs.Find(x => x.factionDef == __instance.def)?.Max ?? null;
+                    int? currentToOtherFactionGoodwillMin = currentFactionExt?.startingGoodwillByFactionDefs?.Find(x => x.factionDef == other.def)?.Min ?? null;
+                    int? currentToOtherFactionGoodwillMax = currentFactionExt?.startingGoodwillByFactionDefs?.Find(x => x.factionDef == other.def)?.Max ?? null;
+                    int? otherToCurrentFactionGoodwillMin = otherFactionExt?.startingGoodwillByFactionDefs?.Find(x => x.factionDef == __instance.def)?.Min ?? null;
+                    int? otherToCurrentFactionGoodwillMax = otherFactionExt?.startingGoodwillByFactionDefs?.Find(x => x.factionDef == __instance.def)?.Max ?? null;
 
                     int mutualGoodwillMin = MinOfNullableInts(currentToOtherFactionGoodwillMin, otherToCurrentFactionGoodwillMin);
 
