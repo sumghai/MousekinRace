@@ -44,6 +44,8 @@
 					<value>
 						<li Class="MousekinRace.FactionHelperExtension">
 							<startingGoodwillByFactionDefs>
+								<Mousekin_PlayerFaction_Settlers>0~5</Mousekin_PlayerFaction_Settlers>
+								<Mousekin_PlayerFaction_Refugees>0~5</Mousekin_PlayerFaction_Refugees>
 								<Mousekin_FactionKingdom>-90~-80</Mousekin_FactionKingdom>
 								<Mousekin_FactionIndyTown>10~20</Mousekin_FactionIndyTown>
 								<Mousekin_FactionGypsy>10~20</Mousekin_FactionGypsy>
