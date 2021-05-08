@@ -21,6 +21,11 @@
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
 		</li>
 		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+		<li>
 			<packageId>showhair.kv.rw</packageId>
 			<displayName>[KV] Show Hair With Hats or Hide All Hats</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=1180826364</steamWorkshopUrl>
@@ -30,6 +35,7 @@
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 		<li>erdelf.HumanoidAlienRaces</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>showhair.kv.rw</li>
 	</loadAfter>
 </ModMetaData>
