@@ -315,14 +315,14 @@
 			<ComfyTemperatureMax>32</ComfyTemperatureMax>
 			<ImmunityGainSpeed>1.10</ImmunityGainSpeed>
 			<PainShockThreshold>0.75</PainShockThreshold>
-			<MeleeDodgeChance>1.20</MeleeDodgeChance>
+			<MeleeDodgeChance>1.50</MeleeDodgeChance>
 			<AimingDelayFactor>1.35</AimingDelayFactor>
 			<NegotiationAbility>0.75</NegotiationAbility>
 			<SocialImpact>0.9</SocialImpact>
-			<MiningSpeed>1.2</MiningSpeed>
+			<MiningSpeed>1.5</MiningSpeed>
 			<ResearchSpeed>0.8</ResearchSpeed>
 			<PlantWorkSpeed>1.5</PlantWorkSpeed>
-			<HuntingStealth>1.2</HuntingStealth>
+			<HuntingStealth>1.5</HuntingStealth>
 			<ConstructionSpeed>0.85</ConstructionSpeed>
 		</statBases>
 		<tools>
@@ -331,14 +331,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>5</power>
+				<power>6</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Scratch</def>
-							<amount>7</amount>
+							<amount>8</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -348,14 +348,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>5</power>
+				<power>6</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Scratch</def>
-							<amount>7</amount>
+							<amount>8</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -365,14 +365,14 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>10</power>
+				<power>12</power>
 				<cooldownTime>1.4</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Bite</def>
-							<amount>12</amount>
+							<amount>14</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
