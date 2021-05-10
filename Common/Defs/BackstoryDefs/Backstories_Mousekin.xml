@@ -426,6 +426,76 @@
 			<li>MousekinGuardener</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Childhood_GuardenerApprenticeNoble</defName>
+		<title>Noble Apprentice Guardener</title>
+		<titleShort>Apprentice Guardener</titleShort>
+		<baseDescription>Born into a wealthy noble family, [PAWN_nameDef]'s mother arranged for [PAWN_objective] bo be blessed by a Guardener, a member of an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom - simply so that she could brag about it to other Mousekin noblewomen.\n\nHowever, much to [PAWN_possessive] family's dismay, [PAWN_nameDef] decided to follow through on the blessing after [PAWN_possessive] tenth birthday, and was accepted as an Apprentice at the Guardener Lodge of a nearby village.\n\n[PAWN_pronoun] trained just as diligently as apprentices from commoner families, and impressed others with [PAWN_possessive] refined and graceful ways.</baseDescription>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Beauty</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>Kind</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+		</disallowedTraits>
+		<spawnCategories>
+			<li>MousekinGuardener</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_GuardenerApprenticeOrphan</defName>
