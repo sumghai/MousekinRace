@@ -299,8 +299,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FactionDefStartingGoodwill.cs" />
-    <Compile Include="FactionHelperExtension.cs" />
     <Compile Include="MousekinRaceMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

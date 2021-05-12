@@ -36,7 +36,7 @@
 						defName="OtterPlayer"
 					]/modExtensions</xpath>
 					<value>
-						<li Class="MousekinRace.FactionHelperExtension">
+						<li Class="VFECore.FactionDefExtension">
 							<startingGoodwillByFactionDefs>
 								<Mousekin_FactionKingdom>40~60</Mousekin_FactionKingdom>
 								<Mousekin_FactionIndyTown>30~40</Mousekin_FactionIndyTown>

@@ -454,7 +454,7 @@
 
 		</pawnGroupMakers>
 		<modExtensions>
-			<li Class="MousekinRace.FactionHelperExtension">
+			<li Class="VFECore.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<Mousekin_PlayerFaction_Settlers>10~20</Mousekin_PlayerFaction_Settlers>
 					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>
@@ -462,10 +462,6 @@
 					<Mousekin_FactionIndyTown>-100~-80</Mousekin_FactionIndyTown>
 					<Mousekin_FactionGypsy>30~40</Mousekin_FactionGypsy>
 				</startingGoodwillByFactionDefs>
-				<rivalFactionTypes>
-					<li>Mousekin_FactionKingdom</li>
-					<li>Mousekin_FactionIndyTown</li>
-				</rivalFactionTypes>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -587,15 +583,12 @@
 
 		</pawnGroupMakers>
 		<modExtensions>
-			<li Class="MousekinRace.FactionHelperExtension">
+			<li Class="VFECore.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<Mousekin_PlayerFaction_Settlers>10~20</Mousekin_PlayerFaction_Settlers>
 					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>				
 					<Mousekin_FactionGypsy>40~50</Mousekin_FactionGypsy>
 				</startingGoodwillByFactionDefs>
-				<rivalFactionTypes>
-					<li>Mousekin_FactionKingdom</li>
-				</rivalFactionTypes>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -656,7 +649,7 @@
 
 		</pawnGroupMakers>
 		<modExtensions>
-			<li Class="MousekinRace.FactionHelperExtension">
+			<li Class="KCSG.FactionSettlement">
 				<canSpawnSettlements>false</canSpawnSettlements>
 			</li>
 		</modExtensions>
@@ -707,7 +700,7 @@
 			</li>
 		</pawnGroupMakers>
 		<modExtensions>
-			<li Class="MousekinRace.FactionHelperExtension">
+			<li Class="KCSG.FactionSettlement">
 				<canSpawnSettlements>false</canSpawnSettlements>
 			</li>
 		</modExtensions>

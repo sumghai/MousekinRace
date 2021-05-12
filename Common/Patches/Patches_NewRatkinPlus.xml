@@ -31,7 +31,7 @@
 							defName="RK_PlayerFaction"
 						]</xpath>
 						<value>
-							<modExtensions />
+							<modExtensions/>
 						</value>
 					</nomatch>
 				</li>
@@ -42,7 +42,7 @@
 						defName="RK_PlayerFaction"
 					]/modExtensions</xpath>
 					<value>
-						<li Class="MousekinRace.FactionHelperExtension">
+						<li Class="VFECore.FactionDefExtension">
 							<startingGoodwillByFactionDefs>
 								<Mousekin_PlayerFaction_Settlers>0~5</Mousekin_PlayerFaction_Settlers>
 								<Mousekin_PlayerFaction_Refugees>0~5</Mousekin_PlayerFaction_Refugees>
@@ -50,9 +50,6 @@
 								<Mousekin_FactionIndyTown>10~20</Mousekin_FactionIndyTown>
 								<Mousekin_FactionGypsy>10~20</Mousekin_FactionGypsy>
 							</startingGoodwillByFactionDefs>
-							<rivalFactionTypes>
-								<li>Mousekin_FactionKingdom</li>
-							</rivalFactionTypes>
 						</li>
 					</value>
 				</li>
