@@ -290,6 +290,11 @@
 			<raceRestriction>
 				<!-- TODO: Restrict the following apparel for Mousekin wear only -->
 				<apparelList/>
+				<blackApparelList>
+					<!-- There are no Mousekin tribals, and Mousekins have their own race-specific medieval plate armor -->
+					<li>Apparel_TribalA</li>
+					<li>Apparel_PlateArmor</li>
+				</blackApparelList>
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
 
 				<!-- TODO: Restrict the following weapons for Mousekin use only -->
