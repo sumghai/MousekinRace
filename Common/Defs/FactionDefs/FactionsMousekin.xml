@@ -79,6 +79,14 @@
 		<!-- Generally speaking, Mousekins communities don't trust other factions easily, but are fairly loyal once you successfully befriend them.
 		     However, players have to actively maintain the relationship, or it will eventually fall back down to their natural goodwill range. -->
 		<goodwillDailyFall>0.10</goodwillDailyFall>
+		<modExtensions>
+			<li Class="VFECore.FactionDefExtension">
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>TemperateForest</li>
+				</allowedBiomes>
+			</li>
+		</modExtensions>
 	</FactionDef>
 
 	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
