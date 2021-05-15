@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Add worn graphic paths for pants and flak pants, using a conditional test to ensure compatibility with third-party mods like [XND] Visible Pants -->
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Apparel_Pants"]/apparel/wornGraphicPath</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Apparel_Pants"]/apparel</xpath>
+					<value>
+						<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</wornGraphicPath>
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Apparel_FlakPants"]/apparel/wornGraphicPath</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Apparel_FlakPants"]/apparel</xpath>
+					<value>
+						<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakPants/FlakPants</wornGraphicPath>
+					</value>
+				</nomatch>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>
