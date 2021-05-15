@@ -1091,7 +1091,7 @@
 		<defName>Mousekin_Childhood_Orphan</defName>
 		<title>Orphan</title>
 		<titleShort>Orphan</titleShort>
-		<baseDescription>After [PAWN_possessive] parents both died in a tragic workplace accident, [PAWN_nameDef] was raised in an orphanage as a Mousekin pup.\n\nDue to a misunderstanding and despite the best efforts of the orphanage workers, [PAWN_pronoun] was constantly bullied by the other children, and so [PAWN_pronoun] grew to prefer the company of books, plants and the orphanage's pet mouse to other Mousekins.</baseDescription>
+		<baseDescription>After [PAWN_possessive] parents both died in a tragic workplace accident, [PAWN_nameDef] was raised in an orphanage as a Mousekin pup.\n\nDue to a misunderstanding and despite the best efforts of the orphanage workers, [PAWN_pronoun] was constantly bullied by the other children, and so [PAWN_pronoun] grew to prefer the company of books, plants and the orphanage's pet Pudgemouse to other Mousekins.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
