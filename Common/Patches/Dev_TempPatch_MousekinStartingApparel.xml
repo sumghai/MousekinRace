@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Temporarily define apparel tag for all Mousekin PawnKinds - this allows the third-party Character Editor mod to spawn new Mousekins properly -->
+			<!-- The patch will be removed once all PawnKinds are given proper Mousekin apparel -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[@Name="Mousekin_BasePawnKind"]</xpath>
+				<value>
+					<apparelTags>
+						<li>IndustrialBasic</li>
+					</apparelTags>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>
