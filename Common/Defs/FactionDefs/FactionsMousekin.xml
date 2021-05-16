@@ -7,8 +7,6 @@
 		<pawnSingular>Mousekin</pawnSingular>
 		<pawnsPlural>Mousekins</pawnsPlural>
 		<techLevel>Medieval</techLevel>
-		<pawnNameMaker>NamerPerson_MousekinMale</pawnNameMaker>
-		<pawnNameMakerFemale>NamerPerson_MousekinFemale</pawnNameMakerFemale>
 		<startingResearchTags>
 			<li>MousekinStartingResearch</li>
 		</startingResearchTags>

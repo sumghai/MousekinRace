@@ -389,6 +389,8 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>100</lifeExpectancy>
+			<nameGenerator>NamerPerson_MousekinMale</nameGenerator>
+			<nameGeneratorFemale>NamerPerson_MousekinFemale</nameGeneratorFemale>
 			<!-- TODO: Replace with Mousekin fur -->
 			<leatherDef>Leather_Light</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
