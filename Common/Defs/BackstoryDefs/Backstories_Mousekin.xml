@@ -4488,14 +4488,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>30</min>
-			<max>70</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>30</min>
-			<max>70</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Social</defName>
