@@ -288,14 +288,40 @@
 				<relationChanceModifierSibling>1</relationChanceModifierSibling>
 			</relationSettings>
 			<raceRestriction>
-				<!-- TODO: Restrict the following apparel for Mousekin wear only -->
-				<apparelList/>
-				<blackApparelList>
-					<!-- There are no Mousekin tribals, and Mousekins have their own race-specific medieval plate armor -->
-					<li>Apparel_TribalA</li>
-					<li>Apparel_PlateArmor</li>
-				</blackApparelList>
-				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+				<apparelList>
+					<!-- TODO: Mousekin faction apparel -->
+				</apparelList>
+				<whiteApparelList>
+					<!-- Core apparel (There are no Mousekin tribals, and Mousekins have their own race-specific medieval plate armor) -->
+					<li>Apparel_AdvancedHelmet</li>
+					<li>Apparel_ArmorHelmetRecon</li>
+					<li>Apparel_ArmorRecon</li>
+					<li>Apparel_BasicShirt</li>
+					<li>Apparel_BowlerHat</li>
+					<li>Apparel_CollarShirt</li>
+					<li>Apparel_CowboyHat</li>
+					<li>Apparel_Duster</li>
+					<li>Apparel_FlakJacket</li>
+					<li>Apparel_FlakPants</li>
+					<li>Apparel_FlakVest</li>
+					<li>Apparel_Jacket</li>
+					<li>Apparel_Pants</li>
+					<li>Apparel_Parka</li>
+					<li>Apparel_PowerArmor</li>
+					<li>Apparel_PowerArmorHelmet</li>
+					<li>Apparel_PsychicFoilHelmet</li>
+					<li>Apparel_PsychicInsanityLance</li>
+					<li>Apparel_PsychicShockLance</li>
+					<li>Apparel_ShieldBelt</li>
+					<li>Apparel_SimpleHelmet</li>
+					<li>Apparel_SmokepopBelt</li>
+					<li>Apparel_Tuque</li>
+					<li>OrbitalTargeterBombardment</li>
+					<li>OrbitalTargeterPowerBeam</li>
+					<li>TornadoGenerator</li>
+					<!-- TODO: Royalty DLC apparel -->
+				</whiteApparelList>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 
 				<!-- TODO: Restrict the following weapons for Mousekin use only -->
 				<weaponList/>
