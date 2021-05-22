@@ -16,6 +16,34 @@
 	</ThoughtDef>
 
 	<ThoughtDef>
+		<defName>Mousekin_Thought_AteHumanlikeMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate cooked human meat</label>
+				<description>Huh. Who knew cooked human meat tastes like pork tenderloin?</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteHumanlikeMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate raw human meat</label>
+				<description>Ew, it tastes like raw pork!</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
 		<defName>Mousekin_Thought_AteKibble</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
@@ -25,6 +53,40 @@
 				<label>ate kibble</label>
 				<description>I had to eat animal kibble, like a filthy, primitive rat.</description>
 				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteMousekinMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>cooked cannibalism</label>
+				<description>My meal was made from the cooked meat of my brethren! Valerian forgive me, for I have sinned!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteMousekinMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>raw cannibalism</label>
+				<description>I ate the raw flesh of my brethren! Valerian forgive me, for I have sinned!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -68,6 +130,39 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ButcheredHumanCorpse</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>I butchered human corpse</label>
+				<description>Huh, these tall, furless monkeys have such strange bones and meat.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ButcheredMousekinCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>I butchered another Mousekin</label>
+				<description>I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 	<ThoughtDef>
 		<defName>Mousekin_Thought_ColonistLeftUnburied</defName>
@@ -107,6 +202,37 @@
 				<label>buried in sarcophagus</label>
 				<description>We buried someone in an ornamented sarcophagus. May their soul rest forever in The Great Garden.</description>
 				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_KnowButcheredHumanCorpse</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>we butchered human corpse</label>
+				<description>We butchered up a human. Apparently, they have really tiny ears, stiff ribs and long leg bones. How do they hear anything, squeeze through small gaps, and not fall over all the time?</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_KnowButcheredMousekinCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>we butchered another Mousekin</label>
+				<description>We butchered up one of our brethren like an animal. Now we'll never be allowed into The Great Garden!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

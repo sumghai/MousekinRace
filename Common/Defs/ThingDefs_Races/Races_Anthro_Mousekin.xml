@@ -438,7 +438,7 @@
 					<li>
 						<original>SleptOutside</original>
 						<replacer>Mousekin_Thought_SleptOutside</replacer>
-					</li>				
+					</li>
 				</replacerList>
 				<cannotReceiveThoughts>
 					<li>EnvironmentDark</li>
@@ -446,7 +446,38 @@
 				</cannotReceiveThoughts>
 				<!-- TODO: Add Mousekin-only thoughts -->
 				<restrictedThoughts/>
-				<!-- TODO: Add custom thoughts of Mousekins eating other sapient races (both Mousekin and non-Mousekin) -->
+				<butcherThoughtSpecific>
+					<li>
+						<raceList>
+							<li>Human</li>
+						</raceList>
+						<thought>Mousekin_Thought_ButcheredHumanCorpse</thought>
+						<knowThought>Mousekin_Thought_KnowButcheredHumanCorpse</knowThought>
+					</li>
+					<li>
+						<raceList>
+							<li>Mousekin</li>
+						</raceList>
+						<thought>Mousekin_Thought_ButcheredMousekinCorpse</thought>
+						<knowThought>Mousekin_Thought_KnowButcheredMousekinCorpse</knowThought>
+					</li>
+				</butcherThoughtSpecific>
+				<ateThoughtSpecific>
+					<li>
+						<raceList>
+							<li>Human</li>
+						</raceList>
+						<thought>Mousekin_Thought_AteHumanlikeMeatDirect</thought>
+						<ingredientThought>Mousekin_Thought_AteHumanlikeMeatAsIngredient</ingredientThought>
+					</li>
+					<li>
+						<raceList>
+							<li>Mousekin</li>
+						</raceList>
+						<thought>Mousekin_Thought_AteMousekinMeatDirect</thought>
+						<ingredientThought>Mousekin_Thought_AteMousekinMeatAsIngredient</ingredientThought>
+					</li>
+				</ateThoughtSpecific>
 			</thoughtSettings>
 			<relationSettings>
 				<!-- Most Mousekins mate for life, and divorces are unheard of in Mousekin society -->
