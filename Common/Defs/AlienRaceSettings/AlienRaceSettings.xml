@@ -11,18 +11,6 @@
 							<kindDefs>
 								<li>MousekinColonist</li>
 							</kindDefs>
-							<chance>20.0</chance>
-						</li>
-						<li>
-							<kindDefs>
-								<li>MousekinPeasant</li>
-							</kindDefs>
-							<chance>50.0</chance>
-						</li>
-						<li>
-							<kindDefs>
-								<li>MousekinGuardener</li>
-							</kindDefs>
 							<chance>30.0</chance>
 						</li>
 						<li>
@@ -33,15 +21,21 @@
 						</li>
 						<li>
 							<kindDefs>
+								<li>MousekinGuardener</li>
+							</kindDefs>
+							<chance>15.0</chance>
+						</li>						
+						<li>
+							<kindDefs>
+								<li>MousekinPeasant</li>
+							</kindDefs>
+							<chance>15.0</chance>
+						<li>
+							<kindDefs>
 								<li>MousekinPriest</li>
 							</kindDefs>
 							<chance>10.0</chance>
 						</li>
-						<li>
-							<kindDefs>
-								<li>MousekinNun</li>
-							</kindDefs>
-							<chance>15.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
