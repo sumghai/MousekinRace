@@ -5,6 +5,12 @@
 
 	<AlienRace.BackstoryDef Name="Mousekin_BackstoryBase" Abstract="True">
 		<bodyTypeGlobal>Mousekin</bodyTypeGlobal>
+		<forcedTraits>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
 	</AlienRace.BackstoryDef>
 
 	<!-- ========== Childhood Backstories ========== -->
@@ -177,7 +183,6 @@
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
 			<li>MousekinTrader</li>
-			<li>MousekinTraderGypsy</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -412,6 +417,10 @@
 				<degree>1</degree>
 				<chance>50</chance>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+				<chance>60</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -482,6 +491,10 @@
 				<defName>Kind</defName>
 				<chance>100</chance>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+				<chance>60</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -539,6 +552,10 @@
 				<degree>1</degree>
 				<chance>25</chance>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+				<chance>60</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -586,6 +603,17 @@
 				<amount>-1</amount>
 			</li>
 		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+			</li>
+		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinTraderGypsy</li>
 			<li>MousekinTraderSlaver</li>
@@ -739,6 +767,10 @@
 				<defName>Brawler</defName>
 				<chance>50</chance>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+				<chance>75</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -795,6 +827,12 @@
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Artistic</li>
@@ -850,6 +888,12 @@
 			<li>
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
+			</li>			
+			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 		</disallowedTraits>
 		<workDisables>
@@ -1682,6 +1726,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+				<chance>100</chance>
+			</li>
+			<li>
 				<defName>ShootingAccuracy</defName>
 				<degree>1</degree>
 				<chance>50</chance>
@@ -1702,6 +1750,9 @@
 			</li>
 			<li>
 				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 		</disallowedTraits>
 		<workDisables>
@@ -2406,6 +2457,9 @@
 				<defName>Bloodlust</defName>
 			</li>
 			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+			</li>
+			<li>
 				<defName>Tough</defName>
 			</li>
 			<li>
@@ -2490,6 +2544,9 @@
 			<li>
 				<defName>Brawler</defName>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Artistic</li>
@@ -2552,6 +2609,9 @@
 		<disallowedTraits>
 			<li>
 				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 		</disallowedTraits>
 		<workDisables>
@@ -3528,6 +3588,10 @@
 				<defName>Kind</defName>
 				<chance>50</chance>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+				<chance>50</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -3543,6 +3607,9 @@
 			<li>
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 			<li>
 				<defName>Psychopath</defName>
@@ -3598,6 +3665,10 @@
 				<defName>Kind</defName>
 				<chance>50</chance>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+				<chance>50</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -3613,6 +3684,9 @@
 			<li>
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 			<li>
 				<defName>Psychopath</defName>
@@ -3677,6 +3751,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+				<chance>50</chance>
+			</li>
+			<li>
 				<defName>Nerves</defName>
 				<degree>2</degree>
 				<chance>25</chance>
@@ -3705,6 +3783,9 @@
 			<li>
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 			<li>
 				<defName>Psychopath</defName>
@@ -3992,6 +4073,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+				<chance>100</chance>
+			</li>
+			<li>
 				<defName>Tough</defName>
 				<chance>75</chance>
 			</li>
@@ -4050,6 +4135,10 @@
 			<li>
 				<defName>Brawler</defName>
 				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Tough</defName>
@@ -4434,6 +4523,10 @@
 				<defName>Kind</defName>
 				<chance>100</chance>
 			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+				<chance>100</chance>
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -4516,6 +4609,10 @@
 			</li>
 			<li>
 				<defName>Kind</defName>
+				<chance>100</chance>
+			</li>			
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
@@ -4961,6 +5058,12 @@
 				<defName>Jealous</defName>
 			</li>
 			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
+			</li>
+			<li>
 				<defName>Psychopath</defName>
 			</li>
 			<li>
@@ -5032,6 +5135,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+				<chance>50</chance>
+			</li>
+			<li>
 				<defName>Psychopath</defName>
 				<chance>100</chance>
 			</li>
@@ -5042,6 +5149,9 @@
 			</li>
 			<li>
 				<defName>Kind</defName>
+			</li>
+			<li>
+				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 			<li>
 				<defName>Wimp</defName>

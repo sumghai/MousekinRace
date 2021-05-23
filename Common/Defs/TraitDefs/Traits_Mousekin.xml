@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraitDef>
+		<defName>Mousekin_Trait_Atheist</defName>
+		<commonality>0.001</commonality>
+		<degreeDatas>
+			<li>
+				<label>atheist</label>
+				<description>[PAWN_nameDef] has no use for religious superstition, and would prefer to focus on living [PAWN_possessive] life to the fullest, rather than worrying about being judged for an imaginary afterlife.</description>
+			</li>
+		</degreeDatas>
+		<exclusionTags>
+			<li>Mousekin_TraitSpectrum_Faith</li>
+		</exclusionTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Mousekin_Trait_Pious</defName>
+		<commonality>0.001</commonality>
+		<degreeDatas>
+			<li>
+				<label>pious</label>
+				<description>[PAWN_nameDef] is a devout follower of the teachings of Valerian the Wise, and believes that pious, industrious Mousekins who perform good deeds and respect the sanctity of their bodies will be rewarded with a peaceful afterlife in The Great Garden. [PAWN_pronoun] will work harder than most of [PAWN_possessive] fellow Mousekins, and press on even under the greatest of hardships.</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.50</WorkSpeedGlobal>
+					<PainShockThreshold>0.10</PainShockThreshold>
+					<MentalBreakThreshold>-0.20</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<exclusionTags>
+			<li>Mousekin_TraitSpectrum_Faith</li>
+		</exclusionTags>
+		<conflictingTraits>
+			<li>Abrasive</li>
+			<li>Bisexual</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+			<li>Gay</li>
+			<li>Gourmand</li>
+			<li>Greedy</li>
+			<li>Jealous</li>
+			<li>Psychopath</li>
+			<li>Pyromaniac</li>
+			<li>Nerves</li>
+			<li>Wimp</li>
+		</conflictingTraits>
+	</TraitDef>
+
+</Defs>
