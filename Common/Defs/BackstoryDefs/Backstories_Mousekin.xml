@@ -216,6 +216,7 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
@@ -1289,12 +1290,13 @@
 			</li>
 		</disallowedTraits>
 		<relationSettings>
-			<!-- We never meet his/her parents, and he/she is an only -->
+			<!-- We never meet his/her parents, and he/she is an only child -->
 			<relationChanceModifierParent>0</relationChanceModifierParent>
 			<relationChanceModifierSibling>0</relationChanceModifierSibling>
 		</relationSettings>
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
+			<li>MousekinDoctor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -1355,6 +1357,7 @@
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
+			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinIndyTownSoldier</li>
 			<li>MousekinMusketeer</li>
@@ -1405,6 +1408,7 @@
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
+			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinIndyTownSoldier</li>
 			<li>MousekinMusketeer</li>
@@ -1514,6 +1518,7 @@
 			<relationChanceModifierSibling>0</relationChanceModifierSibling>
 		</relationSettings>
 		<spawnCategories>
+			<li>MousekinDoctor</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
 			<li>MousekinPriest</li>
@@ -1574,6 +1579,7 @@
 		</forcedTraits>
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
+			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinIndyTownSoldier</li>
 			<li>MousekinMusketeer</li>
@@ -1635,6 +1641,7 @@
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
+			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinIndyTownSoldier</li>
 			<li>MousekinMusketeer</li>
@@ -2574,17 +2581,9 @@
 		<title>City Doctor</title>
 		<titleShort>Doctor</titleShort>
 		<baseDescription>After many years of study, [PAWN_nameDef] became a doctor working in a bustling Mousekin city.\n\nMost of [PAWN_possessive] patients were nobles and other wealthy Mousekins, afflicted with heart and kidney diseases caused by their rich diets and lack of physical labor.\n\nOccassionally, [PAWN_pronoun] performed minor cosmetic operations for idle Mousekin ladies that wanted to appear more attractive to their spouses - [PAWN_pronoun] was particularly skilled in repairing damaged ears.</baseDescription>
-		<maleCommonality>10</maleCommonality>
+		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>30</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>30</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Medicine</defName>
@@ -2594,6 +2593,10 @@
 				<defName>Social</defName>
 				<amount>4</amount>
 			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>8</amount>
+			</li>
 		</skillGains>
 		<forcedTraits>
 			<li>
@@ -2623,7 +2626,7 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
+			<li>MousekinDoctor</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -2633,20 +2636,16 @@
 		<titleShort>Doctor</titleShort>
 		<baseDescription>After many years of study, [PAWN_nameDef] became a doctor working in a Mousekin village.\n\n[PAWN_pronoun] typically treated villagers for cuts, scrapes, bruises and broken bones from workplace and farmland accidents, as well as cases of Ear Rot caused by Mousekins not cleaning their ears regularly.\n\n[PAWN_pronoun] also made house calls to nearby hamlets that were too small to have their own doctors.</baseDescription>
 		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
+		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>30</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>30</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Medicine</defName>
 				<amount>10</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>8</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -2677,7 +2676,7 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
+			<li>MousekinDoctor</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
