@@ -677,6 +677,19 @@
 	</ThoughtDef>
 	
 	<ThoughtDef>
+		<defName>Mousekin_Thought_PiousSharedFaith</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_PiousSharedFaith</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Mousekin_Thought_PiousVsAtheist</defName>
 		<thoughtClass>Thought_SituationalSocial</thoughtClass>
 		<workerClass>MousekinRace.ThoughtWorker_PiousVsAtheist</workerClass>
