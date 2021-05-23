@@ -220,11 +220,15 @@
 				<amount>8</amount>
 			</li>
 		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Mousekin_Trait_Atheist</defName>
+				<chance>10</chance>
+			</li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
-			<li>MousekinNun</li>
-			<li>MousekinPriest</li>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
