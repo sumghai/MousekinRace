@@ -675,6 +675,19 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_PiousVsAtheist</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_PiousVsAtheist</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>pious vs atheist</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 	<ThoughtDef>
 		<defName>Mousekin_Thought_ReleasedHealthyPrisoner</defName>
