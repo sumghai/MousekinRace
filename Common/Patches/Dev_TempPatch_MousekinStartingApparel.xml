@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 
-			<!-- Temporarily define apparel tag for all Mousekin PawnKinds - this allows the third-party Character Editor mod to spawn new Mousekins properly -->
+			<!-- Temporarily define generic starting apparel for all Mousekin PawnKinds - this allows the third-party Character Editor mod to spawn new Mousekins properly -->
 			<!-- The patch will be removed once all PawnKinds are given proper Mousekin apparel -->
 
 			<li Class="PatchOperationAdd">
@@ -13,6 +13,8 @@
 					<apparelTags>
 						<li>IndustrialBasic</li>
 					</apparelTags>
+					<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+					<apparelMoney>350~600</apparelMoney>
 				</value>
 			</li>
 
