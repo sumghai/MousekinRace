@@ -53,7 +53,7 @@
 		</backstoryFilters>
 	</FactionDef>
 
-	<!-- Playable Mousekine Settler and Refugee factions -->
+	<!-- Playable Mousekin Settler and Refugee factions -->
 
 	<FactionDef ParentName="Mousekin_PlayerFactionBase">
 		<defName>Mousekin_PlayerFaction_Settlers</defName>
