@@ -24,7 +24,7 @@
 			<li>
 				<label>ate cooked human meat</label>
 				<description>Huh. Who knew cooked human meat tastes like pork tenderloin?</description>
-				<baseMoodEffect>0</baseMoodEffect>
+				<baseMoodEffect>1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -140,7 +140,7 @@
 			<li>
 				<label>I butchered human corpse</label>
 				<description>Huh, these tall, furless monkeys have such strange bones and meat.</description>
-				<baseMoodEffect>0</baseMoodEffect>
+				<baseMoodEffect>1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -214,7 +214,7 @@
 			<li>
 				<label>we butchered human corpse</label>
 				<description>We butchered up a human. Apparently, they have really tiny ears, stiff ribs and long leg bones. How do they hear anything, squeeze through small gaps, and not fall over all the time?</description>
-				<baseMoodEffect>0</baseMoodEffect>
+				<baseMoodEffect>1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
