@@ -2698,11 +2698,15 @@
 		<defName>Mousekin_Adulthood_DoctorVillage</defName>
 		<title>Village Doctor</title>
 		<titleShort>Doctor</titleShort>
-		<baseDescription>After many years of study, [PAWN_nameDef] became a doctor working in a Mousekin village.\n\n[PAWN_pronoun] typically treated villagers for cuts, scrapes, bruises and broken bones from workplace and farmland accidents, as well as cases of Ear Rot caused by Mousekins not cleaning their ears regularly.\n\n[PAWN_pronoun] also made house calls to nearby hamlets that were too small to have their own doctors.</baseDescription>
+		<baseDescription>After many years of study, [PAWN_nameDef] became a doctor working in a Mousekin village.\n\n[PAWN_pronoun] typically treated villagers for cuts, scrapes, bruises and broken bones from workplace and farmland accidents, as well as cases of Ear Rot caused by Mousekins not cleaning their ears regularly.\n\n[PAWN_pronoun] also made house calls to nearby hamlets that were too small to have their own doctors, and ocassionally even treated pets and farm animals, due to the rarity of dedicated veterinarians in Mousekin society.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<skillGains>
+		<skillGains>			
+			<li>
+				<defName>Animals</defName>
+				<amount>5</amount>
+			</li>
 			<li>
 				<defName>Medicine</defName>
 				<amount>10</amount>
