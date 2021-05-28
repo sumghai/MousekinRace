@@ -24,25 +24,52 @@
 					<method>Standing</method>
 				</li>
 
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>2000</count>
+				</li>
+
 				<!-- TODO: replace with Mousekin Trail Mix -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MealSurvivalPack</thingDef>
 					<count>80</count>
 				</li>
-				
+
+				<!-- TODO: replace with Mousekin poultice -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>20</count>
+				</li>
+
+				<!-- TODO: replace with Mousekin crossbow -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Bow_Recurve</thingDef>
+					<count>2</count>
+				</li>
+
+				<!-- TODO: replace with Mousekin Guardener's sword -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Gladius</thingDef>
+					<count>2</count>
+				</li>
+
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>WoodLog</thingDef>
 					<count>300</count>
 				</li>
-				
+
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Steel</thingDef>
 					<count>400</count>
 				</li>
-				
+
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
 					<text>Today is the day!\n\nAfter months of scouting, your friends have finally found a good plot of land to call your own. Perhaps you'll grow hedges of the most delicious nuts, build the most impressive lodges housing hundreds of your fellow Mousekins, or maybe plant a beautiful flower garden that will draw visitors from all over the kingdom.\n\nBidding goodbye to your families, you and your friends set out on an adventure of a lifetime.</text>
@@ -76,19 +103,46 @@
 					<method>Standing</method>
 				</li>
 
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>500</count>
+				</li>
+
 				<!-- TODO: replace with Mousekin Trail Mix -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MealSurvivalPack</thingDef>
 					<count>20</count>
 				</li>
-				
+
+				<!-- TODO: replace with Mousekin poultice -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>10</count>
+				</li>
+
+				<!-- TODO: replace with Mousekin crossbow -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Bow_Recurve</thingDef>
+					<count>1</count>
+				</li>
+
+				<!-- TODO: replace with Mousekin dagger -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<count>2</count>
+				</li>
+
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>WoodLog</thingDef>
 					<count>300</count>
 				</li>
-				
+
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>Steel</thingDef>
