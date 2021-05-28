@@ -304,6 +304,7 @@
     <Compile Include="Patches\Temp_Harmony_PawnBioAndNameGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThoughtWorker_PiousSharedFaith.cs" />
+    <Compile Include="ThoughtWorker_WearingMousekinFurApparel.cs" />
     <Compile Include="ThoughtWorker_PiousVsAtheist.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>

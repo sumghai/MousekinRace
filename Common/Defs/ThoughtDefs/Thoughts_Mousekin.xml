@@ -770,5 +770,18 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_WearingMousekinFurApparel</defName>
+		<workerClass>MousekinRace.ThoughtWorker_WearingMousekinFurApparel</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>wearing Mousekin fur apparel</label>
+				<description>I'm wearing clothes made from the fur of my brethren! Valerian forgive me, for I have sinned!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 </Defs>
