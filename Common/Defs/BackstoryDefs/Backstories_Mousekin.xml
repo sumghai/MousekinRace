@@ -124,7 +124,7 @@
 			</li>
 			<li>
 				<defName>Crafting</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -167,15 +167,15 @@
 		<skillGains>
 			<li>
 				<defName>Animals</defName>
-				<amount>3</amount>
+				<amount>2</amount>
 			</li>
 			<li>
 				<defName>Social</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<amount>1</amount>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -213,11 +213,11 @@
 			</li>
 			<li>
 				<defName>Social</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>8</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -252,7 +252,7 @@
 			</li>
 			<li>
 				<defName>Crafting</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Social</defName>
@@ -299,7 +299,7 @@
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -348,7 +348,7 @@
 			</li>
 			<li>
 				<defName>Crafting</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -391,11 +391,11 @@
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
-				<amount>3</amount>
+				<amount>2</amount>
 			</li>
 			<li>
 				<defName>Melee</defName>
-				<amount>4</amount>
+				<amount>3</amount>
 			</li>
 			<li>
 				<defName>Mining</defName>
@@ -403,11 +403,7 @@
 			</li>
 			<li>
 				<defName>Plants</defName>
-				<amount>6</amount>
-			</li>
-			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -452,11 +448,11 @@
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
-				<amount>3</amount>
+				<amount>2</amount>
 			</li>
 			<li>
 				<defName>Melee</defName>
-				<amount>4</amount>
+				<amount>3</amount>
 			</li>
 			<li>
 				<defName>Mining</defName>
@@ -464,15 +460,15 @@
 			</li>
 			<li>
 				<defName>Plants</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Social</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>8</amount>
+				<amount>3</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -530,7 +526,7 @@
 			</li>
 			<li>
 				<defName>Melee</defName>
-				<amount>5</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Mining</defName>
@@ -538,11 +534,7 @@
 			</li>
 			<li>
 				<defName>Plants</defName>
-				<amount>6</amount>
-			</li>
-			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -592,11 +584,11 @@
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
-				<amount>3</amount>
+				<amount>2</amount>
 			</li>
 			<li>
 				<defName>Animals</defName>
-				<amount>3</amount>
+				<amount>2</amount>
 			</li>
 			<li>
 				<defName>Social</defName>
@@ -635,7 +627,7 @@
 		<skillGains>
 			<li>
 				<defName>Social</defName>
-				<amount>6</amount>
+				<amount>3</amount>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -700,7 +692,7 @@
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Plants</defName>
@@ -712,7 +704,7 @@
 			</li>
 			<li>
 				<defName>Crafting</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -755,7 +747,7 @@
 		<skillGains>
 			<li>
 				<defName>Melee</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Animals</defName>
@@ -763,7 +755,7 @@
 			</li>
 			<li>
 				<defName>Social</defName>
-				<amount>6</amount>
+				<amount>3</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -974,7 +966,7 @@
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 			<li>
 				<defName>Mining</defName>
@@ -990,7 +982,7 @@
 			</li>
 			<li>
 				<defName>Crafting</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -1035,11 +1027,11 @@
 		<skillGains>
 			<li>
 				<defName>Social</defName>
-				<amount>8</amount>
+				<amount>6</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>8</amount>
+				<amount>6</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -1091,11 +1083,11 @@
 		<skillGains>
 			<li>
 				<defName>Social</defName>
-				<amount>6</amount>
+				<amount>5</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>8</amount>
+				<amount>5</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -1191,11 +1183,11 @@
 		<skillGains>
 			<li>
 				<defName>Social</defName>
-				<amount>10</amount>
+				<amount>6</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>10</amount>
+				<amount>6</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -1255,7 +1247,7 @@
 			</li>
 			<li>
 				<defName>Crafting</defName>
-				<amount>6</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -1302,11 +1294,11 @@
 			</li>
 			<li>
 				<defName>Social</defName>
-				<amount>3</amount>
+				<amount>2</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>3</amount>
+				<amount>2</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -1370,15 +1362,15 @@
 		<skillGains>
 			<li>
 				<defName>Animals</defName>
-				<amount>5</amount>
+				<amount>3</amount>
 			</li>
 			<li>
 				<defName>Medicine</defName>
-				<amount>2</amount>
+				<amount>1</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<amount>1</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -1602,11 +1594,11 @@
 			</li>
 			<li>
 				<defName>Social</defName>
-				<amount>4</amount>
+				<amount>3</amount>
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>6</amount>
+				<amount>3</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
@@ -1658,7 +1650,7 @@
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<amount>2</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
