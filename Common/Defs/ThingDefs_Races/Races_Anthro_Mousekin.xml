@@ -536,6 +536,8 @@
 					<li>TornadoGenerator</li>
 					<!-- TODO: Royalty DLC apparel -->
 				</whiteApparelList>
+				<!-- If true, will prevent Prepare Carefully's apparel picker from working at all
+					 If false, will allow Prepare Carefully's apparel picker to work, but also allow players to pick unsupported apparel for Mousekins -->
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 
 				<!-- TODO: Restrict the following weapons for Mousekin use only -->
