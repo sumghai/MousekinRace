@@ -12,7 +12,12 @@
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<apparelColor>(255,255,255)</apparelColor>
+		<!--<apparelColor>(255,255,255)</apparelColor>-->
+		<apparelTags>
+			<li>MousekinStartingColonist</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>350~600</apparelMoney>
 	</PawnKindDef>
 
 	<!-- Player starting colonists -->
