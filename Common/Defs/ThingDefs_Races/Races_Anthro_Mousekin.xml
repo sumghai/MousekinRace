@@ -450,10 +450,17 @@
 					</li>
 				</replacerList>
 				<cannotReceiveThoughts>
+					<li>AteHumanlikeMeatAsIngredient</li>
+					<li>AteHumanlikeMeatAsIngredientCannibal</li>
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteHumanlikeMeatDirectCannibal</li>
+					<li>AteRawHumanlikeMeat</li>
+					<li>ButcheredHumanlikeCorpse</li>
 					<li>ButcheredHumanlikeCorpseOpinion</li>
 					<li>EnvironmentDark</li>
 					<li>HumanLeatherApparelHappy</li>
 					<li>HumanLeatherApparelSad</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
 					<li>NeedOutdoors</li>
 				</cannotReceiveThoughts>
 				<!-- TODO: Add Mousekin-only thoughts -->
