@@ -92,6 +92,34 @@
 	</ThoughtDef>
 
 	<ThoughtDef>
+		<defName>Mousekin_Thought_AteRatkinMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate cooked Ratkin meat</label>
+				<description>Ugh, cooking did nothing to remove the stench of dead rat in this meat.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteRatkinMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate raw Ratkin meat</label>
+				<description>Tastes like rancid pork. Yuck!</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
 		<defName>Mousekin_Thought_AteRawFood</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
@@ -165,6 +193,20 @@
 	</ThoughtDef>
 
 	<ThoughtDef>
+		<defName>Mousekin_Thought_ButcheredRatkinCorpse</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>I butchered Ratkin corpse</label>
+				<description>Half monkey, half rat...what a strange creature!</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
 		<defName>Mousekin_Thought_ColonistLeftUnburied</defName>
 		<workerClass>ThoughtWorker_ColonistLeftUnburied</workerClass>
 		<nullifyingTraits>
@@ -233,6 +275,19 @@
 				<label>we butchered another Mousekin</label>
 				<description>We butchered up one of our brethren like an animal. Now we'll never be allowed into The Great Garden!</description>
 				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_KnowButcheredRatkinCorpse</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>we butchered Ratkin corpse</label>
+				<description>We butchered up a Ratkin. These half-monkey, half-rat creatures are so strange!</description>
+				<baseMoodEffect>1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

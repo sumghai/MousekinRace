@@ -52,6 +52,38 @@
 						</li>
 					</value>
 				</li>
+				
+				<!-- 
+					Add custom thoughts for Mousekins butchering and/or eating Ratkins
+				-->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/thoughtSettings/butcherThoughtSpecific</xpath>
+					<value>
+						<li>
+							<raceList>
+								<li>Ratkin</li>
+								<li>Ratkin_Su</li>
+							</raceList>
+							<thought>Mousekin_Thought_ButcheredRatkinCorpse</thought>
+							<knowThought>Mousekin_Thought_KnowButcheredRatkinCorpse</knowThought>
+						</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/thoughtSettings/ateThoughtSpecific</xpath>
+					<value>
+						<li>
+							<raceList>
+								<li>Ratkin</li>
+								<li>Ratkin_Su</li>
+							</raceList>
+							<thought>Mousekin_Thought_AteRatkinMeatDirect</thought>
+							<ingredientThought>Mousekin_Thought_AteRatkinMeatAsIngredient</ingredientThought>
+							</li>
+					</value>
+				</li>
 
 			</operations>
 		</match>
