@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Mousekin_Apparel</defName>
+		<label>Mousekin apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Mousekin_Headgear</defName>
+		<label>Mousekin headgear</label>
+		<parent>Headgear</parent>
+	</ThingCategoryDef>
+
+</Defs>

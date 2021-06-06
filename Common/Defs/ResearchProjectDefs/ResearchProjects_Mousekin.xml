@@ -1,8 +1,28 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ResearchProjectTagDef>
 		<defName>MousekinStartingResearch</defName>
 	</ResearchProjectTagDef>
+
+	<ResearchProjectDef Name="Mousekin_ResearchBase" Abstract="true">
+		<tab>Mousekin_Tech</tab>
+		<techLevel>Medieval</techLevel>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchApparel</defName>
+		<label>Mousekin Apparel</label>
+		<description>Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners.</description>
+		<baseCost>400</baseCost>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<tags>
+			<li>MousekinStartingResearch</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
 
 </Defs>

@@ -504,7 +504,8 @@
 			</relationSettings>
 			<raceRestriction>
 				<apparelList>
-					<!-- TODO: Mousekin faction apparel -->
+					<li>Mousekin_ApparelSettlerOutfit</li>
+					<li>Mousekin_ApparelSettlerDress</li>
 				</apparelList>
 				<whiteApparelList>
 					<!-- Core apparel (There are no Mousekin tribals, and Mousekins have their own race-specific medieval plate armor) -->
