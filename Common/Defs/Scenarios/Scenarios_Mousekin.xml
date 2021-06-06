@@ -29,6 +29,20 @@
 					<thingDef>Silver</thingDef>
 					<count>2000</count>
 				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_ApparelSettlerOutfit</thingDef>
+					<stuff>Cloth</stuff>
+					<count>2</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_ApparelSettlerDress</thingDef>
+					<stuff>Cloth</stuff>
+					<count>2</count>
+				</li>
 
 				<!-- TODO: replace with Mousekin Trail Mix -->
 				<li Class="ScenPart_StartingThing_Defined">
