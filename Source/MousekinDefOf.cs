@@ -8,7 +8,6 @@ namespace MousekinRace
     {
         public static ThingDef Mousekin;
 
-        public static TraitDef Mousekin_Trait_Atheist;
-        public static TraitDef Mousekin_Trait_Pious;
+        public static TraitDef Mousekin_TraitSpectrum_Faith;
     }
 }

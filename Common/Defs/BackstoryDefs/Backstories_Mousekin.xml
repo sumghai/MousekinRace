@@ -5,10 +5,34 @@
 
 	<AlienRace.BackstoryDef Name="Mousekin_BackstoryBase" Abstract="True">
 		<bodyTypeGlobal>Mousekin</bodyTypeGlobal>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef Name="Mousekin_BackstoryAdulthoodBase" ParentName="Mousekin_BackstoryBase" Abstract="True">
+		<!-- Mousekins only gain a particular religious affinity once they reach adulthood, as children are too young to have been indoctrinated -->
 		<forcedTraits>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-				<chance>30</chance>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+				<chance>20</chance>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+				<chance>20</chance>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+				<chance>40</chance>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+				<chance>20</chance>
 			</li>
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
@@ -220,12 +244,6 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
-			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
-				<chance>10</chance>
-			</li>
-		</forcedTraits>
 		<spawnCategories>
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
@@ -417,10 +435,6 @@
 				<degree>1</degree>
 				<chance>50</chance>
 			</li>
-			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-				<chance>60</chance>
-			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -491,10 +505,6 @@
 				<defName>Kind</defName>
 				<chance>100</chance>
 			</li>
-			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-				<chance>60</chance>
-			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -537,7 +547,7 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Industriousness</defName>
 				<degree>2</degree>
@@ -547,10 +557,6 @@
 				<defName>Industriousness</defName>
 				<degree>1</degree>
 				<chance>25</chance>
-			</li>
-			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-				<chance>60</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -599,17 +605,6 @@
 				<amount>-1</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
-			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
-				<chance>50</chance>
-			</li>
-		</forcedTraits>
-		<disallowedTraits>
-			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-			</li>
-		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinTraderGypsy</li>
 			<li>MousekinTraderSlaver</li>
@@ -763,10 +758,6 @@
 				<defName>Brawler</defName>
 				<chance>50</chance>
 			</li>
-			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-				<chance>75</chance>
-			</li>
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
@@ -823,12 +814,6 @@
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
 			</li>
-			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
-			</li>
-			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Artistic</li>
@@ -884,12 +869,6 @@
 			<li>
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
-			</li>			
-			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
-			</li>
-			<li>
-				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 		</disallowedTraits>
 		<workDisables>
@@ -1698,7 +1677,7 @@
 
 	<!-- ========== Adulthood Backstories ========== -->
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_AbandonedSoldier</defName>
 		<title>Abandoned soldier</title>
 		<titleShort>Abandoned</titleShort>
@@ -1712,7 +1691,7 @@
 				<amount>5</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Abrasive</defName>
 				<chance>50</chance>
@@ -1722,7 +1701,9 @@
 				<chance>50</chance>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
 				<chance>100</chance>
 			</li>
 			<li>
@@ -1742,14 +1723,26 @@
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
-				<defName>Kind</defName>
-			</li>
-			<li>
 				<defName>Brawler</defName>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
+				<defName>Kind</defName>
 			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>			
 		</disallowedTraits>
 		<workDisables>
 			<li>Artistic</li>
@@ -1771,7 +1764,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Alchemist</defName>
 		<title>Alchemist</title>
 		<titleShort>Alchemist</titleShort>
@@ -1818,7 +1811,7 @@
 		<linkedBackstory>Mousekin_Childhood_AlchemistApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Ambassador</defName>
 		<title>Ambassador</title>
 		<titleShort>Ambassador</titleShort>
@@ -1844,6 +1837,21 @@
 			<li>
 				<defName>Abrasive</defName>
 			</li>
+			<li>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Cleaning</li>
@@ -1864,7 +1872,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Blacksmith</defName>
 		<title>Blacksmith</title>
 		<titleShort>Blacksmith</titleShort>
@@ -1910,7 +1918,7 @@
 		<linkedBackstory>Mousekin_Childhood_BlacksmithApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Butcher</defName>
 		<title>Butcher</title>
 		<titleShort>Butcher</titleShort>
@@ -1935,7 +1943,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Butler</defName>
 		<title>Butler</title>
 		<titleShort>Butler</titleShort>
@@ -1993,6 +2001,11 @@
 				<degree>-2</degree>
 			</li>
 			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
+			<li>
 				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraits>
@@ -2012,7 +2025,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_CaravanMerchant</defName>
 		<title>Caravan merchant</title>
 		<titleShort>Merchant</titleShort>
@@ -2060,6 +2073,21 @@
 			<li>
 				<defName>Brawler</defName>
 			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+			</li>
+			<li>
+				<!-- Inquisitional -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinTrader</li>
@@ -2067,7 +2095,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_CavyBreeder</defName>
 		<title>Giant Cavy Breeder</title>
 		<titleShort>Breeder</titleShort>
@@ -2087,7 +2115,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_ChefHead</defName>
 		<title>Head chef</title>
 		<titleShort>Chef</titleShort>
@@ -2144,7 +2172,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_ChefPastry</defName>
 		<title>Pastry chef</title>
 		<titleShort>Chef</titleShort>
@@ -2201,7 +2229,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_ChefSous</defName>
 		<title>Sous chef</title>
 		<titleShort>Chef</titleShort>
@@ -2258,7 +2286,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Cobbler</defName>
 		<title>Cobbler</title>
 		<titleShort>Cobbler</titleShort>
@@ -2306,7 +2334,7 @@
 		<linkedBackstory>Mousekin_Childhood_CobblerApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Cook</defName>
 		<title>Line cook</title>
 		<titleShort>Cook</titleShort>
@@ -2363,7 +2391,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Cooper</defName>
 		<title>Cooper</title>
 		<titleShort>Cooper</titleShort>
@@ -2415,7 +2443,7 @@
 		<linkedBackstory>Mousekin_Childhood_CooperApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_DeserterCoward</defName>
 		<title>Cowardly Deserter</title>
 		<titleShort>Deserter</titleShort>
@@ -2452,8 +2480,20 @@
 			<li>
 				<defName>Bloodlust</defName>
 			</li>
+				<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
 			</li>
 			<li>
 				<defName>Tough</defName>
@@ -2491,7 +2531,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_DeserterGreedy</defName>
 		<title>Greedy Deserter</title>
 		<titleShort>Deserter</titleShort>
@@ -2541,7 +2581,19 @@
 				<defName>Brawler</defName>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
 			</li>
 		</disallowedTraits>
 		<workDisables>
@@ -2564,7 +2616,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_DestituteFarmer</defName>
 		<title>Destitute farmer</title>
 		<titleShort>Destitute</titleShort>
@@ -2607,7 +2659,19 @@
 				<defName>Brawler</defName>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
 			</li>
 		</disallowedTraits>
 		<workDisables>
@@ -2632,7 +2696,7 @@
 		<linkedBackstory>Mousekin_Childhood_VillageChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_DoctorCity</defName>
 		<title>City Doctor</title>
 		<titleShort>Doctor</titleShort>
@@ -2675,6 +2739,11 @@
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
 			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>ManualDumb</li>
@@ -2686,7 +2755,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_DoctorVillage</defName>
 		<title>Village Doctor</title>
 		<titleShort>Doctor</titleShort>
@@ -2729,6 +2798,11 @@
 				<defName>Industriousness</defName>
 				<degree>-2</degree>
 			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>ManualDumb</li>
@@ -2740,7 +2814,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_FarmerCrops</defName>
 		<title>Crop Farmer</title>
 		<titleShort>Farmer</titleShort>
@@ -2792,7 +2866,7 @@
 		<linkedBackstory>Mousekin_Childhood_HamletChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_FarmerFruit</defName>
 		<title>Fruit Farmer</title>
 		<titleShort>Farmer</titleShort>
@@ -2848,7 +2922,7 @@
 		<linkedBackstory>Mousekin_Childhood_TownChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_FarmerNuts</defName>
 		<title>Nut Farmer</title>
 		<titleShort>Farmer</titleShort>
@@ -2900,7 +2974,7 @@
 		<linkedBackstory>Mousekin_Childhood_VillageChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_FarmerVegetables</defName>
 		<title>Vegetable Farmer</title>
 		<titleShort>Farmer</titleShort>
@@ -2956,7 +3030,7 @@
 		<linkedBackstory>Mousekin_Childhood_VillageChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Farmhand</defName>
 		<title>Farmhand</title>
 		<titleShort>Farmhand</titleShort>
@@ -3012,7 +3086,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Fishmonger</defName>
 		<title>Fishmonger</title>
 		<titleShort>Fishmonger</titleShort>
@@ -3041,7 +3115,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Footman</defName>
 		<title>Footman</title>
 		<titleShort>Footman</titleShort>
@@ -3095,6 +3169,11 @@
 				<degree>-2</degree>
 			</li>
 			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
+			<li>
 				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraits>
@@ -3114,7 +3193,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_GovtMinister</defName>
 		<title>Government Minister</title>
 		<titleShort>Minister</titleShort>
@@ -3161,6 +3240,16 @@
 				<defName>Industriousness</defName>
 				<degree>2</degree>
 			</li>
+			<li>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Cleaning</li>
@@ -3180,7 +3269,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_GuardenerCity</defName>
 		<title>City Guardener</title>
 		<titleShort>Guardener</titleShort>
@@ -3214,7 +3303,7 @@
 				<amount>6</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Beauty</defName>
 				<degree>1</degree>
@@ -3223,6 +3312,12 @@
 			<li>
 				<defName>Kind</defName>
 				<chance>50</chance>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+				<chance>60</chance>
 			</li>
 			<li>
 				<defName>Nimble</defName>
@@ -3261,6 +3356,21 @@
 				<degree>-2</degree>
 			</li>
 			<li>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
+			<li>
 				<defName>Psychopath</defName>
 			</li>
 			<li>
@@ -3278,7 +3388,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_GuardenerTown</defName>
 		<title>Town Guardener</title>
 		<titleShort>Guardener</titleShort>
@@ -3312,7 +3422,7 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Beauty</defName>
 				<degree>1</degree>
@@ -3321,6 +3431,12 @@
 			<li>
 				<defName>Kind</defName>
 				<chance>50</chance>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+				<chance>60</chance>
 			</li>
 			<li>
 				<defName>Nimble</defName>
@@ -3359,6 +3475,21 @@
 				<degree>-2</degree>
 			</li>
 			<li>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
+			<li>
 				<defName>Psychopath</defName>
 			</li>
 			<li>
@@ -3376,7 +3507,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_GuardenerVillage</defName>
 		<title>Village Guardener</title>
 		<titleShort>Guardener</titleShort>
@@ -3406,7 +3537,7 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Beauty</defName>
 				<degree>1</degree>
@@ -3415,6 +3546,12 @@
 			<li>
 				<defName>Kind</defName>
 				<chance>50</chance>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+				<chance>60</chance>
 			</li>
 			<li>
 				<defName>Nimble</defName>
@@ -3453,6 +3590,21 @@
 				<degree>-2</degree>
 			</li>
 			<li>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
+			<li>
 				<defName>Psychopath</defName>
 			</li>
 			<li>
@@ -3470,7 +3622,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Housekeeper</defName>
 		<title>Housekeeper</title>
 		<titleShort>Housekeeper</titleShort>
@@ -3528,6 +3680,11 @@
 				<degree>-2</degree>
 			</li>
 			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
+			<li>
 				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraits>
@@ -3547,7 +3704,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_IndyTownCouncilor</defName>
 		<title>Town Councilor</title>
 		<titleShort>Councilor</titleShort>
@@ -3573,7 +3730,7 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Industriousness</defName>
 				<degree>2</degree>
@@ -3589,8 +3746,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
-				<chance>50</chance>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -3609,9 +3768,6 @@
 				<degree>-2</degree>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-			</li>
-			<li>
 				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraits>
@@ -3620,7 +3776,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_IndyTownFarmer</defName>
 		<title>Town Farmer</title>
 		<titleShort>Farmer</titleShort>
@@ -3650,7 +3806,7 @@
 				<amount>3</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Industriousness</defName>
 				<degree>2</degree>
@@ -3666,8 +3822,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
-				<chance>50</chance>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -3686,9 +3844,6 @@
 				<degree>-2</degree>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-			</li>
-			<li>
 				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraits>
@@ -3697,7 +3852,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_IndyTownSoldier</defName>
 		<title>Town Soldier</title>
 		<titleShort>Soldier</titleShort>
@@ -3735,7 +3890,7 @@
 				<amount>1</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Industriousness</defName>
 				<degree>2</degree>
@@ -3751,8 +3906,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
-				<chance>50</chance>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Nerves</defName>
@@ -3785,9 +3942,6 @@
 				<degree>-2</degree>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-			</li>
-			<li>
 				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraits>
@@ -3796,7 +3950,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Innkeeper</defName>
 		<title>Innkeeper</title>
 		<titleShort>Innkeeper</titleShort>
@@ -3862,7 +4016,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_InnWench</defName>
 		<title>Inn Wench</title>
 		<titleShort>Wench</titleShort>
@@ -3952,7 +4106,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Joiner</defName>
 		<title>Joiner</title>
 		<titleShort>Joiner</titleShort>
@@ -4004,7 +4158,7 @@
 		<linkedBackstory>Mousekin_Childhood_JoinerApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_KitchenMaid</defName>
 		<title>Kitchen maid</title>
 		<titleShort>Maid</titleShort>
@@ -4037,7 +4191,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Knight</defName>
 		<title>Knight</title>
 		<titleShort>Knight</titleShort>
@@ -4063,7 +4217,7 @@
 				<amount>6</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Bloodlust</defName>
 				<chance>50</chance>
@@ -4073,8 +4227,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-				<chance>100</chance>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+				<chance>60</chance>
 			</li>
 			<li>
 				<defName>Tough</defName>
@@ -4109,7 +4265,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_KnightCommander</defName>
 		<title>Knight Commander</title>
 		<titleShort>Commander</titleShort>
@@ -4127,7 +4283,7 @@
 				<amount>6</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Bloodlust</defName>
 				<chance>25</chance>
@@ -4137,8 +4293,10 @@
 				<chance>50</chance>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
-				<chance>100</chance>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+				<chance>50</chance>
 			</li>
 			<li>
 				<defName>Tough</defName>
@@ -4171,7 +4329,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Maidservant</defName>
 		<title>Maidservant</title>
 		<titleShort>Maidservant</titleShort>
@@ -4229,7 +4387,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_ManorLord</defName>
 		<title>Manor lord</title>
 		<titleShort>Lord</titleShort>
@@ -4274,6 +4432,16 @@
 				<defName>Industriousness</defName>
 				<degree>2</degree>
 			</li>
+			<li>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Cleaning</li>
@@ -4293,7 +4461,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Mason</defName>
 		<title>Stonemason</title>
 		<titleShort>Mason</titleShort>
@@ -4348,7 +4516,7 @@
 		<linkedBackstory>Mousekin_Childhood_MasonApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Miner</defName>
 		<title>Miner</title>
 		<titleShort>Miner</titleShort>
@@ -4408,7 +4576,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Noblewoman</defName>
 		<title>Noblewoman</title>
 		<titleShort>Lady</titleShort>
@@ -4467,6 +4635,16 @@
 				<defName>Industriousness</defName>
 				<degree>2</degree>
 			</li>
+			<li>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Violent</li>
@@ -4486,7 +4664,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Nun</defName>
 		<title>Nun</title>
 		<titleShort>Nun</titleShort>
@@ -4504,7 +4682,7 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Beauty</defName>
 				<degree>1</degree>
@@ -4523,8 +4701,10 @@
 				<defName>Kind</defName>
 				<chance>100</chance>
 			</li>
+			<!-- Pious -->
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
@@ -4584,7 +4764,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Priest</defName>
 		<title>Priest</title>
 		<titleShort>Priest</titleShort>
@@ -4602,7 +4782,7 @@
 				<amount>3</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>BodyPurist</defName>
 				<chance>100</chance>
@@ -4610,9 +4790,11 @@
 			<li>
 				<defName>Kind</defName>
 				<chance>100</chance>
-			</li>			
+			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
@@ -4670,7 +4852,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Royal</defName>
 		<title>Prince</title>
 		<titleFemale>Princess</titleFemale>
@@ -4731,6 +4913,16 @@
 				<defName>Industriousness</defName>
 				<degree>1</degree>
 			</li>
+			<li>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Cleaning</li>
@@ -4750,7 +4942,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_SculleryMaid</defName>
 		<title>Scullery Maid</title>
 		<titleShort>Maid</titleShort>
@@ -4790,7 +4982,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Seamstress</defName>
 		<title>Seamstress</title>
 		<titleShort>Seamstress</titleShort>
@@ -4837,7 +5029,7 @@
 		<linkedBackstory>Mousekin_Childhood_SeamstressApprentice</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Shepherd</defName>
 		<title>Shepherd</title>
 		<titleFemale>Shepherdess</titleFemale>
@@ -4886,7 +5078,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_ShopkeeperBooks</defName>
 		<title>Book store owner</title>
 		<titleShort>Bookseller</titleShort>
@@ -4947,7 +5139,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_ShopkeeperGeneral</defName>
 		<title>Shopkeeper</title>
 		<titleShort>Shopkeeper</titleShort>
@@ -4999,7 +5191,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_SlaveLaborer</defName>
 		<title>Slave laborer</title>
 		<titleShort>Slave</titleShort>
@@ -5015,7 +5207,7 @@
 			<min>18</min>
 			<max>30</max>
 		</chronoAgeRange>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Immunity</defName>
 				<degree>-1</degree>
@@ -5058,10 +5250,24 @@
 				<defName>Jealous</defName>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Pious</defName>
+				<!-- Devotionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>2</degree>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>3</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
 			</li>
 			<li>
 				<defName>Psychopath</defName>
@@ -5091,7 +5297,7 @@
 		<linkedBackstory>Mousekin_Childhood_SlaveChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_SlaveTrader</defName>
 		<title>Slave trader</title>
 		<titleShort>Slaver</titleShort>
@@ -5125,14 +5331,16 @@
 				<amount>1</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Bloodlust</defName>
 				<chance>50</chance>
 			</li>
 			<li>
-				<defName>Mousekin_Trait_Atheist</defName>
-				<chance>50</chance>
+				<!-- Apostate -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>1</degree>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>Psychopath</defName>
@@ -5145,9 +5353,6 @@
 			</li>
 			<li>
 				<defName>Kind</defName>
-			</li>
-			<li>
-				<defName>Mousekin_Trait_Pious</defName>
 			</li>
 			<li>
 				<defName>Wimp</defName>
@@ -5166,7 +5371,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_SoldierCrossbow</defName>
 		<title>Crossbowman</title>
 		<titleShort>Crossbowman</titleShort>
@@ -5231,7 +5436,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_SoldierMusket</defName>
 		<title>Mouseketeer</title>
 		<titleShort>Mouseketeer</titleShort>
@@ -5295,7 +5500,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_SoldierPike</defName>
 		<title>Pikeman</title>
 		<titleShort>Pikeman</titleShort>
@@ -5355,7 +5560,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Toymaker</defName>
 		<title>Toymaker</title>
 		<titleShort>Toymaker</titleShort>
@@ -5400,7 +5605,7 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Woodcutter</defName>
 		<title>Woodcutter</title>
 		<titleShort>Woodcutter</titleShort>

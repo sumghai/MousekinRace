@@ -2,50 +2,76 @@
 <Defs>
 
 	<TraitDef>
-		<defName>Mousekin_Trait_Atheist</defName>
+		<defName>Mousekin_TraitSpectrum_Faith</defName>
 		<commonality>0.001</commonality>
 		<degreeDatas>
 			<li>
-				<label>atheist</label>
-				<description>[PAWN_nameDef] has no use for religious superstition, and would prefer to focus on living [PAWN_possessive] life to the fullest, rather than worrying about being judged for an imaginary afterlife.</description>
-			</li>
-		</degreeDatas>
-		<exclusionTags>
-			<li>Mousekin_TraitSpectrum_Faith</li>
-		</exclusionTags>
-	</TraitDef>
-
-	<TraitDef>
-		<defName>Mousekin_Trait_Pious</defName>
-		<commonality>0.001</commonality>
-		<degreeDatas>
-			<li>
-				<label>pious</label>
-				<description>[PAWN_nameDef] is a devout follower of the teachings of Valerian the Wise, and believes that pious, industrious Mousekins who perform good deeds and respect the sanctity of their bodies will be rewarded with a peaceful afterlife in The Great Garden. [PAWN_pronoun] will work harder than most of [PAWN_possessive] fellow Mousekins, and press on even under the greatest of hardships.</description>
+				<label>apostate</label>
+				<description>[PAWN_nameDef] has no use for religious superstition, and would prefer to focus on living [PAWN_possessive] life to the fullest, rather than worrying about being judged for an imaginary afterlife.\n\nAs such, [PAWN_pronoun] is more scientifically- and technically-minded compared with other Mousekins.</description>
+				<degree>1</degree>
 				<statOffsets>
-					<WorkSpeedGlobal>0.50</WorkSpeedGlobal>
-					<PainShockThreshold>0.10</PainShockThreshold>
-					<MentalBreakThreshold>-0.20</MentalBreakThreshold>
+					<ConstructSuccessChance>0.20</ConstructSuccessChance>
+					<FixBrokenDownBuildingSuccessChance>0.20</FixBrokenDownBuildingSuccessChance>
+					<GlobalLearningFactor>0.20</GlobalLearningFactor>
+					<ResearchSpeed>0.20</ResearchSpeed>
 				</statOffsets>
 			</li>
+			<li>
+				<label>devotionist</label>
+				<description>[PAWN_nameDef] is a member of a splinter sect of Mousekins that seek to follow the spirit of Valerian the Wise's original teachings, rather than the official interpretation espoused by the Mousekin Church. [PAWN_objective] has a closer affinity to nature, more adept at working with plants and has increased sensitivity to psychic phenomena, but also less susceptible to mental breaks.</description>
+				<degree>2</degree>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+					<NegotiationAbility>0.05</NegotiationAbility>
+					<PsychicSensitivity>0.30</PsychicSensitivity>
+					<ResearchSpeed>-0.10</ResearchSpeed>
+					<RestRateMultiplier>0.05</RestRateMultiplier>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Plants</key>
+						<value>2</value>
+					</li>
+				</skillGains>
+			</li>
+			<li>
+				<label>pious</label>
+				<description>[PAWN_nameDef] is a pious follower of the teachings of Valerian the Wise, and believes that industrious Mousekins who perform good deeds and respect the sanctity of their bodies will be rewarded with a peaceful afterlife in The Great Garden. \n\n[PAWN_pronoun] will work harder than most of [PAWN_possessive] fellow Mousekins, and press on even under the greatest of hardships.</description>
+				<degree>3</degree>
+				<statOffsets>
+					<GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+					<MentalBreakThreshold>-0.20</MentalBreakThreshold>
+					<NegotiationAbility>0.10</NegotiationAbility>
+					<PainShockThreshold>0.10</PainShockThreshold>
+					<PlantHarvestYield>0.10</PlantHarvestYield>
+					<PlantWorkSpeed>0.10</PlantWorkSpeed>					
+					<ResearchSpeed>-0.20</ResearchSpeed>
+					<RestRateMultiplier>0.10</RestRateMultiplier>
+					<SocialImpact>0.10</SocialImpact>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+			<li>
+				<label>inquisitionist</label>
+				<description>[PAWN_nameDef] believes in the absolute truth and power of The Inquisition, which declares that anyone who strays from the Mousekin Church and the teachings of Valerian the Wise are irredeemable heretics and enemies of all Mousekins - including Apostates, Devotionists and even other non-Mousekin rodentlike races.\n\n[PAWN_pronoun] is better at capturing prisoners and less susceptible to psychic phenomena, but [PAWN_possessive] religious zealotry greatly impairs [PAWN_possessive] ability to understand technical and scientific matters beyond what is permitted by church doctrine.</description>
+				<degree>4</degree>
+				<statOffsets>
+					<ArrestSuccessChance>1.00</ArrestSuccessChance>
+					<FixBrokenDownBuildingSuccessChance>-0.20</FixBrokenDownBuildingSuccessChance>
+					<GlobalLearningFactor>-0.20</GlobalLearningFactor>
+					<PainShockThreshold>0.10</PainShockThreshold>
+					<PsychicSensitivity>-0.20</PsychicSensitivity>
+					<ResearchSpeed>-0.50</ResearchSpeed>
+					<SocialImpact>0.20</SocialImpact>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Melee</key>
+						<value>2</value>
+					</li>
+				</skillGains>
+			</li>
 		</degreeDatas>
-		<exclusionTags>
-			<li>Mousekin_TraitSpectrum_Faith</li>
-		</exclusionTags>
-		<conflictingTraits>
-			<li>Abrasive</li>
-			<li>Bisexual</li>
-			<li>Bloodlust</li>
-			<li>Cannibal</li>
-			<li>Gay</li>
-			<li>Gourmand</li>
-			<li>Greedy</li>
-			<li>Jealous</li>
-			<li>Psychopath</li>
-			<li>Pyromaniac</li>
-			<li>Nerves</li>
-			<li>Wimp</li>
-		</conflictingTraits>
 	</TraitDef>
 
 </Defs>

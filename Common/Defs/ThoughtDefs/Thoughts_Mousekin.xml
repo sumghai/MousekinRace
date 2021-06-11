@@ -220,6 +220,108 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_FaithAffinityOpinions</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_FaithAffinityOpinions</workerClass>
+		<stages>
+		
+			<!-- ========== Apostate ========== -->
+			
+			<!-- Apostates vs Nones -->
+			<li IsNull="True" />
+			<!-- Apostates vs Apostate -->
+			<li>
+				<label>fellow apostates</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			<!-- Apostates vs Devotionist -->
+			<li IsNull="True" />
+			<!-- Apostates vs Pious -->
+			<li IsNull="True" />
+			<!-- Apostates vs Inquisitionist -->
+			<li>
+				<label>apostate vs inquisitionist</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+			
+			<!-- ========== Devotionist ========== -->
+			
+			<!-- Devotionist vs Nones -->
+			<li IsNull="True" />
+			<!-- Devotionist vs Apostate -->
+			<li>
+				<label>devotionist vs apostate</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+			<!-- Devotionist vs Devotionist -->
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>10</baseOpinionOffset>
+			</li>
+			<!-- Devotionist vs Pious -->
+			<li IsNull="True" />
+			<!-- Devotionist vs Inquisitionist -->
+			<li>
+				<label>devotionist vs inquisitionist</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+			
+			<!-- ========== Pious ========== -->
+			
+			<!-- Pious vs Nones -->
+			<li IsNull="True" />
+			<!-- Pious vs Apostate -->
+			<li>
+				<label>pious vs apostate</label>
+				<baseOpinionOffset>-10</baseOpinionOffset>
+			</li>
+			<!-- Pious vs Devotionist -->
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			<!-- Pious vs Pious -->
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>15</baseOpinionOffset>
+			</li>
+			<!-- Pious vs Inquisitionist -->
+			<li>
+				<label>cautious respect for inquisitionist</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			
+			<!-- ========== Inqusitionist ========== -->
+			
+			<!-- Inqusitionist vs Nones -->
+			<li>
+				<label>inquisitionist vs non-pious</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+			<!-- Inqusitionist vs Apostate -->
+			<li>
+				<label>inquisitionist vs apostate</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+			<!-- Inqusitionist vs Devotionist -->
+			<li>
+				<label>inquisitionist vs devotionist</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+			<!-- Inqusitionist vs Pious -->
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>10</baseOpinionOffset>
+			</li>
+			<!-- Inqusitionist vs Inquisitionist -->
+			<li>
+				<label>shared zealotry in the Inquisition</label>
+				<baseOpinionOffset>20</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 	<ThoughtDef>
 		<defName>Mousekin_Thought_GotMarried</defName>
@@ -412,9 +514,6 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-
-	<!--Mousekin_Thought_MousekinFurApparelHappy
-	Mousekin_Thought_MousekinFurApparelSad-->
 
 	<ThoughtDef ParentName="DeathMemoryFamily">
 		<defName>Mousekin_Thought_MyAuntDied</defName>
@@ -730,32 +829,6 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
-	<ThoughtDef>
-		<defName>Mousekin_Thought_PiousSharedFaith</defName>
-		<thoughtClass>Thought_SituationalSocial</thoughtClass>
-		<workerClass>MousekinRace.ThoughtWorker_PiousSharedFaith</workerClass>
-		<validWhileDespawned>true</validWhileDespawned>
-		<stages>
-			<li>
-				<label>shared faith in The Great Garden</label>
-				<baseOpinionOffset>5</baseOpinionOffset>
-			</li>
-		</stages>
-	</ThoughtDef>
-	
-	<ThoughtDef>
-		<defName>Mousekin_Thought_PiousVsAtheist</defName>
-		<thoughtClass>Thought_SituationalSocial</thoughtClass>
-		<workerClass>MousekinRace.ThoughtWorker_PiousVsAtheist</workerClass>
-		<validWhileDespawned>true</validWhileDespawned>
-		<stages>
-			<li>
-				<label>pious vs atheist</label>
-				<baseOpinionOffset>-5</baseOpinionOffset>
-			</li>
-		</stages>
-	</ThoughtDef>
 
 	<ThoughtDef>
 		<defName>Mousekin_Thought_ReleasedHealthyPrisoner</defName>
@@ -838,5 +911,6 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+
 
 </Defs>
