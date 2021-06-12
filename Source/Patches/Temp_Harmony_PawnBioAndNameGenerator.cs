@@ -9,8 +9,8 @@ namespace MousekinRace.Patches
     {
         static void Prefix(Pawn pawn, BackstorySlot slot)
         {
-            Log.Warning("Generating " + slot + " bio for " + pawn + " (" + pawn.ageTracker.AgeBiologicalYears + ", " + pawn.gender + ", " + pawn.kindDef + ") of " + pawn.Faction + " (" + pawn.Faction.def + ")");
-            Log.Warning("---------");
+            //Log.Warning("Generating " + slot + " bio for " + pawn + " (" + pawn.ageTracker.AgeBiologicalYears + ", " + pawn.gender + ", " + pawn.kindDef + ") of " + pawn.Faction + " (" + pawn.Faction.def + ")");
+            //Log.Warning("---------");
         }
     }
 }
