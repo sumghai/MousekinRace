@@ -302,6 +302,7 @@
     <Compile Include="MousekinDefOf.cs" />
     <Compile Include="MousekinRaceMod.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
+    <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
     <Compile Include="Patches\Temp_Harmony_PawnBioAndNameGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThoughtWorker_FaithAffinityOpinions.cs" />
