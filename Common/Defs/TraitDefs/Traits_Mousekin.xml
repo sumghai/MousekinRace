@@ -33,6 +33,16 @@
 						<value>2</value>
 					</li>
 				</skillGains>
+				<allowedMeditationFocusTypes>
+					<li>Natural</li>
+				</allowedMeditationFocusTypes>
+				<disallowedMeditationFocusTypes>
+					<li>Morbid</li>
+					<li>Artistic</li>
+					<li>Minimal</li>
+					<li>Flame</li>
+					<li>Dignified</li>
+				</disallowedMeditationFocusTypes>
 			</li>
 			<li>
 				<label>pious</label>
@@ -50,6 +60,16 @@
 					<SocialImpact>0.10</SocialImpact>
 					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
 				</statOffsets>
+				<allowedMeditationFocusTypes>
+					<li>Morbid</li>
+				</allowedMeditationFocusTypes>
+				<disallowedMeditationFocusTypes>
+					<li>Natural</li>
+					<li>Artistic</li>
+					<li>Minimal</li>
+					<li>Flame</li>
+					<li>Dignified</li>
+				</disallowedMeditationFocusTypes>
 			</li>
 			<li>
 				<label>inquisitionist</label>
@@ -70,6 +90,16 @@
 						<value>2</value>
 					</li>
 				</skillGains>
+				<allowedMeditationFocusTypes>
+					<li>Morbid</li>
+				</allowedMeditationFocusTypes>
+				<disallowedMeditationFocusTypes>
+					<li>Natural</li>
+					<li>Artistic</li>
+					<li>Minimal</li>
+					<li>Flame</li>
+					<li>Dignified</li>
+				</disallowedMeditationFocusTypes>
 			</li>
 		</degreeDatas>
 	</TraitDef>
