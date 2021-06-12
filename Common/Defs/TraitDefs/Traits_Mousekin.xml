@@ -102,6 +102,57 @@
 				</disallowedMeditationFocusTypes>
 			</li>
 		</degreeDatas>
+		<modExtensions>
+			<!-- Prevent pawns from spawning with traits that conflict with each degree of the faith spectrum trait -->
+			<li Class="MousekinRace.TraitConflictResolverExtension">
+				<conflictingTraitsByFaithDegree>
+					<li>
+						<!-- Disallowed traits for Devotionists -->
+						<key>2</key>
+						<value>
+							<li>Abrasive</li>
+							<li>Ascetic</li>
+							<li>Bloodlust</li>
+							<li>Cannibal</li>
+							<li>Gourmand</li>
+							<li>Greedy</li>
+							<li>Jealous</li>
+							<li>Nerves</li>
+							<li>PsychicSensitivity</li>
+							<li>Psychopath</li>
+							<li>ShootingAccuracy</li>
+						</value>
+					</li>
+					<li>
+						<!-- Disallowed traits for Pious -->
+						<key>3</key>
+						<value>
+							<li>Abrasive</li>
+							<li>Ascetic</li>
+							<li>Bisexual</li>
+							<li>Bloodlust</li>
+							<li>Cannibal</li>
+							<li>Gay</li>
+							<li>Nerves</li>
+							<li>Psychopath</li>
+						</value>
+					</li>
+					<li>
+						<!-- Disallowed traits for Inquisitionists -->
+						<key>4</key>
+						<value>
+							<li>Ascetic</li>
+							<li>Bisexual</li>
+							<li>Cannibal</li>
+							<li>Gay</li>
+							<li>Kind</li>
+							<li>Nerves</li>
+							<li>Wimp</li>
+						</value>
+					</li>
+				</conflictingTraitsByFaithDegree>
+			</li>
+		</modExtensions>
 	</TraitDef>
 
 </Defs>
