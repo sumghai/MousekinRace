@@ -307,6 +307,7 @@
     <Compile Include="Patches\Temp_Harmony_PawnBioAndNameGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThoughtWorker_FaithAffinityOpinions.cs" />
+    <Compile Include="ThoughtWorker_ReligiousDisgustAtOwnArtificalBodyParts.cs" />
     <Compile Include="ThoughtWorker_WearingMousekinFurApparel.cs" />
     <Compile Include="TraitConflictResolverExtension.cs" />
     <Compile Include="Utils.cs" />
