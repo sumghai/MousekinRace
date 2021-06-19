@@ -651,6 +651,7 @@
 			<hasGenders>true</hasGenders>
 			<body>Mousekin</body>
 			<baseBodySize>0.7</baseBodySize>
+			<baseHungerRate>0.625</baseHungerRate>
 			<baseHealthScale>1</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>45</gestationPeriodDays>
