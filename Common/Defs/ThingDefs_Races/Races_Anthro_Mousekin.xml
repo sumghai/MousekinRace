@@ -308,6 +308,10 @@
 						<replacer>Mousekin_Thought_GotMarried</replacer>
 					</li>
 					<li>
+						<original>Humanlike_Thought_AteTrailMix</original>
+						<replacer>Mousekin_Thought_AteTrailMix</replacer>
+					</li>
+					<li>
 						<original>KnowBuriedInSarcophagus</original>
 						<replacer>Mousekin_Thought_KnowBuriedInSarcophagus</replacer>
 					</li>

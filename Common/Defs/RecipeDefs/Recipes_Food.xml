@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Mousekin_Make_TrailMix</defName>
+		<label>make Mousekin trail mix</label>
+		<description>Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it.</description>
+		<jobString>Preparing Mousekin trail mix</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>800</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<!-- 0.05 nutrition per unit-->
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<!-- 0.05 nutrition per unit-->
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<!-- 0.12 nutrition and 0.06 mass per unit-->
+						<li>Mousekin_RawNutChonko</li>
+					</thingDefs>
+				</filter>
+				<count>0.6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<!-- 0.06 nutrition and 0.03 mass per unit-->
+						<li>Mousekin_RawNutNyam</li>
+					</thingDefs>
+				</filter>
+				<count>1.44</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>RawCorn</li>
+				<li>Mousekin_RawNutChonko</li>
+				<li>Mousekin_RawNutNyam</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_MealTrailMix>25</Mousekin_MealTrailMix>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Mousekin_Make_TrailMixBulk</defName>
+		<label>make Mousekin trail mix x3</label>
+		<description>Make bulk trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it.</description>
+		<jobString>Preparing bulk Mousekin trail mix</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>2400</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<!-- 0.05 nutrition per unit-->
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<!-- 0.05 nutrition per unit-->
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<!-- 0.12 nutrition and 0.06 mass per unit-->
+						<li>Mousekin_RawNutChonko</li>
+					</thingDefs>
+				</filter>
+				<count>1.8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<!-- 0.06 nutrition and 0.03 mass per unit-->
+						<li>Mousekin_RawNutNyam</li>
+					</thingDefs>
+				</filter>
+				<count>4.32</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>RawCorn</li>
+				<li>Mousekin_RawNutChonko</li>
+				<li>Mousekin_RawNutNyam</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_MealTrailMix>75</Mousekin_MealTrailMix>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+</Defs>
