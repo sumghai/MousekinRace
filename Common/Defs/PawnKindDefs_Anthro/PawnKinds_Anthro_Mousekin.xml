@@ -8,7 +8,8 @@
 		<isFighter>false</isFighter>
 		<!-- Most Mousekins (or their unseen world pawn relatives) are assumed to be from the Kingdom faction -->
 		<defaultFactionType>Mousekin_FactionKingdom</defaultFactionType>
-		<invNutrition>2</invNutrition>
+		<invFoodDef>Mousekin_MealTrailMix</invFoodDef>
+		<invNutrition>3</invNutrition>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
