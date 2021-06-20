@@ -44,11 +44,11 @@
 					<count>2</count>
 				</li>
 
-				<!-- TODO: replace with Mousekin Trail Mix -->
+				<!-- Trail mix to feed 8 mice for around 12 days, enough time for the mice to plant and harvest a crop of strawberries -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>MealSurvivalPack</thingDef>
-					<count>80</count>
+					<thingDef>Mousekin_MealTrailMix</thingDef>
+					<count>300</count>
 				</li>
 
 				<!-- TODO: replace with Mousekin poultice -->
@@ -124,11 +124,11 @@
 					<count>500</count>
 				</li>
 
-				<!-- TODO: replace with Mousekin Trail Mix -->
+				<!-- Trail mix to feed 5 mice for around 3 days, as the mice were fleeing in a hurry -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>MealSurvivalPack</thingDef>
-					<count>20</count>
+					<thingDef>Mousekin_MealTrailMix</thingDef>
+					<count>50</count>
 				</li>
 
 				<!-- TODO: replace with Mousekin poultice -->
