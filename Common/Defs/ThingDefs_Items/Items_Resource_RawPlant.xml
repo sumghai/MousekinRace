@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Raw Chonko Nuts -->
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Mousekin_RawNutChonko</defName>
+		<label>chonko nuts</label>
+		<description>Raw chonko nuts, resembling oversized almonds. Nice to eat, even when raw.</description>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/RawChonkoNuts</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.12</Nutrition>
+			<MarketValue>1.3</MarketValue>
+			<Mass>0.060</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>45</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought/>
+			<foodType>Seed</foodType>
+		</ingestible>
+	</ThingDef>
+
+	<!-- Raw Nyam Nuts -->
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Mousekin_RawNutNyam</defName>
+		<label>nyam nuts</label>
+		<description>Raw nyam nuts, resembling macadamias with faint stripes. Nice to eat, even when raw.</description>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/RawNyamNuts</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.06</Nutrition>
+			<MarketValue>1.2</MarketValue>
+			<Mass>0.030</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought/>
+			<foodType>Seed</foodType>
+		</ingestible>
+	</ThingDef>
+
+</Defs>
