@@ -9,8 +9,8 @@
 		<stages>
 			<li>
 				<label>ate Mousekin trail mix</label>
-				<description>I don’t understand why Mousekins like trail mix so much.</description>
-				<baseMoodEffect>-1</baseMoodEffect>
+				<description>I guess this tastes nice, but why do Mousekins like it so much?</description>
+				<baseMoodEffect>1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
