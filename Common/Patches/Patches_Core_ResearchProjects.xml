@@ -6,12 +6,16 @@
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ResearchProjectDef[
+					defName="CarpetMaking" or
 					defName="ComplexClothing" or
 					defName="ComplexFurniture" or
+					defName="Greatbow" or
 					defName="PassiveCooler" or
 					defName="Pemmican" or
+					defName="RecurveBow" or
 					defName="Smithing" or
-					defName="Stonecutting"
+					defName="Stonecutting" or
+					defName="TreeSowing"
 				]/tags</xpath>
 				<value>
 					<li>MousekinStartingResearch</li>
