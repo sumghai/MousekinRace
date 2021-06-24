@@ -9,20 +9,208 @@
 		<tab>Mousekin_Tech</tab>
 		<techLevel>Medieval</techLevel>
 	</ResearchProjectDef>
+	
+	<!-- Apparel subtree -->
 
 	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
-		<defName>Mousekin_ResearchApparel</defName>
-		<label>Mousekin Apparel</label>
+		<defName>Mousekin_ResearchApparelCommoner</defName>
+		<label>Commoner apparel</label>
 		<description>Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners.</description>
-		<baseCost>400</baseCost>
+		<baseCost>300</baseCost>
 		<prerequisites>
 			<li>ComplexClothing</li>
 		</prerequisites>
 		<tags>
 			<li>MousekinStartingResearch</li>
 		</tags>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
-
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchApparelMiddle</defName>
+		<label>Middle-class apparel</label>
+		<description>Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research.</description>
+		<baseCost>300</baseCost>
+		<prerequisites>
+			<li>Mousekin_ResearchApparelCommoner</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchApparelMilitary</defName>
+		<label>Military apparel</label>
+		<description>Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research.</description>
+		<baseCost>300</baseCost>
+		<prerequisites>
+			<li>Mousekin_ResearchApparelCommoner</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchApparelNoble</defName>
+		<label>Aristocratic apparel</label>
+		<description>Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research.</description>
+		<baseCost>200</baseCost>
+		<prerequisites>
+			<li>Mousekin_ResearchApparelMiddle</li>
+		</prerequisites>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- Gunpowder manufacturing subtree -->
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchAlchemy</defName>
+		<label>Medicinal alchemy</label>
+		<description>Concoct poultices and potions from a variety of herbal and mineral ingredients.</description>
+		<baseCost>400</baseCost>
+		<tags>
+			<li>MousekinStartingResearch</li>
+		</tags>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchCharcoal</defName>
+		<label>Charcoal</label>
+		<description>Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions.</description>
+		<baseCost>400</baseCost>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchMachineryBasic</defName>
+		<label>Clockwork mechanisms</label>
+		<description>Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research.</description>
+		<baseCost>700</baseCost>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchMachineryAdvanced</defName>
+		<label>Heavy machinery</label>
+		<description>Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research.</description>
+		<baseCost>850</baseCost>
+		<prerequisites>
+			<li>Mousekin_ResearchMachineryBasic</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchMining</defName>
+		<label>Deep mining</label>
+		<description>Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research.</description>
+		<baseCost>1000</baseCost>
+		<prerequisites>
+			<li>Mousekin_ResearchMachineryAdvanced</li>
+		</prerequisites>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchGunpowder</defName>
+		<label>Gunpowder</label>
+		<description>Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research.</description>
+		<baseCost>600</baseCost>
+		<prerequisites>
+			<li>Mousekin_ResearchAlchemy</li>
+			<li>Mousekin_ResearchCharcoal</li>
+			<li>Mousekin_ResearchMining</li>
+		</prerequisites>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- Cooking subtree -->
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchCookingIronStoves</defName>
+		<label>Cast-iron stoves</label>
+		<description>Build cast-iron stoves for cooking more complex Mousekin dishes.</description>
+		<baseCost>300</baseCost>
+		<prerequisites>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>3.50</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchBeekeeping</defName>
+		<label>Apiaries</label>
+		<description>Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles.</description>
+		<baseCost>500</baseCost>
+		<prerequisites>
+			<li>ComplexFurniture</li>
+		</prerequisites>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>4.20</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchCookingNoble</defName>
+		<label>Aristocratic cuisine</label>
+		<description>Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research.</description>
+		<baseCost>500</baseCost>
+		<prerequisites>
+			<li>Mousekin_ResearchCookingIronStoves</li>
+			<li>Mousekin_ResearchBeekeeping</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>3.85</researchViewY>
+	</ResearchProjectDef>
+	
+	<!-- Buildings and structures subtree -->
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchBuildingVillage</defName>
+		<label>Cottage building</label>
+		<description>Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows.</description>
+		<baseCost>600</baseCost>
+		<tags>
+			<li>MousekinStartingResearch</li>
+		</tags>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>4.90</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchBuildingCastle</defName>
+		<label>Castle architecture</label>
+		<description>Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats.</description>
+		<baseCost>850</baseCost>
+		<prerequisites>
+			<li>Mousekin_ResearchBuildingVillage</li>
+			<li>Stonecutting</li>
+		</prerequisites>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>4.90</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
+		<defName>Mousekin_ResearchGlassmaking</defName>
+		<label>Glassmaking</label>
+		<description>Melt sand at high temperatures into glass for fabricating windows. (Only available if Fertile Fields mods is installed)</description>
+		<baseCost>300</baseCost>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>4.90</researchViewY>
+	</ResearchProjectDef>
+	
 </Defs>
