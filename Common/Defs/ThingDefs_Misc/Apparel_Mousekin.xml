@@ -45,7 +45,6 @@
 			<workSkill>Crafting</workSkill>
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
-			<researchPrerequisite>Mousekin_ResearchApparel</researchPrerequisite>
 			<recipeUsers>
 				<!-- TODO: Add Mousekin tailoring bench -->
 				<li>ElectricTailoringBench</li>
@@ -111,6 +110,9 @@
 			</defaultOutfitTags>
 			<gender>Male</gender>
 		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
+		</recipeMaker>
 		<!-- Vest color options (for cloth fabric type only) -->
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -168,6 +170,9 @@
 			</defaultOutfitTags>
 			<gender>Female</gender>
 		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
+		</recipeMaker>
 		<!-- Dress and shawl color options (for cloth fabric type only) -->
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
