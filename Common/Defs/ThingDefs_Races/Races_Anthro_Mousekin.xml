@@ -558,8 +558,13 @@
 				<!-- TODO: Restrict the following weapons for Mousekin use only -->
 				<weaponList/>
 
-				<!-- TODO: Restrict the following buildings, furniture and facilities for Mousekin construction and use only -->
-				<buildingList/>
+				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction and use only -->
+				<buildingList>
+					<li>Mousekin_ResearchBench</li>
+				</buildingList>
+				<blackBuildingList>
+					<li>SimpleResearchBench</li>
+				</blackBuildingList>
 				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
 
 				<!-- TODO: Restrict the following projects for Mousekin research only -->
