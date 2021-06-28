@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Add various Mousekin benches to the appropriate vanilla WorkGiverDefs -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsProduceDrugs"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>Mousekin_WorkbenchAlchemy</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>
