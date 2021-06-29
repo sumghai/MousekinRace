@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Mousekin poultice (potency between vanilla herbal and industrial medicine) -->
+	<ThingDef ParentName="MedicineBase">
+		<defName>Mousekin_MedicinePoultice</defName>
+		<label>Mousekin poultice</label>
+		<description>A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals.</description>
+		<graphicData>
+			<texPath>Things/Items/Medicine/Mousekin_Poultice</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>14</MarketValue>
+			<Mass>0.15</Mass>
+			<Flammability>1.0</Flammability>
+			<MedicalPotency>0.90</MedicalPotency>
+			<MedicalQualityMax>0.80</MedicalQualityMax>
+			<DeteriorationRate>3</DeteriorationRate>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>300</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

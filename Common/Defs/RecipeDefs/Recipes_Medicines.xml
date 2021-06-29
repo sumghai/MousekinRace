@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Mousekin_Make_MedicinePoultice</defName>
+		<label>make Mousekin poultice</label>
+		<description>Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs.</description>
+		<jobString>Making bags of Mousekin poultice</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>10000</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+				<li>WoodLog</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_MedicinePoultice>25</Mousekin_MedicinePoultice>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+			<Intellectual>3</Intellectual>
+		</skillRequirements>
+		<recipeUsers>
+			<li>DrugLab</li>
+			<li>Mousekin_WorkbenchAlchemy</li>
+		</recipeUsers>
+		<researchPrerequisite>Mousekin_ResearchAlchemy</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>
