@@ -51,11 +51,11 @@
 					<count>300</count>
 				</li>
 
-				<!-- TODO: replace with Mousekin poultice -->
+				<!-- Plenty of poultices for dealing with cuts and scrapes from the first couple of weeks of establishing a new hamlet -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>MedicineHerbal</thingDef>
-					<count>20</count>
+					<thingDef>Mousekin_MedicinePoultice</thingDef>
+					<count>75</count>
 				</li>
 
 				<!-- TODO: replace with Mousekin crossbow -->
@@ -131,10 +131,10 @@
 					<count>50</count>
 				</li>
 
-				<!-- TODO: replace with Mousekin poultice -->
+				<!-- A few bundles of poultices, again grabbed in a hurry -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>MedicineHerbal</thingDef>
+					<thingDef>Mousekin_MedicinePoultice</thingDef>
 					<count>10</count>
 				</li>
 
