@@ -307,29 +307,29 @@
 				<baseOpinionOffset>5</baseOpinionOffset>
 			</li>
 			
-			<!-- ========== Inqusitionist ========== -->
+			<!-- ========== Inquisitionist ========== -->
 			
-			<!-- Inqusitionist vs Nones -->
+			<!-- Inquisitionist vs Nones -->
 			<li>
 				<label>inquisitionist vs non-pious</label>
 				<baseOpinionOffset>-5</baseOpinionOffset>
 			</li>
-			<!-- Inqusitionist vs Apostate -->
+			<!-- Inquisitionist vs Apostate -->
 			<li>
 				<label>inquisitionist vs apostate</label>
 				<baseOpinionOffset>-20</baseOpinionOffset>
 			</li>
-			<!-- Inqusitionist vs Devotionist -->
+			<!-- Inquisitionist vs Devotionist -->
 			<li>
 				<label>inquisitionist vs devotionist</label>
 				<baseOpinionOffset>-20</baseOpinionOffset>
 			</li>
-			<!-- Inqusitionist vs Pious -->
+			<!-- Inquisitionist vs Pious -->
 			<li>
 				<label>shared faith in The Great Garden</label>
 				<baseOpinionOffset>10</baseOpinionOffset>
 			</li>
-			<!-- Inqusitionist vs Inquisitionist -->
+			<!-- Inquisitionist vs Inquisitionist -->
 			<li>
 				<label>shared zealotry in the Inquisition</label>
 				<baseOpinionOffset>20</baseOpinionOffset>
@@ -749,6 +749,19 @@
 				<baseMoodEffect>-20</baseMoodEffect>
 			</li>
 		</stages>
+	</ThoughtDef>	
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_OtherMousekinHasProstheticOpinions</defName>
+		<thoughtClass>MousekinRace.Thought_OtherMousekinHasProstheticOpinions</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_OtherMousekinHasProstheticOpinions</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<!-- Only experienced by Devotionists, Pious and Inquisitionists -->
+			<li>
+				<label>body defiled by prosthetics</label>
+			</li>
+		</stages>
 	</ThoughtDef>
 
 	<ThoughtDef>
@@ -893,13 +906,13 @@
 				<description>This witchcraft taints my body! Get it off me!</description>
 				<baseMoodEffect>-15</baseMoodEffect>
 			</li>
-			<!-- Inqusitionist - 2~3 artificial body parts -->
+			<!-- Inquisitionist - 2~3 artificial body parts -->
 			<li>
 				<label>inquisitionist with {0} prosthetics</label>
 				<description>More witchcraft, polluting my pure, natural flesh!</description>
 				<baseMoodEffect>-30</baseMoodEffect>
 			</li>
-			<!-- Inqusitionist - 4 or more artificial body parts -->
+			<!-- Inquisitionist - 4 or more artificial body parts -->
 			<li>
 				<label>inquisitionist with {0} prosthetics</label>
 				<description>My flesh has been defiled by all this witchcraft! I'm no better than those heretics!</description>
