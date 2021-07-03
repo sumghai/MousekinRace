@@ -7,7 +7,7 @@
 		<degreeDatas>
 			<li>
 				<label>apostate</label>
-				<description>[PAWN_nameDef] has no use for religious superstition, and would prefer to focus on living [PAWN_possessive] life to the fullest, rather than worrying about being judged for an imaginary afterlife.\n\nAs such, [PAWN_pronoun] is more scientifically- and technically-minded compared with other Mousekins.</description>
+				<description>[PAWN_nameDef] prefers to focus on living [PAWN_possessive] life to the fullest, rather than strictly obeying religious doctrine.\n\nAs such, [PAWN_pronoun] is more scientifically- and technically-minded compared with other Mousekins.</description>
 				<degree>1</degree>
 				<statOffsets>
 					<ConstructSuccessChance>0.20</ConstructSuccessChance>
