@@ -13,12 +13,13 @@
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<!--<apparelColor>(255,255,255)</apparelColor>-->
 		<apparelTags>
 			<li>MousekinStartingColonist</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<apparelMoney>350~600</apparelMoney>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- Player starting colonists -->
@@ -36,6 +37,8 @@
 		<defaultFactionType>Mousekin_PlayerFaction_Settlers</defaultFactionType>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>13~21</initialResistanceRange>
 	</PawnKindDef>
 	
 	<!-- NPCs from Mousekin Kingdom faction type -->	

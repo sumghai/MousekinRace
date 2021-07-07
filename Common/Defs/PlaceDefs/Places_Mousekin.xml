@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PlaceDef>
+		<defName>Arcadia</defName>
+		<tags>
+			<li>OriginMousekin</li>
+		</tags>
+		<placeRules>
+			<rulesStrings>
+				<!-- Arcadia is the bustling and prosperous capital city of the Mousekin Kingdom -->
+				<li>place_name->Arcadia</li>
+				<li>place_adjective->Mousekin</li>
+				<li>place_summary->bustling capital of the Mousekin Kingdom</li>
+				<li>place_community->Artisan's Quarter</li>
+				<li>place_community->Diplomatic Quarter</li>
+				<li>place_community->brownstone townhouses</li>				
+				<li>place_community->city square</li>
+				<li>place_community->flower gardens</li>
+				<li>place_powerCenter->Royal Palace</li>
+				<li>place_job->government minister</li>
+				<li>place_job->ambassador</li>
+				<li>place_job->knight commander</li>
+				<li>place_job->knight</li>
+				<li>place_job->squire</li>
+				<li>place_job->duke</li>
+				<li>place_job->Royal librarian</li>
+				<li>place_job->Guardener</li>
+				<li>place_job->Apprentice Guardener</li>
+				<li>place_job->cardinal</li>
+				<li>place_job->archbishop</li>
+				<li>place_job->bishop</li>
+				<li>place_job->priest</li>
+				<li>place_job->doctor</li>
+				<li>place_job->merchant</li>
+				<li>place_job->butler</li>
+				<li>place_job->footman</li>
+				<li>place_job->maid</li>
+				<li>place_personalWeapon->dagger</li>
+				<li>place_personalWeapon->blunderbuss</li>
+				<li>place_massWeapon->a battery of onagers</li>
+				<li>place_massWeapon->a gunpowder bomb</li>
+				<li>place_foeLeader->Grimalkin Colonel</li>
+				<li>place_foeSoldiers->Grimalkin Stormtroopers</li>
+			</rulesStrings>
+		</placeRules>
+	</PlaceDef>
+	
+	<PlaceDef>
+		<defName>WhitefursKeep</defName>
+		<tags>
+			<li>OriginMousekin</li>
+		</tags>
+		<placeRules>
+			<rulesStrings>
+				<!-- Whitefur's Keep is a well-guarded fortress, where most of the Mousekin Kingdom's army is trained and provisioned -->
+				<li>place_name->Whitefur's Keep</li>
+				<li>place_adjective->Mousekin</li>
+				<li>place_summary->stalwart fortress</li>
+				<li>place_community->barracks</li>
+				<li>place_powerCenter->central keep</li>
+				<li>place_job->knight commander</li>
+				<li>place_job->knight</li>
+				<li>place_job->squire</li>
+				<li>place_job->swivel gunner</li>
+				<li>place_job->crossbowman</li>
+				<li>place_job->Mouseketeer</li>
+				<li>place_job->pikeman</li>
+				<li>place_job->blacksmith</li>
+				<li>place_job->alchemist</li>
+				<li>place_personalWeapon->knight's greatsword</li>
+				<li>place_personalWeapon->knight's sword</li>				
+				<li>place_personalWeapon->pike</li>
+				<li>place_personalWeapon->automatic crossbow</li>
+				<li>place_massWeapon->a battery of onagers</li>
+				<li>place_massWeapon->a battery of cannons</li>
+				<li>place_massWeapon->a corp of Mouseketeers</li>
+				<li>place_massWeapon->a gunpowder bomb</li>
+				<li>place_foeLeader->Grimalkin Colonel</li>
+				<li>place_foeSoldiers->Grimalkin Stormtroopers</li>
+			</rulesStrings>
+		</placeRules>
+	</PlaceDef>
+	
+	<!-- future ideas:
+	
+	- Ironbridge is a dusty mining town, forge and trade hub
+	- Cloverfields is a bucolic farming village
+	- Pinewick is a remote hamlet
+	
+	-->
+
+</Defs>

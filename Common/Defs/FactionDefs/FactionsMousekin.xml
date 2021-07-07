@@ -6,6 +6,7 @@
 	<FactionDef Abstract="True" Name="Mousekin_FactionBase" ParentName="FactionBase">
 		<pawnSingular>Mousekin</pawnSingular>
 		<pawnsPlural>Mousekins</pawnsPlural>
+		<categoryTag>Mousekin</categoryTag>
 		<techLevel>Medieval</techLevel>
 		<startingResearchTags>
 			<li>MousekinStartingResearch</li>
@@ -13,10 +14,6 @@
 		<startingTechprintsResearchTags>
 			<li>MousekinStartingResearch</li>
 		</startingTechprintsResearchTags>
-		<!-- TODO: Setup hair tags -->
-		<hairTags>
-			<li>Urban</li>
-		</hairTags>
 		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
@@ -43,6 +40,9 @@
 			<li>(0, 0.737, 0.847)</li>
 		</colorSpectrum>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<allowedCultures>
+			<li>Mousekin_CultureKingdom</li>
+		</allowedCultures>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<backstoryFilters>
 			<li>
@@ -74,9 +74,6 @@
 	<!-- NPC Mousekin factions -->
 
 	<FactionDef Abstract="True" Name="Mousekin_AlliableNpcFactionBase" ParentName="Mousekin_FactionBase">
-		<!-- Generally speaking, Mousekins communities don't trust other factions easily, but are fairly loyal once you successfully befriend them.
-		     However, players have to actively maintain the relationship, or it will eventually fall back down to their natural goodwill range. -->
-		<goodwillDailyFall>0.10</goodwillDailyFall>
 		<modExtensions>
 			<li Class="VFECore.FactionDefExtension">
 				<allowedBiomes>
@@ -104,14 +101,17 @@
 		<colorSpectrum>
 			<li>(1.000, 0.843, 0.000)</li>
 		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>3</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>21</configurationListOrderPriority>
 		<!-- Mousekin Kingdom tends to be aloof towards outsiders, especially non-Mousekins. -->
-		<startingGoodwill>0</startingGoodwill>
-		<naturalColonyGoodwill>0~10</naturalColonyGoodwill>
 		<fixedLeaderKinds>
 			<li>MousekinKnightCommander</li>
 		</fixedLeaderKinds>
 		<factionNameMaker>NamerFaction_MousekinKingdom</factionNameMaker>
 		<settlementNameMaker>NamerSettlement_MousekinKingdom</settlementNameMaker>
+		<allowedCultures>
+			<li>Mousekin_CultureKingdom</li>
+		</allowedCultures>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -489,14 +489,17 @@
 		<colorSpectrum>
 			<li>(0.000, 0.500, 0.000)</li>
 		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>22</configurationListOrderPriority>
 		<!-- Independent Mousekins are friendly to outsiders, mainly out of desperation and necessity. -->
-		<startingGoodwill>30~40</startingGoodwill>
-		<naturalColonyGoodwill>20~20</naturalColonyGoodwill>
 		<fixedLeaderKinds>
 			<li>MousekinIndyTownCouncilor</li>
 		</fixedLeaderKinds>
 		<factionNameMaker>NamerFaction_MousekinIndyTown</factionNameMaker>
 		<settlementNameMaker>NamerSettlement_MousekinIndyTown</settlementNameMaker>
+		<allowedCultures>
+			<li>Mousekin_CultureIndyTown</li>
+		</allowedCultures>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -621,12 +624,15 @@
 			<li>(0.35, 0.30, 0.60)</li>
 			<li>(0.45, 0.40, 0.90)</li>
 		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>23</configurationListOrderPriority>
 		<!-- Mousekin Gypsies are more friendly and forgiving to outsiders than Independents, because their entire livelihood depends on trade with other factions. -->
-		<startingGoodwill>40~60</startingGoodwill>
-		<naturalColonyGoodwill>30~40</naturalColonyGoodwill>
 		<fixedLeaderKinds>
 			<li>MousekinTraderGypsy</li>
 		</fixedLeaderKinds>
+		<allowedCultures>
+			<li>Mousekin_CultureGypsy</li>
+		</allowedCultures>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -679,11 +685,16 @@
 			<li>(0.45, 0.05, 0.05)</li>
 			<li>(0.80, 0.25, 0.05)</li>
 		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>24</configurationListOrderPriority>
 		<fixedLeaderKinds>
 			<li>MousekinRaider</li>
 		</fixedLeaderKinds>
 		<permanentEnemy>true</permanentEnemy>
 		<factionNameMaker>NamerFaction_MousekinBrigands</factionNameMaker>
+		<allowedCultures>
+			<li>Mousekin_CultureBrigand</li>
+		</allowedCultures>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
