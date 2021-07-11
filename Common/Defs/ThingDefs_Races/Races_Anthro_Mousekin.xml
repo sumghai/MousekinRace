@@ -745,40 +745,8 @@
 			</hediffGiverSets>
 		</race>
 		<recipes>
-			<li>InstallArchotechEye</li>
-			<li>InstallArchotechArm</li>
-			<li>InstallArchotechLeg</li>
-			<li>InstallPowerClaw</li>
-			<li>InstallBionicEye</li>
-			<li>InstallBionicArm</li>
-			<li>InstallBionicLeg</li>
-			<li>InstallBionicSpine</li>
-			<li>InstallBionicHeart</li>
-			<li>InstallBionicStomach</li>
-			<li>InstallSimpleProstheticArm</li>
-			<li>InstallSimpleProstheticLeg</li>
-			<li>InstallSimpleProstheticHeart</li>
-			<!-- TODO: Install fake Mousekin ear operation -->
-			<!-- TODO: Install fake Mousekin tail operation -->
-			<li>InstallPegLeg</li>
-			<li>InstallWoodenFoot</li>
-			<li>InstallDenture</li>
-			<li>InstallJoywire</li>
-			<li>InstallPainstopper</li>
-			<!-- TODO: Install natural Mousekin ear operation -->
-			<!-- TODO: Install natural Mousekin tail operation -->
-			<li>InstallNaturalHeart</li>
-			<li>InstallNaturalLung</li>
-			<li>InstallNaturalKidney</li>
-			<li>InstallNaturalLiver</li>
-			<li>ExciseCarcinoma</li>
-			<li>AdministerMechSerumHealer</li>
-			<li>RemoveBodyPart</li>
-			<li>Euthanize</li>
-			<li>Anesthetize</li>
-			<li>CureScaria</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+			<li>Mousekin_InstallNaturalEar</li>
+			<li>Mousekin_InstallNaturalTail</li>
 		</recipes>
 	</AlienRace.ThingDef_AlienRace>
 

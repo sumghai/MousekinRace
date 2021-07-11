@@ -11,6 +11,7 @@
 		<tags>
 			<li>HearingSource</li>
 		</tags>
+		<spawnThingOnRemoved>Mousekin_BodyPartEar</spawnThingOnRemoved>
 	</BodyPartDef>
 
 	<BodyPartDef>
@@ -23,6 +24,7 @@
 		<tags>
 			<li>MovingLimbCore</li>
 		</tags>
+		<spawnThingOnRemoved>Mousekin_BodyPartTail</spawnThingOnRemoved>
 	</BodyPartDef>
 
 </Defs>
