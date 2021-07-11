@@ -162,8 +162,9 @@
 							<drawSize>0.9</drawSize>
 							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
-							<!-- TODO: add different graphics for fake cloth prosthetic ear -->
-							<hediffGraphics/>
+							<hediffGraphics>
+								<Mousekin_ProstheticClothEar>Things/Pawn/Mousekin/Ears/EarClothLeft</Mousekin_ProstheticClothEar>
+							</hediffGraphics>
 							<offsets>
 								<south>
 									<bodyTypes>
@@ -212,8 +213,9 @@
 							<drawSize>0.9</drawSize>
 							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
-							<!-- TODO: add different graphics for fake cloth prosthetic ear -->
-							<hediffGraphics/>
+							<hediffGraphics>
+								<Mousekin_ProstheticClothEar>Things/Pawn/Mousekin/Ears/EarClothRight</Mousekin_ProstheticClothEar>
+							</hediffGraphics>
 							<offsets>
 								<south>
 									<bodyTypes>
@@ -745,6 +747,8 @@
 			</hediffGiverSets>
 		</race>
 		<recipes>
+			<li>Mousekin_InstallProstheticClothEar</li>
+			<li>Mousekin_InstallProstheticClothTail</li>
 			<li>Mousekin_InstallNaturalEar</li>
 			<li>Mousekin_InstallNaturalTail</li>
 		</recipes>
