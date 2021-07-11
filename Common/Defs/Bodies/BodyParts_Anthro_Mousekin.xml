@@ -2,12 +2,24 @@
 <Defs>
 
 	<BodyPartDef>
+		<defName>Mousekin_Ear</defName>
+		<label>Mousekin ear</label>
+		<hitPoints>12</hitPoints>
+		<frostbiteVulnerability>5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>HearingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
 		<defName>Mousekin_Tail</defName>
 		<label>Mousekin tail</label>
 		<hitPoints>15</hitPoints>
 		<frostbiteVulnerability>1</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>
-		<beautyRelated>true</beautyRelated>		
+		<beautyRelated>true</beautyRelated>
 		<tags>
 			<li>MovingLimbCore</li>
 		</tags>
