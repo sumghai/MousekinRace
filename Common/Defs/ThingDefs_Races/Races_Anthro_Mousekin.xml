@@ -183,6 +183,7 @@
 									</portraitBodyTypes>
 								</north>
 								<east>
+									<layerOffset>-1</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -190,6 +191,14 @@
 										<Mousekin>(0,0)</Mousekin>
 									</portraitBodyTypes>
 								</east>
+								<west>
+									<bodyTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</portraitBodyTypes>
+								</west>
 							</offsets>
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
@@ -231,6 +240,15 @@
 										<Mousekin>(0,0)</Mousekin>
 									</portraitBodyTypes>
 								</east>
+								<west>
+									<layerOffset>-1</layerOffset>
+									<bodyTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</bodyTypes>
+									<portraitBodyTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</portraitBodyTypes>
+								</west>
 							</offsets>
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
