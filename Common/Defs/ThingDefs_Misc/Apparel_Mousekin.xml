@@ -84,7 +84,7 @@
 		</costList>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
-			<WorkToMake>2000</WorkToMake>
+			<WorkToMake>3600</WorkToMake>
 			<Mass>0.2</Mass>
 			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
@@ -149,7 +149,7 @@
 		</costList>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
-			<WorkToMake>2000</WorkToMake>
+			<WorkToMake>4800</WorkToMake>
 			<Mass>0.2</Mass>
 			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
