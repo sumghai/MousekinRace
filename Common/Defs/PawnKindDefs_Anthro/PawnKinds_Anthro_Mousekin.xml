@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- Notes on initialWillRange and initialResistanceRange:
+		- Mice are harder to recruit, due to their mild mistrust of humans
+		- Paradoxically, they are usually easier to enslave due to their small size and weakness, and can be more quickly cowed into submission
+	-->
+	
 	<PawnKindDef Abstract="True" Name="Mousekin_BasePawnKind">
 		<race>Mousekin</race>
 		<combatPower>20</combatPower>
@@ -19,7 +24,7 @@
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<apparelMoney>350~600</apparelMoney>
 		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>10~17</initialResistanceRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- Player starting colonists -->
@@ -38,7 +43,7 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
 		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>13~21</initialResistanceRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
 	
 	<!-- NPCs from Mousekin Kingdom faction type -->	
@@ -56,6 +61,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>8</minGenerationAge>
 		<maxGenerationAge>70</maxGenerationAge>
+		<initialWillRange>11~14</initialWillRange>
+		<initialResistanceRange>41~61</initialResistanceRange>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -71,6 +78,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>8</minGenerationAge>
 		<maxGenerationAge>70</maxGenerationAge>
+		<initialWillRange>8~12</initialWillRange>
+		<initialResistanceRange>41~61</initialResistanceRange>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -85,6 +94,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>33~49</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -105,6 +116,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>31~47</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -126,6 +139,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<initialWillRange>9~13</initialWillRange>
+		<initialResistanceRange>41~61</initialResistanceRange>
 		<minGenerationAge>40</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 	</PawnKindDef>
@@ -144,6 +159,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>8~12</initialWillRange>
+		<initialResistanceRange>41~61</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -164,6 +181,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<initialWillRange>7~10</initialWillRange>
+		<initialResistanceRange>39~59</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 	</PawnKindDef>
@@ -182,6 +201,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>35</maxGenerationAge>
+		<initialWillRange>6~9</initialWillRange>
+		<initialResistanceRange>39~59</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -202,6 +223,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>8~12</initialResistanceRange>
 		<minGenerationAge>14</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
 	</PawnKindDef>
@@ -220,6 +243,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>10</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>8~12</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -240,6 +265,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -258,6 +285,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 	</PawnKindDef>
@@ -272,6 +301,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 	</PawnKindDef>
@@ -286,6 +317,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>35</maxGenerationAge>
 	</PawnKindDef>
@@ -300,6 +333,8 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>25</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
 	</PawnKindDef>
@@ -318,6 +353,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>18~27</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -340,6 +377,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>18~27</initialResistanceRange>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -356,6 +395,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>18~27</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -377,6 +418,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -392,6 +435,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>60</maxGenerationAge>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -407,6 +452,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -422,9 +469,11 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>30</maxGenerationAge>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
 	
-	<!-- NPCs from Independent Mousekins faction type -->
+	<!-- NPCs from Independent Mousekins faction type (tougher to enslave, because they fought hard for their own freedom in the first place) -->
 	
 	<PawnKindDef Abstract="True" Name="Mousekin_FactionIndyTown_BasePawnKind" ParentName="Mousekin_BasePawnKind">
 		<defaultFactionType>Mousekin_FactionIndyTown</defaultFactionType>
@@ -445,6 +494,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>9~11</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
@@ -461,6 +512,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>8~9</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
@@ -477,6 +530,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>5~6</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
 	
 	<!-- NPCs from Mousekin Gypsy faction type -->
@@ -499,6 +554,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>3~4</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
 	
 	<!-- NPCs from Mousekin Brigand faction type -->
@@ -522,6 +579,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>33~49</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -545,6 +604,8 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>8</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>33~49</initialResistanceRange>
 	</PawnKindDef>
 
 </Defs>
