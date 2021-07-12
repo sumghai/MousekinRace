@@ -57,6 +57,7 @@
 			<Cloth>5</Cloth>
 		</costList>
 		<statBases>
+			<WorkToMake>1200</WorkToMake>
 			<Mass>0.1</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -78,6 +79,7 @@
 			<Cloth>5</Cloth>
 		</costList>
 		<statBases>
+			<WorkToMake>1200</WorkToMake>
 			<Mass>0.35</Mass>
 		</statBases>
 		<techHediffsTags>
