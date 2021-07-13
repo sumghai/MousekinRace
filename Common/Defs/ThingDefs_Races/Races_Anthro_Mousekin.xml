@@ -263,6 +263,9 @@
 							<drawSize>1</drawSize>
 							<drawnInBed>false</drawnInBed>
 							<colorChannel>skin</colorChannel>
+							<hediffGraphics>
+								<Mousekin_ProstheticClothTail>Things/Pawn/Mousekin/Tails/TailCloth</Mousekin_ProstheticClothTail>
+							</hediffGraphics>
 							<offsets>
 								<south>
 									<bodyTypes>
