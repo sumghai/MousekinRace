@@ -2,8 +2,6 @@
 <Defs>
 
 	<CultureDef Name="Mousekin_CultureBase" Abstract="True">
-		<pawnNameMaker>NamerPerson_MousekinMale</pawnNameMaker>
-		<pawnNameMakerFemale>NamerPerson_MousekinFemale</pawnNameMakerFemale>
 		<!-- Todo - make Mousekin versions of the following as necessary 
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoRustican</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>

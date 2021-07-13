@@ -9,6 +9,8 @@
 	<PawnKindDef Abstract="True" Name="Mousekin_BasePawnKind">
 		<race>Mousekin</race>
 		<combatPower>20</combatPower>
+		<nameMaker>NamerPerson_MousekinMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinFemale</nameMakerFemale>
 		<baseRecruitDifficulty>0.40</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
 		<!-- Most Mousekins (or their unseen world pawn relatives) are assumed to be from the Kingdom faction -->
@@ -52,6 +54,8 @@
 		<defName>MousekinRoyalty</defName>
 		<label>Mousekin royalty</label>
 		<combatPower>60</combatPower>
+		<nameMaker>NamerPerson_MousekinRoyalMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinRoyalFemale</nameMakerFemale>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -130,6 +134,8 @@
 		<defName>MousekinKnightCommander</defName>
 		<label>Mousekin knight commander</label>
 		<combatPower>120</combatPower>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
 		<isFighter>true</isFighter>
 		<factionLeader>true</factionLeader>
 		<backstoryFiltersOverride>
@@ -149,6 +155,8 @@
 		<defName>MousekinGuardenerElite</defName>
 		<label>Mousekin elite Guardener</label>
 		<combatPower>80</combatPower>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -172,6 +180,8 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinKnight</defName>
 		<label>Mousekin knight</label>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
 		<combatPower>100</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
@@ -190,6 +200,8 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinGuardener</defName>
 		<label>Mousekin Guardener</label>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
 		<combatPower>60</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>

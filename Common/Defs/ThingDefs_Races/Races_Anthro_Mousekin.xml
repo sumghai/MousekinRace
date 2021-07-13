@@ -673,8 +673,6 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>100</lifeExpectancy>
-			<nameGenerator>NamerPerson_MousekinMale</nameGenerator>
-			<nameGeneratorFemale>NamerPerson_MousekinFemale</nameGeneratorFemale>
 			<leatherDef>Mousekin_Leather_Mousekin</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>true</hasGenders>
