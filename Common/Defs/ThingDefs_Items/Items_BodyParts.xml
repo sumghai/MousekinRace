@@ -94,7 +94,7 @@
 		<label>Mousekin Ear</label>
 		<description>A biological Mousekin ear, most likely harvested from a dead or unwilling Mousekin.\n\nBesides allowing Mousekins to pick up quiet, distant sounds, large rounded ears represent a Mousekin’s personal honor, dignity and standing in their society, and this replacement ear fully restores their loss of hearing ability as well as their social status.</description>
 		<graphicData>
-			<texPath>Things/Item/Health/HealthItem</texPath>
+			<texPath>Things/Items/BodyPartsOrganic/Mousekin_BodyPartEar</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<RecipeDef>Mousekin_InstallNaturalEar</RecipeDef>
@@ -110,7 +110,7 @@
 		<label>Mousekin Tail</label>
 		<description>A biological Mousekin tail, most likely harvested from a dead or unwilling Mousekin.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving, and this replacement tail fully restores their loss of balancing ability.</description>
 		<graphicData>
-			<texPath>Things/Item/Health/HealthItem</texPath>
+			<texPath>Things/Items/BodyPartsOrganic/Mousekin_BodyPartTail</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<RecipeDef>Mousekin_InstallNaturalTail</RecipeDef>
