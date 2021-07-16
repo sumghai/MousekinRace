@@ -48,7 +48,7 @@
 		<label>Cloth Mousekin Ear</label>
 		<description>A fake Mousekin ear sewn from cloth.\n\nMousekins take great pride in their large rounded ears, as their presence (or absence) greatly affects their standing in Mousekin society. Those who have lost their natural ears through injury or disease wear fake ears to hide their humiliating disfigurement.</description>
 		<graphicData>
-			<texPath>Things/Item/Health/HealthItem</texPath>
+			<texPath>Things/Items/BodyPartsArtificial/Mousekin_ProstheticClothEar</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<RecipeDef>Mousekin_InstallProstheticClothEar</RecipeDef>
@@ -70,7 +70,7 @@
 		<label>Cloth Mousekin Tail</label>
 		<description>A fake Mousekin tail made from cloth twisted and braided into rope.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving. Those who have lost their natural tails through injury and disease wear fake tails, and while the non-living rope tail does not fully restore their loss of balancing ability, it at least attracts less attention than a stump.</description>
 		<graphicData>
-			<texPath>Things/Item/Health/HealthItem</texPath>
+			<texPath>Things/Items/BodyPartsArtificial/Mousekin_ProstheticClothTail</texPath>
 		</graphicData>
 		<descriptionHyperlinks>
 			<RecipeDef>Mousekin_InstallProstheticClothTail</RecipeDef>
