@@ -528,6 +528,44 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_MissingEars</defName>
+		<workerClass>MousekinRace.ThoughtWorker_MissingEars</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<!-- One missing ear replaced with prosthetic -->
+			<li>
+				<label>One prosthetic ear</label>
+				<description>I had to get my missing ear replaced with a cloth prosthetic. I hope nobody else notices.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<!-- Two missing ears replaced with prosthetics -->
+			<li>
+				<label>Two prosthetic ears</label>
+				<description>I had to get both my missing ears replaced with cloth prosthetics. I hope nobody else notices.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+			<!-- One missing ear, no prosthetic -->
+			<li>
+				<label>One ear missing</label>
+				<description>I've lost one of my ears. This is humiliating!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Two missing ears, only one replaced with prosthetic -->
+			<li>
+				<label>One prosthetic and one missing ear</label>
+				<description>I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating!</description>
+				<baseMoodEffect>-22</baseMoodEffect>
+			</li>
+			<!-- Two missing ears, no prosthetics -->
+			<li>
+				<label>Both ears missing</label>
+				<description>I've lost both my ears! I'd rather die than live with this humiliation!</description>
+				<baseMoodEffect>-40</baseMoodEffect>
+			</li>			
+		</stages>
+	</ThoughtDef>
 
 	<ThoughtDef ParentName="DeathMemoryFamily">
 		<defName>Mousekin_Thought_MyAuntDied</defName>
