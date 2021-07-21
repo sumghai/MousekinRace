@@ -295,11 +295,40 @@
 					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 				</li>
 			</graphicPaths>
-			<hairSettings>
-				<!-- TODO - Set to true -->
-				<hasHair>false</hasHair>
-				<getsGreyAt>60</getsGreyAt>
-			</hairSettings>
+			<styleSettings>	
+				<li>
+					<key>HairDef</key>
+					<value>
+						<!-- TODO - Set to true once hairstyles are implemented -->
+						<hasStyle>false</hasStyle>
+						<styleTags>
+							<li>Mousekin_Uncivilized</li>
+							<li>Mousekin_Rural</li>
+							<li>Mousekin_Urban</li>
+							<li>Mousekin_Noble</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<!-- TODO - Set to true once beards are implemented -->
+						<hasStyle>false</hasStyle>
+						<styleTags>
+							<li>Mousekin_Rural</li>
+							<li>Mousekin_Urban</li>
+							<li>Mousekin_Noble</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<!-- Mousekins don't have tattoos, as their fur would cover it anyway -->
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
 			<thoughtSettings>
 				<replacerList>
 					<li>
