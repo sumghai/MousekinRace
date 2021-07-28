@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AlertEarlessMousekinFeelingMiserableLabel>Miserable Earless Mousekin</AlertEarlessMousekinFeelingMiserableLabel>
+	
+	<AlertEarlessMousekinFeelingMiserableDesc>These Mousekins have recently lost both of their ears to disease or injury, and are ashamed of their disfigurement:\n\n{0}</AlertEarlessMousekinFeelingMiserableDesc>
+	
+	<AlertEarlessMousekinFeelingSuicidalLabel>Suicidal Earless Mousekin</AlertEarlessMousekinFeelingSuicidalLabel>
+	
+	<AlertEarlessMousekinFeelingSuicidalDesc>These Mousekins are humiliated by their prolonged loss of of their ears to disease or injury, and have a very high risk of committing suicide from despair over the next few days:\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
+	
+	<AlertEarlessMousekinDescEnding>Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins.</AlertEarlessMousekinDescEnding>
+
+</LanguageData>

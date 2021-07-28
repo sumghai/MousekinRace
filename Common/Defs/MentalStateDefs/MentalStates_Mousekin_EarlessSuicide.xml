@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<MentalBreakDef>
+		<defName>Mousekin_MentalBreak_EarlessSuicide</defName>
+		<mentalState>Mousekin_MentalState_EarlessSuicide</mentalState>
+		<baseCommonality>0</baseCommonality>
+		<intensity>Extreme</intensity>
+	</MentalBreakDef>
+
+	<MentalStateDef ParentName="BaseMentalState">
+		<defName>Mousekin_MentalState_EarlessSuicide</defName>
+		<!--<stateClass>MousekinRace.MentalState_EarlessSuicide</stateClass>
+		<workerClass>MousekinRace.MentalStateWorker_EarlessSuicide</workerClass>-->
+    <stateClass>MentalState_BedroomTantrum</stateClass>
+    <workerClass>MentalStateWorker_BedroomTantrum</workerClass>
+		<label>suicide from earless despair</label>
+		<category>Misc</category>
+		<blockInteractionInitiationExcept>
+			<li>Insult</li>
+		</blockInteractionInitiationExcept>
+		<blockInteractionRecipientExcept>
+			<li>Insult</li>
+		</blockInteractionRecipientExcept>
+		<blockRandomInteraction>true</blockRandomInteraction>
+		<colonistsOnly>true</colonistsOnly>
+		<requiredCapacities>
+			<li>Moving</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<minTicksBeforeRecovery>99999999</minTicksBeforeRecovery>
+		<recoverFromSleep>true</recoverFromSleep>
+		<nameColor>(0.98,0.48,0.16</nameColor>
+		<recoveryMessage>{0} is no longer attempting suicide.</recoveryMessage>
+		<beginLetterLabel>Earless Mousekin Suicide</beginLetterLabel>
+		<beginLetter>{0} could no longer endure the humiliation of living without [PAWN_possessive] ears, and is attempting suicide.</beginLetter>
+		<beginLetterDef>NegativeEvent</beginLetterDef>
+		<baseInspectLine>Mental state: Attempting suicide</baseInspectLine>
+		<escapingPrisonersIgnore>true</escapingPrisonersIgnore>
+	</MentalStateDef>
+
+</Defs>

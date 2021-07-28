@@ -13,5 +13,9 @@ namespace MousekinRace
         public static BodyPartDef Mousekin_Ear;
 
         public static HediffDef Mousekin_ProstheticClothEar;
+
+        public static MentalStateDef Mousekin_MentalState_EarlessSuicide;
+
+        public static DamageDef Mousekin_SuicideKnife;
     }
 }

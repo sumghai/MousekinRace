@@ -1,11 +1,22 @@
 ﻿using RimWorld;
-using System.Linq;
+using System.Text;
 using Verse;
 
 namespace MousekinRace
 {
     public class ThoughtWorker_MissingEars : ThoughtWorker
     {
+        public override string PostProcessDescription(Pawn p, string description)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            if (DebugSettings.godMode && EarlessMousekinAlertUtility.IsMissingBothEars(p))
+            {
+                stringBuilder.AppendLine();
+                stringBuilder.AppendLine("(DEBUG: Both ears missing for " + EarlessMousekinAlertUtility.GetDaysSinceBothEarsLost(p) + " days)");
+            }
+            return base.PostProcessDescription(p, description) + stringBuilder.ToString();
+        }
+        
         public override ThoughtState CurrentStateInternal(Pawn pawn)
         {
             // Mousekins are always Humanlike, so we can skip to directly checking if both pawns are Mousekins
@@ -14,7 +25,7 @@ namespace MousekinRace
                 return ThoughtState.Inactive;
             }
 
-            int numOfMissingEars = pawn.health.hediffSet.cachedMissingPartsCommonAncestors.Count(x => x.Part.def == MousekinDefOf.Mousekin_Ear);
+            int numOfMissingEars = pawn.health.hediffSet.cachedMissingPartsCommonAncestors.FindAll(x => x.Part.def == MousekinDefOf.Mousekin_Ear).Count;
 
             int numOfProstheticEars = pawn.health.hediffSet.GetHediffCount(MousekinDefOf.Mousekin_ProstheticClothEar);
 
@@ -39,7 +50,7 @@ namespace MousekinRace
             }
 
             if (numOfMissingEars == 2 && numOfProstheticEars == 0)
-            {
+            {               
                 return ThoughtState.ActiveAtStage(4);
             }
 
