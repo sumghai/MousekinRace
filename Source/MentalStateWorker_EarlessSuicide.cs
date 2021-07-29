@@ -6,10 +6,14 @@ namespace MousekinRace
 {
     public class MentalStateWorker_EarlessSuicide : MentalStateWorker
     {
-		// Earless Mousekins will only attempt suicide in the privacy of their own bedroom or barrack
+		// Earless Mousekins will only attempt suicide in the privacy of their own bedroom or barrack on their home settlement map
 		public override bool StateCanOccur(Pawn pawn)
 		{
 			if (!base.StateCanOccur(pawn))
+			{
+				return false;
+			}
+			if (pawn.Map != Find.AnyPlayerHomeMap)
 			{
 				return false;
 			}

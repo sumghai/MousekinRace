@@ -298,6 +298,7 @@
     <Compile Include="Alert_MissingEarsSuicidal.cs" />
     <Compile Include="Alert_MissingEarsMiserable.cs" />
     <Compile Include="EarlessMousekinAlertUtility.cs" />
+    <Compile Include="JobGiver_EarlessMousekinCommitSuicide.cs" />
     <Compile Include="MentalStateWorker_EarlessSuicide.cs" />
     <Compile Include="MentalState_EarlessSuicide.cs" />
     <Compile Include="MousekinDefOf.cs" />
