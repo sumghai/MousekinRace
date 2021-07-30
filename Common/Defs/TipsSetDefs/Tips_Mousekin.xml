@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TipSetDef>
+		<defName>MousekinRaceCoreGameplayTips</defName>
+		<tips>
+			<li>Mousekins are smaller and relatively weaker fighters compared to humans, but can be dangerous in large numbers.</li>
+			<li>Mousekins are indifferent towards wearing human leather, but will be horrified by Mousekin fur.</li>
+			<li>Mousekins with missing ears can either receive cloth prosthetics, or natural flesh ears harvested from other Mousekins.</li>
+			<li>Mousekins have differing levels of religious belief - Apostate, Devotionist, Pious and Inqusitionist. Understanding the dynamics between them is important to the success of a Mousekin community.</li>
+			<li>Despite their smaller body size and anatomical differences, Mousekins can wear most human apparel.</li>
+			<li>Mousekins require less food than humans.</li>
+			<li>Chonko and Nyam nut bushes take a long time to grow, but will afterwards yield many harvests each year.</li>
+			<li>Feeding trail mix to Mousekins gives them a quick mood boost.</li>
+			<li>Three bags of Mousekin trail mix offer the same nutrition as a human survival meal, but is lighter.</li>
+			<li>Mousekin poultices are more potent than regular herbal medicines, but less effective than industrial pharmaceuticals.</li>
+			<li>Some buildings and furniture can only be constructed by Mousekins.</li>
+			<li>Most religious Mousekins abhor prosthetics and implants.</li>
+		</tips>
+	</TipSetDef>
+	
+	<TipSetDef>
+		<defName>MousekinRaceCoreLoreTips</defName>
+		<tips>
+			<li>While most humanoid rodent races in the galaxy are often the product of genetic engineering, Mousekins are among the very few that evolved naturally from their non-sapient mouse ancestors.</li>
+			<li>Mousekin adult males can grow up to 100 centimeters tall, while females tend to reach 90 centimeters in height.</li>
+			<li>Mousekin pregnancies typically last for nine months, after which a single pup is born; multiple births are rare.</li>
+			<li>Barring accidents, injury or disease, a Mousekin’s average life expectancy is 90~100 years.</li>
+			<li>A Mousekin's large, rounded ears are important to their personal honor, dignity and social standing, and the loss of one or both ears can lead to depression or eventually suicide.</li>
+			<li>Mousekins are naturally fluent in Galactic Standard (English), but speak in squeaky, childlike voices even as adults.</li>
+			<li>Mousekins prefer eating nuts and seeds to cheese.</li>
+			<li>Mousekins hate being compared to or called rats.</li>
+			<li>Most humanoid races despise Mousekins for their short stature, squeaky voices and obstensibly cute appearance.</li>
+			<li>As most Mousekins live in agarian societies, individuals are traditionally named after flowers, herbs and trees.</li>
+			<li>Most Mousekin societies resemble Regency-era England on Old Earth, with a late-medieval to pre-industrial level of technology.</li>
+			<li>Most Mousekins live in agarian monarchies, ruled by a Mousekin King.</li>
+			<li>The Mousekin Royal Family has dozens of children and hundreds of grandchildren, all of whom vie to be the Mousekin King's successor.</li>
+			<li>Mousekins practice alchemy rather than chemistry or science.</li>
+			<li>Mousekin religion is based around the teachings of Valerian the Wise, a traveller, healer and philosopher of antiquity.</li>
+			<li>Pious and virtuous Mousekin souls are granted a place in The Great Garden, while wicked Mousekin souls are condemned to The Wasteland.</li>
+			<li>The Mousekin Church is the sole authority on the Word of Valerian, led by the Mousekin Pope and his subordinate clergy.</li>
+			<li>Devotionist Mousekins seek to follow the spirit of Valerian the Wise's original teachings, rather than official Mousekin Church doctine.</li>
+			<li>The Mousekin Inquisition is a religious institution tasked with preserving the morality of Mousekin society, by hunting down heretics such as Apostates and Devotionists - as well as other non-Mousekin rodent races.</li>
+			<li>Independent Mousekin towns are founded by those who object to the oppressive Mousekin Church doctrine, and are considered enemies of the Mousekin Kingdom.</li>
+			<li>The Order of Floral Guardians is an all-female paramilitary order responsible for tending and protecting the flower gardens of the Mousekin Kingdom.</li>
+			<li>Guardeners often bless newborn Mousekin daughters at their mothers' request. These girls usually leave home at the age of 10 to be inducted as Apprentice Guardeners.</li>
+			<li>Mousekin Guardeners do not take vows of celibacy and may freely court male Mousekins, but must leave the Order upon marriage or pregnancy.</li>
+			<li>Mousekins have a habit of cutting holes in hats and helmets to accomodate their large, rounded ears.</li>
+		</tips>
+	</TipSetDef>
+	
+</Defs>
