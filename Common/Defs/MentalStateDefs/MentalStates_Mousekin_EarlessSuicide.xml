@@ -33,7 +33,7 @@
 		<beginLetterLabel>Earless Mousekin Suicide</beginLetterLabel>
 		<beginLetter>{0} could no longer endure the humiliation of living without [PAWN_possessive] ears, and is attempting suicide.</beginLetter>
 		<beginLetterDef>NegativeEvent</beginLetterDef>
-		<baseInspectLine>Mental state: Attempting suicide</baseInspectLine>
+		<baseInspectLine>Mental state: Suicidal</baseInspectLine>
 		<escapingPrisonersIgnore>true</escapingPrisonersIgnore>
 	</MentalStateDef>
 

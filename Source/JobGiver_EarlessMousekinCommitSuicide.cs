@@ -1,5 +1,4 @@
-﻿using RimWorld;
-using Verse;
+﻿using Verse;
 using Verse.AI;
 
 namespace MousekinRace
@@ -8,27 +7,36 @@ namespace MousekinRace
     {
         public override Job TryGiveJob(Pawn pawn)
         {
-            Log.Warning("Trying to give suicide job...");
-
             // Non-Mousekins should never attempt suicide over losing both ears
             if (!Utils.IsMousekin(pawn))
             {
                 return null;
             }
 
-            Log.Warning("Passed race check");
-
             MentalState_EarlessSuicide mentalState_EarlessSuicide = pawn.MentalState as MentalState_EarlessSuicide;
 
-            if (mentalState_EarlessSuicide == null)
+            // Don't attempt suicide if the the pawn doesn't have the Earless Suicide mental state, or if they cannot find/reach their target destination (i.e. their bed)
+            if (mentalState_EarlessSuicide == null || mentalState_EarlessSuicide.target == null || !pawn.CanReach(mentalState_EarlessSuicide.target, PathEndMode.Touch, Danger.Deadly))
             {
-                Log.Warning("Cannot give suicide job - ");
                 return null;
             }
 
-            
+            JobDef suicideJobChoice;
 
-            Job job = JobMaker.MakeJob(JobDefOf.Vomit);
+            // Mice incapable of violence (e.g. priests and nuns) will take poison, while other mice stab themselves 
+            if (pawn.WorkTagIsDisabled(WorkTags.Violent))
+            {
+                suicideJobChoice = MousekinDefOf.Mousekin_Job_CommitSuicideWithPoison;
+            }
+            else
+            {
+                suicideJobChoice = MousekinDefOf.Mousekin_Job_CommitSuicideWithKnife;
+            }
+
+            Job job = JobMaker.MakeJob(suicideJobChoice, mentalState_EarlessSuicide.target);
+
+            // Suicidal mice walk slowly and reluctantly to their bedroom, giving players time to intervene
+            job.locomotionUrgency = LocomotionUrgency.Amble;
             job.count = 1;
             return job;
         }

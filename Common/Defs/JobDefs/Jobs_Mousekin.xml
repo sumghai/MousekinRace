@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<JobDef>
+		<defName>Mousekin_Job_CommitSuicideWithKnife</defName>
+		<driverClass>MousekinRace.JobDriver_CommitSuicideWithKnife</driverClass>
+		<suspendable>false</suspendable>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	
+	<JobDef>
+		<defName>Mousekin_Job_CommitSuicideWithPoison</defName>
+		<driverClass>MousekinRace.JobDriver_CommitSuicideWithPoison</driverClass>
+		<suspendable>false</suspendable>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+</Defs>

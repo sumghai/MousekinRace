@@ -13,7 +13,6 @@ namespace MousekinRace.Patches
             Pawn pawn = __instance.pawn;
             if (Utils.IsMousekin(pawn) && !pawn.InMentalState && pawn.Faction == Faction.OfPlayer && EarlessMousekinAlertUtility.GetDaysSinceBothEarsLost(pawn) > EarlessMousekinAlertUtility.suicideAttemptThresholdDays && MousekinDefOf.Mousekin_MentalState_EarlessSuicide.Worker.StateCanOccur(pawn) && MousekinRaceMod.Settings.EarlessMousekinsAreSuicidal)
             {
-                Log.Warning(pawn + " has been earless long enough, and should attempt suicide. (This message should only appear once)");
                 pawn.mindState.mentalStateHandler.TryStartMentalState(MousekinDefOf.Mousekin_MentalState_EarlessSuicide);
             }
         }

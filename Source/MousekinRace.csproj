@@ -298,6 +298,9 @@
     <Compile Include="Alert_MissingEarsSuicidal.cs" />
     <Compile Include="Alert_MissingEarsMiserable.cs" />
     <Compile Include="EarlessMousekinAlertUtility.cs" />
+    <Compile Include="JobDriver_CommitSuicide.cs" />
+    <Compile Include="JobDriver_CommitSuicideWithKnife.cs" />
+    <Compile Include="JobDriver_CommitSuicideWithPoison.cs" />
     <Compile Include="JobGiver_EarlessMousekinCommitSuicide.cs" />
     <Compile Include="MentalStateWorker_EarlessSuicide.cs" />
     <Compile Include="MentalState_EarlessSuicide.cs" />
@@ -305,6 +308,7 @@
     <Compile Include="MousekinRaceMod.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
     <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
+    <Compile Include="Patches\Harmony_Pawn_HealthTracker.cs" />
     <Compile Include="Patches\Harmony_PawnGenerator.cs" />
     <Compile Include="Patches\Harmony_Pawn_MindState.cs" />
     <Compile Include="Patches\Temp_Harmony_PawnBioAndNameGenerator.cs" />

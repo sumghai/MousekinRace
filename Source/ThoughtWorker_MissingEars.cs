@@ -12,7 +12,7 @@ namespace MousekinRace
             if (DebugSettings.godMode && EarlessMousekinAlertUtility.IsMissingBothEars(p))
             {
                 stringBuilder.AppendLine();
-                stringBuilder.AppendLine("(DEBUG: Both ears missing for " + EarlessMousekinAlertUtility.GetDaysSinceBothEarsLost(p) + " days)");
+                stringBuilder.AppendLine("(DEBUG: Both ears missing for " + EarlessMousekinAlertUtility.GetDaysSinceBothEarsLost(p).ToString("0.00") + " days)");
             }
             return base.PostProcessDescription(p, description) + stringBuilder.ToString();
         }

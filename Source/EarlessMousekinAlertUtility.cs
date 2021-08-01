@@ -9,9 +9,9 @@ namespace MousekinRace
 {
     public class EarlessMousekinAlertUtility
     {
-        public const int criticalWarningThresholdDays = 4;
+        public const int criticalWarningThresholdDays = 10;
 
-        public const int suicideAttemptThresholdDays = 6;
+        public const int suicideAttemptThresholdDays = 15;
         
         public static List<Pawn> mousekinsMiserableResult = new List<Pawn>();
 
