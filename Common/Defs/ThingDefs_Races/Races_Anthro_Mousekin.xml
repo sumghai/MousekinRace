@@ -160,6 +160,7 @@
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
 							<drawSize>0.9</drawSize>
+							<drawnDesiccated>false</drawnDesiccated>
 							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
 							<hediffGraphics>
@@ -211,6 +212,7 @@
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
 							<drawSize>0.9</drawSize>
+							<drawnDesiccated>false</drawnDesiccated>
 							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
 							<hediffGraphics>
@@ -261,6 +263,7 @@
 							<bodyPart>tail</bodyPart>
 							<inFrontOfBody>false</inFrontOfBody>
 							<drawSize>1</drawSize>
+							<drawnDesiccated>false</drawnDesiccated>
 							<drawnInBed>false</drawnInBed>
 							<colorChannel>skin</colorChannel>
 							<hediffGraphics>
@@ -292,7 +295,8 @@
 				<li>
 					<body>Things/Pawn/Mousekin/Body/</body>
 					<head>Things/Pawn/Mousekin/Heads/</head>
-					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+					<skeleton>Things/Pawn/Mousekin/Body/Skeleton</skeleton>
+					<skull>Things/Pawn/Mousekin/Heads/Skull</skull>
 				</li>
 			</graphicPaths>
 			<styleSettings>	
