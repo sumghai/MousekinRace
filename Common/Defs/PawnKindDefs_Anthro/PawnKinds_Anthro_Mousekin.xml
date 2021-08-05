@@ -390,7 +390,13 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
 		<initialWillRange>2~3</initialWillRange>
-		<initialResistanceRange>18~27</initialResistanceRange>
+		<initialResistanceRange>18~27</initialResistanceRange>		
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.67</maleGenderProbability>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
