@@ -5376,17 +5376,7 @@
 		<title>Crossbowman</title>
 		<titleShort>Crossbowman</titleShort>
 		<baseDescription>[PAWN_nameDef] served as a crossbowman in the Mousekin Kingdom's army.\n\n[PAWN_pronoun] and [PAWN_possessive] comrades were trained to lay barrages of crossbow bolts down on advancing enemy troops, as well as ambushing enemy columns from hidden positions.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>20</min>
-			<max>40</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>20</min>
-			<max>40</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -5441,17 +5431,7 @@
 		<title>Mouseketeer</title>
 		<titleShort>Mouseketeer</titleShort>
 		<baseDescription>[PAWN_nameDef] was a member of the Mouseketeer Corps, a hand-picked group of Mousekin Kingdom soldiers armed and trained in the use of gunpowder muskets.\n\nWhile [PAWN_pronoun] and [PAWN_possessive] comrades could not fire their weapons as fast as their crossbowmen comrades, they were each individually capable of instantly killing a well-armored enemy Mousekin knight at range.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>20</min>
-			<max>40</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>20</min>
-			<max>40</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
@@ -5505,17 +5485,7 @@
 		<title>Pikeman</title>
 		<titleShort>Pikeman</titleShort>
 		<baseDescription>[PAWN_nameDef] served as a pikeman in the Mousekin Kingdom's army.\n\nWell-trained and disciplined, [PAWN_pronoun] and [PAWN_possessive] comrades were responsible for preventing enemy calvary from flanking, charging and overwhelming friendly troops.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>20</min>
-			<max>40</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>20</min>
-			<max>40</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Melee</defName>
