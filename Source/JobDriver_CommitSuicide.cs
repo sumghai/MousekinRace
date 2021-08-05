@@ -15,7 +15,13 @@ namespace MousekinRace
         }
 
         public override IEnumerable<Toil> MakeNewToils()
-        {          
+        {
+            // Job not applicable for non-Mousekins
+            this.FailOn(delegate
+            {
+                return !Utils.IsMousekin(pawn);
+            });
+
             LocalTargetInfo lookAtTarget = job.GetTarget(TargetIndex.B);
             yield return Toils_Goto.GotoCell(TargetIndex.A, PathEndMode.OnCell);
             yield return Toils_General.Wait(TicksToPrepare).WithProgressBarToilDelay(TargetIndex.B);
