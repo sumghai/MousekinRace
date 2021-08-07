@@ -18,14 +18,14 @@ namespace MousekinRace
         }
         
         public override ThoughtState CurrentStateInternal(Pawn pawn)
-        {
+        {           
             // Mousekins are always Humanlike, so we can skip to directly checking if both pawns are Mousekins
             if (!Utils.IsMousekin(pawn))
             {
                 return ThoughtState.Inactive;
             }
 
-            int numOfMissingEars = pawn.health.hediffSet.cachedMissingPartsCommonAncestors.FindAll(x => x.Part.def == MousekinDefOf.Mousekin_Ear).Count;
+            int numOfMissingEars = pawn.health.hediffSet.GetMissingPartsCommonAncestors().FindAll(x => x.Part.def == MousekinDefOf.Mousekin_Ear).Count;
 
             int numOfProstheticEars = pawn.health.hediffSet.GetHediffCount(MousekinDefOf.Mousekin_ProstheticClothEar);
 
