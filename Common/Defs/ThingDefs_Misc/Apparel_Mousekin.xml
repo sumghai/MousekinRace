@@ -62,10 +62,19 @@
 			<li>Mousekin_Headgear</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<ThingDef Name="Mousekin_ApparelCommonerMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelCommoner</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 
 	<!-- Commoner Apparel -->
 
-	<ThingDef ParentName="Mousekin_ApparelMakeableBase">
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
 		<defName>Mousekin_ApparelSettlerOutfit</defName>
 		<label>Mousekin Settler’s Outfit</label>
 		<description>A simple shirt, pair of trousers and a vest, typically worn by Mousekin settlers and homesteaders.</description>
@@ -115,9 +124,6 @@
 			</defaultOutfitTags>
 			<gender>Male</gender>
 		</apparel>
-		<recipeMaker>
-			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
-		</recipeMaker>
 		<!-- Vest color options (for cloth fabric type only) -->
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -130,7 +136,7 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<ThingDef ParentName="Mousekin_ApparelMakeableBase">
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
 		<defName>Mousekin_ApparelSettlerDress</defName>
 		<label>Mousekin Settler’s Dress</label>
 		<description>A simple full-body dress with an apron and shawl, typically worn by Mousekin settlers and homesteaders.</description>
@@ -180,9 +186,6 @@
 			</defaultOutfitTags>
 			<gender>Female</gender>
 		</apparel>
-		<recipeMaker>
-			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
-		</recipeMaker>
 		<!-- Dress and shawl color options (for cloth fabric type only) -->
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>

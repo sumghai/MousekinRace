@@ -136,6 +136,11 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>Mousekin_TraderCaravan_Bulk</li>
+			<li>Mousekin_TraderCaravan_Apparel</li>
+			<li>Mousekin_TraderCaravan_Animals</li>
+		</caravanTraderKinds>
 		<pawnGroupMakers>
 
 			<!-- ===== Violent ===== -->
@@ -383,14 +388,16 @@
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<MousekinTrader>5</MousekinTrader>
+					<MousekinTrader>1</MousekinTrader>
 				</traders>
 				<carriers>
-					<!--<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>-->
+					<!-- todo - replace with cavy -->
+					<Muffalo>10</Muffalo>
 				</carriers>
 				<guards>
-					<MousekinCrossbowman>3</MousekinCrossbowman>
-					<MousekinPikeman>2</MousekinPikeman>
+					<MousekinTrader>1</MousekinTrader>
+					<MousekinCrossbowman>1</MousekinCrossbowman>
+					<MousekinPikeman>1</MousekinPikeman>
 				</guards>
 			</li>
 
@@ -510,6 +517,11 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>Mousekin_TraderCaravan_Bulk</li>
+			<li>Mousekin_TraderCaravan_Apparel</li>
+			<li>Mousekin_TraderCaravan_Animals</li>
+		</caravanTraderKinds>
 		<pawnGroupMakers>
 
 			<!-- ===== Violent ===== -->
@@ -562,14 +574,15 @@
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<MousekinTrader>5</MousekinTrader>
+					<MousekinTrader>1</MousekinTrader>
 				</traders>
 				<carriers>
-					<!--<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>-->
+					<!-- todo - replace with cavy -->
+					<Muffalo>10</Muffalo>
 				</carriers>
 				<guards>
-					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
-					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
+					<MousekinTrader>1</MousekinTrader>
+					<MousekinIndyTownSoldier>3</MousekinIndyTownSoldier>
 				</guards>
 			</li>
 
@@ -641,6 +654,9 @@
 				</categories>
 			</li>
 		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>Mousekin_TraderCaravan_Exotic</li>
+		</caravanTraderKinds>
 		<pawnGroupMakers>
 
 			<!-- ===== Traders ===== -->
@@ -649,13 +665,14 @@
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<MousekinTraderGypsy>5</MousekinTraderGypsy>
+					<MousekinTraderGypsy>1</MousekinTraderGypsy>
 				</traders>
 				<carriers>
-					<!--<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>-->
+					<!-- todo - replace with cavy -->
+					<Muffalo>10</Muffalo>
 				</carriers>
 				<guards>
-					<!-- TodoL generic Gypsy folk? -->
+					<!-- Todo generic Gypsy folk? -->
 				</guards>
 			</li>
 

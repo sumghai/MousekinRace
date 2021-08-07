@@ -313,6 +313,7 @@
     <Compile Include="Patches\Harmony_Pawn_MindState.cs" />
     <Compile Include="Patches\Temp_Harmony_PawnBioAndNameGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RawMeatTradeTagPatch.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="ThoughtWorker_FaithAffinityOpinions.cs" />
     <Compile Include="ThoughtWorker_MissingEars.cs" />

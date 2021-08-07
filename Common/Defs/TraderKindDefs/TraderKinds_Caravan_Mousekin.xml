@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Bulk goods trader (Kingdom and Independent factions) - buys and sells Mousekin-themed crops, meats, alcohols, resources and misc manufactured items -->
+
+	<TraderKindDef>
+		<defName>Mousekin_TraderCaravan_Bulk</defName>
+		<label>bulk goods trader</label>
+		<commonality>3</commonality>
+
+		<stockGenerators>
+
+			<!-- Currency -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~1200</countRange>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+
+			<!-- Resources -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>WoodLog</thingDef>
+				<countRange>300~600</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Steel</thingDef>
+				<countRange>250~400</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_StoneBlocks</tradeTag>
+				<thingDefCountRange>2~3</thingDefCountRange>
+				<countRange>50~80</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Crops -->
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>PlantFoodRaw</categoryDef>
+				<!-- Nuts are handled separately -->
+				<excludedThingDefs>
+					<li>Mousekin_RawNutChonko</li>
+					<li>Mousekin_RawNutNyam</li>
+				</excludedThingDefs>
+				<thingDefCountRange>10~12</thingDefCountRange>
+				<countRange>200~300</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_RawNutChonko</thingDef>
+				<countRange>150~200</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_RawNutNyam</thingDef>
+				<countRange>150~200</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Meat -->
+
+			<li Class="StockGenerator_Tag">
+				<!-- As meats are dynamically-generated defs, selected meat types known to Mousekins are assigned a custom tradeTag at runtime via the mod assembly -->
+				<tradeTag>Mousekin_TradeGoods_Meat</tradeTag>
+				<thingDefCountRange>5~7</thingDefCountRange>
+				<countRange>100~150</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Alcohols -->
+
+			<!-- Misc manufactured items -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chocolate</thingDef>
+				<totalPriceRange>10~40</totalPriceRange>
+				<price>Cheap</price>
+			</li>
+
+		</stockGenerators>
+
+	</TraderKindDef>
+
+	<!-- Clothing merchant (Kingdom and Independent factions) - buys and sells Mousekin commoner and middle-class apparel, accessories, fabrics, wools and leathers -->
+
+	<TraderKindDef>
+
+		<defName>Mousekin_TraderCaravan_Apparel</defName>
+		<label>clothing merchant</label>
+		<commonality>1</commonality>
+
+		<stockGenerators>
+
+			<!-- Currency -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~1200</countRange>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+
+			<!-- Apparel -->
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelCommoner</tradeTag>
+				<thingDefCountRange>8~10</thingDefCountRange>
+				<countRange>2~3</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Fabrics, Leathers and Wools -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Cloth</thingDef>
+				<countRange>150~200</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DevilstrandCloth</thingDef>
+				<countRange>50~100</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>Leathers</categoryDef>
+				<!-- No Mousekin fur -->
+				<excludedThingDefs>
+					<li>Mousekin_Leather_Mousekin</li>
+				</excludedThingDefs>
+				<thingDefCountRange>5~6</thingDefCountRange>
+				<countRange>10~20</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>WoolSheep</thingDef>
+				<countRange>100~150</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Buying -->
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Hyperweave</thingDef>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Synthread</thingDef>
+			</li>
+
+		</stockGenerators>
+
+	</TraderKindDef>
+
+	<!-- Livestock trader (Kingdom and Independent factions) - buys and sells common Mousekin farm animals -->
+
+	<TraderKindDef>
+
+		<defName>Mousekin_TraderCaravan_Animals</defName>
+		<label>livestock trader</label>
+		<commonality>2</commonality>
+
+		<stockGenerators>
+
+			<!-- Currency -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~1200</countRange>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+			
+			<!-- Farm animals -->
+
+			<li Class="StockGenerator_Animals">
+				<tradeTagsSell>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+				</tradeTagsSell>
+				<tradeTagsBuy>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+				</tradeTagsBuy>
+				<kindCountRange>6~8</kindCountRange>
+				<countRange>32~46</countRange>
+				<createMatingPair>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+				</createMatingPair>
+				<customCountRanges>
+					<Chicken>8~10</Chicken>
+					<Cow>4~6</Cow>
+					<Duck>2~4</Duck>
+					<Goose>2~4</Goose>
+					<Goat>4~6</Goat>
+					<Pig>6~8</Pig>
+					<Sheep>6~8</Sheep>
+				</customCountRanges>
+				<price>Cheap</price>
+			</li>
+
+		</stockGenerators>
+
+	</TraderKindDef>
+
+	<!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand) -->
+
+	<TraderKindDef>
+
+		<defName>Mousekin_TraderCaravan_Exotic</defName>
+		<label>exotic goods trader</label>
+		<commonality>1</commonality>
+
+		<stockGenerators>
+
+			<!-- Currency -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~1200</countRange>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+
+			<!-- Resources -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Gold</thingDef>
+				<countRange>40~80</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Uranium</thingDef>
+				<countRange>0~20</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Jade</thingDef>
+				<countRange>0~40</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Misc manufactured items -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>5~10</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineUltratech</thingDef>
+				<countRange>2~4</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>5~10</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<countRange>2~4</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!--  Artifacts, Techprints and Exotic goods -->
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Artifact</tradeTag>
+				<thingDefCountRange>2~2</thingDefCountRange>
+				<countRange>1~1</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Techprints">
+				<countChances>
+					<li>
+						<count>3</count>
+						<chance>1</chance>
+					</li>
+				</countChances>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Television</tradeTag>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<countRange>1~1</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Telescope</thingDef>
+				<countRange>0~1</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>ExoticMisc</tradeTag>
+				<thingDefCountRange>5~5</thingDefCountRange>
+				<countRange>1~1</countRange>
+				<excludedThingDefs>
+					<li>MedicineUltratech</li><!-- Already handled by single def -->
+					<li>ComponentSpacer</li><!-- Already handled by single def -->
+					<li>Luciferium</li>
+				</excludedThingDefs>
+				<customCountRanges>
+					<Hyperweave>50~100</Hyperweave>
+				</customCountRanges>
+				<price>Cheap</price>
+			</li>
+
+		</stockGenerators>
+
+	</TraderKindDef>
+
+</Defs>

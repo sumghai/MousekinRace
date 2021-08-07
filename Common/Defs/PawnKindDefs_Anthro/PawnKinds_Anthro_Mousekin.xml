@@ -426,6 +426,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinTrader</defName>
 		<label>Mousekin trader</label>
+		<trader>true</trader>
 		<combatPower>35</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -561,6 +562,7 @@
 	<PawnKindDef ParentName="Mousekin_FactionGypsy_BasePawnKind">
 		<defName>MousekinTraderGypsy</defName>
 		<label>Mousekin gypsy</label>
+		<trader>true</trader>
 		<combatPower>35</combatPower>
 		<factionLeader>true</factionLeader>
 		<backstoryFiltersOverride>
