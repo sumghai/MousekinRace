@@ -84,6 +84,7 @@
 					<alienbodytypes>
 						<li>Mousekin</li>
 					</alienbodytypes>
+					<atlasScale>2</atlasScale>
 					<useGenderedHeads>true</useGenderedHeads>
 					<useGenderedBodies>false</useGenderedBodies>
 					<customDrawSize>(0.9, 0.9)</customDrawSize>
