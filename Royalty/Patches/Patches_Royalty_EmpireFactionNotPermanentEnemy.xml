@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Whitelist most Mousekin factions as non-hostile to the Royalty DLC Shattered Empire faction -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+				<value>
+					<li>Mousekin_PlayerFaction_Settlers</li>
+					<li>Mousekin_PlayerFaction_Refugees</li>
+					<li>Mousekin_FactionKingdom</li>
+					<li>Mousekin_FactionIndyTown</li>
+					<li>Mousekin_FactionGypsy</li>
+					<!-- The sole exception are Mousekin Brigands - everybody hates 'em. -->
+				</value>
+			</li>
+
+		
+		</operations>
+	</Operation>
+</Patch>
