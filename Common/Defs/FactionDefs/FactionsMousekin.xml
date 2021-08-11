@@ -112,6 +112,9 @@
 		<allowedCultures>
 			<li>Mousekin_CultureKingdom</li>
 		</allowedCultures>
+		<structureMemeWeights>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+		</structureMemeWeights>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -507,6 +510,9 @@
 		<allowedCultures>
 			<li>Mousekin_CultureIndyTown</li>
 		</allowedCultures>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -646,6 +652,9 @@
 		<allowedCultures>
 			<li>Mousekin_CultureGypsy</li>
 		</allowedCultures>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -712,6 +721,9 @@
 		<allowedCultures>
 			<li>Mousekin_CultureBrigand</li>
 		</allowedCultures>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
