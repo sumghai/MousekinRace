@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerIdeoMousekinChurch</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ideoName->Word of Valerian</li>
+				<li>r_ideoAdjective->Pious</li>
+				<li>r_memberName->Pious</li>
+				<li>hyphenPrefix-> </li> <!-- No name prefixes -->
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerIdeoMousekinRepublic</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ideoName->Agrarian Republic</li>
+				<li>r_ideoAdjective->Republican</li>
+				<li>r_memberName->Republican</li>
+				<li>hyphenPrefix-> </li> <!-- No name prefixes -->
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerIdeoMousekinGypsy</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ideoName->Rodemani</li>
+				<li>r_ideoAdjective->Rodemani</li>
+				<li>r_memberName->Rodemanian</li>
+				<li>hyphenPrefix-> </li> <!-- No name prefixes -->
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerIdeoMousekinBrigands</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ideoName->Outpawism</li>
+				<li>r_ideoAdjective->Outpaw</li>
+				<li>r_memberName->Outpawian</li>
+				<li>hyphenPrefix-> </li> <!-- No name prefixes -->
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>
