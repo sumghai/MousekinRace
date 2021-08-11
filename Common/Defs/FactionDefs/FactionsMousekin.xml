@@ -626,7 +626,7 @@
 		<maxCountAtGameStart>1</maxCountAtGameStart>
 		<canSiege>false</canSiege>
 		<canStageAttacks>false</canStageAttacks>
-		<!-- No leader title -->
+		<leaderTitle>Wagon Master</leaderTitle>
 		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
 		<raidCommonalityFromPointsCurve>
 			<points>
