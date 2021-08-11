@@ -17,7 +17,7 @@
 		<defName>NamerIdeoMousekinRepublic</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>r_ideoName->Agrarian Republic</li>
+				<li>r_ideoName->Agrarian Republicanism</li>
 				<li>r_ideoAdjective->Republican</li>
 				<li>r_memberName->Republican</li>
 				<li>hyphenPrefix-> </li> <!-- No name prefixes -->
@@ -29,7 +29,7 @@
 		<defName>NamerIdeoMousekinGypsy</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>r_ideoName->Rodemani</li>
+				<li>r_ideoName->Way of the Rodemani</li>
 				<li>r_ideoAdjective->Rodemani</li>
 				<li>r_memberName->Rodemanian</li>
 				<li>hyphenPrefix-> </li> <!-- No name prefixes -->
