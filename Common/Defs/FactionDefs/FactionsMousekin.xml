@@ -29,6 +29,122 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
 		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalVenerated</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalConnection_Strong</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NutrientPasteEating_DontMind</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blind_Psysense</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindness_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindness_Elevated</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindness_Sublime</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Approved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Bonding_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Worthwhile</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Comfort_Ignored</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Essential</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">InsectMeatEating_Loved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">KillingInnocentAnimals_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">KillingInnocentAnimals_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">KillingInnocentAnimals_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Darklight_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DarknessCombat_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Strict</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Moderate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_Random</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_UsuallyWomans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysWomans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mining_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mining_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mining_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_NoRules</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_NoRules</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestOrHairDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestOrHairDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_HorribleNoSell</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_HorribleSellOK</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Pain_Idealized</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_DontCare</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_RespectedIfGuilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Ranching_Central</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_None</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Fast</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_VeryFast</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ScarificationCeremony</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">BlindingCeremony</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_ShootingSpecialist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_MeleeSpecialist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_ResearchSpecialist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_PlantSpecialist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_ProductionSpecialist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_MiningSpecialist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_AnimalsSpecialist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_MedicalSpecialist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Extreme</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Heavy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Minor</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SmallSpaces_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_MaxTwo</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Female_MaxTwo</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_MaxThree</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Female_MaxThree</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_MaxFour</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Female_MaxFour</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Female_Unlimited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NeuralSupercharge_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Biosculpting_Accelerated</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AgeReversal_Demanded</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">BioSculpter_Despised</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Trees_Desired</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">GauranlenConnection_Strong</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
+		</disallowedPrecepts>
 		<techLevel>Medieval</techLevel>
 		<startingResearchTags>
 			<li>MousekinStartingResearch</li>
@@ -141,6 +257,28 @@
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 		</disallowedMemes>
+		<disallowedPrecepts>
+			<li>Slavery_Classic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Essential</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Corpses_DontCare</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Standard</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Approved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Exalted</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_KeepNames</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_VerySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Slow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Desired</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_Unlimited</li>
+		</disallowedPrecepts>
 		<structureMemeWeights>
 			<Structure_OriginMousekin MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginMousekin>
 		</structureMemeWeights>
@@ -546,6 +684,36 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoBuilding</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Essential</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Corpses_DontCare</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysMans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Occasionally</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Sometimes</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Frequently</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRelic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_VerySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Slow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">GladiatorDuel</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRitualSeat</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_Moralist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Desired</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_Unlimited</li>
+		</disallowedPrecepts>
 		<structureMemeWeights>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
 		</structureMemeWeights>
@@ -695,6 +863,41 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoBuilding</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Important</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Corpses_DontCare</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysMans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MiningYield_High</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_HorribleIfInnocent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Occasionally</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Sometimes</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Frequently</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRelic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_VerySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Normal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DateRitualConsumable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Conversion</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">GladiatorDuel</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRitualSeat</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_Moralist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Desired</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_Unlimited</li>
+		</disallowedPrecepts>
 		<structureMemeWeights>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
 		</structureMemeWeights>
@@ -771,6 +974,43 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>		
 			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
 		</disallowedMemes>
+		<disallowedPrecepts>
+			<li>Slavery_Classic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoBuilding</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Essential</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Important</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Approved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Exalted</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysMans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MiningYield_High</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_HorribleIfInnocent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Occasionally</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Sometimes</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Frequently</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRelic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Slow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Normal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Funeral</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FuneralNoCorpse</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Festival</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DateRitualConsumable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Conversion</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRitualSeat</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRole_Moralist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+		</disallowedPrecepts>
 		<structureMemeWeights>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
 		</structureMemeWeights>
