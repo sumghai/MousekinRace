@@ -7,6 +7,28 @@
 		<pawnSingular>Mousekin</pawnSingular>
 		<pawnsPlural>Mousekins</pawnsPlural>
 		<categoryTag>Mousekin</categoryTag>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+		</disallowedMemes>
 		<techLevel>Medieval</techLevel>
 		<startingResearchTags>
 			<li>MousekinStartingResearch</li>
@@ -112,6 +134,13 @@
 		<allowedCultures>
 			<li>Mousekin_CultureKingdom</li>
 		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</disallowedMemes>
 		<structureMemeWeights>
 			<Structure_OriginMousekin MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginMousekin>
 		</structureMemeWeights>
@@ -510,6 +539,13 @@
 		<allowedCultures>
 			<li>Mousekin_CultureIndyTown</li>
 		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+		</requiredMemes>
+		<disallowedMemes>			
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</disallowedMemes>
 		<structureMemeWeights>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
 		</structureMemeWeights>
@@ -652,6 +688,13 @@
 		<allowedCultures>
 			<li>Mousekin_CultureGypsy</li>
 		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+		</requiredMemes>
+		<disallowedMemes>			
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</disallowedMemes>
 		<structureMemeWeights>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
 		</structureMemeWeights>
@@ -721,6 +764,13 @@
 		<allowedCultures>
 			<li>Mousekin_CultureBrigand</li>
 		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>		
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+		</disallowedMemes>
 		<structureMemeWeights>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
 		</structureMemeWeights>
