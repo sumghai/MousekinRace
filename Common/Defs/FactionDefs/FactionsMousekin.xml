@@ -113,7 +113,7 @@
 			<li>Mousekin_CultureKingdom</li>
 		</allowedCultures>
 		<structureMemeWeights>
-			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+			<Structure_OriginMousekin MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginMousekin>
 		</structureMemeWeights>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
