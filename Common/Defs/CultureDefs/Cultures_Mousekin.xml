@@ -2,6 +2,8 @@
 <Defs>
 
 	<CultureDef Name="Mousekin_CultureBase" Abstract="True">
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityMousekin</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerMousekin</deityTypeMaker>
 		<allowedPlaceTags>
 			<li>OriginMousekin</li>
 		</allowedPlaceTags>
@@ -19,8 +21,6 @@
 		<label>Traditional Mousekinian</label>
 		<description>A feudal agrarian culture resembling Regency-era England, characterized by institutionalised patriarchy, rigid social strata and a deep reverence for flowers.</description>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinChurch</ideoNameMaker>
-		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>
-		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Rustican</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
@@ -32,8 +32,6 @@
 		<label>Enlightened Mousekinian</label>
 		<description>A hardy agrarian culture that embraces egalitarian and democratic ideals.</description>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinRepublic</ideoNameMaker>
-		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>
-		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Rustican</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
@@ -45,8 +43,6 @@
 		<label>Rodemanian</label>
 		<description>A nomadic culture that celebrates wanderlust, generosity and hospitality.</description>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinGypsy</ideoNameMaker>
-		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>
-		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Rustican</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
@@ -58,8 +54,6 @@
 		<label>Outpawian</label>
 		<description>A pragmatic, Social Darwinist culture common amongst rodent gangs that values personal strength, winning at all costs and having the biggest nut stash.</description>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinBrigands</ideoNameMaker>
-		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>
-		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Rustican</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
