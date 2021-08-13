@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<MemeDef ParentName="StructureOriginBase">
+	<MemeDef>
 		<defName>Structure_OriginMousekin</defName>
 		<label>Mousekin origin</label>
 		<description>This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins.</description>
+		<category>Structure</category>
+		<impact>0</impact>
 		<iconPath>UI/Structures/OriginChristian</iconPath>
 		<deityCount>1</deityCount>
 		<deityNameMakerOverride>NamerDeityMousekin</deityNameMakerOverride>
@@ -12,7 +14,7 @@
 		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
 		<symbolPackOverride>false</symbolPackOverride>
 		<worshipRoomLabel>church</worshipRoomLabel>
-		<groupDef>Theist_Abstract</groupDef>
+		<groupDef>Theist_Embodied</groupDef>
 		<requireAnyRitualSeat>
 			<li>Pew</li>
 		</requireAnyRitualSeat>
