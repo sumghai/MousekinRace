@@ -20,25 +20,8 @@
 		</requireAnyRitualSeat>
 		<generalRules>
 			<rulesStrings>
-				<li>r_ideoName(p=99)->Word of Valerian</li>
-				<li>memeLeaderNoun->bishop</li>
-				<li>memeLeaderNoun->cardinal</li>
-				<li>memeLeaderNoun->pope</li>
-				<li>memeLeaderNoun->pontiff</li>
-				<li>memeLeaderNoun->legate</li>
-				<li>memeLeaderNoun->nuncio</li>
-				<li>memeLeaderNoun->divus</li>
-				<li>memeLeaderNoun->ecclesiast</li>
-				<li>memeLeaderAdjective->holy</li>
-				<li>memeLeaderAdjective->divine</li>
-				<li>memeLeaderAdjective->Christ's</li>
-				<li>memeLeaderAdjective->God's</li>
-				<li>memeMoralist->priest</li>
-				<li>memeMoralist->pastor</li>
-				<li>memeMoralist->cleric</li>
-				<li>memeMoralist->preacher</li>
-				<li>memeMoralist->rector</li>
-				<li>memeMoralist->abbot</li>
+				<li>memeMoralist->Mousekin Pope</li>
+				<li>memeAdjective-> </li>
 			</rulesStrings>
 		</generalRules>
 		<descriptionMaker>
