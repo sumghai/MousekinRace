@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_Monarchy</defName>
+		<label>Rodent Feudalism</label>
+		<description>Only the priviledged few may lead; all other must know their place in the great social order.</description>
+		<iconPath>UI/Memes/MousekinMonarchy</iconPath>
+		<groupDef>Individualism</groupDef>
+		<impact>3</impact>
+		<exclusionTags>
+			<li>Individualism</li>
+			<li>SupremacistIndividualist</li>
+		</exclusionTags>
+	</MemeDef>
+	
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_Republic</defName>
+		<label>Rodent Republic</label>
+		<description>Every mouse has a voice in how their community should be run.</description>
+		<iconPath>UI/Memes/MousekinRepublic</iconPath>
+		<groupDef>Individualism</groupDef>
+		<impact>3</impact>
+		<exclusionTags>
+			<li>Individualism</li>
+			<li>SupremacistIndividualist</li>
+		</exclusionTags>
+	</MemeDef>
+
+</Defs>

@@ -252,8 +252,16 @@
 		<allowedCultures>
 			<li>Mousekin_CultureKingdom</li>
 		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
+		</requiredMemes>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
 		</disallowedMemes>
 		<disallowedPrecepts>
 			<li>Slavery_Classic</li>
@@ -675,8 +683,15 @@
 		<allowedCultures>
 			<li>Mousekin_CultureIndyTown</li>
 		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
+		</requiredMemes>
 		<disallowedMemes>			
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
 		</disallowedMemes>
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Horrible</li>
@@ -850,8 +865,17 @@
 		<allowedCultures>
 			<li>Mousekin_CultureGypsy</li>
 		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
+		</requiredMemes>
 		<disallowedMemes>			
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
 		</disallowedMemes>
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Horrible</li>
@@ -960,6 +984,15 @@
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
+		</disallowedMemes>
 		<disallowedPrecepts>
 			<li>Slavery_Classic</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Horrible</li>

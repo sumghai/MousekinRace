@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_AncestorWorship</defName>
+		<label>Ancestor Worship</label>
+		<description>Our ancestors watch over us from The Great Garden. May they bless and guide us forever.</description>
+		<iconPath>UI/Memes/MousekinAncestorWorship</iconPath>
+		<groupDef>Misc</groupDef>
+		<impact>2</impact>
+		<exclusionTags>
+			<!-- todo - figure this out later -->
+		</exclusionTags>
+	</MemeDef>
+	
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_FloralReverence</defName>
+		<label>Floral Reverence</label>
+		<description>The flowers and trees of the land nourish our bodies and souls; when they blossom, so do we.</description>
+		<iconPath>UI/Memes/MousekinFloralReverence</iconPath>
+		<groupDef>Misc</groupDef>
+		<impact>2</impact>
+		<exclusionTags>
+			<!-- todo - figure this out later -->
+		</exclusionTags>
+	</MemeDef>
+	
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_Wanderlust</defName>
+		<label>Wanderlust</label>
+		<description>There is much that these lands can teach us; to stay in one place is to deny the ourselves new experiences.</description>
+		<iconPath>UI/Memes/MousekinWanderlust</iconPath>
+		<groupDef>Misc</groupDef>
+		<impact>1</impact>
+		<exclusionTags>
+			<!-- todo - figure this out later -->
+		</exclusionTags>
+	</MemeDef>
+
+</Defs>
