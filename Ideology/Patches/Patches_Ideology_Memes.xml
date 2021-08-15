@@ -3,6 +3,8 @@
 
 	<Operation Class="PatchOperationSequence">
 		<operations>
+			
+			<!-- Prevent non-Mousekin factions/cultures from using Mousekin ideology memes -->
 		
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/FactionDef[
@@ -17,6 +19,7 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Raider</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>

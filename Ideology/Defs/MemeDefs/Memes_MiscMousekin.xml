@@ -88,5 +88,62 @@
 			</li>
 		</requireOne>
 	</MemeDef>
+	
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_Raider</defName>
+		<label>Nutsnatching</label>
+		<description>Only the strong deserve to have nuts.</description>
+		<iconPath>UI/Memes/MousekinRaider</iconPath>
+		<groupDef>Misc</groupDef>
+		<impact>3</impact>
+		<requireOne>
+			<li>
+				<li>AutonomousWeapons_Prohibited</li>
+			</li>
+			<li>
+				<li>Blinding_Horrible</li>
+			</li>
+			<li>
+				<li>Corpses_DontCare</li>
+			</li>
+			<li>
+				<li>Lovin_FreeApproved</li>
+			</li>
+			<li>
+				<li>MarriageName_KeepNames</li>
+			</li>
+			<li>
+				<li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>OrganUse_Acceptable</li>
+			</li>
+			<li>
+				<li>Execution_Required</li>
+			</li>
+			<li>
+				<li>Raiding_Required</li>
+			</li>
+			<li>
+				<li>Research_ExtremelySlow</li>
+				<li>Research_VerySlow</li>
+			</li>
+			<li>
+				<li>Scarification_Horrible</li>
+			</li>
+			<li>
+				<li>Skullspike_Desired</li>
+			</li>
+			<li>
+				<li>Slavery_Honorable</li>
+			</li>
+			<li>
+				<li>SpouseCount_Male_Unlimited</li>
+			</li>
+		</requireOne>
+	</MemeDef>
 
 </Defs>
