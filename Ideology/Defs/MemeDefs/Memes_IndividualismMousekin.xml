@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_Monarchy</defName>
+		<label>Rodent Feudalism</label>
+		<description>Only the priviledged few may lead; all other must know their place in the great social order.</description>
+		<iconPath>UI/Memes/MousekinMonarchy</iconPath>
+		<groupDef>Individualism</groupDef>
+		<impact>3</impact>
+		<exclusionTags>
+			<li>Individualism</li>
+			<li>SupremacistIndividualist</li>
+		</exclusionTags>
+		<requireOne>
+			<li>
+				<li>Apostasy_Horrible</li>
+				<li>Apostasy_Disapproved</li>
+			</li>
+			<li>
+				<li>Charity_Worthwhile</li>
+			</li>
+			<li>
+				<li>IdeoDiversity_Abhorrent</li>
+				<li>IdeoDiversity_Horrible</li>
+			</li>
+			<li>
+				<li>Lovin_SpouseOnly_Mild</li>
+			</li>
+			<li>
+				<li>MarriageName_AlwaysMans</li>
+			</li>
+			<li>
+				<li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>MiningYield_High</li>
+			</li>
+			<li>
+				<li>OrganUse_Acceptable</li>
+			</li>
+			<li>
+				<li>Execution_HorribleIfInnocent</li>
+			</li>
+			<li>
+				<li>Proselytizing_Occasionally</li>
+				<li>Proselytizing_Sometimes</li>
+				<li>Proselytizing_Frequently</li>
+			</li>
+			<li>
+				<li>Slavery_Acceptable</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+	
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_Republic</defName>
+		<label>Rodent Republic</label>
+		<description>Every mouse has a voice in how their community should be run.</description>
+		<iconPath>UI/Memes/MousekinRepublic</iconPath>
+		<groupDef>Individualism</groupDef>
+		<impact>3</impact>
+		<exclusionTags>
+			<li>Individualism</li>
+			<li>SupremacistIndividualist</li>
+		</exclusionTags>
+		<requireOne>
+			<li>
+				<li>Charity_Worthwhile</li>
+			</li>
+			<li>
+				<li>IdeoDiversity_Standard</li>
+				<li>IdeoDiversity_Approved</li>
+				<li>IdeoDiversity_Respected</li>
+				<li>IdeoDiversity_Exalted</li>
+			</li>
+			<li>
+				<li>Lovin_SpouseOnly_Mild</li>
+				<li>Lovin_FreeApproved</li>
+			</li>
+			<li>
+				<li>MarriageName_KeepNames</li>
+			</li>
+			<li>
+				<li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>MiningYield_High</li>
+			</li>
+			<li>
+				<li>OrganUse_Acceptable</li>
+			</li>
+			<li>
+				<li>Execution_HorribleIfInnocent</li>
+			</li>
+			<li>
+				<li>Slavery_Abhorrent</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+
+</Defs>

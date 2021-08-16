@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			
+			<!-- Prevent non-Mousekin factions/cultures from using Mousekin ideology memes -->
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[
+					defName!="Mousekin_PlayerFaction_Settlers" and
+					defName!="Mousekin_PlayerFaction_Refugees" and
+					defName!="Mousekin_FactionKingdom" and
+					defName!="Mousekin_FactionIndyTown" and
+					defName!="Mousekin_FactionGypsy" and
+					defName!="Mousekin_FactionBrigand"
+				]/disallowedMemes</xpath>
+				<value>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Raider</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>

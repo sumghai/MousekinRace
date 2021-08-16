@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RulePackDef>
+		<defName>LeaderTitleMaker_MousekinChurch</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->Lord Protector</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>LeaderTitleMaker_MousekinRepublic</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->Prime Councilor</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>LeaderTitleMaker_MousekinGypsy</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->Wagon Master</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>LeaderTitleMaker_MousekinBrigands</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->Leader</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

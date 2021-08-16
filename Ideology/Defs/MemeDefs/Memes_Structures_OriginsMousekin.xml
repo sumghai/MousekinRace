@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<MemeDef>
+		<defName>Structure_OriginMousekin</defName>
+		<label>Mousekin origin</label>
+		<description>This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins.</description>
+		<category>Structure</category>
+		<impact>0</impact>
+		<iconPath>UI/Structures/OriginMousekin</iconPath>
+		<deityCount>1</deityCount>
+		<deityNameMakerOverride>NamerDeityMousekin</deityNameMakerOverride>
+		<deityTypeMakerOverride>DeityTypeMakerMousekin</deityTypeMakerOverride>
+		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+		<symbolPackOverride>false</symbolPackOverride>
+		<worshipRoomLabel>church</worshipRoomLabel>
+		<groupDef>Theist_Embodied</groupDef>
+		<requireAnyRitualSeat>
+			<li>Pew</li>
+		</requireAnyRitualSeat>
+		<generalRules>
+			<rulesStrings>
+				<li>memeMoralist->Mousekin Pope</li>
+				<li>memeAdjective-> </li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>TheistMyth</def>
+				</li>
+				<li>
+					<def>TheistFounder</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>structure_theist</key>
+					<value>true</value>
+				</li>
+				<li>
+					<key>structure_originChristian</key>
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<ideoName>Christianity</ideoName>
+				<adjective>Christian</adjective>
+				<member>Christian</member>
+				<prefix>true</prefix></li>
+		</symbolPacks>
+		<thingStyleCategories>
+			<li>
+				<category>Christian</category>
+				<priority>4</priority>
+			</li>
+		</thingStyleCategories>
+	</MemeDef>
+
+</Defs>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_AncestorWorship</defName>
+		<label>Ancestor Worship</label>
+		<description>Our ancestors watch over us from The Great Garden. May they bless and guide us forever.</description>
+		<iconPath>UI/Memes/MousekinAncestorWorship</iconPath>
+		<groupDef>Misc</groupDef>
+		<impact>2</impact>
+		<exclusionTags>
+			<!-- todo - figure this out later -->
+		</exclusionTags>
+		<requireOne>
+			<li>
+				<li>Blinding_Horrible</li>
+			</li>
+			<li>
+				<li>Cannibalism_Abhorrent</li>
+			</li>
+			<li>
+				<li>DrugUse_MedicalOrSocial</li>
+			</li>
+			<li>
+				<li>Scarification_Horrible</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+	
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_FloralReverence</defName>
+		<label>Floral Reverence</label>
+		<description>The flowers and trees of the land nourish our bodies and souls; when they blossom, so do we.</description>
+		<iconPath>UI/Memes/MousekinFloralReverence</iconPath>
+		<groupDef>Misc</groupDef>
+		<impact>2</impact>
+		<exclusionTags>
+			<!-- todo - figure this out later -->
+		</exclusionTags>
+	</MemeDef>
+	
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_Wanderlust</defName>
+		<label>Wanderlust</label>
+		<description>There is much that these lands can teach us; to stay in one place is to deny the ourselves new experiences.</description>
+		<iconPath>UI/Memes/MousekinWanderlust</iconPath>
+		<groupDef>Misc</groupDef>
+		<impact>1</impact>
+		<exclusionTags>
+			<!-- todo - figure this out later -->
+		</exclusionTags>
+		<requireOne>
+			<li>
+				<li>AutonomousWeapons_Prohibited</li>
+			</li>
+			<li>
+				<li>IdeoDiversity_Standard</li>
+				<li>IdeoDiversity_Approved</li>
+				<li>IdeoDiversity_Respected</li>
+				<li>IdeoDiversity_Exalted</li>
+			</li>
+			<li>
+				<li>Lovin_FreeApproved</li>
+			</li>
+			<li>
+				<li>MarriageName_AlwaysMans</li>
+			</li>
+			<li>
+				<li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>OrganUse_Acceptable</li>
+			</li>
+			<li>
+				<li>Execution_Abhorrent</li>
+			</li>
+			<li>
+				<li>Research_Slow</li>
+			</li>
+			<li>
+				<li>Slavery_Abhorrent</li>
+			</li>
+			<li>
+				<li>SpouseCount_Male_MaxThree</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+	
+	<MemeDef>
+		<defName>Mousekin_IdeoMeme_Raider</defName>
+		<label>Nutsnatching</label>
+		<description>Only the strong deserve to have nuts.</description>
+		<iconPath>UI/Memes/MousekinRaider</iconPath>
+		<groupDef>Misc</groupDef>
+		<impact>3</impact>
+		<requireOne>
+			<li>
+				<li>AutonomousWeapons_Prohibited</li>
+			</li>
+			<li>
+				<li>Blinding_Horrible</li>
+			</li>
+			<li>
+				<li>Corpses_DontCare</li>
+			</li>
+			<li>
+				<li>Lovin_FreeApproved</li>
+			</li>
+			<li>
+				<li>MarriageName_KeepNames</li>
+			</li>
+			<li>
+				<li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>OrganUse_Acceptable</li>
+			</li>
+			<li>
+				<li>Execution_Required</li>
+			</li>
+			<li>
+				<li>Raiding_Required</li>
+			</li>
+			<li>
+				<li>Research_ExtremelySlow</li>
+				<li>Research_VerySlow</li>
+			</li>
+			<li>
+				<li>Scarification_Horrible</li>
+			</li>
+			<li>
+				<li>Skullspike_Desired</li>
+			</li>
+			<li>
+				<li>Slavery_Honorable</li>
+			</li>
+			<li>
+				<li>SpouseCount_Male_Unlimited</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+
+</Defs>

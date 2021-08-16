@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Mousekin Raider (Nutsnatching) meme should allow corpses lying around -->
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PreceptDef[defName="Corpses_DontCare"]/associatedMemes</xpath>
+				<value>
+					<li>Mousekin_IdeoMeme_Raider</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PreceptDef[defName="Corpses_DontCare"]/requiredMemes</xpath>
+				<value>
+					<li>Mousekin_IdeoMeme_Raider</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>
