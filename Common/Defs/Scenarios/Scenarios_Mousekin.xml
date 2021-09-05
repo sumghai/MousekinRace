@@ -30,6 +30,8 @@
 					<count>2000</count>
 				</li>
 				
+				<!-- Spare settler outfits and dresses -->
+				
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Mousekin_ApparelSettlerOutfit</thingDef>
@@ -56,6 +58,13 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>Mousekin_MedicinePoultice</thingDef>
 					<count>75</count>
+				</li>
+				
+				<!-- Plenty of cloth to make more apparel, or cloth ear and tail prosthetics -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Cloth</thingDef>
+					<count>300</count>
 				</li>
 
 				<!-- TODO: replace with Mousekin crossbow -->
