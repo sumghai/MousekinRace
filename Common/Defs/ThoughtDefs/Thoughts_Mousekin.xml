@@ -550,19 +550,19 @@
 			<li>
 				<label>One ear missing</label>
 				<description>I've lost one of my ears. This is humiliating!</description>
-				<baseMoodEffect>-20</baseMoodEffect>
+				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 			<!-- Two missing ears, only one replaced with prosthetic -->
 			<li>
 				<label>One prosthetic and one missing ear</label>
 				<description>I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating!</description>
-				<baseMoodEffect>-22</baseMoodEffect>
+				<baseMoodEffect>-12</baseMoodEffect>
 			</li>
 			<!-- Two missing ears, no prosthetics -->
 			<li>
 				<label>Both ears missing</label>
 				<description>I've lost both my ears! I'd rather die than live with this humiliation!</description>
-				<baseMoodEffect>-40</baseMoodEffect>
+				<baseMoodEffect>-20</baseMoodEffect>
 			</li>			
 		</stages>
 	</ThoughtDef>
