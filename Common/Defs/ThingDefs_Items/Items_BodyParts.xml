@@ -19,12 +19,12 @@
 				<!-- TODO: Add Mousekin tailoring bench -->
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
 			</recipeUsers>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
 			<unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
-			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
