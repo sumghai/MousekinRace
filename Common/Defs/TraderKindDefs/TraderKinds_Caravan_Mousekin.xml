@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- Bulk goods trader (Kingdom and Independent factions) - buys and sells Mousekin-themed crops, meats, alcohols, resources and misc manufactured items -->
-
-	<TraderKindDef>
-		<defName>Mousekin_TraderCaravan_Bulk</defName>
-		<label>bulk goods trader</label>
-		<commonality>3</commonality>
-
+	<!-- Common inventory for all Mousekin traders -->
+	
+	<TraderKindDef Name="Mousekin_TraderBase" Abstract="True">
 		<stockGenerators>
-
+			
 			<!-- Currency -->
 
 			<li Class="StockGenerator_SingleDef">
@@ -20,6 +16,18 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>Gold</thingDef>
 			</li>
+			
+		</stockGenerators>
+	</TraderKindDef>
+	
+	<!-- Bulk goods trader (Kingdom and Independent factions) - buys and sells Mousekin-themed crops, meats, alcohols, resources and misc manufactured items -->
+
+	<TraderKindDef ParentName="Mousekin_TraderBase">
+		<defName>Mousekin_TraderCaravan_Bulk</defName>
+		<label>bulk goods trader</label>
+		<commonality>3</commonality>
+
+		<stockGenerators>
 
 			<!-- Resources -->
 
@@ -94,24 +102,13 @@
 
 	<!-- Clothing merchant (Kingdom and Independent factions) - buys and sells Mousekin commoner and middle-class apparel, accessories, fabrics, wools and leathers -->
 
-	<TraderKindDef>
+	<TraderKindDef ParentName="Mousekin_TraderBase">
 
 		<defName>Mousekin_TraderCaravan_Apparel</defName>
 		<label>clothing merchant</label>
 		<commonality>1</commonality>
 
 		<stockGenerators>
-
-			<!-- Currency -->
-
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>Silver</thingDef>
-				<countRange>800~1200</countRange>
-			</li>
-			
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Gold</thingDef>
-			</li>
 
 			<!-- Apparel -->
 
@@ -169,24 +166,13 @@
 
 	<!-- Livestock trader (Kingdom and Independent factions) - buys and sells common Mousekin farm animals -->
 
-	<TraderKindDef>
+	<TraderKindDef ParentName="Mousekin_TraderBase">
 
 		<defName>Mousekin_TraderCaravan_Animals</defName>
 		<label>livestock trader</label>
 		<commonality>2</commonality>
 
 		<stockGenerators>
-
-			<!-- Currency -->
-
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>Silver</thingDef>
-				<countRange>800~1200</countRange>
-			</li>
-			
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Gold</thingDef>
-			</li>
 			
 			<!-- Farm animals -->
 
@@ -220,24 +206,13 @@
 
 	<!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand) -->
 
-	<TraderKindDef>
+	<TraderKindDef ParentName="Mousekin_TraderBase">
 
 		<defName>Mousekin_TraderCaravan_Exotic</defName>
 		<label>exotic goods trader</label>
 		<commonality>1</commonality>
 
 		<stockGenerators>
-
-			<!-- Currency -->
-
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>Silver</thingDef>
-				<countRange>800~1200</countRange>
-			</li>
-			
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Gold</thingDef>
-			</li>
 
 			<!-- Resources -->
 
