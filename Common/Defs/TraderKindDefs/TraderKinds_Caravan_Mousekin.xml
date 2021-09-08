@@ -17,6 +17,12 @@
 				<thingDef>Gold</thingDef>
 			</li>
 			
+			<!-- Trail Mix (because mouse caravan traders love having extra snacks) -->
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_MealTrailMix</thingDef>
+			</li>
+			
 		</stockGenerators>
 	</TraderKindDef>
 	
