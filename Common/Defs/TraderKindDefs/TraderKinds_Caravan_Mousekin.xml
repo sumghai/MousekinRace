@@ -2,30 +2,30 @@
 <Defs>
 
 	<!-- Common inventory for all Mousekin traders -->
-	
+
 	<TraderKindDef Name="Mousekin_TraderBase" Abstract="True">
 		<stockGenerators>
-			
+
 			<!-- Currency -->
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>
 				<countRange>800~1200</countRange>
 			</li>
-			
+
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>Gold</thingDef>
 			</li>
-			
+
 			<!-- Trail Mix (because mouse caravan traders love having extra snacks) -->
-			
+
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>Mousekin_MealTrailMix</thingDef>
 			</li>
-			
+
 		</stockGenerators>
 	</TraderKindDef>
-	
+
 	<!-- Bulk goods trader (Kingdom and Independent factions) - buys and sells Mousekin-themed crops, meats, alcohols, resources and misc manufactured items -->
 
 	<TraderKindDef ParentName="Mousekin_TraderBase">
@@ -170,7 +170,7 @@
 
 	</TraderKindDef>
 
-	<!-- Livestock trader (Kingdom and Independent factions) - buys and sells common Mousekin farm animals -->
+	<!-- Livestock trader (Kingdom and Independent factions) - sells common Mousekin farm animals, and buys most other animals -->
 
 	<TraderKindDef ParentName="Mousekin_TraderBase">
 
@@ -179,8 +179,8 @@
 		<commonality>2</commonality>
 
 		<stockGenerators>
-			
-			<!-- Farm animals -->
+
+			<!-- Animals -->
 
 			<li Class="StockGenerator_Animals">
 				<tradeTagsSell>
@@ -188,6 +188,11 @@
 				</tradeTagsSell>
 				<tradeTagsBuy>
 					<li>Mousekin_TradeGoods_AnimalFarm</li>
+					<li>AnimalExotic</li>
+					<li>AnimalFarm</li>
+					<li>AnimalFighter</li>
+					<li>AnimalPet</li>
+					<li>AnimalUncommon</li>
 				</tradeTagsBuy>
 				<kindCountRange>6~8</kindCountRange>
 				<countRange>32~46</countRange>
@@ -311,6 +316,17 @@
 					<Hyperweave>50~100</Hyperweave>
 				</customCountRanges>
 				<price>Cheap</price>
+			</li>
+
+			<!-- Buys pets and exotic animals only -->
+
+			<li Class="StockGenerator_Animals">
+				<tradeTagsBuy>
+					<li>AnimalExotic</li>
+					<li>AnimalFighter</li>
+					<li>AnimalPet</li>
+					<li>AnimalUncommon</li>
+				</tradeTagsBuy>
 			</li>
 
 		</stockGenerators>
