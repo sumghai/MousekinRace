@@ -6,7 +6,7 @@
 		<label>mousekin</label>
 		<headOffset>(0.0, 0.165)</headOffset>
 		<bodyNakedGraphicPath>Things/Pawn/Mousekin/Body/Naked_Mousekin</bodyNakedGraphicPath>
-		<bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+		<bodyDessicatedGraphicPath>Things/Pawn/Mousekin/Body/Skeleton</bodyDessicatedGraphicPath>
 		<woundAnchors>
 
 			<!-- FullHead -->
