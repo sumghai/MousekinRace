@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<CultureDef Name="Mousekin_CultureBase" Abstract="True">
@@ -9,13 +9,33 @@
 		</allowedPlaceTags>
 		<styleItemTags>
 			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>10</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_BeardRural</tag>
+				<baseWeight>0.5</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_BeardUrban</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_BeardNoble</tag>
+				<baseWeight>0.33</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
 				<tag>NoTattoo</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
 	</CultureDef>
-	
+
 	<CultureDef ParentName="Mousekin_CultureBase">
 		<defName>Mousekin_CultureKingdom</defName>
 		<label>Traditional Mousekinian</label>
@@ -26,7 +46,7 @@
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
 		<iconColor>(1.000, 0.843, 0.000)</iconColor>
 	</CultureDef>
-	
+
 	<CultureDef ParentName="Mousekin_CultureBase">
 		<defName>Mousekin_CultureIndyTown</defName>
 		<label>Enlightened Mousekinian</label>
@@ -37,7 +57,7 @@
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
 		<iconColor>(0.000, 0.500, 0.000)</iconColor>
 	</CultureDef>
-	
+
 	<CultureDef ParentName="Mousekin_CultureBase">
 		<defName>Mousekin_CultureGypsy</defName>
 		<label>Rodemanian</label>
@@ -48,7 +68,7 @@
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
 		<iconColor>(0.35, 0.30, 0.60)</iconColor>
 	</CultureDef>
-	
+
 	<CultureDef ParentName="Mousekin_CultureBase">
 		<defName>Mousekin_CultureBrigand</defName>
 		<label>Outpawian</label>

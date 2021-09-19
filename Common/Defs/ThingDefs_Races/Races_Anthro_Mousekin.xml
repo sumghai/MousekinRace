@@ -477,22 +477,22 @@
 						<!-- TODO - Set to true once hairstyles are implemented -->
 						<hasStyle>false</hasStyle>
 						<styleTags>
-							<li>Mousekin_Uncivilized</li>
-							<li>Mousekin_Rural</li>
-							<li>Mousekin_Urban</li>
-							<li>Mousekin_Noble</li>
+							<li>Mousekin_HairUncivilized</li>
+							<li>Mousekin_HairRural</li>
+							<li>Mousekin_HairUrban</li>
+							<li>Mousekin_HairNoble</li>
 						</styleTags>
 					</value>
 				</li>
 				<li>
 					<key>BeardDef</key>
 					<value>
-						<!-- TODO - Set to true once beards are implemented -->
-						<hasStyle>false</hasStyle>
+						<hasStyle>true</hasStyle>
 						<styleTags>
-							<li>Mousekin_Rural</li>
-							<li>Mousekin_Urban</li>
-							<li>Mousekin_Noble</li>
+							<li>Mousekin_BeardRural</li>
+							<li>Mousekin_BeardUrban</li>
+							<li>Mousekin_BeardNoble</li>
+							<li>NoBeard</li>
 						</styleTags>
 					</value>
 				</li>
