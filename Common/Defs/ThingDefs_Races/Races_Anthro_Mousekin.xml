@@ -793,6 +793,11 @@
 					<li>SimpleResearchBench</li>
 				</blackBuildingList>
 				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
+				
+				<!-- Restrict the following traits for Mousekin pawns only -->
+				<traitList>
+					<li>Mousekin_TraitSpectrum_Faith</li>
+				</traitList>
 
 				<!-- TODO: Restrict the following projects for Mousekin research only -->
 				<researchList/>
