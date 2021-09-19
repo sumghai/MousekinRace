@@ -18,7 +18,7 @@
 			</li>
 			<li>
 				<label>devotionist</label>
-				<description>[PAWN_nameDef] is a member of a splinter sect of Mousekins that seek to follow the spirit of Valerian the Wise's original teachings, rather than the official interpretation espoused by the Mousekin Church. [PAWN_objective] has a closer affinity to nature, more adept at working with plants and has increased sensitivity to psychic phenomena, but also less susceptible to mental breaks.</description>
+				<description>[PAWN_nameDef] is a member of a splinter sect of Mousekins that seek to follow the spirit of Valerian the Wise's original teachings, rather than the official interpretation espoused by the Mousekin Church. [PAWN_pronoun] has a closer affinity to nature, is more adept at working with plants and has increased sensitivity to psychic phenomena, but is also less susceptible to mental breaks.</description>
 				<degree>2</degree>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
@@ -73,7 +73,7 @@
 			</li>
 			<li>
 				<label>inquisitionist</label>
-				<description>[PAWN_nameDef] believes in the absolute truth and power of The Inquisition, which declares that anyone who strays from the Mousekin Church and the teachings of Valerian the Wise are irredeemable heretics and enemies of all Mousekins - including Apostates, Devotionists and even other non-Mousekin rodentlike races.\n\n[PAWN_pronoun] is better at capturing prisoners and less susceptible to psychic phenomena, but [PAWN_possessive] religious zealotry greatly impairs [PAWN_possessive] ability to understand technical and scientific matters beyond what is permitted by church doctrine.</description>
+				<description>[PAWN_nameDef] believes in the absolute truth and power of The Inquisition, which declares that anyone who strays from the Mousekin Church and the teachings of Valerian the Wise are irredeemable heretics and enemies of all Mousekins - including Apostates, Devotionists and even other non-Mousekin rodentlike races.\n\n[PAWN_pronoun] is better at capturing prisoners and is less susceptible to psychic phenomena, but [PAWN_possessive] religious zealotry greatly impairs [PAWN_possessive] ability to understand technical and scientific matters beyond what is permitted by church doctrine.</description>
 				<degree>4</degree>
 				<statOffsets>
 					<ArrestSuccessChance>1.00</ArrestSuccessChance>
