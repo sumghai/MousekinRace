@@ -1701,12 +1701,6 @@
 				<chance>50</chance>
 			</li>
 			<li>
-				<!-- Apostate -->
-				<defName>Mousekin_TraitSpectrum_Faith</defName>
-				<degree>1</degree>
-				<chance>100</chance>
-			</li>
-			<li>
 				<defName>ShootingAccuracy</defName>
 				<degree>1</degree>
 				<chance>50</chance>
@@ -2063,7 +2057,7 @@
 				<amount>3</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>QuickSleeper</defName>
 				<chance>50</chance>
@@ -2457,7 +2451,7 @@
 				<amount>-2</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Nerves</defName>
 				<degree>-2</degree>
@@ -2545,7 +2539,7 @@
 				<amount>3</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Abrasive</defName>
 				<chance>50</chance>
@@ -2638,7 +2632,7 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraits Inherit="false">
 			<li>
 				<defName>Nerves</defName>
 				<degree>-2</degree>
