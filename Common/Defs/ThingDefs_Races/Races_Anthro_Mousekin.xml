@@ -744,6 +744,10 @@
 				<relationChanceModifierSibling>1</relationChanceModifierSibling>
 			</relationSettings>
 			<raceRestriction>
+			
+				<!-- TODO: Restrict the following projects for Mousekin research only -->
+				<researchList/>
+			
 				<apparelList>
 					<li>Mousekin_ApparelSettlerOutfit</li>
 					<li>Mousekin_ApparelSettlerDress</li>
@@ -778,14 +782,12 @@
 					<li>TornadoGenerator</li>
 					<!-- TODO: Royalty DLC apparel -->
 				</whiteApparelList>
-				<!-- If true, will prevent Prepare Carefully's apparel picker from working at all
-					 If false, will allow Prepare Carefully's apparel picker to work, but also allow players to pick unsupported apparel for Mousekins -->
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 
 				<!-- TODO: Restrict the following weapons for Mousekin use only -->
 				<weaponList/>
 
-				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction and use only -->
+				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction only -->
 				<buildingList>
 					<li>Mousekin_ResearchBench</li>
 					<li>Mousekin_WorkbenchAlchemy</li>
@@ -800,8 +802,6 @@
 					<li>Mousekin_TraitSpectrum_Faith</li>
 				</traitList>
 
-				<!-- TODO: Restrict the following projects for Mousekin research only -->
-				<researchList/>
 			</raceRestriction>
 		</alienRace>
 		<statBases>
