@@ -788,6 +788,7 @@
 				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction and use only -->
 				<buildingList>
 					<li>Mousekin_ResearchBench</li>
+					<li>Mousekin_WorkbenchAlchemy</li>
 				</buildingList>
 				<blackBuildingList>
 					<li>SimpleResearchBench</li>
