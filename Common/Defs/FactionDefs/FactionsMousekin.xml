@@ -741,6 +741,7 @@
 				</carriers>
 				<guards>
 					<!-- Todo generic Gypsy folk? -->
+					<MousekinTraderGypsy>1</MousekinTraderGypsy>
 				</guards>
 			</li>
 
@@ -812,7 +813,7 @@
 				</disallowedStrategies>
 				<commonality>100</commonality>
 				<options>
-					<MousekinRaider>5</MousekinRaider>
+					<MousekinRaider>1</MousekinRaider>
 				</options>
 			</li>
 		</pawnGroupMakers>

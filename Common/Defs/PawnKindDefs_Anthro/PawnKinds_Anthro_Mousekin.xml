@@ -582,7 +582,6 @@
 		<label>Mousekin gypsy</label>
 		<trader>true</trader>
 		<combatPower>35</combatPower>
-		<factionLeader>true</factionLeader>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -607,7 +606,6 @@
 		<label>Mousekin brigand</label>
 		<combatPower>45</combatPower>
 		<isFighter>true</isFighter>
-		<factionLeader>true</factionLeader>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
