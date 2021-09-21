@@ -18,7 +18,6 @@
 		<invFoodDef>Mousekin_MealTrailMix</invFoodDef>
 		<invNutrition>3</invNutrition>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 		<apparelTags>
 			<li>MousekinStartingColonist</li>
@@ -34,6 +33,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinColonist</defName>
 		<label>Mousekin colonist</label>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -469,6 +469,12 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>0.8~1</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
 		<initialWillRange>3~5</initialWillRange>
@@ -511,6 +517,12 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>1~2</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<initialWillRange>9~11</initialWillRange>
@@ -529,6 +541,12 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>1~1.2</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<initialWillRange>8~9</initialWillRange>
@@ -597,6 +615,12 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>0.4~0.8</gearHealthRange>
+		<itemQuality>Poor</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
 		<initialWillRange>2~3</initialWillRange>
