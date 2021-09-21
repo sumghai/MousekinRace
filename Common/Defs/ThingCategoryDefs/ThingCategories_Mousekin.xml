@@ -12,5 +12,17 @@
 		<label>Mousekin headgear</label>
 		<parent>Headgear</parent>
 	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Mousekin_WeaponsMelee</defName>
+		<label>Mousekin melee weapons</label>
+		<parent>WeaponsMelee</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Mousekin_WeaponsRanged</defName>
+		<label>Mousekin ranged weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
 
 </Defs>
