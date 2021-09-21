@@ -697,8 +697,52 @@
 					<li>KnowButcheredHumanlikeCorpse</li>
 					<li>NeedOutdoors</li>
 				</cannotReceiveThoughts>
-				<!-- TODO: Add Mousekin-only thoughts -->
-				<restrictedThoughts/>
+				<restrictedThoughts>
+					<li>Mousekin_Thought_AteCorpse</li>
+					<li>Mousekin_Thought_AteKibble</li>
+					<li>Mousekin_Thought_AteRawFood</li>
+					<li>Mousekin_Thought_AteWithoutTable</li>
+					<li>Mousekin_Thought_AttendedWedding</li>
+					<li>Mousekin_Thought_ColonistLeftUnburied</li>
+					<li>Mousekin_Thought_GotMarried</li>
+					<li>Mousekin_Thought_AteTrailMix</li>
+					<li>Mousekin_Thought_KnowBuriedInSarcophagus</li>
+					<li>Mousekin_Thought_KnowColonistDied</li>
+					<li>Mousekin_Thought_KnowColonistExecuted</li>
+					<li>Mousekin_Thought_KnowColonistOrganHarvested</li>
+					<li>Mousekin_Thought_KnowGuestExecuted</li>
+					<li>Mousekin_Thought_KnowGuestOrganHarvested</li>
+					<li>Mousekin_Thought_MyAuntDied</li>
+					<li>Mousekin_Thought_MyBrotherDied</li>
+					<li>Mousekin_Thought_MyCousinDied</li>
+					<li>Mousekin_Thought_MyDaughterDied</li>
+					<li>Mousekin_Thought_MyFatherDied</li>
+					<li>Mousekin_Thought_MyFianceDied</li>
+					<li>Mousekin_Thought_MyFianceeDied</li>
+					<li>Mousekin_Thought_MyGrandchildDied</li>
+					<li>Mousekin_Thought_MyGrandparentDied</li>
+					<li>Mousekin_Thought_MyHalfSiblingDied</li>
+					<li>Mousekin_Thought_MyHusbandDied</li>
+					<li>Mousekin_Thought_MyKinDied</li>
+					<li>Mousekin_Thought_MyMotherDied</li>
+					<li>Mousekin_Thought_MyNieceDied</li>
+					<li>Mousekin_Thought_MyNephewDied</li>
+					<li>Mousekin_Thought_MyOrganHarvested</li>
+					<li>Mousekin_Thought_MySisterDied</li>
+					<li>Mousekin_Thought_MySonDied</li>
+					<li>Mousekin_Thought_MyUncleDied</li>
+					<li>Mousekin_Thought_MyWifeDied</li>
+					<li>Mousekin_Thought_Pain</li>
+					<li>Mousekin_Thought_PawnWithBadOpinionDied</li>
+					<li>Mousekin_Thought_PawnWithBadOpinionLost</li>
+					<li>Mousekin_Thought_PawnWithGoodOpinionDied</li>
+					<li>Mousekin_Thought_PawnWithGoodOpinionLost</li>
+					<li>Mousekin_Thought_ReleasedHealthyPrisoner</li>
+					<li>Mousekin_Thought_SleptInCold</li>
+					<li>Mousekin_Thought_SleptInHeat</li>
+					<li>Mousekin_Thought_SleptOnGround</li>
+					<li>Mousekin_Thought_SleptOutside</li>
+				</restrictedThoughts>
 				<butcherThoughtSpecific>
 					<li>
 						<raceList>
