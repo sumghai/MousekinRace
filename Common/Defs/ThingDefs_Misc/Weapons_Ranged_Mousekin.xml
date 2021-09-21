@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ========================= Base abtracts ==========================-->
+	
+	<ThingDef Name="Mousekin_RangedWeapon_Base" ParentName="BaseGunWithQuality" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<relicChance>0</relicChance>
+		<thingCategories>
+			<li>Mousekin_WeaponsRanged</li>
+		</thingCategories>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_MakeBow</soundWorking>
+			<recipeUsers>
+				<!-- Todo - replace with Mousekin crafting bench -->
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="Mousekin_ProjectileCrossbowBoltBase" ParentName="BaseProjectileNeolithic" Abstract="True">
+		<label>crossbow bolt</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mousekin_CrossbowBolt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	<!-- ========================= Crossbows ==========================-->
+
+	<!-- Mousekin Hunter’s Crossbow -->
+	<ThingDef ParentName="Mousekin_RangedWeapon_Base">
+		<defName>Mousekin_RangedWeapon_Crossbow</defName>
+		<label>Mousekin Hunter’s Crossbow</label>
+		<description>A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used for hunting or self-defense, firing one bolt at a time using fiber or sinew strings under tension, and comes with a miniature crank wheel to allow the relatively weak Mousekins to quickly and easily draw the bow after firing. Its grip and trigger are too small for a human to wield and operate properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Mousekin_Crossbow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Bow_Recurve</soundInteract>
+		<costList>
+			<WoodLog>40</WoodLog>
+			<Steel>25</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.0</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<HuntingStealth>0.15</HuntingStealth>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>Greatbow</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bolt_Mousekin_RangedWeapon_Crossbow</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>35</range>
+				<soundCast>Mousekin_Crossbow_Fire</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stirrup</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="Mousekin_ProjectileCrossbowBoltBase">
+		<defName>Bolt_Mousekin_RangedWeapon_Crossbow</defName>
+		<projectile>
+			<damageDef>Mousekin_CrossbowBolt</damageDef>
+			<damageAmountBase>25</damageAmountBase>
+			<stoppingPower>1.1</stoppingPower>
+			<armorPenetrationBase>0.55</armorPenetrationBase>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>

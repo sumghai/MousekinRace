@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>Mousekin_Crossbow_Fire</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>mousekin_crossbow_fire</clipPath>
+					</li>
+				</grains>
+				<volumeRange>60.70111~77.30627</volumeRange>
+				<pitchRange>0.6976015~0.7769372</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

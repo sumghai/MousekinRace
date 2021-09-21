@@ -828,8 +828,10 @@
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 
-				<!-- TODO: Restrict the following weapons for Mousekin use only -->
-				<weaponList/>
+				<!-- Restrict the following weapons for Mousekin use only -->
+				<weaponList>
+					<li>Mousekin_RangedWeapon_Crossbow</li>
+				</weaponList>
 
 				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction only -->
 				<buildingList>
