@@ -9,7 +9,6 @@
 		<description>A workbench for concocting various Mousekin herbal poultices, potions and explosives.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
-			<!-- TODO - Placeholder texture -->
 			<texPath>Things/Building/Production/Mousekin_WorkbenchAlchemy</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
