@@ -67,10 +67,10 @@
 					<count>300</count>
 				</li>
 
-				<!-- TODO: replace with Mousekin crossbow -->
+				<!-- Mousekin Hunter's Crossbows, for hunting and early self-defense -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>Bow_Recurve</thingDef>
+					<thingDef>Mousekin_RangedWeapon_Crossbow</thingDef>
 					<count>2</count>
 				</li>
 
@@ -147,10 +147,10 @@
 					<count>10</count>
 				</li>
 
-				<!-- TODO: replace with Mousekin crossbow -->
+				<!-- A single Mousekin Hunter's Crossbow, probably used while fighting off pursuing Grimalkins -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>Bow_Recurve</thingDef>
+					<thingDef>Mousekin_RangedWeapon_Crossbow</thingDef>
 					<count>1</count>
 				</li>
 
