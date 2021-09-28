@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ========================= Base abtracts ==========================-->
+
+	<ThingDef Name="Mousekin_MeleeWeapon_Base" ParentName="BaseMeleeWeapon" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<relicChance>0</relicChance>
+		<thingCategories>
+			<li>Mousekin_WeaponsMelee</li>
+		</thingCategories>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<!-- Todo - replace with Mousekin smithy -->
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponMelee</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="Mousekin_MeleeWeaponSharp_Base" ParentName="Mousekin_MeleeWeapon_Base" Abstract="True">
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+	</ThingDef>
+
+	<ThingDef Name="Mousekin_MeleeWeaponBlunt_Base" ParentName="Mousekin_MeleeWeapon_Base" Abstract="True">
+		<weaponClasses>
+			<li>MeleeBlunt</li>
+		</weaponClasses>
+	</ThingDef>
+
+	<!-- Mousekin Axe -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_Axe</defName>
+		<label>Mousekin Axe</label>
+		<description>A bladed implement with a handle typically used to cut down trees, hew logs into timber and split firewood, but in a pinch can also be used as a crude but deadly weapon. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_Axe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>20</WoodLog>
+			<Steel>15</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.15</PlantWorkSpeed>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_Weapon_Peasant</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<armorPenetration>0.30</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Cleaver -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_Cleaver</defName>
+		<label>Mousekin Cleaver</label>
+		<description>A large knife with a rectangular blade typically used to split large, thick pieces of meat. While it helps increase the amount of meat harvested when butchering animals, it is not a particularly good weapon. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_Cleaver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>10</WoodLog>
+			<Steel>15</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<CookSpeed>0.15</CookSpeed>
+			<ButcheryFleshSpeed>0.20</ButcheryFleshSpeed>
+			<ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_Tool_Chef</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Dagger -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_Dagger</defName>
+		<label>Mousekin Dagger</label>
+		<description>A cute little dagger, good for quick stabbing attacks and easily concealed under most Mousekin clothing. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_Dagger</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>10</WoodLog>
+			<Steel>10</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Basic</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Hammer -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponBlunt_Base">
+		<defName>Mousekin_MeleeWeapon_HammerMetal</defName>
+		<label>Mousekin Hammer</label>
+		<description>A hammer with a small metal head, used to beat and form metals into shape, as well as general construction work. Despite its small size, a Mousekin armed with a hammer can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_HammerMetal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>15</WoodLog>
+			<Steel>15</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructionSpeed>0.15</ConstructionSpeed>
+			<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Tradesman</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Mallet -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponBlunt_Base">
+		<defName>Mousekin_MeleeWeapon_HammerWood</defName>
+		<label>Mousekin Mallet</label>
+		<description>A hammer with a large wooden head, used in carpentry and general construction work. Despite its small size, a Mousekin armed with a mallet can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_HammerWood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>25</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructionSpeed>0.075</ConstructionSpeed>
+			<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+			<SmoothingSpeed>0.15</SmoothingSpeed>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Tradesman</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>3</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Hoe -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_Hoe</defName>
+		<label>Mousekin Hoe</label>
+		<description>A common agricultural hand tool used to break up soil, remove weeds and harvest root vegetables. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_Hoe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>35</WoodLog>
+			<Steel>15</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.10</PlantWorkSpeed>
+			<PlantHarvestYield>0.20</PlantHarvestYield>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Peasant</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>3</cooldownTime>
+			</li>
+			<li>
+				<label>hoe head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>hoe blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Pickaxe -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_Pickaxe</defName>
+		<label>Mousekin Pickaxe</label>
+		<description>A hand tool with a large, curved metal blade, used to quickly dig at compacted soil and break up rocks. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_Pickaxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>20</WoodLog>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<MiningSpeed>0.20</MiningSpeed>
+			<MiningYield>0.10</MiningYield>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Peasant</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>pick</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>14</power>
+				<armorPenetration>0.35</armorPenetration>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Pitchfork -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_Pitchfork</defName>
+		<label>Mousekin Pitchfork</label>
+		<description>An agricultural hand tool with a long handle and three tines, used to pitch and pile straw. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_Pitchfork</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>35</WoodLog>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.15</PlantWorkSpeed>
+			<PlantHarvestYield>0.15</PlantHarvestYield>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Peasant</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>3</cooldownTime>
+			</li>
+			<li>
+				<label>tines</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Guardener’s Sword	-->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_SwordGuardener</defName>
+		<label>Mousekin Guardener’s Sword</label>
+		<description>A one-handed shortsword carried by Guardeners, an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom. The light and compact design exemplifies the femininity and grace of the weapon’s user. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_SwordGuardener</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>10</WoodLog>
+			<Steel>25</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Guardener</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Guardener’s Training Sword -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_SwordGuardenerTraining</defName>
+		<label>Mousekin Guardener’s Training Sword</label>
+		<description>A wooden version of the Guardener shortsword, carried by apprentices as part of their training to tend and protect the flower gardens of the Mousekin Kingdom. The blunted blade reduces risk of injury during training. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_SwordGuardenerTraining</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.6</uiIconScale>
+		<costList>
+			<WoodLog>40</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_GuardenerApprentice</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>wooden blade</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+</Defs>
