@@ -59,8 +59,8 @@
 			<Steel>15</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>1.5</Mass>
 		</statBases>
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.15</PlantWorkSpeed>
@@ -112,8 +112,8 @@
 			<Steel>15</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>0.7</Mass>
 		</statBases>
 		<equippedStatOffsets>
 			<CookSpeed>0.15</CookSpeed>
@@ -166,7 +166,7 @@
 			<Steel>10</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
+			<WorkToMake>3500</WorkToMake>
 			<Mass>0.5</Mass>
 		</statBases>
 		<weaponTags>
@@ -223,8 +223,8 @@
 			<Steel>15</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>2200</WorkToMake>
+			<Mass>1.25</Mass>
 		</statBases>
 		<equippedStatOffsets>
 			<ConstructionSpeed>0.15</ConstructionSpeed>
@@ -275,8 +275,8 @@
 			<WoodLog>25</WoodLog>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>1.5</Mass>
 		</statBases>
 		<equippedStatOffsets>
 			<ConstructionSpeed>0.075</ConstructionSpeed>
@@ -329,8 +329,8 @@
 			<Steel>15</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>1.5</Mass>
 		</statBases>
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.10</PlantWorkSpeed>
@@ -390,8 +390,8 @@
 			<Steel>30</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>1.8</Mass>
 		</statBases>
 		<equippedStatOffsets>
 			<MiningSpeed>0.20</MiningSpeed>
@@ -452,8 +452,8 @@
 			<Steel>30</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>3500</WorkToMake>
+			<Mass>1.5</Mass>
 		</statBases>
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.15</PlantWorkSpeed>
@@ -505,8 +505,8 @@
 			<Steel>25</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>1.0</Mass>
 		</statBases>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon_Guardener</li>
@@ -562,8 +562,8 @@
 			<WoodLog>40</WoodLog>
 		</costList>
 		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<Mass>0.5</Mass>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>0.85</Mass>
 		</statBases>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon_GuardenerApprentice</li>
