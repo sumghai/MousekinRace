@@ -73,13 +73,47 @@
 					<thingDef>Mousekin_RangedWeapon_Crossbow</thingDef>
 					<count>2</count>
 				</li>
-
-				<!-- TODO: replace with Mousekin Guardener's sword -->
+				
+				<!-- Mousekin Axe, for cutting down trees -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>MeleeWeapon_Gladius</thingDef>
-					<stuff>Steel</stuff>
-					<count>2</count>
+					<thingDef>Mousekin_MeleeWeapon_Axe</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Dagger, for early self-defense -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_Dagger</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Hammer, for blacksmithing -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_HammerMetal</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Mallet, for wood and stoneworking -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_HammerWood</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Hoe, for cultivating crops -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_Hoe</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Pickaxe, for mining -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_Pickaxe</thingDef>
+					<count>1</count>
 				</li>
 
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
@@ -147,19 +181,23 @@
 					<count>10</count>
 				</li>
 
-				<!-- A single Mousekin Hunter's Crossbow, probably used while fighting off pursuing Grimalkins -->
+				<!-- A single Mousekin Hunter's Crossbow, Dagger and Hammer, probably used while fighting off pursuing Grimalkins -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Mousekin_RangedWeapon_Crossbow</thingDef>
 					<count>1</count>
 				</li>
 
-				<!-- TODO: replace with Mousekin dagger -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>MeleeWeapon_Knife</thingDef>
-					<stuff>Steel</stuff>
-					<count>2</count>
+					<thingDef>Mousekin_MeleeWeapon_Dagger</thingDef>
+					<count>1</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_HammerMetal</thingDef>
+					<count>1</count>
 				</li>
 
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
