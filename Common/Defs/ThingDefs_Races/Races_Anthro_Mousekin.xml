@@ -830,6 +830,16 @@
 
 				<!-- Restrict the following weapons for Mousekin use only -->
 				<weaponList>
+					<li>Mousekin_MeleeWeapon_Axe</li>
+					<li>Mousekin_MeleeWeapon_Cleaver</li>
+					<li>Mousekin_MeleeWeapon_Dagger</li>
+					<li>Mousekin_MeleeWeapon_HammerMetal</li>
+					<li>Mousekin_MeleeWeapon_HammerWood</li>
+					<li>Mousekin_MeleeWeapon_Hoe</li>
+					<li>Mousekin_MeleeWeapon_Pickaxe</li>
+					<li>Mousekin_MeleeWeapon_Pitchfork</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardener</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardenerTraining</li>
 					<li>Mousekin_RangedWeapon_Crossbow</li>
 				</weaponList>
 
