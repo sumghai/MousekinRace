@@ -165,6 +165,10 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<weaponMoney>150~550</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Guardener</li>
+		</weaponTags>
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<initialWillRange>8~12</initialWillRange>
@@ -211,6 +215,11 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Guardener</li>
+		</weaponTags>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>35</maxGenerationAge>
 		<initialWillRange>6~9</initialWillRange>
@@ -253,6 +262,11 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>100~100</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_GuardenerApprentice</li>
+		</weaponTags>
 		<minGenerationAge>10</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
 		<initialWillRange>1~2</initialWillRange>
@@ -313,6 +327,10 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<weaponMoney>60~150</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_Tool_Chef</li>
+		</weaponTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
@@ -345,6 +363,10 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<weaponMoney>50~150</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_Tool_Tradesman</li>
+		</weaponTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>25</minGenerationAge>
@@ -387,6 +409,13 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>0.9~1.5</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<!-- todo - replace with automatic crossbow -->
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
 		<initialWillRange>2~3</initialWillRange>
@@ -435,6 +464,12 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>0.8~1.0</gearHealthRange>
+		<weaponMoney>50~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
 		<initialWillRange>0~1</initialWillRange>
@@ -452,6 +487,11 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>0.4~0.8</gearHealthRange>
+		<weaponMoney>65~150</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_Tool_Peasant</li>
+		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>60</maxGenerationAge>
 		<initialWillRange>0~0</initialWillRange>
@@ -517,7 +557,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<gearHealthRange>1~2</gearHealthRange>
+		<gearHealthRange>2~3</gearHealthRange>
 		<itemQuality>Good</itemQuality>
 		<weaponMoney>150~200</weaponMoney>
 		<weaponTags>
@@ -541,7 +581,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<gearHealthRange>1~1.2</gearHealthRange>
+		<gearHealthRange>1~2</gearHealthRange>
 		<itemQuality>Normal</itemQuality>
 		<weaponMoney>150~200</weaponMoney>
 		<weaponTags>
@@ -565,6 +605,12 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_Tool_Peasant</li>
+		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<initialWillRange>5~6</initialWillRange>
@@ -618,6 +664,7 @@
 		<weaponMoney>150~200</weaponMoney>
 		<weaponTags>
 			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
@@ -644,6 +691,13 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>0.4~0.8</gearHealthRange>
+		<itemQuality>Poor</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
 		<minGenerationAge>8</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
 		<initialWillRange>0~1</initialWillRange>

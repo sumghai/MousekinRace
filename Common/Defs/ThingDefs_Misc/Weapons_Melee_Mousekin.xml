@@ -66,7 +66,8 @@
 			<PlantWorkSpeed>0.15</PlantWorkSpeed>
 		</equippedStatOffsets>
 		<weaponTags>
-			<li>Mousekin_Weapon_Peasant</li>
+			<li>Mousekin_Tool_Peasant</li>
+			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
@@ -122,6 +123,7 @@
 		</equippedStatOffsets>
 		<weaponTags>
 			<li>Mousekin_Tool_Chef</li>
+			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
@@ -171,6 +173,7 @@
 		</statBases>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon_Basic</li>
+			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
@@ -231,7 +234,7 @@
 			<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
 		</equippedStatOffsets>
 		<weaponTags>
-			<li>Mousekin_MeleeWeapon_Tradesman</li>
+			<li>Mousekin_Tool_Tradesman</li>
 		</weaponTags>
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
@@ -284,7 +287,7 @@
 			<SmoothingSpeed>0.15</SmoothingSpeed>
 		</equippedStatOffsets>
 		<weaponTags>
-			<li>Mousekin_MeleeWeapon_Tradesman</li>
+			<li>Mousekin_Tool_Tradesman</li>
 		</weaponTags>
 		<recipeMaker>
 			<!-- No research prerequisite -->
@@ -337,7 +340,7 @@
 			<PlantHarvestYield>0.20</PlantHarvestYield>
 		</equippedStatOffsets>
 		<weaponTags>
-			<li>Mousekin_MeleeWeapon_Peasant</li>
+			<li>Mousekin_Tool_Peasant</li>
 		</weaponTags>
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
@@ -398,7 +401,7 @@
 			<MiningYield>0.10</MiningYield>
 		</equippedStatOffsets>
 		<weaponTags>
-			<li>Mousekin_MeleeWeapon_Peasant</li>
+			<li>Mousekin_Tool_Peasant</li>
 		</weaponTags>
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
@@ -460,7 +463,7 @@
 			<PlantHarvestYield>0.15</PlantHarvestYield>
 		</equippedStatOffsets>
 		<weaponTags>
-			<li>Mousekin_MeleeWeapon_Peasant</li>
+			<li>Mousekin_Tool_Peasant</li>
 		</weaponTags>
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
