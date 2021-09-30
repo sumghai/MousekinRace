@@ -15,8 +15,9 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Smith</soundWorking>
 			<recipeUsers>
-				<!-- Todo - replace with Mousekin smithy -->
-				<li>CraftingSpot</li>
+				<!-- Todo - Add Mousekin smithy -->
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 		</recipeMaker>
@@ -290,6 +291,11 @@
 			<li>Mousekin_Tool_Tradesman</li>
 		</weaponTags>
 		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<!-- Mallets are 100% wood, so they would be machined rather than smithed -->
+				<li>TableMachining</li>
+				<!-- Todo - Add Mousekin crafting bench -->
+			</recipeUsers>
 			<!-- No research prerequisite -->
 			<skillRequirements>
 				<Crafting>3</Crafting>
@@ -572,6 +578,11 @@
 			<li>Mousekin_MeleeWeapon_GuardenerApprentice</li>
 		</weaponTags>
 		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<!-- Training Swords are 100% wood, so they would be machined rather than smithed -->
+				<li>TableMachining</li>
+				<!-- Todo - Add Mousekin crafting bench -->
+			</recipeUsers>
 			<!-- No research prerequisite -->
 			<skillRequirements>
 				<Crafting>5</Crafting>
