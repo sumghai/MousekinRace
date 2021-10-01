@@ -32,7 +32,6 @@
 		<defName>Mousekin_TraderCaravan_Bulk</defName>
 		<label>bulk goods trader</label>
 		<commonality>3</commonality>
-
 		<stockGenerators>
 
 			<!-- Resources -->
@@ -103,17 +102,14 @@
 			</li>
 
 		</stockGenerators>
-
 	</TraderKindDef>
 
 	<!-- Clothing merchant (Kingdom and Independent factions) - buys and sells Mousekin commoner and middle-class apparel, accessories, fabrics, wools and leathers -->
 
 	<TraderKindDef ParentName="Mousekin_TraderBase">
-
 		<defName>Mousekin_TraderCaravan_Apparel</defName>
 		<label>clothing merchant</label>
 		<commonality>1</commonality>
-
 		<stockGenerators>
 
 			<!-- Apparel -->
@@ -167,17 +163,14 @@
 			</li>
 
 		</stockGenerators>
-
 	</TraderKindDef>
 
 	<!-- Livestock trader (Kingdom and Independent factions) - sells common Mousekin farm animals, and buys most other animals -->
 
 	<TraderKindDef ParentName="Mousekin_TraderBase">
-
 		<defName>Mousekin_TraderCaravan_Animals</defName>
 		<label>livestock trader</label>
 		<commonality>2</commonality>
-
 		<stockGenerators>
 
 			<!-- Animals -->
@@ -212,84 +205,71 @@
 			</li>
 
 		</stockGenerators>
-
 	</TraderKindDef>
-	
+
 	<!-- Ironmonger - sells tools, melee and ranged weapons, as well as ammo, explosives, military apparel, combat and healing potions
 		 - The Kingdom variant tends towards more melee weapons and knight armor
 		 - The Indy Town variant tends towards more ranged weapons and a special Thunderpike weapon -->
-	
+
 	<TraderKindDef Name="Mousekin_TraderMilitaryBase" ParentName="Mousekin_TraderBase" Abstract="True">
-	
 		<label>ironmonger</label>
 		<commonality>1</commonality>
-		
 		<stockGenerators>
-		
+
 			<!-- Tool-style melee weapons -->
-			
+
 			<li Class="StockGenerator_WeaponsMelee">
 				<weaponTag>Mousekin_Tool</weaponTag>
 				<countRange>10~15</countRange>
 				<price>Cheap</price>
 			</li>
-      
+
 		</stockGenerators>
-	
 	</TraderKindDef>
-	
+
 	<TraderKindDef ParentName="Mousekin_TraderMilitaryBase">
-	
 		<defName>Mousekin_TraderCaravan_MilitaryKingdom</defName>
-		
 		<stockGenerators>
-		
+
 			<!-- Melee weapons -->
-			
+
 			<li Class="StockGenerator_WeaponsMelee">
 				<weaponTag>Mousekin_MeleeWeapon</weaponTag>
 				<countRange>2~4</countRange>
 				<price>Cheap</price>
 			</li>
-			
+
 			<!-- Ranged weapons (basic only) -->
-			
+
 			<li Class="StockGenerator_WeaponsRanged">
 				<weaponTag>Mousekin_RangedWeapon_Basic</weaponTag>
 				<countRange>2~4</countRange>
 				<price>Cheap</price>
 			</li>
-		
 		</stockGenerators>
-	
 	</TraderKindDef>
-	
+
 	<TraderKindDef ParentName="Mousekin_TraderMilitaryBase">
-	
 		<defName>Mousekin_TraderCaravan_MilitaryIndyTown</defName>
-		
 		<stockGenerators>
-		
+
 			<!-- Ranged weapons -->
-			
+
 			<li Class="StockGenerator_WeaponsRanged">
 				<weaponTag>Mousekin_RangedWeapon</weaponTag>
 				<countRange>2~4</countRange>
 				<price>Cheap</price>
 			</li>
-		
+
 		</stockGenerators>
-	
 	</TraderKindDef>
 
 	<!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand) -->
 
 	<TraderKindDef ParentName="Mousekin_TraderBase">
-
 		<defName>Mousekin_TraderCaravan_Exotic</defName>
 		<label>exotic goods trader</label>
 		<commonality>1</commonality>
-
 		<stockGenerators>
 
 			<!-- Resources -->
@@ -394,10 +374,9 @@
 					<li>AnimalPet</li>
 					<li>AnimalUncommon</li>
 				</tradeTagsBuy>
-			</li>
+</li>
 
 		</stockGenerators>
-
 	</TraderKindDef>
 
 </Defs>
