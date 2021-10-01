@@ -292,8 +292,8 @@
 		</weaponTags>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
-				<!-- Mallets are 100% wood, so they would be machined rather than smithed -->
-				<li>TableMachining</li>
+				<!-- Mallets are 100% wood, so they would be crafted rather than smithed -->
+				<li>CraftingSpot</li>
 				<!-- Todo - Add Mousekin crafting bench -->
 			</recipeUsers>
 			<!-- No research prerequisite -->
@@ -579,8 +579,8 @@
 		</weaponTags>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
-				<!-- Training Swords are 100% wood, so they would be machined rather than smithed -->
-				<li>TableMachining</li>
+				<!-- Training Swords are 100% wood, so they would be crafted rather than smithed -->
+				<li>CraftingSpot</li>
 				<!-- Todo - Add Mousekin crafting bench -->
 			</recipeUsers>
 			<!-- No research prerequisite -->
