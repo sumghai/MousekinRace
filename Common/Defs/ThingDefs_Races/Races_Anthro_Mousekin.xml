@@ -468,6 +468,8 @@
 					<head>Things/Pawn/Mousekin/Heads/</head>
 					<skeleton>Things/Pawn/Mousekin/Body/Skeleton</skeleton>
 					<skull>Things/Pawn/Mousekin/Heads/Skull</skull>
+					<!-- No visible head stump -->
+					<stump>Things/Mote/Transparent</stump>
 				</li>
 			</graphicPaths>
 			<styleSettings>	
