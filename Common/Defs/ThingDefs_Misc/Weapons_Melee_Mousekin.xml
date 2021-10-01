@@ -67,6 +67,7 @@
 			<PlantWorkSpeed>0.15</PlantWorkSpeed>
 		</equippedStatOffsets>
 		<weaponTags>
+			<li>Mousekin_Tool</li>
 			<li>Mousekin_Tool_Peasant</li>
 			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
@@ -123,6 +124,7 @@
 			<ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
 		</equippedStatOffsets>
 		<weaponTags>
+			<li>Mousekin_Tool</li>
 			<li>Mousekin_Tool_Chef</li>
 			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
@@ -173,6 +175,7 @@
 			<Mass>0.5</Mass>
 		</statBases>
 		<weaponTags>
+			<li>Mousekin_MeleeWeapon</li>
 			<li>Mousekin_MeleeWeapon_Basic</li>
 			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
@@ -235,6 +238,7 @@
 			<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
 		</equippedStatOffsets>
 		<weaponTags>
+			<li>Mousekin_Tool</li>
 			<li>Mousekin_Tool_Tradesman</li>
 		</weaponTags>
 		<recipeMaker>
@@ -288,6 +292,7 @@
 			<SmoothingSpeed>0.15</SmoothingSpeed>
 		</equippedStatOffsets>
 		<weaponTags>
+			<li>Mousekin_Tool</li>
 			<li>Mousekin_Tool_Tradesman</li>
 		</weaponTags>
 		<recipeMaker>
@@ -346,6 +351,7 @@
 			<PlantHarvestYield>0.20</PlantHarvestYield>
 		</equippedStatOffsets>
 		<weaponTags>
+			<li>Mousekin_Tool</li>
 			<li>Mousekin_Tool_Peasant</li>
 		</weaponTags>
 		<recipeMaker>
@@ -407,6 +413,7 @@
 			<MiningYield>0.10</MiningYield>
 		</equippedStatOffsets>
 		<weaponTags>
+			<li>Mousekin_Tool</li>
 			<li>Mousekin_Tool_Peasant</li>
 		</weaponTags>
 		<recipeMaker>
@@ -469,6 +476,7 @@
 			<PlantHarvestYield>0.15</PlantHarvestYield>
 		</equippedStatOffsets>
 		<weaponTags>
+			<li>Mousekin_Tool</li>
 			<li>Mousekin_Tool_Peasant</li>
 		</weaponTags>
 		<recipeMaker>
@@ -518,6 +526,7 @@
 			<Mass>1.0</Mass>
 		</statBases>
 		<weaponTags>
+			<li>Mousekin_MeleeWeapon</li>
 			<li>Mousekin_MeleeWeapon_Guardener</li>
 		</weaponTags>
 		<recipeMaker>
@@ -575,6 +584,7 @@
 			<Mass>0.85</Mass>
 		</statBases>
 		<weaponTags>
+			<li>Mousekin_MeleeWeapon</li>
 			<li>Mousekin_MeleeWeapon_GuardenerApprentice</li>
 		</weaponTags>
 		<recipeMaker>
