@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
+
 	<!-- ========================= Work tables ==========================-->
+
+	<!-- Mousekin alchemy bench -->
 
 	<ThingDef ParentName="BenchBase">
 		<defName>Mousekin_WorkbenchAlchemy</defName>
@@ -12,7 +14,6 @@
 			<texPath>Things/Building/Production/Mousekin_WorkbenchAlchemy</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
-			<shaderType>CutoutComplex</shaderType>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -23,12 +24,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
+			<WoodLog>60</WoodLog>
 			<Steel>20</Steel>
 		</costList>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>60</costStuffCount>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
@@ -56,16 +54,18 @@
 				<linkableFacilities>
 					<li>ToolCabinet</li>
 				</linkableFacilities>
-		</li>
+			</li>
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
 	</ThingDef>
-	
+
 	<!-- ========== Non-standard work buildings ==============-->
-	
+
+	<!-- Mousekin research bench -->
+
 	<ThingDef ParentName="BenchBase">
 		<defName>Mousekin_ResearchBench</defName>
 		<label>Mousekin research bench</label>
@@ -74,8 +74,7 @@
 		<graphicData>
 			<texPath>Things/Building/Production/Mousekin_ResearchBench</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4,3)</drawSize>			
-			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,3)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -86,12 +85,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
+			<WoodLog>60</WoodLog>
 			<Steel>20</Steel>
 		</costList>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>60</costStuffCount>		
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
@@ -99,9 +95,9 @@
 			<WorkToBuild>2800</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<Cleanliness>-3</Cleanliness>		
+			<Cleanliness>-3</Cleanliness>
 			<ResearchSpeedFactor>0.875</ResearchSpeedFactor>
-		</statBases>	
+		</statBases>
 		<size>(2,1)</size>
 		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
