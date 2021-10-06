@@ -296,8 +296,10 @@
 			<li>Mousekin_Tool_Tradesman</li>
 		</weaponTags>
 		<recipeMaker>
+			<!-- Mallets are 100% wood, so they would be carved rather than smithed -->
+			<effectWorking>Sculpt</effectWorking>
+			<soundWorking>Recipe_Sculpt</soundWorking>
 			<recipeUsers Inherit="False">
-				<!-- Mallets are 100% wood, so they would be crafted rather than smithed -->
 				<li>CraftingSpot</li>
 				<!-- Todo - Add Mousekin crafting bench -->
 			</recipeUsers>
@@ -588,8 +590,10 @@
 			<li>Mousekin_MeleeWeapon_GuardenerApprentice</li>
 		</weaponTags>
 		<recipeMaker>
+			<!-- Training Swords are 100% wood, so they would be carved rather than smithed -->
+			<effectWorking>Sculpt</effectWorking>
+			<soundWorking>Recipe_Sculpt</soundWorking>
 			<recipeUsers Inherit="False">
-				<!-- Training Swords are 100% wood, so they would be crafted rather than smithed -->
 				<li>CraftingSpot</li>
 				<!-- Todo - Add Mousekin crafting bench -->
 			</recipeUsers>

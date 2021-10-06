@@ -13,7 +13,7 @@
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
 			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_MakeBow</soundWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
 			<recipeUsers>
 				<li>FueledSmithy</li>
 				<li>ElectricSmithy</li>
