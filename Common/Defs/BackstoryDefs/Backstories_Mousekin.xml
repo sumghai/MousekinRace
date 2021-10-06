@@ -4014,7 +4014,7 @@
 		<defName>Mousekin_Adulthood_InnWench</defName>
 		<title>Inn Wench</title>
 		<titleShort>Wench</titleShort>
-		<baseDescription>[PAWN_nameDef] served meals and drinks at a Mousekin village inn, and was reknown for [PAWN_possessive] good looks - as well as [PAWN_possesive] lightning-fast reflexes with a dagger, which served to discourage boorish Mousekin laborers from hitting on [PAWN_objective] too much.</baseDescription>
+		<baseDescription>[PAWN_nameDef] served meals and drinks at a Mousekin village inn, and was renowned for [PAWN_possessive] good looks - as well as [PAWN_possessive] lightning-fast reflexes with a dagger, which served to discourage boorish Mousekin laborers from hitting on [PAWN_objective] too much.</baseDescription>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>30</femaleCommonality>
 		<slot>Adulthood</slot>
