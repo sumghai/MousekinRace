@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Add nut bushes to boreal and temperate forests -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[
+					defName="BorealForest" or
+					defName="TemperateForest"
+				]/wildPlants</xpath>
+				<value>
+					<Mousekin_Plant_NutChonko>0.05</Mousekin_Plant_NutChonko>
+					<Mousekin_Plant_NutNyam>0.05</Mousekin_Plant_NutNyam>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>
