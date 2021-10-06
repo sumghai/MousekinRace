@@ -12,6 +12,13 @@
 					<li>Mousekin_WorkbenchAlchemy</li>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>Mousekin_WorkbenchSmithy</li>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>

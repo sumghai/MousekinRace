@@ -15,9 +15,9 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_MakeBow</soundWorking>
 			<recipeUsers>
-				<!-- Todo - Add Mousekin smithy -->
 				<li>FueledSmithy</li>
 				<li>ElectricSmithy</li>
+				<li>Mousekin_WorkbenchSmithy</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 		</recipeMaker>
