@@ -301,7 +301,7 @@
 			<soundWorking>Recipe_Sculpt</soundWorking>
 			<recipeUsers Inherit="False">
 				<li>CraftingSpot</li>
-				<!-- Todo - Add Mousekin crafting bench -->
+				<li>Mousekin_WorkbenchCrafting</li>
 			</recipeUsers>
 			<!-- No research prerequisite -->
 			<skillRequirements>
@@ -595,7 +595,7 @@
 			<soundWorking>Recipe_Sculpt</soundWorking>
 			<recipeUsers Inherit="False">
 				<li>CraftingSpot</li>
-				<!-- Todo - Add Mousekin crafting bench -->
+				<li>Mousekin_WorkbenchCrafting</li>
 			</recipeUsers>
 			<!-- No research prerequisite -->
 			<skillRequirements>
