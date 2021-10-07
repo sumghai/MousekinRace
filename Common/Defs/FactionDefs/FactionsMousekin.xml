@@ -181,6 +181,9 @@
 			<li>Mousekin_TraderCaravan_Animals</li>
 			<li>Mousekin_TraderCaravan_MilitaryKingdom</li>
 		</caravanTraderKinds>
+		<baseTraderKinds>
+			<li>Mousekin_TraderSettlement_Kingdom</li>
+		</baseTraderKinds>
 		<pawnGroupMakers>
 
 			<!-- ===== Violent ===== -->
@@ -577,6 +580,9 @@
 			<li>Mousekin_TraderCaravan_Animals</li>
 			<li>Mousekin_TraderCaravan_MilitaryIndyTown</li>
 		</caravanTraderKinds>
+		<baseTraderKinds>
+			<li>Mousekin_TraderSettlement_IndyTown</li>
+		</baseTraderKinds>
 		<pawnGroupMakers>
 
 			<!-- ===== Violent ===== -->

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- Common inventory for all Mousekin traders -->
+	<!-- Common inventory for all Mousekin caravan traders -->
 
-	<TraderKindDef Name="Mousekin_TraderBase" Abstract="True">
+	<TraderKindDef Name="Mousekin_TraderCaravanBase" Abstract="True">
 		<stockGenerators>
 
 			<!-- Currency -->
@@ -28,7 +28,7 @@
 
 	<!-- Bulk goods trader (Kingdom and Independent factions) - buys and sells Mousekin-themed crops, meats, alcohols, resources and misc manufactured items -->
 
-	<TraderKindDef ParentName="Mousekin_TraderBase">
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
 		<defName>Mousekin_TraderCaravan_Bulk</defName>
 		<label>bulk goods trader</label>
 		<commonality>3</commonality>
@@ -106,7 +106,7 @@
 
 	<!-- Clothing merchant (Kingdom and Independent factions) - buys and sells Mousekin commoner and middle-class apparel, accessories, fabrics, wools and leathers -->
 
-	<TraderKindDef ParentName="Mousekin_TraderBase">
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
 		<defName>Mousekin_TraderCaravan_Apparel</defName>
 		<label>clothing merchant</label>
 		<commonality>1</commonality>
@@ -167,7 +167,7 @@
 
 	<!-- Livestock trader (Kingdom and Independent factions) - sells common Mousekin farm animals, and buys most other animals -->
 
-	<TraderKindDef ParentName="Mousekin_TraderBase">
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
 		<defName>Mousekin_TraderCaravan_Animals</defName>
 		<label>livestock trader</label>
 		<commonality>2</commonality>
@@ -211,7 +211,7 @@
 		 - The Kingdom variant tends towards more melee weapons and knight armor
 		 - The Indy Town variant tends towards more ranged weapons and a special Thunderpike weapon -->
 
-	<TraderKindDef Name="Mousekin_TraderMilitaryBase" ParentName="Mousekin_TraderBase" Abstract="True">
+	<TraderKindDef Name="Mousekin_TraderCaravanMilitaryBase" ParentName="Mousekin_TraderCaravanBase" Abstract="True">
 		<label>ironmonger</label>
 		<commonality>1</commonality>
 		<stockGenerators>
@@ -227,7 +227,7 @@
 		</stockGenerators>
 	</TraderKindDef>
 
-	<TraderKindDef ParentName="Mousekin_TraderMilitaryBase">
+	<TraderKindDef ParentName="Mousekin_TraderCaravanMilitaryBase">
 		<defName>Mousekin_TraderCaravan_MilitaryKingdom</defName>
 		<stockGenerators>
 
@@ -249,7 +249,7 @@
 		</stockGenerators>
 	</TraderKindDef>
 
-	<TraderKindDef ParentName="Mousekin_TraderMilitaryBase">
+	<TraderKindDef ParentName="Mousekin_TraderCaravanMilitaryBase">
 		<defName>Mousekin_TraderCaravan_MilitaryIndyTown</defName>
 		<stockGenerators>
 
@@ -266,7 +266,7 @@
 
 	<!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand) -->
 
-	<TraderKindDef ParentName="Mousekin_TraderBase">
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
 		<defName>Mousekin_TraderCaravan_Exotic</defName>
 		<label>exotic goods trader</label>
 		<commonality>1</commonality>
@@ -374,7 +374,7 @@
 					<li>AnimalPet</li>
 					<li>AnimalUncommon</li>
 				</tradeTagsBuy>
-</li>
+			</li>
 
 		</stockGenerators>
 	</TraderKindDef>
