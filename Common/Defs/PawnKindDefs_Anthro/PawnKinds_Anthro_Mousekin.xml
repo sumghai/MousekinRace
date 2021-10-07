@@ -105,6 +105,9 @@
 				<allowHumanBios>false</allowHumanBios>
 				<maleGenderProbability>1.00</maleGenderProbability>
 			</li>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
+			</li>
 		</modExtensions>
 	</PawnKindDef>
 	
@@ -126,6 +129,9 @@
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
 				<maleGenderProbability>0.00</maleGenderProbability>
+			</li>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
 			</li>
 		</modExtensions>
 	</PawnKindDef>
