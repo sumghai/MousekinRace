@@ -2614,9 +2614,7 @@
 		<defName>Mousekin_Adulthood_DestituteFarmer</defName>
 		<title>Destitute farmer</title>
 		<titleShort>Destitute</titleShort>
-		<baseDescription>After a blight wiped out [PAWN_possessive] village's annual harvest, [PAWN_nameDef] and several others begged the Mousekin Kingdom for help, all while watching their families slowly and agnonizingly die from starvation and the brutal winter.\n\nWhen the Kingdom refused to render aid, claiming unpaid taxes, [PAWN_pronoun] had no choice but to turn to banditry to survive.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>0</femaleCommonality>
+		<baseDescription>After a blight wiped out [PAWN_possessive] hometown's annual harvest, [PAWN_nameDef] and several others begged the Mousekin Kingdom for help, all while watching their families slowly and agnonizingly die from starvation and the brutal winter.\n\nWhen the Kingdom refused to render aid, claiming unpaid taxes, [PAWN_pronoun] had no choice but to turn to banditry to survive.</baseDescription>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
@@ -2687,7 +2685,6 @@
 		<spawnCategories>
 			<li>MousekinRaider</li>
 		</spawnCategories>
-		<linkedBackstory>Mousekin_Childhood_VillageChild</linkedBackstory>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">

@@ -679,7 +679,7 @@
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>1.00</maleGenderProbability>
+				<maleGenderProbability>0.85</maleGenderProbability>
 			</li>
 		</modExtensions>
 	</PawnKindDef>
