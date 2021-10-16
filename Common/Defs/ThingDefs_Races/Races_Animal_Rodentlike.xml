@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Giant Cavy -->
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>Mousekin_AnimalGiantCavy</defName>
+		<label>giant cavy</label>
+		<description>Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Giant cavy")\n\nA giant, docile rodent several orders of magnitude larger than the common guinea pig, and can withstand harsh climates fairly well. They subsist on a high-fiber diet of grass, hay, berries, fruits and vegetables, and are known to also consume their own feces in order to recycle vital trace nutrients.\n\nOriginally genetically-engineered and bred by humans millenia ago as a potential food source for austere frontier colonies, prehistoric Mousekins eventually successfully domesticated these peculiar creatures as companions, riding mounts and pack animals.</description>
+		<statBases>
+			<MoveSpeed>5.8</MoveSpeed>
+			<MarketValue>500</MarketValue>
+			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+		</statBases>
+		<race>
+			<body>QuadrupedAnimalWithPaws</body>
+			<baseBodySize>2.1</baseBodySize>
+			<baseHealthScale>1.75</baseHealthScale>
+			<baseHungerRate>1.0</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Mousekin_LeatherGiantCavy</leatherDef>
+			<nameGenerator>MousekinNamerAnimalGiantCavy</nameGenerator>
+			<nameGeneratorFemale>MousekinNamerAnimalGiantCavy</nameGeneratorFemale>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+			<wildness>0.0</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<trainability>Intermediate</trainability>
+			<packAnimal>true</packAnimal>
+			<!-- Giant cavies bond with their (usually Mousekin) masters for life -->
+			<lifeExpectancy>60</lifeExpectancy>
+			<ageGenerationCurve>
+				<points>
+					<li>(0.01,0)</li>
+					<li>(4.99,0)</li>
+					<li>(5,100)</li>
+					<li>(6,100)</li>					
+					<li>(7,100)</li>
+					<li>(10,10)</li>
+					<li>(11,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<!-- Giant cavies love to muzzle. A lot. -->
+			<nuzzleMtbHours>2</nuzzleMtbHours>
+			<!-- Up to 4 pregnancies/litters per in-game year -->
+			<gestationPeriodDays>15</gestationPeriodDays>
+			<!-- 4~5 pups per litter -->
+			<litterSizeCurve>
+				<points>
+					<li>(0.5,0)</li>
+					<li>(1,0)</li>
+					<li>(2,0)</li>
+					<li>(3,0)</li>
+					<li>(3.99,0)</li>
+					<li>(4,1)</li>
+					<li>(5,1)</li>
+					<li>(5.01,0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_GuineaPig_Wounded</soundWounded>
+					<soundDeath>Pawn_GuineaPig_Death</soundDeath>
+					<soundCall>Pawn_GuineaPig_Call</soundCall>
+					<soundAngry>Pawn_GuineaPig_Angry</soundAngry>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1.5</minAge>
+					<soundWounded>Pawn_GuineaPig_Wounded</soundWounded>
+					<soundDeath>Pawn_GuineaPig_Death</soundDeath>
+					<soundCall>Pawn_GuineaPig_Call</soundCall>
+					<soundAngry>Pawn_GuineaPig_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_AnimalFarm</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_Shearable">
+				<woolDef>Mousekin_WoolGiantCavy</woolDef>
+				<shearIntervalDays>15</shearIntervalDays>
+				<woolAmount>120</woolAmount>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Mousekin_AnimalGiantCavy</defName>
+		<label>giant cavy</label>
+		<race>Mousekin_AnimalGiantCavy</race>
+		<combatPower>75</combatPower>
+		<ecoSystemWeight>1.1</ecoSystemWeight>
+		<wildGroupSize>8~16</wildGroupSize>
+		<lifeStages>
+			<li>
+				<!-- Pups are roughly the size of a regular adult guinea pig  -->
+				<label>giant cavy pup</label>
+				<labelPlural>giant cavy pups</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/GiantCavy/GiantCavy</texPath>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/GiantCavy/Dessicated_GiantCavy</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<!-- Juveniles are roughly the size of a labrador retriever -->
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/GiantCavy/GiantCavy</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/GiantCavy/Dessicated_GiantCavy</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<!-- Adults are just slightly smaller than Muffalos -->
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/GiantCavy/GiantCavy</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/GiantCavy/Dessicated_GiantCavy</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>
