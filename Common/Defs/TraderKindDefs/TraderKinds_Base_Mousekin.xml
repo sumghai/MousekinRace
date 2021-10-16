@@ -153,7 +153,7 @@
 					<li>AnimalUncommon</li>
 				</tradeTagsBuy>
 				<kindCountRange>8~8</kindCountRange>
-				<countRange>100~150</countRange>
+				<countRange>100~200</countRange>
 				<createMatingPair>
 					<li>Mousekin_TradeGoods_AnimalFarm</li>
 				</createMatingPair>
@@ -163,6 +163,7 @@
 					<Duck>5~10</Duck>
 					<Goose>5~10</Goose>
 					<Goat>5~10</Goat>
+					<Mousekin_AnimalGiantCavy>15~20</Mousekin_AnimalGiantCavy>
 					<Pig>15~20</Pig>
 					<Sheep>15~20</Sheep>
 				</customCountRanges>

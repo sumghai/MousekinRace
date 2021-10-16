@@ -115,7 +115,14 @@
 					<thingDef>Mousekin_MeleeWeapon_Pickaxe</thingDef>
 					<count>1</count>
 				</li>
-
+				
+				<!-- Giant cavies as pack animals that helped the settlers carry their inventory -->				
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Mousekin_AnimalGiantCavy</animalKind>
+					<count>4</count>
+				</li>
+				
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>WoodLog</thingDef>
