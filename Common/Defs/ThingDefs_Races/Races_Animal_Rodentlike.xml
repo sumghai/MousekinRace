@@ -191,6 +191,9 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<modExtensions>
+			<li Class="MousekinRace.NameAnimalOnTameExtension" />
+		</modExtensions>
 	</PawnKindDef>
 
 </Defs>

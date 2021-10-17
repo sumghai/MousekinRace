@@ -308,7 +308,9 @@
     <Compile Include="MentalState_EarlessSuicide.cs" />
     <Compile Include="MousekinDefOf.cs" />
     <Compile Include="MousekinRaceMod.cs" />
+    <Compile Include="NameAnimalOnTameExtension.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
+    <Compile Include="Patches\Harmony_InteractionWorker_RecruitAttempt_DoRecruit.cs" />
     <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
     <Compile Include="Patches\Harmony_Pawn_HealthTracker.cs" />
     <Compile Include="Patches\Harmony_PawnGenerator.cs" />
