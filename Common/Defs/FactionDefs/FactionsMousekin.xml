@@ -755,7 +755,7 @@
 
 		</pawnGroupMakers>
 		<modExtensions>
-			<li Class="KCSG.FactionSettlement">
+			<li Class="KCSG.CustomGenOption">
 				<canSpawnSettlements>false</canSpawnSettlements>
 			</li>
 		</modExtensions>
@@ -826,7 +826,7 @@
 			</li>
 		</pawnGroupMakers>
 		<modExtensions>
-			<li Class="KCSG.FactionSettlement">
+			<li Class="KCSG.CustomGenOption">
 				<canSpawnSettlements>false</canSpawnSettlements>
 			</li>
 		</modExtensions>
