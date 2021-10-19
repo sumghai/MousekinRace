@@ -184,7 +184,7 @@
 		<defName>Mousekin_Childhood_CaravanChild</defName>
 		<title>Caravan child</title>
 		<titleShort>Caravan child</titleShort>
-		<baseDescription>[PAWN_nameDef] spent much of [PAWN_possessive] childhood on the road with [PAWN_possessive] parents, who were members of a Mousekin merchant caravan that travelled between towns to offer their wares.\n\n[PAWN_pronoun] did [PAWN_possessive] best to study from loaned books from the back of [PAWN_possessive] parents' Giant Cavy-drawn cart, all while learning the art of the deal from over [PAWN_possessive] parents' shoulders.</baseDescription>
+		<baseDescription>[PAWN_nameDef] spent much of [PAWN_possessive] childhood on the road with [PAWN_possessive] parents, who were members of a Mousekin merchant caravan that travelled between towns to offer their wares.\n\n[PAWN_pronoun] did [PAWN_possessive] best to study from loaned books from the back of [PAWN_possessive] parents' giant cavy-drawn cart, all while learning the art of the deal from over [PAWN_possessive] parents' shoulders.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -583,7 +583,7 @@
 		<defName>Mousekin_Childhood_NomadChild</defName>
 		<title>Nomad child</title>
 		<titleShort>Nomad kid</titleShort>
-		<baseDescription>[PAWN_nameDef] grew up in a Rodemani caravan, and helped [PAWN_possessive] clan cook, wash clothes and look after the Giant Cavies that pulled their carts.\n\nBecause these caravans seldom stayed in one place for long, and caravan members often went their separate ways due to disagreements, [PAWN_pronoun] never developed any lasting friendships.</baseDescription>
+		<baseDescription>[PAWN_nameDef] grew up in a Rodemani caravan, and helped [PAWN_possessive] clan cook, wash clothes and look after the giant cavies that pulled their carts.\n\nBecause these caravans seldom stayed in one place for long, and caravan members often went their separate ways due to disagreements, [PAWN_pronoun] never developed any lasting friendships.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -735,7 +735,7 @@
 		<defName>Mousekin_Childhood_KnightSquire</defName>
 		<title>Squire</title>
 		<titleShort>Squire</titleShort>
-		<baseDescription>[PAWN_nameDef] left [PAWN_possessive] home village after becoming apprenticed to a knight of the Mousekin Kingdom.\n\n[PAWN_pronoun] spent [PAWN_possessive] days cleaning [PAWN_possessive] master's armor and weapons, as well as looking after [PAWN_possessive] master's Giant Cavy mount. In return, [PAWN_possessive] master trained [PAWN_objective] in basic swordsmanship and aspects of chivalry.</baseDescription>
+		<baseDescription>[PAWN_nameDef] left [PAWN_possessive] home village after becoming apprenticed to a knight of the Mousekin Kingdom.\n\n[PAWN_pronoun] spent [PAWN_possessive] days cleaning [PAWN_possessive] master's armor and weapons, as well as looking after [PAWN_possessive] master's giant cavy mount. In return, [PAWN_possessive] master trained [PAWN_objective] in basic swordsmanship and aspects of chivalry.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -1334,7 +1334,7 @@
 		<titleFemale>Shepherd girl</titleFemale>
 		<titleShort>Shepherd boy</titleShort>
 		<titleShortFemale>Shepherd girl</titleShortFemale>
-		<baseDescription>[PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and Giant Cavies.\n\nDuring the day [PAWN_pronoun] would help his parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight.</baseDescription>
+		<baseDescription>[PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and giant cavies.\n\nDuring the day [PAWN_pronoun] would help his parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -2091,9 +2091,9 @@
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_CavyBreeder</defName>
-		<title>Giant Cavy Breeder</title>
+		<title>Giant cavy breeder</title>
 		<titleShort>Breeder</titleShort>
-		<baseDescription>[PAWN_nameDef] owned a large pasture just outside a Mousekin village, where [PAWN_pronoun] specialized in breeding Giant Cavies - giant guinea pigs used by Mousekins as pack animals and riding mounts.\n\n[PAWN_pronoun] developed a keen eye and reputation for matching a Cavy to a prospective owner.</baseDescription>
+		<baseDescription>[PAWN_nameDef] owned a large pasture just outside a Mousekin village, where [PAWN_pronoun] specialized in breeding giant cavies - giant guinea pigs used by Mousekins as pack animals and riding mounts.\n\n[PAWN_pronoun] developed a keen eye and reputation for matching a cavy to a prospective owner.</baseDescription>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -2969,7 +2969,7 @@
 		<defName>Mousekin_Adulthood_FarmerVegetables</defName>
 		<title>Vegetable Farmer</title>
 		<titleShort>Farmer</titleShort>
-		<baseDescription>[PAWN_nameDef]'s family had a small plot just outside their farmhouse, where they grew cabbages, tomatoes, peas, onions and carrots.\n\nOn weekends, [PAWN_pronoun] would drive a Giant Cavy-drawn cart full of vegetables to sell at the local Mousekin town market.</baseDescription>
+		<baseDescription>[PAWN_nameDef]'s family had a small plot just outside their farmhouse, where they grew cabbages, tomatoes, peas, onions and carrots.\n\nOn weekends, [PAWN_pronoun] would drive a giant cavy-drawn cart full of vegetables to sell at the local Mousekin town market.</baseDescription>
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5026,7 +5026,7 @@
 		<titleFemale>Shepherdess</titleFemale>
 		<titleShort>Shepherd</titleShort>
 		<titleShortFemale>Shepherdess</titleShortFemale>
-		<baseDescription>[PAWN_nameDef] managed large flocks of sheep on the pastures outside a Mousekin village.\n\n[PAWN_pronoun] made a good living selling wool, lamb and mutton at the village market, but envied those selling bales of the more luxurious and lucrative Giant Cavy wool.</baseDescription>
+		<baseDescription>[PAWN_nameDef] managed large flocks of sheep on the pastures outside a Mousekin village.\n\n[PAWN_pronoun] made a good living selling wool, lamb and mutton at the village market, but envied those selling bales of the more luxurious and lucrative giant cavy wool.</baseDescription>
 		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>
 		<slot>Adulthood</slot>

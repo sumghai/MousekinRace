@@ -434,7 +434,6 @@
 					<MousekinTrader>1</MousekinTrader>
 				</traders>
 				<carriers>
-					<!-- todo - replace with cavy -->
 					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
 				</carriers>
 				<guards>
@@ -638,7 +637,6 @@
 					<MousekinTrader>1</MousekinTrader>
 				</traders>
 				<carriers>
-					<!-- todo - replace with cavy -->
 					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
 				</carriers>
 				<guards>
@@ -680,7 +678,7 @@
 		<defName>Mousekin_FactionNomad</defName>
 		<fixedName>Rodemani</fixedName>
 		<label>Mousekin Nomads</label>
-		<description>A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in Giant Cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
+		<description>A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in giant cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
 		<basicMemberKind>MousekinTraderNomad</basicMemberKind>
 		<listOrderPriority>27</listOrderPriority>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -744,7 +742,6 @@
 					<MousekinTraderNomad>1</MousekinTraderNomad>
 				</traders>
 				<carriers>
-					<!-- todo - replace with cavy -->
 					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
 				</carriers>
 				<guards>
