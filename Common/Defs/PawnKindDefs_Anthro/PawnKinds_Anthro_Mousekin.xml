@@ -623,21 +623,21 @@
 		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
 	
-	<!-- NPCs from Mousekin Gypsy faction type -->
+	<!-- NPCs from Rodemani faction type -->
 	
-	<PawnKindDef Abstract="True" Name="Mousekin_FactionGypsy_BasePawnKind" ParentName="Mousekin_BasePawnKind">
-		<defaultFactionType>Mousekin_FactionGypsy</defaultFactionType>
+	<PawnKindDef Abstract="True" Name="Mousekin_FactionNomad_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defaultFactionType>Mousekin_FactionNomad</defaultFactionType>
 	</PawnKindDef>
 	
-	<PawnKindDef ParentName="Mousekin_FactionGypsy_BasePawnKind">
-		<defName>MousekinTraderGypsy</defName>
-		<label>Mousekin gypsy</label>
+	<PawnKindDef ParentName="Mousekin_FactionNomad_BasePawnKind">
+		<defName>MousekinTraderNomad</defName>
+		<label>Mousekin nomad</label>
 		<trader>true</trader>
 		<combatPower>35</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>MousekinTraderGypsy</li>
+					<li>MousekinTraderNomad</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>

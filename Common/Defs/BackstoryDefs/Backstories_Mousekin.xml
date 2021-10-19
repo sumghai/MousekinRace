@@ -580,10 +580,10 @@
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryBase">
-		<defName>Mousekin_Childhood_GypsyChild</defName>
-		<title>Gypsy child</title>
-		<titleShort>Gypsy kid</titleShort>
-		<baseDescription>[PAWN_nameDef] grew up in a Mousekin Gypsy caravan, and helped [PAWN_possessive] clan cook, wash clothes and look after the Giant Cavies that pulled their carts.\n\nBecause gypsy caravans seldom stayed in one place for long, and caravan members often went their separate ways due to disagreements, [PAWN_pronoun] never developed any lasting friendships.</baseDescription>
+		<defName>Mousekin_Childhood_NomadChild</defName>
+		<title>Nomad child</title>
+		<titleShort>Nomad kid</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in a Rodemani caravan, and helped [PAWN_possessive] clan cook, wash clothes and look after the Giant Cavies that pulled their carts.\n\nBecause these caravans seldom stayed in one place for long, and caravan members often went their separate ways due to disagreements, [PAWN_pronoun] never developed any lasting friendships.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -606,7 +606,7 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
-			<li>MousekinTraderGypsy</li>
+			<li>MousekinTraderNomad</li>
 			<li>MousekinTraderSlaver</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
@@ -2085,7 +2085,7 @@
 		</disallowedTraits>
 		<spawnCategories>
 			<li>MousekinTrader</li>
-			<li>MousekinTraderGypsy</li>
+			<li>MousekinTraderNomad</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 

@@ -516,7 +516,7 @@
 					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>
 					<Mousekin_FactionKingdom>-20~20</Mousekin_FactionKingdom>
 					<Mousekin_FactionIndyTown>-100~-80</Mousekin_FactionIndyTown>
-					<Mousekin_FactionGypsy>30~40</Mousekin_FactionGypsy>
+					<Mousekin_FactionNomad>30~40</Mousekin_FactionNomad>
 				</startingGoodwillByFactionDefs>
 			</li>
 		</modExtensions>
@@ -670,18 +670,18 @@
 				<startingGoodwillByFactionDefs>
 					<Mousekin_PlayerFaction_Settlers>10~20</Mousekin_PlayerFaction_Settlers>
 					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>				
-					<Mousekin_FactionGypsy>40~50</Mousekin_FactionGypsy>
+					<Mousekin_FactionNomad>40~50</Mousekin_FactionNomad>
 				</startingGoodwillByFactionDefs>
 			</li>
 		</modExtensions>
 	</FactionDef>
 
 	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
-		<defName>Mousekin_FactionGypsy</defName>
+		<defName>Mousekin_FactionNomad</defName>
 		<fixedName>Rodemani</fixedName>
-		<label>Mousekin Gypsies</label>
+		<label>Mousekin Nomads</label>
 		<description>A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in Giant Cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
-		<basicMemberKind>MousekinTraderGypsy</basicMemberKind>
+		<basicMemberKind>MousekinTraderNomad</basicMemberKind>
 		<listOrderPriority>27</listOrderPriority>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<maxCountAtGameStart>1</maxCountAtGameStart>
@@ -700,12 +700,12 @@
 		</colorSpectrum>
 		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>23</configurationListOrderPriority>
-		<!-- Mousekin Gypsies are more friendly and forgiving to outsiders than Independents, because their entire livelihood depends on trade with other factions. -->
+		<!-- Mousekin Nomads are more friendly and forgiving to outsiders than Independents, because their entire livelihood depends on trade with other factions. -->
 		<fixedLeaderKinds>
-			<li>MousekinTraderGypsy</li>
+			<li>MousekinTraderNomad</li>
 		</fixedLeaderKinds>
 		<allowedCultures>
-			<li>Mousekin_CultureGypsy</li>
+			<li>Mousekin_CultureNomad</li>
 		</allowedCultures>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
@@ -726,7 +726,7 @@
 		<backstoryFilters>
 			<li>
 				<categories>
-					<li>MousekinTraderGypsy</li>
+					<li>MousekinTraderNomad</li>
 				</categories>
 			</li>
 		</backstoryFilters>
@@ -741,15 +741,15 @@
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<MousekinTraderGypsy>1</MousekinTraderGypsy>
+					<MousekinTraderNomad>1</MousekinTraderNomad>
 				</traders>
 				<carriers>
 					<!-- todo - replace with cavy -->
 					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
 				</carriers>
 				<guards>
-					<!-- Todo generic Gypsy folk? -->
-					<MousekinTraderGypsy>1</MousekinTraderGypsy>
+					<!-- Todo generic Rodemani? -->
+					<MousekinTraderNomad>1</MousekinTraderNomad>
 				</guards>
 			</li>
 

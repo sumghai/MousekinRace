@@ -59,11 +59,11 @@
 	</CultureDef>
 
 	<CultureDef ParentName="Mousekin_CultureBase">
-		<defName>Mousekin_CultureGypsy</defName>
+		<defName>Mousekin_CultureNomad</defName>
 		<label>Rodemanian</label>
 		<description>A nomadic culture that celebrates wanderlust, generosity and hospitality.</description>
-		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinGypsy</ideoNameMaker>
-		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinGypsy</leaderTitleMaker>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinNomad</ideoNameMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinNomad</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
 		<iconColor>(0.35, 0.30, 0.60)</iconColor>
