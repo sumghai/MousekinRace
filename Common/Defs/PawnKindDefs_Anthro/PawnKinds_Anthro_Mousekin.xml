@@ -87,6 +87,31 @@
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinInquisitor</defName>
+		<label>Mousekin inquisitor</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinInquisitor</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>999~999</initialResistanceRange>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>1.00</maleGenderProbability>
+			</li>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinPriest</defName>
 		<label>Mousekin priest</label>
 		<backstoryFiltersOverride>
@@ -137,13 +162,42 @@
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinLordProtector</defName>
+		<label>Lord Protector</label>
+		<combatPower>130</combatPower>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
+		<isFighter>true</isFighter>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinLordProtector</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>13~15</initialWillRange>
+		<initialResistanceRange>45~65</initialResistanceRange>
+		<minGenerationAge>40</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.00</maleGenderProbability>
+			</li>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinKnightCommander</defName>
 		<label>Mousekin knight commander</label>
 		<combatPower>120</combatPower>
 		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
 		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
 		<isFighter>true</isFighter>
-		<factionLeader>true</factionLeader>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -631,7 +685,7 @@
 	
 	<PawnKindDef ParentName="Mousekin_FactionNomad_BasePawnKind">
 		<defName>MousekinTraderNomad</defName>
-		<label>Mousekin nomad</label>
+		<label>Mousekin nomad trader</label>
 		<trader>true</trader>
 		<combatPower>35</combatPower>
 		<backstoryFiltersOverride>
@@ -643,6 +697,23 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<initialWillRange>3~4</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionNomad_BasePawnKind">
+		<defName>MousekinNomad</defName>
+		<label>Mousekin nomad</label>
+		<combatPower>35</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinNomad</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
 		<initialWillRange>3~4</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
@@ -685,6 +756,22 @@
 	</PawnKindDef>
 	
 	<!-- Miscellaneous Mousekin NPCs -->
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinLostChild</defName>
+		<label>Mousekin lost child</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinLostChild</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>4</minGenerationAge>
+		<maxGenerationAge>8</maxGenerationAge>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>5~8</initialResistanceRange>
+	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinWanderer</defName>
