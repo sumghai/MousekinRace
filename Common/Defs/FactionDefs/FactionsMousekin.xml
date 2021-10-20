@@ -130,7 +130,7 @@
 		<configurationListOrderPriority>21</configurationListOrderPriority>
 		<!-- Mousekin Kingdom tends to be aloof towards outsiders, especially non-Mousekins. -->
 		<fixedLeaderKinds>
-			<li>MousekinKnightCommander</li>
+			<li>MousekinLordProtector</li>
 		</fixedLeaderKinds>
 		<factionNameMaker>NamerFaction_MousekinKingdom</factionNameMaker>
 		<settlementNameMaker>NamerSettlement_MousekinKingdom</settlementNameMaker>
@@ -360,6 +360,7 @@
 					<MousekinGuardenerElite>4</MousekinGuardenerElite>
 					<MousekinKnight>15</MousekinKnight>
 					<MousekinKnightCommander>5</MousekinKnightCommander>
+					<MousekinLordProtector>1</MousekinLordProtector>
 				</options>
 			</li>
 
@@ -745,8 +746,7 @@
 					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
 				</carriers>
 				<guards>
-					<!-- Todo generic Rodemani? -->
-					<MousekinTraderNomad>1</MousekinTraderNomad>
+					<MousekinNomad>1</MousekinNomad>
 				</guards>
 			</li>
 
