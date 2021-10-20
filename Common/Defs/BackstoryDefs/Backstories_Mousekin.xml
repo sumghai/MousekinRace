@@ -116,7 +116,8 @@
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
 			<li>MousekinIndyTownCouncilor</li>
-			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinIndyTownSoldier</li>			
+			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -247,6 +248,7 @@
 		<spawnCategories>
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinInquisitor</li>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
@@ -784,6 +786,7 @@
 		<spawnCategories>
 			<li>MousekinKnight</li>
 			<li>MousekinKnightCommander</li>
+			<li>MousekinLordProtector</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -1380,6 +1383,7 @@
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
@@ -1431,6 +1435,7 @@
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPikeman</li>
@@ -1602,6 +1607,7 @@
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPikeman</li>
@@ -1664,6 +1670,7 @@
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
 			<li>MousekinIndyTownSoldier</li>
+			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
 			<li>MousekinPeasant</li>
