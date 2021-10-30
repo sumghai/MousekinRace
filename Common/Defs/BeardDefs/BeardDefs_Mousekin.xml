@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<BeardDef>
+	<BeardDef Name="Mousekin_BeardBase" Abstract="True">
+		<styleGender>Male</styleGender>
+		<category>Mousekin_Style</category>
+	</BeardDef>
+	
+	<BeardDef ParentName="Mousekin_BeardBase">
 		<defName>Mousekin_Beard_Handlebar</defName>
 		<label>Handlebar</label>
 		<texPath>Things/Pawn/Mousekin/Beards/Mousekin_Beard_Handlebar</texPath>
-		<styleGender>Male</styleGender>
-		<category>Mousekin_Style</category>
 		<styleTags>
 			<li>Mousekin_BeardUrban</li>
 			<li>Mousekin_BeardNoble</li>
 		</styleTags>
 	</BeardDef>
 
-	<BeardDef>
+	<BeardDef ParentName="Mousekin_BeardBase">
 		<defName>Mousekin_Beard_Professor</defName>
 		<label>Professor</label>
 		<texPath>Things/Pawn/Mousekin/Beards/Mousekin_Beard_Professor</texPath>
-		<styleGender>Male</styleGender>
-		<category>Mousekin_Style</category>
 		<styleTags>
 			<li>Mousekin_BeardRural</li>
 			<li>Mousekin_BeardUrban</li>
 		</styleTags>
 	</BeardDef>
 
-	<BeardDef>
+	<BeardDef ParentName="Mousekin_BeardBase">
 		<defName>Mousekin_Beard_Walrus</defName>
 		<label>Walrus</label>
 		<texPath>Things/Pawn/Mousekin/Beards/Mousekin_Beard_Walrus</texPath>
-		<styleGender>Male</styleGender>
-		<category>Mousekin_Style</category>
 		<styleTags>
 			<li>Mousekin_BeardRural</li>
 			<li>Mousekin_BeardUrban</li>
