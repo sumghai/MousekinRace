@@ -438,7 +438,6 @@
 					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
 				</carriers>
 				<guards>
-					<MousekinTrader>1</MousekinTrader>
 					<MousekinCrossbowman>1</MousekinCrossbowman>
 					<MousekinPikeman>1</MousekinPikeman>
 				</guards>
@@ -641,7 +640,6 @@
 					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
 				</carriers>
 				<guards>
-					<MousekinTrader>1</MousekinTrader>
 					<MousekinIndyTownSoldier>3</MousekinIndyTownSoldier>
 				</guards>
 			</li>
