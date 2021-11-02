@@ -183,7 +183,7 @@
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>0.00</maleGenderProbability>
+				<maleGenderProbability>1.00</maleGenderProbability>
 			</li>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
