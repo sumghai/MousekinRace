@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Standing Mousekins (100 cm) are shorter than humans (~180 cm), but their relative height for CE is 0.70 rather than 0.55 due to their big round ears. -->
+	
+	<CombatExtended.BodyShapeDef>
+		<defName>Mousekin</defName>
+		<width>0.25</width>
+		<widthLaying>0.5</widthLaying>
+		<height>0.7</height>
+		<heightLaying>0.3</heightLaying>
+	</CombatExtended.BodyShapeDef>
+	
+</Defs>
