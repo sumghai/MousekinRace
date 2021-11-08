@@ -12,6 +12,8 @@
 			<MarketValue>500</MarketValue>
 			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<!-- Faster than donkeys, but not capable of galloping like horses -->
+			<CaravanRidingSpeedFactor>1.45</CaravanRidingSpeedFactor>
 		</statBases>
 		<race>
 			<body>QuadrupedAnimalWithPaws</body>
