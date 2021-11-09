@@ -84,6 +84,7 @@
 				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>4</power>
 				<cooldownTime>1.5</cooldownTime>
@@ -140,7 +141,7 @@
 			<li>
 				<label>handle</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>6</power>
 				<cooldownTime>2</cooldownTime>
@@ -174,6 +175,7 @@
 			<WorkToMake>3500</WorkToMake>
 			<Mass>0.5</Mass>
 		</statBases>
+		<equippedStatOffsets/>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon</li>
 			<li>Mousekin_MeleeWeapon_Basic</li>
@@ -191,18 +193,10 @@
 			<li>
 				<label>handle</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>9</power>
 				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>blade</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>12</power>
-				<cooldownTime>1.5</cooldownTime>
 			</li>
 			<li>
 				<label>point</label>
@@ -254,6 +248,7 @@
 				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>4</power>
 				<cooldownTime>1.5</cooldownTime>
@@ -315,6 +310,7 @@
 				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>5</power>
 				<cooldownTime>2</cooldownTime>
@@ -369,6 +365,7 @@
 				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>4</power>
 				<cooldownTime>3</cooldownTime>
@@ -494,6 +491,7 @@
 				<label>handle</label>
 				<capacities>
 					<li>Poke</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>4</power>
 				<cooldownTime>3</cooldownTime>
@@ -527,6 +525,7 @@
 			<WorkToMake>12000</WorkToMake>
 			<Mass>1.0</Mass>
 		</statBases>
+		<equippedStatOffsets/>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon</li>
 			<li>Mousekin_MeleeWeapon_Guardener</li>
@@ -544,7 +543,7 @@
 			<li>
 				<label>handle</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>9</power>
 				<cooldownTime>2</cooldownTime>
@@ -585,6 +584,7 @@
 			<WorkToMake>10000</WorkToMake>
 			<Mass>0.85</Mass>
 		</statBases>
+		<equippedStatOffsets/>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon</li>
 			<li>Mousekin_MeleeWeapon_GuardenerApprentice</li>
@@ -609,7 +609,7 @@
 			<li>
 				<label>handle</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>9</power>
 				<cooldownTime>1.5</cooldownTime>
