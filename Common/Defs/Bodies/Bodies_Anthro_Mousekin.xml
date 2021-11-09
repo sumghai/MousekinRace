@@ -14,7 +14,7 @@
 			<parts>
 				<li>
 					<def>Ribcage</def>
-					<coverage>0.036</coverage>
+					<coverage>0.05</coverage>
 					<depth>Inside</depth>
 					<groups>
 						<li>Torso</li>
@@ -22,7 +22,7 @@
 				</li>
 				<li>
 					<def>Sternum</def>
-					<coverage>0.015</coverage>
+					<coverage>0.02</coverage>
 					<depth>Inside</depth>
 					<groups>
 						<li>Torso</li>
@@ -30,7 +30,7 @@
 				</li>
 				<li>
 					<def>Pelvis</def>
-					<coverage>0.025</coverage>
+					<coverage>0.1</coverage>
 					<height>Bottom</height>
 					<depth>Inside</depth>
 					<groups>
@@ -39,7 +39,7 @@
 				</li>
 				<li>
 					<def>Spine</def>
-					<coverage>0.025</coverage>
+					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 					<groups>
 						<li>Torso</li>
@@ -107,7 +107,7 @@
 				</li>
 				<li>
 					<def>Neck</def>
-					<coverage>0.075</coverage>
+					<coverage>0.3</coverage>
 					<height>Top</height>
 					<groups>
 						<li>Neck</li>
@@ -124,7 +124,7 @@
 							<parts>
 								<li>
 									<def>Skull</def>
-									<coverage>0.18</coverage>
+									<coverage>0.25</coverage>
 									<depth>Inside</depth>
 									<groups>
 										<li>UpperHead</li>
@@ -164,7 +164,8 @@
 								<li>
 									<def>Mousekin_Ear</def>
 									<customLabel>left ear</customLabel>
-									<coverage>0.07</coverage>
+									<!-- Mousekin ears are large and stick out from the top of their heads -->
+									<coverage>0.20</coverage>
 									<groups>
 										<li>UpperHead</li>
 										<li>FullHead</li>
@@ -173,7 +174,8 @@
 								<li>
 									<def>Mousekin_Ear</def>
 									<customLabel>right ear</customLabel>
-									<coverage>0.07</coverage>
+									<!-- Mousekin ears are large and stick out from the top of their heads -->
+									<coverage>0.20</coverage>
 									<groups>
 										<li>UpperHead</li>
 										<li>FullHead</li>
@@ -181,14 +183,14 @@
 								</li>
 								<li>
 									<def>Nose</def>
-									<coverage>0.10</coverage>
+									<coverage>0.05</coverage>
 									<groups>
 										<li>FullHead</li>
 									</groups>
 								</li>
 								<li>
 									<def>Jaw</def>
-									<coverage>0.15</coverage>
+									<coverage>0.10</coverage>
 									<groups>
 										<li>Teeth</li>
 										<li>FullHead</li>
@@ -211,7 +213,7 @@
 				<li>
 					<def>Shoulder</def>
 					<customLabel>left shoulder</customLabel>
-					<coverage>0.12</coverage>
+					<coverage>0.08</coverage>
 					<woundAnchorTag>LeftShoulder</woundAnchorTag>
 					<groups>
 						<li>Shoulders</li>
@@ -316,7 +318,7 @@
 				<li>
 					<def>Shoulder</def>
 					<customLabel>right shoulder</customLabel>
-					<coverage>0.12</coverage>
+					<coverage>0.08</coverage>
 					<woundAnchorTag>RightShoulder</woundAnchorTag>
 					<groups>
 						<li>Shoulders</li>
@@ -429,7 +431,7 @@
 				<li>
 					<def>Mousekin_Tail</def>
 					<customLabel>tail</customLabel>
-					<coverage>0.05</coverage>
+					<coverage>0.02</coverage>
 					<height>Bottom</height>
 					<groups>
 						<li>Torso</li>
@@ -438,7 +440,7 @@
 				<li>
 					<def>Leg</def>
 					<customLabel>left leg</customLabel>
-					<coverage>0.14</coverage>
+					<coverage>0.075</coverage>
 					<height>Bottom</height>
 					<groups>
 						<li>Legs</li>
@@ -518,7 +520,7 @@
 				<li>
 					<def>Leg</def>
 					<customLabel>right leg</customLabel>
-					<coverage>0.14</coverage>
+					<coverage>0.075</coverage>
 					<height>Bottom</height>
 					<groups>
 						<li>Legs</li>
