@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Mousekin Axe -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Axe"]/statBases</xpath>
+				<value>
+					<Bulk>3</Bulk>
+					<MeleeCounterParryBonus>0.23</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Axe"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.10</MeleeCritChance>
+					<MeleeParryChance>0.15</MeleeParryChance>
+					<MeleeDodgeChance>0.23</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Axe"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+								<li>Blunt</li>
+							</capacities>
+							<power>3</power>
+							<cooldownTime>0.95</cooldownTime>
+							<chanceFactor>0.05</chanceFactor>
+							<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>blade</label>
+							<capacities>
+								<li>Cut</li>
+							</capacities>
+							<power>18</power>
+							<cooldownTime>1.58</cooldownTime>
+							<chanceFactor>0.70</chanceFactor>
+							<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.75</armorPenetrationSharp>
+							<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Cleaver -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Cleaver"]/statBases</xpath>
+				<value>
+					<Bulk>1.5</Bulk>
+					<MeleeCounterParryBonus>0.23</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Cleaver"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.10</MeleeCritChance>
+					<MeleeParryChance>0.15</MeleeParryChance>
+					<MeleeDodgeChance>0.23</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Cleaver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>1</power>
+							<cooldownTime>1.26</cooldownTime>
+							<armorPenetrationBlunt>0.250</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>blade</label>
+							<capacities>
+								<li>Cut</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>2.2</cooldownTime>
+							<chanceFactor>1.33</chanceFactor>
+							<armorPenetrationSharp>1.34</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Dagger -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Dagger"]/statBases</xpath>
+				<value>
+					<Bulk>1</Bulk>
+					<MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Dagger"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.5</MeleeCritChance>
+					<MeleeParryChance>0.15</MeleeParryChance>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Dagger"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>1</power>
+							<cooldownTime>1.26</cooldownTime>
+							<armorPenetrationBlunt>0.250</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>point</label>
+							<capacities>
+								<li>Stab</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>1.35</cooldownTime>
+							<chanceFactor>1.33</chanceFactor>
+							<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+							<armorPenetrationSharp>4.1</armorPenetrationSharp>
+							<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Hammer -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_HammerMetal"]/statBases</xpath>
+				<value>
+					<Bulk>2</Bulk>
+					<MeleeCounterParryBonus>0.23</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_HammerMetal"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.22</MeleeCritChance>
+					<MeleeParryChance>0.15</MeleeParryChance>
+					<MeleeDodgeChance>0.20</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_HammerMetal"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+								<li>Blunt</li>
+							</capacities>
+							<power>2</power>
+							<cooldownTime>0.95</cooldownTime>
+							<chanceFactor>0.05</chanceFactor>
+							<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>7</power>
+							<cooldownTime>1.50</cooldownTime>
+							<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Mallet -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_HammerWood"]/statBases</xpath>
+				<value>
+					<Bulk>2</Bulk>
+					<MeleeCounterParryBonus>0.23</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_HammerWood"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.22</MeleeCritChance>
+					<MeleeParryChance>0.15</MeleeParryChance>
+					<MeleeDodgeChance>0.20</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_HammerWood"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+								<li>Blunt</li>
+							</capacities>
+							<power>2</power>
+							<cooldownTime>0.95</cooldownTime>
+							<chanceFactor>0.05</chanceFactor>
+							<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>2.12</cooldownTime>
+							<armorPenetrationBlunt>3.125</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Hoe -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Hoe"]/statBases</xpath>
+				<value>
+					<Bulk>6</Bulk>
+					<MeleeCounterParryBonus>1.68</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Hoe"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.17</MeleeCritChance>
+					<MeleeParryChance>1.45</MeleeParryChance>
+					<MeleeDodgeChance>0.9</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Hoe"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+								<li>Blunt</li>
+							</capacities>
+							<power>4</power>
+							<cooldownTime>1.78</cooldownTime>
+							<chanceFactor>0.10</chanceFactor>
+							<armorPenetrationBlunt>1.0</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>hoe head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>2.12</cooldownTime>
+							<armorPenetrationBlunt>3.125</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>hoe blade</label>
+							<capacities>
+								<li>Cut</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.58</cooldownTime>
+							<chanceFactor>0.70</chanceFactor>
+							<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.75</armorPenetrationSharp>
+							<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Pickaxe -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Pickaxe"]/statBases</xpath>
+				<value>
+					<Bulk>6</Bulk>
+					<MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Pickaxe"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.35</MeleeCritChance>
+					<MeleeParryChance>0.1</MeleeParryChance>
+					<MeleeDodgeChance>0.1</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Pickaxe"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>3</power>
+							<cooldownTime>0.95</cooldownTime>
+							<chanceFactor>0.05</chanceFactor>
+							<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>2.12</cooldownTime>
+							<armorPenetrationBlunt>3.125</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>pick</label>
+							<capacities>
+								<li>Stab</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>2.00</cooldownTime>
+							<chanceFactor>0.15</chanceFactor>
+							<armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.61</armorPenetrationSharp>
+							<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Pitchfork -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Pitchfork"]/statBases</xpath>
+				<value>
+					<Bulk>7</Bulk>
+					<MeleeCounterParryBonus>1.68</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Pitchfork"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.23</MeleeCritChance>
+					<MeleeParryChance>1.45</MeleeParryChance>
+					<MeleeDodgeChance>0.9</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_Pitchfork"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+								<li>Blunt</li>
+							</capacities>
+							<power>4</power>
+							<cooldownTime>1.78</cooldownTime>
+							<chanceFactor>0.10</chanceFactor>
+							<armorPenetrationBlunt>1.0</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>tines</label>
+							<capacities>
+								<li>Stab</li>
+							</capacities>
+							<power>24</power>
+							<cooldownTime>1.35</cooldownTime>
+							<chanceFactor>1.33</chanceFactor>
+							<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+							<armorPenetrationSharp>4.1</armorPenetrationSharp>
+							<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Guardener’s Sword	-->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_SwordGuardener"]/statBases</xpath>
+				<value>
+					<Bulk>3.5</Bulk>
+					<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_SwordGuardener"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.2</MeleeCritChance>
+					<MeleeParryChance>0.35</MeleeParryChance>
+					<MeleeDodgeChance>0.2</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_SwordGuardener"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>2</power>
+							<cooldownTime>1.44</cooldownTime>
+							<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>point</label>
+							<capacities>
+								<li>Stab</li>
+							</capacities>
+							<power>27</power>
+							<cooldownTime>1.44</cooldownTime>
+							<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.48</armorPenetrationSharp>
+							<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>edge</label>
+							<capacities>
+								<li>Cut</li>
+							</capacities>
+							<power>27</power>
+							<cooldownTime>1.34</cooldownTime>
+							<chanceFactor>1.33</chanceFactor>
+							<armorPenetrationBlunt>0.956</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.43</armorPenetrationSharp>
+							<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Guardener’s Training Sword -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_SwordGuardenerTraining"]/statBases</xpath>
+				<value>
+					<Bulk>3.5</Bulk>
+					<MeleeCounterParryBonus>0.40</MeleeCounterParryBonus>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_SwordGuardenerTraining"]/equippedStatOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.15</MeleeCritChance>
+					<MeleeParryChance>0.5</MeleeParryChance>
+					<MeleeDodgeChance>0.2</MeleeDodgeChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_MeleeWeapon_SwordGuardenerTraining"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>handle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>2</power>
+							<cooldownTime>1.44</cooldownTime>
+							<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>wooden blade</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>11</power>
+							<cooldownTime>3.48</cooldownTime>
+							<chanceFactor>1.33</chanceFactor>
+							<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

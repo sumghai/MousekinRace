@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- ========================= Crossbows ==========================-->
+
+			<!-- Mousekin Hunter’s Crossbow -->
+
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Mousekin_RangedWeapon_Crossbow</defName>
+				<statBases>
+					<Bulk>6</Bulk>
+					<SwayFactor>1.0</SwayFactor>
+					<ShotSpread>0.5</ShotSpread>
+					<SightsEfficiency>1</SightsEfficiency>
+					<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+				</statBases>
+				<!-- use existing costList -->
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>True</hasStandardCommand>
+					<defaultProjectile>Mousekin_Projectile_CrossbowBolt</defaultProjectile>
+					<warmupTime>1</warmupTime>
+					<range>35</range>
+					<soundCast>Mousekin_Crossbow_Fire</soundCast>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>1</magazineSize>
+					<reloadTime>8</reloadTime>
+					<ammoSet>Mousekin_AmmoSet_CrossbowBolt</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_RangedWeapon_Crossbow"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>stirrup</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>7</power>
+							<cooldownTime>1.6</cooldownTime>
+							<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
