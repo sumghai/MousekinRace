@@ -6,6 +6,12 @@
 		<label>Mousekin apparel</label>
 		<parent>Apparel</parent>
 	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Mousekin_Accessories</defName>
+		<label>Mousekin accessories</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>Mousekin_Headgear</defName>
