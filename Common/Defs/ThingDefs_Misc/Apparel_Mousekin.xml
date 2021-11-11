@@ -57,8 +57,8 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef Name="Mousekin_HatMakeableBase" Abstract="True">
-		<thingCategories>
+	<ThingDef Name="Mousekin_HatMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
+		<thingCategories Inherit="false">
 			<li>Mousekin_Headgear</li>
 		</thingCategories>
 	</ThingDef>
