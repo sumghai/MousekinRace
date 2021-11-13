@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Glasses -->
+
+	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
+		<defName>Mousekin_GlassesSmall</defName>
+		<label>Mousekin Pince-Nez Glasses</label>
+		<description>A pair of spectacles with small round lenses, designed to sit directly on the wearer’s nose. Often worn by elderly Mousekins to compensate for their poor eyesight in old age - or to inspire respect from younger Mousekins.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/GlassesSmall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Steel>6</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>800</WorkToMake>
+			<Mass>0.020</Mass>
+			<EquipDelay>0.3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.05</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+			<TradePriceImprovement>0.05</TradePriceImprovement>
+		</equippedStatOffsets>
+		<generateCommonality>0.125</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GlassesSmall</wornGraphicPath>
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinStartingColonist</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
+		<defName>Mousekin_GlassesLarge</defName>
+		<label>Mousekin Research Glasses</label>
+		<description>A pair of spectacles with large round lenses, designed to specifically fit the unique head and ear anatomy of Mousekins. Often worn by Mousekins with myopia, these glasses help increase research speed and are required to unlock high level Mousekin research projects - as well as making the wearer look and feel smarter.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/GlassesLarge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.025</Mass>
+			<EquipDelay>0.4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ResearchSpeed>0.5</ResearchSpeed>
+			<MedicalTendQuality>0.10</MedicalTendQuality>
+			<MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
+		<generateCommonality>0.125</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GlassesLarge</wornGraphicPath>
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinStartingColonist</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

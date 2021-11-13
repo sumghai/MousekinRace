@@ -58,6 +58,26 @@
 			<li>Mousekin_Apparel</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<ThingDef Name="Mousekin_AccessoryMakeableBase" ParentName="Mousekin_ApparelBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_AccessoryCommoner</li>
+		</tradeTags>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>Mousekin_WorkbenchCrafting</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories>
+			<li>Mousekin_Accessories</li>
+		</thingCategories>
+	</ThingDef>
 
 	<ThingDef Name="Mousekin_HatMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
 		<thingCategories Inherit="false">
