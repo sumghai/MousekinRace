@@ -16,7 +16,6 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
 				<value>
-					<li>Mousekin_WorkbenchCrafting</li>
 					<li>Mousekin_WorkbenchSmithy</li>
 				</value>
 			</li>

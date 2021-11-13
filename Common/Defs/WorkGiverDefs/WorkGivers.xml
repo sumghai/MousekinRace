@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ============= Crafting ============= -->
+
+	<!-- Crafting miscellaneous items at the Mousekin Crafting Bench -->
+
+	<WorkGiverDef>
+		<defName>Mousekin_DoBillsUseCraftingBench</defName>
+		<label>make things at crafting bench</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>105</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Mousekin_WorkbenchCrafting</li>
+		</fixedBillGiverDefs>
+		<verb>craft</verb>
+		<gerund>crafting at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>
