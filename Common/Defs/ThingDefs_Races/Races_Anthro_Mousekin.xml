@@ -791,8 +791,36 @@
 			</relationSettings>
 			<raceRestriction>
 			
-				<!-- TODO: Restrict the following projects for Mousekin research only -->
-				<researchList/>
+				<!-- Only Mousekins can conduct Mousekin-related research, and some projects require Research Glasses to be worn -->
+				<researchList>
+					<li>
+						<projects>
+							<li>Mousekin_ResearchApparelCommoner</li>
+							<li>Mousekin_ResearchAlchemy</li>
+							<li>Mousekin_ResearchCharcoal</li>
+							<li>Mousekin_ResearchCookingIronStoves</li>
+							<li>Mousekin_ResearchBeekeeping</li>
+							<li>Mousekin_ResearchBuildingVillage</li>
+							<li>Mousekin_ResearchBuildingCastle</li>
+							<li>Mousekin_ResearchGlassmaking</li>
+						</projects>
+					</li>
+					<li>
+						<projects>
+							<li>Mousekin_ResearchApparelMiddle</li>
+							<li>Mousekin_ResearchApparelMilitary</li>
+							<li>Mousekin_ResearchApparelNoble</li>
+							<li>Mousekin_ResearchMachineryBasic</li>
+							<li>Mousekin_ResearchMachineryAdvanced</li>
+							<li>Mousekin_ResearchMining</li>
+							<li>Mousekin_ResearchGunpowder</li>
+							<li>Mousekin_ResearchCookingNoble</li>
+						</projects>
+						<apparelList>
+							<li>Mousekin_GlassesLarge</li>
+						</apparelList>
+					</li>
+				</researchList>
 			
 				<apparelList>
 					<li>Mousekin_ApparelSettlerOutfit</li>
