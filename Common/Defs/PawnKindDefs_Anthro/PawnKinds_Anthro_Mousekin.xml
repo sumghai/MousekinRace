@@ -123,6 +123,9 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinPriest</li>
+		</apparelTags>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>33~49</initialResistanceRange>
 		<modExtensions>
@@ -351,6 +354,9 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinDoctor</li>
+		</apparelTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 		<modExtensions>
