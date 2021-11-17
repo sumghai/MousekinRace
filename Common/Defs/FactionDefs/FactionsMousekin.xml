@@ -629,6 +629,19 @@
 				</options>
 			</li>
 
+			<!-- ===== Peaceful - Passing Travellers or Visitors ===== -->
+			
+			<!-- Indy Town soldiers escorting farmers -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<MousekinIndyTownFarmer>10</MousekinIndyTownFarmer>
+					<MousekinIndyTownSoldier>5</MousekinIndyTownSoldier>
+					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
+				</options>
+			</li>
+			
 			<!-- ===== Traders ===== -->
 
 			<!-- Regular Caravan Trader -->
@@ -733,6 +746,18 @@
 		</caravanTraderKinds>
 		<pawnGroupMakers>
 
+			<!-- ===== Peaceful - Passing Travellers or Visitors ===== -->
+			
+			<!-- Nomad caravan -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<MousekinNomad>10</MousekinNomad>
+					<MousekinTraderNomad>2</MousekinTraderNomad>
+				</options>
+			</li>
+			
 			<!-- ===== Traders ===== -->
 
 			<!-- Regular Caravan Trader -->
