@@ -19,7 +19,7 @@
 			<body>QuadrupedAnimalWithPaws</body>
 			<baseBodySize>2.1</baseBodySize>
 			<baseHealthScale>1.75</baseHealthScale>
-			<baseHungerRate>1.0</baseHungerRate>
+			<baseHungerRate>0.485</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Mousekin_LeatherGiantCavy</leatherDef>
 			<nameGenerator>MousekinNamerAnimalGiantCavy</nameGenerator>
