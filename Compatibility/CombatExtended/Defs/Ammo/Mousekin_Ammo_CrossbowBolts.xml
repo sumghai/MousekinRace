@@ -32,7 +32,7 @@
 			<li>AmmoCrossbowBolts</li>
 		</thingCategories>
 		<stackLimit>4000</stackLimit>
-		<ammoClass>StoneCrossbowBolt</ammoClass><!-- todo - change to custom class -->
+		<ammoClass>SteelCrossbowBolt</ammoClass>
 		<tradeTags>
 			<li>CE_AutoEnableCrafting_CraftingSpot</li>
 		</tradeTags>
