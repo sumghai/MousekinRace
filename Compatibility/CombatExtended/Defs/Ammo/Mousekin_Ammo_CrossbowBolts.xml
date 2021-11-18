@@ -23,9 +23,9 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<Mass>0.081</Mass><!-- todo - revise -->
-			<Bulk>0.24</Bulk><!-- todo - revise -->
-			<MarketValue>0.39</MarketValue><!-- todo - revise -->
+			<Mass>0.081</Mass>
+			<Bulk>0.20</Bulk>
+			<MarketValue>0.55</MarketValue>
 			<Flammability>1</Flammability>
 		</statBases>
 		<thingCategories>
