@@ -89,7 +89,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_CrossbowBolt_Steel>25</Ammo_CrossbowBolt_Steel>
+			<Mousekin_Ammo_CrossbowBolt>25</Mousekin_Ammo_CrossbowBolt>
 		</products>
 		<recipeUsers>
 			<li>Mousekin_WorkbenchCrafting</li>
