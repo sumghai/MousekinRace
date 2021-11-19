@@ -91,6 +91,9 @@
 		<products>
 			<Ammo_CrossbowBolt_Steel>25</Ammo_CrossbowBolt_Steel>
 		</products>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchCrafting</li>
+		</recipeUsers>
 		<workAmount>1000</workAmount>
 	</RecipeDef>
 
