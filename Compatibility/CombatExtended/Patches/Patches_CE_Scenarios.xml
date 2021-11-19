@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			
+			<!-- Add crossbow bolt ammo to Mousekin starting scenarios; settlers are better prepared than refugees -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ScenarioDef[defName="Mousekin_Scenario_Settlers"]/scenario/parts</xpath>
+				<value>
+					<li Class="ScenPart_StartingThing_Defined">
+						<def>StartingThing_Defined</def>
+						<thingDef>Mousekin_Ammo_CrossbowBolt</thingDef>
+						<count>200</count>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ScenarioDef[defName="Mousekin_Scenario_Refugees"]/scenario/parts</xpath>
+				<value>
+					<li Class="ScenPart_StartingThing_Defined">
+						<def>StartingThing_Defined</def>
+						<thingDef>Mousekin_Ammo_CrossbowBolt</thingDef>
+						<count>50</count>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>
