@@ -19,7 +19,7 @@
 		<label>mousekin crossbow bolt</label>
 		<description>A steel-tipped wooden crossbow bolt, crafted by Mousekin paws.</description>
 		<graphicData>
-			<texPath>Things/Ammo/Neolithic/Bolt/Steel</texPath>
+			<texPath>Things/Ammo/Mousekin_CrossbowBolt</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -44,7 +44,7 @@
 		<defName>Mousekin_Projectile_CrossbowBolt</defName>
 		<label>mousekin crossbow bolt</label>
 		<graphicData>
-			<texPath>Things/Projectile/Arrows/Arrow_Steel</texPath>
+			<texPath>Things/Projectile/Mousekin_CrossbowBolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
