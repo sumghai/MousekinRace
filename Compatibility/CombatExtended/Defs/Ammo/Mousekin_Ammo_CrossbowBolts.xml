@@ -61,7 +61,7 @@
 	
 	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
 		<defName>MakeMousekin_Ammo_CrossbowBolt</defName>
-		<label>make mousekin crossbow bolts x10</label>
+		<label>make mousekin crossbow bolts x25</label>
 		<description>Craft 25 Mousekin crossbow bolts.</description>
 		<jobString>Making Mousekin crossbow bolts.</jobString>
 		<ingredients>
