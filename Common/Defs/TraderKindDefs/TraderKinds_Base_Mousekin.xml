@@ -19,7 +19,7 @@
 				<price>Cheap</price>
 			</li>
 
-			<!-- Trail Mix and Poultices (for mouse traveller needing to stock up on supplies) -->
+			<!-- Trail Mix and Poultices (for mouse travellers needing to stock up on supplies) -->
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Mousekin_MealTrailMix</thingDef>
@@ -30,7 +30,7 @@
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Mousekin_MedicinePoultice</thingDef>
 				<countRange>200~300</countRange>
-				<price>Cheap</price>
+				<price>Expensive</price>
 			</li>
 
 			<!-- Resources -->
@@ -137,6 +137,12 @@
 				<countRange>400~600</countRange>
 				<price>Cheap</price>
 			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_WoolGiantCavy</thingDef>
+				<countRange>400~600</countRange>
+				<price>Expensive</price>
+			</li>
 
 			<!-- Animals -->
 
@@ -228,6 +234,28 @@
 				<weaponTag>Mousekin_RangedWeapon</weaponTag>
 				<countRange>20~30</countRange>
 				<price>Cheap</price>
+			</li>
+			
+			<!-- Buying (Indy towns are more accepting on industrial/advanced goods) -->
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>MedicineUltratech</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<price>Expensive</price>
 			</li>
 
 		</stockGenerators>
