@@ -8,6 +8,26 @@
 			<li>OriginMousekin</li>
 		</allowedPlaceTags>
 		<styleItemTags>
+			<!--<li>
+				<tag>Mousekin_HairUncivilized</tag>
+				<baseWeight>0.1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>-->
+			<li>
+				<tag>Mousekin_HairRural</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_HairUrban</tag>
+				<baseWeight>0.5</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_HairNoble</tag>
+				<baseWeight>0.33</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
 			<li>
 				<tag>NoBeard</tag>
 				<baseWeight>10</baseWeight>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HairDef Name="Mousekin_HairBase" Abstract="True">
+		<category>Mousekin_Style</category>
+	</HairDef>
+	
+	<!-- Male hairstyles -->
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_PartedCenter</defName>
+		<label>Center parted</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_PartedCenter</texPath>
+		<styleGender>Male</styleGender>
+		<styleTags>
+			<li>Mousekin_HairRural</li>
+			<li>Mousekin_HairUrban</li>
+			<li>Mousekin_HairNoble</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_PartedSide</defName>
+		<label>Side parted</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_PartedSide</texPath>
+		<styleGender>Male</styleGender>
+		<styleTags>
+			<li>Mousekin_HairUrban</li>
+			<li>Mousekin_HairNoble</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_ShortMop</defName>
+		<label>Mop</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_ShortMop</texPath>
+		<styleGender>Male</styleGender>
+		<styleTags>
+			<li>Mousekin_HairRural</li>
+			<li>Mousekin_HairUncivilized</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Female hairstyles -->
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_BobChin</defName>
+		<label>Chin bob</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_BobChin</texPath>
+		<styleGender>Female</styleGender>
+		<styleTags>
+			<li>Mousekin_HairRural</li>
+			<li>Mousekin_HairUrban</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_BunBraided</defName>
+		<label>Braided bun</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_BunBraided</texPath>
+		<styleGender>Female</styleGender>
+		<styleTags>
+			<li>Mousekin_HairRural</li>
+			<li>Mousekin_HairUrban</li>
+			<li>Mousekin_HairNoble</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_Long</defName>
+		<label>Long</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_Long</texPath>
+		<styleGender>Female</styleGender>
+		<styleTags>
+			<li>Mousekin_HairUrban</li>
+			<li>Mousekin_HairNoble</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_LongWaves</defName>
+		<label>Braided bun</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_LongWaves</texPath>
+		<styleGender>Female</styleGender>
+		<styleTags>
+			<li>Mousekin_HairUrban</li>
+			<li>Mousekin_HairNoble</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_PlaitDouble</defName>
+		<label>Pigtails</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_PlaitDouble</texPath>
+		<styleGender>Female</styleGender>
+		<styleTags>
+			<li>Mousekin_HairRural</li>
+			<li>Mousekin_HairUrban</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_PlaitSide</defName>
+		<label>Side plait</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_PlaitSide</texPath>
+		<styleGender>Female</styleGender>
+		<styleTags>
+			<li>Mousekin_HairRural</li>
+			<li>Mousekin_HairUrban</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef ParentName="Mousekin_HairBase">
+		<defName>Mousekin_Hair_TwintailsCurly</defName>
+		<label>Curly twintails</label>
+		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_TwintailsCurly</texPath>
+		<styleGender>Female</styleGender>
+		<styleTags>
+			<li>Mousekin_HairUrban</li>
+			<li>Mousekin_HairNoble</li>
+		</styleTags>
+	</HairDef>
+
+</Defs>
