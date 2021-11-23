@@ -19,6 +19,13 @@
 					<li>Mousekin_WorkbenchSmithy</li>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>Mousekin_WorkbenchTailor</li>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>

@@ -16,9 +16,7 @@
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
-				<!-- TODO: Add Mousekin tailoring bench -->
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
+				<li>Mousekin_WorkbenchTailor</li>
 				<li>CraftingSpot</li>
 			</recipeUsers>
 			<skillRequirements>
