@@ -101,6 +101,30 @@
 				<price>Cheap</price>
 			</li>
 
+			<!-- Basic medicines -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineHerbal</thingDef>
+				<countRange>200~300</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_MedicinePoultice</thingDef>
+				<countRange>50~100</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Buying -->
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>MedicineUltratech</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+			</li>
+			
 		</stockGenerators>
 	</TraderKindDef>
 
