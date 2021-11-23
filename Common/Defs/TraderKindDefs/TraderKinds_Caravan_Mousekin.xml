@@ -112,17 +112,19 @@
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Mousekin_MedicinePoultice</thingDef>
 				<countRange>50~100</countRange>
-				<price>Cheap</price>
+				<price>Expensive</price>
 			</li>
 			
 			<!-- Buying -->
 			
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>MedicineUltratech</thingDef>
+				<price>Expensive</price>
 			</li>
 			
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>MedicineIndustrial</thingDef>
+				<price>Expensive</price>
 			</li>
 			
 		</stockGenerators>
