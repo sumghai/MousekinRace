@@ -177,6 +177,12 @@
 				<countRange>100~150</countRange>
 				<price>Cheap</price>
 			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_WoolGiantCavy</thingDef>
+				<countRange>100~150</countRange>
+				<price>Expensive</price>
+			</li>
 
 			<!-- Buying -->
 
