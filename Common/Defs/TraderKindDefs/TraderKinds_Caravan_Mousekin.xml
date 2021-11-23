@@ -298,25 +298,25 @@
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineIndustrial</thingDef>
 				<countRange>5~10</countRange>
-				<price>Cheap</price>
+				<price>Expensive</price>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineUltratech</thingDef>
 				<countRange>2~4</countRange>
-				<price>Cheap</price>
+				<price>Expensive</price>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentIndustrial</thingDef>
 				<countRange>5~10</countRange>
-				<price>Cheap</price>
+				<price>Expensive</price>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentSpacer</thingDef>
 				<countRange>2~4</countRange>
-				<price>Cheap</price>
+				<price>Expensive</price>
 			</li>
 
 			<!--  Artifacts, Techprints and Exotic goods -->
