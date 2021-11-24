@@ -27,7 +27,7 @@
 			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>1.5</EquipDelay>
+			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.05</PlantWorkSpeed>
@@ -89,7 +89,7 @@
 			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>1.5</EquipDelay>
+			<EquipDelay>7.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<PlantWorkSpeed>0.05</PlantWorkSpeed>
