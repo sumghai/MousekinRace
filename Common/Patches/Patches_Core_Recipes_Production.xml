@@ -12,6 +12,13 @@
 					<li>Mousekin_WorkbenchTailor</li>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[@Name="MakeStoneBlocksBase"]/recipeUsers</xpath>
+				<value>
+					<li>Mousekin_WorkbenchCrafting</li>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>
