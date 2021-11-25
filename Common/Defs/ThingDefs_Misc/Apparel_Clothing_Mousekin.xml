@@ -11,14 +11,14 @@
 			<texPath>Things/Pawn/Mousekin/Apparel/SettlerOutfit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- only vest (15) part of apparel is stuffable -->
-		<costStuffCount>15</costStuffCount>
+		<!-- only vest (20) part of apparel is stuffable -->
+		<costStuffCount>20</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
 		<costList>
-			<!-- actual shirt (20) and trousers (20) are always made from cloth -->
-			<Cloth>40</Cloth>
+			<!-- actual shirt (30) and trousers (30) are always made from cloth -->
+			<Cloth>60</Cloth>
 		</costList>
 		<statBases>
 			<MaxHitPoints>180</MaxHitPoints>
@@ -73,14 +73,14 @@
 			<texPath>Things/Pawn/Mousekin/Apparel/SettlerDress</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!-- only outer dress layer (40) and shawl (5) are stuffable -->
-		<costStuffCount>45</costStuffCount>
+		<!-- only outer dress layer (50) and shawl (10) are stuffable -->
+		<costStuffCount>60</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
 		<costList>
-			<!-- apron (5) and inner petticoat layer (25) -->
-			<Cloth>30</Cloth>
+			<!-- apron (10) and inner petticoat layer (60) -->
+			<Cloth>70</Cloth>
 		</costList>
 		<statBases>
 			<MaxHitPoints>180</MaxHitPoints>
