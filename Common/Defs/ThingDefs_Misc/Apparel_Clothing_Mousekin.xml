@@ -21,7 +21,7 @@
 			<Cloth>40</Cloth>
 		</costList>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToMake>3600</WorkToMake>
 			<Mass>1.0</Mass>
 			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
@@ -83,7 +83,7 @@
 			<Cloth>30</Cloth>
 		</costList>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToMake>4800</WorkToMake>
 			<Mass>1.75</Mass>
 			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
