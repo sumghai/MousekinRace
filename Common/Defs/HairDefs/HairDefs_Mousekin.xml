@@ -79,7 +79,7 @@
 	
 	<HairDef ParentName="Mousekin_HairBase">
 		<defName>Mousekin_Hair_LongWaves</defName>
-		<label>Braided bun</label>
+		<label>Long waves</label>
 		<texPath>Things/Pawn/Mousekin/Hair/Mousekin_Hair_LongWaves</texPath>
 		<styleGender>Female</styleGender>
 		<styleTags>
