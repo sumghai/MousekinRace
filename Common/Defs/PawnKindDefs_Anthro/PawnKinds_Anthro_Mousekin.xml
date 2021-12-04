@@ -98,13 +98,10 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>999~999</initialResistanceRange>
 		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>1.00</maleGenderProbability>
-			</li>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
 			</li>
@@ -123,16 +120,13 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
 		<apparelTags>
 			<li>MousekinPriest</li>
 		</apparelTags>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>33~49</initialResistanceRange>
 		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>1.00</maleGenderProbability>
-			</li>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
 			</li>
@@ -151,13 +145,10 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>31~47</initialResistanceRange>
 		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>0.00</maleGenderProbability>
-			</li>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
 			</li>
@@ -183,11 +174,8 @@
 		<initialResistanceRange>45~65</initialResistanceRange>
 		<minGenerationAge>40</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
 		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>1.00</maleGenderProbability>
-			</li>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
 			</li>
@@ -234,14 +222,9 @@
 		</weaponTags>
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
 		<initialWillRange>8~12</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
-		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>0.00</maleGenderProbability>
-			</li>
-		</modExtensions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -285,14 +268,9 @@
 		</weaponTags>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>35</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
 		<initialWillRange>6~9</initialWillRange>
 		<initialResistanceRange>39~59</initialResistanceRange>
-		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>0.00</maleGenderProbability>
-			</li>
-		</modExtensions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -332,14 +310,9 @@
 		</weaponTags>
 		<minGenerationAge>10</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>8~12</initialResistanceRange>
-		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>0.00</maleGenderProbability>
-			</li>
-		</modExtensions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -354,17 +327,12 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
 		<apparelTags>
 			<li>MousekinDoctor</li>
 		</apparelTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
-		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>1.00</maleGenderProbability>
-			</li>
-		</modExtensions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -453,14 +421,9 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
-		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>1.00</maleGenderProbability>
-			</li>
-		</modExtensions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -508,14 +471,9 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
-		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>1.00</maleGenderProbability>
-			</li>
-		</modExtensions>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
