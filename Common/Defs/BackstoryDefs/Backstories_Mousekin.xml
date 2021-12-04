@@ -459,7 +459,7 @@
 		<titleShort>Apprentice Guardener</titleShort>
 		<baseDescription>Born into a wealthy noble family, [PAWN_nameDef]'s mother arranged for [PAWN_objective] bo be blessed by a Guardener, a member of an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom - simply so that she could brag about it to other Mousekin noblewomen.\n\nHowever, much to [PAWN_possessive] family's dismay, [PAWN_nameDef] decided to follow through on the blessing after [PAWN_possessive] tenth birthday, and was accepted as an Apprentice at the Guardener Lodge of a nearby village.\n\n[PAWN_pronoun] trained just as diligently as apprentices from commoner families, and impressed others with [PAWN_possessive] refined and graceful ways.</baseDescription>
 		<maleCommonality>0</maleCommonality>
-		<femaleCommonality>10</femaleCommonality>
+		<femaleCommonality>30</femaleCommonality>
 		<slot>Childhood</slot>
 		<skillGains>
 			<li>
@@ -529,7 +529,7 @@
 		<titleShort>Apprentice Guardener</titleShort>
 		<baseDescription>[PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of her new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom.</baseDescription>
 		<maleCommonality>0</maleCommonality>
-		<femaleCommonality>10</femaleCommonality>
+		<femaleCommonality>30</femaleCommonality>
 		<slot>Childhood</slot>
 		<skillGains>
 			<li>
