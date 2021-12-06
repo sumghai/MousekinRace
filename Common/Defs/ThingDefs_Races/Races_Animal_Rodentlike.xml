@@ -45,7 +45,8 @@
 			</ageGenerationCurve>
 			<!-- Giant cavies love to nuzzle. A lot. -->
 			<nuzzleMtbHours>2</nuzzleMtbHours>
-			<!-- Up to 4 pregnancies/litters per in-game year -->
+			<!-- Up to 2 pregnancies/litters per in-game year (15 days of pregnancy, followed by 15 days of rest) -->
+			<mateMtbHours>360</mateMtbHours>
 			<gestationPeriodDays>15</gestationPeriodDays>
 			<!-- 4~5 pups per litter -->
 			<litterSizeCurve>
