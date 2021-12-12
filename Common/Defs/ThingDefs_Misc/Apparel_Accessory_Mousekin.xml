@@ -33,7 +33,7 @@
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GlassesSmall</wornGraphicPath>
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<layers>
-				<li>Overhead</li>
+				<li>EyeCover</li>
 			</layers>
 			<tags>
 				<li>MousekinPriest</li>
@@ -74,7 +74,7 @@
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GlassesLarge</wornGraphicPath>
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<layers>
-				<li>Overhead</li>
+				<li>EyeCover</li>
 			</layers>
 			<tags>
 				<li>MousekinDoctor</li>
