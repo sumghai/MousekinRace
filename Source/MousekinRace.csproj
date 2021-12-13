@@ -297,6 +297,7 @@
   <ItemGroup>
     <Compile Include="Alert_MissingEarsSuicidal.cs" />
     <Compile Include="Alert_MissingEarsMiserable.cs" />
+    <Compile Include="CompApparelIgnoreStuffColor.cs" />
     <Compile Include="CompProperties_StateDependentBuildingEmissive.cs" />
     <Compile Include="CompStateDependentBuildingEmissive.cs" />
     <Compile Include="EarlessMousekinAlertUtility.cs" />

@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using UnityEngine;
 using Verse;
 
 namespace MousekinRace.Patches
@@ -10,9 +11,18 @@ namespace MousekinRace.Patches
         {
             CompColorable compColorable = product.TryGetComp<CompColorable>();
 
-            if (compColorable != null && product.def.colorGenerator != null && (product.Stuff == null || product.Stuff.stuffProps.allowColorGenerators))
+            CompApparelIgnoreStuffColor compApparelIgnoreStuffColor = product.TryGetComp<CompApparelIgnoreStuffColor>();
+
+            if (compColorable != null)
             {
-                product.SetColor(product.def.colorGenerator.NewRandomizedColor());
+                if (product.def.colorGenerator != null && (product.Stuff == null || product.Stuff.stuffProps.allowColorGenerators))
+                {
+                    product.SetColor(product.def.colorGenerator.NewRandomizedColor());
+                }
+                else if (compApparelIgnoreStuffColor != null)
+                {
+                    product.SetColor(Color.white);
+                }
             }
         }
     }
