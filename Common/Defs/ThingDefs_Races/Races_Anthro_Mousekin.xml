@@ -831,7 +831,7 @@
 					<li>Mousekin_GlassesLarge</li>
 				</apparelList>
 				<whiteApparelList>
-					<!-- Core apparel (There are no Mousekin tribals, and Mousekins have their own race-specific medieval plate armor) -->
+					<!-- Core apparel (Mousekins have their own race-specific medieval plate armor) -->
 					<li>Apparel_AdvancedHelmet</li>
 					<li>Apparel_ArmorHelmetRecon</li>
 					<li>Apparel_ArmorRecon</li>
@@ -854,6 +854,7 @@
 					<li>Apparel_ShieldBelt</li>
 					<li>Apparel_SimpleHelmet</li>
 					<li>Apparel_SmokepopBelt</li>
+					<li>Apparel_TribalA</li>
 					<li>Apparel_Tuque</li>
 					<li>OrbitalTargeterBombardment</li>
 					<li>OrbitalTargeterPowerBeam</li>
