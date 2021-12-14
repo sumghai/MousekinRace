@@ -125,31 +125,31 @@
 									</li>
 									<!-- Medium to Ash Brown -->
 									<li>
-										<weight>20</weight>
+										<weight>15</weight>
 										<min>(0.500,0.350,0.100)</min>
 										<max>(0.600,0.400,0.200)</max>
 									</li>
 									<!-- Honey to Golden Blonde -->
 									<li>
-										<weight>5</weight>
+										<weight>10</weight>
 										<min>(0.800,0.600,0.400)</min>
 										<max>(1.000,0.750,0.450)</max>
 									</li>
 									<!-- Platinum Blonde -->
 									<li>
-										<weight>5</weight>
+										<weight>10</weight>
 										<min>(0.900,0.850,0.700)</min>
 										<max>(1.000,0.900,0.800)</max>
 									</li>
 									<!-- Red to Copper -->
 									<li>
-										<weight>1</weight>
+										<weight>5</weight>
 										<min>(0.850,0.150,0.000)</min>
 										<max>(1.000,0.500,0.150)</max>
 									</li>
 									<!-- Copper to Strawberry Blonde -->
 									<li>
-										<weight>1</weight>
+										<weight>5</weight>
 										<min>(0.900,0.300,0.000)</min>
 										<max>(0.890,0.220,0.040)</max>
 									</li>
