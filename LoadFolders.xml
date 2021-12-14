@@ -6,5 +6,6 @@
 		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
 		<li IfModActive="Ludeon.Rimworld.Ideology">Ideology</li>
 		<li IfModActive="CETeam.CombatExtended">Compatibility\CombatExtended</li>
+		<li IfModActive="Solaris.RatkinRaceMod">Compatibility\LattyLatty</li>
 	</v1.3>
 </loadFolders>
