@@ -197,4 +197,71 @@
 		</comps>
 	</ThingDef>
 
+	
+	
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelCraftsmanOutfit</defName>
+		<label>Mousekin Craftsman’s Outfit</label>
+		<description>A loose shirt and trousers protected by a hard-wearing craftsman's apron, practical for all sorts of crafting. Increases the wearer's general labor speed.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/CraftsmanOutfit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only apron (30) part of apparel is stuffable -->
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<!-- actual shirt (30) and trousers (30) are always made from cloth -->
+			<Cloth>60</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>240</MaxHitPoints>
+			<WorkToMake>5200</WorkToMake>
+			<Mass>1.35</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.40</GeneralLaborSpeed>
+			<NegotiationAbility>-0.10</NegotiationAbility>
+			<SocialImpact>-0.10</SocialImpact>
+			<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/CraftsmanOutfit</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>MousekinTradesman</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Male</gender>
+		</apparel>
+		<!-- Color gen hack to get masks working properly -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<!-- White -->
+					<weight>1</weight>
+					<only>(1.0,1.0,1.0)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
 </Defs>
