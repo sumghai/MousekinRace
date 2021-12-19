@@ -92,4 +92,31 @@
 		</recipeMaker>
 	</ThingDef>
 	
+	<ThingDef Name="Mousekin_ApparelMiddleMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMiddle</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelMiddle</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_HatCommonerMakeableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelCommoner</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_HatMiddleMakeableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMiddle</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelMiddle</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
 </Defs>
