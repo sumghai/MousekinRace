@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Uncraftable -->
+	
+	<ThingDef ParentName="HatBase">
+		<defName>Mousekin_HatCloakHood</defName>
+		<label>hood</label>
+		<description>Hood for the Mousekin Cloak.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/CloakHood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/CloakHood</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Mousekin_NoSpawn</li>
+				<li>Mousekin_HideEars</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

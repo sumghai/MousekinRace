@@ -206,6 +206,9 @@
 									</portraitBodyTypes>
 								</west>
 							</offsets>
+							<hiddenUnderApparelTag>
+								<li>Mousekin_HideEars</li>
+							</hiddenUnderApparelTag>
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
@@ -258,6 +261,9 @@
 									</portraitBodyTypes>
 								</west>
 							</offsets>
+							<hiddenUnderApparelTag>
+								<li>Mousekin_HideEars</li>
+							</hiddenUnderApparelTag>
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
@@ -825,14 +831,19 @@
 				</researchList>
 			
 				<apparelList>
-					<li>Mousekin_ApparelSettlerOutfit</li>
-					<li>Mousekin_ApparelSettlerDress</li>
-					<li>Mousekin_ApparelWorkerOutfit</li>
-					
+					<li>Mousekin_ApparelCloak</li>
 					<li>Mousekin_ApparelCraftsmanOutfit</li>
+					<!-- <li>Mousekin_ApparelGuardenerGown</li> -->
+					<!-- <li>Mousekin_ApparelGuardenerRobe</li> -->
+					<!-- <li>Mousekin_ApparelNunHabit</li> -->
 					<li>Mousekin_ApparelPriestCassock</li>
-					<li>Mousekin_GlassesSmall</li>
+					<li>Mousekin_ApparelSettlerDress</li>
+					<li>Mousekin_ApparelSettlerOutfit</li>
+					<!-- <li>Mousekin_ApparelWorkerDress</li> -->
+					<li>Mousekin_ApparelWorkerOutfit</li>
 					<li>Mousekin_GlassesLarge</li>
+					<li>Mousekin_GlassesSmall</li>
+					<li>Mousekin_HatCloakHood</li>
 				</apparelList>
 				<whiteApparelList>
 					<!-- Core apparel (Mousekins have their own race-specific medieval plate armor) -->

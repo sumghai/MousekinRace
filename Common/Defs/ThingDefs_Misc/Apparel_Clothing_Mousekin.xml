@@ -197,7 +197,7 @@
 		</comps>
 	</ThingDef>
 
-	
+		<!-- todo - Worker’s Dress -->
 	
 	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
 		<defName>Mousekin_ApparelCraftsmanOutfit</defName>
@@ -264,7 +264,89 @@
 		</colorGenerator>
 	</ThingDef>
 
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelCloak</defName>
+		<label>Mousekin Cloak</label>
+		<description>A simple hooded cloak worn by Mousekin villagers or travellers in colder climates.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/Cloak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- hood (50) and cloak (70) -->
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<HuntingStealth>0.15</HuntingStealth>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/Cloak</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags />
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<!-- Color options (for cloth fabric type only) -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<!-- Default cloth color -->
+					<weight>10</weight>
+					<only>(162,157,152)</only>
+				</li>
+				<li>
+					<!-- Dark pastel red -->
+					<weight>10</weight>
+					<only>(0.420,0.318,0.318)</only>
+				</li>
+				<li>
+					<!-- Dark pastel green -->
+					<weight>10</weight>
+					<only>(0.357,0.412,0.325)</only>
+				</li>
+				<li>
+					<!-- Dark pastel blue -->
+					<weight>10</weight>
+					<only>(0.318,0.384,0.420)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
+				<attachedHeadgearDef>Mousekin_HatCloakHood</attachedHeadgearDef>
+				<toggleUiIconPath>Things/Pawn/Mousekin/Apparel/CloakHood</toggleUiIconPath>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	<!-- Middle-class Apparel -->
+	
+		<!-- todo - Guardener’s Gown -->
+		
+		<!-- todo - Guardener’s Robe -->
+		
+		<!-- todo - Nun’s Habit -->
 	
 	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
 		<defName>Mousekin_ApparelPriestCassock</defName>
