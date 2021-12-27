@@ -64,7 +64,7 @@
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinChurch</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
-		<iconColor>(1.000, 0.843, 0.000)</iconColor>
+		<iconColor>(255, 215, 0)</iconColor>
 	</CultureDef>
 
 	<CultureDef ParentName="Mousekin_CultureBase">
@@ -75,7 +75,7 @@
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinRepublic</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
-		<iconColor>(0.000, 0.500, 0.000)</iconColor>
+		<iconColor>(0, 128, 0)</iconColor>
 	</CultureDef>
 
 	<CultureDef ParentName="Mousekin_CultureBase">
@@ -86,7 +86,7 @@
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinNomad</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
-		<iconColor>(0.35, 0.30, 0.60)</iconColor>
+		<iconColor>(89, 77, 153)</iconColor>
 	</CultureDef>
 
 	<CultureDef ParentName="Mousekin_CultureBase">
@@ -97,7 +97,7 @@
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinBrigands</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
-		<iconColor>(0.45, 0.05, 0.05)</iconColor>
+		<iconColor>(115, 13, 13)</iconColor>
 	</CultureDef>
 
 </Defs>

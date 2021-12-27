@@ -192,7 +192,7 @@
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>4</glowRadius>
-				<glowColor>(252,187,113,0)</glowColor>
+				<glowColor>(252, 187, 113, 0)</glowColor>
 			</li>
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>

@@ -114,44 +114,44 @@
 									<!-- Black to Dark Brown -->
 									<li>
 										<weight>10</weight>
-										<min>(0.100,0.000,0.000)</min>
-										<max>(0.200,0.100,0.050)</max>
+										<min>(26, 0, 0)</min>
+										<max>(51, 26, 13)</max>
 									</li>
 									<!-- Burgundy to Mahogany Brown -->
 									<li>
 										<weight>15</weight>
-										<min>(0.250,0.100,0.000)</min>
-										<max>(0.400,0.150,0.050)</max>
+										<min>(64, 26, 0)</min>
+										<max>(102, 38, 13)</max>
 									</li>
 									<!-- Medium to Ash Brown -->
 									<li>
 										<weight>15</weight>
-										<min>(0.500,0.350,0.100)</min>
-										<max>(0.600,0.400,0.200)</max>
+										<min>(128, 89, 26)</min>
+										<max>(153, 102, 51)</max>
 									</li>
 									<!-- Honey to Golden Blonde -->
 									<li>
 										<weight>10</weight>
-										<min>(0.800,0.600,0.400)</min>
-										<max>(1.000,0.750,0.450)</max>
+										<min>(204, 153, 102)</min>
+										<max>(255, 191, 115)</max>
 									</li>
 									<!-- Platinum Blonde -->
 									<li>
 										<weight>10</weight>
-										<min>(0.900,0.850,0.700)</min>
-										<max>(1.000,0.900,0.800)</max>
+										<min>(230, 217, 179)</min>
+										<max>(255, 230, 204)</max>
 									</li>
 									<!-- Red to Copper -->
 									<li>
 										<weight>5</weight>
-										<min>(0.850,0.150,0.000)</min>
-										<max>(1.000,0.500,0.150)</max>
+										<min>(217, 38, 0)</min>
+										<max>(255, 128, 38)</max>
 									</li>
 									<!-- Copper to Strawberry Blonde -->
 									<li>
 										<weight>5</weight>
-										<min>(0.900,0.300,0.000)</min>
-										<max>(0.890,0.220,0.040)</max>
+										<min>(230, 77, 0)</min>
+										<max>(227, 56, 10)</max>
 									</li>
 								</options>
 							</first>

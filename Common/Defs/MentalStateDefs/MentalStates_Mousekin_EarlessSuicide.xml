@@ -28,7 +28,7 @@
 		</requiredCapacities>
 		<minTicksBeforeRecovery>99999999</minTicksBeforeRecovery>
 		<recoverFromSleep>true</recoverFromSleep>
-		<nameColor>(0.98,0.48,0.16)</nameColor>
+		<nameColor>(250, 122, 41)</nameColor>
 		<recoveryMessage>{0} is no longer attempting suicide.</recoveryMessage>
 		<beginLetterLabel>Earless Mousekin Suicide</beginLetterLabel>
 		<beginLetter>{0} could no longer endure the humiliation of living without [PAWN_possessive] ears, and is attempting suicide.</beginLetter>

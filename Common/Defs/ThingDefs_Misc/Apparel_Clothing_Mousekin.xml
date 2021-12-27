@@ -59,7 +59,7 @@
 				<li>
 					<!-- Dark green -->
 					<weight>10</weight>
-					<only>(0.130,0.270,0.130)</only>
+					<only>(33, 69, 33)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -121,17 +121,17 @@
 				<li>
 					<!-- Dark pastel red -->
 					<weight>10</weight>
-					<only>(0.420,0.318,0.318)</only>
+					<only>(107, 81, 81)</only>
 				</li>
 				<li>
 					<!-- Dark pastel green -->
 					<weight>10</weight>
-					<only>(0.357,0.412,0.325)</only>
+					<only>(91, 105, 83)</only>
 				</li>
 				<li>
 					<!-- Dark pastel blue -->
 					<weight>10</weight>
-					<only>(0.318,0.384,0.420)</only>
+					<only>(81, 98, 107)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -258,7 +258,7 @@
 				<li>
 					<!-- White -->
 					<weight>1</weight>
-					<only>(1.0,1.0,1.0)</only>
+					<only>(255, 255, 255)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -318,17 +318,17 @@
 				<li>
 					<!-- Dark pastel red -->
 					<weight>10</weight>
-					<only>(0.420,0.318,0.318)</only>
+					<only>(107, 81, 81)</only>
 				</li>
 				<li>
 					<!-- Dark pastel green -->
 					<weight>10</weight>
-					<only>(0.357,0.412,0.325)</only>
+					<only>(91, 105, 83)</only>
 				</li>
 				<li>
 					<!-- Dark pastel blue -->
 					<weight>10</weight>
-					<only>(0.318,0.384,0.420)</only>
+					<only>(81, 98, 107)</only>
 				</li>
 			</options>
 		</colorGenerator>

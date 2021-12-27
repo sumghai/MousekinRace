@@ -6,7 +6,7 @@
 		<label>hemlock poisoning</label>
 		<description>Poison in the bloodstream, from accidental or deliberate ingestion of the high toxic hemlock plant. The smallest of doses is enough to be rapidly fatal to most humanoids.</description>
 		<hediffClass>HediffWithComps</hediffClass>
-		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<defaultLabelColor>(176, 255, 176)</defaultLabelColor>
 		<lethalSeverity>1</lethalSeverity>
 		<makesSickThought>true</makesSickThought>
 		<taleOnVisible>ToxicityRevealed</taleOnVisible>
