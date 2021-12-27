@@ -146,7 +146,14 @@
 				<countRange>2~3</countRange>
 				<price>Cheap</price>
 			</li>
-
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelMiddle</tradeTag>
+				<thingDefCountRange>6~8</thingDefCountRange>
+				<countRange>2~3</countRange>
+				<price>Cheap</price>
+			</li>
+			
 			<!-- Fabrics, Leathers and Wools -->
 
 			<li Class="StockGenerator_SingleDef">

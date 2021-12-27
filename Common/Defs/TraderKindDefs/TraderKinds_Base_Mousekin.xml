@@ -106,6 +106,13 @@
 				<countRange>30~40</countRange>
 				<price>Cheap</price>
 			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelMiddle</tradeTag>
+				<thingDefCountRange>8~10</thingDefCountRange>
+				<countRange>20~30</countRange>
+				<price>Cheap</price>
+			</li>
 
 			<!-- Fabrics, Leathers and Wools -->
 
