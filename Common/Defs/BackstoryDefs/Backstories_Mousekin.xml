@@ -116,6 +116,7 @@
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
 			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownFarmer</li>
 			<li>MousekinIndyTownSoldier</li>			
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
@@ -670,6 +671,7 @@
 		</workDisables>
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
+			<li>MousekinIndyTownFarmer</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinPeasant</li>
 			<li>MousekinPikeman</li>
@@ -1144,6 +1146,7 @@
 		</relationSettings>
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
+			<li>MousekinIndyTownFarmer</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinPeasant</li>
 			<li>MousekinPikeman</li>
@@ -1382,6 +1385,7 @@
 			<li>MousekinCrossbowman</li>
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownFarmer</li>
 			<li>MousekinIndyTownSoldier</li>
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
@@ -1434,6 +1438,7 @@
 			<li>MousekinCrossbowman</li>
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownFarmer</li>
 			<li>MousekinIndyTownSoldier</li>
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
@@ -1669,6 +1674,7 @@
 			<li>MousekinCrossbowman</li>
 			<li>MousekinDoctor</li>
 			<li>MousekinIndyTownCouncilor</li>
+			<li>MousekinIndyTownFarmer</li>
 			<li>MousekinIndyTownSoldier</li>
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
@@ -3900,14 +3906,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>35</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>35</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Construction</defName>
@@ -3976,14 +3974,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>35</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>35</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
