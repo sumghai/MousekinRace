@@ -38,8 +38,8 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestYield>25</harvestYield>
 			<harvestedThingDef>Mousekin_RawNutChonko</harvestedThingDef>
-			<harvestAfterGrowth>0.833</harvestAfterGrowth>			
-			<harvestMinGrowth>0.933</harvestMinGrowth>
+			<harvestAfterGrowth>0.75</harvestAfterGrowth>			
+			<harvestMinGrowth>0.95</harvestMinGrowth>
 			<wildClusterRadius>8</wildClusterRadius>
 			<wildClusterWeight>300</wildClusterWeight>
 			<wildOrder>2</wildOrder>
@@ -84,7 +84,7 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestYield>25</harvestYield>
 			<harvestedThingDef>Mousekin_RawNutNyam</harvestedThingDef>
-			<harvestAfterGrowth>0.875</harvestAfterGrowth>
+			<harvestAfterGrowth>0.65</harvestAfterGrowth>
 			<harvestMinGrowth>0.95</harvestMinGrowth>
 			<wildClusterRadius>8</wildClusterRadius>
 			<wildClusterWeight>300</wildClusterWeight>
