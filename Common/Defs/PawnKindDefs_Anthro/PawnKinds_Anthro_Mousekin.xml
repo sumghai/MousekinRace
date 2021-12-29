@@ -64,7 +64,7 @@
 			</li>
 		</backstoryFiltersOverride>
 		<minGenerationAge>8</minGenerationAge>
-		<maxGenerationAge>70</maxGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
 		<initialWillRange>11~14</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
 	</PawnKindDef>
