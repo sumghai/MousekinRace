@@ -1828,12 +1828,12 @@
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
 		<bioAgeRange>
-			<min>35</min>
-			<max>70</max>
+			<min>40</min>
+			<max>65</max>
 		</bioAgeRange>
 		<chronoAgeRange>
-			<min>35</min>
-			<max>70</max>
+			<min>40</min>
+			<max>65</max>
 		</chronoAgeRange>
 		<skillGains>
 			<li>
@@ -3203,7 +3203,7 @@
 		<title>Government Minister</title>
 		<titleShort>Minister</titleShort>
 		<baseDescription>Like most other ministers in the Mousekin Kingdom's government, [PAWN_nameDef] did very little actual work [PAWN_objective]self - [PAWN_pronoun] usually foisted [PAWN_possessive] duties on to [PAWN_possessive] hapless clerks and subordinates, in favor of attending elaborate parties and plotting the downfall of other, rival government officials.</baseDescription>
-		<maleCommonality>20</maleCommonality>
+		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
 		<bioAgeRange>
@@ -4651,14 +4651,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>30</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>30</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Social</defName>
@@ -4840,14 +4832,6 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>20</min>
-			<max>45</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>20</min>
-			<max>45</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Social</defName>
