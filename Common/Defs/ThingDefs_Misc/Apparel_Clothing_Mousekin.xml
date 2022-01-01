@@ -346,7 +346,63 @@
 		
 		<!-- todo - Guardener’s Robe -->
 		
-		<!-- todo - Nun’s Habit -->
+	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
+		<defName>Mousekin_ApparelNunHabit</defName>
+		<label>Mousekin Nun’s Habit</label>
+		<description>A demure habit, practical for administering religious rites as well as caring for the sick and orphaned.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/NunHabit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only outer habit layer (40) is stuffable -->
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- wimple (5) and inner undertunic layer (40) are always made from cloth -->
+			<Cloth>45</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MedicalTendQuality>0.10</MedicalTendQuality>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/NunHabit</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinNun</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
 		<defName>Mousekin_ApparelPriestCassock</defName>
