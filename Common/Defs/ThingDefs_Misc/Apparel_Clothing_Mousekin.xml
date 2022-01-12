@@ -420,7 +420,65 @@
 	
 	<!-- Middle-class Apparel -->
 	
-		<!-- todo - Guardener’s Gown -->
+	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
+		<defName>Mousekin_ApparelGuardenerGown</defName>
+		<label>Mousekin Guardener’s Gown</label>
+		<description>A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/GuardenerGown</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only outer dress layer (50) is stuffable -->
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- inner petticoat layer (60) is always made from cloth -->
+			<Cloth>60</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.75</Mass>
+			<StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>7.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ArrestSuccessChance>0.35</ArrestSuccessChance>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<PlantWorkSpeed>0.30</PlantWorkSpeed>
+			<SocialImpact>0.15</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GuardenerGown</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinGuardener</li>
+				<li>MousekinGuardenerElite</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
 		
 		<!-- todo - Guardener’s Robe -->
 		
