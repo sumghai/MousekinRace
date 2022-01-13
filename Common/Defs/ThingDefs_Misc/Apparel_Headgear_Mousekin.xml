@@ -31,4 +31,37 @@
 		</apparel>
 	</ThingDef>
 	
+	<ThingDef ParentName="HatBase">
+		<defName>Mousekin_HatGuardenerRobeHood</defName>
+		<label>hood</label>
+		<description>Hood for the Mousekin Guardener's Robe.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/GuardenerRobeHood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GuardenerRobeHood</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Mousekin_NoSpawn</li>
+				<li>Mousekin_HideEars</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
 </Defs>

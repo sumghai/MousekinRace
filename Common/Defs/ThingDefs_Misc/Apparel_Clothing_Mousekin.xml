@@ -480,7 +480,62 @@
 		</comps>
 	</ThingDef>
 		
-		<!-- todo - Guardener’s Robe -->
+	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
+		<defName>Mousekin_ApparelGuardenerRobe</defName>
+		<label>Mousekin Guardener’s Robe</label>
+		<description>A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/GuardenerRobe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- hood (50) and cloak (70) -->
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.15</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GuardenerRobe</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MousekinGuardenerElite</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
+				<attachedHeadgearDef>Mousekin_HatGuardenerRobeHood</attachedHeadgearDef>
+				<toggleUiIconPath>Things/Pawn/Mousekin/Apparel/GuardenerRobeHood</toggleUiIconPath>
+			</li>
+		</comps>
+	</ThingDef>
 		
 	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
 		<defName>Mousekin_ApparelNunHabit</defName>
