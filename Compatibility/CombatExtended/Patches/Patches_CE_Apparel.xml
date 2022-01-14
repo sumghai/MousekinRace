@@ -3,29 +3,88 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 
-			<!-- ========== Patch basic apparel bulk and stats ========== -->
+			<!-- ========== Patch apparel bulk and stats ========== -->
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
-						defName="Mousekin_ApparelSettlerDress" or 
-						defName="Mousekin_ApparelSettlerOutfit"
+						defName="Mousekin_ApparelSettlerOutfit" or 
+						defName="Mousekin_ApparelWorkerOutfit"
+					]/statBases</xpath>
+				<value>
+					<Bulk>1.5</Bulk>
+					<WornBulk>1</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_ApparelCraftsmanOutfit" or 
+						defName="Mousekin_ApparelNunHabit" or
+						defName="Mousekin_ApparelPriestCassock"
 					]/statBases</xpath>
 				<value>
 					<Bulk>2</Bulk>
-					<WornBulk>1</WornBulk>
+					<WornBulk>1.5</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_ApparelGuardenerGown" or 
+						defName="Mousekin_ApparelSettlerDress" or
+						defName="Mousekin_ApparelWorkerDress"
+					]/statBases</xpath>
+				<value>
+					<Bulk>3</Bulk>
+					<WornBulk>3</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_ApparelCloak" or 
+						defName="Mousekin_ApparelGuardenerRobe"
+					]/statBases</xpath>
+				<value>
+					<Bulk>5</Bulk>
+					<WornBulk>1.5</WornBulk>
 				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[
+						defName="Mousekin_ApparelGuardenerGown" or
+						defName="Mousekin_ApparelNunHabit" or
+						defName="Mousekin_ApparelPriestCassock" or
 						defName="Mousekin_ApparelSettlerDress" or 
-						defName="Mousekin_ApparelSettlerOutfit"
+						defName="Mousekin_ApparelSettlerOutfit" or
+						defName="Mousekin_ApparelWorkerDress" or
+						defName="Mousekin_ApparelWorkerOutfit"
 					]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
 					<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
 				</value>
 			</li>
-
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_ApparelCraftsmanOutfit"
+					]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_ApparelCloak" or
+						defName="Mousekin_ApparelGuardenerRobe"
+					]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			
 		</operations>
 	</Operation>
 </Patch>
