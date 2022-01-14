@@ -67,9 +67,7 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[
-						defName="Mousekin_ApparelCraftsmanOutfit"
-					]/statBases/StuffEffectMultiplierArmor</xpath>
+				<xpath>Defs/ThingDef[defName="Mousekin_ApparelCraftsmanOutfit"]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
 					<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
 				</value>
@@ -82,6 +80,24 @@
 					]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
 					<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			
+			<!-- ========== Patch accessory bulk and stats ========== -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_GlassesSmall"]/statBases</xpath>
+				<value>
+					<Bulk>0.05</Bulk>
+					<!-- Negligible worn bulk -->
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_GlassesLarge"]/statBases</xpath>
+				<value>
+					<Bulk>0.1</Bulk>
+					<!-- Negligible worn bulk -->
 				</value>
 			</li>
 			
