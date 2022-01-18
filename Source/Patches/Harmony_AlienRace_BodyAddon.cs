@@ -14,7 +14,7 @@ namespace MousekinRace.Patches
             {
                 if (apparelWithAttachedHeadgear.GetComp<CompApparelWithAttachedHeadgear>().Props.attachedHeadgearDef.apparel.tags.Any(s => __instance.hiddenUnderApparelTag.Contains(s)))
                 {
-                    __result = !apparelWithAttachedHeadgear.GetComp<CompApparelWithAttachedHeadgear>().isHatOn;
+                    __result = __result && !apparelWithAttachedHeadgear.GetComp<CompApparelWithAttachedHeadgear>().isHatOn;
                 }
             }
         }
