@@ -172,6 +172,7 @@
 							</hediffGraphics>
 							<offsets>
 								<south>
+									<layerOffset>-1</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -180,7 +181,7 @@
 									</portraitBodyTypes>
 								</south>
 								<north>
-									<layerOffset>-1</layerOffset>
+									<layerOffset>1</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -227,6 +228,7 @@
 							</hediffGraphics>
 							<offsets>
 								<south>
+									<layerOffset>-1</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -235,7 +237,7 @@
 									</portraitBodyTypes>
 								</south>
 								<north>
-									<layerOffset>-1</layerOffset>
+									<layerOffset>1</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
