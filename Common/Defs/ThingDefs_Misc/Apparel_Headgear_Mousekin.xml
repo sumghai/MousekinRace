@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
+	<!-- Commoner Headgear -->
+	
+	<ThingDef ParentName="Mousekin_HatCommonerMakeableBase">
+		<defName>Mousekin_HatStraw</defName>
+		<label>Mousekin Straw Hat</label>
+		<description>A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HatStraw</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<!-- 45 Hay is equivalent to 25 cloth for the similar-shaped cowboy hat -->
+			<Hay>45</Hay>
+		</costList>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.08</Mass>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>-0.10</NegotiationAbility>
+			<SocialImpact>-0.10</SocialImpact>
+			<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatStraw</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinPeasant</li>
+				<li>MousekinTrader</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+	
 	<!-- Uncraftable -->
 	
 	<ThingDef ParentName="HatBase">
