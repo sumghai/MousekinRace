@@ -121,9 +121,10 @@
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
-		<apparelTags>
+		<apparelTags Inherit="false">
 			<li>MousekinPriest</li>
 		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>33~49</initialResistanceRange>
 		<modExtensions>
@@ -146,6 +147,10 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
+		<apparelTags Inherit="false">
+			<li>MousekinNun</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>31~47</initialResistanceRange>
 		<modExtensions>
@@ -223,6 +228,12 @@
 		<minGenerationAge>30</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
+		<apparelTags Inherit="false">
+			<li>MousekinGuardenerElite</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGuardenerRobe</li>
+		</apparelRequired>
 		<initialWillRange>8~12</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
 	</PawnKindDef>
@@ -269,6 +280,9 @@
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>35</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
+		<apparelTags Inherit="false">
+			<li>MousekinGuardener</li>
+		</apparelTags>
 		<initialWillRange>6~9</initialWillRange>
 		<initialResistanceRange>39~59</initialResistanceRange>
 	</PawnKindDef>
@@ -311,6 +325,9 @@
 		<minGenerationAge>10</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
+		<apparelTags Inherit="false">
+			<li>MousekinGuardener</li>
+		</apparelTags>
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>8~12</initialResistanceRange>
 	</PawnKindDef>
@@ -401,10 +418,14 @@
 		<weaponTags>
 			<li>Mousekin_Tool_Tradesman</li>
 		</weaponTags>
-		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>25</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
+		<apparelTags Inherit="false">
+			<li>MousekinTradesman</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -518,6 +539,10 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>60</maxGenerationAge>
+		<apparelTags Inherit="false">
+			<li>MousekinPeasant</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>14~22</initialResistanceRange>
 	</PawnKindDef>
@@ -613,6 +638,10 @@
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags Inherit="false">
+			<li>MousekinIndyTownSoldier</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<initialWillRange>8~9</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
@@ -637,6 +666,10 @@
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags Inherit="false">
+			<li>MousekinIndyTownFarmer</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
 		<initialWillRange>5~6</initialWillRange>
 		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
@@ -709,6 +742,9 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<apparelTags Inherit="false">
+			<li>MousekinRaider</li>
+		</apparelTags>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>33~49</initialResistanceRange>
 		<modExtensions>
