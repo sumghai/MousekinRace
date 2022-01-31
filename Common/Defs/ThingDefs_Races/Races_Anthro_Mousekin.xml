@@ -90,6 +90,7 @@
 					<atlasScale>4</atlasScale>
 					<useGenderedHeads>true</useGenderedHeads>
 					<useGenderedBodies>false</useGenderedBodies>
+					<getsGreyAt>60</getsGreyAt>
 					<customDrawSize>(0.9, 0.9)</customDrawSize>
 					<customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
 					<customPortraitDrawSize>(0.9, 0.9)</customPortraitDrawSize>
