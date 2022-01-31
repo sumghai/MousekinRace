@@ -52,6 +52,8 @@
 		<apparelStuffFilter>
 			<thingDefs>
 				<li>Cloth</li>
+				<li>Leather_Patch</li>
+				<li>Leather_Plain</li>
 			</thingDefs>
 		</apparelStuffFilter>
 		<geneticVariance>1</geneticVariance>
