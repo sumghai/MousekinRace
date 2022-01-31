@@ -83,6 +83,48 @@
 				</value>
 			</li>
 			
+			<!-- ========== Patch headgear bulk and stats ========== -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_HatHeadscarf" or 
+						defName="Mousekin_HatNunVeil"
+					]/statBases</xpath>
+				<value>
+					<Bulk>0.5</Bulk>
+					<WornBulk>0.5</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_HatStraw"]/statBases</xpath>
+				<value>
+					<Bulk>1</Bulk>
+					<WornBulk>1</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_HatNunVeil"]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_HatHeadscarf"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_HatHeadscarf"]/statBases</xpath>
+				<value>
+					<ArmorRating_Blunt>0.015</ArmorRating_Blunt>
+				</value>
+			</li>
+			
 			<!-- ========== Patch accessory bulk and stats ========== -->
 			
 			<li Class="PatchOperationAdd">
