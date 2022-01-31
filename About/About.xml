@@ -26,9 +26,9 @@
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
 		</li>
 		<li>
-			<packageId>showhair.kv.rw</packageId>
-			<displayName>[KV] Show Hair With Hats or Hide All Hats</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=1180826364</steamWorkshopUrl>
+			<packageId>Dubwise.DubsApparelTweaks</packageId>
+			<displayName>Dubs Apparel Tweaks</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2296697286</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
@@ -38,6 +38,6 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>showhair.kv.rw</li>
+		<li>Dubwise.DubsApparelTweaks</li>
 	</loadAfter>
 </ModMetaData>
