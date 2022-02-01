@@ -749,37 +749,6 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef>
-		<defName>Mousekin_Thought_Pain</defName>
-		<workerClass>ThoughtWorker_Pain</workerClass>
-		<validWhileDespawned>true</validWhileDespawned>
-		<nullifyingTraits>
-			<li>Masochist</li>
-		</nullifyingTraits>
-		<stages>
-			<li>
-				<label>minor pain</label>
-				<description>Ow... That hurts.</description>
-				<baseMoodEffect>-5</baseMoodEffect>
-			</li>
-			<li>
-				<label>serious pain</label>
-				<description>Ughhh... When will it end?</description>
-				<baseMoodEffect>-10</baseMoodEffect>
-			</li>
-			<li>
-				<label>intense pain</label>
-				<description>Make it stop... make it stop... make it stop...</description>
-				<baseMoodEffect>-15</baseMoodEffect>
-			</li>
-			<li>
-				<label>mind-shattering pain</label>
-				<description>Squeeak! SQUEEEEAK!</description>
-				<baseMoodEffect>-20</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-
 	<ThoughtDef ParentName="DeathMemory">
 		<defName>Mousekin_Thought_PawnWithBadOpinionDied</defName>
 		<durationDays>10</durationDays>

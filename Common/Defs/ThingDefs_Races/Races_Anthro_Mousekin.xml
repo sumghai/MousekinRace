@@ -656,10 +656,6 @@
 						<replacer>Mousekin_Thought_MyWifeDied</replacer>
 					</li>
 					<li>
-						<original>Pain</original>
-						<replacer>Mousekin_Thought_Pain</replacer>
-					</li>
-					<li>
 						<original>PawnWithBadOpinionDied</original>
 						<replacer>Mousekin_Thought_PawnWithBadOpinionDied</replacer>
 					</li>
@@ -745,7 +741,6 @@
 					<li>Mousekin_Thought_MySonDied</li>
 					<li>Mousekin_Thought_MyUncleDied</li>
 					<li>Mousekin_Thought_MyWifeDied</li>
-					<li>Mousekin_Thought_Pain</li>
 					<li>Mousekin_Thought_PawnWithBadOpinionDied</li>
 					<li>Mousekin_Thought_PawnWithBadOpinionLost</li>
 					<li>Mousekin_Thought_PawnWithGoodOpinionDied</li>
