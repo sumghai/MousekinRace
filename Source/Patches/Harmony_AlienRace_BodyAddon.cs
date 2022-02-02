@@ -9,8 +9,8 @@ namespace MousekinRace.Patches
     public static class Harmony_AlienRace_BodyAddon_CanDrawAddon_HideUnderApparelWithAttachedHeadgear
     {
         static void Postfix(AlienPartGenerator.BodyAddon __instance, Pawn pawn, ref bool __result)
-        {          
-            if (pawn.apparel.WornApparel.Find(ap => ap.TryGetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp) is Apparel apparelWithAttachedHeadgear && apparelWithAttachedHeadgear != null)
+        {
+            if (pawn.apparel?.WornApparel?.Find(ap => ap.TryGetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp) is Apparel apparelWithAttachedHeadgear && apparelWithAttachedHeadgear != null)
             {
                 if (apparelWithAttachedHeadgear.GetComp<CompApparelWithAttachedHeadgear>().Props.attachedHeadgearDef.apparel.tags.Any(s => __instance.hiddenUnderApparelTag.Contains(s)))
                 {
