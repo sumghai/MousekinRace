@@ -199,6 +199,7 @@
 		<defName>Mousekin_Thought_FaithAffinityOpinions</defName>
 		<thoughtClass>Thought_SituationalSocial</thoughtClass>
 		<workerClass>MousekinRace.ThoughtWorker_FaithAffinityOpinions</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
 		<stages>
 		
 			<!-- ========== Apostate ========== -->
