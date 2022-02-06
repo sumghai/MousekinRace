@@ -25,11 +25,6 @@
 			<displayName>Vanilla Expanded Framework</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
 		</li>
-		<li>
-			<packageId>Dubwise.DubsApparelTweaks</packageId>
-			<displayName>Dubs Apparel Tweaks</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2296697286</steamWorkshopUrl>
-		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>brrainz.harmony</li>
@@ -38,6 +33,5 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>Dubwise.DubsApparelTweaks</li>
 	</loadAfter>
 </ModMetaData>
