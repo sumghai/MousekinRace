@@ -1162,7 +1162,7 @@
 		<titleFemale>Young Princess</titleFemale>
 		<titleShort>Prince</titleShort>
 		<titleShortFemale>Princess</titleShortFemale>
-		<baseDescription>As a young member of the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered by [PAWN_possessive] personal retinue of servants.\n\nIn preparation for [PAWN_possessive] future role in the Royal Family, [PAWN_pronoun] was extensively educated in high society etiquette, history, literature and the arts.</baseDescription>
+		<baseDescription>[PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nIn preparation for [PAWN_possessive] future role in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_pronoun] was extensively educated in high society etiquette, history, literature and the arts.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -1218,7 +1218,7 @@
 		<defName>Mousekin_Childhood_SeamstressApprentice</defName>
 		<title>Apprentice seamstress</title>
 		<titleShort>Apprentice seamstress</titleShort>
-		<baseDescription>As the apprentice of a Mousekin master dressmaker, [PAWN_nameDef] spun thread, tidied rolls of fabric and swept the shop floor clean.\n\nIn time, [PAWN_pronoun] was also entrusted with sewing buttons, handkerchiefs and other small, simple items.</baseDescription>
+		<baseDescription>Apprenticed to a Mousekin master dressmaker at a young age, [PAWN_nameDef] spun thread, tidied rolls of fabric and swept the shop floor clean.\n\nIn time, [PAWN_pronoun] was also entrusted with sewing buttons, handkerchiefs and other small, simple items.</baseDescription>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -2241,7 +2241,7 @@
 		<defName>Mousekin_Adulthood_ChefSous</defName>
 		<title>Sous chef</title>
 		<titleShort>Chef</titleShort>
-		<baseDescription>As the sous chef in the household staff of a Mousekin nobleman, [PAWN_nameDef] was responsible for preparing appetizers, soup and vegetable dishes.\n\n[PAWN_possessive] also acted as the second-in-command of the kitchen staff under the head chef.</baseDescription>
+		<baseDescription>[PAWN_nameDef] served in the household staff of a Mousekin nobleman, and was responsible for preparing appetizers, soup and vegetable dishes.\n\n[PAWN_possessive] also acted as the second-in-command of the kitchen staff under the head chef.</baseDescription>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -3830,7 +3830,7 @@
 		<defName>Mousekin_Adulthood_IndyTownCouncilor</defName>
 		<title>Town Councilor</title>
 		<titleShort>Councilor</titleShort>
-		<baseDescription>As a council member of an independent Mousekin town, [PAWN_nameDef] worked tirelessly with [PAWN_possessive] colleagues to address the needs and concerns of [PAWN_possessive] constituents, secure tenous trade routes with outside factions and strengthen the town's defenses - all while resisting constant pressure by representatives of the Mousekin Kingdom to give up their “democratic separatist nonsense” and submit to the Mousekin King.</baseDescription>
+		<baseDescription>[PAWN_nameDef] served in the council of an independent Mousekin town, working tirelessly with [PAWN_possessive] colleagues to address the needs and concerns of [PAWN_possessive] constituents, secure tenous trade routes with outside factions and strengthen the town's defenses - all while resisting constant pressure by representatives of the Mousekin Kingdom to give up their “democratic separatist nonsense” and submit to the Mousekin King.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -4387,7 +4387,7 @@
 		<defName>Mousekin_Adulthood_Knight</defName>
 		<title>Knight</title>
 		<titleShort>Knight</titleShort>
-		<baseDescription>As a fully-ordained Knight, [PAWN_nameDef] served as bastions of defence for the Mousekin Kingdom, and was responsible for leading entire units of peasant milita and trained soldiers into battle.\n\nOccassionally, [PAWN_pronoun] was called on by local Guardeners to help them catch dangerous criminals, like Mousekin brigands or psychotic murderers.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was ordained into knighthood by a regional Knight Commander, and served as one of many bastions of defence for the Mousekin Kingdom, leading entire units of peasant milita and trained soldiers into battle.\n\nOccassionally, [PAWN_pronoun] was called on by local Guardeners to help them catch dangerous criminals, like Mousekin brigands or psychotic murderers.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -4647,7 +4647,7 @@
 		<defName>Mousekin_Adulthood_ManorLord</defName>
 		<title>Manor lord</title>
 		<titleShort>Lord</titleShort>
-		<baseDescription>[PAWN_nameDef] is a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] many wives, concubines and children, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] many wives, concubines and children, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -4828,7 +4828,7 @@
 		<defName>Mousekin_Adulthood_Noblewoman</defName>
 		<title>Noblewoman</title>
 		<titleShort>Lady</titleShort>
-		<baseDescription>[PAWN_nameDef] is the wife of a Mousekin nobleman, and lived in a luxurious mansion with [PAWN_possessive] husband and their many children, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] spent [PAWN_possessive] days hosting tea parties for other Mousekin noblewomen, dabbled in embroidery and musical performances.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was the wife of a Mousekin nobleman, and lived in a luxurious mansion with [PAWN_possessive] husband and their many children, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] spent [PAWN_possessive] days hosting tea parties for other Mousekin noblewomen, dabbled in embroidery and musical performances.</baseDescription>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5083,7 +5083,7 @@
 		<defName>Mousekin_Adulthood_Nun</defName>
 		<title>Nun</title>
 		<titleShort>Nun</titleShort>
-		<baseDescription>As a nun in Mousekin society, [PAWN_nameDef] conducted regular ancestral rites to help guide the souls of deceased Mousekins to The Great Garden, collected tithes at the end of church services, and kept the church grounds clean and sanctified. [PAWN_pronoun] and [PAWN_possessive] fellow nuns also cared for the sick and orphaned.</baseDescription>
+		<baseDescription>[PAWN_nameDef] conducted regular ancestral rites to help guide the souls of deceased Mousekins to The Great Garden, collected tithes at the end of church services, and kept the church grounds clean and sanctified. [PAWN_pronoun] and [PAWN_possessive] fellow nuns also cared for the sick and orphaned.</baseDescription>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5183,7 +5183,7 @@
 		<defName>Mousekin_Adulthood_Priest</defName>
 		<title>Priest</title>
 		<titleShort>Priest</titleShort>
-		<baseDescription>As a priest in Mousekin society, [PAWN_nameDef] presided over a large church, preaching the words of Valerian the Wise, holding sermons and supervising dozens of sisters in conducting ancestral rites and handling religious affairs.</baseDescription>
+		<baseDescription>[PAWN_nameDef] presided over a large church, preaching the words of Valerian the Wise, holding sermons and supervising dozens of nuns in conducting ancestral rites and handling religious affairs.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5273,7 +5273,7 @@
 		<titleFemale>Princess</titleFemale>
 		<titleShort>Prince</titleShort>
 		<titleShortFemale>Princess</titleShortFemale>
-		<baseDescription>As an adult member of the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of his rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary.</baseDescription>
+		<baseDescription>Like most adults in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of his rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5610,7 +5610,7 @@
 		<defName>Mousekin_Adulthood_SlaveLaborer</defName>
 		<title>Slave laborer</title>
 		<titleShort>Slave</titleShort>
-		<baseDescription>As a Mousekin slave laborer, [PAWN_nameDef] was shuffled between different masters, who put [PAWN_objective] to work breaking rocks in mines or hauling lumber from forests, in return for a single, measly loaf of stale bread each day.\n\n[PAWN_pronoun] soon became used to watching [PAWN_possessive] fellow slaves collapse and die suddenly from starvation, disease or accidents - or be used as target practice by particularly cruel masters.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was shuffled between different slave masters, who put [PAWN_objective] to work breaking rocks in mines or hauling lumber from forests, in return for a single, measly loaf of stale bread each day.\n\n[PAWN_pronoun] soon became used to watching [PAWN_possessive] fellow slaves collapse and die suddenly from starvation, disease or accidents - or be used as target practice by particularly cruel masters.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5716,7 +5716,7 @@
 		<defName>Mousekin_Adulthood_SlaveTrader</defName>
 		<title>Slave trader</title>
 		<titleShort>Slaver</titleShort>
-		<baseDescription>Those that trade in others of their own kind are among the most despised in Mousekin society.\n\nHowever, as far as [PAWN_nameDef] is concerned, [PAWN_pronoun] is simply providing "merchandise" for those drawn to the allure of cheap, disposable labor - be it wealthy Mousekin landowners, Mousekin nobles or unscrupulous human scientists.</baseDescription>
+		<baseDescription>Those that trade in others of their own kind are among the most despised in Mousekin society.\n\nHowever, as far as [PAWN_nameDef] is concerned, [PAWN_pronoun] simply provides "merchandise" for those drawn to the allure of cheap, disposable labor - be it wealthy Mousekin landowners, Mousekin nobles or unscrupulous human scientists.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
