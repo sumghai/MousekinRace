@@ -29,6 +29,7 @@
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
