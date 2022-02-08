@@ -28,7 +28,6 @@
 		<smeltable>true</smeltable>
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<comps>
