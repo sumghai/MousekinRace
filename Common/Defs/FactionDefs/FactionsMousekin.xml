@@ -100,18 +100,7 @@
 
 	<!-- NPC Mousekin factions -->
 
-	<FactionDef Abstract="True" Name="Mousekin_AlliableNpcFactionBase" ParentName="Mousekin_FactionBase">
-		<modExtensions>
-			<li Class="VFECore.FactionDefExtension">
-				<allowedBiomes>
-					<li>BorealForest</li>
-					<li>TemperateForest</li>
-				</allowedBiomes>
-			</li>
-		</modExtensions>
-	</FactionDef>
-
-	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
+	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionKingdom</defName>
 		<label>Mousekin Kingdom</label>
 		<description>A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified, patriarchal and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or persistent enemies if angered.</description>
@@ -520,11 +509,15 @@
 					<Mousekin_FactionIndyTown>-100~-80</Mousekin_FactionIndyTown>
 					<Mousekin_FactionNomad>30~40</Mousekin_FactionNomad>
 				</startingGoodwillByFactionDefs>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>TemperateForest</li>
+				</allowedBiomes>
 			</li>
 		</modExtensions>
 	</FactionDef>
 
-	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
+	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionIndyTown</defName>
 		<label>Independent Mousekins</label>
 		<description>A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom.</description>
@@ -685,11 +678,15 @@
 					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>				
 					<Mousekin_FactionNomad>40~50</Mousekin_FactionNomad>
 				</startingGoodwillByFactionDefs>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>TemperateForest</li>
+				</allowedBiomes>
 			</li>
 		</modExtensions>
 	</FactionDef>
 
-	<FactionDef ParentName="Mousekin_AlliableNpcFactionBase">
+	<FactionDef ParentName="Mousekin_FactionBase">
 		<defName>Mousekin_FactionNomad</defName>
 		<fixedName>Rodemani</fixedName>
 		<label>Mousekin Nomads</label>
@@ -780,6 +777,11 @@
 		<modExtensions>
 			<li Class="KCSG.CustomGenOption">
 				<canSpawnSettlements>false</canSpawnSettlements>
+			</li>
+			<li Class="VFECore.FactionDefExtension">
+				<startingGoodwillByFactionDefs>
+					<OutlanderCivil>5~20</OutlanderCivil>
+				</startingGoodwillByFactionDefs>
 			</li>
 		</modExtensions>
 	</FactionDef>
