@@ -30,7 +30,7 @@
 					<count>2000</count>
 				</li>
 				
-				<!-- Spare settler outfits and dresses -->
+				<!-- Spare settler outfits, dresses and cloaks for winter -->
 				
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -44,6 +44,13 @@
 					<thingDef>Mousekin_ApparelSettlerDress</thingDef>
 					<stuff>Cloth</stuff>
 					<count>2</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_ApparelCloak</thingDef>
+					<stuff>Cloth</stuff>
+					<count>10</count>
 				</li>
 
 				<!-- Trail mix to feed 8 mice for around 12 days, enough time for the mice to plant and harvest a crop of strawberries -->
