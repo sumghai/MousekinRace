@@ -19,6 +19,7 @@
 		<invNutrition>3</invNutrition>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<!-- Temporarily give all WIP Mousekin pawnkinds settler clothing as placeholders -->
 		<apparelTags>
 			<li>MousekinStartingColonist</li>
 		</apparelTags>
@@ -67,6 +68,9 @@
 		<maxGenerationAge>40</maxGenerationAge>
 		<initialWillRange>11~14</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
+		<apparelTags>
+			<li>MousekinRoyalty</li>
+		</apparelTags>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -84,6 +88,9 @@
 		<maxGenerationAge>70</maxGenerationAge>
 		<initialWillRange>8~12</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
+		<apparelTags>
+			<li>MousekinNoble</li>
+		</apparelTags>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -303,6 +310,9 @@
 		<initialResistanceRange>8~12</initialResistanceRange>
 		<minGenerationAge>14</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinKnightApprentice</li>
+		</apparelTags>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -366,6 +376,9 @@
 		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinServantHighClass</li>
+		</apparelTags>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -386,6 +399,9 @@
 		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinServantChef</li>
+		</apparelTags>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -402,6 +418,9 @@
 		<initialResistanceRange>16~24</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>35</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinServant</li>
+		</apparelTags>
 	</PawnKindDef>
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -517,6 +536,9 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinTrader</li>
+		</apparelTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
@@ -566,6 +588,9 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinTraderSlaver</li>
+		</apparelTags>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
@@ -614,6 +639,9 @@
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags Inherit="false">
+			<li>MousekinIndyTownCouncilor</li>
+		</apparelTags>
 		<initialWillRange>9~11</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
@@ -694,6 +722,9 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinNomad</li>
+		</apparelTags>
 		<initialWillRange>3~4</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
@@ -711,6 +742,9 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>8</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinNomad</li>
+		</apparelTags>
 		<initialWillRange>3~4</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
@@ -793,6 +827,9 @@
 		</weaponTags>
 		<minGenerationAge>8</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinWanderer</li>
+		</apparelTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>33~49</initialResistanceRange>
 	</PawnKindDef>

@@ -46,6 +46,7 @@
 				<li>OnSkin</li>
 			</layers>
 			<tags>
+				<li>MousekinIndyTownCouncilor</li>
 				<li>MousekinStartingColonist</li>
 			</tags>
 			<defaultOutfitTags>
@@ -108,6 +109,7 @@
 				<li>OnSkin</li>
 			</layers>
 			<tags>
+				<li>MousekinIndyTownCouncilor</li>
 				<li>MousekinStartingColonist</li>
 			</tags>
 			<defaultOutfitTags>
@@ -381,7 +383,29 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<tags />
+			<tags>
+				<li>MousekinDoctor</li>
+				<li>MousekinGuardener</li>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinKnightApprentice</li>
+				<li>MousekinNomad</li>
+				<li>MousekinNun</li>
+				<li>MousekinPeasant</li>
+				<li>MousekinPriest</li>
+				<li>MousekinRaider</li>
+				<li>MousekinServant</li>
+				<li>MousekinServantChef</li>
+				<li>MousekinServantHighClass</li>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
+				<li>MousekinTradesman</li>
+				<li>MousekinWanderer</li>
+				<!-- Placeholders until upper-class pawnkinds get unique cloaks -->
+				<li>MousekinNoble</li>
+				<li>MousekinRoyalty</li>
+			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>
