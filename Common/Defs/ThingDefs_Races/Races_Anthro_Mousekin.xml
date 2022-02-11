@@ -1076,6 +1076,14 @@
 			<li>Mousekin_InstallNaturalEar</li>
 			<li>Mousekin_InstallNaturalTail</li>
 		</recipes>
+		<modExtensions>
+			<li Class="MousekinRace.OtherRodentRacesExtension">
+				<!-- Rodent races that are simply "different" to Mousekins -->
+				<differentRodentRaces />
+				<!-- Rodent races that are actively hostile to Mousekins -->
+				<hostileRodentRaces />
+			</li>
+		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 
 </Defs>

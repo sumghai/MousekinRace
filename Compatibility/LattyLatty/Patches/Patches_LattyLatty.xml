@@ -49,6 +49,16 @@
 					</li>
 				</value>
 			</li>
+			
+			<!-- Add Ratkins to the list of "different" rodent races -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/modExtensions/li[@Class="MousekinRace.OtherRodentRacesExtension"]/differentRodentRaces</xpath>
+				<value>
+					<li>Ratkin</li>
+					<li>Ratkin_Su</li>
+				</value>
+			</li>
 
 			<!-- 
 					Add custom thoughts for Mousekins butchering and/or eating Ratkins

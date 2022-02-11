@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GoodwillSituationDef>
+		<defName>Mousekin_Goodwill_FeudalismVsRepublic</defName>
+		<label>Rodent Feudalism vs Rodent Republic</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>Mousekin_IdeoMeme_Monarchy</meme>
+		<otherMeme>Mousekin_IdeoMeme_Republic</otherMeme>
+		<naturalGoodwillOffset>-30</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+
+	<GoodwillSituationDef>
+		<defName>Mousekin_Goodwill_PurityVsDiversity</defName>
+		<label>Rodentkind Purity vs Rodentkind Diversity</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>Mousekin_IdeoMeme_RodentPurity</meme>
+		<otherMeme>Mousekin_IdeoMeme_RodentDiversity</otherMeme>
+		<naturalGoodwillOffset>-15</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+
+	<GoodwillSituationDef>
+		<defName>Mousekin_Goodwill_NutsnatchingVsAll</defName>
+		<label>nutsnatcher</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>Mousekin_IdeoMeme_Raider</meme>
+		<versusAll>true</versusAll>
+		<naturalGoodwillOffset>-50</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+
+</Defs>

@@ -30,5 +30,10 @@ namespace MousekinRace
 
         public static JobDef Mousekin_Job_CommitSuicideWithKnife;
         public static JobDef Mousekin_Job_CommitSuicideWithPoison;
+
+        public static FactionDef Mousekin_FactionKingdom;
+
+        [MayRequireIdeology]
+        public static MemeDef Mousekin_IdeoMeme_RodentPurity;
     }
 }

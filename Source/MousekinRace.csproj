@@ -303,6 +303,9 @@
     <Compile Include="CompProperties_StateDependentBuildingEmissive.cs" />
     <Compile Include="CompStateDependentBuildingEmissive.cs" />
     <Compile Include="EarlessMousekinAlertUtility.cs" />
+    <Compile Include="GoodwillSituationWorker_BothMousekin.cs" />
+    <Compile Include="GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs" />
+    <Compile Include="GoodwillSituationWorker_PrejudicedAgainstMousekin.cs" />
     <Compile Include="JobDriver_CommitSuicide.cs" />
     <Compile Include="JobDriver_CommitSuicideWithKnife.cs" />
     <Compile Include="JobDriver_CommitSuicideWithPoison.cs" />
@@ -312,6 +315,7 @@
     <Compile Include="MousekinDefOf.cs" />
     <Compile Include="MousekinRaceMod.cs" />
     <Compile Include="NameAnimalOnTameExtension.cs" />
+    <Compile Include="OtherRodentRacesExtension.cs" />
     <Compile Include="Patches\Harmony_AlienRace_BodyAddon.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
     <Compile Include="Patches\Harmony_InteractionWorker_RecruitAttempt_DoRecruit.cs" />
