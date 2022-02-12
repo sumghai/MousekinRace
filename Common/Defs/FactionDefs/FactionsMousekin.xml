@@ -11,7 +11,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>		
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
@@ -147,10 +147,13 @@
 			<li>
 				<categories>
 					<li>MousekinCrossbowman</li>
+					<li>MousekinDoctor</li>
 					<li>MousekinGuardener</li>
+					<li>MousekinInquisitor</li>
 					<li>MousekinKnight</li>
 					<li>MousekinKnightCommander</li>
 					<li>MousekinLordProtector</li>
+					<li>MousekinLostChild</li>
 					<li>MousekinMusketeer</li>
 					<li>MousekinNoble</li>
 					<li>MousekinNun</li>
@@ -161,9 +164,12 @@
 					<li>MousekinServant</li>
 					<li>MousekinServantChef</li>
 					<li>MousekinServantHighClass</li>
+					<li>MousekinSlave</li>
 					<li>MousekinStartingColonist</li>
 					<li>MousekinTrader</li>
+					<li>MousekinTraderSlaver</li>
 					<li>MousekinTradesman</li>
+					<li>MousekinWanderer</li>
 				</categories>
 			</li>
 		</backstoryFilters>
@@ -551,7 +557,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
 		</requiredMemes>
-		<disallowedMemes>			
+		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Raider</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
@@ -625,7 +631,7 @@
 			</li>
 
 			<!-- ===== Peaceful - Passing Travellers or Visitors ===== -->
-			
+
 			<!-- Indy Town soldiers escorting farmers -->
 			<li>
 				<kindDef>Peaceful</kindDef>
@@ -636,7 +642,7 @@
 					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
 				</options>
 			</li>
-			
+
 			<!-- ===== Traders ===== -->
 
 			<!-- Regular Caravan Trader -->
@@ -675,7 +681,7 @@
 			<li Class="VFECore.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<Mousekin_PlayerFaction_Settlers>10~20</Mousekin_PlayerFaction_Settlers>
-					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>				
+					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>
 					<Mousekin_FactionNomad>40~50</Mousekin_FactionNomad>
 				</startingGoodwillByFactionDefs>
 				<allowedBiomes>
@@ -722,7 +728,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
 		</requiredMemes>
-		<disallowedMemes>			
+		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Raider</li>
@@ -736,6 +742,7 @@
 		<backstoryFilters>
 			<li>
 				<categories>
+					<li>MousekinNomad</li>
 					<li>MousekinTraderNomad</li>
 				</categories>
 			</li>
@@ -746,7 +753,7 @@
 		<pawnGroupMakers>
 
 			<!-- ===== Peaceful - Passing Travellers or Visitors ===== -->
-			
+
 			<!-- Nomad caravan -->
 			<li>
 				<kindDef>Peaceful</kindDef>
@@ -756,7 +763,7 @@
 					<MousekinTraderNomad>2</MousekinTraderNomad>
 				</options>
 			</li>
-			
+
 			<!-- ===== Traders ===== -->
 
 			<!-- Regular Caravan Trader -->
