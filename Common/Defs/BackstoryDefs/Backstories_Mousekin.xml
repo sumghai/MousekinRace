@@ -1751,6 +1751,9 @@
 			<li>Social</li>
 			<li>Animals</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<relationSettings>
 			<!-- No wife or children -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -2512,6 +2515,9 @@
 			<li>Social</li>
 			<li>Animals</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<relationSettings>
 			<!-- No wife or children -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -2598,6 +2604,9 @@
 			<li>Social</li>
 			<li>Animals</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<relationSettings>
 			<!-- No wife or children -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -2673,6 +2682,9 @@
 			<li>Intellectual</li>
 			<li>Social</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<relationSettings>
 			<!-- Lost his/her entire family to starvation and disease -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -3375,6 +3387,9 @@
 		<workDisables>
 			<li>Mining</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinGuardener</li>
 		</spawnCategories>
@@ -3494,6 +3509,9 @@
 		<workDisables>
 			<li>Mining</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinGuardener</li>
 		</spawnCategories>
@@ -3609,6 +3627,9 @@
 		<workDisables>
 			<li>Mining</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinGuardener</li>
 		</spawnCategories>
@@ -3808,6 +3829,9 @@
 				<degree>-1</degree>
 			</li>
 		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
 		</spawnCategories>
@@ -3880,6 +3904,9 @@
 				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinIndyTownCouncilor</li>
 		</spawnCategories>
@@ -4038,6 +4065,9 @@
 				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinIndyTownSoldier</li>
 		</spawnCategories>
@@ -4188,6 +4218,9 @@
 			<li>Animals</li>
 			<li>Mining</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<relationSettings>
 			<!-- Unmarried and childless, but may take (or previously have) lovers -->
 			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
@@ -4273,6 +4306,9 @@
 			<li>Animals</li>
 			<li>Mining</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<relationSettings>
 			<!-- No current or past lovers, and divorce is frowned upon in clergy -->
 			<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -5757,6 +5793,9 @@
 				<defName>Wimp</defName>
 			</li>
 		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<relationSettings>
 			<!-- Unmarried and childless due to the social stigma of being slave traders, but may take (or previously have) lovers -->
 			<relationChanceModifierFiance>0</relationChanceModifierFiance>
@@ -5820,6 +5859,9 @@
 			<li>Social</li>
 			<li>Animals</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinCrossbowman</li>
 		</spawnCategories>
@@ -5874,6 +5916,9 @@
 			<li>Social</li>
 			<li>Animals</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinMusketeer</li>
 		</spawnCategories>
@@ -5924,6 +5969,9 @@
 			<li>Social</li>
 			<li>Animals</li>
 		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
 		<spawnCategories>
 			<li>MousekinPikeman</li>
 		</spawnCategories>
