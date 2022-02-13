@@ -80,7 +80,6 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Alchemist</linkedBackstory>
@@ -176,7 +175,6 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Blacksmith</linkedBackstory>
@@ -303,7 +301,6 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Cobbler</linkedBackstory>
@@ -395,7 +392,6 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Cooper</linkedBackstory>
@@ -730,7 +726,6 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Joiner</linkedBackstory>
@@ -993,7 +988,6 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Mason</linkedBackstory>
@@ -1259,7 +1253,6 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Adulthood_Seamstress</linkedBackstory>
@@ -1813,7 +1806,6 @@
 			</li>
 		</disallowedTraits>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_AlchemistApprentice</linkedBackstory>
@@ -1920,7 +1912,6 @@
 			<li>Intellectual</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_BlacksmithApprentice</linkedBackstory>
@@ -1946,7 +1937,6 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
@@ -2336,7 +2326,6 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_CobblerApprentice</linkedBackstory>
@@ -2445,7 +2434,6 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_CooperApprentice</linkedBackstory>
@@ -3115,7 +3103,6 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
@@ -4344,7 +4331,6 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_JoinerApprentice</linkedBackstory>
@@ -4758,7 +4744,6 @@
 			<li>Animals</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_MasonApprentice</linkedBackstory>
@@ -5438,7 +5423,6 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinStartingColonist</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_SeamstressApprentice</linkedBackstory>
