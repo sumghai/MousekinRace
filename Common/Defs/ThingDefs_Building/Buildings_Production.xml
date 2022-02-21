@@ -126,7 +126,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>Mousekin_WorkbenchSmithy</defName>
 		<label>Mousekin smithy</label>
-		<description>A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel.</description>
+		<description>A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
@@ -205,13 +205,16 @@
 				</linkableFacilities>
 			</li>
 		</comps>
-		<placeWorkers>
+		<placeWorkers Inherit="false">
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>Smithing</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="MousekinRace.BuildingIgnoreWorkSpeedPenaltiesExtension" />
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin seamstress bench -->

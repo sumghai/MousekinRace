@@ -306,6 +306,7 @@
     <Compile Include="GoodwillSituationWorker_BothMousekin.cs" />
     <Compile Include="GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs" />
     <Compile Include="GoodwillSituationWorker_PrejudicedAgainstMousekin.cs" />
+    <Compile Include="BuildingIgnoreWorkSpeedPenaltiesExtension.cs" />
     <Compile Include="JobDriver_CommitSuicide.cs" />
     <Compile Include="JobDriver_CommitSuicideWithKnife.cs" />
     <Compile Include="JobDriver_CommitSuicideWithPoison.cs" />
@@ -326,6 +327,8 @@
     <Compile Include="Patches\Harmony_PawnGenerator.cs" />
     <Compile Include="Patches\Harmony_Pawn_MindState.cs" />
     <Compile Include="Patches\Harmony_Pawn_RelationsTracker_SecondaryRomanceChanceFactor.cs" />
+    <Compile Include="Patches\Harmony_StatPart_WorkTableOutdoors.cs" />
+    <Compile Include="Patches\Harmony_StatPart_WorkTableTemperature.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RawMeatTradeTagPatch.cs" />
     <Compile Include="RomanceUtilsExtension.cs" />
