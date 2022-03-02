@@ -1,5 +1,31 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
+	<!-- Clockwork Mechanism (pre-industrial component) -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_ClockworkComponent</defName>
+		<label>Clockwork Mechanism</label>
+		<description>Assorted metal springs, gears and levers used for crafting complex Mousekin devices.</description>
+		<graphicData>
+			<texPath>Things/Items/Mousekin_ClockworkComponent</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>50</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<MarketValue>16</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
 
 	<!-- Mousekin poultice (potency between vanilla herbal and industrial medicine) -->
 	<ThingDef ParentName="MedicineBase">

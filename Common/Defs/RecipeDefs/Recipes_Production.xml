@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef Name="MousekinMakeComponentBase" Abstract="True">
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchCrafting</li>
+		</recipeUsers>
+		<researchPrerequisite>Mousekin_ResearchMachineryBasic</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakeComponentBase">
+		<defName>Mousekin_Make_ClockworkComponent</defName>
+		<label>make Clockwork Mechanism</label>
+		<description>Make a Clockwork Mechanism by forming and trimming steel into intricate metal components.</description>
+		<jobString>Making a Clockwork Mechanism.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_ClockworkComponent>1</Mousekin_ClockworkComponent>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MousekinMakeComponentBase">
+		<defName>Mousekin_Make_ClockworkComponentBulk</defName>
+		<label>make Clockwork Mechanism x5</label>
+		<description>Make a batch of Clockwork Mechanisms by forming and trimming steel into intricate metal components.</description>
+		<jobString>Making Clockwork Mechanisms.</jobString>
+		<workAmount>10000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_ClockworkComponent>5</Mousekin_ClockworkComponent>
+		</products>
+	</RecipeDef>
+
+</Defs>
