@@ -531,7 +531,7 @@
 			<li>Mousekin_MeleeWeapon_Guardener</li>
 		</weaponTags>
 		<recipeMaker>
-			<researchPrerequisite>Smithing</researchPrerequisite>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 				<Artistic>4</Artistic>
@@ -597,7 +597,7 @@
 				<li>CraftingSpot</li>
 				<li>Mousekin_WorkbenchCrafting</li>
 			</recipeUsers>
-			<!-- No research prerequisite -->
+			<researchPrerequisite>LongBlades</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 				<Artistic>4</Artistic>
