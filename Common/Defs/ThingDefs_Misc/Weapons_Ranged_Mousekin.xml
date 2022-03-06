@@ -22,14 +22,6 @@
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 		</recipeMaker>
 	</ThingDef>
-
-	<ThingDef Name="Mousekin_ProjectileCrossbowBoltBase" ParentName="BaseProjectileNeolithic" Abstract="True">
-		<label>crossbow bolt</label>
-		<graphicData>
-			<texPath>Things/Projectile/Mousekin_CrossbowBolt</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingDef>
 	
 	<!-- ========================= Crossbows ==========================-->
 
@@ -94,17 +86,6 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
-	</ThingDef>
-
-	<ThingDef ParentName="Mousekin_ProjectileCrossbowBoltBase">
-		<defName>Bolt_Mousekin_RangedWeapon_Crossbow</defName>
-		<projectile>
-			<damageDef>Mousekin_CrossbowBolt</damageDef>
-			<damageAmountBase>25</damageAmountBase>
-			<stoppingPower>1.1</stoppingPower>
-			<armorPenetrationBase>0.55</armorPenetrationBase>
-			<speed>60</speed>
-		</projectile>
 	</ThingDef>
 
 </Defs>
