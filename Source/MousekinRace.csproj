@@ -302,6 +302,7 @@
     <Compile Include="CompProperties_ApparelWithAttachedHeadgear.cs" />
     <Compile Include="CompProperties_StateDependentBuildingEmissive.cs" />
     <Compile Include="CompStateDependentBuildingEmissive.cs" />
+    <Compile Include="DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="EarlessMousekinAlertUtility.cs" />
     <Compile Include="GoodwillSituationWorker_BothMousekin.cs" />
     <Compile Include="GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs" />

@@ -25,6 +25,7 @@ namespace MousekinRace
 
         public static MentalStateDef Mousekin_MentalState_EarlessSuicide;
 
+        public static DamageDef Mousekin_GunpowderExplosion;
         public static DamageDef Mousekin_SuicideKnife;
         public static DamageDef Mousekin_SuicidePoison;
 
