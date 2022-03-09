@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Gunpowder residue -->
+
+	<ThingDef ParentName="BaseFilth">
+		<defName>Mousekin_Filth_Gunpowder</defName>
+		<label>gunpowder residue</label>
+		<thingClass>LiquidFuel</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Beauty>-12</Beauty>
+			<Cleanliness>-15</Cleanliness>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>6.0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Filth/Ash</texPath>
+			<color>(50, 50, 50, 220)</color>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<filth>
+			<ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+			<disappearsInDays>10~15</disappearsInDays>
+			<cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+			<canFilthAttach>true</canFilthAttach>
+			<maxThickness>1</maxThickness>
+		</filth>
+	</ThingDef>
+
+</Defs>

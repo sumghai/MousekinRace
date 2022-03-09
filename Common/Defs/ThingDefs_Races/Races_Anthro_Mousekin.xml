@@ -893,8 +893,15 @@
 					<li>Mousekin_MeleeWeapon_Pitchfork</li>
 					<li>Mousekin_MeleeWeapon_SwordGuardener</li>
 					<li>Mousekin_MeleeWeapon_SwordGuardenerTraining</li>
+					<li>Mousekin_MeleeWeapon_SwordKnight</li>
 					<li>Mousekin_RangedWeapon_Crossbow</li>
 				</weaponList>
+				<!-- 
+					Note: The following Mousekin weapons have handles/grips large enough for other races to use: 
+					- Mousekin_MeleeWeapon_PikeRegular
+					- Mousekin_MeleeWeapon_PikeThunder
+					- Mousekin_MeleeWeapon_SwordKnightLarge
+				-->
 
 				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction only -->
 				<buildingList>

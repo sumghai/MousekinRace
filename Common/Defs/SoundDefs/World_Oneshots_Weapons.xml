@@ -17,4 +17,19 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef>
+		<defName>Mousekin_Firecracker_Launch</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>4</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>mousekin_firecracker_launch</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

@@ -45,6 +45,46 @@
 		</weaponClasses>
 	</ThingDef>
 
+	<ThingDef Name="Mousekin_MeleeWeapon_PikeBase" ParentName="Mousekin_MeleeWeaponSharp_Base" Abstract="True">
+		<equippedStatOffsets>
+			<MoveSpeed>-0.75</MoveSpeed>
+		</equippedStatOffsets>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Poke</li>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>3</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>30</power>
+				<armorPenetration>0.70</armorPenetration>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>18</power>
+				<armorPenetration>0.40</armorPenetration>
+				<cooldownTime>3</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<li>
+				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
 	<!-- Mousekin Axe -->
 	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
 		<defName>Mousekin_MeleeWeapon_Axe</defName>
@@ -452,6 +492,85 @@
 		</tools>
 	</ThingDef>
 
+	<!-- Mousekin Pike -->
+	<ThingDef ParentName="Mousekin_MeleeWeapon_PikeBase">
+		<defName>Mousekin_MeleeWeapon_PikeRegular</defName>
+		<label>Mousekin Pike</label>
+		<description>A long polearm weapon, the Mousekin Pike is technically a pike-halberd hybrid, with a spear tip for fending off enemy cavalry charges, a hooked blade to pull enemy knights off their mounts, and an axe-like blade to deliver the final killing blow. It is also one of the few Mousekin weapons that humans can wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_PikeRegular</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<costList>
+			<WoodLog>50</WoodLog>
+			<Steel>35</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>6500</WorkToMake>
+			<Mass>2.5</Mass>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon</li>
+			<li>Mousekin_MeleeWeapon_Pikeman</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedAngleOffset>20</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+	</ThingDef>
+
+	<!-- Mousekin Thunderpike -->
+	<ThingDef ParentName="Mousekin_MeleeWeapon_PikeBase">
+		<defName>Mousekin_MeleeWeapon_PikeThunder</defName>
+		<label>Mousekin Thunderpike</label>
+		<description>A variant of the standard Mousekin Pike used by soldiers from Independent Mousekin towns, with a large firecracker tied to its spear end capable of blasting enemy Mousekin knights or setting them on fire. It is also one of the few Mousekin weapons that humans can wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_PikeThunder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<costList>
+			<WoodLog>50</WoodLog>
+			<Steel>35</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>2.75</Mass>
+			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_IndyTown</li>
+		</weaponTags>
+		<!-- Indy Town exclusive weapon - probably not craftable -->
+		<recipeMaker Inherit="False" isNull="True"/>
+		<equippedAngleOffset>20</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Mousekin_FirecrackerRocket</defaultProjectile>
+				<forcedMissRadius>2.9</forcedMissRadius>
+				<warmupTime>2.5</warmupTime>
+				<minRange>7.5</minRange>
+				<ai_AvoidFriendlyFireRadius>7.5</ai_AvoidFriendlyFireRadius>
+				<range>50</range>
+				<soundCast>Mousekin_Firecracker_Launch</soundCast>
+				<onlyManualCast>true</onlyManualCast>
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+
+	</ThingDef>
+
 	<!-- Mousekin Pitchfork -->
 	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
 		<defName>Mousekin_MeleeWeapon_Pitchfork</defName>
@@ -621,6 +740,117 @@
 				</capacities>
 				<power>16</power>
 				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Knight’s Sword -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_SwordKnight</defName>
+		<label>Mousekin Knight’s Sword</label>
+		<description>A longsword perfectly balanced for one-handed use, good for stabbing or slashing. Its handle is too small and thin for a human to wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_SwordKnight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<WoodLog>10</WoodLog>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>16000</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<equippedStatOffsets/>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon</li>
+			<li>Mousekin_MeleeWeapon_Knight</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe><tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Knight’s Greatsword -->
+	<ThingDef ParentName="Mousekin_MeleeWeaponSharp_Base">
+		<defName>Mousekin_MeleeWeapon_SwordKnightLarge</defName>
+		<label>Mousekin Knight’s Greatsword</label>
+		<description>A long and heavy sword that requires both hands to wield, but if used properly, can literally split an enemy in two. It is also one of the few Mousekin weapons that humans can wield properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponMelee/Mousekin_SwordKnightLarge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<WoodLog>10</WoodLog>
+			<Steel>35</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>1.8</Mass>
+		</statBases>
+		<equippedStatOffsets/>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon</li>
+			<li>Mousekin_MeleeWeapon_KnightCommander</li>
+		</weaponTags>
+		<!-- Kingdom exclusive weapon for Knight Commanders - probably not craftable -->
+		<recipeMaker Inherit="False" isNull="True"/>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<burnableByRecipe>false</burnableByRecipe>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>27</power>
+				<cooldownTime>2.9</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>27</power>
+				<cooldownTime>2.9</cooldownTime>
 			</li>
 		</tools>
 	</ThingDef>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- Crossbow bolts -->
-	
+
 	<ThingDef Name="Mousekin_ProjectileCrossbowBoltBase" ParentName="BaseProjectileNeolithic" Abstract="True">
 		<label>crossbow bolt</label>
 		<graphicData>
@@ -19,6 +19,31 @@
 			<stoppingPower>1.1</stoppingPower>
 			<armorPenetrationBase>0.55</armorPenetrationBase>
 			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- Firecracker rockets -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Mousekin_FirecrackerRocket</defName>
+		<label>firecracker rocket</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mousekin_FirecrackerRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Mousekin_GunpowderExplosion</damageDef>
+			<explosionRadius>2.4</explosionRadius>
+			<preExplosionSpawnThingDef>Mousekin_Filth_Gunpowder</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.33</preExplosionSpawnChance>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shadowSize>0.6</shadowSize>
+			<speed>50</speed>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 		</projectile>
 	</ThingDef>
 
