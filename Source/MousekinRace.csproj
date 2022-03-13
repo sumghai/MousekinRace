@@ -324,6 +324,7 @@
     <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
     <Compile Include="Patches\Harmony_PawnGraphicSet_ResolveApparelGraphics.cs" />
     <Compile Include="Patches\Harmony_PawnRelationWorker_Sibling.cs" />
+    <Compile Include="Patches\Harmony_PawnRenderer_DrawEquipment.cs" />
     <Compile Include="Patches\Harmony_Pawn_HealthTracker.cs" />
     <Compile Include="Patches\Harmony_PawnGenerator.cs" />
     <Compile Include="Patches\Harmony_Pawn_MindState.cs" />
@@ -342,6 +343,7 @@
     <Compile Include="Thought_OtherMousekinHasProstheticOpinions.cs" />
     <Compile Include="TraitConflictResolverExtension.cs" />
     <Compile Include="Utils.cs" />
+    <Compile Include="WeaponRenderingExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

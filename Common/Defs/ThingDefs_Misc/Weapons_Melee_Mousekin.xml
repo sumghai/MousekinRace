@@ -48,7 +48,8 @@
 	<ThingDef Name="Mousekin_MeleeWeapon_PikeBase" ParentName="Mousekin_MeleeWeaponSharp_Base" Abstract="True">
 		<equippedStatOffsets>
 			<MoveSpeed>-0.75</MoveSpeed>
-		</equippedStatOffsets>
+		</equippedStatOffsets>	
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>shaft</label>
@@ -83,6 +84,26 @@
 				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
 			</li>
 		</comps>
+		<modExtensions>
+			<li Class="MousekinRace.WeaponRenderingExtension">
+				<draftedDrawOffsets>
+					<north>
+						<posOffset>(0.25, 0, 0.25)</posOffset>
+					</north>
+					<east>
+						<posOffset>(0.25, 0, 0.25)</posOffset>
+						<angOffset>10</angOffset>
+					</east>
+					<south>
+						<posOffset>(-0.25, 0, 0.25)</posOffset>
+					</south>
+					<west>
+						<posOffset>(-0.25, 0, 0.25)</posOffset>
+						<angOffset>-10</angOffset>
+					</west>
+				</draftedDrawOffsets>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Axe -->
@@ -520,7 +541,6 @@
 				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<equippedAngleOffset>20</equippedAngleOffset>
 		<burnableByRecipe>false</burnableByRecipe>
 	</ThingDef>
 
@@ -548,7 +568,6 @@
 		</weaponTags>
 		<!-- Indy Town exclusive weapon - probably not craftable -->
 		<recipeMaker Inherit="False" isNull="True"/>
-		<equippedAngleOffset>20</equippedAngleOffset>
 		<burnableByRecipe>false</burnableByRecipe>
 		<verbs>
 			<li>
