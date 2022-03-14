@@ -5,6 +5,7 @@ using Verse;
 
 namespace MousekinRace.Patches
 {
+    // Conditionally hide body addons (e.g. ears) if a hooded headgear is worn
     [HarmonyPatch(typeof(AlienPartGenerator.BodyAddon), nameof(AlienPartGenerator.BodyAddon.CanDrawAddon))]
     public static class Harmony_AlienRace_BodyAddon_CanDrawAddon_HideUnderApparelWithAttachedHeadgear
     {

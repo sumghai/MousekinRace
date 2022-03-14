@@ -7,6 +7,8 @@ using Verse.AI;
 
 namespace MousekinRace.Patches
 {
+    // Prevent Apostates (1) and Devotionists (2) from ever praying
+    // Nones (0), Pious (3) and Inquisitionists are allowed
     [HarmonyPatch]
     public static class Harmony_JoyGiver_RestrictPrayerByFaithDegree
     {
@@ -20,8 +22,6 @@ namespace MousekinRace.Patches
         {           
             int pawnFaithTraitDegree = pawn.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith);
 
-            // Prevent Apostates (1) and Devotionists (2) from ever praying
-            // Nones (0), Pious (3) and Inquisitionists are allowed
             if (pawnFaithTraitDegree > 0 && pawnFaithTraitDegree < 3)
             {
                 __result = null;

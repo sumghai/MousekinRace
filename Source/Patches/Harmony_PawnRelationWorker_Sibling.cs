@@ -12,15 +12,15 @@ namespace MousekinRace.Patches
     // - Parents of Mousekin colonists only ever spawn in the first available Mousekin Kingdom faction
     // - Parents of non-Mousekins do not spawn in any Mousekin factions
     [HarmonyPatch(typeof(PawnRelationWorker_Sibling), nameof(PawnRelationWorker_Sibling.GenerateParent))]
-    public static class Harmony_PawnRelationWorker_Sibling_GenerateParent
+    public static class Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom
     {
         static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var factionOriginalMethod = AccessTools.Method(typeof(FactionManager), nameof(FactionManager.TryGetRandomNonColonyHumanlikeFaction));
-            var factionNewMethod = AccessTools.Method(typeof(Harmony_PawnRelationWorker_Sibling_GenerateParent), nameof(Harmony_PawnRelationWorker_Sibling_GenerateParent.SetFactionByRace));
+            var factionNewMethod = AccessTools.Method(typeof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom), nameof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom.SetFactionByRace));
 
             var generatedParentPawnOriginalMethod = AccessTools.Method(typeof(PawnGenerator), nameof(PawnGenerator.GeneratePawn), new Type[] { typeof(PawnGenerationRequest) });
-            var generatedParentPawnNewMethod = AccessTools.Method(typeof(Harmony_PawnRelationWorker_Sibling_GenerateParent), nameof(Harmony_PawnRelationWorker_Sibling_GenerateParent.GeneratePawnKindByRace));
+            var generatedParentPawnNewMethod = AccessTools.Method(typeof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom), nameof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom.GeneratePawnKindByRace));
 
             foreach (var instruction in instructions)
             {
@@ -64,7 +64,7 @@ namespace MousekinRace.Patches
 
     // Ensure Mousekin parents are at least 20~30 years older than their oldest child, and have no cryptosleep-related shenanigans
     [HarmonyPatch(typeof(PawnRelationWorker_Sibling), nameof(PawnRelationWorker_Sibling.GenerateParentParams))]
-    public static class Temp_Harmony_Test123
+    public static class Harmony_PawnRelationWorer_Sibling_GenerateParentParams_SetSensibleAges
     {
         static void Postfix(Pawn generatedChild, Pawn existingChild, ref float biologicalAge, ref float chronologicalAge)
         {

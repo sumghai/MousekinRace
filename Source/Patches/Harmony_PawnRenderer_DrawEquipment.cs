@@ -1,12 +1,11 @@
 ﻿using HarmonyLib;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using Verse;
 
 namespace MousekinRace.Patches
 {
-    [HarmonyPatch(typeof(PawnRenderer), nameof(PawnRenderer.DrawEquipmentAiming))]
+    // Offset the position and rotation of weapons on drafted pawns, if custom offset data is provided for the weapon
+	[HarmonyPatch(typeof(PawnRenderer), nameof(PawnRenderer.DrawEquipmentAiming))]
     public static class Harmony_PawnRenderer_DrawEquipmentAiming
     {
 		public static void Prefix(PawnRenderer __instance, Thing eq, ref Vector3 drawLoc, ref float aimAngle)

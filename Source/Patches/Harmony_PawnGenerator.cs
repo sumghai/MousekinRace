@@ -2,11 +2,11 @@
 using RimWorld;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using Verse;
 
 namespace MousekinRace.Patches
 {
+    // Remove traits that conflict with each degree of the Mousekin Faith spectrum
     [HarmonyPatch(typeof(PawnGenerator), nameof(PawnGenerator.GeneratePawn), new Type[] { typeof(PawnGenerationRequest) })]
     public static class Harmony_PawnGenerator_RemoveTraitsConflictingWithFaithSpectrum
     {

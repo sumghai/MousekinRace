@@ -5,6 +5,7 @@ using Verse.AI;
 
 namespace MousekinRace.Patches
 {
+    // Put earless Mousekins in a suicidal state once they have reached the critical time threshold
     [HarmonyPatch(typeof(Pawn_MindState), nameof(Pawn_MindState.MindStateTick))]
     public static class Harmony_Pawn_MindState_EarlessMousekinSuicideWatcher
     {
