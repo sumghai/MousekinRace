@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- ========================= Base abtracts ==========================-->
-	
+	<!-- ========================= Base abtracts ========================== -->
+
 	<ThingDef Name="Mousekin_RangedWeapon_Base" ParentName="BaseGunWithQuality" Abstract="True">
 		<techLevel>Medieval</techLevel>
 		<relicChance>0</relicChance>
@@ -22,8 +22,8 @@
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 		</recipeMaker>
 	</ThingDef>
-	
-	<!-- ========================= Crossbows ==========================-->
+
+	<!-- ========================= Crossbows ========================== -->
 
 	<!-- Mousekin Hunter’s Crossbow -->
 	<ThingDef ParentName="Mousekin_RangedWeapon_Base">
@@ -36,8 +36,8 @@
 		</graphicData>
 		<soundInteract>Bow_Recurve</soundInteract>
 		<costList>
-			<WoodLog>40</WoodLog>
-			<Steel>25</Steel>
+			<WoodLog>35</WoodLog>
+			<Steel>30</Steel>
 		</costList>
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
@@ -71,7 +71,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bolt_Mousekin_RangedWeapon_Crossbow</defaultProjectile>
 				<warmupTime>1.2</warmupTime>
-				<range>35</range>
+				<range>25</range>
 				<soundCast>Mousekin_Crossbow_Fire</soundCast>
 			</li>
 		</verbs>
