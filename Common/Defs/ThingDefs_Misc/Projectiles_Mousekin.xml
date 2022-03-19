@@ -44,4 +44,38 @@
 		</projectile>
 	</ThingDef>
 
+	<!-- Musket Balls -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Mousekin_MusketBall</defName>
+		<label>lead ball</label>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>18</damageAmountBase>
+			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<speed>56</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Projectile/Mousekin_MusketBall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Mousekin_BlunderbussPellets</defName>
+		<label>lead ball</label>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>30</damageAmountBase>
+			<stoppingPower>3.5</stoppingPower>
+			<armorPenetrationBase>0.45</armorPenetrationBase>
+			<speed>56</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Projectile/Mousekin_BlunderbussPellets</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
 </Defs>
