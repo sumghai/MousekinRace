@@ -91,15 +91,15 @@
 						<posOffset>(0.25, 0, 0.25)</posOffset>
 					</north>
 					<east>
-						<posOffset>(0.25, 0, 0.25)</posOffset>
-						<angOffset>10</angOffset>
+						<posOffset>(0.3, 0, 0.20)</posOffset>
+						<angOffset>21</angOffset>
 					</east>
 					<south>
 						<posOffset>(-0.25, 0, 0.25)</posOffset>
 					</south>
 					<west>
-						<posOffset>(-0.25, 0, 0.25)</posOffset>
-						<angOffset>-10</angOffset>
+						<posOffset>(-0.3, 0, 0.20)</posOffset>
+						<angOffset>339</angOffset>
 					</west>
 				</draftedDrawOffsets>
 			</li>
