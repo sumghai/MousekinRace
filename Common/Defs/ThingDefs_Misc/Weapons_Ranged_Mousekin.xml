@@ -178,7 +178,8 @@
 		</statBases>
 		<weaponTags>
 			<li>Mousekin_RangedWeapon</li>
-			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
+			<li>Mousekin_RangedWeapon_Musketeer</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>LongShots</li>
@@ -272,7 +273,7 @@
 		</statBases>
 		<weaponTags>
 			<li>Mousekin_RangedWeapon</li>
-			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>Ranged</li>

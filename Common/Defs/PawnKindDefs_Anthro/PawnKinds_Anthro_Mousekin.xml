@@ -5,7 +5,7 @@
 		- Mice are harder to recruit, due to their mild mistrust of humans
 		- Paradoxically, they are usually easier to enslave due to their small size and weakness, and can be more quickly cowed into submission
 	-->
-	
+
 	<PawnKindDef Abstract="True" Name="Mousekin_BasePawnKind">
 		<race>Mousekin</race>
 		<combatPower>20</combatPower>
@@ -48,9 +48,9 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
-	
-	<!-- NPCs from Mousekin Kingdom faction type -->	
-	
+
+	<!-- NPCs from Mousekin Kingdom faction type -->
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinRoyalty</defName>
 		<label>Mousekin royalty</label>
@@ -72,7 +72,7 @@
 			<li>MousekinRoyalty</li>
 		</apparelTags>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinNoble</defName>
 		<label>Mousekin noble</label>
@@ -92,7 +92,7 @@
 			<li>MousekinNoble</li>
 		</apparelTags>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinInquisitor</defName>
 		<label>Mousekin inquisitor</label>
@@ -114,7 +114,7 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinPriest</defName>
 		<label>Mousekin priest</label>
@@ -140,7 +140,7 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinNun</defName>
 		<label>Mousekin nun</label>
@@ -166,7 +166,7 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinLordProtector</defName>
 		<label>Lord Protector</label>
@@ -182,6 +182,11 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<forceWeaponQuality>Legendary</forceWeaponQuality>
+		<weaponMoney>1000~2000</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_KnightCommander</li>
+		</weaponTags>
 		<initialWillRange>13~15</initialWillRange>
 		<initialResistanceRange>45~65</initialResistanceRange>
 		<minGenerationAge>40</minGenerationAge>
@@ -193,7 +198,7 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinKnightCommander</defName>
 		<label>Mousekin knight commander</label>
@@ -208,12 +213,17 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<itemQuality>Excellent</itemQuality>
+		<weaponMoney>180~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_KnightCommander</li>
+		</weaponTags>
 		<initialWillRange>9~13</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
 		<minGenerationAge>40</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinGuardenerElite</defName>
 		<label>Mousekin elite Guardener</label>
@@ -244,7 +254,7 @@
 		<initialWillRange>8~12</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinKnight</defName>
 		<label>Mousekin knight</label>
@@ -259,6 +269,11 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>160~180</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Knight</li>
+		</weaponTags>
 		<initialWillRange>7~10</initialWillRange>
 		<initialResistanceRange>39~59</initialResistanceRange>
 		<minGenerationAge>18</minGenerationAge>
@@ -270,7 +285,7 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinGuardener</defName>
 		<label>Mousekin Guardener</label>
@@ -299,7 +314,7 @@
 		<initialWillRange>6~9</initialWillRange>
 		<initialResistanceRange>39~59</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinKnightApprentice</defName>
 		<label>Mousekin squire</label>
@@ -312,6 +327,11 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>130~180</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Knight</li>
+		</weaponTags>
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>8~12</initialResistanceRange>
 		<minGenerationAge>14</minGenerationAge>
@@ -326,7 +346,7 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinGuardenerApprentice</defName>
 		<label>Mousekin apprentice Guardener</label>
@@ -353,7 +373,7 @@
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>8~12</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinDoctor</defName>
 		<label>Mousekin doctor</label>
@@ -373,7 +393,7 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinServantHighClass</defName>
 		<label>Mousekin servant</label>
@@ -392,7 +412,7 @@
 			<li>MousekinServantHighClass</li>
 		</apparelTags>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinServantChef</defName>
 		<label>Mousekin chef</label>
@@ -415,7 +435,7 @@
 			<li>MousekinServantChef</li>
 		</apparelTags>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinServant</defName>
 		<label>Mousekin servant</label>
@@ -434,7 +454,7 @@
 			<li>MousekinServant</li>
 		</apparelTags>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinTradesman</defName>
 		<label>Mousekin tradesman</label>
@@ -458,7 +478,7 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinMusketeer</defName>
 		<label>Mousekin mouseketeer</label>
@@ -471,13 +491,18 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<forceWeaponQuality>Normal</forceWeaponQuality>
+		<weaponMoney>250</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Musketeer</li>
+		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinCrossbowman</defName>
 		<label>Mousekin crossbowman</label>
@@ -492,15 +517,14 @@
 		</backstoryFiltersOverride>
 		<gearHealthRange>0.9~1.5</gearHealthRange>
 		<itemQuality>Normal</itemQuality>
-		<weaponMoney>150~200</weaponMoney>
+		<weaponMoney>200~250</weaponMoney>
 		<weaponTags>
-			<!-- todo - replace with automatic crossbow -->
-			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
 		<initialWillRange>2~3</initialWillRange>
-		<initialResistanceRange>18~27</initialResistanceRange>		
+		<initialResistanceRange>18~27</initialResistanceRange>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -508,7 +532,7 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinPikeman</defName>
 		<label>Mousekin pikeman</label>
@@ -521,13 +545,19 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<gearHealthRange>0.8~1.0</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~160</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Pikeman</li>
+		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinTrader</defName>
 		<label>Mousekin trader</label>
@@ -554,7 +584,7 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinPeasant</defName>
 		<label>Mousekin peasant</label>
@@ -606,7 +636,7 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinSlave</defName>
 		<label>Mousekin slave</label>
@@ -623,13 +653,13 @@
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<!-- NPCs from Independent Mousekins faction type (tougher to enslave, because they fought hard for their own freedom in the first place) -->
-	
+
 	<PawnKindDef Abstract="True" Name="Mousekin_FactionIndyTown_BasePawnKind" ParentName="Mousekin_BasePawnKind">
 		<defaultFactionType>Mousekin_FactionIndyTown</defaultFactionType>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
 		<defName>MousekinIndyTownCouncilor</defName>
 		<label>Mousekin councilor</label>
@@ -645,9 +675,11 @@
 		</backstoryFiltersOverride>
 		<gearHealthRange>2~3</gearHealthRange>
 		<itemQuality>Good</itemQuality>
-		<weaponMoney>150~200</weaponMoney>
+		<weaponMoney>150~300</weaponMoney>
 		<weaponTags>
 			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
@@ -657,7 +689,7 @@
 		<initialWillRange>9~11</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
 		<defName>MousekinIndyTownSoldier</defName>
 		<label>Mousekin town soldier</label>
@@ -672,9 +704,12 @@
 		</backstoryFiltersOverride>
 		<gearHealthRange>1~2</gearHealthRange>
 		<itemQuality>Normal</itemQuality>
-		<weaponMoney>150~200</weaponMoney>
+		<weaponMoney>150~250</weaponMoney>
 		<weaponTags>
+			<li>Mousekin_MeleeWeapon_IndyTown</li>
 			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
@@ -691,7 +726,7 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
 		<defName>MousekinIndyTownFarmer</defName>
 		<label>Mousekin town farmer</label>
@@ -709,6 +744,7 @@
 		<weaponMoney>150~200</weaponMoney>
 		<weaponTags>
 			<li>Mousekin_Tool_Peasant</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
@@ -719,13 +755,13 @@
 		<initialWillRange>5~6</initialWillRange>
 		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<!-- NPCs from Rodemani faction type -->
-	
+
 	<PawnKindDef Abstract="True" Name="Mousekin_FactionNomad_BasePawnKind" ParentName="Mousekin_BasePawnKind">
 		<defaultFactionType>Mousekin_FactionNomad</defaultFactionType>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_FactionNomad_BasePawnKind">
 		<defName>MousekinTraderNomad</defName>
 		<label>Mousekin nomad trader</label>
@@ -746,7 +782,7 @@
 		<initialWillRange>3~4</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_FactionNomad_BasePawnKind">
 		<defName>MousekinNomad</defName>
 		<label>Mousekin nomad</label>
@@ -766,13 +802,13 @@
 		<initialWillRange>3~4</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<!-- NPCs from Mousekin Brigand faction type -->
-	
+
 	<PawnKindDef Abstract="True" Name="Mousekin_FactionBrigand_BasePawnKind" ParentName="Mousekin_BasePawnKind">
 		<defaultFactionType>Mousekin_FactionBrigand</defaultFactionType>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_FactionBrigand_BasePawnKind">
 		<defName>MousekinRaider</defName>
 		<label>Mousekin brigand</label>
@@ -789,7 +825,10 @@
 		<itemQuality>Poor</itemQuality>
 		<weaponMoney>150~200</weaponMoney>
 		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Pikeman</li>
 			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
 			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
@@ -806,9 +845,9 @@
 			</li>
 		</modExtensions>
 	</PawnKindDef>
-	
+
 	<!-- Miscellaneous Mousekin NPCs -->
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinLostChild</defName>
 		<label>Mousekin lost child</label>
@@ -824,7 +863,7 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>5~8</initialResistanceRange>
 	</PawnKindDef>
-	
+
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinWanderer</defName>
 		<label>Mousekin wanderer</label>
