@@ -4410,17 +4410,7 @@
 		<title>Knight</title>
 		<titleShort>Knight</titleShort>
 		<baseDescription>[PAWN_nameDef] was ordained into knighthood by a regional Knight Commander, and served as one of many bastions of defence for the Mousekin Kingdom, leading entire units of peasant milita and trained soldiers into battle.\n\nOccassionally, [PAWN_pronoun] was called on by local Guardeners to help them catch dangerous criminals, like Mousekin brigands or psychotic murderers.</baseDescription>
-		<maleCommonality>100</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>65</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>65</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Melee</defName>
