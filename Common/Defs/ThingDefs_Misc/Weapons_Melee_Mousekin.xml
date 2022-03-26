@@ -46,6 +46,8 @@
 	</ThingDef>
 
 	<ThingDef Name="Mousekin_MeleeWeapon_PikeBase" ParentName="Mousekin_MeleeWeaponSharp_Base" Abstract="True">
+		<!-- Insertion point for CE stats -->
+		<statBases></statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.75</MoveSpeed>
 		</equippedStatOffsets>	

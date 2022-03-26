@@ -53,6 +53,216 @@
 				</value>
 			</li>
 
+			<!-- Mousekin Automatic Crossbow -->
+
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Mousekin_RangedWeapon_CrossbowAuto</defName>
+				<statBases>
+					<Bulk>6</Bulk>
+					<SwayFactor>0.98</SwayFactor>
+					<ShotSpread>0.16</ShotSpread>
+					<SightsEfficiency>0.8</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+				</statBases>
+				<!-- use existing costList -->
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>True</hasStandardCommand>
+					<defaultProjectile>Mousekin_Projectile_CrossbowBolt</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>40</range>
+					<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+					<burstShotCount>4</burstShotCount>
+					<soundCast>Mousekin_Crossbow_Fire</soundCast>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>20</magazineSize>
+					<reloadTime>4.9</reloadTime>
+					<ammoSet>Mousekin_AmmoSet_CrossbowBolt</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aimedBurstShotCount>2</aimedBurstShotCount>
+					<aiUseBurstMode>TRUE</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_RangedWeapon_CrossbowAuto"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>stirrup</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.6</cooldownTime>
+							<armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Many Mousekin gunpowder weapons use a custom verb from the Vanilla Expanded Framework dependency to trigger smoke effects after the gun is fired, which CE cannot patch for.
+			
+			Therefore, we first replace the verb with the generic Verb_Shoot that CE can then replace as usual. -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+					defName="Mousekin_RangedWeapon_MusketLong" or
+					defName="Mousekin_RangedWeapon_MusketShort"
+				]/verbs/li/verbClass</xpath>
+				<value>
+					<verbClass>Verb_Shoot</verbClass>
+				</value>
+			</li>
+
+			<!-- Mousekin Musket -->
+
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Mousekin_RangedWeapon_MusketLong</defName>
+				<statBases>
+					<Bulk>6</Bulk>
+					<SwayFactor>1.05</SwayFactor>
+					<ShotSpread>0.10</ShotSpread>
+					<SightsEfficiency>0.8</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+				</statBases>
+				<!-- use existing costList -->
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>True</hasStandardCommand>
+					<defaultProjectile>Bullet_Mousekin_MusketBall</defaultProjectile>
+					<warmupTime>1.1</warmupTime>
+					<range>45</range>
+					<soundCast>Mousekin_Musket_Fire</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>1</magazineSize>
+					<reloadTime>8</reloadTime>
+					<ammoSet>Mousekin_AmmoSet_MusketBall</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_RangedWeapon_MusketLong"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<chanceFactor>1.5</chanceFactor>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>2.02</cooldownTime>
+							<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>muzzle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Mousekin Blunderbuss -->
+
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Mousekin_RangedWeapon_MusketShort</defName>
+				<statBases>
+					<Bulk>5</Bulk>
+					<SwayFactor>0.70</SwayFactor>
+					<ShotSpread>0.48</ShotSpread>
+					<SightsEfficiency>0.8</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+				</statBases>
+				<!-- use existing costList -->
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>True</hasStandardCommand>
+					<defaultProjectile>Bullet_Mousekin_BlunderbussPellets</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>45</range>
+					<soundCast>Mousekin_Blunderbuss_Fire</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>1</magazineSize>
+					<reloadTime>8</reloadTime>
+					<ammoSet>Mousekin_AmmoSet_BlunderbussPellets</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_RangedWeapon_MusketShort"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<chanceFactor>1.5</chanceFactor>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>4</power>
+							<cooldownTime>2.02</cooldownTime>
+							<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>muzzle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>1.55</cooldownTime>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
 </Patch>

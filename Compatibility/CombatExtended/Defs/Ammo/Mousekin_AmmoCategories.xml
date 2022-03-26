@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<CombatExtended.AmmoCategoryDef>
+		<defName>Mousekin_AmmoCategory_FirecrackerRocket</defName>
+		<label>Firecracker Rocket</label>
+		<description>A crude rocket consisting of a cast iron casting filled with gunpowder and coated in red lacquer, crafted by Mousekin paws.</description>
+	</CombatExtended.AmmoCategoryDef>
+
+</Defs>

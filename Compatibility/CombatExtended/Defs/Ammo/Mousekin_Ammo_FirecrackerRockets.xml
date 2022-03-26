@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Mousekin_AmmoFirecrackerRockets</defName>
+		<label>Firecracker rockets</label>
+		<parent>AmmoRockets</parent>
+		<iconPath>Things/Ammo/Mousekin_FirecrackerRocket/Mousekin_FirecrackerRocket_a</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ========== AmmoSet ========== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>Mousekin_AmmoSet_FirecrackerRocket</defName>
+		<label>firecracker rocket</label>
+		<ammoTypes>
+			<Mousekin_Ammo_FirecrackerRocket>Mousekin_Projectile_FirecrackerRocket</Mousekin_Ammo_FirecrackerRocket>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ========== Ammo ========== -->
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBase">
+		<defName>Mousekin_Ammo_FirecrackerRocket</defName>
+		<label>mousekin firecracker rocket</label>
+		<description>A crude rocket consisting of a cast iron casting filled with gunpowder and coated in red lacquer, crafted by Mousekin paws.</description>
+		<graphicData>
+			<texPath>Things/Ammo/Mousekin_FirecrackerRocket</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.5</Mass>
+			<Bulk>0.25</Bulk>
+			<MarketValue>2.5</MarketValue>
+			<Flammability>1</Flammability>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<cookOffFlashScale>25</cookOffFlashScale>
+		<cookOffSound>Mousekin_Firecracker_Launch</cookOffSound>
+		<cookOffProjectile>Mousekin_Projectile_FirecrackerRocket</cookOffProjectile>
+		<ammoClass>Mousekin_AmmoCategory_FirecrackerRocket</ammoClass>
+		<thingCategories>
+			<li>Mousekin_AmmoFirecrackerRockets</li>
+		</thingCategories>
+		<techLevel>Medieval</techLevel>
+	</ThingDef>
+	
+	<!-- ========== Projectile ========== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
+		<defName>Mousekin_Projectile_FirecrackerRocket</defName>
+		<label>firecracker rocket</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Mousekin_FirecrackerRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Mousekin_GunpowderExplosion</damageDef>
+			<explosionRadius>2.4</explosionRadius>
+			<preExplosionSpawnThingDef>Mousekin_Filth_Gunpowder</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.33</preExplosionSpawnChance>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shadowSize>0.6</shadowSize>
+			<speed>50</speed>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+		</projectile>
+	</ThingDef>
+
+	<!-- ========== Recipe ========== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeMousekin_Ammo_FirecrackerRocket</defName>
+		<label>make mousekin firecracker rockets x25</label>
+		<description>Craft 25 Mousekin firecracker rockets.</description>
+		<jobString>Making Mousekin firecracker.</jobString>
+		<ingredients>
+			<!-- TODO - Add Mousekin gunpowder -->
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<!-- TODO - Add Mousekin gunpowder -->
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_Ammo_FirecrackerRocket>25</Mousekin_Ammo_FirecrackerRocket>
+		</products>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchCrafting</li>
+		</recipeUsers>		
+		<unfinishedThingDef>UnfinishedAmmo</unfinishedThingDef>
+		<workAmount>8000</workAmount>
+		<researchPrerequisite>Mousekin_ResearchGunpowder</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>
