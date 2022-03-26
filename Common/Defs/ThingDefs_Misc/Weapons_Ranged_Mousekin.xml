@@ -132,7 +132,7 @@
 				<defaultProjectile>Bolt_Mousekin_RangedWeapon_Crossbow</defaultProjectile>
 				<warmupTime>1.2</warmupTime>
 				<range>30</range>
-				<burstShotCount>5</burstShotCount>
+				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Mousekin_Crossbow_Fire</soundCast>
 			</li>
