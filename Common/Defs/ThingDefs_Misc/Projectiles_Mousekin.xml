@@ -44,7 +44,7 @@
 		</projectile>
 	</ThingDef>
 
-	<!-- Musket Balls -->
+	<!-- Lead Ball -->
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_Mousekin_MusketBall</defName>
@@ -62,9 +62,11 @@
 		</graphicData>
 	</ThingDef>
 	
+	<!-- Shot Pellets -->
+	
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_Mousekin_BlunderbussPellets</defName>
-		<label>lead ball</label>
+		<label>shot pellets</label>
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>30</damageAmountBase>
