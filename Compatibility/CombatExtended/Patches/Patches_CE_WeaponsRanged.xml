@@ -10,18 +10,18 @@
 			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 				<defName>Mousekin_RangedWeapon_Crossbow</defName>
 				<statBases>
-					<Bulk>6</Bulk>
-					<SwayFactor>1.0</SwayFactor>
-					<ShotSpread>0.5</ShotSpread>
-					<SightsEfficiency>1</SightsEfficiency>
-					<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+					<Bulk>5</Bulk>
+					<SwayFactor>0.75</SwayFactor>
+					<ShotSpread>0.16</ShotSpread>
+					<SightsEfficiency>0.8</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
 				</statBases>
 				<!-- use existing costList -->
 				<Properties>
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 					<hasStandardCommand>True</hasStandardCommand>
 					<defaultProjectile>Mousekin_Projectile_CrossbowBolt</defaultProjectile>
-					<warmupTime>1</warmupTime>
+					<warmupTime>0.6</warmupTime>
 					<range>35</range>
 					<soundCast>Mousekin_Crossbow_Fire</soundCast>
 				</Properties>
