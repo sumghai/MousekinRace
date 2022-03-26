@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Spawn appropriate ammo for Mousekins with ranged weapons -->
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="MousekinCrossbowman"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<!-- 2~3 drums of crossbow bolts -->
+						<primaryMagazineCount>3~3</primaryMagazineCount>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[
+					defName="MousekinIndyTownCouncilor" or
+					defName="MousekinIndyTownSoldier" or
+					defName="MousekinRaider"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<!-- Up to one quiver of crossbow bolts or box of musket cartridges.
+
+						Note: Mice equipped with the Thunderpike or Automatic Crossbow will probably end up overfilling their ammo inventory, due to their relatively large bulk and magazine size respectively. -->
+						<primaryMagazineCount>18~24</primaryMagazineCount>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[
+					defName="MousekinIndyTownFarmer" or
+					defName="MousekinTrader" or
+					defName="MousekinTraderSlaver" or
+					defName="MousekinWanderer"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<!-- Up to one quiver of crossbow bolts -->
+						<primaryMagazineCount>18~24</primaryMagazineCount>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="MousekinMusketeer"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<!-- Two boxes of musket cartridges -->
+						<primaryMagazineCount>48~48</primaryMagazineCount>
+					</li>
+				</value>
+			</li>
+			
+		
+		</operations>
+	</Operation>
+</Patch>
