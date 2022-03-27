@@ -25,7 +25,7 @@
 		<alwaysHaulable>True</alwaysHaulable>
 		<tickerType>Never</tickerType>
 		<burnableByRecipe>true</burnableByRecipe>
-		<smeltable>true</smeltable>
+		<smeltable>false</smeltable>
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
