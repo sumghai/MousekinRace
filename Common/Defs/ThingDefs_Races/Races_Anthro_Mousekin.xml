@@ -933,8 +933,8 @@
 			<ToxicSensitivity>0.9</ToxicSensitivity>
 			<EatingSpeed>1.2</EatingSpeed>
 			<LeatherAmount>50</LeatherAmount>
-			<ComfyTemperatureMin>18</ComfyTemperatureMin>
-			<ComfyTemperatureMax>32</ComfyTemperatureMax>
+			<ComfyTemperatureMin>16</ComfyTemperatureMin>
+			<ComfyTemperatureMax>26</ComfyTemperatureMax>
 			<ImmunityGainSpeed>1.10</ImmunityGainSpeed>
 			<PainShockThreshold>0.75</PainShockThreshold>
 			<MeleeDodgeChance>1.50</MeleeDodgeChance>
