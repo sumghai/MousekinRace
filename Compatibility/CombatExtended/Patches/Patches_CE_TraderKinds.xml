@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Patch Mousekin faction base and Ironmonger caravan traders to stock up on medieval ammo familiar to Mousekins -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[@Name="Mousekin_TraderCaravanMilitaryBase"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>CE_TradeTag_Mousekin_Ammo_CrossbowBolts</tradeTag>
+						<countRange>200~200</countRange>
+						<price>Cheap</price>
+					</li>
+
+					<li Class="StockGenerator_Tag">
+						<tradeTag>CE_TradeTag_Mousekin_Ammo_MusketBall</tradeTag>
+						<countRange>400~400</countRange>
+						<price>Cheap</price>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[@Name="Mousekin_TraderSettlementBase"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>CE_TradeTag_Mousekin_Ammo_CrossbowBolts</tradeTag>
+						<countRange>4000~4000</countRange>
+						<price>Cheap</price>
+					</li>
+
+					<li Class="StockGenerator_Tag">
+						<tradeTag>CE_TradeTag_Mousekin_Ammo_MusketBall</tradeTag>
+						<countRange>5000~5000</countRange>
+						<price>Cheap</price>
+					</li>
+				</value>
+			</li>
+
+			<!-- Patch Mousekin Indy Town faction base and Ironmonger caravan traders to specifically also sell Firecracker Rocket ammo -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Mousekin_TraderSettlement_IndyTown"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>CE_TradeTag_Mousekin_Ammo_FirecrackerRockets</tradeTag>
+						<countRange>300~300</countRange>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Mousekin_TraderCaravan_MilitaryIndyTown"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>CE_TradeTag_Mousekin_Ammo_FirecrackerRockets</tradeTag>
+						<countRange>75~75</countRange>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

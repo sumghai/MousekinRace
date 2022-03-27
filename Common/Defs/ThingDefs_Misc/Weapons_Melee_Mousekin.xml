@@ -242,6 +242,7 @@
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon</li>
 			<li>Mousekin_MeleeWeapon_Basic</li>
+			<li>Mousekin_MeleeWeapon_IndyTown</li>
 			<li>Mousekin_Weapon_Criminal</li>
 		</weaponTags>
 		<recipeMaker>
@@ -567,6 +568,7 @@
 		</statBases>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon_IndyTown</li>
+			<li>Mousekin_RangedWeapon</li>
 		</weaponTags>
 		<!-- Indy Town exclusive weapon - probably not craftable -->
 		<recipeMaker Inherit="False" isNull="True"/>
@@ -841,7 +843,6 @@
 		</statBases>
 		<equippedStatOffsets/>
 		<weaponTags>
-			<li>Mousekin_MeleeWeapon</li>
 			<li>Mousekin_MeleeWeapon_KnightCommander</li>
 		</weaponTags>
 		<!-- Kingdom exclusive weapon for Knight Commanders - probably not craftable -->

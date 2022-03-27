@@ -35,6 +35,8 @@
 		<ammoClass>SteelCrossbowBolt</ammoClass>
 		<tradeTags>
 			<li>CE_AutoEnableCrafting_CraftingSpot</li>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_TradeTag_Mousekin_Ammo_CrossbowBolts</li>
 		</tradeTags>
 	</ThingDef>
 	

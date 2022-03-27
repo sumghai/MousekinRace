@@ -39,6 +39,10 @@
 		<cookOffSound>Mousekin_Firecracker_Launch</cookOffSound>
 		<cookOffProjectile>Mousekin_Projectile_FirecrackerRocket</cookOffProjectile>
 		<ammoClass>Mousekin_AmmoCategory_FirecrackerRocket</ammoClass>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_TradeTag_Mousekin_Ammo_FirecrackerRockets</li>
+		</tradeTags>
 		<thingCategories>
 			<li>Mousekin_AmmoFirecrackerRockets</li>
 		</thingCategories>

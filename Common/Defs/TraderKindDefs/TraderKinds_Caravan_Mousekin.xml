@@ -100,6 +100,11 @@
 				<totalPriceRange>10~40</totalPriceRange>
 				<price>Cheap</price>
 			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_ClockworkComponent</thingDef>
+				<countRange>10~20</countRange>
+			</li>
 
 			<!-- Basic medicines -->
 			
@@ -275,7 +280,14 @@
 
 			<li Class="StockGenerator_WeaponsMelee">
 				<weaponTag>Mousekin_MeleeWeapon</weaponTag>
-				<countRange>2~4</countRange>
+				<countRange>15~20</countRange>
+				<customCountRanges>
+					<Mousekin_MeleeWeapon_Dagger>8~10</Mousekin_MeleeWeapon_Dagger>
+					<Mousekin_MeleeWeapon_PikeRegular>2~4</Mousekin_MeleeWeapon_PikeRegular>
+					<Mousekin_MeleeWeapon_SwordGuardener>1~2</Mousekin_MeleeWeapon_SwordGuardener>
+					<Mousekin_MeleeWeapon_SwordGuardenerTraining>1~2</Mousekin_MeleeWeapon_SwordGuardenerTraining>
+					<Mousekin_MeleeWeapon_SwordKnight>1~2</Mousekin_MeleeWeapon_SwordKnight>
+				</customCountRanges>
 				<price>Cheap</price>
 			</li>
 
@@ -283,7 +295,7 @@
 
 			<li Class="StockGenerator_WeaponsRanged">
 				<weaponTag>Mousekin_RangedWeapon_Basic</weaponTag>
-				<countRange>2~4</countRange>
+				<countRange>5~10</countRange>
 				<price>Cheap</price>
 			</li>
 		</stockGenerators>
@@ -292,12 +304,27 @@
 	<TraderKindDef ParentName="Mousekin_TraderCaravanMilitaryBase">
 		<defName>Mousekin_TraderCaravan_MilitaryIndyTown</defName>
 		<stockGenerators>
+		
+			<!-- Melee weapons (basic only) -->
+
+			<li Class="StockGenerator_WeaponsMelee">
+				<weaponTag>Mousekin_MeleeWeapon_Basic</weaponTag>
+				<countRange>5~10</countRange>
+				<price>Cheap</price>
+			</li>
 
 			<!-- Ranged weapons -->
 
 			<li Class="StockGenerator_WeaponsRanged">
 				<weaponTag>Mousekin_RangedWeapon</weaponTag>
-				<countRange>2~4</countRange>
+				<countRange>15~20</countRange>
+				<customCountRanges>
+					<Mousekin_MeleeWeapon_PikeThunder>3~4</Mousekin_MeleeWeapon_PikeThunder>
+					<Mousekin_RangedWeapon_Crossbow>2~4</Mousekin_RangedWeapon_Crossbow>
+					<Mousekin_RangedWeapon_CrossbowAuto>2~2</Mousekin_RangedWeapon_CrossbowAuto>
+					<Mousekin_RangedWeapon_MusketLong>4~6</Mousekin_RangedWeapon_MusketLong>
+					<Mousekin_RangedWeapon_MusketShort>2~3</Mousekin_RangedWeapon_MusketShort>
+				</customCountRanges>
 				<price>Cheap</price>
 			</li>
 

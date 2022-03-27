@@ -97,6 +97,11 @@
 				<totalPriceRange>100~200</totalPriceRange>
 				<price>Cheap</price>
 			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_ClockworkComponent</thingDef>
+				<countRange>50~100</countRange>
+			</li>
 
 			<!-- Apparel -->
 
@@ -214,7 +219,14 @@
 
 			<li Class="StockGenerator_WeaponsMelee">
 				<weaponTag>Mousekin_MeleeWeapon</weaponTag>
-				<countRange>20~30</countRange>
+				<countRange>40~50</countRange>
+				<customCountRanges>
+					<Mousekin_MeleeWeapon_Dagger>15~20</Mousekin_MeleeWeapon_Dagger>
+					<Mousekin_MeleeWeapon_PikeRegular>10~15</Mousekin_MeleeWeapon_PikeRegular>
+					<Mousekin_MeleeWeapon_SwordGuardener>2~4</Mousekin_MeleeWeapon_SwordGuardener>
+					<Mousekin_MeleeWeapon_SwordGuardenerTraining>1~2</Mousekin_MeleeWeapon_SwordGuardenerTraining>
+					<Mousekin_MeleeWeapon_SwordKnight>2~4</Mousekin_MeleeWeapon_SwordKnight>
+				</customCountRanges>
 				<price>Cheap</price>
 			</li>
 
@@ -235,11 +247,26 @@
 		<defName>Mousekin_TraderSettlement_IndyTown</defName>
 		<stockGenerators>
 
+			<!-- Melee weapons (basic only) -->
+
+			<li Class="StockGenerator_WeaponsMelee">
+				<weaponTag>Mousekin_MeleeWeapon_Basic</weaponTag>
+				<countRange>10~15</countRange>
+				<price>Cheap</price>
+			</li>
+			
 			<!-- Ranged weapons -->
 
 			<li Class="StockGenerator_WeaponsRanged">
 				<weaponTag>Mousekin_RangedWeapon</weaponTag>
-				<countRange>20~30</countRange>
+				<countRange>40~60</countRange>
+				<customCountRanges>
+					<Mousekin_MeleeWeapon_PikeThunder>10~10</Mousekin_MeleeWeapon_PikeThunder>
+					<Mousekin_RangedWeapon_Crossbow>5~10</Mousekin_RangedWeapon_Crossbow>
+					<Mousekin_RangedWeapon_CrossbowAuto>5~10</Mousekin_RangedWeapon_CrossbowAuto>
+					<Mousekin_RangedWeapon_MusketLong>10~15</Mousekin_RangedWeapon_MusketLong>
+					<Mousekin_RangedWeapon_MusketShort>5~10</Mousekin_RangedWeapon_MusketShort>
+				</customCountRanges>
 				<price>Cheap</price>
 			</li>
 			

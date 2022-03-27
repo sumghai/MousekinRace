@@ -3,12 +3,13 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 		
-			<!-- Allow Musket Ball ammo to be crafted at Mousekin Smithies -->
+			<!-- Allow Musket Ball ammo to be crafted at Mousekin Smithies and purchased from Mousekin traders -->
 			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name="MusketBallBase"]/tradeTags</xpath>
 				<value>
 					<li>CE_AutoEnableCrafting_Mousekin_WorkbenchSmithy</li>
+					<li>CE_TradeTag_Mousekin_Ammo_MusketBall</li>
 				</value>
 			</li>
 
