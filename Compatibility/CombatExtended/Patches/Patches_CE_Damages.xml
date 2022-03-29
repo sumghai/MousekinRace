@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/DamageDef[defName="Mousekin_SuicideKnife"]/workerClass</xpath>
+				<value>
+					<workerClass>DamageWorker_AddInjury</workerClass>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/DamageDef[defName="Mousekin_SuicideKnife"]</xpath>
+				<value>
+					<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
