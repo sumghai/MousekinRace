@@ -8,8 +8,8 @@ namespace MousekinRace.Patches
     public static class Harmony_Pawn_HealthTracker_NotifyPlayerOfKilled_OverrideLetterMessage
     {
         static void Prefix(ref DamageInfo? dinfo, Hediff hediff)
-        {
-            if (hediff.def == MousekinDefOf.Mousekin_HemlockPoisoning && !dinfo.HasValue)
+        {           
+            if (hediff?.def == MousekinDefOf.Mousekin_HemlockPoisoning && !dinfo.HasValue)
             {
                 dinfo = new DamageInfo(MousekinDefOf.Mousekin_SuicidePoison, 1f, instigatorGuilty: false);
             }
