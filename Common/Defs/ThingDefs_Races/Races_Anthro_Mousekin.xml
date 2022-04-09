@@ -289,6 +289,7 @@
 									</bodyTypes>
 								</south>
 								<north>
+									<layerOffset>-0.28</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,-0.343)</Mousekin>
 									</bodyTypes>
@@ -300,6 +301,9 @@
 									</bodyTypes>
 								</east>
 							</offsets>
+							<hiddenUnderApparelTag>
+								<li>Mousekin_HideTail</li>
+							</hiddenUnderApparelTag>
 						</li>
 					</bodyAddons>
 					<anchorReplacements>

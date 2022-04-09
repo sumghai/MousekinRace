@@ -25,6 +25,19 @@
 					</value>
 				</nomatch>
 			</li>
+			
+			<!-- Hide tails under Marine and Recon powered armors -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+					defName="Apparel_ArmorRecon" or
+					defName="Apparel_PowerArmor"
+				]/apparel/tags
+				</xpath>
+				<value>
+					<li>Mousekin_HideTail</li>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>
