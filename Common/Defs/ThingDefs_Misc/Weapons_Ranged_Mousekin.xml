@@ -224,7 +224,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="MousekinRace.WeaponRenderingExtension">
+			<li Class="VFECore.ThingDefExtension">
 				<draftedDrawOffsets>
 					<north>
 						<posOffset>(0, 0, -0.2)</posOffset>
@@ -317,7 +317,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="MousekinRace.WeaponRenderingExtension">
+			<li Class="VFECore.ThingDefExtension">
 				<draftedDrawOffsets>
 					<north>
 						<posOffset>(0, 0, -0.2)</posOffset>
