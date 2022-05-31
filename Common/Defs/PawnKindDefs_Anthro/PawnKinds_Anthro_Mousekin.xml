@@ -18,10 +18,6 @@
 		<invFoodDef>Mousekin_MealTrailMix</invFoodDef>
 		<invNutrition>3</invNutrition>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<!-- Temporarily give all WIP Mousekin pawnkinds settler clothing as placeholders -->
-		<apparelTags>
-			<li>MousekinStartingColonist</li>
-		</apparelTags>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<apparelMoney>350~600</apparelMoney>
 		<initialWillRange>0~1</initialWillRange>
@@ -44,6 +40,9 @@
 		<defaultFactionType>Mousekin_PlayerFaction_Settlers</defaultFactionType>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinStartingColonist</li>
+		</apparelTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -107,6 +106,10 @@
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
+		<!-- Placeholder apparel -->
+		<apparelTags>
+			<li>MousekinStartingColonist</li>
+		</apparelTags>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>999~999</initialResistanceRange>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -130,7 +133,7 @@
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinPriest</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -156,7 +159,7 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>45</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinNun</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -190,11 +193,11 @@
 			<li>Mousekin_MeleeWeapon_KnightCommander</li>
 		</weaponTags>
 		<initialWillRange>13~15</initialWillRange>
-		<initialResistanceRange>45~65</initialResistanceRange>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<initialResistanceRange>45~65</initialResistanceRange>	
 		<minGenerationAge>40</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<modExtensions>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
@@ -223,9 +226,9 @@
 		</weaponTags>
 		<initialWillRange>9~13</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<minGenerationAge>40</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -250,7 +253,7 @@
 		<maxGenerationAge>65</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinGuardenerElite</li>
 		</apparelTags>
 		<apparelRequired>
@@ -314,7 +317,7 @@
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>35</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinGuardener</li>
 		</apparelTags>
 		<initialWillRange>6~9</initialWillRange>
@@ -373,7 +376,7 @@
 		<minGenerationAge>10</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinGuardener</li>
 		</apparelTags>
 		<initialWillRange>1~2</initialWillRange>
@@ -477,7 +480,7 @@
 		</weaponTags>
 		<minGenerationAge>25</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinTradesman</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
@@ -505,9 +508,9 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -612,7 +615,7 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>60</maxGenerationAge>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinPeasant</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
@@ -694,7 +697,7 @@
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinIndyTownCouncilor</li>
 		</apparelTags>
 		<initialWillRange>9~11</initialWillRange>
@@ -725,7 +728,7 @@
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinIndyTownSoldier</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -760,7 +763,7 @@
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinIndyTownFarmer</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
@@ -845,7 +848,7 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
-		<apparelTags Inherit="false">
+		<apparelTags>
 			<li>MousekinRaider</li>
 		</apparelTags>
 		<initialWillRange>2~3</initialWillRange>
