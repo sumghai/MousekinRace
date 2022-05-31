@@ -340,15 +340,7 @@
 			<gender>Male</gender>
 		</apparel>
 		<!-- Color gen hack to get masks working properly -->
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<!-- White -->
-					<weight>1</weight>
-					<only>(255, 255, 255)</only>
-				</li>
-			</options>
-		</colorGenerator>
+		<colorGenerator Class="ColorGenerator_White" />
 	</ThingDef>
 
 	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
