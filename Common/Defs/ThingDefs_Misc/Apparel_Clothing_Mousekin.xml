@@ -684,4 +684,61 @@
 		</comps>
 	</ThingDef>
 
+	<!-- Military Apparel -->
+	
+	<ThingDef ParentName="Mousekin_ApparelMilitaryMakeableBase">
+		<defName>Mousekin_ApparelGambeson</defName>
+		<label>Mousekin Gambeson</label>
+		<description>A thick, padded defensive jacket and pair of trousers worn by Mousekin soldiers, squires and knights, designed to cushion blows to plate armor. Comfortable to wear in cold climates.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/Gambeson</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- 1.5x the usual amount of material, for padding -->
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<!-- No additional fixed materials -->
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>2.5</Mass>
+			<StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.00</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/Gambeson</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinCrossbowman</li>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinKnight</li>
+				<li>MousekinKnightApprentice</li>
+				<li>MousekinKnightCommander</li>
+				<li>MousekinMusketeer</li>
+				<li>MousekinPikeman</li>
+				<li>MousekinRaider</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+
 </Defs>
