@@ -731,6 +731,16 @@
 			</defaultOutfitTags>
 			<!-- Unisex -->
 		</apparel>
+		<!-- Base color (for cloth fabric type only) -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<!-- Default cloth color -->
+					<weight>10</weight>
+					<only>(162,157,152)</only>
+				</li>
+			</options>
+		</colorGenerator>
 	</ThingDef>
 
 </Defs>
