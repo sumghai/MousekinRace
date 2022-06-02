@@ -197,7 +197,21 @@
 		<minGenerationAge>40</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
+		<apparelMoney>9999999</apparelMoney>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<ignoreFactionApparelStuffRequirements>true</ignoreFactionApparelStuffRequirements>
+		<apparelTags>
+			<li>MousekinKnightCommander</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<stuff>Mousekin_WoolGiantCavy</stuff>
+				<quality>Legendary</quality>
+			</li>
+		</specificApparelRequirements>
 		<modExtensions>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
@@ -228,7 +242,21 @@
 		<initialResistanceRange>41~61</initialResistanceRange>
 		<minGenerationAge>40</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelMoney>9999999</apparelMoney>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<ignoreFactionApparelStuffRequirements>true</ignoreFactionApparelStuffRequirements>
+		<apparelTags>
+			<li>MousekinKnightCommander</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<stuff>Mousekin_WoolGiantCavy</stuff>
+				<quality>Excellent</quality>
+			</li>
+		</specificApparelRequirements>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -287,6 +315,37 @@
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinKnight</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<quality>Good</quality>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Burgundy -->
+							<only>(56, 38, 48)</only>
+						</li>
+						<li>
+							<!-- Dark blue-grey -->
+							<only>(38, 52, 62)</only>
+						</li>
+						<li>
+							<!-- Black -->
+							<only>(45, 45, 45)</only>
+						</li>
+						<li>
+							<!-- Dark brown -->
+							<only>(79, 62, 45)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -345,9 +404,38 @@
 		<initialResistanceRange>8~12</initialResistanceRange>
 		<minGenerationAge>14</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelTags>
 			<li>MousekinKnightApprentice</li>
 		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<quality>Good</quality>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Burgundy -->
+							<only>(56, 38, 48)</only>
+						</li>
+						<li>
+							<!-- Dark blue-grey -->
+							<only>(38, 52, 62)</only>
+						</li>
+						<li>
+							<!-- Black -->
+							<only>(45, 45, 45)</only>
+						</li>
+						<li>
+							<!-- Dark brown -->
+							<only>(79, 62, 45)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -509,6 +597,24 @@
 		<maxGenerationAge>40</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinMusketeer</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Dark pastel blue -->
+							<only>(81, 98, 107)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
 	</PawnKindDef>
@@ -536,6 +642,24 @@
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinCrossbowman</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Dark pastel red -->
+							<only>(107, 81, 81)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 		<modExtensions>
 			<li Class="AlienRace.Info">
 				<allowHumanBios>false</allowHumanBios>
@@ -565,9 +689,20 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinPikeman</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<!-- Use default cloth stuff color -->
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -697,9 +832,49 @@
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelTags>
 			<li>MousekinIndyTownCouncilor</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelCloak</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Evergreen -->
+							<only>(44, 56, 33)</only>
+						</li>
+						<li>
+							<!-- Artichoke green -->
+							<only>(62, 80, 42)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<apparelDef>Mousekin_ApparelCloak</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Evergreen -->
+							<only>(44, 56, 33)</only>
+						</li>
+						<li>
+							<!-- Artichoke green -->
+							<only>(62, 80, 42)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>9~11</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 	</PawnKindDef>
@@ -731,6 +906,25 @@
 		<apparelTags>
 			<li>MousekinIndyTownSoldier</li>
 		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Evergreen -->
+							<only>(44, 56, 33)</only>
+						</li>
+						<li>
+							<!-- Artichoke green -->
+							<only>(62, 80, 42)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<initialWillRange>8~9</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
@@ -848,9 +1042,36 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelTags>
 			<li>MousekinRaider</li>
 		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Default cloth color -->
+							<weight>10</weight>
+							<only>(162,157,152)</only>
+						</li>
+						<li>
+							<!-- Dark pastel red -->
+							<weight>4</weight>
+							<only>(107, 81, 81)</only>
+						</li>
+						<li>
+							<!-- Dark pastel blue -->
+							<weight>1</weight>
+							<only>(81, 98, 107)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>33~49</initialResistanceRange>
 		<modExtensions>
