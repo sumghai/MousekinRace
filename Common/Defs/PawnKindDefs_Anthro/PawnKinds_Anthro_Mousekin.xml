@@ -136,6 +136,9 @@
 		<apparelTags>
 			<li>MousekinPriest</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelPriestCassock</li>
+		</apparelRequired>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>33~49</initialResistanceRange>
@@ -162,6 +165,10 @@
 		<apparelTags>
 			<li>MousekinNun</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelNunHabit</li>
+			<li>Mousekin_HatNunVeil</li>
+		</apparelRequired>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>31~47</initialResistanceRange>
@@ -203,6 +210,9 @@
 		<apparelTags>
 			<li>MousekinKnightCommander</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -233,7 +243,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<itemQuality>Excellent</itemQuality>
+		<itemQuality>Masterwork</itemQuality>
 		<weaponMoney>180~200</weaponMoney>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon_KnightCommander</li>
@@ -248,13 +258,16 @@
 		<apparelTags>
 			<li>MousekinKnightCommander</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>OnSkin</apparelLayer>
 				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
 				<stuff>Mousekin_WoolGiantCavy</stuff>
-				<quality>Excellent</quality>
+				<quality>Masterwork</quality>
 			</li>
 		</specificApparelRequirements>
 	</PawnKindDef>
@@ -273,6 +286,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<itemQuality>Excellent</itemQuality>
 		<weaponMoney>150~550</weaponMoney>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon_Guardener</li>
@@ -285,8 +299,23 @@
 			<li>MousekinGuardenerElite</li>
 		</apparelTags>
 		<apparelRequired>
+			<li>Mousekin_ApparelGuardenerGown</li>
 			<li>Mousekin_ApparelGuardenerRobe</li>
 		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGuardenerGown</apparelDef>
+				<quality>Good</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGuardenerRobe</apparelDef>
+				<quality>Excellent</quality>
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>8~12</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
 	</PawnKindDef>
@@ -318,6 +347,9 @@
 		<apparelTags>
 			<li>MousekinKnight</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -368,7 +400,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<itemQuality>Normal</itemQuality>
+		<itemQuality>Good</itemQuality>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
 			<li>Mousekin_MeleeWeapon_Guardener</li>
@@ -376,9 +408,21 @@
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>35</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelTags>
 			<li>MousekinGuardener</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGuardenerGown</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGuardenerGown</apparelDef>
+				<quality>Good</quality>
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>6~9</initialWillRange>
 		<initialResistanceRange>39~59</initialResistanceRange>
 	</PawnKindDef>
@@ -408,6 +452,9 @@
 		<apparelTags>
 			<li>MousekinKnightApprentice</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -464,9 +511,21 @@
 		<minGenerationAge>10</minGenerationAge>
 		<maxGenerationAge>17</maxGenerationAge>
 		<fixedGender>Female</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelTags>
 			<li>MousekinGuardener</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGuardenerGown</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGuardenerGown</apparelDef>
+				<quality>Normal</quality>
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>8~12</initialResistanceRange>
 	</PawnKindDef>
@@ -600,6 +659,9 @@
 		<apparelTags>
 			<li>MousekinMusketeer</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -645,6 +707,9 @@
 		<apparelTags>
 			<li>MousekinCrossbowman</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -693,6 +758,9 @@
 		<apparelTags>
 			<li>MousekinPikeman</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -798,9 +866,12 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>30</maxGenerationAge>
+		<!-- Temporarily naked, will replace with slave rags -->
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>0~0</apparelMoney>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>13~20</initialResistanceRange>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	</PawnKindDef>
 
 	<!-- NPCs from Independent Mousekins faction type (tougher to enslave, because they fought hard for their own freedom in the first place) -->
@@ -1042,7 +1113,6 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelTags>
 			<li>MousekinRaider</li>
 		</apparelTags>
@@ -1096,9 +1166,12 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>4</minGenerationAge>
 		<maxGenerationAge>8</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<!-- Naked -->
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>0~0</apparelMoney>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>5~8</initialResistanceRange>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">

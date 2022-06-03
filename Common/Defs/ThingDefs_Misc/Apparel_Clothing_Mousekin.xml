@@ -48,6 +48,16 @@
 			<tags>
 				<li>MousekinIndyTownCouncilor</li>
 				<li>MousekinStartingColonist</li>
+				<li>MousekinDoctor</li>
+				<!-- Temporary -->
+				<li>MousekinNoble</li>
+				<li>MousekinNomad</li>
+				<li>MousekinRoyalty</li>
+				<li>MousekinServant</li>
+				<li>MousekinServantChef</li>
+				<li>MousekinServantHighClass</li>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -116,6 +126,16 @@
 			<tags>
 				<li>MousekinIndyTownCouncilor</li>
 				<li>MousekinStartingColonist</li>
+				<li>MousekinWanderer</li>
+				<!-- Temporary -->
+				<li>MousekinNoble</li>
+				<li>MousekinNomad</li>
+				<li>MousekinRoyalty</li>
+				<li>MousekinServant</li>
+				<li>MousekinServantChef</li>
+				<li>MousekinServantHighClass</li>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -188,10 +208,10 @@
 				<li>OnSkin</li>
 			</layers>
 			<tags>
-				<li>MousekinIndyTownSoldier</li>
 				<li>MousekinIndyTownFarmer</li>
 				<li>MousekinPeasant</li>
 				<li>MousekinRaider</li>
+				<li>MousekinWanderer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -253,11 +273,11 @@
 				<li>OnSkin</li>
 			</layers>
 			<tags>
-				<li>MousekinIndyTownSoldier</li>
 				<li>MousekinIndyTownFarmer</li>
 				<li>MousekinPeasant</li>
 				<li>MousekinRaider</li>
 				<li>MousekinTradesman</li>
+				<li>MousekinWanderer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -385,8 +405,6 @@
 				<li>MousekinGuardener</li>
 				<li>MousekinIndyTownCouncilor</li>
 				<li>MousekinIndyTownFarmer</li>
-				<li>MousekinIndyTownSoldier</li>
-				<li>MousekinKnightApprentice</li>
 				<li>MousekinNomad</li>
 				<li>MousekinNun</li>
 				<li>MousekinPeasant</li>
