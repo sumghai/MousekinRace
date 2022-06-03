@@ -28,7 +28,7 @@ namespace MousekinRace
                 yield return item;
             }
 
-            if (Pawn != null)
+            if (Pawn != null && Pawn.IsColonistPlayerControlled)
             {
                 Command_Toggle command_Toggle = new Command_Toggle
                 {
