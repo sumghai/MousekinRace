@@ -1953,12 +1953,12 @@
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
 		<bioAgeRange>
-			<min>25</min>
-			<max>65</max>
+			<min>35</min>
+			<max>70</max>
 		</bioAgeRange>
 		<chronoAgeRange>
-			<min>25</min>
-			<max>65</max>
+			<min>35</min>
+			<max>70</max>
 		</chronoAgeRange>
 		<skillGains>
 			<li>
@@ -2121,16 +2121,16 @@
 		<title>Head chef</title>
 		<titleShort>Chef</titleShort>
 		<baseDescription>[PAWN_nameDef] served as the head chef in the household staff of a Mousekin nobleman, and was responsible for preparing all the main courses and meat dishes in every meal.\n\n[PAWN_pronoun] also supervised dozens of specialist chefs and line cooks in preparing elaborate feasts for [PAWN_possessive] master's guests.</baseDescription>
-		<maleCommonality>20</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
 		<slot>Adulthood</slot>
 		<bioAgeRange>
-			<min>30</min>
-			<max>65</max>
+			<min>40</min>
+			<max>70</max>
 		</bioAgeRange>
 		<chronoAgeRange>
-			<min>30</min>
-			<max>65</max>
+			<min>40</min>
+			<max>70</max>
 		</chronoAgeRange>
 		<skillGains>
 			<li>
@@ -2178,17 +2178,9 @@
 		<title>Pastry chef</title>
 		<titleShort>Chef</titleShort>
 		<baseDescription>[PAWN_nameDef]'s specialty was in making cakes and desserts, and was sought after by many wealthy Mousekin landowners and nobles for [PAWN_possessive] talent.\n\n[PAWN_possessive] most popular dish was Nyam nut-flavored ice cream sandwiched between puff pastry.</baseDescription>
-		<maleCommonality>20</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>20</min>
-			<max>45</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>20</min>
-			<max>45</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -2235,17 +2227,9 @@
 		<title>Sous chef</title>
 		<titleShort>Chef</titleShort>
 		<baseDescription>[PAWN_nameDef] served in the household staff of a Mousekin nobleman, and was responsible for preparing appetizers, soup and vegetable dishes.\n\n[PAWN_possessive] also acted as the second-in-command of the kitchen staff under the head chef.</baseDescription>
-		<maleCommonality>20</maleCommonality>
-		<femaleCommonality>20</femaleCommonality>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>20</min>
-			<max>45</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>20</min>
-			<max>45</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -2341,15 +2325,7 @@
 		<baseDescription>[PAWN_nameDef] worked as a line cook in the household staff of a Mousekin nobleman, performing mundane tasks such as peeling potatoes, boiling vegetables and cracking nuts.\n\n[PAWN_pronoun] dreams of starting [PAWN_possessive] own inn someday, where [PAWN_pronoun] could cook whatever [PAWN_pronoun] wanted instead of whatever the head chef ordered [PAWN_objective] to do.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
-		<slot>Childhood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>30</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>30</max>
-		</chronoAgeRange>
+		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -3127,14 +3103,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>25</min>
-			<max>35</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>25</min>
-			<max>35</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Social</defName>
@@ -3645,11 +3613,11 @@
 		<slot>Adulthood</slot>
 		<bioAgeRange>
 			<min>35</min>
-			<max>65</max>
+			<max>70</max>
 		</bioAgeRange>
 		<chronoAgeRange>
 			<min>35</min>
-			<max>65</max>
+			<max>70</max>
 		</chronoAgeRange>
 		<skillGains>
 			<li>
@@ -3726,12 +3694,12 @@
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
 		<bioAgeRange>
-			<min>18</min>
-			<max>24</max>
+			<min>15</min>
+			<max>20</max>
 		</bioAgeRange>
 		<chronoAgeRange>
-			<min>18</min>
-			<max>24</max>
+			<min>15</min>
+			<max>20</max>
 		</chronoAgeRange>
 		<skillGains>
 			<li>
@@ -4380,14 +4348,6 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>30</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>30</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
@@ -4606,12 +4566,12 @@
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
 		<bioAgeRange>
-			<min>18</min>
-			<max>30</max>
+			<min>15</min>
+			<max>36</max>
 		</bioAgeRange>
 		<chronoAgeRange>
-			<min>18</min>
-			<max>30</max>
+			<min>15</min>
+			<max>36</max>
 		</chronoAgeRange>
 		<skillGains>
 			<li>
@@ -5376,14 +5336,6 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>25</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>25</max>
-		</chronoAgeRange>
 		<skillGains>
 			<li>
 				<defName>Cooking</defName>
