@@ -41,7 +41,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/SettlerOutfit</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -119,7 +118,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/SettlerDress</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -203,7 +201,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/WorkerOutfit</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -268,7 +265,6 @@
 				<li>Things/Pawn/Mousekin/Apparel/WorkerDressB</li>
 				<li>Things/Pawn/Mousekin/Apparel/WorkerDressC</li>
 			</wornGraphicPaths>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -346,7 +342,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/CraftsmanOutfit</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 				<li>Middle</li>
@@ -396,7 +391,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/Cloak</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -502,7 +496,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GuardenerGown</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -556,7 +549,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GuardenerRobe</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -618,7 +610,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/NunHabit</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -675,7 +666,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/PriestCassock</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -732,7 +722,6 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/Gambeson</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
