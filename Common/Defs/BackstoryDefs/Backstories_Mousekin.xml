@@ -615,7 +615,7 @@
 		<defName>Mousekin_Childhood_Hallboy</defName>
 		<title>Hallboy</title>
 		<titleShort>Hallboy</titleShort>
-		<baseDescription>When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents sent [PAWN_objective] to work as a servant in the household of a wealthy Mousekin landowner.\n\n[PAWN_pronoun] duties included polishing the shoes of both [PAWN_possessive] master's family and all the older servants, waiting the tables for the master's children, and emptying the chamber pots. In the evenings, [PAWN_possessive] master's butler would give him lessons in social etiquette, in preparation for becoming a footman or butler.</baseDescription>
+		<baseDescription>When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents sent [PAWN_objective] to work as a servant in the household of a wealthy Mousekin landowner.\n\n[PAWN_pronoun] duties included polishing the shoes of both [PAWN_possessive] master's family and all the older servants, waiting the tables for the master's children, and emptying the chamber pots. In the evenings, [PAWN_possessive] master's butler would give him lessons in social etiquette, in preparation for becoming a footman, valet or butler.</baseDescription>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
@@ -6009,6 +6009,88 @@
 		</workDisables>
 		<spawnCategories>
 			<li>MousekinStartingColonist</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
+		<defName>Mousekin_Adulthood_Valet</defName>
+		<title>Valet</title>
+		<titleShort>Valet</titleShort>
+		<baseDescription>[PAWN_nameDef] served as the personal valet to a Mousekin nobleman, helping to groom and dress [PAWN_possessive] master, maintain his wardrobe and preparing his bedchamber, as well as supervising other household staff in the absence of the butler.</baseDescription>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<slot>Adulthood</slot>
+		<bioAgeRange>
+			<min>15</min>
+			<max>36</max>
+		</bioAgeRange>
+		<chronoAgeRange>
+			<min>15</min>
+			<max>36</max>
+		</chronoAgeRange>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>1</degree>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>Kind</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+			<li>
+				<defName>Bloodlust</defName>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName>Mousekin_TraitSpectrum_Faith</defName>
+				<degree>4</degree>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>Mining</li>
+		</workDisables>
+		<relationSettings>
+			<!-- Unmarried and childless, but may take (or previously have) lovers -->
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
+		<spawnCategories>
+			<li>MousekinServantHighClass</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
