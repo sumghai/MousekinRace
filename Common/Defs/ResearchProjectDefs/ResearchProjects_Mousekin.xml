@@ -46,6 +46,7 @@
 		<baseCost>300</baseCost>
 		<prerequisites>
 			<li>Mousekin_ResearchApparelCommoner</li>
+			<li>PlateArmor</li>
 			<li>Smithing</li>
 		</prerequisites>
 		<researchViewX>1.00</researchViewX>
