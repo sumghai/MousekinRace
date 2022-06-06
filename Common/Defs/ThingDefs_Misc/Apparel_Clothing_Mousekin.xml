@@ -334,6 +334,11 @@
 			<SocialImpact>-0.10</SocialImpact>
 			<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -488,6 +493,11 @@
 			<PlantWorkSpeed>0.30</PlantWorkSpeed>
 			<SocialImpact>0.15</SocialImpact>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -541,6 +551,11 @@
 			<NegotiationAbility>0.10</NegotiationAbility>
 			<SocialImpact>0.15</SocialImpact>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -602,6 +617,11 @@
 			<NegotiationAbility>0.10</NegotiationAbility>
 			<SocialImpact>0.10</SocialImpact>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -658,6 +678,11 @@
 			<NegotiationAbility>0.20</NegotiationAbility>
 			<SocialImpact>0.30</SocialImpact>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -713,6 +738,11 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.10</MoveSpeed>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>
 				<li>Neck</li>

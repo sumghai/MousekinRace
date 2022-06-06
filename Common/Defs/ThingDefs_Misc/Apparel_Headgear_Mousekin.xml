@@ -129,6 +129,11 @@
 			<NegotiationAbility>0.10</NegotiationAbility>
 			<SocialImpact>0.10</SocialImpact>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
