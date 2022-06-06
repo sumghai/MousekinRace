@@ -662,6 +662,7 @@
 		</apparelTags>
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorCuirass</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -676,6 +677,12 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
 			</li>
 		</specificApparelRequirements>
 		<initialWillRange>2~3</initialWillRange>
@@ -710,6 +717,7 @@
 		</apparelTags>
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorCuirass</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -724,6 +732,12 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
 			</li>
 		</specificApparelRequirements>
 		<modExtensions>
@@ -761,6 +775,7 @@
 		</apparelTags>
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorCuirass</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -768,6 +783,12 @@
 				<apparelLayer>OnSkin</apparelLayer>
 				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
 				<!-- Use default cloth stuff color -->
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
 			</li>
 		</specificApparelRequirements>
 		<initialWillRange>2~3</initialWillRange>
@@ -946,6 +967,12 @@
 					</options>
 				</colorGenerator>
 			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
 		</specificApparelRequirements>
 		<initialWillRange>9~11</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
@@ -978,6 +1005,10 @@
 		<apparelTags>
 			<li>MousekinIndyTownSoldier</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorCuirass</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -995,6 +1026,12 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
 			</li>
 		</specificApparelRequirements>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -1140,6 +1177,12 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
 			</li>
 		</specificApparelRequirements>
 		<initialWillRange>2~3</initialWillRange>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="Mousekin_ApparelMilitaryArmorSmithableBase">
+		<defName>Mousekin_ArmorCuirass</defName>
+		<label>Mousekin Cuirass</label>
+		<description>A piece of medieval plate armor that protects the torso from most injuries, worn by Mousekin pikemen, crossbowmen and Mouseketeers.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/Cuirass</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>3.0</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeDodgeChance>-0.05</MeleeDodgeChance>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<MoveSpeed>-0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/Cuirass</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>MousekinCrossbowman</li>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinMusketeer</li>
+				<li>MousekinPikeman</li>
+				<li>MousekinRaider</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+
+</Defs>
