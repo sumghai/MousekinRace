@@ -8,7 +8,7 @@
 
 	<PawnKindDef Abstract="True" Name="Mousekin_BasePawnKind">
 		<race>Mousekin</race>
-		<combatPower>10</combatPower>
+		<combatPower>20</combatPower>
 		<nameMaker>NamerPerson_MousekinMale</nameMaker>
 		<nameMakerFemale>NamerPerson_MousekinFemale</nameMakerFemale>
 		<baseRecruitDifficulty>0.40</baseRecruitDifficulty>
@@ -96,7 +96,6 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinInquisitor</defName>
 		<label>Mousekin inquisitor</label>
-		<combatPower>20</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -183,7 +182,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinLordProtector</defName>
 		<label>Lord Protector</label>
-		<combatPower>80</combatPower>
+		<combatPower>130</combatPower>
 		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
 		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
 		<isFighter>true</isFighter>
@@ -233,7 +232,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinKnightCommander</defName>
 		<label>Mousekin knight commander</label>
-		<combatPower>70</combatPower>
+		<combatPower>120</combatPower>
 		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
 		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
 		<isFighter>true</isFighter>
@@ -276,7 +275,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinGuardenerElite</defName>
 		<label>Mousekin elite Guardener</label>
-		<combatPower>40</combatPower>
+		<combatPower>80</combatPower>
 		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
 		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
 		<isFighter>true</isFighter>
@@ -326,7 +325,7 @@
 		<label>Mousekin knight</label>
 		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
 		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
-		<combatPower>50</combatPower>
+		<combatPower>100</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -392,7 +391,7 @@
 		<label>Mousekin Guardener</label>
 		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
 		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
-		<combatPower>30</combatPower>
+		<combatPower>60</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -431,7 +430,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinKnightApprentice</defName>
 		<label>Mousekin squire</label>
-		<combatPower>30</combatPower>
+		<combatPower>40</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -495,7 +494,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinGuardenerApprentice</defName>
 		<label>Mousekin apprentice Guardener</label>
-		<combatPower>20</combatPower>
+		<combatPower>35</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -639,7 +638,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinMusketeer</defName>
 		<label>Mousekin mouseketeer</label>
-		<combatPower>30</combatPower>
+		<combatPower>55</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -692,7 +691,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinCrossbowman</defName>
 		<label>Mousekin crossbowman</label>
-		<combatPower>25</combatPower>
+		<combatPower>45</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -751,7 +750,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinPikeman</defName>
 		<label>Mousekin pikeman</label>
-		<combatPower>25</combatPower>
+		<combatPower>45</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -799,7 +798,7 @@
 		<defName>MousekinTrader</defName>
 		<label>Mousekin trader</label>
 		<trader>true</trader>
-		<combatPower>15</combatPower>
+		<combatPower>35</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -851,7 +850,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinTraderSlaver</defName>
 		<label>Mousekin slaver</label>
-		<combatPower>25</combatPower>
+		<combatPower>40</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -878,7 +877,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinSlave</defName>
 		<label>Mousekin slave</label>
-		<combatPower>5</combatPower>
+		<combatPower>10</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -905,7 +904,7 @@
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
 		<defName>MousekinIndyTownCouncilor</defName>
 		<label>Mousekin councilor</label>
-		<combatPower>15</combatPower>
+		<combatPower>40</combatPower>
 		<isFighter>true</isFighter>
 		<factionLeader>true</factionLeader>
 		<backstoryFiltersOverride>
@@ -981,7 +980,7 @@
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
 		<defName>MousekinIndyTownSoldier</defName>
 		<label>Mousekin town soldier</label>
-		<combatPower>25</combatPower>
+		<combatPower>50</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -1048,7 +1047,7 @@
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
 		<defName>MousekinIndyTownFarmer</defName>
 		<label>Mousekin town farmer</label>
-		<combatPower>15</combatPower>
+		<combatPower>30</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -1084,7 +1083,7 @@
 		<defName>MousekinTraderNomad</defName>
 		<label>Mousekin nomad trader</label>
 		<trader>true</trader>
-		<combatPower>15</combatPower>
+		<combatPower>35</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -1104,6 +1103,7 @@
 	<PawnKindDef ParentName="Mousekin_FactionNomad_BasePawnKind">
 		<defName>MousekinNomad</defName>
 		<label>Mousekin nomad</label>
+		<combatPower>35</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -1129,7 +1129,7 @@
 	<PawnKindDef ParentName="Mousekin_FactionBrigand_BasePawnKind">
 		<defName>MousekinRaider</defName>
 		<label>Mousekin brigand</label>
-		<combatPower>25</combatPower>
+		<combatPower>45</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
 			<li>
@@ -1200,7 +1200,6 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinLostChild</defName>
 		<label>Mousekin lost child</label>
-		<combatPower>5</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -1221,7 +1220,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinWanderer</defName>
 		<label>Mousekin wanderer</label>
-		<combatPower>20</combatPower>
+		<combatPower>45</combatPower>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
