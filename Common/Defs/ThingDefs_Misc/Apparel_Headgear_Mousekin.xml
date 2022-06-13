@@ -164,6 +164,115 @@
 		</modExtensions>
 	</ThingDef>
 	
+	<!-- Military Headgear -->
+	
+	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
+		<defName>Mousekin_HelmetKettle</defName>
+		<label>Mousekin Kettle Hat</label>
+		<description>A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKettle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>1.75</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKettle</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinCrossbowman</li>
+				<li>MousekinRaider</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
+		<defName>Mousekin_HelmetMorion</defName>
+		<label>Mousekin Morion Helmet</label>
+		<description>A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HelmetMorion</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>45</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetMorion</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinMusketeer</li>
+				<li>MousekinPikeman</li>
+				<li>MousekinRaider</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+	
 	<!-- Uncraftable -->
 	
 	<ThingDef ParentName="HatBase">
