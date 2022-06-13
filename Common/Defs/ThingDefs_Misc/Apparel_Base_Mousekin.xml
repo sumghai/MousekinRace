@@ -141,11 +141,19 @@
 		</recipeMaker>
 	</ThingDef>
 	
-	<ThingDef Name="Mousekin_HatMilitaryMakeableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
+	<ThingDef Name="Mousekin_HelmetMilitarySmithableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>true</smeltable>
 		<tradeTags>
 			<li>Mousekin_TradeGoods_ApparelMilitary</li>
 		</tradeTags>
 		<recipeMaker>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers Inherit="false">
+				<li>Mousekin_WorkbenchSmithy</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
 			<researchPrerequisite>Mousekin_ResearchApparelMilitary</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
