@@ -376,4 +376,48 @@
 		</modExtensions>
 	</ThingDef>
 	
+	<ThingDef ParentName="HatBase">
+		<defName>Mousekin_HatWoodsman</defName>
+		<label>Mousekin Woodsman’s Bycocket</label>
+		<description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
+		<tradeability>None</tradeability>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownSoldier</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
 </Defs>
