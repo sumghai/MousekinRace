@@ -132,6 +132,9 @@
 			</defaultIngredientFilter>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
 		</recipeMaker>
+		<apparel>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
 	</ThingDef>
 	
 	<ThingDef Name="Mousekin_HatCommonerMakeableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
@@ -178,6 +181,9 @@
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
 			<researchPrerequisite>Mousekin_ResearchApparelMilitary</researchPrerequisite>
 		</recipeMaker>
+		<apparel>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
 	</ThingDef>
 	
 </Defs>
