@@ -212,6 +212,7 @@
 		</apparelTags>
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorPlate</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -219,6 +220,13 @@
 				<apparelLayer>OnSkin</apparelLayer>
 				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
 				<stuff>Mousekin_WoolGiantCavy</stuff>
+				<quality>Legendary</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorPlate</apparelDef>
+				<stuff>Silver</stuff>
 				<quality>Legendary</quality>
 			</li>
 		</specificApparelRequirements>
@@ -260,6 +268,7 @@
 		</apparelTags>
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorPlate</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -267,6 +276,13 @@
 				<apparelLayer>OnSkin</apparelLayer>
 				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
 				<stuff>Mousekin_WoolGiantCavy</stuff>
+				<quality>Masterwork</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorPlate</apparelDef>
+				<stuff>Silver</stuff>
 				<quality>Masterwork</quality>
 			</li>
 		</specificApparelRequirements>
@@ -349,6 +365,7 @@
 		</apparelTags>
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorPlate</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -376,6 +393,13 @@
 						</li>
 					</options>
 				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorPlate</apparelDef>
+				<!-- Use faction default of steel -->
+				<quality>Good</quality>
 			</li>
 		</specificApparelRequirements>
 		<modExtensions>
