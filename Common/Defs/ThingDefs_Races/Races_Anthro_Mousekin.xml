@@ -493,24 +493,24 @@
 					<key>HairDef</key>
 					<value>
 						<hasStyle>true</hasStyle>
-						<styleTags>
+						<styleTagsOverride>
 							<!--<li>Mousekin_HairUncivilized</li>-->
 							<li>Mousekin_HairRural</li>
 							<li>Mousekin_HairUrban</li>
 							<li>Mousekin_HairNoble</li>
-						</styleTags>
+						</styleTagsOverride>
 					</value>
 				</li>
 				<li>
 					<key>BeardDef</key>
 					<value>
 						<hasStyle>true</hasStyle>
-						<styleTags>
+						<styleTagsOverride>
 							<li>Mousekin_BeardRural</li>
 							<li>Mousekin_BeardUrban</li>
 							<li>Mousekin_BeardNoble</li>
 							<li>NoBeard</li>
-						</styleTags>
+						</styleTagsOverride>
 					</value>
 				</li>
 				<li>
