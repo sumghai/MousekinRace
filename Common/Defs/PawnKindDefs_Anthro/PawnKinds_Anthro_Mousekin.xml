@@ -49,6 +49,64 @@
 	</PawnKindDef>
 
 	<!-- NPCs from Mousekin Kingdom faction type -->
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinLordProtector</defName>
+		<label>Lord Protector</label>
+		<combatPower>130</combatPower>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
+		<isFighter>true</isFighter>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinLordProtector</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<forceWeaponQuality>Legendary</forceWeaponQuality>
+		<weaponMoney>1000~2000</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_KnightCommander</li>
+		</weaponTags>
+		<initialWillRange>13~15</initialWillRange>
+		<initialResistanceRange>45~65</initialResistanceRange>	
+		<minGenerationAge>40</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
+		<apparelMoney>9999999</apparelMoney>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<ignoreFactionApparelStuffRequirements>true</ignoreFactionApparelStuffRequirements>
+		<apparelTags>
+			<li>MousekinKnightCommander</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorPlate</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<stuff>Mousekin_WoolGiantCavy</stuff>
+				<quality>Legendary</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorPlate</apparelDef>
+				<stuff>Silver</stuff>
+				<quality>Legendary</quality>
+			</li>
+		</specificApparelRequirements>
+		<modExtensions>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinRoyalty</defName>
@@ -172,64 +230,6 @@
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>31~47</initialResistanceRange>
-		<modExtensions>
-			<li Class="MousekinRace.RomanceUtilsExtension">
-				<preventNewRomances>true</preventNewRomances>
-			</li>
-		</modExtensions>
-	</PawnKindDef>
-
-	<PawnKindDef ParentName="Mousekin_BasePawnKind">
-		<defName>MousekinLordProtector</defName>
-		<label>Lord Protector</label>
-		<combatPower>130</combatPower>
-		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
-		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
-		<isFighter>true</isFighter>
-		<factionLeader>true</factionLeader>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>MousekinLordProtector</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<forceWeaponQuality>Legendary</forceWeaponQuality>
-		<weaponMoney>1000~2000</weaponMoney>
-		<weaponTags>
-			<li>Mousekin_MeleeWeapon_KnightCommander</li>
-		</weaponTags>
-		<initialWillRange>13~15</initialWillRange>
-		<initialResistanceRange>45~65</initialResistanceRange>	
-		<minGenerationAge>40</minGenerationAge>
-		<maxGenerationAge>65</maxGenerationAge>
-		<fixedGender>Male</fixedGender>
-		<apparelMoney>9999999</apparelMoney>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<ignoreFactionApparelStuffRequirements>true</ignoreFactionApparelStuffRequirements>
-		<apparelTags>
-			<li>MousekinKnightCommander</li>
-		</apparelTags>
-		<apparelRequired>
-			<li>Mousekin_ApparelGambeson</li>
-			<li>Mousekin_ArmorPlate</li>
-		</apparelRequired>
-		<specificApparelRequirements>
-			<li>
-				<bodyPartGroup>Torso</bodyPartGroup>
-				<apparelLayer>OnSkin</apparelLayer>
-				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
-				<stuff>Mousekin_WoolGiantCavy</stuff>
-				<quality>Legendary</quality>
-			</li>
-			<li>
-				<bodyPartGroup>Torso</bodyPartGroup>
-				<apparelLayer>Middle</apparelLayer>
-				<apparelDef>Mousekin_ArmorPlate</apparelDef>
-				<stuff>Silver</stuff>
-				<quality>Legendary</quality>
-			</li>
-		</specificApparelRequirements>
 		<modExtensions>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
