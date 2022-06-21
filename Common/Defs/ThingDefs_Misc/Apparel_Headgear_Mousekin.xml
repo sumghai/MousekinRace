@@ -384,11 +384,13 @@
 			<texPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<costStuffCount>25</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
 			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
@@ -399,7 +401,6 @@
 			<NegotiationAbility>0.10</NegotiationAbility>
 			<SocialImpact>0.10</SocialImpact>
 		</equippedStatOffsets>
-		<tradeability>None</tradeability>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
