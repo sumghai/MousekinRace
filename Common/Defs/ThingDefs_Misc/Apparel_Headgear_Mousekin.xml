@@ -376,7 +376,7 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="HatBase">
+	<ThingDef ParentName="Mousekin_HatBase">
 		<defName>Mousekin_HatWoodsman</defName>
 		<label>Mousekin Woodsman’s Bycocket</label>
 		<description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</description>
