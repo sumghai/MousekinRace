@@ -30,6 +30,9 @@
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
+		<thingCategories>
+			<li>Mousekin_Apparel</li>
+		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li>
@@ -52,9 +55,6 @@
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 		</recipeMaker>
-		<thingCategories>
-			<li>Mousekin_Apparel</li>
-		</thingCategories>
 	</ThingDef>
 	
 	<ThingDef Name="Mousekin_AccessoryMakeableBase" ParentName="Mousekin_ApparelBase" Abstract="True">
@@ -72,11 +72,17 @@
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
 		</recipeMaker>
-		<thingCategories>
+		<thingCategories Inherit="false">
 			<li>Mousekin_Accessories</li>
 		</thingCategories>
 	</ThingDef>
 
+	<ThingDef Name="Mousekin_HatBase" ParentName="Mousekin_ApparelBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>Mousekin_Headgear</li>
+		</thingCategories>
+	</ThingDef>
+	
 	<ThingDef Name="Mousekin_HatMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
 		<thingCategories Inherit="false">
 			<li>Mousekin_Headgear</li>
