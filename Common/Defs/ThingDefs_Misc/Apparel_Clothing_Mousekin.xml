@@ -783,4 +783,111 @@
 		</colorGenerator>
 	</ThingDef>
 
+	<!-- Uncraftable -->
+	
+	<ThingDef ParentName="Mousekin_ApparelBase">
+		<defName>Mousekin_ApparelKnightCommanderCape</defName>
+		<label>Mousekin Knight Commander’s Cape</label>
+		<description>A stylish blue cape worn by Mousekin knight commanders to inspire awe from both allies and enemies alike.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCape</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- cape clasps -->
+			<Silver>10</Silver>
+		</costList>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<!-- Intr -->
+			<MarketValue>250</MarketValue>
+			<!-- Additional effort needed to craft intricate silver flower-shaped cape clasps -->
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.75</NegotiationAbility>
+			<SocialImpact>0.75</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCape</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MousekinKnightCommander</li>
+				<li>MousekinLordProtector</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<secondaryApparelGraphics>
+					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
+				</secondaryApparelGraphics>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="ApparelBase">
+		<defName>Mousekin_ApparelKnightCommanderCapeBack</defName>
+		<label>Knight Commander’s Cape Back</label>
+		<description>Back of the Knight Commander’s Cape</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCapeBack_Mousekin_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCapeBack</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Mousekin_NoSpawn</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<shellPosDrawSettings>
+					<drawPosNorthOffset>(0, 0, 0)</drawPosNorthOffset>
+					<drawPosSouthOffset>(0, -1, 0)</drawPosSouthOffset>
+					<drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
+					<drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
+				</shellPosDrawSettings>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
 </Defs>

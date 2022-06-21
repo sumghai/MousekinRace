@@ -84,6 +84,7 @@
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorPlate</li>
+			<li>Mousekin_ApparelKnightCommanderCape</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -98,6 +99,13 @@
 				<apparelLayer>Middle</apparelLayer>
 				<apparelDef>Mousekin_ArmorPlate</apparelDef>
 				<stuff>Silver</stuff>
+				<quality>Legendary</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<apparelDef>Mousekin_ApparelKnightCommanderCape</apparelDef>
+				<stuff>Cloth</stuff>
 				<quality>Legendary</quality>
 			</li>
 		</specificApparelRequirements>
@@ -269,6 +277,7 @@
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorPlate</li>
+			<li>Mousekin_ApparelKnightCommanderCape</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -283,6 +292,13 @@
 				<apparelLayer>Middle</apparelLayer>
 				<apparelDef>Mousekin_ArmorPlate</apparelDef>
 				<stuff>Silver</stuff>
+				<quality>Masterwork</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<apparelDef>Mousekin_ApparelKnightCommanderCape</apparelDef>
+				<stuff>Cloth</stuff>
 				<quality>Masterwork</quality>
 			</li>
 		</specificApparelRequirements>
