@@ -162,6 +162,11 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Cleaver -->
@@ -218,6 +223,11 @@
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Dagger -->
@@ -271,6 +281,11 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Hammer -->
@@ -326,6 +341,11 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Mallet -->
@@ -388,6 +408,11 @@
 				<cooldownTime>3</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Hoe -->
@@ -514,6 +539,11 @@
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Pike -->
@@ -707,6 +737,11 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Guardener’s Training Sword -->
@@ -765,6 +800,11 @@
 				<cooldownTime>1.5</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Knight’s Sword -->
@@ -822,6 +862,11 @@
 				<cooldownTime>2.6</cooldownTime>
 			</li>
 		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Knight’s Greatsword -->
