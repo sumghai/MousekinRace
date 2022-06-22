@@ -863,7 +863,10 @@
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
 			<bodyPartGroups>
-				<li>UpperHead</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCapeBack</wornGraphicPath>
 			<layers>
