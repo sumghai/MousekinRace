@@ -29,7 +29,6 @@
 		<equippedStatOffsets>
 			<MeleeDodgeChance>-0.05</MeleeDodgeChance>
 			<PainShockThreshold>0.1</PainShockThreshold>
-			<MoveSpeed>-0.3</MoveSpeed>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>
@@ -89,7 +88,7 @@
 		<equippedStatOffsets>
 			<MeleeDodgeChance>-0.1</MeleeDodgeChance>
 			<PainShockThreshold>0.2</PainShockThreshold>
-			<MoveSpeed>-0.5</MoveSpeed>
+			<MoveSpeed>-0.05</MoveSpeed>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<skillRequirements>
