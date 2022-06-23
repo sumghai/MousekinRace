@@ -211,9 +211,6 @@
 							<hiddenUnderApparelTag>
 								<li>Mousekin_HideEars</li>
 							</hiddenUnderApparelTag>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-							</hiddenUnderApparelFor>
 						</li>
 						<li>
 							<path>Things/Pawn/Mousekin/Ears/EarRight</path>
@@ -267,9 +264,6 @@
 							<hiddenUnderApparelTag>
 								<li>Mousekin_HideEars</li>
 							</hiddenUnderApparelTag>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-							</hiddenUnderApparelFor>
 						</li>
 						<li>
 							<path>Things/Pawn/Mousekin/Tails/Tail</path>
