@@ -5,13 +5,11 @@
 		<defName>NamerFaction_MousekinKingdom</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>r_name->The [KingdomKind] of [Herb]</li>
-				<li>r_name->The [KingdomKind] of the [Flower]</li>
-				<li>r_name->[KingdomKind] of [Herb]</li>
-				<li>r_name->[KingdomKind] of the [Flower]</li>
-				<li>r_name->The [Flower] [KingdomKind]</li>
-				<li>KingdomKind(p=4)->Kingdom</li>
-				<li>KingdomKind->Empire</li>
+				<li>r_name->The Kingdom of [Herb]</li>
+				<li>r_name->The Kingdom of the [Flower]</li>
+				<li>r_name->Kingdom of [Herb]</li>
+				<li>r_name->Kingdom of the [Flower]</li>
+				<li>r_name->The [Flower] Kingdom</li>
 			</rulesStrings>
 			<rulesFiles>
 				<li>Herb->Words/Nouns/CommonHerbs</li>
