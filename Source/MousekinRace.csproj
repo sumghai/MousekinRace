@@ -298,7 +298,9 @@
     <Compile Include="Alert_MissingEarsSuicidal.cs" />
     <Compile Include="Alert_MissingEarsMiserable.cs" />
     <Compile Include="CompApparelIgnoreStuffColor.cs" />
+    <Compile Include="CompApparelWithAltStateGraphics.cs" />
     <Compile Include="CompApparelWithAttachedHeadgear.cs" />
+    <Compile Include="CompProperties_ApparelWithAltStateGraphics.cs" />
     <Compile Include="CompProperties_ApparelWithAttachedHeadgear.cs" />
     <Compile Include="CompProperties_StateDependentBuildingEmissive.cs" />
     <Compile Include="CompStateDependentBuildingEmissive.cs" />
