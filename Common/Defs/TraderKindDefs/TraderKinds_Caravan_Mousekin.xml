@@ -22,6 +22,12 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>Mousekin_MealTrailMix</thingDef>
 			</li>
+			
+			<!-- Hay (to feed the giant cavies carrying goods) -->
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Hay</thingDef>
+			</li>
 
 		</stockGenerators>
 	</TraderKindDef>

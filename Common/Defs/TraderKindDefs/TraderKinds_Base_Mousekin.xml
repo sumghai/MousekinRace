@@ -19,7 +19,7 @@
 				<price>Cheap</price>
 			</li>
 
-			<!-- Trail Mix and Poultices (for mouse travellers needing to stock up on supplies) -->
+			<!-- Trail Mix, Poultices and Hay (for mouse travellers needing to stock up on supplies) -->
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Mousekin_MealTrailMix</thingDef>
@@ -31,6 +31,12 @@
 				<thingDef>Mousekin_MedicinePoultice</thingDef>
 				<countRange>200~300</countRange>
 				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Hay</thingDef>
+				<countRange>1500~2000</countRange>
+				<price>Cheap</price>
 			</li>
 
 			<!-- Resources -->
