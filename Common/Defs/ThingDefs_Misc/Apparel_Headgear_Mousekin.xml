@@ -273,6 +273,64 @@
 		</apparel>
 	</ThingDef>
 	
+	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
+		<defName>Mousekin_HelmetKnight</defName>
+		<label>Mousekin Knight's Helmet</label>
+		<description>A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2.75</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnight</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinKnight</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<comps>
+			<li Class="MousekinRace.CompProperties_ApparelWithAltStateGraphics">
+				<toggleLabel>Toggle visor</toggleLabel>
+				<toggleDesc>Open or close the helmet's visor.</toggleDesc>
+				<altStateDef>Mousekin_HelmetKnight_VisorUp</altStateDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	<!-- Uncraftable -->
 	
 	<ThingDef ParentName="HatBase">
@@ -419,6 +477,125 @@
 				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
 			</li>
 		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="HatBase">
+		<defName>Mousekin_HelmetKnight_VisorUp</defName>
+		<label>Knight's Helmet with visor up</label>
+		<description>Knight's Helmet with visor up</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnight_VisorUp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnight_VisorUp</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Mousekin_NoSpawn</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_HatBase">
+		<defName>Mousekin_HelmetKnightCommander</defName>
+		<label>Mousekin Knight Commander’s Helmet</label>
+		<description>A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2.75</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinKnightCommander</li>
+				<li>MousekinLordProtector</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<!-- Color gen hack to get masks working properly -->
+		<colorGenerator Class="ColorGenerator_White" />
+		<comps>
+			<li Class="MousekinRace.CompProperties_ApparelWithAltStateGraphics">
+				<toggleLabel>Toggle visor</toggleLabel>
+				<toggleDesc>Open or close the helmet's visor.</toggleDesc>
+				<altStateDef>Mousekin_HelmetKnightCommander_VisorUp</altStateDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!--<ThingDef ParentName="Mousekin_HatBase">-->
+	<ThingDef ParentName="HatBase">
+		<defName>Mousekin_HelmetKnightCommander_VisorUp</defName>
+		<label>Knight Commander's Helmet with visor up</label>
+		<description>Knight Commander's Helmet with visor up</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander_VisorUp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander_VisorUp</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Mousekin_NoSpawn</li>
+			</tags>
+		</apparel>
+		<!-- Color gen hack to get masks working properly -->
+		<colorGenerator Class="ColorGenerator_White" />
 	</ThingDef>
 	
 </Defs>

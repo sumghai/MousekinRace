@@ -85,6 +85,7 @@
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorPlate</li>
 			<li>Mousekin_ApparelKnightCommanderCape</li>
+			<li>Mousekin_HelmetKnightCommander</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -106,6 +107,13 @@
 				<apparelLayer>Shell</apparelLayer>
 				<apparelDef>Mousekin_ApparelKnightCommanderCape</apparelDef>
 				<stuff>Cloth</stuff>
+				<quality>Legendary</quality>
+			</li>
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetKnightCommander</apparelDef>
+				<stuff>Silver</stuff>
 				<quality>Legendary</quality>
 			</li>
 		</specificApparelRequirements>
@@ -278,6 +286,7 @@
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorPlate</li>
 			<li>Mousekin_ApparelKnightCommanderCape</li>
+			<li>Mousekin_HelmetKnightCommander</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -299,6 +308,13 @@
 				<apparelLayer>Shell</apparelLayer>
 				<apparelDef>Mousekin_ApparelKnightCommanderCape</apparelDef>
 				<stuff>Cloth</stuff>
+				<quality>Masterwork</quality>
+			</li>
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetKnightCommander</apparelDef>
+				<stuff>Silver</stuff>
 				<quality>Masterwork</quality>
 			</li>
 		</specificApparelRequirements>
@@ -382,6 +398,7 @@
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorPlate</li>
+			<li>Mousekin_HelmetKnight</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -414,6 +431,13 @@
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Middle</apparelLayer>
 				<apparelDef>Mousekin_ArmorPlate</apparelDef>
+				<!-- Use faction default of steel -->
+				<quality>Good</quality>
+			</li>
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetKnight</apparelDef>
 				<!-- Use faction default of steel -->
 				<quality>Good</quality>
 			</li>
