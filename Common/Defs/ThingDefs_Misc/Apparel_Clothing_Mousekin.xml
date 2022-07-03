@@ -851,6 +851,8 @@
 		</modExtensions>
 	</ThingDef>
 	
+	<!-- Dummy Defs for rendering purposes -->
+	
 	<ThingDef ParentName="ApparelBase">
 		<defName>Mousekin_ApparelKnightCommanderCapeBack</defName>
 		<label>Knight Commander’s Cape Back</label>

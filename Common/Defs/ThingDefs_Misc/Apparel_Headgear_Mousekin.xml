@@ -333,6 +333,114 @@
 	
 	<!-- Uncraftable -->
 	
+	<ThingDef ParentName="Mousekin_HatBase">
+		<defName>Mousekin_HatWoodsman</defName>
+		<label>Mousekin Woodsman’s Bycocket</label>
+		<description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownSoldier</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_HatBase">
+		<defName>Mousekin_HelmetKnightCommander</defName>
+		<label>Mousekin Knight Commander’s Helmet</label>
+		<description>A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2.75</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinKnightCommander</li>
+				<li>MousekinLordProtector</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<!-- Color gen hack to get masks working properly -->
+		<colorGenerator Class="ColorGenerator_White" />
+		<comps>
+			<li Class="MousekinRace.CompProperties_ApparelWithAltStateGraphics">
+				<toggleLabel>Toggle visor</toggleLabel>
+				<toggleDesc>Open or close the helmet's visor.</toggleDesc>
+				<altStateDef>Mousekin_HelmetKnightCommander_VisorUp</altStateDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Dummy Defs for rendering purposes -->
+	
 	<ThingDef ParentName="HatBase">
 		<defName>Mousekin_HatCloakHood</defName>
 		<label>hood</label>
@@ -434,51 +542,6 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="Mousekin_HatBase">
-		<defName>Mousekin_HatWoodsman</defName>
-		<label>Mousekin Woodsman’s Bycocket</label>
-		<description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</description>
-		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<costStuffCount>25</costStuffCount>
-		<stuffCategories>
-			<li>Fabric</li>
-		</stuffCategories>
-		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
-			<WorkToMake>1000</WorkToMake>
-			<Mass>0.1</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>0.5</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<NegotiationAbility>0.10</NegotiationAbility>
-			<SocialImpact>0.10</SocialImpact>
-		</equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>UpperHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
-				<li>MousekinIndyTownCouncilor</li>
-				<li>MousekinIndyTownSoldier</li>
-			</tags>
-		</apparel>
-		<comps>
-			<li>
-				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
-			</li>
-		</comps>
-	</ThingDef>
-	
 	<ThingDef ParentName="HatBase">
 		<defName>Mousekin_HelmetKnight_VisorUp</defName>
 		<label>Knight's Helmet with visor up</label>
@@ -505,69 +568,7 @@
 			</tags>
 		</apparel>
 	</ThingDef>
-	
-	<ThingDef ParentName="Mousekin_HatBase">
-		<defName>Mousekin_HelmetKnightCommander</defName>
-		<label>Mousekin Knight Commander’s Helmet</label>
-		<description>A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears.</description>
-		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<!-- for gilding only -->
-		<costStuffCount>1</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costList>
-			<Steel>60</Steel>
-		</costList>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>10000</WorkToMake>
-			<Mass>2.75</Mass>
-			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.40</ArmorRating_Heat>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<PainShockThreshold>0.1</PainShockThreshold>
-		</equippedStatOffsets>
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>7</Crafting>
-			</skillRequirements>
-		</recipeMaker>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
-				<li>MousekinKnightCommander</li>
-				<li>MousekinLordProtector</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-			<!-- Unisex -->
-		</apparel>
-		<!-- Color gen hack to get masks working properly -->
-		<colorGenerator Class="ColorGenerator_White" />
-		<comps>
-			<li Class="MousekinRace.CompProperties_ApparelWithAltStateGraphics">
-				<toggleLabel>Toggle visor</toggleLabel>
-				<toggleDesc>Open or close the helmet's visor.</toggleDesc>
-				<altStateDef>Mousekin_HelmetKnightCommander_VisorUp</altStateDef>
-			</li>
-		</comps>
-	</ThingDef>
-	
-	<!--<ThingDef ParentName="Mousekin_HatBase">-->
+		
 	<ThingDef ParentName="HatBase">
 		<defName>Mousekin_HelmetKnightCommander_VisorUp</defName>
 		<label>Knight Commander's Helmet with visor up</label>
