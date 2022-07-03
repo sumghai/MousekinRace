@@ -118,6 +118,13 @@
 				<countRange>20~30</countRange>
 				<price>Cheap</price>
 			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelMilitaryBasic</tradeTag>
+				<thingDefCountRange>8~10</thingDefCountRange>
+				<countRange>10~20</countRange>
+				<price>Cheap</price>
+			</li>
 
 			<!-- Fabrics, Leathers and Wools -->
 
@@ -237,6 +244,22 @@
 				<countRange>20~30</countRange>
 				<price>Cheap</price>
 			</li>
+			
+			<!-- Mid-tier military apparel (knight helmet and armor) -->
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelMilitaryKingdom</tradeTag>
+				<thingDefCountRange>5~10</thingDefCountRange>
+				<countRange>4~6</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Elite-tier military apparel (knight commander apparel, buyback only) -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_ApparelMilitaryKingdomElite</tag>
+				<price>Expensive</price>
+			</li>
 
 		</stockGenerators>
 	</TraderKindDef>
@@ -270,7 +293,21 @@
 				<price>Cheap</price>
 			</li>
 			
-			<!-- Buying (Indy towns are more accepting on industrial/advanced goods) -->
+			<!-- Mid-tier military apparel (knight helmet and armor, buying for material value only) -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_ApparelMilitaryKingdom</tag>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Buying back any Indy Town Bycockets -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_ApparelIndyTown</tag>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Buying (Indy towns are more accepting of industrial/advanced goods) -->
 			
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>MedicineIndustrial</thingDef>

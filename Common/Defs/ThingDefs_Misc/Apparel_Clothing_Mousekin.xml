@@ -781,6 +781,9 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
+		</tradeTags>
 	</ThingDef>
 
 	<!-- Uncraftable -->
@@ -849,6 +852,9 @@
 				</secondaryApparelGraphics>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryKingdomElite</li>
+		</tradeTags>
 	</ThingDef>
 	
 	<!-- Dummy Defs for rendering purposes -->

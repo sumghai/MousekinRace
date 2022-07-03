@@ -119,6 +119,7 @@
 	<ThingDef Name="Mousekin_ApparelMilitaryArmorSmithableBase" ParentName="Mousekin_ApparelMilitaryMakeableBase" Abstract="True">
 		<burnableByRecipe>false</burnableByRecipe>
 		<smeltable>true</smeltable>
+		<defaultStuff>Steel</defaultStuff>
 		<recipeMaker>
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Smith</soundWorking>
@@ -164,6 +165,7 @@
 	<ThingDef Name="Mousekin_HelmetMilitarySmithableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
 		<burnableByRecipe>false</burnableByRecipe>
 		<smeltable>true</smeltable>
+		<defaultStuff>Steel</defaultStuff>
 		<tradeTags>
 			<li>Mousekin_TradeGoods_ApparelMilitary</li>
 		</tradeTags>

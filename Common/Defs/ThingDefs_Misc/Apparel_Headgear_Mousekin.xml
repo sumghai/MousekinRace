@@ -217,6 +217,9 @@
 			</defaultOutfitTags>
 			<!-- Unisex -->
 		</apparel>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
@@ -271,6 +274,9 @@
 			</defaultOutfitTags>
 			<!-- Unisex -->
 		</apparel>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
@@ -329,6 +335,9 @@
 				<altStateDef>Mousekin_HelmetKnight_VisorUp</altStateDef>
 			</li>
 		</comps>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryKingdom</li>
+		</tradeTags>
 	</ThingDef>
 	
 	<!-- Uncraftable -->
@@ -376,6 +385,9 @@
 				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
 			</li>
 		</comps>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelIndyTown</li>
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_HatBase">
@@ -391,6 +403,7 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
+		<defaultStuff>Silver</defaultStuff>
 		<costList>
 			<Steel>60</Steel>
 		</costList>
@@ -437,6 +450,9 @@
 				<altStateDef>Mousekin_HelmetKnightCommander_VisorUp</altStateDef>
 			</li>
 		</comps>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryKingdomElite</li>
+		</tradeTags>
 	</ThingDef>
 	
 	<!-- Dummy Defs for rendering purposes -->

@@ -58,6 +58,9 @@
 			</defaultOutfitTags>
 			<!-- Unisex -->
 		</apparel>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
+		</tradeTags>
 	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_ApparelMilitaryArmorSmithableBase">
@@ -119,6 +122,9 @@
 			</defaultOutfitTags>
 			<!-- Unisex -->
 		</apparel>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryKingdom</li>
+		</tradeTags>
 	</ThingDef>
 
 </Defs>
