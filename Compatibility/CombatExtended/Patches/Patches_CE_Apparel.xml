@@ -18,7 +18,8 @@
 			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
-						defName="Mousekin_ApparelCraftsmanOutfit" or 
+						defName="Mousekin_ApparelCraftsmanOutfit" or
+						defName="Mousekin_ApparelGambeson" or
 						defName="Mousekin_ApparelNunHabit" or
 						defName="Mousekin_ApparelPriestCassock"
 					]/statBases</xpath>
@@ -41,13 +42,72 @@
 			</li>
 			
 			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_ApparelKnightCommanderCape"]/statBases</xpath>
+				<value>
+					<Bulk>3.5</Bulk>
+					<WornBulk>1.5</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
 						defName="Mousekin_ApparelCloak" or 
-						defName="Mousekin_ApparelGuardenerRobe"
+						defName="Mousekin_ApparelGuardenerRobe" or
+						defName="Mousekin_ArmorCuirass"
 					]/statBases</xpath>
 				<value>
 					<Bulk>5</Bulk>
 					<WornBulk>1.5</WornBulk>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_ArmorPlate"]/statBases</xpath>
+				<value>
+					<Bulk>50</Bulk>
+					<WornBulk>10</WornBulk>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_ApparelGambeson"]/statBases</xpath>
+				<value>
+					<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ApparelGambeson"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ArmorCuirass"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>2.6</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ArmorCuirass" ]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>3.4</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ArmorPlate"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>3.0</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ArmorPlate" ]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>4.5</ArmorRating_Blunt>
 				</value>
 			</li>
 
@@ -76,7 +136,9 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[
 						defName="Mousekin_ApparelCloak" or
-						defName="Mousekin_ApparelGuardenerRobe"
+						defName="Mousekin_ApparelGambeson" or 
+						defName="Mousekin_ApparelGuardenerRobe" or
+						defName="Mousekin_ApparelKnightCommanderCape"
 					]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
 					<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
@@ -97,17 +159,49 @@
 			</li>
 			
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Mousekin_HatStraw"]/statBases</xpath>
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_HatStraw" or
+						defName="Mousekin_HatWoodsman"
+					]/statBases</xpath>
 				<value>
 					<Bulk>1</Bulk>
 					<WornBulk>1</WornBulk>
 				</value>
 			</li>
 			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_HelmetKettle" or
+						defName="Mousekin_HelmetMorion"
+					]/statBases</xpath>
+				<value>
+					<Bulk>4</Bulk>
+					<WornBulk>1</WornBulk>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_HelmetKnight" or
+						defName="Mousekin_HelmetKnightCommander"
+					]/statBases</xpath>
+				<value>
+					<Bulk>5</Bulk>
+					<WornBulk>1</WornBulk>
+				</value>
+			</li>
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Mousekin_HatNunVeil"]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
 					<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_HatWoodsman"]/statBases/StuffEffectMultiplierArmor</xpath>
+				<value>
+					<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
 				</value>
 			</li>
 			
@@ -118,10 +212,34 @@
 				</value>
 			</li>
 			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_HelmetKettle" or 
+						defName="Mousekin_HelmetKnight" or 
+						defName="Mousekin_HelmetKnightCommander" or 
+						defName="Mousekin_HelmetMorion"
+					]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>2.6</ArmorRating_Sharp>
+				</value>
+			</li>
+
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Mousekin_HatHeadscarf"]/statBases</xpath>
 				<value>
 					<ArmorRating_Blunt>0.015</ArmorRating_Blunt>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+						defName="Mousekin_HelmetKettle" or 
+						defName="Mousekin_HelmetKnight" or 
+						defName="Mousekin_HelmetKnightCommander" or 
+						defName="Mousekin_HelmetMorion"
+					]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>3.4</ArmorRating_Blunt>
 				</value>
 			</li>
 			
