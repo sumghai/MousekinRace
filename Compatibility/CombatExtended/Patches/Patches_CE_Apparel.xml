@@ -243,6 +243,39 @@
 				</value>
 			</li>
 			
+			<!-- Disable armor coverage for ears in headgear (Mousekin ears are exposed) -->
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[
+					defName="Mousekin_HatHeadscarf" or
+					defName="Mousekin_HatNunVeil" or
+					defName="Mousekin_HatStraw" or
+					defName="Mousekin_HatWoodsman" or
+					defName="Mousekin_HelmetKettle" or
+					defName="Mousekin_HelmetKnight" or
+					defName="Mousekin_HelmetKnightCommander" or 
+					defName="Mousekin_HelmetMorion"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.PartialArmorExt">
+						<stats>
+							<li>
+								<ArmorRating_Sharp>0</ArmorRating_Sharp>
+								<parts>
+									<li>Mousekin_Ear</li>
+								</parts>
+							</li>
+							<li>
+								<ArmorRating_Blunt>0</ArmorRating_Blunt>
+								<parts>
+									<li>Mousekin_Ear</li>
+								</parts>
+							</li>
+						</stats>
+					</li>
+				</value>
+			</li>
+
 			<!-- ========== Patch accessory bulk and stats ========== -->
 			
 			<li Class="PatchOperationAdd">
