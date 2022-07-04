@@ -379,6 +379,10 @@
 				<li>MousekinIndyTownCouncilor</li>
 				<li>MousekinIndyTownSoldier</li>
 			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
 		</apparel>
 		<comps>
 			<li>
