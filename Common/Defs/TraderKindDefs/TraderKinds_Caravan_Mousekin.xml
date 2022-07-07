@@ -377,7 +377,7 @@
 		</stockGenerators>
 	</TraderKindDef>
 
-	<!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand) -->
+	<!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand); may also offer small quantities of basic goods -->
 
 	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
 		<defName>Mousekin_TraderCaravan_Exotic</defName>
@@ -477,6 +477,48 @@
 				</customCountRanges>
 				<price>Cheap</price>
 			</li>
+			
+			<!-- Raw food at regular prices (just enough to sustain their nomadic lifestyle) -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>PlantFoodRaw</categoryDef>
+				<thingDefCountRange>4~6</thingDefCountRange>
+				<countRange>30~50</countRange>
+			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<!-- As meats are dynamically-generated defs, selected meat types known to Mousekins are assigned a custom tradeTag at runtime via the mod assembly -->
+				<tradeTag>Mousekin_TradeGoods_Meat</tradeTag>
+				<thingDefCountRange>2~3</thingDefCountRange>
+				<countRange>30~50</countRange>
+			</li>
+			
+			<!-- Tool-style melee weapons -->
+
+			<li Class="StockGenerator_WeaponsMelee">
+				<weaponTag>Mousekin_Tool</weaponTag>
+				<countRange>5~8</countRange>
+			</li>
+			
+			<!-- Apparel -->
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelCommoner</tradeTag>
+				<thingDefCountRange>3~4</thingDefCountRange>
+				<countRange>2~3</countRange>
+			</li>
+			
+			<!-- Textiles -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>Textiles</categoryDef>
+				<!-- No Mousekin fur -->
+				<excludedThingDefs>
+					<li>Mousekin_Leather_Mousekin</li>
+				</excludedThingDefs>
+				<thingDefCountRange>4~6</thingDefCountRange>
+				<countRange>10~20</countRange>
+			</li>
 
 			<!-- Buys pets and exotic animals only -->
 
@@ -488,7 +530,22 @@
 					<li>AnimalUncommon</li>
 				</tradeTagsBuy>
 			</li>
+			
+			<!-- Buys basic resources at regular prices (to sustain their nomadic lifestyle) -->
 
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>WoodLog</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Steel</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_MedicinePoultice</thingDef>
+			</li>
+			
 		</stockGenerators>
 	</TraderKindDef>
 
