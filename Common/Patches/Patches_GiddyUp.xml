@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Giddy-up! Core</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- By default, no Mousekin from any Mousekin faction rides any animals -->
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/FactionDef[@Name="Mousekin_FactionBase"]</xpath>
+					<value>
+						<li Class="GiddyUpCore.FactionRestrictionsPatch">
+							<mountChance>0</mountChance>
+							<wildAnimalWeight>0</wildAnimalWeight>
+							<nonWildAnimalWeight>0</nonWildAnimalWeight>
+							<allowedWildAnimalsCSV>""</allowedWildAnimalsCSV>
+							<allowedNonWildAnimalsCSV>""</allowedNonWildAnimalsCSV>
+						</li>
+					</value>
+				</li>
+				
+				<!-- Set specific pawnkinds to always ride Giant Cavies -->
+				
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="MousekinLordProtector" or
+						defName="MousekinRoyalty" or
+						defName="MousekinNoble" or
+						defName="MousekinPriest" or
+						defName="MousekinKnightCommander" or
+						defName="MousekinKnight" or
+						defName="MousekinTrader" or
+						defName="MousekinTraderSlaver" or
+						defName="MousekinIndyTownCouncilor" or
+						defName="MousekinTraderNomad"
+					]</xpath>
+					<value>
+						<li Class="GiddyUpCore.CustomMountsPatch">
+							<mountChance>100</mountChance>
+							<possibleMounts>
+								<li>
+									<key>Mousekin_AnimalGiantCavy</key>
+									<value>100</value>
+								</li>
+							</possibleMounts>
+						</li>
+					</value>
+				</li>
+				
+				<!-- Set specific pawnkinds to only sometimes ride Giant Cavies -->
+				
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/PawnKindDef[
+						defName="MousekinGuardenerElite" or
+						defName="MousekinKnightApprentice" or
+						defName="MousekinServantHighClass"
+					]</xpath>
+					<value>
+						<li Class="GiddyUpCore.CustomMountsPatch">
+							<mountChance>40</mountChance>
+							<possibleMounts>
+								<li>
+									<key>Mousekin_AnimalGiantCavy</key>
+									<value>100</value>
+								</li>
+							</possibleMounts>
+						</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
