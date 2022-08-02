@@ -108,7 +108,7 @@
 			<!-- Equivalent to a 70% increase for a Mousekin body size of 0.7 -->
 			<CarryingCapacity>52.5</CarryingCapacity>
 		</equippedStatOffsets>
-		<generateAllowChance>0.33</generateAllowChance>
+		<generateAllowChance>0.5</generateAllowChance>
 		<apparel>
 			<bodyPartGroups>
 				<li>Shoulders</li>
