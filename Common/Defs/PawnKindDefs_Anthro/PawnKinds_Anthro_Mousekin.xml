@@ -726,6 +726,7 @@
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorCuirass</li>
+			<li>Mousekin_BackpackLeather</li>
 			<li>Mousekin_HelmetMorion</li>
 		</apparelRequired>
 		<specificApparelRequirements>
@@ -747,6 +748,12 @@
 				<apparelLayer>Middle</apparelLayer>
 				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
 				<!-- Use faction default of steel -->
+			</li>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
 			</li>
 			<li>
 				<bodyPartGroup>UpperHead</bodyPartGroup>
@@ -788,6 +795,7 @@
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorCuirass</li>
+			<li>Mousekin_BackpackLeather</li>
 			<li>Mousekin_HelmetKettle</li>
 		</apparelRequired>
 		<specificApparelRequirements>
@@ -809,6 +817,12 @@
 				<apparelLayer>Middle</apparelLayer>
 				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
 				<!-- Use faction default of steel -->
+			</li>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
 			</li>
 			<li>
 				<bodyPartGroup>UpperHead</bodyPartGroup>
@@ -853,6 +867,7 @@
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorCuirass</li>
+			<li>Mousekin_BackpackLeather</li>
 			<li>Mousekin_HelmetMorion</li>
 		</apparelRequired>
 		<specificApparelRequirements>
@@ -867,6 +882,12 @@
 				<apparelLayer>Middle</apparelLayer>
 				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
 				<!-- Use faction default of steel -->
+			</li>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
 			</li>
 			<li>
 				<bodyPartGroup>UpperHead</bodyPartGroup>
@@ -902,6 +923,17 @@
 		<apparelTags>
 			<li>MousekinTrader</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_BackpackLeather</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
@@ -954,6 +986,17 @@
 		<apparelTags>
 			<li>MousekinTraderSlaver</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_BackpackLeather</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
+		</specificApparelRequirements>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -1093,6 +1136,7 @@
 		<apparelRequired>
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorCuirass</li>
+			<li>Mousekin_BackpackLeather</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -1117,6 +1161,12 @@
 				<apparelLayer>Middle</apparelLayer>
 				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
 				<!-- Use faction default of steel -->
+			</li>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
 			</li>
 		</specificApparelRequirements>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>

@@ -52,6 +52,21 @@
 					<stuff>Cloth</stuff>
 					<count>10</count>
 				</li>
+				
+				<!-- Backpacks carried by the settlers -->
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BackpackLeather</thingDef>
+					<stuff>Leather_Plain</stuff>
+					<count>2</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BackpackWicker</thingDef>
+					<count>2</count>
+				</li>
 
 				<!-- Trail mix to feed 8 mice for around 12 days, enough time for the mice to plant and harvest a crop of strawberries -->
 				<li Class="ScenPart_StartingThing_Defined">
@@ -179,6 +194,15 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>Silver</thingDef>
 					<count>500</count>
+				</li>
+				
+				<!-- One worn old backpack -->
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BackpackLeather</thingDef>
+					<stuff>Leather_Patch</stuff>
+					<count>1</count>
 				</li>
 
 				<!-- Trail mix to feed 5 mice for around 3 days, as the mice were fleeing in a hurry -->

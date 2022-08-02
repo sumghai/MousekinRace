@@ -279,6 +279,20 @@
 			<!-- ========== Patch accessory bulk and stats ========== -->
 			
 			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_BackpackLeather"]/statBases</xpath>
+				<value>
+					<Bulk>3</Bulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_BackpackWicker"]/statBases</xpath>
+				<value>
+					<Bulk>10</Bulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Mousekin_GlassesSmall"]/statBases</xpath>
 				<value>
 					<Bulk>0.05</Bulk>
@@ -291,6 +305,20 @@
 				<value>
 					<Bulk>0.1</Bulk>
 					<!-- Negligible worn bulk -->
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_BackpackLeather"]/equippedStatOffsets</xpath>
+				<value>
+					<CarryBulk>30</CarryBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_BackpackWicker"]/equippedStatOffsets</xpath>
+				<value>
+					<CarryBulk>55</CarryBulk>
 				</value>
 			</li>
 			

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
+
 	<!-- Glasses -->
 
 	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
@@ -43,7 +43,7 @@
 			</defaultOutfitTags>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
 		<defName>Mousekin_GlassesLarge</defName>
 		<label>Mousekin Research Glasses</label>
@@ -83,6 +83,104 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
+	</ThingDef>
+
+	<!-- Backpacks -->
+
+	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
+		<defName>Mousekin_BackpackWicker</defName>
+		<label>Mousekin Wicker Backpack</label>
+		<description>A wicker basket with shoulder straps, often used by Mousekin peasants to transport crops to storehouses. Has a large carrying capacity but is less durable than a leather backpack.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/BackpackWicker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<WoodLog>2</WoodLog>
+		</costList>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>0.4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<!-- Equivalent to a 70% increase for a Mousekin body size of 0.7 -->
+			<CarryingCapacity>52.5</CarryingCapacity>
+		</equippedStatOffsets>
+		<generateAllowChance>0.33</generateAllowChance>
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/BackpackWicker</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinPeasant</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
+		<defName>Mousekin_BackpackLeather</defName>
+		<label>Mousekin Leather Backpack</label>
+		<description>A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Mousekin/Apparel/BackpackLeather</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<!-- For the metal canteen tankard -->
+			<Steel>5</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>0.4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<!-- Equivalent to a 40% increase for a Mousekin body size of 0.7 -->
+			<CarryingCapacity>30</CarryingCapacity>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/BackpackLeather</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>MousekinMusketeer</li>
+				<li>MousekinCrossbowman</li>
+				<li>MousekinPikeman</li>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
+				<li>MousekinIndyTownSoldier</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<!-- Color gen hack to get masks working properly -->
+		<colorGenerator Class="ColorGenerator_White" />
 	</ThingDef>
 	
 </Defs>
