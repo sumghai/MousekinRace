@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>Mousekin_PoopGiantCavy</defName>
+		<label>Giant Cavy pellet</label>
+		<description>Caecal pellets excreted and re-consumed by Giant Cavies to recycle vital trace nutrients. While very unpleasant for humanoids to eat on its own, it has some medicinal and culinary uses.</description>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/PoopGiantCavy</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<Nutrition>0.2</Nutrition>
+			<MarketValue>0.5</MarketValue>
+			<Beauty>-15</Beauty>
+			<Mass>0.25</Mass>
+			<FoodPoisonChanceFixedHuman>1</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<ingestible>
+			<foodType>Kibble</foodType>
+			<preferability>NeverForNutrition</preferability>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<tasteThought>Humanlike_Thought_AtePoopGiantCavy</tasteThought>
+			<optimalityOffsetHumanlikes>-40</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>10</optimalityOffsetFeedingAnimals>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+
+</Defs>

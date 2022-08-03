@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_AtePoopGiantCavy</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate Giant Cavy pellet</label>
+				<description>Yuck! I just ate a big lump of poop!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 	<ThoughtDef>
 		<defName>Humanlike_Thought_AteTrailMix</defName>
