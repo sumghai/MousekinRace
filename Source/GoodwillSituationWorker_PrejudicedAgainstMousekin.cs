@@ -9,9 +9,9 @@ namespace MousekinRace
         {
 			if (Applies(Faction.OfPlayer, other))
 			{
-				return "MemeGoodwillImpact_Other".Translate(base.GetPostProcessedLabel(other));
+				return "MousekinRace_MemeGoodwillImpact_Other".Translate(base.GetPostProcessedLabel(other));
 			}
-			return "MemeGoodwillImpact_Player".Translate(base.GetPostProcessedLabel(other));
+			return "MousekinRace_MemeGoodwillImpact_Player".Translate(base.GetPostProcessedLabel(other));
 		}
 
         public override int GetNaturalGoodwillOffset(Faction other)
