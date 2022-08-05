@@ -6,7 +6,6 @@
 		<label>Mousekin fur</label>
 		<description>The soft, furry and snowy white pelt of a Mousekin. While most humanoids regard this as just another type of fur, Mousekins find this material to be utterly horrifying.</description>
 		<graphicData>
-			<!--<texPath>Things/Item/Resource/Leather_Mousekin</texPath>-->
 			<color>(255, 255, 255)</color>
 		</graphicData>
 		<statBases>
@@ -30,7 +29,6 @@
 		<label>giant cavy fur</label>
 		<description>The soft, furry pelt of a giant cavy, more durable and luxurious than regular guinea pig fur, while retaining the unique cuteness of the oversized rodent it originated from. Good at temperature regulation in hot climates.</description>
 		<graphicData>
-			<!--<texPath>Things/Item/Resource/Leather_Mousekin</texPath>-->
 			<color>(175, 123, 53)</color>
 		</graphicData>
 		<statBases>
