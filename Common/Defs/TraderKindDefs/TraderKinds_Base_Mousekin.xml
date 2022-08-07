@@ -148,9 +148,10 @@
 
 			<li Class="StockGenerator_Category">
 				<categoryDef>Leathers</categoryDef>
-				<!-- No Mousekin fur -->
+				<!-- No Mousekin or Pudgemouse fur -->
 				<excludedThingDefs>
 					<li>Mousekin_Leather_Mousekin</li>
+					<li>Mousekin_LeatherPudgemouse</li>
 				</excludedThingDefs>
 				<thingDefCountRange>5~6</thingDefCountRange>
 				<countRange>200~300</countRange>
@@ -174,16 +175,18 @@
 			<li Class="StockGenerator_Animals">
 				<tradeTagsSell>
 					<li>Mousekin_TradeGoods_AnimalFarm</li>
+					<li>Mousekin_TradeGoods_AnimalPet</li>
 				</tradeTagsSell>
 				<tradeTagsBuy>
 					<li>Mousekin_TradeGoods_AnimalFarm</li>
+					<li>Mousekin_TradeGoods_AnimalPet</li>
 					<li>AnimalExotic</li>
 					<li>AnimalFarm</li>
 					<li>AnimalFighter</li>
 					<li>AnimalPet</li>
 					<li>AnimalUncommon</li>
 				</tradeTagsBuy>
-				<kindCountRange>8~8</kindCountRange>
+				<kindCountRange>9~9</kindCountRange>
 				<countRange>100~200</countRange>
 				<createMatingPair>
 					<li>Mousekin_TradeGoods_AnimalFarm</li>
@@ -195,6 +198,7 @@
 					<Goose>5~10</Goose>
 					<Goat>5~10</Goat>
 					<Mousekin_AnimalGiantCavy>15~20</Mousekin_AnimalGiantCavy>
+					<Mousekin_AnimalPudgemouse>2~3</Mousekin_AnimalPudgemouse>
 					<Pig>15~20</Pig>
 					<Sheep>15~20</Sheep>
 				</customCountRanges>

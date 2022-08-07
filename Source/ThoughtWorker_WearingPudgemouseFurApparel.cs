@@ -4,7 +4,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class ThoughtWorker_WearingMousekinFurApparel : ThoughtWorker
+    public class ThoughtWorker_WearingPudgemouseFurApparel : ThoughtWorker
     {
         public override ThoughtState CurrentStateInternal(Pawn pawn)
         {
@@ -18,7 +18,7 @@ namespace MousekinRace
             List<Apparel> wornApparel = pawn.apparel.WornApparel;
             for (int i = 0; i < wornApparel.Count; i++)
             {
-                if (wornApparel[i].Stuff == MousekinDefOf.Mousekin.race.leatherDef)
+                if (wornApparel[i].Stuff == MousekinDefOf.Mousekin_AnimalPudgemouse.race.leatherDef)
                 {
                     num++;
                 }

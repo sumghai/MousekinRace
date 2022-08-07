@@ -875,6 +875,20 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_SawNearbyPudgemouse</defName>
+		<showBubble>true</showBubble>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>saw a Pudgemouse</label>
+				<description>Squeak! Pudgemice are the best!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 	<ThoughtDef>
 		<defName>Mousekin_Thought_SleptInCold</defName>
@@ -937,6 +951,19 @@
 				<label>wearing Mousekin fur apparel</label>
 				<description>I'm wearing clothes made from the fur of my brethren! Valerian forgive me, for I have sinned!</description>
 				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_WearingPudgemouseFurApparel</defName>
+		<workerClass>MousekinRace.ThoughtWorker_WearingPudgemouseFurApparel</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>wearing Pudgemouse fur apparel</label>
+				<description>I'm wearing clothes made from the fur of a pudgemouse. That poor innocent creature didn't deserve this!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

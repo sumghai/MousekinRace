@@ -8,6 +8,8 @@ namespace MousekinRace
     {
         public static ThingDef Mousekin;
 
+        public static ThingDef Mousekin_AnimalPudgemouse;
+
         public static ThingDef Meat_Chicken;
         public static ThingDef Meat_Cow;
         public static ThingDef Meat_Deer;

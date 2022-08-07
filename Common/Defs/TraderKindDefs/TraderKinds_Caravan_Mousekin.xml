@@ -181,9 +181,10 @@
 
 			<li Class="StockGenerator_Category">
 				<categoryDef>Leathers</categoryDef>
-				<!-- No Mousekin fur -->
+				<!-- No Mousekin or Pudgemouse fur -->
 				<excludedThingDefs>
 					<li>Mousekin_Leather_Mousekin</li>
+					<li>Mousekin_LeatherPudgemouse</li>
 				</excludedThingDefs>
 				<thingDefCountRange>5~6</thingDefCountRange>
 				<countRange>10~20</countRange>
@@ -512,15 +513,16 @@
 			
 			<li Class="StockGenerator_Category">
 				<categoryDef>Textiles</categoryDef>
-				<!-- No Mousekin fur -->
+				<!-- No Mousekin or Pudgemouse fur -->
 				<excludedThingDefs>
 					<li>Mousekin_Leather_Mousekin</li>
+					<li>Mousekin_LeatherPudgemouse</li>
 				</excludedThingDefs>
 				<thingDefCountRange>4~6</thingDefCountRange>
 				<countRange>10~20</countRange>
 			</li>
 
-			<!-- Buys pets and exotic animals only -->
+			<!-- Buys pets and exotic animals only, and sells Pudgemouse pets -->
 
 			<li Class="StockGenerator_Animals">
 				<tradeTagsBuy>
@@ -529,6 +531,10 @@
 					<li>AnimalPet</li>
 					<li>AnimalUncommon</li>
 				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>Mousekin_TradeGoods_AnimalPet</li>
+				</tradeTagsSell>
+				<countRange>2~3</countRange>
 			</li>
 			
 			<!-- Buys basic resources at regular prices (to sustain their nomadic lifestyle) -->

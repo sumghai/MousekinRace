@@ -550,6 +550,10 @@
 						<replacer>Mousekin_Thought_AteTrailMix</replacer>
 					</li>
 					<li>
+						<original>Humanlike_Thought_SawNearbyPudgemouse</original>
+						<replacer>Mousekin_Thought_SawNearbyPudgemouse</replacer>
+					</li>
+					<li>
 						<original>KnowBuriedInSarcophagus</original>
 						<replacer>Mousekin_Thought_KnowBuriedInSarcophagus</replacer>
 					</li>

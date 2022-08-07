@@ -84,6 +84,81 @@
 				</value>
 			</li>
 
+			<!-- Pudgemouse -->
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="Mousekin_AnimalPudgemouse"]</xpath>
+				<value>
+					<!-- Bipedal rodent like the fully-sapient Mousekins -->
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Mousekin</bodyShape>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_AnimalPudgemouse"]/statBases</xpath>
+				<value>
+					<!-- Small and agile, very good at dodging -->
+					<MeleeDodgeChance>0.65</MeleeDodgeChance>
+					<MeleeCritChance>0</MeleeCritChance>
+					<MeleeParryChance>0</MeleeParryChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_AnimalPudgemouse"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>4</power>
+							<cooldownTime>0.84</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<chanceFactor>2</chanceFactor>
+							<armorPenetrationBlunt>0.9</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.09</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>1</power>
+							<cooldownTime>3</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+							<chanceFactor>0.2</chanceFactor>
+							<armorPenetrationBlunt>0.125</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>1</power>
+							<cooldownTime>1.75</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+							<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.015</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>1</power>
+							<cooldownTime>1.75</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+							<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.015</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
 </Patch>

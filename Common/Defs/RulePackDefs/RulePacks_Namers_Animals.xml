@@ -12,5 +12,17 @@
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>MousekinNamerAnimalPudgemouse</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=5)->[Mousekin_AnimalName_Pudgemouse]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>Mousekin_AnimalName_Pudgemouse->Names/Mousekin_AnimalNames_Pudgemouse</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
 
 </Defs>

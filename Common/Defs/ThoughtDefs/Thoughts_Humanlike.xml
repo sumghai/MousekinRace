@@ -28,5 +28,19 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_SawNearbyPudgemouse</defName>
+		<showBubble>true</showBubble>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>saw a Pudgemouse</label>
+				<description>What a cute little rodent!</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 </Defs>

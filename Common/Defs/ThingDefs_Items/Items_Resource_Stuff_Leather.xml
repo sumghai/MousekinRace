@@ -47,4 +47,28 @@
 		</stuffProps>
 	</ThingDef>
 
+	<ThingDef ParentName="LeatherBase">
+		<defName>Mousekin_LeatherPudgemouse</defName>
+		<label>pudgemouse fur</label>
+		<description>Sheets of soft, grey Pudgemouse fur. It is delicate and luxurious, but not particularly insulating. Most Mousekins consider Pudgemice to be sentient companions, and will be disturbed if they see apparel made with this material.</description>
+		<graphicData>
+			<color>(98, 104, 99)</color>
+		</graphicData>
+		<!-- Essentially the same stats as Chinchilla fur -->
+		<statBases>
+			<MarketValue>6.5</MarketValue>
+			<StuffPower_Armor_Sharp>0.67</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(98, 104, 99)</color>
+			<commonality>0.0125</commonality>
+			<statFactors>
+				<Beauty>3.5</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
 </Defs>

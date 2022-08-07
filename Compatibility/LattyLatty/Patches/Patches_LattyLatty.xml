@@ -60,9 +60,7 @@
 				</value>
 			</li>
 
-			<!-- 
-					Add custom thoughts for Mousekins butchering and/or eating Ratkins
-				-->
+			<!-- Add custom thoughts for Mousekins butchering and/or eating Ratkins -->
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/thoughtSettings/butcherThoughtSpecific</xpath>
@@ -88,6 +86,28 @@
 						</raceList>
 						<thought>Mousekin_Thought_AteRatkinMeatDirect</thought>
 						<ingredientThought>Mousekin_Thought_AteRatkinMeatAsIngredient</ingredientThought>
+					</li>
+				</value>
+			</li>
+
+			<!-- Add custom thought for Ratkins seeing Pudgemice -->
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/thoughtSettings/replacerList</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/thoughtSettings</xpath>
+					<value>
+						<replacerList/>
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/thoughtSettings/replacerList</xpath>
+				<value>
+					<li>
+						<original>Humanlike_Thought_SawNearbyPudgemouse</original>
+						<replacer>Ratkin_Thought_SawNearbyPudgemouse</replacer>
 					</li>
 				</value>
 			</li>

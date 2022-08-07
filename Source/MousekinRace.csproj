@@ -340,6 +340,7 @@
     <Compile Include="ThoughtWorker_MissingEars.cs" />
     <Compile Include="ThoughtWorker_OtherMousekinHasProstheticOpinions.cs" />
     <Compile Include="ThoughtWorker_ReligiousDisgustAtOwnArtificalBodyParts.cs" />
+    <Compile Include="ThoughtWorker_WearingPudgemouseFurApparel.cs" />
     <Compile Include="ThoughtWorker_WearingMousekinFurApparel.cs" />
     <Compile Include="Thought_OtherMousekinHasProstheticOpinions.cs" />
     <Compile Include="TraitConflictResolverExtension.cs" />
