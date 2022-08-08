@@ -9,7 +9,7 @@
 		<description>Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Giant cavy")\n\nA giant, docile rodent several orders of magnitude larger than the common guinea pig, and can withstand harsh climates fairly well. They subsist on a high-fiber diet of grass, hay, berries, fruits and vegetables, and are known to also consume their own feces in order to recycle vital trace nutrients.\n\nOriginally genetically-engineered and bred by humans millenia ago as a potential food source for austere frontier colonies, prehistoric Mousekins eventually successfully domesticated these peculiar creatures as companions, riding mounts and pack animals.</description>
 		<statBases>
 			<MoveSpeed>5.8</MoveSpeed>
-			<MarketValue>500</MarketValue>
+			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<!-- Faster than donkeys, but not capable of galloping like horses -->
@@ -212,7 +212,7 @@
 		<description>Species: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Fat ash-grey mouse")\n\nA large chihuahua-sized species of grey-furred rodents capable of walking only on their hind legs for extended periods of time. They subsist on a mixed diet of fruits, seeds and grains, and will happily eat meat as well.\n\nDue to their unusually high level of intelligence and empathy, as well as their apparent ability to understand both written and spoken humanoid languages (despite being incapable of vocalizing actual words themselves beyond squeaking), these mice are easily domesticated as companions and pets by Mousekins, and are universally exempt from any rules that otherwise prohibit pet animals.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
-			<MarketValue>300</MarketValue>
+			<MarketValue>250</MarketValue>
 			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 		</statBases>
