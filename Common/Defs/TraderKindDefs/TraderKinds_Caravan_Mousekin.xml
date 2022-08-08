@@ -238,20 +238,20 @@
 					<li>AnimalPet</li>
 					<li>AnimalUncommon</li>
 				</tradeTagsBuy>
-				<kindCountRange>6~8</kindCountRange>
-				<countRange>20~30</countRange>
+				<kindCountRange>8~8</kindCountRange>
+				<countRange>15~20</countRange>
 				<createMatingPair>
 					<li>Mousekin_TradeGoods_AnimalFarm</li>
 				</createMatingPair>
 				<customCountRanges>
-					<Chicken>4~6</Chicken>
-					<Cow>2~3</Cow>
-					<Duck>2~4</Duck>
-					<Goose>2~4</Goose>
-					<Goat>3~4</Goat>
+					<Chicken>2~3</Chicken>
+					<Cow>1~2</Cow>
+					<Duck>1~2</Duck>
+					<Goose>1~2</Goose>
+					<Goat>2~3</Goat>
 					<Mousekin_AnimalGiantCavy>2~2</Mousekin_AnimalGiantCavy>
-					<Pig>3~4</Pig>
-					<Sheep>3~4</Sheep>
+					<Pig>2~3</Pig>
+					<Sheep>2~3</Sheep>
 				</customCountRanges>
 				<price>Cheap</price>
 			</li>
