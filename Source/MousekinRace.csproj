@@ -323,6 +323,7 @@
     <Compile Include="OtherRodentRacesExtension.cs" />
     <Compile Include="Patches\Harmony_AlienRace_BodyAddon.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
+    <Compile Include="Patches\Harmony_GiveSoldThingToPlayer.cs" />
     <Compile Include="Patches\Harmony_InteractionWorker_RecruitAttempt_DoRecruit.cs" />
     <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
     <Compile Include="Patches\Harmony_PawnGraphicSet_ResolveApparelGraphics.cs" />
