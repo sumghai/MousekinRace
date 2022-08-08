@@ -225,6 +225,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Mousekin_LeatherPudgemouse</leatherDef>
 			<nameGenerator>MousekinNamerAnimalPudgemouse</nameGenerator>
+			<nameGeneratorFemale>MousekinNamerAnimalPudgemouse</nameGeneratorFemale>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
 			<wildness>0.0</wildness>
