@@ -314,6 +314,7 @@
     <Compile Include="JobDriver_CommitSuicideWithKnife.cs" />
     <Compile Include="JobDriver_CommitSuicideWithPoison.cs" />
     <Compile Include="JobGiver_EarlessMousekinCommitSuicide.cs" />
+    <Compile Include="JobGiver_IntelligentAnimalGenericWorkGiver.cs" />
     <Compile Include="MentalStateWorker_EarlessSuicide.cs" />
     <Compile Include="MentalState_EarlessSuicide.cs" />
     <Compile Include="MousekinDefOf.cs" />

@@ -221,6 +221,7 @@
 			<baseBodySize>0.45</baseBodySize>
 			<baseHealthScale>0.7</baseHealthScale>
 			<baseHungerRate>0.35</baseHungerRate>
+			<thinkTreeMain>Mousekin_ThinkTree_AnimalPudgemouse</thinkTreeMain>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Mousekin_LeatherPudgemouse</leatherDef>
 			<nameGenerator>MousekinNamerAnimalPudgemouse</nameGenerator>
