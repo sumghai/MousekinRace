@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- ========================= Production building base abstracts ==========================-->
+	
+	<ThingDef Name="Mousekin_BenchBase" ParentName="BenchBase" Abstract="True">
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 	<!-- ========================= Work tables ==========================-->
 
 	<!-- Mousekin alchemy bench -->
 
-	<ThingDef ParentName="BenchBase">
+	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_WorkbenchAlchemy</defName>
 		<label>Mousekin alchemy bench</label>
 		<description>A workbench for concocting various Mousekin herbal poultices, potions and explosives.</description>
@@ -64,7 +72,7 @@
 	
 	<!-- Mousekin butcher table -->
 	
-	<ThingDef ParentName="BenchBase">
+	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_WorkbenchButcher</defName>
 		<label>Mousekin butcher table</label>
 		<description>A workbench with a sturdy countertop used for butchering dead creatures into pieces of raw meat.</description>
@@ -130,7 +138,7 @@
 	
 	<!-- Mousekin crafting bench -->
 
-	<ThingDef ParentName="BenchBase">
+	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_WorkbenchCrafting</defName>
 		<label>Mousekin crafting bench</label>
 		<description>A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting and shaping stone blocks.</description>
@@ -197,7 +205,7 @@
 	
 	<!-- Mousekin smithy -->
 
-	<ThingDef ParentName="BenchBase">
+	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_WorkbenchSmithy</defName>
 		<label>Mousekin smithy</label>
 		<description>A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty.</description>
@@ -293,7 +301,7 @@
 
 	<!-- Mousekin seamstress bench -->
 
-	<ThingDef ParentName="BenchBase">
+	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_WorkbenchTailor</defName>
 		<label>Mousekin seamstress bench</label>
 		<description>A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing.</description>
@@ -354,7 +362,7 @@
 
 	<!-- Mousekin research bench -->
 
-	<ThingDef ParentName="BenchBase">
+	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_ResearchBench</defName>
 		<label>Mousekin research bench</label>
 		<description>A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things.</description>
@@ -396,9 +404,6 @@
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
-		<researchPrerequisites>
-			<li>ComplexFurniture</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 </Defs>
