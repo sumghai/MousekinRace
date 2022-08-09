@@ -111,6 +111,32 @@
 					</li>
 				</value>
 			</li>
+			
+			<!-- Race-restrict Ratkin buildings (reduce Architect menu clutter) -->
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/raceRestriction/buildingList</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/raceRestriction</xpath>
+					<value>
+						<buildingList/>
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/raceRestriction/buildingList</xpath>
+				<value>
+					<li>RK_Ballista_Strait_Body</li>
+					<li>RK_Cannon_Strait_Body</li>
+					<li>RK_ElectricSmithy</li>
+					<li>RK_ElectricTailoringBench</li>
+					<li>RK_FueledSmithy</li>
+					<li>RK_HamsterWheelGenerator</li>
+					<li>RK_HandTailoringBench</li>
+					<li>RK_Pulpit</li>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>
