@@ -6,7 +6,7 @@
 		<label>Giant Cavy pellet</label>
 		<description>Caecal pellets excreted and re-consumed by Giant Cavies to recycle vital trace nutrients. While very unpleasant for humanoids to eat on its own, it has some medicinal and culinary uses.</description>
 		<thingCategories>
-			<li>Foods</li>
+			<li>AnimalProductRaw</li>
 		</thingCategories>
 		<graphicData>
 			<texPath>Things/Items/PoopGiantCavy</texPath>
