@@ -185,6 +185,14 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
+		<modExtensions>
+			<li Class="RecipeInheritance.ThingDefExtension">
+				<inheritRecipesFrom>
+					<li>TableSculpting</li>
+					<li>TableStonecutter</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	
 	<!-- Mousekin smithy -->
