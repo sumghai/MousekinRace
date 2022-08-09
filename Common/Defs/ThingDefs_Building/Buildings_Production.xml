@@ -141,7 +141,7 @@
 	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_WorkbenchCrafting</defName>
 		<label>Mousekin crafting bench</label>
-		<description>A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting and shaping stone blocks.</description>
+		<description>A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting stone blocks and carving sculptures.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/Mousekin_WorkbenchCrafting</texPath>
