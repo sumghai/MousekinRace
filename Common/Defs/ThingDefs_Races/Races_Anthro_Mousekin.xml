@@ -920,6 +920,7 @@
 				<buildingList>
 					<li>Mousekin_ResearchBench</li>
 					<li>Mousekin_WorkbenchAlchemy</li>
+					<li>Mousekin_WorkbenchButcher</li>
 					<li>Mousekin_WorkbenchCrafting</li>
 					<li>Mousekin_WorkbenchSmithy</li>
 					<li>Mousekin_WorkbenchTailor</li>
@@ -927,6 +928,7 @@
 				<blackBuildingList>
 					<li>FueledSmithy</li>
 					<li>SimpleResearchBench</li>
+					<li>TableButcher</li>
 				</blackBuildingList>
 				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
 				
