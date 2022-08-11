@@ -860,6 +860,13 @@
 					<li>Mousekin_HelmetKnight</li>
 					<li>Mousekin_HelmetKnightCommander</li>
 					<li>Mousekin_HelmetMorion</li>
+					<!-- Dummy defs used for rendering -->
+					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
+					<li>Mousekin_HatCloakHood</li>
+					<li>Mousekin_HatGuardenerRobeHood</li>
+					<li>Mousekin_HatNunVeilBack</li>
+					<li>Mousekin_HelmetKnightCommander_VisorUp</li>
+					<li>Mousekin_HelmetKnight_VisorUp</li>
 				</apparelList>
 				<whiteApparelList>
 					<!-- Core apparel (Mousekins have their own race-specific medieval plate armor) -->
