@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // Tweak world pawn generation such that:
     // - Parents of Mousekin colonists only ever spawn in the first available Mousekin Kingdom faction

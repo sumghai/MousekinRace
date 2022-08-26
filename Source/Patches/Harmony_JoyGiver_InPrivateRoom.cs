@@ -5,7 +5,7 @@ using System.Reflection;
 using Verse;
 using Verse.AI;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // Prevent Apostates (1) and Devotionists (2) from ever praying
     // Nones (0), Pious (3) and Inquisitionists are allowed

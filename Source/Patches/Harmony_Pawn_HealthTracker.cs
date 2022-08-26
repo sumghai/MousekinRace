@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // Force Mousekins killed by hemlock poisoning to always display the letter from the corresponding DamageDef
     [HarmonyPatch(typeof(Pawn_HealthTracker), nameof(Pawn_HealthTracker.NotifyPlayerOfKilled))]

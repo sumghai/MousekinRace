@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // After resolving a pawn's apparel graphics, we conditionally render:
     // - Any headgear attached to apparel (e.g. hoods, masks, helmets) depending on the Gizmo state in CompApparelWithAttachedHeadgear

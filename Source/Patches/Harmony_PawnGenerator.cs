@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // Remove traits that conflict with each degree of the Mousekin Faith spectrum
     [HarmonyPatch(typeof(PawnGenerator), nameof(PawnGenerator.GeneratePawn), new Type[] { typeof(PawnGenerationRequest) })]

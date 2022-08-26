@@ -3,7 +3,7 @@ using RimWorld;
 using System;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // Ignore outdoor work speed penalties for selected workbenches
     [HarmonyPatch(typeof(StatPart_WorkTableTemperature), "Applies", new Type[] { typeof(ThingDef), typeof(Map), typeof(IntVec3) })]

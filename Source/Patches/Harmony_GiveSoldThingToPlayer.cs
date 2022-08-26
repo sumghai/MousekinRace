@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     [HarmonyPatch]
     public class Harmony_GiveSoldThingToPlayer

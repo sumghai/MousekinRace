@@ -3,7 +3,7 @@ using HarmonyLib;
 using RimWorld;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // Conditionally hide body addons (e.g. ears) if a hooded headgear is worn
     [HarmonyPatch(typeof(AlienPartGenerator.BodyAddon), nameof(AlienPartGenerator.BodyAddon.CanDrawAddon))]

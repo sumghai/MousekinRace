@@ -15,7 +15,7 @@ namespace MousekinRace
         public MousekinRaceMod(ModContentPack content) : base(content)
         {
             Settings = GetSettings<Settings>();
-            var harmony = new Harmony("com.MousekinRace.patches");
+            var harmony = new Harmony("com.MousekinRace");
             harmony.PatchAll();
         }
         public override void DoSettingsWindowContents(Rect canvas)

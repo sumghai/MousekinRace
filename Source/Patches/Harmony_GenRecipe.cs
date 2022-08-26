@@ -2,7 +2,7 @@
 using UnityEngine;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // Force color of crafted apparel to be:
     // - Based on the apparel's color generators if the material/stuff permits color generators

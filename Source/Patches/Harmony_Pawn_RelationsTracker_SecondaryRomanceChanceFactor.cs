@@ -2,7 +2,7 @@
 using RimWorld;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // Prevent specially marked pawnkinds from ever starting new relationships
     [HarmonyPatch(typeof(Pawn_RelationsTracker), nameof(Pawn_RelationsTracker.SecondaryRomanceChanceFactor))]
