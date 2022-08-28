@@ -302,8 +302,10 @@
     <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs" />
+    <Compile Include="Comps\CompProperties_FireplaceRenderer.cs" />
     <Compile Include="Comps\CompProperties_StateDependentBuildingEmissive.cs" />
     <Compile Include="Comps\CompStateDependentBuildingEmissive.cs" />
+    <Compile Include="Comps\Comp_FireplaceRenderer.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_BothMousekin.cs" />
