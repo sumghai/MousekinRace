@@ -16,7 +16,7 @@
 	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_CastIronStove</defName>
 		<label>Mousekin Cast-Iron Stove</label>
-		<description>A heavy cast-iron stove with a built-in oven for preparing complex meals.</description>
+		<description>A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals.</description>
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
