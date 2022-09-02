@@ -11,6 +11,107 @@
 	
 	<!-- ========================= Work tables ==========================-->
 
+	<!-- Mousekin Cast-Iron Stove -->
+	
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_CastIronStove</defName>
+		<label>Mousekin Cast-Iron Stove</label>
+		<description>A heavy cast-iron stove with a built-in oven for preparing complex meals.</description>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_CastIronStove</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+			<shadowData>
+				<volume>(1.8,0.5,0.6)</volume>
+				<offset>(0,0,0.2)</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.12,0.12,1.76,0.89)</rectN>
+				<rectS>(0.12,-0.2,1.76,0.87)</rectS>
+				<rectE>(0.14,0.08,0.81,1.8)</rectE>
+				<rectW>(0.04,0.08,0.82,1.8)</rectW>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3500</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>120.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
+				<emissiveGraphicData>
+					<texPath>Things/Building/Production/FX/Mousekin_CastIronStove_hearthGlow</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(4, 3)</drawSize>
+				</emissiveGraphicData>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>5</heatPerSecond>
+				<heatPushMaxTemperature>26</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchCookingIronStoves</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="RecipeInheritance.ThingDefExtension">
+				<inheritRecipesFrom>
+					<li>FueledStove</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
 	<!-- Mousekin alchemy bench -->
 
 	<ThingDef ParentName="Mousekin_BenchBase">

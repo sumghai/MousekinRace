@@ -7,6 +7,13 @@
 			<!-- Add various Mousekin benches to the appropriate vanilla WorkGiverDefs -->
 
 			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>Mousekin_CastIronStove</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/WorkGiverDef[
 					defName="DoBillsCookCampfire" or
 					defName="DoBillsHaulCampfire"
