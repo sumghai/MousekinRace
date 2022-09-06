@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Chonko nut brew  -->
+	<ThingDef ParentName="DrugBase">
+		<defName>Mousekin_DrinkChonkoNutBrew</defName>
+		<label>Chonko nut brew</label>
+		<description>A coffee-like beverage that temporarily improves mood, consciousness and blood circulation. Brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mousekin_MuroidineHigh</HediffDef>
+			<HediffDef>Mousekin_MuroidineTolerance</HediffDef>
+			<HediffDef>Mousekin_MuroidineAddiction</HediffDef>
+		</descriptionHyperlinks>
+		<thingCategories>
+			<li>Mousekin_Beverages</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/Beverage/DrinkChonkoNutBrew</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Nutrition>0.07</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.3</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<tasteThought>Humanlike_Thought_DrankChonkoNutBrew</tasteThought>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_MuroidineHigh</hediffDef>
+					<severity>1</severity>
+					<toleranceChemical>Mousekin_Muroidine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_MuroidineTolerance</hediffDef>
+					<severity>0.016</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<techLevel>Neolithic</techLevel>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Mousekin_Muroidine</chemical>
+				<addictiveness>0.0025</addictiveness>
+				<minToleranceToAddict>0.25</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>10</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

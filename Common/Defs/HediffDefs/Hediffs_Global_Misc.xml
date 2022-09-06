@@ -51,5 +51,88 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef>
+		<defName>Mousekin_MuroidineHigh</defName>
+		<label>Chonko nut brew high</label>
+		<labelNoun>a Chonko nut brew high</labelNoun>
+		<description>The methylxanthine alkaloid muroidine, naturally present in trace quantities in Chonko and Nyam nuts or concentrated in beverages like Chonko nut brew, increases the stimuli in one's nervous system once metabolised, suppressing the urge to sleep and clearing the mind. Increases consciousness by 10% and blood circulation by 5%, as well as reducing rest fall rate by 10%.</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Drunk</stateEffecter>
+				<severityIndices>3~5</severityIndices>
+			</li>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4.8</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<restFallFactor>0.85</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.10</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="DrugToleranceBase">
+		<defName>Mousekin_MuroidineTolerance</defName>
+		<label>Muroidine tolerance</label>
+		<description>A built-up tolerance to muroidine found in Chonko nut brew. The more severe this tolerance is, the more muroidine it takes to get the same effect.</description>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.016</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_DrugEffectFactor">
+				<chemical>Mousekin_Muroidine</chemical>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddictionBase">
+		<defName>Mousekin_MuroidineAddiction</defName>
+		<label>Muroidine addiction</label>
+		<description>A chemical addiction to muroidine. Long-term presence of muroidine has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the methylxanthine alkaloid.\n\nWithout regular consumption of muroidine-rich beverages like Chonko nut brew, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<causesNeed>Mousekin_Chemical_Muroidine</causesNeed>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.047</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li />
+			<li>
+				<label>withdrawal</label>
+				<restFallFactorOffset>0.3</restFallFactorOffset>
+				<socialFightChanceFactor>5.0</socialFightChanceFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>Binging_DrugMajor</mentalState>
+						<mtbDays>80</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+		</stages>
+	</HediffDef>
 
 </Defs>

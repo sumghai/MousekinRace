@@ -30,5 +30,13 @@
 		<label>Mousekin ranged weapons</label>
 		<parent>WeaponsRanged</parent>
 	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Mousekin_Beverages</defName>
+		<label>Mousekin beverages</label>
+		<parent>Foods</parent>
+		<resourceReadoutRoot>false</resourceReadoutRoot>
+		<iconPath>Things/Items/Beverage/DrinkChonkoNutBrew/DrinkChonkoNutBrew_b</iconPath>
+	</ThingCategoryDef>
 
 </Defs>

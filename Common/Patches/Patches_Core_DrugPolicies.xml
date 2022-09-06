@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Allow Chonko nut brew to be consumed for joy by default in drug policies -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/DrugPolicyDef[
+					defName="SocialDrugs" or
+					defName="OneDrinkPerDay"
+				]/entries</xpath>
+				<value>
+					<li>
+						<drug>Mousekin_DrinkChonkoNutBrew</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+				</value>
+			</li>
+		
+		</operations>
+	</Operation>
+</Patch>

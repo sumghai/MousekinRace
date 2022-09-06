@@ -178,8 +178,6 @@
 		</stages>
 	</ThoughtDef>
 
-	
-
 	<ThoughtDef>
 		<defName>Mousekin_Thought_ColonistLeftUnburied</defName>
 		<workerClass>ThoughtWorker_ColonistLeftUnburied</workerClass>
@@ -191,6 +189,20 @@
 				<label>colonist left unburied</label>
 				<description>One of us died and we're just leaving them lying in the open. We should give them a proper burial, or their soul will never reach The Great Garden.</description>
 				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_DrankChonkoNutBrew</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Items/Beverage/DrinkChonkoNutBrew/DrinkChonkoNutBrew_a</icon>
+		<durationDays>0.333</durationDays>
+		<stages>
+			<li>
+				<label>drank Chonko nut brew</label>
+				<description>Mmm, delicious! I feel so much more awake already!</description>
+				<baseMoodEffect>2</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
