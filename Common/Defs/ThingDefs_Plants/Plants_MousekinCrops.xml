@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Mouse-ear Barley -->
+	<ThingDef ParentName="PlantBase">
+		<defName>Mousekin_Plant_Barley</defName>
+		<label>mouse-ear barley</label>
+		<description>A tall, moderately slow-growing and hardy cereal plant that yields small edible grains. This particular variety has round rather than elongated seeds, and is mainly cultivated by Mousekin societies as food, brewing feedstock and animal fodder.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.18</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/MouseearBarleyPlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>40</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<maxMeshCount>4</maxMeshCount>
+			<growDays>15</growDays>
+			<visualSizeRange>0.3~0.8</visualSizeRange>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.70</fertilityMin>
+			<fertilitySensitivity>1</fertilitySensitivity>
+			<topWindExposure>0.2</topWindExposure>
+			<immatureGraphicPath>Things/Plant/MouseearBarleyPlant_Immature</immatureGraphicPath>
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>35</harvestYield>
+			<harvestedThingDef>Mousekin_RawBarley</harvestedThingDef>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+
+</Defs>
