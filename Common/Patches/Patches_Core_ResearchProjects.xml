@@ -6,6 +6,7 @@
 
 			<li Class="PatchOperationConditional">
 				<xpath>Defs/ResearchProjectDef[
+					defName="Brewing" or
 					defName="CarpetMaking" or
 					defName="Greatbow" or
 					defName="LongBlades" or
@@ -14,6 +15,7 @@
 				]/tags</xpath>
 				<nomatch Class="PatchOperationAdd">
 					<xpath>Defs/ResearchProjectDef[
+						defName="Brewing" or
 						defName="CarpetMaking" or
 						defName="Greatbow" or
 						defName="LongBlades" or
@@ -28,6 +30,7 @@
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ResearchProjectDef[
+					defName="Brewing" or
 					defName="CarpetMaking" or
 					defName="ComplexClothing" or
 					defName="ComplexFurniture" or
@@ -44,7 +47,7 @@
 				<value>
 					<li>MousekinStartingResearch</li>
 				</value>
-</li>
+			</li>
 
 		</operations>
 	</Operation>
