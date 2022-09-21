@@ -21,6 +21,24 @@
 						<li>Mousekin_WorkbenchBrewery</li>
 					</value>
 				</li>
+				
+				<!-- Allow VBE ciders to be prepared at the Mousekin Brewery if Vanilla Plants Expanded is also present -->
+				
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Plants Expanded</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/RecipeDef[defName="VBE_MakeUnfermentedCider"]/recipeUsers</xpath>
+								<value>
+									<li>Mousekin_WorkbenchBrewery</li>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
 
 			</operations>
 		</match>
