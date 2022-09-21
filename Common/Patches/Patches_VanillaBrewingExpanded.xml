@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Brewing Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Allow VBE alcohols to be brewed at the Mousekin Brewery -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[
+						defName="VBE_AmbrosiaMush" or
+						defName="VBE_MakeTequilaMust" or
+						defName="VBE_MakeWhiskeyMash" or
+						defName="VBE_MakeVodkaMash" or
+						defName="VBE_MakeGinMush"
+					]/recipeUsers</xpath>
+					<value>
+						<li>Mousekin_WorkbenchBrewery</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
