@@ -31,6 +31,13 @@
 			</li>
 			
 			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsBrew"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>Mousekin_WorkbenchBrewery</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/WorkGiverDef[defName="DoBillsButcherFlesh"]/fixedBillGiverDefs</xpath>
 				<value>
 					<li>Mousekin_WorkbenchButcher</li>

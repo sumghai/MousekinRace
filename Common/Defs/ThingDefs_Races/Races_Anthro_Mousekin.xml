@@ -934,12 +934,14 @@
 					<li>Mousekin_Fireplace</li>
 					<li>Mousekin_ResearchBench</li>
 					<li>Mousekin_WorkbenchAlchemy</li>
+					<li>Mousekin_WorkbenchBrewery</li>
 					<li>Mousekin_WorkbenchButcher</li>
 					<li>Mousekin_WorkbenchCrafting</li>
 					<li>Mousekin_WorkbenchSmithy</li>
 					<li>Mousekin_WorkbenchTailor</li>
 				</buildingList>
 				<blackBuildingList>
+					<li>Brewery</li>
 					<li>FueledSmithy</li>
 					<li>FueledStove</li>
 					<li>HandTailoringBench</li>
