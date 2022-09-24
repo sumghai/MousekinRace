@@ -48,5 +48,50 @@
 		</products>
 		<workSkill>Cooking</workSkill>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Mousekin_Make_WortLager</defName>
+		<label>make Mousekin lager wort</label>
+		<description>Make Mousekin lager wort from Mouse-ear barley and hops.</description>
+		<jobString>Making Mousekin lager wort</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchBrewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_RawBarley</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawHops</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_RawBarley</li>
+				<li>RawHops</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_WortLager>5</Mousekin_WortLager>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Brewing</researchPrerequisite>
+	</RecipeDef>
 
 </Defs>
