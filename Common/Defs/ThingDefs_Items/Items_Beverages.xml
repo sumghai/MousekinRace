@@ -38,7 +38,17 @@
 			<ingestHoldOffsetStanding>
 				<northDefault>
 					<offset>(0.18,0,0)</offset>
+					<behind>true</behind>
 				</northDefault>
+				<east>
+					<offset>(0.2,0,-0.25)</offset>
+				</east>
+				<south>
+					<offset>(0.05,0,-0.25)</offset>
+				</south>
+				<west>
+					<offset>(-0.2,0,-0.25)</offset>
+				</west>
 			</ingestHoldOffsetStanding>
 			<ingestHoldUsesTable>false</ingestHoldUsesTable>
 			<ingestCommandString>Drink {0}</ingestCommandString>
@@ -109,7 +119,17 @@
 			<ingestHoldOffsetStanding>
 				<northDefault>
 					<offset>(0.18,0,0)</offset>
+					<behind>true</behind>
 				</northDefault>
+				<east>
+					<offset>(0.2,0,-0.25)</offset>
+				</east>
+				<south>
+					<offset>(0.05,0,-0.25)</offset>
+				</south>
+				<west>
+					<offset>(-0.2,0,-0.25)</offset>
+				</west>
 			</ingestHoldOffsetStanding>
 			<ingestHoldUsesTable>false</ingestHoldUsesTable>
 			<ingestCommandString>Drink {0}</ingestCommandString>
