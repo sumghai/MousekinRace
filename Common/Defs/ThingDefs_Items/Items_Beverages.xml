@@ -40,6 +40,7 @@
 					<offset>(0.18,0,0)</offset>
 				</northDefault>
 			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
 			<ingestCommandString>Drink {0}</ingestCommandString>
 			<ingestReportString>Drinking {0}.</ingestReportString>
 			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
