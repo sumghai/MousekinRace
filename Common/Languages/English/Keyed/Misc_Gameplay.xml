@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<Mousekin_FermentingBarrel_InsertMustOrWortDesc>Must or Wort to Insert</Mousekin_FermentingBarrel_InsertMustOrWortDesc>
+	
+	<Mousekin_FermentingBarrel_StartInsertionMustOrWort>Bring Must or Wort</Mousekin_FermentingBarrel_StartInsertionMustOrWort>
+	
+	<Mousekin_FermentingBarrel_StartInsertionMustOrWortDesc>Bring mead must or lager wort to the barrel to start fermentation process  </Mousekin_FermentingBarrel_StartInsertionMustOrWortDesc>
+	
+	<Mousekin_FermentingBarrel_CancelBringingMustOrWortDesc>Cancel bringing mead must or lager wort to the barrel.</Mousekin_FermentingBarrel_CancelBringingMustOrWortDesc>
+	
 	<MousekinRace_MemeGoodwillImpact_Player>We are {0}</MousekinRace_MemeGoodwillImpact_Player>
 	
 	<MousekinRace_MemeGoodwillImpact_Other>They are {0}</MousekinRace_MemeGoodwillImpact_Other>

@@ -931,6 +931,7 @@
 				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction only -->
 				<buildingList>
 					<li>Mousekin_CastIronStove</li>
+					<li>Mousekin_FermentingBarrel</li>
 					<li>Mousekin_Fireplace</li>
 					<li>Mousekin_ResearchBench</li>
 					<li>Mousekin_WorkbenchAlchemy</li>
@@ -942,6 +943,7 @@
 				</buildingList>
 				<blackBuildingList>
 					<li>Brewery</li>
+					<li>FermentingBarrel</li>
 					<li>FueledSmithy</li>
 					<li>FueledStove</li>
 					<li>HandTailoringBench</li>

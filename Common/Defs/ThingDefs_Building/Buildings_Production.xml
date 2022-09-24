@@ -556,6 +556,88 @@
 
 	<!-- ========== Non-standard work buildings ==============-->
 
+	<!-- Mousekin fermenting barrel -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_FermentingBarrel</defName>
+		<label>Mousekin fermenting barrel</label>
+		<description>A large barrel for fermenting various Mousekin alcoholic beverages.</description>
+		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_FermentingBarrel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_FermentingBarrel_east</uiIconPath>
+		<uiIconScale>2</uiIconScale>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>30</WoodLog>
+			<Steel>10</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.45</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<comps>
+			<li Class="ItemProcessor.CompProperties_ItemProcessor">
+				<buildingOnGraphic>Things/Building/Production/Mousekin_FermentingBarrel</buildingOnGraphic>
+				<numberOfInputs>1</numberOfInputs>
+				<acceptsNoneAsInput>false</acceptsNoneAsInput>
+				<InsertFirstItemDesc>Mousekin_FermentingBarrel_InsertMustOrWortDesc</InsertFirstItemDesc>
+				<ignoresIngredientLists>true</ignoresIngredientLists>
+				<showProgressBar>true</showProgressBar>
+				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
+				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_ResetMustOrWort</resetSemiautomaticIcon>
+				
+				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_EmptyMustOrWortIcon</chooseIngredientsIcon>
+
+				<bringIngredientsText>Mousekin_FermentingBarrel_StartInsertionMustOrWort</bringIngredientsText>
+				<bringIngredientsDesc>Mousekin_FermentingBarrel_StartInsertionMustOrWortDesc</bringIngredientsDesc>
+				<bringIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_InsertMustOrWort</bringIngredientsIcon >
+
+				<cancelIngredientsDesc>Mousekin_FermentingBarrel_CancelBringingMustOrWortDesc</cancelIngredientsDesc>
+				<cancelIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_CancelMustOrWort</cancelIngredientsIcon> 
+				<isLightDependingMachine>true</isLightDependingMachine>
+				<minLight>-1</minLight>
+				<maxLight>0.5</maxLight>
+				<isTemperatureDependingMachine>true</isTemperatureDependingMachine>
+				<!-- Good compromise for both lagers and meads -->
+				<minTemp>7</minTemp>
+				<maxTemp>13</maxTemp>
+				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Brewing</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 	<!-- Mousekin research bench -->
 
 	<ThingDef ParentName="Mousekin_BenchBase">
