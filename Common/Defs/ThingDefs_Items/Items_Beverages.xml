@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- Chonko nut brew  -->
-	<ThingDef ParentName="DrugBase">
-		<defName>Mousekin_DrinkChonkoNutBrew</defName>
-		<label>Chonko nut brew</label>
-		<description>A coffee-like beverage that temporarily improves mood, consciousness and blood circulation. Brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick.</description>
-		<descriptionHyperlinks>
-			<HediffDef>Mousekin_MuroidineHigh</HediffDef>
-			<HediffDef>Mousekin_MuroidineTolerance</HediffDef>
-			<HediffDef>Mousekin_MuroidineAddiction</HediffDef>
-		</descriptionHyperlinks>
+	<ThingDef Name="Mousekin_BeverageBase" ParentName="DrugBase" Abstract="True">
 		<thingCategories>
 			<li>Mousekin_Beverages</li>
 		</thingCategories>
-		<graphicData>
-			<texPath>Things/Items/Beverage/DrinkChonkoNutBrew</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>10</MarketValue>
-			<Mass>0.3</Mass>
-			<Flammability>0.5</Flammability>
-			<DeteriorationRate>0.5</DeteriorationRate>
-			<Nutrition>0.07</Nutrition>
-		</statBases>
 		<rotatable>false</rotatable>
 		<stackLimit>25</stackLimit>
 		<ingestible>
-			<foodType>Fluid, Processed</foodType>
 			<joyKind>Chemical</joyKind>
-			<joy>0.1</joy>
 			<nurseable>true</nurseable>
-			<drugCategory>Social</drugCategory>
-			<tasteThought>Humanlike_Thought_DrankChonkoNutBrew</tasteThought>
-			<ingestSound>Ingest_Drink</ingestSound>
+			<drugCategory>Social</drugCategory><ingestSound>Ingest_Drink</ingestSound>
 			<ingestHoldOffsetStanding>
 				<northDefault>
 					<offset>(0.18,0,0)</offset>
@@ -54,6 +30,34 @@
 			<ingestCommandString>Drink {0}</ingestCommandString>
 			<ingestReportString>Drinking {0}.</ingestReportString>
 			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- Chonko nut brew  -->
+	<ThingDef ParentName="Mousekin_BeverageBase">
+		<defName>Mousekin_DrinkChonkoNutBrew</defName>
+		<label>Chonko nut brew</label>
+		<description>A coffee-like beverage that temporarily improves mood, consciousness and blood circulation. Brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mousekin_MuroidineHigh</HediffDef>
+			<HediffDef>Mousekin_MuroidineTolerance</HediffDef>
+			<HediffDef>Mousekin_MuroidineAddiction</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Items/Beverage/DrinkChonkoNutBrew</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Nutrition>0.07</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<joy>0.1</joy>
+			<tasteThought>Humanlike_Thought_DrankChonkoNutBrew</tasteThought>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>Mousekin_MuroidineHigh</hediffDef>
@@ -81,7 +85,7 @@
 	</ThingDef>
 	
 	<!-- Mousekin lager -->
-	<ThingDef ParentName="DrugBase">
+	<ThingDef ParentName="Mousekin_BeverageBase">
 		<defName>Mousekin_DrinkLager</defName>
 		<label>Mousekin lager</label>
 		<description>An alcoholic beverage made by fermenting Mouse-ear barley, hops and water with a clear, pale-golden appearance and crisp, refreshing taste, often enjoyed by Mousekin peasants and laborers after work.</description>
@@ -93,9 +97,6 @@
 			<HediffDef>Cirrhosis</HediffDef>
 			<HediffDef>ChemicalDamageModerate</HediffDef>
 		</descriptionHyperlinks>
-		<thingCategories>
-			<li>Mousekin_Beverages</li>
-		</thingCategories>
 		<graphicData>
 			<texPath>Things/Items/Beverage/Mousekin_DrinkLager</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -107,34 +108,9 @@
 			<DeteriorationRate>0.5</DeteriorationRate>
 			<Nutrition>0.08</Nutrition>
 		</statBases>
-		<rotatable>false</rotatable>
-		<stackLimit>25</stackLimit>
 		<ingestible>
 			<foodType>Fluid, Processed, Liquor</foodType>
-			<joyKind>Chemical</joyKind>
 			<joy>0.17</joy>
-			<nurseable>true</nurseable>
-			<drugCategory>Social</drugCategory>
-			<ingestSound>Ingest_Drink</ingestSound>
-			<ingestHoldOffsetStanding>
-				<northDefault>
-					<offset>(0.18,0,0)</offset>
-					<behind>true</behind>
-				</northDefault>
-				<east>
-					<offset>(0.2,0,-0.25)</offset>
-				</east>
-				<south>
-					<offset>(0.05,0,-0.25)</offset>
-				</south>
-				<west>
-					<offset>(-0.2,0,-0.25)</offset>
-				</west>
-			</ingestHoldOffsetStanding>
-			<ingestHoldUsesTable>false</ingestHoldUsesTable>
-			<ingestCommandString>Drink {0}</ingestCommandString>
-			<ingestReportString>Drinking {0}.</ingestReportString>
-			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AlcoholHigh</hediffDef>
