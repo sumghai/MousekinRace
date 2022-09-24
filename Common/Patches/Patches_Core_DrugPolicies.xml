@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 		
-			<!-- Allow Chonko nut brew to be consumed for joy by default in drug policies -->
+			<!-- Allow Mousekin beverages to be consumed for joy by default in drug policies -->
 			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/DrugPolicyDef[
@@ -14,6 +14,10 @@
 				<value>
 					<li>
 						<drug>Mousekin_DrinkChonkoNutBrew</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkLager</drug>
 						<allowedForJoy>true</allowedForJoy>
 					</li>
 				</value>
