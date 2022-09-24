@@ -638,8 +638,8 @@
 				<maxLight>0.5</maxLight>
 				<isTemperatureDependingMachine>true</isTemperatureDependingMachine>
 				<!-- Good compromise for both lagers and meads -->
-				<minTemp>7</minTemp>
-				<maxTemp>13</maxTemp>
+				<minTemp>5</minTemp>
+				<maxTemp>15</maxTemp>
 				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
 			</li>
 		</comps>
