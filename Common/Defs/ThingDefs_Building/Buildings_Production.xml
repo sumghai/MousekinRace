@@ -4,6 +4,11 @@
 	<!-- ========================= Production building base abstracts ==========================-->
 	
 	<ThingDef Name="Mousekin_BenchBase" ParentName="BenchBase" Abstract="True">
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Medium</destroySound>
+		</building>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
@@ -62,8 +67,11 @@
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
+		<constructEffect>ConstructMetal</constructEffect>
+		<repairEffect>ConstructMetal</repairEffect>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
 		<comps>
 			<li Class="CompProperties_Refuelable">
@@ -221,6 +229,7 @@
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
+		<constructEffect />
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
@@ -445,6 +454,7 @@
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
+		<constructEffect />
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
