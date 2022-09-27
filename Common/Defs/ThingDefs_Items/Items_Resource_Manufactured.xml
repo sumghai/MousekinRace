@@ -7,7 +7,7 @@
 		<label>Clockwork Mechanism</label>
 		<description>Assorted metal springs, gears and levers used for crafting complex Mousekin devices.</description>
 		<graphicData>
-			<texPath>Things/Items/Mousekin_ClockworkComponent</texPath>
+			<texPath>Things/Items/Manufactured/Mousekin_ClockworkComponent</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
