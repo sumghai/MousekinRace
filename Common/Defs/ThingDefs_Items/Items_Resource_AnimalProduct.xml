@@ -9,7 +9,7 @@
 			<li>AnimalProductRaw</li>
 		</thingCategories>
 		<graphicData>
-			<texPath>Things/Items/PoopGiantCavy</texPath>
+			<texPath>Things/Items/AnimalProducts/PoopGiantCavy</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<socialPropernessMatters>true</socialPropernessMatters>
