@@ -297,6 +297,7 @@
   <ItemGroup>
     <Compile Include="Alerts\Alert_MissingEarsSuicidal.cs" />
     <Compile Include="Alerts\Alert_MissingEarsMiserable.cs" />
+    <Compile Include="Buildings\Building_Beehive.cs" />
     <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
     <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
@@ -315,8 +316,10 @@
     <Compile Include="Jobs\JobDriver_CommitSuicide.cs" />
     <Compile Include="Jobs\JobDriver_CommitSuicideWithKnife.cs" />
     <Compile Include="Jobs\JobDriver_CommitSuicideWithPoison.cs" />
+    <Compile Include="Jobs\JobDriver_HarvestFromBeehive.cs" />
     <Compile Include="Jobs\JobGiver_EarlessMousekinCommitSuicide.cs" />
     <Compile Include="Jobs\JobGiver_IntelligentAnimalGenericWorkGiver.cs" />
+    <Compile Include="Jobs\WorkGiver_HarvestFromBeehive.cs" />
     <Compile Include="MentalState\MentalStateWorker_EarlessSuicide.cs" />
     <Compile Include="MentalState\MentalState_EarlessSuicide.cs" />
     <Compile Include="MousekinDefOf.cs" />

@@ -18,6 +18,11 @@ namespace MousekinRace
         public static ThingDef Meat_Pig;
         public static ThingDef Meat_Sheep;
 
+        public static ThingDef Mousekin_Beehive;
+
+        public static ThingDef Mousekin_Beeswax;
+        public static ThingDef Mousekin_RawHoney;
+
         public static TraitDef Mousekin_TraitSpectrum_Faith;
 
         public static BodyPartDef Mousekin_Ear;
@@ -33,6 +38,7 @@ namespace MousekinRace
 
         public static JobDef Mousekin_Job_CommitSuicideWithKnife;
         public static JobDef Mousekin_Job_CommitSuicideWithPoison;
+        public static JobDef Mousekin_Job_HarvestFromBeehive;
 
         public static FactionDef Mousekin_FactionKingdom;
 

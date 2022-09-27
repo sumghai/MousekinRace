@@ -566,6 +566,59 @@
 
 	<!-- ========== Non-standard work buildings ==============-->
 
+	<!-- Mousekin beehive -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_Beehive</defName>
+		<label>Mousekin beehive</label>
+		<description>A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees.</description>
+		<thingClass>MousekinRace.Building_Beehive</thingClass>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_Beehive</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>30</WoodLog>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<fillPercent>0.45</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>15</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+		<comps />
+		<researchPrerequisites>
+			<li>Mousekin_ResearchBeekeeping</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 	<!-- Mousekin fermenting barrel -->
 	
 	<ThingDef ParentName="BuildingBase">

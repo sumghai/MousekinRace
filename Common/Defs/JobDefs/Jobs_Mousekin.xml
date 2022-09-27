@@ -14,5 +14,12 @@
 		<suspendable>false</suspendable>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
+	
+	<JobDef>
+		<defName>Mousekin_Job_HarvestFromBeehive</defName>
+		<driverClass>MousekinRace.JobDriver_HarvestFromBeehive</driverClass>
+		<reportString>harvesting products from TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
 
 </Defs>

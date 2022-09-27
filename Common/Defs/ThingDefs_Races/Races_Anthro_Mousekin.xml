@@ -930,6 +930,7 @@
 
 				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction only -->
 				<buildingList>
+					<li>Mousekin_Beehive</li>
 					<li>Mousekin_CastIronStove</li>
 					<li>Mousekin_FermentingBarrel</li>
 					<li>Mousekin_Fireplace</li>

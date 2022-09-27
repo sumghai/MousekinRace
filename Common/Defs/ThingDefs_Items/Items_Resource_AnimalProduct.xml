@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- Giant cavy pellets -->
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>Mousekin_PoopGiantCavy</defName>
 		<label>Giant Cavy pellet</label>
@@ -32,4 +33,35 @@
 		</ingestible>
 	</ThingDef>
 
+	<!-- Mousekin Honey -->
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>Mousekin_RawHoney</defName>
+		<label>Mousekin Honey</label>
+		<description>A jar of sweet, viscous amber-colored fluid produced by bees, eaten as a snack on its own, spread generously over thick slices of country bread, or used as an ingredient in Mousekin desserts.</description>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/AnimalProducts/Mousekin_RawHoney</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<Nutrition>0.1</Nutrition>
+			<MarketValue>4</MarketValue>
+			<Mass>0.3</Mass>
+			<FoodPoisonChanceFixedHuman>0.04</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+			<joy>0.10</joy>
+			<joyKind>Gluttonous</joyKind>
+			<preferability>RawTasty</preferability>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
 </Defs>
