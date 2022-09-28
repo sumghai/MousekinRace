@@ -115,7 +115,7 @@
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AlcoholHigh</hediffDef>
 					<severity>0.125</severity>
-					<toleranceChemical>Mousekin_Muroidine</toleranceChemical>
+					<toleranceChemical>Alcohol</toleranceChemical>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AlcoholTolerance</hediffDef>
