@@ -37,7 +37,7 @@
 	<ThingDef ParentName="Mousekin_BeverageBase">
 		<defName>Mousekin_DrinkChonkoNutBrew</defName>
 		<label>Chonko nut brew</label>
-		<description>A coffee-like beverage that temporarily improves mood, consciousness and blood circulation. Brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick.</description>
+		<description>A coffee-like beverage that temporarily improves mood, consciousness and blood circulation, as well as reducing the need for rest. Brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick.</description>
 		<descriptionHyperlinks>
 			<HediffDef>Mousekin_MuroidineHigh</HediffDef>
 			<HediffDef>Mousekin_MuroidineTolerance</HediffDef>
@@ -62,6 +62,11 @@
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>Mousekin_MuroidineHigh</hediffDef>
 					<severity>1</severity>
+					<toleranceChemical>Mousekin_Muroidine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.1</offset>
 					<toleranceChemical>Mousekin_Muroidine</toleranceChemical>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
