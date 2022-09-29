@@ -624,7 +624,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_FermentingBarrel</defName>
 		<label>Mousekin fermenting barrel</label>
-		<description>A large barrel for fermenting various Mousekin alcoholic beverages.</description>
+		<description>A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room.</description>
 		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Rare</tickerType>
