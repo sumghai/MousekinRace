@@ -20,6 +20,34 @@
 						<drug>Mousekin_DrinkLager</drug>
 						<allowedForJoy>true</allowedForJoy>
 					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadAwful</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadPoor</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadNormal</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadGood</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadExcellent</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadMasterwork</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadLegendary</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
 				</value>
 			</li>
 		

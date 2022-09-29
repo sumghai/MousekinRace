@@ -135,4 +135,54 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef>
+		<defName>Mousekin_MeadHigh</defName>
+		<label>Mousekin mead high</label>
+		<description>Increase dopamine levels in the body from consuming Mousekin mead reduces chances of mental breaks.</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.75</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>warm</label>
+				<statOffsets>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.25</minSeverity>
+				<label>tipsy</label>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>drunk</label>
+				<statOffsets>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.7</minSeverity>
+				<label>hammered</label>
+				<statOffsets>
+					<MentalBreakThreshold>-0.50</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<label>blackout</label>
+				<!-- MentalBreakThreshold not applied -->
+			</li>
+		</stages>
+	</HediffDef>
+
 </Defs>

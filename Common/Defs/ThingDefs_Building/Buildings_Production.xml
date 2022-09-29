@@ -680,7 +680,7 @@
 				<showProgressBar>true</showProgressBar>
 				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
 				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_ResetMustOrWort</resetSemiautomaticIcon>
-				
+				<qualitySelector>true</qualitySelector>
 				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_EmptyMustOrWortIcon</chooseIngredientsIcon>
 
 				<bringIngredientsText>Mousekin_FermentingBarrel_StartInsertionMustOrWort</bringIngredientsText>

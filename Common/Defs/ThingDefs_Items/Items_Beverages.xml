@@ -142,4 +142,116 @@
 		</comps>
 	</ThingDef>
 	
+	<!-- Mousekin mead (multiple quality levels) -->
+	<ThingDef Name="Mousekin_DrinkMeadBase" ParentName="Mousekin_BeverageBase" Abstract="True">
+		<description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AlcoholHigh</HediffDef>
+			<HediffDef>Mousekin_MeadHigh</HediffDef>
+			<HediffDef>AlcoholTolerance</HediffDef>
+			<HediffDef>Hangover</HediffDef>
+			<HediffDef>AlcoholAddiction</HediffDef>
+			<HediffDef>Cirrhosis</HediffDef>
+			<HediffDef>ChemicalDamageModerate</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Items/Beverage/Mousekin_DrinkMead</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Fluid, Processed, Liquor</foodType>
+			<joy>0.17</joy>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholHigh</hediffDef>
+					<severity>0.18</severity>
+					<toleranceChemical>Alcohol</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_MeadHigh</hediffDef>
+					<severity>0.15</severity>
+					<toleranceChemical>Alcohol</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholTolerance</hediffDef>
+					<severity>0.015</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<techLevel>Medieval</techLevel>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Alcohol</chemical>
+				<addictiveness>0.015</addictiveness>
+				<minToleranceToAddict>0.25</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>10</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DrinkMeadBase">
+		<defName>Mousekin_DrinkMeadAwful</defName>
+		<label>Mousekin mead (awful)</label>
+		<statBases>
+			<MarketValue>10</MarketValue>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DrinkMeadBase">
+		<defName>Mousekin_DrinkMeadPoor</defName>
+		<label>Mousekin mead (poor)</label>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DrinkMeadBase">
+		<defName>Mousekin_DrinkMeadNormal</defName>
+		<label>Mousekin mead (normal)</label>
+		<statBases>
+			<MarketValue>20</MarketValue>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DrinkMeadBase">
+		<defName>Mousekin_DrinkMeadGood</defName>
+		<label>Mousekin mead (good)</label>
+		<statBases>
+			<MarketValue>30</MarketValue>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DrinkMeadBase">
+		<defName>Mousekin_DrinkMeadExcellent</defName>
+		<label>Mousekin mead (excellent)</label>
+		<statBases>
+			<MarketValue>40</MarketValue>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DrinkMeadBase">
+		<defName>Mousekin_DrinkMeadMasterwork</defName>
+		<label>Mousekin mead (masterwork)</label>
+		<statBases>
+			<MarketValue>60</MarketValue>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DrinkMeadBase">
+		<defName>Mousekin_DrinkMeadLegendary</defName>
+		<label>Mousekin mead (legendary)</label>
+		<statBases>
+			<MarketValue>80</MarketValue>
+		</statBases>
+	</ThingDef>
+	
 </Defs>

@@ -93,5 +93,41 @@
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>Brewing</researchPrerequisite>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Mousekin_Make_WortMead</defName>
+		<label>make Mousekin mead must</label>
+		<description>Make Mousekin mead must from Mousekin honey.</description>
+		<jobString>Making Mousekin mead must</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchBrewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_RawHoney</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_RawHoney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_WortMead>5</Mousekin_WortMead>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Brewing</researchPrerequisite>
+	</RecipeDef>
 
 </Defs>
