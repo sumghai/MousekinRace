@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<RecipeDef Name="MousekinMakeCandleBase" Abstract="True">
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_Beeswax</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchCrafting</li>
+		</recipeUsers>
+		<researchPrerequisite>Mousekin_ResearchBeekeeping</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakeCandleBase">
+		<defName>Mousekin_Make_CandleBulkSmall</defName>
+		<label>Make Mousekin Candle x5</label>
+		<description>Melt beeswax and cast a small batch of candles.</description>
+		<jobString>Making Mousekin Candles.</jobString>
+		<workAmount>400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Beeswax</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_Candle>5</Mousekin_Candle>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakeCandleBase">
+		<defName>Mousekin_Make_CandleBulkLarge</defName>
+		<label>Make Mousekin Candle x25</label>
+		<description>Melt beeswax and cast a large batch of candles.</description>
+		<jobString>Making Mousekin Candles.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Beeswax</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_Candle>25</Mousekin_Candle>
+		</products>
+	</RecipeDef>
+	
 	<RecipeDef Name="MousekinMakeComponentBase" Abstract="True">
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Smith</soundWorking>

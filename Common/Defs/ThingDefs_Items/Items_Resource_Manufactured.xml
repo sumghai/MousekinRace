@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- Mousekin Candle -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Candle</defName>
+		<label>Mousekin Candle</label>
+		<description>Slow-burning beeswax candles used in lamps and lanterns.</description>
+		<graphicData>
+			<texPath>Things/Items/Manufactured/Mousekin_Candle</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>75</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<MarketValue>12</MarketValue>
+			<Mass>0.04</Mass>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+	
 	<!-- Clockwork Mechanism (pre-industrial component) -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>Mousekin_ClockworkComponent</defName>
