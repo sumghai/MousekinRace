@@ -8,7 +8,11 @@ namespace MousekinRace
 {
     public class Building_Beehive: Building
     {
-        public float progressInt;
+        public List<ThingDef> validFlowerDefs;
+        
+        public const float FlowerSearchRadius = 19.9f;
+
+        public const int MinFlowerContainingCells = 20;
 
         public const int HoneyYield = 25; // Hardcoded yields to prevent exploitation by stack size altering mods
 
@@ -19,6 +23,35 @@ namespace MousekinRace
         public const float MinIdealTemperature = 10f;
 
         public const float MaxIdealTemperature = 35f;
+
+        public static List<IntVec3> flowerSearchCells = new List<IntVec3>();
+
+        public IEnumerable<IntVec3> FlowerSearchCells => FlowerSearchCellsAround(base.Position, base.Map);
+
+        public override void SpawnSetup(Map map, bool respawningAfterLoad)
+        {
+            base.SpawnSetup(map, respawningAfterLoad);
+            validFlowerDefs = base.def.GetModExtension<BeehiveValidFlowersExtension>().validFlowerPlantDefs;
+        }
+
+        public int CellsWithValidFlowers(Map map)
+        {
+            int flowerCells = 0;
+            
+            foreach (var cell in FlowerSearchCells)
+            {
+                Plant plant = cell.GetPlant(map);
+
+                if (plant != null && validFlowerDefs.Contains(plant.def))
+                {
+                    flowerCells++;
+                }
+            }
+
+            return flowerCells;
+        }
+
+        public float progressInt;
 
         public bool ProductsReady
         {
@@ -43,6 +76,37 @@ namespace MousekinRace
             }
         }
 
+        public static List<IntVec3> FlowerSearchCellsAround(IntVec3 pos, Map map)
+        {
+            flowerSearchCells.Clear();
+
+            if (!pos.InBounds(map))
+            {
+                return flowerSearchCells;
+            }
+
+            Region region = pos.GetRegion(map);
+
+            if (region == null)
+            {
+                return flowerSearchCells;
+            }
+
+            RegionTraverser.BreadthFirstTraverse(region, (Region from, Region r) => r.door == null, delegate (Region r)
+            {
+                foreach (IntVec3 cell in r.Cells)
+                {
+                    if (cell.InHorDistOf(pos, FlowerSearchRadius))
+                    {
+                        flowerSearchCells.Add(cell);
+                    }
+                }
+                return false;
+            });
+
+            return flowerSearchCells;
+        }
+        
         public override void ExposeData()
         {
             base.ExposeData();
@@ -65,7 +129,7 @@ namespace MousekinRace
                 // If minified, don't show status messages
             }
             else
-            {
+            {                
                 if (ProductsReady)
                 {
                     stringBuilder.Append("Awaiting pickup");
@@ -74,7 +138,10 @@ namespace MousekinRace
                 {
                     stringBuilder.Append("Paused: Out of temperature range");
                 }
-                // Todo - string for insufficient plants in search radius
+                else if (CellsWithValidFlowers(base.Map) < MinFlowerContainingCells)
+                {
+                    stringBuilder.Append("Paused: Not enough flowers in range");
+                }
                 else
                 {
                     int daysRemaining = (int)(BaseGatheringDuration - Progress);
@@ -100,7 +167,7 @@ namespace MousekinRace
         {
             base.TickRare();
             
-            if (AmbientTempIsOk() && !ProductsReady)
+            if (AmbientTempIsOk() && CellsWithValidFlowers(base.Map) >= MinFlowerContainingCells && !ProductsReady)
             {
                 Progress += GenTicks.TickRareInterval;
             }

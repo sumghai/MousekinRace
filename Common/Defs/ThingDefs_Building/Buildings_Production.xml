@@ -614,9 +614,21 @@
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<comps />
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_ShowFlowerSearchRadius</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>Mousekin_ResearchBeekeeping</li>
 		</researchPrerequisites>
+		<modExtensions>
+			<li Class="MousekinRace.BeehiveValidFlowersExtension">
+				<validFlowerPlantDefs>
+					<li>Plant_Daylily</li>
+					<li>Plant_Rose</li>
+				</validFlowerPlantDefs>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	
 	<!-- Mousekin fermenting barrel -->

@@ -309,6 +309,7 @@
     <Compile Include="Comps\Comp_FireplaceRenderer.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
+    <Compile Include="DefModExtensions\BeehiveValidFlowersExtension.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_BothMousekin.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_PrejudicedAgainstMousekin.cs" />
@@ -339,6 +340,7 @@
     <Compile Include="Patches\Harmony_Pawn_RelationsTracker_SecondaryRomanceChanceFactor.cs" />
     <Compile Include="Patches\Harmony_StatPart_WorkTableOutdoors.cs" />
     <Compile Include="Patches\Harmony_StatPart_WorkTableTemperature.cs" />
+    <Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Patches\RawMeatTradeTagPatch.cs" />
     <Compile Include="DefModExtensions\RomanceUtilsExtension.cs" />
