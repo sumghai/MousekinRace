@@ -132,21 +132,21 @@ namespace MousekinRace
             {                
                 if (ProductsReady)
                 {
-                    stringBuilder.Append("Awaiting pickup");
+                    stringBuilder.Append("Mousekin_Beehive_HoneyReady".Translate());
                 }
                 else if (!AmbientTempIsOk())
                 {
-                    stringBuilder.Append("Paused: Out of temperature range");
+                    stringBuilder.Append("Mousekin_Beehive_HoneyPausedBadTemp".Translate());
                 }
                 else if (CellsWithValidFlowers(base.Map) < MinFlowerContainingCells)
                 {
-                    stringBuilder.Append("Paused: Not enough flowers in range");
+                    stringBuilder.Append("Mousekin_Beehive_HoneyPausedNotEnoughFlowers".Translate(CellsWithValidFlowers(base.Map), MinFlowerContainingCells));
                 }
                 else
                 {
                     int daysRemaining = (int)(BaseGatheringDuration - Progress);
 
-                    stringBuilder.Append("Next honey in: " + GenDate.ToStringTicksToPeriod(daysRemaining, true, false, true, true));
+                    stringBuilder.Append("Mousekin_Beehive_HoneyProgress".Translate(GenDate.ToStringTicksToPeriod(daysRemaining, true, false, true, true)));
                 }
             }
 

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+	
+	<Mousekin_Beehive_HoneyPausedBadTemp>Paused: Non-ideal temperature.</Mousekin_Beehive_HoneyPausedBadTemp>
 
+	<Mousekin_Beehive_HoneyPausedNotEnoughFlowers>Paused: Not enough flowers in range ({0} of {1} required).</Mousekin_Beehive_HoneyPausedNotEnoughFlowers>
+	
+	<Mousekin_Beehive_HoneyProgress>Next honey in: {0}</Mousekin_Beehive_HoneyProgress>
+	
+	<Mousekin_Beehive_HoneyReady>Awaiting pickup.</Mousekin_Beehive_HoneyReady>
+	
 	<Mousekin_FermentingBarrel_InsertMustOrWortDesc>Must or Wort to Insert</Mousekin_FermentingBarrel_InsertMustOrWortDesc>
 	
 	<Mousekin_FermentingBarrel_StartInsertionMustOrWort>Bring Must or Wort</Mousekin_FermentingBarrel_StartInsertionMustOrWort>
