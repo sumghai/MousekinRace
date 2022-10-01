@@ -1,5 +1,7 @@
 ﻿using RimWorld;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using UnityEngine;
 using Verse;
@@ -31,7 +33,7 @@ namespace MousekinRace
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
             base.SpawnSetup(map, respawningAfterLoad);
-            validFlowerDefs = base.def.GetModExtension<BeehiveValidFlowersExtension>().validFlowerPlantDefs;
+            validFlowerDefs = base.def.GetModExtension<BeehiveValidFlowersExtension>().validFlowerPlantDefs.OrderBy(x => x.label).ToList();
         }
 
         public int CellsWithValidFlowers(Map map)
@@ -179,7 +181,7 @@ namespace MousekinRace
             {
                 yield return c;
             }
-            if (Prefs.DevMode)
+            if (Prefs.DevMode && DebugSettings.godMode)
             {
                 yield return new Command_Action
                 {
@@ -230,6 +232,27 @@ namespace MousekinRace
                     }
                 };
             }
+            yield return new Command_Action
+            {
+                action = new Action(this.ShowManual),
+                defaultLabel = "MousekinRace_CommandShowBeehiveManual".Translate(),
+                defaultDesc = "MousekinRace_CommandShowBeehiveManualDesc".Translate(),
+                icon = ContentFinder<Texture2D>.Get("UI/Commands/Mousekin_BeehiveManual", true)
+            };
+            yield break;
+        }
+
+        public void ShowManual()
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.AppendLine("MousekinRace_Beehive_Instructions".Translate(MinIdealTemperature.ToStringTemperature(), MaxIdealTemperature.ToStringTemperature(), MinFlowerContainingCells));
+
+            foreach (ThingDef flowerDef in validFlowerDefs)
+            {
+                stringBuilder.AppendLine("- " + flowerDef.LabelCap);
+            }
+            Dialog_MessageBox window = new Dialog_MessageBox(stringBuilder.ToString(), null, null, null, null, null, false, null, null);
+            Find.WindowStack.Add(window);
         }
 
     }
