@@ -687,7 +687,7 @@
 				<buildingOnGraphic>Things/Building/Production/Mousekin_FermentingBarrel</buildingOnGraphic>
 				<numberOfInputs>1</numberOfInputs>
 				<acceptsNoneAsInput>false</acceptsNoneAsInput>
-				<InsertFirstItemDesc>Mousekin_FermentingBarrel_InsertMustOrWortDesc</InsertFirstItemDesc>
+				<InsertFirstItemDesc>MousekinRace_FermentingBarrel_InsertMustOrWortDesc</InsertFirstItemDesc>
 				<ignoresIngredientLists>true</ignoresIngredientLists>
 				<showProgressBar>true</showProgressBar>
 				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
@@ -695,11 +695,11 @@
 				<qualitySelector>true</qualitySelector>
 				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_EmptyMustOrWortIcon</chooseIngredientsIcon>
 
-				<bringIngredientsText>Mousekin_FermentingBarrel_StartInsertionMustOrWort</bringIngredientsText>
-				<bringIngredientsDesc>Mousekin_FermentingBarrel_StartInsertionMustOrWortDesc</bringIngredientsDesc>
+				<bringIngredientsText>MousekinRace_FermentingBarrel_StartInsertionMustOrWort</bringIngredientsText>
+				<bringIngredientsDesc>MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc</bringIngredientsDesc>
 				<bringIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_InsertMustOrWort</bringIngredientsIcon >
 
-				<cancelIngredientsDesc>Mousekin_FermentingBarrel_CancelBringingMustOrWortDesc</cancelIngredientsDesc>
+				<cancelIngredientsDesc>MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc</cancelIngredientsDesc>
 				<cancelIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_CancelMustOrWort</cancelIngredientsIcon> 
 				<isLightDependingMachine>true</isLightDependingMachine>
 				<minLight>-1</minLight>

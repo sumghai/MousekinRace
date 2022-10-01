@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
-	<Mousekin_Beehive_HoneyPausedBadTemp>Paused: Non-ideal temperature.</Mousekin_Beehive_HoneyPausedBadTemp>
+	<MousekinRace_Beehive_HoneyPausedBadTemp>Paused: Non-ideal temperature.</MousekinRace_Beehive_HoneyPausedBadTemp>
 
-	<Mousekin_Beehive_HoneyPausedNotEnoughFlowers>Paused: Not enough flowers in range ({0} of {1} required).</Mousekin_Beehive_HoneyPausedNotEnoughFlowers>
+	<MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>Paused: Not enough flowers in range ({0} of {1} required).</MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>
 	
-	<Mousekin_Beehive_HoneyProgress>Next honey in: {0}</Mousekin_Beehive_HoneyProgress>
+	<MousekinRace_Beehive_HoneyProgress>Next honey in: {0}</MousekinRace_Beehive_HoneyProgress>
 	
-	<Mousekin_Beehive_HoneyReady>Awaiting pickup.</Mousekin_Beehive_HoneyReady>
+	<MousekinRace_Beehive_HoneyReady>Awaiting pickup.</MousekinRace_Beehive_HoneyReady>
 	
 	<MousekinRace_Beehive_Instructions>To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n</MousekinRace_Beehive_Instructions>
 	
-	<Mousekin_FermentingBarrel_InsertMustOrWortDesc>Must or Wort to Insert</Mousekin_FermentingBarrel_InsertMustOrWortDesc>
+	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>Must or Wort to Insert</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
 	
-	<Mousekin_FermentingBarrel_StartInsertionMustOrWort>Bring Must or Wort</Mousekin_FermentingBarrel_StartInsertionMustOrWort>
+	<MousekinRace_FermentingBarrel_StartInsertionMustOrWort>Bring Must or Wort</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
 	
-	<Mousekin_FermentingBarrel_StartInsertionMustOrWortDesc>Bring mead must or lager wort to the barrel to start fermentation process  </Mousekin_FermentingBarrel_StartInsertionMustOrWortDesc>
+	<MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>Bring mead must or lager wort to the barrel to start fermentation process  </MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
 	
-	<Mousekin_FermentingBarrel_CancelBringingMustOrWortDesc>Cancel bringing mead must or lager wort to the barrel.</Mousekin_FermentingBarrel_CancelBringingMustOrWortDesc>
+	<MousekinRace_FermentingBarrel_CancelBringingMustOrWort>Cancel bringing Must or Wort</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
+	
+	<MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>Cancel bringing mead must or lager wort to the barrel.</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
 	
 	<MousekinRace_MemeGoodwillImpact_Player>We are {0}</MousekinRace_MemeGoodwillImpact_Player>
 	

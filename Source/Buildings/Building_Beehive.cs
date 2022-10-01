@@ -134,21 +134,21 @@ namespace MousekinRace
             {                
                 if (ProductsReady)
                 {
-                    stringBuilder.Append("Mousekin_Beehive_HoneyReady".Translate());
+                    stringBuilder.Append("MousekinRace_Beehive_HoneyReady".Translate());
                 }
                 else if (!AmbientTempIsOk())
                 {
-                    stringBuilder.Append("Mousekin_Beehive_HoneyPausedBadTemp".Translate());
+                    stringBuilder.Append("MousekinRace_Beehive_HoneyPausedBadTemp".Translate());
                 }
                 else if (CellsWithValidFlowers(base.Map) < MinFlowerContainingCells)
                 {
-                    stringBuilder.Append("Mousekin_Beehive_HoneyPausedNotEnoughFlowers".Translate(CellsWithValidFlowers(base.Map), MinFlowerContainingCells));
+                    stringBuilder.Append("MousekinRace_Beehive_HoneyPausedNotEnoughFlowers".Translate(CellsWithValidFlowers(base.Map), MinFlowerContainingCells));
                 }
                 else
                 {
                     int daysRemaining = (int)(BaseGatheringDuration - Progress);
 
-                    stringBuilder.Append("Mousekin_Beehive_HoneyProgress".Translate(GenDate.ToStringTicksToPeriod(daysRemaining, true, false, true, true)));
+                    stringBuilder.Append("MousekinRace_Beehive_HoneyProgress".Translate(GenDate.ToStringTicksToPeriod(daysRemaining, true, false, true, true)));
                 }
             }
 
