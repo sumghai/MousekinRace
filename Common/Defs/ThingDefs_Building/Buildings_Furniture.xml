@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ========================= Lighting ==========================-->
+
+	<!-- Mousekin Candle Sconce -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_FurnitureWallCandle</defName>
+		<label>Mousekin candle sconce</label>
+		<description>A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_FurnitureWallCandle</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/Mousekin_FurnitureWallCandle_MenuIcon</uiIconPath>
+		<costList>
+			<Steel>5</Steel>
+			<Mousekin_Candle>1</Mousekin_Candle>
+		</costList>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<fillPercent>0.1</fillPercent>
+		<canOverlapZones>true</canOverlapZones>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>Furniture</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<constructEffect>ConstructMetal</constructEffect>
+		<repairEffect>ConstructMetal</repairEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.33333333</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Mousekin_Candle</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="MousekinRace.CompProperties_FireOverlayDirectionalOffsets">
+				<fireSize>0.25</fireSize>
+				<directionalOffsets>
+					<north>(0,0,0.894)</north>
+					<south>(0,0,-0.325)</south>
+					<east>(0.492,0,0.252)</east>
+				</directionalOffsets>
+			</li>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_WallMounted</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Mousekin_ResearchBeekeeping</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+</Defs>
