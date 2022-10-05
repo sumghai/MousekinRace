@@ -33,6 +33,41 @@
 		</ingestible>
 	</ThingDef>
 
+	<!-- Cloverbury Cheese -->
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>Mousekin_FoodCheese</defName>
+		<label>Cloverbury Cheese</label>
+		<description>A medium-hard cheese with a sharp and pungent flavor, traditionally made with cow’s milk. Can be eaten on its own, as well as grated or melted as an ingredient in other dishes.</description>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/AnimalProducts/Mousekin_FoodCheese</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<Nutrition>0.15</Nutrition>
+			<MarketValue>10</MarketValue>
+			<Mass>0.36</Mass>
+		</statBases>
+		<ingestible>
+			<foodType>Meal, Processed, AnimalProduct</foodType>
+			<preferability>RawTasty</preferability>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	<!-- Mousekin Honey -->
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>Mousekin_RawHoney</defName>
