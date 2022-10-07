@@ -482,7 +482,7 @@
 					<stump>Things/Mote/Transparent</stump>
 				</li>
 			</graphicPaths>
-			<styleSettings>	
+			<styleSettings>
 				<li>
 					<key>HairDef</key>
 					<value>
@@ -932,6 +932,7 @@
 				<buildingList>
 					<li>Mousekin_Beehive</li>
 					<li>Mousekin_CastIronStove</li>
+					<li>Mousekin_CheesePress</li>
 					<li>Mousekin_FermentingBarrel</li>
 					<li>Mousekin_Fireplace</li>
 					<li>Mousekin_ResearchBench</li>
@@ -1124,9 +1125,9 @@
 		<modExtensions>
 			<li Class="MousekinRace.OtherRodentRacesExtension">
 				<!-- Rodent races that are simply "different" to Mousekins -->
-				<differentRodentRaces />
+				<differentRodentRaces/>
 				<!-- Rodent races that are actively hostile to Mousekins -->
-				<hostileRodentRaces />
+				<hostileRodentRaces/>
 			</li>
 		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>

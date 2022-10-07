@@ -2,6 +2,15 @@
 <Defs>
 
 	<ItemProcessor.ItemAcceptedDef>
+		<defName>Mousekin_IP_CheesePressFirstItem</defName>
+		<building>Mousekin_CheesePress</building>
+		<slot>1</slot>
+		<items>
+			<li>Milk</li>
+		</items>
+	</ItemProcessor.ItemAcceptedDef>
+	
+	<ItemProcessor.ItemAcceptedDef>
 		<defName>Mousekin_IP_FermentingBarrelFirstItem</defName>
 		<building>Mousekin_FermentingBarrel</building>
 		<slot>1</slot>

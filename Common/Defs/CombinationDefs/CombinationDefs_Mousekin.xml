@@ -2,6 +2,21 @@
 <Defs>
 
 	<ItemProcessor.CombinationDef>
+		<defName>Mousekin_MilkToCheese</defName>
+		<building>Mousekin_CheesePress</building>
+		<items>
+			<li>Milk</li>
+		</items>
+		<amount>
+			<li>50</li>
+		</amount>
+		<result>Mousekin_FoodCheese</result>
+		<yield>25</yield>
+		<useQualityIncreasing>false</useQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>15</singleTimeIfNotQualityIncreasing>
+	</ItemProcessor.CombinationDef>
+	
+	<ItemProcessor.CombinationDef>
 		<defName>Mousekin_WortLagerToDrinkLager</defName>
 		<building>Mousekin_FermentingBarrel</building>
 		<items>
