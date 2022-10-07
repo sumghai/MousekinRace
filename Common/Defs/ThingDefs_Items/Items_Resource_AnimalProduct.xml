@@ -57,7 +57,6 @@
 			<foodType>Meal, Processed, AnimalProduct</foodType>
 			<preferability>RawTasty</preferability>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
 		<comps>
