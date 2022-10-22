@@ -21,6 +21,9 @@
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 		</recipeMaker>
+		<tradeTags Inherit="false">
+			<li>Mousekin_WeaponRanged</li>
+		</tradeTags>
 	</ThingDef>
 
 	<!-- ========================= Crossbows ========================== -->
@@ -225,24 +228,24 @@
 		</tools>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
-				<draftedDrawOffsets>
+				<weaponDraftedDrawOffsets>
 					<north>
-						<posOffset>(0, 0, -0.2)</posOffset>
-						<angOffset>295</angOffset>
+						<drawOffset>(0, 0, -0.09)</drawOffset>
+						<angleOffset>152</angleOffset>
 					</north>
 					<east>
-						<posOffset>(0.3, 0, -0.2)</posOffset>
-						<angOffset>60</angOffset>
+						<drawOffset>(0.1, 0, 0.02)</drawOffset>
+						<angleOffset>-83</angleOffset>
 					</east>
 					<south>
-						<posOffset>(0, 0, -0.2)</posOffset>					
-						<angOffset>65</angOffset>
+						<drawOffset>(0, 0, 0.02)</drawOffset>					
+						<angleOffset>-78</angleOffset>
 					</south>
 					<west>
-						<posOffset>(-0.3, 0, -0.2)</posOffset>
-						<angOffset>300</angOffset>
+						<drawOffset>(-0.1, 0, 0.02)</drawOffset>
+						<angleOffset>83</angleOffset>
 					</west>
-				</draftedDrawOffsets>
+				</weaponDraftedDrawOffsets>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -318,24 +321,24 @@
 		</tools>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
-				<draftedDrawOffsets>
+				<weaponDraftedDrawOffsets>
 					<north>
-						<posOffset>(0, 0, -0.2)</posOffset>
-						<angOffset>295</angOffset>
+						<drawOffset>(0, 0, -0.09)</drawOffset>
+						<angleOffset>152</angleOffset>
 					</north>
 					<east>
-						<posOffset>(0.3, 0, -0.2)</posOffset>
-						<angOffset>60</angOffset>
+						<drawOffset>(0.1, 0, 0.02)</drawOffset>
+						<angleOffset>-83</angleOffset>
 					</east>
 					<south>
-						<posOffset>(0, 0, -0.2)</posOffset>					
-						<angOffset>65</angOffset>
+						<drawOffset>(0, 0, 0.02)</drawOffset>					
+						<angleOffset>-78</angleOffset>
 					</south>
 					<west>
-						<posOffset>(-0.3, 0, -0.2)</posOffset>
-						<angOffset>300</angOffset>
+						<drawOffset>(-0.1, 0, 0.02)</drawOffset>
+						<angleOffset>83</angleOffset>
 					</west>
-				</draftedDrawOffsets>
+				</weaponDraftedDrawOffsets>
 			</li>
 		</modExtensions>
 	</ThingDef>

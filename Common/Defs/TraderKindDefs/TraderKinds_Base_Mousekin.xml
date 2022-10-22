@@ -111,23 +111,23 @@
 
 			<!-- Apparel -->
 
-			<li Class="StockGenerator_Tag">
+			<li Class="StockGenerator_MarketValue">
 				<tradeTag>Mousekin_TradeGoods_ApparelCommoner</tradeTag>
-				<thingDefCountRange>8~10</thingDefCountRange>
+				<!--<thingDefCountRange>8~10</thingDefCountRange>-->
 				<countRange>30~40</countRange>
 				<price>Cheap</price>
 			</li>
 			
-			<li Class="StockGenerator_Tag">
+			<li Class="StockGenerator_MarketValue">
 				<tradeTag>Mousekin_TradeGoods_ApparelMiddle</tradeTag>
-				<thingDefCountRange>8~10</thingDefCountRange>
+				<!--<thingDefCountRange>8~10</thingDefCountRange>-->
 				<countRange>20~30</countRange>
 				<price>Cheap</price>
 			</li>
 			
-			<li Class="StockGenerator_Tag">
+			<li Class="StockGenerator_MarketValue">
 				<tradeTag>Mousekin_TradeGoods_ApparelMilitaryBasic</tradeTag>
-				<thingDefCountRange>8~10</thingDefCountRange>
+				<!--<thingDefCountRange>8~10</thingDefCountRange>-->
 				<countRange>10~20</countRange>
 				<price>Cheap</price>
 			</li>
@@ -207,7 +207,8 @@
 
 			<!-- Tool-style melee weapons -->
 
-			<li Class="StockGenerator_WeaponsMelee">
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponMelee</tradeTag>
 				<weaponTag>Mousekin_Tool</weaponTag>
 				<countRange>40~50</countRange>
 				<price>Cheap</price>
@@ -234,7 +235,8 @@
 
 			<!-- Melee weapons -->
 
-			<li Class="StockGenerator_WeaponsMelee">
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponMelee</tradeTag>
 				<weaponTag>Mousekin_MeleeWeapon</weaponTag>
 				<countRange>40~50</countRange>
 				<customCountRanges>
@@ -249,7 +251,8 @@
 
 			<!-- Ranged weapons (basic only) -->
 
-			<li Class="StockGenerator_WeaponsRanged">
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponRanged</tradeTag>
 				<weaponTag>Mousekin_RangedWeapon_Basic</weaponTag>
 				<countRange>20~30</countRange>
 				<price>Cheap</price>
@@ -257,9 +260,9 @@
 			
 			<!-- Mid-tier military apparel (knight helmet and armor) -->
 			
-			<li Class="StockGenerator_Tag">
+			<li Class="StockGenerator_MarketValue">
 				<tradeTag>Mousekin_TradeGoods_ApparelMilitaryKingdom</tradeTag>
-				<thingDefCountRange>5~10</thingDefCountRange>
+				<!--<thingDefCountRange>5~10</thingDefCountRange>-->
 				<countRange>4~6</countRange>
 				<price>Cheap</price>
 			</li>
@@ -282,7 +285,8 @@
 
 			<!-- Melee weapons (basic only) -->
 
-			<li Class="StockGenerator_WeaponsMelee">
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponMelee</tradeTag>
 				<weaponTag>Mousekin_MeleeWeapon_Basic</weaponTag>
 				<countRange>10~15</countRange>
 				<price>Cheap</price>
@@ -290,7 +294,8 @@
 			
 			<!-- Ranged weapons -->
 
-			<li Class="StockGenerator_WeaponsRanged">
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponRanged</tradeTag>
 				<weaponTag>Mousekin_RangedWeapon</weaponTag>
 				<countRange>40~60</countRange>
 				<customCountRanges>

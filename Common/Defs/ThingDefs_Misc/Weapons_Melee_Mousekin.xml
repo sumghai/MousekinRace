@@ -21,6 +21,9 @@
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 		</recipeMaker>
+		<tradeTags Inherit="false">
+			<li>Mousekin_WeaponMelee</li>
+		</tradeTags>
 		<comps>
 			<li>
 				<compClass>CompQuality</compClass>
@@ -81,29 +84,26 @@
 				<cooldownTime>3</cooldownTime>
 			</li>
 		</tools>
-		<comps>
-			<li>
-				<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-			</li>
-		</comps>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
-				<draftedDrawOffsets>
+				<weaponDraftedDrawOffsets>
 					<north>
-						<posOffset>(0.25, 0, 0.25)</posOffset>
+						<drawOffset>(0.25, 0, 0.36)</drawOffset>
+						<angleOffset>-143</angleOffset>
 					</north>
 					<east>
-						<posOffset>(0.3, 0, 0.20)</posOffset>
-						<angOffset>21</angOffset>
+						<drawOffset>(0.1, 0, 0.42)</drawOffset>
+						<angleOffset>-122</angleOffset>
 					</east>
 					<south>
-						<posOffset>(-0.25, 0, 0.25)</posOffset>
+						<drawOffset>(-0.25, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
 					</south>
 					<west>
-						<posOffset>(-0.3, 0, 0.20)</posOffset>
-						<angOffset>339</angOffset>
+						<drawOffset>(-0.1, 0, 0.42)</drawOffset>
+						<angleOffset>122</angleOffset>
 					</west>
-				</draftedDrawOffsets>
+				</weaponDraftedDrawOffsets>
 			</li>
 		</modExtensions>
 	</ThingDef>

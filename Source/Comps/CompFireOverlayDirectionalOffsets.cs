@@ -4,6 +4,7 @@ using Verse;
 
 namespace MousekinRace
 {
+    [StaticConstructorOnStartup]
     public class CompFireOverlayDirectionalOffsets : CompFireOverlayBase
     {
         protected CompRefuelable refuelableComp;

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Mousekin</defName>
+		<graphicPath>Things/Pawn/Mousekin/Heads/None_Mousekin</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+</Defs>

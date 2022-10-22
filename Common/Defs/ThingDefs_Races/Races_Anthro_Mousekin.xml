@@ -8,8 +8,6 @@
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.5</maleGenderProbability>
-				<immuneToAge>false</immuneToAge>
-				<canLayDown>true</canLayDown>
 				<disallowedTraits>
 					<li>
 						<defName>AnnoyingVoice</defName>
@@ -74,22 +72,18 @@
 					</li>
 				</disallowedTraits>
 				<maxDamageForSocialfight>5</maxDamageForSocialfight>
-				<immuneToXenophobia>false</immuneToXenophobia>
 				<!-- Allows patches to make Mousekin always not be xenophobic towards certain races (e.g. Otters) -->
 				<notXenophobistTowards/>
 				<minAgeForAdulthood>18</minAgeForAdulthood>
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
-					<aliencrowntypes>
-						<li>Normal</li>
-						<li>Sleepy</li>
-					</aliencrowntypes>
-					<alienbodytypes>
+					<headTypes Inherit="false">
 						<li>Mousekin</li>
-					</alienbodytypes>
+					</headTypes>
+					<bodyTypes Inherit="false">
+						<li>Mousekin</li>
+					</bodyTypes>
 					<atlasScale>4</atlasScale>
-					<useGenderedHeads>true</useGenderedHeads>
-					<useGenderedBodies>false</useGenderedBodies>
 					<getsGreyAt>60</getsGreyAt>
 					<customDrawSize>(0.9, 0.9)</customDrawSize>
 					<customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
@@ -161,19 +155,18 @@
 					<bodyAddons>
 						<li>
 							<path>Things/Pawn/Mousekin/Ears/EarLeft</path>
-							<bodyPart>left ear</bodyPart>
+							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
-							<drawSize>0.9</drawSize>
+							<drawSize>(0.9, 0.9)</drawSize>
 							<drawnDesiccated>false</drawnDesiccated>
-							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
 							<hediffGraphics>
 								<Mousekin_ProstheticClothEar>Things/Pawn/Mousekin/Ears/EarClothLeft</Mousekin_ProstheticClothEar>
 							</hediffGraphics>
 							<offsets>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.266</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -182,7 +175,7 @@
 									</portraitBodyTypes>
 								</south>
 								<north>
-									<layerOffset>1</layerOffset>
+									<layerOffset>-0.3</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -191,7 +184,7 @@
 									</portraitBodyTypes>
 								</north>
 								<east>
-									<layerOffset>-1</layerOffset>
+									<layerOffset>-0.3</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -200,6 +193,7 @@
 									</portraitBodyTypes>
 								</east>
 								<west>
+									<layerOffset>-0.266</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -214,19 +208,18 @@
 						</li>
 						<li>
 							<path>Things/Pawn/Mousekin/Ears/EarRight</path>
-							<bodyPart>right ear</bodyPart>
+							<bodyPartLabel>right ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
-							<drawSize>0.9</drawSize>
+							<drawSize>(0.9, 0.9)</drawSize>
 							<drawnDesiccated>false</drawnDesiccated>
-							<drawnInBed>True</drawnInBed>
 							<colorChannel>skin</colorChannel>
 							<hediffGraphics>
 								<Mousekin_ProstheticClothEar>Things/Pawn/Mousekin/Ears/EarClothRight</Mousekin_ProstheticClothEar>
 							</hediffGraphics>
 							<offsets>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.266</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -235,7 +228,7 @@
 									</portraitBodyTypes>
 								</south>
 								<north>
-									<layerOffset>1</layerOffset>
+									<layerOffset>-0.3</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -244,6 +237,7 @@
 									</portraitBodyTypes>
 								</north>
 								<east>
+									<layerOffset>-0.266</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -252,7 +246,7 @@
 									</portraitBodyTypes>
 								</east>
 								<west>
-									<layerOffset>-1</layerOffset>
+									<layerOffset>-0.3</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,0)</Mousekin>
 									</bodyTypes>
@@ -267,9 +261,8 @@
 						</li>
 						<li>
 							<path>Things/Pawn/Mousekin/Tails/Tail</path>
-							<bodyPart>tail</bodyPart>
+							<bodyPartLabel>tail</bodyPartLabel>
 							<inFrontOfBody>false</inFrontOfBody>
-							<drawSize>1</drawSize>
 							<drawnDesiccated>false</drawnDesiccated>
 							<drawnInBed>false</drawnInBed>
 							<colorChannel>skin</colorChannel>
@@ -308,7 +301,6 @@
 								<rotation>South</rotation>
 								<tag>LeftEye</tag>
 								<canMirror>false</canMirror>
-								<crownType>Average</crownType>
 								<range>0</range>
 								<layer>Head</layer>
 								<debugColor>(1,0,0,1)</debugColor>
@@ -318,28 +310,25 @@
 									<bodyTypes>
 										<Mousekin>(0.117,0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</south>
 								<east>
 									<bodyTypes>
 										<Mousekin>(0.115, 0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</east>
 								<west>
 									<bodyTypes>
 										<Mousekin>(-0.115, 0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</west>
 							</offsets>
 						</li>
@@ -350,7 +339,6 @@
 								<rotation>West</rotation>
 								<tag>LeftEye</tag>
 								<canMirror>false</canMirror>
-								<crownType>Average</crownType>
 								<range>0</range>
 								<layer>Head</layer>
 								<debugColor>(1,0,0,1)</debugColor>
@@ -360,28 +348,25 @@
 									<bodyTypes>
 										<Mousekin>(0.117,0.110))</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</south>
 								<east>
 									<bodyTypes>
 										<Mousekin>(0.115, 0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</east>
 								<west>
 									<bodyTypes>
 										<Mousekin>(-0.115, 0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</west>
 							</offsets>
 						</li>
@@ -392,7 +377,6 @@
 								<rotation>South</rotation>
 								<tag>RightEye</tag>
 								<canMirror>false</canMirror>
-								<crownType>Average</crownType>
 								<range>0</range>
 								<layer>Head</layer>
 								<debugColor>(0,0,1,1)</debugColor>
@@ -402,28 +386,25 @@
 									<bodyTypes>
 										<Mousekin>(-0.117,0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</south>
 								<east>
 									<bodyTypes>
 										<Mousekin>(0.115, 0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</east>
 								<west>
 									<bodyTypes>
 										<Mousekin>(-0.115, 0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</west>
 							</offsets>
 						</li>
@@ -434,7 +415,6 @@
 								<rotation>East</rotation>
 								<tag>RightEye</tag>
 								<canMirror>false</canMirror>
-								<crownType>Average</crownType>
 								<range>0</range>
 								<layer>Head</layer>
 								<debugColor>(0,0,1,1)</debugColor>
@@ -444,49 +424,44 @@
 									<bodyTypes>
 										<Mousekin>(-0.117,0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</south>
 								<east>
 									<bodyTypes>
 										<Mousekin>(0.115, 0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</east>
 								<west>
 									<bodyTypes>
 										<Mousekin>(-0.115, 0.110)</Mousekin>
 									</bodyTypes>
-									<crownTypes>
-										<Normal>(0,0)</Normal>
-										<Sleepy>(0,0)</Sleepy>
-									</crownTypes>
+									<headTypes>
+										<Mousekin>(0,0)</Mousekin>
+									</headTypes>
 								</west>
 							</offsets>
 						</li>
 					</anchorReplacements>
 				</alienPartGenerator>
 			</generalSettings>
-			<graphicPaths>
-				<li>
-					<body>Things/Pawn/Mousekin/Body/</body>
-					<head>Things/Pawn/Mousekin/Heads/</head>
-					<skeleton>Things/Pawn/Mousekin/Body/Skeleton</skeleton>
-					<skull>Things/Pawn/Mousekin/Heads/Skull</skull>
-					<!-- No visible head stump -->
-					<stump>Things/Mote/Transparent</stump>
-				</li>
+			<graphicPaths Inherit="false">
+				<body>Things/Pawn/Mousekin/Body/</body>
+				<head>Things/Pawn/Mousekin/Heads/None_Mousekin</head>
+				<skeleton>Things/Pawn/Mousekin/Body/Skeleton</skeleton>
+				<skull>Things/Pawn/Mousekin/Heads/Skull</skull>
+				<!-- No visible head stump -->
+				<stump>Things/Mote/Transparent</stump>
+				<skinShader>Cutout</skinShader>
 			</graphicPaths>
 			<styleSettings>
 				<li>
 					<key>HairDef</key>
 					<value>
-						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
 							<!--<li>Mousekin_HairUncivilized</li>-->
 							<li>Mousekin_HairRural</li>
@@ -498,7 +473,6 @@
 				<li>
 					<key>BeardDef</key>
 					<value>
-						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
 							<li>Mousekin_BeardRural</li>
 							<li>Mousekin_BeardUrban</li>
@@ -969,7 +943,6 @@
 			<MoveSpeed>4.85</MoveSpeed>
 			<Flammability>1.0</Flammability>
 			<PsychicSensitivity>1.1</PsychicSensitivity>
-			<ToxicSensitivity>0.9</ToxicSensitivity>
 			<EatingSpeed>1.2</EatingSpeed>
 			<LeatherAmount>50</LeatherAmount>
 			<ComfyTemperatureMin>16</ComfyTemperatureMin>
@@ -1073,12 +1046,12 @@
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>HumanlikeToddler</def>
-					<minAge>1.2</minAge>
-				</li>
-				<li>
 					<def>HumanlikeChild</def>
-					<minAge>4</minAge>
+					<minAge>3</minAge>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">
+					<def>HumanlikePreTeenager</def>
+					<minAge>9</minAge>
 				</li>
 				<li>
 					<def>HumanlikeTeenager</def>

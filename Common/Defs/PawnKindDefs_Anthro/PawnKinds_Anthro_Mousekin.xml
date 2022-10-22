@@ -11,7 +11,6 @@
 		<combatPower>20</combatPower>
 		<nameMaker>NamerPerson_MousekinMale</nameMaker>
 		<nameMakerFemale>NamerPerson_MousekinFemale</nameMakerFemale>
-		<baseRecruitDifficulty>0.40</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
 		<!-- Most Mousekins (or their unseen world pawn relatives) are assumed to be from the Kingdom faction -->
 		<defaultFactionType>Mousekin_FactionKingdom</defaultFactionType>

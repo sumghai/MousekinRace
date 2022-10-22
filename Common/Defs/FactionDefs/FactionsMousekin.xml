@@ -57,7 +57,7 @@
 				<li>Steel</li>
 			</thingDefs>
 		</apparelStuffFilter>
-		<geneticVariance>1</geneticVariance>
+		<melaninRange>1</melaninRange>
 	</FactionDef>
 
 	<FactionDef Abstract="True" Name="Mousekin_PlayerFactionBase" ParentName="Mousekin_FactionBase">
