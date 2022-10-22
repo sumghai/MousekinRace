@@ -502,7 +502,8 @@
 			<!-- Tool-style melee weapons -->
 
 			<li Class="StockGenerator_MarketValue">
-				<tradeTag>Mousekin_Tool</tradeTag>
+				<tradeTag>Mousekin_WeaponMelee</tradeTag>
+				<weaponTag>Mousekin_Tool</weaponTag>
 				<countRange>5~8</countRange>
 			</li>
 			
