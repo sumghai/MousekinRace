@@ -389,17 +389,18 @@
 				</options>
 			</li>
 
-			<!-- Religious Pilgrims -->
+			<!-- Religious Pilgrims with armed escort  -->
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<commonality>20</commonality>
 				<options>
 					<MousekinPriest>3</MousekinPriest>
 					<MousekinNun>10</MousekinNun>
+					<MousekinCrossbowman>3</MousekinCrossbowman>
 				</options>
 			</li>
 
-			<!-- Noble Family Outing -->
+			<!-- Noble Family Outing with armed escort -->
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<commonality>10</commonality>
@@ -408,6 +409,7 @@
 					<MousekinServantHighClass>2</MousekinServantHighClass>
 					<MousekinServantChef>3</MousekinServantChef>
 					<MousekinServant>8</MousekinServant>
+					<MousekinCrossbowman>3</MousekinCrossbowman>
 				</options>
 			</li>
 
