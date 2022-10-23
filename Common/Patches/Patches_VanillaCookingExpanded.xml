@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Move Cloverbury Cheese to VCE Cheese category -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_FoodCheese"]/thingCategories</xpath>
+					<value>
+						<thingCategories>
+							<li>VCE_Cheese</li>
+						</thingCategories>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
