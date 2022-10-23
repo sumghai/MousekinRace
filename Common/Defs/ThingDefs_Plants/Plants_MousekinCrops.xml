@@ -37,5 +37,42 @@
 			<purpose>Food</purpose>
 		</plant>
 	</ThingDef>
+	
+	<!-- Wheat -->
+	<ThingDef ParentName="PlantBase">
+		<defName>Mousekin_Plant_Wheat</defName>
+		<label>wheat</label>
+		<description>A tall, slow-growing cereal plant that yields small oval amber-colored edible grains. As one of the earliest crops to be cultivated, it is regarded as a major food staple in many civilizations.</description>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Nutrition>0.18</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/MousekinWheatPlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>40</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<maxMeshCount>4</maxMeshCount>
+			<growDays>15</growDays>
+			<visualSizeRange>0.3~0.8</visualSizeRange>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.70</fertilityMin>
+			<fertilitySensitivity>1</fertilitySensitivity>
+			<topWindExposure>0.2</topWindExposure>
+			<immatureGraphicPath>Things/Plant/MousekinWheatPlant_Immature</immatureGraphicPath>
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>27</harvestYield>
+			<harvestedThingDef>Mousekin_RawWheat</harvestedThingDef>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
 
 </Defs>
