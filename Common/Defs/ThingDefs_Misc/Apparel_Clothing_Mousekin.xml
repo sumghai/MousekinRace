@@ -731,7 +731,7 @@
 			<Mass>2.5</Mass>
 			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
 			<StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.00</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
