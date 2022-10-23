@@ -41,6 +41,9 @@
 		<thingCategories>
 			<li>AnimalProductRaw</li>
 		</thingCategories>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_FoodProcessed</li>
+		</tradeTags>
 		<graphicData>
 			<texPath>Things/Items/AnimalProducts/Mousekin_FoodCheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -75,6 +78,9 @@
 		<thingCategories>
 			<li>AnimalProductRaw</li>
 		</thingCategories>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_FoodProcessed</li>
+		</tradeTags>
 		<graphicData>
 			<texPath>Things/Items/AnimalProducts/Mousekin_RawHoney</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

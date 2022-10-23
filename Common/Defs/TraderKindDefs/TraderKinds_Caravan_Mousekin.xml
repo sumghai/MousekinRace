@@ -97,7 +97,22 @@
 				<price>Cheap</price>
 			</li>
 
-			<!-- Alcohols -->
+			<!-- Beverages -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Beverages</tradeTag>
+				<thingDefCountRange>3</thingDefCountRange>
+				<countRange>20~50</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Processed Food / Ingredients (e.g. Mousekin Honey, Cloverbury Cheese) -->
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_FoodProcessed</tradeTag>
+				<thingDefCountRange>2</thingDefCountRange>
+				<countRange>20~50</countRange>
+				<price>Cheap</price>
+			</li>
 
 			<!-- Misc manufactured items -->
 
@@ -110,6 +125,16 @@
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Mousekin_ClockworkComponent</thingDef>
 				<countRange>10~20</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Beeswax</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Candle</thingDef>
+				<countRange>75~150</countRange>
 			</li>
 
 			<!-- Basic medicines -->
@@ -412,6 +437,12 @@
 			</li>
 
 			<!-- Misc manufactured items -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chocolate</thingDef>
+				<totalPriceRange>10~40</totalPriceRange>
+				<price>Cheap</price>
+			</li>
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineIndustrial</thingDef>
@@ -423,6 +454,11 @@
 				<thingDef>MedicineUltratech</thingDef>
 				<countRange>2~4</countRange>
 				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_ClockworkComponent</thingDef>
+				<countRange>10~20</countRange>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
@@ -499,6 +535,18 @@
 				<countRange>30~50</countRange>
 			</li>
 			
+			<!-- Buys beverages only, as they cannot brew it themselves -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_Beverages</tag>
+			</li>
+			
+			<!-- Buy Processed Food / Ingredients (e.g. Mousekin Honey, Cloverbury Cheese) only, as they cannot make it themselves -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_FoodProcessed</tag>
+			</li>
+			
 			<!-- Tool-style melee weapons -->
 
 			<li Class="StockGenerator_MarketValue">
@@ -544,7 +592,6 @@
 			</li>
 			
 			<!-- Buys basic resources at regular prices (to sustain their nomadic lifestyle) -->
-
 			
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>WoodLog</thingDef>
@@ -558,6 +605,14 @@
 				<thingDef>Mousekin_MedicinePoultice</thingDef>
 			</li>
 			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_Beeswax</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_Candle</thingDef>
+			</li>
+					
 		</stockGenerators>
 	</TraderKindDef>
 

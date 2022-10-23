@@ -95,6 +95,24 @@
 				<countRange>500~800</countRange>
 				<price>Cheap</price>
 			</li>
+			
+			<!-- Beverages -->
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Beverages</tradeTag>
+				<thingDefCountRange>3</thingDefCountRange>
+				<countRange>50~100</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Processed Food / Ingredients (e.g. Mousekin Honey, Cloverbury Cheese) -->
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_FoodProcessed</tradeTag>
+				<thingDefCountRange>2</thingDefCountRange>
+				<countRange>50~100</countRange>
+				<price>Cheap</price>
+			</li>
 
 			<!-- Misc manufactured items -->
 
@@ -107,6 +125,16 @@
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Mousekin_ClockworkComponent</thingDef>
 				<countRange>50~100</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Beeswax</thingDef>
+				<countRange>300~600</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Candle</thingDef>
+				<countRange>200~400</countRange>
 			</li>
 
 			<!-- Apparel -->

@@ -5,6 +5,9 @@
 		<thingCategories>
 			<li>Mousekin_Beverages</li>
 		</thingCategories>
+		<tradeTags Inherit="false">
+			<li>Mousekin_TradeGoods_Beverages</li>
+		</tradeTags>
 		<rotatable>false</rotatable>
 		<stackLimit>25</stackLimit>
 		<ingestible>
