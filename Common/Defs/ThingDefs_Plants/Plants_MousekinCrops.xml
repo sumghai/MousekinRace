@@ -7,8 +7,8 @@
 		<label>mouse-ear barley</label>
 		<description>A tall, moderately slow-growing and hardy cereal plant that yields small edible grains. This particular variety has round rather than elongated seeds, and is mainly cultivated by Mousekin societies as food, brewing feedstock and animal fodder.</description>
 		<statBases>
-			<MaxHitPoints>85</MaxHitPoints>
-			<Nutrition>0.18</Nutrition>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Nutrition>0.20</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/MouseearBarleyPlant</texPath>
@@ -27,7 +27,7 @@
 			</sowTags>
 			<fertilityMin>0.70</fertilityMin>
 			<fertilitySensitivity>1</fertilitySensitivity>
-			<topWindExposure>0.2</topWindExposure>
+			<topWindExposure>0.25</topWindExposure>
 			<immatureGraphicPath>Things/Plant/MouseearBarleyPlant_Immature</immatureGraphicPath>
 			<harvestWork>200</harvestWork>
 			<harvestTag>Standard</harvestTag>

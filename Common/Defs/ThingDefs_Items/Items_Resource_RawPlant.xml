@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- Mouse-ear Barley -->
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Mousekin_RawBarley</defName>
+		<label>mouse-ear barley</label>
+		<description>Small, edible rounded cereal grains, used in cooking or as animal feed.</description>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/RawBarley</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.08</Nutrition>
+			<MarketValue>1.1</MarketValue>
+			<!-- Default unit mass -->
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<!-- Default preferability -->
+			<foodType>Seed</foodType>
+		</ingestible>
+	</ThingDef>
+
 	<!-- Raw Chonko Nuts -->
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>Mousekin_RawNutChonko</defName>
@@ -27,31 +52,6 @@
 		</ingestible>
 	</ThingDef>
 	
-	<!-- Mouse-ear Barley -->
-	<ThingDef ParentName="PlantFoodRawBase">
-		<defName>Mousekin_RawBarley</defName>
-		<label>mouse-ear barley</label>
-		<description>Small, edible rounded cereal grains, used in cooking or as animal feed.</description>
-		<graphicData>
-			<texPath>Things/Items/PlantFoodRaw/RawBarley</texPath>
-		</graphicData>
-		<statBases>
-			<Nutrition>0.08</Nutrition>
-			<MarketValue>1.1</MarketValue>
-			<!-- Default unit mass -->
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>60</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-		</comps>
-		<ingestible>
-			<!-- Default preferability -->
-			<foodType>Seed</foodType>
-		</ingestible>
-	</ThingDef>
-
 	<!-- Raw Nyam Nuts -->
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>Mousekin_RawNutNyam</defName>
