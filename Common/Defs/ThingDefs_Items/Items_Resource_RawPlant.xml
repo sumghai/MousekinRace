@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- Mouse-ear Barley -->
+	<!-- Directly harvested from plants -->
+	
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>Mousekin_RawBarley</defName>
 		<label>mouse-ear barley</label>
@@ -28,7 +29,6 @@
 		</ingestible>
 	</ThingDef>
 
-	<!-- Raw Chonko Nuts -->
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>Mousekin_RawNutChonko</defName>
 		<label>chonko nuts</label>
@@ -54,7 +54,6 @@
 		</ingestible>
 	</ThingDef>
 	
-	<!-- Raw Nyam Nuts -->
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>Mousekin_RawNutNyam</defName>
 		<label>nyam nuts</label>
@@ -80,7 +79,6 @@
 		</ingestible>
 	</ThingDef>
 
-	<!-- Mouse-ear Barley -->
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>Mousekin_RawWheat</defName>
 		<label>wheat</label>
@@ -104,6 +102,40 @@
 		<ingestible>
 			<!-- Default preferability -->
 			<foodType>Seed</foodType>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- Processed from raw plant food -->
+	
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>Mousekin_Flour</defName>
+		<label>flour</label>
+		<description>Finely ground powder of wheat, used in baking and cooking.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_FoodProcessed</li>
+		</tradeTags>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/MousekinFlour</texPath>
+		</graphicData>
+		<statBases>
+			<!-- Default nutrition of 0.05 -->
+			<MarketValue>1.9</MarketValue>
+			<!-- Default unit mass -->
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>40</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
 		</ingestible>
 	</ThingDef>
 	
