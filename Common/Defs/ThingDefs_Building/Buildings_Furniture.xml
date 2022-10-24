@@ -31,7 +31,7 @@
 		</statBases>
 		<size>(1,1)</size>
 		<designationCategory>Furniture</designationCategory>
-		<passability>PassThroughOnly</passability>
+		<passability>Standable</passability>
 		<pathCost>5</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
 		<repairEffect>ConstructMetal</repairEffect>
