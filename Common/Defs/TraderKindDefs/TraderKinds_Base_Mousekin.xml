@@ -40,6 +40,29 @@
 			</li>
 
 			<!-- Resources -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>ResourcesRaw</categoryDef>
+				<excludedCategories>
+					<!-- Stone is handled separately -->
+					<li>StoneBlocks</li>
+				</excludedCategories>
+				<excludedThingDefs>
+					<li>Plasteel</li>
+					<li>SmokeleafLeaves</li>
+					<li>Uranium</li>
+				</excludedThingDefs>
+				<thingDefCountRange>8~10</thingDefCountRange>
+				<countRange>300~600</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>StoneBlocks</categoryDef>
+				<thingDefCountRange>5~5</thingDefCountRange>
+				<countRange>300~600</countRange>
+				<price>Cheap</price>
+			</li>
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>WoodLog</thingDef>
@@ -49,13 +72,6 @@
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Steel</thingDef>
-				<countRange>600~800</countRange>
-				<price>Cheap</price>
-			</li>
-
-			<li Class="StockGenerator_Tag">
-				<tradeTag>Mousekin_TradeGoods_StoneBlocks</tradeTag>
-				<thingDefCountRange>2~3</thingDefCountRange>
 				<countRange>600~800</countRange>
 				<price>Cheap</price>
 			</li>
@@ -109,7 +125,7 @@
 			
 			<li Class="StockGenerator_Tag">
 				<tradeTag>Mousekin_TradeGoods_FoodProcessed</tradeTag>
-				<thingDefCountRange>2</thingDefCountRange>
+				<thingDefCountRange>3</thingDefCountRange>
 				<countRange>50~100</countRange>
 				<price>Cheap</price>
 			</li>

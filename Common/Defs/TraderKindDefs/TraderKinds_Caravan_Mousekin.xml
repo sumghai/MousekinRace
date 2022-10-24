@@ -54,10 +54,20 @@
 				<price>Cheap</price>
 			</li>
 
-			<li Class="StockGenerator_Tag">
-				<tradeTag>Mousekin_TradeGoods_StoneBlocks</tradeTag>
+			<li Class="StockGenerator_Category">
+				<categoryDef>StoneBlocks</categoryDef>
 				<thingDefCountRange>2~3</thingDefCountRange>
 				<countRange>50~80</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>PlantMatter</categoryDef>
+				<excludedThingDefs>
+					<li>SmokeleafLeaves</li>
+				</excludedThingDefs>
+				<thingDefCountRange>4~5</thingDefCountRange>
+				<countRange>200~400</countRange>
 				<price>Cheap</price>
 			</li>
 
@@ -137,6 +147,11 @@
 				<countRange>75~150</countRange>
 			</li>
 
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Dye</thingDef>
+				<countRange>15~20</countRange>
+			</li>
+			
 			<!-- Basic medicines -->
 			
 			<li Class="StockGenerator_SingleDef">
@@ -228,6 +243,13 @@
 				<price>Expensive</price>
 			</li>
 
+			<!-- Dyes -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Dye</thingDef>
+				<countRange>15~20</countRange>
+			</li>
+			
 			<!-- Buying -->
 
 			<li Class="StockGenerator_BuySingleDef">

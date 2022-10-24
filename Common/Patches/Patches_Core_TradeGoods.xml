@@ -4,44 +4,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 		
-			<!-- Conditionally add empty tradeTags nodes to various goods, to ensure compatibility with third-party mods -->
-
-			<li Class="PatchOperationConditional">
-				<xpath>Defs/ThingDef[
-					    defName="BlocksSandstone" or
-					    defName="BlocksGranite" or
-					    defName="BlocksLimestone" or
-					    defName="BlocksSlate" or
-					    defName="BlocksMarble"
-				]/tradeTags</xpath>
-				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[
-						defName="BlocksSandstone" or
-					    defName="BlocksGranite" or
-					    defName="BlocksLimestone" or
-					    defName="BlocksSlate" or
-					    defName="BlocksMarble"
-				]</xpath>
-					<value>
-						<tradeTags/>
-					</value>
-				</nomatch>
-			</li>
-			
 			<!-- Add Mousekin-specific trade tags -->
-
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[
-					defName="BlocksSandstone" or
-					defName="BlocksGranite" or
-					defName="BlocksLimestone" or
-					defName="BlocksSlate" or
-					defName="BlocksMarble"
-				]/tradeTags</xpath>
-				<value>
-					<li>Mousekin_TradeGoods_StoneBlocks</li>
-				</value>
-			</li>
 			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
