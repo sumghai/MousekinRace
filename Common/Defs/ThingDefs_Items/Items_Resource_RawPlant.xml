@@ -6,6 +6,8 @@
 		<defName>Mousekin_RawBarley</defName>
 		<label>mouse-ear barley</label>
 		<description>Small, edible rounded cereal grains, used in cooking or as animal feed.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
 		<graphicData>
 			<texPath>Things/Items/PlantFoodRaw/RawBarley</texPath>
 		</graphicData>
@@ -83,6 +85,8 @@
 		<defName>Mousekin_RawWheat</defName>
 		<label>wheat</label>
 		<description>Small, edible oval cereal grains, which can be further processed into flour or used as animal feed.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
 		<graphicData>
 			<texPath>Things/Items/PlantFoodRaw/RawWheat</texPath>
 		</graphicData>
