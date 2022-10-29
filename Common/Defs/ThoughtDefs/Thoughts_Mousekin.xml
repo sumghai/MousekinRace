@@ -750,6 +750,28 @@
 	</ThoughtDef>	
 	
 	<ThoughtDef>
+		<defName>Mousekin_Thought_NeedRoomSize</defName>
+		<workerClass>ThoughtWorker_NeedRoomSize</workerClass>
+		<stages>
+			<li>
+				<label>cramped interior</label>
+				<description>Squeak, somebody let me out of here!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>cosy interior</label>
+				<description>Nice and cosy, snug as a burrow!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>spacious interior</label>
+				<description>So much space, we can hold a town meeting in here!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Mousekin_Thought_OtherMousekinHasProstheticOpinions</defName>
 		<thoughtClass>MousekinRace.Thought_OtherMousekinHasProstheticOpinions</thoughtClass>
 		<workerClass>MousekinRace.ThoughtWorker_OtherMousekinHasProstheticOpinions</workerClass>

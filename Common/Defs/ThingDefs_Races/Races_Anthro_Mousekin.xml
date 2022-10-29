@@ -685,6 +685,7 @@
 					<li>HumanLeatherApparelSad</li>
 					<li>KnowButcheredHumanlikeCorpse</li>
 					<li>NeedOutdoors</li>
+					<li>NeedRoomSize</li>
 				</cannotReceiveThoughts>
 				<restrictedThoughts>
 					<li>Mousekin_Thought_AteCorpse</li>
@@ -722,6 +723,7 @@
 					<li>Mousekin_Thought_MySonDied</li>
 					<li>Mousekin_Thought_MyUncleDied</li>
 					<li>Mousekin_Thought_MyWifeDied</li>
+					<li>Mousekin_Thought_NeedRoomSize</li>
 					<li>Mousekin_Thought_PawnWithBadOpinionDied</li>
 					<li>Mousekin_Thought_PawnWithBadOpinionLost</li>
 					<li>Mousekin_Thought_PawnWithGoodOpinionDied</li>
