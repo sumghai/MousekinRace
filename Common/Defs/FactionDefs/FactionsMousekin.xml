@@ -807,7 +807,7 @@
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<!-- No leader title -->
+		<leaderTitle>Ringleader</leaderTitle>
 		<factionIconPath>World/WorldObjects/Expanding/MousekinBrigands</factionIconPath>
 		<colorSpectrum>
 			<li>(187, 54, 13)</li>
