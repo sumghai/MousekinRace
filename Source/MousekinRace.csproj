@@ -307,7 +307,9 @@
     <Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs" />
     <Compile Include="Comps\CompProperties_FireOverlayDirectionalOffsets.cs" />
     <Compile Include="Comps\CompProperties_FireplaceRenderer.cs" />
+    <Compile Include="Comps\CompProperties_RemembersCheeseEaten.cs" />
     <Compile Include="Comps\CompProperties_StateDependentBuildingEmissive.cs" />
+    <Compile Include="Comps\CompRemembersCheeseEaten.cs" />
     <Compile Include="Comps\CompStateDependentBuildingEmissive.cs" />
     <Compile Include="Comps\CompFireplaceRenderer.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
@@ -344,12 +346,14 @@
     <Compile Include="Patches\Harmony_Pawn_RelationsTracker_SecondaryRomanceChanceFactor.cs" />
     <Compile Include="Patches\Harmony_StatPart_WorkTableOutdoors.cs" />
     <Compile Include="Patches\Harmony_StatPart_WorkTableTemperature.cs" />
+    <Compile Include="Patches\Harmony_Thing_Ingested.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_WallMounted.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Patches\RawMeatTradeTagPatch.cs" />
     <Compile Include="DefModExtensions\RomanceUtilsExtension.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_AteCheese.cs" />
     <Compile Include="Thoughts\ThoughtWorker_FaithAffinityOpinions.cs" />
     <Compile Include="Thoughts\ThoughtWorker_MissingEars.cs" />
     <Compile Include="Thoughts\ThoughtWorker_OtherMousekinHasProstheticOpinions.cs" />

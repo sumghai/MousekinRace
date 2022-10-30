@@ -23,6 +23,8 @@ namespace MousekinRace
         public static ThingDef Mousekin_Beeswax;
         public static ThingDef Mousekin_RawHoney;
 
+        public static ThoughtDef Mousekin_Thought_AteCheese;
+
         public static TraitDef Mousekin_TraitSpectrum_Faith;
 
         public static BodyPartDef Mousekin_Ear;

@@ -688,6 +688,7 @@
 					<li>NeedRoomSize</li>
 				</cannotReceiveThoughts>
 				<restrictedThoughts>
+					<li>Mousekin_Thought_AteCheese</li>
 					<li>Mousekin_Thought_AteCorpse</li>
 					<li>Mousekin_Thought_AteKibble</li>
 					<li>Mousekin_Thought_AteRawFood</li>
@@ -1097,6 +1098,9 @@
 			<li>Mousekin_InstallNaturalEar</li>
 			<li>Mousekin_InstallNaturalTail</li>
 		</recipes>
+		<comps>
+			<li Class="MousekinRace.CompProperties_RemembersCheeseEaten" />
+		</comps>
 		<modExtensions>
 			<li Class="MousekinRace.OtherRodentRacesExtension">
 				<!-- Rodent races that are simply "different" to Mousekins -->
