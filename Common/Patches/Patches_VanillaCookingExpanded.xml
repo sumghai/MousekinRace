@@ -17,6 +17,80 @@
 						</thingCategories>
 					</value>
 				</li>
+				
+				<!-- Add cheeses to blacklist and disable associated ingested thoughts (in favor of the Mousekin system) -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+					<value>
+						<li>VCE_Cheese</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Alpha Animals</li>
+					</mods>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+						<value>
+							<li>VCE_BlueCheese</li>
+							<li>VCE_GowCheese</li>
+							<li>VCE_NightCheese</li>
+						</value>
+					</match>
+				</li>
+				
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Alpha Bees</li>
+					</mods>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+						<value>
+							<li>VCE_BeeCheese</li>
+						</value>
+					</match>
+				</li>
+				
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Factions Expanded - Insectoids</li>
+					</mods>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+						<value>
+							<li>VCE_InsectCheese</li>
+						</value>
+					</match>
+				</li>
+				
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Genetics Expanded</li>
+					</mods>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+						<value>
+							<li>VCE_BearffaloCheese</li>
+							<li>VCE_BrownCheese</li>
+							<li>VCE_ChickenffaloCheese</li>
+							<li>VCE_HairyCheese</li>
+							<li>VCE_LumpyCheese</li>
+							<li>VCE_MechaCheese</li>
+							<li>VCE_RatCheese</li>
+							<li>VCE_ThrumffaloGouda</li>
+							<li>VCE_WeirdCheese</li>
+						</value>
+					</match>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+					<value>
+						<li>VCE_AteCheese</li>
+					</value>
+				</li>
 
 			</operations>
 		</match>
