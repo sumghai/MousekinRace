@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Move Cloverbury Cheese to MO cheese category -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_FoodCheese"]/thingCategories</xpath>
+					<value>
+						<thingCategories>
+							<li>DankPyon_Cheese</li>
+						</thingCategories>
+					</value>
+				</li>
+				
+				<!-- Add cheeses to blacklist and disable associated ingested thoughts (in favor of the Mousekin system) -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+					<value>
+						<li>DankPyon_MealCheese</li>
+						<li>DankPyon_MealGoatCheese</li>
+						<li>DankPyon_MealGrilledCheese</li>
+						<li>DankPyon_MealSheepCheese</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+					<value>
+						<li>DankPyon_AteCheese</li>
+						<li>DankPyon_AteGrilledCheese</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
