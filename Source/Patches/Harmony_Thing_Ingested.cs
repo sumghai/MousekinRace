@@ -13,7 +13,7 @@ namespace MousekinRace
         {
             if (Utils.IsMousekin(ingester) && ingester.TryGetComp<CompRemembersCheeseEaten>() is CompRemembersCheeseEaten comp && comp != null)
             {
-                if (__instance.def.defName.ToLower().Contains("cheese"))
+                if (comp.Props.cheeseDefs.Contains(__instance.def))
                 {
                     float moodOffset = comp.EatCheese();
 

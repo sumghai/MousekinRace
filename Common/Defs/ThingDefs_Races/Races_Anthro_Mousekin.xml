@@ -1099,7 +1099,11 @@
 			<li>Mousekin_InstallNaturalTail</li>
 		</recipes>
 		<comps>
-			<li Class="MousekinRace.CompProperties_RemembersCheeseEaten" />
+			<li Class="MousekinRace.CompProperties_RemembersCheeseEaten">
+				<cheeseDefs>
+					<li>Mousekin_FoodCheese</li>
+				</cheeseDefs>
+			</li>
 		</comps>
 		<modExtensions>
 			<li Class="MousekinRace.OtherRodentRacesExtension">
