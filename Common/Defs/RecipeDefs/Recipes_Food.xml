@@ -2,6 +2,41 @@
 <Defs>
 
 	<RecipeDef>
+		<defName>Mousekin_Make_FlourFromWheat</defName>
+		<label>grind flour from wheat</label>
+		<description>Grind flour from wheat grains in a mortar and pestle. The process is slow, labour-intensive and inefficient due to the small quantities involved.</description>
+		<jobString>Grinding flour from wheat</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>4000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_RawWheat</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_RawWheat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_Flour>1</Mousekin_Flour>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
 		<defName>Mousekin_Make_TrailMix</defName>
 		<label>make Mousekin trail mix</label>
 		<description>Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it.</description>
