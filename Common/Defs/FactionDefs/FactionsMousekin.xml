@@ -522,6 +522,7 @@
 					<li>BorealForest</li>
 					<li>TemperateForest</li>
 				</allowedBiomes>
+				<excludeFromQuests>true</excludeFromQuests>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -691,6 +692,7 @@
 					<li>BorealForest</li>
 					<li>TemperateForest</li>
 				</allowedBiomes>
+				<excludeFromQuests>true</excludeFromQuests>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -791,6 +793,7 @@
 				<startingGoodwillByFactionDefs>
 					<OutlanderCivil>5~20</OutlanderCivil>
 				</startingGoodwillByFactionDefs>
+				<excludeFromQuests>true</excludeFromQuests>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -861,6 +864,9 @@
 		<modExtensions>
 			<li Class="KCSG.CustomGenOption">
 				<canSpawnSettlements>false</canSpawnSettlements>
+			</li>
+			<li Class="VFECore.FactionDefExtension">
+				<excludeFromQuests>true</excludeFromQuests>
 			</li>
 		</modExtensions>
 	</FactionDef>
