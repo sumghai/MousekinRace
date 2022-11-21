@@ -6,6 +6,11 @@
 	<FactionDef Abstract="True" Name="Mousekin_FactionBase" ParentName="FactionBase">
 		<pawnSingular>Mousekin</pawnSingular>
 		<pawnsPlural>Mousekins</pawnsPlural>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Mousekin_XenotypeMousekin MayRequire="Ludeon.Rimworld.Biotech">1</Mousekin_XenotypeMousekin>
+			</xenotypeChances>
+		</xenotypeSet>
 		<categoryTag>Mousekin</categoryTag>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>

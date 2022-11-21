@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>Mousekin_XenotypeMousekin</defName>
+		<label>mousekin</label>
+		<description>A naturally-evolved Mousekin with no major significant genetic modifications.</description>
+		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
+		<displayPriority>900</displayPriority>
+	</XenotypeDef>
+	
+</Defs>

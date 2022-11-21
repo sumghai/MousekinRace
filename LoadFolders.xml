@@ -5,6 +5,7 @@
 		<li>1.4</li>
 		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
 		<li IfModActive="Ludeon.Rimworld.Ideology">Ideology</li>
+		<li IfModActive="Ludeon.Rimworld.Biotech">Biotech</li>
 		<li IfModActive="CETeam.CombatExtended">Compatibility\CombatExtended</li>
 		<li IfModActive="Solaris.RatkinRaceMod">Compatibility\LattyLatty</li>
 	</v1.4>

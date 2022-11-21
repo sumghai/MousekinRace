@@ -21,6 +21,11 @@
 		<apparelMoney>350~600</apparelMoney>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Mousekin_XenotypeMousekin MayRequire="Ludeon.Rimworld.Biotech">1</Mousekin_XenotypeMousekin>
+			</xenotypeChances>
+		</xenotypeSet>
 	</PawnKindDef>
 
 	<!-- Player starting colonists -->
