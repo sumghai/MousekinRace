@@ -19,5 +19,14 @@
 			<li>Mousekin_WortMead</li>
 		</items>
 	</ItemProcessor.ItemAcceptedDef>
+	
+	<ItemProcessor.ItemAcceptedDef>
+		<defName>Mousekin_IP_WindmillFirstItem</defName>
+		<building>Mousekin_Windmill</building>
+		<slot>1</slot>
+		<items>
+			<li>Mousekin_RawWheat</li>
+		</items>
+	</ItemProcessor.ItemAcceptedDef>
 
 </Defs>

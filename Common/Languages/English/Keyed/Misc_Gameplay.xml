@@ -43,4 +43,14 @@
 	
 	<MousekinRace_PlaceWorker_MustBeWallMounted>Must be mounted on a wall.</MousekinRace_PlaceWorker_MustBeWallMounted>
 	
+	<MousekinRace_Windmill_InsertWheatDesc>Grain to Insert</MousekinRace_Windmill_InsertWheatDesc>
+	
+	<MousekinRace_Windmill_StartInsertionWheat>Bring Wheat</MousekinRace_Windmill_StartInsertionWheat>
+	
+	<MousekinRace_Windmill_StartInsertionWheatDesc>Bring raw wheat  to the windmill for milling into flour</MousekinRace_Windmill_StartInsertionWheatDesc>
+	
+	<MousekinRace_Windmill_CancelBringingWheat>Cancel bringing Wheat</MousekinRace_Windmill_CancelBringingWheat>
+	
+	<MousekinRace_Windmill_CancelBringingWheatDesc>Cancel rining raw wheat to the windmill</MousekinRace_Windmill_CancelBringingWheatDesc>
+	
 </LanguageData>

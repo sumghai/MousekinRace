@@ -847,4 +847,78 @@
 		</placeWorkers>
 	</ThingDef>
 
+	<!-- Mousekin windmill -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_Windmill</defName>
+		<label>Mousekin windmill</label>
+		<description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water to irrigate soil.\n\n(TODO - info on moisture pump terraforming and research-dependent electrical generator features)</description>
+		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_Windmill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<WoodLog>300</WoodLog>
+			<Steel>25</Steel>
+			<Mousekin_ClockworkComponent>10</Mousekin_ClockworkComponent>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints><statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>10000</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,4)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>900</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<comps>
+			<li Class="ItemProcessor.CompProperties_ItemProcessor">
+				<numberOfInputs>1</numberOfInputs>
+				<acceptsNoneAsInput>false</acceptsNoneAsInput>
+				<InsertFirstItemDesc>MousekinRace_Windmill_InsertWheatDesc</InsertFirstItemDesc>
+				<ignoresIngredientLists>true</ignoresIngredientLists>
+				<showProgressBar>true</showProgressBar>
+				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
+				<!-- TODO - Uncomment after next VFE update
+				<mustLoadFromInteractionSpot>true</mustLoadFromInteractionSpot>
+				<mustUnloadFromInteractionSpot>true</mustUnloadFromInteractionSpot>
+				-->
+				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_Windmill_ResetWheat</resetSemiautomaticIcon>
+				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_Windmill_EmptyWheatIcon</chooseIngredientsIcon>
+
+				<bringIngredientsText>MousekinRace_Windmill_StartInsertionWheat</bringIngredientsText>
+				<bringIngredientsDesc>MousekinRace_Windmill_StartInsertionWheatDesc</bringIngredientsDesc>
+				<bringIngredientsIcon>UI/ItemProcessors/Mousekin_Windmill_InsertWheat</bringIngredientsIcon >
+
+				<cancelIngredientsText>MousekinRace_Windmill_CancelBringingWheat</cancelIngredientsText>
+				<cancelIngredientsDesc>MousekinRace_Windmill_CancelBringingWheatDesc</cancelIngredientsDesc>
+				<cancelIngredientsIcon>UI/ItemProcessors/Mousekin_Windmill_CancelWheat</cancelIngredientsIcon>
+				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
+			</li>
+		</comps>
+		<researchPrerequisites Inherit="false">
+			<li>Mousekin_ResearchMachineryAdvanced</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 </Defs>

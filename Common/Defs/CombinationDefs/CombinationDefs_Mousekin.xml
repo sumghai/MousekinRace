@@ -17,6 +17,21 @@
 	</ItemProcessor.CombinationDef>
 	
 	<ItemProcessor.CombinationDef>
+		<defName>Mousekin_RawWheatToFlour</defName>
+		<building>Mousekin_Windmill</building>
+		<items>
+			<li>Mousekin_RawWheat</li>
+		</items>
+		<amount>
+			<li>50</li>
+		</amount>
+		<result>Mousekin_Flour</result>
+		<yield>40</yield>
+		<useQualityIncreasing>false</useQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>0.1</singleTimeIfNotQualityIncreasing>
+	</ItemProcessor.CombinationDef>
+	
+	<ItemProcessor.CombinationDef>
 		<defName>Mousekin_WortLagerToDrinkLager</defName>
 		<building>Mousekin_FermentingBarrel</building>
 		<items>
