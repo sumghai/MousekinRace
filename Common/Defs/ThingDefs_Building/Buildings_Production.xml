@@ -883,8 +883,10 @@
 		</statBases>
 		<size>(3,4)</size>
 		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
+		<passability>Impassable</passability>
 		<pathCost>900</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<blockWind>true</blockWind>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
