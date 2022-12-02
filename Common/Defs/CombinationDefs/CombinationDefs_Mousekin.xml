@@ -23,12 +23,12 @@
 			<li>Mousekin_RawWheat</li>
 		</items>
 		<amount>
-			<li>50</li>
+			<li>100</li>
 		</amount>
 		<result>Mousekin_Flour</result>
-		<yield>40</yield>
+		<yield>75</yield>
 		<useQualityIncreasing>false</useQualityIncreasing>
-		<singleTimeIfNotQualityIncreasing>0.1</singleTimeIfNotQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>0.5</singleTimeIfNotQualityIncreasing>
 	</ItemProcessor.CombinationDef>
 	
 	<ItemProcessor.CombinationDef>
