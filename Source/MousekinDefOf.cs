@@ -19,6 +19,7 @@ namespace MousekinRace
         public static ThingDef Meat_Sheep;
 
         public static ThingDef Mousekin_Beehive;
+        public static ThingDef Mousekin_Windmill;
 
         public static ThingDef Mousekin_Beeswax;
         public static ThingDef Mousekin_RawHoney;

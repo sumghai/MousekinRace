@@ -1,6 +1,7 @@
 ﻿using AlienRace;
 using HarmonyLib;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
@@ -17,6 +18,11 @@ namespace MousekinRace
             Settings = GetSettings<Settings>();
             var harmony = new Harmony("com.MousekinRace");
             harmony.PatchAll();
+
+            if (ModCompatibility.VanillaCookingExpandedIsActive)
+            {
+                Log.Message("MousekinRace :: Vanilla Cooking Expanded detected!");
+            }
         }
         public override void DoSettingsWindowContents(Rect canvas)
         {
