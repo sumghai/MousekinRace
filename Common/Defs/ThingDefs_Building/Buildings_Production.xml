@@ -928,6 +928,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<researchPrerequisites Inherit="false">
