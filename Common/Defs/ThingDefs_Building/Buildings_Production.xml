@@ -610,6 +610,8 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
 		<building>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
@@ -679,6 +681,8 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
 		<building>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
@@ -764,6 +768,8 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
 		<building>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
@@ -890,6 +896,8 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
 		<building>
 			<allowAutoroof>false</allowAutoroof>
 			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
