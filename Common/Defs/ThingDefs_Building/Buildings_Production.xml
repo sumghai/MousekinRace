@@ -891,6 +891,7 @@
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<building>
+			<allowAutoroof>false</allowAutoroof>
 			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
 		</building>
 		<comps>
