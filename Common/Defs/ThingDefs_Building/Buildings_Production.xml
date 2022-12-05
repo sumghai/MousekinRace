@@ -927,6 +927,9 @@
 				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
 			</li>
 		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
 		<researchPrerequisites Inherit="false">
 			<li>Mousekin_ResearchMachineryAdvanced</li>
 		</researchPrerequisites>
