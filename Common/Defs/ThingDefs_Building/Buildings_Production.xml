@@ -694,6 +694,8 @@
 				<InsertFirstItemDesc>MousekinRace_CheesePress_InsertMilkDesc</InsertFirstItemDesc>
 				<ignoresIngredientLists>true</ignoresIngredientLists>
 				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
+				<mustLoadFromInteractionSpot>true</mustLoadFromInteractionSpot>
+				<mustUnloadFromInteractionSpot>true</mustUnloadFromInteractionSpot>
 				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_CheesePress_ResetMilk</resetSemiautomaticIcon>
 				<qualitySelector>false</qualitySelector>
 				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_CheesePress_EmptyMilkIcon</chooseIngredientsIcon>
@@ -782,6 +784,8 @@
 				<ignoresIngredientLists>true</ignoresIngredientLists>
 				<showProgressBar>true</showProgressBar>
 				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
+				<mustLoadFromInteractionSpot>true</mustLoadFromInteractionSpot>
+				<mustUnloadFromInteractionSpot>true</mustUnloadFromInteractionSpot>
 				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_ResetMustOrWort</resetSemiautomaticIcon>
 				<qualitySelector>true</qualitySelector>
 				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_EmptyMustOrWortIcon</chooseIngredientsIcon>
@@ -910,10 +914,8 @@
 				<ignoresIngredientLists>true</ignoresIngredientLists>
 				<showProgressBar>true</showProgressBar>
 				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
-				<!-- TODO - Uncomment after next VFE update
 				<mustLoadFromInteractionSpot>true</mustLoadFromInteractionSpot>
 				<mustUnloadFromInteractionSpot>true</mustUnloadFromInteractionSpot>
-				-->
 				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_Windmill_ResetWheat</resetSemiautomaticIcon>
 				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_Windmill_EmptyWheatIcon</chooseIngredientsIcon>
 
