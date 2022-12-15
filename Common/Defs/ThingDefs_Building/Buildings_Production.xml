@@ -907,6 +907,9 @@
 			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
 		</building>
 		<comps>
+			<li Class="MousekinRace.CompProperties_Windmill">
+				<obstructionFreeRadius>10</obstructionFreeRadius>
+			</li>
 			<li Class="ItemProcessor.CompProperties_ItemProcessor">
 				<numberOfInputs>1</numberOfInputs>
 				<acceptsNoneAsInput>false</acceptsNoneAsInput>
@@ -932,6 +935,7 @@
 		<placeWorkers>
 			<li>PlaceWorker_NotUnderRoof</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>MousekinRace.PlaceWorker_Windmill</li>
 		</placeWorkers>
 		<researchPrerequisites Inherit="false">
 			<li>Mousekin_ResearchMachineryAdvanced</li>
