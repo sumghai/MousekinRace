@@ -235,7 +235,7 @@ namespace MousekinRace
             yield return new Command_Action
             {
                 action = new Action(this.ShowManual),
-                defaultLabel = "MousekinRace_CommandShowBeehiveManual".Translate(),
+                defaultLabel = "MousekinRace_CommandShowBeehiveManualLabel".Translate(),
                 defaultDesc = "MousekinRace_CommandShowBeehiveManualDesc".Translate(),
                 icon = ContentFinder<Texture2D>.Get("UI/Commands/Mousekin_BeehiveManual", true)
             };

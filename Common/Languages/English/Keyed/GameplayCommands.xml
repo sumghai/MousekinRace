@@ -5,12 +5,12 @@
 	
 	<MousekinRace_CommandRotateWindmillCapDesc>Rotate the cap and sails of the windmill. This has no effect on windmill functionality.</MousekinRace_CommandRotateWindmillCapDesc>
 	
-	<MousekinRace_CommandShowBeehiveManual>Show manual</MousekinRace_CommandShowBeehiveManual>
+	<MousekinRace_CommandShowBeehiveManualLabel>Show manual</MousekinRace_CommandShowBeehiveManualLabel>
 	
 	<MousekinRace_CommandShowBeehiveManualDesc>Show instructions for using the Mousekin Beehive.</MousekinRace_CommandShowBeehiveManualDesc>
 
-	<MousekinRace_CommandToggleAttachedHeadgear_Label>Wear {0}</MousekinRace_CommandToggleAttachedHeadgear_Label>
+	<MousekinRace_CommandToggleAttachedHeadgearLabel>Wear {0}</MousekinRace_CommandToggleAttachedHeadgearLabel>
 
-	<MousekinRace_CommandToggleAttachedHeadgear_Desc>Toggle wearing {0} attached to apparel.</MousekinRace_CommandToggleAttachedHeadgear_Desc>
+	<MousekinRace_CommandToggleAttachedHeadgearDesc>Toggle wearing {0} attached to apparel.</MousekinRace_CommandToggleAttachedHeadgearDesc>
 
 </LanguageData>

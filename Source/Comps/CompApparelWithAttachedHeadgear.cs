@@ -32,8 +32,8 @@ namespace MousekinRace
             {
                 Command_Toggle command_Toggle = new Command_Toggle
                 {
-                    defaultLabel = "MousekinRace_CommandToggleAttachedHeadgear_Label".Translate(Props.attachedHeadgearDef.label),
-                    defaultDesc = "MousekinRace_CommandToggleAttachedHeadgear_Desc".Translate(Props.attachedHeadgearDef.label),
+                    defaultLabel = "MousekinRace_CommandToggleAttachedHeadgearLabel".Translate(Props.attachedHeadgearDef.label),
+                    defaultDesc = "MousekinRace_CommandToggleAttachedHeadgearDesc".Translate(Props.attachedHeadgearDef.label),
                     defaultIconColor = Apparel.DrawColor,
                     icon = ContentFinder<Texture2D>.Get(Props.toggleUiIconPath),
                     isActive = () => isHatOn,
