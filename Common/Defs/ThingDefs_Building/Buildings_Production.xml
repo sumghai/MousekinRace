@@ -921,7 +921,6 @@
 				<acceptsNoneAsInput>false</acceptsNoneAsInput>
 				<InsertFirstItemDesc>MousekinRace_Windmill_InsertWheatDesc</InsertFirstItemDesc>
 				<ignoresIngredientLists>true</ignoresIngredientLists>
-				<showProgressBar>true</showProgressBar>
 				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
 				<mustLoadFromInteractionSpot>true</mustLoadFromInteractionSpot>
 				<mustUnloadFromInteractionSpot>true</mustUnloadFromInteractionSpot>
