@@ -909,6 +909,12 @@
 		<comps>
 			<li Class="MousekinRace.CompProperties_Windmill">
 				<obstructionFreeRadius>10</obstructionFreeRadius>
+				<capGraphicData>
+					<texPath>Things/Building/Production/Mousekin_Windmill_cap</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+					<drawOffset>(0, 0.03, 1.25)</drawOffset>
+				</capGraphicData>
 			</li>
 			<li Class="ItemProcessor.CompProperties_ItemProcessor">
 				<numberOfInputs>1</numberOfInputs>

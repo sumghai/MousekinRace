@@ -8,6 +8,8 @@ namespace MousekinRace
 
         public int affectedTerrainRadius = 10;
 
+        public GraphicData capGraphicData;
+
         public CompProperties_Windmill()
         {
             compClass = typeof(CompWindmill);
