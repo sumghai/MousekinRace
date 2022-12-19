@@ -10,6 +10,10 @@ namespace MousekinRace
 
         public GraphicData capGraphicData;
 
+        public GraphicData sailGraphicData;
+
+        public int sailCount = 4;
+
         public CompProperties_Windmill()
         {
             compClass = typeof(CompWindmill);

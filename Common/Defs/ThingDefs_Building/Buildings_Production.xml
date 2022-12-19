@@ -882,7 +882,7 @@
 			<Steel>25</Steel>
 			<Mousekin_ClockworkComponent>10</Mousekin_ClockworkComponent>
 		</costList>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>ItemImportant</altitudeLayer>
 		<rotatable>false</rotatable>
 		<fillPercent>1</fillPercent>
 		<useHitPoints>True</useHitPoints><statBases>
@@ -913,8 +913,17 @@
 					<texPath>Things/Building/Production/Mousekin_Windmill_cap</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(3,3)</drawSize>
-					<drawOffset>(0, 0.03, 1.25)</drawOffset>
+					<drawOffset>(0, 2, 1.25)</drawOffset>
 				</capGraphicData>
+				<sailGraphicData>
+					<texPath>Things/Building/Production/Mousekin_Windmill_sail</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(5,2)</drawSize>
+					<drawOffsetNorth>(0, -0.01, 2.1650)</drawOffsetNorth>
+					<drawOffsetEast>(1.554, 3, 0.9351)</drawOffsetEast>
+					<drawOffsetSouth>(0, 3, 0.1925)</drawOffsetSouth>
+					<drawOffsetWest>(-1.554, 3, 0.9351)</drawOffsetWest>
+				</sailGraphicData>
 			</li>
 			<li Class="ItemProcessor.CompProperties_ItemProcessor">
 				<numberOfInputs>1</numberOfInputs>
