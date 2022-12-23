@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using RimWorld;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Verse;
@@ -61,6 +62,9 @@ namespace MousekinRace
                     _ => sailGraphicData.drawOffset,
                 };
 
+                // Set the rotation direction
+                int sailDirection = (capDirection == Rot4.South || capDirection == Rot4.East) ? -1 : 1;
+
                 // North/South cap direction
                 if (capDirection == Rot4.North || capDirection == Rot4.South)
                 {
@@ -75,9 +79,6 @@ namespace MousekinRace
 
                         sailMesh = (capDirection == Rot4.South) ? MeshPool.GridPlane(sailGraphicData.Graphic.drawSize) : MeshPool.GridPlaneFlip(sailGraphicData.Graphic.drawSize);
 
-                        // Set the rotation direction
-                        int sailDirection = (capDirection == Rot4.South) ? -1 : 1;
-
                         Graphics.DrawMesh(sailMesh, parent.DrawPos + sailDrawOffset, Quaternion.identity * GenMath.ToQuat(sailDirection * spinPosition + (360f / Props.sailCount) * sail), sailGraphicData.Graphic.GetColoredVersion(capGraphicData.Graphic.Shader, parent.DrawColor, parent.DrawColorTwo).MatAt(capDirection), 0);
                     }
                 }
@@ -87,22 +88,28 @@ namespace MousekinRace
                     // Iterate through each of the sails
                     for (int sail = 0; sail < Props.sailCount; sail++)
                     {
-                        sailMesh = MeshPool.GridPlane(Vector2.Scale(sailGraphicData.Graphic.drawSize, new Vector2(Mathf.Sin((spinPosition + (360f / Props.sailCount) * sail) * Mathf.PI / 180), 0.2f)));
+                        Vector3 sailAxleDrawPos = parent.DrawPos + sailDrawOffset;
 
-                        // Flip the sail mesh for East
-                        if (capDirection == Rot4.East)
+                        float sailSpinPositionRaw = spinPosition - (360f / Props.sailCount) * sail;
+                        float sailSpinPositionClean = (sailSpinPositionRaw < 0) ? sailSpinPositionRaw + 360f : sailSpinPositionRaw;
+
+                        float sailRenderLength = Props.sailGraphicData.drawSize.x * Mathf.Sin(sailSpinPositionClean * Mathf.PI / 180);
+
+                        if (sailRenderLength < 0f)
                         {
-                            sailMesh = MeshPool.GridPlaneFlip(Vector2.Scale(sailGraphicData.Graphic.drawSize, new Vector2(Mathf.Sin((spinPosition + (360f / Props.sailCount) * sail) * Mathf.PI / 180), 0.2f)));
+                            sailRenderLength *= -1f;
                         }
 
-                        // Calculate relative layer offets for each sail depending on their current position / angle
-                        float angleRaw = spinPosition + (360f / Props.sailCount) * sail;
-                        float angleClean = (angleRaw >= 360f) ? angleRaw - 360f : angleRaw;
-                        float sailLayerDrawOffset = (angleClean <= 90f) ? 0.1f : -0.1f;
+                        float sailLayerDrawOffset = (sailSpinPositionClean <= 90f || sailSpinPositionClean >= 270f) ? 0.1f : -0.1f;
 
-                        Graphics.DrawMesh(sailMesh, parent.DrawPos + sailDrawOffset + new Vector3(0, sailLayerDrawOffset, 0), Quaternion.identity * GenMath.ToQuat(90f), sailGraphicData.Graphic.GetColoredVersion(capGraphicData.Graphic.Shader, parent.DrawColor, parent.DrawColorTwo).MatAt(capDirection), 0);
+                        Vector3 sailRenderVector = new(sailRenderLength, sailLayerDrawOffset, Props.sailGraphicData.drawSize.y * 0.2f);
 
-                        Graphics.DrawMesh(sailMesh, parent.DrawPos + sailDrawOffset + new Vector3(0, -sailLayerDrawOffset, 0), Quaternion.identity * GenMath.ToQuat(270f), sailGraphicData.Graphic.GetColoredVersion(capGraphicData.Graphic.Shader, parent.DrawColor, parent.DrawColorTwo).MatAt(capDirection), 0);
+                        sailAxleDrawPos.y += sailLayerDrawOffset;
+
+                        Matrix4x4 sailRenderMatrix = default;
+                        sailRenderMatrix.SetTRS(sailAxleDrawPos, Quaternion.identity * GenMath.ToQuat((sailDirection == 1) ? 90f : 270f), sailRenderVector);
+
+                        Graphics.DrawMesh(sailSpinPositionClean < 180f ? MeshPool.plane10 : MeshPool.plane10Flip, sailRenderMatrix, sailGraphicData.Graphic.GetColoredVersion(capGraphicData.Graphic.Shader, parent.DrawColor, parent.DrawColorTwo).MatAt(capDirection), 0);
                     }   
                 }
             }
