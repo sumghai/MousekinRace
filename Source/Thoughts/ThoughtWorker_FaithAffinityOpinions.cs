@@ -34,7 +34,7 @@ namespace MousekinRace
                 int faithOpinionStage = (pawnFaithTraitDegree - 1) * 5 + otherPawnFaithTraitDegree;
                 return ThoughtState.ActiveAtStage(faithOpinionStage);
             }
-            
+
             return false;
         }
     }

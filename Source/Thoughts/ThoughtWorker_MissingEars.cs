@@ -16,9 +16,9 @@ namespace MousekinRace
             }
             return base.PostProcessDescription(p, description) + stringBuilder.ToString();
         }
-        
+
         public override ThoughtState CurrentStateInternal(Pawn pawn)
-        {           
+        {
             // Mousekins are always Humanlike, so we can skip to directly checking if both pawns are Mousekins
             if (!Utils.IsMousekin(pawn))
             {
@@ -50,7 +50,7 @@ namespace MousekinRace
             }
 
             if (numOfMissingEars == 2 && numOfProstheticEars == 0)
-            {               
+            {
                 return ThoughtState.ActiveAtStage(4);
             }
 

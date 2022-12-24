@@ -6,10 +6,10 @@ namespace MousekinRace
     public class Alert_MissingEarsMiserable : Alert
     {
         public Alert_MissingEarsMiserable()
-        { 
+        {
             defaultPriority = AlertPriority.High;
         }
-        
+
         public override string GetLabel()
         {
             return EarlessMousekinAlertUtility.AlertLabel;

@@ -19,7 +19,7 @@ namespace MousekinRace
         }
 
         static bool Prefix(Pawn pawn, ref Job __result)
-        {           
+        {
             int pawnFaithTraitDegree = pawn.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith);
 
             if (pawnFaithTraitDegree > 0 && pawnFaithTraitDegree < 3)

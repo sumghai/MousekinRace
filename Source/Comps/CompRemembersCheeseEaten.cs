@@ -10,7 +10,7 @@ namespace MousekinRace
         public int ticksSinceLastServing;
         public int minAllowedTicksBetweenServings = 90000; // 1.5 days or 36 hours
 
-        public CompProperties_RemembersCheeseEaten Props => (CompProperties_RemembersCheeseEaten) props;
+        public CompProperties_RemembersCheeseEaten Props => (CompProperties_RemembersCheeseEaten)props;
 
         public override void PostExposeData()
         {
@@ -34,7 +34,7 @@ namespace MousekinRace
                     {
                         ticksSinceLastServing += 2500;
                     }
-                }; 
+                };
                 yield return new Command_Action
                 {
                     defaultLabel = "DEBUG: -12 hour cheese cooldown",
@@ -54,13 +54,13 @@ namespace MousekinRace
         }
 
         public void Reset()
-        { 
+        {
             servingsEaten = 0;
             ticksSinceLastServing = 0;
         }
-        
+
         public override void CompTick()
-        {            
+        {
             base.CompTick();
 
             if (ticksSinceLastServing >= minAllowedTicksBetweenServings)

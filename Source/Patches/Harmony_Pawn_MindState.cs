@@ -45,7 +45,7 @@ namespace MousekinRace
                         }
                     }
                 }
-            }            
+            }
         }
     }
 }

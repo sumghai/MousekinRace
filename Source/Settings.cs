@@ -12,7 +12,7 @@ namespace MousekinRace
             base.ExposeData();
             Scribe_Values.Look(ref EarlessMousekinsAreSuicidal, "EarlessMousekinsAreSuicidal", true, true);
         }
-        
+
         public void Draw(Rect canvas)
         {
             var listingStandard = new Listing_Standard();

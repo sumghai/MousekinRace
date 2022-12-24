@@ -1,7 +1,6 @@
 ﻿using AlienRace;
 using HarmonyLib;
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
@@ -10,7 +9,7 @@ namespace MousekinRace
     public class MousekinRaceMod : Mod
     {
         public static Settings Settings;
-        
+
         private static readonly Type patchType = typeof(HarmonyPatches);
 
         public MousekinRaceMod(ModContentPack content) : base(content)

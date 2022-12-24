@@ -41,12 +41,12 @@ namespace MousekinRace
         }
 
         public static bool SetFactionByRace(this FactionManager factionManager, out Faction faction, bool tryMedievalOrBetter, bool allowDefeated, TechLevel minTechLevel, bool allowTemporary, Pawn forPawn)
-        {            
+        {
             if (Utils.IsMousekin(forPawn))
             {
                 faction = factionManager.AllFactions.Where((Faction f) => f.def == MousekinDefOf.Mousekin_FactionKingdom).First();
                 return true;
-            } 
+            }
             else
             {
                 return factionManager.AllFactions.Where((Faction x) => !x.IsPlayer && !x.Hidden && x.def.humanlikeFaction && (allowDefeated || !x.defeated) && (allowTemporary || !x.temporary) && (minTechLevel == TechLevel.Undefined || (int)x.def.techLevel >= (int)minTechLevel) && Utils.GetRaceOfFaction(x.def) != MousekinDefOf.Mousekin).TryRandomElementByWeight((Faction x) => (tryMedievalOrBetter && (int)x.def.techLevel < 3) ? 0.1f : 1f, out faction);
@@ -55,7 +55,7 @@ namespace MousekinRace
 
         // Ensure world pawn parents (Mousekin and non-Mousekin) use gender-neutral pawnkinds when spawning in NPC factions
         public static Pawn GeneratePawnKindByRace(PawnGenerationRequest request)
-        {          
+        {
             request.KindDef = Utils.IsMousekin(request.KindDef) ? request.Faction.def.basicMemberKind : request.Faction.RandomPawnKind();
 
             return PawnGenerator.GeneratePawn(request);

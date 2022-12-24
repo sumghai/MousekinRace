@@ -12,7 +12,7 @@ namespace MousekinRace
         public const int criticalWarningThresholdDays = 10;
 
         public const int suicideAttemptThresholdDays = 15;
-        
+
         public static List<Pawn> mousekinsMiserableResult = new List<Pawn>();
 
         public static List<Pawn> mousekinsSuicidalResult = new List<Pawn>();
@@ -63,7 +63,7 @@ namespace MousekinRace
 
         public static string AlertLabel
         {
-            get 
+            get
             {
                 int num = MousekinsSuicidal.Count();
                 string text = "";
@@ -75,7 +75,7 @@ namespace MousekinRace
                 {
                     num = MousekinsMiserable.Count();
                     if (num > 0)
-                    { 
+                    {
                         text = "AlertEarlessMousekinFeelingMiserableLabel".Translate();
                     }
                 }
@@ -86,10 +86,10 @@ namespace MousekinRace
                 return text;
             }
         }
-    
+
         public static string AlertExplanation
         {
-            get 
+            get
             {
                 StringBuilder stringBuilder = new StringBuilder();
 
@@ -128,7 +128,7 @@ namespace MousekinRace
         {
             return pawn.health.hediffSet.cachedMissingPartsCommonAncestors.Count(x => x.Part.def == MousekinDefOf.Mousekin_Ear) > 1;
         }
-        
+
         public static float GetDaysSinceBothEarsLost(Pawn pawn)
         {
             List<Hediff_MissingPart> missingEarHediffs = pawn.health.hediffSet.cachedMissingPartsCommonAncestors.FindAll(x => x.Part.def == MousekinDefOf.Mousekin_Ear);

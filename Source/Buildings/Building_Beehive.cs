@@ -8,10 +8,10 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class Building_Beehive: Building
+    public class Building_Beehive : Building
     {
         public List<ThingDef> validFlowerDefs;
-        
+
         public const float FlowerSearchRadius = 19.9f;
 
         public const int MinFlowerContainingCells = 20;
@@ -39,7 +39,7 @@ namespace MousekinRace
         public int CellsWithValidFlowers(Map map)
         {
             int flowerCells = 0;
-            
+
             foreach (var cell in FlowerSearchCells)
             {
                 Plant plant = cell.GetPlant(map);
@@ -108,7 +108,7 @@ namespace MousekinRace
 
             return flowerSearchCells;
         }
-        
+
         public override void ExposeData()
         {
             base.ExposeData();
@@ -131,7 +131,7 @@ namespace MousekinRace
                 // If minified, don't show status messages
             }
             else
-            {                
+            {
                 if (ProductsReady)
                 {
                     stringBuilder.Append("MousekinRace_Beehive_HoneyReady".Translate());
@@ -162,13 +162,13 @@ namespace MousekinRace
             Thing product2 = ThingMaker.MakeThing(MousekinDefOf.Mousekin_Beeswax);
             product2.stackCount = BeeswaxYield;
             Progress = 0f;
-            return new List<Thing>{ product1, product2 };
+            return new List<Thing> { product1, product2 };
         }
 
         public override void TickRare()
         {
             base.TickRare();
-            
+
             if (AmbientTempIsOk() && CellsWithValidFlowers(base.Map) >= MinFlowerContainingCells && !ProductsReady)
             {
                 Progress += GenTicks.TickRareInterval;

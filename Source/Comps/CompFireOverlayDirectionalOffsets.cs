@@ -26,7 +26,7 @@ namespace MousekinRace
             base.PostDraw();
 
             if (refuelableComp == null || refuelableComp.HasFuel)
-            {                
+            {
                 Vector3 flameDrawPos = parent.DrawPos + Props.directionalOffsets.GetOffset(parent.Rotation);
                 flameDrawPos.y += 0.04f;
                 FireGraphic.Draw(flameDrawPos, Rot4.North, parent);

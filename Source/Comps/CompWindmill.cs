@@ -27,8 +27,8 @@ namespace MousekinRace
             {
                 spinPosition = 0f;
             }
-            else 
-            { 
+            else
+            {
                 spinPosition += parent.Map.windManager.WindSpeed;
             }
         }
@@ -71,12 +71,6 @@ namespace MousekinRace
                     // Iterate through each of the sails
                     for (int sail = 0; sail < Props.sailCount; sail++)
                     {
-                        /* WIP - Transformations
-                        float oddBladeOffset = (sail % 2 != 0) ? 360f / Props.sailCount : 0;
-                        float sailLengthScale = northSouthYscale + ((1 - northSouthYscale) * (Mathf.Cos(2 * (spinPosition + oddBladeOffset) * Mathf.PI / 180) + 1) / 2);
-                        float sailWidthScale = northSouthYscale + ((1 - northSouthYscale) * (Mathf.Sin(2 * (spinPosition + oddBladeOffset) * Mathf.PI / 180) + 1) / 2);
-                        Vector2 scaledVector = Vector2.Scale(sailGraphicData.Graphic.drawSize, new(sailLengthScale, sailWidthScale));*/
-
                         sailMesh = (capDirection == Rot4.South) ? MeshPool.GridPlane(sailGraphicData.Graphic.drawSize) : MeshPool.GridPlaneFlip(sailGraphicData.Graphic.drawSize);
 
                         Graphics.DrawMesh(sailMesh, parent.DrawPos + sailDrawOffset, Quaternion.identity * GenMath.ToQuat(sailDirection * spinPosition + (360f / Props.sailCount) * sail), sailGraphicData.Graphic.GetColoredVersion(capGraphicData.Graphic.Shader, parent.DrawColor, parent.DrawColorTwo).MatAt(capDirection), 0);
@@ -110,7 +104,7 @@ namespace MousekinRace
                         sailRenderMatrix.SetTRS(sailAxleDrawPos, Quaternion.identity * GenMath.ToQuat((sailDirection == 1) ? 90f : 270f), sailRenderVector);
 
                         Graphics.DrawMesh(sailSpinPositionClean < 180f ? MeshPool.plane10 : MeshPool.plane10Flip, sailRenderMatrix, sailGraphicData.Graphic.GetColoredVersion(capGraphicData.Graphic.Shader, parent.DrawColor, parent.DrawColorTwo).MatAt(capDirection), 0);
-                    }   
+                    }
                 }
             }
         }

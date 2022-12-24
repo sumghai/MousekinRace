@@ -1,10 +1,7 @@
 ﻿using HarmonyLib;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEngine;
 using Verse;
-using Verse.Noise;
 
 namespace MousekinRace
 {
@@ -47,8 +44,9 @@ namespace MousekinRace
     public static class Harmony_Building_SpawnSetup_DestroyWallMountedThingsWithImpassable
     {
         public static void Postfix(Building __instance)
-        {            
-            if (__instance.IsWall()) {
+        {
+            if (__instance.IsWall())
+            {
                 (from m in __instance.Position.GetThingList(__instance.Map)
                  where m != __instance & m.def.placeWorkers != null && m.def.placeWorkers.Contains(typeof(PlaceWorker_WallMounted))
                  select m).ToList().ForEach(delegate (Thing x)

@@ -27,7 +27,7 @@ namespace MousekinRace
                         __result.story.traits.allTraits.RemoveAll(x => conflictingTraits.Contains(x.def));
                     }
                 }
-            }           
+            }
         }
     }
 }

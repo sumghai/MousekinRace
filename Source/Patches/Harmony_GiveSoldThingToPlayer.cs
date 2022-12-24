@@ -13,7 +13,7 @@ namespace MousekinRace
         static IEnumerable<MethodBase> TargetMethods()
         {
             yield return AccessTools.Method(typeof(Caravan_TraderTracker), nameof(Caravan_TraderTracker.GiveSoldThingToPlayer));
-            yield return AccessTools.Method(typeof(Pawn_TraderTracker), nameof(Pawn_TraderTracker.GiveSoldThingToPlayer)); 
+            yield return AccessTools.Method(typeof(Pawn_TraderTracker), nameof(Pawn_TraderTracker.GiveSoldThingToPlayer));
             yield return AccessTools.Method(typeof(Settlement_TraderTracker), nameof(Settlement_TraderTracker.GiveSoldThingToPlayer));
             yield return AccessTools.Method(typeof(TradeShip), nameof(TradeShip.GiveSoldThingToPlayer));
         }

@@ -24,7 +24,7 @@ namespace MousekinRace
         public Vector3 GetOffset(Rot4 rot) =>
             rot == Rot4.South ? this.south :
             rot == Rot4.North ? this.north :
-            rot == Rot4.East ? this.east : 
+            rot == Rot4.East ? this.east :
             this.west != Vector3.zero ? this.west : new Vector3(-this.east.x, this.east.y, this.east.z);
 
         public Vector3 north = Vector3.zero;

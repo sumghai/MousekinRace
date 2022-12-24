@@ -1,6 +1,5 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
-using UnityEngine;
 using Verse;
 
 namespace MousekinRace
@@ -35,7 +34,7 @@ namespace MousekinRace
                     defaultLabel = Props.toggleLabel,
                     defaultDesc = Props.toggleDesc,
                     defaultIconColor = Apparel.DrawColor,
-                    icon = isAltState ? Apparel.def.uiIcon: Props.altStateDef.uiIcon,
+                    icon = isAltState ? Apparel.def.uiIcon : Props.altStateDef.uiIcon,
                     isActive = () => isAltState,
                     toggleAction = delegate
                     {
