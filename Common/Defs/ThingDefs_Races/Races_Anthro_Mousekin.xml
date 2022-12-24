@@ -938,7 +938,13 @@
 				<traitList>
 					<li>Mousekin_TraitSpectrum_Faith</li>
 				</traitList>
-
+				
+				<!-- Mousekin can only breed with other Mousekin (Biotech DLC) -->
+				<reproductionList>
+					<li>Mousekin</li>
+				</reproductionList>
+				<onlyReproduceWithRestrictedRaces>true</onlyReproduceWithRestrictedRaces>
+				
 			</raceRestriction>
 		</alienRace>
 		<statBases>
