@@ -136,13 +136,13 @@
 										<min>(230, 217, 179)</min>
 										<max>(255, 230, 204)</max>
 									</li>
-									<!-- Red to Copper -->
+									<!-- Copper to Strawberry Blonde -->
 									<li>
 										<weight>5</weight>
 										<min>(217, 38, 0)</min>
 										<max>(255, 128, 38)</max>
 									</li>
-									<!-- Copper to Strawberry Blonde -->
+									<!-- Red to Copper -->
 									<li>
 										<weight>5</weight>
 										<min>(230, 77, 0)</min>
@@ -939,6 +939,37 @@
 					<li>Mousekin_TraitSpectrum_Faith</li>
 				</traitList>
 				
+				<!-- Restrict genes available to Mousekin (Biotech DLC) -->
+				<geneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Mousekin_GeneVoiceMousekin</li>
+				</geneList>
+				<whiteGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Fertile</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Beauty_Beautiful</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Beauty_Pretty</li>
+				</whiteGeneList>
+				<whiteGeneTags>
+					<li>Addiction</li> <!-- Not working -->
+					<li>Aggression</li>
+					<li>Aptitude</li> <!-- Not working -->
+					<li>Immunity</li>
+					<li>Learning</li>
+					<li>Libido</li>
+					<li>MaxTemperature</li>
+					<li>MeleeDamage</li>
+					<li>MinTemperature</li>
+					<li>Mood</li>
+					<li>MoveSpeed</li>
+					<li>PsychicAbility</li>
+					<li>ShootingAccuracy</li>
+					<li>Sleep</li>
+					<li>WoundHealingRate</li>
+				</whiteGeneTags>
+				<blackGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Neversleep</li>
+				</blackGeneList>
+				<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
+				
 				<!-- Mousekin can only breed with other Mousekin (Biotech DLC) -->
 				<reproductionList>
 					<li>Mousekin</li>
@@ -1058,18 +1089,34 @@
 				<li>
 					<def>HumanlikeChild</def>
 					<minAge>3</minAge>
+					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+					<soundDeath>Pawn_Mousekin_Death</soundDeath>
+					<soundCall>Pawn_Mousekin_Call</soundCall>
+					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
 				</li>
 				<li MayRequire="Ludeon.RimWorld.Biotech">
 					<def>HumanlikePreTeenager</def>
 					<minAge>9</minAge>
+					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+					<soundDeath>Pawn_Mousekin_Death</soundDeath>
+					<soundCall>Pawn_Mousekin_Call</soundCall>
+					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
 				</li>
 				<li>
 					<def>HumanlikeTeenager</def>
 					<minAge>13</minAge>
+					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+					<soundDeath>Pawn_Mousekin_Death</soundDeath>
+					<soundCall>Pawn_Mousekin_Call</soundCall>
+					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
 				</li>
 				<li>
 					<def>HumanlikeAdult</def>
 					<minAge>18</minAge>
+					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+					<soundDeath>Pawn_Mousekin_Death</soundDeath>
+					<soundCall>Pawn_Mousekin_Call</soundCall>
+					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>

@@ -6,7 +6,12 @@
 		<label>mousekin</label>
 		<description>A naturally-evolved Mousekin with no major significant genetic modifications.</description>
 		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
+		<inheritable>true</inheritable>
 		<displayPriority>900</displayPriority>
+		<genes>
+			<li>Fertile</li>
+			<li>Mousekin_GeneVoiceMousekin</li>
+		</genes>
 	</XenotypeDef>
 	
 </Defs>

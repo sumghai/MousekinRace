@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>Mousekin_GeneVoiceMousekin</defName>
+		<label>mouse voice</label>
+		<description>Carriers have a squeaky childlike voice.</description>
+		<iconPath>UI/Icons/Genes/Gene_VoiceMouse</iconPath>
+		<displayOrderInCategory>122</displayOrderInCategory>
+		<soundCall>Pawn_Mousekin_Call</soundCall>
+		<soundDeath>Pawn_Mousekin_Death</soundDeath>
+		<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+	</GeneDef>
+	
+</Defs>
