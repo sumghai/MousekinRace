@@ -908,7 +908,9 @@
 		</building>
 		<comps>
 			<li Class="MousekinRace.CompProperties_Windmill">
-				<obstructionFreeRadius>10</obstructionFreeRadius>
+				<obstructionFreeRadius>9.9</obstructionFreeRadius>
+				<terraformRadius>14.9</terraformRadius>
+				<daysToTerraformRadius>120</daysToTerraformRadius>
 				<capGraphicData>
 					<texPath>Things/Building/Production/Mousekin_Windmill_cap</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>

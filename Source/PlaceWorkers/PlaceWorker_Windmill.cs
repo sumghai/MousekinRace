@@ -9,14 +9,14 @@ namespace MousekinRace
         {
             if (def.GetCompProperties<CompProperties_Windmill>() != null)
             {
-                int radius = def.GetCompProperties<CompProperties_Windmill>().obstructionFreeRadius;
-                GenDraw.DrawRadiusRing(center, radius);
+                GenDraw.DrawRadiusRing(center, def.GetCompProperties<CompProperties_Windmill>().obstructionFreeRadius);
+                GenDraw.DrawRadiusRing(center, def.GetCompProperties<CompProperties_Windmill>().terraformRadius, Color.gray);
             }
         }
 
         public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null)
         {
-            int radius = ((ThingDef)checkingDef).GetCompProperties<CompProperties_Windmill>().obstructionFreeRadius;
+            float radius = ((ThingDef)checkingDef).GetCompProperties<CompProperties_Windmill>().obstructionFreeRadius;
 
             if (CompWindmill.HasOtherWindmillOrBlueprintWithinRadius(loc, map, radius))
             {
