@@ -10,7 +10,7 @@ namespace MousekinRace
             if (def.GetCompProperties<CompProperties_Windmill>() != null)
             {
                 GenDraw.DrawRadiusRing(center, def.GetCompProperties<CompProperties_Windmill>().obstructionFreeRadius);
-                GenDraw.DrawRadiusRing(center, def.GetCompProperties<CompProperties_Windmill>().terraformRadius, Color.gray);
+                GenDraw.DrawRadiusRing(center, def.GetCompProperties<CompProperties_Windmill>().terraformRadius, new Color(0f, 1f, 0f, 0.5f));
             }
         }
 

@@ -863,7 +863,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_Windmill</defName>
 		<label>Mousekin windmill</label>
-		<description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water to irrigate soil.\n\n(TODO - info on moisture pump terraforming and research-dependent electrical generator features)</description>
+		<description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water.</description>
 		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>

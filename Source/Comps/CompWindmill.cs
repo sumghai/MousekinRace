@@ -1,6 +1,8 @@
 ﻿using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using UnityEngine;
 using Verse;
 
@@ -21,13 +23,25 @@ namespace MousekinRace
 
         public const float northSouthYscale = 0.75f;
 
+        public int updateWeatherEveryXTicks = 250;
+
+        public int ticksSinceWeatherUpdate;
+
+        public List<IntVec3> windPathCells = new();
+
+        public List<Thing> windPathBlockedByThings = new();
+
+        public List<IntVec3> windPathBlockedCells = new();
+
         public float TerraformProgressDays => (float) terraformProgressTicks / 60000f;
 
         public float CurrentTerraformRadius => Mathf.Min(Props.terraformRadius, TerraformProgressDays / Props.daysToTerraformRadius * Props.terraformRadius);
 
         public int CachedNumOfTerraformedCells = 0;
 
-        public bool Working => parent.Map.windManager.WindSpeed >= 0.25f;
+        public float effectiveWindSpeed;
+
+        public bool Working => effectiveWindSpeed >= 0.1f;
 
         public int TicksUntilRadiusInteger
         {
@@ -41,6 +55,12 @@ namespace MousekinRace
                 float num2 = Props.terraformRadius / Props.daysToTerraformRadius;
                 return (int)(num / num2 * 60000f);
             }
+        }
+
+        public override void PostSpawnSetup(bool respawningAfterLoad)
+        {
+            base.PostSpawnSetup(respawningAfterLoad);
+            RecalculateBlockages();
         }
 
         public override void PostDeSpawn(Map map)
@@ -58,7 +78,28 @@ namespace MousekinRace
             }
             else
             {
-                spinPosition += parent.Map.windManager.WindSpeed;
+                spinPosition += effectiveWindSpeed;
+            }
+
+            ticksSinceWeatherUpdate++;
+            if (ticksSinceWeatherUpdate >= updateWeatherEveryXTicks)
+            {
+                effectiveWindSpeed = Mathf.Min(parent.Map.windManager.WindSpeed, 1.5f);
+                ticksSinceWeatherUpdate = 0;
+                RecalculateBlockages();
+                if (windPathBlockedCells.Count > 0)
+                {
+                    float num2 = 0f;
+                    for (int i = 0; i < windPathBlockedCells.Count; i++)
+                    {
+                        num2 += effectiveWindSpeed * 0.1f; // Larger sails, less affected by blocked cells
+                    }
+                    effectiveWindSpeed -= num2;
+                    if (effectiveWindSpeed < 0)
+                    {
+                        effectiveWindSpeed = 0;
+                    }
+                }
             }
         }
 
@@ -84,7 +125,9 @@ namespace MousekinRace
         public override void PostExposeData()
         {
             base.PostExposeData();
+            Scribe_Values.Look(ref effectiveWindSpeed, "effectiveWindSpeed", 0);
             Scribe_Values.Look(ref capDirection, "capDirection", defaultValue: Rot4.South, forceSave: true);
+            Scribe_Values.Look(ref ticksSinceWeatherUpdate, "updateCounter", 0);
             Scribe_Values.Look(ref terraformProgressTicks, "terraformProgressTicks", 0);
         }
 
@@ -92,9 +135,10 @@ namespace MousekinRace
         {
             if (CurrentTerraformRadius < Props.terraformRadius - 0.0001f)
             {
-                GenDraw.DrawRadiusRing(parent.Position, CurrentTerraformRadius);
-                GenDraw.DrawRadiusRing(parent.Position, Props.terraformRadius, Color.gray);
+                GenDraw.DrawRadiusRing(parent.Position, CurrentTerraformRadius, Color.green);
+                GenDraw.DrawRadiusRing(parent.Position, Props.terraformRadius, new Color(0f, 1f, 0f, 0.5f));
             }
+            GenDraw.DrawFieldEdges(windPathCells);
         }
 
         public override void PostDraw()
@@ -174,22 +218,45 @@ namespace MousekinRace
         }
 
         public override string CompInspectStringExtra()
-        {          
-            string text = "TimePassed".Translate().CapitalizeFirst() + ": " + terraformProgressTicks.ToStringTicksToPeriod() + "\n" + "CurrentRadius".Translate().CapitalizeFirst() + ": " + CurrentTerraformRadius.ToString("F1");
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+
+            if (DebugSettings.ShowDevGizmos)
+            {
+                stringBuilder.AppendLine("DEV Wind speed: " + effectiveWindSpeed + " / " + parent.Map.windManager.WindSpeed);
+            }
+
+            if (windPathBlockedCells.Count > 0)
+            {
+                Thing thing = null;
+                if (windPathBlockedByThings != null)
+                {
+                    thing = windPathBlockedByThings[0];
+                }
+                if (thing != null)
+                {
+                    stringBuilder.AppendLine("WindTurbine_WindPathIsBlockedBy".Translate() + " " + thing.Label);
+                }
+                else
+                {
+                    stringBuilder.AppendLine("WindTurbine_WindPathIsBlockedByRoof".Translate());
+                }
+            }
+
+            stringBuilder.AppendLine("TimePassed".Translate().CapitalizeFirst() + ": " + terraformProgressTicks.ToStringTicksToPeriod() + "\n" + "CurrentRadius".Translate().CapitalizeFirst() + ": " + CurrentTerraformRadius.ToString("F1"));
+
             if (TerraformProgressDays < Props.daysToTerraformRadius)
             {
                 if (Working)
                 {
-                    text += "\n" + "RadiusExpandsIn".Translate().CapitalizeFirst() + ": " + TicksUntilRadiusInteger.ToStringTicksToPeriod();
+                    stringBuilder.AppendLine("RadiusExpandsIn".Translate().CapitalizeFirst() + ": " + TicksUntilRadiusInteger.ToStringTicksToPeriod());
                 }
                 else
                 {
-                    text += "\n" + "MousekinRace_Windmill_LowWindspeed".Translate();
+                    stringBuilder.AppendLine("MousekinRace_Windmill_LowWindspeed".Translate());
                 }
-                
-                
             }
-            return text;
+            return stringBuilder.ToString().TrimEndNewlines();
         }
 
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
@@ -206,6 +273,10 @@ namespace MousekinRace
                 action = delegate
                 {
                     capDirection.Rotate(RotationDirection.Clockwise);
+                    windPathCells.Clear();
+                    windPathBlockedCells.Clear();
+                    windPathBlockedByThings.Clear();
+                    RecalculateBlockages();
                 }
             };
             yield return command_Action;
@@ -230,6 +301,79 @@ namespace MousekinRace
         public static bool HasOtherWindmillOrBlueprintWithinRadius(IntVec3 pos, Map map, float radius)
         {
             return GenRadial.RadialCellsAround(pos, radius, true).Where(c => c.InBounds(map) && (c.GetFirstThing(map, MousekinDefOf.Mousekin_Windmill) != null || c.GetFirstThing(map, MousekinDefOf.Blueprint_Mousekin_Windmill) != null)).Count() > 0;
+        }
+
+        public IEnumerable<IntVec3> CalculateWindCells(IntVec3 center, Rot4 capDirection)
+        {
+            CellRect rectA = default(CellRect);
+            CellRect rectB = default(CellRect);
+            int length = (int)(Math.Floor(Props.obstructionFreeRadius) - 2);
+            int width = (int)(Math.Floor(Props.sailGraphicData.drawSize.x) + 2);
+
+            if (capDirection.IsHorizontal)
+            {
+                rectA.minX = center.x + 2;
+                rectA.maxX = center.x + 2 + length;
+                rectB.minX = center.x - 2 - length;
+                rectB.maxX = center.x - 2;
+                rectB.minZ = rectA.minZ = center.z - (width / 2);
+                rectB.maxZ = rectA.maxZ = center.z + (width / 2);
+            }
+            else
+            {
+                rectA.minZ = center.z + 2;
+                rectA.maxZ = center.z + 2 + length;
+                rectB.minZ = center.z - 2 - length;
+                rectB.maxZ = center.z - 2;
+                rectB.minX = rectA.minX = center.x - (width / 2);
+                rectB.maxX = rectA.maxX = center.x + (width / 2);
+            }
+            for (int z2 = rectA.minZ; z2 <= rectA.maxZ; z2++)
+            {
+                for (int x = rectA.minX; x <= rectA.maxX; x++)
+                {
+                    yield return new IntVec3(x, 0, z2);
+                }
+            }
+            for (int z2 = rectB.minZ; z2 <= rectB.maxZ; z2++)
+            {
+                for (int x = rectB.minX; x <= rectB.maxX; x++)
+                {
+                    yield return new IntVec3(x, 0, z2);
+                }
+            }
+        }
+
+        public void RecalculateBlockages()
+        {
+            if (windPathCells.Count == 0)
+            {
+                IEnumerable<IntVec3> collection = CalculateWindCells(parent.Position, capDirection);
+                windPathCells.AddRange(collection);
+            }
+            windPathBlockedCells.Clear();
+            windPathBlockedByThings.Clear();
+            for (int i = 0; i < windPathCells.Count; i++)
+            {
+                IntVec3 intVec = windPathCells[i];
+                if (parent.Map.roofGrid.Roofed(intVec))
+                {
+                    windPathBlockedByThings.Add(null);
+                    windPathBlockedCells.Add(intVec);
+                    continue;
+                }
+                List<Thing> list = parent.Map.thingGrid.ThingsListAt(intVec);
+                for (int j = 0; j < list.Count; j++)
+                {
+                    Thing thing = list[j];
+                    if (thing.def.blockWind && thing.def != parent.def)
+                    {
+                        windPathBlockedByThings.Add(thing);
+                        windPathBlockedCells.Add(intVec);
+                        break;
+                    }
+                }
+            }
         }
 
         public void AffectCell(IntVec3 c)
