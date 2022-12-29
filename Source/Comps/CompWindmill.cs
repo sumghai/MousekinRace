@@ -303,12 +303,12 @@ namespace MousekinRace
             return GenRadial.RadialCellsAround(pos, radius, true).Where(c => c.InBounds(map) && (c.GetFirstThing(map, MousekinDefOf.Mousekin_Windmill) != null || c.GetFirstThing(map, MousekinDefOf.Blueprint_Mousekin_Windmill) != null)).Count() > 0;
         }
 
-        public IEnumerable<IntVec3> CalculateWindCells(IntVec3 center, Rot4 capDirection)
+        public static IEnumerable<IntVec3> CalculateWindCells(IntVec3 center, Rot4 capDirection, CompProperties_Windmill props)
         {
             CellRect rectA = default(CellRect);
             CellRect rectB = default(CellRect);
-            int length = (int)(Math.Floor(Props.obstructionFreeRadius) - 2);
-            int width = (int)(Math.Floor(Props.sailGraphicData.drawSize.x) + 2);
+            int length = (int)(Math.Floor(props.obstructionFreeRadius) - 2);
+            int width = (int)(Math.Floor(props.sailGraphicData.drawSize.x) + 2);
 
             if (capDirection.IsHorizontal)
             {
@@ -348,7 +348,7 @@ namespace MousekinRace
         {
             if (windPathCells.Count == 0)
             {
-                IEnumerable<IntVec3> collection = CalculateWindCells(parent.Position, capDirection);
+                IEnumerable<IntVec3> collection = CalculateWindCells(parent.Position, capDirection, Props);
                 windPathCells.AddRange(collection);
             }
             windPathBlockedCells.Clear();

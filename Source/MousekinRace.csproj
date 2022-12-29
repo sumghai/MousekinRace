@@ -306,6 +306,7 @@
     <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
     <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
+    <Compile Include="Comps\CompAutoCutWindmill.cs" />
     <Compile Include="Comps\CompFireOverlayDirectionalOffsets.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs" />

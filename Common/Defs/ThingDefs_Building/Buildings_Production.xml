@@ -902,6 +902,9 @@
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_WindTurbineAutoCut</li>
+		</inspectorTabs>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
@@ -928,6 +931,9 @@
 					<drawOffsetSouth>(0, 3, 0.1925)</drawOffsetSouth>
 					<drawOffsetWest>(-1.554, 3, 0.9351)</drawOffsetWest>
 				</sailGraphicData>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAutoCutWindmill</compClass>
 			</li>
 			<li Class="ItemProcessor.CompProperties_ItemProcessor">
 				<numberOfInputs>1</numberOfInputs>
