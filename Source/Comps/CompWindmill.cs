@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using ItemProcessor;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -100,6 +101,12 @@ namespace MousekinRace
                         effectiveWindSpeed = 0;
                     }
                 }
+            }
+
+            // Pause VFE item processor if sails are not spinning
+            if (parent is Building_ItemProcessor itemProcessor)
+            {
+                itemProcessor.isPaused = !Working;
             }
         }
 
