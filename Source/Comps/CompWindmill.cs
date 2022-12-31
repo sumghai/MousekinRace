@@ -277,6 +277,8 @@ namespace MousekinRace
             {
                 defaultLabel = "MousekinRace_CommandRotateWindmillCapLabel".Translate(),
                 defaultDesc = "MousekinRace_CommandRotateWindmillCapDesc".Translate(),
+                hotKey = KeyBindingDefOf.Designator_RotateRight,
+                icon = ContentFinder<Texture2D>.Get("UI/Widgets/RotRight", true),
                 action = delegate
                 {
                     capDirection.Rotate(RotationDirection.Clockwise);
