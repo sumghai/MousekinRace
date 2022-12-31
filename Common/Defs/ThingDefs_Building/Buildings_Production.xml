@@ -878,6 +878,8 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_Windmill_MenuIcon</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
 		<costList>
 			<WoodLog>600</WoodLog>
 			<Steel>25</Steel>
