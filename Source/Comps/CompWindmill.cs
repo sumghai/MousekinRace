@@ -211,7 +211,7 @@ namespace MousekinRace
 
                         float sailLayerDrawOffset = (sailSpinPositionClean <= 90f || sailSpinPositionClean >= 270f) ? 0.1f : -0.1f;
 
-                        Vector3 sailRenderVector = new(sailRenderLength, sailLayerDrawOffset, Props.sailGraphicData.drawSize.y * 0.2f);
+                        Vector3 sailRenderVector = new(sailRenderLength, sailLayerDrawOffset, Props.sailGraphicData.drawSize.y * 0.4f);
 
                         sailAxleDrawPos.y += sailLayerDrawOffset;
 

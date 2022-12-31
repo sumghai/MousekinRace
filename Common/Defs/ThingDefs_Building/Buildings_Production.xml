@@ -927,9 +927,9 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>(5,2)</drawSize>
 					<drawOffsetNorth>(0, -0.01, 2.1650)</drawOffsetNorth>
-					<drawOffsetEast>(1.554, 3, 0.9351)</drawOffsetEast>
+					<drawOffsetEast>(1.8, 3, 0.9351)</drawOffsetEast>
 					<drawOffsetSouth>(0, 3, 0.1925)</drawOffsetSouth>
-					<drawOffsetWest>(-1.554, 3, 0.9351)</drawOffsetWest>
+					<drawOffsetWest>(-1.8, 3, 0.9351)</drawOffsetWest>
 				</sailGraphicData>
 			</li>
 			<li>
