@@ -919,7 +919,7 @@
 				<capGraphicData>
 					<texPath>Things/Building/Production/Mousekin_Windmill_cap</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<drawSize>(3,3)</drawSize>
+					<drawSize>(3.5,3.5)</drawSize>
 					<drawOffset>(0, 2, 1.25)</drawOffset>
 				</capGraphicData>
 				<sailGraphicData>
