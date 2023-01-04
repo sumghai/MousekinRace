@@ -129,6 +129,69 @@
 					<xpath>Defs/ItemProcessor.CombinationDef[defName="Mousekin_RawWheatToFlour"]</xpath>
 				</li>
 
+				<!-- Replace flour from Country bread recipes with VCE Flour -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[
+						contains(defName, "Mousekin_Make_CountryBread")
+					]/ingredients/li/filter/thingDefs/li</xpath>
+					<value>
+						<li>VCE_Flour</li>
+					</value>
+				</li>
+				
+				<!-- Replace Cloverbury cheese from various recipes with VCE Cheese category, and add category to recipe ingredient filters -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[
+						contains(defName,  "Mousekin_Make_PloughmansLunch") or
+						contains(defName, "Mousekin_Make_BreadBowl")
+					]/ingredients/li[2]/filter</xpath>
+					<value>
+						<filter>
+							<categories>
+								<li>VCE_Cheese</li>
+							</categories>
+						</filter>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="Mousekin_Make_PloughmansLunch"]/fixedIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Cheese</li>
+						</categories>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="Mousekin_Make_BreadBowl"]/fixedIngredientFilter/categories</xpath>
+					<value>
+						<li>VCE_Cheese</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[
+						defName="Mousekin_Make_PloughmansLunch"
+					]/defaultIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Cheese</li>
+						</categories>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[
+						defName="Mousekin_Make_BreadBowl"
+					]/defaultIngredientFilter/categories</xpath>
+					<value>
+						<li>VCE_Cheese</li>
+					</value>
+				</li>
+				
 			</operations>
 		</match>
 	</Operation>

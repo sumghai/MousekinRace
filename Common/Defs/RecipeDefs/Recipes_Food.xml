@@ -397,7 +397,8 @@
 	
 	<!-- Bread bowl -->
 	
-	<RecipeDef Name="Mousekin_RecipeBreadBowlBase" ParentName="CookMealBase">
+	<RecipeDef Name="Mousekin_RecipeBreadBowlBase">
+		<!-- (cannot inherit from CookMealBase, as that apparently interferes with certain cross-compatibility patches) -->
 		<defName>Mousekin_Make_BreadBowl</defName>
 		<label>make bread bowl</label>
 		<description>Hollow out a loaf of country bread and fill it with a creamy meat and vegetable potage.</description>
@@ -448,7 +449,7 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories Inherit="false">
+			<categories>
 				<li>MeatRaw</li>
 				<li>PlantFoodRaw</li>
 				<li>EggsUnfertilized</li>
@@ -458,7 +459,14 @@
 			</specialFiltersToDisallow>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+				<li>PlantFoodRaw</li>
+				<li>EggsUnfertilized</li>
+			</categories>
 			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
 				<li>Meat_Mousekin</li>
 				<li>Meat_Mousekin_AnimalGiantCavy</li>
 				<li>Meat_Mousekin_AnimalPudgemouse</li>
@@ -467,6 +475,7 @@
 		<products>
 			<Mousekin_MealBreadBowl>1</Mousekin_MealBreadBowl>
 		</products>
+		<workSkill>Cooking</workSkill>
 		<skillRequirements>
 			<Cooking>6</Cooking>
 		</skillRequirements>
