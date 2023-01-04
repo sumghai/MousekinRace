@@ -28,7 +28,7 @@
 		<result>Mousekin_Flour</result>
 		<yield>75</yield>
 		<useQualityIncreasing>false</useQualityIncreasing>
-		<singleTimeIfNotQualityIncreasing>0.5</singleTimeIfNotQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>2</singleTimeIfNotQualityIncreasing>
 	</ItemProcessor.CombinationDef>
 	
 	<ItemProcessor.CombinationDef>
