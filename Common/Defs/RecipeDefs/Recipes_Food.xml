@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<RecipeDef>
+	
+	<!-- ========== Meal Recipes ========== -->
+	
+	<!-- Manually grinding flour (without Windmill) -->
+	
+	<RecipeDef ParentName="CookMealBase">
 		<defName>Mousekin_Make_FlourFromWheat</defName>
 		<label>grind flour from wheat</label>
 		<description>Grind flour from wheat grains in a mortar and pestle. The process is slow, labour-intensive and inefficient due to the small quantities involved.</description>
 		<jobString>Grinding flour from wheat</jobString>
+		<workAmount>4000</workAmount>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workAmount>4000</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<recipeUsers>
@@ -33,17 +37,18 @@
 		<products>
 			<Mousekin_Flour>1</Mousekin_Flour>
 		</products>
-		<workSkill>Cooking</workSkill>
 	</RecipeDef>
 	
-	<RecipeDef>
+	<!-- Mousekin trail mix -->
+	
+	<RecipeDef Name="Mousekin_RecipeTrailMixBase" ParentName="CookMealBase">
 		<defName>Mousekin_Make_TrailMix</defName>
 		<label>make Mousekin trail mix</label>
 		<description>Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it.</description>
 		<jobString>Preparing Mousekin trail mix</jobString>
+		<workAmount>800</workAmount>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workAmount>800</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<allowMixingIngredients>true</allowMixingIngredients>
@@ -104,29 +109,15 @@
 		<products>
 			<Mousekin_MealTrailMix>25</Mousekin_MealTrailMix>
 		</products>
-		<workSkill>Cooking</workSkill>
 	</RecipeDef>
 
-	<RecipeDef>
+	<RecipeDef ParentName="Mousekin_RecipeTrailMixBase">
 		<defName>Mousekin_Make_TrailMixBulk</defName>
 		<label>make Mousekin trail mix x3</label>
 		<description>Make bulk trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it.</description>
 		<jobString>Preparing bulk Mousekin trail mix</jobString>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workAmount>2400</workAmount>
-		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-		<allowMixingIngredients>true</allowMixingIngredients>
-		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-		<recipeUsers>
-			<li>Campfire</li>
-			<li>ElectricStove</li>
-			<li>FueledStove</li>
-			<li>Mousekin_Fireplace</li>
-			<li>Mousekin_CastIronStove</li>
-		</recipeUsers>
-		<ingredients>
+		<ingredients Inherit="false">
 			<li>
 				<filter>
 					<thingDefs>
@@ -164,18 +155,368 @@
 				<count>4.32</count>
 			</li>
 		</ingredients>
-		<fixedIngredientFilter>
+		<products>
+			<Mousekin_MealTrailMix>75</Mousekin_MealTrailMix>
+		</products>
+	</RecipeDef>
+
+	<!-- Country bread -->
+
+	<RecipeDef Name="Mousekin_RecipeCountryBreadBase" ParentName="CookMealBase">
+		<defName>Mousekin_Make_CountryBread</defName>
+		<label>bake country bread</label>
+		<description>Bake a loaf of country bread from flour.</description>
+		<jobString>Baking country bread</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Mousekin_Fireplace</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Flour</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_FoodCountryBread>1</Mousekin_FoodCountryBread>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Mousekin_RecipeCountryBreadBase">
+		<defName>Mousekin_Make_CountryBreadBulk</defName>
+		<label>bake country bread x4</label>
+		<description>Bake 4 loaves of country bread from flour.</description>
+		<jobString>Baking 4 loaves of country bread</jobString>
+		<workAmount>1200</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<recipeUsers Inherit="false">
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<ingredients Inherit="false">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Flour</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_FoodCountryBread>4</Mousekin_FoodCountryBread>
+		</products>
+	</RecipeDef>
+
+	<!-- Barley porridge -->
+
+	<RecipeDef Name="Mousekin_RecipeBarleyPorridgeBase" ParentName="CookMealBase">
+		<defName>Mousekin_Make_BarleyPorridge</defName>
+		<label>cook barley porridge</label>
+		<description>Cook a bowl of barley porridge.</description>
+		<jobString>Cooking barley porridge</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Mousekin_Fireplace</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_RawBarley</li>
+					</thingDefs>
+				</filter>
+				<count>0.35</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_MealBarleyPorridge>1</Mousekin_MealBarleyPorridge>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Mousekin_RecipeBarleyPorridgeBase">
+		<defName>Mousekin_Make_BarleyPorridgeBulk</defName>
+		<label>cook barley porridge x4</label>
+		<description>Cook 4 bowls of barley porridge.</description>
+		<jobString>Cooking 4 bowls of barley porridge</jobString>
+		<workAmount>1200</workAmount>
+		<recipeUsers Inherit="false">
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<ingredients Inherit="false">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_RawBarley</li>
+					</thingDefs>
+				</filter>
+				<count>1.4</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_MealBarleyPorridge>4</Mousekin_MealBarleyPorridge>
+		</products>
+	</RecipeDef>
+
+	<!-- Eggs on toast -->
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Mousekin_Make_EggsOnToast</defName>
+		<label>cook eggs on toast x4</label>
+		<description>Cook 4 servings of eggs on toast</description>
+		<jobString>Cooking 4 servings of eggs on toast</jobString>
+		<workAmount>1200</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<!-- Assume one serving is two slices, and one loaf of country bread yields eight slices  -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_FoodCountryBread</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter Inherit="false">
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter Inherit="false">
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+		</defaultIngredientFilter>
+		<products>
+			<Mousekin_MealEggsOnToast>4</Mousekin_MealEggsOnToast>
+		</products>
+	</RecipeDef>
+	
+	<!-- Ploughman's lunch -->
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Mousekin_Make_PloughmansLunch</defName>
+		<label>make ploughman's lunch x4</label>
+		<description>Make 4 servings of ploughman's lunch.</description>
+		<jobString>Making 4 servings of ploughman's lunch</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<!-- Assume one serving includes two slices of bread, and one loaf of country bread yields eight slices  -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_FoodCountryBread</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_FoodCheese</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>nuts</customSummary>
+					<thingDefs>
+						<li>Mousekin_RawNutChonko</li>
+						<li>Mousekin_RawNutNyam</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter Inherit="false">
 			<thingDefs>
-				<li>RawBerries</li>
-				<li>RawCorn</li>
 				<li>Mousekin_RawNutChonko</li>
 				<li>Mousekin_RawNutNyam</li>
 			</thingDefs>
 		</fixedIngredientFilter>
+		<defaultIngredientFilter Inherit="false">
+			<thingDefs>
+				<li>Mousekin_RawNutChonko</li>
+				<li>Mousekin_RawNutNyam</li>
+			</thingDefs>
+		</defaultIngredientFilter>
 		<products>
-			<Mousekin_MealTrailMix>75</Mousekin_MealTrailMix>
+			<Mousekin_MealPloughmansLunch>4</Mousekin_MealPloughmansLunch>
 		</products>
-		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<!-- Bread bowl -->
+	
+	<RecipeDef Name="Mousekin_RecipeBreadBowlBase" ParentName="CookMealBase">
+		<defName>Mousekin_Make_BreadBowl</defName>
+		<label>make bread bowl</label>
+		<description>Hollow out a loaf of country bread and fill it with a creamy meat and vegetable potage.</description>
+		<jobString>Making bread bowl</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_FoodCountryBread</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_FoodCheese</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>MeatRaw</li>
+						<li>EggsUnfertilized</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories Inherit="false">
+				<li>MeatRaw</li>
+				<li>PlantFoodRaw</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<disallowedThingDefs>
+				<li>Meat_Mousekin</li>
+				<li>Meat_Mousekin_AnimalGiantCavy</li>
+				<li>Meat_Mousekin_AnimalPudgemouse</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<Mousekin_MealBreadBowl>1</Mousekin_MealBreadBowl>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Mousekin_RecipeBreadBowlBase">
+		<defName>Mousekin_Make_BreadBowlBulk</defName>
+		<label>make bread bowl x4</label>
+		<description>Hollow out 4 loaves of country bread and fill them with a creamy meat and vegetable potage.</description>
+		<jobString>Making 4 bread bowls</jobString>
+		<workAmount>1800</workAmount>
+		<ingredients Inherit="false">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_FoodCountryBread</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_FoodCheese</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>MeatRaw</li>
+						<li>EggsUnfertilized</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_MealBreadBowl>4</Mousekin_MealBreadBowl>
+		</products>
 	</RecipeDef>
 
 </Defs>

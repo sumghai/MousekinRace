@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<!-- Mousekin trail mix  -->
+	
+	<!-- ========== Survival meal ========== -->
+	
+	<!-- Mousekin trail mix -->
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>Mousekin_MealTrailMix</defName>
 		<label>Mousekin trail mix</label>
@@ -40,5 +42,128 @@
 			<li Class="CompProperties_FoodPoisonable"/>
 		</comps>
 	</ThingDef>
+	
+	<!-- ========== Meal precursors / processed ingredients ========== -->
+	
+	<!-- Country bread -->
+	<ThingDef ParentName="MealCooked">
+		<defName>Mousekin_FoodCountryBread</defName>
+		<label>country bread</label>
+		<description>A round loaf of bread with a thick, crunchy crust and fluffy crumb, often eaten to stave off hunger or used as an ingredient in other dishes.</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_FoodCountryBread</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<Mass>0.3</Mass>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
 
+	<!-- ========== Simple meals ========== -->
+
+	<!-- Barley porridge -->
+	<ThingDef ParentName="MealCookedIngredientless">
+		<defName>Mousekin_MealBarleyPorridge</defName>
+		<label>barley porridge</label>
+		<description>A simple and nutritious bowl of barley grains cooked in milk, often eaten as a simple meal by farmhands and laborers, or served by Mousekin nuns to recuperating patients.</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealBarleyPorridge</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<Mass>0.12</Mass>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.33</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- Eggs on toast -->
+	<ThingDef ParentName="MealCooked">
+		<defName>Mousekin_MealEggsOnToast</defName>
+		<label>eggs on toast</label>
+		<description>Thick slices of country bread topped with eggs fried sunny-side up. The perfect breakfast to start the day!</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealEggsOnToast</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.18</Mass>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				<splitTransferableFoodKind>true</splitTransferableFoodKind>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Ploughman's lunch -->
+	<ThingDef ParentName="MealCooked">
+		<defName>Mousekin_MealPloughmansLunch</defName>
+		<label>ploughman's lunch</label>
+		<description>Slices of country bread accompanied by cheese, pickled vegetables and a handful of roasted nuts, often eaten as a simple meal by farm laborers.</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealPloughmansLunch</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>16</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- ========== Fine meals ========== -->
+	
+	<!-- Bread bowl -->
+	<ThingDef ParentName="MealFineBase">
+		<defName>Mousekin_MealBreadBowl</defName>
+		<label>bread bowl</label>
+		<description>A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal.</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealBreadBowl</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				<splitTransferableFoodKind>true</splitTransferableFoodKind>
+			</li>
+		</comps>
+	</ThingDef>
+	
 </Defs>
