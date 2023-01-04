@@ -17,7 +17,7 @@
 		<selectable>true</selectable>
 		<pathCost>40</pathCost>
 		<plant>
-			<dieIfLeafless>false</dieIfLeafless>
+			<dieIfLeafless>true</dieIfLeafless>
 			<maxMeshCount>4</maxMeshCount>
 			<growDays>15</growDays>
 			<visualSizeRange>0.3~0.8</visualSizeRange>
@@ -54,7 +54,7 @@
 		<selectable>true</selectable>
 		<pathCost>40</pathCost>
 		<plant>
-			<dieIfLeafless>false</dieIfLeafless>
+			<dieIfLeafless>true</dieIfLeafless>
 			<maxMeshCount>4</maxMeshCount>
 			<growDays>15</growDays>
 			<visualSizeRange>0.3~0.8</visualSizeRange>
