@@ -63,8 +63,7 @@
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinChurch</ideoNameMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinChurch</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
-		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
-		<iconColor>(255, 215, 0)</iconColor>
+		<iconPath>World/WorldObjects/Expanding/MousekinKingdom</iconPath>
 	</CultureDef>
 
 	<CultureDef ParentName="Mousekin_CultureBase">
@@ -74,8 +73,7 @@
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinRepublic</ideoNameMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinRepublic</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
-		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
-		<iconColor>(0, 128, 0)</iconColor>
+		<iconPath>World/WorldObjects/Expanding/MousekinIndyTown</iconPath>
 	</CultureDef>
 
 	<CultureDef ParentName="Mousekin_CultureBase">
@@ -85,8 +83,7 @@
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinNomad</ideoNameMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinNomad</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
-		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
-		<iconColor>(89, 77, 153)</iconColor>
+		<iconPath>World/WorldObjects/Expanding/MousekinNomads</iconPath>
 	</CultureDef>
 
 	<CultureDef ParentName="Mousekin_CultureBase">
@@ -96,8 +93,7 @@
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinBrigands</ideoNameMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinBrigands</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
-		<iconPath>World/WorldObjects/Expanding/MousekinPlayer</iconPath>
-		<iconColor>(115, 13, 13)</iconColor>
+		<iconPath>World/WorldObjects/Expanding/MousekinBrigands</iconPath>
 	</CultureDef>
 
 </Defs>
