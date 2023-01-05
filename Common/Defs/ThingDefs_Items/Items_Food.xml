@@ -49,7 +49,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>Mousekin_FoodCountryBread</defName>
 		<label>country bread</label>
-		<description>A round loaf of bread with a thick, crunchy crust and fluffy crumb, often eaten to stave off hunger or used as an ingredient in other dishes.</description>
+		<description>A round loaf of bread with a thick, crunchy crust and fluffy crumb, often eaten to stave off hunger or used as an ingredient in other dishes. Reduces hunger rate by 10% for 12 hours.</description>
 		<graphicData>
 			<texPath>Things/Items/Meal/Mousekin_FoodCountryBread</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -79,7 +79,7 @@
 	<ThingDef ParentName="MealCookedIngredientless">
 		<defName>Mousekin_MealBarleyPorridge</defName>
 		<label>barley porridge</label>
-		<description>A simple and nutritious bowl of barley grains cooked in milk, often eaten as a simple meal by farmhands and laborers, or served by Mousekin nuns to recuperating patients.</description>
+		<description>A simple and nutritious bowl of barley grains cooked in milk, often eaten as a simple meal by farmhands and laborers, fed to baby Mousekin pups, or served by Mousekin nuns to recuperating patients.</description>
 		<graphicData>
 			<texPath>Things/Items/Meal/Mousekin_MealBarleyPorridge</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -131,7 +131,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>Mousekin_MealPloughmansLunch</defName>
 		<label>ploughman's lunch</label>
-		<description>Slices of country bread accompanied by cheese, pickled vegetables and a handful of roasted nuts, often eaten as a simple meal by farm laborers.</description>
+		<description>Slices of country bread accompanied by cheese, pickled vegetables and a handful of roasted nuts, often eaten as a simple meal by farm laborers. Reduces hunger rate by 20% for 12 hours.</description>
 		<graphicData>
 			<texPath>Things/Items/Meal/Mousekin_MealPloughmansLunch</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -160,7 +160,7 @@
 	<ThingDef ParentName="MealFineBase">
 		<defName>Mousekin_MealBreadBowl</defName>
 		<label>bread bowl</label>
-		<description>A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal.</description>
+		<description>A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours.</description>
 		<graphicData>
 			<texPath>Things/Items/Meal/Mousekin_MealBreadBowl</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
