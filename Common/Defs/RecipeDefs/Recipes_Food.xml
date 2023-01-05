@@ -250,6 +250,14 @@
 				</filter>
 				<count>0.35</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>0.2</count>
+			</li>
 		</ingredients>
 		<products>
 			<Mousekin_MealBarleyPorridge>1</Mousekin_MealBarleyPorridge>
@@ -275,6 +283,14 @@
 					</thingDefs>
 				</filter>
 				<count>1.4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>0.8</count>
 			</li>
 		</ingredients>
 		<products>
