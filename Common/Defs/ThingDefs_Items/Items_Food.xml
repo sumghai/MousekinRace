@@ -65,6 +65,11 @@
 			<preferability>MealSimple</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_SatiatedHunger10</hediffDef>
+				</li>
+			</outcomeDoers>
 		</ingestible>
 	</ThingDef>
 
@@ -140,6 +145,11 @@
 			<preferability>MealSimple</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_SatiatedHunger20</hediffDef>
+				</li>
+			</outcomeDoers>
 		</ingestible>
 	</ThingDef>
 	
@@ -159,6 +169,13 @@
 			<MarketValue>25</MarketValue>
 			<Nutrition>0.8</Nutrition>
 		</statBases>
+		<ingestible>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_SatiatedHunger35</hediffDef>
+				</li>
+			</outcomeDoers>
+		</ingestible>
 		<comps>
 			<li Class="CompProperties_Ingredients">
 				<splitTransferableFoodKind>true</splitTransferableFoodKind>

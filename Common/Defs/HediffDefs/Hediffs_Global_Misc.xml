@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- Hemlock poisoning from earless suicide mental break -->
+
 	<HediffDef>
 		<defName>Mousekin_HemlockPoisoning</defName>
 		<label>hemlock poisoning</label>
@@ -50,6 +52,8 @@
 			</li>
 		</stages>
 	</HediffDef>
+
+	<!-- Muroidine effects from consuming Chonko nut brew -->
 
 	<HediffDef>
 		<defName>Mousekin_MuroidineHigh</defName>
@@ -135,6 +139,8 @@
 		</stages>
 	</HediffDef>
 
+	<!-- Dopamine high from consuming Mousekin mead -->
+
 	<HediffDef>
 		<defName>Mousekin_MeadHigh</defName>
 		<label>Mousekin mead high</label>
@@ -181,6 +187,56 @@
 				<minSeverity>0.9</minSeverity>
 				<label>blackout</label>
 				<!-- MentalBreakThreshold not applied -->
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<!-- Satiated hunger from eating various meals (12 hours) -->
+	
+	<HediffDef Name="Mousekin_SatiatedHungerBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0,176,240)</defaultLabelColor>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef ParentName="Mousekin_SatiatedHungerBase">
+		<defName>Mousekin_SatiatedHunger10</defName>
+		<label>Satiated hunger (from country bread)</label>
+		<description>Consuming country bread lowers hunger rate by 10% for 12 hours.</description>
+		<stages>
+			<li>   
+				 <hungerRateFactorOffset>-0.10</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="Mousekin_SatiatedHungerBase">
+		<defName>Mousekin_SatiatedHunger20</defName>
+		<label>Satiated hunger (from ploughman's lunch)</label>
+		<description>Consuming a serving of ploughman's lunch lowers hunger rate by 20% for 12 hours.</description>
+		<stages>
+			<li>   
+				 <hungerRateFactorOffset>-0.20</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="Mousekin_SatiatedHungerBase">
+		<defName>Mousekin_SatiatedHunger35</defName>
+		<label>Satiated hunger (from bread bowl)</label>
+		<description>Consuming a bread bowl lowers hunger rate by 35% for 12 hours.</description>
+		<stages>
+			<li>   
+				 <hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>
