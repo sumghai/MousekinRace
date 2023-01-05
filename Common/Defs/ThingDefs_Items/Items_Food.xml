@@ -95,6 +95,7 @@
 			<preferability>MealSimple</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
+			<babiesCanIngest>true</babiesCanIngest>
 		</ingestible>
 	</ThingDef>
 	
