@@ -310,7 +310,7 @@
 		<defName>Mousekin_ChildHood_CookApprentice</defName>
 		<title>Apprentice cook</title>
 		<titleShort>Apprentice cook</titleShort>
-		<baseDesc>After [PAWN_possessive] talent in the kitchen was discovered at an young age, [PAWN_nameDef]'s parents arranged for [PAWN_objective] to be taken in as an apprentice to a Mousekin cook who worked at the village inn.\n\n[PAWN_pronoun] spent his days washing dirty dishes, cleaning benchtops and taking out the garbage, while [PAWN_possessive] master toiled in front of the stove and dealt with customers.\n\nIn time, [PAWN_nameDef] learned to prepare basic ingredients and soup bases, as well as how to choose and utilize the best herbs and nuts in a variety of dishes.</baseDesc>
+		<baseDesc>After [PAWN_possessive] talent in the kitchen was discovered at an young age, [PAWN_nameDef]'s parents arranged for [PAWN_objective] to be taken in as an apprentice to a Mousekin cook who worked at the village inn.\n\n[PAWN_pronoun] spent [PAWN_possessive] days washing dirty dishes, cleaning benchtops and taking out the garbage, while [PAWN_possessive] master toiled in front of the stove and dealt with customers.\n\nIn time, [PAWN_nameDef] learned to prepare basic ingredients and soup bases, as well as how to choose and utilize the best herbs and nuts in a variety of dishes.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -401,7 +401,7 @@
 		<defName>Mousekin_Childhood_GuardenerApprenticeBlessed</defName>
 		<title>Blessed Apprentice Guardener</title>
 		<titleShort>Apprentice Guardener</titleShort>
-		<baseDesc>Shortly after [PAWN_nameDef] was born, [PAWN_possessive] mother, in accordance with local custom, had [PAWN_objective] blessed by a Guardener, a member of an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom.\n\nAfter [PAWN_possessive] tenth birthday, [PAWN_pronoun] voluntarily devoted herself to the grueling path of becoming a Guardener, and was accepted as an Apprentice at [PAWN_possessive] hometown's Guardener Lodge.</baseDesc>
+		<baseDesc>Shortly after [PAWN_nameDef] was born, [PAWN_possessive] mother, in accordance with local custom, had [PAWN_objective] blessed by a Guardener, a member of an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom.\n\nAfter [PAWN_possessive] tenth birthday, [PAWN_pronoun] voluntarily devoted [PAWN_objective]self to the grueling path of becoming a Guardener, and was accepted as an Apprentice at [PAWN_possessive] hometown's Guardener Lodge.</baseDesc>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -615,7 +615,7 @@
 		<defName>Mousekin_Childhood_Hallboy</defName>
 		<title>Hallboy</title>
 		<titleShort>Hallboy</titleShort>
-		<baseDesc>When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents sent [PAWN_objective] to work as a servant in the household of a wealthy Mousekin landowner.\n\n[PAWN_pronoun] duties included polishing the shoes of both [PAWN_possessive] master's family and all the older servants, waiting the tables for the master's children, and emptying the chamber pots. In the evenings, [PAWN_possessive] master's butler would give him lessons in social etiquette, in preparation for becoming a footman, valet or butler.</baseDesc>
+		<baseDesc>When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents sent [PAWN_objective] to work as a servant in the household of a wealthy Mousekin landowner.\n\n[PAWN_pronoun] duties included polishing the shoes of both [PAWN_possessive] master's family and all the older servants, waiting the tables for the master's mouselings, and emptying the chamber pots. In the evenings, [PAWN_possessive] master's butler would give him lessons in social etiquette, in preparation for becoming a footman, valet or butler.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
@@ -999,7 +999,7 @@
 		<titleFemale>Noble heiress</titleFemale>
 		<titleShort>Heir</titleShort>
 		<titleShortFemale>Heiress</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] was the oldest of many children in a Mousekin noble family, and had every need and whim attended to by [PAWN_possessive] personal retinue of servants.\n\nIn preparation for [PAWN_possessive] role as [PAWN_possessive] father's successor, [PAWN_pronoun] was extensively educated in high society etiquette, history, literature and the arts.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was the oldest of many mouselings in a Mousekin noble family, and had every need and whim attended to by [PAWN_possessive] personal retinue of servants.\n\nIn preparation for [PAWN_possessive] role as [PAWN_possessive] father's successor, [PAWN_pronoun] was extensively educated in high society etiquette, history, literature and the arts.</baseDesc>
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<slot>Childhood</slot>
@@ -1055,7 +1055,7 @@
 		<defName>Mousekin_Childhood_NobleNonHeir</defName>
 		<title>Noble child</title>
 		<titleShort>Noble child</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of many children born to a Mousekin noble family, and had every need and whim attended to by [PAWN_possessive] personal retinue of servants.\n\nAs [PAWN_possessive] parents were focused on grooming [PAWN_possessive] older sibling as their successor, [PAWN_pronoun] received only material gifts instead of parental affection, which caused [PAWN_objective] to often misbehave in order to seek attention.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was one of many mouselings born to a Mousekin noble family, and had every need and whim attended to by [PAWN_possessive] personal retinue of servants.\n\nAs [PAWN_possessive] parents were focused on grooming [PAWN_possessive] older sibling as their successor, [PAWN_pronoun] received only material gifts instead of parental affection, which caused [PAWN_objective] to often misbehave in order to seek attention.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -1111,7 +1111,7 @@
 		<defName>Mousekin_Childhood_Orphan</defName>
 		<title>Orphan</title>
 		<titleShort>Orphan</titleShort>
-		<baseDesc>After [PAWN_possessive] parents both died in a tragic workplace accident, [PAWN_nameDef] was raised in an orphanage as a Mousekin pup.\n\nDue to a misunderstanding and despite the best efforts of the orphanage workers, [PAWN_pronoun] was constantly bullied by the other children, and so [PAWN_pronoun] grew to prefer the company of books, plants and the orphanage's pet Pudgemouse to other Mousekins.</baseDesc>
+		<baseDesc>After [PAWN_possessive] parents both died in a tragic workplace accident, [PAWN_nameDef] was raised in an orphanage as a Mousekin pup.\n\nDue to a misunderstanding and despite the best efforts of the orphanage workers, [PAWN_pronoun] was constantly bullied by the other mouselings, and so [PAWN_pronoun] grew to prefer the company of books, plants and the orphanage's pet Pudgemouse to other Mousekins.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -1262,7 +1262,7 @@
 		<defName>Mousekin_Childhood_ServantChild</defName>
 		<title>Servant child</title>
 		<titleShort>Servant child</titleShort>
-		<baseDesc>Born to two servants working for a wealthy Mousekin landowner, [PAWN_nameDef] did [PAWN_possessive] best to help out around the estate and stay out of the way of the other servants and [PAWN_possessive] parents' master's family.\n\nHowever, the landowner treated [PAWN_objective] and the children of other servants well, encouraging his own children to play with them and arranging for the family governess to also tutor the servant children.\n\n[PAWN_nameDef] vowed to one day repay [PAWN_possessive] master's kindness.</baseDesc>
+		<baseDesc>Born to two servants working for a wealthy Mousekin landowner, [PAWN_nameDef] did [PAWN_possessive] best to help out around the estate and stay out of the way of the other servants and [PAWN_possessive] parents' master's family.\n\nHowever, the landowner treated [PAWN_objective] and the mouselings of other servants well, encouraging his own mouselings to play with them and arranging for the family governess to also tutor the servant mouselings.\n\n[PAWN_nameDef] vowed to one day repay [PAWN_possessive] master's kindness.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -3884,7 +3884,7 @@
 		<defName>Mousekin_Adulthood_IndyTownFarmer</defName>
 		<title>Town Farmer</title>
 		<titleShort>Farmer</titleShort>
-		<baseDesc>When a neighboring Mousekin town declared independence from the Mousekin Kingdom, most farmers in [PAWN_nameDef]'s home village fled in fear of becoming collateral damage from the Kingdom's inevitable retribution.\n\n[PAWN_nameDef], on the other hand, relished in the thought of finally growing whatever crops [PAWN_pronoun] wanted without being taxed heavily by a feudal lord, and joined the independent Mousekins instead.\n\n[PAWN_pronoun] faith in the burgeoning democracy was soon rewarded when, true to their word, the town councilors insisted on only accepting a pittance from [PAWN_possessive] annual harvest, allowing [PAWN_objective] to earn enough money to send [PAWN_possessive] children to school.</baseDesc>
+		<baseDesc>When a neighboring Mousekin town declared independence from the Mousekin Kingdom, most farmers in [PAWN_nameDef]'s home village fled in fear of becoming collateral damage from the Kingdom's inevitable retribution.\n\n[PAWN_nameDef], on the other hand, relished in the thought of finally growing whatever crops [PAWN_pronoun] wanted without being taxed heavily by a feudal lord, and joined the independent Mousekins instead.\n\n[PAWN_pronoun] faith in the burgeoning democracy was soon rewarded when, true to their word, the town councilors insisted on only accepting a pittance from [PAWN_possessive] annual harvest, allowing [PAWN_objective] to earn enough money to send [PAWN_possessive] mouselings to school.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -4619,7 +4619,7 @@
 		<defName>Mousekin_Adulthood_ManorLord</defName>
 		<title>Manor lord</title>
 		<titleShort>Lord</titleShort>
-		<baseDesc>[PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] his wife and many children, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] his wife and many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -4799,7 +4799,7 @@
 		<defName>Mousekin_Adulthood_Noblewoman</defName>
 		<title>Noblewoman</title>
 		<titleShort>Lady</titleShort>
-		<baseDesc>[PAWN_nameDef] was the wife of a Mousekin nobleman, and lived in a luxurious mansion with [PAWN_possessive] husband and their many children, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] spent [PAWN_possessive] days hosting tea parties for other Mousekin noblewomen, dabbled in embroidery and musical performances.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was the wife of a Mousekin nobleman, and lived in a luxurious mansion with [PAWN_possessive] husband and their many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] spent [PAWN_possessive] days hosting tea parties for other Mousekin noblewomen, dabbled in embroidery and musical performances.</baseDesc>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5018,7 +5018,7 @@
 		<defName>Mousekin_Adulthood_NomadWagonWife</defName>
 		<title>Wagonwife</title>
 		<titleShort>Wagonwife</titleShort>
-		<baseDesc>While [PAWN_possessive] husband plied his trade whenever their Rodemani clan stopped at a Mousekin town, [PAWN_nameDef] tended the wagon stove and cared for their many children.\n\n[PAWN_pronoun] also made some extra money by selling ribbons and mending clothes.</baseDesc>
+		<baseDesc>While [PAWN_possessive] husband plied his trade whenever their Rodemani clan stopped at a Mousekin town, [PAWN_nameDef] tended the wagon stove and cared for their many mouselings.\n\n[PAWN_pronoun] also made some extra money by selling ribbons and mending clothes.</baseDesc>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
