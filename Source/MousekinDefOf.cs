@@ -34,8 +34,6 @@ namespace MousekinRace
         public static HediffDef Mousekin_ProstheticClothEar;
         public static HediffDef Mousekin_HemlockPoisoning;
 
-        public static MemeDef Mousekin_IdeoMeme_AncestorWorship;
-
         public static MentalStateDef Mousekin_MentalState_EarlessSuicide;
 
         public static DamageDef Mousekin_GunpowderExplosion;
@@ -47,6 +45,9 @@ namespace MousekinRace
         public static JobDef Mousekin_Job_HarvestFromBeehive;
 
         public static FactionDef Mousekin_FactionKingdom;
+
+        [MayRequireIdeology]
+        public static MemeDef Mousekin_IdeoMeme_AncestorWorship;
 
         [MayRequireIdeology]
         public static MemeDef Mousekin_IdeoMeme_RodentPurity;
