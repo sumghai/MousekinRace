@@ -11,6 +11,14 @@
 		<exclusionTags>
 			<li>GroupRelation</li>
 		</exclusionTags>
+		<requireOne>
+			<li>
+				<li>HAR_AlienRaces_Standard</li>
+			</li>
+			<li>
+				<li>HAR_AlienSlavery_Abhorrent</li>
+			</li>
+		</requireOne>
 	</MemeDef>
 	
 	<MemeDef>
@@ -23,6 +31,17 @@
 		<exclusionTags>
 			<li>GroupRelation</li>
 		</exclusionTags>
+		<requireOne>
+			<li>
+				<li>HAR_AlienDating_Prohibited</li>
+			</li>
+			<li>
+				<li>HAR_AlienRaces_Horrible</li>
+			</li>
+			<li>
+				<li>HAR_AlienSlavery_Acceptable</li>
+			</li>
+		</requireOne>
 	</MemeDef>
 
 </Defs>

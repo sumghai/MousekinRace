@@ -19,6 +19,9 @@
 				<li>Cannibalism_Abhorrent</li>
 			</li>
 			<li>
+				<li>HAR_EatingAliens_Disapproved</li>
+			</li>
+			<li>
 				<li>DrugUse_MedicalOrSocial</li>
 			</li>
 			<li>
@@ -52,6 +55,9 @@
 		<requireOne>
 			<li>
 				<li>AutonomousWeapons_Prohibited</li>
+			</li>
+			<li>
+				<li>HAR_AlienRaces_Standard</li>
 			</li>
 			<li>
 				<li>IdeoDiversity_Standard</li>
@@ -105,6 +111,15 @@
 			</li>
 			<li>
 				<li>Corpses_DontCare</li>
+			</li>
+			<li>
+				<li>HAR_AlienDating_Prohibited</li>
+			</li>
+			<li>
+				<li>HAR_AlienRaces_Abhorrent</li>
+			</li>
+			<li>
+				<li>HAR_AlienSlavery_Acceptable</li>
 			</li>
 			<li>
 				<li>Lovin_FreeApproved</li>
