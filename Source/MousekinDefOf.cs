@@ -34,6 +34,8 @@ namespace MousekinRace
         public static HediffDef Mousekin_ProstheticClothEar;
         public static HediffDef Mousekin_HemlockPoisoning;
 
+        public static MemeDef Mousekin_IdeoMeme_AncestorWorship;
+
         public static MentalStateDef Mousekin_MentalState_EarlessSuicide;
 
         public static DamageDef Mousekin_GunpowderExplosion;
