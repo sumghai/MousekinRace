@@ -10,7 +10,7 @@ namespace MousekinRace
     {
         public static void Postfix(IdeoFoundation_Deity __instance, Deity deity)
         {
-            if (ModsConfig.IdeologyActive && __instance.ideo != null)
+            if (__instance.ideo != null)
             {
                 if (__instance.ideo.HasMeme(MousekinDefOf.Mousekin_IdeoMeme_AncestorWorship))
                 {
