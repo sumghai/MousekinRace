@@ -22,4 +22,16 @@ namespace MousekinRace
             }
         }
     }
+
+    [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.RandomizeCulture))]
+    public static class Harmony_IdeoFoundation_RandomizeCulture_HideMousekinCulturesFromCulturelessFactions
+    {
+        public static void Postfix(ref IdeoFoundation __instance, IdeoGenerationParms parms)
+        {
+            if (parms.forFaction.allowedCultures == null && __instance.ideo.culture.defName.Contains("Mousekin"))
+            {
+                __instance.ideo.culture = DefDatabase<CultureDef>.AllDefsListForReading.Where(x => !x.defName.Contains("Mousekin")).RandomElement();
+            }
+        }
+    }
 }
