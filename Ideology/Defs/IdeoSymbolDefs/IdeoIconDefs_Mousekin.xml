@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IdeoIconDef>
+		<defName>Mousekin_IdeoIconKingdom</defName>
+		<iconPath>UI/Ideoligions/FlowerCross</iconPath>
+		<cultures>
+			<li>Mousekin_CultureKingdom</li>
+		</cultures>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Mousekin_IdeoIconIndyTown</defName>
+		<iconPath>UI/Ideoligions/StarWreath</iconPath>
+		<cultures>
+			<li>Mousekin_CultureIndyTown</li>
+		</cultures>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Mousekin_IdeoIconNomad</defName>
+		<iconPath>UI/Ideoligions/WagonWheel</iconPath>
+		<cultures>
+			<li>Mousekin_CultureNomad</li>
+		</cultures>
+	</IdeoIconDef>
+	
+	<IdeoIconDef>
+		<defName>Mousekin_IdeoIconBrigand</defName>
+		<iconPath>UI/Ideoligions/RodentPaw</iconPath>
+		<cultures>
+			<li>Mousekin_CultureBrigand</li>
+		</cultures>
+	</IdeoIconDef>
+	
+</Defs>

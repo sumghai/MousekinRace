@@ -54,6 +54,9 @@
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
+		<modExtensions>
+			<li Class="MousekinRace.IdeoSymbolIgnoreRandomExtension" />
+		</modExtensions>
 	</CultureDef>
 
 	<CultureDef ParentName="Mousekin_CultureBase">
