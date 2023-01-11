@@ -39,6 +39,11 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
 		</disallowedMemes>
+		<disallowedPrecepts>
+			<!-- Mousekins regard mushrooms and fungi as just another food source -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Preferred</li>
+		</disallowedPrecepts>
 		<techLevel>Medieval</techLevel>
 		<startingResearchTags>
 			<li>MousekinStartingResearch</li>
