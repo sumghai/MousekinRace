@@ -25,6 +25,12 @@
 				<li>DrugUse_MedicalOrSocial</li>
 			</li>
 			<li>
+				<li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
+				<li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+			</li>
+			<li>
 				<li>Scarification_Horrible</li>
 			</li>
 		</requireOne>
@@ -73,12 +79,6 @@
 			</li>
 			<li>
 				<li>MarriageName_AlwaysMans</li>
-			</li>
-			<li>
-				<li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
-			</li>
-			<li>
-				<li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
 			</li>
 			<li>
 				<li>OrganUse_Acceptable</li>
