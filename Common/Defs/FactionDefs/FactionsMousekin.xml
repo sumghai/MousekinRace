@@ -43,6 +43,8 @@
 			<!-- Mousekins regard mushrooms and fungi as just another food source -->
 			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Preferred</li>
+			<!-- Mousekins don't really do relics - at least, not the RimWorld version of relics -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRelic</li>
 		</disallowedPrecepts>
 		<techLevel>Medieval</techLevel>
 		<startingResearchTags>
