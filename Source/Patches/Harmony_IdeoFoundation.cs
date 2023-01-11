@@ -1,6 +1,5 @@
 ﻿using HarmonyLib;
 using RimWorld;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
@@ -31,6 +30,18 @@ namespace MousekinRace
             if (parms.forFaction.allowedCultures == null && __instance.ideo.culture.defName.Contains("Mousekin"))
             {
                 __instance.ideo.culture = DefDatabase<CultureDef>.AllDefsListForReading.Where(x => !x.defName.Contains("Mousekin")).RandomElement();
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.RandomizePrecepts))]
+    public static class Harmony_IdeoFoundation_RandomizePrecepts_NoVeneratedAnimalsAndNobleDespisedWeaponsForMousekin
+    {
+        public static void Postfix(ref IdeoFoundation __instance)
+        {
+            if (__instance.ideo.culture.defName.Contains("Mousekin"))
+            {
+                __instance.ideo.precepts.RemoveAll(x => x.def == PreceptDefOf.AnimalVenerated || x.def == PreceptDefOf.NobleDespisedWeapons);
             }
         }
     }

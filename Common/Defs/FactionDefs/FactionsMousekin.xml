@@ -40,11 +40,15 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
 		</disallowedMemes>
 		<disallowedPrecepts>
+			<!-- Mousekins don't really venerate any animal in particular (requires Harmony postfix) -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalVenerated</li>
 			<!-- Mousekins regard mushrooms and fungi as just another food source -->
 			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Preferred</li>
 			<!-- Mousekins don't really do relics - at least, not the RimWorld version of relics -->
 			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRelic</li>
+			<!-- Mousekins don't have noble/despised weapons (requires Harmony postfix) -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
 		</disallowedPrecepts>
 		<techLevel>Medieval</techLevel>
 		<startingResearchTags>
