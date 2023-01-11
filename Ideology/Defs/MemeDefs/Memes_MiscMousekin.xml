@@ -96,6 +96,14 @@
 				<li>SpouseCount_Male_MaxThree</li>
 			</li>
 		</requireOne>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>Mousekin_IdeoDesc_Nomad</def>
+					<weight>9999</weight>
+				</li>
+			</patterns>
+		</descriptionMaker>
 	</MemeDef>
 	
 	<MemeDef>
@@ -162,6 +170,14 @@
 				<li>SpouseCount_Male_Unlimited</li>
 			</li>
 		</requireOne>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>Mousekin_IdeoDesc_Brigand</def>
+					<weight>9999</weight>
+				</li>
+			</patterns>
+		</descriptionMaker>
 	</MemeDef>
 
 </Defs>

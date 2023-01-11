@@ -100,6 +100,14 @@
 				<li>Slavery_Abhorrent</li>
 			</li>
 		</requireOne>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>Mousekin_IdeoDesc_IndyTown</def>
+					<weight>9999</weight>
+				</li>
+			</patterns>
+		</descriptionMaker>
 	</MemeDef>
 
 </Defs>

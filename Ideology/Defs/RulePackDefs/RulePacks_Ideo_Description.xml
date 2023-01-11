@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<IdeoStoryPatternDef Name="Mousekin_IdeoStoryPatternDefBase" Abstract="True">
+		<segments>
+			<li>description</li>
+		</segments>
+	</IdeoStoryPatternDef>
+
+	<IdeoStoryPatternDef ParentName="Mousekin_IdeoStoryPatternDefBase">
+		<defName>Mousekin_IdeoDesc_Kingdom</defName>
+		<rules>
+			<rulesStrings>
+				<li>description->TODO: Fixed description for Word of Valerian goes here... [deity0_name], [deity0_type]</li>
+			</rulesStrings>
+		</rules>
+	</IdeoStoryPatternDef>
+	
+	<IdeoStoryPatternDef ParentName="Mousekin_IdeoStoryPatternDefBase">
+		<defName>Mousekin_IdeoDesc_IndyTown</defName>
+		<rules>
+			<rulesStrings>
+				<li>description->TODO: Fixed description for Agrarian Republicanism goes here...</li>
+			</rulesStrings>
+		</rules>
+	</IdeoStoryPatternDef>
+	
+	<IdeoStoryPatternDef ParentName="Mousekin_IdeoStoryPatternDefBase">
+		<defName>Mousekin_IdeoDesc_Nomad</defName>
+		<rules>
+			<rulesStrings>
+				<li>description->TODO: Fixed description for Way of the Rodemani goes here...</li>
+			</rulesStrings>
+		</rules>
+	</IdeoStoryPatternDef>
+	
+	<IdeoStoryPatternDef ParentName="Mousekin_IdeoStoryPatternDefBase">
+		<defName>Mousekin_IdeoDesc_Brigand</defName>
+		<rules>
+			<rulesStrings>
+				<li>description->"My nuts! Mine, all mine!"\n\n  - Castor Gnawtooth, while picking through his spoils</li>
+			</rulesStrings>
+		</rules>
+	</IdeoStoryPatternDef>
+
+
+</Defs>

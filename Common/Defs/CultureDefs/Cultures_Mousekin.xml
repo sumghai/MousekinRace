@@ -5,7 +5,7 @@
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityMousekin</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerMousekin</deityTypeMaker>
 		<allowedPlaceTags>
-			<li>OriginMousekin</li>
+			<li>OriginTribal</li> <!-- Placeholder, should never be used due to forced ideo description override -->
 		</allowedPlaceTags>
 		<styleItemTags>
 			<!--<li>

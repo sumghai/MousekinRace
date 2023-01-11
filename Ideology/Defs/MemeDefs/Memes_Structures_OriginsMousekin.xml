@@ -27,22 +27,10 @@
 		<descriptionMaker>
 			<patterns>
 				<li>
-					<def>TheistMyth</def>
-				</li>
-				<li>
-					<def>TheistFounder</def>
+					<def>Mousekin_IdeoDesc_Kingdom</def>
+					<weight>9999</weight>
 				</li>
 			</patterns>
-			<constants>
-				<li>
-					<key>structure_theist</key>
-					<value>true</value>
-				</li>
-				<li>
-					<key>structure_originChristian</key>
-					<value>true</value>
-				</li>
-			</constants>
 		</descriptionMaker>
 		<symbolPacks>
 			<li>
