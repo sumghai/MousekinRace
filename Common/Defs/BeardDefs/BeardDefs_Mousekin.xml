@@ -9,7 +9,7 @@
 	<BeardDef ParentName="Mousekin_BeardBase">
 		<defName>Mousekin_Beard_Handlebar</defName>
 		<label>Handlebar</label>
-		<texPath>Things/Pawn/Mousekin/Beards/Mousekin_Beard_Handlebar</texPath>
+		<texPath>Things/Pawn/Humanlike/Beards/Mousekin_Beard_Handlebar</texPath>
 		<styleTags>
 			<li>Mousekin_BeardUrban</li>
 			<li>Mousekin_BeardNoble</li>
@@ -19,7 +19,7 @@
 	<BeardDef ParentName="Mousekin_BeardBase">
 		<defName>Mousekin_Beard_Professor</defName>
 		<label>Professor</label>
-		<texPath>Things/Pawn/Mousekin/Beards/Mousekin_Beard_Professor</texPath>
+		<texPath>Things/Pawn/Humanlike/Beards/Mousekin_Beard_Professor</texPath>
 		<styleTags>
 			<li>Mousekin_BeardRural</li>
 			<li>Mousekin_BeardUrban</li>
@@ -29,7 +29,7 @@
 	<BeardDef ParentName="Mousekin_BeardBase">
 		<defName>Mousekin_Beard_Walrus</defName>
 		<label>Walrus</label>
-		<texPath>Things/Pawn/Mousekin/Beards/Mousekin_Beard_Walrus</texPath>
+		<texPath>Things/Pawn/Humanlike/Beards/Mousekin_Beard_Walrus</texPath>
 		<styleTags>
 			<li>Mousekin_BeardRural</li>
 			<li>Mousekin_BeardUrban</li>

@@ -8,7 +8,7 @@
 		<label>Mousekin Straw Hat</label>
 		<description>A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HatStraw</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatStraw/MousekinHatStraw</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
@@ -34,7 +34,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatStraw</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatStraw/MousekinHatStraw</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -55,7 +55,7 @@
 		<label>Mousekin Headscarf</label>
 		<description>A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HatHeadscarf</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatHeadscarf/MousekinHatHeadscarf</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
@@ -81,7 +81,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatHeadscarf</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatHeadscarf/MousekinHatHeadscarf</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -103,7 +103,7 @@
 		<label>Mousekin Nun’s Veil</label>
 		<description>A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HatNunVeil</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatNunVeil/MousekinHatNunVeil</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only outer veil (10) is stuffable -->
@@ -138,7 +138,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatNunVeil</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatNunVeil/MousekinHatNunVeil</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -171,7 +171,7 @@
 		<label>Mousekin Kettle Hat</label>
 		<description>A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKettle</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKettle/MousekinHelmetKettle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- for gilding only -->
@@ -203,7 +203,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKettle</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKettle/MousekinHelmetKettle</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -227,7 +227,7 @@
 		<label>Mousekin Morion Helmet</label>
 		<description>A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HelmetMorion</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetMorion/MousekinHelmetMorion</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- for gilding only -->
@@ -259,7 +259,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetMorion</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetMorion/MousekinHelmetMorion</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -284,7 +284,7 @@
 		<label>Mousekin Knight's Helmet</label>
 		<description>A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnight</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- for gilding only -->
@@ -316,7 +316,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnight</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -347,7 +347,7 @@
 		<label>Mousekin Woodsman’s Bycocket</label>
 		<description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatWoodsman/MousekinHatWoodsman</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>25</costStuffCount>
@@ -371,7 +371,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatWoodsman</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatWoodsman/MousekinHatWoodsman</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -399,7 +399,7 @@
 		<label>Mousekin Knight Commander’s Helmet</label>
 		<description>A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnightCommander/MousekinHelmetKnightCommander</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- for gilding only -->
@@ -432,7 +432,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnightCommander/MousekinHelmetKnightCommander</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -466,7 +466,7 @@
 		<label>hood</label>
 		<description>Hood for the Mousekin Cloak.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/CloakHood</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -478,7 +478,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/CloakHood</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -494,7 +494,7 @@
 		<label>hood</label>
 		<description>Hood for the Mousekin Guardener's Robe.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/GuardenerRobeHood</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -506,7 +506,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GuardenerRobeHood</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -527,7 +527,7 @@
 		<label>Veil Back</label>
 		<description>Back of the Mousekin Nun’s Veil.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HatNunVeilBack_south</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatNunVeil/MousekinHatNunVeilBack_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tradeability>None</tradeability>
@@ -536,7 +536,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HatNunVeilBack</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatNunVeil/MousekinHatNunVeilBack</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -567,7 +567,7 @@
 		<label>Knight's Helmet with visor up</label>
 		<description>Knight's Helmet with visor up</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnight_VisorUp</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight_VisorUp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -579,7 +579,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnight_VisorUp</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight_VisorUp</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -594,7 +594,7 @@
 		<label>Knight Commander's Helmet with visor up</label>
 		<description>Knight Commander's Helmet with visor up</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander_VisorUp</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnightCommander/MousekinHelmetKnightCommander_VisorUp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -606,7 +606,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/HelmetKnightCommander_VisorUp</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnightCommander/MousekinHelmetKnightCommander_VisorUp</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>

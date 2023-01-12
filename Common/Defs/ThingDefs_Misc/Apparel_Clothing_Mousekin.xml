@@ -8,7 +8,7 @@
 		<label>Mousekin Settler’s Outfit</label>
 		<description>A simple shirt, pair of trousers and a vest, typically worn by Mousekin settlers and homesteaders.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/SettlerOutfit</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinSettlerOutfit/MousekinSettlerOutfit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only vest (20) part of apparel is stuffable -->
@@ -40,7 +40,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/SettlerOutfit</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinSettlerOutfit/MousekinSettlerOutfit</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -85,7 +85,7 @@
 		<label>Mousekin Settler’s Dress</label>
 		<description>A simple full-body dress with an apron and shawl, typically worn by Mousekin settlers and homesteaders.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/SettlerDress</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinSettlerDress/MousekinSettlerDress</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only outer dress layer (50) and shawl (10) are stuffable -->
@@ -117,7 +117,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/SettlerDress</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinSettlerDress/MousekinSettlerDress</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -167,7 +167,7 @@
 		<label>Mousekin Worker’s Outfit</label>
 		<description>A simple shirt, pair of trousers and a brown vest, typically worn by Mousekin peasants and laborers.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/WorkerOutfit</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinWorkerOutfit/MousekinWorkerOutfit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only vest (20) part of apparel is stuffable -->
@@ -200,7 +200,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/WorkerOutfit</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinWorkerOutfit/MousekinWorkerOutfit</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -227,7 +227,7 @@
 		<label>Mousekin Worker’s Dress</label>
 		<description>A blouse and bodice paired with a dress, typically worn by Mousekin peasants, laborers and domestic servants.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/WorkerDress</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinWorkerDress/MousekinWorkerDress</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only bodice and outer dress layer (45) is stuffable -->
@@ -261,9 +261,9 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPaths>
-				<li>Things/Pawn/Mousekin/Apparel/WorkerDressA</li>
-				<li>Things/Pawn/Mousekin/Apparel/WorkerDressB</li>
-				<li>Things/Pawn/Mousekin/Apparel/WorkerDressC</li>
+				<li>Things/Pawn/Humanlike/Apparel/MousekinWorkerDress/MousekinWorkerDressA</li>
+				<li>Things/Pawn/Humanlike/Apparel/MousekinWorkerDress/MousekinWorkerDressB</li>
+				<li>Things/Pawn/Humanlike/Apparel/MousekinWorkerDress/MousekinWorkerDressC</li>
 			</wornGraphicPaths>
 			<layers>
 				<li>OnSkin</li>
@@ -307,7 +307,7 @@
 		<label>Mousekin Craftsman’s Outfit</label>
 		<description>A loose shirt and trousers protected by a hard-wearing craftsman's apron, practical for all sorts of crafting. Increases the wearer's general labor speed.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/CraftsmanOutfit</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCraftsmanOutfit/MousekinCraftsmanOutfit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only apron (30) part of apparel is stuffable -->
@@ -346,7 +346,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/CraftsmanOutfit</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCraftsmanOutfit/MousekinCraftsmanOutfit</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 				<li>Middle</li>
@@ -368,7 +368,7 @@
 		<label>Mousekin Cloak</label>
 		<description>A simple hooded cloak worn by Mousekin villagers or travellers in colder climates.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/Cloak</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCloak/MousekinCloak</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- hood (50) and cloak (70) -->
@@ -395,7 +395,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/Cloak</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCloak/MousekinCloak</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -454,7 +454,7 @@
 		<comps>
 			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
 				<attachedHeadgearDef>Mousekin_HatCloakHood</attachedHeadgearDef>
-				<toggleUiIconPath>Things/Pawn/Mousekin/Apparel/CloakHood</toggleUiIconPath>
+				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</toggleUiIconPath>
 			</li>
 		</comps>
 	</ThingDef>
@@ -466,7 +466,7 @@
 		<label>Mousekin Guardener’s Gown</label>
 		<description>A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/GuardenerGown</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerGown/MousekinGuardenerGown</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only outer dress layer (50) is stuffable -->
@@ -505,7 +505,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GuardenerGown</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerGown/MousekinGuardenerGown</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -530,7 +530,7 @@
 		<label>Mousekin Guardener’s Robe</label>
 		<description>A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/GuardenerRobe</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobe/MousekinGuardenerRobe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- hood (50) and cloak (70) -->
@@ -563,7 +563,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GuardenerRobe</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobe/MousekinGuardenerRobe</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -581,7 +581,7 @@
 			</li>
 			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
 				<attachedHeadgearDef>Mousekin_HatGuardenerRobeHood</attachedHeadgearDef>
-				<toggleUiIconPath>Things/Pawn/Mousekin/Apparel/GuardenerRobeHood</toggleUiIconPath>
+				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</toggleUiIconPath>
 			</li>
 		</comps>
 	</ThingDef>
@@ -591,7 +591,7 @@
 		<label>Mousekin Nun’s Habit</label>
 		<description>A demure habit, practical for administering religious rites as well as caring for the sick and orphaned.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/NunHabit</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinNunHabit/MousekinNunHabit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only outer habit layer (40) is stuffable -->
@@ -629,7 +629,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/NunHabit</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinNunHabit/MousekinNunHabit</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -653,7 +653,7 @@
 		<label>Mousekin Priest’s Cassock</label>
 		<description>An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/PriestCassock</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinPriestCassock/MousekinPriestCassock</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- only outer tunic layer (40) is stuffable -->
@@ -690,7 +690,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/PriestCassock</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinPriestCassock/MousekinPriestCassock</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -716,7 +716,7 @@
 		<label>Mousekin Gambeson</label>
 		<description>A thick, padded defensive jacket and pair of trousers worn by Mousekin soldiers, squires and knights, designed to cushion blows to plate armor. Comfortable to wear in cold climates.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/Gambeson</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGambeson/MousekinGambeson</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- 1.5x the usual amount of material, for padding -->
@@ -751,7 +751,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/Gambeson</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGambeson/MousekinGambeson</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -793,7 +793,7 @@
 		<label>Mousekin Knight Commander’s Cape</label>
 		<description>A stylish blue cape worn by Mousekin knight commanders to inspire awe from both allies and enemies alike.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCape</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinKnightCommanderCape/MousekinKnightCommanderCape</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>60</costStuffCount>
@@ -827,7 +827,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCape</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinKnightCommanderCape/MousekinKnightCommanderCape</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -864,7 +864,7 @@
 		<label>Knight Commander’s Cape Back</label>
 		<description>Back of the Knight Commander’s Cape</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCapeBack_Mousekin_south</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinKnightCommanderCape/MousekinKnightCommanderCapeBack_Mousekin_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tradeability>None</tradeability>
@@ -876,7 +876,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/KnightCommanderCapeBack</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinKnightCommanderCape/MousekinKnightCommanderCapeBack</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>

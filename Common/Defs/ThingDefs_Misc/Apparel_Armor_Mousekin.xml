@@ -6,7 +6,7 @@
 		<label>Mousekin Cuirass</label>
 		<description>A piece of medieval plate armor that protects the torso from most injuries, worn by Mousekin pikemen, crossbowmen and Mouseketeers.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/Cuirass</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCuirass/MousekinCuirass</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- for gilding only -->
@@ -41,7 +41,7 @@
 				<li>Neck</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/Cuirass</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCuirass/MousekinCuirass</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -68,7 +68,7 @@
 		<label>Mousekin Plate Armor</label>
 		<description>A set of medieval plate armor sized for Mousekin Knights, with overlapping solid metal plates offering increased protection for its wearer.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/PlateArmor</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinPlateArmor/MousekinPlateArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<!-- for gilding only -->
@@ -108,7 +108,7 @@
 				<li>Legs</li>
 				<li>Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/PlateArmor</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinPlateArmor/MousekinPlateArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>

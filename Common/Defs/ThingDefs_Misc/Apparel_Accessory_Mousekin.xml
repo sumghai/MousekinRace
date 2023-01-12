@@ -8,7 +8,7 @@
 		<label>Mousekin Pince-Nez Glasses</label>
 		<description>A pair of spectacles with small round lenses, designed to sit directly on the wearer’s nose. Often worn by elderly Mousekins to compensate for their poor eyesight in old age - or to inspire respect from younger Mousekins.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/GlassesSmall</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesSmall/MousekinGlassesSmall</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
@@ -30,7 +30,7 @@
 			<bodyPartGroups>
 				<li>Eyes</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GlassesSmall</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesSmall/MousekinGlassesSmall</wornGraphicPath>
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<layers>
 				<li>EyeCover</li>
@@ -49,7 +49,7 @@
 		<label>Mousekin Research Glasses</label>
 		<description>A pair of spectacles with large round lenses, designed to specifically fit the unique head and ear anatomy of Mousekins. Often worn by Mousekins with myopia, these glasses help increase research speed and are required to unlock high level Mousekin research projects - as well as making the wearer look and feel smarter.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/GlassesLarge</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesLarge/MousekinGlassesLarge</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
@@ -71,7 +71,7 @@
 			<bodyPartGroups>
 				<li>Eyes</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/GlassesLarge</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesLarge/MousekinGlassesLarge</wornGraphicPath>
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<layers>
 				<li>EyeCover</li>
@@ -92,7 +92,7 @@
 		<label>Mousekin Wicker Backpack</label>
 		<description>A wicker basket with shoulder straps, often used by Mousekin peasants to transport crops to storehouses. Has a large carrying capacity but is less durable than a leather backpack.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/BackpackWicker</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinBackpackWicker/MousekinBackpackWicker</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costList>
@@ -113,7 +113,7 @@
 			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/BackpackWicker</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinBackpackWicker/MousekinBackpackWicker</wornGraphicPath>
 			<wornGraphicData>
 				<renderUtilityAsPack>true</renderUtilityAsPack>
 			</wornGraphicData>
@@ -137,7 +137,7 @@
 		<label>Mousekin Leather Backpack</label>
 		<description>A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Mousekin/Apparel/BackpackLeather</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinBackpackLeather/MousekinBackpackLeather</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>40</costStuffCount>
@@ -162,7 +162,7 @@
 			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Mousekin/Apparel/BackpackLeather</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinBackpackLeather/MousekinBackpackLeather</wornGraphicPath>
 			<wornGraphicData>
 				<renderUtilityAsPack>true</renderUtilityAsPack>
 			</wornGraphicData>

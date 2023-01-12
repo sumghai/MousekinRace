@@ -3,7 +3,7 @@
 	
 	<HeadTypeDef ParentName="AverageBase">
 		<defName>Mousekin</defName>
-		<graphicPath>Things/Pawn/Mousekin/Heads/None_Mousekin</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/None_Mousekin</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 	
