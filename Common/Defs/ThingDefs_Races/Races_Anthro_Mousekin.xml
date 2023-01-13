@@ -160,7 +160,7 @@
 							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
-							<drawSize>(0.9, 0.9)</drawSize>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawnDesiccated>false</drawnDesiccated>
 							<colorChannel>skin</colorChannel>
 							<hediffGraphics>
@@ -229,7 +229,7 @@
 							<bodyPartLabel>right ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
-							<drawSize>(0.9, 0.9)</drawSize>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawnDesiccated>false</drawnDesiccated>
 							<colorChannel>skin</colorChannel>
 							<hediffGraphics>
@@ -297,6 +297,7 @@
 							<path>Things/Pawn/Humanlike/BodyAttachments/MousekinTail/MousekinTail</path>
 							<bodyPartLabel>tail</bodyPartLabel>
 							<inFrontOfBody>false</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawnDesiccated>false</drawnDesiccated>
 							<drawnInBed>false</drawnInBed>
 							<colorChannel>skin</colorChannel>
