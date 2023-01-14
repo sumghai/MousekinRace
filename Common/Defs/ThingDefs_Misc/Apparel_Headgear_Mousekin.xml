@@ -31,6 +31,7 @@
 			<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -78,6 +79,7 @@
 			<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -475,6 +477,7 @@
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -503,6 +506,7 @@
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>

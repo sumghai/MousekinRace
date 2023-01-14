@@ -389,6 +389,7 @@
 			<HuntingStealth>0.15</HuntingStealth>
 		</equippedStatOffsets>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -499,6 +500,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -744,6 +746,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>

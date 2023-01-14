@@ -68,6 +68,7 @@
 		</equippedStatOffsets>
 		<generateCommonality>0.125</generateCommonality>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Eyes</li>
 			</bodyPartGroups>
@@ -110,6 +111,7 @@
 		</equippedStatOffsets>
 		<generateAllowChance>0.5</generateAllowChance>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
@@ -159,6 +161,7 @@
 			<CarryingCapacity>30</CarryingCapacity>
 		</equippedStatOffsets>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
