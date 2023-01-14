@@ -515,6 +515,14 @@
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths>
+				<!-- Need to define whole tree, even if only some body types are having replacement graphics -->
+				<body>
+					<bodytypeGraphics>
+						<Baby MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Naked_Child</Baby>
+						<Child MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Naked_Mousekin</Child>
+						<Mousekin>Things/Pawn/Humanlike/Bodies/Naked_Mousekin</Mousekin>
+					</bodytypeGraphics>
+				</body>
 				<stump>Things/Mote/Transparent</stump>
 				<skinShader>Cutout</skinShader>
 			</graphicPaths>
