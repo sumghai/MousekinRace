@@ -1155,25 +1155,38 @@
 					<minAge>0</minAge>
 					<headOffset>(0, -0.125)</headOffset>
 				</li>
-				<li>
+				<li Class="AlienRace.LifeStageAgeAlien">
 					<def>HumanlikeChild</def>
 					<minAge>3</minAge>
+					<headOffsetDirectional>
+						<north>(0, -0.075)</north>
+						<east>(-0.025, -0.075)</east>
+						<south>(0, -0.075)</south>
+						<west>(0.025, -0.075)</west>
+					</headOffsetDirectional>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
 					<soundDeath>Pawn_Mousekin_Death</soundDeath>
 					<soundCall>Pawn_Mousekin_Call</soundCall>
 					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
 				</li>
-				<li MayRequire="Ludeon.RimWorld.Biotech">
+				<li Class="AlienRace.LifeStageAgeAlien" MayRequire="Ludeon.RimWorld.Biotech">
 					<def>HumanlikePreTeenager</def>
 					<minAge>8</minAge>
+					<headOffsetDirectional>
+						<north>(0, -0.1375)</north>
+						<east>(-0.02875, -0.1375)</east>
+						<south>(0, -0.1375)</south>
+						<west>(0.02875, -0.1375)</west>
+					</headOffsetDirectional>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
 					<soundDeath>Pawn_Mousekin_Death</soundDeath>
 					<soundCall>Pawn_Mousekin_Call</soundCall>
 					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
 				</li>
-				<li>
+				<li Class="AlienRace.LifeStageAgeAlien">
 					<def>HumanlikeTeenager</def>
 					<minAge>13</minAge>
+					<headOffset>(0, -0.015)</headOffset>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
 					<soundDeath>Pawn_Mousekin_Death</soundDeath>
 					<soundCall>Pawn_Mousekin_Call</soundCall>
