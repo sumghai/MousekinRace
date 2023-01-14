@@ -37,6 +37,41 @@
 		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
 
+	<!-- ========== Generic Backstories for Biotech DLC compatibility ========== -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Childhood_GenericChild</defName>
+		<title>Mouseling</title>
+		<titleShort>Mouseling</titleShort>
+		<baseDesc>[PAWN_nameDef] is a mouseling. The story of [PAWN_possessive] childhood is still being written.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>MousekinGenericColonyChild</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Childhood_GenericChildhood</defName>
+		<title>Mouseling</title>
+		<titleShort>Village mouseling</titleShort>
+		<baseDesc>[PAWN_nameDef] grew up in our village.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>MousekinGenericColonyAdult</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Childhood_GenericAdult</defName>
+		<title>Villager</title>
+		<titleShort>Villager</titleShort>
+		<baseDesc>[PAWN_nameDef] became an adult in our village. [PAWN_possessive] story is still being written.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>MousekinGenericColonyAdult</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
 	<!-- ========== Childhood Backstories ========== -->
 
 	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">

@@ -8,6 +8,20 @@
 		<alienRace>
 			<generalSettings>
 				<maleGenderProbability>0.5</maleGenderProbability>
+				<childBackstoryFilter>
+					<li>
+						<categories>
+							<li>MousekinGenericColonyChild</li>
+						</categories>
+					</li>
+				</childBackstoryFilter>
+				<adultBackstoryFilter>
+					<li>
+						<categories>
+							<li>MousekinGenericColonyAdult</li>
+						</categories>
+					</li>
+				</adultBackstoryFilter>
 				<disallowedTraits>
 					<li>
 						<defName>AnnoyingVoice</defName>
