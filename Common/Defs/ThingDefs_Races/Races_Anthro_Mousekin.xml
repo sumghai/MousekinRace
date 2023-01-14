@@ -1142,9 +1142,10 @@
 				</points>
 			</litterSizeCurve>
 			<lifeStageAges>
-				<li>
+				<li Class="AlienRace.LifeStageAgeAlien">
 					<def>HumanlikeBaby</def>
 					<minAge>0</minAge>
+					<headOffset>(0, -0.125)</headOffset>
 				</li>
 				<li>
 					<def>HumanlikeChild</def>
