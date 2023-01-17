@@ -1033,9 +1033,9 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Beauty_Pretty</li>
 				</whiteGeneList>
 				<whiteGeneTags>
-					<li>Addiction</li><!-- Not working -->
+					<li>Addiction</li>
 					<li>Aggression</li>
-					<li>Aptitude</li><!-- Not working -->
+					<li>Aptitude</li>
 					<li>Immunity</li>
 					<li>Learning</li>
 					<li>Libido</li>
