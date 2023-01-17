@@ -924,6 +924,8 @@
 					<li>Mousekin_HelmetKnight</li>
 					<li>Mousekin_HelmetKnightCommander</li>
 					<li>Mousekin_HelmetMorion</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Mousekin_ApparelChildDress</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Mousekin_ApparelChildOutfit</li>
 					<!-- Dummy defs used for rendering -->
 					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
 					<li>Mousekin_HatCloakHood</li>
