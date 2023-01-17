@@ -104,27 +104,27 @@
 				</value>
 			</li>
 
-			<!-- Allow Mousekins to CE apparel -->
+			<!-- Allow Mousekins to wear CE apparel -->
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/raceRestriction/whiteApparelList</xpath>
 				<value>
 					<!-- Headgear -->
-					<li>Apparel_AdvancedNightVision</li>
-					<li>Apparel_GasMask</li>
-					<li>Apparel_ImprovGasMask</li>
-					<li>Apparel_SimpleNightVision</li>
+					<li>CE_Apparel_AdvancedNightVision</li>
+					<li>CE_Apparel_GasMask</li>
+					<li>CE_Apparel_ImprovGasMask</li>
+					<li>CE_Apparel_SimpleNightVision</li>
 					<!-- Bascinet omitted, as Mousekins will have their own medieval helmets -->
 					
 					<!-- Shields -->
-					<li>Apparel_MeleeShield</li>
-					<li>Apparel_BallisticShield</li>
+					<li>CE_Apparel_MeleeShield</li>
+					<li>CE_Apparel_BallisticShield</li>
 					
 					<!-- Packs -->
-					<li>Apparel_Backpack</li> <!-- needs offset and scale fix via Harmony -->
-					<li>Apparel_CompositeVest</li>
-					<li>Apparel_TacVest</li> 
-					<li>Apparel_TribalBackpack</li> <!-- needs offset and scale fix via Harmony -->
+					<li>CE_Apparel_Backpack</li> <!-- needs offset and scale fix via Harmony -->
+					<li>CE_Apparel_CompositeVest</li>
+					<li>CE_Apparel_TacVest</li> 
+					<li>CE_Apparel_TribalBackpack</li> <!-- needs offset and scale fix via Harmony -->
 				</value>
 			</li>
 
