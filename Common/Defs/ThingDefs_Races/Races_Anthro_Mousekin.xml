@@ -966,7 +966,7 @@
 					<!-- Royalty DLC (Mousekins for lore reasons are prohibited from wearing Imperial power armor) -->
 					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Beret</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Coronet</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Corset</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Corset</li> todo - needs textures -->
 					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Crown</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_CrownStellic</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_EltexSkullcap</li>
@@ -976,22 +976,22 @@
 					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusHelmet</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusRobe</li> needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusShirt</li> needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusVest</li> needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_RobeRoyal</li> needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li> needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_VestRoyal</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusRobe</li> todo - needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusShirt</li> todo - needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusVest</li> todo - needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_RobeRoyal</li> todo - needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li> todo - needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_VestRoyal</li> todo - needs textures -->
 					<!-- Ideology DLC -->
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_AuthorityCap</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li> todo - needs textures -->
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Broadwrap</li>
-						<!--<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Burka</li> needs textures -->
+						<!--<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Burka</li> todo - needs textures -->
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Collar</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Flophat</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Headwrap</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Robe</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Robe</li> todo - needs textures -->
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Shadecone</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Slicecap</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Tailcap</li>
@@ -1002,22 +1002,22 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechCommander</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechlordHelmet</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Bandolier</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Bandolier</li> todo - needs textures -->
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ClothMask</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_GasMask</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_HeavyShield</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidHelmet</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidPants</li> <!-- needs proper textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidParka</li> <!-- needs proper textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidRomper</li> <!-- needs proper textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidShirt</li> <!-- needs proper textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidTribal</li> <!-- needs proper textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_MechlordSuit</li> needs textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidPants</li> <!-- todo - needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidParka</li> <!-- todo - needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidRomper</li> <!-- todo - needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidShirt</li> <!-- todo - needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidTribal</li> <!-- todo - needs proper textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_MechlordSuit</li> todo - needs textures -->
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Sash</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Sash</li> todo - needs textures -->
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 
