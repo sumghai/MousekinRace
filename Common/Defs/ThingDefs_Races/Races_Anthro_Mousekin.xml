@@ -963,7 +963,25 @@
 					<li>OrbitalTargeterBombardment</li>
 					<li>OrbitalTargeterPowerBeam</li>
 					<li>TornadoGenerator</li>
-					<!-- DLC apparel support to be added at a later date -->
+					<!-- Royalty DLC (Mousekins for lore reasons are prohibited from wearing Imperial power armor) -->
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Beret</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Coronet</li>
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Corset</li> needs textures -->
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Crown</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_CrownStellic</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_EltexSkullcap</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Gunlink</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatLadies</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatTop</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusHelmet</li>
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusRobe</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusShirt</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusVest</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_RobeRoyal</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li> needs textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_VestRoyal</li> needs textures -->
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 
