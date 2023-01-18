@@ -997,6 +997,27 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Tailcap</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_VisageMask</li>
+					<!-- Biotech DLC -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechCommander</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechlordHelmet</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
+						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Bandolier</li> needs textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ClothMask</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_GasMask</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_HeavyShield</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidHelmet</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidPants</li> <!-- needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidParka</li> <!-- needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidRomper</li> <!-- needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidShirt</li> <!-- needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidTribal</li> <!-- needs proper textures -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_MechlordSuit</li> needs textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
+						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Sash</li> needs textures -->
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 
