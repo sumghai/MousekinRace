@@ -982,6 +982,21 @@
 						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_RobeRoyal</li> needs textures -->
 						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li> needs textures -->
 						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_VestRoyal</li> needs textures -->
+					<!-- Ideology DLC -->
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_AuthorityCap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
+						<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li> needs textures -->
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Broadwrap</li>
+						<!--<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Burka</li> needs textures -->
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Collar</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Flophat</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Headwrap</li>
+						<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Robe</li> needs textures -->
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Shadecone</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Slicecap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Tailcap</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_VisageMask</li>
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 
