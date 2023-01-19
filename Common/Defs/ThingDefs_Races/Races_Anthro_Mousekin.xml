@@ -563,6 +563,8 @@
 							<value>Things/Pawn/Humanlike/Apparel/KidTribalMousekinReplacement/KidTribal</value>
 						</li>
 					</individualPaths>
+					<!-- Use base game Female body type as fallback for apparel without Mousekin body type texture support -->
+					<bodyTypeFallback>Female</bodyTypeFallback>
 				</apparel>
 			</graphicPaths>
 			<styleSettings>
@@ -919,6 +921,7 @@
 					</li>
 				</researchList>
 			
+				<!-- Restrict the following apparel for Mousekin wear only -->
 				<apparelList>
 					<li>Mousekin_ApparelCloak</li>
 					<li>Mousekin_ApparelCraftsmanOutfit</li>
@@ -959,92 +962,49 @@
 					<li>Mousekin_HelmetKnightCommander_VisorUp</li>
 					<li>Mousekin_HelmetKnight_VisorUp</li>
 				</apparelList>
-				<whiteApparelList>
-					<!-- Core apparel (Mousekins have their own race-specific medieval plate armor) -->
-					<li>Apparel_AdvancedHelmet</li>
-					<li>Apparel_ArmorHelmetRecon</li>
-					<li>Apparel_ArmorRecon</li>
-					<li>Apparel_BasicShirt</li>
-					<li>Apparel_BowlerHat</li>
-					<li>Apparel_CollarShirt</li>
-					<li>Apparel_CowboyHat</li>
-					<li>Apparel_Duster</li>
-					<li>Apparel_FlakJacket</li>
-					<li>Apparel_FlakPants</li>
-					<li>Apparel_FlakVest</li>
-					<li>Apparel_Jacket</li>
-					<li>Apparel_Pants</li>
-					<li>Apparel_Parka</li>
-					<li>Apparel_PowerArmor</li>
-					<li>Apparel_PowerArmorHelmet</li>
-					<li>Apparel_PsychicFoilHelmet</li>
-					<li>Apparel_PsychicInsanityLance</li>
-					<li>Apparel_PsychicShockLance</li>
-					<li>Apparel_ShieldBelt</li>
-					<li>Apparel_SimpleHelmet</li>
-					<li>Apparel_SmokepopBelt</li>
-					<li>Apparel_TribalA</li>
-					<li>Apparel_Tuque</li>
-					<li>OrbitalTargeterBombardment</li>
-					<li>OrbitalTargeterPowerBeam</li>
-					<li>TornadoGenerator</li>
-					<!-- Royalty DLC (Mousekins for lore reasons are prohibited from wearing Imperial power armor) -->
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Beret</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Coronet</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Corset</li> todo - needs textures -->
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Crown</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_CrownStellic</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_EltexSkullcap</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Gunlink</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatLadies</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatTop</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusHelmet</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusRobe</li> todo - needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusShirt</li> todo - needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusVest</li> todo - needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_RobeRoyal</li> todo - needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li> todo - needs textures -->
-						<!-- <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_VestRoyal</li> todo - needs textures -->
-					<!-- Ideology DLC -->
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_AuthorityCap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li> todo - needs textures -->
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Broadwrap</li>
-						<!--<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Burka</li> todo - needs textures -->
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Collar</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Flophat</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Headwrap</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Robe</li> todo - needs textures -->
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Shadecone</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Slicecap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Tailcap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_VisageMask</li>
-					<!-- Biotech DLC -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechCommander</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechlordHelmet</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Bandolier</li> todo - needs textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ClothMask</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_GasMask</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_HeavyShield</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidHelmet</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidPants</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidParka</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidRomper</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidShirt</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidTribal</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_MechlordSuit</li> todo - needs textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Sash</li> todo - needs textures -->
-				</whiteApparelList>
-				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<!-- Blacklist selected Core and DLC apparel (mainly for mod lore reasons) -->
+				<blackApparelList>
+					<!-- Mousekins have their own race-specific medieval plate armor -->
+					<li>Apparel_PlateArmor</li> 
+					<!-- The Empire prohibits Mousekins from wearing Imperial power armor -->
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphract</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphractPhoenix</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphractPrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetCataphract</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetCataphractPrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetReconPrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorLocust</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarineGrenadier</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarineHelmetPrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarinePrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorReconPrestige</li>
+				</blackApparelList>
+				<!-- 
+					Any apparel not explicitly blacklisted can generally be worn by Mousekins, with some caveats:
+					- The game will first try to look for Mousekin-specific textures in Textures/Things/Pawn/Humanlike/Apparel
+					- The HAR framework will then try to perform individual path replacements for specific apparel (see graphicPaths node above)
+					- If none are available, the game will fall back to Female body textures (closest body shape to Mousekin hind rumps)
+					
+					List of wearable apparel that should (eventually) get better Mousekin-specific graphic replacements:
+					- Multiple DLCs
+						- Apparel_Cape
+					- Royalty DLC
+						- Apparel_Corset
+						- Apparel_PsyfocusRobe
+						- Apparel_PsyfocusShirt
+						- Apparel_PsyfocusVest
+						- Apparel_RobeRoyal
+						- Apparel_ShirtRuffle
+						- Apparel_VestRoyal
+					- Ideology DLC
+						- Apparel_BodyStrap
+						- Apparel_Burka
+						- Apparel_Robe
+					- Biotech DLC
+						- Apparel_Bandolier
+						- Apparel_MechlordSuit
+						- Apparel_Sash
+				-->
 
 				<!-- Restrict the following weapons for Mousekin use only -->
 				<weaponList>
