@@ -539,6 +539,31 @@
 				</body>
 				<stump>Things/Mote/Transparent</stump>
 				<skinShader>Cutout</skinShader>
+				<!-- Override apparel graphics for Mousekin children -->
+				<apparel>
+					<individualPaths>
+						<li MayRequire="Ludeon.RimWorld.Biotech">
+							<key>Apparel_KidPants</key>
+							<value>Things/Pawn/Humanlike/Apparel/KidPantsMousekinReplacement/KidPants</value>
+						</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">
+							<key>Apparel_KidParka</key>
+							<value>Things/Pawn/Humanlike/Apparel/KidParkaMousekinReplacement/KidParka</value>
+						</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">
+							<key>Apparel_KidRomper</key>
+							<value>Things/Pawn/Humanlike/Apparel/KidRomperMousekinReplacement/KidRomper</value>
+						</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">
+							<key>Apparel_KidShirt</key>
+							<value>Things/Pawn/Humanlike/Apparel/KidShirtMousekinReplacement/KidShirt</value>
+						</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">
+							<key>Apparel_KidTribal</key>
+							<value>Things/Pawn/Humanlike/Apparel/KidTribalMousekinReplacement/KidTribal</value>
+						</li>
+					</individualPaths>
+				</apparel>
 			</graphicPaths>
 			<styleSettings>
 				<li>
@@ -1008,11 +1033,11 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_HeavyShield</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidHelmet</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidPants</li> <!-- todo - needs proper textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidParka</li> <!-- todo - needs proper textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidRomper</li> <!-- todo - needs proper textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidShirt</li> <!-- todo - needs proper textures -->
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidTribal</li> <!-- todo - needs proper textures -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidPants</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidParka</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidRomper</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidShirt</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_KidTribal</li>
 						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_MechlordSuit</li> todo - needs textures -->
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
