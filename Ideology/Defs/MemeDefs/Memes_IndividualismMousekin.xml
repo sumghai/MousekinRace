@@ -18,6 +18,9 @@
 				<li>Apostasy_Disapproved</li>
 			</li>
 			<li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">ChildLabor_Encouraged</li>
+			</li>
+			<li>
 				<li>IdeoDiversity_Abhorrent</li>
 				<li>IdeoDiversity_Horrible</li>
 			</li>
@@ -61,6 +64,9 @@
 		<requireOne>
 			<li>
 				<li>Charity_Worthwhile</li>
+			</li>
+			<li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">ChildLabor_Disapproved</li>
 			</li>
 			<li>
 				<li>IdeoDiversity_Standard</li>

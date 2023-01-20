@@ -16,7 +16,13 @@
 				<li>Blinding_Horrible</li>
 			</li>
 			<li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeders_Reviled</li>
+			</li>
+			<li>
 				<li>Cannibalism_Abhorrent</li>
+			</li>
+			<li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Prohibited</li>
 			</li>
 			<li>
 				<li>HAR_EatingAliens_Disapproved</li>
