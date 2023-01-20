@@ -539,30 +539,9 @@
 				</body>
 				<stump>Things/Mote/Transparent</stump>
 				<skinShader>Cutout</skinShader>
-				<!-- Override apparel graphics for Mousekin children -->
+				<!-- Override apparel graphics -->
 				<apparel>
-					<individualPaths>
-						<li MayRequire="Ludeon.RimWorld.Biotech">
-							<key>Apparel_KidPants</key>
-							<value>Things/Pawn/Humanlike/Apparel/KidPantsMousekinReplacement/KidPants</value>
-						</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">
-							<key>Apparel_KidParka</key>
-							<value>Things/Pawn/Humanlike/Apparel/KidParkaMousekinReplacement/KidParka</value>
-						</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">
-							<key>Apparel_KidRomper</key>
-							<value>Things/Pawn/Humanlike/Apparel/KidRomperMousekinReplacement/KidRomper</value>
-						</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">
-							<key>Apparel_KidShirt</key>
-							<value>Things/Pawn/Humanlike/Apparel/KidShirtMousekinReplacement/KidShirt</value>
-						</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">
-							<key>Apparel_KidTribal</key>
-							<value>Things/Pawn/Humanlike/Apparel/KidTribalMousekinReplacement/KidTribal</value>
-						</li>
-					</individualPaths>
+					<individualPaths />
 					<!-- Use base game Female body type as fallback for apparel without Mousekin body type texture support -->
 					<bodyTypeFallback>Female</bodyTypeFallback>
 				</apparel>

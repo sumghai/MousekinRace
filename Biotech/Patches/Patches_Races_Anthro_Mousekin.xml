@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Add override apparel graphics for Mousekin children -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/graphicPaths/apparel/individualPaths</xpath>
+				<value>
+					<li>
+						<key>Apparel_KidPants</key>
+						<value>Things/Pawn/Humanlike/Apparel/KidPantsMousekinReplacement/KidPants</value>
+					</li>
+					<li>
+						<key>Apparel_KidParka</key>
+						<value>Things/Pawn/Humanlike/Apparel/KidParkaMousekinReplacement/KidParka</value>
+					</li>
+					<li>
+						<key>Apparel_KidRomper</key>
+						<value>Things/Pawn/Humanlike/Apparel/KidRomperMousekinReplacement/KidRomper</value>
+					</li>
+					<li>
+						<key>Apparel_KidShirt</key>
+						<value>Things/Pawn/Humanlike/Apparel/KidShirtMousekinReplacement/KidShirt</value>
+					</li>
+					<li>
+						<key>Apparel_KidTribal</key>
+						<value>Things/Pawn/Humanlike/Apparel/KidTribalMousekinReplacement/KidTribal</value>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>
