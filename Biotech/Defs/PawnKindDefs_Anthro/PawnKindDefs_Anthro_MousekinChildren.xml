@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<!-- Generic Mouselings (children) - defaults to Mousekin Kingdom faction -->
 	
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinChild</defName>
@@ -22,6 +20,26 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>5~8</initialResistanceRange>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinLostChild</defName>
+		<label>Mousekin lost child</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinLostChild</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>4</minGenerationAge>
+		<maxGenerationAge>8</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<!-- Naked -->
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>0~0</apparelMoney>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>5~8</initialResistanceRange>
 	</PawnKindDef>
 
 </Defs>
