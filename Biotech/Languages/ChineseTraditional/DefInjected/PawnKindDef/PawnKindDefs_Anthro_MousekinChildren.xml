@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MousekinChild.label>Mouseling</MousekinChild.label>
-  <MousekinLostChild.label>Mousekin lost child</MousekinLostChild.label>
-
-
+	<!-- EN: Mouseling -->
+	<MousekinChild.label>白鼠族孩童</MousekinChild.label>
+	
+	<!-- EN: Mousekin lost child -->
+	<MousekinLostChild.label>白鼠族迷童</MousekinLostChild.label>
+	
 </LanguageData>

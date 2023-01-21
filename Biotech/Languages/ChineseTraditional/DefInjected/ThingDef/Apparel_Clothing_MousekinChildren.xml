@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Commoner Children's Apparel -->
+	<!-- EN: Mouseling Outfit -->
+	<Mousekin_ApparelChildOutfit.label>白鼠族兒童服裝</Mousekin_ApparelChildOutfit.label>
+	
+	<!-- EN: A simple shirt and pair of trousers held up by suspenders worn by most commoner and middle-class Mouseling boys, practical for helping around the house or playing in the flower gardens. -->
+	<Mousekin_ApparelChildOutfit.description>平民和中產階級白鼠族兒童常穿的樸素襯衫和吊帶褲，適合在家裡幫忙或在花園裡玩耍。</Mousekin_ApparelChildOutfit.description>
 
-  <Mousekin_ApparelChildOutfit.label>Mouseling Outfit</Mousekin_ApparelChildOutfit.label>
-  <Mousekin_ApparelChildOutfit.description>A simple shirt and pair of trousers held up by suspenders worn by most commoner and middle-class Mouseling boys, practical for helping around the house or playing in the flower gardens.</Mousekin_ApparelChildOutfit.description>
-
-  <Mousekin_ApparelChildDress.label>Mouseling Dress</Mousekin_ApparelChildDress.label>
-  <Mousekin_ApparelChildDress.description>A simple full-body dress worn by most commoner and middle-class Mouseling girls, practical for helping around the house or playing in the flower gardens.</Mousekin_ApparelChildDress.description>
-
+	<!-- EN: Mouseling Dress -->
+	<Mousekin_ApparelChildDress.label>白鼠族女童裙裝</Mousekin_ApparelChildDress.label>
+	
+	<!-- EN: A simple full-body dress worn by most commoner and middle-class Mouseling girls, practical for helping around the house or playing in the flower gardens. -->
+	<Mousekin_ApparelChildDress.description>平民和中產階級白鼠族女童常穿的樸素全身連衣裙，適合在家裡幫忙或在花園裡玩耍。</Mousekin_ApparelChildDress.description>
 
 </LanguageData>

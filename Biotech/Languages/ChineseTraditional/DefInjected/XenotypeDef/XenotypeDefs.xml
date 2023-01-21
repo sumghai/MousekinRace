@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_XenotypeMousekin.label>mousekin</Mousekin_XenotypeMousekin.label>
-  <Mousekin_XenotypeMousekin.description>A naturally-evolved Mousekin with no major significant genetic modifications.</Mousekin_XenotypeMousekin.description>
-
-
+	<!-- EN: mousekin -->
+	<Mousekin_XenotypeMousekin.label>白鼠族</Mousekin_XenotypeMousekin.label>
+	
+	<!-- EN: A naturally-evolved Mousekin with no major significant genetic modifications. -->
+	<Mousekin_XenotypeMousekin.description>沒有顯著基因修改的自然演化白鼠族。</Mousekin_XenotypeMousekin.description>
+	
 </LanguageData>
