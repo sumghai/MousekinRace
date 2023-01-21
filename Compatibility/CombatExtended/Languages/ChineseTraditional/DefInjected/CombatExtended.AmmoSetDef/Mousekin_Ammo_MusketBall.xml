@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mousekin Muskets use the same craftable generic CE musket ball ammo item, but fires a variant of the musket ball projectile that uses Mousekin textures instead.
+
+	This projectile is defined in a XML PatchOperation. -->
+
+  <Mousekin_AmmoSet_MusketBall.label>Musket Ball</Mousekin_AmmoSet_MusketBall.label>
+
+
+</LanguageData>

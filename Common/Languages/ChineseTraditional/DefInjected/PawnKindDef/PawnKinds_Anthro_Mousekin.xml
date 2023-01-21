@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Player starting colonists -->
+
+  <MousekinColonist.label>Mousekin colonist</MousekinColonist.label>
+  <MousekinColonist.labelPlural>Mousekin colonists</MousekinColonist.labelPlural>
+  <MousekinColonist.labelMale>male Mousekin colonist</MousekinColonist.labelMale>
+  <MousekinColonist.labelMalePlural>male Mousekin colonists</MousekinColonist.labelMalePlural>
+  <MousekinColonist.labelFemale>female Mousekin colonist</MousekinColonist.labelFemale>
+  <MousekinColonist.labelFemalePlural>female Mousekin colonists</MousekinColonist.labelFemalePlural>
+
+
+  <!-- NPCs from Mousekin Kingdom faction type -->
+
+  <MousekinLordProtector.label>Lord Protector</MousekinLordProtector.label>
+  <MousekinLordProtector.labelPlural>Lord Protectors</MousekinLordProtector.labelPlural>
+  <MousekinLordProtector.labelMale>male Lord Protector</MousekinLordProtector.labelMale>
+  <MousekinLordProtector.labelMalePlural>male Lord Protectors</MousekinLordProtector.labelMalePlural>
+  <MousekinLordProtector.labelFemale>female Lord Protector</MousekinLordProtector.labelFemale>
+  <MousekinLordProtector.labelFemalePlural>female Lord Protectors</MousekinLordProtector.labelFemalePlural>
+
+  <MousekinRoyalty.label>Mousekin royalty</MousekinRoyalty.label>
+  <MousekinRoyalty.labelPlural>Mousekin royaltys</MousekinRoyalty.labelPlural>
+  <MousekinRoyalty.labelMale>male Mousekin royalty</MousekinRoyalty.labelMale>
+  <MousekinRoyalty.labelMalePlural>male Mousekin royaltys</MousekinRoyalty.labelMalePlural>
+  <MousekinRoyalty.labelFemale>female Mousekin royalty</MousekinRoyalty.labelFemale>
+  <MousekinRoyalty.labelFemalePlural>female Mousekin royaltys</MousekinRoyalty.labelFemalePlural>
+
+  <MousekinNoble.label>Mousekin noble</MousekinNoble.label>
+  <MousekinNoble.labelPlural>Mousekin nobles</MousekinNoble.labelPlural>
+  <MousekinNoble.labelMale>male Mousekin noble</MousekinNoble.labelMale>
+  <MousekinNoble.labelMalePlural>male Mousekin nobles</MousekinNoble.labelMalePlural>
+  <MousekinNoble.labelFemale>female Mousekin noble</MousekinNoble.labelFemale>
+  <MousekinNoble.labelFemalePlural>female Mousekin nobles</MousekinNoble.labelFemalePlural>
+
+  <MousekinInquisitor.label>Mousekin inquisitor</MousekinInquisitor.label>
+  <MousekinInquisitor.labelPlural>Mousekin inquisitors</MousekinInquisitor.labelPlural>
+  <MousekinInquisitor.labelMale>male Mousekin inquisitor</MousekinInquisitor.labelMale>
+  <MousekinInquisitor.labelMalePlural>male Mousekin inquisitors</MousekinInquisitor.labelMalePlural>
+  <MousekinInquisitor.labelFemale>female Mousekin inquisitor</MousekinInquisitor.labelFemale>
+  <MousekinInquisitor.labelFemalePlural>female Mousekin inquisitors</MousekinInquisitor.labelFemalePlural>
+
+  <MousekinPriest.label>Mousekin priest</MousekinPriest.label>
+  <MousekinPriest.labelPlural>Mousekin priests</MousekinPriest.labelPlural>
+  <MousekinPriest.labelMale>male Mousekin priest</MousekinPriest.labelMale>
+  <MousekinPriest.labelMalePlural>male Mousekin priests</MousekinPriest.labelMalePlural>
+  <MousekinPriest.labelFemale>female Mousekin priest</MousekinPriest.labelFemale>
+  <MousekinPriest.labelFemalePlural>female Mousekin priests</MousekinPriest.labelFemalePlural>
+
+  <MousekinNun.label>Mousekin nun</MousekinNun.label>
+  <MousekinNun.labelPlural>Mousekin nuns</MousekinNun.labelPlural>
+  <MousekinNun.labelMale>male Mousekin nun</MousekinNun.labelMale>
+  <MousekinNun.labelMalePlural>male Mousekin nuns</MousekinNun.labelMalePlural>
+  <MousekinNun.labelFemale>female Mousekin nun</MousekinNun.labelFemale>
+  <MousekinNun.labelFemalePlural>female Mousekin nuns</MousekinNun.labelFemalePlural>
+
+  <MousekinKnightCommander.label>Mousekin knight commander</MousekinKnightCommander.label>
+  <MousekinKnightCommander.labelPlural>Mousekin knight commanders</MousekinKnightCommander.labelPlural>
+  <MousekinKnightCommander.labelMale>male Mousekin knight commander</MousekinKnightCommander.labelMale>
+  <MousekinKnightCommander.labelMalePlural>male Mousekin knight commanders</MousekinKnightCommander.labelMalePlural>
+  <MousekinKnightCommander.labelFemale>female Mousekin knight commander</MousekinKnightCommander.labelFemale>
+  <MousekinKnightCommander.labelFemalePlural>female Mousekin knight commanders</MousekinKnightCommander.labelFemalePlural>
+
+  <MousekinGuardenerElite.label>Mousekin elite Guardener</MousekinGuardenerElite.label>
+  <MousekinGuardenerElite.labelPlural>Mousekin elite Guardeners</MousekinGuardenerElite.labelPlural>
+  <MousekinGuardenerElite.labelMale>male Mousekin elite Guardener</MousekinGuardenerElite.labelMale>
+  <MousekinGuardenerElite.labelMalePlural>male Mousekin elite Guardeners</MousekinGuardenerElite.labelMalePlural>
+  <MousekinGuardenerElite.labelFemale>female Mousekin elite Guardener</MousekinGuardenerElite.labelFemale>
+  <MousekinGuardenerElite.labelFemalePlural>female Mousekin elite Guardeners</MousekinGuardenerElite.labelFemalePlural>
+
+  <MousekinKnight.label>Mousekin knight</MousekinKnight.label>
+  <MousekinKnight.labelPlural>Mousekin knights</MousekinKnight.labelPlural>
+  <MousekinKnight.labelMale>male Mousekin knight</MousekinKnight.labelMale>
+  <MousekinKnight.labelMalePlural>male Mousekin knights</MousekinKnight.labelMalePlural>
+  <MousekinKnight.labelFemale>female Mousekin knight</MousekinKnight.labelFemale>
+  <MousekinKnight.labelFemalePlural>female Mousekin knights</MousekinKnight.labelFemalePlural>
+
+  <MousekinGuardener.label>Mousekin Guardener</MousekinGuardener.label>
+  <MousekinGuardener.labelPlural>Mousekin Guardeners</MousekinGuardener.labelPlural>
+  <MousekinGuardener.labelMale>male Mousekin Guardener</MousekinGuardener.labelMale>
+  <MousekinGuardener.labelMalePlural>male Mousekin Guardeners</MousekinGuardener.labelMalePlural>
+  <MousekinGuardener.labelFemale>female Mousekin Guardener</MousekinGuardener.labelFemale>
+  <MousekinGuardener.labelFemalePlural>female Mousekin Guardeners</MousekinGuardener.labelFemalePlural>
+
+  <MousekinKnightApprentice.label>Mousekin squire</MousekinKnightApprentice.label>
+  <MousekinKnightApprentice.labelPlural>Mousekin squires</MousekinKnightApprentice.labelPlural>
+  <MousekinKnightApprentice.labelMale>male Mousekin squire</MousekinKnightApprentice.labelMale>
+  <MousekinKnightApprentice.labelMalePlural>male Mousekin squires</MousekinKnightApprentice.labelMalePlural>
+  <MousekinKnightApprentice.labelFemale>female Mousekin squire</MousekinKnightApprentice.labelFemale>
+  <MousekinKnightApprentice.labelFemalePlural>female Mousekin squires</MousekinKnightApprentice.labelFemalePlural>
+
+  <MousekinGuardenerApprentice.label>Mousekin apprentice Guardener</MousekinGuardenerApprentice.label>
+  <MousekinGuardenerApprentice.labelPlural>Mousekin apprentice Guardeners</MousekinGuardenerApprentice.labelPlural>
+  <MousekinGuardenerApprentice.labelMale>male Mousekin apprentice Guardener</MousekinGuardenerApprentice.labelMale>
+  <MousekinGuardenerApprentice.labelMalePlural>male Mousekin apprentice Guardeners</MousekinGuardenerApprentice.labelMalePlural>
+  <MousekinGuardenerApprentice.labelFemale>female Mousekin apprentice Guardener</MousekinGuardenerApprentice.labelFemale>
+  <MousekinGuardenerApprentice.labelFemalePlural>female Mousekin apprentice Guardeners</MousekinGuardenerApprentice.labelFemalePlural>
+
+  <MousekinDoctor.label>Mousekin doctor</MousekinDoctor.label>
+  <MousekinDoctor.labelPlural>Mousekin doctors</MousekinDoctor.labelPlural>
+  <MousekinDoctor.labelMale>male Mousekin doctor</MousekinDoctor.labelMale>
+  <MousekinDoctor.labelMalePlural>male Mousekin doctors</MousekinDoctor.labelMalePlural>
+  <MousekinDoctor.labelFemale>female Mousekin doctor</MousekinDoctor.labelFemale>
+  <MousekinDoctor.labelFemalePlural>female Mousekin doctors</MousekinDoctor.labelFemalePlural>
+
+  <MousekinServantHighClass.label>Mousekin servant</MousekinServantHighClass.label>
+  <MousekinServantHighClass.labelPlural>Mousekin servants</MousekinServantHighClass.labelPlural>
+  <MousekinServantHighClass.labelMale>male Mousekin servant</MousekinServantHighClass.labelMale>
+  <MousekinServantHighClass.labelMalePlural>male Mousekin servants</MousekinServantHighClass.labelMalePlural>
+  <MousekinServantHighClass.labelFemale>female Mousekin servant</MousekinServantHighClass.labelFemale>
+  <MousekinServantHighClass.labelFemalePlural>female Mousekin servants</MousekinServantHighClass.labelFemalePlural>
+
+  <MousekinServantChef.label>Mousekin chef</MousekinServantChef.label>
+  <MousekinServantChef.labelPlural>Mousekin chefs</MousekinServantChef.labelPlural>
+  <MousekinServantChef.labelMale>male Mousekin chef</MousekinServantChef.labelMale>
+  <MousekinServantChef.labelMalePlural>male Mousekin chefs</MousekinServantChef.labelMalePlural>
+  <MousekinServantChef.labelFemale>female Mousekin chef</MousekinServantChef.labelFemale>
+  <MousekinServantChef.labelFemalePlural>female Mousekin chefs</MousekinServantChef.labelFemalePlural>
+
+  <MousekinServant.label>Mousekin servant</MousekinServant.label>
+  <MousekinServant.labelPlural>Mousekin servants</MousekinServant.labelPlural>
+  <MousekinServant.labelMale>male Mousekin servant</MousekinServant.labelMale>
+  <MousekinServant.labelMalePlural>male Mousekin servants</MousekinServant.labelMalePlural>
+  <MousekinServant.labelFemale>female Mousekin servant</MousekinServant.labelFemale>
+  <MousekinServant.labelFemalePlural>female Mousekin servants</MousekinServant.labelFemalePlural>
+
+  <MousekinTradesman.label>Mousekin tradesman</MousekinTradesman.label>
+  <MousekinTradesman.labelPlural>Mousekin tradesmans</MousekinTradesman.labelPlural>
+  <MousekinTradesman.labelMale>male Mousekin tradesman</MousekinTradesman.labelMale>
+  <MousekinTradesman.labelMalePlural>male Mousekin tradesmans</MousekinTradesman.labelMalePlural>
+  <MousekinTradesman.labelFemale>female Mousekin tradesman</MousekinTradesman.labelFemale>
+  <MousekinTradesman.labelFemalePlural>female Mousekin tradesmans</MousekinTradesman.labelFemalePlural>
+
+  <MousekinMusketeer.label>Mousekin mouseketeer</MousekinMusketeer.label>
+  <MousekinMusketeer.labelPlural>Mousekin mouseketeers</MousekinMusketeer.labelPlural>
+  <MousekinMusketeer.labelMale>male Mousekin mouseketeer</MousekinMusketeer.labelMale>
+  <MousekinMusketeer.labelMalePlural>male Mousekin mouseketeers</MousekinMusketeer.labelMalePlural>
+  <MousekinMusketeer.labelFemale>female Mousekin mouseketeer</MousekinMusketeer.labelFemale>
+  <MousekinMusketeer.labelFemalePlural>female Mousekin mouseketeers</MousekinMusketeer.labelFemalePlural>
+
+  <MousekinCrossbowman.label>Mousekin crossbowman</MousekinCrossbowman.label>
+  <MousekinCrossbowman.labelPlural>Mousekin crossbowmans</MousekinCrossbowman.labelPlural>
+  <MousekinCrossbowman.labelMale>male Mousekin crossbowman</MousekinCrossbowman.labelMale>
+  <MousekinCrossbowman.labelMalePlural>male Mousekin crossbowmans</MousekinCrossbowman.labelMalePlural>
+  <MousekinCrossbowman.labelFemale>female Mousekin crossbowman</MousekinCrossbowman.labelFemale>
+  <MousekinCrossbowman.labelFemalePlural>female Mousekin crossbowmans</MousekinCrossbowman.labelFemalePlural>
+
+  <MousekinPikeman.label>Mousekin pikeman</MousekinPikeman.label>
+  <MousekinPikeman.labelPlural>Mousekin pikemans</MousekinPikeman.labelPlural>
+  <MousekinPikeman.labelMale>male Mousekin pikeman</MousekinPikeman.labelMale>
+  <MousekinPikeman.labelMalePlural>male Mousekin pikemans</MousekinPikeman.labelMalePlural>
+  <MousekinPikeman.labelFemale>female Mousekin pikeman</MousekinPikeman.labelFemale>
+  <MousekinPikeman.labelFemalePlural>female Mousekin pikemans</MousekinPikeman.labelFemalePlural>
+
+  <MousekinTrader.label>Mousekin trader</MousekinTrader.label>
+  <MousekinTrader.labelPlural>Mousekin traders</MousekinTrader.labelPlural>
+  <MousekinTrader.labelMale>male Mousekin trader</MousekinTrader.labelMale>
+  <MousekinTrader.labelMalePlural>male Mousekin traders</MousekinTrader.labelMalePlural>
+  <MousekinTrader.labelFemale>female Mousekin trader</MousekinTrader.labelFemale>
+  <MousekinTrader.labelFemalePlural>female Mousekin traders</MousekinTrader.labelFemalePlural>
+
+  <MousekinPeasant.label>Mousekin peasant</MousekinPeasant.label>
+  <MousekinPeasant.labelPlural>Mousekin peasants</MousekinPeasant.labelPlural>
+  <MousekinPeasant.labelMale>male Mousekin peasant</MousekinPeasant.labelMale>
+  <MousekinPeasant.labelMalePlural>male Mousekin peasants</MousekinPeasant.labelMalePlural>
+  <MousekinPeasant.labelFemale>female Mousekin peasant</MousekinPeasant.labelFemale>
+  <MousekinPeasant.labelFemalePlural>female Mousekin peasants</MousekinPeasant.labelFemalePlural>
+
+  <MousekinTraderSlaver.label>Mousekin slaver</MousekinTraderSlaver.label>
+  <MousekinTraderSlaver.labelPlural>Mousekin slavers</MousekinTraderSlaver.labelPlural>
+  <MousekinTraderSlaver.labelMale>male Mousekin slaver</MousekinTraderSlaver.labelMale>
+  <MousekinTraderSlaver.labelMalePlural>male Mousekin slavers</MousekinTraderSlaver.labelMalePlural>
+  <MousekinTraderSlaver.labelFemale>female Mousekin slaver</MousekinTraderSlaver.labelFemale>
+  <MousekinTraderSlaver.labelFemalePlural>female Mousekin slavers</MousekinTraderSlaver.labelFemalePlural>
+
+  <MousekinSlave.label>Mousekin slave</MousekinSlave.label>
+  <MousekinSlave.labelPlural>Mousekin slaves</MousekinSlave.labelPlural>
+  <MousekinSlave.labelMale>male Mousekin slave</MousekinSlave.labelMale>
+  <MousekinSlave.labelMalePlural>male Mousekin slaves</MousekinSlave.labelMalePlural>
+  <MousekinSlave.labelFemale>female Mousekin slave</MousekinSlave.labelFemale>
+  <MousekinSlave.labelFemalePlural>female Mousekin slaves</MousekinSlave.labelFemalePlural>
+
+
+  <!-- NPCs from Independent Mousekins faction type (tougher to enslave, because they fought hard for their own freedom in the first place) -->
+
+  <MousekinIndyTownCouncilor.label>Mousekin councilor</MousekinIndyTownCouncilor.label>
+  <MousekinIndyTownCouncilor.labelPlural>Mousekin councilors</MousekinIndyTownCouncilor.labelPlural>
+  <MousekinIndyTownCouncilor.labelMale>male Mousekin councilor</MousekinIndyTownCouncilor.labelMale>
+  <MousekinIndyTownCouncilor.labelMalePlural>male Mousekin councilors</MousekinIndyTownCouncilor.labelMalePlural>
+  <MousekinIndyTownCouncilor.labelFemale>female Mousekin councilor</MousekinIndyTownCouncilor.labelFemale>
+  <MousekinIndyTownCouncilor.labelFemalePlural>female Mousekin councilors</MousekinIndyTownCouncilor.labelFemalePlural>
+
+  <MousekinIndyTownSoldier.label>Mousekin town soldier</MousekinIndyTownSoldier.label>
+  <MousekinIndyTownSoldier.labelPlural>Mousekin town soldiers</MousekinIndyTownSoldier.labelPlural>
+  <MousekinIndyTownSoldier.labelMale>male Mousekin town soldier</MousekinIndyTownSoldier.labelMale>
+  <MousekinIndyTownSoldier.labelMalePlural>male Mousekin town soldiers</MousekinIndyTownSoldier.labelMalePlural>
+  <MousekinIndyTownSoldier.labelFemale>female Mousekin town soldier</MousekinIndyTownSoldier.labelFemale>
+  <MousekinIndyTownSoldier.labelFemalePlural>female Mousekin town soldiers</MousekinIndyTownSoldier.labelFemalePlural>
+
+  <MousekinIndyTownFarmer.label>Mousekin town farmer</MousekinIndyTownFarmer.label>
+  <MousekinIndyTownFarmer.labelPlural>Mousekin town farmers</MousekinIndyTownFarmer.labelPlural>
+  <MousekinIndyTownFarmer.labelMale>male Mousekin town farmer</MousekinIndyTownFarmer.labelMale>
+  <MousekinIndyTownFarmer.labelMalePlural>male Mousekin town farmers</MousekinIndyTownFarmer.labelMalePlural>
+  <MousekinIndyTownFarmer.labelFemale>female Mousekin town farmer</MousekinIndyTownFarmer.labelFemale>
+  <MousekinIndyTownFarmer.labelFemalePlural>female Mousekin town farmers</MousekinIndyTownFarmer.labelFemalePlural>
+
+
+  <!-- NPCs from Rodemani faction type -->
+
+  <MousekinTraderNomad.label>Mousekin nomad trader</MousekinTraderNomad.label>
+  <MousekinTraderNomad.labelPlural>Mousekin nomad traders</MousekinTraderNomad.labelPlural>
+  <MousekinTraderNomad.labelMale>male Mousekin nomad trader</MousekinTraderNomad.labelMale>
+  <MousekinTraderNomad.labelMalePlural>male Mousekin nomad traders</MousekinTraderNomad.labelMalePlural>
+  <MousekinTraderNomad.labelFemale>female Mousekin nomad trader</MousekinTraderNomad.labelFemale>
+  <MousekinTraderNomad.labelFemalePlural>female Mousekin nomad traders</MousekinTraderNomad.labelFemalePlural>
+
+  <MousekinNomad.label>Mousekin nomad</MousekinNomad.label>
+  <MousekinNomad.labelPlural>Mousekin nomads</MousekinNomad.labelPlural>
+  <MousekinNomad.labelMale>male Mousekin nomad</MousekinNomad.labelMale>
+  <MousekinNomad.labelMalePlural>male Mousekin nomads</MousekinNomad.labelMalePlural>
+  <MousekinNomad.labelFemale>female Mousekin nomad</MousekinNomad.labelFemale>
+  <MousekinNomad.labelFemalePlural>female Mousekin nomads</MousekinNomad.labelFemalePlural>
+
+
+  <!-- NPCs from Mousekin Brigand faction type -->
+
+  <MousekinRaider.label>Mousekin brigand</MousekinRaider.label>
+  <MousekinRaider.labelPlural>Mousekin brigands</MousekinRaider.labelPlural>
+  <MousekinRaider.labelMale>male Mousekin brigand</MousekinRaider.labelMale>
+  <MousekinRaider.labelMalePlural>male Mousekin brigands</MousekinRaider.labelMalePlural>
+  <MousekinRaider.labelFemale>female Mousekin brigand</MousekinRaider.labelFemale>
+  <MousekinRaider.labelFemalePlural>female Mousekin brigands</MousekinRaider.labelFemalePlural>
+
+
+  <!-- Miscellaneous Mousekin NPCs -->
+
+  <MousekinWanderer.label>Mousekin wanderer</MousekinWanderer.label>
+  <MousekinWanderer.labelPlural>Mousekin wanderers</MousekinWanderer.labelPlural>
+  <MousekinWanderer.labelMale>male Mousekin wanderer</MousekinWanderer.labelMale>
+  <MousekinWanderer.labelMalePlural>male Mousekin wanderers</MousekinWanderer.labelMalePlural>
+  <MousekinWanderer.labelFemale>female Mousekin wanderer</MousekinWanderer.labelFemale>
+  <MousekinWanderer.labelFemalePlural>female Mousekin wanderers</MousekinWanderer.labelFemalePlural>
+
+
+</LanguageData>

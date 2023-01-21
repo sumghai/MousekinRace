@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Giant Cavy -->
+
+  <Mousekin_AnimalGiantCavy.label>giant cavy</Mousekin_AnimalGiantCavy.label>
+  <Mousekin_AnimalGiantCavy.description>Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Giant cavy")\n\nA giant, docile rodent several orders of magnitude larger than the common guinea pig, and can withstand harsh climates fairly well. They subsist on a high-fiber diet of grass, hay, berries, fruits and vegetables, and are known to also consume their own feces in order to recycle vital trace nutrients.\n\nOriginally genetically-engineered and bred by humans millenia ago as a potential food source for austere frontier colonies, prehistoric Mousekins eventually successfully domesticated these peculiar creatures as companions, riding mounts and pack animals.</Mousekin_AnimalGiantCavy.description>
+  <Mousekin_AnimalGiantCavy.tools.1.label>head</Mousekin_AnimalGiantCavy.tools.1.label>
+  <Mousekin_AnimalGiantCavy.tools.2.label>left claw</Mousekin_AnimalGiantCavy.tools.2.label>
+  <Mousekin_AnimalGiantCavy.tools.3.label>right claw</Mousekin_AnimalGiantCavy.tools.3.label>
+  <Mousekin_AnimalGiantCavy_Leather.label>giant cavy leather</Mousekin_AnimalGiantCavy_Leather.label>
+  <Mousekin_AnimalGiantCavy_Leather.description>giant cavy leather</Mousekin_AnimalGiantCavy_Leather.description>
+  <Mousekin_AnimalGiantCavy_Leather.stuffProps.stuffAdjective>giant cavy leather</Mousekin_AnimalGiantCavy_Leather.stuffProps.stuffAdjective>
+  <Mousekin_AnimalGiantCavy_Meat.label>giant cavy meat</Mousekin_AnimalGiantCavy_Meat.label>
+  <Mousekin_AnimalGiantCavy_Meat.description>giant cavy meat</Mousekin_AnimalGiantCavy_Meat.description>
+  <Mousekin_AnimalGiantCavy_Corpse.label>giant cavy corpse</Mousekin_AnimalGiantCavy_Corpse.label>
+  <Mousekin_AnimalGiantCavy_Corpse.description>giant cavy corpse</Mousekin_AnimalGiantCavy_Corpse.description>
+
+
+  <!-- Pudgemouse -->
+
+  <Mousekin_AnimalPudgemouse.label>pudgemouse</Mousekin_AnimalPudgemouse.label>
+  <Mousekin_AnimalPudgemouse.description>Species: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Fat ash-grey mouse")\n\nA large chihuahua-sized species of grey-furred rodents capable of walking only on their hind legs for extended periods of time. They subsist on a mixed diet of fruits, seeds and grains, and will happily eat meat as well.\n\nDue to their unusually high level of intelligence and empathy, as well as their apparent ability to understand both written and spoken humanoid languages (despite being incapable of vocalizing actual words themselves beyond squeaking), these mice are easily domesticated as companions and pets by Mousekins, and are universally exempt from any rules that otherwise prohibit pet animals.</Mousekin_AnimalPudgemouse.description>
+  <Mousekin_AnimalPudgemouse.tools.0.label>left claw</Mousekin_AnimalPudgemouse.tools.0.label>
+  <Mousekin_AnimalPudgemouse.tools.1.label>right claw</Mousekin_AnimalPudgemouse.tools.1.label>
+  <Mousekin_AnimalPudgemouse.tools.3.label>head</Mousekin_AnimalPudgemouse.tools.3.label>
+  <Mousekin_AnimalPudgemouse_Leather.label>pudgemouse leather</Mousekin_AnimalPudgemouse_Leather.label>
+  <Mousekin_AnimalPudgemouse_Leather.description>pudgemouse leather</Mousekin_AnimalPudgemouse_Leather.description>
+  <Mousekin_AnimalPudgemouse_Leather.stuffProps.stuffAdjective>pudgemouse leather</Mousekin_AnimalPudgemouse_Leather.stuffProps.stuffAdjective>
+  <Mousekin_AnimalPudgemouse_Meat.label>pudgemouse meat</Mousekin_AnimalPudgemouse_Meat.label>
+  <Mousekin_AnimalPudgemouse_Meat.description>pudgemouse meat</Mousekin_AnimalPudgemouse_Meat.description>
+  <Mousekin_AnimalPudgemouse_Corpse.label>pudgemouse corpse</Mousekin_AnimalPudgemouse_Corpse.label>
+  <Mousekin_AnimalPudgemouse_Corpse.description>pudgemouse corpse</Mousekin_AnimalPudgemouse_Corpse.description>
+
+
+</LanguageData>

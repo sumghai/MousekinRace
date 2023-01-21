@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Directly harvested from plants -->
+
+  <Mousekin_RawBarley.label>mouse-ear barley</Mousekin_RawBarley.label>
+  <Mousekin_RawBarley.description>Small, edible rounded cereal grains, used in cooking or as animal feed.</Mousekin_RawBarley.description>
+
+  <Mousekin_RawNutChonko.label>chonko nuts</Mousekin_RawNutChonko.label>
+  <Mousekin_RawNutChonko.description>Raw chonko nuts, resembling oversized almonds. Nice to eat, even when raw.</Mousekin_RawNutChonko.description>
+
+  <Mousekin_RawNutNyam.label>nyam nuts</Mousekin_RawNutNyam.label>
+  <Mousekin_RawNutNyam.description>Raw nyam nuts, resembling macadamias with faint stripes. Nice to eat, even when raw.</Mousekin_RawNutNyam.description>
+
+  <Mousekin_RawWheat.label>wheat</Mousekin_RawWheat.label>
+  <Mousekin_RawWheat.description>Small, edible oval cereal grains, which can be further processed into flour or used as animal feed.</Mousekin_RawWheat.description>
+
+
+  <!-- Processed from raw plant food -->
+
+  <Mousekin_Flour.label>flour</Mousekin_Flour.label>
+  <Mousekin_Flour.description>Finely ground powder of wheat, used in baking and cooking.</Mousekin_Flour.description>
+
+
+</LanguageData>

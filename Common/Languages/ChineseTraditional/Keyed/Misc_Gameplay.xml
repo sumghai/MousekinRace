@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MousekinRace_Beehive_HoneyPausedBadTemp>Paused: Non-ideal temperature.</MousekinRace_Beehive_HoneyPausedBadTemp>
+
+  <MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>Paused: Not enough flowers in range ({0} of {1} required).</MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>
+
+  <MousekinRace_Beehive_HoneyProgress>Next honey in: {0}</MousekinRace_Beehive_HoneyProgress>
+
+  <MousekinRace_Beehive_HoneyReady>Awaiting pickup.</MousekinRace_Beehive_HoneyReady>
+
+  <MousekinRace_Beehive_Instructions>To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n</MousekinRace_Beehive_Instructions>
+
+  <MousekinRace_CheesePress_InsertMilkDesc>Milk to Insert</MousekinRace_CheesePress_InsertMilkDesc>
+
+  <MousekinRace_CheesePress_StartInsertionMilk>Bring Milk</MousekinRace_CheesePress_StartInsertionMilk>
+
+  <MousekinRace_CheesePress_StartInsertionMilkDesc>Bring milk to the cheese press to start the cheesemaking process</MousekinRace_CheesePress_StartInsertionMilkDesc>
+
+  <MousekinRace_CheesePress_CancelBringingMilk>Cancel bringing Milk</MousekinRace_CheesePress_CancelBringingMilk>
+
+  <MousekinRace_CheesePress_CancelBringingMilkDesc>Cancel ringing Milk to the cheese press.</MousekinRace_CheesePress_CancelBringingMilkDesc>
+
+  <MousekinRace_CheesePress_RemoveCheese>Remove Cheese</MousekinRace_CheesePress_RemoveCheese>
+
+  <MousekinRace_CheesePress_RemoveCheeseDesc>Remove cheese from the press.</MousekinRace_CheesePress_RemoveCheeseDesc>
+
+  <MousekinRace_FermentingBarrel_InsertMustOrWortDesc>Must or Wort to Insert</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
+
+  <MousekinRace_FermentingBarrel_StartInsertionMustOrWort>Bring Must or Wort</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
+
+  <MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>Bring mead must or lager wort to the barrel to start fermentation process  </MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
+
+  <MousekinRace_FermentingBarrel_CancelBringingMustOrWort>Cancel bringing Must or Wort</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
+
+  <MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>Cancel bringing mead must or lager wort to the barrel.</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
+
+  <MousekinRace_MemeGoodwillImpact_Player>We are {0}</MousekinRace_MemeGoodwillImpact_Player>
+
+  <MousekinRace_MemeGoodwillImpact_Other>They are {0}</MousekinRace_MemeGoodwillImpact_Other>
+
+  <MousekinRace_PlaceWorker_CannotPlaceInDoorways>Cannot be placed in doorways.</MousekinRace_PlaceWorker_CannotPlaceInDoorways>
+
+  <MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0} must be placed at least {1} cells away from any impassable structures.</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
+
+  <MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0} must be placed at least {1} cells away from any other {0}s.</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
+
+  <MousekinRace_PlaceWorker_MustBeWallMounted>Must be mounted on a wall.</MousekinRace_PlaceWorker_MustBeWallMounted>
+
+  <MousekinRace_Windmill_InsertWheatDesc>Grain to Insert</MousekinRace_Windmill_InsertWheatDesc>
+
+  <MousekinRace_Windmill_StartInsertionWheat>Bring Wheat</MousekinRace_Windmill_StartInsertionWheat>
+
+  <MousekinRace_Windmill_StartInsertionWheatDesc>Bring raw wheat to the windmill for milling into flour</MousekinRace_Windmill_StartInsertionWheatDesc>
+
+  <MousekinRace_Windmill_CancelBringingWheat>Cancel bringing Wheat</MousekinRace_Windmill_CancelBringingWheat>
+
+  <MousekinRace_Windmill_CancelBringingWheatDesc>Cancel rining raw wheat to the windmill</MousekinRace_Windmill_CancelBringingWheatDesc>
+
+  <MousekinRace_Windmill_LowWindspeed>Irrigation paused: Insufficient wind speed</MousekinRace_Windmill_LowWindspeed>
+
+</LanguageData>

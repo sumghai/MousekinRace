@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Apparel subtree -->
+
+  <Mousekin_ResearchApparelCommoner.label>Commoner apparel</Mousekin_ResearchApparelCommoner.label>
+  <Mousekin_ResearchApparelCommoner.description>Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners.</Mousekin_ResearchApparelCommoner.description>
+
+  <Mousekin_ResearchApparelMiddle.label>Middle-class apparel</Mousekin_ResearchApparelMiddle.label>
+  <Mousekin_ResearchApparelMiddle.description>Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research.</Mousekin_ResearchApparelMiddle.description>
+
+  <Mousekin_ResearchApparelMilitary.label>Military apparel</Mousekin_ResearchApparelMilitary.label>
+  <Mousekin_ResearchApparelMilitary.description>Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research.</Mousekin_ResearchApparelMilitary.description>
+
+  <Mousekin_ResearchApparelNoble.label>Aristocratic apparel</Mousekin_ResearchApparelNoble.label>
+  <Mousekin_ResearchApparelNoble.description>Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research.</Mousekin_ResearchApparelNoble.description>
+
+
+  <!-- Gunpowder manufacturing subtree -->
+
+  <Mousekin_ResearchAlchemy.label>Medicinal alchemy</Mousekin_ResearchAlchemy.label>
+  <Mousekin_ResearchAlchemy.description>Concoct poultices and potions from a variety of herbal and mineral ingredients.</Mousekin_ResearchAlchemy.description>
+
+  <Mousekin_ResearchCharcoal.label>Charcoal</Mousekin_ResearchCharcoal.label>
+  <Mousekin_ResearchCharcoal.description>Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions.</Mousekin_ResearchCharcoal.description>
+
+  <Mousekin_ResearchMachineryBasic.label>Clockwork mechanisms</Mousekin_ResearchMachineryBasic.label>
+  <Mousekin_ResearchMachineryBasic.description>Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research.</Mousekin_ResearchMachineryBasic.description>
+
+  <Mousekin_ResearchMachineryAdvanced.label>Heavy machinery</Mousekin_ResearchMachineryAdvanced.label>
+  <Mousekin_ResearchMachineryAdvanced.description>Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research.</Mousekin_ResearchMachineryAdvanced.description>
+
+  <Mousekin_ResearchMining.label>Deep mining</Mousekin_ResearchMining.label>
+  <Mousekin_ResearchMining.description>Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research.</Mousekin_ResearchMining.description>
+
+  <Mousekin_ResearchGunpowder.label>Gunpowder</Mousekin_ResearchGunpowder.label>
+  <Mousekin_ResearchGunpowder.description>Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research.</Mousekin_ResearchGunpowder.description>
+
+
+  <!-- Cooking subtree -->
+
+  <Mousekin_ResearchCookingIronStoves.label>Cast-iron stoves</Mousekin_ResearchCookingIronStoves.label>
+  <Mousekin_ResearchCookingIronStoves.description>Build cast-iron stoves for cooking more complex Mousekin dishes.</Mousekin_ResearchCookingIronStoves.description>
+
+  <Mousekin_ResearchBeekeeping.label>Apiaries</Mousekin_ResearchBeekeeping.label>
+  <Mousekin_ResearchBeekeeping.description>Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles.</Mousekin_ResearchBeekeeping.description>
+
+  <Mousekin_ResearchCookingNoble.label>Aristocratic cuisine</Mousekin_ResearchCookingNoble.label>
+  <Mousekin_ResearchCookingNoble.description>Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research.</Mousekin_ResearchCookingNoble.description>
+
+
+  <!-- Buildings and structures subtree -->
+
+  <Mousekin_ResearchBuildingVillage.label>Cottage building</Mousekin_ResearchBuildingVillage.label>
+  <Mousekin_ResearchBuildingVillage.description>Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows.</Mousekin_ResearchBuildingVillage.description>
+
+  <Mousekin_ResearchBuildingCastle.label>Castle architecture</Mousekin_ResearchBuildingCastle.label>
+  <Mousekin_ResearchBuildingCastle.description>Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats.</Mousekin_ResearchBuildingCastle.description>
+
+  <Mousekin_ResearchGlassmaking.label>Glassmaking</Mousekin_ResearchGlassmaking.label>
+  <Mousekin_ResearchGlassmaking.description>Melt sand at high temperatures into glass for fabricating windows. (Only available if Fertile Fields mods is installed)</Mousekin_ResearchGlassmaking.description>
+
+
+</LanguageData>

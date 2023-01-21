@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Manually grinding flour (without Windmill) -->
+
+  <Mousekin_Make_FlourFromWheat.label>grind flour from wheat</Mousekin_Make_FlourFromWheat.label>
+  <Mousekin_Make_FlourFromWheat.description>Grind flour from wheat grains in a mortar and pestle. The process is slow, labour-intensive and inefficient due to the small quantities involved.</Mousekin_Make_FlourFromWheat.description>
+  <Mousekin_Make_FlourFromWheat.jobString>Grinding flour from wheat</Mousekin_Make_FlourFromWheat.jobString>
+
+
+  <!-- Mousekin trail mix -->
+
+  <Mousekin_Make_TrailMix.label>make Mousekin trail mix</Mousekin_Make_TrailMix.label>
+  <Mousekin_Make_TrailMix.description>Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it.</Mousekin_Make_TrailMix.description>
+  <Mousekin_Make_TrailMix.jobString>Preparing Mousekin trail mix</Mousekin_Make_TrailMix.jobString>
+
+  <Mousekin_Make_TrailMixBulk.label>make Mousekin trail mix x3</Mousekin_Make_TrailMixBulk.label>
+  <Mousekin_Make_TrailMixBulk.description>Make bulk trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it.</Mousekin_Make_TrailMixBulk.description>
+  <Mousekin_Make_TrailMixBulk.jobString>Preparing bulk Mousekin trail mix</Mousekin_Make_TrailMixBulk.jobString>
+
+
+  <!-- Country bread -->
+
+  <Mousekin_Make_CountryBread.label>bake country bread</Mousekin_Make_CountryBread.label>
+  <Mousekin_Make_CountryBread.description>Bake a loaf of country bread from flour.</Mousekin_Make_CountryBread.description>
+  <Mousekin_Make_CountryBread.jobString>Baking country bread</Mousekin_Make_CountryBread.jobString>
+
+  <Mousekin_Make_CountryBreadBulk.label>bake country bread x4</Mousekin_Make_CountryBreadBulk.label>
+  <Mousekin_Make_CountryBreadBulk.description>Bake 4 loaves of country bread from flour.</Mousekin_Make_CountryBreadBulk.description>
+  <Mousekin_Make_CountryBreadBulk.jobString>Baking 4 loaves of country bread</Mousekin_Make_CountryBreadBulk.jobString>
+
+
+  <!-- Barley porridge -->
+
+  <Mousekin_Make_BarleyPorridge.label>cook barley porridge</Mousekin_Make_BarleyPorridge.label>
+  <Mousekin_Make_BarleyPorridge.description>Cook a bowl of barley porridge.</Mousekin_Make_BarleyPorridge.description>
+  <Mousekin_Make_BarleyPorridge.jobString>Cooking barley porridge</Mousekin_Make_BarleyPorridge.jobString>
+
+  <Mousekin_Make_BarleyPorridgeBulk.label>cook barley porridge x4</Mousekin_Make_BarleyPorridgeBulk.label>
+  <Mousekin_Make_BarleyPorridgeBulk.description>Cook 4 bowls of barley porridge.</Mousekin_Make_BarleyPorridgeBulk.description>
+  <Mousekin_Make_BarleyPorridgeBulk.jobString>Cooking 4 bowls of barley porridge</Mousekin_Make_BarleyPorridgeBulk.jobString>
+
+
+  <!-- Eggs on toast -->
+
+  <Mousekin_Make_EggsOnToast.label>cook eggs on toast x4</Mousekin_Make_EggsOnToast.label>
+  <Mousekin_Make_EggsOnToast.description>Cook 4 servings of eggs on toast</Mousekin_Make_EggsOnToast.description>
+  <Mousekin_Make_EggsOnToast.jobString>Cooking 4 servings of eggs on toast</Mousekin_Make_EggsOnToast.jobString>
+
+
+  <!-- Ploughman's lunch -->
+
+  <Mousekin_Make_PloughmansLunch.label>make ploughman's lunch x4</Mousekin_Make_PloughmansLunch.label>
+  <Mousekin_Make_PloughmansLunch.description>Make 4 servings of ploughman's lunch.</Mousekin_Make_PloughmansLunch.description>
+  <Mousekin_Make_PloughmansLunch.jobString>Making 4 servings of ploughman's lunch</Mousekin_Make_PloughmansLunch.jobString>
+
+
+  <!-- Bread bowl -->
+
+  <Mousekin_Make_BreadBowl.label>make bread bowl</Mousekin_Make_BreadBowl.label>
+  <Mousekin_Make_BreadBowl.description>Hollow out a loaf of country bread and fill it with a creamy meat and vegetable potage.</Mousekin_Make_BreadBowl.description>
+  <Mousekin_Make_BreadBowl.jobString>Making bread bowl</Mousekin_Make_BreadBowl.jobString>
+
+  <Mousekin_Make_BreadBowlBulk.label>make bread bowl x4</Mousekin_Make_BreadBowlBulk.label>
+  <Mousekin_Make_BreadBowlBulk.description>Hollow out 4 loaves of country bread and fill them with a creamy meat and vegetable potage.</Mousekin_Make_BreadBowlBulk.description>
+  <Mousekin_Make_BreadBowlBulk.jobString>Making 4 bread bowls</Mousekin_Make_BreadBowlBulk.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mousekin Candle -->
+
+  <Mousekin_Candle.label>Mousekin Candle</Mousekin_Candle.label>
+  <Mousekin_Candle.description>Slow-burning beeswax candles used in lamps and lanterns.</Mousekin_Candle.description>
+
+
+  <!-- Clockwork Mechanism (pre-industrial component) -->
+
+  <Mousekin_ClockworkComponent.label>Clockwork Mechanism</Mousekin_ClockworkComponent.label>
+  <Mousekin_ClockworkComponent.description>Assorted metal springs, gears and levers used for crafting complex Mousekin devices.</Mousekin_ClockworkComponent.description>
+
+
+  <!-- Mousekin poultice (potency between vanilla herbal and industrial medicine) -->
+
+  <Mousekin_MedicinePoultice.label>Mousekin poultice</Mousekin_MedicinePoultice.label>
+  <Mousekin_MedicinePoultice.description>A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals.</Mousekin_MedicinePoultice.description>
+
+
+</LanguageData>

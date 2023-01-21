@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Commoner Headgear -->
+
+  <Mousekin_HatStraw.label>Mousekin Straw Hat</Mousekin_HatStraw.label>
+  <Mousekin_HatStraw.description>A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears.</Mousekin_HatStraw.description>
+
+  <Mousekin_HatHeadscarf.label>Mousekin Headscarf</Mousekin_HatHeadscarf.label>
+  <Mousekin_HatHeadscarf.description>A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears.</Mousekin_HatHeadscarf.description>
+
+
+  <!-- Middle-class Headgear -->
+
+  <Mousekin_HatNunVeil.label>Mousekin Nun’s Veil</Mousekin_HatNunVeil.label>
+  <Mousekin_HatNunVeil.description>A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears.</Mousekin_HatNunVeil.description>
+
+
+  <!-- Military Headgear -->
+
+  <Mousekin_HelmetKettle.label>Mousekin Kettle Hat</Mousekin_HelmetKettle.label>
+  <Mousekin_HelmetKettle.description>A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears.</Mousekin_HelmetKettle.description>
+
+  <Mousekin_HelmetMorion.label>Mousekin Morion Helmet</Mousekin_HelmetMorion.label>
+  <Mousekin_HelmetMorion.description>A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears.</Mousekin_HelmetMorion.description>
+
+  <Mousekin_HelmetKnight.label>Mousekin Knight's Helmet</Mousekin_HelmetKnight.label>
+  <Mousekin_HelmetKnight.description>A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears.</Mousekin_HelmetKnight.description>
+
+
+  <!-- Uncraftable -->
+
+  <Mousekin_HatWoodsman.label>Mousekin Woodsman’s Bycocket</Mousekin_HatWoodsman.label>
+  <Mousekin_HatWoodsman.description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</Mousekin_HatWoodsman.description>
+
+  <Mousekin_HelmetKnightCommander.label>Mousekin Knight Commander’s Helmet</Mousekin_HelmetKnightCommander.label>
+  <Mousekin_HelmetKnightCommander.description>A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears.</Mousekin_HelmetKnightCommander.description>
+
+
+  <!-- Dummy Defs for rendering purposes -->
+
+  <Mousekin_HatCloakHood.label>hood</Mousekin_HatCloakHood.label>
+  <Mousekin_HatCloakHood.description>Hood for the Mousekin Cloak.</Mousekin_HatCloakHood.description>
+
+  <Mousekin_HatGuardenerRobeHood.label>hood</Mousekin_HatGuardenerRobeHood.label>
+  <Mousekin_HatGuardenerRobeHood.description>Hood for the Mousekin Guardener's Robe.</Mousekin_HatGuardenerRobeHood.description>
+
+  <Mousekin_HatNunVeilBack.label>Veil Back</Mousekin_HatNunVeilBack.label>
+  <Mousekin_HatNunVeilBack.description>Back of the Mousekin Nun’s Veil.</Mousekin_HatNunVeilBack.description>
+
+  <Mousekin_HelmetKnight_VisorUp.label>Knight's Helmet with visor up</Mousekin_HelmetKnight_VisorUp.label>
+  <Mousekin_HelmetKnight_VisorUp.description>Knight's Helmet with visor up</Mousekin_HelmetKnight_VisorUp.description>
+
+  <Mousekin_HelmetKnightCommander_VisorUp.label>Knight Commander's Helmet with visor up</Mousekin_HelmetKnightCommander_VisorUp.label>
+  <Mousekin_HelmetKnightCommander_VisorUp.description>Knight Commander's Helmet with visor up</Mousekin_HelmetKnightCommander_VisorUp.description>
+
+
+</LanguageData>

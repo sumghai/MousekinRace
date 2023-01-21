@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MousekinNamePackUtility.rulePack.rulesStrings.0>Mousekin_FirstName_Male(p=10)->[mousekin_firstname_male]</MousekinNamePackUtility.rulePack.rulesStrings.0>
+  <MousekinNamePackUtility.rulePack.rulesStrings.1>Mousekin_FirstName_Male(p=1)->[mousekin_firstname_unisex]</MousekinNamePackUtility.rulePack.rulesStrings.1>
+  <MousekinNamePackUtility.rulePack.rulesStrings.2>Mousekin_FirstName_Female(p=10)->[mousekin_firstname_female]</MousekinNamePackUtility.rulePack.rulesStrings.2>
+  <MousekinNamePackUtility.rulePack.rulesStrings.3>Mousekin_FirstName_Female(p=1)->[mousekin_firstname_unisex]</MousekinNamePackUtility.rulePack.rulesStrings.3>
+  <MousekinNamePackUtility.rulePack.rulesStrings.4>Mousekin_LastName_Commoner->[mousekin_surname_commoner]</MousekinNamePackUtility.rulePack.rulesStrings.4>
+  <MousekinNamePackUtility.rulePack.rulesStrings.5>Mousekin_LastName_Heroic->[mousekin_surname_heroic]</MousekinNamePackUtility.rulePack.rulesStrings.5>
+  <MousekinNamePackUtility.rulePack.rulesStrings.6>Mousekin_LastName_Royal->[mousekin_surname_royal]</MousekinNamePackUtility.rulePack.rulesStrings.6>
+
+  <NamerPerson_MousekinMale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</NamerPerson_MousekinMale.rulePack.rulesStrings.0>
+  <NamerPerson_MousekinFemale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</NamerPerson_MousekinFemale.rulePack.rulesStrings.0>
+
+  <NamerPerson_MousekinHeroicMale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</NamerPerson_MousekinHeroicMale.rulePack.rulesStrings.0>
+  <NamerPerson_MousekinHeroicMale.rulePack.rulesStrings.1>r_name(p=2)->[Mousekin_FirstName_Male] [Mousekin_LastName_Heroic]</NamerPerson_MousekinHeroicMale.rulePack.rulesStrings.1>
+
+  <NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings.0>
+  <NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings.1>r_name(p=2)->[Mousekin_FirstName_Female] [Mousekin_LastName_Heroic]</NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings.1>
+
+  <NamerPerson_MousekinRoyalMale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</NamerPerson_MousekinRoyalMale.rulePack.rulesStrings.0>
+  <NamerPerson_MousekinRoyalFemale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</NamerPerson_MousekinRoyalFemale.rulePack.rulesStrings.0>
+
+
+</LanguageData>

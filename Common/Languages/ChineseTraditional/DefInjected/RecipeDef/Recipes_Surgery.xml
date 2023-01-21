@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Installing Craftable Prosthetics -->
+
+  <Mousekin_InstallProstheticClothEar.label>Install Cloth Mousekin Ear</Mousekin_InstallProstheticClothEar.label>
+  <Mousekin_InstallProstheticClothEar.description>Install a cloth Mousekin ear.</Mousekin_InstallProstheticClothEar.description>
+  <Mousekin_InstallProstheticClothEar.jobString>Installing Cloth Mousekin Ear.</Mousekin_InstallProstheticClothEar.jobString>
+
+  <Mousekin_InstallProstheticClothTail.label>Install Cloth Mousekin Tail</Mousekin_InstallProstheticClothTail.label>
+  <Mousekin_InstallProstheticClothTail.description>Install a cloth Mousekin tail.</Mousekin_InstallProstheticClothTail.description>
+  <Mousekin_InstallProstheticClothTail.jobString>Installing Cloth Mousekin Tail.</Mousekin_InstallProstheticClothTail.jobString>
+
+
+  <!-- Installing Organic Body Parts -->
+
+  <Mousekin_InstallNaturalEar.label>Install Mousekin Ear</Mousekin_InstallNaturalEar.label>
+  <Mousekin_InstallNaturalEar.description>Install a biological Mousekin ear.</Mousekin_InstallNaturalEar.description>
+  <Mousekin_InstallNaturalEar.jobString>Installing Mousekin Ear</Mousekin_InstallNaturalEar.jobString>
+
+  <Mousekin_InstallNaturalTail.label>Install Mousekin Tail</Mousekin_InstallNaturalTail.label>
+  <Mousekin_InstallNaturalTail.description>Install a biological Mousekin tail.</Mousekin_InstallNaturalTail.description>
+  <Mousekin_InstallNaturalTail.jobString>Installing Mousekin Tail</Mousekin_InstallNaturalTail.jobString>
+
+
+</LanguageData>

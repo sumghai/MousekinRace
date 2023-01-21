@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mousekin Cast-Iron Stove -->
+
+  <Mousekin_CastIronStove.label>Mousekin Cast-Iron Stove</Mousekin_CastIronStove.label>
+  <Mousekin_CastIronStove.description>A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals.</Mousekin_CastIronStove.description>
+  <Mousekin_CastIronStove_Blueprint.label>Mousekin Cast-Iron Stove (blueprint)</Mousekin_CastIronStove_Blueprint.label>
+  <Mousekin_CastIronStove_Blueprint_Install.label>Mousekin Cast-Iron Stove (blueprint)</Mousekin_CastIronStove_Blueprint_Install.label>
+  <Mousekin_CastIronStove_Frame.label>Mousekin Cast-Iron Stove (building)</Mousekin_CastIronStove_Frame.label>
+  <Mousekin_CastIronStove_Frame.description>A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals.</Mousekin_CastIronStove_Frame.description>
+
+
+  <!-- Mousekin alchemy bench -->
+
+  <Mousekin_WorkbenchAlchemy.label>Mousekin alchemy bench</Mousekin_WorkbenchAlchemy.label>
+  <Mousekin_WorkbenchAlchemy.description>A workbench for concocting various Mousekin herbal poultices, potions and explosives.</Mousekin_WorkbenchAlchemy.description>
+  <Mousekin_WorkbenchAlchemy_Blueprint.label>Mousekin alchemy bench (blueprint)</Mousekin_WorkbenchAlchemy_Blueprint.label>
+  <Mousekin_WorkbenchAlchemy_Blueprint_Install.label>Mousekin alchemy bench (blueprint)</Mousekin_WorkbenchAlchemy_Blueprint_Install.label>
+  <Mousekin_WorkbenchAlchemy_Frame.label>Mousekin alchemy bench (building)</Mousekin_WorkbenchAlchemy_Frame.label>
+  <Mousekin_WorkbenchAlchemy_Frame.description>A workbench for concocting various Mousekin herbal poultices, potions and explosives.</Mousekin_WorkbenchAlchemy_Frame.description>
+
+
+  <!-- Mousekin brewery -->
+
+  <Mousekin_WorkbenchBrewery.label>Mousekin brewery</Mousekin_WorkbenchBrewery.label>
+  <Mousekin_WorkbenchBrewery.description>A workbench for preparing musts used in the fermentation of various Mousekin alcoholic beverages.</Mousekin_WorkbenchBrewery.description>
+  <Mousekin_WorkbenchBrewery_Blueprint.label>Mousekin brewery (blueprint)</Mousekin_WorkbenchBrewery_Blueprint.label>
+  <Mousekin_WorkbenchBrewery_Blueprint_Install.label>Mousekin brewery (blueprint)</Mousekin_WorkbenchBrewery_Blueprint_Install.label>
+  <Mousekin_WorkbenchBrewery_Frame.label>Mousekin brewery (building)</Mousekin_WorkbenchBrewery_Frame.label>
+  <Mousekin_WorkbenchBrewery_Frame.description>A workbench for preparing musts used in the fermentation of various Mousekin alcoholic beverages.</Mousekin_WorkbenchBrewery_Frame.description>
+
+
+  <!-- Mousekin butcher table -->
+
+  <Mousekin_WorkbenchButcher.label>Mousekin butcher table</Mousekin_WorkbenchButcher.label>
+  <Mousekin_WorkbenchButcher.description>A workbench with a sturdy countertop used for butchering dead creatures into pieces of raw meat.</Mousekin_WorkbenchButcher.description>
+  <Mousekin_WorkbenchButcher_Blueprint.label>Mousekin butcher table (blueprint)</Mousekin_WorkbenchButcher_Blueprint.label>
+  <Mousekin_WorkbenchButcher_Blueprint_Install.label>Mousekin butcher table (blueprint)</Mousekin_WorkbenchButcher_Blueprint_Install.label>
+  <Mousekin_WorkbenchButcher_Frame.label>Mousekin butcher table (building)</Mousekin_WorkbenchButcher_Frame.label>
+  <Mousekin_WorkbenchButcher_Frame.description>A workbench with a sturdy countertop used for butchering dead creatures into pieces of raw meat.</Mousekin_WorkbenchButcher_Frame.description>
+
+
+  <!-- Mousekin crafting bench -->
+
+  <Mousekin_WorkbenchCrafting.label>Mousekin crafting bench</Mousekin_WorkbenchCrafting.label>
+  <Mousekin_WorkbenchCrafting.description>A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting stone blocks and carving sculptures.</Mousekin_WorkbenchCrafting.description>
+  <Mousekin_WorkbenchCrafting_Blueprint.label>Mousekin crafting bench (blueprint)</Mousekin_WorkbenchCrafting_Blueprint.label>
+  <Mousekin_WorkbenchCrafting_Blueprint_Install.label>Mousekin crafting bench (blueprint)</Mousekin_WorkbenchCrafting_Blueprint_Install.label>
+  <Mousekin_WorkbenchCrafting_Frame.label>Mousekin crafting bench (building)</Mousekin_WorkbenchCrafting_Frame.label>
+  <Mousekin_WorkbenchCrafting_Frame.description>A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting stone blocks and carving sculptures.</Mousekin_WorkbenchCrafting_Frame.description>
+
+
+  <!-- Mousekin smithy -->
+
+  <Mousekin_WorkbenchSmithy.label>Mousekin smithy</Mousekin_WorkbenchSmithy.label>
+  <Mousekin_WorkbenchSmithy.description>A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty.</Mousekin_WorkbenchSmithy.description>
+  <Mousekin_WorkbenchSmithy_Blueprint.label>Mousekin smithy (blueprint)</Mousekin_WorkbenchSmithy_Blueprint.label>
+  <Mousekin_WorkbenchSmithy_Frame.label>Mousekin smithy (building)</Mousekin_WorkbenchSmithy_Frame.label>
+  <Mousekin_WorkbenchSmithy_Frame.description>A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty.</Mousekin_WorkbenchSmithy_Frame.description>
+
+
+  <!-- Mousekin seamstress bench -->
+
+  <Mousekin_WorkbenchTailor.label>Mousekin seamstress bench</Mousekin_WorkbenchTailor.label>
+  <Mousekin_WorkbenchTailor.description>A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing.</Mousekin_WorkbenchTailor.description>
+  <Mousekin_WorkbenchTailor_Blueprint.label>Mousekin seamstress bench (blueprint)</Mousekin_WorkbenchTailor_Blueprint.label>
+  <Mousekin_WorkbenchTailor_Blueprint_Install.label>Mousekin seamstress bench (blueprint)</Mousekin_WorkbenchTailor_Blueprint_Install.label>
+  <Mousekin_WorkbenchTailor_Frame.label>Mousekin seamstress bench (building)</Mousekin_WorkbenchTailor_Frame.label>
+  <Mousekin_WorkbenchTailor_Frame.description>A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing.</Mousekin_WorkbenchTailor_Frame.description>
+
+
+  <!-- Mousekin beehive -->
+
+  <Mousekin_Beehive.label>Mousekin beehive</Mousekin_Beehive.label>
+  <Mousekin_Beehive.description>A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees.</Mousekin_Beehive.description>
+  <Mousekin_Beehive_Blueprint.label>Mousekin beehive (blueprint)</Mousekin_Beehive_Blueprint.label>
+  <Mousekin_Beehive_Blueprint_Install.label>Mousekin beehive (blueprint)</Mousekin_Beehive_Blueprint_Install.label>
+  <Mousekin_Beehive_Frame.label>Mousekin beehive (building)</Mousekin_Beehive_Frame.label>
+  <Mousekin_Beehive_Frame.description>A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees.</Mousekin_Beehive_Frame.description>
+
+
+  <!-- Mousekin cheese press -->
+
+  <Mousekin_CheesePress.label>Mousekin cheese press</Mousekin_CheesePress.label>
+  <Mousekin_CheesePress.description>A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese.</Mousekin_CheesePress.description>
+  <Mousekin_CheesePress_Blueprint.label>Mousekin cheese press (blueprint)</Mousekin_CheesePress_Blueprint.label>
+  <Mousekin_CheesePress_Blueprint_Install.label>Mousekin cheese press (blueprint)</Mousekin_CheesePress_Blueprint_Install.label>
+  <Mousekin_CheesePress_Frame.label>Mousekin cheese press (building)</Mousekin_CheesePress_Frame.label>
+  <Mousekin_CheesePress_Frame.description>A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese.</Mousekin_CheesePress_Frame.description>
+
+
+  <!-- Mousekin fermenting barrel -->
+
+  <Mousekin_FermentingBarrel.label>Mousekin fermenting barrel</Mousekin_FermentingBarrel.label>
+  <Mousekin_FermentingBarrel.description>A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room.</Mousekin_FermentingBarrel.description>
+  <Mousekin_FermentingBarrel_Blueprint.label>Mousekin fermenting barrel (blueprint)</Mousekin_FermentingBarrel_Blueprint.label>
+  <Mousekin_FermentingBarrel_Blueprint_Install.label>Mousekin fermenting barrel (blueprint)</Mousekin_FermentingBarrel_Blueprint_Install.label>
+  <Mousekin_FermentingBarrel_Frame.label>Mousekin fermenting barrel (building)</Mousekin_FermentingBarrel_Frame.label>
+  <Mousekin_FermentingBarrel_Frame.description>A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room.</Mousekin_FermentingBarrel_Frame.description>
+
+
+  <!-- Mousekin research bench -->
+
+  <Mousekin_ResearchBench.label>Mousekin research bench</Mousekin_ResearchBench.label>
+  <Mousekin_ResearchBench.description>A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things.</Mousekin_ResearchBench.description>
+  <Mousekin_ResearchBench_Blueprint.label>Mousekin research bench (blueprint)</Mousekin_ResearchBench_Blueprint.label>
+  <Mousekin_ResearchBench_Blueprint_Install.label>Mousekin research bench (blueprint)</Mousekin_ResearchBench_Blueprint_Install.label>
+  <Mousekin_ResearchBench_Frame.label>Mousekin research bench (building)</Mousekin_ResearchBench_Frame.label>
+  <Mousekin_ResearchBench_Frame.description>A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things.</Mousekin_ResearchBench_Frame.description>
+
+
+  <!-- Mousekin windmill -->
+
+  <Mousekin_Windmill.label>Mousekin windmill</Mousekin_Windmill.label>
+  <Mousekin_Windmill.description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water.</Mousekin_Windmill.description>
+  <Mousekin_Windmill_Blueprint.label>Mousekin windmill (blueprint)</Mousekin_Windmill_Blueprint.label>
+  <Mousekin_Windmill_Frame.label>Mousekin windmill (building)</Mousekin_Windmill_Frame.label>
+  <Mousekin_Windmill_Frame.description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water.</Mousekin_Windmill_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mousekin Hunter’s Crossbow -->
+
+  <Mousekin_RangedWeapon_Crossbow.label>Mousekin Hunter’s Crossbow</Mousekin_RangedWeapon_Crossbow.label>
+  <Mousekin_RangedWeapon_Crossbow.description>A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used for hunting or self-defense, firing one bolt at a time using fiber or sinew strings under tension, and comes with a miniature crank wheel to allow the relatively weak Mousekins to quickly and easily draw the bow after firing. Its grip and trigger are too small for a human to wield and operate properly.</Mousekin_RangedWeapon_Crossbow.description>
+  <Mousekin_RangedWeapon_Crossbow.tools.0.label>stirrup</Mousekin_RangedWeapon_Crossbow.tools.0.label>
+
+
+  <!-- Mousekin Automatic Crossbow -->
+
+  <Mousekin_RangedWeapon_CrossbowAuto.label>Mousekin Automatic Crossbow</Mousekin_RangedWeapon_CrossbowAuto.label>
+  <Mousekin_RangedWeapon_CrossbowAuto.description>A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used in combat, firing multiple bolts in quick succession from a removable drum magazine using fiber or sinew strings under tension, and uses a wind-up spring mechanism to automatically reload and fire the next shot. Its grip and trigger are too small for a human to wield and operate properly.</Mousekin_RangedWeapon_CrossbowAuto.description>
+  <Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>stirrup</Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>
+
+
+  <!-- Mousekin Musket -->
+
+  <Mousekin_RangedWeapon_MusketLong.label>Mousekin Musket</Mousekin_RangedWeapon_MusketLong.label>
+  <Mousekin_RangedWeapon_MusketLong.description>A slow-firing firearm that propels small, smooth cast iron balls at distant targets, with a longer effective range and greater damage than crossbows. Its grip and trigger are too small for a human to wield and operate properly.</Mousekin_RangedWeapon_MusketLong.description>
+  <Mousekin_RangedWeapon_MusketLong.tools.0.label>stock</Mousekin_RangedWeapon_MusketLong.tools.0.label>
+  <Mousekin_RangedWeapon_MusketLong.tools.1.label>barrel</Mousekin_RangedWeapon_MusketLong.tools.1.label>
+
+
+  <!-- Mousekin Blunderbuss -->
+
+  <Mousekin_RangedWeapon_MusketShort.label>Mousekin Blunderbuss</Mousekin_RangedWeapon_MusketShort.label>
+  <Mousekin_RangedWeapon_MusketShort.description>A slow-firing firearm shorter than the regular Mousekin Musket, with a comparably shorter effective range but capable of great damage against armored targets. Its grip and trigger are too small for a human to wield and operate properly.</Mousekin_RangedWeapon_MusketShort.description>
+  <Mousekin_RangedWeapon_MusketShort.tools.0.label>stock</Mousekin_RangedWeapon_MusketShort.tools.0.label>
+  <Mousekin_RangedWeapon_MusketShort.tools.1.label>barrel</Mousekin_RangedWeapon_MusketShort.tools.1.label>
+
+
+</LanguageData>

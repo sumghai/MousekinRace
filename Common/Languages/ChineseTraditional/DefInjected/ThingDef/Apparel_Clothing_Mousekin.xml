@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Commoner Apparel -->
+
+  <Mousekin_ApparelSettlerOutfit.label>Mousekin Settler’s Outfit</Mousekin_ApparelSettlerOutfit.label>
+  <Mousekin_ApparelSettlerOutfit.description>A simple shirt, pair of trousers and a vest, typically worn by Mousekin settlers and homesteaders.</Mousekin_ApparelSettlerOutfit.description>
+
+  <Mousekin_ApparelSettlerDress.label>Mousekin Settler’s Dress</Mousekin_ApparelSettlerDress.label>
+  <Mousekin_ApparelSettlerDress.description>A simple full-body dress with an apron and shawl, typically worn by Mousekin settlers and homesteaders.</Mousekin_ApparelSettlerDress.description>
+
+  <Mousekin_ApparelWorkerOutfit.label>Mousekin Worker’s Outfit</Mousekin_ApparelWorkerOutfit.label>
+  <Mousekin_ApparelWorkerOutfit.description>A simple shirt, pair of trousers and a brown vest, typically worn by Mousekin peasants and laborers.</Mousekin_ApparelWorkerOutfit.description>
+
+  <Mousekin_ApparelWorkerDress.label>Mousekin Worker’s Dress</Mousekin_ApparelWorkerDress.label>
+  <Mousekin_ApparelWorkerDress.description>A blouse and bodice paired with a dress, typically worn by Mousekin peasants, laborers and domestic servants.</Mousekin_ApparelWorkerDress.description>
+
+  <Mousekin_ApparelCraftsmanOutfit.label>Mousekin Craftsman’s Outfit</Mousekin_ApparelCraftsmanOutfit.label>
+  <Mousekin_ApparelCraftsmanOutfit.description>A loose shirt and trousers protected by a hard-wearing craftsman's apron, practical for all sorts of crafting. Increases the wearer's general labor speed.</Mousekin_ApparelCraftsmanOutfit.description>
+
+  <Mousekin_ApparelCloak.label>Mousekin Cloak</Mousekin_ApparelCloak.label>
+  <Mousekin_ApparelCloak.description>A simple hooded cloak worn by Mousekin villagers or travellers in colder climates.</Mousekin_ApparelCloak.description>
+
+
+  <!-- Middle-class Apparel -->
+
+  <Mousekin_ApparelGuardenerGown.label>Mousekin Guardener’s Gown</Mousekin_ApparelGuardenerGown.label>
+  <Mousekin_ApparelGuardenerGown.description>A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat.</Mousekin_ApparelGuardenerGown.description>
+
+  <Mousekin_ApparelGuardenerRobe.label>Mousekin Guardener’s Robe</Mousekin_ApparelGuardenerRobe.label>
+  <Mousekin_ApparelGuardenerRobe.description>A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike.</Mousekin_ApparelGuardenerRobe.description>
+
+  <Mousekin_ApparelNunHabit.label>Mousekin Nun’s Habit</Mousekin_ApparelNunHabit.label>
+  <Mousekin_ApparelNunHabit.description>A demure habit, practical for administering religious rites as well as caring for the sick and orphaned.</Mousekin_ApparelNunHabit.description>
+
+  <Mousekin_ApparelPriestCassock.label>Mousekin Priest’s Cassock</Mousekin_ApparelPriestCassock.label>
+  <Mousekin_ApparelPriestCassock.description>An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer.</Mousekin_ApparelPriestCassock.description>
+
+
+  <!-- Military Apparel -->
+
+  <Mousekin_ApparelGambeson.label>Mousekin Gambeson</Mousekin_ApparelGambeson.label>
+  <Mousekin_ApparelGambeson.description>A thick, padded defensive jacket and pair of trousers worn by Mousekin soldiers, squires and knights, designed to cushion blows to plate armor. Comfortable to wear in cold climates.</Mousekin_ApparelGambeson.description>
+
+
+  <!-- Uncraftable -->
+
+  <Mousekin_ApparelKnightCommanderCape.label>Mousekin Knight Commander’s Cape</Mousekin_ApparelKnightCommanderCape.label>
+  <Mousekin_ApparelKnightCommanderCape.description>A stylish blue cape worn by Mousekin knight commanders to inspire awe from both allies and enemies alike.</Mousekin_ApparelKnightCommanderCape.description>
+
+
+  <!-- Dummy Defs for rendering purposes -->
+
+  <Mousekin_ApparelKnightCommanderCapeBack.label>Knight Commander’s Cape Back</Mousekin_ApparelKnightCommanderCapeBack.label>
+  <Mousekin_ApparelKnightCommanderCapeBack.description>Back of the Knight Commander’s Cape</Mousekin_ApparelKnightCommanderCapeBack.description>
+
+
+</LanguageData>

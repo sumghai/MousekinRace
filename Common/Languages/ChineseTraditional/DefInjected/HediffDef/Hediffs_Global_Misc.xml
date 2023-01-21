@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Hemlock poisoning from earless suicide mental break -->
+
+  <Mousekin_HemlockPoisoning.label>hemlock poisoning</Mousekin_HemlockPoisoning.label>
+  <Mousekin_HemlockPoisoning.description>Poison in the bloodstream, from accidental or deliberate ingestion of the high toxic hemlock plant. The smallest of doses is enough to be rapidly fatal to most humanoids.</Mousekin_HemlockPoisoning.description>
+  <Mousekin_HemlockPoisoning.stages.0.label>initial</Mousekin_HemlockPoisoning.stages.0.label>
+  <Mousekin_HemlockPoisoning.stages.1.label>moderate</Mousekin_HemlockPoisoning.stages.1.label>
+  <Mousekin_HemlockPoisoning.stages.2.label>fatal</Mousekin_HemlockPoisoning.stages.2.label>
+
+
+  <!-- Muroidine effects from consuming Chonko nut brew -->
+
+  <Mousekin_MuroidineHigh.label>Chonko nut brew high</Mousekin_MuroidineHigh.label>
+  <Mousekin_MuroidineHigh.description>The methylxanthine alkaloid muroidine, naturally present in trace quantities in Chonko and Nyam nuts or concentrated in beverages like Chonko nut brew, increases the stimuli in one's nervous system once metabolised, suppressing the urge to sleep and clearing the mind. Increases consciousness by 10% and blood circulation by 5%, as well as reducing rest fall rate by 10%.</Mousekin_MuroidineHigh.description>
+  <Mousekin_MuroidineHigh.labelNoun>a Chonko nut brew high</Mousekin_MuroidineHigh.labelNoun>
+
+  <Mousekin_MuroidineTolerance.label>Muroidine tolerance</Mousekin_MuroidineTolerance.label>
+  <Mousekin_MuroidineTolerance.description>A built-up tolerance to muroidine found in Chonko nut brew. The more severe this tolerance is, the more muroidine it takes to get the same effect.</Mousekin_MuroidineTolerance.description>
+  <Mousekin_MuroidineTolerance.stages.0.label>small</Mousekin_MuroidineTolerance.stages.0.label>
+  <Mousekin_MuroidineTolerance.stages.1.label>large</Mousekin_MuroidineTolerance.stages.1.label>
+  <Mousekin_MuroidineTolerance.stages.2.label>massive</Mousekin_MuroidineTolerance.stages.2.label>
+
+  <Mousekin_MuroidineAddiction.label>Muroidine addiction</Mousekin_MuroidineAddiction.label>
+  <Mousekin_MuroidineAddiction.description>A chemical addiction to muroidine. Long-term presence of muroidine has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the methylxanthine alkaloid.\n\nWithout regular consumption of muroidine-rich beverages like Chonko nut brew, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</Mousekin_MuroidineAddiction.description>
+  <Mousekin_MuroidineAddiction.stages.1.label>withdrawal</Mousekin_MuroidineAddiction.stages.1.label>
+
+
+  <!-- Dopamine high from consuming Mousekin mead -->
+
+  <Mousekin_MeadHigh.label>Mousekin mead high</Mousekin_MeadHigh.label>
+  <Mousekin_MeadHigh.description>Increase dopamine levels in the body from consuming Mousekin mead reduces chances of mental breaks.</Mousekin_MeadHigh.description>
+  <Mousekin_MeadHigh.stages.0.label>warm</Mousekin_MeadHigh.stages.0.label>
+  <Mousekin_MeadHigh.stages.1.label>tipsy</Mousekin_MeadHigh.stages.1.label>
+  <Mousekin_MeadHigh.stages.2.label>drunk</Mousekin_MeadHigh.stages.2.label>
+  <Mousekin_MeadHigh.stages.3.label>hammered</Mousekin_MeadHigh.stages.3.label>
+  <Mousekin_MeadHigh.stages.4.label>blackout</Mousekin_MeadHigh.stages.4.label>
+
+
+  <!-- Satiated hunger from eating various meals (12 hours) -->
+
+  <Mousekin_SatiatedHunger10.label>Satiated hunger (from country bread)</Mousekin_SatiatedHunger10.label>
+  <Mousekin_SatiatedHunger10.description>Consuming country bread lowers hunger rate by 10% for 12 hours.</Mousekin_SatiatedHunger10.description>
+
+  <Mousekin_SatiatedHunger20.label>Satiated hunger (from ploughman's lunch)</Mousekin_SatiatedHunger20.label>
+  <Mousekin_SatiatedHunger20.description>Consuming a serving of ploughman's lunch lowers hunger rate by 20% for 12 hours.</Mousekin_SatiatedHunger20.description>
+
+  <Mousekin_SatiatedHunger35.label>Satiated hunger (from bread bowl)</Mousekin_SatiatedHunger35.label>
+  <Mousekin_SatiatedHunger35.description>Consuming a bread bowl lowers hunger rate by 35% for 12 hours.</Mousekin_SatiatedHunger35.description>
+
+
+</LanguageData>

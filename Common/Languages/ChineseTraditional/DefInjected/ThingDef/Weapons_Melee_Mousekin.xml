@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Mousekin Axe -->
+
+  <Mousekin_MeleeWeapon_Axe.label>Mousekin Axe</Mousekin_MeleeWeapon_Axe.label>
+  <Mousekin_MeleeWeapon_Axe.description>A bladed implement with a handle typically used to cut down trees, hew logs into timber and split firewood, but in a pinch can also be used as a crude but deadly weapon. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_Axe.description>
+  <Mousekin_MeleeWeapon_Axe.tools.0.label>handle</Mousekin_MeleeWeapon_Axe.tools.0.label>
+  <Mousekin_MeleeWeapon_Axe.tools.1.label>blade</Mousekin_MeleeWeapon_Axe.tools.1.label>
+
+
+  <!-- Mousekin Cleaver -->
+
+  <Mousekin_MeleeWeapon_Cleaver.label>Mousekin Cleaver</Mousekin_MeleeWeapon_Cleaver.label>
+  <Mousekin_MeleeWeapon_Cleaver.description>A large knife with a rectangular blade typically used to split large, thick pieces of meat. While it helps increase the amount of meat harvested when butchering animals, it is not a particularly good weapon. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_Cleaver.description>
+  <Mousekin_MeleeWeapon_Cleaver.tools.0.label>handle</Mousekin_MeleeWeapon_Cleaver.tools.0.label>
+  <Mousekin_MeleeWeapon_Cleaver.tools.1.label>blade</Mousekin_MeleeWeapon_Cleaver.tools.1.label>
+
+
+  <!-- Mousekin Dagger -->
+
+  <Mousekin_MeleeWeapon_Dagger.label>Mousekin Dagger</Mousekin_MeleeWeapon_Dagger.label>
+  <Mousekin_MeleeWeapon_Dagger.description>A cute little dagger, good for quick stabbing attacks and easily concealed under most Mousekin clothing. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_Dagger.description>
+  <Mousekin_MeleeWeapon_Dagger.tools.0.label>handle</Mousekin_MeleeWeapon_Dagger.tools.0.label>
+  <Mousekin_MeleeWeapon_Dagger.tools.1.label>point</Mousekin_MeleeWeapon_Dagger.tools.1.label>
+
+
+  <!-- Mousekin Hammer -->
+
+  <Mousekin_MeleeWeapon_HammerMetal.label>Mousekin Hammer</Mousekin_MeleeWeapon_HammerMetal.label>
+  <Mousekin_MeleeWeapon_HammerMetal.description>A hammer with a small metal head, used to beat and form metals into shape, as well as general construction work. Despite its small size, a Mousekin armed with a hammer can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_HammerMetal.description>
+  <Mousekin_MeleeWeapon_HammerMetal.tools.0.label>handle</Mousekin_MeleeWeapon_HammerMetal.tools.0.label>
+  <Mousekin_MeleeWeapon_HammerMetal.tools.1.label>head</Mousekin_MeleeWeapon_HammerMetal.tools.1.label>
+
+
+  <!-- Mousekin Mallet -->
+
+  <Mousekin_MeleeWeapon_HammerWood.label>Mousekin Mallet</Mousekin_MeleeWeapon_HammerWood.label>
+  <Mousekin_MeleeWeapon_HammerWood.description>A hammer with a large wooden head, used in carpentry and general construction work. Despite its small size, a Mousekin armed with a mallet can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_HammerWood.description>
+  <Mousekin_MeleeWeapon_HammerWood.tools.0.label>handle</Mousekin_MeleeWeapon_HammerWood.tools.0.label>
+  <Mousekin_MeleeWeapon_HammerWood.tools.1.label>head</Mousekin_MeleeWeapon_HammerWood.tools.1.label>
+
+
+  <!-- Mousekin Hoe -->
+
+  <Mousekin_MeleeWeapon_Hoe.label>Mousekin Hoe</Mousekin_MeleeWeapon_Hoe.label>
+  <Mousekin_MeleeWeapon_Hoe.description>A common agricultural hand tool used to break up soil, remove weeds and harvest root vegetables. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_Hoe.description>
+  <Mousekin_MeleeWeapon_Hoe.tools.0.label>handle</Mousekin_MeleeWeapon_Hoe.tools.0.label>
+  <Mousekin_MeleeWeapon_Hoe.tools.1.label>hoe head</Mousekin_MeleeWeapon_Hoe.tools.1.label>
+  <Mousekin_MeleeWeapon_Hoe.tools.2.label>hoe blade</Mousekin_MeleeWeapon_Hoe.tools.2.label>
+
+
+  <!-- Mousekin Pickaxe -->
+
+  <Mousekin_MeleeWeapon_Pickaxe.label>Mousekin Pickaxe</Mousekin_MeleeWeapon_Pickaxe.label>
+  <Mousekin_MeleeWeapon_Pickaxe.description>A hand tool with a large, curved metal blade, used to quickly dig at compacted soil and break up rocks. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_Pickaxe.description>
+  <Mousekin_MeleeWeapon_Pickaxe.tools.0.label>handle</Mousekin_MeleeWeapon_Pickaxe.tools.0.label>
+  <Mousekin_MeleeWeapon_Pickaxe.tools.1.label>head</Mousekin_MeleeWeapon_Pickaxe.tools.1.label>
+  <Mousekin_MeleeWeapon_Pickaxe.tools.2.label>pick</Mousekin_MeleeWeapon_Pickaxe.tools.2.label>
+
+
+  <!-- Mousekin Pike -->
+
+  <Mousekin_MeleeWeapon_PikeRegular.label>Mousekin Pike</Mousekin_MeleeWeapon_PikeRegular.label>
+  <Mousekin_MeleeWeapon_PikeRegular.description>A long polearm weapon, the Mousekin Pike is technically a pike-halberd hybrid, with a spear tip for fending off enemy cavalry charges, a hooked blade to pull enemy knights off their mounts, and an axe-like blade to deliver the final killing blow. It is also one of the few Mousekin weapons that humans can wield properly.</Mousekin_MeleeWeapon_PikeRegular.description>
+  <Mousekin_MeleeWeapon_PikeRegular.tools.0.label>shaft</Mousekin_MeleeWeapon_PikeRegular.tools.0.label>
+  <Mousekin_MeleeWeapon_PikeRegular.tools.1.label>point</Mousekin_MeleeWeapon_PikeRegular.tools.1.label>
+  <Mousekin_MeleeWeapon_PikeRegular.tools.2.label>blade</Mousekin_MeleeWeapon_PikeRegular.tools.2.label>
+
+
+  <!-- Mousekin Thunderpike -->
+
+  <Mousekin_MeleeWeapon_PikeThunder.label>Mousekin Thunderpike</Mousekin_MeleeWeapon_PikeThunder.label>
+  <Mousekin_MeleeWeapon_PikeThunder.description>A variant of the standard Mousekin Pike used by soldiers from Independent Mousekin towns, with a large firecracker tied to its spear end capable of blasting enemy Mousekin knights or setting them on fire. It is also one of the few Mousekin weapons that humans can wield properly.</Mousekin_MeleeWeapon_PikeThunder.description>
+  <Mousekin_MeleeWeapon_PikeThunder.tools.0.label>shaft</Mousekin_MeleeWeapon_PikeThunder.tools.0.label>
+  <Mousekin_MeleeWeapon_PikeThunder.tools.1.label>point</Mousekin_MeleeWeapon_PikeThunder.tools.1.label>
+  <Mousekin_MeleeWeapon_PikeThunder.tools.2.label>blade</Mousekin_MeleeWeapon_PikeThunder.tools.2.label>
+
+
+  <!-- Mousekin Pitchfork -->
+
+  <Mousekin_MeleeWeapon_Pitchfork.label>Mousekin Pitchfork</Mousekin_MeleeWeapon_Pitchfork.label>
+  <Mousekin_MeleeWeapon_Pitchfork.description>An agricultural hand tool with a long handle and three tines, used to pitch and pile straw. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_Pitchfork.description>
+  <Mousekin_MeleeWeapon_Pitchfork.tools.0.label>handle</Mousekin_MeleeWeapon_Pitchfork.tools.0.label>
+  <Mousekin_MeleeWeapon_Pitchfork.tools.1.label>tines</Mousekin_MeleeWeapon_Pitchfork.tools.1.label>
+
+
+  <!-- Mousekin Guardener’s Sword -->
+
+  <Mousekin_MeleeWeapon_SwordGuardener.label>Mousekin Guardener’s Sword</Mousekin_MeleeWeapon_SwordGuardener.label>
+  <Mousekin_MeleeWeapon_SwordGuardener.description>A one-handed shortsword carried by Guardeners, an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom. The light and compact design exemplifies the femininity and grace of the weapon’s user. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_SwordGuardener.description>
+  <Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>handle</Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>
+  <Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>point</Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>
+  <Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>edge</Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>
+
+
+  <!-- Mousekin Guardener’s Training Sword -->
+
+  <Mousekin_MeleeWeapon_SwordGuardenerTraining.label>Mousekin Guardener’s Training Sword</Mousekin_MeleeWeapon_SwordGuardenerTraining.label>
+  <Mousekin_MeleeWeapon_SwordGuardenerTraining.description>A wooden version of the Guardener shortsword, carried by apprentices as part of their training to tend and protect the flower gardens of the Mousekin Kingdom. The blunted blade reduces risk of injury during training. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_SwordGuardenerTraining.description>
+  <Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>handle</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>
+  <Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>wooden blade</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>
+
+
+  <!-- Mousekin Knight’s Sword -->
+
+  <Mousekin_MeleeWeapon_SwordKnight.label>Mousekin Knight’s Sword</Mousekin_MeleeWeapon_SwordKnight.label>
+  <Mousekin_MeleeWeapon_SwordKnight.description>A longsword perfectly balanced for one-handed use, good for stabbing or slashing. Its handle is too small and thin for a human to wield properly.</Mousekin_MeleeWeapon_SwordKnight.description>
+  <Mousekin_MeleeWeapon_SwordKnight.tools.0.label>handle</Mousekin_MeleeWeapon_SwordKnight.tools.0.label>
+  <Mousekin_MeleeWeapon_SwordKnight.tools.1.label>point</Mousekin_MeleeWeapon_SwordKnight.tools.1.label>
+  <Mousekin_MeleeWeapon_SwordKnight.tools.2.label>edge</Mousekin_MeleeWeapon_SwordKnight.tools.2.label>
+
+
+  <!-- Mousekin Knight’s Greatsword -->
+
+  <Mousekin_MeleeWeapon_SwordKnightLarge.label>Mousekin Knight’s Greatsword</Mousekin_MeleeWeapon_SwordKnightLarge.label>
+  <Mousekin_MeleeWeapon_SwordKnightLarge.description>A long and heavy sword that requires both hands to wield, but if used properly, can literally split an enemy in two. It is also one of the few Mousekin weapons that humans can wield properly.</Mousekin_MeleeWeapon_SwordKnightLarge.description>
+  <Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>handle</Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>
+  <Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>point</Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>
+  <Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>edge</Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>
+
+
+</LanguageData>
