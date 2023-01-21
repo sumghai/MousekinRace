@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Generic Mouselings (children) - defaults to Mousekin Kingdom faction -->
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinChild</defName>
+		<label>Mouseling</label>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinGenericColonyChild</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>0</minGenerationAge>
+		<maxGenerationAge>8</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinStartingColonist</li>
+		</apparelTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>5~8</initialResistanceRange>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	</PawnKindDef>
+
+</Defs>

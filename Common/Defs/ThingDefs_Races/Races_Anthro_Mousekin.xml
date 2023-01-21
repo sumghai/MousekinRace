@@ -22,6 +22,9 @@
 						</categories>
 					</li>
 				</adultBackstoryFilter>
+				<reproduction>
+					<childKindDef>MousekinChild</childKindDef>
+				</reproduction>
 				<disallowedTraits>
 					<li>
 						<defName>AnnoyingVoice</defName>
