@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_AmmoCategory_FirecrackerRocket.label>Firecracker Rocket</Mousekin_AmmoCategory_FirecrackerRocket.label>
-  <Mousekin_AmmoCategory_FirecrackerRocket.description>A crude rocket consisting of a cast iron casting filled with gunpowder and coated in red lacquer, crafted by Mousekin paws.</Mousekin_AmmoCategory_FirecrackerRocket.description>
+	<!-- EN: Firecracker Rocket -->
+	<Mousekin_AmmoCategory_FirecrackerRocket.label>爆竹火箭</Mousekin_AmmoCategory_FirecrackerRocket.label>
 
-
+	<!-- EN: A crude rocket consisting of a cast iron casting filled with gunpowder and coated in red lacquer, crafted by Mousekin paws. -->
+	<Mousekin_AmmoCategory_FirecrackerRocket.description>裝滿火藥並塗有紅漆的粗糙鑄鐵火箭，由白鼠族手工製作。</Mousekin_AmmoCategory_FirecrackerRocket.description>
+	
 </LanguageData>

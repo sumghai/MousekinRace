@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Ratkin_Thought_SawNearbyPudgemouse.stages.0.label>saw a Pudgemouse</Ratkin_Thought_SawNearbyPudgemouse.stages.0.label>
-  <Ratkin_Thought_SawNearbyPudgemouse.stages.0.description>Pudgemouse not cute, Rottie more cute!</Ratkin_Thought_SawNearbyPudgemouse.stages.0.description>
+	<!-- EN: saw a Pudgemouse -->
+	<Ratkin_Thought_SawNearbyPudgemouse.stages.0.label>看到一隻胖胖鼠</Ratkin_Thought_SawNearbyPudgemouse.stages.0.label>
 
-
+	<!-- EN: Pudgemouse not cute, Rottie more cute! -->	
+	<Ratkin_Thought_SawNearbyPudgemouse.stages.0.description>胖胖鼠不可愛，若蒂鼠才可愛！</Ratkin_Thought_SawNearbyPudgemouse.stages.0.description>
+	
 </LanguageData>

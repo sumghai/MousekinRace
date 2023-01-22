@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Ammo -->
+	<!-- EN: mousekin crossbow bolt -->
+	<Mousekin_Ammo_CrossbowBolt.label>白鼠族弩螺栓</Mousekin_Ammo_CrossbowBolt.label>
 
-  <Mousekin_Ammo_CrossbowBolt.label>mousekin crossbow bolt</Mousekin_Ammo_CrossbowBolt.label>
-  <Mousekin_Ammo_CrossbowBolt.description>A steel-tipped wooden crossbow bolt, crafted by Mousekin paws.</Mousekin_Ammo_CrossbowBolt.description>
+	<!-- EN: A steel-tipped wooden crossbow bolt, crafted by Mousekin paws. -->
+	<Mousekin_Ammo_CrossbowBolt.description>鋼頭木製弩栓，由白鼠族手工製作。</Mousekin_Ammo_CrossbowBolt.description>
 
-
-  <!-- Projectile -->
-
-  <Mousekin_Projectile_CrossbowBolt.label>mousekin crossbow bolt</Mousekin_Projectile_CrossbowBolt.label>
-
-
+	<!-- EN: mousekin crossbow bolt -->
+	<Mousekin_Projectile_CrossbowBolt.label>白鼠族弩螺栓</Mousekin_Projectile_CrossbowBolt.label>
+	
 </LanguageData>
