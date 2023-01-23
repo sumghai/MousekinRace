@@ -1,62 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MousekinRace_Beehive_HoneyPausedBadTemp>Paused: Non-ideal temperature.</MousekinRace_Beehive_HoneyPausedBadTemp>
+	<!-- EN: Paused: Non-ideal temperature. -->
+	<MousekinRace_Beehive_HoneyPausedBadTemp>暫停︰溫度不佳</MousekinRace_Beehive_HoneyPausedBadTemp>
 
-  <MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>Paused: Not enough flowers in range ({0} of {1} required).</MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>
+	<!-- EN: Paused: Not enough flowers in range ({0} of {1} required). -->
+	<MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>暫停：範圍內沒有足夠的花(只有{0}朵，需{1}朵)</MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>
 
-  <MousekinRace_Beehive_HoneyProgress>Next honey in: {0}</MousekinRace_Beehive_HoneyProgress>
+	<!-- EN: Next honey in: {0} -->
+	<MousekinRace_Beehive_HoneyProgress>下一次蜂蜜於:{0}</MousekinRace_Beehive_HoneyProgress>
 
-  <MousekinRace_Beehive_HoneyReady>Awaiting pickup.</MousekinRace_Beehive_HoneyReady>
+	<!-- EN: Awaiting pickup. -->
+	<MousekinRace_Beehive_HoneyReady>等待取蜂蜜。</MousekinRace_Beehive_HoneyReady>
 
-  <MousekinRace_Beehive_Instructions>To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n</MousekinRace_Beehive_Instructions>
+	<!-- EN: To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n -->
+	<MousekinRace_Beehive_Instructions>要生產蜂蜜和蜂蠟，白鼠族蜂箱的溫度範圍必須在{0}~{1}以內，並且範圍內要有至少{2}格含以下任何花種︰\n</MousekinRace_Beehive_Instructions>
 
-  <MousekinRace_CheesePress_InsertMilkDesc>Milk to Insert</MousekinRace_CheesePress_InsertMilkDesc>
+	<!-- EN: Milk to Insert -->
+	<MousekinRace_CheesePress_InsertMilkDesc>選原乳</MousekinRace_CheesePress_InsertMilkDesc>
 
-  <MousekinRace_CheesePress_StartInsertionMilk>Bring Milk</MousekinRace_CheesePress_StartInsertionMilk>
+	<!-- EN: Bring Milk -->
+	<MousekinRace_CheesePress_StartInsertionMilk>添加原乳</MousekinRace_CheesePress_StartInsertionMilk>
 
-  <MousekinRace_CheesePress_StartInsertionMilkDesc>Bring milk to the cheese press to start the cheesemaking process</MousekinRace_CheesePress_StartInsertionMilkDesc>
+	<!-- EN: Bring milk to the cheese press to start the cheesemaking process -->
+	<MousekinRace_CheesePress_StartInsertionMilkDesc>往該奶酪壓制器添加原乳以開始壓制。</MousekinRace_CheesePress_StartInsertionMilkDesc>
 
-  <MousekinRace_CheesePress_CancelBringingMilk>Cancel bringing Milk</MousekinRace_CheesePress_CancelBringingMilk>
+	<!-- EN: Cancel bringing Milk -->
+	<MousekinRace_CheesePress_CancelBringingMilk>取消添加原乳</MousekinRace_CheesePress_CancelBringingMilk>
 
-  <MousekinRace_CheesePress_CancelBringingMilkDesc>Cancel ringing Milk to the cheese press.</MousekinRace_CheesePress_CancelBringingMilkDesc>
+	<!-- EN: Cancel bringing Milk to the cheese press. -->
+	<MousekinRace_CheesePress_CancelBringingMilkDesc>取消往該奶酪壓制器添加原乳。</MousekinRace_CheesePress_CancelBringingMilkDesc>
 
-  <MousekinRace_CheesePress_RemoveCheese>Remove Cheese</MousekinRace_CheesePress_RemoveCheese>
+	<!-- EN: Remove Cheese -->
+	<MousekinRace_CheesePress_RemoveCheese>移除奶酪</MousekinRace_CheesePress_RemoveCheese>
 
-  <MousekinRace_CheesePress_RemoveCheeseDesc>Remove cheese from the press.</MousekinRace_CheesePress_RemoveCheeseDesc>
+	<!-- EN: Remove cheese from the press. -->
+	<MousekinRace_CheesePress_RemoveCheeseDesc>從奶酪壓制器移除奶酪。</MousekinRace_CheesePress_RemoveCheeseDesc>
 
-  <MousekinRace_FermentingBarrel_InsertMustOrWortDesc>Must or Wort to Insert</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
+	<!-- EN: Must or Wort to Insert -->
+	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>選原漿或麥汁</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
 
-  <MousekinRace_FermentingBarrel_StartInsertionMustOrWort>Bring Must or Wort</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
+	<!-- EN: Bring Must or Wort -->
+	<MousekinRace_FermentingBarrel_StartInsertionMustOrWort>添加原漿或麥汁</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
 
-  <MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>Bring mead must or lager wort to the barrel to start fermentation process  </MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
+	<!-- EN: Bring mead must or lager wort to the barrel to start fermentation process -->
+	<MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>往該發酵桶添加原漿或麥汁以開始釀造。</MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
 
-  <MousekinRace_FermentingBarrel_CancelBringingMustOrWort>Cancel bringing Must or Wort</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
+	<!-- EN: Cancel bringing Must or Wort -->
+	<MousekinRace_FermentingBarrel_CancelBringingMustOrWort>取消添加原漿或麥汁</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
 
-  <MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>Cancel bringing mead must or lager wort to the barrel.</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
+	<!-- EN: Cancel bringing mead must or lager wort to the barrel. -->
+	<MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>取消往該發酵桶添加原漿或麥汁。</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
 
-  <MousekinRace_MemeGoodwillImpact_Player>We are {0}</MousekinRace_MemeGoodwillImpact_Player>
+	<!-- EN: We are {0} -->
+	<MousekinRace_MemeGoodwillImpact_Player>我們是{0}</MousekinRace_MemeGoodwillImpact_Player>
 
-  <MousekinRace_MemeGoodwillImpact_Other>They are {0}</MousekinRace_MemeGoodwillImpact_Other>
+	<!-- EN: They are {0} -->
+	<MousekinRace_MemeGoodwillImpact_Other>他們是{0}</MousekinRace_MemeGoodwillImpact_Other>
 
-  <MousekinRace_PlaceWorker_CannotPlaceInDoorways>Cannot be placed in doorways.</MousekinRace_PlaceWorker_CannotPlaceInDoorways>
+	<!-- EN: Cannot be placed in doorways. -->
+	<MousekinRace_PlaceWorker_CannotPlaceInDoorways>不能放在門口。</MousekinRace_PlaceWorker_CannotPlaceInDoorways>
 
-  <MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0} must be placed at least {1} cells away from any impassable structures.</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
+	<!-- EN: {0} must be placed at least {1} cells away from any impassable structures. -->
+	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0}必須放置在距任何無法通行的結構至少{1}格的位置。</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
 
-  <MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0} must be placed at least {1} cells away from any other {0}s.</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
+	<!-- EN: {0} must be placed at least {1} cells away from any other {0}s. -->
+	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0}必須放置在距其他{0}至少{1}格的位置。</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
 
-  <MousekinRace_PlaceWorker_MustBeWallMounted>Must be mounted on a wall.</MousekinRace_PlaceWorker_MustBeWallMounted>
+	<!-- EN: Must be mounted on a wall. -->
+	<MousekinRace_PlaceWorker_MustBeWallMounted>必須安裝在牆上。</MousekinRace_PlaceWorker_MustBeWallMounted>
 
-  <MousekinRace_Windmill_InsertWheatDesc>Grain to Insert</MousekinRace_Windmill_InsertWheatDesc>
+	<!-- EN: Grain to Insert -->
+	<MousekinRace_Windmill_InsertWheatDesc>選穀物</MousekinRace_Windmill_InsertWheatDesc>
 
-  <MousekinRace_Windmill_StartInsertionWheat>Bring Wheat</MousekinRace_Windmill_StartInsertionWheat>
+	<!-- EN: Bring Wheat -->
+	<MousekinRace_Windmill_StartInsertionWheat>添加小麥</MousekinRace_Windmill_StartInsertionWheat>
 
-  <MousekinRace_Windmill_StartInsertionWheatDesc>Bring raw wheat to the windmill for milling into flour</MousekinRace_Windmill_StartInsertionWheatDesc>
+	<!-- EN: Bring raw wheat to the windmill for milling into flour -->
+	<MousekinRace_Windmill_StartInsertionWheatDesc>往該風車添加小麥以開始磨成麵粉。</MousekinRace_Windmill_StartInsertionWheatDesc>
 
-  <MousekinRace_Windmill_CancelBringingWheat>Cancel bringing Wheat</MousekinRace_Windmill_CancelBringingWheat>
+	<!-- EN: Cancel bringing Wheat -->
+	<MousekinRace_Windmill_CancelBringingWheat>取消添加小麥</MousekinRace_Windmill_CancelBringingWheat>
 
-  <MousekinRace_Windmill_CancelBringingWheatDesc>Cancel rining raw wheat to the windmill</MousekinRace_Windmill_CancelBringingWheatDesc>
+	<!-- EN: Cancel bringing raw wheat to the windmill -->
+	<MousekinRace_Windmill_CancelBringingWheatDesc>取消往該風車添加小麥。</MousekinRace_Windmill_CancelBringingWheatDesc>
 
-  <MousekinRace_Windmill_LowWindspeed>Irrigation paused: Insufficient wind speed</MousekinRace_Windmill_LowWindspeed>
-
+	<!-- EN: Irrigation paused: Insufficient wind speed -->
+	<MousekinRace_Windmill_LowWindspeed>灌溉暫停︰風速不足</MousekinRace_Windmill_LowWindspeed>
+	
 </LanguageData>

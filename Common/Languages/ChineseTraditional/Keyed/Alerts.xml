@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AlertEarlessMousekinFeelingMiserableLabel>Miserable Earless Mousekin</AlertEarlessMousekinFeelingMiserableLabel>
+	<!-- EN: Miserable Earless Mousekin -->
+	<AlertEarlessMousekinFeelingMiserableLabel>憂傷的無耳白鼠族</AlertEarlessMousekinFeelingMiserableLabel>
 
-  <AlertEarlessMousekinFeelingMiserableDesc>These Mousekins have recently lost both of their ears to disease or injury, and are ashamed of their disfigurement:\n\n{0}</AlertEarlessMousekinFeelingMiserableDesc>
+	<!-- EN: These Mousekins have recently lost both of their ears to disease or injury, and are ashamed of their disfigurement:\n\n{0} -->
+	<AlertEarlessMousekinFeelingMiserableDesc>這些白鼠族最近因疾病或受傷失去了雙耳，並為自己的毀容感到羞愧：\n\n{0}</AlertEarlessMousekinFeelingMiserableDesc>
 
-  <AlertEarlessMousekinFeelingSuicidalLabel>Suicidal Earless Mousekin</AlertEarlessMousekinFeelingSuicidalLabel>
+	<!-- EN: Suicidal Earless Mousekin -->
+	<AlertEarlessMousekinFeelingSuicidalLabel>自殺傾向的無耳白鼠族</AlertEarlessMousekinFeelingSuicidalLabel>
 
-  <AlertEarlessMousekinFeelingSuicidalDesc>These Mousekins are humiliated by their prolonged loss of of their ears to disease or injury, and have a very high risk of committing suicide from despair over the next few days:\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
+	<!-- EN: These Mousekins are humiliated by their prolonged loss of of their ears to disease or injury, and have a very high risk of committing suicide from despair over the next few days:\n\n{0} -->
+	<AlertEarlessMousekinFeelingSuicidalDesc>這些白鼠族因長期因疾病或受傷而失去耳朵而感到羞辱，並且在接下來的幾天裡極有可能因絕望而自殺：\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
 
-  <AlertEarlessMousekinDescEnding>Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins.</AlertEarlessMousekinDescEnding>
-
+	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
+	<AlertEarlessMousekinDescEnding>用布料製作一些假耳，或從其他白鼠族身上取得天然的耳朵。</AlertEarlessMousekinDescEnding>
+	
 </LanguageData>
