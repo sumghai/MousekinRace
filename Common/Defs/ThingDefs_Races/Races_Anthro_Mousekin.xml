@@ -23,7 +23,7 @@
 					</li>
 				</adultBackstoryFilter>
 				<reproduction>
-					<childKindDef>MousekinChild</childKindDef>
+					<childKindDef MayRequire="Ludeon.RimWorld.Biotech">MousekinChild</childKindDef>
 				</reproduction>
 				<disallowedTraits>
 					<li>
