@@ -17,16 +17,16 @@
 	<Mousekin_AnimalGiantCavy.tools.3.label>右爪</Mousekin_AnimalGiantCavy.tools.3.label>
 	
 	<!-- EN: giant cavy meat -->
-	<Mousekin_AnimalGiantCavy_Meat.label>巨豚鼠肉</Mousekin_AnimalGiantCavy_Meat.label>
+	<Meat_Mousekin_AnimalGiantCavy.label>巨豚鼠肉</Meat_Mousekin_AnimalGiantCavy.label>
 	
 	<!-- EN: giant cavy meat -->
-	<Mousekin_AnimalGiantCavy_Meat.description>屠宰好的生肉，可以烹調成料理或是生吃。</Mousekin_AnimalGiantCavy_Meat.description>
+	<Meat_Mousekin_AnimalGiantCavy.description>屠宰好的生肉，可以烹調成料理或是生吃。</Meat_Mousekin_AnimalGiantCavy.description>
 	
 	<!-- EN: giant cavy corpse -->
-	<Mousekin_AnimalGiantCavy_Corpse.label>巨豚鼠屍體</Mousekin_AnimalGiantCavy_Corpse.label>
+	<Corpse_Mousekin_AnimalGiantCavy.label>巨豚鼠屍體</Corpse_Mousekin_AnimalGiantCavy.label>
 	
 	<!-- EN: giant cavy corpse -->
-	<Mousekin_AnimalGiantCavy_Corpse.description>巨豚鼠的屍體。</Mousekin_AnimalGiantCavy_Corpse.description>
+	<Corpse_Mousekin_AnimalGiantCavy.description>巨豚鼠的屍體。</Corpse_Mousekin_AnimalGiantCavy.description>
 	
 	<!-- EN: Pudgemouse -->
 	<Mousekin_AnimalPudgemouse.label>胖胖鼠</Mousekin_AnimalPudgemouse.label>
@@ -44,15 +44,15 @@
 	<Mousekin_AnimalPudgemouse.tools.3.label>頭</Mousekin_AnimalPudgemouse.tools.3.label>
 	
 	<!-- EN: pudgemouse meat -->
-	<Mousekin_AnimalPudgemouse_Meat.label>胖胖鼠肉</Mousekin_AnimalPudgemouse_Meat.label>
+	<Meat_Mousekin_AnimalPudgemouse.label>胖胖鼠肉</Meat_Mousekin_AnimalPudgemouse.label>
 	
 	<!-- EN: pudgemouse meat -->
-	<Mousekin_AnimalPudgemouse_Meat.description>屠宰好的生肉，可以烹調成料理或是生吃。</Mousekin_AnimalPudgemouse_Meat.description>
+	<Meat_Mousekin_AnimalPudgemouse.description>屠宰好的生肉，可以烹調成料理或是生吃。</Meat_Mousekin_AnimalPudgemouse.description>
 	
 	<!-- EN: pudgemouse corpse -->
-	<Mousekin_AnimalPudgemouse_Corpse.label>胖胖鼠屍體</Mousekin_AnimalPudgemouse_Corpse.label>
+	<Corpse_Mousekin_AnimalPudgemouse.label>胖胖鼠屍體</Corpse_Mousekin_AnimalPudgemouse.label>
 	
 	<!-- EN: pudgemouse corpse -->
-	<Mousekin_AnimalPudgemouse_Corpse.description>胖胖鼠的屍體。</Mousekin_AnimalPudgemouse_Corpse.description>
+	<Corpse_Mousekin_AnimalPudgemouse.description>胖胖鼠的屍體。</Corpse_Mousekin_AnimalPudgemouse.description>
 	
 </LanguageData>

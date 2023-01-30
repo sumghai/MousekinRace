@@ -81,6 +81,9 @@
 
 	<!-- EN: Making 4 servings of ploughman's lunch -->
 	<Mousekin_Make_PloughmansLunch.jobString>準備四份農夫午餐。</Mousekin_Make_PloughmansLunch.jobString>
+	
+	<!-- EN: nuts -->
+	<Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>堅果</Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>
 
 	<!-- EN: make bread bowl -->
 	<Mousekin_Make_BreadBowl.label>烹調濃湯麵包碗</Mousekin_Make_BreadBowl.label>
@@ -90,6 +93,9 @@
 
 	<!-- EN: Making bread bowl -->
 	<Mousekin_Make_BreadBowl.jobString>烹調濃湯麵包碗。</Mousekin_Make_BreadBowl.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>蛋白質</Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>
 
 	<!-- EN: make bread bowl x4 -->
 	<Mousekin_Make_BreadBowlBulk.label>烹調濃湯麵包碗x4</Mousekin_Make_BreadBowlBulk.label>
@@ -99,5 +105,8 @@
 
 	<!-- EN: Making 4 bread bowls -->
 	<Mousekin_Make_BreadBowlBulk.jobString>烹調四份濃湯麵包碗。</Mousekin_Make_BreadBowlBulk.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>蛋白質</Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>
 	
 </LanguageData>

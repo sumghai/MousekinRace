@@ -36,6 +36,12 @@
 
 	<!-- EN: A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears. -->
 	<Mousekin_HelmetKnight.description>白鼠族騎士佩戴的板甲頭盔，帶有可旋轉的面罩，可在不影響保護的情況下維持佩戴者的視野。有可容納白鼠族耳朵的孔。</Mousekin_HelmetKnight.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>打開/關上 面罩</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>打開或關上頭盔的面罩。</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>
 
 	<!-- EN: Mousekin Woodsman’s Bycocket -->
 	<Mousekin_HatWoodsman.label>白鼠族樵夫尖帽</Mousekin_HatWoodsman.label>
@@ -48,6 +54,12 @@
 
 	<!-- EN: A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears. -->
 	<Mousekin_HelmetKnightCommander.description>白鼠族騎士長佩戴的板甲頭盔，帶有可旋轉的面罩，可在不影響保護的情況下維持佩戴者的視野，並裝飾著一縷鮮豔的羽毛，以幫助其他騎士在戰鬥中找到他們的長官。有可容納白鼠族耳朵的孔。</Mousekin_HelmetKnightCommander.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>打開/關上 面罩</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>打開或關上頭盔的面罩。</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>
 
 	<!-- EN: hood -->
 	<Mousekin_HatCloakHood.label>兜帽</Mousekin_HatCloakHood.label>

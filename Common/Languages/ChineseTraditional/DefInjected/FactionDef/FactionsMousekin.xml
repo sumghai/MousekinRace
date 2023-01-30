@@ -6,24 +6,39 @@
 
 	<!-- EN:  newly-established hamlet of Mousekin settlers. -->
 	<Mousekin_PlayerFaction_Settlers.description>一個新建的白鼠族村莊。</Mousekin_PlayerFaction_Settlers.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Settlers.pawnSingular>白鼠族</Mousekin_PlayerFaction_Settlers.pawnSingular>
 
 	<!-- EN: Mousekins -->
 	<Mousekin_PlayerFaction_Settlers.pawnsPlural>白鼠族</Mousekin_PlayerFaction_Settlers.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Settlers.leaderTitle>首領</Mousekin_PlayerFaction_Settlers.leaderTitle>
 
 	<!-- EN: New Mousekin Refugees -->
 	<Mousekin_PlayerFaction_Refugees.label>白鼠族難民</Mousekin_PlayerFaction_Refugees.label>
 
 	<!-- EN: A group of Mousekin who have lost their home village to Grimalkin invaders. -->
 	<Mousekin_PlayerFaction_Refugees.description>一群因黑貓族民共和國侵略而失去家鄉的白鼠族難民。</Mousekin_PlayerFaction_Refugees.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Refugees.pawnSingular>白鼠族</Mousekin_PlayerFaction_Refugees.pawnSingular>
 
 	<!-- EN: Mousekins -->
 	<Mousekin_PlayerFaction_Refugees.pawnsPlural>白鼠族</Mousekin_PlayerFaction_Refugees.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Refugees.leaderTitle>首領</Mousekin_PlayerFaction_Refugees.leaderTitle>
 
 	<!-- EN: Mousekin Kingdom -->
 	<Mousekin_FactionKingdom.label>白鼠族王國</Mousekin_FactionKingdom.label>
 
 	<!-- EN: A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified, patriarchal and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or persistent enemies if angered. -->
 	<Mousekin_FactionKingdom.description>一個君主製的白鼠族文明，主要從事農業、採礦和商業，具有中世紀晚期到工業化前的技術水平。\n\n這是一個高度分層、父權制和封建社會，皇室處於社會金字塔的頂端，其次是貴族和聖職者，騎士和花園衛女階級，普通公民和商人，最底層是農民和勞工。\n\n雖然名義上由白鼠族國王統治，但真正的監督王國軍事和國內事務的行政權掌握在一位經驗最豐富、最俠義的白鼠族騎士長手中--所謂的護國主。\n\n由於經常被大多數非白鼠族類人生物看不起，他們通常對外來者保持警惕，但如果與他們結盟，他們會成為堅定、忠誠的朋友。相反，如果被激怒，他們可成為頑固的敵人。</Mousekin_FactionKingdom.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionKingdom.pawnSingular>白鼠族</Mousekin_FactionKingdom.pawnSingular>
 
 	<!-- EN: Mousekins -->
 	<Mousekin_FactionKingdom.pawnsPlural>白鼠族</Mousekin_FactionKingdom.pawnsPlural>
@@ -36,6 +51,9 @@
 
 	<!-- EN: A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom. -->
 	<Mousekin_FactionIndyTown.description>一個鬆散的白鼠族村莊聯盟，在其倒退的君主統治下猶豫不決後宣布脫離白鼠族王國獨立，並實行原始形式的民主。\n\n他們願意與非白鼠族外來者進行貿易，以彌補他們與白鼠族王國相比在軍事和經濟上的劣勢。</Mousekin_FactionIndyTown.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionIndyTown.pawnSingular>白鼠族</Mousekin_FactionIndyTown.pawnSingular>
 
 	<!-- EN: Mousekins -->
 	<Mousekin_FactionIndyTown.pawnsPlural>白鼠族</Mousekin_FactionIndyTown.pawnsPlural>
@@ -51,6 +69,9 @@
 
 	<!-- EN: Rodemani -->
 	<Mousekin_FactionNomad.fixedName>羅德馬尼</Mousekin_FactionNomad.fixedName>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionNomad.pawnSingular>白鼠族</Mousekin_FactionNomad.pawnSingular>
 
 	<!-- EN: Mousekins -->
 	<Mousekin_FactionNomad.pawnsPlural>白鼠族</Mousekin_FactionNomad.pawnsPlural>
@@ -63,6 +84,9 @@
 
 	<!-- EN: A roving band of Mousekin raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate. -->
 	<Mousekin_FactionBrigand.description>一群遊蕩的白鼠族強盜，通常由逃兵、流亡者、逃犯和飢荒村莊的飢餓農民組成，為了生存或經濟利益而掠奪和夷平路過的鄉鎮。\n\n由於他們沒有任何固定的行動基地，他們通常不可能被根除。</Mousekin_FactionBrigand.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionBrigand.pawnSingular>白鼠族</Mousekin_FactionBrigand.pawnSingular>
 
 	<!-- EN: Mousekins -->
 	<Mousekin_FactionBrigand.pawnsPlural>白鼠族</Mousekin_FactionBrigand.pawnsPlural>
