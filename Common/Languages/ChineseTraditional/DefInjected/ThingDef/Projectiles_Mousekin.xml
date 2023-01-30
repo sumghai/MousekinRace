@@ -1,24 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Crossbow bolts -->
-
-  <Bolt_Mousekin_RangedWeapon_Crossbow.label>crossbow bolt</Bolt_Mousekin_RangedWeapon_Crossbow.label>
-
-
-  <!-- Firecracker rockets -->
-
-  <Bullet_Mousekin_FirecrackerRocket.label>firecracker rocket</Bullet_Mousekin_FirecrackerRocket.label>
-
-
-  <!-- Lead Ball -->
-
-  <Bullet_Mousekin_MusketBall.label>lead ball</Bullet_Mousekin_MusketBall.label>
-
-
-  <!-- Shot Pellets -->
-
-  <Bullet_Mousekin_BlunderbussPellets.label>shot pellets</Bullet_Mousekin_BlunderbussPellets.label>
-
-
+	<!-- EN: crossbow bolt -->
+	<Bolt_Mousekin_RangedWeapon_Crossbow.label>弩箭</Bolt_Mousekin_RangedWeapon_Crossbow.label>
+	
+	<!-- EN: firecracker rocket -->
+	<Bullet_Mousekin_FirecrackerRocket.label>爆竹火箭</Bullet_Mousekin_FirecrackerRocket.label>
+	
+	<!-- EN: lead ball -->
+	<Bullet_Mousekin_MusketBall.label>鉛球</Bullet_Mousekin_MusketBall.label>
+	
+	<!-- EN: shot pellets -->
+	<Bullet_Mousekin_BlunderbussPellets.label>霰彈</Bullet_Mousekin_BlunderbussPellets.label>
+	
 </LanguageData>

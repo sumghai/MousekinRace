@@ -1,18 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Crafting miscellaneous items at the Mousekin Crafting Bench -->
+	<!-- EN: make things at crafting bench -->
+	<Mousekin_DoBillsUseCraftingBench.label>在工藝桌製作物品</Mousekin_DoBillsUseCraftingBench.label>
 
-  <Mousekin_DoBillsUseCraftingBench.label>make things at crafting bench</Mousekin_DoBillsUseCraftingBench.label>
-  <Mousekin_DoBillsUseCraftingBench.verb>craft</Mousekin_DoBillsUseCraftingBench.verb>
-  <Mousekin_DoBillsUseCraftingBench.gerund>crafting at</Mousekin_DoBillsUseCraftingBench.gerund>
+	<!-- EN: craft -->
+	<Mousekin_DoBillsUseCraftingBench.verb>製作</Mousekin_DoBillsUseCraftingBench.verb>
 
+	<!-- EN: crafting at -->
+	<Mousekin_DoBillsUseCraftingBench.gerund>製作</Mousekin_DoBillsUseCraftingBench.gerund>
 
-  <!-- Harvesting products from the Mousekin Beehive -->
+	<!-- EN: harvest products from beehives -->
+	<Mousekin_HarvestFromBeehive.label>從蜂箱收穫產品</Mousekin_HarvestFromBeehive.label>
 
-  <Mousekin_HarvestFromBeehive.label>harvest products from beehives</Mousekin_HarvestFromBeehive.label>
-  <Mousekin_HarvestFromBeehive.verb>harvest products from</Mousekin_HarvestFromBeehive.verb>
-  <Mousekin_HarvestFromBeehive.gerund>harvestinf products from</Mousekin_HarvestFromBeehive.gerund>
+	<!-- EN: harvest products from -->
+	<Mousekin_HarvestFromBeehive.verb>收穫產品</Mousekin_HarvestFromBeehive.verb>
 
-
+	<!-- EN: harvesting products from -->
+	<Mousekin_HarvestFromBeehive.gerund>收穫產品</Mousekin_HarvestFromBeehive.gerund>
+	
 </LanguageData>

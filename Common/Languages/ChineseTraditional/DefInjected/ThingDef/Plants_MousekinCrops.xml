@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Mouse-ear Barley -->
+	<!-- EN: mouse-ear barley -->
+	<Mousekin_Plant_Barley.label>鼠耳大麥</Mousekin_Plant_Barley.label>
 
-  <Mousekin_Plant_Barley.label>mouse-ear barley</Mousekin_Plant_Barley.label>
-  <Mousekin_Plant_Barley.description>A tall, moderately slow-growing and hardy cereal plant that yields small edible grains. This particular variety has round rather than elongated seeds, and is mainly cultivated by Mousekin societies as food, brewing feedstock and animal fodder.</Mousekin_Plant_Barley.description>
+	<!-- EN: A tall, moderately slow-growing and hardy cereal plant that yields small edible grains. This particular variety has round rather than elongated seeds, and is mainly cultivated by Mousekin societies as food, brewing feedstock and animal fodder. -->
+	<Mousekin_Plant_Barley.description>一種高大、生長適度緩慢且耐寒的穀類植物，可結出可食用的小穀物。這種特殊的品種有圓形而不是細長的種子，主要由白鼠族社會種植，作為食物、釀造原料和動物飼料。</Mousekin_Plant_Barley.description>
 
+	<!-- EN: wheat -->
+	<Mousekin_Plant_Wheat.label>小麥</Mousekin_Plant_Wheat.label>
 
-  <!-- Wheat -->
-
-  <Mousekin_Plant_Wheat.label>wheat</Mousekin_Plant_Wheat.label>
-  <Mousekin_Plant_Wheat.description>A tall, slow-growing cereal plant that yields small oval amber-colored edible grains. As one of the earliest crops to be cultivated, it is regarded as a major food staple in many civilizations.</Mousekin_Plant_Wheat.description>
-
-
+	<!-- EN: A tall, slow-growing cereal plant that yields small oval amber-colored edible grains. As one of the earliest crops to be cultivated, it is regarded as a major food staple in many civilizations. -->
+	<Mousekin_Plant_Wheat.description>一種高大、生長緩慢的穀類植物，結出橢圓形的琥珀色可食用穀物。作為最早種植的作物之一，它在許多文明中被視為主要主食。</Mousekin_Plant_Wheat.description>
+	
 </LanguageData>

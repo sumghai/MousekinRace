@@ -1,19 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_Scenario_Settlers.label>Mousekin Settlers</Mousekin_Scenario_Settlers.label>
-  <Mousekin_Scenario_Settlers.description>With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come.</Mousekin_Scenario_Settlers.description>
-  <Mousekin_Scenario_Settlers.scenario.name>Mousekin Settlers</Mousekin_Scenario_Settlers.scenario.name>
-  <Mousekin_Scenario_Settlers.scenario.summary>Eight Mousekin settlers establish a new hamlet.</Mousekin_Scenario_Settlers.scenario.summary>
-  <Mousekin_Scenario_Settlers.scenario.description>With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come.</Mousekin_Scenario_Settlers.scenario.description>
-  <Mousekin_Scenario_Settlers.scenario.parts.21.text>Today is the day!\n\nAfter months of scouting, your friends have finally found a good plot of land to call your own. Perhaps you'll grow hedges of the most delicious nuts, build the most impressive lodges housing hundreds of your fellow Mousekins, or maybe plant a beautiful flower garden that will draw visitors from all over the kingdom.\n\nBidding goodbye to your families, you and your friends set out on an adventure of a lifetime.</Mousekin_Scenario_Settlers.scenario.parts.21.text>
+	<!-- EN: Mousekin Settlers -->
+	<Mousekin_Scenario_Settlers.label>白鼠族殖民者</Mousekin_Scenario_Settlers.label>
 
-  <Mousekin_Scenario_Refugees.label>Mousekin Refugees</Mousekin_Scenario_Refugees.label>
-  <Mousekin_Scenario_Refugees.description>Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario.</Mousekin_Scenario_Refugees.description>
-  <Mousekin_Scenario_Refugees.scenario.name>Mousekin Refugees</Mousekin_Scenario_Refugees.scenario.name>
-  <Mousekin_Scenario_Refugees.scenario.summary>Five Mousekin survivors attempt to rebuild. Difficult.</Mousekin_Scenario_Refugees.scenario.summary>
-  <Mousekin_Scenario_Refugees.scenario.description>Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario.</Mousekin_Scenario_Refugees.scenario.description>
-  <Mousekin_Scenario_Refugees.scenario.parts.11.text>The Grimalkins came in the night, just before supper.\n\nThe barrels of their rapid-fire muskets glinting eerily in the moonlight like their wicked grins, they smashed through the town walls with their mechanical beasts. The Guardeners and Knights fought a gallant but doomed battle so that the rest of the village could escape, but you could still hear the horrific cries and squeals behind you as the cats slaughtered your fathers, brothers and sons, raped your mothers, sisters and daughters, and feasted on the little, helpless pups.\n\nWith what few possessions you and a few others managed to grab, you find yourselves far from home, the village behind you engulfed in flames. You should set up camp here before deciding what to do next.</Mousekin_Scenario_Refugees.scenario.parts.11.text>
+	<!-- EN: With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come. -->
+	<Mousekin_Scenario_Settlers.description>在村里長輩和家人的祝福下，你和七個朋友開始建立自己的小村莊。\n\n許多挑戰等待著你們，但如果你們成功了，你們的成就和美麗的花園將世代相傳。</Mousekin_Scenario_Settlers.description>
 
+	<!-- EN: Mousekin Settlers -->
+	<Mousekin_Scenario_Settlers.scenario.name>白鼠族殖民者</Mousekin_Scenario_Settlers.scenario.name>
 
+	<!-- EN: Eight Mousekin settlers establish a new hamlet. -->
+	<Mousekin_Scenario_Settlers.scenario.summary>八隻白鼠族殖民者建立新的小村莊。</Mousekin_Scenario_Settlers.scenario.summary>
+
+	<!-- EN: With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come. -->
+	<Mousekin_Scenario_Settlers.scenario.description>在村里長輩和家人的祝福下，你和七個朋友開始建立自己的小村莊。\n\n許多挑戰等待著你們，但如果你們成功了，你們的成就和美麗的花園將世代相傳。</Mousekin_Scenario_Settlers.scenario.description>
+
+	<!-- EN: Today is the day!\n\nAfter months of scouting, your friends have finally found a good plot of land to call your own. Perhaps you'll grow hedges of the most delicious nuts, build the most impressive lodges housing hundreds of your fellow Mousekins, or maybe plant a beautiful flower garden that will draw visitors from all over the kingdom.\n\nBidding goodbye to your families, you and your friends set out on an adventure of a lifetime. -->
+	<Mousekin_Scenario_Settlers.scenario.parts.21.text>今天就是這一天！\n\n經過幾個月的搜尋，你的朋友們終於找到了一塊好地塊。\n\n也許你會種植最美味的堅果樹籬，建造容納數百隻白鼠族同胞的住宿，或者種植最美麗、最吸引遊客的花園。\n\n與家人告別後，你們開始了一場冒險一生。</Mousekin_Scenario_Settlers.scenario.parts.21.text>
+
+	<!-- EN: Mousekin Refugees -->
+	<Mousekin_Scenario_Refugees.label>白鼠族難民</Mousekin_Scenario_Refugees.label>
+
+	<!-- EN: Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario. -->
+	<Mousekin_Scenario_Refugees.description>你的家鄉被黑貓族民共和國的風暴突擊隊夷為平地，只有五個人逃脫了。現在，是建造一個新家的時候了。\n\n注意：由於您將以較少的物品和供給開始，這是一個難度較高的腳本。</Mousekin_Scenario_Refugees.description>
+
+	<!-- EN: Mousekin Refugees -->
+	<Mousekin_Scenario_Refugees.scenario.name>白鼠族難民</Mousekin_Scenario_Refugees.scenario.name>
+
+	<!-- EN: Five Mousekin survivors attempt to rebuild. Difficult. -->
+	<Mousekin_Scenario_Refugees.scenario.summary>五隻白鼠族遺民合力建立新家園，難度較高。</Mousekin_Scenario_Refugees.scenario.summary>
+
+	<!-- EN: Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario. -->
+	<Mousekin_Scenario_Refugees.scenario.description>你的家鄉被黑貓族民共和國的風暴突擊隊夷為平地，只有五個人逃脫了。現在，是建造一個新家的時候了。\n\n注意：由於您將以較少的物品和供給開始，這是一個難度較高的腳本。</Mousekin_Scenario_Refugees.scenario.description>
+
+	<!-- EN: The Grimalkins came in the night, just before supper.\n\nThe barrels of their rapid-fire muskets glinting eerily in the moonlight like their wicked grins, they smashed through the town walls with their mechanical beasts. The Guardeners and Knights fought a gallant but doomed battle so that the rest of the village could escape, but you could still hear the horrific cries and squeals behind you as the cats slaughtered your fathers, brothers and sons, raped your mothers, sisters and daughters, and feasted on the little, helpless pups.\n\nWith what few possessions you and a few others managed to grab, you find yourselves far from home, the village behind you engulfed in flames. You should set up camp here before deciding what to do next. -->
+	<Mousekin_Scenario_Refugees.scenario.parts.11.text>晚飯前，黑貓族軍團來了。\n\n他們的機械野獸砸穿了城牆，而他們的速射鳥銃的槍管在月光下像他們邪惡的笑容閃爍著詭異的光芒。花園衛女和騎士們的犧牲，讓村子裡的其他人得以逃脫，但你們從身後的哭聲和尖叫聲中，聽到黑貓族士兵屠殺你的父親、兄弟和兒子們，強姦你的母親、姐妹和女兒們，並以無助的幼崽為食。\n\n帶著幾個人搶到的幾件財產，你們發現自己遠離家鄉，身後的村莊被火焰吞沒。在決定下一步之前，應該先在這里扎營。</Mousekin_Scenario_Refugees.scenario.parts.11.text>
+	
 </LanguageData>

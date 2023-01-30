@@ -1,17 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_CultureKingdom.label>Traditional Mousekinian</Mousekin_CultureKingdom.label>
-  <Mousekin_CultureKingdom.description>A feudal agrarian culture resembling Regency-era England, characterized by institutionalised patriarchy, rigid social strata and a deep reverence for flowers.</Mousekin_CultureKingdom.description>
+	<!-- EN: Traditional Mousekinian -->
+	<Mousekin_CultureKingdom.label>傳統白鼠族</Mousekin_CultureKingdom.label>
 
-  <Mousekin_CultureIndyTown.label>Enlightened Mousekinian</Mousekin_CultureIndyTown.label>
-  <Mousekin_CultureIndyTown.description>A hardy agrarian culture that embraces egalitarian and democratic ideals.</Mousekin_CultureIndyTown.description>
+	<!-- EN: A feudal agrarian culture resembling Regency-era England, characterized by institutionalised patriarchy, rigid social strata and a deep reverence for flowers. -->
+	<Mousekin_CultureKingdom.description>類似於攝政時代英格蘭的封建農業文化，其特點是製度化的父權制、僵化的社會階層和對鮮花的深深崇敬。</Mousekin_CultureKingdom.description>
 
-  <Mousekin_CultureNomad.label>Rodemanian</Mousekin_CultureNomad.label>
-  <Mousekin_CultureNomad.description>A nomadic culture that celebrates wanderlust, generosity and hospitality.</Mousekin_CultureNomad.description>
+	<!-- EN: Enlightened Mousekinian -->
+	<Mousekin_CultureIndyTown.label>啟蒙白鼠族</Mousekin_CultureIndyTown.label>
 
-  <Mousekin_CultureBrigand.label>Outpawian</Mousekin_CultureBrigand.label>
-  <Mousekin_CultureBrigand.description>A pragmatic, Social Darwinist culture common amongst rodent gangs that values personal strength, winning at all costs and having the biggest nut stash.</Mousekin_CultureBrigand.description>
+	<!-- EN: A hardy agrarian culture that embraces egalitarian and democratic ideals. -->
+	<Mousekin_CultureIndyTown.description>一種堅韌的農業文化，擁抱平等和民主的理想。</Mousekin_CultureIndyTown.description>
 
+	<!-- EN: Rodemanian -->
+	<Mousekin_CultureNomad.label>羅德馬尼</Mousekin_CultureNomad.label>
 
+	<!-- EN: A nomadic culture that celebrates wanderlust, generosity and hospitality. -->
+	<Mousekin_CultureNomad.description>一種游牧文化，崇尚旅行癖、慷慨和好客。</Mousekin_CultureNomad.description>
+
+	<!-- EN: Outpawian -->
+	<Mousekin_CultureBrigand.label>非爪</Mousekin_CultureBrigand.label>
+
+	<!-- EN: A pragmatic, Social Darwinist culture common amongst rodent gangs that values personal strength, winning at all costs and having the biggest nut stash. -->
+	<Mousekin_CultureBrigand.description>鼠族幫派中常見的務實和社會達爾文主義的文化，重視個人力量，不惜一切代價取勝和擁有最多的堅果。</Mousekin_CultureBrigand.description>
+	
 </LanguageData>

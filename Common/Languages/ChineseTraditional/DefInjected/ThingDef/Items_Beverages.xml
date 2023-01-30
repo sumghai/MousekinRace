@@ -1,58 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Chonko nut brew -->
-
-  <Mousekin_DrinkChonkoNutBrew.label>Chonko nut brew</Mousekin_DrinkChonkoNutBrew.label>
-  <Mousekin_DrinkChonkoNutBrew.description>A coffee-like beverage that temporarily improves mood, consciousness and blood circulation, as well as reducing the need for rest. Brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick.</Mousekin_DrinkChonkoNutBrew.description>
-  <Mousekin_DrinkChonkoNutBrew.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkChonkoNutBrew.ingestible.ingestCommandString>
-  <Mousekin_DrinkChonkoNutBrew.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkChonkoNutBrew.ingestible.ingestReportString>
-
-
-  <!-- Mousekin lager -->
-
-  <Mousekin_DrinkLager.label>Mousekin lager</Mousekin_DrinkLager.label>
-  <Mousekin_DrinkLager.description>An alcoholic beverage made by fermenting Mouse-ear barley, hops and water with a clear, pale-golden appearance and crisp, refreshing taste, often enjoyed by Mousekin peasants and laborers after work.</Mousekin_DrinkLager.description>
-  <Mousekin_DrinkLager.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkLager.ingestible.ingestCommandString>
-  <Mousekin_DrinkLager.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkLager.ingestible.ingestReportString>
-
-
-  <!-- Mousekin mead (multiple quality levels) -->
-
-  <Mousekin_DrinkMeadAwful.label>Mousekin mead (awful)</Mousekin_DrinkMeadAwful.label>
-  <Mousekin_DrinkMeadAwful.description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</Mousekin_DrinkMeadAwful.description>
-  <Mousekin_DrinkMeadAwful.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkMeadAwful.ingestible.ingestCommandString>
-  <Mousekin_DrinkMeadAwful.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkMeadAwful.ingestible.ingestReportString>
-
-  <Mousekin_DrinkMeadPoor.label>Mousekin mead (poor)</Mousekin_DrinkMeadPoor.label>
-  <Mousekin_DrinkMeadPoor.description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</Mousekin_DrinkMeadPoor.description>
-  <Mousekin_DrinkMeadPoor.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkMeadPoor.ingestible.ingestCommandString>
-  <Mousekin_DrinkMeadPoor.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkMeadPoor.ingestible.ingestReportString>
-
-  <Mousekin_DrinkMeadNormal.label>Mousekin mead (normal)</Mousekin_DrinkMeadNormal.label>
-  <Mousekin_DrinkMeadNormal.description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</Mousekin_DrinkMeadNormal.description>
-  <Mousekin_DrinkMeadNormal.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkMeadNormal.ingestible.ingestCommandString>
-  <Mousekin_DrinkMeadNormal.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkMeadNormal.ingestible.ingestReportString>
-
-  <Mousekin_DrinkMeadGood.label>Mousekin mead (good)</Mousekin_DrinkMeadGood.label>
-  <Mousekin_DrinkMeadGood.description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</Mousekin_DrinkMeadGood.description>
-  <Mousekin_DrinkMeadGood.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkMeadGood.ingestible.ingestCommandString>
-  <Mousekin_DrinkMeadGood.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkMeadGood.ingestible.ingestReportString>
-
-  <Mousekin_DrinkMeadExcellent.label>Mousekin mead (excellent)</Mousekin_DrinkMeadExcellent.label>
-  <Mousekin_DrinkMeadExcellent.description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</Mousekin_DrinkMeadExcellent.description>
-  <Mousekin_DrinkMeadExcellent.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkMeadExcellent.ingestible.ingestCommandString>
-  <Mousekin_DrinkMeadExcellent.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkMeadExcellent.ingestible.ingestReportString>
-
-  <Mousekin_DrinkMeadMasterwork.label>Mousekin mead (masterwork)</Mousekin_DrinkMeadMasterwork.label>
-  <Mousekin_DrinkMeadMasterwork.description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</Mousekin_DrinkMeadMasterwork.description>
-  <Mousekin_DrinkMeadMasterwork.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkMeadMasterwork.ingestible.ingestCommandString>
-  <Mousekin_DrinkMeadMasterwork.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkMeadMasterwork.ingestible.ingestReportString>
-
-  <Mousekin_DrinkMeadLegendary.label>Mousekin mead (legendary)</Mousekin_DrinkMeadLegendary.label>
-  <Mousekin_DrinkMeadLegendary.description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</Mousekin_DrinkMeadLegendary.description>
-  <Mousekin_DrinkMeadLegendary.ingestible.ingestCommandString>Drink {0}</Mousekin_DrinkMeadLegendary.ingestible.ingestCommandString>
-  <Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>Drinking {0}.</Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>
-
-
+	<!-- EN: Chonko nut brew -->
+	<Mousekin_DrinkChonkoNutBrew.label>充柯堅果咖啡</Mousekin_DrinkChonkoNutBrew.label>
+	
+	<!-- EN: A coffee-like beverage that temporarily improves mood, consciousness and blood circulation, as well as reducing the need for rest. Brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick. -->
+	<Mousekin_DrinkChonkoNutBrew.description>一種類似咖啡的飲料，可暫時改善情緒、意識和血液循環，並減少休息的需要。由經過烘烤和磨碎的填柯堅果與提神的"秘方"一起沖泡製成。</Mousekin_DrinkChonkoNutBrew.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkChonkoNutBrew.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkChonkoNutBrew.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkChonkoNutBrew.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkChonkoNutBrew.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin lager -->
+	<Mousekin_DrinkLager.label>白鼠族拉格啤酒</Mousekin_DrinkLager.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting Mouse-ear barley, hops and water with a clear, pale-golden appearance and crisp, refreshing taste, often enjoyed by Mousekin peasants and laborers after work. -->
+	<Mousekin_DrinkLager.description>一種用鼠耳大麥、啤酒花和水發酵而成的酒，外觀呈淡金色清澈，口感清脆爽口，常為白鼠族農民和勞工下班後飲用。</Mousekin_DrinkLager.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkLager.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkLager.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkLager.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkLager.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (awful) -->
+	<Mousekin_DrinkMeadAwful.label>白鼠族蜂蜜酒(糟糕)</Mousekin_DrinkMeadAwful.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadAwful.description>蜂蜜加水發酵而成的酒精飲料。白鼠族蜂蜜酒往往比人造蜂蜜酒更甜，帶有濃郁的果味。讓飲酒者開心並減少精神崩潰的機會。</Mousekin_DrinkMeadAwful.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadAwful.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkMeadAwful.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadAwful.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkMeadAwful.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (poor) -->
+	<Mousekin_DrinkMeadPoor.label>白鼠族蜂蜜酒(劣質)</Mousekin_DrinkMeadPoor.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadPoor.description>蜂蜜加水發酵而成的酒精飲料。白鼠族蜂蜜酒往往比人造蜂蜜酒更甜，帶有濃郁的果味。讓飲酒者開心並減少精神崩潰的機會。</Mousekin_DrinkMeadPoor.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadPoor.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkMeadPoor.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadPoor.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkMeadPoor.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (normal) -->
+	<Mousekin_DrinkMeadNormal.label>白鼠族蜂蜜酒(普通)</Mousekin_DrinkMeadNormal.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadNormal.description>蜂蜜加水發酵而成的酒精飲料。白鼠族蜂蜜酒往往比人造蜂蜜酒更甜，帶有濃郁的果味。讓飲酒者開心並減少精神崩潰的機會。</Mousekin_DrinkMeadNormal.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadNormal.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkMeadNormal.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadNormal.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkMeadNormal.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (good) -->
+	<Mousekin_DrinkMeadGood.label>白鼠族蜂蜜酒(良好)</Mousekin_DrinkMeadGood.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadGood.description>蜂蜜加水發酵而成的酒精飲料。白鼠族蜂蜜酒往往比人造蜂蜜酒更甜，帶有濃郁的果味。讓飲酒者開心並減少精神崩潰的機會。</Mousekin_DrinkMeadGood.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadGood.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkMeadGood.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadGood.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkMeadGood.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (excellent) -->
+	<Mousekin_DrinkMeadExcellent.label>白鼠族蜂蜜酒(傑出)</Mousekin_DrinkMeadExcellent.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadExcellent.description>蜂蜜加水發酵而成的酒精飲料。白鼠族蜂蜜酒往往比人造蜂蜜酒更甜，帶有濃郁的果味。讓飲酒者開心並減少精神崩潰的機會。</Mousekin_DrinkMeadExcellent.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadExcellent.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkMeadExcellent.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadExcellent.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkMeadExcellent.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (masterwork) -->
+	<Mousekin_DrinkMeadMasterwork.label>白鼠族蜂蜜酒(大師)</Mousekin_DrinkMeadMasterwork.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadMasterwork.description>蜂蜜加水發酵而成的酒精飲料。白鼠族蜂蜜酒往往比人造蜂蜜酒更甜，帶有濃郁的果味。讓飲酒者開心並減少精神崩潰的機會。</Mousekin_DrinkMeadMasterwork.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadMasterwork.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkMeadMasterwork.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadMasterwork.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkMeadMasterwork.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (legendary) -->
+	<Mousekin_DrinkMeadLegendary.label>白鼠族蜂蜜酒(傳奇)</Mousekin_DrinkMeadLegendary.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadLegendary.description>蜂蜜加水發酵而成的酒精飲料。白鼠族蜂蜜酒往往比人造蜂蜜酒更甜，帶有濃郁的果味。讓飲酒者開心並減少精神崩潰的機會。</Mousekin_DrinkMeadLegendary.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadLegendary.ingestible.ingestCommandString>飲用{0}</Mousekin_DrinkMeadLegendary.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>飲用{0}。</Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>
+	
 </LanguageData>

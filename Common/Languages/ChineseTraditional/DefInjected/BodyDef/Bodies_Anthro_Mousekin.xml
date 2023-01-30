@@ -1,56 +1,154 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin.label>Mousekin</Mousekin.label>
-  <Mousekin.corePart.parts.6.customLabel>left lung</Mousekin.corePart.parts.6.customLabel>
-  <Mousekin.corePart.parts.7.customLabel>right lung</Mousekin.corePart.parts.7.customLabel>
-  <Mousekin.corePart.parts.8.customLabel>left kidney</Mousekin.corePart.parts.8.customLabel>
-  <Mousekin.corePart.parts.9.customLabel>right kidney</Mousekin.corePart.parts.9.customLabel>
-  <Mousekin.corePart.parts.11.parts.0.parts.1.customLabel>left eye</Mousekin.corePart.parts.11.parts.0.parts.1.customLabel>
-  <Mousekin.corePart.parts.11.parts.0.parts.2.customLabel>right eye</Mousekin.corePart.parts.11.parts.0.parts.2.customLabel>
-  <Mousekin.corePart.parts.11.parts.0.parts.3.customLabel>left ear</Mousekin.corePart.parts.11.parts.0.parts.3.customLabel>
-  <Mousekin.corePart.parts.11.parts.0.parts.4.customLabel>right ear</Mousekin.corePart.parts.11.parts.0.parts.4.customLabel>
-  <Mousekin.corePart.parts.12.customLabel>left shoulder</Mousekin.corePart.parts.12.customLabel>
-  <Mousekin.corePart.parts.12.parts.0.customLabel>left clavicle</Mousekin.corePart.parts.12.parts.0.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.customLabel>left arm</Mousekin.corePart.parts.12.parts.1.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.parts.0.customLabel>left humerus</Mousekin.corePart.parts.12.parts.1.parts.0.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.parts.1.customLabel>left radius</Mousekin.corePart.parts.12.parts.1.parts.1.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.parts.2.customLabel>left paw</Mousekin.corePart.parts.12.parts.1.parts.2.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>left pinky</Mousekin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>left ring finger</Mousekin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>left middle finger</Mousekin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>left index finger</Mousekin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
-  <Mousekin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>left thumb</Mousekin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
-  <Mousekin.corePart.parts.13.customLabel>right shoulder</Mousekin.corePart.parts.13.customLabel>
-  <Mousekin.corePart.parts.13.parts.0.customLabel>right clavicle</Mousekin.corePart.parts.13.parts.0.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.customLabel>right arm</Mousekin.corePart.parts.13.parts.1.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.parts.0.customLabel>right humerus</Mousekin.corePart.parts.13.parts.1.parts.0.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.parts.1.customLabel>right radius</Mousekin.corePart.parts.13.parts.1.parts.1.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.parts.2.customLabel>right paw</Mousekin.corePart.parts.13.parts.1.parts.2.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>right pinky</Mousekin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>right ring finger</Mousekin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>right middle finger</Mousekin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>right index finger</Mousekin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
-  <Mousekin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>right thumb</Mousekin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
-  <Mousekin.corePart.parts.15.customLabel>tail</Mousekin.corePart.parts.15.customLabel>
-  <Mousekin.corePart.parts.16.customLabel>left leg</Mousekin.corePart.parts.16.customLabel>
-  <Mousekin.corePart.parts.16.parts.0.customLabel>left femur</Mousekin.corePart.parts.16.parts.0.customLabel>
-  <Mousekin.corePart.parts.16.parts.1.customLabel>left tibia</Mousekin.corePart.parts.16.parts.1.customLabel>
-  <Mousekin.corePart.parts.16.parts.2.customLabel>left hind paw</Mousekin.corePart.parts.16.parts.2.customLabel>
-  <Mousekin.corePart.parts.16.parts.2.parts.0.customLabel>left little toe</Mousekin.corePart.parts.16.parts.2.parts.0.customLabel>
-  <Mousekin.corePart.parts.16.parts.2.parts.1.customLabel>left fourth toe</Mousekin.corePart.parts.16.parts.2.parts.1.customLabel>
-  <Mousekin.corePart.parts.16.parts.2.parts.2.customLabel>left middle toe</Mousekin.corePart.parts.16.parts.2.parts.2.customLabel>
-  <Mousekin.corePart.parts.16.parts.2.parts.3.customLabel>left second toe</Mousekin.corePart.parts.16.parts.2.parts.3.customLabel>
-  <Mousekin.corePart.parts.16.parts.2.parts.4.customLabel>left big toe</Mousekin.corePart.parts.16.parts.2.parts.4.customLabel>
-  <Mousekin.corePart.parts.17.customLabel>right leg</Mousekin.corePart.parts.17.customLabel>
-  <Mousekin.corePart.parts.17.parts.0.customLabel>right femur</Mousekin.corePart.parts.17.parts.0.customLabel>
-  <Mousekin.corePart.parts.17.parts.1.customLabel>right tibia</Mousekin.corePart.parts.17.parts.1.customLabel>
-  <Mousekin.corePart.parts.17.parts.2.customLabel>right hind paw</Mousekin.corePart.parts.17.parts.2.customLabel>
-  <Mousekin.corePart.parts.17.parts.2.parts.0.customLabel>right little toe</Mousekin.corePart.parts.17.parts.2.parts.0.customLabel>
-  <Mousekin.corePart.parts.17.parts.2.parts.1.customLabel>right fourth toe</Mousekin.corePart.parts.17.parts.2.parts.1.customLabel>
-  <Mousekin.corePart.parts.17.parts.2.parts.2.customLabel>right middle toe</Mousekin.corePart.parts.17.parts.2.parts.2.customLabel>
-  <Mousekin.corePart.parts.17.parts.2.parts.3.customLabel>right second toe</Mousekin.corePart.parts.17.parts.2.parts.3.customLabel>
-  <Mousekin.corePart.parts.17.parts.2.parts.4.customLabel>right big toe</Mousekin.corePart.parts.17.parts.2.parts.4.customLabel>
+	<!-- EN: Mousekin -->
+	<Mousekin.label>白鼠族</Mousekin.label>
 
+	<!-- EN: left lung -->
+	<Mousekin.corePart.parts.6.customLabel>左肺</Mousekin.corePart.parts.6.customLabel>
 
+	<!-- EN: right lung -->
+	<Mousekin.corePart.parts.7.customLabel>右肺</Mousekin.corePart.parts.7.customLabel>
+
+	<!-- EN: left kidney -->
+	<Mousekin.corePart.parts.8.customLabel>左腎</Mousekin.corePart.parts.8.customLabel>
+
+	<!-- EN: right kidney -->
+	<Mousekin.corePart.parts.9.customLabel>右腎</Mousekin.corePart.parts.9.customLabel>
+
+	<!-- EN: left eye -->
+	<Mousekin.corePart.parts.11.parts.0.parts.1.customLabel>左眼</Mousekin.corePart.parts.11.parts.0.parts.1.customLabel>
+
+	<!-- EN: right eye -->
+	<Mousekin.corePart.parts.11.parts.0.parts.2.customLabel>右眼</Mousekin.corePart.parts.11.parts.0.parts.2.customLabel>
+
+	<!-- EN: left ear -->
+	<Mousekin.corePart.parts.11.parts.0.parts.3.customLabel>左耳</Mousekin.corePart.parts.11.parts.0.parts.3.customLabel>
+
+	<!-- EN: right ear -->
+	<Mousekin.corePart.parts.11.parts.0.parts.4.customLabel>右耳</Mousekin.corePart.parts.11.parts.0.parts.4.customLabel>
+
+	<!-- EN: left shoulder -->
+	<Mousekin.corePart.parts.12.customLabel>左肩</Mousekin.corePart.parts.12.customLabel>
+
+	<!-- EN: left clavicle -->
+	<Mousekin.corePart.parts.12.parts.0.customLabel>左鎖骨</Mousekin.corePart.parts.12.parts.0.customLabel>
+
+	<!-- EN: left arm -->
+	<Mousekin.corePart.parts.12.parts.1.customLabel>左臂</Mousekin.corePart.parts.12.parts.1.customLabel>
+
+	<!-- EN: left humerus -->
+	<Mousekin.corePart.parts.12.parts.1.parts.0.customLabel>左肱骨</Mousekin.corePart.parts.12.parts.1.parts.0.customLabel>
+
+	<!-- EN: left radius -->
+	<Mousekin.corePart.parts.12.parts.1.parts.1.customLabel>左橈骨</Mousekin.corePart.parts.12.parts.1.parts.1.customLabel>
+
+	<!-- EN: left paw -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.customLabel>左掌</Mousekin.corePart.parts.12.parts.1.parts.2.customLabel>
+
+	<!-- EN: left pinky -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>左小指</Mousekin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: left ring finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>左無名指</Mousekin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>左中指</Mousekin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: left index finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>左食指</Mousekin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: left thumb -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>左拇指</Mousekin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: right shoulder -->
+	<Mousekin.corePart.parts.13.customLabel>右肩</Mousekin.corePart.parts.13.customLabel>
+
+	<!-- EN: right clavicle -->
+	<Mousekin.corePart.parts.13.parts.0.customLabel>右鎖骨</Mousekin.corePart.parts.13.parts.0.customLabel>
+
+	<!-- EN: right arm -->
+	<Mousekin.corePart.parts.13.parts.1.customLabel>右臂</Mousekin.corePart.parts.13.parts.1.customLabel>
+
+	<!-- EN: right humerus -->
+	<Mousekin.corePart.parts.13.parts.1.parts.0.customLabel>右肱骨</Mousekin.corePart.parts.13.parts.1.parts.0.customLabel>
+
+	<!-- EN: right radius -->
+	<Mousekin.corePart.parts.13.parts.1.parts.1.customLabel>右橈骨</Mousekin.corePart.parts.13.parts.1.parts.1.customLabel>
+
+	<!-- EN: right paw -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.customLabel>右掌</Mousekin.corePart.parts.13.parts.1.parts.2.customLabel>
+
+	<!-- EN: right pinky -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>右小指</Mousekin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: right ring finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>右無名指</Mousekin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>右中指</Mousekin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: right index finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>右食指</Mousekin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: right thumb -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>右拇指</Mousekin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: tail -->
+	<Mousekin.corePart.parts.15.customLabel>尾巴</Mousekin.corePart.parts.15.customLabel>
+
+	<!-- EN: left leg -->
+	<Mousekin.corePart.parts.16.customLabel>左腿</Mousekin.corePart.parts.16.customLabel>
+
+	<!-- EN: left femur -->
+	<Mousekin.corePart.parts.16.parts.0.customLabel>左股骨</Mousekin.corePart.parts.16.parts.0.customLabel>
+
+	<!-- EN: left tibia -->
+	<Mousekin.corePart.parts.16.parts.1.customLabel>左脛骨</Mousekin.corePart.parts.16.parts.1.customLabel>
+
+	<!-- EN: left hind paw -->
+	<Mousekin.corePart.parts.16.parts.2.customLabel>左腳</Mousekin.corePart.parts.16.parts.2.customLabel>
+
+	<!-- EN: left little toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.0.customLabel>左小趾</Mousekin.corePart.parts.16.parts.2.parts.0.customLabel>
+
+	<!-- EN: left fourth toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.1.customLabel>左四趾</Mousekin.corePart.parts.16.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.2.customLabel>左中趾</Mousekin.corePart.parts.16.parts.2.parts.2.customLabel>
+
+	<!-- EN: left second toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.3.customLabel>左二趾</Mousekin.corePart.parts.16.parts.2.parts.3.customLabel>
+
+	<!-- EN: left big toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.4.customLabel>左拇趾</Mousekin.corePart.parts.16.parts.2.parts.4.customLabel>
+
+	<!-- EN: right leg -->
+	<Mousekin.corePart.parts.17.customLabel>右腿</Mousekin.corePart.parts.17.customLabel>
+
+	<!-- EN: right femur -->
+	<Mousekin.corePart.parts.17.parts.0.customLabel>右股骨</Mousekin.corePart.parts.17.parts.0.customLabel>
+
+	<!-- EN: right tibia -->
+	<Mousekin.corePart.parts.17.parts.1.customLabel>右脛骨</Mousekin.corePart.parts.17.parts.1.customLabel>
+
+	<!-- EN: right hind paw -->
+	<Mousekin.corePart.parts.17.parts.2.customLabel>右腳</Mousekin.corePart.parts.17.parts.2.customLabel>
+
+	<!-- EN: right little toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.0.customLabel>右小趾</Mousekin.corePart.parts.17.parts.2.parts.0.customLabel>
+
+	<!-- EN: right fourth toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.1.customLabel>右四趾</Mousekin.corePart.parts.17.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.2.customLabel>右中趾</Mousekin.corePart.parts.17.parts.2.parts.2.customLabel>
+
+	<!-- EN: right second toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.3.customLabel>右二趾</Mousekin.corePart.parts.17.parts.2.parts.3.customLabel>
+
+	<!-- EN: right big toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.4.customLabel>右拇趾</Mousekin.corePart.parts.17.parts.2.parts.4.customLabel>
+	
 </LanguageData>

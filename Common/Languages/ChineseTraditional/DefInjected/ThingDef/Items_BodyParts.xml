@@ -1,22 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Craftable Prosthetics -->
+	<!-- EN: Cloth Mousekin Ear -->
+	<Mousekin_ProstheticClothEar.label>布製白鼠族假耳</Mousekin_ProstheticClothEar.label>
 
-  <Mousekin_ProstheticClothEar.label>Cloth Mousekin Ear</Mousekin_ProstheticClothEar.label>
-  <Mousekin_ProstheticClothEar.description>A fake Mousekin ear sewn from cloth.\n\nMousekins take great pride in their large rounded ears, as their presence (or absence) greatly affects their standing in Mousekin society. Those who have lost their natural ears through injury or disease wear fake ears to hide their humiliating disfigurement.</Mousekin_ProstheticClothEar.description>
+	<!-- EN: A fake Mousekin ear sewn from cloth.\n\nMousekins take great pride in their large rounded ears, as their presence (or absence) greatly affects their standing in Mousekin society. Those who have lost their natural ears through injury or disease wear fake ears to hide their humiliating disfigurement. -->
+	<Mousekin_ProstheticClothEar.description>用布縫製的假白鼠族耳朵。\n\n白鼠族以他們的大圓耳朵為榮，因為耳朵的存在（或不存在）極大地影響了他們在白鼠族社會中的地位。那些因受傷或疾病而失去天生耳朵的白鼠族會戴上假耳，來掩飾他們可恥的毀容。</Mousekin_ProstheticClothEar.description>
 
-  <Mousekin_ProstheticClothTail.label>Cloth Mousekin Tail</Mousekin_ProstheticClothTail.label>
-  <Mousekin_ProstheticClothTail.description>A fake Mousekin tail made from cloth twisted and braided into rope.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving. Those who have lost their natural tails through injury and disease wear fake tails, and while the non-living rope tail does not fully restore their loss of balancing ability, it at least attracts less attention than a stump.</Mousekin_ProstheticClothTail.description>
+	<!-- EN: Cloth Mousekin Tail -->
+	<Mousekin_ProstheticClothTail.label>布製白鼠族假尾</Mousekin_ProstheticClothTail.label>
 
+	<!-- EN: A fake Mousekin tail made from cloth twisted and braided into rope.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving. Those who have lost their natural tails through injury and disease wear fake tails, and while the non-living rope tail does not fully restore their loss of balancing ability, it at least attracts less attention than a stump. -->
+	<Mousekin_ProstheticClothTail.description>用布料擰成繩子編成的假白鼠族尾巴。\n\n白鼠族和普通老鼠一樣，在移動時依靠尾巴保持平衡。那些因受傷和疾病而失去天生尾巴的白鼠族會戴上假尾巴，雖然沒有生命的繩索尾巴並不能完全恢復失去的平衡能力，但至少比殘端還不應其他白鼠族的注意。</Mousekin_ProstheticClothTail.description>
 
-  <!-- Organic Body Parts -->
+	<!-- EN: Mousekin Ear -->
+	<Mousekin_BodyPartEar.label>白鼠族耳朵</Mousekin_BodyPartEar.label>
 
-  <Mousekin_BodyPartEar.label>Mousekin Ear</Mousekin_BodyPartEar.label>
-  <Mousekin_BodyPartEar.description>A biological Mousekin ear, most likely harvested from a dead or unwilling Mousekin.\n\nBesides allowing Mousekins to pick up quiet, distant sounds, large rounded ears represent a Mousekin’s personal honor, dignity and standing in their society, and this replacement ear fully restores their loss of hearing ability as well as their social status.</Mousekin_BodyPartEar.description>
+	<!-- EN: A biological Mousekin ear, most likely harvested from a dead or unwilling Mousekin.\n\nBesides allowing Mousekins to pick up quiet, distant sounds, large rounded ears represent a Mousekin’s personal honor, dignity and standing in their society, and this replacement ear fully restores their loss of hearing ability as well as their social status. -->
+	<Mousekin_BodyPartEar.description>一隻天然的白鼠族耳朵，極有可能是從死去或不情願的白鼠族身上收穫的。\n\n除了能讓白鼠族聽到低沉、遙遠的聲音外，又大又圓的耳朵代表了白鼠族個人的榮譽和尊嚴。因此，這個移植的耳朵完全恢復了他們的聽力損失和社會地位。</Mousekin_BodyPartEar.description>
 
-  <Mousekin_BodyPartTail.label>Mousekin Tail</Mousekin_BodyPartTail.label>
-  <Mousekin_BodyPartTail.description>A biological Mousekin tail, most likely harvested from a dead or unwilling Mousekin.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving, and this replacement tail fully restores their loss of balancing ability.</Mousekin_BodyPartTail.description>
+	<!-- EN: Mousekin Tail -->
+	<Mousekin_BodyPartTail.label>白鼠族尾巴</Mousekin_BodyPartTail.label>
 
-
+	<!-- EN: A biological Mousekin tail, most likely harvested from a dead or unwilling Mousekin.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving, and this replacement tail fully restores their loss of balancing ability. -->
+	<Mousekin_BodyPartTail.description>一條天然的白鼠族尾巴，極有可能是從死去或不情願的白鼠族身上收穫的。\n\n白鼠族和普通老鼠一樣，在移動時依靠尾巴保持平衡。因此，這個移植的尾巴完全恢復了他們失去的平衡能力。</Mousekin_BodyPartTail.description>
+	
 </LanguageData>

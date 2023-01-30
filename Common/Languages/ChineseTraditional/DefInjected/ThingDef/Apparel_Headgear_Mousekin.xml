@@ -1,58 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Commoner Headgear -->
+	<!-- EN: Mousekin Straw Hat -->
+	<Mousekin_HatStraw.label>白鼠族草帽</Mousekin_HatStraw.label>
 
-  <Mousekin_HatStraw.label>Mousekin Straw Hat</Mousekin_HatStraw.label>
-  <Mousekin_HatStraw.description>A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears.</Mousekin_HatStraw.description>
+	<!-- EN: A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatStraw.description>一種用稻草編織的寬邊帽，由白鼠族農民和勞工用來防曬戴的。有可容納白鼠族耳朵的孔。</Mousekin_HatStraw.description>
 
-  <Mousekin_HatHeadscarf.label>Mousekin Headscarf</Mousekin_HatHeadscarf.label>
-  <Mousekin_HatHeadscarf.description>A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears.</Mousekin_HatHeadscarf.description>
+	<!-- EN: Mousekin Headscarf -->
+	<Mousekin_HatHeadscarf.label>白鼠族頭巾</Mousekin_HatHeadscarf.label>
 
+	<!-- EN: A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatHeadscarf.description>一種蓋住頭頂、兩側和後腦勺的布，由白鼠族女性農民和勞工戴在頭上，以防止頭髮在工作時遮住臉。有可容納白鼠族耳朵的孔。</Mousekin_HatHeadscarf.description>
 
-  <!-- Middle-class Headgear -->
+	<!-- EN: Mousekin Nun’s Veil -->
+	<Mousekin_HatNunVeil.label>白鼠族修女頭巾</Mousekin_HatNunVeil.label>
 
-  <Mousekin_HatNunVeil.label>Mousekin Nun’s Veil</Mousekin_HatNunVeil.label>
-  <Mousekin_HatNunVeil.description>A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears.</Mousekin_HatNunVeil.description>
+	<!-- EN: A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatNunVeil.description>一種端莊的頭巾，由白鼠族修女佩戴，以防止頭髮在主持儀式或照顧病人和孤兒時遮住臉。有可容納白鼠族耳朵的孔。</Mousekin_HatNunVeil.description>
 
+	<!-- EN: Mousekin Kettle Hat -->
+	<Mousekin_HelmetKettle.label>白鼠族鍋蓋盔</Mousekin_HelmetKettle.label>
 
-  <!-- Military Headgear -->
+	<!-- EN: A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKettle.description>一種寬邊鋼製頭盔，可保護頭頂免受大多數傷害，同時讓下部頭部和麵部暴露在外，以最大限度地提高視野和舒適度。由白鼠族弩手所佩戴，因形似普通炊具而得名。有可容納白鼠族耳朵的孔。</Mousekin_HelmetKettle.description>
 
-  <Mousekin_HelmetKettle.label>Mousekin Kettle Hat</Mousekin_HelmetKettle.label>
-  <Mousekin_HelmetKettle.description>A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears.</Mousekin_HelmetKettle.description>
+	<!-- EN: Mousekin Morion Helmet -->
+	<Mousekin_HelmetMorion.label>白鼠族莫里恩頭盔</Mousekin_HelmetMorion.label>
 
-  <Mousekin_HelmetMorion.label>Mousekin Morion Helmet</Mousekin_HelmetMorion.label>
-  <Mousekin_HelmetMorion.description>A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears.</Mousekin_HelmetMorion.description>
+	<!-- EN: A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetMorion.description>一種平邊帶頂飾鋼製頭盔，可保護頭頂免受大多數傷害，同時讓下部頭部和臉部暴露在外，以最大限度地提高視野和舒適度。由白鼠族長槍兵和鳥銃手佩戴。有可容納白鼠族耳朵的孔。</Mousekin_HelmetMorion.description>
 
-  <Mousekin_HelmetKnight.label>Mousekin Knight's Helmet</Mousekin_HelmetKnight.label>
-  <Mousekin_HelmetKnight.description>A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears.</Mousekin_HelmetKnight.description>
+	<!-- EN: Mousekin Knight's Helmet -->
+	<Mousekin_HelmetKnight.label>白鼠族騎士頭盔</Mousekin_HelmetKnight.label>
 
+	<!-- EN: A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnight.description>白鼠族騎士佩戴的板甲頭盔，帶有可旋轉的面罩，可在不影響保護的情況下維持佩戴者的視野。有可容納白鼠族耳朵的孔。</Mousekin_HelmetKnight.description>
 
-  <!-- Uncraftable -->
+	<!-- EN: Mousekin Woodsman’s Bycocket -->
+	<Mousekin_HatWoodsman.label>白鼠族樵夫尖帽</Mousekin_HatWoodsman.label>
 
-  <Mousekin_HatWoodsman.label>Mousekin Woodsman’s Bycocket</Mousekin_HatWoodsman.label>
-  <Mousekin_HatWoodsman.description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</Mousekin_HatWoodsman.description>
+	<!-- EN: A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries. -->
+	<Mousekin_HatWoodsman.description>一種正面尖頂、帽簷寬大、帽簷上翹的布製帽子，通常飾有羽毛。原為白鼠族樵夫所戴，現為白鼠族革命家所用。</Mousekin_HatWoodsman.description>
 
-  <Mousekin_HelmetKnightCommander.label>Mousekin Knight Commander’s Helmet</Mousekin_HelmetKnightCommander.label>
-  <Mousekin_HelmetKnightCommander.description>A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears.</Mousekin_HelmetKnightCommander.description>
+	<!-- EN: Mousekin Knight Commander’s Helmet -->
+	<Mousekin_HelmetKnightCommander.label>白鼠族騎士長頭盔</Mousekin_HelmetKnightCommander.label>
 
+	<!-- EN: A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnightCommander.description>白鼠族騎士長佩戴的板甲頭盔，帶有可旋轉的面罩，可在不影響保護的情況下維持佩戴者的視野，並裝飾著一縷鮮豔的羽毛，以幫助其他騎士在戰鬥中找到他們的長官。有可容納白鼠族耳朵的孔。</Mousekin_HelmetKnightCommander.description>
 
-  <!-- Dummy Defs for rendering purposes -->
+	<!-- EN: hood -->
+	<Mousekin_HatCloakHood.label>兜帽</Mousekin_HatCloakHood.label>
 
-  <Mousekin_HatCloakHood.label>hood</Mousekin_HatCloakHood.label>
-  <Mousekin_HatCloakHood.description>Hood for the Mousekin Cloak.</Mousekin_HatCloakHood.description>
+	<!-- EN: Hood for the Mousekin Cloak. -->
+	<Mousekin_HatCloakHood.description>白鼠族披風的兜帽</Mousekin_HatCloakHood.description>
 
-  <Mousekin_HatGuardenerRobeHood.label>hood</Mousekin_HatGuardenerRobeHood.label>
-  <Mousekin_HatGuardenerRobeHood.description>Hood for the Mousekin Guardener's Robe.</Mousekin_HatGuardenerRobeHood.description>
+	<!-- EN: hood -->
+	<Mousekin_HatGuardenerRobeHood.label>兜帽</Mousekin_HatGuardenerRobeHood.label>
 
-  <Mousekin_HatNunVeilBack.label>Veil Back</Mousekin_HatNunVeilBack.label>
-  <Mousekin_HatNunVeilBack.description>Back of the Mousekin Nun’s Veil.</Mousekin_HatNunVeilBack.description>
+	<!-- EN: Hood for the Mousekin Guardener's Robe. -->
+	<Mousekin_HatGuardenerRobeHood.description>白鼠族花園衛女披風的兜帽。</Mousekin_HatGuardenerRobeHood.description>
 
-  <Mousekin_HelmetKnight_VisorUp.label>Knight's Helmet with visor up</Mousekin_HelmetKnight_VisorUp.label>
-  <Mousekin_HelmetKnight_VisorUp.description>Knight's Helmet with visor up</Mousekin_HelmetKnight_VisorUp.description>
+	<!-- EN: Veil Back -->
+	<Mousekin_HatNunVeilBack.label>白鼠族修女頭巾(背層)</Mousekin_HatNunVeilBack.label>
 
-  <Mousekin_HelmetKnightCommander_VisorUp.label>Knight Commander's Helmet with visor up</Mousekin_HelmetKnightCommander_VisorUp.label>
-  <Mousekin_HelmetKnightCommander_VisorUp.description>Knight Commander's Helmet with visor up</Mousekin_HelmetKnightCommander_VisorUp.description>
+	<!-- EN: Back of the Mousekin Nun’s Veil. -->
+	<Mousekin_HatNunVeilBack.description>白鼠族修女頭巾的背層</Mousekin_HatNunVeilBack.description>
 
+	<!-- EN: Knight's Helmet with visor up -->
+	<Mousekin_HelmetKnight_VisorUp.label>白鼠族騎士頭盔(面罩打開)</Mousekin_HelmetKnight_VisorUp.label>
 
+	<!-- EN: Knight's Helmet with visor up -->
+	<Mousekin_HelmetKnight_VisorUp.description>白鼠族騎士頭盔(面罩打開)</Mousekin_HelmetKnight_VisorUp.description>
+
+	<!-- EN: Knight Commander's Helmet with visor up -->
+	<Mousekin_HelmetKnightCommander_VisorUp.label>白鼠族騎士長頭盔(面罩打開上)</Mousekin_HelmetKnightCommander_VisorUp.label>
+
+	<!-- EN: Knight Commander's Helmet with visor up -->
+	<Mousekin_HelmetKnightCommander_VisorUp.description>白鼠族騎士長頭盔(面罩打開)</Mousekin_HelmetKnightCommander_VisorUp.description>
+	
 </LanguageData>

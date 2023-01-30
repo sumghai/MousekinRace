@@ -1,12 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Mousekin_Apparel.label>Mousekin apparel</Mousekin_Apparel.label>
-  <Mousekin_Accessories.label>Mousekin accessories</Mousekin_Accessories.label>
-  <Mousekin_Headgear.label>Mousekin headgear</Mousekin_Headgear.label>
-  <Mousekin_WeaponsMelee.label>Mousekin melee weapons</Mousekin_WeaponsMelee.label>
-  <Mousekin_WeaponsRanged.label>Mousekin ranged weapons</Mousekin_WeaponsRanged.label>
-  <Mousekin_Beverages.label>Mousekin beverages</Mousekin_Beverages.label>
-
-
+	
+	<!-- EN: Mousekin apparel -->
+	<Mousekin_Apparel.label>白鼠族衣物</Mousekin_Apparel.label>
+	
+	<!-- EN: Mousekin accessories -->
+	<Mousekin_Accessories.label>白鼠族配件</Mousekin_Accessories.label>
+	
+	<!-- EN: Mousekin headgear -->
+	<Mousekin_Headgear.label>白鼠族頭部裝備</Mousekin_Headgear.label>
+	
+	<!-- EN: Mousekin melee weapons -->
+	<Mousekin_WeaponsMelee.label>白鼠族近戰武器</Mousekin_WeaponsMelee.label>
+	
+	<!-- EN: Mousekin ranged weapons -->
+	<Mousekin_WeaponsRanged.label>白鼠族遠程武器</Mousekin_WeaponsRanged.label>
+	
+	<!-- EN: Mousekin beverages -->
+	<Mousekin_Beverages.label>白鼠族飲品</Mousekin_Beverages.label>
+	
 </LanguageData>

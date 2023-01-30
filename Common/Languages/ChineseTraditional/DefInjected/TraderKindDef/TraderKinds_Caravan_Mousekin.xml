@@ -1,32 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Bulk goods trader (Kingdom and Independent factions) - buys and sells Mousekin-themed crops, meats, alcohols, resources and misc manufactured items -->
+	<!-- EN: bulk goods trader -->
+	<Mousekin_TraderCaravan_Bulk.label>雜貨商人</Mousekin_TraderCaravan_Bulk.label>
 
-  <Mousekin_TraderCaravan_Bulk.label>bulk goods trader</Mousekin_TraderCaravan_Bulk.label>
+	<!-- EN: clothing merchant -->
+	<Mousekin_TraderCaravan_Apparel.label>服裝商人</Mousekin_TraderCaravan_Apparel.label>
 
+	<!-- EN: livestock trader -->
+	<Mousekin_TraderCaravan_Animals.label>牲畜商人</Mousekin_TraderCaravan_Animals.label>
 
-  <!-- Clothing merchant (Kingdom and Independent factions) - buys and sells Mousekin commoner and middle-class apparel, accessories, fabrics, wools and leathers -->
-
-  <Mousekin_TraderCaravan_Apparel.label>clothing merchant</Mousekin_TraderCaravan_Apparel.label>
-
-
-  <!-- Livestock trader (Kingdom and Independent factions) - sells common Mousekin farm animals, and buys most other animals -->
-
-  <Mousekin_TraderCaravan_Animals.label>livestock trader</Mousekin_TraderCaravan_Animals.label>
-
-
-  <!-- Ironmonger - sells tools, melee and ranged weapons, as well as ammo, explosives, military apparel, combat and healing potions
-		 - The Kingdom variant tends towards more melee weapons and knight armor
-		 - The Indy Town variant tends towards more ranged weapons and a special Thunderpike weapon -->
-
-  <Mousekin_TraderCaravan_MilitaryKingdom.label>ironmonger</Mousekin_TraderCaravan_MilitaryKingdom.label>
-  <Mousekin_TraderCaravan_MilitaryIndyTown.label>ironmonger</Mousekin_TraderCaravan_MilitaryIndyTown.label>
-
-
-  <!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand); may also offer small quantities of basic goods -->
-
-  <Mousekin_TraderCaravan_Exotic.label>exotic goods trader</Mousekin_TraderCaravan_Exotic.label>
-
-
+	<!-- EN: ironmonger -->
+	<Mousekin_TraderCaravan_MilitaryKingdom.label>打鐵商人</Mousekin_TraderCaravan_MilitaryKingdom.label>
+	<Mousekin_TraderCaravan_MilitaryIndyTown.label>打鐵商人</Mousekin_TraderCaravan_MilitaryIndyTown.label>
+	
+	<!-- EN: exotic goods trader -->
+	<Mousekin_TraderCaravan_Exotic.label>外貿商人</Mousekin_TraderCaravan_Exotic.label>
+	
 </LanguageData>

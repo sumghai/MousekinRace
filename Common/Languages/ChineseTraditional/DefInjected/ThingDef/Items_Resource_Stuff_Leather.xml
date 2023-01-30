@@ -1,17 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_Leather_Mousekin.label>Mousekin fur</Mousekin_Leather_Mousekin.label>
-  <Mousekin_Leather_Mousekin.description>The soft, furry and snowy white pelt of a Mousekin. While most humanoids regard this as just another type of fur, Mousekins find this material to be utterly horrifying.</Mousekin_Leather_Mousekin.description>
-  <Mousekin_Leather_Mousekin.stuffProps.stuffAdjective>Mousekin fur</Mousekin_Leather_Mousekin.stuffProps.stuffAdjective>
+	<!-- EN: Mousekin fur -->
+	<Mousekin_Leather_Mousekin.label>白鼠族毛皮</Mousekin_Leather_Mousekin.label>
 
-  <Mousekin_LeatherGiantCavy.label>giant cavy fur</Mousekin_LeatherGiantCavy.label>
-  <Mousekin_LeatherGiantCavy.description>The soft, furry pelt of a giant cavy, more durable and luxurious than regular guinea pig fur, while retaining the unique cuteness of the oversized rodent it originated from. Good at temperature regulation in hot climates.</Mousekin_LeatherGiantCavy.description>
-  <Mousekin_LeatherGiantCavy.stuffProps.stuffAdjective>giant cavy fur</Mousekin_LeatherGiantCavy.stuffProps.stuffAdjective>
+	<!-- EN: The soft, furry and snowy white pelt of a Mousekin. While most humanoids regard this as just another type of fur, Mousekins find this material to be utterly horrifying. -->
+	<Mousekin_Leather_Mousekin.description>從白鼠族身上取得的柔軟、毛茸茸的雪白毛皮。大多數人形生物都將其視為另一種皮毛，但白鼠族們會對於這素材感到毛骨悚然。</Mousekin_Leather_Mousekin.description>
 
-  <Mousekin_LeatherPudgemouse.label>pudgemouse fur</Mousekin_LeatherPudgemouse.label>
-  <Mousekin_LeatherPudgemouse.description>Sheets of soft, grey Pudgemouse fur. It is delicate and luxurious, but not particularly insulating. Most Mousekins consider Pudgemice to be sentient companions, and will be disturbed if they see apparel made with this material.</Mousekin_LeatherPudgemouse.description>
-  <Mousekin_LeatherPudgemouse.stuffProps.stuffAdjective>pudgemouse fur</Mousekin_LeatherPudgemouse.stuffProps.stuffAdjective>
+	<!-- EN: Mousekin fur -->
+	<Mousekin_Leather_Mousekin.stuffProps.stuffAdjective>白鼠族毛皮</Mousekin_Leather_Mousekin.stuffProps.stuffAdjective>
 
+	<!-- EN: giant cavy fur -->
+	<Mousekin_LeatherGiantCavy.label>巨豚鼠毛皮</Mousekin_LeatherGiantCavy.label>
 
+	<!-- EN: The soft, furry pelt of a giant cavy, more durable and luxurious than regular guinea pig fur, while retaining the unique cuteness of the oversized rodent it originated from. Good at temperature regulation in hot climates. -->
+	<Mousekin_LeatherGiantCavy.description>從巨豚鼠身上取得的毛茸茸柔軟毛皮，比普通的天竺鼠皮更耐用及豪華，同時保留了它來自超大型囓齒動物的獨特可愛之處。擅長炎熱氣候下的溫度調節。</Mousekin_LeatherGiantCavy.description>
+
+	<!-- EN: giant cavy fur -->
+	<Mousekin_LeatherGiantCavy.stuffProps.stuffAdjective>巨豚鼠毛皮</Mousekin_LeatherGiantCavy.stuffProps.stuffAdjective>
+
+	<!-- EN: pudgemouse fur -->
+	<Mousekin_LeatherPudgemouse.label>胖胖鼠毛皮</Mousekin_LeatherPudgemouse.label>
+
+	<!-- EN: Sheets of soft, grey Pudgemouse fur. It is delicate and luxurious, but not particularly insulating. Most Mousekins consider Pudgemice to be sentient companions, and will be disturbed if they see apparel made with this material. -->
+	<Mousekin_LeatherPudgemouse.description>柔軟的灰色胖胖鼠毛皮。它精緻奢華，但隔絕性較差。大多數白鼠族認為胖胖老鼠是有知覺的伙伴，因此如果他們看到用這種材料製成的衣服，就會感到不安。</Mousekin_LeatherPudgemouse.description>
+
+	<!-- EN: pudgemouse fur -->
+	<Mousekin_LeatherPudgemouse.stuffProps.stuffAdjective>胖胖鼠毛皮</Mousekin_LeatherPudgemouse.stuffProps.stuffAdjective>
+	
 </LanguageData>

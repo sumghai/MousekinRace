@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Beeswax -->
+	<!-- EN: Beeswax -->
+	<Mousekin_Beeswax.label>蜂蠟</Mousekin_Beeswax.label>
 
-  <Mousekin_Beeswax.label>Beeswax</Mousekin_Beeswax.label>
-  <Mousekin_Beeswax.description>Wax produced by honeybees from Mousekin Beehives, mainly used for crafting candles.</Mousekin_Beeswax.description>
-
-
+	<!-- EN: Wax produced by honeybees from Mousekin Beehives, mainly used for crafting candles. -->
+	<Mousekin_Beeswax.description>白鼠族蜂箱的蜜蜂所產的蠟，主要用於製作蠟燭。</Mousekin_Beeswax.description>
+	
 </LanguageData>

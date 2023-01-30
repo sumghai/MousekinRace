@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_Ear.label>Mousekin ear</Mousekin_Ear.label>
-  <Mousekin_Tail.label>Mousekin tail</Mousekin_Tail.label>
+	<!-- EN: Mousekin ear -->
+	<Mousekin_Ear.label>白鼠族耳朵</Mousekin_Ear.label>
 
-
+	<!-- EN: Mousekin tail -->
+	<Mousekin_Tail.label>白鼠族尾巴</Mousekin_Tail.label>
+	
 </LanguageData>

@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Mousekin Candle Sconce -->
-
-  <Mousekin_FurnitureWallCandle.label>Mousekin candle sconce</Mousekin_FurnitureWallCandle.label>
-  <Mousekin_FurnitureWallCandle.description>A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat.</Mousekin_FurnitureWallCandle.description>
-  <Mousekin_FurnitureWallCandle_Blueprint.label>Mousekin candle sconce (blueprint)</Mousekin_FurnitureWallCandle_Blueprint.label>
-  <Mousekin_FurnitureWallCandle_Frame.label>Mousekin candle sconce (building)</Mousekin_FurnitureWallCandle_Frame.label>
-  <Mousekin_FurnitureWallCandle_Frame.description>A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat.</Mousekin_FurnitureWallCandle_Frame.description>
-
-
+	<!-- EN: Mousekin candle sconce -->
+	<Mousekin_FurnitureWallCandle.label>白鼠族燭台</Mousekin_FurnitureWallCandle.label>
+	
+	<!-- EN: A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat. -->
+	<Mousekin_FurnitureWallCandle.description>用於照亮某個區域的壁掛式蠟燭。白鼠族需要光亮才能全速移動、工作。需要定期補充蠟燭燃料。不產生熱量。</Mousekin_FurnitureWallCandle.description>
+	
 </LanguageData>

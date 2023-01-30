@@ -1,16 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <NamerFaction_MousekinKingdom.rulePack.rulesStrings.0>r_name->The Kingdom of [Herb]</NamerFaction_MousekinKingdom.rulePack.rulesStrings.0>
-  <NamerFaction_MousekinKingdom.rulePack.rulesStrings.1>r_name->The Kingdom of the [Flower]</NamerFaction_MousekinKingdom.rulePack.rulesStrings.1>
-  <NamerFaction_MousekinKingdom.rulePack.rulesStrings.2>r_name->Kingdom of [Herb]</NamerFaction_MousekinKingdom.rulePack.rulesStrings.2>
-  <NamerFaction_MousekinKingdom.rulePack.rulesStrings.3>r_name->Kingdom of the [Flower]</NamerFaction_MousekinKingdom.rulePack.rulesStrings.3>
-  <NamerFaction_MousekinKingdom.rulePack.rulesStrings.4>r_name->The [Flower] Kingdom</NamerFaction_MousekinKingdom.rulePack.rulesStrings.4>
+	<!-- EN: r_name->The Kingdom of [Herb] -->
+	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.0>r_name->[Herb]王國</NamerFaction_MousekinKingdom.rulePack.rulesStrings.0>
 
-  <NamerFaction_MousekinIndyTown.rulePack.rulesStrings.0>r_name->Free Mousekin [PoliticalUnion]</NamerFaction_MousekinIndyTown.rulePack.rulesStrings.0>
-  <NamerFaction_MousekinIndyTown.rulePack.rulesStrings.1>r_name->[PoliticalUnion] of Free Mousekins</NamerFaction_MousekinIndyTown.rulePack.rulesStrings.1>
+	<!-- EN: r_name->The Kingdom of the [Flower] -->
+	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.1>r_name->[Flower]王國</NamerFaction_MousekinKingdom.rulePack.rulesStrings.1>
 
-  <NamerFaction_MousekinBrigands.rulePack.rulesStrings.0>r_name->The [MousekinGangName]</NamerFaction_MousekinBrigands.rulePack.rulesStrings.0>
+	<!-- EN: r_name->Kingdom of [Herb] -->
+	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.2>r_name->[Herb]王國</NamerFaction_MousekinKingdom.rulePack.rulesStrings.2>
 
+	<!-- EN: r_name->Kingdom of the [Flower] -->
+	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.3>r_name->[Flower]王國</NamerFaction_MousekinKingdom.rulePack.rulesStrings.3>
 
+	<!-- EN: r_name->The [Flower] Kingdom -->
+	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.4>r_name->[Flower]王國</NamerFaction_MousekinKingdom.rulePack.rulesStrings.4>
+
+	<!-- EN: r_name->Free Mousekin [PoliticalUnion] -->
+	<NamerFaction_MousekinIndyTown.rulePack.rulesStrings.0>r_name->自由白鼠族[PoliticalUnion]</NamerFaction_MousekinIndyTown.rulePack.rulesStrings.0>
+
+	<!-- EN: r_name->[PoliticalUnion] of Free Mousekins -->
+	<NamerFaction_MousekinIndyTown.rulePack.rulesStrings.1>r_name->白鼠族民主[PoliticalUnion]</NamerFaction_MousekinIndyTown.rulePack.rulesStrings.1>
+
+	<!-- EN: r_name->The [MousekinGangName] -->
+	<NamerFaction_MousekinBrigands.rulePack.rulesStrings.0>r_name->[MousekinGangName]</NamerFaction_MousekinBrigands.rulePack.rulesStrings.0>
+	
 </LanguageData>

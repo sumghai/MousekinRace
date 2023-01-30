@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_CrossbowBolt.label>mousekin crossbow bolt</Mousekin_CrossbowBolt.label>
-  <Mousekin_CrossbowBolt.deathMessage>{0} has been shot to death by a Mousekin crossbow bolt.</Mousekin_CrossbowBolt.deathMessage>
+	<!-- EN: mousekin crossbow bolt -->
+	<Mousekin_CrossbowBolt.label>白鼠族弩箭箭傷</Mousekin_CrossbowBolt.label>
 
-  <Mousekin_GunpowderExplosion.label>mousekin gunpowder explosion</Mousekin_GunpowderExplosion.label>
-  <Mousekin_GunpowderExplosion.deathMessage>{0} has died in an explosion.</Mousekin_GunpowderExplosion.deathMessage>
+	<!-- EN: {0} has been shot to death by a Mousekin crossbow bolt. -->
+	<Mousekin_CrossbowBolt.deathMessage>{0}中箭身亡了。</Mousekin_CrossbowBolt.deathMessage>
 
+	<!-- EN: mousekin gunpowder explosion -->
+	<Mousekin_GunpowderExplosion.label>白鼠族火藥炸傷</Mousekin_GunpowderExplosion.label>
 
+	<!-- EN: {0} has died in an explosion. -->
+	<Mousekin_GunpowderExplosion.deathMessage>{0}死於一場爆炸。</Mousekin_GunpowderExplosion.deathMessage>
+	
 </LanguageData>

@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Mousekin_Beard_Handlebar.label>Handlebar</Mousekin_Beard_Handlebar.label>
-  <Mousekin_Beard_Professor.label>Professor</Mousekin_Beard_Professor.label>
-  <Mousekin_Beard_Walrus.label>Walrus</Mousekin_Beard_Walrus.label>
-
-
+	
+	<!-- EN: Handlebar -->
+	<Mousekin_Beard_Handlebar.label>車把</Mousekin_Beard_Handlebar.label>
+	
+	<!-- EN: Professor -->
+	<Mousekin_Beard_Professor.label>教授</Mousekin_Beard_Professor.label>
+	
+	<!-- EN: Walrus -->
+	<Mousekin_Beard_Walrus.label>海象</Mousekin_Beard_Walrus.label>
+	
 </LanguageData>

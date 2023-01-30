@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_Make_MedicinePoultice.label>make Mousekin poultice</Mousekin_Make_MedicinePoultice.label>
-  <Mousekin_Make_MedicinePoultice.description>Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs.</Mousekin_Make_MedicinePoultice.description>
-  <Mousekin_Make_MedicinePoultice.jobString>Making bags of Mousekin poultice</Mousekin_Make_MedicinePoultice.jobString>
+	<!-- EN: make Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.label>製作白鼠族膏藥</Mousekin_Make_MedicinePoultice.label>
 
+	<!-- EN: Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs. -->
+	<Mousekin_Make_MedicinePoultice.description>將草藥與原木的樹皮壓碎混合，製成一批藥膏。</Mousekin_Make_MedicinePoultice.description>
 
+	<!-- EN: Making bags of Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.jobString>製作白鼠族膏藥。</Mousekin_Make_MedicinePoultice.jobString>
+	
 </LanguageData>

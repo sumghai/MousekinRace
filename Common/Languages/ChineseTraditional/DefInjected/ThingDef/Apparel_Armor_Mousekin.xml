@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Mousekin_ArmorCuirass.label>Mousekin Cuirass</Mousekin_ArmorCuirass.label>
-  <Mousekin_ArmorCuirass.description>A piece of medieval plate armor that protects the torso from most injuries, worn by Mousekin pikemen, crossbowmen and Mouseketeers.</Mousekin_ArmorCuirass.description>
+	<!-- EN: Mousekin Cuirass -->
+	<Mousekin_ArmorCuirass.label>白鼠族胸甲</Mousekin_ArmorCuirass.label>
 
-  <Mousekin_ArmorPlate.label>Mousekin Plate Armor</Mousekin_ArmorPlate.label>
-  <Mousekin_ArmorPlate.description>A set of medieval plate armor sized for Mousekin Knights, with overlapping solid metal plates offering increased protection for its wearer.</Mousekin_ArmorPlate.description>
+	<!-- EN: A piece of medieval plate armor that protects the torso from most injuries, worn by Mousekin pikemen, crossbowmen and Mouseketeers. -->
+	<Mousekin_ArmorCuirass.description>白鼠族長槍兵、弩手和鳥銃手所穿的一件中世紀盔甲，可保護軀幹免受大部分傷害。</Mousekin_ArmorCuirass.description>
 
+	<!-- EN: Mousekin Plate Armor -->
+	<Mousekin_ArmorPlate.label>白鼠族板甲</Mousekin_ArmorPlate.label>
 
+	<!-- EN: A set of medieval plate armor sized for Mousekin Knights, with overlapping solid metal plates offering increased protection for its wearer. -->
+	<Mousekin_ArmorPlate.description>一套適合白鼠族騎士的中世紀板甲，帶有重疊的實心金屬板，可為穿戴者提供更多保護。</Mousekin_ArmorPlate.description>
+	
 </LanguageData>
