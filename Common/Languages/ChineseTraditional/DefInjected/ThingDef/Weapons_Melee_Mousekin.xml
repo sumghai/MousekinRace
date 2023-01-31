@@ -39,7 +39,10 @@
 	<Mousekin_MeleeWeapon_PikeThunder.description>白鼠族長柄槍的變種，由獨立白鼠族城鎮的士兵使用。它的長矛末端綁著一個大鞭炮，能夠炸毀敵方白鼠族騎士或點燃他們。也是人類唯一可用的白鼠族武器之一。</Mousekin_MeleeWeapon_PikeThunder.description>		<!-- EN: shaft -->
 	<Mousekin_MeleeWeapon_PikeThunder.tools.0.label>矛柄</Mousekin_MeleeWeapon_PikeThunder.tools.0.label>		<!-- EN: point -->
 	<Mousekin_MeleeWeapon_PikeThunder.tools.1.label>刃尖</Mousekin_MeleeWeapon_PikeThunder.tools.1.label>		<!-- EN: blade -->
-	<Mousekin_MeleeWeapon_PikeThunder.tools.2.label>斧刃</Mousekin_MeleeWeapon_PikeThunder.tools.2.label>		<!-- EN: Mousekin Pitchfork -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.2.label>斧刃</Mousekin_MeleeWeapon_PikeThunder.tools.2.label>
+	
+	<!-- EN: Mousekin Thunderpike -->
+	<Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>白鼠族轟雷長柄槍</Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>		<!-- EN: Mousekin Pitchfork -->
 	<Mousekin_MeleeWeapon_Pitchfork.label>白鼠族草叉</Mousekin_MeleeWeapon_Pitchfork.label>		<!-- EN: An agricultural hand tool with a long handle and three tines, used to pitch and pile straw. Its handle is too small and thin for a human to wield properly. -->
 	<Mousekin_MeleeWeapon_Pitchfork.description>一種帶有長柄和三個尖齒的農用手工具，用於捆紮和堆放稻草。它的手柄太小，因此人類無法使用。</Mousekin_MeleeWeapon_Pitchfork.description>		<!-- EN: handle -->
 	<Mousekin_MeleeWeapon_Pitchfork.tools.0.label>握柄</Mousekin_MeleeWeapon_Pitchfork.tools.0.label>		<!-- EN: tines -->

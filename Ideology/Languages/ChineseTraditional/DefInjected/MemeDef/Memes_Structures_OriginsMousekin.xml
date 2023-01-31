@@ -9,8 +9,20 @@
 
 	<!-- EN: memeMoralist->Mousekin Pope -->
 	<Structure_OriginMousekin.generalRules.rulesStrings.0>memeMoralist->白鼠族教宗</Structure_OriginMousekin.generalRules.rulesStrings.0>
+	
+	<!-- EN: memeAdjective-> (leave blank) -->
+	<Structure_OriginMousekin.generalRules.rulesStrings.1>memeAdjective-> </Structure_OriginMousekin.generalRules.rulesStrings.1>
 
 	<!-- EN: Mousekin -->
 	<Structure_OriginMousekin.symbolPacks.0.adjective>白鼠族教的</Structure_OriginMousekin.symbolPacks.0.adjective>
+	
+	<!-- EN: Christianity -->
+	<Structure_OriginMousekin.symbolPacks.0.ideoName>基督教</Structure_OriginMousekin.symbolPacks.0.ideoName>
+	
+	<!-- EN: Christian -->
+	<Structure_OriginMousekin.symbolPacks.0.member>基督教徒</Structure_OriginMousekin.symbolPacks.0.member>
+	
+	<!-- EN: church -->
+	<Structure_OriginMousekin.worshipRoomLabel>教堂</Structure_OriginMousekin.worshipRoomLabel>
 	
 </LanguageData>

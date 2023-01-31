@@ -10,6 +10,9 @@
 	<!-- EN: stirrup -->
 	<Mousekin_RangedWeapon_Crossbow.tools.0.label>踏鐙</Mousekin_RangedWeapon_Crossbow.tools.0.label>
 	
+	<!-- EN: Mousekin Hunter’s Crossbow -->
+	<Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>白鼠族狩獵弩</Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>
+	
 	<!-- EN: Mousekin Automatic Crossbow -->
 	<Mousekin_RangedWeapon_CrossbowAuto.label>白鼠族自動弩</Mousekin_RangedWeapon_CrossbowAuto.label>
 	
@@ -18,6 +21,9 @@
 	
 	<!-- EN: stirrup -->
 	<Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>踏鐙</Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>
+	
+	<!-- EN: Mousekin Automatic Crossbow -->
+	<Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>白鼠族自動弩</Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>
 	
 	<!-- EN: Mousekin Musket -->
 	<Mousekin_RangedWeapon_MusketLong.label>白鼠族鳥銃</Mousekin_RangedWeapon_MusketLong.label>
@@ -31,6 +37,9 @@
 	<!-- EN: barrel -->
 	<Mousekin_RangedWeapon_MusketLong.tools.1.label>槍管</Mousekin_RangedWeapon_MusketLong.tools.1.label>
 	
+	<!-- EN: Mousekin Musket -->
+	<Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>白鼠族鳥銃</Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>
+	
 	<!-- EN: Mousekin Blunderbuss -->
 	<Mousekin_RangedWeapon_MusketShort.label>白鼠族雷筒</Mousekin_RangedWeapon_MusketShort.label>
 	
@@ -42,5 +51,8 @@
 	
 	<!-- EN: barrel -->
 	<Mousekin_RangedWeapon_MusketShort.tools.1.label>槍管</Mousekin_RangedWeapon_MusketShort.tools.1.label>
+	
+	<!-- EN: Mousekin Blunderbuss -->
+	<Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>白鼠族雷筒</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
 	
 </LanguageData>

@@ -9,6 +9,9 @@
 
 	<!-- EN: r_memberName->Pious -->
 	<NamerIdeoMousekinChurch.rulePack.rulesStrings.2>r_memberName->虔誠者</NamerIdeoMousekinChurch.rulePack.rulesStrings.2>
+	
+	<!-- EN: hyphenPrefix-> (leave blank) -->
+	<NamerIdeoMousekinChurch.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinChurch.rulePack.rulesStrings.3>
 
 	<!-- EN: r_ideoName->Agrarian Republicanism -->
 	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.0>r_ideoName->農業民主義</NamerIdeoMousekinRepublic.rulePack.rulesStrings.0>
@@ -18,6 +21,9 @@
 
 	<!-- EN: r_memberName->Republican -->
 	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.2>r_memberName->民主者</NamerIdeoMousekinRepublic.rulePack.rulesStrings.2>
+	
+	<!-- EN: hyphenPrefix-> (leave blank) -->
+	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinRepublic.rulePack.rulesStrings.3>
 
 	<!-- EN: r_ideoName->Way of the Rodemani -->
 	<NamerIdeoMousekinNomad.rulePack.rulesStrings.0>r_ideoName->羅德馬尼之道</NamerIdeoMousekinNomad.rulePack.rulesStrings.0>
@@ -27,6 +33,9 @@
 
 	<!-- EN: r_memberName->Rodemanian -->
 	<NamerIdeoMousekinNomad.rulePack.rulesStrings.2>r_memberName->羅德馬尼</NamerIdeoMousekinNomad.rulePack.rulesStrings.2>
+	
+	<!-- EN: hyphenPrefix-> (leave blank) -->
+	<NamerIdeoMousekinNomad.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinNomad.rulePack.rulesStrings.3>
 
 	<!-- EN: r_ideoName->Outpawism -->
 	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.0>r_ideoName->非爪主義</NamerIdeoMousekinBrigands.rulePack.rulesStrings.0>
@@ -36,5 +45,8 @@
 
 	<!-- EN: r_memberName->Outpawian -->
 	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.2>r_memberName->非爪者</NamerIdeoMousekinBrigands.rulePack.rulesStrings.2>
+	
+	<!-- EN: hyphenPrefix-> (leave blank) -->
+	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinBrigands.rulePack.rulesStrings.3>
 	
 </LanguageData>
