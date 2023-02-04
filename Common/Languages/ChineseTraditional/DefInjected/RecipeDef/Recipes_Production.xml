@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Make Mousekin Candle x5 -->
+	<Mousekin_Make_CandleBulkSmall.label>製作白鼠族蠟燭x5</Mousekin_Make_CandleBulkSmall.label>
+
+	<!-- EN: Melt beeswax and cast a small batch of candles. -->
+	<Mousekin_Make_CandleBulkSmall.description>融化蜂蠟，並澆鑄一小批蠟燭。</Mousekin_Make_CandleBulkSmall.description>
+
+	<!-- EN: Making Mousekin Candles. -->
+	<Mousekin_Make_CandleBulkSmall.jobString>製作白鼠族蠟燭。</Mousekin_Make_CandleBulkSmall.jobString>
+
+	<!-- EN: Make Mousekin Candle x25 -->
+	<Mousekin_Make_CandleBulkLarge.label>製作白鼠族蠟燭x25</Mousekin_Make_CandleBulkLarge.label>
+
+	<!-- EN: Melt beeswax and cast a large batch of candles. -->
+	<Mousekin_Make_CandleBulkLarge.description>融化蜂蠟，並澆鑄一大批蠟燭。</Mousekin_Make_CandleBulkLarge.description>
+
+	<!-- EN: Making Mousekin Candles. -->
+	<Mousekin_Make_CandleBulkLarge.jobString>製作白鼠族蠟燭。</Mousekin_Make_CandleBulkLarge.jobString>
+
+	<!-- EN: make Clockwork Mechanism -->
+	<Mousekin_Make_ClockworkComponent.label>製作發條機構</Mousekin_Make_ClockworkComponent.label>
+
+	<!-- EN: Make a Clockwork Mechanism by forming and trimming steel into intricate metal components. -->
+	<Mousekin_Make_ClockworkComponent.description>將鋼成型和修整成複雜的金屬部件，製作發條機構。</Mousekin_Make_ClockworkComponent.description>
+
+	<!-- EN: Making a Clockwork Mechanism. -->
+	<Mousekin_Make_ClockworkComponent.jobString>製作發條機構。</Mousekin_Make_ClockworkComponent.jobString>
+
+	<!-- EN: make Clockwork Mechanism x5 -->
+	<Mousekin_Make_ClockworkComponentBulk.label>製作發條機構x5</Mousekin_Make_ClockworkComponentBulk.label>
+
+	<!-- EN: Make a batch of Clockwork Mechanisms by forming and trimming steel into intricate metal components. -->
+	<Mousekin_Make_ClockworkComponentBulk.description>將鋼成型和修整成複雜的金屬部件，製作一批發條機構。</Mousekin_Make_ClockworkComponentBulk.description>
+
+	<!-- EN: Making Clockwork Mechanisms. -->
+	<Mousekin_Make_ClockworkComponentBulk.jobString>製作發條機構。</Mousekin_Make_ClockworkComponentBulk.jobString>
+	
+</LanguageData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: giant cavy -->
+	<Mousekin_AnimalGiantCavy.label>巨豚鼠</Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Giant cavy")\n\nA giant, docile rodent several orders of magnitude larger than the common guinea pig, and can withstand harsh climates fairly well. They subsist on a high-fiber diet of grass, hay, berries, fruits and vegetables, and are known to also consume their own feces in order to recycle vital trace nutrients.\n\nOriginally genetically-engineered and bred by humans millenia ago as a potential food source for austere frontier colonies, prehistoric Mousekins eventually successfully domesticated these peculiar creatures as companions, riding mounts and pack animals. -->
+	<Mousekin_AnimalGiantCavy.description>學名： &lt;i&gt;Cavia giganteus&lt;/i&gt; ("巨大豚鼠")\n\n一種體型龐大、溫順的囓齒動物，比普通的天竺鼠大幾個數量級，能夠很好地抵禦惡劣的氣候。它們以草、乾草、漿果、水果和蔬菜等高纖維飲食為生，並且眾所周知，它們也會食用自己的糞便以回收重要的微量營養素。\n\n最初由人類在幾千年前進行基因工程和培育，作為條件艱苦邊疆殖民地的潛在食物來源，史前的白鼠族後來成功地將這些奇特的生物馴化為伴侶、騎乘和馱運動物。</Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalGiantCavy.tools.1.label>頭</Mousekin_AnimalGiantCavy.tools.1.label>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalGiantCavy.tools.2.label>左爪</Mousekin_AnimalGiantCavy.tools.2.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalGiantCavy.tools.3.label>右爪</Mousekin_AnimalGiantCavy.tools.3.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.label>巨豚鼠肉</Meat_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.description>屠宰好的生肉，可以烹調成料理或是生吃。</Meat_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.label>巨豚鼠屍體</Corpse_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.description>巨豚鼠的屍體。</Corpse_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: Pudgemouse -->
+	<Mousekin_AnimalPudgemouse.label>胖胖鼠</Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: Species: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Fat ash-grey mouse")\n\nA large chihuahua-sized species of grey-furred rodents capable of walking only on their hind legs for extended periods of time. They subsist on a mixed diet of fruits, seeds and grains, and will happily eat meat as well.\n\nDue to their unusually high level of intelligence and empathy, as well as their apparent ability to understand both written and spoken humanoid languages (despite being incapable of vocalizing actual words themselves beyond squeaking), these mice are easily domesticated as companions and pets by Mousekins, and are universally exempt from any rules that otherwise prohibit pet animals. -->
+	<Mousekin_AnimalPudgemouse.description>學名： &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("胖灰老鼠")\n\n一種吉娃娃狗大小的灰毛囓齒動物，能夠長時間僅用後腿行走。他們以水果、種子和穀物的混合飲食為生，也很樂意吃肉。\n\n由於他們異常高水平的智力和同理心，以及他們明顯的理解書面和口頭類人語言的能力（儘管除了吱吱聲之外無法說話），這些老鼠很容易被白鼠族馴化為伴侶和寵物，並且不受任何禁止寵物的規則的約束。</Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalPudgemouse.tools.0.label>左爪</Mousekin_AnimalPudgemouse.tools.0.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalPudgemouse.tools.1.label>右爪</Mousekin_AnimalPudgemouse.tools.1.label>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalPudgemouse.tools.3.label>頭</Mousekin_AnimalPudgemouse.tools.3.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.label>胖胖鼠肉</Meat_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.description>屠宰好的生肉，可以烹調成料理或是生吃。</Meat_Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.label>胖胖鼠屍體</Corpse_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.description>胖胖鼠的屍體。</Corpse_Mousekin_AnimalPudgemouse.description>
+	
+</LanguageData>

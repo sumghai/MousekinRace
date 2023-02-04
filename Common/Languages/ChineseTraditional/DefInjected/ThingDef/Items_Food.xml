@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin trail mix -->
+	<Mousekin_MealTrailMix.label>白鼠族混合果仁</Mousekin_MealTrailMix.label>
+	
+	<!-- EN: A pouch of roasted nuts, dried berries and popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekin that consumes it. Great for traveling. -->
+	<Mousekin_MealTrailMix.description>一袋營養豐富且美味的烤堅果、幹漿果和爆米花，會給任何吃它的白鼠族帶來輕微的情緒提升。適合旅行攜帶。</Mousekin_MealTrailMix.description>
+	
+	<!-- EN: country bread -->
+	<Mousekin_FoodCountryBread.label>鄉村麵包</Mousekin_FoodCountryBread.label>
+	
+	<!-- EN: A round loaf of bread with a thick, crunchy crust and fluffy crumb, often eaten to stave off hunger or used as an ingredient in other dishes. Reduces hunger rate by 10% for 12 hours. -->
+	<Mousekin_FoodCountryBread.description>一團圓麵包，外皮又厚又脆，裡面鬆軟，用來充飢或當作其他菜餚的配料。可使飢餓率降低10%，持續12小時。</Mousekin_FoodCountryBread.description>
+	
+	<!-- EN: barley porridge -->
+	<Mousekin_MealBarleyPorridge.label>大麥粥</Mousekin_MealBarleyPorridge.label>
+	
+	<!-- EN: A simple and nutritious bowl of barley grains cooked in milk, often eaten as a simple meal by farmhands and laborers, fed to baby Mousekin pups, or served by Mousekin nuns to recuperating patients. -->
+	<Mousekin_MealBarleyPorridge.description>一碗簡單又營養的牛奶煮大麥，是農夫和勞工的簡餐，白鼠族幼崽的嬰兒食品，或白鼠族修女為療傷病人提供的食物。</Mousekin_MealBarleyPorridge.description>
+	
+	<!-- EN: eggs on toast -->
+	<Mousekin_MealEggsOnToast.label>雞蛋吐司</Mousekin_MealEggsOnToast.label>
+	
+	<!-- EN: Thick slices of country bread topped with eggs fried sunny-side up. The perfect breakfast to start the day! -->
+	<Mousekin_MealEggsOnToast.description>厚片鄉村麵包上蓋著太陽蛋。完美的早餐開始新的一天！</Mousekin_MealEggsOnToast.description>
+	
+	<!-- EN: ploughman's lunch -->
+	<Mousekin_MealPloughmansLunch.label>農夫午餐</Mousekin_MealPloughmansLunch.label>
+	
+	<!-- EN: Slices of country bread accompanied by cheese, pickled vegetables and a handful of roasted nuts, often eaten as a simple meal by farm laborers. Reduces hunger rate by 20% for 12 hours. -->
+	<Mousekin_MealPloughmansLunch.description>幾片鄉村麵包，配以起司、醃洋蔥和一把烤堅果，是農場勞工吃的一頓簡單的飯菜。可使飢餓率降低20%，持續12小時。</Mousekin_MealPloughmansLunch.description>
+	
+	<!-- EN: bread bowl -->
+	<Mousekin_MealBreadBowl.label>濃湯麵包碗</Mousekin_MealBreadBowl.label>
+	
+	<!-- EN: A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours. -->
+	<Mousekin_MealBreadBowl.description>一糰挖空的鄉村麵包，裡面填滿奶油肉和蔬菜濃湯，是一頓豐盛、令人滿意的料理。可使飢餓率降低35%，持續12小時。</Mousekin_MealBreadBowl.description>
+	
+</LanguageData>

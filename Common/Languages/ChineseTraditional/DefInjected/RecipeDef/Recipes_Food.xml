@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: grind flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.label>磨小麥麵粉</Mousekin_Make_FlourFromWheat.label>
+
+	<!-- EN: Grind flour from wheat grains in a mortar and pestle. The process is slow, labour-intensive and inefficient due to the small quantities involved. -->
+	<Mousekin_Make_FlourFromWheat.description>用研缽和杵將小麥粒磨成麵粉。由於原料數量少，這是一個緩慢、勞動密集型且效率低下的過程。</Mousekin_Make_FlourFromWheat.description>
+
+	<!-- EN: Grinding flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.jobString>磨小麥麵粉。</Mousekin_Make_FlourFromWheat.jobString>
+
+	<!-- EN: make Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.label>製作白鼠族混合果仁</Mousekin_Make_TrailMix.label>
+
+	<!-- EN: Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMix.description>通過烤堅果、曬乾漿果和煮爆米花來製作營養豐富，味道鮮美的混合果仁。會給任何吃它的白鼠族帶來輕微的情緒提升。</Mousekin_Make_TrailMix.description>
+
+	<!-- EN: Preparing Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.jobString>製作白鼠族混合果仁。</Mousekin_Make_TrailMix.jobString>
+
+	<!-- EN: make Mousekin trail mix x3 -->
+	<Mousekin_Make_TrailMixBulk.label>製作白鼠族混合果仁x3</Mousekin_Make_TrailMixBulk.label>
+
+	<!-- EN: Make bulk trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMixBulk.description>通過烤堅果、曬乾漿果和煮爆米花來製作一大批營養豐富，味道鮮美的混合果仁。會給任何吃它的白鼠族帶來輕微的情緒提升。</Mousekin_Make_TrailMixBulk.description>
+
+	<!-- EN: Preparing bulk Mousekin trail mix -->
+	<Mousekin_Make_TrailMixBulk.jobString>製作白鼠族混合果仁。</Mousekin_Make_TrailMixBulk.jobString>
+
+	<!-- EN: bake country bread -->
+	<Mousekin_Make_CountryBread.label>烤鄉村麵包</Mousekin_Make_CountryBread.label>
+
+	<!-- EN: Bake a loaf of country bread from flour. -->
+	<Mousekin_Make_CountryBread.description>用麵粉烤一糰鄉村麵包。</Mousekin_Make_CountryBread.description>
+
+	<!-- EN: Baking country bread -->
+	<Mousekin_Make_CountryBread.jobString>烤鄉村麵包。</Mousekin_Make_CountryBread.jobString>
+
+	<!-- EN: bake country bread x4 -->
+	<Mousekin_Make_CountryBreadBulk.label>烤鄉村麵包x4</Mousekin_Make_CountryBreadBulk.label>
+
+	<!-- EN: Bake 4 loaves of country bread from flour. -->
+	<Mousekin_Make_CountryBreadBulk.description>用麵粉烤四糰鄉村麵包。</Mousekin_Make_CountryBreadBulk.description>
+
+	<!-- EN: Baking 4 loaves of country bread -->
+	<Mousekin_Make_CountryBreadBulk.jobString>烤四糰鄉村麵包。</Mousekin_Make_CountryBreadBulk.jobString>
+
+	<!-- EN: cook barley porridge -->
+	<Mousekin_Make_BarleyPorridge.label>烹調大麥粥</Mousekin_Make_BarleyPorridge.label>
+
+	<!-- EN: Cook a bowl of barley porridge. -->
+	<Mousekin_Make_BarleyPorridge.description>烹調一碗大麥粥。</Mousekin_Make_BarleyPorridge.description>
+
+	<!-- EN: Cooking barley porridge -->
+	<Mousekin_Make_BarleyPorridge.jobString>烹調大麥粥。</Mousekin_Make_BarleyPorridge.jobString>
+
+	<!-- EN: cook barley porridge x4 -->
+	<Mousekin_Make_BarleyPorridgeBulk.label>烹調大麥粥x4</Mousekin_Make_BarleyPorridgeBulk.label>
+
+	<!-- EN: Cook 4 bowls of barley porridge. -->
+	<Mousekin_Make_BarleyPorridgeBulk.description>烹調四碗大麥粥。</Mousekin_Make_BarleyPorridgeBulk.description>
+
+	<!-- EN: Cooking 4 bowls of barley porridge -->
+	<Mousekin_Make_BarleyPorridgeBulk.jobString>烹調四碗大麥粥。</Mousekin_Make_BarleyPorridgeBulk.jobString>
+
+	<!-- EN: cook eggs on toast x4 -->
+	<Mousekin_Make_EggsOnToast.label>烹調雞蛋吐司x4</Mousekin_Make_EggsOnToast.label>
+
+	<!-- EN: Cook 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.description>烹調四份雞蛋吐司。</Mousekin_Make_EggsOnToast.description>
+
+	<!-- EN: Cooking 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.jobString>烹調四份雞蛋吐司。</Mousekin_Make_EggsOnToast.jobString>
+
+	<!-- EN: make ploughman's lunch x4 -->
+	<Mousekin_Make_PloughmansLunch.label>準備農夫午餐x4</Mousekin_Make_PloughmansLunch.label>
+
+	<!-- EN: Make 4 servings of ploughman's lunch. -->
+	<Mousekin_Make_PloughmansLunch.description>準備四份農夫午餐。</Mousekin_Make_PloughmansLunch.description>
+
+	<!-- EN: Making 4 servings of ploughman's lunch -->
+	<Mousekin_Make_PloughmansLunch.jobString>準備四份農夫午餐。</Mousekin_Make_PloughmansLunch.jobString>
+	
+	<!-- EN: nuts -->
+	<Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>堅果</Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl -->
+	<Mousekin_Make_BreadBowl.label>烹調濃湯麵包碗</Mousekin_Make_BreadBowl.label>
+
+	<!-- EN: Hollow out a loaf of country bread and fill it with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowl.description>將一糰鄉村麵包挖空，填入奶油肉和蔬菜濃湯。</Mousekin_Make_BreadBowl.description>
+
+	<!-- EN: Making bread bowl -->
+	<Mousekin_Make_BreadBowl.jobString>烹調濃湯麵包碗。</Mousekin_Make_BreadBowl.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>蛋白質</Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl x4 -->
+	<Mousekin_Make_BreadBowlBulk.label>烹調濃湯麵包碗x4</Mousekin_Make_BreadBowlBulk.label>
+
+	<!-- EN: Hollow out 4 loaves of country bread and fill them with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowlBulk.description>將四糰鄉村麵包挖空，填入奶油肉和蔬菜濃湯。</Mousekin_Make_BreadBowlBulk.description>
+
+	<!-- EN: Making 4 bread bowls -->
+	<Mousekin_Make_BreadBowlBulk.jobString>烹調四份濃湯麵包碗。</Mousekin_Make_BreadBowlBulk.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>蛋白質</Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>
+	
+</LanguageData>

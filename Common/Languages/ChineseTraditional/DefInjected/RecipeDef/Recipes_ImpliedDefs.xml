@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: administer Chonko nut brew -->
+	<Administer_Mousekin_DrinkChonkoNutBrew.label>施用充柯堅果咖啡</Administer_Mousekin_DrinkChonkoNutBrew.label>
+
+	<!-- EN: Administering Chonko nut brew. -->
+	<Administer_Mousekin_DrinkChonkoNutBrew.jobString>施用充柯堅果咖啡。</Administer_Mousekin_DrinkChonkoNutBrew.jobString>
+
+	<!-- EN: administer Mousekin lager -->
+	<Administer_Mousekin_DrinkLager.label>施用白鼠族拉格啤酒</Administer_Mousekin_DrinkLager.label>
+
+	<!-- EN: Administering Mousekin lager. -->
+	<Administer_Mousekin_DrinkLager.jobString>施用白鼠族拉格啤酒。</Administer_Mousekin_DrinkLager.jobString>
+
+	<!-- EN: administer Mousekin mead (awful) -->
+	<Administer_Mousekin_DrinkMeadAwful.label>施用白鼠族蜂蜜酒(糟糕)</Administer_Mousekin_DrinkMeadAwful.label>
+
+	<!-- EN: Administering Mousekin mead (awful). -->
+	<Administer_Mousekin_DrinkMeadAwful.jobString>施用白鼠族蜂蜜酒(糟糕)。</Administer_Mousekin_DrinkMeadAwful.jobString>
+
+	<!-- EN: administer Mousekin mead (poor) -->
+	<Administer_Mousekin_DrinkMeadPoor.label>施用白鼠族蜂蜜酒(劣質)</Administer_Mousekin_DrinkMeadPoor.label>
+
+	<!-- EN: Administering Mousekin mead (poor). -->
+	<Administer_Mousekin_DrinkMeadPoor.jobString>施用白鼠族蜂蜜酒(劣質)。</Administer_Mousekin_DrinkMeadPoor.jobString>
+
+	<!-- EN: administer Mousekin mead (normal) -->
+	<Administer_Mousekin_DrinkMeadNormal.label>施用白鼠族蜂蜜酒(普通)</Administer_Mousekin_DrinkMeadNormal.label>
+
+	<!-- EN: Administering Mousekin mead (normal). -->
+	<Administer_Mousekin_DrinkMeadNormal.jobString>施用白鼠族蜂蜜酒(普通)。</Administer_Mousekin_DrinkMeadNormal.jobString>
+
+	<!-- EN: administer Mousekin mead (good) -->
+	<Administer_Mousekin_DrinkMeadGood.label>施用白鼠族蜂蜜酒(良好)</Administer_Mousekin_DrinkMeadGood.label>
+
+	<!-- EN: Administering Mousekin mead (good). -->
+	<Administer_Mousekin_DrinkMeadGood.jobString>施用白鼠族蜂蜜酒(良好)。</Administer_Mousekin_DrinkMeadGood.jobString>
+
+	<!-- EN: administer Mousekin mead (excellent) -->
+	<Administer_Mousekin_DrinkMeadExcellent.label>施用白鼠族蜂蜜酒(傑出)</Administer_Mousekin_DrinkMeadExcellent.label>
+
+	<!-- EN: Administering Mousekin mead (excellent). -->
+	<Administer_Mousekin_DrinkMeadExcellent.jobString>施用白鼠族蜂蜜酒(傑出)。</Administer_Mousekin_DrinkMeadExcellent.jobString>
+
+	<!-- EN: administer Mousekin mead (masterwork) -->
+	<Administer_Mousekin_DrinkMeadMasterwork.label>施用白鼠族蜂蜜酒(大師)</Administer_Mousekin_DrinkMeadMasterwork.label>
+
+	<!-- EN: Administering Mousekin mead (masterwork). -->
+	<Administer_Mousekin_DrinkMeadMasterwork.jobString>施用白鼠族蜂蜜酒(大師)。</Administer_Mousekin_DrinkMeadMasterwork.jobString>
+
+	<!-- EN: administer Mousekin mead (legendary) -->
+	<Administer_Mousekin_DrinkMeadLegendary.label>施用白鼠族蜂蜜酒(傳奇)</Administer_Mousekin_DrinkMeadLegendary.label>
+
+	<!-- EN: Administering Mousekin mead (legendary). -->
+	<Administer_Mousekin_DrinkMeadLegendary.jobString>施用白鼠族蜂蜜酒(傳奇)。</Administer_Mousekin_DrinkMeadLegendary.jobString>
+
+	<!-- EN: make Cloth Mousekin Ear -->
+	<Make_Mousekin_ProstheticClothEar.label>製作布製白鼠族假耳</Make_Mousekin_ProstheticClothEar.label>
+
+	<!-- EN: Make Cloth Mousekin Ear. -->
+	<Make_Mousekin_ProstheticClothEar.description>製作一個布製白鼠族假耳。</Make_Mousekin_ProstheticClothEar.description>
+
+	<!-- EN: Making Cloth Mousekin Ear. -->
+	<Make_Mousekin_ProstheticClothEar.jobString>製作布製白鼠族假耳。</Make_Mousekin_ProstheticClothEar.jobString>
+
+	<!-- EN: make Cloth Mousekin Tail -->
+	<Make_Mousekin_ProstheticClothTail.label>製作布製白鼠族假尾</Make_Mousekin_ProstheticClothTail.label>
+
+	<!-- EN: Make Cloth Mousekin Tail. -->
+	<Make_Mousekin_ProstheticClothTail.description>製作一條布製白鼠族假尾。</Make_Mousekin_ProstheticClothTail.description>
+
+	<!-- EN: Making Cloth Mousekin Tail. -->
+	<Make_Mousekin_ProstheticClothTail.jobString>製作布製白鼠族假尾。</Make_Mousekin_ProstheticClothTail.jobString>
+
+	<!-- EN: make Mousekin Pince-Nez Glasses -->
+	<Make_Mousekin_GlassesSmall.label>製作白鼠族夾鼻眼鏡</Make_Mousekin_GlassesSmall.label>
+
+	<!-- EN: Make Mousekin Pince-Nez Glasses. -->
+	<Make_Mousekin_GlassesSmall.description>製作一幅白鼠族夾鼻眼鏡。</Make_Mousekin_GlassesSmall.description>
+
+	<!-- EN: Making Mousekin Pince-Nez Glasses. -->
+	<Make_Mousekin_GlassesSmall.jobString>製作白鼠族夾鼻眼鏡。</Make_Mousekin_GlassesSmall.jobString>
+
+	<!-- EN: make Mousekin Research Glasses -->
+	<Make_Mousekin_GlassesLarge.label>製作白鼠族研究眼鏡</Make_Mousekin_GlassesLarge.label>
+
+	<!-- EN: Make Mousekin Research Glasses. -->
+	<Make_Mousekin_GlassesLarge.description>製作一幅白鼠族研究眼鏡。</Make_Mousekin_GlassesLarge.description>
+
+	<!-- EN: Making Mousekin Research Glasses. -->
+	<Make_Mousekin_GlassesLarge.jobString>製作白鼠族研究眼鏡。</Make_Mousekin_GlassesLarge.jobString>
+
+	<!-- EN: make Mousekin Wicker Backpack -->
+	<Make_Mousekin_BackpackWicker.label>製作白鼠族柳條籃背包</Make_Mousekin_BackpackWicker.label>
+
+	<!-- EN: Make Mousekin Wicker Backpack. -->
+	<Make_Mousekin_BackpackWicker.description>製作白鼠族柳條籃背包。</Make_Mousekin_BackpackWicker.description>
+
+	<!-- EN: Making Mousekin Wicker Backpack. -->
+	<Make_Mousekin_BackpackWicker.jobString>製作白鼠族柳條籃背包。</Make_Mousekin_BackpackWicker.jobString>
+
+	<!-- EN: make Mousekin Leather Backpack -->
+	<Make_Mousekin_BackpackLeather.label>製作白鼠族皮革背包</Make_Mousekin_BackpackLeather.label>
+
+	<!-- EN: Make Mousekin Leather Backpack. -->
+	<Make_Mousekin_BackpackLeather.description>製作白鼠族皮革背包。</Make_Mousekin_BackpackLeather.description>
+
+	<!-- EN: Making Mousekin Leather Backpack. -->
+	<Make_Mousekin_BackpackLeather.jobString>製作白鼠族皮革背包。</Make_Mousekin_BackpackLeather.jobString>
+
+	<!-- EN: make Mousekin Cuirass -->
+	<Make_Mousekin_ArmorCuirass.label>製作白鼠族胸甲</Make_Mousekin_ArmorCuirass.label>
+
+	<!-- EN: Make Mousekin Cuirass. -->
+	<Make_Mousekin_ArmorCuirass.description>製作白鼠族胸甲。</Make_Mousekin_ArmorCuirass.description>
+
+	<!-- EN: Making Mousekin Cuirass. -->
+	<Make_Mousekin_ArmorCuirass.jobString>製作白鼠族胸甲。</Make_Mousekin_ArmorCuirass.jobString>
+
+	<!-- EN: make Mousekin Plate Armor -->
+	<Make_Mousekin_ArmorPlate.label>製作白鼠族板甲</Make_Mousekin_ArmorPlate.label>
+
+	<!-- EN: Make Mousekin Plate Armor. -->
+	<Make_Mousekin_ArmorPlate.description>製作白鼠族板甲。</Make_Mousekin_ArmorPlate.description>
+
+	<!-- EN: Making Mousekin Plate Armor. -->
+	<Make_Mousekin_ArmorPlate.jobString>製作白鼠族板甲。</Make_Mousekin_ArmorPlate.jobString>
+
+	<!-- EN: make Mousekin Settler’s Outfit -->
+	<Make_Mousekin_ApparelSettlerOutfit.label>製作白鼠族殖民服裝</Make_Mousekin_ApparelSettlerOutfit.label>
+
+	<!-- EN: Make Mousekin Settler’s Outfit. -->
+	<Make_Mousekin_ApparelSettlerOutfit.description>製作白鼠族殖民服裝。</Make_Mousekin_ApparelSettlerOutfit.description>
+
+	<!-- EN: Making Mousekin Settler’s Outfit. -->
+	<Make_Mousekin_ApparelSettlerOutfit.jobString>製作白鼠族殖民服裝。</Make_Mousekin_ApparelSettlerOutfit.jobString>
+
+	<!-- EN: make Mousekin Settler’s Dress -->
+	<Make_Mousekin_ApparelSettlerDress.label>製作白鼠族殖民裙裝</Make_Mousekin_ApparelSettlerDress.label>
+
+	<!-- EN: Make Mousekin Settler’s Dress. -->
+	<Make_Mousekin_ApparelSettlerDress.description>製作白鼠族殖民裙裝。</Make_Mousekin_ApparelSettlerDress.description>
+
+	<!-- EN: Making Mousekin Settler’s Dress. -->
+	<Make_Mousekin_ApparelSettlerDress.jobString>製作白鼠族殖民裙裝。</Make_Mousekin_ApparelSettlerDress.jobString>
+
+	<!-- EN: make Mousekin Worker’s Outfit -->
+	<Make_Mousekin_ApparelWorkerOutfit.label>製作白鼠族勞工服裝</Make_Mousekin_ApparelWorkerOutfit.label>
+
+	<!-- EN: Make Mousekin Worker’s Outfit. -->
+	<Make_Mousekin_ApparelWorkerOutfit.description>製作白鼠族勞工服裝。</Make_Mousekin_ApparelWorkerOutfit.description>
+
+	<!-- EN: Making Mousekin Worker’s Outfit. -->
+	<Make_Mousekin_ApparelWorkerOutfit.jobString>製作白鼠族勞工服裝。</Make_Mousekin_ApparelWorkerOutfit.jobString>
+
+	<!-- EN: make Mousekin Worker’s Dress -->
+	<Make_Mousekin_ApparelWorkerDress.label>製作白鼠族勞工裙裝</Make_Mousekin_ApparelWorkerDress.label>
+
+	<!-- EN: Make Mousekin Worker’s Dress. -->
+	<Make_Mousekin_ApparelWorkerDress.description>製作白鼠族勞工裙裝。</Make_Mousekin_ApparelWorkerDress.description>
+
+	<!-- EN: Making Mousekin Worker’s Dress. -->
+	<Make_Mousekin_ApparelWorkerDress.jobString>製作白鼠族勞工裙裝。</Make_Mousekin_ApparelWorkerDress.jobString>
+
+	<!-- EN: make Mousekin Craftsman’s Outfit -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.label>製作白鼠族工匠服裝</Make_Mousekin_ApparelCraftsmanOutfit.label>
+
+	<!-- EN: Make Mousekin Craftsman’s Outfit. -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.description>製作白鼠族工匠服裝。</Make_Mousekin_ApparelCraftsmanOutfit.description>
+
+	<!-- EN: Making Mousekin Craftsman’s Outfit. -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.jobString>製作白鼠族工匠服裝。</Make_Mousekin_ApparelCraftsmanOutfit.jobString>
+
+	<!-- EN: make Mousekin Cloak -->
+	<Make_Mousekin_ApparelCloak.label>製作白鼠族披風</Make_Mousekin_ApparelCloak.label>
+
+	<!-- EN: Make Mousekin Cloak. -->
+	<Make_Mousekin_ApparelCloak.description>製作白鼠族披風。</Make_Mousekin_ApparelCloak.description>
+
+	<!-- EN: Making Mousekin Cloak. -->
+	<Make_Mousekin_ApparelCloak.jobString>製作白鼠族披風。</Make_Mousekin_ApparelCloak.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Gown -->
+	<Make_Mousekin_ApparelGuardenerGown.label>製作白鼠族花園衛女長袍</Make_Mousekin_ApparelGuardenerGown.label>
+
+	<!-- EN: Make Mousekin Guardener’s Gown. -->
+	<Make_Mousekin_ApparelGuardenerGown.description>製作白鼠族花園衛女長袍。</Make_Mousekin_ApparelGuardenerGown.description>
+
+	<!-- EN: Making Mousekin Guardener’s Gown. -->
+	<Make_Mousekin_ApparelGuardenerGown.jobString>製作白鼠族花園衛女長袍。</Make_Mousekin_ApparelGuardenerGown.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Robe -->
+	<Make_Mousekin_ApparelGuardenerRobe.label>製作白鼠族花園衛女披風</Make_Mousekin_ApparelGuardenerRobe.label>
+
+	<!-- EN: Make Mousekin Guardener’s Robe. -->
+	<Make_Mousekin_ApparelGuardenerRobe.description>製作白鼠族花園衛女披風。</Make_Mousekin_ApparelGuardenerRobe.description>
+
+	<!-- EN: Making Mousekin Guardener’s Robe. -->
+	<Make_Mousekin_ApparelGuardenerRobe.jobString>製作白鼠族花園衛女披風。</Make_Mousekin_ApparelGuardenerRobe.jobString>
+
+	<!-- EN: make Mousekin Nun’s Habit -->
+	<Make_Mousekin_ApparelNunHabit.label>製作白鼠族修女袍</Make_Mousekin_ApparelNunHabit.label>
+
+	<!-- EN: Make Mousekin Nun’s Habit. -->
+	<Make_Mousekin_ApparelNunHabit.description>製作白鼠族修女袍。</Make_Mousekin_ApparelNunHabit.description>
+
+	<!-- EN: Making Mousekin Nun’s Habit. -->
+	<Make_Mousekin_ApparelNunHabit.jobString>製作白鼠族修女袍。</Make_Mousekin_ApparelNunHabit.jobString>
+
+	<!-- EN: make Mousekin Priest’s Cassock -->
+	<Make_Mousekin_ApparelPriestCassock.label>製作白鼠族牧師法衣</Make_Mousekin_ApparelPriestCassock.label>
+
+	<!-- EN: Make Mousekin Priest’s Cassock. -->
+	<Make_Mousekin_ApparelPriestCassock.description>製作白鼠族牧師法衣。</Make_Mousekin_ApparelPriestCassock.description>
+
+	<!-- EN: Making Mousekin Priest’s Cassock. -->
+	<Make_Mousekin_ApparelPriestCassock.jobString>製作白鼠族牧師法衣。</Make_Mousekin_ApparelPriestCassock.jobString>
+
+	<!-- EN: make Mousekin Gambeson -->
+	<Make_Mousekin_ApparelGambeson.label>製作白鼠族填充布甲</Make_Mousekin_ApparelGambeson.label>
+
+	<!-- EN: Make Mousekin Gambeson. -->
+	<Make_Mousekin_ApparelGambeson.description>製作白鼠族填充布甲。</Make_Mousekin_ApparelGambeson.description>
+
+	<!-- EN: Making Mousekin Gambeson. -->
+	<Make_Mousekin_ApparelGambeson.jobString>製作白鼠族填充布甲。</Make_Mousekin_ApparelGambeson.jobString>
+
+	<!-- EN: make Mousekin Straw Hat -->
+	<Make_Mousekin_HatStraw.label>製作白鼠族草帽</Make_Mousekin_HatStraw.label>
+
+	<!-- EN: Make Mousekin Straw Hat. -->
+	<Make_Mousekin_HatStraw.description>製作白鼠族草帽。</Make_Mousekin_HatStraw.description>
+
+	<!-- EN: Making Mousekin Straw Hat. -->
+	<Make_Mousekin_HatStraw.jobString>製作白鼠族草帽。</Make_Mousekin_HatStraw.jobString>
+
+	<!-- EN: make Mousekin Headscarf -->
+	<Make_Mousekin_HatHeadscarf.label>製作白鼠族頭巾</Make_Mousekin_HatHeadscarf.label>
+
+	<!-- EN: Make Mousekin Headscarf. -->
+	<Make_Mousekin_HatHeadscarf.description>製作白鼠族頭巾。</Make_Mousekin_HatHeadscarf.description>
+
+	<!-- EN: Making Mousekin Headscarf. -->
+	<Make_Mousekin_HatHeadscarf.jobString>製作白鼠族頭巾。</Make_Mousekin_HatHeadscarf.jobString>
+
+	<!-- EN: make Mousekin Nun’s Veil -->
+	<Make_Mousekin_HatNunVeil.label>製作白鼠族修女頭巾</Make_Mousekin_HatNunVeil.label>
+
+	<!-- EN: Make Mousekin Nun’s Veil. -->
+	<Make_Mousekin_HatNunVeil.description>製作白鼠族修女頭巾。</Make_Mousekin_HatNunVeil.description>
+
+	<!-- EN: Making Mousekin Nun’s Veil. -->
+	<Make_Mousekin_HatNunVeil.jobString>製作白鼠族修女頭巾。</Make_Mousekin_HatNunVeil.jobString>
+
+	<!-- EN: make Mousekin Kettle Hat -->
+	<Make_Mousekin_HelmetKettle.label>製作白鼠族鍋蓋盔</Make_Mousekin_HelmetKettle.label>
+
+	<!-- EN: Make Mousekin Kettle Hat. -->
+	<Make_Mousekin_HelmetKettle.description>製作白鼠族鍋蓋盔。</Make_Mousekin_HelmetKettle.description>
+
+	<!-- EN: Making Mousekin Kettle Hat. -->
+	<Make_Mousekin_HelmetKettle.jobString>製作白鼠族鍋蓋盔。</Make_Mousekin_HelmetKettle.jobString>
+
+	<!-- EN: make Mousekin Morion Helmet -->
+	<Make_Mousekin_HelmetMorion.label>製作白鼠族莫里恩頭盔</Make_Mousekin_HelmetMorion.label>
+
+	<!-- EN: Make Mousekin Morion Helmet. -->
+	<Make_Mousekin_HelmetMorion.description>製作白鼠族莫里恩頭盔。</Make_Mousekin_HelmetMorion.description>
+
+	<!-- EN: Making Mousekin Morion Helmet. -->
+	<Make_Mousekin_HelmetMorion.jobString>製作白鼠族莫里恩頭盔。</Make_Mousekin_HelmetMorion.jobString>
+
+	<!-- EN: make Mousekin Knight's Helmet -->
+	<Make_Mousekin_HelmetKnight.label>製作白鼠族騎士頭盔</Make_Mousekin_HelmetKnight.label>
+
+	<!-- EN: Make Mousekin Knight's Helmet. -->
+	<Make_Mousekin_HelmetKnight.description>製作白鼠族騎士頭盔。</Make_Mousekin_HelmetKnight.description>
+
+	<!-- EN: Making Mousekin Knight's Helmet. -->
+	<Make_Mousekin_HelmetKnight.jobString>製作白鼠族騎士頭盔。</Make_Mousekin_HelmetKnight.jobString>
+
+	<!-- EN: make Mousekin Knight Commander’s Helmet -->
+	<Make_Mousekin_HelmetKnightCommander.label>製作白鼠族騎士長頭盔</Make_Mousekin_HelmetKnightCommander.label>
+
+	<!-- EN: Make Mousekin Knight Commander’s Helmet. -->
+	<Make_Mousekin_HelmetKnightCommander.description>製作白鼠族騎士長頭盔。</Make_Mousekin_HelmetKnightCommander.description>
+
+	<!-- EN: Making Mousekin Knight Commander’s Helmet. -->
+	<Make_Mousekin_HelmetKnightCommander.jobString>製作白鼠族騎士長頭盔。</Make_Mousekin_HelmetKnightCommander.jobString>
+
+	<!-- EN: make Mousekin Axe -->
+	<Make_Mousekin_MeleeWeapon_Axe.label>製作白鼠族斧頭</Make_Mousekin_MeleeWeapon_Axe.label>
+
+	<!-- EN: Make Mousekin Axe. -->
+	<Make_Mousekin_MeleeWeapon_Axe.description>製作白鼠族斧頭。</Make_Mousekin_MeleeWeapon_Axe.description>
+
+	<!-- EN: Making Mousekin Axe. -->
+	<Make_Mousekin_MeleeWeapon_Axe.jobString>製作白鼠族斧頭。</Make_Mousekin_MeleeWeapon_Axe.jobString>
+
+	<!-- EN: make Mousekin Cleaver -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.label>製作白鼠族菜刀</Make_Mousekin_MeleeWeapon_Cleaver.label>
+
+	<!-- EN: Make Mousekin Cleaver. -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.description>製作白鼠族菜刀。</Make_Mousekin_MeleeWeapon_Cleaver.description>
+
+	<!-- EN: Making Mousekin Cleaver. -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.jobString>製作白鼠族菜刀。</Make_Mousekin_MeleeWeapon_Cleaver.jobString>
+
+	<!-- EN: make Mousekin Dagger -->
+	<Make_Mousekin_MeleeWeapon_Dagger.label>製作白鼠族匕首</Make_Mousekin_MeleeWeapon_Dagger.label>
+
+	<!-- EN: Make Mousekin Dagger. -->
+	<Make_Mousekin_MeleeWeapon_Dagger.description>製作白鼠族匕首。</Make_Mousekin_MeleeWeapon_Dagger.description>
+
+	<!-- EN: Making Mousekin Dagger. -->
+	<Make_Mousekin_MeleeWeapon_Dagger.jobString>製作白鼠族匕首。</Make_Mousekin_MeleeWeapon_Dagger.jobString>
+
+	<!-- EN: make Mousekin Hammer -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.label>製作白鼠族錘子</Make_Mousekin_MeleeWeapon_HammerMetal.label>
+
+	<!-- EN: Make Mousekin Hammer. -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.description>製作白鼠族錘子。</Make_Mousekin_MeleeWeapon_HammerMetal.description>
+
+	<!-- EN: Making Mousekin Hammer. -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.jobString>製作白鼠族錘子。</Make_Mousekin_MeleeWeapon_HammerMetal.jobString>
+
+	<!-- EN: make Mousekin Mallet -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.label>製作白鼠族木槌</Make_Mousekin_MeleeWeapon_HammerWood.label>
+
+	<!-- EN: Make Mousekin Mallet. -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.description>製作白鼠族木槌。</Make_Mousekin_MeleeWeapon_HammerWood.description>
+
+	<!-- EN: Making Mousekin Mallet. -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.jobString>製作白鼠族木槌。</Make_Mousekin_MeleeWeapon_HammerWood.jobString>
+
+	<!-- EN: make Mousekin Hoe -->
+	<Make_Mousekin_MeleeWeapon_Hoe.label>製作白鼠族鋤頭</Make_Mousekin_MeleeWeapon_Hoe.label>
+
+	<!-- EN: Make Mousekin Hoe. -->
+	<Make_Mousekin_MeleeWeapon_Hoe.description>製作白鼠族鋤頭。</Make_Mousekin_MeleeWeapon_Hoe.description>
+
+	<!-- EN: Making Mousekin Hoe. -->
+	<Make_Mousekin_MeleeWeapon_Hoe.jobString>製作白鼠族鋤頭。</Make_Mousekin_MeleeWeapon_Hoe.jobString>
+
+	<!-- EN: make Mousekin Pickaxe -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.label>製作白鼠族十字鎬</Make_Mousekin_MeleeWeapon_Pickaxe.label>
+
+	<!-- EN: Make Mousekin Pickaxe. -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.description>製作白鼠族十字鎬。</Make_Mousekin_MeleeWeapon_Pickaxe.description>
+
+	<!-- EN: Making Mousekin Pickaxe. -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.jobString>製作白鼠族十字鎬。</Make_Mousekin_MeleeWeapon_Pickaxe.jobString>
+
+	<!-- EN: make Mousekin Pike -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.label>製作白鼠族長柄槍</Make_Mousekin_MeleeWeapon_PikeRegular.label>
+
+	<!-- EN: Make Mousekin Pike. -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.description>製作白鼠族長柄槍。</Make_Mousekin_MeleeWeapon_PikeRegular.description>
+
+	<!-- EN: Making Mousekin Pike. -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.jobString>製作白鼠族長柄槍。</Make_Mousekin_MeleeWeapon_PikeRegular.jobString>
+
+	<!-- EN: make Mousekin Pitchfork -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.label>製作白鼠族草叉</Make_Mousekin_MeleeWeapon_Pitchfork.label>
+
+	<!-- EN: Make Mousekin Pitchfork. -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.description>製作白鼠族草叉。</Make_Mousekin_MeleeWeapon_Pitchfork.description>
+
+	<!-- EN: Making Mousekin Pitchfork. -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.jobString>製作白鼠族草叉。</Make_Mousekin_MeleeWeapon_Pitchfork.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.label>製作白鼠族花園衛女短劍</Make_Mousekin_MeleeWeapon_SwordGuardener.label>
+
+	<!-- EN: Make Mousekin Guardener’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.description>製作白鼠族花園衛女短劍。</Make_Mousekin_MeleeWeapon_SwordGuardener.description>
+
+	<!-- EN: Making Mousekin Guardener’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.jobString>製作白鼠族花園衛女短劍。</Make_Mousekin_MeleeWeapon_SwordGuardener.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Training Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.label>製作白鼠族花園衛女練習劍</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.label>
+
+	<!-- EN: Make Mousekin Guardener’s Training Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.description>製作白鼠族花園衛女練習劍。</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.description>
+
+	<!-- EN: Making Mousekin Guardener’s Training Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.jobString>製作白鼠族花園衛女練習劍。</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.jobString>
+
+	<!-- EN: make Mousekin Knight’s Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.label>製作白鼠族騎士劍</Make_Mousekin_MeleeWeapon_SwordKnight.label>
+
+	<!-- EN: Make Mousekin Knight’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.description>製作白鼠族騎士劍。</Make_Mousekin_MeleeWeapon_SwordKnight.description>
+
+	<!-- EN: Making Mousekin Knight’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.jobString>製作白鼠族騎士劍。</Make_Mousekin_MeleeWeapon_SwordKnight.jobString>
+
+	<!-- EN: make Mousekin Hunter’s Crossbow -->
+	<Make_Mousekin_RangedWeapon_Crossbow.label>製作白鼠族狩獵弩</Make_Mousekin_RangedWeapon_Crossbow.label>
+
+	<!-- EN: Make Mousekin Hunter’s Crossbow. -->
+	<Make_Mousekin_RangedWeapon_Crossbow.description>製作白鼠族狩獵弩。</Make_Mousekin_RangedWeapon_Crossbow.description>
+
+	<!-- EN: Making Mousekin Hunter’s Crossbow. -->
+	<Make_Mousekin_RangedWeapon_Crossbow.jobString>製作白鼠族狩獵弩。</Make_Mousekin_RangedWeapon_Crossbow.jobString>
+
+	<!-- EN: make Mousekin Automatic Crossbow -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.label>製作白鼠族自動弩</Make_Mousekin_RangedWeapon_CrossbowAuto.label>
+
+	<!-- EN: Make Mousekin Automatic Crossbow. -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.description>製作白鼠族自動弩。</Make_Mousekin_RangedWeapon_CrossbowAuto.description>
+
+	<!-- EN: Making Mousekin Automatic Crossbow. -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.jobString>製作白鼠族自動弩。</Make_Mousekin_RangedWeapon_CrossbowAuto.jobString>
+
+	<!-- EN: make Mousekin Musket -->
+	<Make_Mousekin_RangedWeapon_MusketLong.label>製作白鼠族鳥銃</Make_Mousekin_RangedWeapon_MusketLong.label>
+
+	<!-- EN: Make Mousekin Musket. -->
+	<Make_Mousekin_RangedWeapon_MusketLong.description>製作白鼠族鳥銃。</Make_Mousekin_RangedWeapon_MusketLong.description>
+
+	<!-- EN: Making Mousekin Musket. -->
+	<Make_Mousekin_RangedWeapon_MusketLong.jobString>製作白鼠族鳥銃。</Make_Mousekin_RangedWeapon_MusketLong.jobString>
+
+	<!-- EN: make Mousekin Blunderbuss -->
+	<Make_Mousekin_RangedWeapon_MusketShort.label>製作白鼠族雷筒</Make_Mousekin_RangedWeapon_MusketShort.label>
+
+	<!-- EN: Make Mousekin Blunderbuss. -->
+	<Make_Mousekin_RangedWeapon_MusketShort.description>製作白鼠族雷筒。</Make_Mousekin_RangedWeapon_MusketShort.description>
+
+	<!-- EN: Making Mousekin Blunderbuss. -->
+	<Make_Mousekin_RangedWeapon_MusketShort.jobString>製作白鼠族雷筒。</Make_Mousekin_RangedWeapon_MusketShort.jobString>
+	
+</LanguageData>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: hemlock poisoning -->
+	<Mousekin_HemlockPoisoning.label>鐵杉中毒</Mousekin_HemlockPoisoning.label>
+
+	<!-- EN: Poison in the bloodstream, from accidental or deliberate ingestion of the high toxic hemlock plant. The smallest of doses is enough to be rapidly fatal to most humanoids. -->
+	<Mousekin_HemlockPoisoning.description>血液中的毒藥，來自意外或故意攝入劇毒的鐵杉植物。最小的劑量足以使大多數類人動物迅速致命。</Mousekin_HemlockPoisoning.description>
+
+	<!-- EN: initial -->
+	<Mousekin_HemlockPoisoning.stages.0.label>輕度</Mousekin_HemlockPoisoning.stages.0.label>
+
+	<!-- EN: moderate -->
+	<Mousekin_HemlockPoisoning.stages.1.label>中度</Mousekin_HemlockPoisoning.stages.1.label>
+
+	<!-- EN: fatal -->
+	<Mousekin_HemlockPoisoning.stages.2.label>致命</Mousekin_HemlockPoisoning.stages.2.label>
+
+	<!-- EN: Chonko nut brew high -->
+	<Mousekin_MuroidineHigh.label>充柯堅果咖啡亢奮</Mousekin_MuroidineHigh.label>
+
+	<!-- EN: The methylxanthine alkaloid muroidine, naturally present in trace quantities in Chonko and Nyam nuts or concentrated in beverages like Chonko nut brew, increases the stimuli in one's nervous system once metabolised, suppressing the urge to sleep and clearing the mind. Increases consciousness by 10% and blood circulation by 5%, as well as reducing rest fall rate by 10%. -->
+	<Mousekin_MuroidineHigh.description>甲基黃嘌呤生物鹼鼠啡因，天然微量存在於充柯和納木堅果中，或濃縮在充柯堅果咖啡等飲料中，一旦新陳代謝，就會增加神經系統的刺激，抑制睡眠衝動，清理頭腦。意識提高10%，血液循環提高5%，疲勞率降低10%。</Mousekin_MuroidineHigh.description>
+
+	<!-- EN: a Chonko nut brew high -->
+	<Mousekin_MuroidineHigh.labelNoun>充柯堅果咖啡亢奮</Mousekin_MuroidineHigh.labelNoun>
+
+	<!-- EN: Muroidine tolerance -->
+	<Mousekin_MuroidineTolerance.label>鼠啡因耐受</Mousekin_MuroidineTolerance.label>
+
+	<!-- EN: A built-up tolerance to muroidine found in Chonko nut brew. The more severe this tolerance is, the more muroidine it takes to get the same effect. -->
+	<Mousekin_MuroidineTolerance.description>對充柯堅果咖啡中的鼠啡因耐受性。耐受性越嚴重，達到同樣效果所需要的鼠啡因也就越多。</Mousekin_MuroidineTolerance.description>
+
+	<!-- EN: small -->
+	<Mousekin_MuroidineTolerance.stages.0.label>輕微</Mousekin_MuroidineTolerance.stages.0.label>
+
+	<!-- EN: large -->
+	<Mousekin_MuroidineTolerance.stages.1.label>強烈</Mousekin_MuroidineTolerance.stages.1.label>
+
+	<!-- EN: massive -->
+	<Mousekin_MuroidineTolerance.stages.2.label>極強</Mousekin_MuroidineTolerance.stages.2.label>
+
+	<!-- EN: Muroidine addiction -->
+	<Mousekin_MuroidineAddiction.label>鼠啡因成癮</Mousekin_MuroidineAddiction.label>
+
+	<!-- EN: A chemical addiction to muroidine. Long-term presence of muroidine has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the methylxanthine alkaloid.\n\nWithout regular consumption of muroidine-rich beverages like Chonko nut brew, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction. -->
+	<Mousekin_MuroidineAddiction.description>鼠啡因的化學成癮。長期飲用充柯堅果咖啡會造成細胞內的神經適應鼠啡因，導致大腦沒有鼠啡因的話就無法運作。\n\n如果沒有定期飲用如充柯堅果咖啡的含鼠啡因飲料，戒斷反應就會開始。然而，長時間的戒斷會迫使大腦恢復正常狀態，解決成癮問題。</Mousekin_MuroidineAddiction.description>
+
+	<!-- EN: withdrawal -->
+	<Mousekin_MuroidineAddiction.stages.1.label>戒斷</Mousekin_MuroidineAddiction.stages.1.label>
+
+	<!-- EN: Mousekin mead high -->
+	<Mousekin_MeadHigh.label>白鼠族蜂蜜酒亢奮</Mousekin_MeadHigh.label>
+
+	<!-- EN: Increased dopamine levels in the body from consuming Mousekin mead reduces chances of mental breaks. -->
+	<Mousekin_MeadHigh.description>食用白鼠族蜂蜜酒會增加體內多巴胺水平，減少精神崩潰的機會。</Mousekin_MeadHigh.description>
+
+	<!-- EN: warm -->
+	<Mousekin_MeadHigh.stages.0.label>微醺</Mousekin_MeadHigh.stages.0.label>
+
+	<!-- EN: tipsy -->
+	<Mousekin_MeadHigh.stages.1.label>微醉</Mousekin_MeadHigh.stages.1.label>
+
+	<!-- EN: drunk -->
+	<Mousekin_MeadHigh.stages.2.label>喝醉</Mousekin_MeadHigh.stages.2.label>
+
+	<!-- EN: hammered -->
+	<Mousekin_MeadHigh.stages.3.label>爛醉</Mousekin_MeadHigh.stages.3.label>
+
+	<!-- EN: blackout -->
+	<Mousekin_MeadHigh.stages.4.label>不省人事</Mousekin_MeadHigh.stages.4.label>
+
+	<!-- EN: Satiated hunger (from country bread) -->
+	<Mousekin_SatiatedHunger10.label>飽腹感（鄉村麵包）</Mousekin_SatiatedHunger10.label>
+
+	<!-- EN: Consuming country bread lowers hunger rate by 10% for 12 hours. -->
+	<Mousekin_SatiatedHunger10.description>食用鄉村麵包可使飢餓率降低10%，持續12小時。</Mousekin_SatiatedHunger10.description>
+
+	<!-- EN: Satiated hunger (from ploughman's lunch) -->
+	<Mousekin_SatiatedHunger20.label>飽腹感（農夫午餐）</Mousekin_SatiatedHunger20.label>
+
+	<!-- EN: Consuming a serving of ploughman's lunch lowers hunger rate by 20% for 12 hours. -->
+	<Mousekin_SatiatedHunger20.description>食用農夫午餐可使飢餓率降低20%，持續12小時。</Mousekin_SatiatedHunger20.description>
+
+	<!-- EN: Satiated hunger (from bread bowl) -->
+	<Mousekin_SatiatedHunger35.label>飽腹感（濃湯麵包碗）</Mousekin_SatiatedHunger35.label>
+
+	<!-- EN: Consuming a bread bowl lowers hunger rate by 35% for 12 hours.</Mousekin_SatiatedHunger35.description> -->
+	<Mousekin_SatiatedHunger35.description>食用濃湯麵包碗可使飢餓率降低35%，持續12小時。</Mousekin_SatiatedHunger35.description>
+	
+</LanguageData>

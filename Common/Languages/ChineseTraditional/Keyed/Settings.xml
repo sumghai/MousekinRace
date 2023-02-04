@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Race -->
+	<MousekinRace_SettingsCategory_Heading>白鼠族</MousekinRace_SettingsCategory_Heading>
+
+	<!-- EN: Earless Mousekins are suicidal -->
+	<MousekinRace_Settings_EarlessMousekinsAreSuicidal_Title>失去耳朵的白鼠族是否會自殺</MousekinRace_Settings_EarlessMousekinsAreSuicidal_Title>
+
+	<!-- EN: Mousekins who lose both their ears and do not receive prosthetic or natural implants will commit suicide after 15 in-game days due to social stigma.\n\nDisabling this will keep them alive, but they will continue to experience mood debuffs from missing ears. -->
+	<MousekinRace_Settings_EarlessMousekinsAreSuicidal_Desc>失去雙耳且未接受假耳或移植耳的白鼠族，會由於社會恥辱感而在遊戲中15天后自殺。\n\n禁用此選項將使他們存活下來，但他們會繼續遭受情緒減益。</MousekinRace_Settings_EarlessMousekinsAreSuicidal_Desc>
+
+</LanguageData>

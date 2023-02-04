@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Commoner apparel -->
+	<Mousekin_ResearchApparelCommoner.label>平民衣物</Mousekin_ResearchApparelCommoner.label>
+
+	<!-- EN: Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners. -->
+	<Mousekin_ResearchApparelCommoner.description>製作各種適合白鼠族平民的攝政時期服裝和配飾。</Mousekin_ResearchApparelCommoner.description>
+
+	<!-- EN: Middle-class apparel -->
+	<Mousekin_ResearchApparelMiddle.label>中產階衣物</Mousekin_ResearchApparelMiddle.label>
+
+	<!-- EN: Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMiddle.description>製作各種適合白鼠族中產階(如:高級僕人、花園衛女、牧師和修女)的服裝和配飾。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchApparelMiddle.description>
+
+	<!-- EN: Military apparel -->
+	<Mousekin_ResearchApparelMilitary.label>軍用衣物</Mousekin_ResearchApparelMilitary.label>
+
+	<!-- EN: Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMilitary.description>製作填充布甲，鍛造各種盔甲和頭盔，以在戰鬥中保護白鼠族士兵和騎士。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchApparelMilitary.description>
+
+	<!-- EN: Aristocratic apparel -->
+	<Mousekin_ResearchApparelNoble.label>貴族服飾</Mousekin_ResearchApparelNoble.label>
+
+	<!-- EN: Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelNoble.description>為品味挑剔的貴族白鼠族製作時尚正裝。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchApparelNoble.description>
+
+	<!-- EN: Medicinal alchemy -->
+	<Mousekin_ResearchAlchemy.label>藥用煉金術</Mousekin_ResearchAlchemy.label>
+
+	<!-- EN: Concoct poultices and potions from a variety of herbal and mineral ingredients. -->
+	<Mousekin_ResearchAlchemy.description>用各種草藥和礦物成分配製藥膏和藥水。</Mousekin_ResearchAlchemy.description>
+
+	<!-- EN: Charcoal -->
+	<Mousekin_ResearchCharcoal.label>木炭</Mousekin_ResearchCharcoal.label>
+
+	<!-- EN: Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions. -->
+	<Mousekin_ResearchCharcoal.description>將木材提煉成木炭，可用作高效燃料來源，或用作各種白鼠族藥水的成分。</Mousekin_ResearchCharcoal.description>
+
+	<!-- EN: Clockwork mechanisms -->
+	<Mousekin_ResearchMachineryBasic.label>發條機構</Mousekin_ResearchMachineryBasic.label>
+
+	<!-- EN: Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryBasic.description>製作用於各種設備（例:自動弩）的複雜組件和發條彈簧機構。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchMachineryBasic.description>
+
+	<!-- EN: Heavy machinery -->
+	<Mousekin_ResearchMachineryAdvanced.label>重型機械</Mousekin_ResearchMachineryAdvanced.label>
+
+	<!-- EN: Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryAdvanced.description>建造重型機械，例如水力鍛鐵爐和投石機。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchMachineryAdvanced.description>
+
+	<!-- EN: Deep mining -->
+	<Mousekin_ResearchMining.label>深井採礦</Mousekin_ResearchMining.label>
+
+	<!-- EN: Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMining.description>建造深井礦井入口，以便在地下開採各種礦物。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchMining.description>
+
+	<!-- EN: Gunpowder -->
+	<Mousekin_ResearchGunpowder.label>火藥</Mousekin_ResearchGunpowder.label>
+
+	<!-- EN: Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchGunpowder.description>製作原始的白鼠族炸藥，用作鳥銃、旋轉槍和大砲等武器的推進劑。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchGunpowder.description>
+
+	<!-- EN: Cast-iron stoves -->
+	<Mousekin_ResearchCookingIronStoves.label>鑄鐵爐</Mousekin_ResearchCookingIronStoves.label>
+
+	<!-- EN: Build cast-iron stoves for cooking more complex Mousekin dishes. -->
+	<Mousekin_ResearchCookingIronStoves.description>建造鑄鐵爐子來烹飪更複雜的白鼠族菜餚。</Mousekin_ResearchCookingIronStoves.description>
+
+	<!-- EN: Apiaries -->
+	<Mousekin_ResearchBeekeeping.label>蜂房</Mousekin_ResearchBeekeeping.label>
+
+	<!-- EN: Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles. -->
+	<Mousekin_ResearchBeekeeping.description>建造木製蜂箱，獲取用於烹飪和釀造的蜂蜜，以及用於製作蠟燭的蜂蠟。</Mousekin_ResearchBeekeeping.description>
+
+	<!-- EN: Aristocratic cuisine -->
+	<Mousekin_ResearchCookingNoble.label>貴族料理</Mousekin_ResearchCookingNoble.label>
+
+	<!-- EN: Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchCookingNoble.description>為最挑剔的白鼠族味覺準備烹飪傑作。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchCookingNoble.description>
+
+	<!-- EN: Cottage building -->
+	<Mousekin_ResearchBuildingVillage.label>村屋建築</Mousekin_ResearchBuildingVillage.label>
+
+	<!-- EN: Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows. -->
+	<Mousekin_ResearchBuildingVillage.description>使用荊棘和塗抹牆、門窗為白鼠族平民建造房屋。</Mousekin_ResearchBuildingVillage.description>
+
+	<!-- EN: Castle architecture -->
+	<Mousekin_ResearchBuildingCastle.label>城堡建築</Mousekin_ResearchBuildingCastle.label>
+
+	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
+	<Mousekin_ResearchBuildingCastle.description>為白鼠族貴族建造豪宅，並建造防禦工事以保護白鼠族社區免受外部威脅。</Mousekin_ResearchBuildingCastle.description>
+
+	<!-- EN: Glassmaking -->
+	<Mousekin_ResearchGlassmaking.label>玻璃製造</Mousekin_ResearchGlassmaking.label>
+
+	<!-- EN: Melt sand at high temperatures into glass for fabricating windows. (Only available if Fertile Fields mods is installed) -->
+	<Mousekin_ResearchGlassmaking.description>在高溫下熔化沙子，製成窗戶玻璃。（需Fertile Fields模組）</Mousekin_ResearchGlassmaking.description>
+	
+</LanguageData>

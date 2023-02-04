@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: ate cooked Ratkin meat -->
+	<Mousekin_Thought_AteRatkinMeatAsIngredient.stages.0.label>吃了烹調過的鼠娘人肉</Mousekin_Thought_AteRatkinMeatAsIngredient.stages.0.label>
+
+	<!-- EN: Ugh, cooking did nothing to remove the stench of dead rat in this meat. -->
+	<Mousekin_Thought_AteRatkinMeatAsIngredient.stages.0.description>呃，烹飪並沒有消除這塊肉中死老鼠的惡臭。</Mousekin_Thought_AteRatkinMeatAsIngredient.stages.0.description>
+
+	<!-- EN: ate raw Ratkin meat -->
+	<Mousekin_Thought_AteRatkinMeatDirect.stages.0.label>吃了生的鼠娘人肉</Mousekin_Thought_AteRatkinMeatDirect.stages.0.label>
+
+	<!-- EN: Tastes like rancid pork. Yuck! -->
+	<Mousekin_Thought_AteRatkinMeatDirect.stages.0.description>嘗起來像腐臭的豬肉。呸！</Mousekin_Thought_AteRatkinMeatDirect.stages.0.description>
+
+	<!-- EN: I butchered Ratkin corpse -->
+	<Mousekin_Thought_ButcheredRatkinCorpse.stages.0.label>我屠宰了鼠娘人</Mousekin_Thought_ButcheredRatkinCorpse.stages.0.label>
+
+	<!-- EN: Half smoothskin, half rat...what a strange creature! -->
+	<Mousekin_Thought_ButcheredRatkinCorpse.stages.0.description>一半是光皮族，一半是老鼠…多麼奇怪的生物！</Mousekin_Thought_ButcheredRatkinCorpse.stages.0.description>
+
+	<!-- EN: we butchered Ratkin corpse -->
+	<Mousekin_Thought_KnowButcheredRatkinCorpse.stages.0.label>我們屠宰了鼠娘人</Mousekin_Thought_KnowButcheredRatkinCorpse.stages.0.label>
+
+	<!-- EN: We butchered up a Ratkin. These half-smoothkin, half-rat creatures are so strange! -->
+	<Mousekin_Thought_KnowButcheredRatkinCorpse.stages.0.description>我們屠宰了一隻鼠娘人。這些一半是光皮族，一半是老鼠的生物真是奇怪！</Mousekin_Thought_KnowButcheredRatkinCorpse.stages.0.description>
+	
+</LanguageData>
