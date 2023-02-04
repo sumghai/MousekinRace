@@ -62,7 +62,7 @@
 	</AlienRace.AlienBackstoryDef>
 	
 	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
-		<defName>Mousekin_Childhood_GenericAdult</defName>
+		<defName>Mousekin_Adulthood_GenericAdult</defName>
 		<title>Villager</title>
 		<titleShort>Villager</titleShort>
 		<baseDesc>[PAWN_nameDef] became an adult in our village. [PAWN_possessive] story is still being written.</baseDesc>

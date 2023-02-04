@@ -20,13 +20,13 @@
 	<Mousekin_Childhood_GenericChildhood.baseDesc>[PAWN_nameDef]在我們的村莊長大。</Mousekin_Childhood_GenericChildhood.baseDesc>
 	
 	<!-- EN: Villager -->
-	<Mousekin_Childhood_GenericAdult.title>村民</Mousekin_Childhood_GenericAdult.title>
+	<Mousekin_Adulthood_GenericAdult.title>村民</Mousekin_Adulthood_GenericAdult.title>
 	
 	<!-- EN: Villager -->
-	<Mousekin_Childhood_GenericAdult.titleShort>村民</Mousekin_Childhood_GenericAdult.titleShort>
+	<Mousekin_Adulthood_GenericAdult.titleShort>村民</Mousekin_Adulthood_GenericAdult.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] became an adult in our village. [PAWN_possessive] story is still being written. -->
-	<Mousekin_Childhood_GenericAdult.baseDesc>[PAWN_nameDef]在我們的村莊長大成成年鼠。[PAWN_possessive]故事尚未寫下。</Mousekin_Childhood_GenericAdult.baseDesc>
+	<Mousekin_Adulthood_GenericAdult.baseDesc>[PAWN_nameDef]在我們的村莊長大成成年鼠。[PAWN_possessive]故事尚未寫下。</Mousekin_Adulthood_GenericAdult.baseDesc>
 	
 	<!-- EN: Apprentice alchemist -->
 	<Mousekin_Childhood_AlchemistApprentice.title>煉金術士學徒</Mousekin_Childhood_AlchemistApprentice.title>
