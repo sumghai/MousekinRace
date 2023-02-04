@@ -124,6 +124,9 @@
 		<defName>Mousekin_Childhood_Bastard</defName>
 		<title>Bastard child</title>
 		<titleShort>Bastard</titleShort>
+		<!-- To support gender-specific translations -->
+		<titleFemale>Bastard child</titleFemale> 
+		<titleShortFemale>Bastard</titleShortFemale>
 		<baseDesc>As the product of an illict affair between a wealthy Mousekin landowner and his scullery maid, [PAWN_nameDef] had no legal status in Mousekin society.\n\nTo avoid further scandal, the landowner quietly sent them away to a distant countryside cottage, where mother and child led simple lives as peasants.</baseDesc>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
