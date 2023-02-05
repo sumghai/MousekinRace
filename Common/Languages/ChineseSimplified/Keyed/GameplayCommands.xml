@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Rotate cap -->
+	<MousekinRace_CommandRotateWindmillCapLabel>旋转屋顶</MousekinRace_CommandRotateWindmillCapLabel>
+
+	<!-- EN: Rotate the cap and sails of the windmill. -->
+	<MousekinRace_CommandRotateWindmillCapDesc>旋转风车的屋顶与风帆的方向。</MousekinRace_CommandRotateWindmillCapDesc>
+
+	<!-- EN: Show manual -->
+	<MousekinRace_CommandShowBeehiveManualLabel>显示手册</MousekinRace_CommandShowBeehiveManualLabel>
+
+	<!-- EN: Show instructions for using the Mousekin Beehive. -->
+	<MousekinRace_CommandShowBeehiveManualDesc>显示白鼠族蜂箱的使用手册。</MousekinRace_CommandShowBeehiveManualDesc>
+
+	<!-- EN: Wear {0} -->
+	<MousekinRace_CommandToggleAttachedHeadgearLabel>戴上{0}</MousekinRace_CommandToggleAttachedHeadgearLabel>
+
+	<!-- EN: Toggle wearing {0} attached to apparel. -->
+	<MousekinRace_CommandToggleAttachedHeadgearDesc>切换是否戴上附着在服装的{0}。</MousekinRace_CommandToggleAttachedHeadgearDesc>
+	
+</LanguageData>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>		<!-- EN: Mousekin Axe -->
+	<Mousekin_MeleeWeapon_Axe.label>白鼠族斧头</Mousekin_MeleeWeapon_Axe.label>
+	
+	<!-- EN: A bladed implement with a handle typically used to cut down trees, hew logs into timber and split firewood, but in a pinch can also be used as a crude but deadly weapon. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Axe.description>一种有手柄的带刃工具，通常用于砍伐树木、将原木砍成木材和劈柴，但在紧急时也可当作一个粗糙但致命的武器。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_Axe.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Axe.tools.0.label>斧柄</Mousekin_MeleeWeapon_Axe.tools.0.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_Axe.tools.1.label>斧刃</Mousekin_MeleeWeapon_Axe.tools.1.label>
+	
+	<!-- EN: Mousekin Cleaver -->
+	<Mousekin_MeleeWeapon_Cleaver.label>白鼠族菜刀</Mousekin_MeleeWeapon_Cleaver.label>
+	
+	<!-- EN: A large knife with a rectangular blade typically used to split large, thick pieces of meat. While it helps increase the amount of meat harvested when butchering animals, it is not a particularly good weapon. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Cleaver.description>一把长方形刀刃的大刀，用来切大而厚的肉块。虽然它提高了屠宰动物时收获的肉量，但它并不是特别好的武器。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_Cleaver.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Cleaver.tools.0.label>刀柄</Mousekin_MeleeWeapon_Cleaver.tools.0.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_Cleaver.tools.1.label>刀身</Mousekin_MeleeWeapon_Cleaver.tools.1.label>
+	
+	<!-- EN: Mousekin Dagger -->
+	<Mousekin_MeleeWeapon_Dagger.label>白鼠族匕首</Mousekin_MeleeWeapon_Dagger.label>
+	
+	<!-- EN: A cute little dagger, good for quick stabbing attacks and easily concealed under most Mousekin clothing. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Dagger.description>一把可爱的小匕首，适合快速刺击，很容易隐藏在大多数白鼠族衣服下。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_Dagger.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Dagger.tools.0.label>刀柄</Mousekin_MeleeWeapon_Dagger.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_Dagger.tools.1.label>刀尖</Mousekin_MeleeWeapon_Dagger.tools.1.label>
+	
+	<!-- EN: Mousekin Hammer -->
+	<Mousekin_MeleeWeapon_HammerMetal.label>白鼠族锤子</Mousekin_MeleeWeapon_HammerMetal.label>
+	
+	<!-- EN: A hammer with a small metal head, used to beat and form metals into shape, as well as general construction work. Despite its small size, a Mousekin armed with a hammer can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_HammerMetal.description>一把带有小金属锤头的锤子，用于敲击金属并将其成型，以及一般的建筑工作。工具虽然小，但一只手持锤子的白鼠族依然可以轻松砸碎一个成年人类的手指。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_HammerMetal.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_HammerMetal.tools.0.label>锤柄</Mousekin_MeleeWeapon_HammerMetal.tools.0.label>
+	
+	<!-- EN: head -->
+	<Mousekin_MeleeWeapon_HammerMetal.tools.1.label>锤头</Mousekin_MeleeWeapon_HammerMetal.tools.1.label>
+	
+	<!-- EN: Mousekin Mallet -->
+	<Mousekin_MeleeWeapon_HammerWood.label>白鼠族木槌</Mousekin_MeleeWeapon_HammerWood.label>
+	
+	<!-- EN: A hammer with a large wooden head, used in carpentry and general construction work. Despite its small size, a Mousekin armed with a mallet can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_HammerWood.description>一把带有大木头锤头的锤子，用于木工和一般建筑工作。工具虽然小，但一只手持木槌的白鼠族依然可以轻松砸碎一个成年人类的手指。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_HammerWood.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_HammerWood.tools.0.label>锤柄</Mousekin_MeleeWeapon_HammerWood.tools.0.label>
+	
+	<!-- EN: head -->
+	<Mousekin_MeleeWeapon_HammerWood.tools.1.label>锤头</Mousekin_MeleeWeapon_HammerWood.tools.1.label>
+	
+	<!-- EN: Mousekin Hoe -->
+	<Mousekin_MeleeWeapon_Hoe.label>白鼠族锄头</Mousekin_MeleeWeapon_Hoe.label>
+	
+	<!-- EN: A common agricultural hand tool used to break up soil, remove weeds and harvest root vegetables. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Hoe.description>一把普通的农具，用来松土，去除杂草和收割根菜类。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_Hoe.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Hoe.tools.0.label>握柄</Mousekin_MeleeWeapon_Hoe.tools.0.label>
+	
+	<!-- EN: hoe head -->
+	<Mousekin_MeleeWeapon_Hoe.tools.1.label>锄头</Mousekin_MeleeWeapon_Hoe.tools.1.label>
+	
+	<!-- EN: hoe blade -->
+	<Mousekin_MeleeWeapon_Hoe.tools.2.label>锋刃</Mousekin_MeleeWeapon_Hoe.tools.2.label>		<!-- EN: Mousekin Pickaxe -->
+	<Mousekin_MeleeWeapon_Pickaxe.label>白鼠族十字镐</Mousekin_MeleeWeapon_Pickaxe.label>
+	
+	<!-- EN: A hand tool with a large, curved metal blade, used to quickly dig at compacted soil and break up rocks. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Pickaxe.description>一种带有大型弯曲金属刀片的手动工具，用于快速挖掘压实土壤和破碎岩石。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_Pickaxe.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.0.label>握柄</Mousekin_MeleeWeapon_Pickaxe.tools.0.label>
+	
+	<!-- EN: head -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.1.label>镐头</Mousekin_MeleeWeapon_Pickaxe.tools.1.label>
+	
+	<!-- EN: pick -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.2.label>镐刃</Mousekin_MeleeWeapon_Pickaxe.tools.2.label>
+	
+	<!-- EN: Mousekin Pike -->
+	<Mousekin_MeleeWeapon_PikeRegular.label>白鼠族长柄枪</Mousekin_MeleeWeapon_PikeRegular.label>
+	
+	<!-- EN: A long polearm weapon, the Mousekin Pike is technically a pike-halberd hybrid, with a spear tip for fending off enemy cavalry charges, a hooked blade to pull enemy knights off their mounts, and an axe-like blade to deliver the final killing blow. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_PikeRegular.description>一种长柄武器，白鼠族长柄枪实际上是长矛和斧枪的混合体，长矛尖用于抵御敌方骑兵的冲锋，带钩的刀刃用于将敌方骑士从骑乘动物拉下来，斧头状的刀刃用来进行最后的致命一击。也是人类唯一可用的白鼠族武器之一。</Mousekin_MeleeWeapon_PikeRegular.description>
+	
+	<!-- EN: shaft -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.0.label>矛柄</Mousekin_MeleeWeapon_PikeRegular.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.1.label>矛尖</Mousekin_MeleeWeapon_PikeRegular.tools.1.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.2.label>斧刃</Mousekin_MeleeWeapon_PikeRegular.tools.2.label>
+	
+	<!-- EN: Mousekin Thunderpike -->
+	<Mousekin_MeleeWeapon_PikeThunder.label>白鼠族轰雷长柄枪</Mousekin_MeleeWeapon_PikeThunder.label>
+	
+	<!-- EN: A variant of the standard Mousekin Pike used by soldiers from Independent Mousekin towns, with a large firecracker tied to its spear end capable of blasting enemy Mousekin knights or setting them on fire. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_PikeThunder.description>白鼠族长柄枪的变种，由独立白鼠族城镇的士兵使用。它的长矛末端绑着一个大鞭炮，能够炸毁敌方白鼠族骑士或点燃他们。也是人类唯一可用的白鼠族武器之一。</Mousekin_MeleeWeapon_PikeThunder.description>
+	
+	<!-- EN: shaft -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.0.label>矛柄</Mousekin_MeleeWeapon_PikeThunder.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.1.label>刃尖</Mousekin_MeleeWeapon_PikeThunder.tools.1.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.2.label>斧刃</Mousekin_MeleeWeapon_PikeThunder.tools.2.label>
+	
+	<!-- EN: Mousekin Thunderpike -->
+	<Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>白鼠族轰雷长柄枪</Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>
+	
+	<!-- EN: Mousekin Pitchfork -->
+	<Mousekin_MeleeWeapon_Pitchfork.label>白鼠族草叉</Mousekin_MeleeWeapon_Pitchfork.label>
+	
+	<!-- EN: An agricultural hand tool with a long handle and three tines, used to pitch and pile straw. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Pitchfork.description>一种带有长柄和三个尖齿的农用手工具，用于捆扎和堆放稻草。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_Pitchfork.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Pitchfork.tools.0.label>握柄</Mousekin_MeleeWeapon_Pitchfork.tools.0.label>
+	
+	<!-- EN: tines -->
+	<Mousekin_MeleeWeapon_Pitchfork.tools.1.label>叉齿</Mousekin_MeleeWeapon_Pitchfork.tools.1.label>
+	
+	<!-- EN: Mousekin Guardener’s Sword -->
+	<Mousekin_MeleeWeapon_SwordGuardener.label>白鼠族花园卫女短剑</Mousekin_MeleeWeapon_SwordGuardener.label>
+	
+	<!-- EN: A one-handed shortsword carried by Guardeners, an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom. The light and compact design exemplifies the femininity and grace of the weapon’s user. Its handle is too small and thin for a human to wield properly -->
+	<Mousekin_MeleeWeapon_SwordGuardener.description>一把单手短剑，由致力于照料和保护白鼠族王国花园的花园卫女所持。轻巧紧凑的设计体现了武器使用者的女性气质和优雅气质。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_SwordGuardener.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>剑柄</Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>剑尖</Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>
+	
+	<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>剑锋</Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>		<!-- EN: Mousekin Guardener’s Training Sword -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.label>白鼠族花园卫女练习剑</Mousekin_MeleeWeapon_SwordGuardenerTraining.label>
+	
+	<!-- EN: A wooden version of the Guardener shortsword, carried by apprentices as part of their training to tend and protect the flower gardens of the Mousekin Kingdom. The blunted blade reduces risk of injury during training. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.description>花园卫女短剑的木制版本，由见习卫女携带，作为他们照料和保护白鼠族王国花园的训练的一部分。剑锋是钝的，以减少训练时受伤的风险。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_SwordGuardenerTraining.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>剑柄</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>
+	
+	<!-- EN: wooden blade -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>木剑锋</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>
+	
+	<!-- EN: Mousekin Knight’s Sword -->
+	<Mousekin_MeleeWeapon_SwordKnight.label>白鼠族骑士剑</Mousekin_MeleeWeapon_SwordKnight.label>
+	
+	<!-- EN: A longsword perfectly balanced for one-handed use, good for stabbing or slashing. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_SwordKnight.description>一把平衡良好的长剑，适合单手使用，可以用来挥砍、突刺。它的手柄太小，因此人类无法使用。</Mousekin_MeleeWeapon_SwordKnight.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.0.label>剑柄</Mousekin_MeleeWeapon_SwordKnight.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.1.label>剑尖</Mousekin_MeleeWeapon_SwordKnight.tools.1.label>
+	
+	<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.2.label>剑锋</Mousekin_MeleeWeapon_SwordKnight.tools.2.label>
+	
+	<!-- EN: Mousekin Knight’s Greatsword -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.label>白鼠族骑士巨剑</Mousekin_MeleeWeapon_SwordKnightLarge.label>
+	
+	<!-- EN: A long and heavy sword that requires both hands to wield, but if used properly, can literally split an enemy in two. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.description>一把又长又重并且需要双手才能挥动的剑，但如果使用得当，可以将敌人一分为二。也是人类唯一可用的白鼠族武器之一。</Mousekin_MeleeWeapon_SwordKnightLarge.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>剑柄</Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>剑尖</Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>
+	
+	<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>剑锋</Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>
+	
+</LanguageData>

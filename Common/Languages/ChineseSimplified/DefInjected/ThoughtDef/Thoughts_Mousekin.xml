@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: ate cheese -->
+	<Mousekin_Thought_AteCheese.stages.0.label>吃了芝士</Mousekin_Thought_AteCheese.stages.0.label>
+
+	<!-- EN: I ate some cheese. I guess it tastes alright, but I'd prefer some crunchy roasted nuts or juicy berries. -->
+	<Mousekin_Thought_AteCheese.stages.0.description>我吃了一些芝士。味道还过得去，但我还是比较喜欢松脆的烤坚果或多汁的浆果。</Mousekin_Thought_AteCheese.stages.0.description>
+
+	<!-- EN: ate cheese x2 -->
+	<Mousekin_Thought_AteCheese.stages.1.label>吃了芝士 x2</Mousekin_Thought_AteCheese.stages.1.label>
+
+	<!-- EN: I ate some more cheese. I'm starting to get sick of this. -->
+	<Mousekin_Thought_AteCheese.stages.1.description>我又吃了一些芝士。我开始厌烦这个了。</Mousekin_Thought_AteCheese.stages.1.description>
+
+	<!-- EN: ate cheese x3 -->
+	<Mousekin_Thought_AteCheese.stages.2.label>吃了芝士 x3</Mousekin_Thought_AteCheese.stages.2.label>
+
+	<!-- EN: Cheese again? Ugh. -->
+	<Mousekin_Thought_AteCheese.stages.2.description>又是芝士？唉。</Mousekin_Thought_AteCheese.stages.2.description>
+
+	<!-- EN: ate cheese x4 -->
+	<Mousekin_Thought_AteCheese.stages.3.label>吃了芝士 x4</Mousekin_Thought_AteCheese.stages.3.label>
+
+	<!-- EN: No...more...cheese...please... -->
+	<Mousekin_Thought_AteCheese.stages.3.description>人…家…不…要…起…司…了…啦…</Mousekin_Thought_AteCheese.stages.3.description>
+
+	<!-- EN: ate corpse -->
+	<Mousekin_Thought_AteCorpse.stages.0.label>吃了尸体</Mousekin_Thought_AteCorpse.stages.0.label>
+
+	<!-- EN: I had to eat the flesh of a dead creature without even butchering or cooking it, like a filthy, primitive rat. -->
+	<Mousekin_Thought_AteCorpse.stages.0.description>我像只肮脏的野老鼠，不得不啃食新鲜的尸体，甚至没有屠宰或料理过。</Mousekin_Thought_AteCorpse.stages.0.description>
+
+	<!-- EN: ate cooked human meat -->
+	<Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.label>吃了烹调过的人肉</Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.label>
+
+	<!-- EN: Huh. Who knew cooked smoothskin meat tastes like pork tenderloin? -->
+	<Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.description>嗯。谁知道煮熟的光皮族肉尝起来像猪里脊肉？ </Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.description>
+
+	<!-- EN: ate raw human meat -->
+	<Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.label>吃了生的人肉</Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.label>
+
+	<!-- EN: Ew, it tastes like raw pork! -->
+	<Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.description>哎呀，它尝起来像生猪肉！ </Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.description>
+
+	<!-- EN: ate kibble -->
+	<Mousekin_Thought_AteKibble.stages.0.label>吃了饲料</Mousekin_Thought_AteKibble.stages.0.label>
+
+	<!-- EN: I had to eat animal kibble, like a filthy, primitive rat. -->
+	<Mousekin_Thought_AteKibble.stages.0.description>我迫于无奈地吃了饲料，像只肮脏的野老鼠。</Mousekin_Thought_AteKibble.stages.0.description>
+
+	<!-- EN: cooked cannibalism -->
+	<Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.label>吃了烹调过的白鼠族肉</Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.label>
+
+	<!-- EN: My meal was made from the cooked meat of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.description>料理是用我同胞的熟肉做的！智者缬草啊，请原谅我犯下的罪孽吧！ </Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.description>
+
+	<!-- EN: raw cannibalism -->
+	<Mousekin_Thought_AteMousekinMeatDirect.stages.0.label>吃了生的白鼠族肉</Mousekin_Thought_AteMousekinMeatDirect.stages.0.label>
+
+	<!-- EN: I ate the raw flesh of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_AteMousekinMeatDirect.stages.0.description>我吃了同胞的生肉！智者缬草啊，请原谅我犯下的罪孽吧！ </Mousekin_Thought_AteMousekinMeatDirect.stages.0.description>
+
+	<!-- EN: ate raw food -->
+	<Mousekin_Thought_AteRawFood.stages.0.label>吃了生食</Mousekin_Thought_AteRawFood.stages.0.label>
+
+	<!-- EN: I had to eat raw food. We should be cooking that kind of food before eating it. We're not filthy, primitive rats. -->
+	<Mousekin_Thought_AteRawFood.stages.0.description>我吃了生食。我们应该在吃之前先烹饪一下。我们可不是肮脏的野老鼠。</Mousekin_Thought_AteRawFood.stages.0.description>
+
+	<!-- EN: ate Mousekin trail mix -->
+	<Mousekin_Thought_AteTrailMix.stages.0.label>吃了白鼠族混合果仁</Mousekin_Thought_AteTrailMix.stages.0.label>
+
+	<!-- EN: I love trail mix! Crunchy nuts, chewy dried berries, yummy popcorn! -->
+	<Mousekin_Thought_AteTrailMix.stages.0.description>我喜欢混合果仁！松脆的坚果，耐嚼的干浆果，美味的爆米花！ </Mousekin_Thought_AteTrailMix.stages.0.description>
+
+	<!-- EN: ate without table -->
+	<Mousekin_Thought_AteWithoutTable.stages.0.label>在地上用餐</Mousekin_Thought_AteWithoutTable.stages.0.label>
+
+	<!-- EN: I had to eat a meal off the ground, like a filthy, primitive rat. Can't we get a joiner to make us a proper table? -->
+	<Mousekin_Thought_AteWithoutTable.stages.0.description>我像只肮脏的野老鼠，在地上用餐。我们不能找个木匠，给我们做一张桌子吗？ </Mousekin_Thought_AteWithoutTable.stages.0.description>
+
+	<!-- EN: attended wedding -->
+	<Mousekin_Thought_AttendedWedding.stages.0.label>参加婚礼</Mousekin_Thought_AttendedWedding.stages.0.label>
+
+	<!-- EN: May they grow the biggest and most beautiful garden together! -->
+	<Mousekin_Thought_AttendedWedding.stages.0.description>祝福他们一起种最大、最美丽的花园！ </Mousekin_Thought_AttendedWedding.stages.0.description>
+
+	<!-- EN: I butchered human corpse -->
+	<Mousekin_Thought_ButcheredHumanCorpse.stages.0.label>屠宰人类</Mousekin_Thought_ButcheredHumanCorpse.stages.0.label>
+
+	<!-- EN: Huh, these smoothskins have such strange bones and meat. -->
+	<Mousekin_Thought_ButcheredHumanCorpse.stages.0.description>咦，这些光皮族有这么奇怪的骨头和肉。</Mousekin_Thought_ButcheredHumanCorpse.stages.0.description>
+
+	<!-- EN: I butchered another Mousekin -->
+	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.label>屠宰白鼠族</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.label>
+
+	<!-- EN: I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>我像屠杀动物一样屠杀了我们的同胞。我永远进不了大花园啦！ </Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>
+
+	<!-- EN: colonist left unburied -->
+	<Mousekin_Thought_ColonistLeftUnburied.stages.0.label>有殖民者未安葬</Mousekin_Thought_ColonistLeftUnburied.stages.0.label>
+
+	<!-- EN: One of us died and we're just leaving them lying in the open. We should give them a proper burial, or their soul will never reach The Great Garden. -->
+	<Mousekin_Thought_ColonistLeftUnburied.stages.0.description>我们有同伴死了，我们却让他们曝尸荒野。死者们应该要有一个安葬，否则永远无法在大花园中安息。</Mousekin_Thought_ColonistLeftUnburied.stages.0.description>
+
+	<!-- EN: drank Chonko nut brew -->
+	<Mousekin_Thought_DrankChonkoNutBrew.stages.0.label>喝了充柯坚果咖啡</Mousekin_Thought_DrankChonkoNutBrew.stages.0.label>
+
+	<!-- EN: Mmm, delicious! I feel so much more awake already! -->
+	<Mousekin_Thought_DrankChonkoNutBrew.stages.0.description>嗯，好喝！我已经感觉清醒多了！ </Mousekin_Thought_DrankChonkoNutBrew.stages.0.description>
+
+	<!-- EN: fellow apostates -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.1.label>叛教者同胞</Mousekin_Thought_FaithAffinityOpinions.stages.1.label>
+
+	<!-- EN: apostate vs inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.4.label>叛教者vs审讯者</Mousekin_Thought_FaithAffinityOpinions.stages.4.label>
+
+	<!-- EN: devotionist vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.6.label>奉献者vs叛教者</Mousekin_Thought_FaithAffinityOpinions.stages.6.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.7.label>对大花园的共同信仰</Mousekin_Thought_FaithAffinityOpinions.stages.7.label>
+
+	<!-- EN: devotionist vs inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.9.label>奉献者vs审讯者</Mousekin_Thought_FaithAffinityOpinions.stages.9.label>
+
+	<!-- EN: pious vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.11.label>虔诚者vs叛教者</Mousekin_Thought_FaithAffinityOpinions.stages.11.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.12.label>对大花园的共同信仰</Mousekin_Thought_FaithAffinityOpinions.stages.12.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.13.label>对大花园的共同信仰</Mousekin_Thought_FaithAffinityOpinions.stages.13.label>
+
+	<!-- EN: cautious respect for inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.14.label>对审讯者的谨慎尊重</Mousekin_Thought_FaithAffinityOpinions.stages.14.label>
+
+	<!-- EN: inquisitionist vs non-pious -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.15.label>审讯者vs非虔诚者</Mousekin_Thought_FaithAffinityOpinions.stages.15.label>
+
+	<!-- EN: inquisitionist vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.16.label>审讯者vs叛教者</Mousekin_Thought_FaithAffinityOpinions.stages.16.label>
+
+	<!-- EN: inquisitionist vs devotionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.17.label>审讯者vs奉献者</Mousekin_Thought_FaithAffinityOpinions.stages.17.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.18.label>对大花园的共同信仰</Mousekin_Thought_FaithAffinityOpinions.stages.18.label>
+
+	<!-- EN: shared zealotry in the Inquisition -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.19.label>对宗教裁判所的共同狂热</Mousekin_Thought_FaithAffinityOpinions.stages.19.label>
+
+	<!-- EN: got married to {0} -->
+	<Mousekin_Thought_GotMarried.stages.0.label>与{0}结婚</Mousekin_Thought_GotMarried.stages.0.label>
+
+	<!-- EN: I got married! May we grow the biggest and most beautiful garden together! -->
+	<Mousekin_Thought_GotMarried.stages.0.description>我结婚了！愿我们一起种最大、最美丽的花园！ </Mousekin_Thought_GotMarried.stages.0.description>
+
+	<!-- EN: buried in sarcophagus -->
+	<Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.label>妥善安葬</Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.label>
+
+	<!-- EN: We buried someone in an ornamented sarcophagus. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.description>这位居民被某些人安葬在棺材里。愿他们的灵魂在大花园中永远安息。</Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.description>
+
+	<!-- EN: we butchered human corpse -->
+	<Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.label>我们屠宰人类</Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.label>
+
+	<!-- EN: We butchered up a smoothskin. Apparently, they have really tiny ears, stiff ribs and long leg bones. How do they hear anything, squeeze through small gaps, and not fall over all the time? -->
+	<Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.description>我们屠宰了光皮族。他们的耳朵很小，肋骨很硬，腿骨很长。他们怎么听得到任何声音，挤过小缝隙，而不是一直摔倒呢？ </Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.description>
+
+	<!-- EN: we butchered another Mousekin -->
+	<Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.label>我们屠宰白鼠族</Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.label>
+
+	<!-- EN: We butchered up one of our brethren like an animal. Now we'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.description>我们像屠杀动物一样屠杀了我们的同胞。我们永远进不了大花园啦！ </Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.description>
+
+	<!-- EN: colonist died -->
+	<Mousekin_Thought_KnowColonistDied.stages.0.label>有殖民者死亡</Mousekin_Thought_KnowColonistDied.stages.0.label>
+
+	<!-- EN: May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistDied.stages.0.description>愿他们的灵魂在大花园中永远安息。</Mousekin_Thought_KnowColonistDied.stages.0.description>
+
+	<!-- EN: justified execution of colonist -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.0.label>有殖民者被处决</Mousekin_Thought_KnowColonistExecuted.stages.0.label>
+
+	<!-- EN: A guilty colonist was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.0.description>有犯罪的殖民者被处决了。愿智者缬草仁慈地赐予他们在大花园中的一席之地。</Mousekin_Thought_KnowColonistExecuted.stages.0.description>
+
+	<!-- EN: colonist euthanized -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.1.label>有殖民者被安乐死</Mousekin_Thought_KnowColonistExecuted.stages.1.label>
+
+	<!-- EN: A colonist was euthanized. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.1.description>有殖民者被安乐死了。愿他们的灵魂在大花园中永远安息。</Mousekin_Thought_KnowColonistExecuted.stages.1.description>
+
+	<!-- EN: colonist executed -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.2.label>有殖民者被处决</Mousekin_Thought_KnowColonistExecuted.stages.2.label>
+
+	<!-- EN: A colonist was killed in cold blood. Their blood is on our paws. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.2.description>有殖民者被冷血的处决了。我们的掌上沾满了他的血。</Mousekin_Thought_KnowColonistExecuted.stages.2.description>
+
+	<!-- EN: colonist organ-harvested -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.3.label>有殖民者被摘除器官</Mousekin_Thought_KnowColonistExecuted.stages.3.label>
+
+	<!-- EN: A colonist died because we cut them up for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.3.description>有殖民者因器官被摘除而死亡。我们的灵魂将被诅咒到荒原！ </Mousekin_Thought_KnowColonistExecuted.stages.3.description>
+
+	<!-- EN: colonist's organ harvested -->
+	<Mousekin_Thought_KnowColonistOrganHarvested.stages.0.label>居民的器官被摘除</Mousekin_Thought_KnowColonistOrganHarvested.stages.0.label>
+
+	<!-- EN: We cut up one of our own for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowColonistOrganHarvested.stages.0.description>我们摘除了同胞的身体器官。我们的灵魂将被诅咒到荒原！ </Mousekin_Thought_KnowColonistOrganHarvested.stages.0.description>
+
+	<!-- EN: justified execution -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.0.label>正义制裁</Mousekin_Thought_KnowGuestExecuted.stages.0.label>
+
+	<!-- EN: A guilty prisoner or guest was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.0.description>有犯罪的俘虏或是访客被处决了。愿智者缬草仁慈地赐予他们在大花园中的一席之地。</Mousekin_Thought_KnowGuestExecuted.stages.0.description>
+
+	<!-- EN: someone was euthanized -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.1.label>有人被安乐死</Mousekin_Thought_KnowGuestExecuted.stages.1.label>
+
+	<!-- EN: A prisoner or guest was euthanized. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.1.description>有俘虏或是访客被安乐死了。愿他们的灵魂在大花园中永远安息。</Mousekin_Thought_KnowGuestExecuted.stages.1.description>
+
+	<!-- EN: someone was executed -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.2.label>有人被处决</Mousekin_Thought_KnowGuestExecuted.stages.2.label>
+
+	<!-- EN: A prisoner or guest was killed in cold blood. Their blood is on our paws. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.2.description>有俘虏或是访客被冷血地处决了。我们的掌上沾满了他的血。</Mousekin_Thought_KnowGuestExecuted.stages.2.description>
+
+	<!-- EN: someone was organ-murdered -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.3.label>有人因器官被摘除而死亡</Mousekin_Thought_KnowGuestExecuted.stages.3.label>
+
+	<!-- EN: A prisoner or guest died because we cut them up for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.3.description>有俘虏或是访客因器官被摘除而死亡了。我们的灵魂将被诅咒到荒原！ </Mousekin_Thought_KnowGuestExecuted.stages.3.description>
+
+	<!-- EN: someone's organ harvested -->
+	<Mousekin_Thought_KnowGuestOrganHarvested.stages.0.label>有人的器官被摘除</Mousekin_Thought_KnowGuestOrganHarvested.stages.0.label>
+
+	<!-- EN: We cut up a guest or prisoner for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowGuestOrganHarvested.stages.0.description>我们摘除了访客或俘虏的身体器官。我们的灵魂将被诅咒到荒原！ </Mousekin_Thought_KnowGuestOrganHarvested.stages.0.description>
+
+	<!-- EN: One prosthetic ear -->
+	<Mousekin_Thought_MissingEars.stages.0.label>一只假耳</Mousekin_Thought_MissingEars.stages.0.label>
+
+	<!-- EN: I had to get my missing ear replaced with a cloth prosthetic. I hope nobody else notices. -->
+	<Mousekin_Thought_MissingEars.stages.0.description>我得用布制假耳代替缺失的耳朵，希望没人注意。</Mousekin_Thought_MissingEars.stages.0.description>
+
+	<!-- EN: Two prosthetic ears -->
+	<Mousekin_Thought_MissingEars.stages.1.label>双只假耳</Mousekin_Thought_MissingEars.stages.1.label>
+
+	<!-- EN: I had to get both my missing ears replaced with cloth prosthetics. I hope nobody else notices. -->
+	<Mousekin_Thought_MissingEars.stages.1.description>我得用布制假耳代替缺失的两只耳朵，希望没人注意。</Mousekin_Thought_MissingEars.stages.1.description>
+
+	<!-- EN: One ear missing -->
+	<Mousekin_Thought_MissingEars.stages.2.label>缺失一耳</Mousekin_Thought_MissingEars.stages.2.label>
+
+	<!-- EN: I've lost one of my ears. This is humiliating! -->
+	<Mousekin_Thought_MissingEars.stages.2.description>我失去了一只耳朵。这太丢人了！ </Mousekin_Thought_MissingEars.stages.2.description>
+
+	<!-- EN: One prosthetic and one missing ear -->
+	<Mousekin_Thought_MissingEars.stages.3.label>一只假耳、缺失一耳</Mousekin_Thought_MissingEars.stages.3.label>
+
+	<!-- EN: I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating! -->
+	<Mousekin_Thought_MissingEars.stages.3.description>我失去了双耳，但只有一只有布制假耳代替。这太丢人了！ </Mousekin_Thought_MissingEars.stages.3.description>
+
+	<!-- EN: Both ears missing -->
+	<Mousekin_Thought_MissingEars.stages.4.label>缺失双耳</Mousekin_Thought_MissingEars.stages.4.label>
+
+	<!-- EN: I've lost both my ears! I'd rather die than live with this humiliation! -->
+	<Mousekin_Thought_MissingEars.stages.4.description>我失去了我的双耳！宁可死，也不能受此屈辱！ </Mousekin_Thought_MissingEars.stages.4.description>
+
+	<!-- EN: my aunt {0} died -->
+	<Mousekin_Thought_MyAuntDied.stages.0.label>我的阿姨{0}去世</Mousekin_Thought_MyAuntDied.stages.0.label>
+
+	<!-- EN: My aunt died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyAuntDied.stages.0.description>我的阿姨去世了。愿她的灵魂在大花园中永远安息。</Mousekin_Thought_MyAuntDied.stages.0.description>
+
+	<!-- EN: my brother {0} died -->
+	<Mousekin_Thought_MyBrotherDied.stages.0.label>我的兄弟{0}去世</Mousekin_Thought_MyBrotherDied.stages.0.label>
+
+	<!-- EN: My brother died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyBrotherDied.stages.0.description>我的兄弟去世了。愿他的灵魂在大花园中永远安息。</Mousekin_Thought_MyBrotherDied.stages.0.description>
+
+	<!-- EN: my cousin {0} died -->
+	<Mousekin_Thought_MyCousinDied.stages.0.label>我的堂表兄弟{0}去世了</Mousekin_Thought_MyCousinDied.stages.0.label>
+
+	<!-- EN: My cousin died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyCousinDied.stages.0.description>我的堂(表)兄弟去世了。愿他的灵魂在大花园中永远安息。</Mousekin_Thought_MyCousinDied.stages.0.description>
+
+	<!-- EN: my daughter {0} died -->
+	<Mousekin_Thought_MyDaughterDied.stages.0.label>我的女儿{0}去世了</Mousekin_Thought_MyDaughterDied.stages.0.label>
+
+	<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+	<Mousekin_Thought_MyDaughterDied.stages.0.description>我可怜的宝贝！我当时应该更好地照顾你！ </Mousekin_Thought_MyDaughterDied.stages.0.description>
+
+	<!-- EN: my father {0} died -->
+	<Mousekin_Thought_MyFatherDied.stages.0.label>我的父亲{0}去世了</Mousekin_Thought_MyFatherDied.stages.0.label>
+
+	<!-- EN: My father died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyFatherDied.stages.0.description>我的父亲去世了。愿他的灵魂在大花园中永远安息。</Mousekin_Thought_MyFatherDied.stages.0.description>
+
+	<!-- EN: my fiance {0} died -->
+	<Mousekin_Thought_MyFianceDied.stages.0.label>我的未婚夫{0}去世了</Mousekin_Thought_MyFianceDied.stages.0.label>
+
+	<!-- EN: My fiance died. We promised we'd grow our garden together! -->
+	<Mousekin_Thought_MyFianceDied.stages.0.description>我的未婚夫去世了。当时说好要一起种花园的，呜！ </Mousekin_Thought_MyFianceDied.stages.0.description>
+
+	<!-- EN: my fiancée {0} died -->
+	<Mousekin_Thought_MyFianceeDied.stages.0.label>我的未婚妻{0}去世了</Mousekin_Thought_MyFianceeDied.stages.0.label>
+
+	<!-- EN: My fiancée died. We promised we'd grow our garden together! -->
+	<Mousekin_Thought_MyFianceeDied.stages.0.description>我的未婚妻去世了。当时说好要一起种花园的，呜！ </Mousekin_Thought_MyFianceeDied.stages.0.description>
+
+	<!-- EN: my grandchild {0} died -->
+	<Mousekin_Thought_MyGrandchildDied.stages.0.label>我的孙子女{0}去世了</Mousekin_Thought_MyGrandchildDied.stages.0.label>
+
+	<!-- EN: My grandchild died. Our family's future, taken away from us forever... -->
+	<Mousekin_Thought_MyGrandchildDied.stages.0.description>我的孙子女去世了。我们家族的未来，永远地从我们身边夺走了…</Mousekin_Thought_MyGrandchildDied.stages.0.description>
+
+	<!-- EN: my grandparent {0} died -->
+	<Mousekin_Thought_MyGrandparentDied.stages.0.label>我的祖父母{0}去世了</Mousekin_Thought_MyGrandparentDied.stages.0.label>
+
+	<!-- EN: My grandparent died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyGrandparentDied.stages.0.description>我的祖父母去世了。</Mousekin_Thought_MyGrandparentDied.stages.0.description>
+
+	<!-- EN: my half-sibling {0} died -->
+	<Mousekin_Thought_MyHalfSiblingDied.stages.0.label>我的远亲{0}去世了</Mousekin_Thought_MyHalfSiblingDied.stages.0.label>
+
+	<!-- EN: My half-sibling died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyHalfSiblingDied.stages.0.description>我的远亲去世了。愿他的灵魂在大花园中永远安息。</Mousekin_Thought_MyHalfSiblingDied.stages.0.description>
+
+	<!-- EN: my husband {0} died -->
+	<Mousekin_Thought_MyHusbandDied.stages.0.label>我的丈夫{0}去世了</Mousekin_Thought_MyHusbandDied.stages.0.label>
+
+	<!-- EN: My husband is dead. May we be reunited in The Great Garden someday. -->
+	<Mousekin_Thought_MyHusbandDied.stages.0.description>我的丈夫去世了。愿我们有一天能在大花园重逢。</Mousekin_Thought_MyHusbandDied.stages.0.description>
+
+	<!-- EN: my kin {0} died -->
+	<Mousekin_Thought_MyKinDied.stages.0.label>我的亲戚{0}去世了</Mousekin_Thought_MyKinDied.stages.0.label>
+
+	<!-- EN: My kin died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyKinDied.stages.0.description>我的亲戚去世了。愿他的灵魂在大花园中永远安息。</Mousekin_Thought_MyKinDied.stages.0.description>
+
+<!-- EN: my mother {0} died -->
+	<Mousekin_Thought_MyMotherDied.stages.0.label>我的母亲{0}去世了</Mousekin_Thought_MyMotherDied.stages.0.label>
+
+	<!-- EN: My mother died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyMotherDied.stages.0.description>我的母亲去世了。愿她的灵魂在大花园中永远安息。</Mousekin_Thought_MyMotherDied.stages.0.description>
+
+	<!-- EN: my niece {0} died -->
+	<Mousekin_Thought_MyNieceDied.stages.0.label>我的姪女{0}去世了</Mousekin_Thought_MyNieceDied.stages.0.label>
+
+	<!-- EN: My niece died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyNieceDied.stages.0.description>我的姪女去世了。愿她的灵魂在大花园中永远安息。</Mousekin_Thought_MyNieceDied.stages.0.description>
+
+	<!-- EN: my nephew {0} died -->
+	<Mousekin_Thought_MyNephewDied.stages.0.label>我的姪子{0}去世了</Mousekin_Thought_MyNephewDied.stages.0.label>
+
+	<!-- EN: My nephew died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyNephewDied.stages.0.description>我的姪子去世了。愿他的灵魂在大花园中永远安息。</Mousekin_Thought_MyNephewDied.stages.0.description>
+
+	<!-- EN: my organ harvested -->
+	<Mousekin_Thought_MyOrganHarvested.stages.0.label>器官被摘除了</Mousekin_Thought_MyOrganHarvested.stages.0.label>
+
+	<!-- EN: The colony's cutting me up for parts! Damn you all to The Wasteland! -->
+	<Mousekin_Thought_MyOrganHarvested.stages.0.description>有居民摘除了我的身体器官！该死的你们都去荒原！ </Mousekin_Thought_MyOrganHarvested.stages.0.description>
+
+	<!-- EN: my sister {0} died -->
+	<Mousekin_Thought_MySisterDied.stages.0.label>我的姊妹{0}去世了</Mousekin_Thought_MySisterDied.stages.0.label>
+
+	<!-- EN: My sister died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MySisterDied.stages.0.description>我的姊妹去世了。愿她的灵魂在大花园中永远安息。</Mousekin_Thought_MySisterDied.stages.0.description>
+
+	<!-- EN: my son {0} died -->
+	<Mousekin_Thought_MySonDied.stages.0.label>我的儿子{0}去世了</Mousekin_Thought_MySonDied.stages.0.label>
+
+	<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+	<Mousekin_Thought_MySonDied.stages.0.description>我可怜的宝贝！我当时应该更好地照顾你！ </Mousekin_Thought_MySonDied.stages.0.description>
+
+	<!-- EN: my uncle {0} died -->
+	<Mousekin_Thought_MyUncleDied.stages.0.label>我的叔叔{0}去世了</Mousekin_Thought_MyUncleDied.stages.0.label>
+
+	<!-- EN: My uncle died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyUncleDied.stages.0.description>我的叔叔去世了。愿他的灵魂在大花园中永远安息。</Mousekin_Thought_MyUncleDied.stages.0.description>
+
+	<!-- EN: my wife {0} died -->
+	<Mousekin_Thought_MyWifeDied.stages.0.label>我的妻子{0}去世了</Mousekin_Thought_MyWifeDied.stages.0.label>
+
+	<!-- EN: My wife is dead. May we be reunited in The Great Garden someday. -->
+	<Mousekin_Thought_MyWifeDied.stages.0.description>我的妻子去世了。愿我们有一天能在大花园重逢。</Mousekin_Thought_MyWifeDied.stages.0.description>
+
+	<!-- EN: cramped interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.0.label>狭窄的室内</Mousekin_Thought_NeedRoomSize.stages.0.label>
+
+	<!-- EN: Squeak, somebody let me out of here! -->
+	<Mousekin_Thought_NeedRoomSize.stages.0.description>吱吱，有人快放我出去！ </Mousekin_Thought_NeedRoomSize.stages.0.description>
+
+	<!-- EN: cosy interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.1.label>舒适的室内</Mousekin_Thought_NeedRoomSize.stages.1.label>
+
+	<!-- EN: Nice and cosy, snug as a burrow! -->
+	<Mousekin_Thought_NeedRoomSize.stages.1.description>像洞穴一样舒适！ </Mousekin_Thought_NeedRoomSize.stages.1.description>
+
+	<!-- EN: spacious interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.2.label>宽敞的室内</Mousekin_Thought_NeedRoomSize.stages.2.label>
+
+	<!-- EN: So much space, we can hold a town meeting in here! -->
+	<Mousekin_Thought_NeedRoomSize.stages.2.description>这么大的空间，可以在这里开镇会！ </Mousekin_Thought_NeedRoomSize.stages.2.description>
+
+	<!-- EN: body defiled by prosthetics -->
+	<Mousekin_Thought_OtherMousekinHasProstheticOpinions.stages.0.label>身体被义体玷污</Mousekin_Thought_OtherMousekinHasProstheticOpinions.stages.0.label>
+
+	<!-- EN: my rival {0} died -->
+	<Mousekin_Thought_PawnWithBadOpinionDied.stages.0.label>我的死对头{0}死了</Mousekin_Thought_PawnWithBadOpinionDied.stages.0.label>
+
+	<!-- EN: Serves them right. May they rot in The Wasteland forever! -->
+	<Mousekin_Thought_PawnWithBadOpinionDied.stages.0.description>活该！愿他们永远在荒原腐烂！ </Mousekin_Thought_PawnWithBadOpinionDied.stages.0.description>
+
+	<!-- EN: my rival {0} lost -->
+	<Mousekin_Thought_PawnWithBadOpinionLost.stages.0.label>仇人{0}失踪了</Mousekin_Thought_PawnWithBadOpinionLost.stages.0.label>
+
+	<!-- EN: Serves them right. I hope they never come back, and wander in The Wasteland forever! -->
+	<Mousekin_Thought_PawnWithBadOpinionLost.stages.0.description>活该！希望他们永远不要回来，永远在荒原流浪！ </Mousekin_Thought_PawnWithBadOpinionLost.stages.0.description>
+
+	<!-- EN: my friend {0} died -->
+	<Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.label>我的朋友{0}去世了</Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.label>
+
+	<!-- EN: Such a wonderful person. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.description>如此美好的人，愿他们的灵魂在大花园中永远安息。</Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.description>
+
+	<!-- EN: my friend {0} lost -->
+	<Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.label>朋友{0}失踪</Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.label>
+
+	<!-- EN: Such a wonderful person, lost. I hope they will get back to us someday. -->
+	<Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.description>如此美好的人，离我们而去。希望他们有一天会回到我们身边。</Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.description>
+
+	<!-- EN: prisoner released -->
+	<Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.label>俘虏被释放</Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.label>
+
+	<!-- EN: We released a healthy prisoner. Valerian the Wise would be proud we followed his teachings of mercy. -->
+	<Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.description>我们释放了一位健康的俘虏。智者缬草会为我们遵循他的仁慈教义而感到自豪。</Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.description>
+
+	<!-- EN: devout with prosthetic -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.label>虔诚者有义体</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.label>
+
+	<!-- EN: I hate having this unnatural thing attached to me. It goes against my faith. -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.description>我讨厌让这种不自然的东西依附在我身上。这违背了我的信仰。</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.description>
+
+	<!-- EN: devout with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.label>虔诚者有{0}个义体</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.label>
+
+	<!-- EN: These artificial parts are violating the sanctity of my body! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.description>这些人造器官侵犯了我身体的神圣性！ </Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.description>
+
+	<!-- EN: devout with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.label>虔诚者有{0}个义体</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.label>
+
+	<!-- EN: My flesh has been defiled by all these artificial parts! Now I'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.description>我的肉体已经被这些人造器官玷污了！我永远进不了大花园啦！ </Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.description>
+
+	<!-- EN: inquisitionist with prosthetic -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.label>审讯者有义体</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.label>
+
+	<!-- EN: This witchcraft taints my body! Get it off me! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.description>这个巫术污染了我的身体！把它从我身上拿开！ </Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.description>
+
+	<!-- EN: inquisitionist with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.label>审讯者有{0}个义体</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.label>
+
+	<!-- EN: More witchcraft, polluting my pure, natural flesh! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.description>更多的巫术，污染了我纯洁的肉体！ </Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.description>
+
+	<!-- EN: inquisitionist with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.label>审讯者有{0}个义体</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.label>
+
+	<!-- EN: My flesh has been defiled by all this witchcraft! I'm no better than those heretics! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.description>我的肉体已经被这一切巫术玷污了！我和那些异教徒没两样！ </Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.description>
+
+	<!-- EN: saw a Pudgemouse -->
+	<Mousekin_Thought_SawNearbyPudgemouse.stages.0.label>看到一只胖胖鼠</Mousekin_Thought_SawNearbyPudgemouse.stages.0.label>
+
+	<!-- EN: Squeak! Pudgemice are the best! -->
+	<Mousekin_Thought_SawNearbyPudgemouse.stages.0.description>吱！胖胖鼠最可爱了！ </Mousekin_Thought_SawNearbyPudgemouse.stages.0.description>
+
+	<!-- EN: slept in the cold -->
+	<Mousekin_Thought_SleptInCold.stages.0.label>睡在寒冷的地方</Mousekin_Thought_SleptInCold.stages.0.label>
+
+	<!-- EN: I had to sleep in the cold. We should get a fireplace going. -->
+	<Mousekin_Thought_SleptInCold.stages.0.description>我睡在寒冷的地方。我们应该在壁炉里生个火。</Mousekin_Thought_SleptInCold.stages.0.description>
+
+	<!-- EN: slept in the heat -->
+	<Mousekin_Thought_SleptInHeat.stages.0.label>睡在炎热的地方</Mousekin_Thought_SleptInHeat.stages.0.label>
+
+	<!-- EN: I had to sleep in unbearable heat. Can't we have some ventilation around here? -->
+	<Mousekin_Thought_SleptInHeat.stages.0.description>我睡在炎热的地方。我们不能通风一下吗？ </Mousekin_Thought_SleptInHeat.stages.0.description>
+
+	<!-- EN: slept on ground -->
+	<Mousekin_Thought_SleptOnGround.stages.0.label>睡在地上</Mousekin_Thought_SleptOnGround.stages.0.label>
+
+	<!-- EN: I had to sleep on the ground like a filthy, primitive rat. -->
+	<Mousekin_Thought_SleptOnGround.stages.0.description>我像只肮脏的野老鼠般地睡在地上。</Mousekin_Thought_SleptOnGround.stages.0.description>
+
+	<!-- EN: slept outside -->
+	<Mousekin_Thought_SleptOutside.stages.0.label>睡在外面</Mousekin_Thought_SleptOutside.stages.0.label>
+
+	<!-- EN: I had to sleep outdoors without any protection from the elements, like a filthy, primitive rat. -->
+	<Mousekin_Thought_SleptOutside.stages.0.description>>我像只肮脏的野老鼠睡在外面，没有东西能够保护我。</Mousekin_Thought_SleptOutside.stages.0.description>
+
+	<!-- EN: wearing Mousekin fur apparel -->
+	<Mousekin_Thought_WearingMousekinFurApparel.stages.0.label>穿着白鼠族毛皮服装</Mousekin_Thought_WearingMousekinFurApparel.stages.0.label>
+
+	<!-- EN: I'm wearing clothes made from the fur of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_WearingMousekinFurApparel.stages.0.description>我穿着用我同胞的毛皮做的衣服！智者缬草啊，请原谅我犯下的罪孽吧！ </Mousekin_Thought_WearingMousekinFurApparel.stages.0.description>
+
+	<!-- EN: wearing Pudgemouse fur apparel -->
+	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.label>穿着胖胖鼠毛皮服装</Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.label>
+
+	<!-- EN: I'm wearing clothes made from the fur of a pudgemouse. That poor innocent creature didn't deserve this! -->
+	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>我穿着用一只胖胖鼠的毛皮做的衣服！可怜的无辜的生物，不应该是这种下场！ </Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>
+	
+</LanguageData>

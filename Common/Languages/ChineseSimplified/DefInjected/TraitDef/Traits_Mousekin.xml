@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: apostate -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.0.label>叛教</Mousekin_TraitSpectrum_Faith.degreeDatas.0.label>
+
+	<!-- EN: [PAWN_nameDef] prefers to focus on living [PAWN_possessive] life to the fullest, rather than strictly obeying religious doctrine.\n\nAs such, [PAWN_pronoun] is more scientifically- and technically-minded compared with other Mousekins. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.0.description>[PAWN_nameDef]宁愿专注于充实的生活，也不愿严格遵守宗教教义。\n\n因此，与其他白鼠族相比，[PAWN_pronoun]更具科学和技术头脑。</Mousekin_TraitSpectrum_Faith.degreeDatas.0.description>
+
+	<!-- EN: devotionist -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.1.label>奉献</Mousekin_TraitSpectrum_Faith.degreeDatas.1.label>
+
+	<!-- EN: [PAWN_nameDef] is a member of a splinter sect of Mousekins that seek to follow the spirit of Valerian the Wise's original teachings, rather than the official interpretation espoused by the Mousekin Church. [PAWN_pronoun] has a closer affinity to nature, is more adept at working with plants and has increased sensitivity to psychic phenomena, but is also less susceptible to mental breaks. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.1.description>[PAWN_nameDef]是白鼠族的一个分支教派的成员，该教派寻求遵循智者缠草最初教义的精神，而不是白鼠教会的官方解释。[PAWN_pronoun]对自然的亲近度更高，更擅长与植物打交道，对灵异现象的敏感度更高，但也更不容易精神崩溃。</Mousekin_TraitSpectrum_Faith.degreeDatas.1.description>
+
+	<!-- EN: pious -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.2.label>虔诚</Mousekin_TraitSpectrum_Faith.degreeDatas.2.label>
+
+	<!-- EN: [PAWN_nameDef] is a pious follower of the teachings of Valerian the Wise, and believes that industrious Mousekins who perform good deeds and respect the sanctity of their bodies will be rewarded with a peaceful afterlife in The Great Garden. \n\n[PAWN_pronoun] will work harder than most of [PAWN_possessive] fellow Mousekins, and press on even under the greatest of hardships. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.2.description>[PAWN_nameDef]是智者缠草教义的虔诚追随者，相信勤劳的白鼠族只要做好事并尊重自己身体的神圣性，就会在大花园中获得平静的来世。\n\n[PAWN_pronoun]会比大多数的白鼠族同胞更加努力，即使在最艰难的情况下也会继续前进。</Mousekin_TraitSpectrum_Faith.degreeDatas.2.description>
+	
+	<!-- EN: inquisitionist -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.3.label>审讯</Mousekin_TraitSpectrum_Faith.degreeDatas.3.label>
+
+	<!-- EN: [PAWN_nameDef] believes in the absolute truth and power of The Inquisition, which declares that anyone who strays from the Mousekin Church and the teachings of Valerian the Wise are irredeemable heretics and enemies of all Mousekins - including Apostates, Devotionists and even other non-Mousekin rodentlike races.\n\n[PAWN_pronoun] is better at capturing prisoners and is less susceptible to psychic phenomena, but [PAWN_possessive] religious zealotry greatly impairs [PAWN_possessive] ability to understand technical and scientific matters beyond what is permitted by church doctrine. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.3.description>[PAWN_nameDef]相信宗教裁判所的绝对真理和力量，它宣称任何偏离白鼠教会和智者缠草教义的人都是不可救药的异教徒和所有白鼠族的敌人——包括叛教者、奉献者、甚至其他非白鼠族的鼠族种族。\n\n[PAWN_pronoun]擅长俘虏，也不易受灵异现象影响，但[PAWN_possessive]宗教狂热极大地削弱了他理解超出教会允许的技术和科学的能力。</Mousekin_TraitSpectrum_Faith.degreeDatas.3.description>
+	
+</LanguageData>

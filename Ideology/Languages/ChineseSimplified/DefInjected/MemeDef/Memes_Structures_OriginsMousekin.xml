@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin origin -->
+	<Structure_OriginMousekin.label>白鼠族教起源</Structure_OriginMousekin.label>
+
+	<!-- EN: This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins. -->
+	<Structure_OriginMousekin.description>抽象一神论架构的一个变体，这个信仰表面上类似于古代基督教，但在数千年前由智者缍草首先向他的原始白鼠族同胞传播的教义独立演变而来。</Structure_OriginMousekin.description>
+
+	<!-- EN: memeMoralist->Mousekin Pope -->
+	<Structure_OriginMousekin.generalRules.rulesStrings.0>memeMoralist->白鼠族教宗</Structure_OriginMousekin.generalRules.rulesStrings.0>
+	
+	<!-- EN: memeAdjective-> (leave blank) -->
+	<Structure_OriginMousekin.generalRules.rulesStrings.1>memeAdjective-> </Structure_OriginMousekin.generalRules.rulesStrings.1>
+
+	<!-- EN: Mousekin -->
+	<Structure_OriginMousekin.symbolPacks.0.adjective>白鼠族教的</Structure_OriginMousekin.symbolPacks.0.adjective>
+	
+	<!-- EN: Christianity -->
+	<Structure_OriginMousekin.symbolPacks.0.ideoName>基督教</Structure_OriginMousekin.symbolPacks.0.ideoName>
+	
+	<!-- EN: Christian -->
+	<Structure_OriginMousekin.symbolPacks.0.member>基督教徒</Structure_OriginMousekin.symbolPacks.0.member>
+	
+	<!-- EN: church -->
+	<Structure_OriginMousekin.worshipRoomLabel>教堂</Structure_OriginMousekin.worshipRoomLabel>
+	
+</LanguageData>

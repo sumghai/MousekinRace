@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>		<!-- EN: Mousekin Cast-Iron Stove -->
+	<Mousekin_CastIronStove.label>白鼠族铸铁炉</Mousekin_CastIronStove.label>
+	
+	<!-- EN: A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals. -->
+	<Mousekin_CastIronStove.description>一种带有多个热板和双烤箱的重型铸铁炉，用于准备复杂的料理。</Mousekin_CastIronStove.description>
+	
+	<!-- EN: Mousekin alchemy bench -->
+	<Mousekin_WorkbenchAlchemy.label>白鼠族炼金桌</Mousekin_WorkbenchAlchemy.label>
+	
+	<!-- EN: A workbench for concocting various Mousekin herbal poultices, potions and explosives. -->
+	<Mousekin_WorkbenchAlchemy.description>一种配制各种白鼠族药膏、药剂和炸药的工作桌。</Mousekin_WorkbenchAlchemy.description>
+	
+	<!-- EN: Mousekin brewery -->
+	<Mousekin_WorkbenchBrewery.label>白鼠族酿酒桌</Mousekin_WorkbenchBrewery.label>
+	
+	<!-- EN: A workbench for preparing musts used in the fermentation of various Mousekin alcoholic beverages. -->
+	<Mousekin_WorkbenchBrewery.description>一种配制各种白鼠族酒类原麦汁的工作桌。</Mousekin_WorkbenchBrewery.description>
+	
+	<!-- EN: Mousekin butcher table -->
+	<Mousekin_WorkbenchButcher.label>白鼠族屠宰桌</Mousekin_WorkbenchButcher.label>
+	
+	<!-- EN: A workbench with a sturdy countertop used for butchering dead creatures into pieces of raw meat. -->
+	<Mousekin_WorkbenchButcher.description>一种将死亡生物屠宰成肉块的工作桌，具有坚固的台面。</Mousekin_WorkbenchButcher.description>
+	
+	<!-- EN: Mousekin crafting bench -->
+	<Mousekin_WorkbenchCrafting.label>白鼠族工艺桌</Mousekin_WorkbenchCrafting.label>
+	
+	<!-- EN: A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting stone blocks and carving sculptures. -->
+	<Mousekin_WorkbenchCrafting.description>一种用于制作各种物品的工作桌，从发条装置和眼镜到木槌和橡子手榴弹，以及切割石块和雕刻雕塑。</Mousekin_WorkbenchCrafting.description>
+	
+	<!-- EN: Mousekin smithy -->
+	<Mousekin_WorkbenchSmithy.label>白鼠族锻炉</Mousekin_WorkbenchSmithy.label>
+	
+	<!-- EN: A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty. -->
+	<Mousekin_WorkbenchSmithy.description>一种烧木头的锻炉、铁砧和淬火桶，用于锻造各种白鼠族武器、工具和板甲。在户外使用不会受到工作速度惩罚。</Mousekin_WorkbenchSmithy.description>
+	
+	<!-- EN: Mousekin seamstress bench -->
+	<Mousekin_WorkbenchTailor.label>白鼠族裁缝桌</Mousekin_WorkbenchTailor.label>
+	
+	<!-- EN: A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing. -->
+	<Mousekin_WorkbenchTailor.description>一种带有铸铁脚踏缝纫机的工作台，用于缝制白鼠族的衣服。</Mousekin_WorkbenchTailor.description>
+	
+	<!-- EN: Mousekin beehive -->
+	<Mousekin_Beehive.label>白鼠族蜂箱</Mousekin_Beehive.label>
+	
+	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. -->
+	<Mousekin_Beehive.description>一种用于饲养蜜蜂的木制蜂箱。由于白鼠族的独创性，育雏框架中的蜂窝细胞被设计成只需简单地拉动一个杠杆就可以裂开，这样就可以在不干扰蜜蜂的情况下轻松收获蜂蜜和蜂蜡。</Mousekin_Beehive.description>
+	
+	<!-- EN: Mousekin cheese press -->
+	<Mousekin_CheesePress.label>白鼠族芝士压榨机</Mousekin_CheesePress.label>
+	
+	<!-- EN: A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese. -->
+	<Mousekin_CheesePress.description>一种木制装置，用于将凝乳中的乳清压榨成三叶草伯里芝士。</Mousekin_CheesePress.description>
+	
+	<!-- EN: Mousekin fermenting barrel -->
+	<Mousekin_FermentingBarrel.label>白鼠族发酵桶</Mousekin_FermentingBarrel.label>
+	
+	<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
+	<Mousekin_FermentingBarrel.description>一种用于发酵各种白鼠族酒类的大桶。需要阴凉、黑暗的房间。</Mousekin_FermentingBarrel.description>
+	
+	<!-- EN: Mousekin research bench -->
+	<Mousekin_ResearchBench.label>白鼠族研究桌</Mousekin_ResearchBench.label>
+	
+	<!-- EN: A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things. -->
+	<Mousekin_ResearchBench.description>一种附有实验玻璃器皿、各种组件、简单测量工具、书写工具和参考书的工作桌。白鼠族研究人员在这里研究新的项目。</Mousekin_ResearchBench.description>
+	
+	<!-- EN: Mousekin windmill -->
+	<Mousekin_Windmill.label>白鼠族风车</Mousekin_Windmill.label>
+	
+	<!-- EN: A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water. -->
+	<Mousekin_Windmill.description>将风能转化为旋转能的木塔，用于将谷物磨成面粉，或抽水灌溉。非常缓慢地平衡附近地形的水分，将沼泽或浅水变成干燥的地面，将软沙变成普通沙子，将普通土壤变成肥沃、适合种植农作物和花园的土壤。不影响深水。</Mousekin_Windmill.description>	
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin -->
+	<Mousekin.label>白鼠族</Mousekin.label>
+
+	<!-- EN: Species: &lt;i&gt;Mus sapiens albus&lt;/i&gt; ("Wise white mouse")\n\nA race of small and agile anthropomorphic mice, readily identified by their large round ears, short-snouted faces, black beady eyes, pink noses, slight overbite, thin scaly tails and white fur.\n\nMousekin adult males can grow up to 100 centimeters tall, while females tend to reach 90 centimeters in height. They have a smaller head-to-body ratio compared with other humanoid races, resembling oversized toddlers with short legs and noticeable hind rumps.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single pup; twins, triplets and other multiple births are rare.\n\nVariations among individual Mousekin include different head hair color and lengths independent of their white body fur, as well as moustaches and other forms of facial hair for males.\n\nWhile the vast majority of humanoid rodent-like races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is generally understood that Mousekins are among the very few species that have evolved naturally from their non-sapient mouse ancestors.\n\nBarring accidents, injury or disease, a Mousekin’s average life expectancy is 90~100 years; their head hair turns fully grey by around 60 years of age, but no Mousekin will experience baldness. -->
+	<Mousekin.description>学名： &lt;i&gt;Mus sapiens albus&lt;/i&gt; ("智白鼠")\n\n一种小巧灵活的拟人化小鼠种族，拥有圆圆的大耳朵、短鼻子、黑色圆珠状眼睛、粉红色鼻子、轻微的咬合、薄鳞片尾巴和白色皮毛。\n\n成年男性白鼠族可以长到100厘米个子高，而女性的身高往往达到90厘米。与其他类人种族相比，他们的头身比例较小，类似于腿短且后臀部明显的超大幼儿。\n\n平均妊娠期与人类基线相似，怀孕后的母亲通常会生下一只白鼠族幼崽；双胞胎、三胞胎和其他多胞胎很少见。\n\n个人之间的差异包括不同的头发颜色和长度，与他们的白色体毛无关，以及男性的胡须和其他形式的面部毛发。\n\n虽然银河系中绝大多数类似啮齿类动物的类人种族都是千年前人类基因工程的产物，但人们普遍认为白鼠族是极少数从非智能小鼠自然进化而来的物种之一。\n\n排除意外、伤害或疾病，一只白鼠族的平均寿命为90~100岁；他们的头发在60岁左右完全变白，但没有白鼠族会出现秃顶。</Mousekin.description>
+
+	<!-- EN: left paw -->
+	<Mousekin.tools.0.label>左掌</Mousekin.tools.0.label>
+
+	<!-- EN: right paw -->
+	<Mousekin.tools.1.label>右掌</Mousekin.tools.1.label>
+
+	<!-- EN: teeth -->
+	<Mousekin.tools.2.label>牙齿</Mousekin.tools.2.label>
+	
+</LanguageData>

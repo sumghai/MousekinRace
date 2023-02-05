@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Hunter’s Crossbow -->
+	<Mousekin_RangedWeapon_Crossbow.label>白鼠族狩猎弩</Mousekin_RangedWeapon_Crossbow.label>
+	
+	<!-- EN: A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used for hunting or self-defense, firing one bolt at a time using fiber or sinew strings under tension, and comes with a miniature crank wheel to allow the relatively weak Mousekins to quickly and easily draw the bow after firing. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_Crossbow.description>一种远程武器，可以弹性地向远处的目标发射木弩箭。\n\n这种弩用于打猎或自卫，使用处于张力下的纤维或筋弦一次发射一个弩箭，并配有一个微型曲柄轮，让弱小的白鼠族射完后快速轻松地拉弓。它的手柄和扳机太小，因此人类无法使用。</Mousekin_RangedWeapon_Crossbow.description>
+	
+	<!-- EN: stirrup -->
+	<Mousekin_RangedWeapon_Crossbow.tools.0.label>踏镫</Mousekin_RangedWeapon_Crossbow.tools.0.label>
+	
+	<!-- EN: Mousekin Hunter’s Crossbow -->
+	<Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>白鼠族狩猎弩</Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>
+	
+	<!-- EN: Mousekin Automatic Crossbow -->
+	<Mousekin_RangedWeapon_CrossbowAuto.label>白鼠族自动弩</Mousekin_RangedWeapon_CrossbowAuto.label>
+	
+	<!-- EN: A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used in combat, firing multiple bolts in quick succession from a removable drum magazine using fiber or sinew strings under tension, and uses a wind-up spring mechanism to automatically reload and fire the next shot. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_CrossbowAuto.description>一种远程武器，可以弹性地向远处的目标发射木弩箭。\n\n这种弩用于战斗，使用处于张力下的纤维或筋弦从可拆卸的鼓弹匣中快速连续发射多支弩箭，并使用发条弹簧机制自动重新装弹并开下一枪。它的手柄和扳机太小，因此人类无法使用。</Mousekin_RangedWeapon_CrossbowAuto.description>
+	
+	<!-- EN: stirrup -->
+	<Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>踏镫</Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>
+	
+	<!-- EN: Mousekin Automatic Crossbow -->
+	<Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>白鼠族自动弩</Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>
+	
+	<!-- EN: Mousekin Musket -->
+	<Mousekin_RangedWeapon_MusketLong.label>白鼠族鸟铳</Mousekin_RangedWeapon_MusketLong.label>
+	
+	<!-- EN: A slow-firing firearm that propels small, smooth cast iron balls at distant targets, with a longer effective range and greater damage than crossbows. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_MusketLong.description>一种慢速射击的火器，可将小而光滑的铸铁球射向远处的目标，有效射程更远，伤害比弩更大。它的手柄和扳机太小，因此人类无法使用。</Mousekin_RangedWeapon_MusketLong.description>
+	
+	<!-- EN: stock -->
+	<Mousekin_RangedWeapon_MusketLong.tools.0.label>枪托</Mousekin_RangedWeapon_MusketLong.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Mousekin_RangedWeapon_MusketLong.tools.1.label>枪管</Mousekin_RangedWeapon_MusketLong.tools.1.label>
+	
+	<!-- EN: Mousekin Musket -->
+	<Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>白鼠族鸟铳</Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>
+	
+	<!-- EN: Mousekin Blunderbuss -->
+	<Mousekin_RangedWeapon_MusketShort.label>白鼠族雷筒</Mousekin_RangedWeapon_MusketShort.label>
+	
+	<!-- EN: A slow-firing firearm shorter than the regular Mousekin Musket, with a comparably shorter effective range but capable of great damage against armored targets. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_MusketShort.description>一种比普通白鼠族鸟铳短的慢射火器，有效射程相对较短，但能够对装甲目标造成巨大伤害。它的手柄和扳机太小，因此人类无法使用。</Mousekin_RangedWeapon_MusketShort.description>
+	
+	<!-- EN: stock -->
+	<Mousekin_RangedWeapon_MusketShort.tools.0.label>枪托</Mousekin_RangedWeapon_MusketShort.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Mousekin_RangedWeapon_MusketShort.tools.1.label>枪管</Mousekin_RangedWeapon_MusketShort.tools.1.label>
+	
+	<!-- EN: Mousekin Blunderbuss -->
+	<Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>白鼠族雷筒</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
+	
+</LanguageData>

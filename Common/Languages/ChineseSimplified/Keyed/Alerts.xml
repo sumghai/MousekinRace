@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Miserable Earless Mousekin -->
+	<AlertEarlessMousekinFeelingMiserableLabel>忧伤的无耳白鼠族</AlertEarlessMousekinFeelingMiserableLabel>
+
+	<!-- EN: These Mousekins have recently lost both of their ears to disease or injury, and are ashamed of their disfigurement:\n\n{0} -->
+	<AlertEarlessMousekinFeelingMiserableDesc>这些白鼠族最近因疾病或受伤失去了双耳，并为自己的毁容感到羞愧：\n\n{0}</AlertEarlessMousekinFeelingMiserableDesc>
+
+	<!-- EN: Suicidal Earless Mousekin -->
+	<AlertEarlessMousekinFeelingSuicidalLabel>自杀倾向的无耳白鼠族</AlertEarlessMousekinFeelingSuicidalLabel>
+
+	<!-- EN: These Mousekins are humiliated by their prolonged loss of of their ears to disease or injury, and have a very high risk of committing suicide from despair over the next few days:\n\n{0} -->
+	<AlertEarlessMousekinFeelingSuicidalDesc>这些白鼠族因长期因疾病或受伤而失去耳朵而感到羞辱，并且在接下来的几天里极有可能因绝望而自杀：\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
+
+	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
+	<AlertEarlessMousekinDescEnding>用布料制作一些假耳，或从其他白鼠族身上取得天生的耳朵。</AlertEarlessMousekinDescEnding>
+	
+</LanguageData>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: New Mousekin Settlers -->
+	<Mousekin_PlayerFaction_Settlers.label>白鼠族殖民地</Mousekin_PlayerFaction_Settlers.label>
+
+	<!-- EN:  newly-established hamlet of Mousekin settlers. -->
+	<Mousekin_PlayerFaction_Settlers.description>一个新建的白鼠族村庄。</Mousekin_PlayerFaction_Settlers.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Settlers.pawnSingular>白鼠族</Mousekin_PlayerFaction_Settlers.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_PlayerFaction_Settlers.pawnsPlural>白鼠族</Mousekin_PlayerFaction_Settlers.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Settlers.leaderTitle>首领</Mousekin_PlayerFaction_Settlers.leaderTitle>
+
+	<!-- EN: New Mousekin Refugees -->
+	<Mousekin_PlayerFaction_Refugees.label>白鼠族难民</Mousekin_PlayerFaction_Refugees.label>
+
+	<!-- EN: A group of Mousekin who have lost their home village to Grimalkin invaders. -->
+	<Mousekin_PlayerFaction_Refugees.description>一群因黑猫族民共和国侵略而失去家乡的白鼠族难民。</Mousekin_PlayerFaction_Refugees.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Refugees.pawnSingular>白鼠族</Mousekin_PlayerFaction_Refugees.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_PlayerFaction_Refugees.pawnsPlural>白鼠族</Mousekin_PlayerFaction_Refugees.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Refugees.leaderTitle>首领</Mousekin_PlayerFaction_Refugees.leaderTitle>
+
+	<!-- EN: Mousekin Kingdom -->
+	<Mousekin_FactionKingdom.label>白鼠族王国</Mousekin_FactionKingdom.label>
+
+	<!-- EN: A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified, patriarchal and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or persistent enemies if angered. -->
+	<Mousekin_FactionKingdom.description>一个君主制的白鼠族文明，主要从事农业、采矿和商业，具有中世纪晚期到工业化前的技术水平。\n\n这是一个高度分层、父权制和封建社会，皇室处于社会金字塔的顶端，其次是贵族和圣职者，骑士和花园卫女阶级，普通公民和商人，最底层是农民和劳工。\n\n虽然名义上由白鼠族国王统治，但真正的监督王国军事和国内事务的行政权掌握在一位经验最丰富、最侠义的白鼠族骑士长手中--所谓的护国主。\n\n由于经常被大多数非白鼠族类人生物看不起，他们通常对外来者保持警惕，但如果与他们结盟，他们会成为坚定、忠诚的朋友。相反，如果被激怒，他们可成为顽固的敌人。</Mousekin_FactionKingdom.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionKingdom.pawnSingular>白鼠族</Mousekin_FactionKingdom.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionKingdom.pawnsPlural>白鼠族</Mousekin_FactionKingdom.pawnsPlural>
+
+	<!-- EN: Lord Protector -->
+	<Mousekin_FactionKingdom.leaderTitle>护国主</Mousekin_FactionKingdom.leaderTitle>
+
+	<!-- EN: Independent Mousekins -->
+	<Mousekin_FactionIndyTown.label>独立白鼠族</Mousekin_FactionIndyTown.label>
+
+	<!-- EN: A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom. -->
+	<Mousekin_FactionIndyTown.description>一个松散的白鼠族村庄联盟，在其倒退的君主统治下犹豫不决后宣布脱离白鼠族王国独立，并实行原始形式的民主。\n\n他们愿意与非白鼠族外来者进行贸易，以弥补他们与白鼠族王国相比在军事和经济上的劣势。</Mousekin_FactionIndyTown.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionIndyTown.pawnSingular>白鼠族</Mousekin_FactionIndyTown.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionIndyTown.pawnsPlural>白鼠族</Mousekin_FactionIndyTown.pawnsPlural>
+
+	<!-- EN: Prime Councilor -->
+	<Mousekin_FactionIndyTown.leaderTitle>议长</Mousekin_FactionIndyTown.leaderTitle>
+
+	<!-- EN: Mousekin Nomads -->
+	<Mousekin_FactionNomad.label>白鼠族游民</Mousekin_FactionNomad.label>
+
+	<!-- EN: A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in giant cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves. -->
+	<Mousekin_FactionNomad.description>一群松散的白鼠族游牧民，他们一生都在乘坐巨豚鼠拉商队穿越大地，与白鼠族和非白鼠族自由交易。\n\n他们对大多数外来者都很友好，并且没有任何形式的军队来保卫自己。</Mousekin_FactionNomad.description>
+
+	<!-- EN: Rodemani -->
+	<Mousekin_FactionNomad.fixedName>罗德马尼</Mousekin_FactionNomad.fixedName>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionNomad.pawnSingular>白鼠族</Mousekin_FactionNomad.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionNomad.pawnsPlural>白鼠族</Mousekin_FactionNomad.pawnsPlural>
+
+	<!-- EN: Wagon Master -->
+	<Mousekin_FactionNomad.leaderTitle>车主</Mousekin_FactionNomad.leaderTitle>
+
+	<!-- EN: Mousekin Brigands -->
+	<Mousekin_FactionBrigand.label>白鼠族强盗</Mousekin_FactionBrigand.label>
+
+	<!-- EN: A roving band of Mousekin raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate. -->
+	<Mousekin_FactionBrigand.description>一群游荡的白鼠族强盗，通常由逃兵、流亡者、逃犯和饥荒村庄的饥饿农民组成，为了生存或经济利益而掠夺和夷平路过的乡镇。\n\n由于他们没有任何固定的行动基地，他们通常不可能被根除。</Mousekin_FactionBrigand.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionBrigand.pawnSingular>白鼠族</Mousekin_FactionBrigand.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionBrigand.pawnsPlural>白鼠族</Mousekin_FactionBrigand.pawnsPlural>
+
+	<!-- EN: Ringleader -->
+	<Mousekin_FactionBrigand.leaderTitle>老大</Mousekin_FactionBrigand.leaderTitle>
+	
+</LanguageData>

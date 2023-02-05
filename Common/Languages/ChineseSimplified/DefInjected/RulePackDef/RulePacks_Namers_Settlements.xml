@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix] -->
+	<MousekinSettlementNameUtility.rulePack.rulesStrings.0>Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix]</MousekinSettlementNameUtility.rulePack.rulesStrings.0>
+	
+	<!-- EN: Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix] -->
+	<MousekinSettlementNameUtility.rulePack.rulesStrings.1>Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix]</MousekinSettlementNameUtility.rulePack.rulesStrings.1>
+	
+	<!-- EN: Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix] -->
+	<MousekinSettlementNameUtility.rulePack.rulesStrings.2>Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix]</MousekinSettlementNameUtility.rulePack.rulesStrings.2>
+	
+	<!-- EN: Settlement_Name->[Tree]bridge -->
+	<MousekinSettlementNameUtility.rulePack.rulesStrings.3>Settlement_Name->[Tree]桥</MousekinSettlementNameUtility.rulePack.rulesStrings.3>
+	
+	<!-- EN: Settlement_Name->[Metal]bridge -->
+	<MousekinSettlementNameUtility.rulePack.rulesStrings.4>Settlement_Name->[Metal]桥</MousekinSettlementNameUtility.rulePack.rulesStrings.4>
+	
+	<!-- EN: Settlement_Name->[Metal]forge -->
+	<MousekinSettlementNameUtility.rulePack.rulesStrings.5>Settlement_Name->[Metal]炉堡</MousekinSettlementNameUtility.rulePack.rulesStrings.5>
+	
+	<!-- EN: r_name->[Settlement_Name] -->
+	<NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>r_name->[Settlement_Name]</NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>
+	
+	<!-- EN: r_name(p=10)->[Settlement_Name] -->
+	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>r_name(p=10)->[Settlement_Name]</NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>
+	
+	<!-- EN: r_name->Whitefur's Keep -->
+	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings.1>r_name->白毛城堡</NamerSettlement_MousekinKingdom.rulePack.rulesStrings.1>
+	
+	<!-- EN: r_name->New [Settlement_Name] -->
+	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>r_name->新[Settlement_Name]</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>
+	
+	<!-- EN: r_name->[Mousekin_LastName_Commoner]'s Rest -->
+	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.1>r_name->[Mousekin_LastName_Commoner]之寝</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.1>
+	
+	<!-- EN: r_name->[Mousekin_LastName_Commoner]'s Sorrow -->
+	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.2>r_name->[Mousekin_LastName_Commoner]之哀</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.2>
+	
+	<!-- EN: r_name->Free [Settlement_Type] of [Settlement_Name] -->
+	<NamerSettlement_MousekinIndyTown.rulePack.rulesStrings.0>r_name->[Settlement_Name] 自由[Settlement_Type]</NamerSettlement_MousekinIndyTown.rulePack.rulesStrings.0>
+	
+</LanguageData>

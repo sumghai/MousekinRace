@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make things at crafting bench -->
+	<Mousekin_DoBillsUseCraftingBench.label>在工艺桌制作物品</Mousekin_DoBillsUseCraftingBench.label>
+
+	<!-- EN: craft -->
+	<Mousekin_DoBillsUseCraftingBench.verb>制作</Mousekin_DoBillsUseCraftingBench.verb>
+
+	<!-- EN: crafting at -->
+	<Mousekin_DoBillsUseCraftingBench.gerund>制作</Mousekin_DoBillsUseCraftingBench.gerund>
+
+	<!-- EN: harvest products from beehives -->
+	<Mousekin_HarvestFromBeehive.label>从蜂箱收获产品</Mousekin_HarvestFromBeehive.label>
+
+	<!-- EN: harvest products from -->
+	<Mousekin_HarvestFromBeehive.verb>收获产品</Mousekin_HarvestFromBeehive.verb>
+
+	<!-- EN: harvesting products from -->
+	<Mousekin_HarvestFromBeehive.gerund>收获产品</Mousekin_HarvestFromBeehive.gerund>
+	
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Candle -->
+	<Mousekin_Candle.label>白鼠族蜡烛</Mousekin_Candle.label>
+	
+	<!-- EN: Slow-burning beeswax candles used in lamps and lanterns. -->
+	<Mousekin_Candle.description>缓慢燃烧的蜂蜡蜡烛，用于灯具。</Mousekin_Candle.description>
+	
+	<!-- EN: Clockwork Mechanism -->
+	<Mousekin_ClockworkComponent.label>发条机构</Mousekin_ClockworkComponent.label>
+	
+	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
+	<Mousekin_ClockworkComponent.description>各种金属弹簧、齿轮和杠杆，用于制作复杂的白鼠族器具。</Mousekin_ClockworkComponent.description>
+	
+	<!-- EN: Mousekin poultice -->
+	<Mousekin_MedicinePoultice.label>白鼠族膏药</Mousekin_MedicinePoultice.label>
+	
+	<!-- EN: A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals. -->
+	<Mousekin_MedicinePoultice.description>一个装着柔软湿润精选药草和树皮粉的布袋。得益于白鼠族炼金术士的秘诀，这些比人造草药更有效，储存也更好，但不如工业药品。</Mousekin_MedicinePoultice.description>
+	
+</LanguageData>

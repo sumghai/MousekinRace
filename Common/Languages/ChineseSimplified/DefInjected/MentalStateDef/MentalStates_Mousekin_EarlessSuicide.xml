@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: suicide from earless despair -->
+	<Mousekin_MentalState_EarlessSuicide.label>因失耳绝望而自杀</Mousekin_MentalState_EarlessSuicide.label>
+
+	<!-- EN: {0} could no longer endure the humiliation of living without [PAWN_possessive] ears, and is attempting suicide. -->
+	<Mousekin_MentalState_EarlessSuicide.beginLetter>{0}无法再忍受没有耳朵的屈辱，并试图自杀。</Mousekin_MentalState_EarlessSuicide.beginLetter>
+
+	<!-- EN: Earless Mousekin Suicide -->
+	<Mousekin_MentalState_EarlessSuicide.beginLetterLabel>无耳白鼠族自杀</Mousekin_MentalState_EarlessSuicide.beginLetterLabel>
+
+	<!-- EN: {0} is no longer attempting suicide. -->
+	<Mousekin_MentalState_EarlessSuicide.recoveryMessage>{0}不再试图自杀。</Mousekin_MentalState_EarlessSuicide.recoveryMessage>
+
+	<!-- EN: Mental state: Suicidal -->
+	<Mousekin_MentalState_EarlessSuicide.baseInspectLine>心理状态：自杀</Mousekin_MentalState_EarlessSuicide.baseInspectLine>
+	
+</LanguageData>

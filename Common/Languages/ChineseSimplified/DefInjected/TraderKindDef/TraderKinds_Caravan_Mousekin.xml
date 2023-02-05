@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: bulk goods trader -->
+	<Mousekin_TraderCaravan_Bulk.label>杂货商人</Mousekin_TraderCaravan_Bulk.label>
+
+	<!-- EN: clothing merchant -->
+	<Mousekin_TraderCaravan_Apparel.label>服装商人</Mousekin_TraderCaravan_Apparel.label>
+
+	<!-- EN: livestock trader -->
+	<Mousekin_TraderCaravan_Animals.label>牲畜商人</Mousekin_TraderCaravan_Animals.label>
+
+	<!-- EN: ironmonger -->
+	<Mousekin_TraderCaravan_MilitaryKingdom.label>打铁商人</Mousekin_TraderCaravan_MilitaryKingdom.label>
+	<Mousekin_TraderCaravan_MilitaryIndyTown.label>打铁商人</Mousekin_TraderCaravan_MilitaryIndyTown.label>
+	
+	<!-- EN: exotic goods trader -->
+	<Mousekin_TraderCaravan_Exotic.label>外贸商人</Mousekin_TraderCaravan_Exotic.label>
+	
+</LanguageData>

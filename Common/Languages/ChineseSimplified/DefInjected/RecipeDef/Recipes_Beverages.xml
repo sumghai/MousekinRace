@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: make Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.label>制作充柯坚果咖啡</Mousekin_Make_DrinkChonkoNutBrew.label>
+	
+	<!-- EN: Make a warm, coffee-like beverage brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick. Temporarily improves mood, consciousness and blood circulation. -->
+	<Mousekin_Make_DrinkChonkoNutBrew.description>将经过烘烤和磨碎的填柯坚果与提神的"秘方"一起冲泡，制成一杯温暖、咖啡般的饮品。暂时改善情绪、意识和血液循环。</Mousekin_Make_DrinkChonkoNutBrew.description>
+	
+	<!-- EN: Making Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.jobString>制作充柯坚果咖啡。</Mousekin_Make_DrinkChonkoNutBrew.jobString>
+	
+	<!-- EN: make Mousekin lager wort -->
+	<Mousekin_Make_WortLager.label>制作白鼠族拉格麦汁</Mousekin_Make_WortLager.label>
+	
+	<!-- EN: Make Mousekin lager wort from Mouse-ear barley and hops. -->
+	<Mousekin_Make_WortLager.description>用鼠耳大麦和啤酒花制成白鼠族拉格麦汁。</Mousekin_Make_WortLager.description>
+	
+	<!-- EN: Making Mousekin lager wort -->
+	<Mousekin_Make_WortLager.jobString>制作白鼠族拉格麦汁。</Mousekin_Make_WortLager.jobString>
+	
+	<!-- EN: make Mousekin mead must -->
+	<Mousekin_Make_WortMead.label>制作白鼠族蜂蜜酒原浆</Mousekin_Make_WortMead.label>
+	
+	<!-- EN: Make Mousekin mead must from Mousekin honey. -->
+	<Mousekin_Make_WortMead.description>用白鼠族蜂蜜制作白鼠族蜂蜜酒原浆。</Mousekin_Make_WortMead.description>
+	
+	<!-- EN: Making Mousekin mead must -->
+	<Mousekin_Make_WortMead.jobString>制作白鼠族蜂蜜酒原浆。</Mousekin_Make_WortMead.jobString>
+	
+</LanguageData>
