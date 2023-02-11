@@ -370,6 +370,7 @@
     <Compile Include="Thoughts\ThoughtWorker_FaithAffinityOpinions.cs" />
     <Compile Include="Thoughts\ThoughtWorker_MissingEars.cs" />
     <Compile Include="Thoughts\ThoughtWorker_OtherMousekinHasProstheticOpinions.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_PrejudicedTowardsMousekins.cs" />
     <Compile Include="Thoughts\ThoughtWorker_ReligiousDisgustAtOwnArtificalBodyParts.cs" />
     <Compile Include="Thoughts\ThoughtWorker_WearingPudgemouseFurApparel.cs" />
     <Compile Include="Thoughts\ThoughtWorker_WearingMousekinFurApparel.cs" />

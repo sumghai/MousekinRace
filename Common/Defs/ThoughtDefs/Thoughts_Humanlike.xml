@@ -44,6 +44,19 @@
 	</ThoughtDef>
 	
 	<ThoughtDef>
+		<defName>Humanlike_Thought_PrejudicedTowardsMousekins</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_PrejudicedTowardsMousekins</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>prejudiced towards talking mice</label>
+				<baseOpinionOffset>-10</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Humanlike_Thought_SawNearbyPudgemouse</defName>
 		<showBubble>true</showBubble>
 		<durationDays>1</durationDays>
