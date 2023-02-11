@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Candle -->
+	<Mousekin_Candle.label>마우스킨 양초</Mousekin_Candle.label>
+	
+	<!-- EN: Slow-burning beeswax candles used in lamps and lanterns. -->
+	<Mousekin_Candle.description>램프와 랜턴에 사용되는 천천히 타는 밀랍 양초.</Mousekin_Candle.description>
+	
+	<!-- EN: Clockwork Mechanism -->
+	<Mousekin_ClockworkComponent.label>시계 메커니즘</Mousekin_ClockworkComponent.label>
+	
+	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
+	<Mousekin_ClockworkComponent.description>복잡한 마우스킨 장치를 만드는 데 사용되는 다양한 금속 스프링, 기어 및 레버.</Mousekin_ClockworkComponent.description>
+	
+	<!-- EN: Mousekin poultice -->
+	<Mousekin_MedicinePoultice.label>마우스킨 찜질</Mousekin_MedicinePoultice.label>
+	
+	<!-- EN: A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals. -->
+	<Mousekin_MedicinePoultice.description>엄선한 한약재와 나무껍질 가루를 부드럽고 촉촉하게 뭉친 천주머니. 마우스킨 연금술사들의 노하우 덕분에 사람이 만든 한약보다 효능이 강하고 저장도 잘되지만 공업용 의약품만큼의 효능은 없다.</Mousekin_MedicinePoultice.description>
+	
+</LanguageData>

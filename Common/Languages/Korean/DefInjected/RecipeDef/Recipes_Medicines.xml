@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.label>마우스킨 습포 만들기</Mousekin_Make_MedicinePoultice.label>
+
+	<!-- EN: Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs. -->
+	<Mousekin_Make_MedicinePoultice.description>통나무의 나무껍질에 약뿌리를 으깨어 혼합하여 한 묶음의 약용 습포제를 만든다.</Mousekin_Make_MedicinePoultice.description>
+
+	<!-- EN: Making bags of Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.jobString>마우스킨 습포 만들기.</Mousekin_Make_MedicinePoultice.jobString>
+	
+</LanguageData>

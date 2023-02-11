@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: New Mousekin Settlers -->
+	<Mousekin_PlayerFaction_Settlers.label>새로운 마우스킨 정착민</Mousekin_PlayerFaction_Settlers.label>
+
+	<!-- EN: A newly-established hamlet of Mousekin settlers. -->
+	<Mousekin_PlayerFaction_Settlers.description>마우스킨 정착민의 새로 설립된 작은 마을.</Mousekin_PlayerFaction_Settlers.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Settlers.pawnSingular>마우스킨</Mousekin_PlayerFaction_Settlers.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_PlayerFaction_Settlers.pawnsPlural>마우스킨</Mousekin_PlayerFaction_Settlers.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Settlers.leaderTitle>지도자</Mousekin_PlayerFaction_Settlers.leaderTitle>
+
+	<!-- EN: New Mousekin Refugees -->
+	<Mousekin_PlayerFaction_Refugees.label>뉴 마우스킨 난민</Mousekin_PlayerFaction_Refugees.label>
+
+	<!-- EN: A group of Mousekin who have lost their home village to Grimalkin invaders. -->
+	<Mousekin_PlayerFaction_Refugees.description>검은 고양이 침략자들에게 고향을 잃은 마우스킨 일행.</Mousekin_PlayerFaction_Refugees.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Refugees.pawnSingular>마우스킨</Mousekin_PlayerFaction_Refugees.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_PlayerFaction_Refugees.pawnsPlural>마우스킨</Mousekin_PlayerFaction_Refugees.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Refugees.leaderTitle>지도자</Mousekin_PlayerFaction_Refugees.leaderTitle>
+
+	<!-- EN: Mousekin Kingdom -->
+	<Mousekin_FactionKingdom.label>마우스킨 킹덤</Mousekin_FactionKingdom.label>
+
+	<!-- EN: A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified, patriarchal and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or persistent enemies if angered. -->
+	<Mousekin_FactionKingdom.description>주로 농업, 광업 및 상업에 종사하는 마우스킨의 군주제 문명으로 중세 후기에서 산업화 이전 수준의 기술을 보유하고 있습니다.\n\n이러한 사회는 고도로 계층화되고 가부장적이며 봉건적 계통을 따라 조직되며 왕족이 최상위에 있습니다. 사회 피라미드, 귀족과 성직자, 기사와 수호자 계급, 일반 시민과 상인, 그리고 마지막으로 맨 아래에는 농민과 노동자가 있습니다.\n\n명목상으로는 마우스킨 왕이 통치하지만, 군대와 왕국의 국내 문제는 기사단에서 가장 높은 기사도 이상을 예시하기 위해 선택된 노련한 마우스킨 기사 사령관인 호국경의 손에 달려 있습니다.\n\n일반적으로 대부분의 사람들이 자주 무시하기 때문에 외부인을 경계합니다. 마우스킨이 아닌 휴머노이드, 그들은 동맹을 맺으면 확고하고 충성스러운 친구가 될 수 있고, 화를 내면 끈질긴 적이 될 수 있습니다.</Mousekin_FactionKingdom.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionKingdom.pawnSingular>마우스킨</Mousekin_FactionKingdom.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionKingdom.pawnsPlural>마우스킨</Mousekin_FactionKingdom.pawnsPlural>
+
+	<!-- EN: Lord Protector -->
+	<Mousekin_FactionKingdom.leaderTitle>호국경</Mousekin_FactionKingdom.leaderTitle>
+
+	<!-- EN: Independent Mousekins -->
+	<Mousekin_FactionIndyTown.label>독립 마우스킨</Mousekin_FactionIndyTown.label>
+
+	<!-- EN: A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom. -->
+	<Mousekin_FactionIndyTown.description>마우스킨 마을과 마을의 느슨한 연맹으로, 주민들은 마우스킨 왕국의 퇴행적인 군주제 통치를 거부한 후 독립을 선언하고 조잡한 형태의 민주주의를 실천했습니다.\n\n그들은 마우스킨이 아닌 외부인과 거래할 의향이 어느 정도 더 있습니다. 마우스킨 왕국에 비해 군사적, 경제적으로 불리한 점을 보완하기 위해.</Mousekin_FactionIndyTown.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionIndyTown.pawnSingular>마우스킨</Mousekin_FactionIndyTown.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionIndyTown.pawnsPlural>마우스킨</Mousekin_FactionIndyTown.pawnsPlural>
+
+	<!-- EN: Prime Councilor -->
+	<Mousekin_FactionIndyTown.leaderTitle>국무위원</Mousekin_FactionIndyTown.leaderTitle>
+
+	<!-- EN: Mousekin Nomads -->
+	<Mousekin_FactionNomad.label>마우스킨 유목민</Mousekin_FactionNomad.label>
+
+	<!-- EN: A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in giant cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves. -->
+	<Mousekin_FactionNomad.description>거대한 캐비가 끄는 캐러밴을 타고 땅 전체를 여행하며 마우스킨 및 비마우스킨과 자유롭게 거래하는 느슨한 마우스킨 유목민 무리입니다.\n\n그들은 대부분의 외부인에게 우호적이며 일반적으로 어떤 종류의 조직적인 군대도 결여되어 있습니다. 자신을 방어하기 위해.</Mousekin_FactionNomad.description>
+
+	<!-- EN: Rodemani -->
+	<Mousekin_FactionNomad.fixedName>로데마니</Mousekin_FactionNomad.fixedName>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionNomad.pawnSingular>마우스킨</Mousekin_FactionNomad.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionNomad.pawnsPlural>마우스킨</Mousekin_FactionNomad.pawnsPlural>
+
+	<!-- EN: Wagon Master -->
+	<Mousekin_FactionNomad.leaderTitle>왜건 주인</Mousekin_FactionNomad.leaderTitle>
+
+	<!-- EN: Mousekin Brigands -->
+	<Mousekin_FactionBrigand.label>마우스킨 브리건즈</Mousekin_FactionBrigand.label>
+
+	<!-- EN: A roving band of Mousekin raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate. -->
+	<Mousekin_FactionBrigand.description>생존이나 금전적 이득을 위해 마주치는 정착지를 약탈하고 파괴하는 떠돌아다니는 마우스킨 약탈자 무리. 그들은 보통 탈영병, 망명자, 탈출한 범죄자, 기근으로 황폐해진 마을에서 온 굶주린 소작농으로 구성됩니다.\n\n어떤 종류의 고정된 작전 기반도 없기 때문에 일반적으로 박멸하는 것이 불가능합니다.</Mousekin_FactionBrigand.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionBrigand.pawnSingular>마우스킨</Mousekin_FactionBrigand.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionBrigand.pawnsPlural>마우스킨</Mousekin_FactionBrigand.pawnsPlural>
+
+	<!-- EN: Ringleader -->
+	<Mousekin_FactionBrigand.leaderTitle>두목</Mousekin_FactionBrigand.leaderTitle>
+	
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: mousekin crossbow bolt -->
+	<Mousekin_CrossbowBolt.label>마우스킨 석궁 볼트</Mousekin_CrossbowBolt.label>
+
+	<!-- EN: {0} has been shot to death by a Mousekin crossbow bolt. -->
+	<Mousekin_CrossbowBolt.deathMessage>{0}이(가) 마우스킨 석궁에 맞아 사망했습니다.</Mousekin_CrossbowBolt.deathMessage>
+
+	<!-- EN: mousekin gunpowder explosion -->
+	<Mousekin_GunpowderExplosion.label>마우스킨 화약 폭발</Mousekin_GunpowderExplosion.label>
+
+	<!-- EN: {0} has died in an explosion. -->
+	<Mousekin_GunpowderExplosion.deathMessage>{0}이(가) 폭발로 사망했습니다.</Mousekin_GunpowderExplosion.deathMessage>
+	
+</LanguageData>

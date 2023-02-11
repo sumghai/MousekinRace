@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Straw Hat -->
+	<Mousekin_HatStraw.label>마우스킨 밀짚 모자</Mousekin_HatStraw.label>
+
+	<!-- EN: A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatStraw.description>짚으로 짠 챙이 넓은 모자로, 마우스킨 농민과 노동자들이 태양 보호용으로 착용했습니다. 마우스킨 귀를 수용할 수 있는 구멍이 있습니다.</Mousekin_HatStraw.description>
+
+	<!-- EN: Mousekin Headscarf -->
+	<Mousekin_HatHeadscarf.label>마우스킨 두건</Mousekin_HatHeadscarf.label>
+
+	<!-- EN: A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatHeadscarf.description>머리의 윗부분, 옆면, 뒷부분을 덮는 천으로 여성 마우스킨 소작농과 노동자가 작업하는 동안 머리카락을 방해하지 않도록 착용합니다. 마우스킨 귀를 수용할 수 있는 구멍이 있습니다.</Mousekin_HatHeadscarf.description>
+
+	<!-- EN: Mousekin Nun’s Veil -->
+	<Mousekin_HatNunVeil.label>마우스킨 수녀의 베일</Mousekin_HatNunVeil.label>
+
+	<!-- EN: A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatNunVeil.description>의례를 집행하고 병자와 고아를 돌볼 때 얼굴에 머리카락을 가리기 위해 마우스킨 수녀가 착용하는 겸손한 베일입니다. 마우스킨 귀를 수용할 수 있는 구멍이 있습니다.</Mousekin_HatNunVeil.description>
+
+	<!-- EN: Mousekin Kettle Hat -->
+	<Mousekin_HelmetKettle.label>마우스킨 주전자 투구</Mousekin_HelmetKettle.label>
+
+	<!-- EN: A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKettle.description>대부분의 부상으로부터 머리 상단을 보호하는 동시에 가시성과 편안함을 극대화하기 위해 하단 머리와 얼굴을 노출시키는 챙이 넓은 강철 헬멧입니다. 마우스킨 석궁병이 착용하는 것으로, 일반적인 조리용기의 일종을 닮았다고 하여 붙여진 이름입니다. 마우스킨 귀를 수용할 수 있는 구멍이 있습니다.</Mousekin_HelmetKettle.description>
+
+	<!-- EN: Mousekin Morion Helmet -->
+	<Mousekin_HelmetMorion.label>마우스킨 모리온 투구</Mousekin_HelmetMorion.label>
+
+	<!-- EN: A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetMorion.description>챙이 납작하고 볏이 있는 강철 헬멧은 대부분의 부상으로부터 머리 상단을 보호하는 동시에 시야와 편안함을 극대화하기 위해 머리 아래쪽과 얼굴을 노출시킵니다. 마우스킨 파이크맨과 머스킷티어가 착용합니다. 마우스킨 귀를 수용할 수 있는 구멍이 있습니다.</Mousekin_HelmetMorion.description>
+
+	<!-- EN: Mousekin Knight's Helmet -->
+	<Mousekin_HelmetKnight.label>마우스킨 기사의 투구</Mousekin_HelmetKnight.label>
+
+	<!-- EN: A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnight.description>마우스킨 기사가 착용하는 중세 판금 헬멧으로 보호 기능을 손상시키지 않으면서 시야를 제공하는 회전식 바이저가 있습니다. 마우스킨 귀를 수용할 수 있는 구멍이 있습니다.</Mousekin_HelmetKnight.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>바이저 토글</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>헬멧 바이저를 열거나 닫습니다.</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>
+
+	<!-- EN: Mousekin Woodsman’s Bycocket -->
+	<Mousekin_HatWoodsman.label>마우스킨 나무꾼 모자</Mousekin_HatWoodsman.label>
+
+	<!-- EN: A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries. -->
+	<Mousekin_HatWoodsman.description>앞쪽이 뾰족하고 뒤쪽에 넓고 위로 향한 챙이 있는 천으로 된 모자로 종종 깃털로 장식됩니다. 원래 마우스킨 나무꾼들이 입던 이 제품은 이제 마우스킨 혁명가들이 채택했습니다.</Mousekin_HatWoodsman.description>
+
+	<!-- EN: Mousekin Knight Commander’s Helmet -->
+	<Mousekin_HelmetKnightCommander.label>마우스킨 기사 사령관의 투구</Mousekin_HelmetKnightCommander.label>
+
+	<!-- EN: A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnightCommander.description>마우스킨 기사 사령관이 착용하는 중세 판 헬멧으로 보호 기능을 손상시키지 않으면서 시야를 제공하는 회전식 바이저가 있으며 다른 마우스킨 기사가 전투 중에 사령관을 찾을 수 있도록 밝은 색상의 깃털로 장식되어 있습니다. 마우스킨 귀를 수용할 수 있는 구멍이 있습니다.</Mousekin_HelmetKnightCommander.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>바이저 토글</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>헬멧 바이저를 열거나 닫습니다.</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>
+
+	<!-- EN: hood -->
+	<Mousekin_HatCloakHood.label>후드</Mousekin_HatCloakHood.label>
+
+	<!-- EN: Hood for the Mousekin Cloak. -->
+	<Mousekin_HatCloakHood.description>마우스킨 망토용 후드.</Mousekin_HatCloakHood.description>
+
+	<!-- EN: hood -->
+	<Mousekin_HatGuardenerRobeHood.label>후드</Mousekin_HatGuardenerRobeHood.label>
+
+	<!-- EN: Hood for the Mousekin Guardener's Robe. -->
+	<Mousekin_HatGuardenerRobeHood.description>마우스킨 정원경비원 망토 후드.</Mousekin_HatGuardenerRobeHood.description>
+
+	<!-- EN: Veil Back -->
+	<Mousekin_HatNunVeilBack.label>마우스킨 수녀의 베일(최하층)</Mousekin_HatNunVeilBack.label>
+
+	<!-- EN: Back of the Mousekin Nun’s Veil. -->
+	<Mousekin_HatNunVeilBack.description>마우스킨 수녀의 베일 뒷편</Mousekin_HatNunVeilBack.description>
+
+	<!-- EN: Knight's Helmet with visor up -->
+	<Mousekin_HelmetKnight_VisorUp.label>바이저가 위로 올려진 기사의 투구</Mousekin_HelmetKnight_VisorUp.label>
+
+	<!-- EN: Knight's Helmet with visor up -->
+	<Mousekin_HelmetKnight_VisorUp.description>바이저가 위로 올려진 기사의 투구</Mousekin_HelmetKnight_VisorUp.description>
+
+	<!-- EN: Knight Commander's Helmet with visor up -->
+	<Mousekin_HelmetKnightCommander_VisorUp.label>바이저가 달린 기사 사령관의 투구</Mousekin_HelmetKnightCommander_VisorUp.label>
+
+	<!-- EN: Knight Commander's Helmet with visor up -->
+	<Mousekin_HelmetKnightCommander_VisorUp.description>바이저가 달린 기사 사령관의 투구</Mousekin_HelmetKnightCommander_VisorUp.description>
+	
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: stab (self-inflicted) -->
+	<Mousekin_SuicideKnife.label>찌르기(자해)</Mousekin_SuicideKnife.label>
+
+	<!-- EN: {0} has committed suicide by stabbing [PAWN_objective]self. -->
+	<Mousekin_SuicideKnife.deathMessage>{0}이(가) 자신을 찔러 자살했습니다.</Mousekin_SuicideKnife.deathMessage>
+
+	<!-- EN: hemlock poisoning (self-inflicted) -->
+	<Mousekin_SuicidePoison.label>헴록 중독(자해)</Mousekin_SuicidePoison.label>
+
+	<!-- EN: {0} has committed suicide by ingesting hemlock. -->
+	<Mousekin_SuicidePoison.deathMessage>{0}님이 헴록을 먹고 자살했습니다.</Mousekin_SuicidePoison.deathMessage>
+	
+</LanguageData>

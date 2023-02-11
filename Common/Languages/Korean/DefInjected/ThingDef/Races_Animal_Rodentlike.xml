@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: giant cavy -->
+	<Mousekin_AnimalGiantCavy.label>대왕 기니피그</Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Giant cavy")\n\nA giant, docile rodent several orders of magnitude larger than the common guinea pig, and can withstand harsh climates fairly well. They subsist on a high-fiber diet of grass, hay, berries, fruits and vegetables, and are known to also consume their own feces in order to recycle vital trace nutrients.\n\nOriginally genetically-engineered and bred by humans millenia ago as a potential food source for austere frontier colonies, prehistoric Mousekins eventually successfully domesticated these peculiar creatures as companions, riding mounts and pack animals. -->
+	<Mousekin_AnimalGiantCavy.description>종： &lt;i&gt;Cavia giganteus&lt;/i&gt; ("대왕 기니피그")\n\n거대하고 온순한 설치류는 일반 기니피그보다 몇 배 더 크며 혹독한 기후를 상당히 잘 견딜 수 있습니다. 그들은 풀, 건초, 장과, 과일 및 채소로 구성된 고섬유질 식단으로 생활하며 중요한 미량 영양소를 재활용하기 위해 자신의 배설물을 소비하는 것으로도 알려져 있습니다.\n\n원래 유전 공학적으로 조작되어 수천 년 전에 인간에 의해 사육되었습니다. 엄격한 개척지 식민지의 잠재적인 식량 공급원이었던 선사시대 마우스킨은 결국 이 독특한 생물을 동반자로, 탈것과 짐을 나르는 동물로 성공적으로 길들였습니다.</Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalGiantCavy.tools.1.label>머리</Mousekin_AnimalGiantCavy.tools.1.label>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalGiantCavy.tools.2.label>왼쪽 발톱</Mousekin_AnimalGiantCavy.tools.2.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalGiantCavy.tools.3.label>오른쪽 발톱</Mousekin_AnimalGiantCavy.tools.3.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.label>지방생쥐 고기</Meat_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.description>손질된 날고기입니다. 요리해서 음식으로 만들거나 날것 그대로 먹을 수 있습니다.</Meat_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.label>대왕 기니피그 시체</Corpse_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.description>대왕 기니피그 시체.</Corpse_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: Pudgemouse -->
+	<Mousekin_AnimalPudgemouse.label>지방생쥐</Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: Species: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Fat ash-grey mouse")\n\nA large chihuahua-sized species of grey-furred rodents capable of walking only on their hind legs for extended periods of time. They subsist on a mixed diet of fruits, seeds and grains, and will happily eat meat as well.\n\nDue to their unusually high level of intelligence and empathy, as well as their apparent ability to understand both written and spoken humanoid languages (despite being incapable of vocalizing actual words themselves beyond squeaking), these mice are easily domesticated as companions and pets by Mousekins, and are universally exempt from any rules that otherwise prohibit pet animals. -->
+	<Mousekin_AnimalPudgemouse.description>學名： &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("뚱뚱한 회색 쥐")\n\n긴 시간 동안 뒷다리로만 걸을 수 있는 큰 치와와 크기의 회색 털 설치류 종입니다. 그들은 과일, 씨앗, 곡류의 혼합 식단으로 연명하며 고기도 즐겁게 먹을 것입니다.\n\n비정상적으로 높은 수준의 지능과 공감 능력, 그리고 인간형 언어의 문어와 구어를 모두 이해할 수 있는 능력으로 인해 ( 끽끽거리는 것 이상으로 실제 단어 자체를 발성할 수 없음에도 불구하고, 이 생쥐는 마우스킨에 의해 반려동물 및 애완동물로 쉽게 길들여지며, 그렇지 않으면 애완동물을 금지하는 모든 규칙에서 보편적으로 면제됩니다.</Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalPudgemouse.tools.0.label>왼쪽 발톱</Mousekin_AnimalPudgemouse.tools.0.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalPudgemouse.tools.1.label>오른쪽 발톱</Mousekin_AnimalPudgemouse.tools.1.label>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalPudgemouse.tools.3.label>머리</Mousekin_AnimalPudgemouse.tools.3.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.label>지방생쥐 고기</Meat_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.description>손질된 날고기입니다. 요리해서 음식으로 만들거나 날것 그대로 먹을 수 있습니다.</Meat_Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.label>지방생쥐 시체</Corpse_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.description>지방생쥐 시체.</Corpse_Mousekin_AnimalPudgemouse.description>
+	
+</LanguageData>

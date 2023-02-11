@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Commoner apparel -->
+	<Mousekin_ResearchApparelCommoner.label>평민 의류</Mousekin_ResearchApparelCommoner.label>
+
+	<!-- EN: Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners. -->
+	<Mousekin_ResearchApparelCommoner.description>다양한 리젠시 시대 복장과 액세서리를 맞춤 제작하여 마우스킨 평민들이 일상적으로 입을 수 있는 실용적인 옷을 입으세요.</Mousekin_ResearchApparelCommoner.description>
+
+	<!-- EN: Middle-class apparel -->
+	<Mousekin_ResearchApparelMiddle.label>중산층 의류</Mousekin_ResearchApparelMiddle.label>
+
+	<!-- EN: Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMiddle.description>고급 서번트, 가드너, 사제, 수녀 등 마우스킨 전문가들이 착용하는 다양한 의상을 맞춤 제작하세요. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchApparelMiddle.description>
+
+	<!-- EN: Military apparel -->
+	<Mousekin_ResearchApparelMilitary.label>군복</Mousekin_ResearchApparelMilitary.label>
+
+	<!-- EN: Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMilitary.description>덧대어진 갬베슨을 재단하고 다양한 갑옷과 투구를 만들어 전투에서 마스크인 병사와 기사들을 보호합니다. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchApparelMilitary.description>
+
+	<!-- EN: Aristocratic apparel -->
+	<Mousekin_ResearchApparelNoble.label>귀족 의류</Mousekin_ResearchApparelNoble.label>
+
+	<!-- EN: Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelNoble.description>안목 있는 취향을 지닌 귀족 마우스킨을 위한 스타일리시한 정장 의상을 맞춤 제작하세요. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchApparelNoble.description>
+
+	<!-- EN: Medicinal alchemy -->
+	<Mousekin_ResearchAlchemy.label>약용 연금술</Mousekin_ResearchAlchemy.label>
+
+	<!-- EN: Concoct poultices and potions from a variety of herbal and mineral ingredients. -->
+	<Mousekin_ResearchAlchemy.description>다양한 허브 및 미네랄 성분으로 만든 습포제와 물약을 만듭니다.</Mousekin_ResearchAlchemy.description>
+
+	<!-- EN: 숯 -->
+	<Mousekin_ResearchCharcoal.label>木炭</Mousekin_ResearchCharcoal.label>
+
+	<!-- EN: Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions. -->
+	<Mousekin_ResearchCharcoal.description>나무를 숯으로 정제하여 고효율 연료원으로 사용하거나 다양한 마스킨 약용 물약의 원료로 사용할 수 있습니다.</Mousekin_ResearchCharcoal.description>
+
+	<!-- EN: Clockwork mechanisms -->
+	<Mousekin_ResearchMachineryBasic.label>시계 메커니즘</Mousekin_ResearchMachineryBasic.label>
+
+	<!-- EN: Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryBasic.description>자동 석궁과 같은 다양한 장치에 사용할 수 있는 복잡한 부품과 태엽을 감는 스프링 메커니즘을 제작하세요. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchMachineryBasic.description>
+
+	<!-- EN: Heavy machinery -->
+	<Mousekin_ResearchMachineryAdvanced.label>중장비</Mousekin_ResearchMachineryAdvanced.label>
+
+	<!-- EN: Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryAdvanced.description>수력 발전소와 돌을 던지는 야생조류와 같은 중장비를 만드세요. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchMachineryAdvanced.description>
+
+	<!-- EN: Deep mining -->
+	<Mousekin_ResearchMining.label>깊은 채굴</Mousekin_ResearchMining.label>
+
+	<!-- EN: Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMining.description>일반 광물과 이국적인 광물을 지하에서 채굴할 수 있도록 깊은 샤프트 광산 입구를 건설하십시오. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchMining.description>
+
+	<!-- EN: Gunpowder -->
+	<Mousekin_ResearchGunpowder.label>화약</Mousekin_ResearchGunpowder.label>
+
+	<!-- EN: Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchGunpowder.description>머스킷총, 선회포, 대포와 같은 무기의 추진제로 사용되는 원시적인 마우스킨 폭발물을 제작합니다. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchGunpowder.description>
+
+	<!-- EN: Cast-iron stoves -->
+	<Mousekin_ResearchCookingIronStoves.label>주철 스토브</Mousekin_ResearchCookingIronStoves.label>
+
+	<!-- EN: Build cast-iron stoves for cooking more complex Mousekin dishes. -->
+	<Mousekin_ResearchCookingIronStoves.description>더 복잡한 마우스킨 요리를 요리하기 위해 주철 스토브를 만드십시오.</Mousekin_ResearchCookingIronStoves.description>
+
+	<!-- EN: Apiaries -->
+	<Mousekin_ResearchBeekeeping.label>양봉장</Mousekin_ResearchBeekeeping.label>
+
+	<!-- EN: Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles. -->
+	<Mousekin_ResearchBeekeeping.description>요리 및 양조 목적의 꿀과 양초용 밀랍을 얻기 위해 나무 벌통을 만드십시오.</Mousekin_ResearchBeekeeping.description>
+
+	<!-- EN: Aristocratic cuisine -->
+	<Mousekin_ResearchCookingNoble.label>귀족 요리</Mousekin_ResearchCookingNoble.label>
+
+	<!-- EN: Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchCookingNoble.description>가장 안목 있는 마우스킨 미각을 위해 요리 걸작을 준비하십시오. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchCookingNoble.description>
+
+	<!-- EN: Cottage building -->
+	<Mousekin_ResearchBuildingVillage.label>별장 건물</Mousekin_ResearchBuildingVillage.label>
+
+	<!-- EN: Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows. -->
+	<Mousekin_ResearchBuildingVillage.description>욋가지로 칠한 벽, 문, 창문을 사용하여 마우스킨 서민을 위한 집을 짓습니다.</Mousekin_ResearchBuildingVillage.description>
+
+	<!-- EN: Castle architecture -->
+	<Mousekin_ResearchBuildingCastle.label>성 건축</Mousekin_ResearchBuildingCastle.label>
+
+	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
+	<Mousekin_ResearchBuildingCastle.description>마우스킨 귀족을 위한 저택을 짓고 요새를 건설하여 외부 위협으로부터 마우스킨 커뮤니티를 보호하세요.</Mousekin_ResearchBuildingCastle.description>
+
+	<!-- EN: Glassmaking -->
+	<Mousekin_ResearchGlassmaking.label>유리 제조</Mousekin_ResearchGlassmaking.label>
+
+	<!-- EN: Melt sand at high temperatures into glass for fabricating windows. (Only available if Fertile Fields mods is installed) -->
+	<Mousekin_ResearchGlassmaking.description>고온에서 모래를 녹여 유리창을 만듭니다. (Fertile Fields 모드가 설치된 경우에만 사용 가능)</Mousekin_ResearchGlassmaking.description>
+	
+</LanguageData>

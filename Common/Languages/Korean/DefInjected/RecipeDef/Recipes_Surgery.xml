@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Install Cloth Mousekin Ear -->
+	<Mousekin_InstallProstheticClothEar.label>설치천 마우스킨 귀</Mousekin_InstallProstheticClothEar.label>
+
+	<!-- EN: Install a cloth Mousekin ear. -->
+	<Mousekin_InstallProstheticClothEar.description>설치천 마우스킨 귀.</Mousekin_InstallProstheticClothEar.description>
+
+	<!-- EN: Installing Cloth Mousekin Ear. -->
+	<Mousekin_InstallProstheticClothEar.jobString>설치천 마우스킨 귀.</Mousekin_InstallProstheticClothEar.jobString>
+
+	<!-- EN: Install Cloth Mousekin Tail -->
+	<Mousekin_InstallProstheticClothTail.label>설치천 마우스킨 꼬리</Mousekin_InstallProstheticClothTail.label>
+
+	<!-- EN: Install a cloth Mousekin tail. -->
+	<Mousekin_InstallProstheticClothTail.description>설치천 마우스킨 꼬리.</Mousekin_InstallProstheticClothTail.description>
+
+	<!-- EN: Installing Cloth Mousekin Tail. -->
+	<Mousekin_InstallProstheticClothTail.jobString>설치천 마우스킨 꼬리.</Mousekin_InstallProstheticClothTail.jobString>
+
+	<!-- EN: Install Mousekin Ear -->
+	<Mousekin_InstallNaturalEar.label>마우스킨 귀 이식</Mousekin_InstallNaturalEar.label>
+
+	<!-- EN: Install a biological Mousekin ear. -->
+	<Mousekin_InstallNaturalEar.description>마우스킨 귀 이식.</Mousekin_InstallNaturalEar.description>
+
+	<!-- EN: Installing Mousekin Ear -->
+	<Mousekin_InstallNaturalEar.jobString>마우스킨 귀 이식.</Mousekin_InstallNaturalEar.jobString>
+
+	<!-- EN: Install Mousekin Tail -->
+	<Mousekin_InstallNaturalTail.label>마우스킨 꼬리 이식</Mousekin_InstallNaturalTail.label>
+
+	<!-- EN: Install a biological Mousekin tail. -->
+	<Mousekin_InstallNaturalTail.description>마우스킨 꼬리 이식.</Mousekin_InstallNaturalTail.description>
+
+	<!-- EN: Installing Mousekin Tail -->
+	<Mousekin_InstallNaturalTail.jobString>마우스킨 꼬리 이식.</Mousekin_InstallNaturalTail.jobString>
+	
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: ate cooked Ratkin meat -->
+	<Mousekin_Thought_AteRatkinMeatAsIngredient.stages.0.label>익힌 랫킨 고기를 먹었다</Mousekin_Thought_AteRatkinMeatAsIngredient.stages.0.label>
+
+	<!-- EN: Ugh, cooking did nothing to remove the stench of dead rat in this meat. -->
+	<Mousekin_Thought_AteRatkinMeatAsIngredient.stages.0.description>으, 요리를 해도 이 고기에서 죽은 쥐의 악취가 제거되지 않았습니다.</Mousekin_Thought_AteRatkinMeatAsIngredient.stages.0.description>
+
+	<!-- EN: ate raw Ratkin meat -->
+	<Mousekin_Thought_AteRatkinMeatDirect.stages.0.label>생 랫킨 고기를 먹었다</Mousekin_Thought_AteRatkinMeatDirect.stages.0.label>
+
+	<!-- EN: Tastes like rancid pork. Yuck! -->
+	<Mousekin_Thought_AteRatkinMeatDirect.stages.0.description>썩은 돼지 고기와 같은 맛. 왝!</Mousekin_Thought_AteRatkinMeatDirect.stages.0.description>
+
+	<!-- EN: I butchered Ratkin corpse -->
+	<Mousekin_Thought_ButcheredRatkinCorpse.stages.0.label>나는 랫킨 시체를 도살</Mousekin_Thought_ButcheredRatkinCorpse.stages.0.label>
+
+	<!-- EN: Half smoothskin, half rat...what a strange creature! -->
+	<Mousekin_Thought_ButcheredRatkinCorpse.stages.0.description>반은 매끄러운 피부, 반은 쥐...이 얼마나 이상한 생물인가!</Mousekin_Thought_ButcheredRatkinCorpse.stages.0.description>
+
+	<!-- EN: we butchered Ratkin corpse -->
+	<Mousekin_Thought_KnowButcheredRatkinCorpse.stages.0.label>우리는 랫킨 시체를 도살</Mousekin_Thought_KnowButcheredRatkinCorpse.stages.0.label>
+
+	<!-- EN: We butchered up a Ratkin. These half-smoothkin, half-rat creatures are so strange! -->
+	<Mousekin_Thought_KnowButcheredRatkinCorpse.stages.0.description>우리는 랫킨을 도살했습니다. 이 반은 스무드킨이고 반은 쥐인 생명체는 정말 이상합니다!</Mousekin_Thought_KnowButcheredRatkinCorpse.stages.0.description>
+	
+</LanguageData>

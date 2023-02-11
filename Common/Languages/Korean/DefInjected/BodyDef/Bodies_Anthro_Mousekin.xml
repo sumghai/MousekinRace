@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin -->
+	<Mousekin.label>마우스킨</Mousekin.label>
+
+	<!-- EN: left lung -->
+	<Mousekin.corePart.parts.6.customLabel>왼쪽 폐</Mousekin.corePart.parts.6.customLabel>
+
+	<!-- EN: right lung -->
+	<Mousekin.corePart.parts.7.customLabel>오른쪽 폐</Mousekin.corePart.parts.7.customLabel>
+
+	<!-- EN: left kidney -->
+	<Mousekin.corePart.parts.8.customLabel>왼쪽 신장</Mousekin.corePart.parts.8.customLabel>
+
+	<!-- EN: right kidney -->
+	<Mousekin.corePart.parts.9.customLabel>오른쪽 신장</Mousekin.corePart.parts.9.customLabel>
+
+	<!-- EN: left eye -->
+	<Mousekin.corePart.parts.11.parts.0.parts.1.customLabel>왼쪽 눈</Mousekin.corePart.parts.11.parts.0.parts.1.customLabel>
+
+	<!-- EN: right eye -->
+	<Mousekin.corePart.parts.11.parts.0.parts.2.customLabel>오른쪽 눈</Mousekin.corePart.parts.11.parts.0.parts.2.customLabel>
+
+	<!-- EN: left ear -->
+	<Mousekin.corePart.parts.11.parts.0.parts.3.customLabel>왼쪽 귀</Mousekin.corePart.parts.11.parts.0.parts.3.customLabel>
+
+	<!-- EN: right ear -->
+	<Mousekin.corePart.parts.11.parts.0.parts.4.customLabel>오른쪽 귀</Mousekin.corePart.parts.11.parts.0.parts.4.customLabel>
+
+	<!-- EN: left shoulder -->
+	<Mousekin.corePart.parts.12.customLabel>왼쪽 어깨</Mousekin.corePart.parts.12.customLabel>
+
+	<!-- EN: left clavicle -->
+	<Mousekin.corePart.parts.12.parts.0.customLabel>왼쪽 쇄골</Mousekin.corePart.parts.12.parts.0.customLabel>
+
+	<!-- EN: left arm -->
+	<Mousekin.corePart.parts.12.parts.1.customLabel>왼쪽 팔</Mousekin.corePart.parts.12.parts.1.customLabel>
+
+	<!-- EN: left humerus -->
+	<Mousekin.corePart.parts.12.parts.1.parts.0.customLabel>왼쪽 상완골</Mousekin.corePart.parts.12.parts.1.parts.0.customLabel>
+
+	<!-- EN: left radius -->
+	<Mousekin.corePart.parts.12.parts.1.parts.1.customLabel>왼쪽 반경</Mousekin.corePart.parts.12.parts.1.parts.1.customLabel>
+
+	<!-- EN: left paw -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.customLabel>왼발</Mousekin.corePart.parts.12.parts.1.parts.2.customLabel>
+
+	<!-- EN: left pinky -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>왼쪽 새끼손가락</Mousekin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: left ring finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>왼쪽 약지</Mousekin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>왼쪽 가운데 손가락</Mousekin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: left index finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>왼쪽 집게 손가락</Mousekin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: left thumb -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>왼쪽 엄지</Mousekin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: right shoulder -->
+	<Mousekin.corePart.parts.13.customLabel>오른쪽 어깨</Mousekin.corePart.parts.13.customLabel>
+
+	<!-- EN: right clavicle -->
+	<Mousekin.corePart.parts.13.parts.0.customLabel>오른쪽 쇄골</Mousekin.corePart.parts.13.parts.0.customLabel>
+
+	<!-- EN: right arm -->
+	<Mousekin.corePart.parts.13.parts.1.customLabel>오른팔</Mousekin.corePart.parts.13.parts.1.customLabel>
+
+	<!-- EN: right humerus -->
+	<Mousekin.corePart.parts.13.parts.1.parts.0.customLabel>오른쪽 상완골</Mousekin.corePart.parts.13.parts.1.parts.0.customLabel>
+
+	<!-- EN: right radius -->
+	<Mousekin.corePart.parts.13.parts.1.parts.1.customLabel>오른쪽 반지름</Mousekin.corePart.parts.13.parts.1.parts.1.customLabel>
+
+	<!-- EN: right paw -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.customLabel>오른발</Mousekin.corePart.parts.13.parts.1.parts.2.customLabel>
+
+	<!-- EN: right pinky -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>오른쪽 새끼손가락</Mousekin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: right ring finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>오른쪽 약지</Mousekin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>오른쪽 가운데 손가락</Mousekin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: right index finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>오른쪽 검지</Mousekin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: right thumb -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>오른쪽 엄지</Mousekin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: tail -->
+	<Mousekin.corePart.parts.15.customLabel>꼬리</Mousekin.corePart.parts.15.customLabel>
+
+	<!-- EN: left leg -->
+	<Mousekin.corePart.parts.16.customLabel>왼쪽 다리</Mousekin.corePart.parts.16.customLabel>
+
+	<!-- EN: left femur -->
+	<Mousekin.corePart.parts.16.parts.0.customLabel>왼쪽 대퇴골</Mousekin.corePart.parts.16.parts.0.customLabel>
+
+	<!-- EN: left tibia -->
+	<Mousekin.corePart.parts.16.parts.1.customLabel>왼쪽 경골</Mousekin.corePart.parts.16.parts.1.customLabel>
+
+	<!-- EN: left hind paw -->
+	<Mousekin.corePart.parts.16.parts.2.customLabel>왼쪽 뒷발</Mousekin.corePart.parts.16.parts.2.customLabel>
+
+	<!-- EN: left little toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.0.customLabel>왼쪽 새끼발가락</Mousekin.corePart.parts.16.parts.2.parts.0.customLabel>
+
+	<!-- EN: left fourth toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.1.customLabel>왼쪽 네 번째 발가락</Mousekin.corePart.parts.16.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.2.customLabel>왼쪽 가운데 발가락</Mousekin.corePart.parts.16.parts.2.parts.2.customLabel>
+
+	<!-- EN: left second toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.3.customLabel>왼쪽 두 번째 발가락</Mousekin.corePart.parts.16.parts.2.parts.3.customLabel>
+
+	<!-- EN: left big toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.4.customLabel>왼쪽 엄지발가락</Mousekin.corePart.parts.16.parts.2.parts.4.customLabel>
+
+	<!-- EN: right leg -->
+	<Mousekin.corePart.parts.17.customLabel>오른쪽 다리</Mousekin.corePart.parts.17.customLabel>
+
+	<!-- EN: right femur -->
+	<Mousekin.corePart.parts.17.parts.0.customLabel>오른쪽 대퇴골</Mousekin.corePart.parts.17.parts.0.customLabel>
+
+	<!-- EN: right tibia -->
+	<Mousekin.corePart.parts.17.parts.1.customLabel>오른쪽 경골</Mousekin.corePart.parts.17.parts.1.customLabel>
+
+	<!-- EN: right hind paw -->
+	<Mousekin.corePart.parts.17.parts.2.customLabel>오른쪽 뒷발</Mousekin.corePart.parts.17.parts.2.customLabel>
+
+	<!-- EN: right little toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.0.customLabel>오른쪽 새끼발가락</Mousekin.corePart.parts.17.parts.2.parts.0.customLabel>
+
+	<!-- EN: right fourth toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.1.customLabel>오른쪽 네 번째 발가락</Mousekin.corePart.parts.17.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.2.customLabel>오른쪽 가운데 발가락</Mousekin.corePart.parts.17.parts.2.parts.2.customLabel>
+
+	<!-- EN: right second toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.3.customLabel>오른쪽 두 번째 발가락</Mousekin.corePart.parts.17.parts.2.parts.3.customLabel>
+
+	<!-- EN: right big toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.4.customLabel>오른쪽 엄지발가락</Mousekin.corePart.parts.17.parts.2.parts.4.customLabel>
+	
+</LanguageData>

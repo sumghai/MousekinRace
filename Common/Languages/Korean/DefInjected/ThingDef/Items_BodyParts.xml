@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Cloth Mousekin Ear -->
+	<Mousekin_ProstheticClothEar.label>천 마우스킨 귀</Mousekin_ProstheticClothEar.label>
+
+	<!-- EN: A fake Mousekin ear sewn from cloth.\n\nMousekins take great pride in their large rounded ears, as their presence (or absence) greatly affects their standing in Mousekin society. Those who have lost their natural ears through injury or disease wear fake ears to hide their humiliating disfigurement. -->
+	<Mousekin_ProstheticClothEar.description>천으로 꿰매어진 가짜 마우스킨 귀.\n\n마우스킨은 그들의 존재(또는 부재)가 마우스킨 사회에서 그들의 지위에 큰 영향을 미치기 때문에 그들의 크고 둥근 귀에 큰 자부심을 가지고 있습니다. 부상이나 질병으로 원래 귀를 잃은 사람들은 굴욕적인 외모를 숨기기 위해 가짜 귀를 착용합니다.</Mousekin_ProstheticClothEar.description>
+
+	<!-- EN: Cloth Mousekin Tail -->
+	<Mousekin_ProstheticClothTail.label>천 마우스킨 꼬리</Mousekin_ProstheticClothTail.label>
+
+	<!-- EN: A fake Mousekin tail made from cloth twisted and braided into rope.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving. Those who have lost their natural tails through injury and disease wear fake tails, and while the non-living rope tail does not fully restore their loss of balancing ability, it at least attracts less attention than a stump. -->
+	<Mousekin_ProstheticClothTail.description>천으로 꼬아 만든 가짜 마우스킨 꼬리입니다.\n\n일반적인 비인간형 쥐처럼 마우스킨은 움직이는 동안 균형을 잡기 위해 꼬리를 사용합니다. 부상과 질병으로 본래의 꼬리를 잃은 사람들은 가짜 꼬리를 달고, 살아 있지 않은 밧줄 꼬리는 잃어버린 균형 능력을 완전히 회복하지는 못하지만 적어도 그루터기보다는 덜 주목을 받습니다.</Mousekin_ProstheticClothTail.description>
+
+	<!-- EN: Mousekin Ear -->
+	<Mousekin_BodyPartEar.label>마우스킨 귀</Mousekin_BodyPartEar.label>
+
+	<!-- EN: A biological Mousekin ear, most likely harvested from a dead or unwilling Mousekin.\n\nBesides allowing Mousekins to pick up quiet, distant sounds, large rounded ears represent a Mousekin’s personal honor, dignity and standing in their society, and this replacement ear fully restores their loss of hearing ability as well as their social status. -->
+	<Mousekin_BodyPartEar.description>생물학적인 마우스킨 귀는 죽었거나 원하지 않는 마우스킨에서 채취했을 가능성이 높습니다.\n\n마우스킨이 조용하고 멀리 있는 소리를 들을 수 있게 하는 것 외에도 크고 둥근 귀는 마우스킨의 개인적 명예, 존엄성 및 사회에서의 지위를 나타내며, 이 교체용 귀는 완전히 청력 상실과 사회적 지위를 회복합니다.</Mousekin_BodyPartEar.description>
+
+	<!-- EN: Mousekin Tail -->
+	<Mousekin_BodyPartTail.label>마우스킨 꼬리</Mousekin_BodyPartTail.label>
+
+	<!-- EN: A biological Mousekin tail, most likely harvested from a dead or unwilling Mousekin.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving, and this replacement tail fully restores their loss of balancing ability. -->
+	<Mousekin_BodyPartTail.description>생물학적 마우스킨 꼬리, 죽었거나 원하지 않는 마우스킨에서 수확했을 가능성이 큽니다.\n\n일반 비인간형 마우스와 마찬가지로 마우스킨은 움직이는 동안 균형을 잡기 위해 꼬리를 사용하며, 이 대체 꼬리는 잃어버린 균형 능력을 완전히 회복시킵니다.</Mousekin_BodyPartTail.description>
+	
+</LanguageData>

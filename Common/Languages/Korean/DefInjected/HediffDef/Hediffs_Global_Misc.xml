@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: hemlock poisoning -->
+	<Mousekin_HemlockPoisoning.label>헴록 중독</Mousekin_HemlockPoisoning.label>
+
+	<!-- EN: Poison in the bloodstream, from accidental or deliberate ingestion of the high toxic hemlock plant. The smallest of doses is enough to be rapidly fatal to most humanoids. -->
+	<Mousekin_HemlockPoisoning.description>독성이 강한 독미나리를 우발적으로 또는 고의적으로 섭취하여 혈류에 독이 생깁니다. 가장 적은 용량으로도 대부분의 휴머노이드에게 빠르게 치명적일 수 있습니다.</Mousekin_HemlockPoisoning.description>
+
+	<!-- EN: initial -->
+	<Mousekin_HemlockPoisoning.stages.0.label>초기의</Mousekin_HemlockPoisoning.stages.0.label>
+
+	<!-- EN: moderate -->
+	<Mousekin_HemlockPoisoning.stages.1.label>보통의</Mousekin_HemlockPoisoning.stages.1.label>
+
+	<!-- EN: fatal -->
+	<Mousekin_HemlockPoisoning.stages.2.label>치명적인</Mousekin_HemlockPoisoning.stages.2.label>
+
+	<!-- EN: Chonko nut brew high -->
+	<Mousekin_MuroidineHigh.label>촌코 견과 커피 하이 중독</Mousekin_MuroidineHigh.label>
+
+	<!-- EN: The methylxanthine alkaloid muroidine, naturally present in trace quantities in Chonko and Nyam nuts or concentrated in beverages like Chonko nut brew, increases the stimuli in one's nervous system once metabolised, suppressing the urge to sleep and clearing the mind. Increases consciousness by 10% and blood circulation by 5%, as well as reducing rest fall rate by 10%. -->
+	<Mousekin_MuroidineHigh.description>촌코와 니암 넛에 자연적으로 미량 존재하거나 촌코 넛 브루와 같은 음료에 농축된 메틸크산틴 알칼로이드 무로이딘은 신진대사가 끝나면 신경계의 자극을 증가시켜 수면 충동을 억제하고 마음을 맑게 합니다. 의식이 10% 증가하고 혈액 순환이 5% 증가하며 휴식 낙상률이 10% 감소합니다.</Mousekin_MuroidineHigh.description>
+
+	<!-- EN: a Chonko nut brew high -->
+	<Mousekin_MuroidineHigh.labelNoun>촌코 견과 커피 하이 중독</Mousekin_MuroidineHigh.labelNoun>
+
+	<!-- EN: Muroidine tolerance -->
+	<Mousekin_MuroidineTolerance.label>무로이딘 내성</Mousekin_MuroidineTolerance.label>
+
+	<!-- EN: A built-up tolerance to muroidine found in Chonko nut brew. The more severe this tolerance is, the more muroidine it takes to get the same effect. -->
+	<Mousekin_MuroidineTolerance.description>청코 너트 맥주에서 발견되는 무로이딘에 대한 내성. 이 내성이 심할수록 동일한 효과를 얻기 위해 더 많은 무로이딘이 필요합니다.</Mousekin_MuroidineTolerance.description>
+
+	<!-- EN: small -->
+	<Mousekin_MuroidineTolerance.stages.0.label>작은</Mousekin_MuroidineTolerance.stages.0.label>
+
+	<!-- EN: large -->
+	<Mousekin_MuroidineTolerance.stages.1.label>크기가 큰</Mousekin_MuroidineTolerance.stages.1.label>
+
+	<!-- EN: massive -->
+	<Mousekin_MuroidineTolerance.stages.2.label>엄청난</Mousekin_MuroidineTolerance.stages.2.label>
+
+	<!-- EN: Muroidine addiction -->
+	<Mousekin_MuroidineAddiction.label>무로이딘 중독</Mousekin_MuroidineAddiction.label>
+
+	<!-- EN: A chemical addiction to muroidine. Long-term presence of muroidine has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the methylxanthine alkaloid.\n\nWithout regular consumption of muroidine-rich beverages like Chonko nut brew, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction. -->
+	<Mousekin_MuroidineAddiction.description>무로이딘에 대한 화학 중독. 무로이딘이 장기간 존재하면 세포 수준에서 신경학적 적응이 일어나므로 뇌는 메틸크산틴 알칼로이드 없이는 더 이상 제대로 기능할 수 없습니다.\n\n청코 너트 브루와 같은 무로이딘이 풍부한 음료를 정기적으로 섭취하지 않으면 금단 증상이 시작됩니다. 그러나 장기간의 금욕은 뇌가 정상 상태로 다시 적응하도록 강제하여 중독을 해결합니다.</Mousekin_MuroidineAddiction.description>
+
+	<!-- EN: withdrawal -->
+	<Mousekin_MuroidineAddiction.stages.1.label>철수</Mousekin_MuroidineAddiction.stages.1.label>
+
+	<!-- EN: Mousekin mead high -->
+	<Mousekin_MeadHigh.label>마우스킨 미드 하이</Mousekin_MeadHigh.label>
+
+	<!-- EN: Increased dopamine levels in the body from consuming Mousekin mead reduces chances of mental breaks. -->
+	<Mousekin_MeadHigh.description>마우스킨 미드를 섭취함으로써 신체의 도파민 수치가 증가하면 정신적 휴식의 가능성이 줄어듭니다.</Mousekin_MeadHigh.description>
+
+	<!-- EN: warm -->
+	<Mousekin_MeadHigh.stages.0.label>따뜻한</Mousekin_MeadHigh.stages.0.label>
+
+	<!-- EN: tipsy -->
+	<Mousekin_MeadHigh.stages.1.label>기운</Mousekin_MeadHigh.stages.1.label>
+
+	<!-- EN: drunk -->
+	<Mousekin_MeadHigh.stages.2.label>술 취한</Mousekin_MeadHigh.stages.2.label>
+
+	<!-- EN: hammered -->
+	<Mousekin_MeadHigh.stages.3.label>망치질</Mousekin_MeadHigh.stages.3.label>
+
+	<!-- EN: blackout -->
+	<Mousekin_MeadHigh.stages.4.label>정전</Mousekin_MeadHigh.stages.4.label>
+
+	<!-- EN: Satiated hunger (from country bread) -->
+	<Mousekin_SatiatedHunger10.label>포만감있는 허기 (시골 빵)</Mousekin_SatiatedHunger10.label>
+
+	<!-- EN: Consuming country bread lowers hunger rate by 10% for 12 hours. -->
+	<Mousekin_SatiatedHunger10.description>시골 빵을 먹으면 12시간 동안 공복률이 10% 감소합니다.</Mousekin_SatiatedHunger10.description>
+
+	<!-- EN: Satiated hunger (from ploughman's lunch) -->
+	<Mousekin_SatiatedHunger20.label>포만감있는 허기 (쟁기질하는 사람의 점심)</Mousekin_SatiatedHunger20.label>
+
+	<!-- EN: Consuming a serving of ploughman's lunch lowers hunger rate by 20% for 12 hours. -->
+	<Mousekin_SatiatedHunger20.description>농부의 점심을 1인분 먹으면 12시간 동안 배고픔이 20% 감소합니다.</Mousekin_SatiatedHunger20.description>
+
+	<!-- EN: Satiated hunger (from bread bowl) -->
+	<Mousekin_SatiatedHunger35.label>포만감있는 허기 （빵 그릇）</Mousekin_SatiatedHunger35.label>
+
+	<!-- EN: Consuming a bread bowl lowers hunger rate by 35% for 12 hours.</Mousekin_SatiatedHunger35.description> -->
+	<Mousekin_SatiatedHunger35.description>빵 그릇을 먹으면 12시간 동안 배고픔이 35% 감소합니다.</Mousekin_SatiatedHunger35.description>
+	
+</LanguageData>

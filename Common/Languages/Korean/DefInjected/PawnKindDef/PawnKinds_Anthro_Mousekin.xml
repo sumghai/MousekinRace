@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin colonist -->
+	<MousekinColonist.label>마우스킨 식민지 개척자</MousekinColonist.label>
+
+	<!-- EN: Mousekin colonists -->
+	<MousekinColonist.labelPlural>마우스킨 식민지 개척자</MousekinColonist.labelPlural>
+
+	<!-- EN: Lord Protector -->
+	<MousekinLordProtector.label>호국경</MousekinLordProtector.label>
+
+	<!-- EN: Lord Protectors -->
+	<MousekinLordProtector.labelPlural>호국경</MousekinLordProtector.labelPlural>
+
+	<!-- EN: Mousekin royalty -->
+	<MousekinRoyalty.label>마우스킨 왕족</MousekinRoyalty.label>
+
+	<!-- EN: Mousekin royalty -->
+	<MousekinRoyalty.labelPlural>마우스킨 왕족</MousekinRoyalty.labelPlural>
+
+	<!-- EN: Mousekin noble -->
+	<MousekinNoble.label>마우스킨 고귀한</MousekinNoble.label>
+
+	<!-- EN: Mousekin nobles -->
+	<MousekinNoble.labelPlural>마우스킨 고귀한</MousekinNoble.labelPlural>
+
+	<!-- EN: Mousekin inquisitor -->
+	<MousekinInquisitor.label>마우스킨 조사자</MousekinInquisitor.label>
+
+	<!-- EN: Mousekin inquisitors -->
+	<MousekinInquisitor.labelPlural>마우스킨 조사자</MousekinInquisitor.labelPlural>
+
+	<!-- EN: Mousekin priest -->
+	<MousekinPriest.label>마우스킨 성직자</MousekinPriest.label>
+
+	<!-- EN: Mousekin priests -->
+	<MousekinPriest.labelPlural>마우스킨 성직자</MousekinPriest.labelPlural>
+
+	<!-- EN: Mousekin nun -->
+	<MousekinNun.label>마우스킨 수녀</MousekinNun.label>
+
+	<!-- EN: Mousekin nuns -->
+	<MousekinNun.labelPlural>마우스킨 수녀</MousekinNun.labelPlural>
+
+	<!-- EN: Mousekin knight commander -->
+	<MousekinKnightCommander.label>마우스킨 기사 사령관</MousekinKnightCommander.label>
+
+	<!-- EN: Mousekin knight commanders -->
+	<MousekinKnightCommander.labelPlural>마우스킨 기사 사령관</MousekinKnightCommander.labelPlural>
+
+	<!-- EN: Mousekin elite Guardener -->
+	<MousekinGuardenerElite.label>마우스킨 엘리트 정원경비원</MousekinGuardenerElite.label>
+
+	<!-- EN: Mousekin elite Guardeners -->
+	<MousekinGuardenerElite.labelPlural>마우스킨 엘리트 정원경비원</MousekinGuardenerElite.labelPlural>
+
+	<!-- EN: Mousekin knight -->
+	<MousekinKnight.label>마우스킨 기사</MousekinKnight.label>
+
+	<!-- EN: Mousekin knights -->
+	<MousekinKnight.labelPlural>마우스킨 기사</MousekinKnight.labelPlural>
+
+	<!-- EN: Mousekin Guardener -->
+	<MousekinGuardener.label>마우스킨 정원경비원</MousekinGuardener.label>
+
+	<!-- EN: Mousekin Guardeners -->
+	<MousekinGuardener.labelPlural>마우스킨 정원경비원</MousekinGuardener.labelPlural>
+
+	<!-- EN: Mousekin squire -->
+	<MousekinKnightApprentice.label>마우스킨 자작농</MousekinKnightApprentice.label>
+
+	<!-- EN: Mousekin squires -->
+	<MousekinKnightApprentice.labelPlural>마우스킨 자작농</MousekinKnightApprentice.labelPlural>
+
+	<!-- EN: Mousekin apprentice Guardener -->
+	<MousekinGuardenerApprentice.label>마우스킨 견습생 정원경비원</MousekinGuardenerApprentice.label>
+
+	<!-- EN: Mousekin apprentice Guardeners -->
+	<MousekinGuardenerApprentice.labelPlural>마우스킨 견습생 정원경비원</MousekinGuardenerApprentice.labelPlural>
+
+	<!-- EN: Mousekin doctor -->
+	<MousekinDoctor.label>마우스킨 의사</MousekinDoctor.label>
+
+	<!-- EN: Mousekin doctors -->
+	<MousekinDoctor.labelPlural>마우스킨 의사</MousekinDoctor.labelPlural>
+
+	<!-- EN: Mousekin servant -->
+	<MousekinServantHighClass.label>마우스킨 하인</MousekinServantHighClass.label>
+
+	<!-- EN: Mousekin servants -->
+	<MousekinServantHighClass.labelPlural>마우스킨 하인</MousekinServantHighClass.labelPlural>
+
+	<!-- EN: Mousekin chef -->
+	<MousekinServantChef.label>마우스킨 요리사</MousekinServantChef.label>
+
+	<!-- EN: Mousekin chefs -->
+	<MousekinServantChef.labelPlural>마우스킨 요리사</MousekinServantChef.labelPlural>
+
+	<!-- EN: Mousekin servant -->
+	<MousekinServant.label>마우스킨 하인</MousekinServant.label>
+
+	<!-- EN: Mousekin servants -->
+	<MousekinServant.labelPlural>마우스킨 하인</MousekinServant.labelPlural>
+
+	<!-- EN: Mousekin tradesman -->
+	<MousekinTradesman.label>마우스킨 장인</MousekinTradesman.label>
+
+	<!-- EN: Mousekin tradesmen -->
+	<MousekinTradesman.labelPlural>마우스킨 장인</MousekinTradesman.labelPlural>
+
+	<!-- EN: Mousekin mouseketeer -->
+	<MousekinMusketeer.label>마우스킨 총병</MousekinMusketeer.label>
+
+	<!-- EN: Mousekin mouseketeers -->
+	<MousekinMusketeer.labelPlural>마우스킨 총병</MousekinMusketeer.labelPlural>
+
+	<!-- EN: Mousekin crossbowman -->
+	<MousekinCrossbowman.label>마우스킨 석궁수</MousekinCrossbowman.label>
+
+	<!-- EN: Mousekin crossbowmen -->
+	<MousekinCrossbowman.labelPlural>마우스킨 석궁수</MousekinCrossbowman.labelPlural>
+
+	<!-- EN: Mousekin pikeman -->
+	<MousekinPikeman.label>마우스킨 장창병</MousekinPikeman.label>
+
+	<!-- EN: Mousekin pikemen -->
+	<MousekinPikeman.labelPlural>마우스킨 장창병</MousekinPikeman.labelPlural>
+
+	<!-- EN: Mousekin trader -->
+	<MousekinTrader.label>마우스킨 상인</MousekinTrader.label>
+
+	<!-- EN: Mousekin traders -->
+	<MousekinTrader.labelPlural>마우스킨 상인</MousekinTrader.labelPlural>
+
+	<!-- EN: Mousekin peasant -->
+	<MousekinPeasant.label>마우스킨 농부</MousekinPeasant.label>
+
+	<!-- EN: Mousekin peasants -->
+	<MousekinPeasant.labelPlural>마우스킨 농부</MousekinPeasant.labelPlural>
+
+	<!-- EN: Mousekin slaver -->
+	<MousekinTraderSlaver.label>마우스킨 노예 상인</MousekinTraderSlaver.label>
+
+	<!-- EN: Mousekin slavers -->
+	<MousekinTraderSlaver.labelPlural>마우스킨 노예 상인</MousekinTraderSlaver.labelPlural>
+
+	<!-- EN: Mousekin slave -->
+	<MousekinSlave.label>마우스킨 노예</MousekinSlave.label>
+
+	<!-- EN: Mousekin slaves -->
+	<MousekinSlave.labelPlural>마우스킨 노예</MousekinSlave.labelPlural>
+
+	<!-- EN: Mousekin councilor -->
+	<MousekinIndyTownCouncilor.label>마우스킨 평의원</MousekinIndyTownCouncilor.label>
+
+	<!-- EN: Mousekin councilors -->
+	<MousekinIndyTownCouncilor.labelPlural>마우스킨 평의원</MousekinIndyTownCouncilor.labelPlural>
+
+	<!-- EN: Mousekin town soldier -->
+	<MousekinIndyTownSoldier.label>마우스킨 마을 군인</MousekinIndyTownSoldier.label>
+
+	<!-- EN: Mousekin town soldiers -->
+	<MousekinIndyTownSoldier.labelPlural>마우스킨 마을 군인</MousekinIndyTownSoldier.labelPlural>
+
+	<!-- EN: Mousekin town farmer -->
+	<MousekinIndyTownFarmer.label>마우스킨 마을 농부</MousekinIndyTownFarmer.label>
+
+	<!-- EN: Mousekin town farmers -->
+	<MousekinIndyTownFarmer.labelPlural>마우스킨 마을 농부</MousekinIndyTownFarmer.labelPlural>
+
+	<!-- EN: Mousekin nomad trader -->
+	<MousekinTraderNomad.label>마우스킨 유목민 상인</MousekinTraderNomad.label>
+
+	<!-- EN: Mousekin nomad traders -->
+	<MousekinTraderNomad.labelPlural>마우스킨 유목민 상인</MousekinTraderNomad.labelPlural>
+
+	<!-- EN: Mousekin nomad -->
+	<MousekinNomad.label>마우스킨 유목민</MousekinNomad.label>
+
+	<!-- EN: Mousekin nomads -->
+	<MousekinNomad.labelPlural>마우스킨 유목민</MousekinNomad.labelPlural>
+
+	<!-- EN: Mousekin brigand -->
+	<MousekinRaider.label>마우스킨 산적</MousekinRaider.label>
+
+	<!-- EN: Mousekin brigands -->
+	<MousekinRaider.labelPlural>마우스킨 산적</MousekinRaider.labelPlural>
+
+	<!-- EN: Mousekin wanderer -->
+	<MousekinWanderer.label>마우스킨 뜨내기</MousekinWanderer.label>
+
+	<!-- EN: Mousekin wanderers -->
+	<MousekinWanderer.labelPlural>마우스킨 뜨내기</MousekinWanderer.labelPlural>
+	
+</LanguageData>

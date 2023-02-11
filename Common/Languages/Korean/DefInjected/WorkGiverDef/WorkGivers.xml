@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make things at crafting bench -->
+	<Mousekin_DoBillsUseCraftingBench.label>작업대에서 물건 만들기</Mousekin_DoBillsUseCraftingBench.label>
+
+	<!-- EN: craft -->
+	<Mousekin_DoBillsUseCraftingBench.verb>제작</Mousekin_DoBillsUseCraftingBench.verb>
+
+	<!-- EN: crafting at -->
+	<Mousekin_DoBillsUseCraftingBench.gerund>에서 제작</Mousekin_DoBillsUseCraftingBench.gerund>
+
+	<!-- EN: harvest products from beehives -->
+	<Mousekin_HarvestFromBeehive.label>벌통에서 제품 수확</Mousekin_HarvestFromBeehive.label>
+
+	<!-- EN: harvest products from -->
+	<Mousekin_HarvestFromBeehive.verb>에서 제품을 수확</Mousekin_HarvestFromBeehive.verb>
+
+	<!-- EN: harvesting products from -->
+	<Mousekin_HarvestFromBeehive.gerund>에서 제품을 수확</Mousekin_HarvestFromBeehive.gerund>
+	
+</LanguageData>

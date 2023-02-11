@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: ate cheese -->
+	<Mousekin_Thought_AteCheese.stages.0.label>치즈를 먹었다</Mousekin_Thought_AteCheese.stages.0.label>
+
+	<!-- EN: I ate some cheese. I guess it tastes alright, but I'd prefer some crunchy roasted nuts or juicy berries. -->
+	<Mousekin_Thought_AteCheese.stages.0.description>나는 치즈를 먹었다. 평범한 맛인 것 같지만 바삭 바삭하게 구운 견과류 나 육즙이 많은 딸기를 선호합니다.</Mousekin_Thought_AteCheese.stages.0.description>
+
+	<!-- EN: ate cheese x2 -->
+	<Mousekin_Thought_AteCheese.stages.1.label>치즈를 먹었다 x2</Mousekin_Thought_AteCheese.stages.1.label>
+
+	<!-- EN: I ate some more cheese. I'm starting to get sick of this. -->
+	<Mousekin_Thought_AteCheese.stages.1.description>치즈를 더 먹었습니다. 나는 이것에 질리기 시작했다.</Mousekin_Thought_AteCheese.stages.1.description>
+
+	<!-- EN: ate cheese x3 -->
+	<Mousekin_Thought_AteCheese.stages.2.label>치즈를 먹었다 x3</Mousekin_Thought_AteCheese.stages.2.label>
+
+	<!-- EN: Cheese again? Ugh. -->
+	<Mousekin_Thought_AteCheese.stages.2.description>또 치즈? 으.</Mousekin_Thought_AteCheese.stages.2.description>
+
+	<!-- EN: ate cheese x4 -->
+	<Mousekin_Thought_AteCheese.stages.3.label>치즈를 먹었다 x4</Mousekin_Thought_AteCheese.stages.3.label>
+
+	<!-- EN: No...more...cheese...please... -->
+	<Mousekin_Thought_AteCheese.stages.3.description>안돼…더…치즈…제발…</Mousekin_Thought_AteCheese.stages.3.description>
+
+	<!-- EN: ate corpse -->
+	<Mousekin_Thought_AteCorpse.stages.0.label>시체 섭취</Mousekin_Thought_AteCorpse.stages.0.label>
+
+	<!-- EN: I had to eat the flesh of a dead creature without even butchering or cooking it, like a filthy, primitive rat. -->
+	<Mousekin_Thought_AteCorpse.stages.0.description>나는 더럽고 원시적인 쥐처럼 죽은 생물의 살을 도살하거나 요리하지도 않고 먹어야만 했다.</Mousekin_Thought_AteCorpse.stages.0.description>
+
+	<!-- EN: ate cooked human meat -->
+	<Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.label>인육 가공품 섭취</Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.label>
+
+	<!-- EN: Huh. Who knew cooked smoothskin meat tastes like pork tenderloin? -->
+	<Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.description>흠. 익힌 부드러운 껍질 고기가 돼지 안심과 같은 맛이 나는 것을 누가 알았습니까?</Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.description>
+
+	<!-- EN: ate raw human meat -->
+	<Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.label>인육 섭취</Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.label>
+
+	<!-- EN: Ew, it tastes like raw pork! -->
+	<Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.description>왝, 생 돼지 고기 맛!</Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.description>
+
+	<!-- EN: ate kibble -->
+	<Mousekin_Thought_AteKibble.stages.0.label>사료 섭취</Mousekin_Thought_AteKibble.stages.0.label>
+
+	<!-- EN: I had to eat animal kibble, like a filthy, primitive rat. -->
+	<Mousekin_Thought_AteKibble.stages.0.description>나는 더럽고 원시적인 쥐처럼 동물 사료를 먹어야 했습니다.</Mousekin_Thought_AteKibble.stages.0.description>
+
+	<!-- EN: cooked cannibalism -->
+	<Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.label>마우스킨 가공품 섭취</Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.label>
+
+	<!-- EN: My meal was made from the cooked meat of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.description>내 식사는 내 형제들의 요리된 고기로 만들어졌다! 발레리안, 내가 죄를 지었으니 용서해주세요!</Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.description>
+
+	<!-- EN: raw cannibalism -->
+	<Mousekin_Thought_AteMousekinMeatDirect.stages.0.label>원시 식인 풍습</Mousekin_Thought_AteMousekinMeatDirect.stages.0.label>
+
+	<!-- EN: I ate the raw flesh of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_AteMousekinMeatDirect.stages.0.description>나는 내 형제들의 생고기를 먹었다! 발레리안, 내가 죄를 지었으니 용서해주세요!</Mousekin_Thought_AteMousekinMeatDirect.stages.0.description>
+
+	<!-- EN: ate raw food -->
+	<Mousekin_Thought_AteRawFood.stages.0.label>생식</Mousekin_Thought_AteRawFood.stages.0.label>
+
+	<!-- EN: I had to eat raw food. We should be cooking that kind of food before eating it. We're not filthy, primitive rats. -->
+	<Mousekin_Thought_AteRawFood.stages.0.description>나는 생식을 먹어야 했다. 우리는 먹기 전에 그런 종류의 음식을 요리해야 합니다. 우리는 더럽고 원시적인 쥐가 아닙니다.</Mousekin_Thought_AteRawFood.stages.0.description>
+
+	<!-- EN: ate Mousekin trail mix -->
+	<Mousekin_Thought_AteTrailMix.stages.0.label>마우스킨 믹스넛 먹었다</Mousekin_Thought_AteTrailMix.stages.0.label>
+
+	<!-- EN: I love trail mix! Crunchy nuts, chewy dried berries, yummy popcorn! -->
+	<Mousekin_Thought_AteTrailMix.stages.0.description>나는 혼합 견과류를 좋아합니다! 바삭바삭한 견과류, 쫄깃한 말린 딸기, 맛있는 팝콘!</Mousekin_Thought_AteTrailMix.stages.0.description>
+
+	<!-- EN: ate without table -->
+	<Mousekin_Thought_AteWithoutTable.stages.0.label>바닥에서 식사</Mousekin_Thought_AteWithoutTable.stages.0.label>
+
+	<!-- EN: I had to eat a meal off the ground, like a filthy, primitive rat. Can't we get a joiner to make us a proper table? -->
+	<Mousekin_Thought_AteWithoutTable.stages.0.description>나는 더럽고 원시적인 쥐처럼 땅바닥에서 밥을 먹어야 했다. 우리를 제대로 된 테이블로 만들어줄 조이너를 구하면 안 될까요?</Mousekin_Thought_AteWithoutTable.stages.0.description>
+
+	<!-- EN: attended wedding -->
+	<Mousekin_Thought_AttendedWedding.stages.0.label>결혼식 참여</Mousekin_Thought_AttendedWedding.stages.0.label>
+
+	<!-- EN: May they grow the biggest and most beautiful garden together! -->
+	<Mousekin_Thought_AttendedWedding.stages.0.description>그들이 함께 가장 크고 가장 아름다운 정원을 가꾸기를 바랍니다!</Mousekin_Thought_AttendedWedding.stages.0.description>
+
+	<!-- EN: I butchered human corpse -->
+	<Mousekin_Thought_ButcheredHumanCorpse.stages.0.label>인간 도축</Mousekin_Thought_ButcheredHumanCorpse.stages.0.label>
+
+	<!-- EN: Huh, these smoothskins have such strange bones and meat. -->
+	<Mousekin_Thought_ButcheredHumanCorpse.stages.0.description>허, 이 매끄러운 껍질에 이상한 뼈와 고기가 들어 있군요.</Mousekin_Thought_ButcheredHumanCorpse.stages.0.description>
+
+	<!-- EN: I butchered another Mousekin -->
+	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.label>마우스킨 도축</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.label>
+
+	<!-- EN: I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>나는 동물처럼 우리 형제 중 한 명을 도살했습니다. 이제 나는 그 위대한 정원에 절대 들어가지 못할 것입니다!</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>
+
+	<!-- EN: colonist left unburied -->
+	<Mousekin_Thought_ColonistLeftUnburied.stages.0.label>정착민 시체 방치</Mousekin_Thought_ColonistLeftUnburied.stages.0.label>
+
+	<!-- EN: One of us died and we're just leaving them lying in the open. We should give them a proper burial, or their soul will never reach The Great Garden. -->
+	<Mousekin_Thought_ColonistLeftUnburied.stages.0.description>우리 중 한 명이 죽었고 우리는 그들을 공개적으로 남겨두었습니다. 우리는 그들에게 적절한 매장을 제공해야 합니다. 그렇지 않으면 그들의 영혼이 위대한 정원에 도달하지 못할 것입니다.</Mousekin_Thought_ColonistLeftUnburied.stages.0.description>
+
+	<!-- EN: drank Chonko nut brew -->
+	<Mousekin_Thought_DrankChonkoNutBrew.stages.0.label>촌코 견과 커피 마셨다</Mousekin_Thought_DrankChonkoNutBrew.stages.0.label>
+
+	<!-- EN: Mmm, delicious! I feel so much more awake already! -->
+	<Mousekin_Thought_DrankChonkoNutBrew.stages.0.description>음, 맛있다! 나는 이미 훨씬 더 깨어 있다고 느낍니다!</Mousekin_Thought_DrankChonkoNutBrew.stages.0.description>
+
+	<!-- EN: fellow apostates -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.1.label>동료 배교자들</Mousekin_Thought_FaithAffinityOpinions.stages.1.label>
+
+	<!-- EN: apostate vs inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.4.label>배교자 vs 종교재판관</Mousekin_Thought_FaithAffinityOpinions.stages.4.label>
+
+	<!-- EN: devotionist vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.6.label>헌신자 vs 배교자</Mousekin_Thought_FaithAffinityOpinions.stages.6.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.7.label>위대한 정원에 대한 공통의 믿음</Mousekin_Thought_FaithAffinityOpinions.stages.7.label>
+
+	<!-- EN: devotionist vs inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.9.label>헌신자 vs 심문 주의자</Mousekin_Thought_FaithAffinityOpinions.stages.9.label>
+
+	<!-- EN: pious vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.11.label>경건한 vs 배교자</Mousekin_Thought_FaithAffinityOpinions.stages.11.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.12.label>위대한 정원에 대한 공통의 믿음</Mousekin_Thought_FaithAffinityOpinions.stages.12.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.13.label>위대한 정원에 대한 공통의 믿음</Mousekin_Thought_FaithAffinityOpinions.stages.13.label>
+
+	<!-- EN: cautious respect for inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.14.label>심문관에 대한 신중한 존중</Mousekin_Thought_FaithAffinityOpinions.stages.14.label>
+
+	<!-- EN: inquisitionist vs non-pious -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.15.label>종교 재판관 vs 비경건</Mousekin_Thought_FaithAffinityOpinions.stages.15.label>
+
+	<!-- EN: inquisitionist vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.16.label>종교 재판관 vs 배교자</Mousekin_Thought_FaithAffinityOpinions.stages.16.label>
+
+	<!-- EN: inquisitionist vs devotionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.17.label>인퀴지션스트 vs 헌신주의자</Mousekin_Thought_FaithAffinityOpinions.stages.17.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.18.label>위대한 정원에 대한 공통의 믿음</Mousekin_Thought_FaithAffinityOpinions.stages.18.label>
+
+	<!-- EN: shared zealotry in the Inquisition -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.19.label>인퀴지션에서 공유된 열정</Mousekin_Thought_FaithAffinityOpinions.stages.19.label>
+
+	<!-- EN: got married to {0} -->
+	<Mousekin_Thought_GotMarried.stages.0.label>{0}(와)과 결혼</Mousekin_Thought_GotMarried.stages.0.label>
+
+	<!-- EN: I got married! May we grow the biggest and most beautiful garden together! -->
+	<Mousekin_Thought_GotMarried.stages.0.description>나는 결혼했다! 가장 크고 아름다운 정원을 함께 가꾸길 바랍니다!</Mousekin_Thought_GotMarried.stages.0.description>
+
+	<!-- EN: buried in sarcophagus -->
+	<Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.label>관 매장</Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.label>
+
+	<!-- EN: We buried someone in an ornamented sarcophagus. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.description>우리는 장식된 석관에 누군가를 묻었습니다. 그들의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.description>
+
+	<!-- EN: we butchered human corpse -->
+	<Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.label>인간 도축 목격</Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.label>
+
+	<!-- EN: We butchered up a smoothskin. Apparently, they have really tiny ears, stiff ribs and long leg bones. How do they hear anything, squeeze through small gaps, and not fall over all the time? -->
+	<Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.description>우리는 매끄러운 피부를 도살했습니다. 분명히 그들은 정말 작은 귀, 뻣뻣한 갈비뼈 및 긴 다리 뼈를 가지고 있습니다. 그들은 어떻게 소리를 듣고, 작은 틈을 비집고 들어가며, 항상 넘어지지 않습니까?</Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.description>
+
+	<!-- EN: we butchered another Mousekin -->
+	<Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.label>마우스킨 도축 목격</Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.label>
+
+	<!-- EN: We butchered up one of our brethren like an animal. Now we'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.description>우리는 동물처럼 형제 중 한 명을 도살했습니다. 이제 우리는 위대한 정원에 절대 들어갈 수 없습니다!</Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.description>
+
+	<!-- EN: colonist died -->
+	<Mousekin_Thought_KnowColonistDied.stages.0.label>정착민 사망</Mousekin_Thought_KnowColonistDied.stages.0.label>
+
+	<!-- EN: May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistDied.stages.0.description>그들의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_KnowColonistDied.stages.0.description>
+
+	<!-- EN: justified execution of colonist -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.0.label>정당한 정착민 처형 목격</Mousekin_Thought_KnowColonistExecuted.stages.0.label>
+
+	<!-- EN: A guilty colonist was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.0.description>유죄 식민지 주민이 처형되었습니다. 현자 발레리안이 자비를 베풀어 위대한 정원에 자리를 내어주길.</Mousekin_Thought_KnowColonistExecuted.stages.0.description>
+
+	<!-- EN: colonist euthanized -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.1.label>정착민 안락사 목격</Mousekin_Thought_KnowColonistExecuted.stages.1.label>
+
+	<!-- EN: A colonist was euthanized. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.1.description>식민지 주민이 안락사당했습니다. 그들의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_KnowColonistExecuted.stages.1.description>
+
+	<!-- EN: colonist executed -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.2.label>정착민 처형 목격</Mousekin_Thought_KnowColonistExecuted.stages.2.label>
+
+	<!-- EN: A colonist was killed in cold blood. Their blood is on our paws. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.2.description>식민지 주민이 냉혈하게 살해당했습니다. 그들의 피가 우리 손에 있습니다.</Mousekin_Thought_KnowColonistExecuted.stages.2.description>
+
+	<!-- EN: colonist organ-harvested -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.3.label>정착민 장기 적출 살해 목격</Mousekin_Thought_KnowColonistExecuted.stages.3.label>
+
+	<!-- EN: A colonist died because we cut them up for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.3.description>식민지 주민은 우리가 신체 부위를 자르기 때문에 사망했습니다. 우리의 영혼은 황무지에 저주를 받게 될 것입니다!</Mousekin_Thought_KnowColonistExecuted.stages.3.description>
+
+	<!-- EN: colonist's organ harvested -->
+	<Mousekin_Thought_KnowColonistOrganHarvested.stages.0.label>정착민의 장기가 적출됨</Mousekin_Thought_KnowColonistOrganHarvested.stages.0.label>
+
+	<!-- EN: We cut up one of our own for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowColonistOrganHarvested.stages.0.description>우리는 신체 부위를 위해 우리 자신의 것을 자릅니다. 우리의 영혼은 황무지에 저주를 받게 될 것입니다!</Mousekin_Thought_KnowColonistOrganHarvested.stages.0.description>
+
+	<!-- EN: justified execution -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.0.label>정당한 처형 목격</Mousekin_Thought_KnowGuestExecuted.stages.0.label>
+
+	<!-- EN: A guilty prisoner or guest was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.0.description>죄수 또는 손님이 처형되었습니다. 현명한 발레리안이 자비를 베풀어 위대한 정원에 자리를 내어주길.</Mousekin_Thought_KnowGuestExecuted.stages.0.description>
+
+	<!-- EN: someone was euthanized -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.1.label>안락사 목격</Mousekin_Thought_KnowGuestExecuted.stages.1.label>
+
+	<!-- EN: A prisoner or guest was euthanized. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.1.description>죄수 또는 손님이 안락사되었습니다. 그들의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_KnowGuestExecuted.stages.1.description>
+
+	<!-- EN: someone was executed -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.2.label>처형 목격</Mousekin_Thought_KnowGuestExecuted.stages.2.label>
+
+	<!-- EN: A prisoner or guest was killed in cold blood. Their blood is on our paws. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.2.description>죄수나 손님이 냉혈로 살해당했습니다. 그들의 피가 우리 손에 있습니다.</Mousekin_Thought_KnowGuestExecuted.stages.2.description>
+
+	<!-- EN: someone was organ-murdered -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.3.label>장기 적출 살해 목격</Mousekin_Thought_KnowGuestExecuted.stages.3.label>
+
+	<!-- EN: A prisoner or guest died because we cut them up for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.3.description>죄수나 손님이 신체 부위를 잘라서 죽었습니다. 우리의 영혼은 황무지에 저주를 받게 될 것입니다!</Mousekin_Thought_KnowGuestExecuted.stages.3.description>
+
+	<!-- EN: someone's organ harvested -->
+	<Mousekin_Thought_KnowGuestOrganHarvested.stages.0.label>수감자나 손님의 장기가 적출됨</Mousekin_Thought_KnowGuestOrganHarvested.stages.0.label>
+
+	<!-- EN: We cut up a guest or prisoner for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowGuestOrganHarvested.stages.0.description>우리는 신체 부위를 위해 손님이나 죄수를 자릅니다. 우리의 영혼은 황무지에 저주를 받게 될 것입니다!</Mousekin_Thought_KnowGuestOrganHarvested.stages.0.description>
+
+	<!-- EN: One prosthetic ear -->
+	<Mousekin_Thought_MissingEars.stages.0.label>하나의 가짜 귀</Mousekin_Thought_MissingEars.stages.0.label>
+
+	<!-- EN: I had to get my missing ear replaced with a cloth prosthetic. I hope nobody else notices. -->
+	<Mousekin_Thought_MissingEars.stages.0.description>잃어버린 귀를 천 의수로 교체해야 했습니다. 아무도 눈치채지 못하길 바랍니다.</Mousekin_Thought_MissingEars.stages.0.description>
+
+	<!-- EN: Two prosthetic ears -->
+	<Mousekin_Thought_MissingEars.stages.1.label>두 개의 가짜 귀</Mousekin_Thought_MissingEars.stages.1.label>
+
+	<!-- EN: I had to get both my missing ears replaced with cloth prosthetics. I hope nobody else notices. -->
+	<Mousekin_Thought_MissingEars.stages.1.description>없어진 두 귀를 천 보철물로 교체해야 했습니다. 아무도 눈치채지 못하길 바랍니다.</Mousekin_Thought_MissingEars.stages.1.description>
+
+	<!-- EN: One ear missing -->
+	<Mousekin_Thought_MissingEars.stages.2.label>한쪽 귀가 없다</Mousekin_Thought_MissingEars.stages.2.label>
+
+	<!-- EN: I've lost one of my ears. This is humiliating! -->
+	<Mousekin_Thought_MissingEars.stages.2.description>한쪽 귀를 잃었습니다. 굴욕적이야!</Mousekin_Thought_MissingEars.stages.2.description>
+
+	<!-- EN: One prosthetic and one missing ear -->
+	<Mousekin_Thought_MissingEars.stages.3.label>가짜 귀 하나와 빠진 귀 하나</Mousekin_Thought_MissingEars.stages.3.label>
+
+	<!-- EN: I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating! -->
+	<Mousekin_Thought_MissingEars.stages.3.description>두 귀를 모두 잃었지만 한쪽 귀만 천 의수로 교체했습니다. 굴욕적이야!</Mousekin_Thought_MissingEars.stages.3.description>
+
+	<!-- EN: Both ears missing -->
+	<Mousekin_Thought_MissingEars.stages.4.label>양쪽 귀가 없다</Mousekin_Thought_MissingEars.stages.4.label>
+
+	<!-- EN: I've lost both my ears! I'd rather die than live with this humiliation! -->
+	<Mousekin_Thought_MissingEars.stages.4.description>두 귀를 잃었다! 이 굴욕을 안고 살느니 차라리 죽겠어!</Mousekin_Thought_MissingEars.stages.4.description>
+
+	<!-- EN: my aunt {0} died -->
+	<Mousekin_Thought_MyAuntDied.stages.0.label>이모 {0} 사망</Mousekin_Thought_MyAuntDied.stages.0.label>
+
+	<!-- EN: My aunt died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyAuntDied.stages.0.description>이모가 죽었어. 그녀의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyAuntDied.stages.0.description>
+
+	<!-- EN: my brother {0} died -->
+	<Mousekin_Thought_MyBrotherDied.stages.0.label>형제(남매) {0} 사망</Mousekin_Thought_MyBrotherDied.stages.0.label>
+
+	<!-- EN: My brother died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyBrotherDied.stages.0.description>가족이 죽었어. 그의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyBrotherDied.stages.0.description>
+
+	<!-- EN: my cousin {0} died -->
+	<Mousekin_Thought_MyCousinDied.stages.0.label>사촌 {0} 사망</Mousekin_Thought_MyCousinDied.stages.0.label>
+
+	<!-- EN: My cousin died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyCousinDied.stages.0.description>내 사촌이 죽었어. 그의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyCousinDied.stages.0.description>
+
+	<!-- EN: my daughter {0} died -->
+	<Mousekin_Thought_MyDaughterDied.stages.0.label>딸 {0} 사망</Mousekin_Thought_MyDaughterDied.stages.0.label>
+
+	<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+	<Mousekin_Thought_MyDaughterDied.stages.0.description>불쌍하고 불쌍한 내 아기! 내가 널 더 잘 돌봤어야 했어!</Mousekin_Thought_MyDaughterDied.stages.0.description>
+
+	<!-- EN: my father {0} died -->
+	<Mousekin_Thought_MyFatherDied.stages.0.label>아버지 {0} 사망</Mousekin_Thought_MyFatherDied.stages.0.label>
+
+	<!-- EN: My father died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyFatherDied.stages.0.description>아버지가 죽었어. 그의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyFatherDied.stages.0.description>
+
+	<!-- EN: my fiance {0} died -->
+	<Mousekin_Thought_MyFianceDied.stages.0.label>약혼자 {0} 사망</Mousekin_Thought_MyFianceDied.stages.0.label>
+
+	<!-- EN: My fiance died. We promised we'd grow our garden together! -->
+	<Mousekin_Thought_MyFianceDied.stages.0.description>내 약혼자가 죽었어. 우리는 정원을 함께 가꾸기로 약속했습니다!</Mousekin_Thought_MyFianceDied.stages.0.description>
+
+	<!-- EN: my fiancée {0} died -->
+	<Mousekin_Thought_MyFianceeDied.stages.0.label>약혼녀 {0} 사망</Mousekin_Thought_MyFianceeDied.stages.0.label>
+
+	<!-- EN: My fiancée died. We promised we'd grow our garden together! -->
+	<Mousekin_Thought_MyFianceeDied.stages.0.description>내 약혼녀가 죽었어. 우리는 정원을 함께 가꾸기로 약속했습니다!</Mousekin_Thought_MyFianceeDied.stages.0.description>
+
+	<!-- EN: my grandchild {0} died -->
+	<Mousekin_Thought_MyGrandchildDied.stages.0.label>손주 {0} 사망</Mousekin_Thought_MyGrandchildDied.stages.0.label>
+
+	<!-- EN: My grandchild died. Our family's future, taken away from us forever... -->
+	<Mousekin_Thought_MyGrandchildDied.stages.0.description>내 손주가 죽었어. 영원히 빼앗긴 우리 가족의 미래…</Mousekin_Thought_MyGrandchildDied.stages.0.description>
+
+	<!-- EN: my grandparent {0} died -->
+	<Mousekin_Thought_MyGrandparentDied.stages.0.label>조부/조모 {0} 사망</Mousekin_Thought_MyGrandparentDied.stages.0.label>
+
+	<!-- EN: My grandparent died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyGrandparentDied.stages.0.description>조부모님이 돌아가셨어. 그들의 영혼이 위대한 정원에서 영원히 쉬게 하소서.</Mousekin_Thought_MyGrandparentDied.stages.0.description>
+
+	<!-- EN: my half-sibling {0} died -->
+	<Mousekin_Thought_MyHalfSiblingDied.stages.0.label>이복형제/자매(남매) {0} 사망</Mousekin_Thought_MyHalfSiblingDied.stages.0.label>
+
+	<!-- EN: My half-sibling died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyHalfSiblingDied.stages.0.description>내 가족이 죽었어. 그의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyHalfSiblingDied.stages.0.description>
+
+	<!-- EN: my husband {0} died -->
+	<Mousekin_Thought_MyHusbandDied.stages.0.label>남편 {0} 사망</Mousekin_Thought_MyHusbandDied.stages.0.label>
+
+	<!-- EN: My husband is dead. May we be reunited in The Great Garden someday. -->
+	<Mousekin_Thought_MyHusbandDied.stages.0.description>내 남편이 죽었어. 언젠가 우리가 위대한 정원에서 다시 만날 수 있기를.</Mousekin_Thought_MyHusbandDied.stages.0.description>
+
+	<!-- EN: my kin {0} died -->
+	<Mousekin_Thought_MyKinDied.stages.0.label>친척 {0} 사망</Mousekin_Thought_MyKinDied.stages.0.label>
+
+	<!-- EN: My kin died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyKinDied.stages.0.description>친척이 죽었어. 그의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyKinDied.stages.0.description>
+
+	<!-- EN: my mother {0} died -->
+	<Mousekin_Thought_MyMotherDied.stages.0.label>엄마 {0} 사망</Mousekin_Thought_MyMotherDied.stages.0.label>
+
+	<!-- EN: My mother died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyMotherDied.stages.0.description>엄마가 죽었어. 그녀의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyMotherDied.stages.0.description>
+
+	<!-- EN: my niece {0} died -->
+	<Mousekin_Thought_MyNieceDied.stages.0.label>조카 {0} 사망</Mousekin_Thought_MyNieceDied.stages.0.label>
+
+	<!-- EN: My niece died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyNieceDied.stages.0.description>조카가 죽었어. 그녀의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyNieceDied.stages.0.description>
+
+	<!-- EN: my nephew {0} died -->
+	<Mousekin_Thought_MyNephewDied.stages.0.label>조카 {0} 사망</Mousekin_Thought_MyNephewDied.stages.0.label>
+
+	<!-- EN: My nephew died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyNephewDied.stages.0.description>조카가 죽었어. 그의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyNephewDied.stages.0.description>
+
+	<!-- EN: my organ harvested -->
+	<Mousekin_Thought_MyOrganHarvested.stages.0.label>내 장기가 적출됨</Mousekin_Thought_MyOrganHarvested.stages.0.label>
+
+	<!-- EN: The colony's cutting me up for parts! Damn you all to The Wasteland! -->
+	<Mousekin_Thought_MyOrganHarvested.stages.0.description>식민지가 부품을 위해 나를 자르고 있습니다! 젠장, 황무지에!</Mousekin_Thought_MyOrganHarvested.stages.0.description>
+
+	<!-- EN: my sister {0} died -->
+	<Mousekin_Thought_MySisterDied.stages.0.label>자매(남매) {0} 사망</Mousekin_Thought_MySisterDied.stages.0.label>
+
+	<!-- EN: My sister died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MySisterDied.stages.0.description>가족이 죽었어. 그녀의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MySisterDied.stages.0.description>
+
+	<!-- EN: my son {0} died -->
+	<Mousekin_Thought_MySonDied.stages.0.label>아들 {0} 사망</Mousekin_Thought_MySonDied.stages.0.label>
+
+	<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+	<Mousekin_Thought_MySonDied.stages.0.description>불쌍하고 불쌍한 내 아기! 내가 널 더 잘 돌봤어야 했어!</Mousekin_Thought_MySonDied.stages.0.description>
+
+	<!-- EN: my uncle {0} died -->
+	<Mousekin_Thought_MyUncleDied.stages.0.label>삼촌 {0} 사망</Mousekin_Thought_MyUncleDied.stages.0.label>
+
+	<!-- EN: My uncle died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyUncleDied.stages.0.description>삼촌이 죽었어. 그의 영혼이 위대한 정원에서 영원히 쉬기를 바랍니다.</Mousekin_Thought_MyUncleDied.stages.0.description>
+
+	<!-- EN: my wife {0} died -->
+	<Mousekin_Thought_MyWifeDied.stages.0.label>아내 {0} 사망</Mousekin_Thought_MyWifeDied.stages.0.label>
+
+	<!-- EN: My wife is dead. May we be reunited in The Great Garden someday. -->
+	<Mousekin_Thought_MyWifeDied.stages.0.description>내 아내가 죽었어. 언젠가 우리가 위대한 정원에서 다시 만날 수 있기를.</Mousekin_Thought_MyWifeDied.stages.0.description>
+
+	<!-- EN: cramped interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.0.label>좁은 공간</Mousekin_Thought_NeedRoomSize.stages.0.label>
+
+	<!-- EN: Squeak, somebody let me out of here! -->
+	<Mousekin_Thought_NeedRoomSize.stages.0.description>끽끽, 누가 날 여기서 내보내줘!</Mousekin_Thought_NeedRoomSize.stages.0.description>
+
+	<!-- EN: cosy interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.1.label>아늑한 공간</Mousekin_Thought_NeedRoomSize.stages.1.label>
+
+	<!-- EN: Nice and cosy, snug as a burrow! -->
+	<Mousekin_Thought_NeedRoomSize.stages.1.description>멋지고 아늑하고 굴처럼 아늑합니다!</Mousekin_Thought_NeedRoomSize.stages.1.description>
+
+	<!-- EN: spacious interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.2.label>넓은 공간</Mousekin_Thought_NeedRoomSize.stages.2.label>
+
+	<!-- EN: So much space, we can hold a town meeting in here! -->
+	<Mousekin_Thought_NeedRoomSize.stages.2.description>공간이 너무 넓어서 여기서 마을 회의를 열 수 있어요!</Mousekin_Thought_NeedRoomSize.stages.2.description>
+
+	<!-- EN: body defiled by prosthetics -->
+	<Mousekin_Thought_OtherMousekinHasProstheticOpinions.stages.0.label>의족으로 더럽혀진 몸</Mousekin_Thought_OtherMousekinHasProstheticOpinions.stages.0.label>
+
+	<!-- EN: my rival {0} died -->
+	<Mousekin_Thought_PawnWithBadOpinionDied.stages.0.label>눈엣가시 {0} 사망</Mousekin_Thought_PawnWithBadOpinionDied.stages.0.label>
+
+	<!-- EN: Serves them right. May they rot in The Wasteland forever! -->
+	<Mousekin_Thought_PawnWithBadOpinionDied.stages.0.description>꼴 좋네! 그들이 황무지에서 영원히 썩기를!</Mousekin_Thought_PawnWithBadOpinionDied.stages.0.description>
+
+	<!-- EN: my rival {0} lost -->
+	<Mousekin_Thought_PawnWithBadOpinionLost.stages.0.label>경쟁자 {0} 잃음</Mousekin_Thought_PawnWithBadOpinionLost.stages.0.label>
+
+	<!-- EN: Serves them right. I hope they never come back, and wander in The Wasteland forever! -->
+	<Mousekin_Thought_PawnWithBadOpinionLost.stages.0.description>꼴 좋네! 나는 그들이 다시는 돌아오지 않고 황무지에서 영원히 방황하기를 바랍니다!</Mousekin_Thought_PawnWithBadOpinionLost.stages.0.description>
+
+	<!-- EN: my friend {0} died -->
+	<Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.label>친구 {0} 사망</Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.label>
+
+	<!-- EN: Such a wonderful person. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.description>그런 좋은 사람, 그들의 영혼이 위대한 정원에서 영원히 쉬게 하소서.</Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.description>
+
+	<!-- EN: my friend {0} lost -->
+	<Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.label>친구 {0} 잃음</Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.label>
+
+	<!-- EN: Such a wonderful person, lost. I hope they will get back to us someday. -->
+	<Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.description>그런 멋진 사람을 잃다니. 나는 그들이 언젠가 우리에게 돌아올 수 있기를 바랍니다.</Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.description>
+
+	<!-- EN: prisoner released -->
+	<Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.label>수감자 석방</Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.label>
+
+	<!-- EN: We released a healthy prisoner. Valerian the Wise would be proud we followed his teachings of mercy. -->
+	<Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.description>건강한 수감자를 풀어줬어. 현자 발레리안은 우리가 그의 자비의 가르침을 따르는 것을 자랑스러워할 것입니다.</Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.description>
+
+	<!-- EN: devout with prosthetic -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.label>의족을 가진 독실한</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.label>
+
+	<!-- EN: I hate having this unnatural thing attached to me. It goes against my faith. -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.description>나는 이런 부자연스러운 것이 나에게 붙어 있는 것이 싫다. 그것은 내 믿음에 위배됩니다.</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.description>
+
+	<!-- EN: devout with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.label>{0}개의 의족을 가진 독실한</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.label>
+
+	<!-- EN: These artificial parts are violating the sanctity of my body! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.description>이 인공 부품이 내 몸의 신성함을 침해하고 있습니다!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.description>
+
+	<!-- EN: devout with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.label>{0}개의 의족을 가진 독실한</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.label>
+
+	<!-- EN: My flesh has been defiled by all these artificial parts! Now I'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.description>내 육체는 이 모든 인공적인 부분들로 인해 더럽혀졌습니다! 이제 나는 위대한 정원에 절대 들어가지 못할 것입니다!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.description>
+
+	<!-- EN: inquisitionist with prosthetic -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.label>의족을 착용한 심문관</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.label>
+
+	<!-- EN: This witchcraft taints my body! Get it off me! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.description>이 주술이 내 몸을 더럽힌다! 저리 치워!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.description>
+
+	<!-- EN: inquisitionist with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.label>의수 {0}개를 착용한 심문관</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.label>
+
+	<!-- EN: More witchcraft, polluting my pure, natural flesh! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.description>내 순수하고 자연스러운 육체를 오염시키는 더 많은 마법!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.description>
+
+	<!-- EN: inquisitionist with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.label>의수 {0}개를 착용한 심문관</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.label>
+
+	<!-- EN: My flesh has been defiled by all this witchcraft! I'm no better than those heretics! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.description>내 육신은 이 모든 주술로 더럽혀졌습니다! 나는 그 이단자들보다 나을 것이 없다!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.description>
+
+	<!-- EN: saw a Pudgemouse -->
+	<Mousekin_Thought_SawNearbyPudgemouse.stages.0.label>퍼지마우스를 보았다</Mousekin_Thought_SawNearbyPudgemouse.stages.0.label>
+
+	<!-- EN: Squeak! Pudgemice are the best! -->
+	<Mousekin_Thought_SawNearbyPudgemouse.stages.0.description>쥐 우는 소리! 플라마우스를 최고!</Mousekin_Thought_SawNearbyPudgemouse.stages.0.description>
+
+	<!-- EN: slept in the cold -->
+	<Mousekin_Thought_SleptInCold.stages.0.label>추운 곳에서 잠</Mousekin_Thought_SleptInCold.stages.0.label>
+
+	<!-- EN: I had to sleep in the cold. We should get a fireplace going. -->
+	<Mousekin_Thought_SleptInCold.stages.0.description>자다가 추워서 고생했어. 벽난로를 켜야 합니다.</Mousekin_Thought_SleptInCold.stages.0.description>
+
+	<!-- EN: slept in the heat -->
+	<Mousekin_Thought_SleptInHeat.stages.0.label>더운 곳에서 잠</Mousekin_Thought_SleptInHeat.stages.0.label>
+
+	<!-- EN: I had to sleep in unbearable heat. Can't we have some ventilation around here? -->
+	<Mousekin_Thought_SleptInHeat.stages.0.description>자다가 더워서 깼어. 여기 환기 좀 시켜주면 안 될까요?</Mousekin_Thought_SleptInHeat.stages.0.description>
+
+	<!-- EN: slept on ground -->
+	<Mousekin_Thought_SleptOnGround.stages.0.label>바닥에서 잠</Mousekin_Thought_SleptOnGround.stages.0.label>
+
+	<!-- EN: I had to sleep on the ground like a filthy, primitive rat. -->
+	<Mousekin_Thought_SleptOnGround.stages.0.description>나는 더럽고 원시적인 쥐처럼 땅바닥에서 잠을 자야 했다.</Mousekin_Thought_SleptOnGround.stages.0.description>
+
+	<!-- EN: slept outside -->
+	<Mousekin_Thought_SleptOutside.stages.0.label>밖에서 잠</Mousekin_Thought_SleptOutside.stages.0.label>
+
+	<!-- EN: I had to sleep outdoors without any protection from the elements, like a filthy, primitive rat. -->
+	<Mousekin_Thought_SleptOutside.stages.0.description>나는 더럽고 원시적인 쥐처럼 비바람으로부터 아무런 보호도 받지 못한 채 야외에서 잠을 자야 했습니다.</Mousekin_Thought_SleptOutside.stages.0.description>
+
+	<!-- EN: wearing Mousekin fur apparel -->
+	<Mousekin_Thought_WearingMousekinFurApparel.stages.0.label>마우스킨 모피 의류를 입고</Mousekin_Thought_WearingMousekinFurApparel.stages.0.label>
+
+	<!-- EN: I'm wearing clothes made from the fur of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_WearingMousekinFurApparel.stages.0.description>나는 내 형제들의 털로 만든 옷을 입고 있다! 발레리안, 내가 죄를 지었으니 용서해주세요!</Mousekin_Thought_WearingMousekinFurApparel.stages.0.description>
+
+	<!-- EN: wearing Pudgemouse fur apparel -->
+	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.label>퍼지마우스 모피 의류를 입고</Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.label>
+
+	<!-- EN: I'm wearing clothes made from the fur of a pudgemouse. That poor innocent creature didn't deserve this! -->
+	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>퍼지마우스 털로 만든 옷을 입고 있어요. 그 불쌍한 무고한 생물은 이것을 받을 자격이 없었습니다!</Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>
+	
+</LanguageData>

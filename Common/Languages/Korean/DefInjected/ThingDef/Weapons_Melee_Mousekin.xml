@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>		<!-- EN: Mousekin Axe -->
+	<Mousekin_MeleeWeapon_Axe.label>마우스킨 도끼</Mousekin_MeleeWeapon_Axe.label>		<!-- EN: A bladed implement with a handle typically used to cut down trees, hew logs into timber and split firewood, but in a pinch can also be used as a crude but deadly weapon. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Axe.description>일반적으로 나무를 베고, 통나무를 베어 목재로 만들고, 장작을 쪼개는 데 사용되는 손잡이가 달린 칼날이 달린 도구지만, 조잡하지만 치명적인 무기로도 사용할 수 있습니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_Axe.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Axe.tools.0.label>손잡이</Mousekin_MeleeWeapon_Axe.tools.0.label>		<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_Axe.tools.1.label>칼날</Mousekin_MeleeWeapon_Axe.tools.1.label>		<!-- EN: Mousekin Cleaver -->
+	<Mousekin_MeleeWeapon_Cleaver.label>마우스킨 클리버</Mousekin_MeleeWeapon_Cleaver.label>		<!-- EN: A large knife with a rectangular blade typically used to split large, thick pieces of meat. While it helps increase the amount of meat harvested when butchering animals, it is not a particularly good weapon. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Cleaver.description>크고 두꺼운 고기 조각을 쪼개는 데 일반적으로 사용되는 직사각형 칼날이 있는 큰 칼입니다. 동물을 도살할 때 수확되는 고기의 양을 늘리는 데 도움이 되지만 특별히 좋은 무기는 아닙니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_Cleaver.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Cleaver.tools.0.label>손잡이</Mousekin_MeleeWeapon_Cleaver.tools.0.label>		<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_Cleaver.tools.1.label>칼날</Mousekin_MeleeWeapon_Cleaver.tools.1.label>		<!-- EN: Mousekin Dagger -->
+	<Mousekin_MeleeWeapon_Dagger.label>마우스킨 단검</Mousekin_MeleeWeapon_Dagger.label>		<!-- EN: A cute little dagger, good for quick stabbing attacks and easily concealed under most Mousekin clothing. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Dagger.description>귀여운 작은 단검으로 빠른 찌르기 공격에 적합하고 대부분의 마우스킨 옷 아래 쉽게 숨길 수 있습니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_Dagger.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Dagger.tools.0.label>손잡이</Mousekin_MeleeWeapon_Dagger.tools.0.label>		<!-- EN: point -->
+	<Mousekin_MeleeWeapon_Dagger.tools.1.label>칼끝</Mousekin_MeleeWeapon_Dagger.tools.1.label>		<!-- EN: Mousekin Hammer -->
+	<Mousekin_MeleeWeapon_HammerMetal.label>마우스킨 망치</Mousekin_MeleeWeapon_HammerMetal.label>		<!-- EN: A hammer with a small metal head, used to beat and form metals into shape, as well as general construction work. Despite its small size, a Mousekin armed with a hammer can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_HammerMetal.description>금속을 두들겨서 모양을 만들거나 일반적인 건축 작업에 사용하는 작은 금속 머리가 달린 망치. 작은 크기에도 불구하고 망치로 무장한 마우스킨은 여전히 성인 인간의 손가락을 쉽게 박살낼 수 있습니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_HammerMetal.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_HammerMetal.tools.0.label>손잡이</Mousekin_MeleeWeapon_HammerMetal.tools.0.label>		<!-- EN: head -->
+	<Mousekin_MeleeWeapon_HammerMetal.tools.1.label>둔기</Mousekin_MeleeWeapon_HammerMetal.tools.1.label>		<!-- EN: Mousekin Mallet -->
+	<Mousekin_MeleeWeapon_HammerWood.label>마우스킨 나무 메</Mousekin_MeleeWeapon_HammerWood.label>		<!-- EN: A hammer with a large wooden head, used in carpentry and general construction work. Despite its small size, a Mousekin armed with a mallet can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_HammerWood.description>목공 및 일반 건설 작업에 사용되는 큰 나무 머리를 가진 망치. 작은 크기에도 불구하고 망치로 무장한 마우스킨은 여전히 성인 인간의 손가락을 쉽게 박살낼 수 있습니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_HammerWood.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_HammerWood.tools.0.label>손잡이</Mousekin_MeleeWeapon_HammerWood.tools.0.label>		<!-- EN: head -->
+	<Mousekin_MeleeWeapon_HammerWood.tools.1.label>둔기</Mousekin_MeleeWeapon_HammerWood.tools.1.label>		<!-- EN: Mousekin Hoe -->
+	<Mousekin_MeleeWeapon_Hoe.label>마우스킨 괭이</Mousekin_MeleeWeapon_Hoe.label>		<!-- EN: A common agricultural hand tool used to break up soil, remove weeds and harvest root vegetables. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Hoe.description>토양을 부수고 잡초를 제거하고 뿌리 채소를 수확하는 데 사용되는 일반적인 농업용 수공구입니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_Hoe.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Hoe.tools.0.label>샤프트</Mousekin_MeleeWeapon_Hoe.tools.0.label>		<!-- EN: hoe head -->
+	<Mousekin_MeleeWeapon_Hoe.tools.1.label>괭이 머리</Mousekin_MeleeWeapon_Hoe.tools.1.label>		<!-- EN: hoe blade -->
+	<Mousekin_MeleeWeapon_Hoe.tools.2.label>괭이 날</Mousekin_MeleeWeapon_Hoe.tools.2.label>		<!-- EN: Mousekin Pickaxe -->
+	<Mousekin_MeleeWeapon_Pickaxe.label>마우스킨 곡괭이</Mousekin_MeleeWeapon_Pickaxe.label>		<!-- EN: A hand tool with a large, curved metal blade, used to quickly dig at compacted soil and break up rocks. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Pickaxe.description>압축된 토양을 빠르게 파고 바위를 부수는 데 사용되는 크고 구부러진 금속 날이 있는 수공구입니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_Pickaxe.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.0.label>샤프트</Mousekin_MeleeWeapon_Pickaxe.tools.0.label>		<!-- EN: head -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.1.label>머리</Mousekin_MeleeWeapon_Pickaxe.tools.1.label>		<!-- EN: pick -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.2.label>곡괭이</Mousekin_MeleeWeapon_Pickaxe.tools.2.label>		<!-- EN: Mousekin Pike -->
+	<Mousekin_MeleeWeapon_PikeRegular.label>마우스킨 단창</Mousekin_MeleeWeapon_PikeRegular.label>		<!-- EN: A long polearm weapon, the Mousekin Pike is technically a pike-halberd hybrid, with a spear tip for fending off enemy cavalry charges, a hooked blade to pull enemy knights off their mounts, and an axe-like blade to deliver the final killing blow. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_PikeRegular.description>긴 장창 무기인 마우스킨 파이크는 엄밀히 따지면 파이크-할버드 하이브리드로, 적의 기병 돌격을 막기 위한 창 끝, 적 기사를 탈것에서 끌어내기 위한 갈고리 칼날, 마지막 결정타를 가하는 도끼 모양의 칼날이 있습니다. 또한 인간이 제대로 휘두를 수 있는 몇 안 되는 마우스킨 무기 중 하나입니다.</Mousekin_MeleeWeapon_PikeRegular.description>		<!-- EN: shaft -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.0.label>대</Mousekin_MeleeWeapon_PikeRegular.tools.0.label>		<!-- EN: point -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.1.label>끝</Mousekin_MeleeWeapon_PikeRegular.tools.1.label>		<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.2.label>칼날</Mousekin_MeleeWeapon_PikeRegular.tools.2.label>		<!-- EN: Mousekin Thunderpike -->
+	<Mousekin_MeleeWeapon_PikeThunder.label>마우스킨 우뢰단창</Mousekin_MeleeWeapon_PikeThunder.label>		<!-- EN: A variant of the standard Mousekin Pike used by soldiers from Independent Mousekin towns, with a large firecracker tied to its spear end capable of blasting enemy Mousekin knights or setting them on fire. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_PikeThunder.description>독립 마우스킨 마을의 병사들이 사용하는 표준 마우스킨 파이크의 변종으로, 적 마우스킨 기사를 폭파하거나 불태울 수 있는 창 끝에 큰 폭죽이 묶여 있습니다. 또한 인간이 제대로 휘두를 수 있는 몇 안 되는 마우스킨 무기 중 하나입니다.</Mousekin_MeleeWeapon_PikeThunder.description>		<!-- EN: shaft -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.0.label>대</Mousekin_MeleeWeapon_PikeThunder.tools.0.label>		<!-- EN: point -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.1.label>끝</Mousekin_MeleeWeapon_PikeThunder.tools.1.label>		<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.2.label>칼날</Mousekin_MeleeWeapon_PikeThunder.tools.2.label>
+	
+	<!-- EN: Mousekin Thunderpike -->
+	<Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>마우스킨 우뢰단창</Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>		<!-- EN: Mousekin Pitchfork -->
+	<Mousekin_MeleeWeapon_Pitchfork.label>마우스킨 긁어 올리다</Mousekin_MeleeWeapon_Pitchfork.label>		<!-- EN: An agricultural hand tool with a long handle and three tines, used to pitch and pile straw. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Pitchfork.description>긴 손잡이와 3개의 끝이 있는 농업용 수공구로 짚을 던지고 쌓는 데 사용됩니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_Pitchfork.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Pitchfork.tools.0.label>샤프트</Mousekin_MeleeWeapon_Pitchfork.tools.0.label>		<!-- EN: tines -->
+	<Mousekin_MeleeWeapon_Pitchfork.tools.1.label>발을</Mousekin_MeleeWeapon_Pitchfork.tools.1.label>		<!-- EN: Mousekin Guardener’s Sword -->
+	<Mousekin_MeleeWeapon_SwordGuardener.label>마우스킨 정원경비원 검</Mousekin_MeleeWeapon_SwordGuardener.label>		<!-- EN: A one-handed shortsword carried by Guardeners, an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom. The light and compact design exemplifies the femininity and grace of the weapon’s user. Its handle is too small and thin for a human to wield properly -->
+	<Mousekin_MeleeWeapon_SwordGuardener.description>마우스킨 왕국의 꽃밭을 돌보고 지키는 정예 집단인 정원경비원이 소지하고 다니는 한손 단검. 가볍고 컴팩트한 디자인은 무기 사용자의 여성스러움과 우아함을 잘 보여줍니다. 손잡이가 너무 작고 얇아서 사람이 제대로 휘두를 수 없습니다.</Mousekin_MeleeWeapon_SwordGuardener.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>핸들</Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>		<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>포인트</Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>		<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>가장자리</Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>		<!-- EN: Mousekin Guardener’s Training Sword -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.label>마우스킨 정원경비원 훈련 검</Mousekin_MeleeWeapon_SwordGuardenerTraining.label>		<!-- EN: A wooden version of the Guardener shortsword, carried by apprentices as part of their training to tend and protect the flower gardens of the Mousekin Kingdom. The blunted blade reduces risk of injury during training. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.description>마우스킨 왕국의 꽃밭을 돌보고 보호하기 위해 견습생들이 수련의 일환으로 휴대한 정원경비원 단검의 목제 버전. 무딘 블레이드는 훈련 중 부상 위험을 줄입니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_SwordGuardenerTraining.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>핸들</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>		<!-- EN: wooden blade -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>나무 가장자리</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>		<!-- EN: Mousekin Knight’s Sword -->
+	<Mousekin_MeleeWeapon_SwordKnight.label>마우스킨 기사의 검</Mousekin_MeleeWeapon_SwordKnight.label>		<!-- EN: A longsword perfectly balanced for one-handed use, good for stabbing or slashing. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_SwordKnight.description>한 손으로 사용하기에 완벽하게 균형 잡힌 장검으로, 찌르거나 베기에 좋습니다. 그 손잡이는 사람이 제대로 휘두르기에는 너무 작고 가늘다.</Mousekin_MeleeWeapon_SwordKnight.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.0.label>핸들</Mousekin_MeleeWeapon_SwordKnight.tools.0.label>		<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.1.label>포인트</Mousekin_MeleeWeapon_SwordKnight.tools.1.label>		<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.2.label>가장자리</Mousekin_MeleeWeapon_SwordKnight.tools.2.label>		<!-- EN: Mousekin Knight’s Greatsword -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.label>마우스킨 기사의 대검</Mousekin_MeleeWeapon_SwordKnightLarge.label>		<!-- EN: A long and heavy sword that requires both hands to wield, but if used properly, can literally split an enemy in two. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.description>두 손으로 휘두르는 길고 무거운 검이지만 제대로 사용하면 말 그대로 적을 둘로 가를 수 있습니다. 또한 인간이 제대로 휘두를 수 있는 몇 안 되는 마우스킨 무기 중 하나입니다.</Mousekin_MeleeWeapon_SwordKnightLarge.description>		<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>핸들</Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>		<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>포인트</Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>		<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>가장자리</Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>	
+</LanguageData>

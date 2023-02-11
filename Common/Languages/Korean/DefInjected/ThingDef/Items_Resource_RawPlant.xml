@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: mouse-ear barley -->
+	<Mousekin_RawBarley.label>쥐이삭보리</Mousekin_RawBarley.label>
+
+	<!-- EN: Small, edible rounded cereal grains, used in cooking or as animal feed. -->
+	<Mousekin_RawBarley.description>요리나 동물 사료로 사용되는 작고 먹을 수 있는 둥근 곡물.</Mousekin_RawBarley.description>
+
+	<!-- EN: chonko nuts -->
+	<Mousekin_RawNutChonko.label>촌코 견과</Mousekin_RawNutChonko.label>
+
+	<!-- EN: Raw chonko nuts, resembling oversized almonds. Nice to eat, even when raw. -->
+	<Mousekin_RawNutChonko.description>특대 아몬드를 닮은 생 촌코 너트. 생으로 먹어도 맛있습니다.</Mousekin_RawNutChonko.description>
+
+	<!-- EN: nyam nuts -->
+	<Mousekin_RawNutNyam.label>니암 견과</Mousekin_RawNutNyam.label>
+
+	<!-- EN: Raw nyam nuts, resembling macadamias with faint stripes. Nice to eat, even when raw. -->
+	<Mousekin_RawNutNyam.description>희미한 줄무늬가 있는 마카다미아를 닮은 생 얌 너트. 생으로 먹어도 맛있습니다.</Mousekin_RawNutNyam.description>
+
+	<!-- EN: wheat -->
+	<Mousekin_RawWheat.label>밀</Mousekin_RawWheat.label>
+
+	<!-- EN: Small, edible oval cereal grains, which can be further processed into flour or used as animal feed. -->
+	<Mousekin_RawWheat.description>밀가루로 추가 가공하거나 동물 사료로 사용할 수 있는 작고 식용 가능한 타원형 곡물.</Mousekin_RawWheat.description>
+
+	<!-- EN: flour -->
+	<Mousekin_Flour.label>밀가루</Mousekin_Flour.label>
+
+	<!-- EN: Finely ground powder of wheat, used in baking and cooking. -->
+	<Mousekin_Flour.description>제빵과 요리에 사용되는 밀가루를 곱게 빻은 가루.</Mousekin_Flour.description>
+	
+</LanguageData>

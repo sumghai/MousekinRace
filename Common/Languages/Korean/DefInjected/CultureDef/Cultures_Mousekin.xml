@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Traditional Mousekinian -->
+	<Mousekin_CultureKingdom.label>전통적인 마우스키니안</Mousekin_CultureKingdom.label>
+
+	<!-- EN: A feudal agrarian culture resembling Regency-era England, characterized by institutionalised patriarchy, rigid social strata and a deep reverence for flowers. -->
+	<Mousekin_CultureKingdom.description>제도화된 가부장제, 엄격한 사회 계층, 꽃에 대한 깊은 존경심이 특징인 리젠시 시대 영국과 유사한 봉건 농경 문화.</Mousekin_CultureKingdom.description>
+
+	<!-- EN: Enlightened Mousekinian -->
+	<Mousekin_CultureIndyTown.label>깨달은 마우스키니안</Mousekin_CultureIndyTown.label>
+
+	<!-- EN: A hardy agrarian culture that embraces egalitarian and democratic ideals. -->
+	<Mousekin_CultureIndyTown.description>평등주의와 민주적 이상을 포용하는 튼튼한 농업 문화.</Mousekin_CultureIndyTown.description>
+
+	<!-- EN: Rodemanian -->
+	<Mousekin_CultureNomad.label>로데마니</Mousekin_CultureNomad.label>
+
+	<!-- EN: A nomadic culture that celebrates wanderlust, generosity and hospitality. -->
+	<Mousekin_CultureNomad.description>방랑벽, 관대함, 환대를 기념하는 유목민 문화.</Mousekin_CultureNomad.description>
+
+	<!-- EN: Outpawian -->
+	<Mousekin_CultureBrigand.label>무법자 발</Mousekin_CultureBrigand.label>
+
+	<!-- EN: A pragmatic, Social Darwinist culture common amongst rodent gangs that values personal strength, winning at all costs and having the biggest nut stash. -->
+	<Mousekin_CultureBrigand.description>개인의 힘을 중요시하고 어떤 대가를 치르더라도 승리하며 가장 큰 너트 더미를 소유하는 설치류 갱들 사이에서 흔히 볼 수 있는 실용적이고 사회적인 다윈주의 문화입니다.</Mousekin_CultureBrigand.description>
+	
+</LanguageData>

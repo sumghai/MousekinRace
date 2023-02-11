@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: make Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.label>촌코 견과 커피 만들다</Mousekin_Make_DrinkChonkoNutBrew.label>
+	
+	<!-- EN: Make a warm, coffee-like beverage brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick. Temporarily improves mood, consciousness and blood circulation. -->
+	<Mousekin_Make_DrinkChonkoNutBrew.description>볶고 갈은 촌코 견과류로 따뜻한 커피 같은 음료를 만들고 추가 킥을 위한 "비밀 재료"를 더합니다. 일시적으로 기분, 의식 및 혈액 순환을 개선합니다.</Mousekin_Make_DrinkChonkoNutBrew.description>
+	
+	<!-- EN: Making Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.jobString>촌코 견과 커피 만들다.</Mousekin_Make_DrinkChonkoNutBrew.jobString>
+	
+	<!-- EN: make Mousekin lager wort -->
+	<Mousekin_Make_WortLager.label>마우스킨 라거 맥아즙 만들다</Mousekin_Make_WortLager.label>
+	
+	<!-- EN: Make Mousekin lager wort from Mouse-ear barley and hops. -->
+	<Mousekin_Make_WortLager.description>쥐이삭 보리와 홉으로 마우스킨 라거 맥아즙을 만듭니다.</Mousekin_Make_WortLager.description>
+	
+	<!-- EN: Making Mousekin lager wort -->
+	<Mousekin_Make_WortLager.jobString>마우스킨 라거 맥아즙 만들다.</Mousekin_Make_WortLager.jobString>
+	
+	<!-- EN: make Mousekin mead must -->
+	<Mousekin_Make_WortMead.label>마우스킨 미드워트 만들기</Mousekin_Make_WortMead.label>
+	
+	<!-- EN: Make Mousekin mead must from Mousekin honey. -->
+	<Mousekin_Make_WortMead.description>마우스킨 꿀로 마우스킨 미드워트를 만듭니다.</Mousekin_Make_WortMead.description>
+	
+	<!-- EN: Making Mousekin mead must -->
+	<Mousekin_Make_WortMead.jobString>마우스킨 미드워트 만들기.</Mousekin_Make_WortMead.jobString>
+	
+</LanguageData>

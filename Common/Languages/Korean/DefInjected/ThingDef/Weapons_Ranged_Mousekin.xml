@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Hunter’s Crossbow -->
+	<Mousekin_RangedWeapon_Crossbow.label>마우스킨 사냥꾼의 석궁</Mousekin_RangedWeapon_Crossbow.label>
+	
+	<!-- EN: A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used for hunting or self-defense, firing one bolt at a time using fiber or sinew strings under tension, and comes with a miniature crank wheel to allow the relatively weak Mousekins to quickly and easily draw the bow after firing. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_Crossbow.description>원거리 목표물에 나무 화살을 탄력적으로 발사하는 원거리 무기입니다.\n\n이 특별한 석궁은 주로 사냥이나 자기 방어에 사용되며, 긴장 상태에서 섬유 또는 힘줄을 사용하여 한 번에 하나의 화살을 발사하며 소형 크랭크 휠과 함께 제공됩니다. 상대적으로 약한 마우스킨이 발사 후 빠르고 쉽게 활을 당길 수 있도록 합니다. 손잡이와 방아쇠는 사람이 제대로 휘두르고 작동하기에는 너무 작습니다.</Mousekin_RangedWeapon_Crossbow.description>
+	
+	<!-- EN: stirrup -->
+	<Mousekin_RangedWeapon_Crossbow.tools.0.label>등자</Mousekin_RangedWeapon_Crossbow.tools.0.label>
+	
+	<!-- EN: Mousekin Hunter’s Crossbow -->
+	<Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>마우스킨 사냥꾼의 석궁</Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>
+	
+	<!-- EN: Mousekin Automatic Crossbow -->
+	<Mousekin_RangedWeapon_CrossbowAuto.label>마우스킨 자동 석궁</Mousekin_RangedWeapon_CrossbowAuto.label>
+	
+	<!-- EN: A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used in combat, firing multiple bolts in quick succession from a removable drum magazine using fiber or sinew strings under tension, and uses a wind-up spring mechanism to automatically reload and fire the next shot. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_CrossbowAuto.description>멀리 있는 목표물에 나무 화살을 탄력적으로 발사하는 원거리 무기입니다.\n\n이 특정 석궁은 주로 전투에 사용되며, 장력을 받는 섬유 또는 힘줄을 사용하여 탈착식 드럼 탄창에서 여러 개의 화살을 연속적으로 빠르게 발사하고 태엽 스프링을 사용합니다 다음 샷을 자동으로 재장전하고 발사하는 메커니즘. 손잡이와 방아쇠는 사람이 제대로 휘두르고 작동하기에는 너무 작습니다.</Mousekin_RangedWeapon_CrossbowAuto.description>
+	
+	<!-- EN: stirrup -->
+	<Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>등자</Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>
+	
+	<!-- EN: Mousekin Automatic Crossbow -->
+	<Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>마우스킨 자동 석궁</Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>
+	
+	<!-- EN: Mousekin Musket -->
+	<Mousekin_RangedWeapon_MusketLong.label>마우스킨 머스킷</Mousekin_RangedWeapon_MusketLong.label>
+	
+	<!-- EN: A slow-firing firearm that propels small, smooth cast iron balls at distant targets, with a longer effective range and greater damage than crossbows. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_MusketLong.description>석궁보다 유효 사거리가 길고 피해가 큰 작고 매끄러운 주철 공을 먼 목표물에 발사하는 느리게 발사되는 화기입니다. 손잡이와 방아쇠는 사람이 제대로 휘두르고 작동하기에는 너무 작습니다.</Mousekin_RangedWeapon_MusketLong.description>
+	
+	<!-- EN: stock -->
+	<Mousekin_RangedWeapon_MusketLong.tools.0.label>개머리판</Mousekin_RangedWeapon_MusketLong.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Mousekin_RangedWeapon_MusketLong.tools.1.label>총열</Mousekin_RangedWeapon_MusketLong.tools.1.label>
+	
+	<!-- EN: Mousekin Musket -->
+	<Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>마우스킨 머스킷</Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>
+	
+	<!-- EN: Mousekin Blunderbuss -->
+	<Mousekin_RangedWeapon_MusketShort.label>마우스킨 나팔총</Mousekin_RangedWeapon_MusketShort.label>
+	
+	<!-- EN: A slow-firing firearm shorter than the regular Mousekin Musket, with a comparably shorter effective range but capable of great damage against armored targets. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_MusketShort.description>일반 마우스킨 머스킷보다 발사 속도가 짧은 총기로 유효 사거리가 비교적 짧지만 장갑을 낀 표적에 큰 피해를 줄 수 있습니다. 손잡이와 방아쇠는 사람이 제대로 휘두르고 작동하기에는 너무 작습니다.</Mousekin_RangedWeapon_MusketShort.description>
+	
+	<!-- EN: stock -->
+	<Mousekin_RangedWeapon_MusketShort.tools.0.label>개머리판</Mousekin_RangedWeapon_MusketShort.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Mousekin_RangedWeapon_MusketShort.tools.1.label>총열</Mousekin_RangedWeapon_MusketShort.tools.1.label>
+	
+	<!-- EN: Mousekin Blunderbuss -->
+	<Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>마우스킨 나팔총</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
+	
+</LanguageData>

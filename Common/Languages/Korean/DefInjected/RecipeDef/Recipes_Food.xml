@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: grind flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.label>밀에서 밀가루를 갈다</Mousekin_Make_FlourFromWheat.label>
+
+	<!-- EN: Grind flour from wheat grains in a mortar and pestle. The process is slow, labour-intensive and inefficient due to the small quantities involved. -->
+	<Mousekin_Make_FlourFromWheat.description>박격포와 유봉에 밀알에서 밀가루를 갈아줍니다. 이 과정은 관련된 소량으로 인해 느리고 노동 집약적이며 비효율적입니다.</Mousekin_Make_FlourFromWheat.description>
+
+	<!-- EN: Grinding flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.jobString>밀에서 밀가루를 갈다.</Mousekin_Make_FlourFromWheat.jobString>
+
+	<!-- EN: make Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.label>마우스킨 믹스넛 만들기</Mousekin_Make_TrailMix.label>
+
+	<!-- EN: Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMix.description>견과류를 굽고 베리를 말리고 팝콘을 요리하여 트레일 믹스를 만듭니다. 영양가가 풍부하고 맛이 좋으며 섭취하는 마우스킨의 기분을 약간 좋게 합니다.</Mousekin_Make_TrailMix.description>
+
+	<!-- EN: Preparing Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.jobString>마우스킨 믹스넛 만들기.</Mousekin_Make_TrailMix.jobString>
+
+	<!-- EN: make Mousekin trail mix x3 -->
+	<Mousekin_Make_TrailMixBulk.label>마우스킨 믹스넛 만들기 x3</Mousekin_Make_TrailMixBulk.label>
+
+	<!-- EN: Make bulk trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMixBulk.description>견과류를 굽고 베리를 말리고 팝콘을 요리하여 벌크 트레일 믹스를 만듭니다. 영양가가 풍부하고 맛이 좋으며 섭취하는 마우스킨의 기분을 약간 좋게 합니다.</Mousekin_Make_TrailMixBulk.description>
+
+	<!-- EN: Preparing bulk Mousekin trail mix -->
+	<Mousekin_Make_TrailMixBulk.jobString>마우스킨 믹스넛 만들기.</Mousekin_Make_TrailMixBulk.jobString>
+
+	<!-- EN: bake country bread -->
+	<Mousekin_Make_CountryBread.label>컨트리 빵을 굽다</Mousekin_Make_CountryBread.label>
+
+	<!-- EN: Bake a loaf of country bread from flour. -->
+	<Mousekin_Make_CountryBread.description>밀가루로 시골 빵 한 덩어리를 굽습니다.</Mousekin_Make_CountryBread.description>
+
+	<!-- EN: Baking country bread -->
+	<Mousekin_Make_CountryBread.jobString>컨트리 빵을 굽다.</Mousekin_Make_CountryBread.jobString>
+
+	<!-- EN: bake country bread x4 -->
+	<Mousekin_Make_CountryBreadBulk.label>컨트리 빵을 굽다 x4</Mousekin_Make_CountryBreadBulk.label>
+
+	<!-- EN: Bake 4 loaves of country bread from flour. -->
+	<Mousekin_Make_CountryBreadBulk.description>밀가루로 시골 빵 4 덩어리를 굽습니다.</Mousekin_Make_CountryBreadBulk.description>
+
+	<!-- EN: Baking 4 loaves of country bread -->
+	<Mousekin_Make_CountryBreadBulk.jobString>컨트리 브레드 4덩어리를 굽습니다.</Mousekin_Make_CountryBreadBulk.jobString>
+
+	<!-- EN: cook barley porridge -->
+	<Mousekin_Make_BarleyPorridge.label>보리죽을 짓다</Mousekin_Make_BarleyPorridge.label>
+
+	<!-- EN: Cook a bowl of barley porridge. -->
+	<Mousekin_Make_BarleyPorridge.description>보리죽 한 그릇 끓이기.</Mousekin_Make_BarleyPorridge.description>
+
+	<!-- EN: Cooking barley porridge -->
+	<Mousekin_Make_BarleyPorridge.jobString>보리죽을 짓다.</Mousekin_Make_BarleyPorridge.jobString>
+
+	<!-- EN: cook barley porridge x4 -->
+	<Mousekin_Make_BarleyPorridgeBulk.label>보리죽을 짓다 x4</Mousekin_Make_BarleyPorridgeBulk.label>
+
+	<!-- EN: Cook 4 bowls of barley porridge. -->
+	<Mousekin_Make_BarleyPorridgeBulk.description>보리죽 4그릇을 끓인다.</Mousekin_Make_BarleyPorridgeBulk.description>
+
+	<!-- EN: Cooking 4 bowls of barley porridge -->
+	<Mousekin_Make_BarleyPorridgeBulk.jobString>보리죽 4그릇을 끓인다.</Mousekin_Make_BarleyPorridgeBulk.jobString>
+
+	<!-- EN: cook eggs on toast x4 -->
+	<Mousekin_Make_EggsOnToast.label>토스트에 계란 요리 x4</Mousekin_Make_EggsOnToast.label>
+
+	<!-- EN: Cook 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.description>토스트에 계란 4인분 요리하기.</Mousekin_Make_EggsOnToast.description>
+
+	<!-- EN: Cooking 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.jobString>토스트에 계란 4인분 요리하기.</Mousekin_Make_EggsOnToast.jobString>
+
+	<!-- EN: make ploughman's lunch x4 -->
+	<Mousekin_Make_PloughmansLunch.label>농부의 점심을 만들다 x4</Mousekin_Make_PloughmansLunch.label>
+
+	<!-- EN: Make 4 servings of ploughman's lunch. -->
+	<Mousekin_Make_PloughmansLunch.description>쟁기질 도시락 4인분을 만드세요.</Mousekin_Make_PloughmansLunch.description>
+
+	<!-- EN: Making 4 servings of ploughman's lunch -->
+	<Mousekin_Make_PloughmansLunch.jobString>쟁기질 도시락 4인분을 만드세요.</Mousekin_Make_PloughmansLunch.jobString>
+	
+	<!-- EN: nuts -->
+	<Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>견과</Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl -->
+	<Mousekin_Make_BreadBowl.label>빵 그릇을 만들다</Mousekin_Make_BreadBowl.label>
+
+	<!-- EN: Hollow out a loaf of country bread and fill it with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowl.description>컨트리 브레드 한 덩어리의 속을 비우고 크림 같은 고기와 야채 포타주를 채웁니다.</Mousekin_Make_BreadBowl.description>
+
+	<!-- EN: Making bread bowl -->
+	<Mousekin_Make_BreadBowl.jobString>빵 그릇을 만들다.</Mousekin_Make_BreadBowl.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>단백질</Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl x4 -->
+	<Mousekin_Make_BreadBowlBulk.label>빵 그릇을 만들다 x4</Mousekin_Make_BreadBowlBulk.label>
+
+	<!-- EN: Hollow out 4 loaves of country bread and fill them with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowlBulk.description>컨트리 브레드 4덩이의 속을 비우고 크림 같은 고기와 야채 포타주를 채웁니다.</Mousekin_Make_BreadBowlBulk.description>
+
+	<!-- EN: Making 4 bread bowls -->
+	<Mousekin_Make_BreadBowlBulk.jobString>빵그릇 4개 만들기.</Mousekin_Make_BreadBowlBulk.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>단백질</Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>
+	
+</LanguageData>

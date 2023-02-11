@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Pince-Nez Glasses -->
+	<Mousekin_GlassesSmall.label>마우스킨 코 안경 </Mousekin_GlassesSmall.label>
+
+	<!-- EN: A pair of spectacles with small round lenses, designed to sit directly on the wearer’s nose. Often worn by elderly Mousekins to compensate for their poor eyesight in old age - or to inspire respect from younger Mousekins. -->
+	<Mousekin_GlassesSmall.description>작은 원형 렌즈가 있는 안경으로 착용자의 코에 직접 맞도록 디자인되었습니다. 노년에 시력이 나빠진 것을 보상하기 위해 또는 젊은 마우스킨으로부터 존경심을 불러일으키기 위해 종종 나이든 마우스킨이 착용합니다.</Mousekin_GlassesSmall.description>
+
+	<!-- EN: Mousekin Research Glasses -->
+	<Mousekin_GlassesLarge.label>마우스킨 연구용 안경</Mousekin_GlassesLarge.label>
+
+	<!-- EN: A pair of spectacles with large round lenses, designed to specifically fit the unique head and ear anatomy of Mousekins. Often worn by Mousekins with myopia, these glasses help increase research speed and are required to unlock high level Mousekin research projects - as well as making the wearer look and feel smarter. -->
+	<Mousekin_GlassesLarge.description>마우스킨의 독특한 머리와 귀 해부학에 맞게 특별히 설계된 큰 원형 렌즈가 있는 안경입니다. 종종 근시가 있는 마우스킨이 착용하는 이 안경은 연구 속도를 높이고 높은 수준의 마우스킨 연구 프로젝트를 잠금 해제하는 데 필요하며 착용자가 더 똑똑해 보이고 느끼게 합니다.</Mousekin_GlassesLarge.description>
+
+	<!-- EN: Mousekin Wicker Backpack -->
+	<Mousekin_BackpackWicker.label>마우스킨 고리버들 백팩</Mousekin_BackpackWicker.label>
+
+	<!-- EN: A wicker basket with shoulder straps, often used by Mousekin peasants to transport crops to storehouses. Has a large carrying capacity but is less durable than a leather backpack. -->
+	<Mousekin_BackpackWicker.description>어깨끈이 달린 고리버들 바구니로 마우스킨 농부들이 농작물을 저장고로 옮기기 위해 자주 사용합니다. 수납력은 크지만 가죽백팩보다 내구성이 떨어집니다.</Mousekin_BackpackWicker.description>
+
+	<!-- EN: Mousekin Leather Backpack -->
+	<Mousekin_BackpackLeather.label>마우스킨 가죽 백팩</Mousekin_BackpackLeather.label>
+
+	<!-- EN: A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness. -->
+	<Mousekin_BackpackLeather.description>어깨끈이 있는 내구성이 뛰어난 가죽 가방, 여러 개의 수납 공간, 간소한 캔틴 컵카드, 광야를 통해 긴 여행을 떠나는 마우스킨 에 이상적입니다.</Mousekin_BackpackLeather.description>
+	
+</LanguageData>

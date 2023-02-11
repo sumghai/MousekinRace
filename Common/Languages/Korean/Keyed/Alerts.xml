@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Miserable Earless Mousekin -->
+	<AlertEarlessMousekinFeelingMiserableLabel>귀가 없는 슬픈 마우스킨</AlertEarlessMousekinFeelingMiserableLabel>
+
+	<!-- EN: These Mousekins have recently lost both of their ears to disease or injury, and are ashamed of their disfigurement:\n\n{0} -->
+	<AlertEarlessMousekinFeelingMiserableDesc>이 마우스킨은 최근 질병이나 부상으로 양쪽 귀를 모두 잃었고, 외모가 부끄러워합니다:\n\n{0}</AlertEarlessMousekinFeelingMiserableDesc>
+
+	<!-- EN: Suicidal Earless Mousekin -->
+	<AlertEarlessMousekinFeelingSuicidalLabel>귀가 없는 자살 마우스킨</AlertEarlessMousekinFeelingSuicidalLabel>
+
+	<!-- EN: These Mousekins are humiliated by their prolonged loss of of their ears to disease or injury, and have a very high risk of committing suicide from despair over the next few days:\n\n{0} -->
+	<AlertEarlessMousekinFeelingSuicidalDesc>이 마우스킨은 질병이나 부상으로 오랫동안 귀를 잃은 것에 굴욕감을 느꼈고 앞으로 며칠 동안 절망에 빠져 자살할 위험이 매우 높습니다:\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
+
+	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
+	<AlertEarlessMousekinDescEnding>천으로 의수를 만들거나 다른 마우스킨을 위해 자연스러운 귀를 만드십시오.</AlertEarlessMousekinDescEnding>
+	
+</LanguageData>
