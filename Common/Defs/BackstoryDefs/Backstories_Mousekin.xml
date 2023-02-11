@@ -562,7 +562,7 @@
 		<defName>Mousekin_Childhood_GuardenerApprenticeOrphan</defName>
 		<title>Orphaned Apprentice Guardener</title>
 		<titleShort>Apprentice Guardener</titleShort>
-		<baseDesc>[PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of her new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of [PAWN_possessive] new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom.</baseDesc>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>30</femaleCommonality>
 		<slot>Childhood</slot>
@@ -1372,7 +1372,7 @@
 		<titleFemale>Shepherd girl</titleFemale>
 		<titleShort>Shepherd boy</titleShort>
 		<titleShortFemale>Shepherd girl</titleShortFemale>
-		<baseDesc>[PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and giant cavies.\n\nDuring the day [PAWN_pronoun] would help his parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight.</baseDesc>
+		<baseDesc>[PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and giant cavies.\n\nDuring the day [PAWN_pronoun] would help [PAWN_possessive] parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
@@ -2313,7 +2313,7 @@
 		<defName>Mousekin_Adulthood_Cobbler</defName>
 		<title>Cobbler</title>
 		<titleShort>Cobbler</titleShort>
-		<baseDesc>After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] moved into one of the larger cities in the Mousekin Kingdom, where [PAWN_pronoun] set up [PAWN_possessive] own workshop and repaired shoes for customers.\n\nIn time, [PAWN_pronoun] became experienced enough to start making his own shoes from scratch, which [PAWN_pronoun] often sold for a tidy profit.</baseDesc>
+		<baseDesc>After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] moved into one of the larger cities in the Mousekin Kingdom, where [PAWN_pronoun] set up [PAWN_possessive] own workshop and repaired shoes for customers.\n\nIn time, [PAWN_pronoun] became experienced enough to start making [PAWN_possessive] own shoes from scratch, which [PAWN_pronoun] often sold for a tidy profit.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -3645,7 +3645,7 @@
 		<defName>Mousekin_Adulthood_Housekeeper</defName>
 		<title>Housekeeper</title>
 		<titleShort>Housekeeper</titleShort>
-		<baseDesc>[PAWN_nameDef] served as the housekeeper for a very wealthy Mousekin landowner, and was responsible for supervising all the other female servants in the household, as well as managing the food stores, china closet and linen cupboard.\n\n[PAWN_pronoun] was well-regarded for her [PAWN_possessive] ability to cut down on household expenses while still exceeding the expectations of [PAWN_possessive] master's family.</baseDesc>
+		<baseDesc>[PAWN_nameDef] served as the housekeeper for a very wealthy Mousekin landowner, and was responsible for supervising all the other female servants in the household, as well as managing the food stores, china closet and linen cupboard.\n\n[PAWN_pronoun] was well-regarded for [PAWN_possessive] ability to cut down on household expenses while still exceeding the expectations of [PAWN_possessive] master's family.</baseDesc>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -4657,7 +4657,7 @@
 		<defName>Mousekin_Adulthood_ManorLord</defName>
 		<title>Manor lord</title>
 		<titleShort>Lord</titleShort>
-		<baseDesc>[PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] his wife and many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] wife and many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5024,7 +5024,7 @@
 		<defName>Mousekin_Adulthood_NomadMagician</defName>
 		<title>Magician</title>
 		<titleShort>Magician</titleShort>
-		<baseDesc>Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_objective] his friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike.</baseDesc>
+		<baseDesc>Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_objective] friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike.</baseDesc>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5282,7 +5282,7 @@
 		<titleFemale>Princess</titleFemale>
 		<titleShort>Prince</titleShort>
 		<titleShortFemale>Princess</titleShortFemale>
-		<baseDesc>Like most adults in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of his rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary.</baseDesc>
+		<baseDesc>Like most adults in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of [PAWN_possessive] rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary.</baseDesc>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
@@ -5370,7 +5370,7 @@
 		<defName>Mousekin_Adulthood_SculleryMaid</defName>
 		<title>Scullery Maid</title>
 		<titleShort>Maid</titleShort>
-		<baseDesc>[PAWN_nameDef] found work as a scullery maid for a wealthy Mousekin landowner.\n\n[PAWN_pronoun] spent her days washing dishes and cooking utensils, scrubbing the kitchen floor and benches, as well as boiling hot water for tea and washing.\n\n[PAWN_possessive] only solace was in carrying on a secret affair with a particularly handsome footman serving in the same household.</baseDesc>
+		<baseDesc>[PAWN_nameDef] found work as a scullery maid for a wealthy Mousekin landowner.\n\n[PAWN_pronoun] spent [PAWN_possessive] days washing dishes and cooking utensils, scrubbing the kitchen floor and benches, as well as boiling hot water for tea and washing.\n\n[PAWN_possessive] only solace was in carrying on a secret affair with a particularly handsome footman serving in the same household.</baseDesc>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>

@@ -122,7 +122,7 @@
 	<!-- EN: Apprentice Guardener -->
 	<Mousekin_Childhood_GuardenerApprenticeOrphan.titleShort>见习花园卫女</Mousekin_Childhood_GuardenerApprenticeOrphan.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of her new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom. -->
+	<!-- EN: [PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of [PAWN_possessive] new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom. -->
 	<Mousekin_Childhood_GuardenerApprenticeOrphan.baseDesc>[PAWN_nameDef]在黑猫族军团攻击[PAWN_possessive]家乡后成为孤儿，[PAWN_possessive]一家人都死了，但[PAWN_pronoun]被一群击退入侵者的花园卫女救出。\n\n[PAWN_pronoun]后来在她新的"姊姊"们的照顾下长大，并且当[PAWN_pronoun]大到可以挥舞一把练习用的木剑时，会所长母决定正式接受[PAWN_objective]作为一名见习花园卫女，训练[PAWN_objective]照料和保护白鼠族王国的花园。</Mousekin_Childhood_GuardenerApprenticeOrphan.baseDesc>		<!-- EN: Nomad child -->
 	<Mousekin_Childhood_NomadChild.title>游民鼠童</Mousekin_Childhood_NomadChild.title>
 	
@@ -264,7 +264,7 @@
 	<Mousekin_Childhood_ShepherdChild.titleShort>牧童</Mousekin_Childhood_ShepherdChild.titleShort>
 	<Mousekin_Childhood_ShepherdChild.titleShortFemale>牧童</Mousekin_Childhood_ShepherdChild.titleShortFemale>
 	
-	<!-- EN: [PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and giant cavies.\n\nDuring the day [PAWN_pronoun] would help his parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight. -->
+	<!-- EN: [PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and giant cavies.\n\nDuring the day [PAWN_pronoun] would help [PAWN_possessive] parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight. -->
 	<Mousekin_Childhood_ShepherdChild.baseDesc>[PAWN_nameDef]的父母在一个白鼠族村庄附近拥有一大片牧场，他们在那里饲养牛、猪、羊和巨豚鼠。\n\n白天，[PAWN_pronoun]会帮助[PAWN_possessive]父母围捕动物，将饲料和水运送到食槽中，并且照顾生病的动物。晚上，[PAWN_pronoun]会在烛光下在家自学。</Mousekin_Childhood_ShepherdChild.baseDesc>
 	
 	<!-- EN: Shop child -->
@@ -409,7 +409,7 @@
 	<!-- EN: Cobbler -->
 	<Mousekin_Adulthood_Cobbler.titleShort>鞋匠</Mousekin_Adulthood_Cobbler.titleShort>
 	
-	<!-- EN: After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] moved into one of the larger cities in the Mousekin Kingdom, where [PAWN_pronoun] set up [PAWN_possessive] own workshop and repaired shoes for customers.\n\nIn time, [PAWN_pronoun] became experienced enough to start making his own shoes from scratch, which [PAWN_pronoun] often sold for a tidy profit. -->
+	<!-- EN: After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] moved into one of the larger cities in the Mousekin Kingdom, where [PAWN_pronoun] set up [PAWN_possessive] own workshop and repaired shoes for customers.\n\nIn time, [PAWN_pronoun] became experienced enough to start making [PAWN_possessive] own shoes from scratch, which [PAWN_pronoun] often sold for a tidy profit. -->
 	<Mousekin_Adulthood_Cobbler.baseDesc>学徒期结束后，[PAWN_nameDef]搬到了白鼠族王国的一个较大的城市，建立了自己的工房并开始为顾客修理鞋子。\n\n随着时间的推移，[PAWN_pronoun]得到足够经验来制作自己的鞋子，从中赚了不少钱。</Mousekin_Adulthood_Cobbler.baseDesc>
 	
 	<!-- EN: Line cook -->
@@ -574,7 +574,7 @@
 	<!-- EN: Housekeeper -->
 	<Mousekin_Adulthood_Housekeeper.titleShort>女管家</Mousekin_Adulthood_Housekeeper.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] served as the housekeeper for a very wealthy Mousekin landowner, and was responsible for supervising all the other female servants in the household, as well as managing the food stores, china closet and linen cupboard.\n\n[PAWN_pronoun] was well-regarded for her [PAWN_possessive] ability to cut down on household expenses while still exceeding the expectations of [PAWN_possessive] master's family. -->
+	<!-- EN: [PAWN_nameDef] served as the housekeeper for a very wealthy Mousekin landowner, and was responsible for supervising all the other female servants in the household, as well as managing the food stores, china closet and linen cupboard.\n\n[PAWN_pronoun] was well-regarded for [PAWN_possessive] ability to cut down on household expenses while still exceeding the expectations of [PAWN_possessive] master's family. -->
 	<Mousekin_Adulthood_Housekeeper.baseDesc>[PAWN_nameDef]担任一位非常富有的白鼠族地主的女管家，负责管理家中所有其他女仆，以及食物储藏室、瓷器柜和亚麻橱柜。\n\n[PAWN_pronoun]在减少家庭开支的同时，还超出了主人家人的期望，因此受到了好评。</Mousekin_Adulthood_Housekeeper.baseDesc>		<!-- EN: Human servant -->
 	<Mousekin_Adulthood_HumanServant.title>人类仆人</Mousekin_Adulthood_HumanServant.title>
 	
@@ -702,7 +702,7 @@
 	<!-- EN: Lord -->
 	<Mousekin_Adulthood_ManorLord.titleShort>庄园主</Mousekin_Adulthood_ManorLord.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] his wife and many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor. -->
+	<!-- EN: [PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] wife and many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor. -->
 	<Mousekin_Adulthood_ManorLord.baseDesc>[PAWN_nameDef]是白鼠族王国中掌管大片农田的小贵族，与妻子和许多鼠童一起住在豪华的豪宅中，由数十名随心所欲的仆人服务。\n\n[PAWN_pronoun]特别喜欢为重要来访者举办盛大的派对，欣赏从国外购买的艺术品，并在[PAWN_pronoun]舒适的庄园里看着数百名农场工人在[PAWN_possessive]田地里辛勤劳作。</Mousekin_Adulthood_ManorLord.baseDesc>
 	
 	<!-- EN: Stonemason -->
@@ -763,7 +763,7 @@
 	<!-- EN: Magician -->
 	<Mousekin_Adulthood_NomadMagician.titleShort>魔术师</Mousekin_Adulthood_NomadMagician.titleShort>
 	
-	<!-- EN: Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_objective] his friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike. -->
+	<!-- EN: Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_objective] friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike. -->
 	<Mousekin_Adulthood_NomadMagician.baseDesc>[PAWN_nameDef]小时候被[PAWN_pronoun]祖父的"消失的爪子"把戏迷住了，自学了如何向[PAWN_possessive]朋友表演，并喜欢它给[PAWN_pronoun]带来的关注。\n\n不久，[PAWN_pronoun]开始从其他白鼠族耳朵背后变出坚果和银币，空头巾中拉出胖胖鼠，或在贫瘠的土地上开出花朵——并且得到白鼠族市民和贵族的热烈掌声。</Mousekin_Adulthood_NomadMagician.baseDesc>
 	
 	<!-- EN: Wagonwife -->
@@ -799,7 +799,7 @@
 	<Mousekin_Adulthood_Royal.titleShort>王子</Mousekin_Adulthood_Royal.titleShort>
 	<Mousekin_Adulthood_Royal.titleShortFemale>公主</Mousekin_Adulthood_Royal.titleShortFemale>
 	
-	<!-- EN: Like most adults in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of his rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary. -->
+	<!-- EN: Like most adults in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of [PAWN_possessive] rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary. -->
 	<Mousekin_Adulthood_Royal.baseDesc>与白鼠族王国庞大的皇室家族中的大多数成年人一样，[PAWN_nameDef]在皇宫里过着奢华的生活，有几十个随心所欲的私人随从。然而，在这种迷人的外表下隐藏着政治阴谋和宫廷阴谋的残酷本质，因为各个王子和公主寻求白鼠氏族国王的青睐，成为他指定的继任者。\n\n[PAWN_pronoun]变得非常擅长操纵事件以确保[PAWN_possessive]敌对兄弟姐妹垮台-并拥有剑和枪法来保护自己，如果有必要的话。</Mousekin_Adulthood_Royal.baseDesc>
 	
 	<!-- EN: Scullery Maid -->
@@ -808,7 +808,7 @@
 	<!-- EN: Maid -->
 	<Mousekin_Adulthood_SculleryMaid.titleShort>女仆</Mousekin_Adulthood_SculleryMaid.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] found work as a scullery maid for a wealthy Mousekin landowner.\n\n[PAWN_pronoun] spent her days washing dishes and cooking utensils, scrubbing the kitchen floor and benches, as well as boiling hot water for tea and washing.\n\n[PAWN_possessive] only solace was in carrying on a secret affair with a particularly handsome footman serving in the same household. -->
+	<!-- EN: [PAWN_nameDef] found work as a scullery maid for a wealthy Mousekin landowner.\n\n[PAWN_pronoun] spent [PAWN_possessive] days washing dishes and cooking utensils, scrubbing the kitchen floor and benches, as well as boiling hot water for tea and washing.\n\n[PAWN_possessive] only solace was in carrying on a secret affair with a particularly handsome footman serving in the same household. -->
 	<Mousekin_Adulthood_SculleryMaid.baseDesc>[PAWN_nameDef]在一个富有的白鼠氏族地主那里找到了一份洗碗女佣的工作。\n\n[PAWN_pronoun]整天都在洗碗碟和炊具，擦洗厨房地板和长凳，以及烧开泡茶和洗衣服用的热水。\n\n[PAWN_pronoun]唯一的安慰就是和同门的一个特别英俊的男仆私通。</Mousekin_Adulthood_SculleryMaid.baseDesc>
 	
 	<!-- EN: Seamstress -->

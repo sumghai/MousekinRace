@@ -126,7 +126,7 @@
 	<!-- EN: Apprentice Guardener -->
 	<Mousekin_Childhood_GuardenerApprenticeOrphan.titleShort>제자 정원경비원</Mousekin_Childhood_GuardenerApprenticeOrphan.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of her new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom. -->
+	<!-- EN: [PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of [PAWN_possessive] new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom. -->
 	<Mousekin_Childhood_GuardenerApprenticeOrphan.baseDesc>[PAWN_nameDef]은(는) 검은 고양이 군대가 [PAWN_possessive] 고향 마을을 공격하여 [PAWN_possessive] 가족이 사망한 후 어린 시절 고아가 되었지만 [PAWN_pronoun]은(는) 침략자들과 싸운 정원경비원 그룹에 의해 구조되었습니다.\n\n [PAWN_pronoun]은(는) 새로운 "자매들"의 보살핌 아래 자랐고, [PAWN_pronoun]이 연습 목검 중 하나를 휘두를 수 있을 만큼 나이가 들었을 때, 산장 어머니는 [PAWN_objective]을(를) 견습생 정원경비원으로 공식 수락하기로 결정했습니다. 마우스킨 왕국의 꽃밭을 돌보고 보호하기 위한 [PAWN_objective] 훈련.</Mousekin_Childhood_GuardenerApprenticeOrphan.baseDesc>
 	
 	<!-- EN: Nomad child -->
@@ -276,7 +276,7 @@
 	<Mousekin_Childhood_ShepherdChild.titleShort>양치기 소년</Mousekin_Childhood_ShepherdChild.titleShort>
 	<Mousekin_Childhood_ShepherdChild.titleShortFemale>양치기 소녀</Mousekin_Childhood_ShepherdChild.titleShortFemale>
 	
-	<!-- EN: [PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and giant cavies.\n\nDuring the day [PAWN_pronoun] would help his parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight. -->
+	<!-- EN: [PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and giant cavies.\n\nDuring the day [PAWN_pronoun] would help [PAWN_possessive] parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight. -->
 	<Mousekin_Childhood_ShepherdChild.baseDesc>[PAWN_nameDef]의 부모는 마우스킨 마을 근처에 있는 넓은 목초지를 소유하고 있었는데 그곳에서 소, 돼지, 양, 거대 기니피그를 기르고 있었습니다.\n\n낮에는 [PAWN_pronoun]이(가) 그의 부모가 동물을 모으고, 사료를 배달하고, 여물통에 물을 대고 병든 자를 돌보아 주십시오. 저녁에 [PAWN_pronoun]은(는) 촛불 아래서 홈스쿨링을 받았습니다.</Mousekin_Childhood_ShepherdChild.baseDesc>
 	
 	<!-- EN: Shop child -->
@@ -429,7 +429,7 @@
 	<!-- EN: Cobbler -->
 	<Mousekin_Adulthood_Cobbler.titleShort>구두 수선공</Mousekin_Adulthood_Cobbler.titleShort>
 	
-	<!-- EN: After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] moved into one of the larger cities in the Mousekin Kingdom, where [PAWN_pronoun] set up [PAWN_possessive] own workshop and repaired shoes for customers.\n\nIn time, [PAWN_pronoun] became experienced enough to start making his own shoes from scratch, which [PAWN_pronoun] often sold for a tidy profit. -->
+	<!-- EN: After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] moved into one of the larger cities in the Mousekin Kingdom, where [PAWN_pronoun] set up [PAWN_possessive] own workshop and repaired shoes for customers.\n\nIn time, [PAWN_pronoun] became experienced enough to start making [PAWN_possessive] own shoes from scratch, which [PAWN_pronoun] often sold for a tidy profit. -->
 	<Mousekin_Adulthood_Cobbler.baseDesc>[PAWN_possessive] 견습생 과정을 마친 후 [PAWN_nameDef]는 마우스킨 왕국의 더 큰 도시 중 하나로 이사했으며, 그곳에서 [PAWN_pronoun]은 [PAWN_possessive]의 작업장을 차리고 고객을 위해 신발을 수선했습니다.\n\n시간이 지나면서 [PAWN_pronoun]은(는) 경험이 쌓였습니다. [PAWN_pronoun]은 종종 상당한 이익을 위해 판매되는 자신의 신발을 처음부터 만들기 시작하기에 충분합니다.</Mousekin_Adulthood_Cobbler.baseDesc>
 	
 	<!-- EN: Line cook -->
@@ -600,7 +600,7 @@
 	<!-- EN: Housekeeper -->
 	<Mousekin_Adulthood_Housekeeper.titleShort>가정부</Mousekin_Adulthood_Housekeeper.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] served as the housekeeper for a very wealthy Mousekin landowner, and was responsible for supervising all the other female servants in the household, as well as managing the food stores, china closet and linen cupboard.\n\n[PAWN_pronoun] was well-regarded for her [PAWN_possessive] ability to cut down on household expenses while still exceeding the expectations of [PAWN_possessive] master's family. -->
+	<!-- EN: [PAWN_nameDef] served as the housekeeper for a very wealthy Mousekin landowner, and was responsible for supervising all the other female servants in the household, as well as managing the food stores, china closet and linen cupboard.\n\n[PAWN_pronoun] was well-regarded for [PAWN_possessive] ability to cut down on household expenses while still exceeding the expectations of [PAWN_possessive] master's family. -->
 	<Mousekin_Adulthood_Housekeeper.baseDesc>[PAWN_nameDef]는 매우 부유한 마우스킨 지주의 가정부를 역임했으며 집안의 다른 모든 여성 하인을 감독하고 식료품점, 도자기 장롱 및 린넨 찬장을 관리하는 일을 담당했습니다.\n\n[PAWN_pronoun]은(는) 그녀의 [PAWN_possessive]는 [PAWN_possessive] 주인 가족의 기대치를 초과하면서도 가계 비용을 절감할 수 있는 능력으로 잘 알려져 있습니다.</Mousekin_Adulthood_Housekeeper.baseDesc>
 	
 	<!-- EN: Human servant -->
@@ -736,7 +736,7 @@
 	<!-- EN: Lord -->
 	<Mousekin_Adulthood_ManorLord.titleShort>영주</Mousekin_Adulthood_ManorLord.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] his wife and many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor. -->
+	<!-- EN: [PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] wife and many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor. -->
 	<Mousekin_Adulthood_ManorLord.baseDesc>[PAWN_nameDef]는 마우스킨 왕국에서 넓은 농지를 관리하는 하급 귀족으로, [PAWN_possessive]의 아내와 많은 아이들과 함께 호화로운 저택에서 살았으며, [PAWN_possessive]의 변덕에 따라 수십 명의 하인이 시중을 들었습니다. \n\n[PAWN_pronoun]은(는) 특히 중요한 방문객을 위한 호화로운 파티를 주최하고, 외국 땅에서 구입한 예술품을 평가하고, [PAWN_possessive] 저택의 안락함에서 [PAWN_possessive] 들판에서 수백 명의 농장 노동자들이 수고하는 것을 지켜보는 것을 즐겼습니다.</Mousekin_Adulthood_ManorLord.baseDesc>
 	
 	<!-- EN: Stonemason -->
@@ -799,7 +799,7 @@
 	<!-- EN: Magician -->
 	<Mousekin_Adulthood_NomadMagician.titleShort>마술사</Mousekin_Adulthood_NomadMagician.titleShort>
 	
-	<!-- EN: Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_objective] his friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike. -->
+	<!-- EN: Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_objective] friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike. -->
 	<Mousekin_Adulthood_NomadMagician.baseDesc>어린 시절 [PAWN_possessive] 할아버지의 "발 소멸" 트릭에 매료된 [PAWN_nameDef]는 [PAWN_objective]자신에게 [PAWN_objective] 친구들에게 그 트릭을 수행하는 방법을 가르쳤고 [PAWN_objective]이(가) 관심을 끌게 된 것을 좋아했습니다.\n\n머지 않아 , [PAWN_pronoun]은 다른 마우스킨의 귀 뒤에서 호두와 은화를 주술하고, 텅 빈 머리 스카프에서 푸지마우스를 꺼내고, 메마른 땅에서 꽃을 피우는 등 마우스킨 마을 사람들과 귀족들 모두의 열광적인 박수갈채를 받았습니다.</Mousekin_Adulthood_NomadMagician.baseDesc>
 	
 	<!-- EN: Wagonwife -->
@@ -837,7 +837,7 @@
 	<Mousekin_Adulthood_Royal.titleShort>왕자</Mousekin_Adulthood_Royal.titleShort>
 	<Mousekin_Adulthood_Royal.titleShortFemale>공주</Mousekin_Adulthood_Royal.titleShortFemale>
 	
-	<!-- EN: Like most adults in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of his rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary. -->
+	<!-- EN: Like most adults in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of [PAWN_possessive] rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary. -->
 	<Mousekin_Adulthood_Royal.baseDesc>[PAWN_nameDef]는 [PAWN_소유] 하인의 개인 시종에 의해 모든 필요와 변덕이 충족되는 왕궁에서 호화로운 호화로운 생활을 했습니다. 화려한 겉치장에는 다양한 왕자와 공주들이 그의 임명된 후계자가 되기 위해 마우스킨 왕의 호의를 구하는 등 정치적 계략과 궁정 음모의 잔인한 성격이 있습니다.\n\n[PAWN_nameDef]는 그의 라이벌의 몰락을 보장하기 위해 사건을 조작하는 데 매우 능숙해졌습니다. 형제자매 - 필요한 경우 [PAWN_objective]자신을 방어할 수 있는 검과 사격술을 소유했습니다.</Mousekin_Adulthood_Royal.baseDesc>
 	
 	<!-- EN: Scullery Maid -->
@@ -846,7 +846,7 @@
 	<!-- EN: Maid -->
 	<Mousekin_Adulthood_SculleryMaid.titleShort>하녀</Mousekin_Adulthood_SculleryMaid.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] found work as a scullery maid for a wealthy Mousekin landowner.\n\n[PAWN_pronoun] spent her days washing dishes and cooking utensils, scrubbing the kitchen floor and benches, as well as boiling hot water for tea and washing.\n\n[PAWN_possessive] only solace was in carrying on a secret affair with a particularly handsome footman serving in the same household. -->
+	<!-- EN: [PAWN_nameDef] found work as a scullery maid for a wealthy Mousekin landowner.\n\n[PAWN_pronoun] spent [PAWN_possessive] days washing dishes and cooking utensils, scrubbing the kitchen floor and benches, as well as boiling hot water for tea and washing.\n\n[PAWN_possessive] only solace was in carrying on a secret affair with a particularly handsome footman serving in the same household. -->
 	<Mousekin_Adulthood_SculleryMaid.baseDesc>[PAWN_nameDef]은(는) 부유한 마우스킨 지주를 위해 주방 청소부로 일했습니다.\n\n[PAWN_pronoun]은 설거지와 조리 도구를 닦고, 부엌 바닥과 벤치를 닦고, 차를 끓일 뜨거운 물을 끓이고, 설거지를 하며 하루를 보냈습니다.\n\n[PAWN_possessive] 유일한 위안은 같은 집안에서 근무하는 특히 잘생긴 하인과 은밀한 관계를 유지하는 것이었습니다.。</Mousekin_Adulthood_SculleryMaid.baseDesc>
 	
 	<!-- EN: Seamstress -->
