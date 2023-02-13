@@ -47,9 +47,21 @@ namespace MousekinRace
         public static FactionDef Mousekin_FactionKingdom;
 
         [MayRequireIdeology]
+        public static MemeDef AnimalPersonhood;
+
+        [MayRequireIdeology]
         public static MemeDef Mousekin_IdeoMeme_AncestorWorship;
 
         [MayRequireIdeology]
         public static MemeDef Mousekin_IdeoMeme_RodentPurity;
+
+        [MayRequireIdeology]
+        public static PreceptDef HAR_AlienRaces_Standard;
+
+        [MayRequireIdeology]
+        public static PreceptDef HAR_AlienRaces_Respected;
+
+        [MayRequireIdeology]
+        public static PreceptDef HAR_AlienRaces_Exalted;
     }
 }
