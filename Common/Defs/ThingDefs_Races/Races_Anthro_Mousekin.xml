@@ -1044,6 +1044,12 @@
 					<li>Mousekin_TraitSpectrum_Faith</li>
 				</traitList>
 				
+				<!-- Mousekins can only use their race-exclusive xenotype -->
+				<xenotypeList>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Mousekin_XenotypeMousekin</li>
+				</xenotypeList>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+				
 				<!-- Restrict genes available to Mousekin (Biotech DLC) -->
 				<geneList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Mousekin_GeneVoiceMousekin</li>
