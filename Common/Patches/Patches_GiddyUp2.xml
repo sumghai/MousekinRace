@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Giddy-up! Core</li>
+			<li>Giddy-Up 2</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -12,12 +12,10 @@
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/FactionDef[@Name="Mousekin_FactionBase"]</xpath>
 					<value>
-						<li Class="GiddyUpCore.FactionRestrictionsPatch">
+						<li Class="GiddyUp.FactionRestrictions">
 							<mountChance>0</mountChance>
 							<wildAnimalWeight>0</wildAnimalWeight>
 							<nonWildAnimalWeight>0</nonWildAnimalWeight>
-							<allowedWildAnimalsCSV>""</allowedWildAnimalsCSV>
-							<allowedNonWildAnimalsCSV>""</allowedNonWildAnimalsCSV>
 						</li>
 					</value>
 				</li>
@@ -38,7 +36,7 @@
 						defName="MousekinTraderNomad"
 					]</xpath>
 					<value>
-						<li Class="GiddyUpCore.CustomMountsPatch">
+						<li Class="GiddyUp.CustomMounts">
 							<mountChance>100</mountChance>
 							<possibleMounts>
 								<li>
@@ -59,7 +57,7 @@
 						defName="MousekinServantHighClass"
 					]</xpath>
 					<value>
-						<li Class="GiddyUpCore.CustomMountsPatch">
+						<li Class="GiddyUp.CustomMounts">
 							<mountChance>40</mountChance>
 							<possibleMounts>
 								<li>
