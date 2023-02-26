@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin origin -->
+	<Structure_OriginMousekin.label>マウスキン教の起源</Structure_OriginMousekin.label>
+
+	<!-- EN: This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins. -->
+	<Structure_OriginMousekin.description>具体化された有神論構造の一種です.この思想者は表面的には古代キリスト教に似ているが、数千年前に賢者バレリアンがマウスキンの仲間に最初に説いた教訓から独自に発展したものであります.</Structure_OriginMousekin.description>
+
+	<!-- EN: memeMoralist->Mousekin Pope -->
+	<Structure_OriginMousekin.generalRules.rulesStrings.0>memeMoralist->マウスキン教皇</Structure_OriginMousekin.generalRules.rulesStrings.0>
+	
+	<!-- EN: memeAdjective-> (leave blank) -->
+	<Structure_OriginMousekin.generalRules.rulesStrings.1>memeAdjective-> </Structure_OriginMousekin.generalRules.rulesStrings.1>
+
+	<!-- EN: Mousekin -->
+	<Structure_OriginMousekin.symbolPacks.0.adjective>マウスキン教の</Structure_OriginMousekin.symbolPacks.0.adjective>
+	
+	<!-- EN: Christianity -->
+	<Structure_OriginMousekin.symbolPacks.0.ideoName>キリスト教</Structure_OriginMousekin.symbolPacks.0.ideoName>
+	
+	<!-- EN: Christian -->
+	<Structure_OriginMousekin.symbolPacks.0.member>キリスト教徒</Structure_OriginMousekin.symbolPacks.0.member>
+	
+	<!-- EN: church -->
+	<Structure_OriginMousekin.worshipRoomLabel>教会</Structure_OriginMousekin.worshipRoomLabel>
+	
+</LanguageData>
