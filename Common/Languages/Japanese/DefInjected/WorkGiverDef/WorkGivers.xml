@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make things at crafting bench -->
+	<Mousekin_DoBillsUseCraftingBench.label>工芸品を加工</Mousekin_DoBillsUseCraftingBench.label>
+
+	<!-- EN: craft -->
+	<Mousekin_DoBillsUseCraftingBench.verb>作業</Mousekin_DoBillsUseCraftingBench.verb>
+
+	<!-- EN: crafting at -->
+	<Mousekin_DoBillsUseCraftingBench.gerund>で作業する</Mousekin_DoBillsUseCraftingBench.gerund>
+
+	<!-- EN: harvest products from beehives -->
+	<Mousekin_HarvestFromBeehive.label>養蜂箱から製品を採取</Mousekin_HarvestFromBeehive.label>
+
+	<!-- EN: harvest products from -->
+	<Mousekin_HarvestFromBeehive.verb>から製品を採取</Mousekin_HarvestFromBeehive.verb>
+
+	<!-- EN: harvesting products from -->
+	<Mousekin_HarvestFromBeehive.gerund>から製品を採取する</Mousekin_HarvestFromBeehive.gerund>
+	
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Cloth Mousekin Ear -->
+	<Mousekin_ProstheticClothEar.label>マウスキンニセ耳</Mousekin_ProstheticClothEar.label>
+
+	<!-- EN: A fake Mousekin ear sewn from cloth.\n\nMousekins take great pride in their large rounded ears, as their presence (or absence) greatly affects their standing in Mousekin society. Those who have lost their natural ears through injury or disease wear fake ears to hide their humiliating disfigurement. -->
+	<Mousekin_ProstheticClothEar.description>布で縫ったマウスキンのニセ耳.\n\nマウスキンは丸みを帯びた大きな耳を誇りとしており、その有無はマウスキン社会での地位に大きく影響する.怪我や病気で耳を失った者は、その屈辱的な醜態を隠すために付け耳をする.</Mousekin_ProstheticClothEar.description>
+
+	<!-- EN: Cloth Mousekin Tail -->
+	<Mousekin_ProstheticClothTail.label>マウスキンニセ尻尾</Mousekin_ProstheticClothTail.label>
+
+	<!-- EN: A fake Mousekin tail made from cloth twisted and braided into rope.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving. Those who have lost their natural tails through injury and disease wear fake tails, and while the non-living rope tail does not fully restore their loss of balancing ability, it at least attracts less attention than a stump. -->
+	<Mousekin_ProstheticClothTail.description>布を撚り、ロープ状に編んだマウスキンのニセ尻尾.\n\n通常の非人型ネズミと同様、マウスキンは移動中のバランスを取るために尾を使う.怪我や病気で自然な尻尾を失った者は、偽物の尻尾をつける.生きていないロープの尻尾は、失われたバランス能力を完全に回復することはできないが、少なくとも切り株のように不要な注意を引くことはない.</Mousekin_ProstheticClothTail.description>
+
+	<!-- EN: Mousekin Ear -->
+	<Mousekin_BodyPartEar.label>マウスキン耳</Mousekin_BodyPartEar.label>
+
+	<!-- EN: A biological Mousekin ear, most likely harvested from a dead or unwilling Mousekin.\n\nBesides allowing Mousekins to pick up quiet, distant sounds, large rounded ears represent a Mousekin’s personal honor, dignity and standing in their society, and this replacement ear fully restores their loss of hearing ability as well as their social status. -->
+	<Mousekin_BodyPartEar.description>マウスキンの耳は、マウスキンの意思に反しているか、すでに死んでいるマウスキンから採取されたものです.\n\n丸みを帯びた大きな耳は、静かで遠くの音を拾うことができるほか、マウスキンの個人的な名誉、尊厳、社会的地位を表しており、この耳の交換によって聴覚障害と社会的地位が完全に回復する.</Mousekin_BodyPartEar.description>
+
+	<!-- EN: Mousekin Tail -->
+	<Mousekin_BodyPartTail.label>マウスキン尻尾</Mousekin_BodyPartTail.label>
+
+	<!-- EN: A biological Mousekin tail, most likely harvested from a dead or unwilling Mousekin.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving, and this replacement tail fully restores their loss of balancing ability. -->
+	<Mousekin_BodyPartTail.description>マウスキンの尻尾は、マウスキンの意思に反しているか、すでに死んでいるマウスキンから採取されたものです.\n\nマウスキンは、通常の人外 ネズミと同様に、移動中のバランスを取るために尻尾を使いますが、この尻尾の交換により、失われたバランス能力を完全に回復させることができます.</Mousekin_BodyPartTail.description>
+	
+</LanguageData>

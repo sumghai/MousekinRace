@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin -->
+	<Mousekin.label>マウスキン</Mousekin.label>
+
+	<!-- EN: Species: &lt;i&gt;Mus sapiens albus&lt;/i&gt; ("Wise white mouse")\n\nA race of small and agile anthropomorphic mice, readily identified by their large round ears, short-snouted faces, black beady eyes, pink noses, slight overbite, thin scaly tails and white fur.\n\nMousekin adult males can grow up to 100 centimeters tall, while females tend to reach 90 centimeters in height. They have a smaller head-to-body ratio compared with other humanoid races, resembling oversized toddlers with short legs and noticeable hind rumps.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single pup; twins, triplets and other multiple births are rare.\n\nVariations among individual Mousekin include different head hair color and lengths independent of their white body fur, as well as moustaches and other forms of facial hair for males.\n\nWhile the vast majority of humanoid rodent-like races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is generally understood that Mousekins are among the very few species that have evolved naturally from their non-sapient mouse ancestors.\n\nBarring accidents, injury or disease, a Mousekin’s average life expectancy is 90~100 years; their head hair turns fully grey by around 60 years of age, but no Mousekin will experience baldness. -->
+	<Mousekin.description>学名： &lt;i&gt;Mus sapiens albus&lt;/i&gt; ("聡明な白ネズミ")\n\n大きな丸い耳、短い鼻、黒い目、ピンク色の鼻、少し噛み合わせが悪い、薄い鱗状の尻尾、白い毛皮で識別される、小型で機敏な擬人化ネズミの種族.\n\n体高はオスで100cm、メスで90cm程度.他のヒューマノイド種族に比べ、頭身比が小さく、足が短く、後頭部が目立つ特大の幼児に似ている.\n\n妊娠期間は人間とほぼ同じで、妊娠した母親は通常1匹のネズミの赤ちゃんを産み、双子や三つ子などの多胎は稀である.\n\nマウスキンの個体差としては、白い体毛とは別に頭髪の色や長さが異なり、男性には口ひげなどの顔面毛がある.\n\n銀河系に存在する齧歯類のような人型の種族の大半は、数千年前に行われたベースラインの人間に対する意図的な遺伝子実験の産物であるが、マウスキンは非人型のネズミの祖先から自然に進化した数少ない種の一つであると一般には理解されている.\n\n事故や怪我、病気などを除けば、マウスキンの平均寿命は90～100歳で、60歳頃には頭髪が完全に白髪になるが、ハゲることはない.</Mousekin.description>
+
+	<!-- EN: left paw -->
+	<Mousekin.tools.0.label>左掌</Mousekin.tools.0.label>
+
+	<!-- EN: right paw -->
+	<Mousekin.tools.1.label>右掌</Mousekin.tools.1.label>
+
+	<!-- EN: teeth -->
+	<Mousekin.tools.2.label>歯</Mousekin.tools.2.label>
+	
+</LanguageData>

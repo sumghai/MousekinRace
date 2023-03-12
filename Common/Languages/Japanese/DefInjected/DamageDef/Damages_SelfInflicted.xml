@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: stab (self-inflicted) -->
+	<Mousekin_SuicideKnife.label>刺す(自傷)</Mousekin_SuicideKnife.label>
+
+	<!-- EN: {0} has committed suicide by stabbing [PAWN_objective]self. -->
+	<Mousekin_SuicideKnife.deathMessage>{0}は自らを刺して自殺した</Mousekin_SuicideKnife.deathMessage>
+
+	<!-- EN: hemlock poisoning (self-inflicted) -->
+	<Mousekin_SuicidePoison.label>ヘムロック中毒(自傷)</Mousekin_SuicidePoison.label>
+
+	<!-- EN: {0} has committed suicide by ingesting hemlock. -->
+	<Mousekin_SuicidePoison.deathMessage>{0}はヘムロックの摂取により自殺した</Mousekin_SuicidePoison.deathMessage>
+	
+</LanguageData>

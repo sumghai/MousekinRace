@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Install Cloth Mousekin Ear -->
+	<Mousekin_InstallProstheticClothEar.label>マウスキンニセ耳 移植</Mousekin_InstallProstheticClothEar.label>
+
+	<!-- EN: Install a cloth Mousekin ear. -->
+	<Mousekin_InstallProstheticClothEar.description>マウスキンニセ耳を移植します.</Mousekin_InstallProstheticClothEar.description>
+
+	<!-- EN: Installing Cloth Mousekin Ear. -->
+	<Mousekin_InstallProstheticClothEar.jobString>マウスキンニセ耳を移植中</Mousekin_InstallProstheticClothEar.jobString>
+
+	<!-- EN: Install Cloth Mousekin Tail -->
+	<Mousekin_InstallProstheticClothTail.label>マウスキンニセ尻尾 移植</Mousekin_InstallProstheticClothTail.label>
+
+	<!-- EN: Install a cloth Mousekin tail. -->
+	<Mousekin_InstallProstheticClothTail.description>マウスキンニセ尻尾を移植します.</Mousekin_InstallProstheticClothTail.description>
+
+	<!-- EN: Installing Cloth Mousekin Tail. -->
+	<Mousekin_InstallProstheticClothTail.jobString>マウスキンニセ尻尾を移植中</Mousekin_InstallProstheticClothTail.jobString>
+
+	<!-- EN: Install Mousekin Ear -->
+	<Mousekin_InstallNaturalEar.label>マウスキン耳 移植</Mousekin_InstallNaturalEar.label>
+
+	<!-- EN: Install a biological Mousekin ear. -->
+	<Mousekin_InstallNaturalEar.description>マウスキン耳を移植します.</Mousekin_InstallNaturalEar.description>
+
+	<!-- EN: Installing Mousekin Ear -->
+	<Mousekin_InstallNaturalEar.jobString>マウスキン耳を移植中</Mousekin_InstallNaturalEar.jobString>
+
+	<!-- EN: Install Mousekin Tail -->
+	<Mousekin_InstallNaturalTail.label>マウスキン尻尾 移植</Mousekin_InstallNaturalTail.label>
+
+	<!-- EN: Install a biological Mousekin tail. -->
+	<Mousekin_InstallNaturalTail.description>マウスキン尻尾を移植します.</Mousekin_InstallNaturalTail.description>
+
+	<!-- EN: Installing Mousekin Tail -->
+	<Mousekin_InstallNaturalTail.jobString>マウスキン尻尾を移植中</Mousekin_InstallNaturalTail.jobString>
+	
+</LanguageData>

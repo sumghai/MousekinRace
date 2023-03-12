@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: administer Chonko nut brew -->
+	<Administer_Mousekin_DrinkChonkoNutBrew.label>チョンコナッツ飲料を投与する</Administer_Mousekin_DrinkChonkoNutBrew.label>
+
+	<!-- EN: Administering Chonko nut brew. -->
+	<Administer_Mousekin_DrinkChonkoNutBrew.jobString>チョンコナッツ飲料を投与中</Administer_Mousekin_DrinkChonkoNutBrew.jobString>
+
+	<!-- EN: administer Mousekin lager -->
+	<Administer_Mousekin_DrinkLager.label>マウスキンラガーを投与する</Administer_Mousekin_DrinkLager.label>
+
+	<!-- EN: Administering Mousekin lager. -->
+	<Administer_Mousekin_DrinkLager.jobString>マウスキンラガーを投与中</Administer_Mousekin_DrinkLager.jobString>
+
+	<!-- EN: administer Mousekin mead (awful) -->
+	<Administer_Mousekin_DrinkMeadAwful.label>マウスキン蜂蜜酒を投与する(壊れかけ)</Administer_Mousekin_DrinkMeadAwful.label>
+
+	<!-- EN: Administering Mousekin mead (awful). -->
+	<Administer_Mousekin_DrinkMeadAwful.jobString>マウスキン蜂蜜酒を投与中(壊れかけ)</Administer_Mousekin_DrinkMeadAwful.jobString>
+
+	<!-- EN: administer Mousekin mead (poor) -->
+	<Administer_Mousekin_DrinkMeadPoor.label>マウスキン蜂蜜酒を投与する(低品質)</Administer_Mousekin_DrinkMeadPoor.label>
+
+	<!-- EN: Administering Mousekin mead (poor). -->
+	<Administer_Mousekin_DrinkMeadPoor.jobString>マウスキン蜂蜜酒を投与中(低品質)</Administer_Mousekin_DrinkMeadPoor.jobString>
+
+	<!-- EN: administer Mousekin mead (normal) -->
+	<Administer_Mousekin_DrinkMeadNormal.label>マウスキン蜂蜜酒を投与する(標準品)</Administer_Mousekin_DrinkMeadNormal.label>
+
+	<!-- EN: Administering Mousekin mead (normal). -->
+	<Administer_Mousekin_DrinkMeadNormal.jobString>マウスキン蜂蜜酒を投与中(標準品)</Administer_Mousekin_DrinkMeadNormal.jobString>
+
+	<!-- EN: administer Mousekin mead (good) -->
+	<Administer_Mousekin_DrinkMeadGood.label>マウスキン蜂蜜酒を投与する(良品)</Administer_Mousekin_DrinkMeadGood.label>
+
+	<!-- EN: Administering Mousekin mead (good). -->
+	<Administer_Mousekin_DrinkMeadGood.jobString>マウスキン蜂蜜酒を投与中(良品)</Administer_Mousekin_DrinkMeadGood.jobString>
+
+	<!-- EN: administer Mousekin mead (excellent) -->
+	<Administer_Mousekin_DrinkMeadExcellent.label>マウスキン蜂蜜酒を投与する(秀品)</Administer_Mousekin_DrinkMeadExcellent.label>
+
+	<!-- EN: Administering Mousekin mead (excellent). -->
+	<Administer_Mousekin_DrinkMeadExcellent.jobString>マウスキン蜂蜜酒を投与中(秀品)</Administer_Mousekin_DrinkMeadExcellent.jobString>
+
+	<!-- EN: administer Mousekin mead (masterwork) -->
+	<Administer_Mousekin_DrinkMeadMasterwork.label>マウスキン蜂蜜酒を投与する(名品)</Administer_Mousekin_DrinkMeadMasterwork.label>
+
+	<!-- EN: Administering Mousekin mead (masterwork). -->
+	<Administer_Mousekin_DrinkMeadMasterwork.jobString>マウスキン蜂蜜酒を投与中(名品)</Administer_Mousekin_DrinkMeadMasterwork.jobString>
+
+	<!-- EN: administer Mousekin mead (legendary) -->
+	<Administer_Mousekin_DrinkMeadLegendary.label>マウスキン蜂蜜酒を投与する(幻の一品)</Administer_Mousekin_DrinkMeadLegendary.label>
+
+	<!-- EN: Administering Mousekin mead (legendary). -->
+	<Administer_Mousekin_DrinkMeadLegendary.jobString>マウスキン蜂蜜酒を投与中(幻の一品)</Administer_Mousekin_DrinkMeadLegendary.jobString>
+
+	<!-- EN: make Cloth Mousekin Ear -->
+	<Make_Mousekin_ProstheticClothEar.label>マウスキンニセ耳を作成する</Make_Mousekin_ProstheticClothEar.label>
+
+	<!-- EN: Make Cloth Mousekin Ear. -->
+	<Make_Mousekin_ProstheticClothEar.description>マウスキンニセ耳を作成します.</Make_Mousekin_ProstheticClothEar.description>
+
+	<!-- EN: Making Cloth Mousekin Ear. -->
+	<Make_Mousekin_ProstheticClothEar.jobString>マウスキンニセ耳を作成中</Make_Mousekin_ProstheticClothEar.jobString>
+
+	<!-- EN: make Cloth Mousekin Tail -->
+	<Make_Mousekin_ProstheticClothTail.label>マウスキンニセ尻尾を作成する</Make_Mousekin_ProstheticClothTail.label>
+
+	<!-- EN: Make Cloth Mousekin Tail. -->
+	<Make_Mousekin_ProstheticClothTail.description>マウスキンニセ尻尾を作成します.</Make_Mousekin_ProstheticClothTail.description>
+
+	<!-- EN: Making Cloth Mousekin Tail. -->
+	<Make_Mousekin_ProstheticClothTail.jobString>マウスキンニセ尻尾を作成中</Make_Mousekin_ProstheticClothTail.jobString>
+
+	<!-- EN: make Mousekin Pince-Nez Glasses -->
+	<Make_Mousekin_GlassesSmall.label>マウスキン鼻眼鏡を作成する</Make_Mousekin_GlassesSmall.label>
+
+	<!-- EN: Make Mousekin Pince-Nez Glasses. -->
+	<Make_Mousekin_GlassesSmall.description>マウスキン鼻眼鏡を作成します.</Make_Mousekin_GlassesSmall.description>
+
+	<!-- EN: Making Mousekin Pince-Nez Glasses. -->
+	<Make_Mousekin_GlassesSmall.jobString>マウスキン鼻眼鏡を作成中</Make_Mousekin_GlassesSmall.jobString>
+
+	<!-- EN: make Mousekin Research Glasses -->
+	<Make_Mousekin_GlassesLarge.label>マウスキン研究用眼鏡を作成する</Make_Mousekin_GlassesLarge.label>
+
+	<!-- EN: Make Mousekin Research Glasses. -->
+	<Make_Mousekin_GlassesLarge.description>マウスキン研究用眼鏡を作成します.</Make_Mousekin_GlassesLarge.description>
+
+	<!-- EN: Making Mousekin Research Glasses. -->
+	<Make_Mousekin_GlassesLarge.jobString>マウスキン研究用眼鏡を作成中</Make_Mousekin_GlassesLarge.jobString>
+
+	<!-- EN: make Mousekin Wicker Backpack -->
+	<Make_Mousekin_BackpackWicker.label>マウスキン背負い籠を作成する</Make_Mousekin_BackpackWicker.label>
+
+	<!-- EN: Make Mousekin Wicker Backpack. -->
+	<Make_Mousekin_BackpackWicker.description>マウスキン背負い籠を作成します.</Make_Mousekin_BackpackWicker.description>
+
+	<!-- EN: Making Mousekin Wicker Backpack. -->
+	<Make_Mousekin_BackpackWicker.jobString>マウスキン背負い籠を作成中</Make_Mousekin_BackpackWicker.jobString>
+
+	<!-- EN: make Mousekin Leather Backpack -->
+	<Make_Mousekin_BackpackLeather.label>マウスキン革製バックパックを作成する</Make_Mousekin_BackpackLeather.label>
+
+	<!-- EN: Make Mousekin Leather Backpack. -->
+	<Make_Mousekin_BackpackLeather.description>マウスキン革製バックパックを作成します.</Make_Mousekin_BackpackLeather.description>
+
+	<!-- EN: Making Mousekin Leather Backpack. -->
+	<Make_Mousekin_BackpackLeather.jobString>マウスキン革製バックパックを作成中</Make_Mousekin_BackpackLeather.jobString>
+
+	<!-- EN: make Mousekin Cuirass -->
+	<Make_Mousekin_ArmorCuirass.label>マウスキンキュイラスを作成する</Make_Mousekin_ArmorCuirass.label>
+
+	<!-- EN: Make Mousekin Cuirass. -->
+	<Make_Mousekin_ArmorCuirass.description>マウスキンキュイラスを作成します.</Make_Mousekin_ArmorCuirass.description>
+
+	<!-- EN: Making Mousekin Cuirass. -->
+	<Make_Mousekin_ArmorCuirass.jobString>マウスキンキュイラスを作成中</Make_Mousekin_ArmorCuirass.jobString>
+
+	<!-- EN: make Mousekin Plate Armor -->
+	<Make_Mousekin_ArmorPlate.label>マウスキンプレートアーマーを作成する</Make_Mousekin_ArmorPlate.label>
+
+	<!-- EN: Make Mousekin Plate Armor. -->
+	<Make_Mousekin_ArmorPlate.description>マウスキンプレートアーマーを作成します.</Make_Mousekin_ArmorPlate.description>
+
+	<!-- EN: Making Mousekin Plate Armor. -->
+	<Make_Mousekin_ArmorPlate.jobString>マウスキンプレートアーマーを作成中</Make_Mousekin_ArmorPlate.jobString>
+
+	<!-- EN: make Mousekin Settler’s Outfit -->
+	<Make_Mousekin_ApparelSettlerOutfit.label>マウスキン入植者の服装を作成する</Make_Mousekin_ApparelSettlerOutfit.label>
+
+	<!-- EN: Make Mousekin Settler’s Outfit. -->
+	<Make_Mousekin_ApparelSettlerOutfit.description>マウスキン入植者の服装を作成します.</Make_Mousekin_ApparelSettlerOutfit.description>
+
+	<!-- EN: Making Mousekin Settler’s Outfit. -->
+	<Make_Mousekin_ApparelSettlerOutfit.jobString>マウスキン入植者の服装を作成中</Make_Mousekin_ApparelSettlerOutfit.jobString>
+
+	<!-- EN: make Mousekin Settler’s Dress -->
+	<Make_Mousekin_ApparelSettlerDress.label>マウスキン入植者のドレスを作成する</Make_Mousekin_ApparelSettlerDress.label>
+
+	<!-- EN: Make Mousekin Settler’s Dress. -->
+	<Make_Mousekin_ApparelSettlerDress.description>マウスキン入植者のドレスを作成します.</Make_Mousekin_ApparelSettlerDress.description>
+
+	<!-- EN: Making Mousekin Settler’s Dress. -->
+	<Make_Mousekin_ApparelSettlerDress.jobString>マウスキン入植者のドレスを作成中</Make_Mousekin_ApparelSettlerDress.jobString>
+
+	<!-- EN: make Mousekin Worker’s Outfit -->
+	<Make_Mousekin_ApparelWorkerOutfit.label>マウスキン労働者の服装を作成する</Make_Mousekin_ApparelWorkerOutfit.label>
+
+	<!-- EN: Make Mousekin Worker’s Outfit. -->
+	<Make_Mousekin_ApparelWorkerOutfit.description>マウスキン労働者の服装を作成します.</Make_Mousekin_ApparelWorkerOutfit.description>
+
+	<!-- EN: Making Mousekin Worker’s Outfit. -->
+	<Make_Mousekin_ApparelWorkerOutfit.jobString>マウスキン労働者の服装を作成中</Make_Mousekin_ApparelWorkerOutfit.jobString>
+
+	<!-- EN: make Mousekin Worker’s Dress -->
+	<Make_Mousekin_ApparelWorkerDress.label>マウスキン労働者のドレスを作成する</Make_Mousekin_ApparelWorkerDress.label>
+
+	<!-- EN: Make Mousekin Worker’s Dress. -->
+	<Make_Mousekin_ApparelWorkerDress.description>マウスキン労働者のドレスを作成します.</Make_Mousekin_ApparelWorkerDress.description>
+
+	<!-- EN: Making Mousekin Worker’s Dress. -->
+	<Make_Mousekin_ApparelWorkerDress.jobString>マウスキン労働者のドレスを作成中</Make_Mousekin_ApparelWorkerDress.jobString>
+
+	<!-- EN: make Mousekin Craftsman’s Outfit -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.label>マウスキン職人の衣装を作成する</Make_Mousekin_ApparelCraftsmanOutfit.label>
+
+	<!-- EN: Make Mousekin Craftsman’s Outfit. -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.description>マウスキン職人の衣装を作成します.</Make_Mousekin_ApparelCraftsmanOutfit.description>
+
+	<!-- EN: Making Mousekin Craftsman’s Outfit. -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.jobString>マウスキン職人の衣装を作成中</Make_Mousekin_ApparelCraftsmanOutfit.jobString>
+
+	<!-- EN: make Mousekin Cloak -->
+	<Make_Mousekin_ApparelCloak.label>マウスキンクロークを作成する</Make_Mousekin_ApparelCloak.label>
+
+	<!-- EN: Make Mousekin Cloak. -->
+	<Make_Mousekin_ApparelCloak.description>マウスキンクロークを作成します.</Make_Mousekin_ApparelCloak.description>
+
+	<!-- EN: Making Mousekin Cloak. -->
+	<Make_Mousekin_ApparelCloak.jobString>マウスキンクロークを作成中</Make_Mousekin_ApparelCloak.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Gown -->
+	<Make_Mousekin_ApparelGuardenerGown.label>マウスキン花園守護者のドレスを作成する</Make_Mousekin_ApparelGuardenerGown.label>
+
+	<!-- EN: Make Mousekin Guardener’s Gown. -->
+	<Make_Mousekin_ApparelGuardenerGown.description>マウスキン花園守護者のドレスを作成します.</Make_Mousekin_ApparelGuardenerGown.description>
+
+	<!-- EN: Making Mousekin Guardener’s Gown. -->
+	<Make_Mousekin_ApparelGuardenerGown.jobString>マウスキン花園守護者のドレスを作成中</Make_Mousekin_ApparelGuardenerGown.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Robe -->
+	<Make_Mousekin_ApparelGuardenerRobe.label>マウスキン花園守護者のローブを作成する</Make_Mousekin_ApparelGuardenerRobe.label>
+
+	<!-- EN: Make Mousekin Guardener’s Robe. -->
+	<Make_Mousekin_ApparelGuardenerRobe.description>マウスキン花園守護者のローブを作成します.</Make_Mousekin_ApparelGuardenerRobe.description>
+
+	<!-- EN: Making Mousekin Guardener’s Robe. -->
+	<Make_Mousekin_ApparelGuardenerRobe.jobString>マウスキン花園守護者のローブを作成中</Make_Mousekin_ApparelGuardenerRobe.jobString>
+
+	<!-- EN: make Mousekin Nun’s Habit -->
+	<Make_Mousekin_ApparelNunHabit.label>マウスキン修道女服を作成する</Make_Mousekin_ApparelNunHabit.label>
+
+	<!-- EN: Make Mousekin Nun’s Habit. -->
+	<Make_Mousekin_ApparelNunHabit.description>マウスキン修道女服を作成します.</Make_Mousekin_ApparelNunHabit.description>
+
+	<!-- EN: Making Mousekin Nun’s Habit. -->
+	<Make_Mousekin_ApparelNunHabit.jobString>マウスキン修道女服を作成中</Make_Mousekin_ApparelNunHabit.jobString>
+
+	<!-- EN: make Mousekin Priest’s Cassock -->
+	<Make_Mousekin_ApparelPriestCassock.label>マウスキン司祭のキャソックを作成する</Make_Mousekin_ApparelPriestCassock.label>
+
+	<!-- EN: Make Mousekin Priest’s Cassock. -->
+	<Make_Mousekin_ApparelPriestCassock.description>マウスキン司祭のキャソックを作成します.</Make_Mousekin_ApparelPriestCassock.description>
+
+	<!-- EN: Making Mousekin Priest’s Cassock. -->
+	<Make_Mousekin_ApparelPriestCassock.jobString>マウスキン司祭のキャソックを作成中</Make_Mousekin_ApparelPriestCassock.jobString>
+
+	<!-- EN: make Mousekin Gambeson -->
+	<Make_Mousekin_ApparelGambeson.label>マウスキンギャンベゾンを作成する</Make_Mousekin_ApparelGambeson.label>
+
+	<!-- EN: Make Mousekin Gambeson. -->
+	<Make_Mousekin_ApparelGambeson.description>マウスキンギャンベゾンを作成します.</Make_Mousekin_ApparelGambeson.description>
+
+	<!-- EN: Making Mousekin Gambeson. -->
+	<Make_Mousekin_ApparelGambeson.jobString>マウスキンギャンベゾンを作成中</Make_Mousekin_ApparelGambeson.jobString>
+
+	<!-- EN: make Mousekin Straw Hat -->
+	<Make_Mousekin_HatStraw.label>マウスキン麦わら帽子を作成する</Make_Mousekin_HatStraw.label>
+
+	<!-- EN: Make Mousekin Straw Hat. -->
+	<Make_Mousekin_HatStraw.description>マウスキン麦わら帽子を作成します.</Make_Mousekin_HatStraw.description>
+
+	<!-- EN: Making Mousekin Straw Hat. -->
+	<Make_Mousekin_HatStraw.jobString>マウスキン麦わら帽子を作成中</Make_Mousekin_HatStraw.jobString>
+
+	<!-- EN: make Mousekin Headscarf -->
+	<Make_Mousekin_HatHeadscarf.label>マウスキンヘッドスカーフを作成する</Make_Mousekin_HatHeadscarf.label>
+
+	<!-- EN: Make Mousekin Headscarf. -->
+	<Make_Mousekin_HatHeadscarf.description>マウスキンヘッドスカーフを作成します.</Make_Mousekin_HatHeadscarf.description>
+
+	<!-- EN: Making Mousekin Headscarf. -->
+	<Make_Mousekin_HatHeadscarf.jobString>マウスキンヘッドスカーフを作成中</Make_Mousekin_HatHeadscarf.jobString>
+
+	<!-- EN: make Mousekin Nun’s Veil -->
+	<Make_Mousekin_HatNunVeil.label>マウスキン修道女のベールを作成する</Make_Mousekin_HatNunVeil.label>
+
+	<!-- EN: Make Mousekin Nun’s Veil. -->
+	<Make_Mousekin_HatNunVeil.description>マウスキン修道女のベールを作成します.</Make_Mousekin_HatNunVeil.description>
+
+	<!-- EN: Making Mousekin Nun’s Veil. -->
+	<Make_Mousekin_HatNunVeil.jobString>マウスキン修道女のベールを作成中</Make_Mousekin_HatNunVeil.jobString>
+
+	<!-- EN: make Mousekin Kettle Hat -->
+	<Make_Mousekin_HelmetKettle.label>マウスキンケトルハットを作成する</Make_Mousekin_HelmetKettle.label>
+
+	<!-- EN: Make Mousekin Kettle Hat. -->
+	<Make_Mousekin_HelmetKettle.description> 	マウスキンケトルハットを作成します.</Make_Mousekin_HelmetKettle.description>
+
+	<!-- EN: Making Mousekin Kettle Hat. -->
+	<Make_Mousekin_HelmetKettle.jobString> 	マウスキンケトルハットを作成中</Make_Mousekin_HelmetKettle.jobString>
+
+	<!-- EN: make Mousekin Morion Helmet -->
+	<Make_Mousekin_HelmetMorion.label>マウスキンモリオンヘルメットを作成する</Make_Mousekin_HelmetMorion.label>
+
+	<!-- EN: Make Mousekin Morion Helmet. -->
+	<Make_Mousekin_HelmetMorion.description>マウスキンモリオンヘルメットを作成します.</Make_Mousekin_HelmetMorion.description>
+
+	<!-- EN: Making Mousekin Morion Helmet. -->
+	<Make_Mousekin_HelmetMorion.jobString>マウスキンモリオンヘルメットを作成中</Make_Mousekin_HelmetMorion.jobString>
+
+	<!-- EN: make Mousekin Knight's Helmet -->
+	<Make_Mousekin_HelmetKnight.label>マウスキン騎士の兜を作成する</Make_Mousekin_HelmetKnight.label>
+
+	<!-- EN: Make Mousekin Knight's Helmet. -->
+	<Make_Mousekin_HelmetKnight.description>マウスキン騎士の兜を作成します.</Make_Mousekin_HelmetKnight.description>
+
+	<!-- EN: Making Mousekin Knight's Helmet. -->
+	<Make_Mousekin_HelmetKnight.jobString>マウスキン騎士の兜を作成中</Make_Mousekin_HelmetKnight.jobString>
+
+	<!-- EN: make Mousekin Knight Commander’s Helmet -->
+	<Make_Mousekin_HelmetKnightCommander.label>マウスキン騎士団長の兜を作成する</Make_Mousekin_HelmetKnightCommander.label>
+
+	<!-- EN: Make Mousekin Knight Commander’s Helmet. -->
+	<Make_Mousekin_HelmetKnightCommander.description>マウスキン騎士団長の兜を作成します.</Make_Mousekin_HelmetKnightCommander.description>
+
+	<!-- EN: Making Mousekin Knight Commander’s Helmet. -->
+	<Make_Mousekin_HelmetKnightCommander.jobString>マウスキン騎士団長の兜を作成中</Make_Mousekin_HelmetKnightCommander.jobString>
+
+	<!-- EN: make Mousekin Axe -->
+	<Make_Mousekin_MeleeWeapon_Axe.label>マウスキン斧を作成する</Make_Mousekin_MeleeWeapon_Axe.label>
+
+	<!-- EN: Make Mousekin Axe. -->
+	<Make_Mousekin_MeleeWeapon_Axe.description>マウスキン斧を作成します.</Make_Mousekin_MeleeWeapon_Axe.description>
+
+	<!-- EN: Making Mousekin Axe. -->
+	<Make_Mousekin_MeleeWeapon_Axe.jobString>マウスキン斧を作成中</Make_Mousekin_MeleeWeapon_Axe.jobString>
+
+	<!-- EN: make Mousekin Cleaver -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.label>マウスキン包丁を作成する</Make_Mousekin_MeleeWeapon_Cleaver.label>
+
+	<!-- EN: Make Mousekin Cleaver. -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.description>マウスキン包丁を作成します.</Make_Mousekin_MeleeWeapon_Cleaver.description>
+
+	<!-- EN: Making Mousekin Cleaver. -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.jobString>マウスキン包丁を作成中</Make_Mousekin_MeleeWeapon_Cleaver.jobString>
+
+	<!-- EN: make Mousekin Dagger -->
+	<Make_Mousekin_MeleeWeapon_Dagger.label>マウスキンダガーを作成する</Make_Mousekin_MeleeWeapon_Dagger.label>
+
+	<!-- EN: Make Mousekin Dagger. -->
+	<Make_Mousekin_MeleeWeapon_Dagger.description>マウスキンダガーを作成します.</Make_Mousekin_MeleeWeapon_Dagger.description>
+
+	<!-- EN: Making Mousekin Dagger. -->
+	<Make_Mousekin_MeleeWeapon_Dagger.jobString>マウスキンダガーを作成中</Make_Mousekin_MeleeWeapon_Dagger.jobString>
+
+	<!-- EN: make Mousekin Hammer -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.label>マウスキン金鎚を作成する</Make_Mousekin_MeleeWeapon_HammerMetal.label>
+
+	<!-- EN: Make Mousekin Hammer. -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.description>マウスキン金鎚を作成します.</Make_Mousekin_MeleeWeapon_HammerMetal.description>
+
+	<!-- EN: Making Mousekin Hammer. -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.jobString>マウスキン金鎚を作成中</Make_Mousekin_MeleeWeapon_HammerMetal.jobString>
+
+	<!-- EN: make Mousekin Mallet -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.label>マウスキン木槌を作成する</Make_Mousekin_MeleeWeapon_HammerWood.label>
+
+	<!-- EN: Make Mousekin Mallet. -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.description>マウスキン木槌を作成します.</Make_Mousekin_MeleeWeapon_HammerWood.description>
+
+	<!-- EN: Making Mousekin Mallet. -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.jobString>マウスキン木槌を作成中</Make_Mousekin_MeleeWeapon_HammerWood.jobString>
+
+	<!-- EN: make Mousekin Hoe -->
+	<Make_Mousekin_MeleeWeapon_Hoe.label>マウスキン鍬を作成する</Make_Mousekin_MeleeWeapon_Hoe.label>
+
+	<!-- EN: Make Mousekin Hoe. -->
+	<Make_Mousekin_MeleeWeapon_Hoe.description>マウスキン鍬を作成します.</Make_Mousekin_MeleeWeapon_Hoe.description>
+
+	<!-- EN: Making Mousekin Hoe. -->
+	<Make_Mousekin_MeleeWeapon_Hoe.jobString>マウスキン鍬を作成中</Make_Mousekin_MeleeWeapon_Hoe.jobString>
+
+	<!-- EN: make Mousekin Pickaxe -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.label>マウスキンつるはしを作成する</Make_Mousekin_MeleeWeapon_Pickaxe.label>
+
+	<!-- EN: Make Mousekin Pickaxe. -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.description>マウスキンつるはしを作成します.</Make_Mousekin_MeleeWeapon_Pickaxe.description>
+
+	<!-- EN: Making Mousekin Pickaxe. -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.jobString>マウスキンつるはしを作成中</Make_Mousekin_MeleeWeapon_Pickaxe.jobString>
+
+	<!-- EN: make Mousekin Pike -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.label>マウスキンパイクを作成する</Make_Mousekin_MeleeWeapon_PikeRegular.label>
+
+	<!-- EN: Make Mousekin Pike. -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.description>マウスキンパイクを作成します.</Make_Mousekin_MeleeWeapon_PikeRegular.description>
+
+	<!-- EN: Making Mousekin Pike. -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.jobString>マウスキンパイクを作成中</Make_Mousekin_MeleeWeapon_PikeRegular.jobString>
+
+	<!-- EN: make Mousekin Pitchfork -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.label>マウスキンピッチフォークを作成する</Make_Mousekin_MeleeWeapon_Pitchfork.label>
+
+	<!-- EN: Make Mousekin Pitchfork. -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.description>マウスキンピッチフォークを作成します.</Make_Mousekin_MeleeWeapon_Pitchfork.description>
+
+	<!-- EN: Making Mousekin Pitchfork. -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.jobString>マウスキンピッチフォークを作成中</Make_Mousekin_MeleeWeapon_Pitchfork.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.label>マウスキン花園守護者の短剣を作成する</Make_Mousekin_MeleeWeapon_SwordGuardener.label>
+
+	<!-- EN: Make Mousekin Guardener’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.description>マウスキン花園守護者の短剣を作成します.</Make_Mousekin_MeleeWeapon_SwordGuardener.description>
+
+	<!-- EN: Making Mousekin Guardener’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.jobString>マウスキン花園守護者の短剣を作成中</Make_Mousekin_MeleeWeapon_SwordGuardener.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Training Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.label>マウスキン花園守護者の木剣を作成する</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.label>
+
+	<!-- EN: Make Mousekin Guardener’s Training Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.description>マウスキン花園守護者の木剣を作成します.</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.description>
+
+	<!-- EN: Making Mousekin Guardener’s Training Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.jobString>マウスキン花園守護者の木剣を作成中</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.jobString>
+
+	<!-- EN: make Mousekin Knight’s Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.label>マウスキン騎士の剣を作成する</Make_Mousekin_MeleeWeapon_SwordKnight.label>
+
+	<!-- EN: Make Mousekin Knight’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.description>マウスキン騎士の剣を作成します.</Make_Mousekin_MeleeWeapon_SwordKnight.description>
+
+	<!-- EN: Making Mousekin Knight’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.jobString>マウスキン騎士の剣を作成中</Make_Mousekin_MeleeWeapon_SwordKnight.jobString>
+
+	<!-- EN: make Mousekin Hunter’s Crossbow -->
+	<Make_Mousekin_RangedWeapon_Crossbow.label>マウスキン狩猟用クロスボウを作成する</Make_Mousekin_RangedWeapon_Crossbow.label>
+
+	<!-- EN: Make Mousekin Hunter’s Crossbow. -->
+	<Make_Mousekin_RangedWeapon_Crossbow.description>マウスキン狩猟用クロスボウを作成します.</Make_Mousekin_RangedWeapon_Crossbow.description>
+
+	<!-- EN: Making Mousekin Hunter’s Crossbow. -->
+	<Make_Mousekin_RangedWeapon_Crossbow.jobString>マウスキン狩猟用クロスボウを作成中</Make_Mousekin_RangedWeapon_Crossbow.jobString>
+
+	<!-- EN: make Mousekin Automatic Crossbow -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.label>マウスキンオートクロスボウを作成する</Make_Mousekin_RangedWeapon_CrossbowAuto.label>
+
+	<!-- EN: Make Mousekin Automatic Crossbow. -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.description>マウスキンオートクロスボウを作成します.</Make_Mousekin_RangedWeapon_CrossbowAuto.description>
+
+	<!-- EN: Making Mousekin Automatic Crossbow. -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.jobString>マウスキンオートクロスボウを作成中</Make_Mousekin_RangedWeapon_CrossbowAuto.jobString>
+
+	<!-- EN: make Mousekin Musket -->
+	<Make_Mousekin_RangedWeapon_MusketLong.label>マウスキンマスケット銃を作成する</Make_Mousekin_RangedWeapon_MusketLong.label>
+
+	<!-- EN: Make Mousekin Musket. -->
+	<Make_Mousekin_RangedWeapon_MusketLong.description>マウスキンマスケット銃を作成します.</Make_Mousekin_RangedWeapon_MusketLong.description>
+
+	<!-- EN: Making Mousekin Musket. -->
+	<Make_Mousekin_RangedWeapon_MusketLong.jobString>マウスキンマスケット銃を作成中</Make_Mousekin_RangedWeapon_MusketLong.jobString>
+
+	<!-- EN: make Mousekin Blunderbuss -->
+	<Make_Mousekin_RangedWeapon_MusketShort.label>マウスキンブランダーバスを作成する</Make_Mousekin_RangedWeapon_MusketShort.label>
+
+	<!-- EN: Make Mousekin Blunderbuss. -->
+	<Make_Mousekin_RangedWeapon_MusketShort.description>マウスキンブランダーバスを作成します.</Make_Mousekin_RangedWeapon_MusketShort.description>
+
+	<!-- EN: Making Mousekin Blunderbuss. -->
+	<Make_Mousekin_RangedWeapon_MusketShort.jobString>マウスキンブランダーバスを作成中</Make_Mousekin_RangedWeapon_MusketShort.jobString>
+	
+</LanguageData>

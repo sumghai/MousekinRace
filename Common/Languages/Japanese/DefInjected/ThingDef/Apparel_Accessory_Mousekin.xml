@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Pince-Nez Glasses -->
+	<Mousekin_GlassesSmall.label>マウスキン鼻眼鏡</Mousekin_GlassesSmall.label>
+
+	<!-- EN: A pair of spectacles with small round lenses, designed to sit directly on the wearer’s nose. Often worn by elderly Mousekins to compensate for their poor eyesight in old age - or to inspire respect from younger Mousekins. -->
+	<Mousekin_GlassesSmall.description>小さな丸いレンズが付いた眼鏡で、着用者の鼻の上に直接置くように設計されています.高齢のマウスキンが老眼で視力が落ちたのを補うため、あるいは若いマウスキンから尊敬されるためによく着用します.</Mousekin_GlassesSmall.description>
+
+	<!-- EN: Mousekin Research Glasses -->
+	<Mousekin_GlassesLarge.label>マウスキン研究用眼鏡</Mousekin_GlassesLarge.label>
+
+	<!-- EN: A pair of spectacles with large round lenses, designed to specifically fit the unique head and ear anatomy of Mousekins. Often worn by Mousekins with myopia, these glasses help increase research speed and are required to unlock high level Mousekin research projects - as well as making the wearer look and feel smarter. -->
+	<Mousekin_GlassesLarge.description>大きな丸いレンズの眼鏡で、マウスキンのユニークな頭と耳の解剖学的構造に合うように特別に設計されています.近視のマウスキンがよくかけているこの眼鏡は、研究スピードを上げるのに役立ち、マウスキンの高レベルの研究プロジェクトを解除するのに必要であるばかりでなく、かける人の見た目もスマートにしてくれます.</Mousekin_GlassesLarge.description>
+
+	<!-- EN: Mousekin Wicker Backpack -->
+	<Mousekin_BackpackWicker.label>マウスキン背負い籠</Mousekin_BackpackWicker.label>
+
+	<!-- EN: A wicker basket with shoulder straps, often used by Mousekin peasants to transport crops to storehouses. Has a large carrying capacity but is less durable than a leather backpack. -->
+	<Mousekin_BackpackWicker.description>マウスキンの農民が農作物を倉庫に運ぶのによく使う、肩紐付きの籐の籠.容量は大きいが、革製のリュックに比べると耐久性に劣ります.</Mousekin_BackpackWicker.description>
+
+	<!-- EN: Mousekin Leather Backpack -->
+	<Mousekin_BackpackLeather.label>マウスキン革製バックパック</Mousekin_BackpackLeather.label>
+
+	<!-- EN: A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness. -->
+	<Mousekin_BackpackLeather.description>ショルダーストラップ、複数のコンパートメント、シンプルな水筒タンクを備えた丈夫なレザーバッグで、マウスキンが荒野を長く旅するのに適しています.</Mousekin_BackpackLeather.description>
+	
+</LanguageData>

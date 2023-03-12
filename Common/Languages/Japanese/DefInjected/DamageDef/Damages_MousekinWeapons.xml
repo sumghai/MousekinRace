@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: mousekin crossbow bolt -->
+	<Mousekin_CrossbowBolt.label>射る</Mousekin_CrossbowBolt.label>
+
+	<!-- EN: {0} has been shot to death by a Mousekin crossbow bolt. -->
+	<Mousekin_CrossbowBolt.deathMessage>{0}は射抜かれて死んだ</Mousekin_CrossbowBolt.deathMessage>
+
+	<!-- EN: mousekin gunpowder explosion -->
+	<Mousekin_GunpowderExplosion.label>マウスキン火薬爆発</Mousekin_GunpowderExplosion.label>
+
+	<!-- EN: {0} has died in an explosion. -->
+	<Mousekin_GunpowderExplosion.deathMessage>{0}は爆発に巻き込まれて死んだ</Mousekin_GunpowderExplosion.deathMessage>
+	
+</LanguageData>
