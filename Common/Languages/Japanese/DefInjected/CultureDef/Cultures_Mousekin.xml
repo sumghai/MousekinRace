@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Traditional Mousekinian -->
+	<Mousekin_CultureKingdom.label>伝統マウスキン</Mousekin_CultureKingdom.label>
+
+	<!-- EN: A feudal agrarian culture resembling Regency-era England, characterized by institutionalised patriarchy, rigid social strata and a deep reverence for flowers. -->
+	<Mousekin_CultureKingdom.description>リージェンシー時代のイギリスに似た封建的な農耕文化で、制度化された家父長制、厳格な社会階層、花への深い畏敬の念が特徴.</Mousekin_CultureKingdom.description>
+
+	<!-- EN: Enlightened Mousekinian -->
+	<Mousekin_CultureIndyTown.label>啓蒙マウスキン</Mousekin_CultureIndyTown.label>
+
+	<!-- EN: A hardy agrarian culture that embraces egalitarian and democratic ideals. -->
+	<Mousekin_CultureIndyTown.description>平等主義や民主主義の理想を抱く、たくましい農耕民族の文化.</Mousekin_CultureIndyTown.description>
+
+	<!-- EN: Rodemanian -->
+	<Mousekin_CultureNomad.label>ロデマニ</Mousekin_CultureNomad.label>
+
+	<!-- EN: A nomadic culture that celebrates wanderlust, generosity and hospitality. -->
+	<Mousekin_CultureNomad.description>放浪癖、寛容さ、おもてなしを称える遊牧民の文化.</Mousekin_CultureNomad.description>
+
+	<!-- EN: Outpawian -->
+	<Mousekin_CultureBrigand.label>無法</Mousekin_CultureBrigand.label>
+
+	<!-- EN: A pragmatic, Social Darwinist culture common amongst rodent gangs that values personal strength, winning at all costs and having the biggest nut stash. -->
+	<Mousekin_CultureBrigand.description>齧歯類のギャングによく見られる現実主義的で社会ダーウィン主義的な文化で、個人の強さ、あらゆるコストでの勝利、最大のナッツの隠し場所を重視する.</Mousekin_CultureBrigand.description>
+	
+</LanguageData>

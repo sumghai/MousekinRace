@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Settlers -->
+	<Mousekin_Scenario_Settlers.label>マウスキン入植者</Mousekin_Scenario_Settlers.label>
+
+	<!-- EN: With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come. -->
+	<Mousekin_Scenario_Settlers.description>村の長老や家族の祝福を受け、あなたは7人の友人と一緒に自分の村を立ち上げることにしました.\n\n多くの困難が待ち受けていますが、成功すれば、あなたの功績と花畑の美しさは、何世代にもわたって称えられることでしょう.</Mousekin_Scenario_Settlers.description>
+
+	<!-- EN: Mousekin Settlers -->
+	<Mousekin_Scenario_Settlers.scenario.name>マウスキン入植者</Mousekin_Scenario_Settlers.scenario.name>
+
+	<!-- EN: Eight Mousekin settlers establish a new hamlet. -->
+	<Mousekin_Scenario_Settlers.scenario.summary>8人のマウスキン入植者が新しい集落を設立します.</Mousekin_Scenario_Settlers.scenario.summary>
+
+	<!-- EN: With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come. -->
+	<Mousekin_Scenario_Settlers.scenario.description>村の長老や家族の祝福を受け、あなたは7人の友人と一緒に自分の村を立ち上げることにしました.\n\n多くの困難が待ち受けていますが、成功すれば、あなたの功績と花畑の美しさは、何世代にもわたって称えられることでしょう.</Mousekin_Scenario_Settlers.scenario.description>
+
+	<!-- EN: Today is the day!\n\nAfter months of scouting, your friends have finally found a good plot of land to call your own. Perhaps you'll grow hedges of the most delicious nuts, build the most impressive lodges housing hundreds of your fellow Mousekins, or maybe plant a beautiful flower garden that will draw visitors from all over the kingdom.\n\nBidding goodbye to your families, you and your friends set out on an adventure of a lifetime. -->
+	<Mousekin_Scenario_Settlers.scenario.parts.21.text>今日がその日だ!\n\n何ヶ月にもわたる偵察の末に、君たちはついに自分の土地と呼べるような良い土地を見つけたんだ.おいしい木の実の生け垣を作ったり、何百人ものネズミの仲間が住む立派な宿を作ったり、王国中からお客さんが来るような美しい花園を作ったり.\n\n家族に別れを告げ、仲間たちと一世一代の大冒険に出発する.</Mousekin_Scenario_Settlers.scenario.parts.21.text>
+
+	<!-- EN: Mousekin Refugees -->
+	<Mousekin_Scenario_Refugees.label>マウスキン難民</Mousekin_Scenario_Refugees.label>
+
+	<!-- EN: Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario. -->
+	<Mousekin_Scenario_Refugees.description>あなたの故郷の村はグリマルキン人民共和国の精鋭部隊に荒らされ、脱出できたのは5人だけだった.さあ、新しい家を建てる時が来た.\n\n注意：開始時のアイテムと食料が乏しいため,難しいシナリオです.</Mousekin_Scenario_Refugees.description>
+
+	<!-- EN: Mousekin Refugees -->
+	<Mousekin_Scenario_Refugees.scenario.name>マウスキン難民</Mousekin_Scenario_Refugees.scenario.name>
+
+	<!-- EN: Five Mousekin survivors attempt to rebuild. Difficult. -->
+	<Mousekin_Scenario_Refugees.scenario.summary>5人のマウスキン難民が再建に挑む.</Mousekin_Scenario_Refugees.scenario.summary>
+
+	<!-- EN: Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario. -->
+	<Mousekin_Scenario_Refugees.scenario.description>あなたの故郷の村はグリマルキン人民共和国の精鋭部隊に荒らされ、脱出できたのは5人だけだった.さあ、新しい家を建てる時が来た.\n\n注意：開始時のアイテムと食料が乏しいため,難しいシナリオです.</Mousekin_Scenario_Refugees.scenario.description>
+
+	<!-- EN: The Grimalkins came in the night, just before supper.\n\nThe barrels of their rapid-fire muskets glinting eerily in the moonlight like their wicked grins, they smashed through the town walls with their mechanical beasts. The Guardeners and Knights fought a gallant but doomed battle so that the rest of the village could escape, but you could still hear the horrific cries and squeals behind you as the cats slaughtered your fathers, brothers and sons, raped your mothers, sisters and daughters, and feasted on the little, helpless pups.\n\nWith what few possessions you and a few others managed to grab, you find yourselves far from home, the village behind you engulfed in flames. You should set up camp here before deciding what to do next. -->
+	<Mousekin_Scenario_Refugees.scenario.parts.11.text>グリマルキン軍は夜、夕食前にやってきた.\n\nマスケット銃の銃身が月明かりに照らされて不気味に輝き、邪悪な笑みを浮かべながら、機械仕掛けの獣で町の壁をぶち壊した.花園守護者や騎士たちは勇敢に、しかし運命的な戦いを繰り広げ、村の残りの人々は逃げ出すことができた.しかし、猫たちがあなたたちの父親や兄弟、息子を虐殺し、母親や姉妹、娘を犯し、無力で小さな赤ちゃんマウスキンを食べている恐ろしい叫び声や鳴き声が、あなたの後ろからまだ聞こえてくる.\n\nあなたと他の数人が手に入れたわずかな財産で、あなたは家から遠く離れ、後ろの村は炎に包まれていることに気づきました. この先どうするか決める前に、ここでキャンプを張ったほうがいい.</Mousekin_Scenario_Refugees.scenario.parts.11.text>
+	
+</LanguageData>

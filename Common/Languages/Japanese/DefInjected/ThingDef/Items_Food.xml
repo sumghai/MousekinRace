@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin trail mix -->
+	<Mousekin_MealTrailMix.label>マウスキントレイルミックス</Mousekin_MealTrailMix.label>
+	
+	<!-- EN: A pouch of roasted nuts, dried berries and popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekin that consumes it. Great for traveling. -->
+	<Mousekin_MealTrailMix.description>ローストナッツ、ドライベリー、ポップコーンが入ったパウチです.栄養価が高く、おいしいので、食べたマウスキンの気分を少し高めてくれます.旅行に最適です.</Mousekin_MealTrailMix.description>
+	
+	<!-- EN: country bread -->
+	<Mousekin_FoodCountryBread.label>田舎パン</Mousekin_FoodCountryBread.label>
+	
+	<!-- EN: A round loaf of bread with a thick, crunchy crust and fluffy crumb, often eaten to stave off hunger or used as an ingredient in other dishes. Reduces hunger rate by 10% for 12 hours. -->
+	<Mousekin_FoodCountryBread.description>厚くて歯ごたえのある皮とふわふわのパン粉を持つ丸いパンで、空腹をしのぐために食べたり、他の料理の材料として使われたりすることが多いです.12時間の間、空腹率が10％低下します.</Mousekin_FoodCountryBread.description>
+	
+	<!-- EN: barley porridge -->
+	<Mousekin_MealBarleyPorridge.label>大麦粥</Mousekin_MealBarleyPorridge.label>
+	
+	<!-- EN: A simple and nutritious bowl of barley grains cooked in milk, often eaten as a simple meal by farmhands and laborers, fed to baby Mousekin pups, or served by Mousekin nuns to recuperating patients. -->
+	<Mousekin_MealBarleyPorridge.description>大麦の穀物を牛乳で煮たもので、農民や労働者が簡単な食事として食べたり、マウスキンの赤ちゃんに食べさせたり、マウスキンの修道女が療養中の患者に出したりすることが多く、栄養価が高いです.</Mousekin_MealBarleyPorridge.description>
+	
+	<!-- EN: eggs on toast -->
+	<Mousekin_MealEggsOnToast.label>目玉焼きトースト</Mousekin_MealEggsOnToast.label>
+	
+	<!-- EN: Thick slices of country bread topped with eggs fried sunny-side up. The perfect breakfast to start the day! -->
+	<Mousekin_MealEggsOnToast.description>厚切りの田舎パンの上に、目玉焼きをのせて、サニーサイドアップに.一日の始まりにぴったりの朝食です!</Mousekin_MealEggsOnToast.description>
+	
+	<!-- EN: ploughman's lunch -->
+	<Mousekin_MealPloughmansLunch.label>プラウマンズランチ</Mousekin_MealPloughmansLunch.label>
+	
+	<!-- EN: Slices of country bread accompanied by cheese, pickled vegetables and a handful of roasted nuts, often eaten as a simple meal by farm laborers. Reduces hunger rate by 20% for 12 hours. -->
+	<Mousekin_MealPloughmansLunch.description>田舎パンにチーズや漬け物、ローストしたナッツなどを添えたもので、農作業をしている人が簡単な食事として食べることが多いです.12時間の間、空腹率が20％低下します.</Mousekin_MealPloughmansLunch.description>
+	
+	<!-- EN: bread bowl -->
+	<Mousekin_MealBreadBowl.label>ブレッドボール</Mousekin_MealBreadBowl.label>
+	
+	<!-- EN: A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours. -->
+	<Mousekin_MealBreadBowl.description>田舎パンをくりぬいて、肉や野菜のクリーミーなポタージュを詰めた、ボリューム満点の料理です.12時間の間、空腹率が35％低下します.</Mousekin_MealBreadBowl.description>
+	
+</LanguageData>

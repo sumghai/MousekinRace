@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.label>マウスキン湿布を作成する</Mousekin_Make_MedicinePoultice.label>
+
+	<!-- EN: Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs. -->
+	<Mousekin_Make_MedicinePoultice.description>ヒールルートから抽出した薬草と丸太の樹皮を砕いて混ぜ合わせ、薬用湿布を作成します.</Mousekin_Make_MedicinePoultice.description>
+
+	<!-- EN: Making bags of Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.jobString>マウスキン湿布を作成中</Mousekin_Make_MedicinePoultice.jobString>
+	
+</LanguageData>

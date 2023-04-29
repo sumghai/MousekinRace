@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Commoner apparel -->
+	<Mousekin_ResearchApparelCommoner.label>平民の衣服</Mousekin_ResearchApparelCommoner.label>
+
+	<!-- EN: Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners. -->
+	<Mousekin_ResearchApparelCommoner.description>マウスキンの平民が日常的に着用する、リージェンシー時代のさまざまな衣服やアクセサリーが仕立てられるようになります.</Mousekin_ResearchApparelCommoner.description>
+
+	<!-- EN: Middle-class apparel -->
+	<Mousekin_ResearchApparelMiddle.label>中流階級の衣服</Mousekin_ResearchApparelMiddle.label>
+
+	<!-- EN: Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMiddle.description>マウスキンの高級使用人、花園守護者、司祭、修道女が着用するさまざまな衣服やアクセサリーが仕立てられるようになります.研究には、研究用眼鏡をかけたマウスキンが必要です.</Mousekin_ResearchApparelMiddle.description>
+
+	<!-- EN: Military apparel -->
+	<Mousekin_ResearchApparelMilitary.label>戦闘服装</Mousekin_ResearchApparelMilitary.label>
+
+	<!-- EN: Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMilitary.description>マウスキンの兵士や騎士を守るために、パッド入りのギャンベゾンを仕立てたり、さまざまな鎧や兜を鍛えたりします.研究には、研究用眼鏡をかけたマウスキンが必要です.</Mousekin_ResearchApparelMilitary.description>
+
+	<!-- EN: Aristocratic apparel -->
+	<Mousekin_ResearchApparelNoble.label>貴族の衣服</Mousekin_ResearchApparelNoble.label>
+
+	<!-- EN: Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelNoble.description>こだわりのある貴族のマウスキンのために、スタイリッシュなフォーマルウェアを仕立てられるようになります.研究には、研究用眼鏡をかけたマウスキンが必要です.</Mousekin_ResearchApparelNoble.description>
+
+	<!-- EN: Medicinal alchemy -->
+	<Mousekin_ResearchAlchemy.label>医療用錬金術</Mousekin_ResearchAlchemy.label>
+
+	<!-- EN: Concoct poultices and potions from a variety of herbal and mineral ingredients. -->
+	<Mousekin_ResearchAlchemy.description>さまざまなハーブやミネラル成分から湿布やポーションを調合します.</Mousekin_ResearchAlchemy.description>
+
+	<!-- EN: Charcoal -->
+	<Mousekin_ResearchCharcoal.label>木炭</Mousekin_ResearchCharcoal.label>
+
+	<!-- EN: Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions. -->
+	<Mousekin_ResearchCharcoal.description>木材を精製して木炭を作り、燃料として利用したり、マウスキンの薬草の材料として利用することができます.</Mousekin_ResearchCharcoal.description>
+
+	<!-- EN: Clockwork mechanisms -->
+	<Mousekin_ResearchMachineryBasic.label>時計仕掛けの機構</Mousekin_ResearchMachineryBasic.label>
+
+	<!-- EN: Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryBasic.description>自動クロスボウなど、さまざまな機器に使われる複雑な部品や巻き上げゼンマイ機構を作ることができます.研究には、研究用眼鏡をかけたマウスキンが必要です.</Mousekin_ResearchMachineryBasic.description>
+
+	<!-- EN: Heavy machinery -->
+	<Mousekin_ResearchMachineryAdvanced.label>大型機械</Mousekin_ResearchMachineryAdvanced.label>
+
+	<!-- EN: Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryAdvanced.description>水力製錬炉や岩投げのオナガーなど、重機を作ります.研究には、研究用眼鏡をかけたマウスキンが必要です.</Mousekin_ResearchMachineryAdvanced.description>
+
+	<!-- EN: Deep mining -->
+	<Mousekin_ResearchMining.label>深部採掘</Mousekin_ResearchMining.label>
+
+	<!-- EN: Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMining.description>一般的な鉱物やエキゾチックな鉱物を地下で採掘できるように、深いシャフトの坑口を作ります.研究には、研究用眼鏡をかけたマウスキンが必要です.</Mousekin_ResearchMining.description>
+
+	<!-- EN: Gunpowder -->
+	<Mousekin_ResearchGunpowder.label>火薬</Mousekin_ResearchGunpowder.label>
+
+	<!-- EN: Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchGunpowder.description>マスケット銃、旋回銃、大砲などの武器の推進剤として使用される原始的なマウスキン爆薬を工作します.研究には、研究用眼鏡をかけたマウスキンが必要です.</Mousekin_ResearchGunpowder.description>
+
+	<!-- EN: Cast-iron stoves -->
+	<Mousekin_ResearchCookingIronStoves.label>鋳鉄製ストーブ</Mousekin_ResearchCookingIronStoves.label>
+
+	<!-- EN: Build cast-iron stoves for cooking more complex Mousekin dishes. -->
+	<Mousekin_ResearchCookingIronStoves.description>より複雑なマウスキン料理を作るための鋳鉄製ストーブを作ります.</Mousekin_ResearchCookingIronStoves.description>
+
+	<!-- EN: Apiaries -->
+	<Mousekin_ResearchBeekeeping.label>養蜂箱</Mousekin_ResearchBeekeeping.label>
+
+	<!-- EN: Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles. -->
+	<Mousekin_ResearchBeekeeping.description>木製の養蜂箱を作り、料理や醸造用の蜂蜜やキャンドル用の蜜蝋を得ます.</Mousekin_ResearchBeekeeping.description>
+
+	<!-- EN: Aristocratic cuisine -->
+	<Mousekin_ResearchCookingNoble.label>貴族の料理</Mousekin_ResearchCookingNoble.label>
+
+	<!-- EN: Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchCookingNoble.description>舌の肥えたマウスキンのために、最高の料理を作ってあげましょう.研究には、研究用眼鏡をかけたマウスキンが必要です.</Mousekin_ResearchCookingNoble.description>
+
+	<!-- EN: Cottage building -->
+	<Mousekin_ResearchBuildingVillage.label>コテージ建築</Mousekin_ResearchBuildingVillage.label>
+
+	<!-- EN: Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows. -->
+	<Mousekin_ResearchBuildingVillage.description>マウスキンの平民のために、土壁、ドア、窓を使った家を作ります.</Mousekin_ResearchBuildingVillage.description>
+
+	<!-- EN: Castle architecture -->
+	<Mousekin_ResearchBuildingCastle.label>城郭建築</Mousekin_ResearchBuildingCastle.label>
+
+	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
+	<Mousekin_ResearchBuildingCastle.description>マウスキンの貴族のために邸宅を建てたり、外部の脅威からマウスキンの集落を守るために要塞を建設したりします.</Mousekin_ResearchBuildingCastle.description>
+
+	<!-- EN: Glassmaking -->
+	<Mousekin_ResearchGlassmaking.label>ガラス製造</Mousekin_ResearchGlassmaking.label>
+
+	<!-- EN: Melt sand at high temperatures into glass for fabricating windows. (Only available if Fertile Fields mods is installed) -->
+	<Mousekin_ResearchGlassmaking.description>砂を高温で溶かしてガラスにし、窓を製作します.（Fertile Fields MODを必要とする）</Mousekin_ResearchGlassmaking.description>
+	
+</LanguageData>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: giant cavy -->
+	<Mousekin_AnimalGiantCavy.label>ジャイアントキャビー</Mousekin_AnimalGiantCavy.label>
+
+	<!-- EN: giant cavies -->
+	<Mousekin_AnimalGiantCavy.labelPlural>ジャイアントキャビー</Mousekin_AnimalGiantCavy.labelPlural>
+
+	<!-- EN: giant cavy pup -->
+	<Mousekin_AnimalGiantCavy.lifeStages.0.label>子ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.0.label>
+
+	<!-- EN: giant cavy pups -->
+	<Mousekin_AnimalGiantCavy.lifeStages.0.labelPlural>子ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.0.labelPlural>
+
+	<!-- EN: male giant cavy pup -->
+	<Mousekin_AnimalGiantCavy.lifeStages.0.labelMale>雄子ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.0.labelMale>
+
+	<!-- EN: male giant cavy pups -->
+	<Mousekin_AnimalGiantCavy.lifeStages.0.labelMalePlural>雄子ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.0.labelMalePlural>
+
+	<!-- EN: male giant cavy pups -->
+	<Mousekin_AnimalGiantCavy.lifeStages.0.labelFemale>雌子ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.0.labelFemale>
+
+	<!-- EN: female giant cavy pups -->
+	<Mousekin_AnimalGiantCavy.lifeStages.0.labelFemalePlural>雌子ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.0.labelFemalePlural>
+
+	<!-- EN: giant cavy -->
+	<Mousekin_AnimalGiantCavy.lifeStages.1.label>ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.1.label>
+
+	<!-- EN: giant cavies -->
+	<Mousekin_AnimalGiantCavy.lifeStages.1.labelPlural>ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.1.labelPlural>
+
+	<!-- EN: male giant cavy -->
+	<Mousekin_AnimalGiantCavy.lifeStages.1.labelMale>雄ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.1.labelMale>
+
+	<!-- EN: male giant cavies -->
+	<Mousekin_AnimalGiantCavy.lifeStages.1.labelMalePlural>雄ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.1.labelMalePlural>
+
+	<!-- EN: female giant cavies -->
+	<Mousekin_AnimalGiantCavy.lifeStages.1.labelFemale>雌ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.1.labelFemale>
+
+	<!-- EN: female giant cavies -->
+	<Mousekin_AnimalGiantCavy.lifeStages.1.labelFemalePlural>雌ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.1.labelFemalePlural>
+
+	<!-- EN: giant cavy -->
+	<Mousekin_AnimalGiantCavy.lifeStages.2.label>ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.2.label>
+
+	<!-- EN: giant cavies -->
+	<Mousekin_AnimalGiantCavy.lifeStages.2.labelPlural>ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.2.labelPlural>
+
+	<!-- EN: male giant cavy -->
+	<Mousekin_AnimalGiantCavy.lifeStages.2.labelMale>雄ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.2.labelMale>
+
+	<!-- EN: male giant cavies -->
+	<Mousekin_AnimalGiantCavy.lifeStages.2.labelMalePlural>雄ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.2.labelMalePlural>
+
+	<!-- EN: female giant cavy -->
+	<Mousekin_AnimalGiantCavy.lifeStages.2.labelFemale>雌ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.2.labelFemale>
+
+	<!-- EN: female giant cavies -->
+	<Mousekin_AnimalGiantCavy.lifeStages.2.labelFemalePlural>雌ジャイアントキャビー</Mousekin_AnimalGiantCavy.lifeStages.2.labelFemalePlural>
+
+	<!-- EN: male giant cavy -->
+	<Mousekin_AnimalGiantCavy.labelMale>雄ジャイアントキャビー</Mousekin_AnimalGiantCavy.labelMale>
+
+	<!-- EN: male giant cavies -->
+	<Mousekin_AnimalGiantCavy.labelMalePlural>雄ジャイアントキャビー</Mousekin_AnimalGiantCavy.labelMalePlural>
+
+	<!-- EN: female giant cavy -->
+	<Mousekin_AnimalGiantCavy.labelFemale>雌ジャイアントキャビー</Mousekin_AnimalGiantCavy.labelFemale>
+
+	<!-- EN: female giant cavies -->
+	<Mousekin_AnimalGiantCavy.labelFemalePlural>雌ジャイアントキャビー</Mousekin_AnimalGiantCavy.labelFemalePlural>
+
+	<!-- EN: pudgemouse -->
+	<Mousekin_AnimalPudgemouse.label>パッジマウス</Mousekin_AnimalPudgemouse.label>
+
+	<!-- EN: pudgemice -->
+	<Mousekin_AnimalPudgemouse.labelPlural>パッジマウス</Mousekin_AnimalPudgemouse.labelPlural>
+
+	<!-- EN: pudgemouse pup -->
+	<Mousekin_AnimalPudgemouse.lifeStages.0.label>子パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.0.label>
+
+	<!-- EN: pudgemouse pups -->
+	<Mousekin_AnimalPudgemouse.lifeStages.0.labelPlural>子パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.0.labelPlural>
+
+	<!-- EN: male pudgemouse pup -->
+	<Mousekin_AnimalPudgemouse.lifeStages.0.labelMale>雄子パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.0.labelMale>
+
+	<!-- EN: male pudgemouse pups -->
+	<Mousekin_AnimalPudgemouse.lifeStages.0.labelMalePlural>雄子パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.0.labelMalePlural>
+
+	<!-- EN: female pudgemouse pup -->
+	<Mousekin_AnimalPudgemouse.lifeStages.0.labelFemale>雌子パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.0.labelFemale>
+
+	<!-- EN: female pudgemouse pups -->
+	<Mousekin_AnimalPudgemouse.lifeStages.0.labelFemalePlural>雌子パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.0.labelFemalePlural>
+
+	<!-- EN: pudgemouse -->
+	<Mousekin_AnimalPudgemouse.lifeStages.1.label>パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.1.label>
+
+	<!-- EN: pudgemice -->
+	<Mousekin_AnimalPudgemouse.lifeStages.1.labelPlural>パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.1.labelPlural>
+
+	<!-- EN: male pudgemouse -->
+	<Mousekin_AnimalPudgemouse.lifeStages.1.labelMale>雄パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.1.labelMale>
+
+	<!-- EN: male pudgemice -->
+	<Mousekin_AnimalPudgemouse.lifeStages.1.labelMalePlural>雄パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.1.labelMalePlural>
+
+	<!-- EN: female pudgemouse -->
+	<Mousekin_AnimalPudgemouse.lifeStages.1.labelFemale>雌パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.1.labelFemale>
+
+	<!-- EN: female pudgemice -->
+	<Mousekin_AnimalPudgemouse.lifeStages.1.labelFemalePlural>雌パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.1.labelFemalePlural>
+
+	<!-- EN: pudgemouse -->
+	<Mousekin_AnimalPudgemouse.lifeStages.2.label>パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.2.label>
+
+	<!-- EN: pudgemice -->
+	<Mousekin_AnimalPudgemouse.lifeStages.2.labelPlural>パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.2.labelPlural>
+
+	<!-- EN: male pudgemouse -->
+	<Mousekin_AnimalPudgemouse.lifeStages.2.labelMale>雄パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.2.labelMale>
+
+	<!-- EN: male pudgemice -->
+	<Mousekin_AnimalPudgemouse.lifeStages.2.labelMalePlural>雄パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.2.labelMalePlural>
+
+	<!-- EN: female pudgemouse -->
+	<Mousekin_AnimalPudgemouse.lifeStages.2.labelFemale>雌パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.2.labelFemale>
+
+	<!-- EN: female pudgemice -->
+	<Mousekin_AnimalPudgemouse.lifeStages.2.labelFemalePlural>雌パッジマウス</Mousekin_AnimalPudgemouse.lifeStages.2.labelFemalePlural>
+
+	<!-- EN: male pudgemouse -->
+	<Mousekin_AnimalPudgemouse.labelMale>雄パッジマウス</Mousekin_AnimalPudgemouse.labelMale>
+
+	<!-- EN: male pudgemice -->
+	<Mousekin_AnimalPudgemouse.labelMalePlural>雄パッジマウス</Mousekin_AnimalPudgemouse.labelMalePlural>
+
+	<!-- EN: female pudgemouse -->
+	<Mousekin_AnimalPudgemouse.labelFemale>雌パッジマウス</Mousekin_AnimalPudgemouse.labelFemale>
+
+	<!-- EN: female pudgemice -->
+	<Mousekin_AnimalPudgemouse.labelFemalePlural>雌パッジマウス</Mousekin_AnimalPudgemouse.labelFemalePlural>
+	
+</LanguageData>

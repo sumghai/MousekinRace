@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Straw Hat -->
+	<Mousekin_HatStraw.label>マウスキン麦わら帽子</Mousekin_HatStraw.label>
+
+	<!-- EN: A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatStraw.description>麦わらで編まれたつばの広い帽子で、マウスキンの農民や労働者が日よけとしてかぶっていた.マウスキンの耳を収納する穴があります.</Mousekin_HatStraw.description>
+
+	<!-- EN: Mousekin Headscarf -->
+	<Mousekin_HatHeadscarf.label>マウスキンヘッドスカーフ</Mousekin_HatHeadscarf.label>
+
+	<!-- EN: A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatHeadscarf.description>女性マウスキン農民や労働者が、作業中に髪が邪魔にならないように着用する、頭の上部、側面、後頭部を覆う布のこと.マウスキンの耳を収納する穴があります.</Mousekin_HatHeadscarf.description>
+
+	<!-- EN: Mousekin Nun’s Veil -->
+	<Mousekin_HatNunVeil.label>マウスキン修道女のベール</Mousekin_HatNunVeil.label>
+
+	<!-- EN: A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatNunVeil.description>マウスキンの修道女が、儀式を行う際や、病人や孤児の世話をする際に、髪が顔にかからないようにするために被る控えめなベールのことです.マウスキンの耳を収納する穴があります.</Mousekin_HatNunVeil.description>
+
+	<!-- EN: Mousekin Kettle Hat -->
+	<Mousekin_HelmetKettle.label>マウスキンケトルハット</Mousekin_HelmetKettle.label>
+
+	<!-- EN: A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKettle.description>つばの広い鋼鉄製のヘルメットで、ほとんどの怪我から頭頂部を保護し、下頭部と顔面は露出させて視界と快適性を最大化する.マウスキン弩手が着用し、一般的な調理器具の一種に似ていることからこの名がついた.マウスキンの耳を収納する穴があります.</Mousekin_HelmetKettle.description>
+
+	<!-- EN: Mousekin Morion Helmet -->
+	<Mousekin_HelmetMorion.label>マウスキンモリオンヘルメット</Mousekin_HelmetMorion.label>
+
+	<!-- EN: A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetMorion.description>平らなつばと紋章の入った鋼鉄製のヘルメットで、ほとんどの怪我から頭頂部を保護し、下頭部と顔面は露出させて視界と快適さを最大化する.マウスキンパイク兵と銃士が着用する.マウスキンの耳を収納する穴があります.</Mousekin_HelmetMorion.description>
+
+	<!-- EN: Mousekin Knight's Helmet -->
+	<Mousekin_HelmetKnight.label>マウスキン騎士の兜</Mousekin_HelmetKnight.label>
+
+	<!-- EN: A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnight.description>マウスキンの騎士が着用する中世のプレートヘルメットで、バイザーが回転するため、保護力を損なわずに視界を確保できます.マウスキンの耳を収納する穴があります.</Mousekin_HelmetKnight.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>バイザーを開く/閉める</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>ヘルメットのバイザーを開閉します.</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>
+
+	<!-- EN: Mousekin Woodsman’s Bycocket -->
+	<Mousekin_HatWoodsman.label>マウスキン羽の帽子</Mousekin_HatWoodsman.label>
+
+	<!-- EN: A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries. -->
+	<Mousekin_HatWoodsman.description>前が尖り、後ろが大きくひっくり返ったつばを持つ布製の帽子で、羽毛で飾られていることが多い.元々はマウスキンの木こりたちがかぶっていたものだが、現在はマウスキンの革命家たちがかぶっている.</Mousekin_HatWoodsman.description>
+
+	<!-- EN: Mousekin Knight Commander’s Helmet -->
+	<Mousekin_HelmetKnightCommander.label>マウスキン騎士団長の兜</Mousekin_HelmetKnightCommander.label>
+
+	<!-- EN: A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnightCommander.description>マウスキンの騎士団長が着用する中世のプレートヘルメットで、保護機能を損なうことなく視界を確保できる回転式のバイザーがあり、戦闘中に他のマウスキンナイトが団長を見つけやすいように色鮮やかな羽のプルームが飾られています.マウスキンの耳を収納する穴があります.</Mousekin_HelmetKnightCommander.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>バイザーを開く/閉める</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>ヘルメットのバイザーを開閉します.</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>
+
+	<!-- EN: hood -->
+	<Mousekin_HatCloakHood.label>フード</Mousekin_HatCloakHood.label>
+
+	<!-- EN: Hood for the Mousekin Cloak. -->
+	<Mousekin_HatCloakHood.description>マウスキンクロークのフード.</Mousekin_HatCloakHood.description>
+
+	<!-- EN: hood -->
+	<Mousekin_HatGuardenerRobeHood.label>フード</Mousekin_HatGuardenerRobeHood.label>
+
+	<!-- EN: Hood for the Mousekin Guardener's Robe. -->
+	<Mousekin_HatGuardenerRobeHood.description>マウスキン花園守護者のローブのフード.</Mousekin_HatGuardenerRobeHood.description>
+
+	<!-- EN: Veil Back -->
+	<Mousekin_HatNunVeilBack.label>マウスキン修道女のベール(裏層)</Mousekin_HatNunVeilBack.label>
+
+	<!-- EN: Back of the Mousekin Nun’s Veil. -->
+	<Mousekin_HatNunVeilBack.description>マウスキン修道女のベールの裏層.</Mousekin_HatNunVeilBack.description>
+
+	<!-- EN: Knight's Helmet with visor up -->
+	<Mousekin_HelmetKnight_VisorUp.label>マウスキン騎士の兜(バイザー開く)</Mousekin_HelmetKnight_VisorUp.label>
+
+	<!-- EN: Knight's Helmet with visor up -->
+	<Mousekin_HelmetKnight_VisorUp.description>マウスキン騎士の兜(バイザー開く)</Mousekin_HelmetKnight_VisorUp.description>
+
+	<!-- EN: Knight Commander's Helmet with visor up -->
+	<Mousekin_HelmetKnightCommander_VisorUp.label>マウスキン騎士団長の兜(バイザー開く)</Mousekin_HelmetKnightCommander_VisorUp.label>
+
+	<!-- EN: Knight Commander's Helmet with visor up -->
+	<Mousekin_HelmetKnightCommander_VisorUp.description>マウスキン騎士団長の兜(バイザー開く)</Mousekin_HelmetKnightCommander_VisorUp.description>
+	
+</LanguageData>

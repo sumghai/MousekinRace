@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: make Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.label>チョンコナッツ飲料を作る</Mousekin_Make_DrinkChonkoNutBrew.label>
+	
+	<!-- EN: Make a warm, coffee-like beverage brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick. Temporarily improves mood, consciousness and blood circulation. -->
+	<Mousekin_Make_DrinkChonkoNutBrew.description>チョンコナッツと秘密の材料を一緒に淹れて、コーヒーのような温かみのある飲み物を作ります.気分、意識、血液循環を一時的に改善します．</Mousekin_Make_DrinkChonkoNutBrew.description>
+	
+	<!-- EN: Making Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.jobString>チョンコナッツ飲料を作成中</Mousekin_Make_DrinkChonkoNutBrew.jobString>
+	
+	<!-- EN: make Mousekin lager wort -->
+	<Mousekin_Make_WortLager.label>マウスキンラガー麦汁を作る</Mousekin_Make_WortLager.label>
+	
+	<!-- EN: Make Mousekin lager wort from Mouse-ear barley and hops. -->
+	<Mousekin_Make_WortLager.description>ネズミ耳大麦とホップでマウスキンラガー麦汁を作ります.</Mousekin_Make_WortLager.description>
+	
+	<!-- EN: Making Mousekin lager wort -->
+	<Mousekin_Make_WortLager.jobString>マウスキンラガー麦汁麦汁を作成中</Mousekin_Make_WortLager.jobString>
+	
+	<!-- EN: make Mousekin mead must -->
+	<Mousekin_Make_WortMead.label>マウスキン蜂蜜酒のムストを作る</Mousekin_Make_WortMead.label>
+	
+	<!-- EN: Make Mousekin mead must from Mousekin honey. -->
+	<Mousekin_Make_WortMead.description>マウスキン蜂蜜でマウスキン蜂蜜酒のムストを作ります.</Mousekin_Make_WortMead.description>
+	
+	<!-- EN: Making Mousekin mead must -->
+	<Mousekin_Make_WortMead.jobString>マウスキン蜂蜜酒のムストを作成中</Mousekin_Make_WortMead.jobString>
+	
+</LanguageData>

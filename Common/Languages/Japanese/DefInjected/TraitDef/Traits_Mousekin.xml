@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: apostate -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.0.label>背教者</Mousekin_TraitSpectrum_Faith.degreeDatas.0.label>
+
+	<!-- EN: [PAWN_nameDef] prefers to focus on living [PAWN_possessive] life to the fullest, rather than strictly obeying religious doctrine.\n\nAs such, [PAWN_pronoun] is more scientifically- and technically-minded compared with other Mousekins. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.0.description>[PAWN_nameDef]は、宗教的な教義に厳格に従うよりも、自分の人生を精一杯生きることに重きを置いている.\n\nそのため、他のマウスキンに比べて科学的、技術的な思考を持つ.</Mousekin_TraitSpectrum_Faith.degreeDatas.0.description>
+
+	<!-- EN: devotionist -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.1.label>献身者</Mousekin_TraitSpectrum_Faith.degreeDatas.1.label>
+
+	<!-- EN: [PAWN_nameDef] is a member of a splinter sect of Mousekins that seek to follow the spirit of Valerian the Wise's original teachings, rather than the official interpretation espoused by the Mousekin Church. [PAWN_pronoun] has a closer affinity to nature, is more adept at working with plants and has increased sensitivity to psychic phenomena, but is also less susceptible to mental breaks. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.1.description>[PAWN_nameDef]はマウスキンの分派のメンバーであり、マウスキン教会が信奉する公式解釈ではなく、賢者バレリアンの本来の教えの精神に従うことを求めている.自然との親和性が高く、植物を扱うことに長けており、心霊現象に対する感受性も高いが、精神的な破綻も起こしにくい.</Mousekin_TraitSpectrum_Faith.degreeDatas.1.description>
+
+	<!-- EN: pious -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.2.label>敬虔者</Mousekin_TraitSpectrum_Faith.degreeDatas.2.label>
+
+	<!-- EN: [PAWN_nameDef] is a pious follower of the teachings of Valerian the Wise, and believes that industrious Mousekins who perform good deeds and respect the sanctity of their bodies will be rewarded with a peaceful afterlife in The Great Garden. \n\n[PAWN_pronoun] will work harder than most of [PAWN_possessive] fellow Mousekins, and press on even under the greatest of hardships. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.2.description>[PAWN_nameDef]は賢者バレリアンの教えを信奉しており、善行を積んで肉体の神聖さを重んじる勤勉なマウスキンは、大庭園で平和な来世で報われると信じています.\n\n[PAWN_pronoun]は仲間のマウスキンの中で最もよく働き、最も大きな苦難の下でも前進する.</Mousekin_TraitSpectrum_Faith.degreeDatas.2.description>
+	
+	<!-- EN: inquisitionist -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.3.label>狂信者</Mousekin_TraitSpectrum_Faith.degreeDatas.3.label>
+
+	<!-- EN: [PAWN_nameDef] believes in the absolute truth and power of The Inquisition, which declares that anyone who strays from the Mousekin Church and the teachings of Valerian the Wise are irredeemable heretics and enemies of all Mousekins - including Apostates, Devotionists and even other non-Mousekin rodentlike races.\n\n[PAWN_pronoun] is better at capturing prisoners and is less susceptible to psychic phenomena, but [PAWN_possessive] religious zealotry greatly impairs [PAWN_possessive] ability to understand technical and scientific matters beyond what is permitted by church doctrine. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.3.description>マウスキン教会と賢者バレリアンの教えから外れた者は、救いようのない異端者であり、すべてのマウスキン（背教者、献身者、他の非マウスキン齧歯類種族も含む）の敵であると宣言している異端審問の絶対真実と力を[PAWN_nameDef]は信じている.\n\n捕虜を捕まえるのが得意で、心霊現象に影響されにくいが、宗教的熱狂のため、教会の教義で認められている以上の技術的、科学的な事柄を理解する能力が大きく損なわれている.</Mousekin_TraitSpectrum_Faith.degreeDatas.3.description>
+	
+</LanguageData>

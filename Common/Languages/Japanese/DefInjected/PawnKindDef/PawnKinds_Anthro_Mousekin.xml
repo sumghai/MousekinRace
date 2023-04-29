@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin colonist -->
+	<MousekinColonist.label>マウスキン入植者</MousekinColonist.label>
+
+	<!-- EN: Mousekin colonists -->
+	<MousekinColonist.labelPlural>マウスキン入植者</MousekinColonist.labelPlural>
+
+	<!-- EN: Lord Protector -->
+	<MousekinLordProtector.label>護国卿</MousekinLordProtector.label>
+
+	<!-- EN: Lord Protectors -->
+	<MousekinLordProtector.labelPlural>護国卿</MousekinLordProtector.labelPlural>
+
+	<!-- EN: Mousekin royalty -->
+	<MousekinRoyalty.label>マウスキン王族</MousekinRoyalty.label>
+
+	<!-- EN: Mousekin royalty -->
+	<MousekinRoyalty.labelPlural>マウスキン王族</MousekinRoyalty.labelPlural>
+
+	<!-- EN: Mousekin noble -->
+	<MousekinNoble.label>マウスキン貴族</MousekinNoble.label>
+
+	<!-- EN: Mousekin nobles -->
+	<MousekinNoble.labelPlural>マウスキン貴族</MousekinNoble.labelPlural>
+
+	<!-- EN: Mousekin inquisitor -->
+	<MousekinInquisitor.label>マウスキン審問官</MousekinInquisitor.label>
+
+	<!-- EN: Mousekin inquisitors -->
+	<MousekinInquisitor.labelPlural>マウスキン審問官</MousekinInquisitor.labelPlural>
+
+	<!-- EN: Mousekin priest -->
+	<MousekinPriest.label>マウスキン司祭</MousekinPriest.label>
+
+	<!-- EN: Mousekin priests -->
+	<MousekinPriest.labelPlural>マウスキン司祭</MousekinPriest.labelPlural>
+
+	<!-- EN: Mousekin nun -->
+	<MousekinNun.label>マウスキン修道女</MousekinNun.label>
+
+	<!-- EN: Mousekin nuns -->
+	<MousekinNun.labelPlural>マウスキン修道女</MousekinNun.labelPlural>
+
+	<!-- EN: Mousekin knight commander -->
+	<MousekinKnightCommander.label>マウスキン騎士団長</MousekinKnightCommander.label>
+
+	<!-- EN: Mousekin knight commanders -->
+	<MousekinKnightCommander.labelPlural>マウスキン騎士団長</MousekinKnightCommander.labelPlural>
+
+	<!-- EN: Mousekin elite Guardener -->
+	<MousekinGuardenerElite.label>マウスキン精鋭花園守護者</MousekinGuardenerElite.label>
+
+	<!-- EN: Mousekin elite Guardeners -->
+	<MousekinGuardenerElite.labelPlural>マウスキン精鋭花園守護者</MousekinGuardenerElite.labelPlural>
+
+	<!-- EN: Mousekin knight -->
+	<MousekinKnight.label>マウスキン騎士</MousekinKnight.label>
+
+	<!-- EN: Mousekin knights -->
+	<MousekinKnight.labelPlural>マウスキン騎士</MousekinKnight.labelPlural>
+
+	<!-- EN: Mousekin Guardener -->
+	<MousekinGuardener.label>マウスキン花園守護者</MousekinGuardener.label>
+
+	<!-- EN: Mousekin Guardeners -->
+	<MousekinGuardener.labelPlural>マウスキン花園守護者</MousekinGuardener.labelPlural>
+
+	<!-- EN: Mousekin squire -->
+	<MousekinKnightApprentice.label>マウスキン騎士従者</MousekinKnightApprentice.label>
+
+	<!-- EN: Mousekin squires -->
+	<MousekinKnightApprentice.labelPlural>マウスキン騎士従者</MousekinKnightApprentice.labelPlural>
+
+	<!-- EN: Mousekin apprentice Guardener -->
+	<MousekinGuardenerApprentice.label>マウスキン花園守護者見習い</MousekinGuardenerApprentice.label>
+
+	<!-- EN: Mousekin apprentice Guardeners -->
+	<MousekinGuardenerApprentice.labelPlural>マウスキン花園守護者見習い</MousekinGuardenerApprentice.labelPlural>
+
+	<!-- EN: Mousekin doctor -->
+	<MousekinDoctor.label>マウスキン医師</MousekinDoctor.label>
+
+	<!-- EN: Mousekin doctors -->
+	<MousekinDoctor.labelPlural>マウスキン医師</MousekinDoctor.labelPlural>
+
+	<!-- EN: Mousekin servant -->
+	<MousekinServantHighClass.label>マウスキン使用人</MousekinServantHighClass.label>
+
+	<!-- EN: Mousekin servants -->
+	<MousekinServantHighClass.labelPlural>マウスキン使用人</MousekinServantHighClass.labelPlural>
+
+	<!-- EN: Mousekin chef -->
+	<MousekinServantChef.label>マウスキン料理人</MousekinServantChef.label>
+
+	<!-- EN: Mousekin chefs -->
+	<MousekinServantChef.labelPlural>マウスキン料理人</MousekinServantChef.labelPlural>
+
+	<!-- EN: Mousekin servant -->
+	<MousekinServant.label>マウスキン使用人</MousekinServant.label>
+
+	<!-- EN: Mousekin servants -->
+	<MousekinServant.labelPlural>マウスキン使用人</MousekinServant.labelPlural>
+
+	<!-- EN: Mousekin tradesman -->
+	<MousekinTradesman.label>マウスキン職人</MousekinTradesman.label>
+
+	<!-- EN: Mousekin tradesmen -->
+	<MousekinTradesman.labelPlural>マウスキン職人</MousekinTradesman.labelPlural>
+
+	<!-- EN: Mousekin mouseketeer -->
+	<MousekinMusketeer.label>マウスキン銃士</MousekinMusketeer.label>
+
+	<!-- EN: Mousekin mouseketeers -->
+	<MousekinMusketeer.labelPlural>マウスキン銃士</MousekinMusketeer.labelPlural>
+
+	<!-- EN: Mousekin crossbowman -->
+	<MousekinCrossbowman.label>マウスキン弩手</MousekinCrossbowman.label>
+
+	<!-- EN: Mousekin crossbowmen -->
+	<MousekinCrossbowman.labelPlural>マウスキン弩手</MousekinCrossbowman.labelPlural>
+
+	<!-- EN: Mousekin pikeman -->
+	<MousekinPikeman.label>マウスキンパイク兵</MousekinPikeman.label>
+
+	<!-- EN: Mousekin pikemen -->
+	<MousekinPikeman.labelPlural>マウスキンパイク兵</MousekinPikeman.labelPlural>
+
+	<!-- EN: Mousekin trader -->
+	<MousekinTrader.label>マウスキン商人</MousekinTrader.label>
+
+	<!-- EN: Mousekin traders -->
+	<MousekinTrader.labelPlural>マウスキン商人</MousekinTrader.labelPlural>
+
+	<!-- EN: Mousekin peasant -->
+	<MousekinPeasant.label>マウスキン農民</MousekinPeasant.label>
+
+	<!-- EN: Mousekin peasants -->
+	<MousekinPeasant.labelPlural>マウスキン農民</MousekinPeasant.labelPlural>
+
+	<!-- EN: Mousekin slaver -->
+	<MousekinTraderSlaver.label>マウスキン奴隷商人</MousekinTraderSlaver.label>
+
+	<!-- EN: Mousekin slavers -->
+	<MousekinTraderSlaver.labelPlural>マウスキン奴隷商人</MousekinTraderSlaver.labelPlural>
+
+	<!-- EN: Mousekin slave -->
+	<MousekinSlave.label>マウスキン奴隷</MousekinSlave.label>
+
+	<!-- EN: Mousekin slaves -->
+	<MousekinSlave.labelPlural>マウスキン奴隷</MousekinSlave.labelPlural>
+
+	<!-- EN: Mousekin councilor -->
+	<MousekinIndyTownCouncilor.label>マウスキン議員</MousekinIndyTownCouncilor.label>
+
+	<!-- EN: Mousekin councilors -->
+	<MousekinIndyTownCouncilor.labelPlural>マウスキン議員達</MousekinIndyTownCouncilor.labelPlural>
+
+	<!-- EN: Mousekin town soldier -->
+	<MousekinIndyTownSoldier.label>マウスキン町兵</MousekinIndyTownSoldier.label>
+
+	<!-- EN: Mousekin town soldiers -->
+	<MousekinIndyTownSoldier.labelPlural>マウスキン町兵</MousekinIndyTownSoldier.labelPlural>
+
+	<!-- EN: Mousekin town farmer -->
+	<MousekinIndyTownFarmer.label>マウスキン町農民</MousekinIndyTownFarmer.label>
+
+	<!-- EN: Mousekin town farmers -->
+	<MousekinIndyTownFarmer.labelPlural>マウスキン町農民</MousekinIndyTownFarmer.labelPlural>
+
+	<!-- EN: Mousekin nomad trader -->
+	<MousekinTraderNomad.label>マウスキン遊牧民商人</MousekinTraderNomad.label>
+
+	<!-- EN: Mousekin nomad traders -->
+	<MousekinTraderNomad.labelPlural>マウスキン遊牧民商人</MousekinTraderNomad.labelPlural>
+
+	<!-- EN: Mousekin nomad -->
+	<MousekinNomad.label>マウスキン遊牧民</MousekinNomad.label>
+
+	<!-- EN: Mousekin nomads -->
+	<MousekinNomad.labelPlural>マウスキン遊牧民</MousekinNomad.labelPlural>
+
+	<!-- EN: Mousekin brigand -->
+	<MousekinRaider.label>マウスキン山賊</MousekinRaider.label>
+
+	<!-- EN: Mousekin brigands -->
+	<MousekinRaider.labelPlural>マウスキン山賊</MousekinRaider.labelPlural>
+
+	<!-- EN: Mousekin wanderer -->
+	<MousekinWanderer.label>マウスキン放浪者</MousekinWanderer.label>
+
+	<!-- EN: Mousekin wanderers -->
+	<MousekinWanderer.labelPlural>マウスキン放浪者</MousekinWanderer.labelPlural>
+	
+</LanguageData>

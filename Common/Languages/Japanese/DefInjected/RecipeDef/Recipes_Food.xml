@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: grind flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.label>小麦を粉に挽く</Mousekin_Make_FlourFromWheat.label>
+
+	<!-- EN: Grind flour from wheat grains in a mortar and pestle. The process is slow, labour-intensive and inefficient due to the small quantities involved. -->
+	<Mousekin_Make_FlourFromWheat.description>小麦から作った小麦粉を臼と杵で挽きます.少量のため、時間がかかり、労働集約的で非効率的な作業であります.</Mousekin_Make_FlourFromWheat.description>
+
+	<!-- EN: Grinding flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.jobString>小麦を粉に挽く中</Mousekin_Make_FlourFromWheat.jobString>
+
+	<!-- EN: make Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.label>マウスキントレイルミックスを作る</Mousekin_Make_TrailMix.label>
+
+	<!-- EN: Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMix.description>ナッツを炒り、ベリーを乾燥させ、ポップコーンを焼いて、トレイルミックスを作ります.栄養価が高くておいしいし、食べたマウスキンの気分を少し高めてくれます.</Mousekin_Make_TrailMix.description>
+
+	<!-- EN: Preparing Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.jobString>マウスキントレイルミックスを調理中</Mousekin_Make_TrailMix.jobString>
+
+	<!-- EN: make Mousekin trail mix x3 -->
+	<Mousekin_Make_TrailMixBulk.label>マウスキントレイルミックスを作る x3</Mousekin_Make_TrailMixBulk.label>
+
+	<!-- EN: Make bulk trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMixBulk.description>ナッツを炒り、ベリーを乾燥させ、ポップコーンを焼いて、トレイルミックスを大量に作ります.栄養価が高くておいしいし、食べたマウスキンの気分を少し高めてくれます.</Mousekin_Make_TrailMixBulk.description>
+
+	<!-- EN: Preparing bulk Mousekin trail mix -->
+	<Mousekin_Make_TrailMixBulk.jobString>マウスキントレイルミックスを大量に作る</Mousekin_Make_TrailMixBulk.jobString>
+
+	<!-- EN: bake country bread -->
+	<Mousekin_Make_CountryBread.label>田舎パンを焼く</Mousekin_Make_CountryBread.label>
+
+	<!-- EN: Bake a loaf of country bread from flour. -->
+	<Mousekin_Make_CountryBread.description>小麦粉から田舎パンを焼きます.</Mousekin_Make_CountryBread.description>
+
+	<!-- EN: Baking country bread -->
+	<Mousekin_Make_CountryBread.jobString>田舎パンを焼成中</Mousekin_Make_CountryBread.jobString>
+
+	<!-- EN: bake country bread x4 -->
+	<Mousekin_Make_CountryBreadBulk.label>田舎パンを焼く x4</Mousekin_Make_CountryBreadBulk.label>
+
+	<!-- EN: Bake 4 loaves of country bread from flour. -->
+	<Mousekin_Make_CountryBreadBulk.description>小麦粉から4斤の田舎パンを焼きます.</Mousekin_Make_CountryBreadBulk.description>
+
+	<!-- EN: Baking 4 loaves of country bread -->
+	<Mousekin_Make_CountryBreadBulk.jobString>4斤の田舎パンを焼成中</Mousekin_Make_CountryBreadBulk.jobString>
+
+	<!-- EN: cook barley porridge -->
+	<Mousekin_Make_BarleyPorridge.label>大麦粥を作る</Mousekin_Make_BarleyPorridge.label>
+
+	<!-- EN: Cook a bowl of barley porridge. -->
+	<Mousekin_Make_BarleyPorridge.description>大麦粥を調理します.</Mousekin_Make_BarleyPorridge.description>
+
+	<!-- EN: Cooking barley porridge -->
+	<Mousekin_Make_BarleyPorridge.jobString>大麦粥を調理中</Mousekin_Make_BarleyPorridge.jobString>
+
+	<!-- EN: cook barley porridge x4 -->
+	<Mousekin_Make_BarleyPorridgeBulk.label>大麦粥を作る x4</Mousekin_Make_BarleyPorridgeBulk.label>
+
+	<!-- EN: Cook 4 bowls of barley porridge. -->
+	<Mousekin_Make_BarleyPorridgeBulk.description>4つの大麦粥を調理します.</Mousekin_Make_BarleyPorridgeBulk.description>
+
+	<!-- EN: Cooking 4 bowls of barley porridge -->
+	<Mousekin_Make_BarleyPorridgeBulk.jobString>4つの大麦粥を調理中</Mousekin_Make_BarleyPorridgeBulk.jobString>
+
+	<!-- EN: cook eggs on toast x4 -->
+	<Mousekin_Make_EggsOnToast.label>目玉焼きトーストを作る x4</Mousekin_Make_EggsOnToast.label>
+
+	<!-- EN: Cook 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.description>4つの目玉焼きトーストを調理します.</Mousekin_Make_EggsOnToast.description>
+
+	<!-- EN: Cooking 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.jobString>4つの目玉焼きトーストを調理中</Mousekin_Make_EggsOnToast.jobString>
+
+	<!-- EN: make ploughman's lunch x4 -->
+	<Mousekin_Make_PloughmansLunch.label>プラウマンズランチを作る x4</Mousekin_Make_PloughmansLunch.label>
+
+	<!-- EN: Make 4 servings of ploughman's lunch. -->
+	<Mousekin_Make_PloughmansLunch.description>4つのプラウマンズランチを調理します.</Mousekin_Make_PloughmansLunch.description>
+
+	<!-- EN: Making 4 servings of ploughman's lunch -->
+	<Mousekin_Make_PloughmansLunch.jobString>4つのプラウマンズランチを調理中</Mousekin_Make_PloughmansLunch.jobString>
+	
+	<!-- EN: nuts -->
+	<Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>ナッツ</Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl -->
+	<Mousekin_Make_BreadBowl.label>ブレッドボールを作る</Mousekin_Make_BreadBowl.label>
+
+	<!-- EN: Hollow out a loaf of country bread and fill it with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowl.description>田舎パンをくりぬいて、肉と野菜のクリーミーなポタージュを詰めます.</Mousekin_Make_BreadBowl.description>
+
+	<!-- EN: Making bread bowl -->
+	<Mousekin_Make_BreadBowl.jobString>ブレッドボールを調理中</Mousekin_Make_BreadBowl.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>タンパク質類</Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl x4 -->
+	<Mousekin_Make_BreadBowlBulk.label>ブレッドボールを作る x4</Mousekin_Make_BreadBowlBulk.label>
+
+	<!-- EN: Hollow out 4 loaves of country bread and fill them with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowlBulk.description>4斤の田舎パンをくりぬいて、肉と野菜のクリーミーなポタージュを詰めます.</Mousekin_Make_BreadBowlBulk.description>
+
+	<!-- EN: Making 4 bread bowls -->
+	<Mousekin_Make_BreadBowlBulk.jobString>4つのブレッドボールを調理中</Mousekin_Make_BreadBowlBulk.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>タンパク質類</Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>
+	
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Miserable Earless Mousekin -->
+	<AlertEarlessMousekinFeelingMiserableLabel>悲しき耳なしマウスキン</AlertEarlessMousekinFeelingMiserableLabel>
+
+	<!-- EN: These Mousekins have recently lost both of their ears to disease or injury, and are ashamed of their disfigurement:\n\n{0} -->
+	<AlertEarlessMousekinFeelingMiserableDesc>以下のマウスキンたちは、最近病気や怪我で両耳を失い、その醜い姿を恥じています：\n\n{0}</AlertEarlessMousekinFeelingMiserableDesc>
+
+	<!-- EN: Suicidal Earless Mousekin -->
+	<AlertEarlessMousekinFeelingSuicidalLabel>自殺した耳なしマウスキン</AlertEarlessMousekinFeelingSuicidalLabel>
+
+	<!-- EN: These Mousekins are humiliated by their prolonged loss of of their ears to disease or injury, and have a very high risk of committing suicide from despair over the next few days:\n\n{0} -->
+	<AlertEarlessMousekinFeelingSuicidalDesc>以下のマウスキンたちは、病気や怪我で長く耳を失ったことで屈辱を受け、数日後に絶望から自殺してしまう危険性が非常に高い：\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
+
+	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
+	<AlertEarlessMousekinDescEnding>布製の義耳を作るか、他のマウスキンから天然の耳を入手します.</AlertEarlessMousekinDescEnding>
+	
+</LanguageData>

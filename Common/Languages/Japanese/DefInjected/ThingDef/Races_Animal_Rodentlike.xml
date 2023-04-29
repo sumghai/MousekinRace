@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: giant cavy -->
+	<Mousekin_AnimalGiantCavy.label>ジャイアントキャビー</Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Giant cavy")\n\nA giant, docile rodent several orders of magnitude larger than the common guinea pig, and can withstand harsh climates fairly well. They subsist on a high-fiber diet of grass, hay, berries, fruits and vegetables, and are known to also consume their own feces in order to recycle vital trace nutrients.\n\nOriginally genetically-engineered and bred by humans millenia ago as a potential food source for austere frontier colonies, prehistoric Mousekins eventually successfully domesticated these peculiar creatures as companions, riding mounts and pack animals. -->
+	<Mousekin_AnimalGiantCavy.description>学名： &lt;i&gt;Cavia giganteus&lt;/i&gt; ("超大型キャビー")\n\nモルモットより数段大きい巨大でおとなしいネズミで、厳しい気候にもよく耐えることができる.草や干し草、ベリー類、果物、野菜など繊維質の多いものを食べ、重要な微量栄養素を再利用するために自分の糞を食べることも知られている.\n\n元々、数千年前に人類によって遺伝子操作され、過酷な開拓地の食料源として飼育されたこの奇妙な生き物を、先史時代のマウスキンはやがてコンパニオン、乗馬、荷役動物として家畜化することに成功しました.</Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalGiantCavy.tools.1.label>頭部</Mousekin_AnimalGiantCavy.tools.1.label>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalGiantCavy.tools.2.label>左爪</Mousekin_AnimalGiantCavy.tools.2.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalGiantCavy.tools.3.label>右爪</Mousekin_AnimalGiantCavy.tools.3.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.label>ジャイアントキャビーの肉</Meat_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.description>生の切り分けられた食用肉です.調理することも,生のままで食べることもできます.</Meat_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.label>ジャイアントキャビーの死骸</Corpse_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.description>ジャイアントキャビーの死骸です.</Corpse_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: Pudgemouse -->
+	<Mousekin_AnimalPudgemouse.label>パッジマウス</Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: Species: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Fat ash-grey mouse")\n\nA large chihuahua-sized species of grey-furred rodents capable of walking only on their hind legs for extended periods of time. They subsist on a mixed diet of fruits, seeds and grains, and will happily eat meat as well.\n\nDue to their unusually high level of intelligence and empathy, as well as their apparent ability to understand both written and spoken humanoid languages (despite being incapable of vocalizing actual words themselves beyond squeaking), these mice are easily domesticated as companions and pets by Mousekins, and are universally exempt from any rules that otherwise prohibit pet animals. -->
+	<Mousekin_AnimalPudgemouse.description>学名： &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("太っちょ灰色ネズミ")\n\nチワワのような大きさで、後ろ足だけで長時間歩くことができる灰色の毛を持つ大型のネズミの一種.果実、種子、穀類を主食とし、肉類も食べる.\n\nこのネズミは、非常に高いレベルの知性と共感性を持ち、人型言語の文字と音声の両方を理解することができるため（鳴き声以上の実際の言葉を発声することはできないが）、マウスキンの仲間やペットとして簡単に飼いならされ、公共の場でのペット動物を禁止するあらゆる規則から普遍的に免除されています.</Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalPudgemouse.tools.0.label>左爪</Mousekin_AnimalPudgemouse.tools.0.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalPudgemouse.tools.1.label>右爪</Mousekin_AnimalPudgemouse.tools.1.label>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalPudgemouse.tools.3.label>頭部</Mousekin_AnimalPudgemouse.tools.3.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.label>パッジマウスの肉</Meat_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.description>生の切り分けられた食用肉です.調理することも,生のままで食べることもできます.</Meat_Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.label>パッジマウスの死骸</Corpse_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.description>パッジマウスの死骸です.</Corpse_Mousekin_AnimalPudgemouse.description>
+	
+</LanguageData>

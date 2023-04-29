@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Make Mousekin Candle x5 -->
+	<Mousekin_Make_CandleBulkSmall.label>マウスキンやキャンドルを作成する x5</Mousekin_Make_CandleBulkSmall.label>
+
+	<!-- EN: Melt beeswax and cast a small batch of candles. -->
+	<Mousekin_Make_CandleBulkSmall.description>蜜蝋を溶かし、少量のキャンドルを鋳造します.</Mousekin_Make_CandleBulkSmall.description>
+
+	<!-- EN: Making Mousekin Candles. -->
+	<Mousekin_Make_CandleBulkSmall.jobString>マウスキンやキャンドルを作成中</Mousekin_Make_CandleBulkSmall.jobString>
+
+	<!-- EN: Make Mousekin Candle x25 -->
+	<Mousekin_Make_CandleBulkLarge.label>マウスキンやキャンドルを作成する x25</Mousekin_Make_CandleBulkLarge.label>
+
+	<!-- EN: Melt beeswax and cast a large batch of candles. -->
+	<Mousekin_Make_CandleBulkLarge.description>蜜蝋を溶かし、大量のキャンドルを鋳造します.</Mousekin_Make_CandleBulkLarge.description>
+
+	<!-- EN: Making Mousekin Candles. -->
+	<Mousekin_Make_CandleBulkLarge.jobString>マウスキンやキャンドルを作成中</Mousekin_Make_CandleBulkLarge.jobString>
+
+	<!-- EN: make Clockwork Mechanism -->
+	<Mousekin_Make_ClockworkComponent.label>時計仕掛けの機構を作成する</Mousekin_Make_ClockworkComponent.label>
+
+	<!-- EN: Make a Clockwork Mechanism by forming and trimming steel into intricate metal components. -->
+	<Mousekin_Make_ClockworkComponent.description>鉄を複雑な金属部品に成形し、トリミングして、時計仕掛けの機構を作成します.</Mousekin_Make_ClockworkComponent.description>
+
+	<!-- EN: Making a Clockwork Mechanism. -->
+	<Mousekin_Make_ClockworkComponent.jobString>時計仕掛けの機構を作成中</Mousekin_Make_ClockworkComponent.jobString>
+
+	<!-- EN: make Clockwork Mechanism x5 -->
+	<Mousekin_Make_ClockworkComponentBulk.label>時計仕掛けの機構を作成する x5</Mousekin_Make_ClockworkComponentBulk.label>
+
+	<!-- EN: Make a batch of Clockwork Mechanisms by forming and trimming steel into intricate metal components. -->
+	<Mousekin_Make_ClockworkComponentBulk.description>鉄を複雑な金属部品に成形し、トリミングして、時計仕掛けのメカをバッチで作成します.</Mousekin_Make_ClockworkComponentBulk.description>
+
+	<!-- EN: Making Clockwork Mechanisms. -->
+	<Mousekin_Make_ClockworkComponentBulk.jobString>時計仕掛けの機構を作成中</Mousekin_Make_ClockworkComponentBulk.jobString>
+	
+</LanguageData>

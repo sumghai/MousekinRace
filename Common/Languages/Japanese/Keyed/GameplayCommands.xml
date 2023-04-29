@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Rotate cap -->
+	<MousekinRace_CommandRotateWindmillCapLabel>屋根を回転させる</MousekinRace_CommandRotateWindmillCapLabel>
+
+	<!-- EN: Rotate the cap and sails of the windmill. -->
+	<MousekinRace_CommandRotateWindmillCapDesc>風車の屋根と帆を回転させる.</MousekinRace_CommandRotateWindmillCapDesc>
+
+	<!-- EN: Show manual -->
+	<MousekinRace_CommandShowBeehiveManualLabel>表示マニュアル</MousekinRace_CommandShowBeehiveManualLabel>
+
+	<!-- EN: Show instructions for using the Mousekin Beehive. -->
+	<MousekinRace_CommandShowBeehiveManualDesc>マウスキン養蜂箱を使う手順を表示.</MousekinRace_CommandShowBeehiveManualDesc>
+
+	<!-- EN: Wear {0} -->
+	<MousekinRace_CommandToggleAttachedHeadgearLabel>{0}をかぶる</MousekinRace_CommandToggleAttachedHeadgearLabel>
+
+	<!-- EN: Toggle wearing {0} attached to apparel. -->
+	<MousekinRace_CommandToggleAttachedHeadgearDesc>このアパレルに{0}をかぶせることを切り替えます.</MousekinRace_CommandToggleAttachedHeadgearDesc>
+	
+</LanguageData>

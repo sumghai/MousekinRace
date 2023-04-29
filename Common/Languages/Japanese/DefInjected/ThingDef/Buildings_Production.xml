@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>		<!-- EN: Mousekin Cast-Iron Stove -->
+	<Mousekin_CastIronStove.label>マウスキン鋳鉄製ストーブ</Mousekin_CastIronStove.label>
+	
+	<!-- EN: A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals. -->
+	<Mousekin_CastIronStove.description>複数のホットプレートとデュアルオーブンを備えた重厚な鋳物製コンロで、複雑な料理の調理も可能です.</Mousekin_CastIronStove.description>
+	
+	<!-- EN: Mousekin alchemy bench -->
+	<Mousekin_WorkbenchAlchemy.label>マウスキン錬金術工作台</Mousekin_WorkbenchAlchemy.label>
+	
+	<!-- EN: A workbench for concocting various Mousekin herbal poultices, potions and explosives. -->
+	<Mousekin_WorkbenchAlchemy.description>マウスキンの各種薬草湿布やポーション、爆薬などを調合するための作業台です.</Mousekin_WorkbenchAlchemy.description>
+	
+	<!-- EN: Mousekin brewery -->
+	<Mousekin_WorkbenchBrewery.label>マウスキン醸造作業台</Mousekin_WorkbenchBrewery.label>
+	
+	<!-- EN: A workbench for preparing musts used in the fermentation of various Mousekin alcoholic beverages. -->
+	<Mousekin_WorkbenchBrewery.description>各種マウスキンのアルコール飲料の発酵に使用する麦汁を調製するための作業台.</Mousekin_WorkbenchBrewery.description>
+	
+	<!-- EN: Mousekin butcher table -->
+	<Mousekin_WorkbenchButcher.label>マウスキン食肉加工台</Mousekin_WorkbenchButcher.label>
+	
+	<!-- EN: A workbench with a sturdy countertop used for butchering dead creatures into pieces of raw meat. -->
+	<Mousekin_WorkbenchButcher.description>死んだ生物を,小さい生肉の塊に加工する頑丈なカウンターのついた作業台.</Mousekin_WorkbenchButcher.description>
+	
+	<!-- EN: Mousekin crafting bench -->
+	<Mousekin_WorkbenchCrafting.label>マウスキン工芸作業台</Mousekin_WorkbenchCrafting.label>
+	
+	<!-- EN: A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting stone blocks and carving sculptures. -->
+	<Mousekin_WorkbenchCrafting.description>時計仕掛けやメガネ、木槌やドングリ手榴弾など、さまざまなアイテムを作ることができる作業台で、石のブロックを削ったり彫刻を彫ったりすることもできます.</Mousekin_WorkbenchCrafting.description>
+	
+	<!-- EN: Mousekin smithy -->
+	<Mousekin_WorkbenchSmithy.label>マウスキン工作台</Mousekin_WorkbenchSmithy.label>
+	
+	<!-- EN: A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty. -->
+	<Mousekin_WorkbenchSmithy.description>マウスキンの様々な武器や道具、プレートアーマーを鍛錬するための鍛冶場、金床、クエンチバレルです.燃料として木材を必要とし、屋外でも作業速度のペナルティなしに使用できる.</Mousekin_WorkbenchSmithy.description>
+	
+	<!-- EN: Mousekin seamstress bench -->
+	<Mousekin_WorkbenchTailor.label>マウスキンミシン台</Mousekin_WorkbenchTailor.label>
+	
+	<!-- EN: A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing. -->
+	<Mousekin_WorkbenchTailor.description>マウスキンの服を仕立てるための、鋳鉄製踏台ミシンが設置された作業台.</Mousekin_WorkbenchTailor.description>
+	
+	<!-- EN: Mousekin beehive -->
+	<Mousekin_Beehive.label>マウスキン養蜂箱</Mousekin_Beehive.label>
+	
+	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. -->
+	<Mousekin_Beehive.description>ミツバチを飼うための木製の蜂の巣です.マウスキンの工夫により、ブルードフレームのハニカムセルはレバーを引くだけで割れるようになっており、ミツバチの邪魔をすることなく簡単にハチミツやミツロウを収穫することができます.</Mousekin_Beehive.description>
+	
+	<!-- EN: Mousekin cheese press -->
+	<Mousekin_CheesePress.label>マウスキンチーズプレス</Mousekin_CheesePress.label>
+	
+	<!-- EN: A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese. -->
+	<Mousekin_CheesePress.description>クローバーベリーチーズを作るために、牛乳からホエイを搾り取るための木製の装置.</Mousekin_CheesePress.description>
+	
+	<!-- EN: Mousekin fermenting barrel -->
+	<Mousekin_FermentingBarrel.label>マウスキンビア樽</Mousekin_FermentingBarrel.label>
+	
+	<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
+	<Mousekin_FermentingBarrel.description>様々なマウスキンのアルコール飲料を発酵させるための大きな樽です.冷暗所が必要です.</Mousekin_FermentingBarrel.description>
+	
+	<!-- EN: Mousekin research bench -->
+	<Mousekin_ResearchBench.label>マウスキン研究卓</Mousekin_ResearchBench.label>
+	
+	<!-- EN: A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things. -->
+	<Mousekin_ResearchBench.description>実験用ガラス器具、部品の詰め合わせ、簡易測定器、筆記用具、参考書などが置かれたベンチです.マウスキン研究者は新たな発見のためにここで活動します.</Mousekin_ResearchBench.description>
+	
+	<!-- EN: Mousekin windmill -->
+	<Mousekin_Windmill.label>マウスキン風車</Mousekin_Windmill.label>
+	
+	<!-- EN: A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water. -->
+	<Mousekin_Windmill.description>風力を回転エネルギーに変換して、穀物を粉にしたり、灌漑用の水を汲み上げたりする木製の塔です.湿地や浅い水は乾いた地面に、柔らかい砂は普通の砂に、普通の土は作物や花畑に適した豊かな肥沃な土に、ゆっくりと変化させ、近くの地形の水分を均一にします.深層水には影響しません.</Mousekin_Windmill.description>	
+</LanguageData>
