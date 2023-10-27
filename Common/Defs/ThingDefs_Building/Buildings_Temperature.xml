@@ -76,7 +76,7 @@
 			</li>
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
-				<heatPerSecond>25</heatPerSecond>
+				<heatPerSecond>40</heatPerSecond>
 				<heatPushMaxTemperature>26</heatPushMaxTemperature>
 			</li>
 			<li Class="MousekinRace.CompProperties_FireplaceRenderer">
