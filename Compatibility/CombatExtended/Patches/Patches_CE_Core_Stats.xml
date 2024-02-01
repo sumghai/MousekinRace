@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- 
+			
+				Nullify stuff/material effects on the mass of Mousekin apparel/armor with MousekinRace.ApparelIgnoreStuffStatFactorsExtension 
+				(This is added by Combat Extended)
+				
+			-->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="Mass"]/parts</xpath>
+				<value>
+					<li Class="MousekinRace.StatPart_IgnoreStuffEffectForGildedItems"/>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>

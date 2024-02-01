@@ -321,6 +321,7 @@
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
+    <Compile Include="DefModExtensions\ApparelIgnoreStuffStatFactorsExtension.cs" />
     <Compile Include="DefModExtensions\BeehiveValidFlowersExtension.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_BothMousekin.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs" />
@@ -366,6 +367,7 @@
     <Compile Include="Patches\RawMeatTradeTagPatch.cs" />
     <Compile Include="DefModExtensions\RomanceUtilsExtension.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="Stats\StatPart_IgnoreStuffEffectForGildedItems.cs" />
     <Compile Include="Thoughts\ThoughtWorker_AteCheese.cs" />
     <Compile Include="Thoughts\ThoughtWorker_FaithAffinityOpinions.cs" />
     <Compile Include="Thoughts\ThoughtWorker_MissingEars.cs" />

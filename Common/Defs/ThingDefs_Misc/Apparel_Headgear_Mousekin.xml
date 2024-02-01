@@ -222,6 +222,9 @@
 		<tradeTags>
 			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
@@ -279,6 +282,9 @@
 		<tradeTags>
 			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
@@ -340,6 +346,9 @@
 		<tradeTags>
 			<li>Mousekin_TradeGoods_ApparelMilitaryKingdom</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
 	</ThingDef>
 	
 	<!-- Uncraftable -->
@@ -459,6 +468,9 @@
 		<tradeTags>
 			<li>Mousekin_TradeGoods_ApparelMilitaryKingdomElite</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
 	</ThingDef>
 	
 	<!-- Dummy Defs for rendering purposes -->
