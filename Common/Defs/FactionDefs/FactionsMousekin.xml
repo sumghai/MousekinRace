@@ -128,7 +128,7 @@
 		<listOrderPriority>29</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxCountAtGameStart>3</maxCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
@@ -137,7 +137,7 @@
 		<colorSpectrum>
 			<li>(255, 215, 0)</li>
 		</colorSpectrum>
-		<maxConfigurableAtWorldCreation>3</maxConfigurableAtWorldCreation>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>21</configurationListOrderPriority>
 		<!-- Mousekin Kingdom tends to be aloof towards outsiders, especially non-Mousekins. -->
 		<fixedLeaderKinds>
