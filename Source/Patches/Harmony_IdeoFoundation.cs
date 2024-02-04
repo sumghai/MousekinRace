@@ -12,7 +12,7 @@ namespace MousekinRace
     {
         public static void Postfix(Ideo ideo, ref IdeoIconDef __result)
         {
-            if (ideo.culture.GetModExtension<IdeoSymbolIgnoreRandomExtension>() != null)
+            if (ideo.culture?.GetModExtension<IdeoSymbolIgnoreRandomExtension>() != null)
             {
                 IEnumerable<IdeoIconDef> icons = DefDatabase<IdeoIconDef>.AllDefs.Where(x => x.cultures != null && x.cultures.Contains(ideo.culture));
                 if (icons.EnumerableCount() > 0)
