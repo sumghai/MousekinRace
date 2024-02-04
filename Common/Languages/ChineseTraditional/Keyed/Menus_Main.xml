@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: (Required) -->
+	<MousekinRace_CreateWorldFactionType_RequiredByScenario>(需要)</MousekinRace_CreateWorldFactionType_RequiredByScenario>
+	
+	<!-- EN: The current scenario ({0}) requires some factions to always be generated. -->
+	<MousekinRace_ScenarioRequiresMousekinFactionsWarning>本腳本({0})需要某些派系在世界上。</MousekinRace_ScenarioRequiresMousekinFactionsWarning>
+
+</LanguageData>

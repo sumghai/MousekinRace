@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: (Required) -->
+	<MousekinRace_CreateWorldFactionType_RequiredByScenario>(필수)</MousekinRace_CreateWorldFactionType_RequiredByScenario>
+	
+	<!-- EN: The current scenario ({0}) requires some factions to always be generated. -->
+	<MousekinRace_ScenarioRequiresMousekinFactionsWarning>현재 시나리오({0})에는 월드에 일부 진영이 필요합니다.</MousekinRace_ScenarioRequiresMousekinFactionsWarning>
+
+</LanguageData>

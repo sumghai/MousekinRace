@@ -361,12 +361,15 @@
     <Compile Include="Patches\Harmony_StatWorker_GetExplanationUnfinalized.cs" />
     <Compile Include="Patches\Harmony_Thing_Ingested.cs" />
     <Compile Include="DefModExtensions\IdeoSymbolIgnoreRandomExtension.cs" />
+    <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoRow.cs" />
+    <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoWindowContents.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_WallMounted.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_Windmill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Patches\RawMeatTradeTagPatch.cs" />
     <Compile Include="DefModExtensions\RomanceUtilsExtension.cs" />
+    <Compile Include="ScenPart\ScenPart_RequiredFaction.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Stats\StatPart_IgnoreStuffEffectForGildedItems.cs" />
     <Compile Include="Thoughts\ThoughtWorker_AteCheese.cs" />

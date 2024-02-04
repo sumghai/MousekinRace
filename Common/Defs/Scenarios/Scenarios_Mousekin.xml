@@ -163,6 +163,18 @@
 					<closeSound>GameStartSting</closeSound>
 				</li>
 
+				<!-- Requires Mousekin Kingdom and Independent Mousekin factions during world generation -->
+				
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Mousekin_FactionKingdom</factionDef>
+				</li>
+				
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Mousekin_FactionIndyTown</factionDef>
+				</li>
+
 			</parts>
 		</scenario>
 	</ScenarioDef>
@@ -254,6 +266,18 @@
 					<def>GameStartDialog</def>
 					<text>The Grimalkins came in the night, just before supper.\n\nThe barrels of their rapid-fire muskets glinting eerily in the moonlight like their wicked grins, they smashed through the town walls with their mechanical beasts. The Guardeners and Knights fought a gallant but doomed battle so that the rest of the village could escape, but you could still hear the horrific cries and squeals behind you as the cats slaughtered your fathers, brothers and sons, raped your mothers, sisters and daughters, and feasted on the little, helpless pups.\n\nWith what few possessions you and a few others managed to grab, you find yourselves far from home, the village behind you engulfed in flames. You should set up camp here before deciding what to do next.</text>
 					<closeSound>GameStartSting</closeSound>
+				</li>
+
+				<!-- Requires Mousekin Kingdom and Independent Mousekin factions during world generation -->
+
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Mousekin_FactionKingdom</factionDef>
+				</li>
+				
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Mousekin_FactionIndyTown</factionDef>
 				</li>
 
 			</parts>
