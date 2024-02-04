@@ -9,10 +9,10 @@ using Verse;
 
 namespace MousekinRace
 {
+    // At world gen faction setup, add warning message under faction list that some factions are required by the current scenario
     [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoWindowContents))]
     public static class Harmony_WorldFactionsUIUtility_DoWindowContents
     {
-        // Add warning message under faction list that some factions are required by the current scenario
         [HarmonyTranspiler]
         private static IEnumerable<CodeInstruction> CondAppendScenarioRequiredFaction_Explanation_Transpiler(IEnumerable<CodeInstruction> instructions)
         {

@@ -7,6 +7,7 @@ using Verse;
 
 namespace MousekinRace
 {
+    // Force Mousekin-unique animals to use name generators if purchased by a Mousekin
     [HarmonyPatch]
     public class Harmony_GiveSoldThingToPlayer
     {

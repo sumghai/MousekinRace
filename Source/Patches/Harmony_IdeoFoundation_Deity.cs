@@ -5,6 +5,7 @@ using static RimWorld.IdeoFoundation_Deity;
 
 namespace MousekinRace
 {
+    // Force gender of deity in Mousekin ideologies to be male
     [HarmonyPatch(typeof(IdeoFoundation_Deity), nameof(IdeoFoundation_Deity.FillDeity))]
     public static class Harmony_IdeoFoundation_Deity_ForceMaleForMousekin
     {

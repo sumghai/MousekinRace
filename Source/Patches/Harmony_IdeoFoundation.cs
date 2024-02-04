@@ -6,6 +6,7 @@ using Verse;
 
 namespace MousekinRace
 {
+    // Used fixed symbols for Mousekin ideologies
     [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.GetRandomIconDef))]
     public static class Harmony_IdeoFoundation_GetRandomIconDef_LimitToMatchingCultures
     {
@@ -22,6 +23,7 @@ namespace MousekinRace
         }
     }
 
+    // Prevent Ancients factions from using Mousekin cultures
     [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.RandomizeCulture))]
     public static class Harmony_IdeoFoundation_RandomizeCulture_HideMousekinCulturesFromCulturelessFactions
     {
@@ -34,6 +36,7 @@ namespace MousekinRace
         }
     }
 
+    // Disallow animal and weapon precepts for Mousekin ideologies
     [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.RandomizePrecepts))]
     public static class Harmony_IdeoFoundation_RandomizePrecepts_NoVeneratedAnimalsAndNobleDespisedWeaponsForMousekin
     {

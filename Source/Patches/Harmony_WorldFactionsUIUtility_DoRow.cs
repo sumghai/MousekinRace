@@ -10,10 +10,10 @@ using Verse;
 
 namespace MousekinRace
 {
+    // At world gen faction setup, replace the Remove button with a "(Required)" label if the faction in the current row is required by the scenario
     [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
     public static class Harmony_WorldFactionsUIUtility_DoRow
     {
-        // Replace the Remove button with a "(Required)" label if the faction in the current row is required by the scenario
         [HarmonyTranspiler]
         private static IEnumerable<CodeInstruction> ScenarioRequiredFaction_HideRemoveButton_Transpiler(IEnumerable<CodeInstruction> instructions)
         {
