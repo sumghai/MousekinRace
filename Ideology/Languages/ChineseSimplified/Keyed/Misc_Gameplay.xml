@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- EN: Ideoligion preselected for scenario -->
+	<MousekinRace_Page_IdeoFixedByScenario_Title>脚本已预设文化形态</MousekinRace_Page_IdeoFixedByScenario_Title>
+	
+	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
+	<MousekinRace_Page_IdeoFixedByScenario_Desc>因为您选择了{0}脚本，你的派系开局文化形态已设定为:</MousekinRace_Page_IdeoFixedByScenario_Desc>
+
+</LanguageData>

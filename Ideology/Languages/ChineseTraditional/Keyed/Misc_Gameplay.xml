@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- EN: Ideoligion preselected for scenario -->
+	<MousekinRace_Page_IdeoFixedByScenario_Title>脚本已預設理念</MousekinRace_Page_IdeoFixedByScenario_Title>
+	
+	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
+	<MousekinRace_Page_IdeoFixedByScenario_Desc>因為您選擇了{0}脚本，你的陣營起始理念已設定為:</MousekinRace_Page_IdeoFixedByScenario_Desc>
+
+</LanguageData>

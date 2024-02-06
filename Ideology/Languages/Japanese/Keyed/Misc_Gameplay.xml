@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- EN: Ideoligion preselected for scenario -->
+	<MousekinRace_Page_IdeoFixedByScenario_Title>思想はシナリオで決まる</MousekinRace_Page_IdeoFixedByScenario_Title>
+	
+	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
+	<MousekinRace_Page_IdeoFixedByScenario_Desc>{0}シナリオが選択されたため、あなたの派閥ー立ち上げ時の最初の思想が設定された：</MousekinRace_Page_IdeoFixedByScenario_Desc>
+
+</LanguageData>

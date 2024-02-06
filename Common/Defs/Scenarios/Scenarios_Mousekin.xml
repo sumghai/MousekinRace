@@ -168,6 +168,7 @@
 				<li Class="MousekinRace.ScenPart_RequiredFaction">
 					<def>MousekinRace_ScenPart_RequiredFaction</def>
 					<factionDef>Mousekin_FactionKingdom</factionDef>
+					<useFactionIdeoForPlayer>true</useFactionIdeoForPlayer>
 				</li>
 				
 				<li Class="MousekinRace.ScenPart_RequiredFaction">
@@ -273,6 +274,7 @@
 				<li Class="MousekinRace.ScenPart_RequiredFaction">
 					<def>MousekinRace_ScenPart_RequiredFaction</def>
 					<factionDef>Mousekin_FactionKingdom</factionDef>
+					<useFactionIdeoForPlayer>true</useFactionIdeoForPlayer>
 				</li>
 				
 				<li Class="MousekinRace.ScenPart_RequiredFaction">
