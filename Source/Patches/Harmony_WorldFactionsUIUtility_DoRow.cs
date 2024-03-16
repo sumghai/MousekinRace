@@ -14,7 +14,10 @@ namespace MousekinRace
     [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
     public static class Harmony_WorldFactionsUIUtility_DoRow
     {
-        [HarmonyTranspiler]
+        /* TODO - fix
+         * 
+         * 
+         * [HarmonyTranspiler]
         private static IEnumerable<CodeInstruction> ScenarioRequiredFaction_HideRemoveButton_Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var codeMatcher = new CodeMatcher(instructions);        
@@ -66,5 +69,7 @@ namespace MousekinRace
             }
             return output;
         }
+
+        */
     }
 }

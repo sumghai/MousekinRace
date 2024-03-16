@@ -31,7 +31,10 @@
 				<li>Eyes</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesSmall/MousekinGlassesSmall</wornGraphicPath>
+			<!-- TODO - replace with new drawData node
+			
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			-->
 			<layers>
 				<li>EyeCover</li>
 			</layers>
@@ -73,7 +76,10 @@
 				<li>Eyes</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesLarge/MousekinGlassesLarge</wornGraphicPath>
+			<!-- TODO - replace with new drawData node
+			
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			-->
 			<layers>
 				<li>EyeCover</li>
 			</layers>

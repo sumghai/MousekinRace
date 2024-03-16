@@ -103,7 +103,7 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 					</bodyTypes>
 					<atlasScale>4</atlasScale>
-					<getsGreyAt>60</getsGreyAt>
+					<oldHairAgeRange>60~120</oldHairAgeRange> <!-- add a bit extra over 100 yr life expectancy, just in case -->
 					<customDrawSize>(0.9, 0.9)</customDrawSize>
 					<customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
 					<customPortraitDrawSize>(0.9, 0.9)</customPortraitDrawSize>
@@ -1170,6 +1170,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>100</lifeExpectancy>
+			<renderTree>Humanlike</renderTree>
 			<leatherDef>Mousekin_Leather_Mousekin</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>true</hasGenders>
@@ -1201,11 +1202,18 @@
 				<li Class="AlienRace.LifeStageAgeAlien">
 					<def>HumanlikeChild</def>
 					<minAge>3</minAge>
-					<headOffsetDirectional>
+					<!--<headOffsetDirectional>
 						<north>(0, -0.075)</north>
 						<east>(-0.025, -0.075)</east>
 						<south>(0, -0.075)</south>
 						<west>(0.025, -0.075)</west>
+					</headOffsetDirectional>-->
+					<!-- TODO - fix with correct offsets -->
+					<headOffsetDirectional>
+						<north></north>
+						<east></east>
+						<south></south>
+						<west></west>
 					</headOffsetDirectional>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
 					<soundDeath>Pawn_Mousekin_Death</soundDeath>
@@ -1268,7 +1276,6 @@
 				<Research>13</Research>
 			</lifeStageWorkSettings>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
 			<specialShadowData>

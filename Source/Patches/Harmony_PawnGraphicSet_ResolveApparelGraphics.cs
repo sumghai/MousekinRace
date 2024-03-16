@@ -5,10 +5,12 @@ using Verse;
 
 namespace MousekinRace
 {
+    // TODO - Fix
+    
     // After resolving a pawn's apparel graphics, we conditionally render:
     // - Any headgear attached to apparel (e.g. hoods, masks, helmets) depending on the Gizmo state in CompApparelWithAttachedHeadgear
     // - Alternate graphics for apparel depending on the Gizmo state in CompApparelWithAltStateGraphics
-    [HarmonyPatch(typeof(PawnGraphicSet), nameof(PawnGraphicSet.ResolveApparelGraphics))]
+    /*[HarmonyPatch(typeof(PawnGraphicSet), nameof(PawnGraphicSet.ResolveApparelGraphics))]
     public static class Harmony_PawnGraphicSet_ResolveApparelGraphics
     {
         static void Postfix(Pawn ___pawn)
@@ -53,5 +55,5 @@ namespace MousekinRace
                 }
             }
         }
-    }
+    }*/
 }

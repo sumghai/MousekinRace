@@ -556,7 +556,11 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<hatRenderedBehindHead>true</hatRenderedBehindHead>
+			<!-- TODO - replace with new drawData node
+			
+			<hatRenderedBehindHead>true</hatRenderedBehindHead> 
+			
+			-->
 			<tags>
 				<li>Mousekin_NoSpawn</li>
 			</tags>

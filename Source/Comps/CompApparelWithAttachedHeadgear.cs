@@ -40,7 +40,7 @@ namespace MousekinRace
                     toggleAction = delegate
                     {
                         isHatOn = !isHatOn;
-                        Pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+                        Pawn.Drawer.renderer.SetAllGraphicsDirty();
                     },
                     turnOffSound = null,
                     turnOnSound = null

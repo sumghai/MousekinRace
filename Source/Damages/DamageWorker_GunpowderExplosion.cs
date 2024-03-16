@@ -11,8 +11,7 @@ namespace MousekinRace
             base.ExplosionAffectCell(explosion, c, damagedThings, ignoredThings, canThrowMotes);
             if (def == MousekinDefOf.Mousekin_GunpowderExplosion && Rand.Chance(FireUtility.ChanceToStartFireIn(c, explosion.Map)))
             {
-                FireUtility.TryStartFireIn(c, explosion.Map, Rand.Range(0.2f, 0.6f));
-            }
+                FireUtility.TryStartFireIn(c, explosion.Map, Rand.Range(0.2f, 0.6f), explosion.instigator);            }
         }
     }
 }

@@ -14,10 +14,10 @@ namespace MousekinRace
         {
             if (pawn.apparel?.WornApparel?.Find(ap => ap.TryGetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp) is Apparel apparelWithAttachedHeadgear && apparelWithAttachedHeadgear != null)
             {
-                if (apparelWithAttachedHeadgear.GetComp<CompApparelWithAttachedHeadgear>().Props.attachedHeadgearDef.apparel.tags.Any(s => __instance.hiddenUnderApparelTag.Contains(s)))
+                /*if (apparelWithAttachedHeadgear.GetComp<CompApparelWithAttachedHeadgear>().Props.attachedHeadgearDef.apparel.tags.Any(s => __instance.hiddenUnderApparelTag.Contains(s)))
                 {
                     __result = __result && !apparelWithAttachedHeadgear.GetComp<CompApparelWithAttachedHeadgear>().isHatOn;
-                }
+                }*/
             }
         }
     }

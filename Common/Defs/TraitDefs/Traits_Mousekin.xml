@@ -30,10 +30,7 @@
 					<RestRateMultiplier>0.05</RestRateMultiplier>
 				</statOffsets>
 				<skillGains>
-					<li>
-						<key>Plants</key>
-						<value>2</value>
-					</li>
+					<Plants>2</Plants>
 				</skillGains>
 				<allowedMeditationFocusTypes>
 					<li>Natural</li>
@@ -89,10 +86,7 @@
 					<SocialImpact>0.20</SocialImpact>
 				</statOffsets>
 				<skillGains>
-					<li>
-						<key>Melee</key>
-						<value>2</value>
-					</li>
+					<Melee>2</Melee>
 				</skillGains>
 				<allowedMeditationFocusTypes>
 					<li>Morbid</li>
