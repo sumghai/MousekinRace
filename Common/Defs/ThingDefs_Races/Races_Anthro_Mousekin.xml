@@ -268,7 +268,7 @@
 									<bodyTypes>
 										<Mousekin>(0.345,-0.330)</Mousekin>
 										<Child MayRequire="Ludeon.RimWorld.Biotech">(0.255,-0.255)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.1725,-0.165)</Baby>
+										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.0,-0.05)</Baby>
 									</bodyTypes>
 								</east>
 							</offsets>
