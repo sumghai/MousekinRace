@@ -6,10 +6,9 @@
 		<label>Rodentkind Diversity</label>
 		<description>All rodentkind are equal throughout the land.</description>
 		<iconPath>UI/Memes/MousekinRodentDiversity</iconPath>
-		<groupDef>GroupRelation</groupDef>
 		<impact>1</impact>
 		<exclusionTags>
-			<li>GroupRelation</li>
+			<li>Primacy</li>
 		</exclusionTags>
 		<requireOne>
 			<li>
@@ -26,10 +25,9 @@
 		<label>Rodentkind Purity</label>
 		<description>Mousekins are the chosen stewards of the land; all other rodent races are abominations.</description>
 		<iconPath>UI/Memes/MousekinRodentPurity</iconPath>
-		<groupDef>GroupRelation</groupDef>
 		<impact>1</impact>
 		<exclusionTags>
-			<li>GroupRelation</li>
+			<li>Primacy</li>
 		</exclusionTags>
 		<requireOne>
 			<li>
