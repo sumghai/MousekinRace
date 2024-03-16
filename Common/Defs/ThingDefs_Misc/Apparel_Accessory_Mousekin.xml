@@ -31,13 +31,17 @@
 				<li>Eyes</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesSmall/MousekinGlassesSmall</wornGraphicPath>
-			<!-- TODO - replace with new drawData node
-			
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-			-->
 			<layers>
 				<li>EyeCover</li>
 			</layers>
+			<drawData>
+				<defaultData>
+					<layer>61</layer>
+				</defaultData>
+			</drawData>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>MousekinPriest</li>
 			</tags>
@@ -76,13 +80,17 @@
 				<li>Eyes</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesLarge/MousekinGlassesLarge</wornGraphicPath>
-			<!-- TODO - replace with new drawData node
-			
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-			-->
 			<layers>
 				<li>EyeCover</li>
 			</layers>
+			<drawData>
+				<defaultData>
+					<layer>61</layer>
+				</defaultData>
+			</drawData>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>MousekinDoctor</li>
 			</tags>
