@@ -174,163 +174,89 @@
 					<bodyAddons>
 						<li>
 							<path>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarLeft</path>
-							<bodyPartLabel>left ear</bodyPartLabel>
+							<conditions>
+								<BodyPart>
+									<bodyPartLabel>left ear</bodyPartLabel>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Mousekin_HideEars</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<extendedGraphics>
+								<Hediff For="Mousekin_ProstheticClothEar">Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarClothLeft</Hediff>
+							</extendedGraphics>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>false</drawnDesiccated>
 							<colorChannel>skin</colorChannel>
-							<hediffGraphics>
-								<Mousekin_ProstheticClothEar>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarClothLeft</Mousekin_ProstheticClothEar>
-							</hediffGraphics>
 							<offsets>
-								<south>
-									<layerOffset>-0.266</layerOffset>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</portraitBodyTypes>
-								</south>
-								<north>
-									<layerOffset>-0.3</layerOffset>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</portraitBodyTypes>
-								</north>
 								<east>
 									<layerOffset>-0.3</layerOffset>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</portraitBodyTypes>
 								</east>
 								<west>
-									<layerOffset>-0.266</layerOffset>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</portraitBodyTypes>
+									<layerOffset>0</layerOffset>
 								</west>
 							</offsets>
-							<hiddenUnderApparelTag>
-								<li>Mousekin_HideEars</li>
-							</hiddenUnderApparelTag>
 						</li>
 						<li>
 							<path>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarRight</path>
-							<bodyPartLabel>right ear</bodyPartLabel>
+							<conditions>
+								<BodyPart>
+									<bodyPartLabel>right ear</bodyPartLabel>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Mousekin_HideEars</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<extendedGraphics>
+								<Hediff For="Mousekin_ProstheticClothEar">Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarClothRight</Hediff>
+							</extendedGraphics>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>false</drawnDesiccated>
 							<colorChannel>skin</colorChannel>
-							<hediffGraphics>
-								<Mousekin_ProstheticClothEar>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarClothRight</Mousekin_ProstheticClothEar>
-							</hediffGraphics>
 							<offsets>
-								<south>
-									<layerOffset>-0.266</layerOffset>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</portraitBodyTypes>
-								</south>
-								<north>
-									<layerOffset>-0.3</layerOffset>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</portraitBodyTypes>
-								</north>
 								<east>
-									<layerOffset>-0.266</layerOffset>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</portraitBodyTypes>
+									<layerOffset>0</layerOffset>
 								</east>
 								<west>
 									<layerOffset>-0.3</layerOffset>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-									<portraitBodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</portraitBodyTypes>
 								</west>
 							</offsets>
-							<hiddenUnderApparelTag>
-								<li>Mousekin_HideEars</li>
-							</hiddenUnderApparelTag>
 						</li>
 						<li>
 							<path>Things/Pawn/Humanlike/BodyAttachments/MousekinTail/MousekinTail</path>
-							<bodyPartLabel>tail</bodyPartLabel>
-							<inFrontOfBody>false</inFrontOfBody>
+							<conditions>
+								<BodyPart>
+									<bodyPartLabel>tail</bodyPartLabel>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Mousekin_HideTail</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+								<Posture>
+									<drawnInBed>false</drawnInBed>
+								</Posture>
+							</conditions>
+							<extendedGraphics>
+								<Hediff For="Mousekin_ProstheticClothTail">Things/Pawn/Humanlike/BodyAttachments/MousekinTail/MousekinTailCloth</Hediff>
+							</extendedGraphics>
+							<!-- Draws tail above naked body, then uses layerOffsets below to draw them above or below skin layer apparel depending on orientation -->
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>false</layerInvert>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>false</drawnDesiccated>
-							<drawnInBed>false</drawnInBed>
 							<colorChannel>skin</colorChannel>
-							<hediffGraphics>
-								<Mousekin_ProstheticClothTail>Things/Pawn/Humanlike/BodyAttachments/MousekinTail/MousekinTailCloth</Mousekin_ProstheticClothTail>
-							</hediffGraphics>
 							<offsets>
-								<south>
-									<bodyTypes>
-										<Mousekin>(0,0)</Mousekin>
-										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
-									</bodyTypes>
-								</south>
 								<north>
-									<layerOffset>-0.28</layerOffset>
+									<layerOffset>-0.29</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0,-0.343)</Mousekin>
 										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,-0.255)</Child>
@@ -338,7 +264,7 @@
 									</bodyTypes>
 								</north>
 								<east>
-									<layerOffset>-0.31</layerOffset>
+									<layerOffset>-0.3</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0.345,-0.330)</Mousekin>
 										<Child MayRequire="Ludeon.RimWorld.Biotech">(0.255,-0.255)</Child>
@@ -346,9 +272,6 @@
 									</bodyTypes>
 								</east>
 							</offsets>
-							<hiddenUnderApparelTag>
-								<li>Mousekin_HideTail</li>
-							</hiddenUnderApparelTag>
 						</li>
 					</bodyAddons>
 					<anchorReplacements>
