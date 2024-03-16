@@ -8,7 +8,6 @@ namespace MousekinRace
     {
         static RawMeatTradeTagPatch()
         {
-            // TODO - fetch list of allowed meats from a DefExtension
             List<ThingDef> tradeableMeats = new List<ThingDef>()
             {
                 MousekinDefOf.Meat_Chicken,
