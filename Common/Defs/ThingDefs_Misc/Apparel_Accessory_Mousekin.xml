@@ -48,6 +48,8 @@
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
 		</apparel>
 	</ThingDef>
 
@@ -97,6 +99,8 @@
 			<defaultOutfitTags>
 				<li>Worker</li>
 			</defaultOutfitTags>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
 		</apparel>
 	</ThingDef>
 
