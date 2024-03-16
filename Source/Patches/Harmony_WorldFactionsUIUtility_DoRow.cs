@@ -14,17 +14,14 @@ namespace MousekinRace
     [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
     public static class Harmony_WorldFactionsUIUtility_DoRow
     {
-        /* TODO - fix
-         * 
-         * 
-         * [HarmonyTranspiler]
+        [HarmonyTranspiler]
         private static IEnumerable<CodeInstruction> ScenarioRequiredFaction_HideRemoveButton_Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var codeMatcher = new CodeMatcher(instructions);        
 
             CodeMatch[] toMatch = new CodeMatch[]
             { 
-                new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Widgets), nameof(Widgets.ButtonImage), new Type[] { typeof(Rect), typeof(Texture2D), typeof(bool) }))
+                new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Widgets), nameof(Widgets.ButtonImage), new Type[] { typeof(Rect), typeof(Texture2D), typeof(bool), typeof(string) }))
             };
 
             CodeInstruction[] toInsert = new CodeInstruction[]
@@ -41,7 +38,7 @@ namespace MousekinRace
         }
 
         // Show either a clickable Remove button, or a non-clickable "(Required)" label
-        private static bool CondScenarioRequiredButtonImage(Rect butRect, Texture2D tex, bool doMouseoverSound, FactionDef factionDef)
+        private static bool CondScenarioRequiredButtonImage(Rect butRect, Texture2D tex, bool doMouseoverSound, string tooltip, FactionDef factionDef)
         {
             List<FactionDef> factionsRequiredByScenario = new();
 
@@ -65,11 +62,9 @@ namespace MousekinRace
             }
             else
             {
-                output = Widgets.ButtonImage(butRect, tex, doMouseoverSound);
+                output = Widgets.ButtonImage(butRect, tex, doMouseoverSound, tooltip);
             }
             return output;
         }
-
-        */
     }
 }
