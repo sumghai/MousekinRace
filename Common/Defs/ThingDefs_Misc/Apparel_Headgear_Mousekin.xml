@@ -39,6 +39,9 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>MousekinIndyTownFarmer</li>
 				<li>MousekinPeasant</li>
@@ -87,6 +90,9 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>MousekinIndyTownFarmer</li>
 				<li>MousekinPeasant</li>
@@ -144,6 +150,9 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>MousekinNun</li>
 			</tags>
@@ -209,6 +218,9 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>MousekinIndyTownSoldier</li>
 				<li>MousekinCrossbowman</li>
@@ -268,6 +280,9 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>MousekinIndyTownSoldier</li>
 				<li>MousekinMusketeer</li>
@@ -386,6 +401,9 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>MousekinIndyTownCouncilor</li>
 				<li>MousekinIndyTownSoldier</li>
