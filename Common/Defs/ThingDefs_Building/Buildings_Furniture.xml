@@ -5,7 +5,7 @@
 
 	<!-- Mousekin Candle Sconce -->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="TorchLamp">
 		<defName>Mousekin_FurnitureWallCandle</defName>
 		<label>Mousekin candle sconce</label>
 		<description>A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat.</description>
@@ -15,6 +15,9 @@
 			<texPath>Things/Building/Furniture/Mousekin_FurnitureWallCandle</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1,2)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Furniture/Mousekin_FurnitureWallCandle_MenuIcon</uiIconPath>
 		<costList>
@@ -32,14 +35,26 @@
 		<size>(1,1)</size>
 		<designationCategory>Furniture</designationCategory>
 		<passability>Standable</passability>
-		<pathCost>5</pathCost>
+		<pathCost>0</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
 		<repairEffect>ConstructMetal</repairEffect>
 		<clearBuildingArea>false</clearBuildingArea>
 		<building>
 			<isEdifice>false</isEdifice>
+			<isAttachment>true</isAttachment>
 		</building>
-		<comps>
+		<comps Inherit="False">
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_FireOverlay">
+				<fireSize>0.25</fireSize>
+				<offsetNorth>(0,0,0.894)</offsetNorth>
+				<offsetSouth>(0,0,-0.325)</offsetSouth>
+				<offsetWest>(-0.492,0,0.252)</offsetWest>
+				<offsetEast>(0.492,0,0.252)</offsetEast>
+			</li>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>0.33333333</fuelConsumptionRate>
 				<fuelCapacity>1.0</fuelCapacity>
@@ -51,22 +66,10 @@
 				<initialFuelPercent>1</initialFuelPercent>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 			</li>
-			<li Class="CompProperties_Glower">
-				<glowRadius>5</glowRadius>
-				<glowColor>(252,187,113,0)</glowColor>
-			</li>
-			<li Class="MousekinRace.CompProperties_FireOverlayDirectionalOffsets">
-				<fireSize>0.25</fireSize>
-				<directionalOffsets>
-					<north>(0,0,0.894)</north>
-					<south>(0,0,-0.325)</south>
-					<east>(0.492,0,0.252)</east>
-				</directionalOffsets>
-			</li>
 		</comps>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<placeWorkers>
-			<li>MousekinRace.PlaceWorker_WallMounted</li>
+			<li>Placeworker_AttachedToWall</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>

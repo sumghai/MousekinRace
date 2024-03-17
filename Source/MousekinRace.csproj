@@ -307,10 +307,8 @@
     <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
     <Compile Include="Comps\CompAutoCutWindmill.cs" />
-    <Compile Include="Comps\CompFireOverlayDirectionalOffsets.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs" />
-    <Compile Include="Comps\CompProperties_FireOverlayDirectionalOffsets.cs" />
     <Compile Include="Comps\CompProperties_FireplaceRenderer.cs" />
     <Compile Include="Comps\CompProperties_RemembersCheeseEaten.cs" />
     <Compile Include="Comps\CompProperties_StateDependentBuildingEmissive.cs" />
@@ -343,7 +341,6 @@
     <Compile Include="DefModExtensions\OtherRodentRacesExtension.cs" />
     <Compile Include="Patches\Harmony_AlienRace_BodyAddon.cs" />
     <Compile Include="Patches\Harmony_BackCompatibility.cs" />
-    <Compile Include="Patches\Harmony_Building.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
     <Compile Include="Patches\Harmony_GiveSoldThingToPlayer.cs" />
     <Compile Include="Patches\Harmony_IdeoFoundation_Deity.cs" />
@@ -365,7 +362,6 @@
     <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoRow.cs" />
     <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoWindowContents.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs" />
-    <Compile Include="PlaceWorkers\PlaceWorker_WallMounted.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_Windmill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Patches\RawMeatTradeTagPatch.cs" />

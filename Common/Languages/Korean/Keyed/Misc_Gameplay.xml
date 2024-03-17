@@ -58,17 +58,11 @@
 	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>그들은 {0}입니다</MousekinRace_MemeGoodwillImpact_Other>
 
-	<!-- EN: Cannot be placed in doorways. -->
-	<MousekinRace_PlaceWorker_CannotPlaceInDoorways>출입구에는 설치할 수 없습니다.</MousekinRace_PlaceWorker_CannotPlaceInDoorways>
-
 	<!-- EN: {0} must be placed at least {1} cells away from any impassable structures. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0}은 통과할 수 없는 구조에서 최소한 {1} 셀 떨어진 곳에 배치해야 합니다.</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
 
 	<!-- EN: {0} must be placed at least {1} cells away from any other {0}s. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0}는 다른 {0}에서 최소한 {1}셀 떨어져 있어야 합니다.</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
-
-	<!-- EN: Must be mounted on a wall. -->
-	<MousekinRace_PlaceWorker_MustBeWallMounted>벽에 장착해야 합니다.</MousekinRace_PlaceWorker_MustBeWallMounted>
 
 	<!-- EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>삽입할 곡물</MousekinRace_Windmill_InsertWheatDesc>

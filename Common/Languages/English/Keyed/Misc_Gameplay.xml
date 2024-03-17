@@ -39,13 +39,9 @@
 	
 	<MousekinRace_MemeGoodwillImpact_Other>They are {0}</MousekinRace_MemeGoodwillImpact_Other>
 	
-	<MousekinRace_PlaceWorker_CannotPlaceInDoorways>Cannot be placed in doorways.</MousekinRace_PlaceWorker_CannotPlaceInDoorways>
-	
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0} must be placed at least {1} cells away from any impassable structures.</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
 	
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0} must be placed at least {1} cells away from any other {0}s.</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
-	
-	<MousekinRace_PlaceWorker_MustBeWallMounted>Must be mounted on a wall.</MousekinRace_PlaceWorker_MustBeWallMounted>
 	
 	<MousekinRace_Windmill_InsertWheatDesc>Grain to Insert</MousekinRace_Windmill_InsertWheatDesc>
 	

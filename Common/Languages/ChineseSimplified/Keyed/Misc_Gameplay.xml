@@ -58,17 +58,11 @@
 	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>他们{0}</MousekinRace_MemeGoodwillImpact_Other>
 
-	<!-- EN: Cannot be placed in doorways. -->
-	<MousekinRace_PlaceWorker_CannotPlaceInDoorways>不能放在门口。</MousekinRace_PlaceWorker_CannotPlaceInDoorways>
-
 	<!-- EN: {0} must be placed at least {1} cells away from any impassable structures. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0}必须放置在距任何无法通行的结构至少{1}格的位置。</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
 
 	<!-- EN: {0} must be placed at least {1} cells away from any other {0}s. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0}必须放置在距其他{0}至少{1}格的位置。</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
-
-	<!-- EN: Must be mounted on a wall. -->
-	<MousekinRace_PlaceWorker_MustBeWallMounted>必须安装在墙上。</MousekinRace_PlaceWorker_MustBeWallMounted>
 
 	<!-- EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>选谷物</MousekinRace_Windmill_InsertWheatDesc>
