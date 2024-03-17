@@ -489,6 +489,7 @@
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
+			<!-- TODO - fix -->
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -518,6 +519,7 @@
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
+			<!-- TODO - fix -->
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -596,6 +598,7 @@
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
+			<!-- TODO - fix -->
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -623,6 +626,7 @@
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
+			<!-- TODO - fix -->
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>

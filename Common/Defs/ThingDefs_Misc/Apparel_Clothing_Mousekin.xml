@@ -453,6 +453,7 @@
 			</options>
 		</colorGenerator>
 		<comps>
+			<!-- TODO - fix -->
 			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
 				<attachedHeadgearDef>Mousekin_HatCloakHood</attachedHeadgearDef>
 				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</toggleUiIconPath>
@@ -581,6 +582,7 @@
 			<li>
 				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
 			</li>
+			<!-- TODO - fix -->
 			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
 				<attachedHeadgearDef>Mousekin_HatGuardenerRobeHood</attachedHeadgearDef>
 				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</toggleUiIconPath>
@@ -849,6 +851,7 @@
 			</li>
 		</comps>
 		<modExtensions>
+			<!-- TODO - fix -->
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<secondaryApparelGraphics>
 					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
@@ -893,6 +896,7 @@
 			</li>
 		</comps>
 		<modExtensions>
+			<!-- TODO - fix -->
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<shellPosDrawSettings>
 					<drawPosNorthOffset>(0, 0, 0)</drawPosNorthOffset>
