@@ -247,12 +247,49 @@ namespace MousekinRace
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("MousekinRace_Beehive_Instructions".Translate(MinIdealTemperature.ToStringTemperature(), MaxIdealTemperature.ToStringTemperature(), MinFlowerContainingCells));
 
-            foreach (ThingDef flowerDef in validFlowerDefs)
+            // Remove any duplicate label entries before displaying
+            // (Some modders make both ground-sowable and decorative variants of the same plant)
+            List<ThingDef> validFlowerDefsNoDuplicateLabels = validFlowerDefs.Distinct(new FlowerComparer()).ToList();
+
+            foreach (ThingDef flowerDef in validFlowerDefsNoDuplicateLabels)
             {
                 stringBuilder.AppendLine("- " + flowerDef.LabelCap);
             }
             Dialog_MessageBox window = new Dialog_MessageBox(stringBuilder.ToString(), null, null, null, null, null, false, null, null);
             Find.WindowStack.Add(window);
+        }
+
+        public class FlowerComparer : IEqualityComparer<ThingDef>
+        {
+            public bool Equals(ThingDef x, ThingDef y)
+            {
+                if (ReferenceEquals(x, y))
+                {
+                    return true;
+                }
+
+                if (ReferenceEquals(x, null) || ReferenceEquals(y, null)) 
+                {
+                    return false;
+                }
+
+                return x.LabelCap == y.LabelCap;
+            }
+
+            public int GetHashCode(ThingDef def) 
+            {
+                //Check whether the def is null
+                if (ReferenceEquals(def, null))
+                {
+                    return 0;
+                }
+
+                //Get hash code for the label
+                var hashLabel = def.LabelCap.GetHashCode();
+
+                //Calculate the hash code for the SomeClass.
+                return hashLabel;
+            }
         }
 
     }
