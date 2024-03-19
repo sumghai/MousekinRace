@@ -3,8 +3,8 @@
 namespace MousekinRace
 {
     public class CompProperties_ApparelWithAltStateGraphics : CompProperties
-    {
-        public ThingDef altStateDef;
+    {      
+        public string altStateWornGraphicPath;
 
         public string toggleLabel = "Toggle apparel"; // Placeholder defaults
 

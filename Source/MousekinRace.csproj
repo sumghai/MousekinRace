@@ -340,6 +340,7 @@
     <Compile Include="DefModExtensions\NameAnimalOnTameExtension.cs" />
     <Compile Include="DefModExtensions\OtherRodentRacesExtension.cs" />
     <Compile Include="Patches\Harmony_AlienRace_BodyAddon.cs" />
+    <Compile Include="Patches\Harmony_Apparel_WornGraphicPath.cs" />
     <Compile Include="Patches\Harmony_BackCompatibility.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
     <Compile Include="Patches\Harmony_GiveSoldThingToPlayer.cs" />
