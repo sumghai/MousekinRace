@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Xtra Trees and Flowers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Allow Mousekin beehive to recognize selected flowers for honey and beeswax production -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_Beehive"]/modExtensions/li[@Class="MousekinRace.BeehiveValidFlowersExtension"]/validFlowerPlantDefs</xpath>
+					<value>
+						<li>PlantAlliumGiganteum</li>
+						<li>PlantAlliumGiganteumDECO</li>
+						<li>PlantAnthurium</li>
+						<li>PlantAnthuriumDECO</li>
+						<li>PlantPinkRimstalk</li>
+						<li>PlantPinkRimstalkDECO</li>
+						<li>PlantPlumeria</li>
+						<li>PlantPlumeriaDECO</li>
+						<li>PlantSunflower</li>
+						<li>Plant_AssortedFlower</li>
+						<li>Plant_AssortedFlowerDECo</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
