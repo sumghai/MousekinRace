@@ -193,9 +193,15 @@
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<colorChannel>skin</colorChannel>
 							<offsets>
+								<north>
+									<layerOffset>-0.3</layerOffset> <!-- draw ears behind pike when drafted -->
+								</north>
 								<east>
 									<layerOffset>-0.3</layerOffset>
 								</east>
+								<south>
+									<layerOffset>-0.27</layerOffset> <!-- draw ears behind pike when drafted -->
+								</south>
 								<west>
 									<layerOffset>0</layerOffset>
 								</west>
@@ -222,9 +228,15 @@
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<colorChannel>skin</colorChannel>
 							<offsets>
+								<north>
+									<layerOffset>-0.3</layerOffset> <!-- draw ears behind pike when drafted -->
+								</north>
 								<east>
 									<layerOffset>0</layerOffset>
 								</east>
+								<south>
+									<layerOffset>-0.27</layerOffset> <!-- draw ears behind pike when drafted -->
+								</south>
 								<west>
 									<layerOffset>-0.3</layerOffset>
 								</west>
