@@ -453,7 +453,6 @@
 			</options>
 		</colorGenerator>
 		<comps>
-			<!-- TODO - fix -->
 			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
 				<attachedHeadgearDef>Mousekin_HatCloakHood</attachedHeadgearDef>
 				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</toggleUiIconPath>
@@ -582,7 +581,6 @@
 			<li>
 				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
 			</li>
-			<!-- TODO - fix -->
 			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
 				<attachedHeadgearDef>Mousekin_HatGuardenerRobeHood</attachedHeadgearDef>
 				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</toggleUiIconPath>

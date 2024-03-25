@@ -339,7 +339,6 @@
     <Compile Include="MousekinRaceMod.cs" />
     <Compile Include="DefModExtensions\NameAnimalOnTameExtension.cs" />
     <Compile Include="DefModExtensions\OtherRodentRacesExtension.cs" />
-    <Compile Include="Patches\Harmony_AlienRace_BodyAddon.cs" />
     <Compile Include="Patches\Harmony_Apparel_WornGraphicPath.cs" />
     <Compile Include="Patches\Harmony_BackCompatibility.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
@@ -347,11 +346,14 @@
     <Compile Include="Patches\Harmony_IdeoFoundation_Deity.cs" />
     <Compile Include="Patches\Harmony_IdeoFoundation.cs" />
     <Compile Include="Patches\Harmony_InteractionWorker_RecruitAttempt_DoRecruit.cs" />
+    <Compile Include="Patches\Harmony_ITab_Pawn_Gear_DrawThingRow.cs" />
     <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
-    <Compile Include="Patches\Harmony_PawnGraphicSet_ResolveApparelGraphics.cs" />
+    <Compile Include="Patches\Harmony_PawnRenderTree_SetupApparelNodes.cs" />
     <Compile Include="Patches\Harmony_PawnRelationWorker_Sibling.cs" />
+    <Compile Include="Patches\Harmony_PawnRenderTree_ProcessApparel.cs" />
     <Compile Include="Patches\Harmony_Pawn_HealthTracker.cs" />
     <Compile Include="Patches\Harmony_PawnGenerator.cs" />
+    <Compile Include="Patches\Harmony_Pawn_JobTracker_TryTakeOrderedJob.cs" />
     <Compile Include="Patches\Harmony_Pawn_MindState.cs" />
     <Compile Include="Patches\Harmony_Pawn_RelationsTracker_SecondaryRomanceChanceFactor.cs" />
     <Compile Include="Patches\Harmony_Scenario_GetFirstConfigPage.cs" />

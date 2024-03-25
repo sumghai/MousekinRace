@@ -102,6 +102,11 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 					</bodyTypes>
+					<headOffsetDirectional>
+						<north>
+							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+					</headOffsetDirectional>
 					<atlasScale>4</atlasScale>
 					<oldHairAgeRange>60~120</oldHairAgeRange> <!-- add a bit extra over 100 yr life expectancy, just in case -->
 					<customDrawSize>(0.9, 0.9)</customDrawSize>
@@ -1185,7 +1190,7 @@
 					<soundCall>Pawn_Mousekin_Call</soundCall>
 					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
 				</li>
-				<li>
+				<li Class="AlienRace.LifeStageAgeAlien">
 					<def>HumanlikeAdult</def>
 					<minAge>18</minAge>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
