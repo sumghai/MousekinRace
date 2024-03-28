@@ -849,7 +849,6 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<!-- TODO - fix -->
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<secondaryApparelGraphics>
 					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
@@ -884,6 +883,14 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
+			<drawData>
+				<dataSouth>
+					<offset>(0, -0.1, 0)</offset>
+				</dataSouth>
+			</drawData>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>Mousekin_NoSpawn</li>
 			</tags>
@@ -893,17 +900,6 @@
 				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
 			</li>
 		</comps>
-		<modExtensions>
-			<!-- TODO - fix -->
-			<li Class="VFECore.ApparelDrawPosExtension">
-				<shellPosDrawSettings>
-					<drawPosNorthOffset>(0, 0, 0)</drawPosNorthOffset>
-					<drawPosSouthOffset>(0, -1, 0)</drawPosSouthOffset>
-					<drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
-					<drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
-				</shellPosDrawSettings>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 </Defs>

@@ -580,11 +580,14 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<!-- TODO - replace with new drawData node
-			
-			<hatRenderedBehindHead>true</hatRenderedBehindHead> 
-			
-			-->
+			<drawData>
+				<dataSouth>
+					<offset>(0, -0.1, 0)</offset>
+				</dataSouth>
+			</drawData>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>Mousekin_NoSpawn</li>
 			</tags>
@@ -594,16 +597,6 @@
 				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="VFECore.ApparelDrawPosExtension">
-				<headgearDrawSettings>
-					<drawPosNorthOffset>(0, 0, 0)</drawPosNorthOffset>
-					<drawPosSouthOffset>(0, -1, 0)</drawPosSouthOffset>
-					<drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
-					<drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
-				</headgearDrawSettings>
-			</li>
-		</modExtensions>
 	</ThingDef>
 	
 </Defs>
