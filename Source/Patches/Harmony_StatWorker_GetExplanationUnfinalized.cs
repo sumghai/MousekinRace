@@ -7,7 +7,7 @@ namespace MousekinRace
     // Conditionally hide material/stuff stat multipliers for specially-tagged things
     // (e.g. apparel that is "gilded" rather than 100% made of material/stuff)
     [HarmonyPatch(typeof(StatWorker), nameof(StatWorker.GetExplanationUnfinalized))]
-    public class Harmony_StatWorker_GetExplanationUnfinalized
+    public class Harmony_StatWorker_GetExplanationUnfinalized_HideStuffStatMuliplierForGildedItems
     {
         public static void Postfix(StatWorker __instance, StatRequest req, ref string __result)
         {

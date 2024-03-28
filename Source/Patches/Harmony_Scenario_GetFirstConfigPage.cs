@@ -9,7 +9,7 @@ namespace MousekinRace
 {
     // Replace Ideology DLC Ideo configuration page with Fixed Ideo page if required by current scenario
     [HarmonyPatch(typeof(Scenario), nameof(Scenario.GetFirstConfigPage))]
-    public static class Harmony_Scenario_GetFirstConfigPage
+    public static class Harmony_Scenario_GetFirstConfigPage_PreselectIdeoForMousekinScenarios
     {
         [HarmonyTranspiler]
         public static IEnumerable<CodeInstruction> ScenarioPresetIdeo_Transpiler(IEnumerable<CodeInstruction> instructions)
@@ -25,7 +25,7 @@ namespace MousekinRace
             CodeInstruction[] toInsert = new CodeInstruction[]
             { 
                 new CodeInstruction(OpCodes.Ldloc_0),
-                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_Scenario_GetFirstConfigPage), nameof(Harmony_Scenario_GetFirstConfigPage.CondReplaceChooseIdeoPageWithIdeoPreselectedPage)))
+                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_Scenario_GetFirstConfigPage_PreselectIdeoForMousekinScenarios), nameof(Harmony_Scenario_GetFirstConfigPage_PreselectIdeoForMousekinScenarios.CondReplaceChooseIdeoPageWithIdeoPreselectedPage)))
             };
 
             codeMatcher.MatchStartForward(toMatch);

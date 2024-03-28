@@ -12,7 +12,7 @@ namespace MousekinRace
 {
     // At world gen faction setup, replace the Remove button with a "(Required)" label if the faction in the current row is required by the scenario
     [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
-    public static class Harmony_WorldFactionsUIUtility_DoRow
+    public static class Harmony_WorldFactionsUIUtility_DoRow_CondRequireFactionsForScenarios
     {
         [HarmonyTranspiler]
         private static IEnumerable<CodeInstruction> ScenarioRequiredFaction_HideRemoveButton_Transpiler(IEnumerable<CodeInstruction> instructions)
@@ -27,7 +27,7 @@ namespace MousekinRace
             CodeInstruction[] toInsert = new CodeInstruction[]
             {
                 new CodeInstruction(OpCodes.Ldarg_1),  // factionDef
-                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoRow), nameof(Harmony_WorldFactionsUIUtility_DoRow.CondScenarioRequiredButtonImage)))
+                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoRow_CondRequireFactionsForScenarios), nameof(Harmony_WorldFactionsUIUtility_DoRow_CondRequireFactionsForScenarios.CondScenarioRequiredButtonImage)))
             };
 
             codeMatcher.MatchStartForward(toMatch);

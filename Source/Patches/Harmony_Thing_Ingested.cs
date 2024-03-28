@@ -4,8 +4,9 @@ using Verse;
 
 namespace MousekinRace
 {
+    // Add custom throught bubbles when Mousekins eat cheese
     [HarmonyPatch(typeof(Thing), nameof(Thing.Ingested))]
-    public static class Harmony_Toils_Ingest
+    public static class Harmony_Toils_Ingest_AddThoughtBubblesWhenMousekinEatsCheese
     {
         public static void Postfix(Pawn ingester, Thing __instance)
         {

@@ -11,7 +11,7 @@ namespace MousekinRace
 {
     // At world gen faction setup, add warning message under faction list that some factions are required by the current scenario
     [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoWindowContents))]
-    public static class Harmony_WorldFactionsUIUtility_DoWindowContents
+    public static class Harmony_WorldFactionsUIUtility_DoWindowContents_AddWarningRegardingScenarioRequiredFactions
     {
         [HarmonyTranspiler]
         private static IEnumerable<CodeInstruction> CondAppendScenarioRequiredFaction_Explanation_Transpiler(IEnumerable<CodeInstruction> instructions)
@@ -28,7 +28,7 @@ namespace MousekinRace
             CodeInstruction[] toInsert = new CodeInstruction[]
             {            
                 new CodeInstruction(OpCodes.Ldloc_S, 21),
-                new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoWindowContents), nameof(Harmony_WorldFactionsUIUtility_DoWindowContents.ShowScenarioRequiredFactionExplanation))),
+                new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoWindowContents_AddWarningRegardingScenarioRequiredFactions), nameof(Harmony_WorldFactionsUIUtility_DoWindowContents_AddWarningRegardingScenarioRequiredFactions.ShowScenarioRequiredFactionExplanation))),
             };
 
             codeMatcher.MatchEndForward(toMatch).Advance(1);
