@@ -50,6 +50,7 @@ namespace MousekinRace
         public static JobDef Mousekin_Job_HarvestFromBeehive;
 
         public static FactionDef Mousekin_FactionKingdom;
+        public static FactionDef Mousekin_FactionIndyTown;
 
         [MayRequireIdeology]
         public static MemeDef AnimalPersonhood;

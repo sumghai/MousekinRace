@@ -364,6 +364,7 @@
     <Compile Include="DefModExtensions\IdeoSymbolIgnoreRandomExtension.cs" />
     <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoRow.cs" />
     <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoWindowContents.cs" />
+    <Compile Include="Patches\Harmony_Pawn_IdeoTracker_ExposeData.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_Windmill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

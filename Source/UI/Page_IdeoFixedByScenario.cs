@@ -67,7 +67,7 @@ namespace MousekinRace
         }
 
         // Get the fixed ideo for the scenario
-        public Ideo GetFixedIdeo()
+        public static Ideo GetFixedIdeo()
         {
             // Find the (first) faction required by the scenario with the ideo to be used by the player
             IEnumerable<ScenPart_RequiredFaction> scenParts = Current.Game.Scenario.AllParts.OfType<ScenPart_RequiredFaction>();
