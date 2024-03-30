@@ -23,10 +23,7 @@
 	<NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>r_name->[Settlement_Name]</NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>
 	
 	<!-- EN: r_name(p=10)->[Settlement_Name] -->
-	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>r_name(p=10)->[Settlement_Name]</NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>
-	
-	<!-- EN: r_name->Whitefur's Keep -->
-	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings.1>r_name->白毛の要塞</NamerSettlement_MousekinKingdom.rulePack.rulesStrings.1>
+	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>r_name->[Settlement_Name]</NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>
 	
 	<!-- EN: r_name->New [Settlement_Name] -->
 	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>r_name->ニュー[Settlement_Name]</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>

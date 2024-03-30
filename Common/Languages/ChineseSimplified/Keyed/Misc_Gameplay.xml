@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+	
+	<!-- EN: Arcadia -->
+	<MousekinRace_Settlement_CapitalCity>阿卡迪亚</MousekinRace_Settlement_CapitalCity>
+	
+	<!-- EN: Whitefur's Keep -->
+	<MousekinRace_Settlement_Fort>白毛城堡</MousekinRace_Settlement_Fort>
 
 	<!-- EN: Paused: Non-ideal temperature. -->
 	<MousekinRace_Beehive_HoneyPausedBadTemp>暂停︰温度不佳</MousekinRace_Beehive_HoneyPausedBadTemp>

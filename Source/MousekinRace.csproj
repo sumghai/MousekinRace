@@ -357,6 +357,7 @@
     <Compile Include="Patches\Harmony_Pawn_MindState.cs" />
     <Compile Include="Patches\Harmony_Pawn_RelationsTracker_SecondaryRomanceChanceFactor.cs" />
     <Compile Include="Patches\Harmony_Scenario_GetFirstConfigPage.cs" />
+    <Compile Include="Patches\Harmony_SettlementNameGenerator_GenerateSettlementName.cs" />
     <Compile Include="Patches\Harmony_StatPart_WorkTableOutdoors.cs" />
     <Compile Include="Patches\Harmony_StatPart_WorkTableTemperature.cs" />
     <Compile Include="Patches\Harmony_StatWorker_GetExplanationUnfinalized.cs" />

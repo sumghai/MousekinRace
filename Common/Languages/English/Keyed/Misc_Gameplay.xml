@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
+	<MousekinRace_Settlement_CapitalCity>Arcadia</MousekinRace_Settlement_CapitalCity>
+	
+	<MousekinRace_Settlement_Fort>Whitefur's Keep</MousekinRace_Settlement_Fort>
+	
 	<MousekinRace_Beehive_HoneyPausedBadTemp>Paused: Non-ideal temperature.</MousekinRace_Beehive_HoneyPausedBadTemp>
 
 	<MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>Paused: Not enough flowers in range ({0} of {1} required).</MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>
