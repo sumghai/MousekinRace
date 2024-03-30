@@ -20,13 +20,13 @@
 	<MousekinSettlementNameUtility.rulePack.rulesStrings.5>Settlement_Name->[Metal]炉堡</MousekinSettlementNameUtility.rulePack.rulesStrings.5>
 	
 	<!-- EN: r_name->[Settlement_Name] -->
-	<NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>r_name->[Settlement_Name]</NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>
+	<NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>r_name->[Settlement_Name][Settlement_Type]</NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>
 	
-	<!-- EN: r_name(p=10)->[Settlement_Name] -->
-	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>r_name->[Settlement_Name]</NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>
+	<!-- EN: r_name->[Settlement_Name] -->
+	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>r_name->[Settlement_Name][Settlement_Type]</NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>
 	
 	<!-- EN: r_name->New [Settlement_Name] -->
-	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>r_name->新[Settlement_Name]</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>
+	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>r_name->新[Settlement_Name][Settlement_Type]</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>
 	
 	<!-- EN: r_name->[Mousekin_LastName_Commoner]'s Rest -->
 	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.1>r_name->[Mousekin_LastName_Commoner]之寝</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.1>
