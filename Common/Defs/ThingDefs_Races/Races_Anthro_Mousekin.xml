@@ -33,13 +33,11 @@
 						<defName>Ascetic</defName>
 					</li>
 					<li>
-						<defName>Beauty</defName>
-						<degree>-1</degree>
+						<defName Degree="-1">Beauty</defName>
 						<chance>100</chance>
 					</li>
 					<li>
-						<defName>Beauty</defName>
-						<degree>-2</degree>
+						<defName Degree="-2">Beauty</defName>
 						<chance>100</chance>
 					</li>
 					<li>
@@ -58,18 +56,15 @@
 						<defName>DislikesWomen</defName>
 					</li>
 					<li>
-						<defName>DrugDesire</defName>
-						<degree>2</degree>
+						<defName Degree="2">DrugDesire</defName>
 						<chance>100</chance>
 					</li>
 					<li>
-						<defName>DrugDesire</defName>
-						<degree>1</degree>
+						<defName Degree="1">DrugDesire</defName>
 						<chance>100</chance>
 					</li>
 					<li>
-						<defName>DrugDesire</defName>
-						<degree>-1</degree>
+						<defName Degree="-1">DrugDesire</defName>
 						<chance>100</chance>
 					</li>
 					<li>
