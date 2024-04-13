@@ -1105,6 +1105,8 @@
 			<lifeExpectancy>100</lifeExpectancy>
 			<renderTree>Humanlike</renderTree>
 			<leatherDef>Mousekin_Leather_Mousekin</leatherDef>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>true</hasGenders>
 			<body>Mousekin</body>
