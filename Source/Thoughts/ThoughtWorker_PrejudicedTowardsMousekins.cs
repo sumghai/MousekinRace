@@ -13,8 +13,8 @@ namespace MousekinRace
                 return false;
             }
 
-            // Skip if pawn has kind trait
-            if (pawn.story.traits.HasTrait(TraitDefOf.Kind))
+            // Skip if pawn has kind or HAR's xenophile (degree -1) trait
+            if (pawn.story.traits.HasTrait(TraitDefOf.Kind) || pawn.story.traits.HasTrait(AlienRace.AlienDefOf.HAR_Xenophobia, -1))
             {
                 return false;
             }
