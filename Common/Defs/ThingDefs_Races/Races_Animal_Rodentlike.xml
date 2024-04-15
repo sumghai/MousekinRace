@@ -138,7 +138,7 @@
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>Mousekin_PoopGiantCavy</thingToSpawn>
 				<spawnCount>1</spawnCount>
-				<spawnIntervalRange>20000~30000</spawnIntervalRange>
+				<spawnIntervalRange>50000~60000</spawnIntervalRange>
 			</li>
 		</comps>
 	</ThingDef>
