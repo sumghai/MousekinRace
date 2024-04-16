@@ -5,7 +5,7 @@
 
 	<!-- Mousekin Candle Sconce -->
 
-	<ThingDef ParentName="TorchLamp">
+	<ThingDef ParentName="TorchBase">
 		<defName>Mousekin_FurnitureWallCandle</defName>
 		<label>Mousekin candle sconce</label>
 		<description>A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat.</description>
@@ -34,6 +34,7 @@
 		</statBases>
 		<size>(1,1)</size>
 		<designationCategory>Furniture</designationCategory>
+		<uiOrder>2815</uiOrder>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
