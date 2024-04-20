@@ -1151,6 +1151,20 @@
 							<offset>(0.025, -0.075)</offset>
 						</west>
 					</headOffsetDirectional>
+					<headFemaleOffsetDirectional>
+						<north>
+							<offset>(0, -0.075)</offset>
+						</north>
+						<east>
+							<offset>(-0.025, -0.075)</offset>
+						</east>
+						<south>
+							<offset>(0, -0.075)</offset>
+						</south>
+						<west>
+							<offset>(0.025, -0.075)</offset>
+						</west>
+					</headFemaleOffsetDirectional>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
 					<soundDeath>Pawn_Mousekin_Death</soundDeath>
 					<soundCall>Pawn_Mousekin_Call</soundCall>
@@ -1173,6 +1187,20 @@
 							<offset>(0.02875, -0.1375)</offset>
 						</west>
 					</headOffsetDirectional>
+					<headFemaleOffsetDirectional>
+						<north>
+							<offset>(0, -0.1375)</offset>
+						</north>
+						<east>
+							<offset>(-0.02875, -0.1375)</offset>
+						</east>
+						<south>
+							<offset>(0, -0.1375)</offset>
+						</south>
+						<west>
+							<offset>(0.02875, -0.1375)</offset>
+						</west>
+					</headFemaleOffsetDirectional>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
 					<soundDeath>Pawn_Mousekin_Death</soundDeath>
 					<soundCall>Pawn_Mousekin_Call</soundCall>
