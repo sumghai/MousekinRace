@@ -103,7 +103,7 @@
 						</north>
 					</headOffsetDirectional>
 					<atlasScale>4</atlasScale>
-					<oldHairAgeRange>60~120</oldHairAgeRange> <!-- add a bit extra over 100 yr life expectancy, just in case -->
+					<oldHairAgeRange>60~65</oldHairAgeRange>
 					<customDrawSize>(0.9, 0.9)</customDrawSize>
 					<customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
 					<customPortraitDrawSize>(0.9, 0.9)</customPortraitDrawSize>
