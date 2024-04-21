@@ -16,4 +16,48 @@
 	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
 	<AlertEarlessMousekinDescEnding>用布料制作一些假耳，或从其他白鼠族身上取得天生的耳朵。</AlertEarlessMousekinDescEnding>
 	
+	<!-- EN: Need Town Square -->
+	<AlertNeedTownSquareSingularLabel>缺少广场</AlertNeedTownSquareSingularLabel>
+	
+	<!-- EN: Need Town Squares -->
+	<AlertNeedTownSquarePluralLabel>缺少广场</AlertNeedTownSquarePluralLabel>
+	
+	<!-- EN: Mousekins in your settlement are demanding a place to gather.\n\n -->
+	<AlertNeedTownSquareSingularDesc>你的殖民地的白鼠族们要求有一个聚会场所。\n\n</AlertNeedTownSquareSingularDesc>
+	
+	<!-- EN: Mousekins in {0} of your settlements are demanding a place to gather:{1}\n\n -->
+	<AlertNeedTownSquarePluralDesc>你{0}殖民地的白鼠族们要求有一个聚会场所:{1}\n\n</AlertNeedTownSquarePluralDesc>
+	
+	<!-- EN: Build a {0} in an open space with no structures. -->
+	<AlertNeedTownSquareDescEnding>在一个没有障碍物的空地建造一个{0}。</AlertNeedTownSquareDescEnding>
+	
+	<!-- EN: Unpaved Town Square -->
+	<AlertUnpavedTownSquareSingularLabel>广场未铺路面</AlertUnpavedTownSquareSingularLabel>
+	
+	<!-- EN: Unpaved Town Squares -->
+	<AlertUnpavedTownSquarePluralLabel>广场未铺路面</AlertUnpavedTownSquarePluralLabel>
+	
+	<!-- EN: Your {0} needs to be fully paved with one of the following tiles or flooring:\n\n{1} -->
+	<AlertUnpavedTownSquareSingularDesc>你的{0}需要用以下的石板或地砖完全覆盖:\n\n{1}</AlertUnpavedTownSquareSingularDesc>
+	
+	<!-- EN: {0} of your {1}s needs to be fully paved with one of the following tiles or flooring:\n\n{2} -->
+	<AlertUnpavedTownSquarePluralDesc>你{0}{1}需要用以下的石板或地砖完全覆盖:\n\n{2}</AlertUnpavedTownSquarePluralDesc>
+	
+	<!-- EN: Obstructed Town Square -->
+	<AlertObstructedTownSquareSingularLabel>广场有障碍物</AlertObstructedTownSquareSingularLabel>
+	
+	<!-- EN: Obstructed Town Squares -->
+	<AlertObstructedTownSquarePluralLabel>广场有障碍物</AlertObstructedTownSquarePluralLabel>
+	
+	<!-- EN: Your {0} {1} obstruction(s) within the bounded area.\n\n -->
+	<!-- Note: {1} is not used in Mandarin grammar -->
+	<AlertObstructedTownSquareSingularDesc>你的{0}在范围内有障碍物。\n\n</AlertObstructedTownSquareSingularDesc>
+	
+	<!-- EN: {0} of your {1}s {2} obstruction(s) within the bounded area.\n\n -->
+	<!-- Note: {2} is not used in Mandarin grammar -->
+	<AlertObstructedTownSquarePluralDesc>你{0}{1}在范围内有障碍物。\n\n</AlertObstructedTownSquarePluralDesc>
+	
+	<!-- EN: Remove all obstructing buildings and furniture. -->
+	<AlertObstructedTownSquareDescEnding>移除所有阻碍的建筑物和家具。</AlertObstructedTownSquareDescEnding>
+	
 </LanguageData>

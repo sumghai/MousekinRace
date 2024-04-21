@@ -23,6 +23,8 @@ namespace MousekinRace
 
         public static ThingDef Mousekin_Beehive;
         public static ThingDef Mousekin_Windmill;
+        public static ThingDef Mousekin_TownSquare;
+
         public static ThingDef Blueprint_Mousekin_Windmill;
 
         public static ThingDef Mousekin_Beeswax;

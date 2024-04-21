@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- EN: one -->
+	<Quantifier_One>한</Quantifier_One>
+	
+	<!-- EN: some -->
+	<Quantifier_Some>일부</Quantifier_Some>
+	
+	<!-- EN: all -->
+	<Quantifier_All>모든</Quantifier_All>
+	
+	<!-- EN: has -->
+	<Possess_Singular>가지고</Possess_Singular>
+	
+	<!-- EN: have -->
+	<Possess_Plural>가지고</Possess_Plural>
+
+</LanguageData>

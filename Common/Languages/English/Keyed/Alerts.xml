@@ -10,5 +10,33 @@
 	<AlertEarlessMousekinFeelingSuicidalDesc>These Mousekins are humiliated by their prolonged loss of of their ears to disease or injury, and have a very high risk of committing suicide from despair over the next few days:\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
 	
 	<AlertEarlessMousekinDescEnding>Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins.</AlertEarlessMousekinDescEnding>
+	
+	<AlertNeedTownSquareSingularLabel>Need Town Square</AlertNeedTownSquareSingularLabel>
+	
+	<AlertNeedTownSquarePluralLabel>Need Town Squares</AlertNeedTownSquarePluralLabel>
+	
+	<AlertNeedTownSquareSingularDesc>Mousekins in your settlement are demanding a place to gather.\n\n</AlertNeedTownSquareSingularDesc>
+	
+	<AlertNeedTownSquarePluralDesc>Mousekins in {0} of your settlements are demanding a place to gather:{1}\n\n</AlertNeedTownSquarePluralDesc>
+	
+	<AlertNeedTownSquareDescEnding>Build a {0} in an open space with no structures.</AlertNeedTownSquareDescEnding>
+	
+	<AlertUnpavedTownSquareSingularLabel>Unpaved Town Square</AlertUnpavedTownSquareSingularLabel>
+	
+	<AlertUnpavedTownSquarePluralLabel>Unpaved Town Squares</AlertUnpavedTownSquarePluralLabel>
+	
+	<AlertUnpavedTownSquareSingularDesc>Your {0} needs to be fully paved with one of the following tiles or flooring:\n\n{1}</AlertUnpavedTownSquareSingularDesc>
+	
+	<AlertUnpavedTownSquarePluralDesc>{0} of your {1}s needs to be fully paved with one of the following tiles or flooring:\n\n{2}</AlertUnpavedTownSquarePluralDesc>
+	
+	<AlertObstructedTownSquareSingularLabel>Obstructed Town Square</AlertObstructedTownSquareSingularLabel>
+	
+	<AlertObstructedTownSquarePluralLabel>Obstructed Town Squares</AlertObstructedTownSquarePluralLabel>
+	
+	<AlertObstructedTownSquareSingularDesc>Your {0} {1} obstruction(s) within the bounded area.\n\n</AlertObstructedTownSquareSingularDesc>
+	
+	<AlertObstructedTownSquarePluralDesc>{0} of your {1}s {2} obstruction(s) within the bounded area.\n\n</AlertObstructedTownSquarePluralDesc>
+	
+	<AlertObstructedTownSquareDescEnding>Remove all obstructing buildings and furniture.</AlertObstructedTownSquareDescEnding>
 
 </LanguageData>

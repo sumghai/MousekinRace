@@ -16,4 +16,48 @@
 	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
 	<AlertEarlessMousekinDescEnding>천으로 의수를 만들거나 다른 마우스킨을 위해 자연스러운 귀를 만드십시오.</AlertEarlessMousekinDescEnding>
 	
+	<!-- EN: Need Town Square -->
+	<AlertNeedTownSquareSingularLabel>마을 광장 필요</AlertNeedTownSquareSingularLabel>
+	
+	<!-- EN: Need Town Squares -->
+	<AlertNeedTownSquarePluralLabel>마을 광장 필요</AlertNeedTownSquarePluralLabel>
+	
+	<!-- EN: Mousekins in your settlement are demanding a place to gather.\n\n -->
+	<AlertNeedTownSquareSingularDesc>정착지의 마우스킨 모일 장소를 원합니다.\n\n</AlertNeedTownSquareSingularDesc>
+	
+	<!-- EN: Mousekins in {0} of your settlements are demanding a place to gather:{1}\n\n -->
+	<AlertNeedTownSquarePluralDesc>{0} 정착지의 마우스킨이 모일 장소를 원합니다:{1}\n\n</AlertNeedTownSquarePluralDesc>
+	
+	<!-- EN: Build a {0} in an open space with no structures. -->
+	<AlertNeedTownSquareDescEnding>장애물이 없는 열린 공간에 {0}을 건설하세요.</AlertNeedTownSquareDescEnding>
+	
+	<!-- EN: Unpaved Town Square -->
+	<AlertUnpavedTownSquareSingularLabel>포장되지 않은 마을 광장</AlertUnpavedTownSquareSingularLabel>
+	
+	<!-- EN: Unpaved Town Squares -->
+	<AlertUnpavedTownSquarePluralLabel>포장되지 않은 마을 광장</AlertUnpavedTownSquarePluralLabel>
+	
+	<!-- EN: Your {0} needs to be fully paved with one of the following tiles or flooring:\n\n{1} -->
+	<AlertUnpavedTownSquareSingularDesc>다음 타일 또는 바닥재 중 하나로 {0}을 완전히 포장해야 합니다:\n\n{1}</AlertUnpavedTownSquareSingularDesc>
+	
+	<!-- EN: {0} of your {1}s needs to be fully paved with one of the following tiles or flooring:\n\n{2} -->
+	<AlertUnpavedTownSquarePluralDesc>{0} {1}은 다음 타일 또는 바닥재로 완전히 포장해야 합니다:\n\n{2}</AlertUnpavedTownSquarePluralDesc>
+	
+	<!-- EN: Obstructed Town Square -->
+	<AlertObstructedTownSquareSingularLabel>막힌 마을 광장</AlertObstructedTownSquareSingularLabel>
+	
+	<!-- EN: Obstructed Town Squares -->
+	<AlertObstructedTownSquarePluralLabel>막힌 마을 광장</AlertObstructedTownSquarePluralLabel>
+	
+	<!-- EN: Your {0} {1} obstruction(s) within the bounded area.\n\n -->
+	<!-- Note: {1} is not used in Korean grammar -->
+	<AlertObstructedTownSquareSingularDesc>경계 구역 내에 {0}에 장애물이 있습니다.\n\n</AlertObstructedTownSquareSingularDesc>
+	
+	<!-- EN: {0} of your {1}s {2} obstruction(s) within the bounded area.\n\n -->
+	<!-- Note: {2} is not used in Mandarin grammar -->
+	<AlertObstructedTownSquarePluralDesc>{0} {1}에 경계 영역 내에 장애물이 있습니다.\n\n</AlertObstructedTownSquarePluralDesc>
+	
+	<!-- EN: Remove all obstructing buildings and furniture. -->
+	<AlertObstructedTownSquareDescEnding>방해가 되는 건물과 가구를 모두 제거합니다.</AlertObstructedTownSquareDescEnding>
+	
 </LanguageData>

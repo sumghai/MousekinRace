@@ -63,6 +63,9 @@
 
 	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>他们{0}</MousekinRace_MemeGoodwillImpact_Other>
+	
+	<!-- EN: Cannot build more than one {0} on the map. -->
+	<MousekinRace_PlaceWorker_OnlyOnePerMap>不能在地图上建造一个以上的{0}。</MousekinRace_PlaceWorker_OnlyOnePerMap>
 
 	<!-- EN: {0} must be placed at least {1} cells away from any impassable structures. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0}必须放置在距任何无法通行的结构至少{1}格的位置。</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
@@ -70,6 +73,9 @@
 	<!-- EN: {0} must be placed at least {1} cells away from any other {0}s. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0}必须放置在距其他{0}至少{1}格的位置。</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
 
+	<!-- EN: {0} must be placed clear of any obstructions. -->
+	<MousekinRace_PlaceWorker_MustBeClearOfObstructions>{0}必须放置在没有任何障碍物的位置。</MousekinRace_PlaceWorker_MustBeClearOfObstructions>
+	
 	<!-- EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>选谷物</MousekinRace_Windmill_InsertWheatDesc>
 

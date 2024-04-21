@@ -63,12 +63,18 @@
 
 	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>彼らは{0}だ</MousekinRace_MemeGoodwillImpact_Other>
+	
+	<!-- EN: Cannot build more than one {0} on the map. -->
+	<MousekinRace_PlaceWorker_OnlyOnePerMap>マップ上に複数の{0}を構築することはできません.</MousekinRace_PlaceWorker_OnlyOnePerMap>
 
 	<!-- EN: {0} must be placed at least {1} cells away from any impassable structures. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0}は通行不可能な構造物から少なくとも{1}セル離れて配置する必要があります.</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
 
 	<!-- EN: {0} must be placed at least {1} cells away from any other {0}s. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0}は他の{0}から少なくとも{1}セル離れて配置する必要があります.</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
+
+	<!-- EN: {0} must be placed clear of any obstructions. -->
+	<MousekinRace_PlaceWorker_MustBeClearOfObstructions>{0}は障害物から離して置かなければなりません.</MousekinRace_PlaceWorker_MustBeClearOfObstructions>
 
 	<!-- EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>風車で粉砕する穀物を選択します.</MousekinRace_Windmill_InsertWheatDesc>

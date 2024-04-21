@@ -16,4 +16,48 @@
 	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
 	<AlertEarlessMousekinDescEnding>布製の義耳を作るか、他のマウスキンから天然の耳を入手します.</AlertEarlessMousekinDescEnding>
 	
+	<!-- EN: Need Town Square -->
+	<AlertNeedTownSquareSingularLabel>広場が必要</AlertNeedTownSquareSingularLabel>
+	
+	<!-- EN: Need Town Squares -->
+	<AlertNeedTownSquarePluralLabel>広場が必要</AlertNeedTownSquarePluralLabel>
+	
+	<!-- EN: Mousekins in your settlement are demanding a place to gather.\n\n -->
+	<AlertNeedTownSquareSingularDesc>集落のマウスキンたちが集まる場所を求めています.\n\n</AlertNeedTownSquareSingularDesc>
+	
+	<!-- EN: Mousekins in {0} of your settlements are demanding a place to gather:{1}\n\n -->
+	<AlertNeedTownSquarePluralDesc>{0}の集落のマウスキンたちが集まる場所を求めています:{1}\n\n</AlertNeedTownSquarePluralDesc>
+	
+	<!-- EN: Build a {0} in an open space with no structures. -->
+	<AlertNeedTownSquareDescEnding>建造物のない空き地に{0}を建設しましょう.</AlertNeedTownSquareDescEnding>
+	
+	<!-- EN: Unpaved Town Square -->
+	<AlertUnpavedTownSquareSingularLabel>広場が未舗装</AlertUnpavedTownSquareSingularLabel>
+	
+	<!-- EN: Unpaved Town Squares -->
+	<AlertUnpavedTownSquarePluralLabel>広場が未舗装</AlertUnpavedTownSquarePluralLabel>
+	
+	<!-- EN: Your {0} needs to be fully paved with one of the following tiles or flooring:\n\n{1} -->
+	<AlertUnpavedTownSquareSingularDesc>{0}を以下のタイルか床材のいずれかで全面舗装してください:\n\n{1}</AlertUnpavedTownSquareSingularDesc>
+	
+	<!-- EN: {0} of your {1}s needs to be fully paved with one of the following tiles or flooring:\n\n{2} -->
+	<AlertUnpavedTownSquarePluralDesc>{0}の{1}を以下のタイルか床材のいずれかで全面舗装してください:\n\n{2}</AlertUnpavedTownSquarePluralDesc>
+	
+	<!-- EN: Obstructed Town Square -->
+	<AlertObstructedTownSquareSingularLabel>広場には障害物がある</AlertObstructedTownSquareSingularLabel>
+	
+	<!-- EN: Obstructed Town Squares -->
+	<AlertObstructedTownSquarePluralLabel>広場には障害物がある</AlertObstructedTownSquarePluralLabel>
+	
+	<!-- EN: Your {0} {1} obstruction(s) within the bounded area.\n\n -->
+	<!-- Note: {1} is not used in Japanese grammar -->
+	<AlertObstructedTownSquareSingularDesc>{0}には、境界線内に障害物があります.\n\n</AlertObstructedTownSquareSingularDesc>
+	
+	<!-- EN: {0} of your {1}s {2} obstruction(s) within the bounded area.\n\n -->
+	<!-- Note: {2} is not used in Japanese grammar -->
+	<AlertObstructedTownSquarePluralDesc>{0}の{1}には、境界線内に障害物があります.\n\n</AlertObstructedTownSquarePluralDesc>
+	
+	<!-- EN: Remove all obstructing buildings and furniture. -->
+	<AlertObstructedTownSquareDescEnding>障害となる建物や家具はすべて撤去してください.</AlertObstructedTownSquareDescEnding>
+	
 </LanguageData>

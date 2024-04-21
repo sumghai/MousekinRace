@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- EN: one -->
+	<Quantifier_One>有一個</Quantifier_One>
+	
+	<!-- EN: some -->
+	<Quantifier_Some>有些的</Quantifier_Some>
+	
+	<!-- EN: all -->
+	<Quantifier_All>所有的</Quantifier_All>
+	
+	<!-- EN: has -->
+	<Possess_Singular>有</Possess_Singular>
+	
+	<!-- EN: have -->
+	<Possess_Plural>有</Possess_Plural>
+
+</LanguageData>

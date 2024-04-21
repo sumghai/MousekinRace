@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Mousekin Town Square -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_TownSquare</defName>
+		<label>Mousekin Town Square</label>
+		<description>A town square with a community notice board and flagpole, where Mousekin colonists gather for special events. You can manage your faction's allegiance here.(WIP)</description>
+		<thingClass>MousekinRace.Building_TownSquare</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mousekin_TownSquare</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,1)</drawSize>
+			<damageData>
+				<rect>(0.55,0.0,1.9,0.9)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>1.25</uiIconScale>
+		<costList>
+			<WoodLog>70</WoodLog>
+		</costList>
+		<altitudeLayer>ItemImportant</altitudeLayer>
+		<rotatable>false</rotatable>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<designationCategory>Misc</designationCategory>
+		<passability>Impassable</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+		</building>
+		<comps>
+			<li Class="MousekinRace.CompProperties_TownSquare">
+				<squareSize>(13,13)</squareSize>
+				<squareCenterOffset>(0,-5)</squareCenterOffset>
+				<flagPoleGraphicData>
+					<texPath>Things/Building/Misc/Mousekin_TownSquare_FlagPole</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2,4)</drawSize>
+					<drawOffset>(0,2,2.5)</drawOffset>
+				</flagPoleGraphicData>
+				<acceptablePavedTerrainDefs>
+					<li>FlagstoneGranite</li>
+					<li>FlagstoneLimestone</li>
+					<li>FlagstoneMarble</li>
+					<li>FlagstoneSandstone</li>
+					<li>FlagstoneSlate</li>
+					<li>TileGranite</li>
+					<li>TileLimestone</li>
+					<li>TileMarble</li>
+					<li>TileSandstone</li>
+					<li>TileSlate</li>
+					<li>PavedTile</li>
+				</acceptablePavedTerrainDefs>
+			</li>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_OnlyOnePerMap</li>
+			<li>MousekinRace.PlaceWorker_TownSquare</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+	</ThingDef>
+
+</Defs>

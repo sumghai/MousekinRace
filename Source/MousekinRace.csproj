@@ -302,7 +302,11 @@
   <ItemGroup>
     <Compile Include="Alerts\Alert_MissingEarsSuicidal.cs" />
     <Compile Include="Alerts\Alert_MissingEarsMiserable.cs" />
+    <Compile Include="Alerts\Alert_TownSquareNeeded.cs" />
+    <Compile Include="Alerts\Alert_TownSquareObstructed.cs" />
+    <Compile Include="Alerts\Alert_TownSquareUnpaved.cs" />
     <Compile Include="Buildings\Building_Beehive.cs" />
+    <Compile Include="Buildings\Building_TownSquare.cs" />
     <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
     <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
@@ -312,10 +316,12 @@
     <Compile Include="Comps\CompProperties_FireplaceRenderer.cs" />
     <Compile Include="Comps\CompProperties_RemembersCheeseEaten.cs" />
     <Compile Include="Comps\CompProperties_StateDependentBuildingEmissive.cs" />
+    <Compile Include="Comps\CompProperties_TownSquare.cs" />
     <Compile Include="Comps\CompProperties_Windmill.cs" />
     <Compile Include="Comps\CompRemembersCheeseEaten.cs" />
     <Compile Include="Comps\CompStateDependentBuildingEmissive.cs" />
     <Compile Include="Comps\CompFireplaceRenderer.cs" />
+    <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
@@ -341,6 +347,7 @@
     <Compile Include="DefModExtensions\OtherRodentRacesExtension.cs" />
     <Compile Include="Patches\Harmony_Apparel_WornGraphicPath.cs" />
     <Compile Include="Patches\Harmony_BackCompatibility.cs" />
+    <Compile Include="Patches\Harmony_BuildCopyCommandUtility_BuildCopyCommand.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
     <Compile Include="Patches\Harmony_GiveSoldThingToPlayer.cs" />
     <Compile Include="Patches\Harmony_IdeoFoundation_Deity.cs" />
@@ -366,7 +373,9 @@
     <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoRow.cs" />
     <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoWindowContents.cs" />
     <Compile Include="Patches\Harmony_Pawn_IdeoTracker_ExposeData.cs" />
+    <Compile Include="PlaceWorkers\PlaceWorker_OnlyOnePerMap.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs" />
+    <Compile Include="PlaceWorkers\PlaceWorker_TownSquare.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_Windmill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Patches\RawMeatTradeTagPatch.cs" />

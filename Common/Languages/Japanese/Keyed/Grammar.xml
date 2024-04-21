@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- EN: one -->
+	<Quantifier_One>一つ</Quantifier_One>
+	
+	<!-- EN: some -->
+	<Quantifier_Some>いくつか</Quantifier_Some>
+	
+	<!-- EN: all -->
+	<Quantifier_All>すべて</Quantifier_All>
+	
+	<!-- EN: has -->
+	<Possess_Singular>が</Possess_Singular>
+	
+	<!-- EN: have -->
+	<Possess_Plural>が</Possess_Plural>
+
+</LanguageData>
