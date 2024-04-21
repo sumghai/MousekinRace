@@ -37,6 +37,16 @@
 						<li>DankPyon_AteGrilledCheese</li>
 					</value>
 				</li>
+				
+				<!-- Exclude Mousekin candle sconce from MO's forced stuffcategories patch for all torches -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_FurnitureWallCandle"]</xpath>
+					<value>
+						<stuffCategories Inherit="false" />
+						<costStuffCount>0</costStuffCount>
+					</value>
+				</li>
 
 			</operations>
 		</match>
