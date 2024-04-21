@@ -92,6 +92,22 @@
 					</value>
 				</li>
 				
+				<!-- Allow Country bread to be stored in MO's bread cupboards -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_RusticCupboardBread"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+					<value>
+						<li>Mousekin_FoodCountryBread</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_RusticCupboardBread"]/building/defaultStorageSettings/filter/thingDefs</xpath>
+					<value>
+						<li>Mousekin_FoodCountryBread</li>
+					</value>
+				</li>
+				
 				<!-- Exclude Mousekin candle sconce from MO's forced stuffcategories patch for all torches -->
 				
 				<li Class="PatchOperationAdd">
