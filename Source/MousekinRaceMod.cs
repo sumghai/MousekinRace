@@ -22,6 +22,11 @@ namespace MousekinRace
             {
                 Log.Message("MousekinRace :: Vanilla Cooking Expanded detected!");
             }
+
+            if (ModCompatibility.MedievalOverhaulIsActive)
+            {
+                Log.Message("MousekinRace :: Medieval Overhaul detected!");
+            }
         }
         public override void DoSettingsWindowContents(Rect canvas)
         {

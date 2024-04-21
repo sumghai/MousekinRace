@@ -16,8 +16,26 @@ namespace MousekinRace
         {
             if (defType == typeof(ThingDef))
             {
-                // IF VCE is active, replace selected Mousekin thingDefs with their VCE counterparts
-                if (ModCompatibility.VanillaCookingExpandedIsActive)
+                // If Medieval Overhaul is active, replace selected Mousekin thingDefs with their VCE counterparts
+                if (ModCompatibility.MedievalOverhaulIsActive) 
+                {
+                    switch (defName)
+                    {
+                        case "Mousekin_Plant_Wheat":
+                            __result = "DankPyon_Plant_Wheat";
+                            break;
+                        case "Mousekin_RawWheat":
+                            __result = "DankPyon_RawWheat";
+                            break;
+                        case "Mousekin_Flour":
+                            __result = "DankPyon_Flour";
+                            break;
+                    }
+                }
+                // If VCE is active, replace selected Mousekin thingDefs with their VCE counterparts
+                // (VCE is lower in precedence, as Medieval Overhaul renames VCE Wheat into Spelt, while still using
+                //  MO's own wheat and flour defs for the majority of its recipes)
+                else if (ModCompatibility.VanillaCookingExpandedIsActive)
                 {
                     switch (defName)
                     {
@@ -30,14 +48,16 @@ namespace MousekinRace
                             break;
                     }
                 }
-                // Otherwise, revert to Mousekin thingDefs if VCE is disabled/uninstalled
+                // Otherwise, revert to Mousekin thingDefs if both Medieval Overhaul and VCE are disabled
                 else
                 {
                     switch (defName)
                     {
+                        case "DankPyon_Plant_Wheat":
                         case "VCE_Wheat":
                             __result = "Mousekin_Plant_Wheat";
                             break;
+                        case "DankPyon_Flour":
                         case "VCE_Flour":
                             __result = "Mousekin_Flour";
                             break;
@@ -54,8 +74,8 @@ namespace MousekinRace
         {
             if (baseType == typeof(Thing) && node["def"] != null && node["def"].InnerText == "Mousekin_Windmill")
             {
-                // If VCE is active, disable ItemProcessor of oldWindmill
-                if (ModCompatibility.VanillaCookingExpandedIsActive)
+                // If VCE is active (and Medieval Overhaul is NOT also active), disable ItemProcessor of oldWindmill
+                if (ModCompatibility.VanillaCookingExpandedIsActive && !ModCompatibility.MedievalOverhaulIsActive)
                 {
                     __result = typeof(Building);
                 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Patches applicable to both Medieval Overhaul and VCE -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- Remove Mousekin wheat plant, wheat grain and flour -->
+				
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[
+						defName="Mousekin_Plant_Wheat" or
+						defName="Mousekin_RawWheat" or
+						defName="Mousekin_Flour"
+					]</xpath>
+				</li>
+				
+				<!-- Remove manual flour grinding recipe -->
+				
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="Mousekin_Make_FlourFromWheat"]</xpath>
+				</li>
+			
+			</operations>
+		</match>
+	</Operation>
+</Patch>

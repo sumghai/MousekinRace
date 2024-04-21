@@ -91,53 +91,50 @@
 						<li>VCE_AteCheese</li>
 					</value>
 				</li>
-
-				<!-- Remove wheat plant, wheat grain and flour -->
 				
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[
-						defName="Mousekin_Plant_Wheat" or
-						defName="Mousekin_RawWheat" or
-						defName="Mousekin_Flour"
-					]</xpath>
-				</li>
+				<!-- Cross-compat check, only executed if Medieval Overhaul is not also active -->
 				
-				<!-- Remove manual flour grinding recipe -->
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Medieval Overhaul</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+						
+							<!-- Disable Item Processor and associated recipes in Mousekin Windmill -->
 				
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/RecipeDef[defName="Mousekin_Make_FlourFromWheat"]</xpath>
-				</li>
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/thingClass</xpath>
+								<value>
+									<thingClass>Building</thingClass>
+								</value>
+							</li>
+							
+							<li Class="PatchOperationRemove">
+								<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/comps/li[@Class="ItemProcessor.CompProperties_ItemProcessor"]</xpath>
+							</li>
+							
+							<li Class="PatchOperationRemove">
+								<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName="Mousekin_IP_WindmillFirstItem"]</xpath>
+							</li>
+							
+							<li Class="PatchOperationRemove">
+								<xpath>Defs/ItemProcessor.CombinationDef[defName="Mousekin_RawWheatToFlour"]</xpath>
+							</li>
+							
+							<!-- Replace flour from Country bread recipes with VCE Flour -->
 				
-				<!-- Disable Item Processor and associated recipes in Mousekin Windmill -->
-				
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/thingClass</xpath>
-					<value>
-						<thingClass>Building</thingClass>
-					</value>
-				</li>
-				
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/comps/li[@Class="ItemProcessor.CompProperties_ItemProcessor"]</xpath>
-				</li>
-				
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName="Mousekin_IP_WindmillFirstItem"]</xpath>
-				</li>
-				
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/ItemProcessor.CombinationDef[defName="Mousekin_RawWheatToFlour"]</xpath>
-				</li>
-
-				<!-- Replace flour from Country bread recipes with VCE Flour -->
-				
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/RecipeDef[
-						contains(defName, "Mousekin_Make_CountryBread")
-					]/ingredients/li/filter/thingDefs/li</xpath>
-					<value>
-						<li>VCE_Flour</li>
-					</value>
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/RecipeDef[
+									contains(defName, "Mousekin_Make_CountryBread")
+								]/ingredients/li/filter/thingDefs/li</xpath>
+								<value>
+									<li>VCE_Flour</li>
+								</value>
+							</li>
+						
+						</operations>
+					</nomatch>
 				</li>
 				
 				<!-- Replace Cloverbury cheese from various recipes with VCE Cheese category, and add category to recipe ingredient filters -->
