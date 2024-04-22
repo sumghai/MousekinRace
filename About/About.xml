@@ -5,6 +5,7 @@
 	<packageId>sumghai.MousekinRace</packageId>
 	<description>Adds a race of hobbit-sized anthropomorphic white mice with a late-medieval to pre-industrial theme, inspired by &lt;i&gt;Redwall&lt;/i&gt;, &lt;i&gt;Mouse Guard&lt;/i&gt;, &lt;i&gt;Brambly Hedge&lt;/i&gt; and Sylvanian Families.\n\nv1.0.3\n\n&lt;b&gt;Features&lt;/b&gt;\n\n- Fisherian (1:1) sex ratio\n- Race-specific apparel, weapons and crafting benches\n- Race-specific gameplay mechanics\n- Race-unique backstories and thoughts\n- Race-unique livestock and pet animals\n- Four NPC factions (with unique Ideologies): Kingdom, Independent Towns, Nomads and Brigands\n- Vanilla-compatible art aesthetic\n- Rich, carefully curated lore</description>
 	<url/>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/MousekinRaceModIcon</modIconPath>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
