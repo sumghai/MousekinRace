@@ -30,6 +30,15 @@
 					<count>2000</count>
 				</li>
 				
+				<!-- Bedrolls to sleep in while building the first shelters -->
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Bedroll</thingDef>
+					<stuff>Cloth</stuff>
+					<count>8</count>
+				</li>
+				
 				<!-- Spare settler outfits, dresses and cloaks for winter -->
 				
 				<li Class="ScenPart_StartingThing_Defined">
