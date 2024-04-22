@@ -81,8 +81,8 @@
 	<!-- EN: Apprentice cobbler -->
 	<Mousekin_Childhood_CobblerApprentice.titleShort>수습 구두 수선공</Mousekin_Childhood_CobblerApprentice.titleShort>
 	
-	<!-- EN: [PAWN_nameDef] was taken in as an apprentice by the cobbler of their Mousekin village, and spent [PAWN_possessive] days fetching water, tending the fireplace and tidying the workshop, while [PAWN_possessive] master repaired shoes.\n\nOcassionally, [PAWN_possessive] would be allowed to shine a customer's boots, and get tipped in silver coins. -->
-	<Mousekin_Childhood_CobblerApprentice.description>[PAWN_nameDef]는 마우스킨 마을의 구두 수선공에게 견습생으로 받아들여졌고 [PAWN_possessive]는 물을 긷고, 벽난로를 돌보고, 작업장을 정리하는 데 보냈고, [PAWN_possessive]는 신발을 수선했습니다.\n\n때때로 [PAWN_possessive]는 고객의 구두를 닦고 은화로 팁을 받을 수 있습니다.</Mousekin_Childhood_CobblerApprentice.description>
+	<!-- EN: [PAWN_nameDef] was taken in as an apprentice by the cobbler of their Mousekin village, and spent [PAWN_possessive] days fetching water, tending the fireplace and tidying the workshop, while [PAWN_possessive] master repaired shoes.\n\nOcassionally, [PAWN_pronoun] would be allowed to shine a customer's boots, and get tipped in silver coins. -->
+	<Mousekin_Childhood_CobblerApprentice.description>[PAWN_nameDef]는 마우스킨 마을의 구두 수선공에게 견습생으로 받아들여졌고 [PAWN_possessive]는 물을 긷고, 벽난로를 돌보고, 작업장을 정리하는 데 보냈고, [PAWN_possessive]는 신발을 수선했습니다.\n\n때때로 [PAWN_pronoun]는 고객의 구두를 닦고 은화로 팁을 받을 수 있습니다.</Mousekin_Childhood_CobblerApprentice.description>
 	
 	<!-- EN: Apprentice cook -->
 	<Mousekin_ChildHood_CookApprentice.title>견습 요리사</Mousekin_ChildHood_CookApprentice.title>

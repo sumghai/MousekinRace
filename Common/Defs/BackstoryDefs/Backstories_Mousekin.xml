@@ -231,7 +231,7 @@
 		<defName>Mousekin_Childhood_CobblerApprentice</defName>
 		<title>Apprentice cobbler</title>
 		<titleShort>Apprentice cobbler</titleShort>
-		<description>[PAWN_nameDef] was taken in as an apprentice by the cobbler of their Mousekin village, and spent [PAWN_possessive] days fetching water, tending the fireplace and tidying the workshop, while [PAWN_possessive] master repaired shoes.\n\nOcassionally, [PAWN_possessive] would be allowed to shine a customer's boots, and get tipped in silver coins.</description>
+		<description>[PAWN_nameDef] was taken in as an apprentice by the cobbler of their Mousekin village, and spent [PAWN_possessive] days fetching water, tending the fireplace and tidying the workshop, while [PAWN_possessive] master repaired shoes.\n\nOcassionally, [PAWN_pronoun] would be allowed to shine a customer's boots, and get tipped in silver coins.</description>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Childhood</slot>
