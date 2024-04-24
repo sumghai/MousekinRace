@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_TownSquare</defName>
 		<label>Mousekin Town Square</label>
-		<description>A town square with a community notice board and flagpole, where Mousekin colonists gather for special events. You can manage your faction's allegiance here.(WIP)</description>
+		<description>A town square with a community notice board and flagpole, where Mousekin colonists gather for special events.</description>
 		<thingClass>MousekinRace.Building_TownSquare</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
