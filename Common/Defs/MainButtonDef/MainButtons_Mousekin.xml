@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MainButtonDef>
+		<defName>Mousekin_MainButton_Allegiance</defName>
+		<label>allegiance</label>
+		<description>Manage your faction's allegiance.</description>
+		<workerClass>MousekinRace.MainButtonWorker_Allegiance</workerClass>
+		<tabWindowClass>MousekinRace.MainTabWindow_Allegiance</tabWindowClass>
+		<order>85</order>
+		<validWithoutMap>true</validWithoutMap>
+		<minimized>True</minimized>
+		<iconPath>UI/Buttons/MainButtons/Allegiance</iconPath>
+	</MainButtonDef>
+
+</Defs>

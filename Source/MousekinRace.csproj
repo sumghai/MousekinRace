@@ -327,6 +327,7 @@
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
     <Compile Include="DefModExtensions\ApparelIgnoreStuffStatFactorsExtension.cs" />
     <Compile Include="DefModExtensions\BeehiveValidFlowersExtension.cs" />
+    <Compile Include="GameComponent\GameComponent_Allegiance.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_BothMousekin.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_PrejudicedAgainstMousekin.cs" />
@@ -393,6 +394,8 @@
     <Compile Include="Thoughts\ThoughtWorker_WearingMousekinFurApparel.cs" />
     <Compile Include="Thoughts\Thought_OtherMousekinHasProstheticOpinions.cs" />
     <Compile Include="DefModExtensions\TraitConflictResolverExtension.cs" />
+    <Compile Include="UI\MainButtonWorker_Allegiance.cs" />
+    <Compile Include="UI\MainTabWindow_Allegiance.cs" />
     <Compile Include="UI\Page_IdeoFixedByScenario.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
