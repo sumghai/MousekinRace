@@ -350,6 +350,7 @@
     <Compile Include="Patches\Harmony_Apparel_WornGraphicPath.cs" />
     <Compile Include="Patches\Harmony_BackCompatibility.cs" />
     <Compile Include="Patches\Harmony_BuildCopyCommandUtility_BuildCopyCommand.cs" />
+    <Compile Include="Patches\Harmony_CompSpawner_CheckShouldSpawn.cs" />
     <Compile Include="Patches\Harmony_GenRecipe.cs" />
     <Compile Include="Patches\Harmony_GiveSoldThingToPlayer.cs" />
     <Compile Include="Patches\Harmony_IdeoFoundation_Deity.cs" />

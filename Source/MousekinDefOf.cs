@@ -11,6 +11,7 @@ namespace MousekinRace
     {
         public static ThingDef Mousekin;
 
+        public static ThingDef Mousekin_AnimalGiantCavy;
         public static ThingDef Mousekin_AnimalPudgemouse;
 
         public static ThingDef Meat_Chicken;
