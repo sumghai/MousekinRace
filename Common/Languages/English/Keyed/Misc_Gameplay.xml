@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
+	<MousekinRace_AllegianceSys_ReqMinColonyAge>Colony at least {0} years old</MousekinRace_AllegianceSys_ReqMinColonyAge>
+	
+	<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>At least {0} of population are Mousekin</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
+	
+	<MousekinRace_AllegianceSys_ReqMinGoodwill>At least {0} goodwill with faction</MousekinRace_AllegianceSys_ReqMinGoodwill>
+	
 	<MousekinRace_Settlement_CapitalCity>Arcadia</MousekinRace_Settlement_CapitalCity>
 	
 	<MousekinRace_Settlement_Fort>Whitefur's Keep</MousekinRace_Settlement_Fort>

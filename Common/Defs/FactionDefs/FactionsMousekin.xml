@@ -543,6 +543,9 @@
 				</allowedBiomes>
 				<excludeFromQuests>true</excludeFromQuests>
 			</li>
+			<li Class="MousekinRace.AlliableFactionExtension">
+				<joinButtonLabel>Pledge fealty to The Mousekin King</joinButtonLabel>
+			</li>
 		</modExtensions>
 	</FactionDef>
 
@@ -712,6 +715,9 @@
 					<li>TemperateForest</li>
 				</allowedBiomes>
 				<excludeFromQuests>true</excludeFromQuests>
+			</li>
+			<li Class="MousekinRace.AlliableFactionExtension">
+				<joinButtonLabel>Long Live the Revolution!</joinButtonLabel>
 			</li>
 		</modExtensions>
 	</FactionDef>

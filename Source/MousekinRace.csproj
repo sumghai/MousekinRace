@@ -325,6 +325,7 @@
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
+    <Compile Include="DefModExtensions\AlliableFactionExtension.cs" />
     <Compile Include="DefModExtensions\ApparelIgnoreStuffStatFactorsExtension.cs" />
     <Compile Include="DefModExtensions\BeehiveValidFlowersExtension.cs" />
     <Compile Include="GameComponent\GameComponent_Allegiance.cs" />

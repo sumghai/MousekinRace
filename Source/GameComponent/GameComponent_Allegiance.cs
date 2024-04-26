@@ -11,6 +11,10 @@ namespace MousekinRace
         
         public List<Building_TownSquare> townSquares = new();
 
+        public List<Faction> alliableFactions = new();
+
+        public Faction alignedFaction = null;
+
         public bool HasAnyTownSquares => townSquares.Count > 0;
 
         public static GameComponent_Allegiance Instance;
@@ -28,6 +32,7 @@ namespace MousekinRace
         public void PreInit()
         {
             Instance = this;
+            alliableFactions = Find.FactionManager.AllFactionsVisible.Where(f => f.def.GetModExtension<AlliableFactionExtension>() != null).ToList();
         }
 
         public override void StartedNewGame()
@@ -65,6 +70,7 @@ namespace MousekinRace
         {
             base.ExposeData();
             Scribe_Values.Look(ref seenAllegianceSysIntroLetter, "seenAllegianceSysIntroLetter", false, true);
+            Scribe_References.Look(ref alignedFaction, "alignedFaction");
             Instance = this;
         }
     }
