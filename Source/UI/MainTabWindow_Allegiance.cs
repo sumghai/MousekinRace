@@ -130,13 +130,14 @@ namespace MousekinRace
 
                 Widgets.DrawLineHorizontal(innerRect.xMin, innerY, innerRect.width);
 
-                innerY += 2f;
+                innerY += 5f;
 
-                //DrawJoiningRequirementRow(innerRect, ref innerY, currentFactionExtension.joinRequirements.minDaysPassedSinceSettle, "MousekinRace_AllegianceSys_ReqMinColonyAge".Translate((float)(currentFactionExtension.joinRequirements.minDaysPassedSinceSettle/GenDate.DaysPerYear)), GenDate.DaysPassedSinceSettle);
+                // todo - use real boolean data for whether or not requirements are met
+                DrawJoiningRequirementRow(innerRect, ref innerY, "MousekinRace_AllegianceSys_ReqMinColonyAge".Translate((float)(currentFactionExtension.joinRequirements.minDaysPassedSinceSettle/GenDate.DaysPerYear)), ((float)(GenDate.DaysPassedSinceSettle/ GenDate.DaysPerYear)).ToString(), false);
 
-                /*DrawJoiningRequirementRow(innerRect, ref innerY, currentFactionExtension.joinRequirements.minMousekinPopulationPercentage, "MousekinRace_AllegianceSys_ReqMinMousekinPopPct".Translate(currentFactionExtension.joinRequirements.minMousekinPopulationPercentage.ToStringPercent()), );
+                DrawJoiningRequirementRow(innerRect, ref innerY, "MousekinRace_AllegianceSys_ReqMinMousekinPopPct".Translate(currentFactionExtension.joinRequirements.minMousekinPopulationPercentage.ToStringPercent()), 1.0f.ToStringPercent(), false);
 
-                DrawJoiningRequirementRow(innerRect, ref innerY, currentFactionExtension.joinRequirements.minGoodwill, );*/
+                DrawJoiningRequirementRow(innerRect, ref innerY, "MousekinRace_AllegianceSys_ReqMinGoodwill".Translate(currentFactionExtension.joinRequirements.minGoodwill), factionOptions[i].PlayerGoodwill.ToString(), true);
 
                 // Benefits & Costs buttons
 
@@ -149,9 +150,17 @@ namespace MousekinRace
 
         }
 
-        public void DrawJoiningRequirementRow(Rect rect, ref float y, object requirement, string requirementFormatted, object gameVarToCompare)
-        { 
-            // todo
+        public void DrawJoiningRequirementRow(Rect rect, ref float y, string requirementFormatted, string gameVarFormatted, bool requirementMet)
+        {
+            Text.Font = GameFont.Small;
+            Text.Anchor = TextAnchor.UpperLeft;
+            Widgets.Label(new Rect(rect.xMin, y, rect.width, Text.CalcHeight(requirementFormatted, rect.width)), requirementFormatted);
+            Text.Anchor = TextAnchor.UpperRight;
+            GUI.color = requirementMet ? Color.green : Color.red;
+            Widgets.Label(new Rect(rect.xMin, y, rect.width, Text.CalcHeight(gameVarFormatted, rect.width)), gameVarFormatted);
+            GUI.color = Color.white;
+            Text.Anchor = TextAnchor.UpperLeft;
+            y += Text.CalcHeight(requirementFormatted, rect.width);
         }
     }
 }
