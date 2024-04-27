@@ -717,6 +717,9 @@
 				<excludeFromQuests>true</excludeFromQuests>
 			</li>
 			<li Class="MousekinRace.AlliableFactionExtension">
+				<joinRequirements>
+					<minGoodwill>80</minGoodwill>
+				</joinRequirements>
 				<joinButtonLabel>Long Live the Revolution!</joinButtonLabel>
 			</li>
 		</modExtensions>
