@@ -305,6 +305,7 @@
     <Compile Include="Alerts\Alert_TownSquareNeeded.cs" />
     <Compile Include="Alerts\Alert_TownSquareObstructed.cs" />
     <Compile Include="Alerts\Alert_TownSquareUnpaved.cs" />
+    <Compile Include="AllegianceSystem\AllegianceSys_Utils.cs" />
     <Compile Include="Buildings\Building_Beehive.cs" />
     <Compile Include="Buildings\Building_TownSquare.cs" />
     <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
