@@ -46,7 +46,7 @@ namespace MousekinRace
             {
                 AlliableFactionExtension alignedFactionExtension = alignedFaction.def.GetModExtension<AlliableFactionExtension>();
 
-                playerFactionSubtitle = "MousekinRace_AllegianceSys_SubtitleFactionRelationship".Translate(alignedFactionExtension.relationshipTypeLabel.CapitalizeFirst(), alignedFaction.Name);
+                playerFactionSubtitle = RelationshipToJoinedFaction(alignedFaction.Name, alignedFactionExtension.relationshipTypeLabel).CapitalizeFirst();
                 factionIcon = alignedFaction.def.FactionIcon;
                 factionIconColor = alignedFaction.Color;
             }
@@ -213,6 +213,11 @@ namespace MousekinRace
             GUI.color = Color.white;
             Text.Anchor = TextAnchor.UpperLeft;
             y += Text.CalcHeight(requirementFormatted, rect.width);
+        }
+
+        public string RelationshipToJoinedFaction(string factionName, string relationshipType)
+        {
+            return "MousekinRace_AllegianceSys_SubtitleFactionRelationship".Translate(relationshipType, factionName.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? factionName : "DefiniteArticle".Translate() + " " + factionName);
         }
 
         public void JoinFaction(Faction allegianceFaction)
