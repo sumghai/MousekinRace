@@ -3,6 +3,6 @@
 
 	<MousekinRace_MessagePurchasedAnimalNamed>A purchased {0} is now named {1}.</MousekinRace_MessagePurchasedAnimalNamed>
 	
-	<MousekinRace_MessageCannotJoinFaction>Cannot join {0} {1}</MousekinRace_MessageCannotJoinFaction>
+	<MousekinRace_MessageCannotJoinFaction>Cannot pledge allegiance to {0}: requirements not met.</MousekinRace_MessageCannotJoinFaction>
 	
 </LanguageData>

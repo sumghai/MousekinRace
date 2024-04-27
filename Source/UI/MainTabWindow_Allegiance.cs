@@ -1,7 +1,6 @@
 ﻿using RimWorld;
 using System;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using Verse;
 
@@ -9,6 +8,16 @@ namespace MousekinRace
 {
     public class MainTabWindow_Allegiance : MainTabWindow
     {
+        public override Vector2 RequestedTabSize
+        {
+            get
+            { 
+                Vector2 originalTabSize = base.RequestedTabSize;
+                originalTabSize.y = 800f;
+                return originalTabSize;
+            }
+        }
+
         public override void DoWindowContents(Rect inRect)
         {
             float y = 0;
@@ -155,17 +164,29 @@ namespace MousekinRace
                 Widgets.ButtonText(new Rect(innerRect.xMin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewBenefitsButtonLabel".Translate());
                 Widgets.ButtonText(new Rect(innerRect.xMin + infoButtonsWidth + StandardMargin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewCostsButtonLabel".Translate());
 
-                // Join button
+                innerY += buttonHeight;
+                innerY += StandardMargin;
+
+                // Conditional info box if join requirements are not met
                 bool joinRequirementsMet = GenDate.DaysPassedSinceSettle >= currentFactionExtension.joinRequirements.minDaysPassedSinceSettle
                     && Utils.PercentColonistsAreMousekins() >= currentFactionExtension.joinRequirements.minMousekinPopulationPercentage
                     && factionOptions[i].PlayerGoodwill >= currentFactionExtension.joinRequirements.minGoodwill;
 
+                if (!joinRequirementsMet)
+                {
+                    innerY += 12f;
+                    MainTabWindow_Quests mainTabWindow_Quests = new MainTabWindow_Quests();
+
+                    mainTabWindow_Quests.DrawInfoBox(innerRect, false, ref innerY, "MousekinRace_AllegianceSys_ReqDesc".Translate(), MainTabWindow_Quests.acceptanceRequirementsBoxBgColor, MainTabWindow_Quests.AcceptanceRequirementsBoxColor, MainTabWindow_Quests.AcceptanceRequirementsColor);
+                }
+
+                // Join button
                 Color orgColor = GUI.color;
                 if (!joinRequirementsMet)
                 {
                     GUI.color = Color.gray;
                 }
-                if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight, innerRect.width, buttonHeight), currentFactionExtension.joinButtonLabel + (!joinRequirementsMet ? " " + "MousekinRace_AllegianceSys_ReqNotMet".Translate() : null)))
+                if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight, innerRect.width, buttonHeight), currentFactionExtension.joinButtonLabel))
                 {
                     if (joinRequirementsMet)
                     {
@@ -173,7 +194,7 @@ namespace MousekinRace
                     }
                     else
                     {
-                        Messages.Message("MousekinRace_MessageCannotJoinFaction".Translate(factionOptions[i].Name, "MousekinRace_AllegianceSys_ReqNotMet".Translate()), MessageTypeDefOf.RejectInput, false);
+                        Messages.Message("MousekinRace_MessageCannotJoinFaction".Translate(factionOptions[i].Name), MessageTypeDefOf.RejectInput, false);
                     }
                 }
                 GUI.color = orgColor;
