@@ -8,6 +8,9 @@ namespace MousekinRace
         
         [MustTranslate]
         public string joinButtonLabel;
+
+        [MustTranslate]
+        public string relationshipTypeLabel;
     }
 
     public class AlliableFactionJoinRequirements 

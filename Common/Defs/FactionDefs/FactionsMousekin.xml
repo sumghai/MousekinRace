@@ -545,6 +545,7 @@
 			</li>
 			<li Class="MousekinRace.AlliableFactionExtension">
 				<joinButtonLabel>Pledge fealty to The Mousekin King</joinButtonLabel>
+				<relationshipTypeLabel>vassal</relationshipTypeLabel>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -721,6 +722,7 @@
 					<minGoodwill>80</minGoodwill>
 				</joinRequirements>
 				<joinButtonLabel>Long Live the Revolution!</joinButtonLabel>
+				<relationshipTypeLabel>member</relationshipTypeLabel>
 			</li>
 		</modExtensions>
 	</FactionDef>

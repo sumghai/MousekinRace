@@ -32,7 +32,15 @@ namespace MousekinRace
             Texture2D factionIcon = playerFaction.def.FactionIcon;
             Color factionIconColor = playerFaction.Color;
 
-            // todo - modify above if player has picked allegiance
+            // Change title block contents if player has aligned with a faction
+            if (GameComponent_Allegiance.Instance.alignedFaction is Faction alignedFaction)
+            {
+                AlliableFactionExtension alignedFactionExtension = alignedFaction.def.GetModExtension<AlliableFactionExtension>();
+
+                playerFactionSubtitle = "MousekinRace_AllegianceSys_SubtitleFactionRelationship".Translate(alignedFactionExtension.relationshipTypeLabel.CapitalizeFirst(), alignedFaction.Name);
+                factionIcon = alignedFaction.def.FactionIcon;
+                factionIconColor = alignedFaction.Color;
+            }
 
             TextAnchor anchor = Text.Anchor;
             Text.Anchor = TextAnchor.MiddleCenter;
@@ -188,7 +196,7 @@ namespace MousekinRace
 
         public void JoinFaction(Faction allegianceFaction)
         {
-            Log.Error("Wheeee! Time to join the " + allegianceFaction.Name);
+            GameComponent_Allegiance.Instance.alignedFaction = allegianceFaction;
         }
     }
 }
