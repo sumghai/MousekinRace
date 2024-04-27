@@ -4,5 +4,9 @@
 	<MousekinRace_Letter_AllegianceSysIntro>Allegiance system unlocked</MousekinRace_Letter_AllegianceSysIntro>
 	
 	<MousekinRace_Letter_AllegianceSysIntroDesc>By building a town square, you have now unlocked the Faction Allegiance system.\n\nOnce you have built up enough goodwill with certain factions, you can choose which faction to declare allegiance to and access various perks.\n\nFor more information, click on the Allegiance button in the bottom menu bar.</MousekinRace_Letter_AllegianceSysIntroDesc>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFaction>Allegiance pledged to {0}</MousekinRace_Letter_AllegianceSysJoinedFaction>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>Your faction is now a {0}.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
 
 </LanguageData>

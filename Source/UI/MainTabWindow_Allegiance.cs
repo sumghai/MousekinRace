@@ -46,7 +46,7 @@ namespace MousekinRace
             {
                 AlliableFactionExtension alignedFactionExtension = alignedFaction.def.GetModExtension<AlliableFactionExtension>();
 
-                playerFactionSubtitle = AllegianceSys_Utils.RelationshipToJoinedFaction(alignedFaction.Name, alignedFactionExtension.relationshipTypeLabel).CapitalizeFirst();
+                playerFactionSubtitle = AllegianceSys_Utils.MembershipToFactionLabel(alignedFaction).CapitalizeFirst();
                 factionIcon = alignedFaction.def.FactionIcon;
                 factionIconColor = alignedFaction.Color;
             }
