@@ -125,8 +125,8 @@ namespace MousekinRace
 
                 // Requirements
                 Text.Anchor = anchor;
-                Widgets.Label(new Rect(innerRect.xMin, innerY, innerRect.width, Text.CalcHeight("Requirements:", innerRect.width)), "Requirements");
-                innerY += Text.CalcHeight("Requirements:", innerRect.width);
+                Widgets.Label(new Rect(innerRect.xMin, innerY, innerRect.width, Text.CalcHeight("MousekinRace_AllegianceSys_ReqSubheading".Translate(), innerRect.width)), "MousekinRace_AllegianceSys_ReqSubheading".Translate());
+                innerY += Text.CalcHeight("MousekinRace_AllegianceSys_ReqSubheading".Translate(), innerRect.width);
 
                 Widgets.DrawLineHorizontal(innerRect.xMin, innerY, innerRect.width);
 
@@ -140,13 +140,35 @@ namespace MousekinRace
 
                 DrawJoiningRequirementRow(innerRect, ref innerY, "MousekinRace_AllegianceSys_ReqMinGoodwill".Translate(currentFactionExtension.joinRequirements.minGoodwill), factionOptions[i].PlayerGoodwill.ToString(), factionOptions[i].PlayerGoodwill >= currentFactionExtension.joinRequirements.minGoodwill);
 
-                // Benefits & Costs buttons
+                innerY += StandardMargin;
 
-                // todo
+                // Benefits & Costs buttons
+                float infoButtonsWidth = (innerRect.width - StandardMargin) / 2;
+                Widgets.ButtonText(new Rect(innerRect.xMin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewBenefitsButtonLabel".Translate());
+                Widgets.ButtonText(new Rect(innerRect.xMin + infoButtonsWidth + StandardMargin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewCostsButtonLabel".Translate());
 
                 // Join button
+                bool joinRequirementsMet = GenDate.DaysPassedSinceSettle >= currentFactionExtension.joinRequirements.minDaysPassedSinceSettle
+                    && Utils.PercentColonistsAreMousekins() >= currentFactionExtension.joinRequirements.minMousekinPopulationPercentage
+                    && factionOptions[i].PlayerGoodwill >= currentFactionExtension.joinRequirements.minGoodwill;
 
-                Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight, innerRect.width, buttonHeight), currentFactionExtension.joinButtonLabel);
+                Color orgColor = GUI.color;
+                if (!joinRequirementsMet)
+                {
+                    GUI.color = Color.gray;
+                }
+                if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight, innerRect.width, buttonHeight), currentFactionExtension.joinButtonLabel + (!joinRequirementsMet ? " " + "MousekinRace_AllegianceSys_ReqNotMet".Translate() : null)))
+                {
+                    if (joinRequirementsMet)
+                    {
+                        JoinFaction(factionOptions[i]);
+                    }
+                    else
+                    {
+                        Messages.Message("MousekinRace_MessageCannotJoinFaction".Translate(factionOptions[i].Name, "MousekinRace_AllegianceSys_ReqNotMet".Translate()), MessageTypeDefOf.RejectInput, false);
+                    }
+                }
+                GUI.color = orgColor;
             }
 
         }
@@ -162,6 +184,11 @@ namespace MousekinRace
             GUI.color = Color.white;
             Text.Anchor = TextAnchor.UpperLeft;
             y += Text.CalcHeight(requirementFormatted, rect.width);
+        }
+
+        public void JoinFaction(Faction allegianceFaction)
+        {
+            Log.Error("Wheeee! Time to join the " + allegianceFaction.Name);
         }
     }
 }

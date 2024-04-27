@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
+	<MousekinRace_AllegianceSys_ReqSubheading>Requirements:</MousekinRace_AllegianceSys_ReqSubheading>
+	
 	<MousekinRace_AllegianceSys_ReqMinColonyAge>Colony at least {0} old</MousekinRace_AllegianceSys_ReqMinColonyAge>
 	
 	<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>At least {0} of population are Mousekin</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
 	
 	<MousekinRace_AllegianceSys_ReqMinGoodwill>At least {0} goodwill with faction</MousekinRace_AllegianceSys_ReqMinGoodwill>
+	
+	<MousekinRace_AllegianceSys_ViewBenefitsButtonLabel>View Benefits...</MousekinRace_AllegianceSys_ViewBenefitsButtonLabel>
+	
+	<MousekinRace_AllegianceSys_ViewCostsButtonLabel>View Costs...</MousekinRace_AllegianceSys_ViewCostsButtonLabel>
+	
+	<MousekinRace_AllegianceSys_ReqNotMet>(Requirements not met)</MousekinRace_AllegianceSys_ReqNotMet>
 	
 	<MousekinRace_Settlement_CapitalCity>Arcadia</MousekinRace_Settlement_CapitalCity>
 	
