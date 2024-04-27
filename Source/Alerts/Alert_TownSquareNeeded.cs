@@ -5,7 +5,8 @@ using Verse;
 
 namespace MousekinRace
 {
-    // Alerts the player that they need to build a town square for each settlement where 50% or more of the population are Mousekins
+    // Alerts the player that they need to build a town square if 50% or more of their faction's population are Mousekins
+    // (regardless of how many simultaneous settlements / colonies they own)
     public class Alert_TownSquareNeeded : Alert
     {
         public List<string> mapsNeedingTownSquares = new List<string>();
@@ -22,25 +23,20 @@ namespace MousekinRace
             // Clear existing lists
             mapsNeedingTownSquares.Clear();
 
-            int playerSettlementsCount = Find.Maps.Where(m => m.IsPlayerHome).Count();
-
-            foreach (Map map in Find.Maps) 
-            { 
-                // Only for player-owned settlements
-                if(map.IsPlayerHome) 
+            // If 50% or more of player faction colonists are Mousekins
+            if (Utils.PercentColonistsAreMousekins() >= 0.5f)
+            {
+                foreach (Map map in Find.Maps)
                 {
-                    // Get the ratio/percentage of Mousekin colonists
-                    int curMapTotalColonistCount = map.mapPawns.ColonistCount;
-                    int curMapTotalMousekinColonistCount = map.mapPawns.AllPawns.Where(p => p.IsColonist && Utils.IsMousekin(p)).Count();
-                    float curMapMousekinColonistPercent = (curMapTotalColonistCount == 0) ? 0 : curMapTotalMousekinColonistCount / curMapTotalColonistCount;
-
-                    // If the current settlement has 50% or more Mousekin colonists but does not have a Town Square, add it to a list of settlements that need remediation
-                    if (curMapMousekinColonistPercent >= 0.5 && map.listerThings.ThingsOfDef(MousekinDefOf.Mousekin_TownSquare).Count == 0)
-                    { 
+                    // Look for player-owned colonies/settlements that don't have town squares
+                    if (map.IsPlayerHome && map.listerThings.ThingsOfDef(MousekinDefOf.Mousekin_TownSquare).Count == 0)
+                    {
                         mapsNeedingTownSquares.Add(map.info.parent.LabelCap);
                     }
                 }
             }
+
+            int playerSettlementsCount = Find.Maps.Where(m => m.IsPlayerHome).Count();
 
             int mapsNeedingTownSquaresCount = mapsNeedingTownSquares.Count();
 
