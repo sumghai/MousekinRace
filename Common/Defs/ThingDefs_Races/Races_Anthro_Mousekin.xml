@@ -1173,7 +1173,7 @@
 				</li>
 				<li Class="AlienRace.LifeStageAgeAlien" MayRequire="Ludeon.RimWorld.Biotech">
 					<def>HumanlikePreTeenager</def>
-					<minAge>8</minAge>
+					<minAge>9</minAge>
 					<headOffsetDirectional>
 						<north>
 							<offset>(0, -0.1375)</offset>
