@@ -126,6 +126,12 @@
 		<equippedStatOffsets>
 			<!-- Equivalent to a 70% increase for a Mousekin body size of 0.7 -->
 			<CarryingCapacity>52.5</CarryingCapacity>
+			<!-- Big and bulky, harder to run while carrying one -->
+			<MoveSpeed>-0.5</MoveSpeed>
+			<!-- Viewed as a laborer / peasant accessory -->
+			<SocialImpact>-0.4</SocialImpact>
+			<!-- Peasants having more volume to carry harvested crops -->
+			<PlantHarvestYield>0.1</PlantHarvestYield>
 		</equippedStatOffsets>
 		<generateAllowChance>0.5</generateAllowChance>
 		<apparel>
@@ -177,6 +183,8 @@
 		<equippedStatOffsets>
 			<!-- Equivalent to a 40% increase for a Mousekin body size of 0.7 -->
 			<CarryingCapacity>30</CarryingCapacity>
+			<!-- Better at preserving foraged food while travelling -->
+			<ForagedNutritionPerDay>0.3</ForagedNutritionPerDay>
 		</equippedStatOffsets>
 		<apparel>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
