@@ -1,4 +1,6 @@
-﻿using Verse;
+﻿using RimWorld;
+using System.Collections.Generic;
+using Verse;
 
 namespace MousekinRace
 {
@@ -11,6 +13,8 @@ namespace MousekinRace
 
         [MustTranslate]
         public string membershipTypeLabel;
+
+        public List<FactionDef> hostileToFactionTypes = new();
     }
 
     public class AlliableFactionJoinRequirements 

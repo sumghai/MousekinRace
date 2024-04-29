@@ -102,7 +102,7 @@ namespace MousekinRace
                 factionDescHeight = Math.Max(factionDescHeight, Text.CalcHeight(factionOption.def.Description.Substring(0, factionOption.def.Description.IndexOf("\n")), columnWidth - 17f * 2));
             }
 
-            // Draw the actual 
+            // Draw the actual faction option
             for (int i = 0; i < numColumns; i++) 
             {
                 AlliableFactionExtension currentFactionExtension = factionOptions[i].def.GetModExtension<AlliableFactionExtension>();
@@ -178,6 +178,19 @@ namespace MousekinRace
                     MainTabWindow_Quests mainTabWindow_Quests = new MainTabWindow_Quests();
 
                     mainTabWindow_Quests.DrawInfoBox(innerRect, false, ref innerY, "MousekinRace_AllegianceSys_ReqDesc".Translate(), MainTabWindow_Quests.acceptanceRequirementsBoxBgColor, MainTabWindow_Quests.AcceptanceRequirementsBoxColor, MainTabWindow_Quests.AcceptanceRequirementsColor);
+                }
+
+                // Development / God mode debug buttons
+                if (DebugSettings.godMode)
+                {
+                    if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight * 2 - StandardMargin, 150f, buttonHeight), "DEV: +10 Goodwill"))
+                    {
+                        factionOptions[i].TryAffectGoodwillWith(Faction.OfPlayer, 10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
+                    }
+                    if (Widgets.ButtonText(new Rect(innerRect.xMin + 150f + StandardMargin, innerRect.yMax - buttonHeight * 2 - StandardMargin, 150f, buttonHeight), "DEV: -10 Goodwill"))
+                    {
+                        factionOptions[i].TryAffectGoodwillWith(Faction.OfPlayer, -10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
+                    }
                 }
 
                 // Join button
