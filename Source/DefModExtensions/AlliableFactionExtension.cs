@@ -15,6 +15,8 @@ namespace MousekinRace
         public string membershipTypeLabel;
 
         public List<FactionDef> hostileToFactionTypes = new();
+
+        public GraphicData flagGraphicData = null;
     }
 
     public class AlliableFactionJoinRequirements 
