@@ -19,4 +19,7 @@
 	<!-- EN: Toggle wearing {0} attached to apparel. -->
 	<MousekinRace_CommandToggleAttachedHeadgearDesc>このアパレルに{0}をかぶせることを切り替えます.</MousekinRace_CommandToggleAttachedHeadgearDesc>
 	
+	<!-- EN: Your faction is a {0}, who is an enemy of this settlement's faction. -->
+	<MousekinRace_CommandShowSellableItemsDesc_DisabledReason>あなたの派閥は{0}で、この入植地の派閥と敵対しています.</MousekinRace_CommandShowSellableItemsDesc_DisabledReason>
+	
 </LanguageData>

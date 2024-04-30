@@ -3,5 +3,8 @@
 
 	<!-- EN: A purchased {0} is now named {1}. -->
 	<MousekinRace_MessagePurchasedAnimalNamed>購入した{0}が{1}と名づけました.</MousekinRace_MessagePurchasedAnimalNamed>
+	
+	<!-- EN: Cannot pledge allegiance to {0}: requirements not met. -->
+	<MousekinRace_MessageCannotJoinFaction>{0}に忠誠を誓うことができない：要件を満たしていません.</MousekinRace_MessageCannotJoinFaction>
 
 </LanguageData>

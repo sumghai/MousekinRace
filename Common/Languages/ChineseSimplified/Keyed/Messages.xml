@@ -3,5 +3,8 @@
 
 	<!-- EN: A purchased {0} is now named {1}. -->
 	<MousekinRace_MessagePurchasedAnimalNamed>一只购买的{0}现在命名为{1}。</MousekinRace_MessagePurchasedAnimalNamed>
+	
+	<!-- EN: Cannot pledge allegiance to {0}: requirements not met. -->
+	<MousekinRace_MessageCannotJoinFaction>无法效忠{0}：未满足所有要求。</MousekinRace_MessageCannotJoinFaction>
 
 </LanguageData>

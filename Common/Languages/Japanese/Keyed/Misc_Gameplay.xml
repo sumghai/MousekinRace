@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+	<!-- EN: Requirements: -->
+	<MousekinRace_AllegianceSys_ReqSubheading>要件：</MousekinRace_AllegianceSys_ReqSubheading>
+
+	<!-- EN: Colony at least {0} old -->
+	<MousekinRace_AllegianceSys_ReqMinColonyAge>コロニーは少なくとも{0}歳</MousekinRace_AllegianceSys_ReqMinColonyAge>
+
+	<!-- EN: At least {0} of population are Mousekin -->
+	<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>人口の少なくとも{0}がマウスキン族</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
+
+	<!-- EN: At least {0} goodwill with faction -->
+	<MousekinRace_AllegianceSys_ReqMinGoodwill>少なくとも派閥との友好値{0}</MousekinRace_AllegianceSys_ReqMinGoodwill>
+
+	<!-- EN: View Benefits... -->
+	<MousekinRace_AllegianceSys_ViewBenefitsButtonLabel>特典を見る...</MousekinRace_AllegianceSys_ViewBenefitsButtonLabel>
+
+	<!-- EN: View Costs... -->
+	<MousekinRace_AllegianceSys_ViewCostsButtonLabel>コストを見る...</MousekinRace_AllegianceSys_ViewCostsButtonLabel>
+
+	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
+	<MousekinRace_AllegianceSys_ReqDesc>この派閥に忠誠を誓うには、上記の条件を満たす必要があります.</MousekinRace_AllegianceSys_ReqDesc>
+
+	<!-- EN: {0} of {1} -->
+	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}の{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
 	<!-- EN: Arcadia -->
 	<MousekinRace_Settlement_CapitalCity>アルカディア京城</MousekinRace_Settlement_CapitalCity>

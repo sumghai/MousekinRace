@@ -45,6 +45,12 @@
 
 	<!-- EN: Lord Protector -->
 	<Mousekin_FactionKingdom.leaderTitle>호국경</Mousekin_FactionKingdom.leaderTitle>
+	
+	<!-- EN: Pledge fealty to The Mousekin King -->
+	<Mousekin_FactionKingdom.modExtensions.1.joinButtonLabel>마우스킨 왕에게 충성 맹세하기</Mousekin_FactionKingdom.modExtensions.1.joinButtonLabel>
+	
+	<!-- EN: vassal -->
+	<Mousekin_FactionKingdom.modExtensions.1.membershipTypeLabel>가신</Mousekin_FactionKingdom.modExtensions.1.membershipTypeLabel>
 
 	<!-- EN: Independent Mousekins -->
 	<Mousekin_FactionIndyTown.label>독립 마우스킨</Mousekin_FactionIndyTown.label>
@@ -60,6 +66,12 @@
 
 	<!-- EN: Prime Councilor -->
 	<Mousekin_FactionIndyTown.leaderTitle>국무위원</Mousekin_FactionIndyTown.leaderTitle>
+	
+	<!-- EN: Long Live the Revolution! -->
+	<Mousekin_FactionIndyTown.modExtensions.1.joinButtonLabel>혁명 만세!</Mousekin_FactionIndyTown.modExtensions.1.joinButtonLabel>
+	
+	<!-- EN: member -->
+	<Mousekin_FactionIndyTown.modExtensions.1.membershipTypeLabel>회원</Mousekin_FactionIndyTown.modExtensions.1.membershipTypeLabel>
 
 	<!-- EN: Mousekin Nomads -->
 	<Mousekin_FactionNomad.label>마우스킨 유목민</Mousekin_FactionNomad.label>

@@ -45,6 +45,12 @@
 
 	<!-- EN: Lord Protector -->
 	<Mousekin_FactionKingdom.leaderTitle>护国主</Mousekin_FactionKingdom.leaderTitle>
+	
+	<!-- EN: Pledge fealty to The Mousekin King -->
+	<Mousekin_FactionKingdom.modExtensions.1.joinButtonLabel>向白鼠族国王宣誓效忠</Mousekin_FactionKingdom.modExtensions.1.joinButtonLabel>
+	
+	<!-- EN: vassal -->
+	<Mousekin_FactionKingdom.modExtensions.1.membershipTypeLabel>附庸</Mousekin_FactionKingdom.modExtensions.1.membershipTypeLabel>
 
 	<!-- EN: Independent Mousekins -->
 	<Mousekin_FactionIndyTown.label>独立白鼠族</Mousekin_FactionIndyTown.label>
@@ -60,6 +66,12 @@
 
 	<!-- EN: Prime Councilor -->
 	<Mousekin_FactionIndyTown.leaderTitle>议长</Mousekin_FactionIndyTown.leaderTitle>
+	
+	<!-- EN: Long Live the Revolution! -->
+	<Mousekin_FactionIndyTown.modExtensions.1.joinButtonLabel>革命万岁!</Mousekin_FactionIndyTown.modExtensions.1.joinButtonLabel>
+	
+	<!-- EN: member -->
+	<Mousekin_FactionIndyTown.modExtensions.1.membershipTypeLabel>成员</Mousekin_FactionIndyTown.modExtensions.1.membershipTypeLabel>
 
 	<!-- EN: Mousekin Nomads -->
 	<Mousekin_FactionNomad.label>白鼠族游民</Mousekin_FactionNomad.label>

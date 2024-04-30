@@ -6,5 +6,11 @@
 	
 	<!-- EN: By building a town square, you have now unlocked the Faction Allegiance system.\n\nOnce you have built up enough goodwill with certain factions, you can choose which faction to declare allegiance to and access various perks.\n\nFor more information, click on the Allegiance button in the bottom menu bar. -->
 	<MousekinRace_Letter_AllegianceSysIntroDesc>通过建造广场，您现在已经解锁了派系效忠系统。\n\n一旦您与某些派系建立了足够的友好关系，您就可以选择向哪个派系宣示效忠，并获得各种特权。\n\n更多信息，请点击底部菜单栏中的"效忠"按钮。</MousekinRace_Letter_AllegianceSysIntroDesc>
+	
+	<!-- EN: Allegiance pledged to {0} -->
+	<MousekinRace_Letter_AllegianceSysJoinedFaction>效忠{0}</MousekinRace_Letter_AllegianceSysJoinedFaction>
+
+	<!-- EN: Your faction is now a {0}. -->
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>你的派系现在是{0}了。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
 
 </LanguageData>
