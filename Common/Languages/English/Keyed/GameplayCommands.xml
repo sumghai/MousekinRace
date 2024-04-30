@@ -13,6 +13,6 @@
 
 	<MousekinRace_CommandToggleAttachedHeadgearDesc>Toggle wearing {0} attached to apparel.</MousekinRace_CommandToggleAttachedHeadgearDesc>
 	
-	<MousekinRace_CommandShowSellableItemsDesc_DisabledReason>Your faction is a {0}, who is an enemy of this faction.</MousekinRace_CommandShowSellableItemsDesc_DisabledReason>
+	<MousekinRace_CommandShowSellableItemsDesc_DisabledReason>Your faction is a {0}, who is an enemy of this settlement's faction.</MousekinRace_CommandShowSellableItemsDesc_DisabledReason>
 
 </LanguageData>
