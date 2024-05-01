@@ -25,19 +25,19 @@ namespace MousekinRace
                     // Only for player colonists
                     if (__instance.pawn.IsColonist)
                     {
-                        // Only for those whose personal or faction ideo IDs match neither the Kingdom or Independent NPC factions
-                        //
-                        // (TODO - future support for faction allegiance system)
-                        // (TODO - change to a startup-generated list to support more than two allegiance choices in the future)
-                        if (__instance.pawn.ideo.ideo.id != Find.FactionManager.allFactions.FirstOrDefault(x => x.def == MousekinDefOf.Mousekin_FactionKingdom || x.def == MousekinDefOf.Mousekin_FactionIndyTown).ideos.primaryIdeo.id || __instance.pawn.Faction.ideos.primaryIdeo.id != Find.FactionManager.allFactions.FirstOrDefault(x => x.def == MousekinDefOf.Mousekin_FactionKingdom || x.def == MousekinDefOf.Mousekin_FactionIndyTown).ideos.primaryIdeo.id)
-                        {
-                            Ideo tgtIdeo = Page_IdeoFixedByScenario.GetFixedIdeo();
-                            __instance.pawn.ideo.SetIdeo(tgtIdeo);
-                            __instance.pawn.ideo.previousIdeos.Clear();
-                            __instance.pawn.Faction.ideos.SetPrimary(tgtIdeo);
-                            __instance.pawn.Faction.ideos.ideosMinor.Clear();
-                            Find.IdeoManager.RemoveUnusedStartingIdeos();
-                        }
+                        GameComponent_Allegiance gameComp_Allegiance_Instance = GameComponent_Allegiance.Instance;
+                        Faction alignedFaction = gameComp_Allegiance_Instance.alignedFaction;
+                        List<int> availableAllegianceFactionIdeoIDs = gameComp_Allegiance_Instance.alliableFactions.ConvertAll(f => f.ideos.primaryIdeo.id);
+
+                        // If the player has already pledged allegiance to a faction, use that faction's ideo
+                        // Otherwise, default to Mousekin Kingdom ideo
+                        Ideo tgtIdeo = (alignedFaction != null) ? alignedFaction.ideos.primaryIdeo : Page_IdeoFixedByScenario.GetFixedIdeo();
+
+                        __instance.pawn.ideo.SetIdeo(tgtIdeo);
+                        __instance.pawn.ideo.previousIdeos.Clear();
+                        __instance.pawn.Faction.ideos.SetPrimary(tgtIdeo);
+                        __instance.pawn.Faction.ideos.ideosMinor.Clear();
+                        Find.IdeoManager.RemoveUnusedStartingIdeos();
                     }
                 }
             }

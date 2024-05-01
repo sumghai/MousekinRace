@@ -8,5 +8,7 @@
 	<MousekinRace_Letter_AllegianceSysJoinedFaction>Allegiance pledged to {0}</MousekinRace_Letter_AllegianceSysJoinedFaction>
 	
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>Your faction is now a {0}.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>All of your colonists have adopted the {0} ideoligion of the parent faction.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
 
 </LanguageData>
