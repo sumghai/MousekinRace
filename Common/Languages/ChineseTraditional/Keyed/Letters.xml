@@ -11,6 +11,9 @@
 	<MousekinRace_Letter_AllegianceSysJoinedFaction>效忠{0}</MousekinRace_Letter_AllegianceSysJoinedFaction>
 
 	<!-- EN: Your faction is now a {0}. -->
-	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>你的派系現在是{0}了。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>您的派系現在是{0}了。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
+	
+	<!-- EN: All of your colonists have adopted the {0} ideoligion of the parent faction. -->
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>您所有的殖民者都皈依了母派系的{0}信仰。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
 
 </LanguageData>

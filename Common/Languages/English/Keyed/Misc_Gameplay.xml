@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
-	<MousekinRace_AllegianceSys_ReqSubheading>Requirements:</MousekinRace_AllegianceSys_ReqSubheading>
-	
-	<MousekinRace_AllegianceSys_ReqMinColonyAge>Colony at least {0} old</MousekinRace_AllegianceSys_ReqMinColonyAge>
-	
-	<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>At least {0} of population are Mousekin</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
-	
-	<MousekinRace_AllegianceSys_ReqMinGoodwill>At least {0} goodwill with faction</MousekinRace_AllegianceSys_ReqMinGoodwill>
-	
-	<MousekinRace_AllegianceSys_Benefits>Benefits</MousekinRace_AllegianceSys_Benefits>
-	
-	<MousekinRace_AllegianceSys_Costs>Costs</MousekinRace_AllegianceSys_Costs>
-	
-	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>View {0}...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>
-	
-	<MousekinRace_AllegianceSys_ViewExtraInfoDialogTitle>{0} of becoming a {1}</MousekinRace_AllegianceSys_ViewExtraInfoDialogTitle>
-	
-	<MousekinRace_AllegianceSys_ReqDesc>To pledge allegiance to this faction, you need to meet the requirements listed above.</MousekinRace_AllegianceSys_ReqDesc>
-	
-	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} of {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
-	
 	<MousekinRace_Settlement_CapitalCity>Arcadia</MousekinRace_Settlement_CapitalCity>
 	
 	<MousekinRace_Settlement_Fort>Whitefur's Keep</MousekinRace_Settlement_Fort>

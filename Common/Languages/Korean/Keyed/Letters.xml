@@ -12,5 +12,8 @@
 
 	<!-- EN: Your faction is now a {0}. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>이제 진영은 {0}입니다.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
+	
+	<!-- EN: All of your colonists have adopted the {0} ideoligion of the parent faction. -->
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>모든 식민지 주민이 모 진영의 {0} 이데올로기를 채택했습니다.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
 
 </LanguageData>

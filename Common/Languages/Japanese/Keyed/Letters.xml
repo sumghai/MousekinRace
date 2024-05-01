@@ -12,5 +12,8 @@
 
 	<!-- EN: Your faction is now a {0}. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>あなたの派閥は{0}になりました。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
+	
+	<!-- EN: All of your colonists have adopted the {0} ideoligion of the parent faction. -->
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>入植者全員が親派閥の{0}思想に従いました。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
 
 </LanguageData>

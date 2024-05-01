@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- EN: Requirements: -->
+	<MousekinRace_AllegianceSys_ReqSubheading>충성도를 위한 요구 사항:</MousekinRace_AllegianceSys_ReqSubheading>
+
+	<!-- EN: Colony at least {0} old -->
+	<MousekinRace_AllegianceSys_ReqMinColonyAge>식민지가 {0} 이상되었습니다.</MousekinRace_AllegianceSys_ReqMinColonyAge>
+
+	<!-- EN: At least {0} of population are Mousekin -->
+	<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>인구의 75% 이상이 마우스킨이어야 함</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
+
+	<!-- EN: At least {0} goodwill with faction -->
+	<MousekinRace_AllegianceSys_ReqMinGoodwill>진영과의 친선도 {0}점 이상</MousekinRace_AllegianceSys_ReqMinGoodwill>
+	
+	<!-- EN: Benefits -->
+	<MousekinRace_AllegianceSys_Benefits>혜택</MousekinRace_AllegianceSys_Benefits>
+	
+	<!-- EN: Costs -->
+	<MousekinRace_AllegianceSys_Costs>비용</MousekinRace_AllegianceSys_Costs>
+
+	<!-- EN: View {0}... -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>{0} 보기...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>
+
+	<!-- EN: {0} of becoming a {1} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>{1}가 되기 위한 {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>
+	
+	<!-- EN: Your faction will adopt the {0} ideoligion -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>소속 진영이 {0} 이데올로기를 채택합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
+
+	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
+	<MousekinRace_AllegianceSys_ReqDesc>이 진영에 충성을 맹세하려면 위에 나열된 요구 사항을 충족해야 합니다.</MousekinRace_AllegianceSys_ReqDesc>
+
+	<!-- EN: {0} of {1} -->
+	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1} {0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
+
+</LanguageData>
