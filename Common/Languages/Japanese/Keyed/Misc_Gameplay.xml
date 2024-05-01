@@ -12,12 +12,18 @@
 
 	<!-- EN: At least {0} goodwill with faction -->
 	<MousekinRace_AllegianceSys_ReqMinGoodwill>少なくとも派閥との友好値{0}</MousekinRace_AllegianceSys_ReqMinGoodwill>
+	
+	<!-- EN: Benefits -->
+	<MousekinRace_AllegianceSys_Benefits>特典</MousekinRace_AllegianceSys_Benefits>
+	
+	<!-- EN: Costs -->
+	<MousekinRace_AllegianceSys_Costs>コスト</MousekinRace_AllegianceSys_Costs>
 
-	<!-- EN: View Benefits... -->
-	<MousekinRace_AllegianceSys_ViewBenefitsButtonLabel>特典を見る...</MousekinRace_AllegianceSys_ViewBenefitsButtonLabel>
+	<!-- EN: View {0}... -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>{0}を見る...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>
 
-	<!-- EN: View Costs... -->
-	<MousekinRace_AllegianceSys_ViewCostsButtonLabel>コストを見る...</MousekinRace_AllegianceSys_ViewCostsButtonLabel>
+	<!-- EN: {0} of becoming a {1} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialogTitle>{1}になることの{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialogTitle>
 
 	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
 	<MousekinRace_AllegianceSys_ReqDesc>この派閥に忠誠を誓うには、上記の条件を満たす必要があります.</MousekinRace_AllegianceSys_ReqDesc>

@@ -402,6 +402,7 @@
     <Compile Include="Thoughts\ThoughtWorker_WearingMousekinFurApparel.cs" />
     <Compile Include="Thoughts\Thought_OtherMousekinHasProstheticOpinions.cs" />
     <Compile Include="DefModExtensions\TraitConflictResolverExtension.cs" />
+    <Compile Include="UI\Dialog_AllegianceExtraInfo.cs" />
     <Compile Include="UI\MainButtonWorker_Allegiance.cs" />
     <Compile Include="UI\MainTabWindow_Allegiance.cs" />
     <Compile Include="UI\Page_IdeoFixedByScenario.cs" />

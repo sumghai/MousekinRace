@@ -12,12 +12,18 @@
 
 	<!-- EN: At least {0} goodwill with faction -->
 	<MousekinRace_AllegianceSys_ReqMinGoodwill>至少与派别建立{0}好感度</MousekinRace_AllegianceSys_ReqMinGoodwill>
+	
+	<!-- EN: Benefits -->
+	<MousekinRace_AllegianceSys_Benefits>福利</MousekinRace_AllegianceSys_Benefits>
+	
+	<!-- EN: Costs -->
+	<MousekinRace_AllegianceSys_Costs>代價</MousekinRace_AllegianceSys_Costs>
 
-	<!-- EN: View Benefits... -->
-	<MousekinRace_AllegianceSys_ViewBenefitsButtonLabel>查看福利...</MousekinRace_AllegianceSys_ViewBenefitsButtonLabel>
+	<!-- EN: View {0}... -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>查看{0}...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>
 
-	<!-- EN: View Costs... -->
-	<MousekinRace_AllegianceSys_ViewCostsButtonLabel>查看代價...</MousekinRace_AllegianceSys_ViewCostsButtonLabel>
+	<!-- EN: {0} of becoming a {1} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialogTitle>成为{1}的{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialogTitle>
 
 	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
 	<MousekinRace_AllegianceSys_ReqDesc>要效忠该派别，您需要满足上述要求。</MousekinRace_AllegianceSys_ReqDesc>

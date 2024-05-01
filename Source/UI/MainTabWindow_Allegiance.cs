@@ -161,8 +161,14 @@ namespace MousekinRace
 
                 // Benefits & Costs buttons
                 float infoButtonsWidth = (innerRect.width - StandardMargin) / 2;
-                Widgets.ButtonText(new Rect(innerRect.xMin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewBenefitsButtonLabel".Translate());
-                Widgets.ButtonText(new Rect(innerRect.xMin + infoButtonsWidth + StandardMargin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewCostsButtonLabel".Translate());
+                if (Widgets.ButtonText(new Rect(innerRect.xMin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Benefits".Translate())))
+                {
+                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialogTitle".Translate("MousekinRace_AllegianceSys_Benefits".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOptions[i], true)), "content goes here..."));
+                }
+                if (Widgets.ButtonText(new Rect(innerRect.xMin + infoButtonsWidth + StandardMargin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Costs".Translate())))
+                {
+                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialogTitle".Translate("MousekinRace_AllegianceSys_Costs".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOptions[i], true)), "content goes here..."));
+                }
 
                 innerY += buttonHeight;
                 innerY += StandardMargin;
@@ -227,7 +233,5 @@ namespace MousekinRace
             Text.Anchor = TextAnchor.UpperLeft;
             y += Text.CalcHeight(requirementFormatted, rect.width);
         }
-
-        
     }
 }
