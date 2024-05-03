@@ -19,6 +19,10 @@
 	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>Your faction will adopt the {0} ideoligion</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>The following colonists will be unhappy if you pledge allegiance to this faction, and will leave:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>{0} trait</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>
+	
 	<MousekinRace_AllegianceSys_ReqDesc>To pledge allegiance to this faction, you need to meet the requirements listed above.</MousekinRace_AllegianceSys_ReqDesc>
 	
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} of {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>

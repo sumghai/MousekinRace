@@ -342,6 +342,7 @@
     <Compile Include="Jobs\JobGiver_IntelligentAnimalGenericWorkGiver.cs" />
     <Compile Include="Jobs\WorkGiver_HarvestFromBeehive.cs" />
     <Compile Include="MentalState\MentalStateWorker_EarlessSuicide.cs" />
+    <Compile Include="MentalState\MentalState_ExitAfterAllegianceChange.cs" />
     <Compile Include="MentalState\MentalState_EarlessSuicide.cs" />
     <Compile Include="ModCompatibility.cs" />
     <Compile Include="MousekinDefOf.cs" />
@@ -363,9 +364,11 @@
     <Compile Include="Patches\Harmony_InteractionWorker_RecruitAttempt_DoRecruit.cs" />
     <Compile Include="Patches\Harmony_ITab_Pawn_Gear_DrawThingRow.cs" />
     <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
+    <Compile Include="Patches\Harmony_Pawn.cs" />
     <Compile Include="Patches\Harmony_PawnRenderTree_SetupApparelNodes.cs" />
     <Compile Include="Patches\Harmony_PawnRelationWorker_Sibling.cs" />
     <Compile Include="Patches\Harmony_PawnRenderTree_ProcessApparel.cs" />
+    <Compile Include="Patches\Harmony_Pawn_GuestTracker.cs" />
     <Compile Include="Patches\Harmony_Pawn_HealthTracker.cs" />
     <Compile Include="Patches\Harmony_PawnGenerator.cs" />
     <Compile Include="Patches\Harmony_Pawn_JobTracker_TryTakeOrderedJob.cs" />

@@ -17,6 +17,10 @@ namespace MousekinRace
         public List<FactionDef> hostileToFactionTypes = new();
 
         public GraphicData flagGraphicData = null;
+
+        public List<PawnKindDef> quittingPawnKinds = new();
+
+        public List<BackstoryTrait> quittingPawnsWithTraits = new();
     }
 
     public class AlliableFactionJoinRequirements 

@@ -38,28 +38,5 @@ namespace MousekinRace
             Widgets.Label(scrollableContentsRect, contents);
             Widgets.EndScrollView();
         }
-
-        public static TaggedString GenerateBenefitsDesc(Faction allegianceFaction) 
-        {
-            TaggedString descBody = new();
-
-            // todo - populate with content
-
-            return descBody;
-        }
-
-        public static TaggedString GenerateCostsDesc(Faction allegianceFaction)
-        {
-            TaggedString descBody = new();
-
-            if (ModsConfig.IdeologyActive)
-            {
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString().Colorize(allegianceFaction.ideos.PrimaryIdeo.Color)) + "\n";
-            }
-
-            // todo - populate with content
-
-            return descBody;
-        }
     }
 }

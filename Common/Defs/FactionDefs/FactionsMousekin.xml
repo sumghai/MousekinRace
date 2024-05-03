@@ -555,6 +555,11 @@
 					<drawSize>(3,3)</drawSize>
 					<drawOffset>(0,2.5,3)</drawOffset>
 				</flagGraphicData>
+				<quittingPawnKinds>
+					<!-- Revolutionaries will flee back to the Independent Towns -->
+					<li>MousekinIndyTownCouncilor</li>
+					<li>MousekinIndyTownSoldier</li>
+				</quittingPawnKinds>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -741,6 +746,16 @@
 					<drawSize>(3,3)</drawSize>
 					<drawOffset>(1,2.5,3)</drawOffset>
 				</flagGraphicData>
+				<quittingPawnKinds>
+					<!-- Guardeners are loyal to the Kingdom -->
+					<li>MousekinGuardenerElite</li>
+					<li>MousekinGuardener</li>
+					<li>MousekinGuardenerApprentice</li>
+				</quittingPawnKinds>
+				<quittingPawnsWithTraits>
+					<!-- Inquisitionists will leave -->
+					<Mousekin_TraitSpectrum_Faith>4</Mousekin_TraitSpectrum_Faith>
+				</quittingPawnsWithTraits>
 			</li>
 		</modExtensions>
 	</FactionDef>

@@ -2,6 +2,35 @@
 <Defs>
 
 	<MentalBreakDef>
+		<defName>Mousekin_MentalBreak_ExitAfterAllegianceChange</defName>
+		<mentalState>Mousekin_MentalState_ExitAfterAllegianceChange</mentalState>
+		<baseCommonality>0</baseCommonality>
+		<questLodgersCanDo>false</questLodgersCanDo>
+		<intensity>Extreme</intensity>
+	</MentalBreakDef>
+	
+	<MentalStateDef ParentName="BaseMentalState">
+		<defName>Mousekin_MentalState_ExitAfterAllegianceChange</defName>
+		<stateClass>MousekinRace.MentalState_ExitAfterAllegianceChange</stateClass>
+		<label>leaving colony due to allegiance change</label>
+		<category>Misc</category>
+		<blockNormalThoughts>true</blockNormalThoughts>
+		<blockRandomInteraction>true</blockRandomInteraction>
+		<colonistsOnly>true</colonistsOnly>
+		<minTicksBeforeRecovery>99999999</minTicksBeforeRecovery>
+		<nameColor>(0.9,0.2,0.5)</nameColor>
+		<prisonersCanDo>false</prisonersCanDo>
+		<slavesCanDo>false</slavesCanDo>
+		<inCaravanCanDo>true</inCaravanCanDo>
+		<unspawnedNotInCaravanCanDo>true</unspawnedNotInCaravanCanDo>
+		<recoverFromSleep>false</recoverFromSleep>
+		<recoverFromDowned>true</recoverFromDowned>
+		<recoverFromCollapsingExhausted>false</recoverFromCollapsingExhausted>
+		<baseInspectLine>Mental state: Leaving colony due to allegiance change</baseInspectLine>
+		<escapingPrisonersIgnore>true</escapingPrisonersIgnore>
+	</MentalStateDef>
+	
+	<MentalBreakDef>
 		<defName>Mousekin_MentalBreak_EarlessSuicide</defName>
 		<mentalState>Mousekin_MentalState_EarlessSuicide</mentalState>
 		<baseCommonality>0</baseCommonality>

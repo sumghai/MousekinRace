@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: leaving colony due to allegiance change -->
+	<Mousekin_MentalState_ExitAfterAllegianceChange.label>충성심 변경으로 인한 식민지 이탈</Mousekin_MentalState_ExitAfterAllegianceChange.label>
+	
+	<!-- EN: Mental state: Leaving colony due to allegiance change -->
+	<Mousekin_MentalState_ExitAfterAllegianceChange.baseInspectLine>상태:충성심 변경으로 인한 식민지 이탈</Mousekin_MentalState_ExitAfterAllegianceChange.baseInspectLine>
+
 	<!-- EN: suicide from earless despair -->
 	<Mousekin_MentalState_EarlessSuicide.label>귀를 잃은 절망에 자살</Mousekin_MentalState_EarlessSuicide.label>
 

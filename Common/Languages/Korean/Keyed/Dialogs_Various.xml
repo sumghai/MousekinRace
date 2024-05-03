@@ -27,6 +27,12 @@
 	
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>소속 진영이 {0} 이데올로기를 채택합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
+	
+	<!-- EN: The following colonists will be unhappy if you pledge allegiance to this faction, and will leave:\n{0} -->	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>이 진영에 충성을 맹세하면 다음 식민지 주민들은 불만을 품고 떠날 것입니다:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
+	
+	<!-- EN: {0} trait -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>{0} 특성</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>
 
 	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
 	<MousekinRace_AllegianceSys_ReqDesc>이 진영에 충성을 맹세하려면 위에 나열된 요구 사항을 충족해야 합니다.</MousekinRace_AllegianceSys_ReqDesc>

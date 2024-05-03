@@ -42,7 +42,10 @@ namespace MousekinRace
         public static HediffDef Mousekin_ProstheticClothEar;
         public static HediffDef Mousekin_HemlockPoisoning;
 
+        public static MentalBreakDef Mousekin_MentalBreak_ExitAfterAllegianceChange;
+
         public static MentalStateDef Mousekin_MentalState_EarlessSuicide;
+        public static MentalStateDef Mousekin_MentalState_ExitAfterAllegianceChange;
 
         public static DamageDef Mousekin_GunpowderExplosion;
         public static DamageDef Mousekin_SuicideKnife;

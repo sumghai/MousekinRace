@@ -21,6 +21,25 @@
 					</li>
 				</value>
 			</li>
+			
+			<!-- Add leaving colony due to allegiance break mental break -->
+			
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/ThinkTreeDef[defName="MentalStateNonCritical"]/thinkRoot/subNodes/li[state[text()="GiveUpExit"]]</xpath>
+				<value>
+					<li Class="ThinkNode_ConditionalMentalState">
+						<state>Mousekin_MentalState_ExitAfterAllegianceChange</state>
+						<subNodes>
+						<li Class="JobGiver_ExitMapBest">
+							<defaultLocomotion>Walk</defaultLocomotion>
+						</li>
+						<li Class="JobGiver_WanderAnywhere">
+							<maxDanger>Deadly</maxDanger>
+						</li>
+						</subNodes>
+					</li>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>

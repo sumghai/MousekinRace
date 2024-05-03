@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: leaving colony due to allegiance change -->
+	<Mousekin_MentalState_ExitAfterAllegianceChange.label>因派系效忠改變而離開殖民地</Mousekin_MentalState_ExitAfterAllegianceChange.label>
+	
+	<!-- EN: Mental state: Leaving colony due to allegiance change -->
+	<Mousekin_MentalState_ExitAfterAllegianceChange.baseInspectLine>心理狀態：因派系效忠改變而離開殖民地</Mousekin_MentalState_ExitAfterAllegianceChange.baseInspectLine>
+	
 	<!-- EN: suicide from earless despair -->
 	<Mousekin_MentalState_EarlessSuicide.label>因失耳绝望而自杀</Mousekin_MentalState_EarlessSuicide.label>
 

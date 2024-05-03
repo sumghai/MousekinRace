@@ -27,6 +27,12 @@
 	
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>您的派别将采纳{0}文化形态</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
+	
+	<!-- EN: The following colonists will be unhappy if you pledge allegiance to this faction, and will leave:\n{0} -->	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>如果您效忠该派别，下列殖民者将感到不满，并将离开:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
+	
+	<!-- EN: {0} trait -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>“{0}”特性</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>
 
 	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
 	<MousekinRace_AllegianceSys_ReqDesc>要效忠该派别，您需要满足上述要求。</MousekinRace_AllegianceSys_ReqDesc>

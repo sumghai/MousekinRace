@@ -13,6 +13,9 @@
 	<!-- EN: Your faction is now a {0}. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>您的派系現在是{0}了。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
 	
+	<!-- EN: The following colonists were unhappy with your new allegiance, and have decided to leave your faction:\n{0} -->
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>以下殖民者對您的新效忠不滿，決定離開您的派系:\n{0}</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>
+	
 	<!-- EN: All of your colonists have adopted the {0} ideoligion of the parent faction. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>您所有的殖民者都皈依了母派系的{0}信仰。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
 
