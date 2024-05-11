@@ -11,11 +11,17 @@
 	<Mousekin_ApparelCraftsmanOutfit.label>白鼠族工匠服裝</Mousekin_ApparelCraftsmanOutfit.label>		<!-- EN: A loose shirt and trousers protected by a hard-wearing craftsman's apron, practical for all sorts of crafting. Increases the wearer's general labor speed. -->
 	<Mousekin_ApparelCraftsmanOutfit.description>一件寬鬆的襯衫、一條褲子和耐磨的工匠圍裙，適合各種工藝。可提升佩戴者的一般工作速度。</Mousekin_ApparelCraftsmanOutfit.description>		<!-- EN: Mousekin Cloak -->
 	<Mousekin_ApparelCloak.label>白鼠族披風</Mousekin_ApparelCloak.label>		<!-- EN: A simple hooded cloak worn by Mousekin villagers or travellers in colder climates. -->
-	<Mousekin_ApparelCloak.description>一種簡單的連帽披風，供白鼠族村民或旅行者在寒冷氣候時穿著。</Mousekin_ApparelCloak.description>		<!-- EN: Mousekin Guardener’s Gown -->
+	<Mousekin_ApparelCloak.description>一種簡單的連帽披風，供白鼠族村民或旅行者在寒冷氣候時穿著。</Mousekin_ApparelCloak.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>兜帽</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>		<!-- EN: Mousekin Guardener’s Gown -->
 	<Mousekin_ApparelGuardenerGown.label>白鼠族花園衛女長袍</Mousekin_ApparelGuardenerGown.label>		<!-- EN: A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat. -->
 	<Mousekin_ApparelGuardenerGown.description>一件灰色長袍，由白鼠族王國花卉守護修會的見習和正式成員穿著，適合園藝和戰鬥。</Mousekin_ApparelGuardenerGown.description>		<!-- EN: Mousekin Guardener’s Robe -->
 	<Mousekin_ApparelGuardenerRobe.label>白鼠族花園衛女披風</Mousekin_ApparelGuardenerRobe.label>		<!-- EN: A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike. -->
-	<Mousekin_ApparelGuardenerRobe.description>一件優雅的灰色披風，由白鼠族王國花卉守護修會的精英衛女和各個會所長母穿著，旨在激發盟友和敵人的敬畏之心。</Mousekin_ApparelGuardenerRobe.description>		<!-- EN: Mousekin Nun’s Habit -->
+	<Mousekin_ApparelGuardenerRobe.description>一件優雅的灰色披風，由白鼠族王國花卉守護修會的精英衛女和各個會所長母穿著，旨在激發盟友和敵人的敬畏之心。</Mousekin_ApparelGuardenerRobe.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>兜帽</Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>		<!-- EN: Mousekin Nun’s Habit -->
 	<Mousekin_ApparelNunHabit.label>白鼠族修女袍</Mousekin_ApparelNunHabit.label>		<!-- EN: A demure habit, practical for administering religious rites as well as caring for the sick and orphaned. -->
 	<Mousekin_ApparelNunHabit.description>一種端莊的長袍，適用於主持宗教儀式以及照顧病人和孤兒。</Mousekin_ApparelNunHabit.description>		<!-- EN: Mousekin Priest’s Cassock -->
 	<Mousekin_ApparelPriestCassock.label>白鼠族牧師法衣</Mousekin_ApparelPriestCassock.label>		<!-- EN: An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer. -->

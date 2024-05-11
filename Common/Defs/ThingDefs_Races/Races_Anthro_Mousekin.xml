@@ -858,8 +858,6 @@
 					<li>Mousekin_BackpackLeather</li>
 					<li>Mousekin_GlassesLarge</li>
 					<li>Mousekin_GlassesSmall</li>
-					<li>Mousekin_HatCloakHood</li>
-					<li>Mousekin_HatGuardenerRobeHood</li>
 					<li>Mousekin_HatHeadscarf</li>
 					<li>Mousekin_HatNunVeil</li>
 					<li>Mousekin_HatNunVeilBack</li>
@@ -873,8 +871,6 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Mousekin_ApparelChildOutfit</li>
 					<!-- Dummy defs used for rendering -->
 					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
-					<li>Mousekin_HatCloakHood</li>
-					<li>Mousekin_HatGuardenerRobeHood</li>
 					<li>Mousekin_HatNunVeilBack</li>
 				</apparelList>
 				<!-- Blacklist selected Core and DLC apparel (mainly for mod lore reasons) -->

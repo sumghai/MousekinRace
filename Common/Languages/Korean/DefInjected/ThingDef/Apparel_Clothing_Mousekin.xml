@@ -11,11 +11,17 @@
 	<Mousekin_ApparelCraftsmanOutfit.label>마우스킨 장인 복장</Mousekin_ApparelCraftsmanOutfit.label>		<!-- EN: A loose shirt and trousers protected by a hard-wearing craftsman's apron, practical for all sorts of crafting. Increases the wearer's general labor speed. -->
 	<Mousekin_ApparelCraftsmanOutfit.description>튼튼한 장인의 앞치마로 보호되는 헐렁한 셔츠와 바지로 모든 종류의 제작에 실용적입니다. 착용자의 일반적인 노동 속도를 증가시킵니다.</Mousekin_ApparelCraftsmanOutfit.description>		<!-- EN: Mousekin Cloak -->
 	<Mousekin_ApparelCloak.label>마우스킨 망토</Mousekin_ApparelCloak.label>		<!-- EN: A simple hooded cloak worn by Mousekin villagers or travellers in colder climates. -->
-	<Mousekin_ApparelCloak.description>마우스킨 주민이나 추운 기후의 여행자가 입는 단순한 후드 망토입니다.</Mousekin_ApparelCloak.description>		<!-- EN: Mousekin Guardener’s Gown -->
+	<Mousekin_ApparelCloak.description>마우스킨 주민이나 추운 기후의 여행자가 입는 단순한 후드 망토입니다.</Mousekin_ApparelCloak.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>후드</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>		<!-- EN: Mousekin Guardener’s Gown -->
 	<Mousekin_ApparelGuardenerGown.label>마우스킨 정원경비원 가운</Mousekin_ApparelGuardenerGown.label>		<!-- EN: A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat. -->
 	<Mousekin_ApparelGuardenerGown.description>정원 가꾸기와 전투 모두에 실용적으로 디자인된 마우스킨 왕국의 꽃 수호단의 견습생과 정식 서품을 받은 사람들이 입는 회색 가운.</Mousekin_ApparelGuardenerGown.description>		<!-- EN: Mousekin Guardener’s Robe -->
 	<Mousekin_ApparelGuardenerRobe.label>마우스킨 정원경비원 망토</Mousekin_ApparelGuardenerRobe.label>		<!-- EN: A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike. -->
-	<Mousekin_ApparelGuardenerRobe.description>아군과 적군 모두에게 경외심을 불러일으키도록 디자인된 마우스킨 왕국의 꽃수호단의 엘리트 베테랑과 롯지 마더스가 착용하는 스타일리시한 회색 로브.</Mousekin_ApparelGuardenerRobe.description>		<!-- EN: Mousekin Nun’s Habit -->
+	<Mousekin_ApparelGuardenerRobe.description>아군과 적군 모두에게 경외심을 불러일으키도록 디자인된 마우스킨 왕국의 꽃수호단의 엘리트 베테랑과 롯지 마더스가 착용하는 스타일리시한 회색 로브.</Mousekin_ApparelGuardenerRobe.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>후드</Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>		<!-- EN: Mousekin Nun’s Habit -->
 	<Mousekin_ApparelNunHabit.label>마우스킨 수녀복</Mousekin_ApparelNunHabit.label>		<!-- EN: A demure habit, practical for administering religious rites as well as caring for the sick and orphaned. -->
 	<Mousekin_ApparelNunHabit.description>병자와 고아를 돌볼 뿐만 아니라 종교 의식을 집행하는 데도 실용적인 겸허한 습관입니다.</Mousekin_ApparelNunHabit.description>		<!-- EN: Mousekin Priest’s Cassock -->
 	<Mousekin_ApparelPriestCassock.label>마우스킨 사제 복장</Mousekin_ApparelPriestCassock.label>		<!-- EN: An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer. -->

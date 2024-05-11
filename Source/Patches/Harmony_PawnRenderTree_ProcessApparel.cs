@@ -1,24 +1,26 @@
 ﻿using HarmonyLib;
 using RimWorld;
+using System.Collections.Generic;
+using System.Linq;
 using Verse;
 
 namespace MousekinRace
 {
-    // Hide all other headgear if hood from hooded apparel is worn up
     [HarmonyPatch(typeof(PawnRenderTree), nameof(PawnRenderTree.ProcessApparel))]
-    public static class Harmony_PawnRenderTree_ProcessApparel_HideOtherNonHoodHeadgear
+    public static class Harmony_PawnRenderTree_ProcessApparel_AddHoodNode
     {
-        static bool Prefix(PawnRenderTree __instance, Apparel ap, PawnRenderNode headApparelNode)
-        { 
-            Pawn pawn = __instance.pawn;
-            if (pawn.apparel.WornApparel.Find(x => x.HasComp<CompApparelWithAttachedHeadgear>()) is Apparel hoodedApparel && hoodedApparel.GetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp && comp.isHatOn)
+        static void Postfix(PawnRenderTree __instance, Apparel ap)
+        {
+            if (ap.comps.OfType<CompApparelWithAttachedHeadgear>().FirstOrDefault() is CompApparelWithAttachedHeadgear comp && comp.CompRenderNodes() is List<PawnRenderNode> renderNodes)
             {
-                if (ap.def.apparel.layers.Contains(ApparelLayerDefOf.Overhead) && !MousekinDefOf.Mousekin_HoodDefs.Contains(ap.def))
+                foreach(PawnRenderNode node in renderNodes) 
                 {
-                    return false; // Hide
+                    if (__instance.ShouldAddNodeToTree(node?.Props))
+                    {
+                        __instance.AddChild(node, null);
+                    }
                 }
             }
-            return true;
         }
     }
 }

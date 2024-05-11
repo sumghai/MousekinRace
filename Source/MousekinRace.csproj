@@ -324,6 +324,9 @@
     <Compile Include="Comps\CompFireplaceRenderer.cs" />
     <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
+    <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
+    <Compile Include="Patches\Harmony_PawnRenderTree_ProcessApparel.cs" />
+    <Compile Include="PawnRendering\PawnRenderNodeWorker_Apparel_Head_ToggleableHood.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
     <Compile Include="DefModExtensions\AlliableFactionExtension.cs" />
@@ -362,12 +365,9 @@
     <Compile Include="Patches\Harmony_IdeoFoundation_Deity.cs" />
     <Compile Include="Patches\Harmony_IdeoFoundation.cs" />
     <Compile Include="Patches\Harmony_InteractionWorker_RecruitAttempt_DoRecruit.cs" />
-    <Compile Include="Patches\Harmony_ITab_Pawn_Gear_DrawThingRow.cs" />
     <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
     <Compile Include="Patches\Harmony_Pawn.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderTree_SetupApparelNodes.cs" />
     <Compile Include="Patches\Harmony_PawnRelationWorker_Sibling.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderTree_ProcessApparel.cs" />
     <Compile Include="Patches\Harmony_Pawn_GuestTracker.cs" />
     <Compile Include="Patches\Harmony_Pawn_HealthTracker.cs" />
     <Compile Include="Patches\Harmony_PawnGenerator.cs" />
