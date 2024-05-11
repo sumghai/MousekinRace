@@ -1,5 +1,6 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Verse;
 
@@ -34,6 +35,7 @@ namespace MousekinRace
 
             // Set up rendering properties for the hood
             properties.texPath = Props.attachedHeadgearGraphicPath;
+            properties.debugLabel = Props.attachedHeadgearLabel.Split('/').Last() + " (dummy)";
             properties.color = Apparel.DrawColor;
             properties.shaderTypeDef = Apparel.def.graphicData.shaderType;
             properties.workerClass = typeof(PawnRenderNodeWorker_Apparel_Head_ToggleableHood);
