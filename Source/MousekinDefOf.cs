@@ -31,8 +31,6 @@ namespace MousekinRace
         public static ThingDef Mousekin_Beeswax;
         public static ThingDef Mousekin_RawHoney;
 
-        public static List<ThingDef> Mousekin_HoodDefs => GetHoodDefs();
-
         public static ThoughtDef Mousekin_Thought_AteCheese;
 
         public static TraitDef Mousekin_TraitSpectrum_Faith;
@@ -75,18 +73,5 @@ namespace MousekinRace
 
         [MayRequireIdeology]
         public static PreceptDef HAR_AlienRaces_Exalted;
-
-        public static List<ThingDef> GetHoodDefs()
-        {
-            List<ThingDef> hoodedApparelDefs = DefDatabase<ThingDef>.AllDefs.Where(x => x.HasComp(typeof(CompApparelWithAttachedHeadgear))).ToList();
-            List<ThingDef> hoodDefs = new List<ThingDef>();
-
-            foreach (ThingDef hoodedApparelDef in hoodedApparelDefs)
-            {
-                hoodDefs.Add(hoodedApparelDef.GetCompProperties<CompProperties_ApparelWithAttachedHeadgear>().attachedHeadgearDef);
-            }
-
-            return hoodDefs;
-        }
     }
 }

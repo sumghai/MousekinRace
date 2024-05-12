@@ -35,6 +35,9 @@
 	<!-- EN: A simple hooded cloak worn by Mousekin villagers or travellers in colder climates. -->
 	<Mousekin_ApparelCloak.description>一种简单的连帽披风，供白鼠族村民或旅行者在寒冷气候时穿着。</Mousekin_ApparelCloak.description>
 	
+	<!-- EN: hood -->
+	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>兜帽</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
+	
 	<!-- EN: Mousekin Guardener’s Gown -->
 	<Mousekin_ApparelGuardenerGown.label>白鼠族花园卫女长袍</Mousekin_ApparelGuardenerGown.label>
 	
@@ -46,6 +49,9 @@
 	
 	<!-- EN: A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike. -->
 	<Mousekin_ApparelGuardenerRobe.description>一件优雅的灰色披风，由白鼠族王国花卉守护修会的精英卫女和各个会所长母穿着，旨在激发盟友和敌人的敬畏之心。</Mousekin_ApparelGuardenerRobe.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>兜帽</Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
 	
 	<!-- EN: Mousekin Nun’s Habit -->
 	<Mousekin_ApparelNunHabit.label>白鼠族修女袍</Mousekin_ApparelNunHabit.label>
