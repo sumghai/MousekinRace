@@ -325,7 +325,7 @@
     <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderTree_ProcessApparel.cs" />
+    <Compile Include="Patches\Harmony_PawnRenderTree.cs" />
     <Compile Include="PawnRendering\PawnRenderNodeWorker_Apparel_Head_ToggleableHood.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
