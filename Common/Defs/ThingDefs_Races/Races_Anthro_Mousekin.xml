@@ -1130,6 +1130,7 @@
 					<def>HumanlikeBaby</def>
 					<minAge>0</minAge>
 					<headOffset>(0, -0.125)</headOffset>
+					<headFemaleOffset>(0, -0.125)</headFemaleOffset>
 				</li>
 				<li Class="AlienRace.LifeStageAgeAlien">
 					<def>HumanlikeChild</def>
