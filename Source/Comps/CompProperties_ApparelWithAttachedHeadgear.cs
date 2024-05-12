@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using System.Collections.Generic;
+using Verse;
 
 namespace MousekinRace
 {
@@ -12,6 +13,9 @@ namespace MousekinRace
 
         [MustTranslate]
         public string attachedHeadgearLabel;
+
+        [NoTranslate]
+        public List<string> hideHarBodyAddonsWithTag = new();
 
         public CompProperties_ApparelWithAttachedHeadgear()
         {

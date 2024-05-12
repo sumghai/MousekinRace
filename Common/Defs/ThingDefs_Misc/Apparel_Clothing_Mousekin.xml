@@ -457,6 +457,9 @@
 				<attachedHeadgearLabel>hood</attachedHeadgearLabel>
 				<attachedHeadgearGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</attachedHeadgearGraphicPath>
 				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</toggleUiIconPath>
+				<hideHarBodyAddonsWithTag>
+					<li>Mousekin_HideEars</li>
+				</hideHarBodyAddonsWithTag>
 			</li>
 		</comps>
 	</ThingDef>
@@ -586,6 +589,9 @@
 				<attachedHeadgearLabel>hood</attachedHeadgearLabel>
 				<attachedHeadgearGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</attachedHeadgearGraphicPath>
 				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</toggleUiIconPath>
+				<hideHarBodyAddonsWithTag>
+					<li>Mousekin_HideEars</li>
+				</hideHarBodyAddonsWithTag>
 			</li>
 		</comps>
 	</ThingDef>
