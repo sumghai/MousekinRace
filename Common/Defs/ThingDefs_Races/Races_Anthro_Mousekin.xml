@@ -1137,6 +1137,7 @@
 					<headOffsetDirectional>
 						<north>
 							<offset>(0, -0.075)</offset>
+							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 						<east>
 							<offset>(-0.025, -0.075)</offset>
@@ -1151,6 +1152,7 @@
 					<headFemaleOffsetDirectional>
 						<north>
 							<offset>(0, -0.075)</offset>
+							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 						<east>
 							<offset>(-0.025, -0.075)</offset>
@@ -1173,6 +1175,7 @@
 					<headOffsetDirectional>
 						<north>
 							<offset>(0, -0.1375)</offset>
+							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 						<east>
 							<offset>(-0.02875, -0.1375)</offset>
@@ -1187,6 +1190,7 @@
 					<headFemaleOffsetDirectional>
 						<north>
 							<offset>(0, -0.1375)</offset>
+							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 						<east>
 							<offset>(-0.02875, -0.1375)</offset>
@@ -1207,6 +1211,16 @@
 					<def>HumanlikeTeenager</def>
 					<minAge>13</minAge>
 					<headOffset>(0, -0.015)</headOffset>
+					<headOffsetDirectional>
+						<north>
+							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+					</headOffsetDirectional>
+					<headFemaleOffsetDirectional>
+						<north>
+							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+					</headFemaleOffsetDirectional>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
 					<soundDeath>Pawn_Mousekin_Death</soundDeath>
 					<soundCall>Pawn_Mousekin_Call</soundCall>
