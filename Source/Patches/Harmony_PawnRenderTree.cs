@@ -6,10 +6,21 @@ using Verse;
 
 namespace MousekinRace
 {
-    // Add a pawn render node for the toggleable hood
+    // Add a pawn render node for the toggleable hood, and hide all other headgear if the hood is enabled
     [HarmonyPatch(typeof(PawnRenderTree), nameof(PawnRenderTree.ProcessApparel))]
-    public static class Harmony_PawnRenderTree_ProcessApparel_AddHoodNode
+    public static class Harmony_PawnRenderTree_ProcessApparel_AddHoodNodeAndHideOtherHeadgear
     {
+        // Hide all other headgear is the hood is enabled
+        static bool Prefix(PawnRenderTree __instance, Apparel ap, PawnRenderNode headApparelNode)
+        {
+            if (ap.def.apparel.layers.Contains(ApparelLayerDefOf.Overhead) && __instance.pawn.apparel.WornApparel.Find(ap => ap.HasComp<CompApparelWithAttachedHeadgear>()) is Apparel hoodedApparel && hoodedApparel.GetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp && comp.isHatOn)
+            {
+                return false; // Hide
+            }
+            return true;
+        }
+
+        // Add the hooded headgear render node
         static void Postfix(PawnRenderTree __instance, Apparel ap)
         {
             if (ap.comps.OfType<CompApparelWithAttachedHeadgear>().FirstOrDefault() is CompApparelWithAttachedHeadgear comp && comp.CompRenderNodes() is List<PawnRenderNode> renderNodes)
