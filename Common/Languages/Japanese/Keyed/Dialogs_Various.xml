@@ -36,6 +36,9 @@
 
 	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
 	<MousekinRace_AllegianceSys_ReqDesc>この派閥に忠誠を誓うには、上記の条件を満たす必要があります.</MousekinRace_AllegianceSys_ReqDesc>
+	
+	<!-- EN: Are you sure you want to pledge allegiance to {0}? -->
+	<MousekinRace_AllegianceSys_JoinConfirmation>本当に{0}に忠誠を誓いますか?</MousekinRace_AllegianceSys_JoinConfirmation>
 
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}の{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>

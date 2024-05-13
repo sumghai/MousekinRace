@@ -209,7 +209,21 @@ namespace MousekinRace
                 {
                     if (joinRequirementsMet)
                     {
-                        AllegianceSys_Utils.JoinFaction(factionOptions[i]);
+                        Faction targetFaction = factionOptions[i];
+                        TaggedString targetFactionNameRendered = targetFaction.Name.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? targetFaction.Name.Colorize(targetFaction.Color) : "DefiniteArticle".Translate() + " " + targetFaction.Name.Colorize(targetFaction.Color);
+
+                        List<Tuple<Pawn, string>> quittingColonists = AllegianceSys_Utils.GetQuittingColonistsWithReasons(targetFaction);
+
+                        Find.TickManager.Pause();
+
+                        TaggedString joinConfirmationMsg = 
+                            "MousekinRace_AllegianceSys_JoinConfirmation".Translate(targetFactionNameRendered) + "\n\n" + 
+                            AllegianceSys_Utils.GenerateQuittingColonistsWithReasonsDesc("MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns", quittingColonists);
+
+                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation(joinConfirmationMsg, delegate
+                        {
+                            AllegianceSys_Utils.JoinFaction(targetFaction);
+                        }));
                     }
                     else
                     {

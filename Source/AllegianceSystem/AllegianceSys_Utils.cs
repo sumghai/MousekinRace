@@ -72,39 +72,7 @@ namespace MousekinRace
         { 
             pawn.SetFaction(GameComponent_Allegiance.Instance.alliableFactions.FirstOrDefault(f => GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().hostileToFactionTypes.Contains(f.def)));
         }
-
-        public static TaggedString GenerateBenefitsDesc(Faction allegianceFaction)
-        {
-            TaggedString descBody = new();
-
-            // todo - populate with content
-
-            return descBody;
-        }
-
-        public static TaggedString GenerateCostsDesc(Faction allegianceFaction)
-        {
-            TaggedString descBody = new();
-
-            if (ModsConfig.IdeologyActive)
-            {
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString().Colorize(allegianceFaction.ideos.PrimaryIdeo.Color)) + "\n";
-            }
-
-            List<Tuple<Pawn, string>> quittingColonists = GetQuittingColonistsWithReasons(allegianceFaction);
-            if (quittingColonists.Count > 0)
-            {
-                TaggedString quittingColonistsListString = new();
-                foreach (Tuple<Pawn, string> quittingColonist in quittingColonists)
-                {
-                    quittingColonistsListString += "  - " + quittingColonist.Item1.Name.ToStringShort + (", " + quittingColonist.Item1.story.TitleShortCap).Colorize(ColoredText.SubtleGrayColor) + " (" + quittingColonist.Item2 + ")" + "\n";
-                }
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns".Translate(quittingColonistsListString) + "\n";
-            }
-
-            return descBody;
-        }
-
+        
         public static List<Tuple<Pawn, string>> GetQuittingColonistsWithReasons(Faction allegianceFaction)
         {
             AlliableFactionExtension alliableFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
@@ -143,26 +111,63 @@ namespace MousekinRace
 
             return quittingColonists;
         }
+
+        public static TaggedString GenerateQuittingColonistsWithReasonsDesc(string preambleTranslationKey, List<Tuple<Pawn, string>> quittingColonistsWithReasons)
+        {
+            TaggedString output = new();
+            if (quittingColonistsWithReasons.Count > 0)
+            {
+                TaggedString quittingColonistsListString = new();
+                Tuple<Pawn, string> lastQuittingColonist = quittingColonistsWithReasons.Last();
+                foreach (Tuple<Pawn, string> quittingColonist in quittingColonistsWithReasons)
+                {
+                    quittingColonistsListString += "  - " + quittingColonist.Item1.Name.ToStringShort + (", " + quittingColonist.Item1.story.TitleShortCap).Colorize(ColoredText.SubtleGrayColor) + " (" + quittingColonist.Item2 + ")";
+                    
+                    if (!quittingColonist.Equals(lastQuittingColonist))
+                    {
+                        quittingColonistsListString += "\n";
+                    }
+                }
+                output = preambleTranslationKey.Translate(quittingColonistsListString);
+            }
+            return output;
+        }
         
+        public static TaggedString GenerateBenefitsDesc(Faction allegianceFaction)
+        {
+            TaggedString descBody = new();
+
+            // todo - populate with content
+
+            return descBody;
+        }
+
+        public static TaggedString GenerateCostsDesc(Faction allegianceFaction)
+        {
+            TaggedString descBody = new();
+
+            if (ModsConfig.IdeologyActive)
+            {
+                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString().Colorize(allegianceFaction.ideos.PrimaryIdeo.Color)) + "\n\n";
+            }
+
+            List<Tuple<Pawn, string>> quittingColonists = GetQuittingColonistsWithReasons(allegianceFaction);
+            descBody += "- " + GenerateQuittingColonistsWithReasonsDesc("MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns", quittingColonists);
+
+            return descBody;
+        }
+
         public static TaggedString GenerateJoinFactionLetterDesc(Faction allegianceFaction, List<Tuple<Pawn, string>> quittingColonistsWithReasons)
         {
             TaggedString letterBody = new();
-            letterBody += "MousekinRace_Letter_AllegianceSysJoinedFactionDesc".Translate(MembershipToFactionLabel(allegianceFaction, true));
+            letterBody += "MousekinRace_Letter_AllegianceSysJoinedFactionDesc".Translate(MembershipToFactionLabel(allegianceFaction, true)) + "\n\n";
             
             if (ModsConfig.IdeologyActive) 
             {
-                letterBody += "\n\n" + "MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString().Colorize(allegianceFaction.ideos.PrimaryIdeo.Color));
+                letterBody += "MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString().Colorize(allegianceFaction.ideos.PrimaryIdeo.Color)) + "\n\n";
             }
 
-            if (quittingColonistsWithReasons.Count > 0) 
-            {
-                TaggedString quittingColonistsListString = new();
-                foreach (Tuple<Pawn, string> quittingColonist in quittingColonistsWithReasons)
-                {
-                    quittingColonistsListString += "  - " + quittingColonist.Item1.Name.ToStringShort + (", " + quittingColonist.Item1.story.TitleShortCap).Colorize(ColoredText.SubtleGrayColor) + " (" + quittingColonist.Item2 + ")" + "\n";
-                }
-                letterBody += "\n\n" + "MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists".Translate(quittingColonistsListString);
-            }
+            letterBody += GenerateQuittingColonistsWithReasonsDesc("MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists", quittingColonistsWithReasons);
 
             return letterBody;
         }

@@ -36,6 +36,9 @@
 
 	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
 	<MousekinRace_AllegianceSys_ReqDesc>이 진영에 충성을 맹세하려면 위에 나열된 요구 사항을 충족해야 합니다.</MousekinRace_AllegianceSys_ReqDesc>
+	
+	<!-- EN: Are you sure you want to pledge allegiance to {0}? -->
+	<MousekinRace_AllegianceSys_JoinConfirmation>{0}에 충성을 맹세하시겠습니까?</MousekinRace_AllegianceSys_JoinConfirmation>
 
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1} {0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
