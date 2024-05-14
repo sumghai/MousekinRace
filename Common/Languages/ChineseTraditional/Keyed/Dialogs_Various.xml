@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<!-- EN: The Faction Allegiance system is disabled, as at least one of your colonists holds a royal title with {0}.\n\nTo access this system, all of your colonists must renounce their royal titles. -->
+	<MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>派系效忠系統已禁用，因為至少有一名殖民者擁有{0}的"榮譽頭銜"。\n\n要使用該系統，您所有的殖民者都必須放棄他們的"榮譽頭銜"。</MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>
+	
 	<!-- EN: Requirements: -->
 	<MousekinRace_AllegianceSys_ReqSubheading>所需條件：</MousekinRace_AllegianceSys_ReqSubheading>
 

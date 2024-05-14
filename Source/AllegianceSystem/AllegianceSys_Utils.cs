@@ -171,5 +171,18 @@ namespace MousekinRace
 
             return letterBody;
         }
+
+        public static bool AnyColonistsWithShatteredEmpireTitle()
+        {          
+            List<Pawn> tempAllColonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+            foreach (Pawn pawn in tempAllColonists)
+            {
+                if (pawn.royalty.HasAnyTitleIn(Faction.OfEmpire))
+                { 
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

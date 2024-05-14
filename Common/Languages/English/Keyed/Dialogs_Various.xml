@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
+	<MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>The Faction Allegiance system is disabled, as at least one of your colonists holds a royal title with {0}.\n\nTo access this system, all of your colonists must renounce their royal titles.</MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>
+	
 	<MousekinRace_AllegianceSys_ReqSubheading>Requirements:</MousekinRace_AllegianceSys_ReqSubheading>
 	
 	<MousekinRace_AllegianceSys_ReqMinColonyAge>Colony at least {0} old</MousekinRace_AllegianceSys_ReqMinColonyAge>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<!-- EN: The Faction Allegiance system is disabled, as at least one of your colonists holds a royal title with {0}.\n\nTo access this system, all of your colonists must renounce their royal titles. -->
+	<MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>식민지 개척자 중 최소 한 명이 {0}로 왕족 칭호를 보유하고 있으므로 진영 충성 시스템이 비활성화되었습니다.\n\n이 시스템을 사용하려면 모든 식민지 주민이 왕족 칭호를 포기해야 합니다.</MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>
+
 	<!-- EN: Requirements: -->
 	<MousekinRace_AllegianceSys_ReqSubheading>충성도를 위한 요구 사항:</MousekinRace_AllegianceSys_ReqSubheading>
 

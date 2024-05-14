@@ -8,6 +8,8 @@ namespace MousekinRace
     public class GameComponent_Allegiance : GameComponent
     {
         public bool seenAllegianceSysIntroLetter = false;
+
+        public bool anyColonistsWithShatteredEmpireTitle = false;
         
         public List<Building_TownSquare> townSquares = new();
 
@@ -70,6 +72,7 @@ namespace MousekinRace
         {
             base.ExposeData();
             Scribe_Values.Look(ref seenAllegianceSysIntroLetter, "seenAllegianceSysIntroLetter", false, true);
+            Scribe_Values.Look(ref anyColonistsWithShatteredEmpireTitle, "anyColonistsWithShatteredEmpireTitle");
             Scribe_References.Look(ref alignedFaction, "alignedFaction");
             Instance = this;
         }

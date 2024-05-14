@@ -21,16 +21,23 @@ namespace MousekinRace
         public override void DoWindowContents(Rect inRect)
         {
             float y = 0;
-            DrawTitleBlock(inRect, ref y);
-
-            if (GameComponent_Allegiance.Instance.alignedFaction != null)
-            { 
-            
+            if (ModsConfig.RoyaltyActive && Faction.OfEmpire != null && GameComponent_Allegiance.Instance.anyColonistsWithShatteredEmpireTitle)
+            {
+                DrawSystemDisabledByShatteredEmpire(inRect, ref y);
             } 
             else 
             {
-                DrawFactionChooser(inRect, ref y);
-            }
+                DrawTitleBlock(inRect, ref y);
+
+                if (GameComponent_Allegiance.Instance.alignedFaction != null)
+                {
+                    // todo - allegiance system home page
+                }
+                else
+                {
+                    DrawFactionChooser(inRect, ref y);
+                }
+            }            
         }
 
         public void DrawTitleBlock(Rect rect, ref float y)
@@ -233,6 +240,20 @@ namespace MousekinRace
                 GUI.color = orgColor;
             }
 
+        }
+
+        public void DrawSystemDisabledByShatteredEmpire(Rect rect, ref float y)
+        {
+            TextAnchor anchor = Text.Anchor;
+            Text.Anchor = TextAnchor.MiddleCenter;
+            Text.Font = GameFont.Small;
+
+            TaggedString empireNameColored = Faction.OfEmpire.Name.Colorize(Faction.OfEmpire.Color);
+            TaggedString empireNameWithArticle = empireNameColored.RawText.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? empireNameColored : "DefiniteArticle".Translate().CapitalizeFirst() + " " + empireNameColored;
+
+            Widgets.Label(rect, "MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire".Translate(empireNameWithArticle));
+
+            Text.Anchor = anchor;
         }
 
         public void DrawJoiningRequirementRow(Rect rect, ref float y, string requirementFormatted, string gameVarFormatted, bool requirementMet)
