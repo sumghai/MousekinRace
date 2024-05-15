@@ -325,6 +325,7 @@
     <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
+    <Compile Include="Patches\Harmony_IncidentWorker_CaravanArrivalTributeCollector.cs" />
     <Compile Include="Patches\Harmony_Pawn_RoyaltyTracker.cs" />
     <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
     <Compile Include="Patches\Harmony_PawnRenderTree.cs" />
