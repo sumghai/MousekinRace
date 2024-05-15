@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ScenarioDef>
+	<ScenarioDef Name="Mousekin_ScenarioBase" Abstract="true">
+		<scenario>
+			<parts>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>GiveQuest_EndGame_ShipEscape</incident>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	<ScenarioDef ParentName="Mousekin_ScenarioBase">
 		<defName>Mousekin_Scenario_Settlers</defName>
 		<label>Mousekin Settlers</label>
 		<description>With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come.</description>
@@ -189,7 +200,7 @@
 		</scenario>
 	</ScenarioDef>
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="Mousekin_ScenarioBase">
 		<defName>Mousekin_Scenario_Refugees</defName>
 		<label>Mousekin Refugees</label>
 		<description>Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario.</description>
