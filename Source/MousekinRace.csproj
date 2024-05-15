@@ -326,7 +326,12 @@
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
     <Compile Include="Patches\Harmony_IncidentWorker_CaravanArrivalTributeCollector.cs" />
+    <Compile Include="Patches\Harmony_IncidentWorker_GiveQuest.cs" />
     <Compile Include="Patches\Harmony_Pawn_RoyaltyTracker.cs" />
+    <Compile Include="Patches\Harmony_QuestGen.cs" />
+    <Compile Include="Patches\Harmony_QuestNode_GetPawn.cs" />
+    <Compile Include="Patches\Harmony_QuestNode_GetFaction.cs" />
+    <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />
     <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
     <Compile Include="Patches\Harmony_PawnRenderTree.cs" />
     <Compile Include="PawnRendering\PawnRenderNodeWorker_Apparel_Head_ToggleableHood.cs" />
