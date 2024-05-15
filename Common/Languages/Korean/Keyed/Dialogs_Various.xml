@@ -28,6 +28,9 @@
 	<!-- EN: {0} of becoming a {1} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>{1}가 되기 위한 {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>
 	
+	<!-- EN: You will no longer receive quests and tribute collectors from {0} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>더 이상 {0}로부터 퀘스트와 공물 수집가를 받지 못합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
+	
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>소속 진영이 {0} 이데올로기를 채택합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	

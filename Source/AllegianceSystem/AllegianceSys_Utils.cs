@@ -132,7 +132,19 @@ namespace MousekinRace
             }
             return output;
         }
-        
+
+        public static TaggedString GenerateShatteredEmpireQuestsDisabledDesc()
+        {
+            TaggedString output = new();
+            if (ModsConfig.RoyaltyActive && Faction.OfEmpire != null)
+            {
+                TaggedString empireNameColored = Faction.OfEmpire.Name.Colorize(Faction.OfEmpire.Color);
+                TaggedString empireNameWithArticle = empireNameColored.RawText.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? empireNameColored : "DefiniteArticle".Translate().CapitalizeFirst() + " " + empireNameColored;
+                output = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled".Translate(empireNameWithArticle) + "\n\n";
+            }
+            return output;
+        }
+
         public static TaggedString GenerateBenefitsDesc(Faction allegianceFaction)
         {
             TaggedString descBody = new();
@@ -145,14 +157,22 @@ namespace MousekinRace
         public static TaggedString GenerateCostsDesc(Faction allegianceFaction)
         {
             TaggedString descBody = new();
-
+            
             if (ModsConfig.IdeologyActive)
             {
                 descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString().Colorize(allegianceFaction.ideos.PrimaryIdeo.Color)) + "\n\n";
             }
 
+            if (ModsConfig.RoyaltyActive && Faction.OfEmpire != null)
+            {
+                descBody += "- " + GenerateShatteredEmpireQuestsDisabledDesc();
+            }
+
             List<Tuple<Pawn, string>> quittingColonists = GetQuittingColonistsWithReasons(allegianceFaction);
-            descBody += "- " + GenerateQuittingColonistsWithReasonsDesc("MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns", quittingColonists);
+            if (quittingColonists.Count > 0)
+            {
+                descBody += "- " + GenerateQuittingColonistsWithReasonsDesc("MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns", quittingColonists);
+            }    
 
             return descBody;
         }

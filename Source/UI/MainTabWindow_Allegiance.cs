@@ -225,6 +225,7 @@ namespace MousekinRace
 
                         TaggedString joinConfirmationMsg = 
                             "MousekinRace_AllegianceSys_JoinConfirmation".Translate(targetFactionNameRendered) + "\n\n" + 
+                            AllegianceSys_Utils.GenerateShatteredEmpireQuestsDisabledDesc() +
                             AllegianceSys_Utils.GenerateQuittingColonistsWithReasonsDesc("MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns", quittingColonists);
 
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation(joinConfirmationMsg, delegate
