@@ -72,7 +72,7 @@ namespace MousekinRace
         { 
             pawn.SetFaction(GameComponent_Allegiance.Instance.alliableFactions.FirstOrDefault(f => GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().hostileToFactionTypes.Contains(f.def)));
         }
-        
+
         public static List<Tuple<Pawn, string>> GetQuittingColonistsWithReasons(Faction allegianceFaction)
         {
             AlliableFactionExtension alliableFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
@@ -149,7 +149,12 @@ namespace MousekinRace
         {
             TaggedString descBody = new();
 
-            // todo - populate with content
+            AlliableFactionExtension alliableFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
+
+            if (alliableFactionExtension.tradePriceFactor != 1f)
+            {
+                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor".Translate(alliableFactionExtension.tradePriceFactor.ToStringPercent());
+            }
 
             return descBody;
         }

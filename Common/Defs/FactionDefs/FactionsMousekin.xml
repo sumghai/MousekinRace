@@ -560,6 +560,7 @@
 					<li>MousekinIndyTownCouncilor</li>
 					<li>MousekinIndyTownSoldier</li>
 				</quittingPawnKinds>
+				<tradePriceFactor>0.75</tradePriceFactor>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -756,6 +757,7 @@
 					<!-- Inquisitionists will leave -->
 					<Mousekin_TraitSpectrum_Faith>4</Mousekin_TraitSpectrum_Faith>
 				</quittingPawnsWithTraits>
+				<tradePriceFactor>0.8</tradePriceFactor>
 			</li>
 		</modExtensions>
 	</FactionDef>

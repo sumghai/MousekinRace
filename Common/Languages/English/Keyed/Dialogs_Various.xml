@@ -23,6 +23,8 @@
 	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>Your faction will adopt the {0} ideoligion</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>Traders from this faction will offer goods at {0} of typical market values</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
+	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>The following colonists will be unhappy if you pledge allegiance to this faction, and will leave:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
 	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>{0} trait</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>
@@ -32,5 +34,7 @@
 	<MousekinRace_AllegianceSys_JoinConfirmation>Are you sure you want to pledge allegiance to {0}?</MousekinRace_AllegianceSys_JoinConfirmation>
 	
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} of {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
+	
+	<MousekinRace_TradePriceFactor_FactionAllegiance>faction allegiance</MousekinRace_TradePriceFactor_FactionAllegiance>
 
 </LanguageData>

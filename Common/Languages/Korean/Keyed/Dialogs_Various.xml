@@ -34,6 +34,9 @@
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>소속 진영이 {0} 이데올로기를 채택합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	
+	<!-- EN: Traders from this faction will offer goods at {0} of typical market values -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>이 진영의 상인은 일반 시장 가격의 {0}에 상품을 판매합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
+	
 	<!-- EN: The following colonists will be unhappy if you pledge allegiance to this faction, and will leave:\n{0} -->	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>이 진영에 충성을 맹세하면 다음 식민지 주민들은 불만을 품고 떠날 것입니다:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
 	
@@ -48,5 +51,8 @@
 
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1} {0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
+	
+	<!-- EN: faction allegiance -->
+	<MousekinRace_TradePriceFactor_FactionAllegiance>진영 충성</MousekinRace_TradePriceFactor_FactionAllegiance>
 
 </LanguageData>

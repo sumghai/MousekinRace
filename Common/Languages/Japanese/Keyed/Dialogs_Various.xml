@@ -34,6 +34,9 @@
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>あなたの派閥は{0}思想に従います.</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	
+	<!-- EN: Traders from this faction will offer goods at {0} of typical market values -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>この派閥のトレーダーは、一般的な市場価格の{0}で商品を提供します</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
+	
 	<!-- EN: The following colonists will be unhappy if you pledge allegiance to this faction, and will leave:\n{0} -->	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>あなたがこの派閥に忠誠を誓えば、以下の入植者は不満に思い、去っていくでしょう:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
 	
@@ -48,5 +51,8 @@
 
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}の{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
+	
+	<!-- EN: faction allegiance -->
+	<MousekinRace_TradePriceFactor_FactionAllegiance>派閥忠誠</MousekinRace_TradePriceFactor_FactionAllegiance>
 
 </LanguageData>

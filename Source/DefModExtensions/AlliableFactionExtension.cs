@@ -21,6 +21,8 @@ namespace MousekinRace
         public List<PawnKindDef> quittingPawnKinds = new();
 
         public List<BackstoryTrait> quittingPawnsWithTraits = new();
+
+        public float tradePriceFactor = 1f;
     }
 
     public class AlliableFactionJoinRequirements 

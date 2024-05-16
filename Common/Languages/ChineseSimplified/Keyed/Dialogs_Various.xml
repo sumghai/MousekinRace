@@ -34,6 +34,9 @@
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>您的派别将采纳{0}文化形态</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	
+	<!-- EN: Traders from this faction will offer goods at {0} of typical market values -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>该派系的商人将以一般市场价值{0}的价格提供商品</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
+	
 	<!-- EN: The following colonists will be unhappy if you pledge allegiance to this faction, and will leave:\n{0} -->	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>如果您效忠该派别，下列殖民者将感到不满，并将离开:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
 	
@@ -48,5 +51,8 @@
 
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}的{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
+	
+	<!-- EN: faction allegiance -->
+	<MousekinRace_TradePriceFactor_FactionAllegiance>派系效忠</MousekinRace_TradePriceFactor_FactionAllegiance>
 
 </LanguageData>
