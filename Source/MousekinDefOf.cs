@@ -73,5 +73,8 @@ namespace MousekinRace
 
         [MayRequireIdeology]
         public static PreceptDef HAR_AlienRaces_Exalted;
+
+        [MayRequireBiotech]
+        public static XenotypeDef Mousekin_XenotypeMousekin;
     }
 }
