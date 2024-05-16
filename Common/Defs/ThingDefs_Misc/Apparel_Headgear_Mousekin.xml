@@ -175,6 +175,66 @@
 		</modExtensions>
 	</ThingDef>
 	
+	<ThingDef ParentName="Mousekin_HatMiddleMakeableBase">
+		<defName>Mousekin_HatWoodsman</defName>
+		<label>Mousekin Woodsman’s Bycocket</label>
+		<description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatWoodsman/MousekinHatWoodsman</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatWoodsman/MousekinHatWoodsman</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownSoldier</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelIndyTown</li>
+		</tradeTags>
+	</ThingDef>
+	
 	<!-- Military Headgear -->
 	
 	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
@@ -367,61 +427,6 @@
 	</ThingDef>
 	
 	<!-- Uncraftable -->
-	
-	<ThingDef ParentName="Mousekin_HatBase">
-		<defName>Mousekin_HatWoodsman</defName>
-		<label>Mousekin Woodsman’s Bycocket</label>
-		<description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</description>
-		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatWoodsman/MousekinHatWoodsman</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<costStuffCount>25</costStuffCount>
-		<stuffCategories>
-			<li>Fabric</li>
-		</stuffCategories>
-		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
-			<WorkToMake>1000</WorkToMake>
-			<Mass>0.1</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>0.5</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<NegotiationAbility>0.10</NegotiationAbility>
-			<SocialImpact>0.10</SocialImpact>
-		</equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>UpperHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatWoodsman/MousekinHatWoodsman</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<renderSkipFlags>
-				<li>None</li>
-			</renderSkipFlags>
-			<tags>
-				<li>MousekinIndyTownCouncilor</li>
-				<li>MousekinIndyTownSoldier</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-			<!-- Unisex -->
-		</apparel>
-		<comps>
-			<li>
-				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
-			</li>
-		</comps>
-		<tradeTags>
-			<li>Mousekin_TradeGoods_ApparelIndyTown</li>
-		</tradeTags>
-	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_HatBase">
 		<defName>Mousekin_HelmetKnightCommander</defName>

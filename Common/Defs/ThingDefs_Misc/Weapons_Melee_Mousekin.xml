@@ -600,8 +600,12 @@
 			<li>Mousekin_MeleeWeapon_IndyTown</li>
 			<li>Mousekin_RangedWeapon</li>
 		</weaponTags>
-		<!-- Indy Town exclusive weapon - probably not craftable -->
-		<recipeMaker Inherit="False" isNull="True"/>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchGunpowder</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<burnableByRecipe>false</burnableByRecipe>
 		<verbs>
 			<li>
