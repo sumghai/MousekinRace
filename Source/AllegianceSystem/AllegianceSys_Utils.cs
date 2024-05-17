@@ -57,6 +57,9 @@ namespace MousekinRace
 
             // Send a custom letter notifying player they have joined the chosen faction, and describing any consequences
             Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysJoinedFaction".Translate(allegianceFaction.Name), GenerateJoinFactionLetterDesc(allegianceFaction, quittingColonistsWithReasons), LetterDefOf.PositiveEvent);
+
+            // Remove any workbench bills for items disallowed by faction allegiance/restriction
+            AllegianceSys_Utils.ResetFactionRestrictedCraftingBills();
         }
 
         public static bool IsEnemyBecauseOfAllegiance(Faction a, Faction b)
@@ -153,7 +156,12 @@ namespace MousekinRace
 
             if (alliableFactionExtension.tradePriceFactor != 1f)
             {
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor".Translate(alliableFactionExtension.tradePriceFactor.ToStringPercent());
+                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor".Translate(alliableFactionExtension.tradePriceFactor.ToStringPercent()) + "\n\n";
+            }
+
+            if (alliableFactionExtension.factionRestrictedCraftableThingDefs != null && alliableFactionExtension.factionRestrictedCraftableThingDefs.Count > 0) 
+            {
+                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked".Translate();
             }
 
             return descBody;
@@ -208,6 +216,33 @@ namespace MousekinRace
                 }
             }
             return false;
+        }
+
+        public static void ResetFactionRestrictedCraftingBills()
+        {
+            List <Building_WorkTable> colonistWorktablesWithFactionRestrictedItemBills = new();
+            
+            foreach (Map map in Find.Maps)
+            {
+                colonistWorktablesWithFactionRestrictedItemBills.AddRange(map.listerBuildings.AllColonistBuildingsOfType<Building_WorkTable>().Where(worktable => worktable.BillStack.Bills.Where(bill => MousekinDefOf.FactionRestrictedThingDefs.Contains(bill.recipe.ProducedThingDef)).Count() > 0));
+            }
+            
+            if (GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction)
+            {
+                List<ThingDef> thingDefsToRemove = MousekinDefOf.FactionRestrictedThingDefs.Except(allegianceFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs).ToList();
+
+                foreach (Building_WorkTable worktable in colonistWorktablesWithFactionRestrictedItemBills)
+                {
+                    worktable.BillStack.bills.RemoveAll(bill => thingDefsToRemove.Contains(bill.recipe.ProducedThingDef));
+                }
+            }
+            else
+            {
+                foreach (Building_WorkTable worktable in colonistWorktablesWithFactionRestrictedItemBills) 
+                {
+                    worktable.BillStack.bills.RemoveAll(bill => MousekinDefOf.FactionRestrictedThingDefs.Contains(bill.recipe.ProducedThingDef));
+                }
+            }
         }
     }
 }

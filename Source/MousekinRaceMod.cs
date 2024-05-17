@@ -1,6 +1,7 @@
 ﻿using AlienRace;
 using HarmonyLib;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
@@ -27,6 +28,11 @@ namespace MousekinRace
             {
                 Log.Message("MousekinRace :: Medieval Overhaul detected!");
             }
+
+            List<BackCompatibilityConverter> compatibilityConverters =
+                AccessTools.StaticFieldRefAccess<List<BackCompatibilityConverter>>(typeof(BackCompatibility), "conversionChain");
+
+            compatibilityConverters.Add(new BackCompatibilityConverter_Mousekin());
         }
         public override void DoSettingsWindowContents(Rect canvas)
         {

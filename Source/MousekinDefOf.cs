@@ -1,7 +1,5 @@
 ﻿using RimWorld;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using Verse;
 
 namespace MousekinRace
@@ -30,6 +28,19 @@ namespace MousekinRace
 
         public static ThingDef Mousekin_Beeswax;
         public static ThingDef Mousekin_RawHoney;
+
+        public static List<ThingDef> FactionRestrictedThingDefs
+        {
+            get 
+            {
+                List<ThingDef> thingDefs = new();
+                foreach (Faction faction in GameComponent_Allegiance.Instance.alliableFactions)
+                {
+                    thingDefs.AddRange(faction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs);
+                }
+                return thingDefs;
+            }
+        }
 
         public static ThoughtDef Mousekin_Thought_AteCheese;
 

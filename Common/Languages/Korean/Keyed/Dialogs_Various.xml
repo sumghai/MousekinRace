@@ -31,6 +31,9 @@
 	<!-- EN: You will no longer receive quests and tribute collectors from {0} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>더 이상 {0}로부터 퀘스트와 공물 수집가를 받지 못합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
 	
+	<!-- EN: The following faction-exclusive items will be available for crafting: -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>다음 진영 전용 아이템을 제작할 수 있습니다:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
+	
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>소속 진영이 {0} 이데올로기를 채택합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	

@@ -23,6 +23,8 @@ namespace MousekinRace
         public List<BackstoryTrait> quittingPawnsWithTraits = new();
 
         public float tradePriceFactor = 1f;
+
+        public List<ThingDef> factionRestrictedCraftableThingDefs = new();
     }
 
     public class AlliableFactionJoinRequirements 

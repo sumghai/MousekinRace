@@ -31,6 +31,9 @@
 	<!-- EN: You will no longer receive quests and tribute collectors from {0} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>{0}からクエストと王室徴税官を受け取らなくなります</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
 	
+	<!-- EN: The following faction-exclusive items will be available for crafting: -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>以下の派閥限定アイテムを作ることができます:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
+	
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>あなたの派閥は{0}思想に従います.</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	

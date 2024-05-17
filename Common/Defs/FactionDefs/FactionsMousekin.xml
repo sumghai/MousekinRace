@@ -561,6 +561,15 @@
 					<li>MousekinIndyTownSoldier</li>
 				</quittingPawnKinds>
 				<tradePriceFactor>0.75</tradePriceFactor>
+				<factionRestrictedCraftableThingDefs>
+					<li>Mousekin_ApparelGuardenerGown</li>
+					<li>Mousekin_ApparelGuardenerRobe</li>
+					<li>Mousekin_ArmorPlate</li>
+					<li>Mousekin_HelmetKnight</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardenerTraining</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardener</li>
+					<li>Mousekin_MeleeWeapon_SwordKnight</li>
+				</factionRestrictedCraftableThingDefs>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -758,6 +767,11 @@
 					<Mousekin_TraitSpectrum_Faith>4</Mousekin_TraitSpectrum_Faith>
 				</quittingPawnsWithTraits>
 				<tradePriceFactor>0.8</tradePriceFactor>
+				<factionRestrictedCraftableThingDefs>
+					<li>Mousekin_HatWoodsman</li>
+					<li>Mousekin_MeleeWeapon_PikeThunder</li>
+					<li>Mousekin_RangedWeapon_MusketShort</li>
+				</factionRestrictedCraftableThingDefs>
 			</li>
 		</modExtensions>
 	</FactionDef>

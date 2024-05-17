@@ -306,6 +306,7 @@
     <Compile Include="Alerts\Alert_TownSquareObstructed.cs" />
     <Compile Include="Alerts\Alert_TownSquareUnpaved.cs" />
     <Compile Include="AllegianceSystem\AllegianceSys_Utils.cs" />
+    <Compile Include="BackCompatibilityConverter_Mousekin.cs" />
     <Compile Include="Buildings\Building_Beehive.cs" />
     <Compile Include="Buildings\Building_TownSquare.cs" />
     <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
@@ -332,6 +333,7 @@
     <Compile Include="Patches\Harmony_QuestGen.cs" />
     <Compile Include="Patches\Harmony_QuestNode_GetPawn.cs" />
     <Compile Include="Patches\Harmony_QuestNode_GetFaction.cs" />
+    <Compile Include="Patches\Harmony_RecipeDef.cs" />
     <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />
     <Compile Include="Patches\Harmony_Tradeable.cs" />
     <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
