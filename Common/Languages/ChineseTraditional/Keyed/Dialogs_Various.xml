@@ -16,11 +16,29 @@
 	<!-- EN: At least {0} goodwill with faction -->
 	<MousekinRace_AllegianceSys_ReqMinGoodwill>至少與派系建立{0}友好度</MousekinRace_AllegianceSys_ReqMinGoodwill>
 	
+	<!-- EN: Overview -->
+	<MousekinRace_AllegianceSys_Overview>概觀</MousekinRace_AllegianceSys_Overview>
+	
 	<!-- EN: Benefits -->
 	<MousekinRace_AllegianceSys_Benefits>福利</MousekinRace_AllegianceSys_Benefits>
 	
 	<!-- EN: Costs -->
 	<MousekinRace_AllegianceSys_Costs>代價</MousekinRace_AllegianceSys_Costs>
+	
+	<!-- EN: Invite Colonists -->
+	<MousekinRace_AllegianceSys_Recruit>邀請殖民者</MousekinRace_AllegianceSys_Recruit>
+	
+	<!-- EN: Request Trader -->
+	<MousekinRace_AllegianceSys_CallTrader>請求交易旅隊</MousekinRace_AllegianceSys_CallTrader>
+	
+	<!-- EN: Request Military Aid -->
+	<MousekinRace_AllegianceSys_CallMilitaryAid>請求軍事支援</MousekinRace_AllegianceSys_CallMilitaryAid>
+	
+	<!-- EN: View Log -->
+	<MousekinRace_AllegianceSys_Log>紀錄</MousekinRace_AllegianceSys_Log>
+	
+	<!-- EN: Change Allegiance -->
+	<MousekinRace_AllegianceSys_Change>改變派系效忠</MousekinRace_AllegianceSys_Change>
 
 	<!-- EN: View {0}... -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>查看{0}...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>

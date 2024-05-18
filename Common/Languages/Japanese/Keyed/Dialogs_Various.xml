@@ -16,11 +16,29 @@
 	<!-- EN: At least {0} goodwill with faction -->
 	<MousekinRace_AllegianceSys_ReqMinGoodwill>少なくとも派閥との友好値{0}</MousekinRace_AllegianceSys_ReqMinGoodwill>
 	
+	<!-- EN: Overview -->
+	<MousekinRace_AllegianceSys_Overview>概要</MousekinRace_AllegianceSys_Overview>
+	
 	<!-- EN: Benefits -->
 	<MousekinRace_AllegianceSys_Benefits>特典</MousekinRace_AllegianceSys_Benefits>
 	
 	<!-- EN: Costs -->
 	<MousekinRace_AllegianceSys_Costs>コスト</MousekinRace_AllegianceSys_Costs>
+	
+	<!-- EN: Invite Colonists -->
+	<MousekinRace_AllegianceSys_Recruit>入植者を招く</MousekinRace_AllegianceSys_Recruit>
+	
+	<!-- EN: Request Trader -->
+	<MousekinRace_AllegianceSys_CallTrader>トレーダーを要求する</MousekinRace_AllegianceSys_CallTrader>
+	
+	<!-- EN: Request Military Aid -->
+	<MousekinRace_AllegianceSys_CallMilitaryAid>援軍を要求する</MousekinRace_AllegianceSys_CallMilitaryAid>
+	
+	<!-- EN: View Log -->
+	<MousekinRace_AllegianceSys_Log>ログ</MousekinRace_AllegianceSys_Log>
+	
+	<!-- EN: Change Allegiance -->
+	<MousekinRace_AllegianceSys_Change>派閥忠誠を変える</MousekinRace_AllegianceSys_Change>
 
 	<!-- EN: View {0}... -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>{0}を見る...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>

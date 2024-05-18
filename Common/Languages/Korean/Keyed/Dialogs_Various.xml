@@ -16,11 +16,29 @@
 	<!-- EN: At least {0} goodwill with faction -->
 	<MousekinRace_AllegianceSys_ReqMinGoodwill>진영과의 친선도 {0}점 이상</MousekinRace_AllegianceSys_ReqMinGoodwill>
 	
+	<!-- EN: Overview -->
+	<MousekinRace_AllegianceSys_Overview>개요</MousekinRace_AllegianceSys_Overview>
+	
 	<!-- EN: Benefits -->
 	<MousekinRace_AllegianceSys_Benefits>혜택</MousekinRace_AllegianceSys_Benefits>
 	
 	<!-- EN: Costs -->
 	<MousekinRace_AllegianceSys_Costs>비용</MousekinRace_AllegianceSys_Costs>
+	
+	<!-- EN: Invite Colonists -->
+	<MousekinRace_AllegianceSys_Recruit>정착민 초대</MousekinRace_AllegianceSys_Recruit>
+	
+	<!-- EN: Request Trader -->
+	<MousekinRace_AllegianceSys_CallTrader>상단 요청</MousekinRace_AllegianceSys_CallTrader>
+	
+	<!-- EN: Request Military Aid -->
+	<MousekinRace_AllegianceSys_CallMilitaryAid>군사지원 요청</MousekinRace_AllegianceSys_CallMilitaryAid>
+	
+	<!-- EN: View Log -->
+	<MousekinRace_AllegianceSys_Log>로그 보기</MousekinRace_AllegianceSys_Log>
+	
+	<!-- EN: Change Allegiance -->
+	<MousekinRace_AllegianceSys_Change>충성도 변경</MousekinRace_AllegianceSys_Change>
 
 	<!-- EN: View {0}... -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>{0} 보기...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>

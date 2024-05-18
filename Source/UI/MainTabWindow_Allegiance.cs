@@ -3,11 +3,26 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Verse;
+using Verse.Sound;
 
 namespace MousekinRace
 {
     public class MainTabWindow_Allegiance : MainTabWindow
     {
+        public List<MenuOption> menuOptions = new()
+        {
+            new MenuOption("AllegianceSys_Overview", "MousekinRace_AllegianceSys_Overview".Translate()),
+            new MenuOption("AllegianceSys_Benefits", "MousekinRace_AllegianceSys_Benefits".Translate()),
+            new MenuOption("AllegianceSys_Costs", "MousekinRace_AllegianceSys_Costs".Translate()),
+            new MenuOption("AllegianceSys_Recruit", "MousekinRace_AllegianceSys_Recruit".Translate()),
+            new MenuOption("AllegianceSys_CallTrader", "MousekinRace_AllegianceSys_CallTrader".Translate()),
+            new MenuOption("AllegianceSys_CallMilitaryAid", "MousekinRace_AllegianceSys_CallMilitaryAid".Translate()),
+            new MenuOption("AllegianceSys_Log", "MousekinRace_AllegianceSys_Log".Translate()) //,
+            // new MenuOption("AllegianceSys_Change", "MousekinRace_AllegianceSys_Change".Translate()), // not yet implemented
+        };
+
+        public string selectedPageTag = "AllegianceSys_Overview";
+
         public override Vector2 RequestedTabSize
         {
             get
@@ -31,7 +46,7 @@ namespace MousekinRace
 
                 if (GameComponent_Allegiance.Instance.alignedFaction != null)
                 {
-                    // todo - allegiance system home page
+                    DrawFactionHome(inRect, ref y);
                 }
                 else
                 {
@@ -87,7 +102,7 @@ namespace MousekinRace
 
             Text.Anchor = anchor;
 
-            y += titleBlockHeight;
+            y += titleBlockHeight + StandardMargin;
         }
 
         public void DrawFactionChooser(Rect rect, ref float y)
@@ -114,7 +129,7 @@ namespace MousekinRace
             {
                 AlliableFactionExtension currentFactionExtension = factionOptions[i].def.GetModExtension<AlliableFactionExtension>();
                 
-                Rect factionChoiceRect = new Rect(i * (columnWidth + columnSpacing), y + columnSpacing, columnWidth, rect.height - y - columnSpacing);
+                Rect factionChoiceRect = new Rect(i * (columnWidth + columnSpacing), y, columnWidth, rect.height - y);
                 Widgets.DrawMenuSection(factionChoiceRect);
                 Rect innerRect = factionChoiceRect.ContractedBy(17f);
 
@@ -268,6 +283,55 @@ namespace MousekinRace
             GUI.color = Color.white;
             Text.Anchor = TextAnchor.UpperLeft;
             y += Text.CalcHeight(requirementFormatted, rect.width);
+        }
+
+        public void DrawFactionHome(Rect rect, ref float y)
+        {
+            float optionButtonWidth = 160f;
+            float optionButtonHeight = 48f;
+            float optionButtonVerticalSpacing = 2f;
+
+            TextAnchor anchor = Text.Anchor;
+            Text.Anchor = TextAnchor.MiddleCenter;
+            Text.Font = GameFont.Small;
+
+            for (int i = 0; i < menuOptions.Count; i++)
+            {
+                Rect buttonRect = new(rect.xMin, (float)i * (optionButtonHeight + optionButtonVerticalSpacing) + y, optionButtonWidth, optionButtonHeight);
+                DrawMenuOptionButton(buttonRect.ContractedBy(4f), menuOptions[i]);
+            }
+            Text.Anchor = anchor;
+
+            DrawSubpage(new Rect(rect.xMin + optionButtonWidth + StandardMargin, y, rect.width - (rect.xMin + optionButtonWidth + StandardMargin), rect.height - y), selectedPageTag);
+        }
+
+        public void DrawMenuOptionButton(Rect r, MenuOption option)
+        {
+            Widgets.DrawOptionBackground(r, option.pageTag == selectedPageTag); // todo - change background dynamically
+            if (Widgets.ButtonInvisible(r))
+            {
+                selectedPageTag = option.pageTag;
+                SoundDefOf.Click.PlayOneShotOnCamera();
+            }
+            Widgets.Label(r, option.buttonLabel);
+        }
+
+        public void DrawSubpage(Rect r, string subpageTag)
+        {
+            Widgets.DrawMenuSection(r);
+            Widgets.Label(r, subpageTag);
+        }
+
+        public class MenuOption
+        {
+            public string pageTag;
+            public string buttonLabel;
+
+            public MenuOption(string pageTagInput, string buttonLabelInput)
+            {
+                pageTag = pageTagInput;
+                buttonLabel = buttonLabelInput;
+            }
         }
     }
 }
