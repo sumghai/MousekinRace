@@ -23,6 +23,10 @@ namespace MousekinRace
 
         public string selectedPageTag = "AllegianceSys_Overview";
 
+        public const float scrollbarWidth = 16f;
+
+        public Vector2 scrollPosition = Vector2.zero;
+
         public override Vector2 RequestedTabSize
         {
             get
@@ -302,7 +306,7 @@ namespace MousekinRace
             }
             Text.Anchor = anchor;
 
-            DrawSubpage(new Rect(rect.xMin + optionButtonWidth + StandardMargin, y, rect.width - (rect.xMin + optionButtonWidth + StandardMargin), rect.height - y), selectedPageTag);
+            DrawPageBlock(new Rect(rect.xMin + optionButtonWidth + StandardMargin, y, rect.width - (rect.xMin + optionButtonWidth + StandardMargin), rect.height - y), selectedPageTag);
         }
 
         public void DrawMenuOptionButton(Rect r, MenuOption option)
@@ -316,10 +320,70 @@ namespace MousekinRace
             Widgets.Label(r, option.buttonLabel);
         }
 
-        public void DrawSubpage(Rect r, string subpageTag)
+        public void DrawPageBlock(Rect r, string pageTag)
         {
             Widgets.DrawMenuSection(r);
-            Widgets.Label(r, subpageTag);
+            Rect innerRect = r.ContractedBy(17f);
+
+            switch (pageTag)
+            {
+                case "AllegianceSys_Benefits":
+                    DrawPageBenefits(innerRect); 
+                    break;
+                case "AllegianceSys_Costs":
+                    DrawPageCosts(innerRect);
+                    break;
+                default:
+                    Widgets.Label(innerRect, pageTag);
+                    break;
+            }            
+        }
+
+        public void DrawPageBenefits(Rect r)
+        {
+            Rect scrollableAreaRect = new Rect(r);
+
+            TaggedString contents = AllegianceSys_Utils.GenerateBenefitsDesc(GameComponent_Allegiance.Instance.alignedFaction);
+            float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
+            float textBlockHeight = Text.CalcHeight(contents, scrollableContentsWidth);
+
+            float craftableItemsHyperlinksY = textBlockHeight;
+            float craftableItemsHyperlinkRowHeight = 24f;
+            Rect craftableItemsHyperlinksRect = new Rect(0f, craftableItemsHyperlinksY, scrollableContentsWidth, 0f);
+            List<ThingDef> unlockedCraftableThingDefs = GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs;
+            if (unlockedCraftableThingDefs != null && unlockedCraftableThingDefs.Count > 0)
+            {
+                craftableItemsHyperlinksRect.height = craftableItemsHyperlinkRowHeight * unlockedCraftableThingDefs.Count;
+            }
+            Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, textBlockHeight + craftableItemsHyperlinksRect.height);
+
+            Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
+            Widgets.Label(scrollableContentsRect, contents);
+            if (unlockedCraftableThingDefs != null && unlockedCraftableThingDefs.Count > 0)
+            {
+                foreach (ThingDef def in unlockedCraftableThingDefs)
+                {
+                    Dialog_InfoCard.Hyperlink hyperlink = new Dialog_InfoCard.Hyperlink(def);
+                    Widgets.HyperlinkWithIcon(new Rect(0f, craftableItemsHyperlinksY, scrollableContentsWidth, craftableItemsHyperlinkRowHeight), hyperlink);
+                    craftableItemsHyperlinksY += craftableItemsHyperlinkRowHeight;
+                }
+            }
+            Widgets.EndScrollView();
+        }
+
+        public void DrawPageCosts(Rect r)
+        {
+            Rect scrollableAreaRect = new Rect(r);
+
+            TaggedString contents = AllegianceSys_Utils.GenerateCostsDesc(GameComponent_Allegiance.Instance.alignedFaction);
+            float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
+            float textBlockHeight = Text.CalcHeight(contents, scrollableContentsWidth);
+
+            Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, textBlockHeight);
+
+            Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
+            Widgets.Label(scrollableContentsRect, contents);
+            Widgets.EndScrollView();
         }
 
         public class MenuOption
