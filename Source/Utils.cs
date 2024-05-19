@@ -31,6 +31,7 @@ namespace MousekinRace
             return (playerFactionTotalColonistCount == 0) ? 0 : (float) playerFactionMousekinColonistCount / playerFactionTotalColonistCount;
         }
 
+        // Return a human-readable year with "year" being conditionally pluralized
         public static string YearHumanReadable(float years)
         {
             return (years != 1.0f) ? "PeriodYears".Translate(years.ToString("0.#")) : "Period1Year".Translate();
