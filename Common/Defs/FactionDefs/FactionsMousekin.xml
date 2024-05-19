@@ -570,6 +570,48 @@
 					<li>Mousekin_MeleeWeapon_SwordGuardener</li>
 					<li>Mousekin_MeleeWeapon_SwordKnight</li>
 				</factionRestrictedCraftableThingDefs>
+				<recruitableColonistSettings>
+					<options>
+						<li>
+							<pawnKind>MousekinColonist</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+						</li>
+						<li>
+							<pawnKind>MousekinTradesman</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+						</li>
+						<li>
+							<pawnKind>MousekinDoctor</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+						</li>
+						<li>
+							<pawnKind>MousekinPeasant</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+							<overrideSpousePawnKind>MousekinPeasant</overrideSpousePawnKind>
+						</li>
+						<li>
+							<pawnKind>MousekinPriest</pawnKind>
+							<iconPath>UI/Roles/Moralist</iconPath>
+						</li>
+						<li>
+							<pawnKind>MousekinNun</pawnKind>
+						</li>
+						<li>
+							<pawnKind>MousekinGuardenerElite</pawnKind>
+						</li>
+						<li>
+							<pawnKind>MousekinGuardener</pawnKind>
+						</li>
+						<li>
+							<pawnKind>MousekinCrossbowman</pawnKind>
+							<count>3</count>
+						</li>
+						<li>
+							<pawnKind>MousekinPikeman</pawnKind>
+							<count>3</count>
+						</li>
+					</options>
+				</recruitableColonistSettings>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -772,6 +814,41 @@
 					<li>Mousekin_MeleeWeapon_PikeThunder</li>
 					<li>Mousekin_RangedWeapon_MusketShort</li>
 				</factionRestrictedCraftableThingDefs>
+				<recruitableColonistSettings>
+					<defaultSpousePawnKind>MousekinIndyTownFarmer</defaultSpousePawnKind>
+					<options>
+						<li>
+							<pawnKind>MousekinColonist</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+						</li>
+						<li>
+							<pawnKind>MousekinTradesman</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+						</li>
+						<li>
+							<pawnKind>MousekinDoctor</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+						</li>
+						<li>
+							<pawnKind>MousekinIndyTownFarmer</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+						</li>
+						<li>
+							<pawnKind>MousekinPriest</pawnKind>
+							<iconPath>UI/Roles/Moralist</iconPath>
+						</li>
+						<li>
+							<pawnKind>MousekinNun</pawnKind>
+						</li>
+						<li>
+							<pawnKind>MousekinIndyTownCouncilor</pawnKind>
+						</li>
+						<li>
+							<pawnKind>MousekinIndyTownSoldier</pawnKind>
+							<count>3</count>
+						</li>
+					</options>
+				</recruitableColonistSettings>
 			</li>
 		</modExtensions>
 	</FactionDef>

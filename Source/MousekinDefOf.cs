@@ -64,6 +64,8 @@ namespace MousekinRace
         public static JobDef Mousekin_Job_CommitSuicideWithPoison;
         public static JobDef Mousekin_Job_HarvestFromBeehive;
 
+        public static PawnKindDef MousekinColonist;
+
         public static FactionDef Mousekin_FactionKingdom;
         public static FactionDef Mousekin_FactionIndyTown;
 

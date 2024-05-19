@@ -25,6 +25,37 @@ namespace MousekinRace
         public float tradePriceFactor = 1f;
 
         public List<ThingDef> factionRestrictedCraftableThingDefs = new();
+
+        public RecruitableColonistSettings recruitableColonistSettings = new();
+
+        public override IEnumerable<string> ConfigErrors()
+        {
+            foreach (var err in base.ConfigErrors())
+            {
+                yield return err;
+            }
+
+            if (joinButtonLabel.NullOrEmpty())
+            {
+                yield return $"AlliableFactionExtension - No join button text defined!";
+            }
+
+            if (membershipTypeLabel.NullOrEmpty())
+            {
+                yield return $"AlliableFactionExtension - No membership type text defined!";
+            }
+
+            if (!recruitableColonistSettings.options.NullOrEmpty()) 
+            {
+                for (int i = 0; i < recruitableColonistSettings.options.Count; i++) 
+                {
+                    if (recruitableColonistSettings.options[i].pawnKind == null)
+                    {
+                        yield return $"AlliableFactionExtension - item " + i + " in recruitableColonistSettings options has no pawnKind defined!";
+                    }
+                }
+            }
+        }
     }
 
     public class AlliableFactionJoinRequirements 
@@ -32,5 +63,27 @@ namespace MousekinRace
         public int minDaysPassedSinceSettle = 60;
         public float minMousekinPopulationPercentage = 0.75f;
         public int minGoodwill = 50;
+    }
+
+    public class RecruitableColonistSettings
+    { 
+        public PawnKindDef defaultSpousePawnKind = MousekinDefOf.MousekinColonist;
+        public List<RecruitableOptions> options = new();
+    }
+
+    public class RecruitableOptions
+    {
+        [NoTranslate]
+        public string iconPath = BaseContent.BadTexPath;
+
+        public PawnKindDef pawnKind;
+
+        public PawnKindDef overrideSpousePawnKind = null;
+
+        public int count = 1;
+
+        public bool canHaveFamily = false;
+
+        public int basePrice = 100;
     }
 }

@@ -17,7 +17,7 @@
 	
 	<MousekinRace_AllegianceSys_Costs>Costs</MousekinRace_AllegianceSys_Costs>
 	
-	<MousekinRace_AllegianceSys_Recruit>Invite Colonists</MousekinRace_AllegianceSys_Recruit>
+	<MousekinRace_AllegianceSys_Recruit>Invite Settlers</MousekinRace_AllegianceSys_Recruit>
 	
 	<MousekinRace_AllegianceSys_CallTrader>Request Trader</MousekinRace_AllegianceSys_CallTrader>
 	
@@ -48,6 +48,10 @@
 	<MousekinRace_AllegianceSys_JoinConfirmation>Are you sure you want to pledge allegiance to {0}?</MousekinRace_AllegianceSys_JoinConfirmation>
 	
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} of {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
+	
+	<MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>Invite\n({0})</MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>
+	
+	<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>Invite family\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
 	
 	<MousekinRace_TradePriceFactor_FactionAllegiance>faction allegiance</MousekinRace_TradePriceFactor_FactionAllegiance>
 

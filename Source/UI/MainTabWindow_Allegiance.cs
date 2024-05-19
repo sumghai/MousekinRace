@@ -23,7 +23,17 @@ namespace MousekinRace
 
         public string selectedPageTag = "AllegianceSys_Overview";
 
+        public const float uiElementSpacing = 10f;
+
         public const float scrollbarWidth = 16f;
+
+        public const int optionNumColumns = 2;
+
+        public const float optionRowHeight = 100f;
+
+        public Color optionBg = new Color(0.13f, 0.13f, 0.13f);
+
+        public Color optionBgMouseover = new Color(1f, 1f, 1f, 0.3f);
 
         public Vector2 scrollPosition = Vector2.zero;
 
@@ -59,6 +69,12 @@ namespace MousekinRace
             }            
         }
 
+        public override void PostClose()
+        {
+            base.PostClose();
+            selectedPageTag = "AllegianceSys_Overview";
+        }
+
         public void DrawTitleBlock(Rect rect, ref float y)
         {
             Faction playerFaction = Find.FactionManager.OfPlayer;
@@ -70,8 +86,6 @@ namespace MousekinRace
             // Change title block contents if player has aligned with a faction
             if (GameComponent_Allegiance.Instance.alignedFaction is Faction alignedFaction)
             {
-                AlliableFactionExtension alignedFactionExtension = alignedFaction.def.GetModExtension<AlliableFactionExtension>();
-
                 playerFactionSubtitle = AllegianceSys_Utils.MembershipToFactionLabel(alignedFaction).CapitalizeFirst();
                 factionIcon = alignedFaction.def.FactionIcon;
                 factionIconColor = alignedFaction.Color;
@@ -85,10 +99,9 @@ namespace MousekinRace
             Text.Font = GameFont.Small;
             Vector2 playerFactionSubtitleRect = Text.CalcSize(playerFactionSubtitle);
 
-            float spacing = 10f;
             float titleBlockHeight = playerFactionNameRect.y + playerFactionSubtitleRect.y;
-            float titleBlockTextWidth = Math.Max(playerFactionNameRect.x, playerFactionSubtitleRect.x) + spacing;
-            float titleBlockWidth = titleBlockHeight + spacing + titleBlockTextWidth;
+            float titleBlockTextWidth = Math.Max(playerFactionNameRect.x, playerFactionSubtitleRect.x) + uiElementSpacing;
+            float titleBlockWidth = titleBlockHeight + uiElementSpacing + titleBlockTextWidth;
 
             float centeredTitleRectStartingX = (rect.width - titleBlockWidth) / 2;
             float centeredTitleRectStartingY = y;
@@ -100,9 +113,9 @@ namespace MousekinRace
             GUI.color = Color.white;
 
             Text.Font = GameFont.Medium;
-            Widgets.Label(new Rect(centeredTitleRect.xMin + titleBlockHeight + spacing, centeredTitleRect.yMin, titleBlockTextWidth, playerFactionNameRect.y), playerFactionName);
+            Widgets.Label(new Rect(centeredTitleRect.xMin + titleBlockHeight + uiElementSpacing, centeredTitleRect.yMin, titleBlockTextWidth, playerFactionNameRect.y), playerFactionName);
             Text.Font = GameFont.Small;
-            Widgets.Label(new Rect(centeredTitleRect.xMin + titleBlockHeight + spacing, centeredTitleRect.yMin + playerFactionNameRect.y, titleBlockTextWidth, playerFactionSubtitleRect.y), playerFactionSubtitle);
+            Widgets.Label(new Rect(centeredTitleRect.xMin + titleBlockHeight + uiElementSpacing, centeredTitleRect.yMin + playerFactionNameRect.y, titleBlockTextWidth, playerFactionSubtitleRect.y), playerFactionSubtitle);
 
             Text.Anchor = anchor;
 
@@ -333,6 +346,9 @@ namespace MousekinRace
                 case "AllegianceSys_Costs":
                     DrawPageCosts(innerRect);
                     break;
+                case "AllegianceSys_Recruit":
+                    DrawPageRecruit(innerRect);
+                    break;
                 default:
                     Widgets.Label(innerRect, pageTag);
                     break;
@@ -355,6 +371,7 @@ namespace MousekinRace
             {
                 craftableItemsHyperlinksRect.height = craftableItemsHyperlinkRowHeight * unlockedCraftableThingDefs.Count;
             }
+
             Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, textBlockHeight + craftableItemsHyperlinksRect.height);
 
             Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
@@ -383,6 +400,62 @@ namespace MousekinRace
 
             Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
             Widgets.Label(scrollableContentsRect, contents);
+            Widgets.EndScrollView();
+        }
+
+        public void DrawPageRecruit(Rect r)
+        {
+            List<RecruitableOptions> recruitableOptions = GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().recruitableColonistSettings.options;
+            
+            Rect scrollableAreaRect = new Rect(r.xMin, r.yMin + 80f, r.width, r.height - 80f);
+
+            int rows = recruitableOptions.Count / optionNumColumns + ((recruitableOptions.Count % optionNumColumns > 0) ? 1 : 0);
+            float optionSpacing = StandardMargin;
+            float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
+            float scrollableContentsHeight = rows * (optionRowHeight + optionSpacing) - optionSpacing;
+            float optionColumnWidth = (scrollableContentsWidth - optionSpacing * (optionNumColumns - 1)) / optionNumColumns;
+            Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, scrollableContentsHeight);
+
+            Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect); 
+            for (int i = 0; i < recruitableOptions.Count; i++) 
+            {
+                float currentOptionRectOriginX = (i % optionNumColumns == 0) ? 0f : optionColumnWidth + optionSpacing;
+                float currentOptionRectOriginY = (i / optionNumColumns) * (optionRowHeight + optionSpacing);
+                Rect currentOptionRect = new Rect(currentOptionRectOriginX, currentOptionRectOriginY, optionColumnWidth, optionRowHeight); 
+                Widgets.DrawBoxSolid(currentOptionRect, optionBg);
+                GUI.color = optionBgMouseover;
+                Widgets.DrawHighlightIfMouseover(currentOptionRect);
+                GUI.color = Color.white;
+
+                Rect currentOptionInnerRect = currentOptionRect.ContractedBy(uiElementSpacing);
+                Rect currentOptionIconRect = new Rect(currentOptionInnerRect.xMin, currentOptionInnerRect.yMin, currentOptionInnerRect.height, currentOptionInnerRect.height);
+                Rect currentOptionControlsRect = new Rect(currentOptionIconRect.xMax + uiElementSpacing, currentOptionInnerRect.yMin, currentOptionInnerRect.width - currentOptionIconRect.width - uiElementSpacing, currentOptionInnerRect.height);
+
+                Texture2D iconTex = ContentFinder<Texture2D>.Get(recruitableOptions[i].iconPath, true);
+                GUI.color = GameComponent_Allegiance.Instance.alignedFaction.Color;
+                GUI.DrawTexture(currentOptionIconRect, iconTex);
+                GUI.color = Color.white;
+
+                TaggedString optionName = recruitableOptions[i].pawnKind.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() + ((recruitableOptions[i].count > 1) ? " (x" + recruitableOptions[i].count + ")" : "");
+                Widgets.Label(currentOptionControlsRect, optionName);
+
+                TextAnchor anchor = Text.Anchor;
+                Text.Anchor = TextAnchor.MiddleCenter;
+                float inviteButtonWidth = (currentOptionControlsRect.width - uiElementSpacing) / 2;
+                float inviteButtonHeight = Text.CalcHeight("MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(), inviteButtonWidth) + uiElementSpacing;
+
+                int inviteCost = recruitableOptions[i].basePrice;
+                if (recruitableOptions[i].canHaveFamily)
+                {
+                    Rect inviteFamilyButtonRect = new Rect(currentOptionControlsRect.xMin, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
+                    Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCost));
+                }
+
+                Rect inviteSingleButtonRect = new Rect(currentOptionControlsRect.xMin + uiElementSpacing + inviteButtonWidth, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
+                Widgets.ButtonText(inviteSingleButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(inviteCost));
+                Text.Anchor = anchor;
+
+            }
             Widgets.EndScrollView();
         }
 
