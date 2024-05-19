@@ -32,7 +32,7 @@
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinColonist</defName>
-		<label>Mousekin colonist</label>
+		<label>Mousekin settler</label>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<backstoryFiltersOverride>
 			<li>
