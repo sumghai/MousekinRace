@@ -405,7 +405,8 @@ namespace MousekinRace
 
         public void DrawPageRecruit(Rect r)
         {
-            List<RecruitableOptions> recruitableOptions = GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().recruitableColonistSettings.options;
+            RecruitableColonistSettings recruitableColonistSettings = GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().recruitableColonistSettings;
+            List<RecruitableOptions> recruitableOptions = recruitableColonistSettings.options;
 
             var listingStandard = new Listing_Standard();
             listingStandard.Begin(r);
@@ -454,6 +455,7 @@ namespace MousekinRace
                 float inviteButtonHeight = Text.CalcHeight("MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(), inviteButtonWidth) + uiElementSpacing;
 
                 PawnKindDef recruitablePawnKind = recruitableOptions[i].pawnKind;
+                PawnKindDef recruitableSpousePawnKind = recruitableOptions[i].overrideSpousePawnKind ?? recruitableColonistSettings.defaultSpousePawnKind;
                 bool recruitablePawnCanHaveFamily = recruitableOptions[i].canHaveFamily;
                 int recruitablePawnCount = recruitableOptions[i].count;
                 int inviteCost = recruitableOptions[i].basePrice;
@@ -465,7 +467,7 @@ namespace MousekinRace
                     {
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCost), delegate
                         {
-                            AllegianceSys_Utils.GenerateAndSpawnNewColonists(recruitablePawnKind, 1, recruitablePawnCanHaveFamily);
+                            AllegianceSys_Utils.GenerateAndSpawnNewColonists(recruitablePawnKind, 1, recruitablePawnCanHaveFamily, recruitableSpousePawnKind);
                         }));
                     }
                 }

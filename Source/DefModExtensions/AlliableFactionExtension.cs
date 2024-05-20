@@ -47,6 +47,11 @@ namespace MousekinRace
 
             if (!recruitableColonistSettings.options.NullOrEmpty()) 
             {
+                if (recruitableColonistSettings.defaultSpousePawnKind == null)
+                {
+                    yield return $"AlliableFactionExtension - No defaultSpousePawnKind defined!";
+                }
+                
                 for (int i = 0; i < recruitableColonistSettings.options.Count; i++) 
                 {
                     if (recruitableColonistSettings.options[i].pawnKind == null)
@@ -67,7 +72,7 @@ namespace MousekinRace
 
     public class RecruitableColonistSettings
     { 
-        public PawnKindDef defaultSpousePawnKind = MousekinDefOf.MousekinColonist;
+        public PawnKindDef defaultSpousePawnKind;
         public List<RecruitableOptions> options = new();
     }
 

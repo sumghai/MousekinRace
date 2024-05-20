@@ -571,6 +571,7 @@
 					<li>Mousekin_MeleeWeapon_SwordKnight</li>
 				</factionRestrictedCraftableThingDefs>
 				<recruitableColonistSettings>
+					<defaultSpousePawnKind>MousekinColonist</defaultSpousePawnKind>
 					<options>
 						<li>
 							<pawnKind>MousekinColonist</pawnKind>

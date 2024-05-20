@@ -247,9 +247,9 @@ namespace MousekinRace
             }
         }
 
-        public static void GenerateAndSpawnNewColonists(PawnKindDef pawnKind, int count = 1, bool makeFamily = false)
+        public static void GenerateAndSpawnNewColonists(PawnKindDef pawnKind, int count = 1, bool makeFamily = false, PawnKindDef spousePawnKind = null)
         {
-            Log.Warning("GenerateAndSpawnNewColonists(): " + pawnKind + " / " + count + " / " + makeFamily.ToString());
+            Log.Warning("GenerateAndSpawnNewColonists(): " + pawnKind + " / " + count + " / " + makeFamily.ToString() + (makeFamily ? " / " + spousePawnKind : null));
             // todo - implement
         }
     }
