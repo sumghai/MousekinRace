@@ -73,6 +73,24 @@
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}の{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
+	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>注意：「家族で招待」オプションには配偶者{0}が含まれます。</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
+	
+	<!-- EN:  and 2~3 children -->
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>と2～3人の子供</MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>
+	
+	<!-- EN: Invite\n({0}) -->
+	<MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>招待\n({0})</MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>
+	
+	<!-- EN: Invite Family\n({0}) -->
+	<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>家族で招待\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
+	
+	<!-- EN: Are you sure you want to invite {0}{1} to join your settlement?\n\nIt will cost {2} silver. -->
+	<MousekinRace_AllegianceSys_Recruit_Confirmation>本当に{0}{1}を和解に招きたいですか?\n\n(コスト: {2}シルバー)</MousekinRace_AllegianceSys_Recruit_Confirmation>
+	
+	<!-- EN:  and their family -->
+	<MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>とその家族</MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派閥忠誠</MousekinRace_TradePriceFactor_FactionAllegiance>
 

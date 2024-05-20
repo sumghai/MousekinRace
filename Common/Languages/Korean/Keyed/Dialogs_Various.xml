@@ -73,6 +73,24 @@
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1} {0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
+	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>참고: 가족 초대 옵션에는 배우자가 {0}포함됩니다.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
+	
+	<!-- EN:  and 2~3 children -->
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>2~3명의 자녀가 </MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>
+	
+	<!-- EN: Invite\n({0}) -->
+	<MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>초대\n({0})</MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>
+	
+	<!-- EN: Invite Family\n({0}) -->
+	<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>가족 초대\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
+	
+	<!-- EN: Are you sure you want to invite {0}{1} to join your settlement?\n\nIt will cost {2} silver. -->
+	<MousekinRace_AllegianceSys_Recruit_Confirmation>{0}{1}를 정산에 초대하시겠습니까?\n\n비용은{2}실버입니다.</MousekinRace_AllegianceSys_Recruit_Confirmation>
+	
+	<!-- EN:  and their family -->
+	<MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>와 가족</MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>진영 충성</MousekinRace_TradePriceFactor_FactionAllegiance>
 

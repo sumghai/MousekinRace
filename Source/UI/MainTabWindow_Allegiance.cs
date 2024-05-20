@@ -406,9 +406,17 @@ namespace MousekinRace
         public void DrawPageRecruit(Rect r)
         {
             List<RecruitableOptions> recruitableOptions = GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().recruitableColonistSettings.options;
-            
-            Rect scrollableAreaRect = new Rect(r.xMin, r.yMin + 80f, r.width, r.height - 80f);
 
+            var listingStandard = new Listing_Standard();
+            listingStandard.Begin(r);
+
+            listingStandard.Label("[todo - colony silver]]");
+            listingStandard.GapLine();
+            string familyOptionNote = "MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc".Translate(ModsConfig.BiotechActive ? "MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix".Translate() : null);
+            listingStandard.Label(familyOptionNote);
+            listingStandard.Gap();
+            
+            Rect scrollableAreaRect = new Rect(0, listingStandard.curY, r.width, r.height - listingStandard.curY);
             int rows = recruitableOptions.Count / optionNumColumns + ((recruitableOptions.Count % optionNumColumns > 0) ? 1 : 0);
             float optionSpacing = StandardMargin;
             float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
@@ -436,27 +444,46 @@ namespace MousekinRace
                 GUI.DrawTexture(currentOptionIconRect, iconTex);
                 GUI.color = Color.white;
 
-                TaggedString optionName = recruitableOptions[i].pawnKind.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() + ((recruitableOptions[i].count > 1) ? " (x" + recruitableOptions[i].count + ")" : "");
-                Widgets.Label(currentOptionControlsRect, optionName);
+                TaggedString optionName = recruitableOptions[i].pawnKind.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst();
+                TaggedString optionPawnCount = ((recruitableOptions[i].count > 1) ? "(x" + recruitableOptions[i].count + ")" : "");
+                Widgets.Label(currentOptionControlsRect, optionName + " " + optionPawnCount);
 
                 TextAnchor anchor = Text.Anchor;
                 Text.Anchor = TextAnchor.MiddleCenter;
                 float inviteButtonWidth = (currentOptionControlsRect.width - uiElementSpacing) / 2;
                 float inviteButtonHeight = Text.CalcHeight("MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(), inviteButtonWidth) + uiElementSpacing;
 
+                PawnKindDef recruitablePawnKind = recruitableOptions[i].pawnKind;
+                bool recruitablePawnCanHaveFamily = recruitableOptions[i].canHaveFamily;
+                int recruitablePawnCount = recruitableOptions[i].count;
                 int inviteCost = recruitableOptions[i].basePrice;
-                if (recruitableOptions[i].canHaveFamily)
+
+                if (recruitablePawnCanHaveFamily)
                 {
                     Rect inviteFamilyButtonRect = new Rect(currentOptionControlsRect.xMin, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
-                    Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCost));
+                    if (Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCost)))
+                    {
+                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCost), delegate
+                        {
+                            AllegianceSys_Utils.GenerateAndSpawnNewColonists(recruitablePawnKind, 1, recruitablePawnCanHaveFamily);
+                        }));
+                    }
                 }
 
                 Rect inviteSingleButtonRect = new Rect(currentOptionControlsRect.xMin + uiElementSpacing + inviteButtonWidth, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
-                Widgets.ButtonText(inviteSingleButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(inviteCost));
+                if (Widgets.ButtonText(inviteSingleButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(inviteCost)))
+                {
+                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
+                    {
+                        AllegianceSys_Utils.GenerateAndSpawnNewColonists(recruitablePawnKind, recruitablePawnCount);
+                    }));
+                }
                 Text.Anchor = anchor;
 
             }
             Widgets.EndScrollView();
+
+            listingStandard.End();
         }
 
         public class MenuOption

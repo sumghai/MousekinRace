@@ -73,6 +73,24 @@
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}的{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
+	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>注:邀请家庭选项包括配偶{0}。</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
+	
+	<!-- EN:  and 2~3 children -->
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>和 2~3 个孩子</MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>
+	
+	<!-- EN: Invite\n({0}) -->
+	<MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>邀请\n({0})</MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>
+	
+	<!-- EN: Invite Family\n({0}) -->
+	<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>邀请家庭\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
+	
+	<!-- EN: Are you sure you want to invite {0}{1} to join your settlement?\n\nIt will cost {2} silver. -->
+	<MousekinRace_AllegianceSys_Recruit_Confirmation>你想要邀请{0}{1}来定居吗？\n\n(花费：{2}白银)</MousekinRace_AllegianceSys_Recruit_Confirmation>
+	
+	<!-- EN:  and their family -->
+	<MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>和他们的家人</MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派系效忠</MousekinRace_TradePriceFactor_FactionAllegiance>
 

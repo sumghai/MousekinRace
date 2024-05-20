@@ -49,9 +49,17 @@
 	
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} of {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>Note: The Invite Family option includes a spouse{0}. </MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
+	
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix> and 2~3 children</MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>
+	
 	<MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>Invite\n({0})</MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>
 	
-	<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>Invite family\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
+	<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>Invite Family\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
+	
+	<MousekinRace_AllegianceSys_Recruit_Confirmation>Are you sure you want to invite {0}{1} to join your settlement?\n\nIt will cost {2} silver.</MousekinRace_AllegianceSys_Recruit_Confirmation>
+	
+	<MousekinRace_AllegianceSys_Recruit_ConfirmationFamily> and their family</MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>
 	
 	<MousekinRace_TradePriceFactor_FactionAllegiance>faction allegiance</MousekinRace_TradePriceFactor_FactionAllegiance>
 
