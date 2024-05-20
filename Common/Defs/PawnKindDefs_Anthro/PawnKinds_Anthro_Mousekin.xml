@@ -1115,6 +1115,7 @@
 	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
 		<defName>MousekinIndyTownSoldier</defName>
 		<label>Mousekin town soldier</label>
+		<labelPlural>Mousekin town soldiers</labelPlural>
 		<combatPower>50</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
