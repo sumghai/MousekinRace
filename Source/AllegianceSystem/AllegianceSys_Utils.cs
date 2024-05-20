@@ -42,6 +42,8 @@ namespace MousekinRace
             List<Pawn> quittingColonists = quittingColonistsWithReasons.Select(x => x.Item1).ToList();
             foreach (Pawn quittingColonist in quittingColonists)
             {
+                // Wake the dissidents pawn up (if they're sleeping)
+                RestUtility.WakeUp(quittingColonist);
                 // Use a custom mental break to make the dissident pawns leave the map
                 quittingColonist.mindState.mentalBreaker.TryDoMentalBreak(null, MousekinDefOf.Mousekin_MentalBreak_ExitAfterAllegianceChange);
             }
