@@ -773,6 +773,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinCrossbowman</defName>
 		<label>Mousekin crossbowman</label>
+		<labelPlural>Mousekin crossbowmen</labelPlural>
 		<combatPower>45</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
@@ -846,6 +847,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinPikeman</defName>
 		<label>Mousekin pikeman</label>
+		<labelPlural>Mousekin pikemen</labelPlural>
 		<combatPower>45</combatPower>
 		<isFighter>true</isFighter>
 		<backstoryFiltersOverride>
