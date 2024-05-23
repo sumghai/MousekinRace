@@ -88,6 +88,9 @@ namespace MousekinRace
         public static PreceptDef HAR_AlienRaces_Exalted;
 
         [MayRequireBiotech]
+        public static PawnKindDef MousekinChild;
+
+        [MayRequireBiotech]
         public static XenotypeDef Mousekin_XenotypeMousekin;
     }
 }
