@@ -176,6 +176,7 @@
 							<path>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarLeft</path>
 							<conditions>
 								<BodyPart>
+									<bodyPart>Mousekin_Ear</bodyPart>
 									<bodyPartLabel>left ear</bodyPartLabel>
 								</BodyPart>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -211,6 +212,7 @@
 							<path>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarRight</path>
 							<conditions>
 								<BodyPart>
+									<bodyPart>Mousekin_Ear</bodyPart>
 									<bodyPartLabel>right ear</bodyPartLabel>
 								</BodyPart>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -256,6 +258,8 @@
 								</Apparel>
 								<Posture>
 									<drawnInBed>false</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
 								</Posture>
 							</conditions>
 							<extendedGraphics>
@@ -276,11 +280,11 @@
 									</bodyTypes>
 								</north>
 								<east>
-									<layerOffset>-0.3</layerOffset>
+									<layerOffset>-0.295</layerOffset>
 									<bodyTypes>
 										<Mousekin>(0.345,-0.330)</Mousekin>
 										<Child MayRequire="Ludeon.RimWorld.Biotech">(0.255,-0.255)</Child>
-										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.0,-0.05)</Baby>
+										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.145,-0.095)</Baby>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -475,7 +479,6 @@
 						<Mousekin>Things/Pawn/Humanlike/Bodies/Naked_Mousekin</Mousekin>
 					</bodytypeGraphics>
 				</body>
-				<stump>Things/Mote/Transparent</stump>
 				<skinShader>Cutout</skinShader>
 				<!-- Override apparel graphics -->
 				<apparel>
