@@ -254,8 +254,6 @@ namespace MousekinRace
 
             if (makeFamily)
             {
-                Log.Warning("Recruiting " + pawnKind + " with spouse " + spousePawnKind);
-
                 // Calculate the wife's potential age based on potential children
                 int minChildren = 2;
                 int maxChildren = 3;
@@ -273,7 +271,7 @@ namespace MousekinRace
                 float maxAgeOfFirstTimeMother = 25f;
                 float ageOfMother = Rand.Range(minAgeOfFirstTimeMother, maxAgeOfFirstTimeMother) + oldestChildAge;
 
-                // Generate the primary required pawnkind and their spouse, ensuring that:
+                // Generate the required primary  pawnkind and their spouse, ensuring that:
                 // - the wife is younger than the husband
                 // - both spouses are of reasonable parental age
                 //
@@ -286,7 +284,7 @@ namespace MousekinRace
                 float tmpStartingAge = 20f;
                 PawnGenerationRequest primaryPawnGenRequest = new PawnGenerationRequest(
                     pawnKind,
-                    faction: Faction.OfPlayer,
+                    faction: alignedFaction,
                     canGeneratePawnRelations: false,
                     colonistRelationChanceFactor: 0f,
                     allowGay: false,
@@ -299,7 +297,7 @@ namespace MousekinRace
                 Pawn primaryPawn = PawnGenerator.GeneratePawn(primaryPawnGenRequest);
                 PawnGenerationRequest spouseGenRequest = new PawnGenerationRequest(
                     spousePawnKind,
-                    faction: Faction.OfPlayer,
+                    faction: alignedFaction,
                     canGeneratePawnRelations: false,
                     colonistRelationChanceFactor: 0f,
                     allowGay: false,
@@ -311,12 +309,6 @@ namespace MousekinRace
                     fixedGender: primaryPawn.gender.Opposite()
                 );
                 Pawn spousePawn = PawnGenerator.GeneratePawn(spouseGenRequest);
-                /*bool spouseIsCorrectGender = spousePawn.gender != primaryPawn.gender;
-                while (!spouseIsCorrectGender)
-                {
-                    spousePawn = PawnGenerator.GeneratePawn(spouseGenRequest);
-                    spouseIsCorrectGender = spousePawn.gender != primaryPawn.gender;
-                }*/
                 spousePawn.relations.AddDirectRelation(PawnRelationDefOf.Spouse, primaryPawn);
                 SpouseRelationUtility.DetermineManAndWomanSpouses(primaryPawn, spousePawn, out Pawn maleSpousePawn, out Pawn femaleSpousePawn);
                 if (ModsConfig.BiotechActive)
@@ -332,16 +324,14 @@ namespace MousekinRace
                 List<Pawn> childPawns = new(); // Placeholder list for any children generated
 
                 if (ModsConfig.BiotechActive)
-                {
-                    Log.Warning("\tBiotech DLC active, generating 2~3 children");
-                    
+                {                  
                     string childLastname = (maleSpousePawn.Name as NameTriple).Last;
 
                     for (int i = 0; i < childrenToGenerate; i++) 
                     {
                         PawnGenerationRequest currentChildGenRequest = new PawnGenerationRequest(
                             MousekinDefOf.MousekinChild,
-                            faction: Faction.OfPlayer,
+                            faction: alignedFaction,
                             canGeneratePawnRelations: false,
                             colonistRelationChanceFactor: 0f,
                             allowGay: false,
@@ -368,16 +358,12 @@ namespace MousekinRace
             }
             else 
             {
-                Log.Warning("Recruiting single type " + pawnKind + ", qty " + reqCount);
-
                 // Get a list of living world pawns from the player-chosen allegiance faction (excluding the faction leader),
                 // with (any) relatives of existing colonists taking priority
                 List<Pawn> alignedFactionWorldPawns = Find.WorldPawns.AllPawnsAlive.Where(p => p.Faction == alignedFaction && p != alignedFaction.leader).OrderByDescending(p => PawnRelationUtility.GetMostImportantColonyRelative(p) != null).ToList();
 
                 // Downselect to world pawns that match the desired pawnKind
                 List<Pawn> candidateWorldPawns = alignedFactionWorldPawns.Where(p => p.kindDef == pawnKind).ToList();
-
-                Log.Warning("Candidate pawns from " + alignedFaction + " that are " + pawnKind + ": " + candidateWorldPawns.Count);
 
                 // Try to grab as many candidate pawns as requested
                 pawnsToRecruit.AddRange(candidateWorldPawns.Take(reqCount));
@@ -390,34 +376,27 @@ namespace MousekinRace
 
                     for (int i = 0; i < additionalPawnsToGenerate; i++)
                     {
-                        Pawn additionalPawn = PawnGenerator.GeneratePawn(pawnKind, Faction.OfPlayer);
+                        Pawn additionalPawn = PawnGenerator.GeneratePawn(pawnKind, alignedFaction);
                         pawnsToRecruit.Add(additionalPawn);
                     }
                 }
             }
 
-            // DEBUG log output
-            TaggedString recruitees = "";
+            pawnsToRecruit.SortByDescending(p => p.ageTracker.AgeBiologicalTicks);
 
             foreach (Pawn pawn in pawnsToRecruit) 
             {
-                pawn.SetFactionDirect(Faction.OfPlayer);
+                //pawn.SetFactionDirect(Faction.OfPlayer);
+                pawn.SetFaction(Faction.OfPlayer);
                 if (ModsConfig.IdeologyActive)
                 {
-                    pawn.ideo.SetIdeo(alignedFaction.ideos.primaryIdeo);
-                    
-                    // DEBUG log output
-                    TaggedString relative = (PawnRelationUtility.GetMostImportantColonyRelative(pawn) != null) ? " (" + PawnRelationUtility.GetMostImportantColonyRelative(pawn).NameFullColored + " is their " + PawnRelationUtility.GetMostImportantRelation(pawn, PawnRelationUtility.GetMostImportantColonyRelative(pawn)).GetGenderSpecificLabelCap(PawnRelationUtility.GetMostImportantColonyRelative(pawn)) + ")" : "";
-                    recruitees += "\t" + pawn.NameFullColored + " (birthLastName = " + pawn.story.birthLastName + ") (" + pawn.gender + ", " + pawn.ageTracker.AgeBiologicalYears + ")" + ", " + pawn.story.TitleShortCap + relative + "\n";                    
+                    pawn.ideo.SetIdeo(alignedFaction.ideos.primaryIdeo);                  
                 }
 
                 // DEBUG - spawn directly at town square
                 Building_TownSquare building_TownSquare = GameComponent_Allegiance.Instance.townSquares.First();
                 GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(building_TownSquare.centerCellPos, building_TownSquare.Map, 3), building_TownSquare.Map);
             }
-
-            Log.Warning("-----------------");
-            Log.Warning("Final list of recruitees:\n" + recruitees);
         }
     }
 }
