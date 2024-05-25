@@ -14,7 +14,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<recipeUsers>
 			<li>CraftingSpot</li>
 			<li>Mousekin_CastIronStove</li>
@@ -50,7 +49,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<recipeUsers>
@@ -170,7 +168,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<recipeUsers>
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
@@ -201,7 +198,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<recipeUsers Inherit="false">
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
@@ -232,7 +228,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<recipeUsers>
@@ -309,7 +304,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<recipeUsers>
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
@@ -359,7 +353,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<recipeUsers>
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
@@ -422,7 +415,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<recipeUsers>
 			<li>ElectricStove</li>
 			<li>FueledStove</li>

@@ -10,7 +10,6 @@
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<workAmount>800</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<recipeUsers>
 			<li>Campfire</li>
@@ -58,7 +57,6 @@
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<workAmount>1000</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<recipeUsers>
 			<li>Mousekin_WorkbenchBrewery</li>
@@ -103,7 +101,6 @@
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<workAmount>1000</workAmount>
 		<workSpeedStat>CookSpeed</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<recipeUsers>
 			<li>Mousekin_WorkbenchBrewery</li>
