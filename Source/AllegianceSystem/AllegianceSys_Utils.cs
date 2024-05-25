@@ -384,18 +384,22 @@ namespace MousekinRace
 
             pawnsToRecruit.SortByDescending(p => p.ageTracker.AgeBiologicalTicks);
 
+
+            // Find the map belonging to the first town square and set a random spawn location near the edge of the map,
+            // while ensuring the player settlement is still reachable
+            Building_TownSquare building_TownSquare = GameComponent_Allegiance.Instance.townSquares.First();
+            Map map = building_TownSquare.Map;
+            CellFinder.TryFindRandomEdgeCellWith((IntVec3 c) => map.reachability.CanReachColony(c) && !c.Fogged(map), map, CellFinder.EdgeRoadChance_Neutral, out IntVec3 recruiteeEntryCell);
+
+            // Spawn the recruitees
             foreach (Pawn pawn in pawnsToRecruit) 
             {
-                //pawn.SetFactionDirect(Faction.OfPlayer);
                 pawn.SetFaction(Faction.OfPlayer);
                 if (ModsConfig.IdeologyActive)
                 {
                     pawn.ideo.SetIdeo(alignedFaction.ideos.primaryIdeo);                  
                 }
-
-                // DEBUG - spawn directly at town square
-                Building_TownSquare building_TownSquare = GameComponent_Allegiance.Instance.townSquares.First();
-                GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(building_TownSquare.centerCellPos, building_TownSquare.Map, 3), building_TownSquare.Map);
+                GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(recruiteeEntryCell, building_TownSquare.Map, 3), building_TownSquare.Map);
             }
         }
     }
