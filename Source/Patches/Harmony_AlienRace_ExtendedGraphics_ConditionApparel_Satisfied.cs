@@ -15,9 +15,9 @@ namespace MousekinRace
         {
             if (__result && pawn.WrappedPawn.apparel != null && ((!AlienRenderTreePatches.IsPortrait(pawn.WrappedPawn) && pawn.VisibleInBed()) || (AlienRenderTreePatches.IsPortrait(pawn.WrappedPawn) && !Prefs.HatsOnlyOnMap)))
             {
-                if (pawn.GetWornApparel.FirstOrDefault(ap => ap.HasComp<CompApparelWithAttachedHeadgear>()) is Apparel hoodedApparel && hoodedApparel.GetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp && comp.Props.hideHarBodyAddonsWithTag.Any(s => __instance.hiddenUnderApparelTag.Contains(s)))
+                if (pawn.WrappedPawn.apparel.WornApparel.Exists(ap => ap.GetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp && comp.Props.hideHarBodyAddonsWithTag.Any(s => __instance.hiddenUnderApparelTag.Contains(s) && comp.isHatOn)))
                 {
-                    __result = !comp.isHatOn;
+                    __result = false;
                 }
             }            
         }
