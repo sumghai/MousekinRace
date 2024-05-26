@@ -5,6 +5,6 @@ Race mod for RimWorld, which adds a species of anthropomorphic white mice called
 
 **License:** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://www.creativecommons.org/licenses/by-sa/4.0/)
 
-[**Discord Server**](https://discord.gg/rb9XdG4Fy7)
+[**Discord Server**](https://discord.gg/7N4bquUWqU)
 
 **Steam Workshop Page** Coming Soon
