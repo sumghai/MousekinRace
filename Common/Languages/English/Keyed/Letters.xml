@@ -12,5 +12,9 @@
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>The following colonists were unhappy with your new allegiance, and have decided to leave your faction:\n{0}</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>
 	
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>All of your colonists have adopted the {0} ideoligion of the parent faction.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
+	
+	<MousekinRace_Letter_AllegianceSysNewColonists>New colonists</MousekinRace_Letter_AllegianceSysNewColonists>
+	
+	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>New colonists have arrived at your settlement:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
 
 </LanguageData>

@@ -18,5 +18,11 @@
 	
 	<!-- EN: All of your colonists have adopted the {0} ideoligion of the parent faction. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>您所有的殖民者都接受了母派系的{0}文化形态。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
+	
+	<!-- EN: New colonists -->
+	<MousekinRace_Letter_AllegianceSysNewColonists>新殖民者</MousekinRace_Letter_AllegianceSysNewColonists>
+	
+	<!-- EN: New colonists have arrived at your settlement:\n{0} -->
+	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>新殖民者已抵达您的定居点:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
 
 </LanguageData>

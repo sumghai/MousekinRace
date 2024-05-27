@@ -391,6 +391,7 @@ namespace MousekinRace
             Map map = building_TownSquare.Map;
             CellFinder.TryFindRandomEdgeCellWith((IntVec3 c) => map.reachability.CanReachColony(c) && !c.Fogged(map), map, CellFinder.EdgeRoadChance_Neutral, out IntVec3 recruiteeEntryCell);
 
+            TaggedString newRecruits = new TaggedString();
             // Spawn the recruitees
             foreach (Pawn pawn in pawnsToRecruit) 
             {
@@ -399,8 +400,12 @@ namespace MousekinRace
                 {
                     pawn.ideo.SetIdeo(alignedFaction.ideos.primaryIdeo);                  
                 }
+                newRecruits += "\n- "+ pawn.NameFullColored + ", " + pawn.story.TitleShort;
                 GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(recruiteeEntryCell, building_TownSquare.Map, 3), building_TownSquare.Map);
             }
+
+            // Notify the player of the new colonists
+            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysNewColonists".Translate(), "MousekinRace_Letter_AllegianceSysNewColonistsDesc".Translate(newRecruits), LetterDefOf.PositiveEvent, new LookTargets(pawnsToRecruit));
         }
     }
 }

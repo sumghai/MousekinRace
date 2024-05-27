@@ -18,5 +18,11 @@
 	
 	<!-- EN: All of your colonists have adopted the {0} ideoligion of the parent faction. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>모든 식민지 주민이 모 진영의 {0} 이데올로기를 채택했습니다.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
+	
+	<!-- EN: New colonists -->
+	<MousekinRace_Letter_AllegianceSysNewColonists>새로운 식민지 개척자</MousekinRace_Letter_AllegianceSysNewColonists>
+	
+	<!-- EN: New colonists have arrived at your settlement:\n{0} -->
+	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>새로운 식민지 개척자가 정착지에 도착했습니다:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
 
 </LanguageData>
