@@ -575,48 +575,57 @@
 					<options>
 						<li>
 							<pawnKind>MousekinColonist</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekin</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<basePrice>1300</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinTradesman</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinCraftsman</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<basePrice>1500</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinDoctor</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinDoctor</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<basePrice>1750</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinPeasant</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinFarmer</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<overrideSpousePawnKind>MousekinPeasant</overrideSpousePawnKind>
 						</li>
 						<li>
 							<pawnKind>MousekinPriest</pawnKind>
-							<!--<iconPath>UI/Roles/Moralist</iconPath>-->
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinPriest</iconPath>
 							<basePrice>1800</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinNun</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinNun</iconPath>
 							<basePrice>1400</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinGuardenerElite</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinGuardenerElite</iconPath>
 							<basePrice>1700</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinGuardener</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinGuardener</iconPath>
 							<basePrice>1600</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinCrossbowman</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinSoldierCrossbow</iconPath>
 							<count>3</count>
 							<basePrice>3600</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinPikeman</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinSoldierPike</iconPath>
 							<count>3</count>
 							<basePrice>3600</basePrice>
 						</li>
@@ -831,40 +840,47 @@
 					<options>
 						<li>
 							<pawnKind>MousekinColonist</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekin</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<basePrice>1170</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinTradesman</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinCraftsman</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<basePrice>1350</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinDoctor</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinDoctor</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<basePrice>1575</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinIndyTownFarmer</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinFarmer</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<basePrice>900</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinPriest</pawnKind>
-							<!--<iconPath>UI/Roles/Moralist</iconPath>-->
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinPriest</iconPath>
 							<basePrice>1620</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinNun</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinNun</iconPath>
 							<basePrice>1260</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinIndyTownCouncilor</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinBycocket</iconPath>
 							<canHaveFamily>true</canHaveFamily>
 							<basePrice>2000</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinIndyTownSoldier</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinSoldierMusket</iconPath>
 							<count>3</count>
 							<basePrice>3600</basePrice>
 						</li>
