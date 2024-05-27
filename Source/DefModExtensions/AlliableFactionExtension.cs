@@ -74,6 +74,8 @@ namespace MousekinRace
     { 
         public PawnKindDef defaultSpousePawnKind;
         public List<RecruitableOptions> options = new();
+        public int priceOffsetWithSpouse = 1000;
+        public int priceOffsetWithChildren = 1000;
     }
 
     public class RecruitableOptions
@@ -89,6 +91,6 @@ namespace MousekinRace
 
         public bool canHaveFamily = false;
 
-        public int basePrice = 100;
+        public int basePrice = 1000;
     }
 }

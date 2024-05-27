@@ -462,10 +462,12 @@ namespace MousekinRace
 
                 if (recruitablePawnCanHaveFamily)
                 {
+                    int inviteCostFamily = inviteCost + recruitableColonistSettings.priceOffsetWithSpouse + (ModsConfig.BiotechActive ? recruitableColonistSettings.priceOffsetWithChildren : 0);
+
                     Rect inviteFamilyButtonRect = new Rect(currentOptionControlsRect.xMin, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
-                    if (Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCost)))
+                    if (Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCostFamily)))
                     {
-                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCost), delegate
+                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCostFamily), delegate
                         {
                             AllegianceSys_Utils.GenerateAndSpawnNewColonists(recruitablePawnKind, 1, recruitablePawnCanHaveFamily, recruitableSpousePawnKind);
                         }));

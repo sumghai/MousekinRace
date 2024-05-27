@@ -576,14 +576,17 @@
 						<li>
 							<pawnKind>MousekinColonist</pawnKind>
 							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1300</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinTradesman</pawnKind>
 							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1500</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinDoctor</pawnKind>
 							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1750</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinPeasant</pawnKind>
@@ -593,23 +596,29 @@
 						<li>
 							<pawnKind>MousekinPriest</pawnKind>
 							<!--<iconPath>UI/Roles/Moralist</iconPath>-->
+							<basePrice>1800</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinNun</pawnKind>
+							<basePrice>1400</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinGuardenerElite</pawnKind>
+							<basePrice>1700</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinGuardener</pawnKind>
+							<basePrice>1600</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinCrossbowman</pawnKind>
 							<count>3</count>
+							<basePrice>3600</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinPikeman</pawnKind>
 							<count>3</count>
+							<basePrice>3600</basePrice>
 						</li>
 					</options>
 				</recruitableColonistSettings>
@@ -817,36 +826,47 @@
 				</factionRestrictedCraftableThingDefs>
 				<recruitableColonistSettings>
 					<defaultSpousePawnKind>MousekinIndyTownFarmer</defaultSpousePawnKind>
+					<priceOffsetWithSpouse>900</priceOffsetWithSpouse>
+					<priceOffsetWithChildren>900</priceOffsetWithChildren>
 					<options>
 						<li>
 							<pawnKind>MousekinColonist</pawnKind>
 							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1170</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinTradesman</pawnKind>
 							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1350</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinDoctor</pawnKind>
 							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1575</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinIndyTownFarmer</pawnKind>
 							<canHaveFamily>true</canHaveFamily>
+							<basePrice>900</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinPriest</pawnKind>
 							<!--<iconPath>UI/Roles/Moralist</iconPath>-->
+							<basePrice>1620</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinNun</pawnKind>
+							<basePrice>1260</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinIndyTownCouncilor</pawnKind>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>2000</basePrice>
 						</li>
 						<li>
 							<pawnKind>MousekinIndyTownSoldier</pawnKind>
 							<count>3</count>
+							<basePrice>3600</basePrice>
 						</li>
 					</options>
 				</recruitableColonistSettings>
