@@ -1,6 +1,7 @@
 ﻿using RimWorld;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Verse;
 using Verse.Sound;
@@ -37,6 +38,8 @@ namespace MousekinRace
 
         public Vector2 scrollPosition = Vector2.zero;
 
+        public float silverAvailable;
+
         public override Vector2 RequestedTabSize
         {
             get
@@ -60,6 +63,11 @@ namespace MousekinRace
 
                 if (GameComponent_Allegiance.Instance.alignedFaction != null)
                 {
+                    // todo - optimize by not searching so often
+                    Log.Warning("Updating silver available!");
+                    silverAvailable = Find.Maps.Where(m => m.IsPlayerHome).SelectMany(m => m.listerThings.ThingsOfDef(ThingDefOf.Silver)
+                                                .Where(x => !x.Position.Fogged(x.Map) && (m.areaManager.Home[x.Position] || x.IsInAnyStorage()))).Sum(t => t.stackCount);
+
                     DrawFactionHome(inRect, ref y);
                 }
                 else
@@ -411,7 +419,7 @@ namespace MousekinRace
             var listingStandard = new Listing_Standard();
             listingStandard.Begin(r);
 
-            listingStandard.Label("[todo - colony silver]]");
+            listingStandard.Label(silverAvailable.ToStringMoney()); // todo - show just silver amount with icon
             listingStandard.GapLine();
             string familyOptionNote = "MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc".Translate(ModsConfig.BiotechActive ? "MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix".Translate() : null);
             listingStandard.Label(familyOptionNote);
@@ -460,28 +468,62 @@ namespace MousekinRace
                 int recruitablePawnCount = recruitableOptions[i].count;
                 int inviteCost = recruitableOptions[i].basePrice;
 
+                Color orgColor = GUI.color;
                 if (recruitablePawnCanHaveFamily)
                 {
                     int inviteCostFamily = inviteCost + recruitableColonistSettings.priceOffsetWithSpouse + (ModsConfig.BiotechActive ? recruitableColonistSettings.priceOffsetWithChildren : 0);
 
                     Rect inviteFamilyButtonRect = new Rect(currentOptionControlsRect.xMin, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
+
+                    if (inviteCostFamily > silverAvailable)
+                    {
+                        GUI.color = Color.gray;
+                    }
+
                     if (Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCostFamily)))
                     {
-                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCostFamily), delegate
+                        if (inviteCostFamily <= silverAvailable)
                         {
-                            AllegianceSys_Utils.GenerateAndSpawnNewColonists(recruitablePawnKind, 1, recruitablePawnCanHaveFamily, recruitableSpousePawnKind);
-                        }));
+                            Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCostFamily), delegate
+                            {
+                                AllegianceSys_Utils.GenerateAndSpawnNewColonists(inviteCostFamily, recruitablePawnKind, 1, recruitablePawnCanHaveFamily, recruitableSpousePawnKind);
+                                SoundDefOf.ExecuteTrade.PlayOneShotOnCamera();
+                            }));
+                        }
+                        else
+                        {
+                            Messages.Message("NotEnoughSilver".Translate(), MessageTypeDefOf.RejectInput, false);
+                        }
                     }
+
+                    GUI.color = orgColor;
                 }
 
                 Rect inviteSingleButtonRect = new Rect(currentOptionControlsRect.xMin + uiElementSpacing + inviteButtonWidth, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
+
+                if (inviteCost > silverAvailable)
+                {
+                    GUI.color = Color.gray;
+                }
+
                 if (Widgets.ButtonText(inviteSingleButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(inviteCost)))
                 {
-                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
+                    if (inviteCost <= silverAvailable)
                     {
-                        AllegianceSys_Utils.GenerateAndSpawnNewColonists(recruitablePawnKind, recruitablePawnCount);
-                    }));
+                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
+                        {
+                            AllegianceSys_Utils.GenerateAndSpawnNewColonists(inviteCost, recruitablePawnKind, recruitablePawnCount);
+                            SoundDefOf.ExecuteTrade.PlayOneShotOnCamera();
+                        }));
+                    }
+                    else
+                    {
+                        Messages.Message("NotEnoughSilver".Translate(), MessageTypeDefOf.RejectInput, false);
+                    }                    
                 }
+
+                GUI.color = orgColor;
+
                 Text.Anchor = anchor;
 
             }

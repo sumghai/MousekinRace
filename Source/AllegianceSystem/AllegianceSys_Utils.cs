@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 using Verse;
 
 namespace MousekinRace
@@ -247,7 +248,7 @@ namespace MousekinRace
             }
         }
         
-        public static void GenerateAndSpawnNewColonists(PawnKindDef pawnKind, int reqCount = 1, bool makeFamily = false, PawnKindDef spousePawnKind = null)
+        public static void GenerateAndSpawnNewColonists(float silverToPay, PawnKindDef pawnKind, int reqCount = 1, bool makeFamily = false, PawnKindDef spousePawnKind = null)
         {
             Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction;
             List<Pawn> pawnsToRecruit = new();  // Placeholder list for new colony recuits
@@ -406,6 +407,18 @@ namespace MousekinRace
 
             // Notify the player of the new colonists
             Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysNewColonists".Translate(), "MousekinRace_Letter_AllegianceSysNewColonistsDesc".Translate(newRecruits), LetterDefOf.PositiveEvent, new LookTargets(pawnsToRecruit));
+
+            // Pay for the recruits
+            int remainingCost = Mathf.RoundToInt(silverToPay);
+            List<Thing> silverList = Find.Maps.Where(m => m.IsPlayerHome).SelectMany(m => m.listerThings.ThingsOfDef(ThingDefOf.Silver)
+                                    .Where(x => !x.Position.Fogged(x.Map) && (m.areaManager.Home[x.Position] || x.IsInAnyStorage()))).ToList();
+            while (remainingCost > 0)
+            {
+                Thing silver = silverList.First(t => t.stackCount > 0);
+                int num = Mathf.Min(remainingCost, silver.stackCount);
+                silver.SplitOff(num).Destroy();
+                remainingCost -= num;
+            }
         }
     }
 }
