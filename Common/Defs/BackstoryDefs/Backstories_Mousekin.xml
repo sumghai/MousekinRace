@@ -2264,8 +2264,8 @@
 		<title>Crop Farmer</title>
 		<titleShort>Farmer</titleShort>
 		<description>Like generations before [PAWN_objective], [PAWN_nameDef] grew wheat, corn and potatoes in the fields outside the Mousekin hamlet [PAWN_pronoun] and [PAWN_possessive] family lived in.\n\n[PAWN_possessive] biggest worries were the increasing taxes being levied by the provincial lord, and the rats nesting in the granaries.</description>
-		<maleCommonality>75</maleCommonality>
-		<femaleCommonality>75</femaleCommonality>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<Construction>2</Construction>
@@ -2391,8 +2391,8 @@
 		<title>Vegetable Farmer</title>
 		<titleShort>Farmer</titleShort>
 		<description>[PAWN_nameDef]'s family had a small plot just outside their farmhouse, where they grew cabbages, tomatoes, peas, onions and carrots.\n\nOn weekends, [PAWN_pronoun] would drive a giant cavy-drawn cart full of vegetables to sell at the local Mousekin town market.</description>
-		<maleCommonality>50</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
+		<maleCommonality>75</maleCommonality>
+		<femaleCommonality>75</femaleCommonality>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<Construction>2</Construction>
@@ -4471,11 +4471,11 @@
 		<femaleCommonality>50</femaleCommonality>
 		<slot>Adulthood</slot>
 		<bioAgeRange>
-			<min>25</min>
+			<min>20</min>
 			<max>65</max>
 		</bioAgeRange>
 		<chronoAgeRange>
-			<min>25</min>
+			<min>20</min>
 			<max>65</max>
 		</chronoAgeRange>
 		<skillGains>
@@ -4521,15 +4521,15 @@
 		<title>Shopkeeper</title>
 		<titleShort>Shopkeeper</titleShort>
 		<description>[PAWN_nameDef] owned a general store in a Mousekin village, and sold everything from cooking supplies and kitchenware to candles and bedroom linen.\n\n[PAWN_pronoun] placed great importance on good customer service, to the point that if a customer needed something [PAWN_pronoun] didn't stock, [PAWN_pronoun] would go get it from a competitor [PAWN_objective]self rather than turn the customer away.</description>
-		<maleCommonality>50</maleCommonality>
-		<femaleCommonality>50</femaleCommonality>
+		<maleCommonality>75</maleCommonality>
+		<femaleCommonality>75</femaleCommonality>
 		<slot>Adulthood</slot>
 		<bioAgeRange>
-			<min>25</min>
+			<min>20</min>
 			<max>65</max>
 		</bioAgeRange>
 		<chronoAgeRange>
-			<min>25</min>
+			<min>20</min>
 			<max>65</max>
 		</chronoAgeRange>
 		<skillGains>
