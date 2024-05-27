@@ -1243,9 +1243,9 @@
 				</li>
 			</lifeStageAges>
 			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
-				<Firefighter>6</Firefighter>
+				<Firefighter>7</Firefighter>
 				<Patient>0</Patient>
-				<Doctor>9</Doctor>
+				<Doctor>10</Doctor>
 				<PatientBedRest>0</PatientBedRest>
 				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
 				<BasicWorker>3</BasicWorker>
@@ -1264,6 +1264,7 @@
 				<Hauling>3</Hauling>
 				<Cleaning>3</Cleaning>
 				<Research>13</Research>
+				<DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">13</DarkStudy>
 			</lifeStageWorkSettings>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
