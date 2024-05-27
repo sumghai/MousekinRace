@@ -58,7 +58,7 @@ namespace MousekinRace
             }
 
             // Send a custom letter notifying player they have joined the chosen faction, and describing any consequences
-            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysJoinedFaction".Translate(allegianceFaction.Name), GenerateJoinFactionLetterDesc(allegianceFaction, quittingColonistsWithReasons), LetterDefOf.PositiveEvent);
+            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysJoinedFaction".Translate(allegianceFaction.Name), GenerateJoinFactionLetterDesc(allegianceFaction, quittingColonistsWithReasons), LetterDefOf.PositiveEvent, quittingColonists.Count > 0 ? new LookTargets(quittingColonists) : null);
 
             // Remove any workbench bills for items disallowed by faction allegiance/restriction
             AllegianceSys_Utils.ResetFactionRestrictedCraftingBills();
@@ -204,7 +204,7 @@ namespace MousekinRace
 
             letterBody += GenerateQuittingColonistsWithReasonsDesc("MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists", quittingColonistsWithReasons);
 
-            return letterBody;
+            return letterBody.Trim();
         }
 
         public static bool AnyColonistsWithShatteredEmpireTitle()
