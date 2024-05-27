@@ -281,7 +281,7 @@ namespace MousekinRace
                 float maxAgeDiffBetweenSpouses = 4f;
                 float ageDiffBetweenSpouses = Rand.Range(minAgeDiffBetweenSpouses, maxAgeDiffBetweenSpouses);
                 float ageOfFather = ageOfMother + ageDiffBetweenSpouses;
-                float tmpStartingAge = 20f;
+                float tmpStartingAge = 25f; // Minimum age for most starting colonist bios, ensures we get good selection of bio choices
                 PawnGenerationRequest primaryPawnGenRequest = new PawnGenerationRequest(
                     pawnKind,
                     faction: alignedFaction,
