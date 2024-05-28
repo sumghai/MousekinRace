@@ -44,6 +44,11 @@ namespace MousekinRace
             GUI.DrawTexture(ideoBannerImgRect, ideoBannerImg);
 
             num += ideoBannerImgRect.height + 10f;
+            float ideoDescRectWidth = mainRect.width - 100f;
+            Rect ideoDescRect = new Rect(mainRect.xMin + 50f, num, ideoDescRectWidth, Text.CalcHeight(tgtIdeo.description, ideoDescRectWidth));
+            Widgets.Label(ideoDescRect, tgtIdeo.description);
+
+            num += ideoDescRect.height + 10f;
             TaggedString taggedButtonString = "ClickForMoreInfo".Translate().Replace(".", "").Replace("。", "");
             float ideoInfoButtonWidth = Math.Max(Page.BottomButSize.x, Text.CalcSize(taggedButtonString).x + (Page.BottomButSize.y - Text.CalcSize(taggedButtonString).y));
             Rect ideoInfoButtonRect = new Rect((mainRect.width - ideoInfoButtonWidth) / 2, num, ideoInfoButtonWidth, Page.BottomButSize.y);
