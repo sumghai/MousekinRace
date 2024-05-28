@@ -349,6 +349,9 @@ namespace MousekinRace
                 case "AllegianceSys_Recruit":
                     DrawPageRecruit(innerRect);
                     break;
+                case "AllegianceSys_CallTrader":
+                    DrawPageTraders(innerRect);
+                    break;
                 default:
                     Widgets.Label(innerRect, pageTag);
                     break;
@@ -532,6 +535,73 @@ namespace MousekinRace
                 }
 
                 GUI.color = orgColor;
+
+                Text.Anchor = anchor;
+
+            }
+            Widgets.EndScrollView();
+
+            listingStandard.End();
+        }
+
+        public void DrawPageTraders(Rect r)
+        {
+            List<TraderKindDef> traderOptions = GameComponent_Allegiance.Instance.alignedFaction.def.caravanTraderKinds;
+
+            var listingStandard = new Listing_Standard();
+            listingStandard.Begin(r);
+            listingStandard.Label("[todo - time to next random trader arrival]");
+            listingStandard.GapLine();
+            listingStandard.Gap();
+
+            Rect scrollableAreaRect = new Rect(0, listingStandard.curY, r.width, r.height - listingStandard.curY);
+            int rows = traderOptions.Count / optionNumColumns + ((traderOptions.Count % optionNumColumns > 0) ? 1 : 0);
+            float optionSpacing = StandardMargin;
+            float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
+            float scrollableContentsHeight = rows * (optionRowHeight + optionSpacing) - optionSpacing;
+            float optionColumnWidth = (scrollableContentsWidth - optionSpacing * (optionNumColumns - 1)) / optionNumColumns;
+            Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, scrollableContentsHeight);
+
+            Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
+            for (int i = 0; i < traderOptions.Count; i++)
+            {
+                float currentOptionRectOriginX = (i % optionNumColumns == 0) ? 0f : optionColumnWidth + optionSpacing;
+                float currentOptionRectOriginY = (i / optionNumColumns) * (optionRowHeight + optionSpacing);
+                Rect currentOptionRect = new Rect(currentOptionRectOriginX, currentOptionRectOriginY, optionColumnWidth, optionRowHeight);
+                Widgets.DrawBoxSolid(currentOptionRect, optionBg);
+                GUI.color = optionBgMouseover;
+                Widgets.DrawHighlightIfMouseover(currentOptionRect);
+                GUI.color = Color.white;
+
+                Rect currentOptionInnerRect = currentOptionRect.ContractedBy(uiElementSpacing);
+                Rect currentOptionIconRect = new Rect(currentOptionInnerRect.xMin, currentOptionInnerRect.yMin, currentOptionInnerRect.height, currentOptionInnerRect.height);
+                Rect currentOptionControlsRect = new Rect(currentOptionIconRect.xMax + uiElementSpacing, currentOptionInnerRect.yMin, currentOptionInnerRect.width - currentOptionIconRect.width - uiElementSpacing, currentOptionInnerRect.height);
+
+                Texture2D iconTex = ContentFinder<Texture2D>.Get(BaseContent.BadTexPath, true);
+                GUI.color = GameComponent_Allegiance.Instance.alignedFaction.Color;
+                GUI.DrawTexture(currentOptionIconRect, iconTex);
+                GUI.color = Color.white;
+
+                TaggedString optionName = traderOptions[i].LabelCap;
+                Widgets.Label(currentOptionControlsRect, optionName);
+
+                TextAnchor anchor = Text.Anchor;
+                Text.Anchor = TextAnchor.MiddleCenter;
+                float inviteButtonWidth = (currentOptionControlsRect.width - uiElementSpacing) / 2;
+                float inviteButtonHeight = Text.CalcHeight("Invite trader", inviteButtonWidth) + uiElementSpacing;
+                
+                Rect inviteSingleButtonRect = new Rect(currentOptionControlsRect.xMin + uiElementSpacing + inviteButtonWidth, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
+
+                if (Widgets.ButtonText(inviteSingleButtonRect, "Invite trader"))
+                {
+                    /* todo - implement actual trader request functionality
+                     * 
+                     * Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
+                    {
+                        AllegianceSys_Utils.GenerateAndSpawnNewColonists(inviteCost, recruitablePawnKind, recruitablePawnCount);
+                        SoundDefOf.ExecuteTrade.PlayOneShotOnCamera();
+                    }));*/
+                }
 
                 Text.Anchor = anchor;
 
