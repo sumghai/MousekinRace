@@ -1,7 +1,6 @@
 ﻿using RimWorld;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using Verse;
 using Verse.Sound;
@@ -414,7 +413,22 @@ namespace MousekinRace
             var listingStandard = new Listing_Standard();
             listingStandard.Begin(r);
 
-            listingStandard.Label(availableSilver.ToStringMoney()); // todo - show just silver amount with icon
+            string silverAvailableValue = availableSilver.ToString();
+            Rect silverAvailableReadoutRect = new Rect(0, 0, r.width / 4, Text.CalcHeight(silverAvailableValue, r.width / 4) + StandardMargin / 2);
+            Widgets.DrawBoxSolid(silverAvailableReadoutRect, optionBg);
+            GUI.color = optionBgMouseover;
+            Widgets.DrawHighlightIfMouseover(silverAvailableReadoutRect);
+            GUI.color = Color.white;
+            Rect silverIconRect = new Rect(silverAvailableReadoutRect.xMin + StandardMargin / 2, silverAvailableReadoutRect.yMin, silverAvailableReadoutRect.height, silverAvailableReadoutRect.height);
+            Rect silverTextRect = new Rect(silverIconRect.xMin + silverIconRect.width + StandardMargin / 2, silverAvailableReadoutRect.yMin, silverAvailableReadoutRect.width - silverIconRect.width - StandardMargin / 2, silverAvailableReadoutRect.height);
+            Widgets.ThingIcon(silverIconRect, ThingDefOf.Silver);
+            TextAnchor anchor = Text.Anchor;
+            Text.Anchor = TextAnchor.MiddleLeft;
+            Widgets.Label(silverTextRect, silverAvailableValue);
+            Text.Anchor = anchor;
+            TooltipHandler.TipRegion(silverAvailableReadoutRect, ThingDefOf.Silver.LabelCap + ": " + ThingDefOf.Silver.description.CapitalizeFirst());
+
+            listingStandard.curY = silverAvailableReadoutRect.yMax;
             listingStandard.GapLine();
             string familyOptionNote = "MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc".Translate(ModsConfig.BiotechActive ? "MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix".Translate() : null);
             listingStandard.Label(familyOptionNote);
@@ -452,7 +466,7 @@ namespace MousekinRace
                 TaggedString optionPawnCount = ((recruitableOptions[i].count > 1) ? "(x" + recruitableOptions[i].count + ")" : "");
                 Widgets.Label(currentOptionControlsRect, optionName + " " + optionPawnCount);
 
-                TextAnchor anchor = Text.Anchor;
+                anchor = Text.Anchor;
                 Text.Anchor = TextAnchor.MiddleCenter;
                 float inviteButtonWidth = (currentOptionControlsRect.width - uiElementSpacing) / 2;
                 float inviteButtonHeight = Text.CalcHeight("MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(), inviteButtonWidth) + uiElementSpacing;
