@@ -614,6 +614,9 @@
 		<apparelTags>
 			<li>MousekinDoctor</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_GlassesLarge</li>
+		</apparelRequired>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>16~24</initialResistanceRange>
 	</PawnKindDef>
