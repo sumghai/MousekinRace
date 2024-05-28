@@ -17,6 +17,8 @@ namespace MousekinRace
 
         public Faction alignedFaction = null;
 
+        public float availableSilver;
+
         public bool HasAnyTownSquares => townSquares.Count > 0;
 
         public static GameComponent_Allegiance Instance;
@@ -42,6 +44,7 @@ namespace MousekinRace
             base.StartedNewGame();
             PreInit();
             RecacheTownSquares();
+            RecacheAvailableSilver();
             seenAllegianceSysIntroLetter = false; // Reset the first time Allegiance System letter for new games
         }
 
@@ -50,12 +53,34 @@ namespace MousekinRace
             base.LoadedGame();
             PreInit();
             RecacheTownSquares();
+            RecacheAvailableSilver();
+        }
+
+        public override void GameComponentTick()
+        {
+            base.GameComponentTick();
+            
+            // Only try to recache silver every 2 seconds
+            if (Find.TickManager.TicksGame % (GenTicks.TicksPerRealSecond * 2) == 0) 
+            {
+                RecacheAvailableSilver();
+            }
         }
 
         public void RecacheTownSquares()
         { 
             townSquares.Clear();
             townSquares = Find.Maps.Where(m => m.IsPlayerHome).SelectMany(m => m.listerBuildings.AllBuildingsColonistOfClass<Building_TownSquare>()).ToList();
+        }
+
+        public void RecacheAvailableSilver()
+        {
+            // Only recache silver if the player has set an allegiance
+            if (alignedFaction != null)
+            {
+                availableSilver = Find.Maps.Where(m => m.IsPlayerHome).SelectMany(m => m.listerThings.ThingsOfDef(ThingDefOf.Silver)
+                                            .Where(x => !x.Position.Fogged(x.Map) && (m.areaManager.Home[x.Position] || x.IsInAnyStorage()))).Sum(t => t.stackCount);
+            }
         }
 
         public  void ShowAllegianceSysIntroLetterFirstTime()

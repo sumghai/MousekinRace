@@ -38,8 +38,6 @@ namespace MousekinRace
 
         public Vector2 scrollPosition = Vector2.zero;
 
-        public float silverAvailable;
-
         public override Vector2 RequestedTabSize
         {
             get
@@ -63,11 +61,6 @@ namespace MousekinRace
 
                 if (GameComponent_Allegiance.Instance.alignedFaction != null)
                 {
-                    // todo - optimize by not searching so often
-                    Log.Warning("Updating silver available!");
-                    silverAvailable = Find.Maps.Where(m => m.IsPlayerHome).SelectMany(m => m.listerThings.ThingsOfDef(ThingDefOf.Silver)
-                                                .Where(x => !x.Position.Fogged(x.Map) && (m.areaManager.Home[x.Position] || x.IsInAnyStorage()))).Sum(t => t.stackCount);
-
                     DrawFactionHome(inRect, ref y);
                 }
                 else
@@ -413,13 +406,15 @@ namespace MousekinRace
 
         public void DrawPageRecruit(Rect r)
         {
+            float availableSilver = GameComponent_Allegiance.Instance.availableSilver;
+            
             RecruitableColonistSettings recruitableColonistSettings = GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().recruitableColonistSettings;
             List<RecruitableOptions> recruitableOptions = recruitableColonistSettings.options;
 
             var listingStandard = new Listing_Standard();
             listingStandard.Begin(r);
 
-            listingStandard.Label(silverAvailable.ToStringMoney()); // todo - show just silver amount with icon
+            listingStandard.Label(availableSilver.ToStringMoney()); // todo - show just silver amount with icon
             listingStandard.GapLine();
             string familyOptionNote = "MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc".Translate(ModsConfig.BiotechActive ? "MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix".Translate() : null);
             listingStandard.Label(familyOptionNote);
@@ -475,14 +470,14 @@ namespace MousekinRace
 
                     Rect inviteFamilyButtonRect = new Rect(currentOptionControlsRect.xMin, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
 
-                    if (inviteCostFamily > silverAvailable)
+                    if (inviteCostFamily > availableSilver)
                     {
                         GUI.color = Color.gray;
                     }
 
                     if (Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCostFamily)))
                     {
-                        if (inviteCostFamily <= silverAvailable)
+                        if (inviteCostFamily <= availableSilver)
                         {
                             Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCostFamily), delegate
                             {
@@ -501,14 +496,14 @@ namespace MousekinRace
 
                 Rect inviteSingleButtonRect = new Rect(currentOptionControlsRect.xMin + uiElementSpacing + inviteButtonWidth, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
 
-                if (inviteCost > silverAvailable)
+                if (inviteCost > availableSilver)
                 {
                     GUI.color = Color.gray;
                 }
 
                 if (Widgets.ButtonText(inviteSingleButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(inviteCost)))
                 {
-                    if (inviteCost <= silverAvailable)
+                    if (inviteCost <= availableSilver)
                     {
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
                         {

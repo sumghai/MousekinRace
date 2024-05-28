@@ -419,6 +419,8 @@ namespace MousekinRace
                 silver.SplitOff(num).Destroy();
                 remainingCost -= num;
             }
+
+            GameComponent_Allegiance.Instance.RecacheAvailableSilver();
         }
     }
 }
