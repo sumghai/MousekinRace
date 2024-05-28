@@ -162,6 +162,16 @@ namespace MousekinRace
                 descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor".Translate(alliableFactionExtension.tradePriceFactor.ToStringPercent()) + "\n\n";
             }
 
+            if (alliableFactionExtension.recruitableColonistSettings.options.Count > 0)
+            {
+                string recruitableColonists = "";
+                foreach (RecruitableOptions option in alliableFactionExtension.recruitableColonistSettings.options)
+                {
+                    recruitableColonists += "  - " + option.pawnKind.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() + "\n";
+                }
+                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists".Translate(recruitableColonists) + "\n";
+            }
+
             if (alliableFactionExtension.factionRestrictedCraftableThingDefs != null && alliableFactionExtension.factionRestrictedCraftableThingDefs.Count > 0) 
             {
                 descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked".Translate();

@@ -55,6 +55,9 @@
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>소속 진영이 {0} 이데올로기를 채택합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	
+	<!-- EN: The following colonist types from the faction can be invited to join your settlements:\n{0} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>이 진영에 속한 다음 유형의 식민지 개척자를 정착지로 초대할 수 있습니다:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>
+	
 	<!-- EN: Traders from this faction will offer goods at {0} of typical market values -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>이 진영의 상인은 일반 시장 가격의 {0}에 상품을 판매합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
 	

@@ -55,6 +55,9 @@
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>あなたの派閥は{0}思想に従います.</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	
+	<!-- EN: The following colonist types from the faction can be invited to join your settlements:\n{0} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>この派閥の以下の入植者タイプは、あなたの入植地に招待することができます:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>
+	
 	<!-- EN: Traders from this faction will offer goods at {0} of typical market values -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>この派閥のトレーダーは、一般的な市場価格の{0}で商品を提供します</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
 	

@@ -55,6 +55,9 @@
 	<!-- EN: Your faction will adopt the {0} ideoligion -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>您的派别将采纳{0}文化形态</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
 	
+	<!-- EN: The following colonist types from the faction can be invited to join your settlements:\n{0} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>您可以邀请该派系的以下殖民者类型加入您的定居点:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>
+	
 	<!-- EN: Traders from this faction will offer goods at {0} of typical market values -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>该派系的商人将以一般市场价值{0}的价格提供商品</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
 	
