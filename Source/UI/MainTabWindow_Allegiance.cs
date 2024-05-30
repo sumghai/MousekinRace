@@ -579,7 +579,7 @@ namespace MousekinRace
                 Rect currentOptionIconRect = new Rect(currentOptionInnerRect.xMin, currentOptionInnerRect.yMin, currentOptionInnerRect.height, currentOptionInnerRect.height);
                 Rect currentOptionControlsRect = new Rect(currentOptionIconRect.xMax + uiElementSpacing, currentOptionInnerRect.yMin, currentOptionInnerRect.width - currentOptionIconRect.width - uiElementSpacing, currentOptionInnerRect.height);
 
-                Texture2D iconTex = ContentFinder<Texture2D>.Get(BaseContent.BadTexPath, true);
+                Texture2D iconTex = ContentFinder<Texture2D>.Get(traderOptions[i].GetModExtension<TraderExtension>().iconPath, true);
                 GUI.color = GameComponent_Allegiance.Instance.alignedFaction.Color;
                 GUI.DrawTexture(currentOptionIconRect, iconTex);
                 GUI.color = Color.white;

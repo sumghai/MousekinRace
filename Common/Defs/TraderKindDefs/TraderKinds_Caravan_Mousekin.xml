@@ -179,6 +179,11 @@
 			</li>
 			
 		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderBulk</iconPath>
+			</li>
+		</modExtensions>
 	</TraderKindDef>
 
 	<!-- Clothing merchant (Kingdom and Independent factions) - buys and sells Mousekin commoner and middle-class apparel, accessories, fabrics, wools and leathers -->
@@ -261,6 +266,11 @@
 			</li>
 
 		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderApparel</iconPath>
+			</li>
+		</modExtensions>
 	</TraderKindDef>
 
 	<!-- Livestock trader (Kingdom and Independent factions) - sells common Mousekin farm animals, and buys most other animals -->
@@ -304,6 +314,11 @@
 			</li>
 
 		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderLivestock</iconPath>
+			</li>
+		</modExtensions>
 	</TraderKindDef>
 
 	<!-- Ironmonger - sells tools, melee and ranged weapons, as well as ammo, explosives, military apparel, combat and healing potions
@@ -334,6 +349,11 @@
 			</li>
 
 		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderIronmonger</iconPath>
+			</li>
+		</modExtensions>
 	</TraderKindDef>
 
 	<TraderKindDef ParentName="Mousekin_TraderCaravanMilitaryBase">

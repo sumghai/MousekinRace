@@ -325,6 +325,7 @@
     <Compile Include="Comps\CompFireplaceRenderer.cs" />
     <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
+    <Compile Include="DefModExtensions\TraderExtension.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
     <Compile Include="Patches\Harmony_Game.cs" />
     <Compile Include="Patches\Harmony_IncidentWorker_CaravanArrivalTributeCollector.cs" />
