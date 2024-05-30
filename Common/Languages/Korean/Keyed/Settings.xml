@@ -3,11 +3,23 @@
 
 	<!-- EN: Mousekin Race -->
 	<MousekinRace_SettingsCategory_Heading>마우스킨</MousekinRace_SettingsCategory_Heading>
+	
+	<!-- EN: Race -->
+	<MousekinRace_Settings_SectionRace_Heading>종류</MousekinRace_Settings_SectionRace_Heading>
 
 	<!-- EN: Earless Mousekins are suicidal -->
-	<MousekinRace_Settings_EarlessMousekinsAreSuicidal_Title>귀가 없는 마우스킨은 자살한다</MousekinRace_Settings_EarlessMousekinsAreSuicidal_Title>
+	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>귀가 없는 마우스킨은 자살한다</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>
 
 	<!-- EN: Mousekins who lose both their ears and do not receive prosthetic or natural implants will commit suicide after 15 in-game days due to social stigma.\n\nDisabling this will keep them alive, but they will continue to experience mood debuffs from missing ears. -->
-	<MousekinRace_Settings_EarlessMousekinsAreSuicidal_Desc>두 귀를 모두 잃고 보철 또는 천연 이식을 받지 못한 마우스킨은 사회적 낙인으로 인해 게임 내에서 15일 후에 자살합니다.\n\n이 기능을 비활성화하면 마우스는 계속 살아있지만 귀가 없어진 기분 디버프를 계속 경험하게 됩니다.</MousekinRace_Settings_EarlessMousekinsAreSuicidal_Desc>
+	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>두 귀를 모두 잃고 보철 또는 천연 이식을 받지 못한 마우스킨은 사회적 낙인으로 인해 게임 내에서 15일 후에 자살합니다.\n\n이 기능을 비활성화하면 마우스는 계속 살아있지만 귀가 없어진 기분 디버프를 계속 경험하게 됩니다.</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>
+	
+	<!-- EN: Faction Allegiance system -->
+	<MousekinRace_Settings_SectionAllegianceSys_Heading>진영 충성 시스템을</MousekinRace_Settings_SectionAllegianceSys_Heading>
+	
+	<!-- EN: Random trade caravan interval: {0} -->
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>무작위 무역 캐러밴 간격: {0}</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>
+	
+	<!-- EN: Specify how often a random caravan trader from the chosen allegiance faction should visit your settlements. -->
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>선택한 충성 진영의 무작위 캐러밴 상인이 내 정착지를 방문하는 빈도를 지정합니다.</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>
 
 </LanguageData>

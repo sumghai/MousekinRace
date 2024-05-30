@@ -3,11 +3,23 @@
 
 	<!-- EN: Mousekin Race -->
 	<MousekinRace_SettingsCategory_Heading>マウスキン</MousekinRace_SettingsCategory_Heading>
+	
+	<!-- EN: Race -->
+	<MousekinRace_Settings_SectionRace_Heading>種族</MousekinRace_Settings_SectionRace_Heading>
 
 	<!-- EN: Earless Mousekins are suicidal -->
-	<MousekinRace_Settings_EarlessMousekinsAreSuicidal_Title>耳なしマウスキンは自殺行為</MousekinRace_Settings_EarlessMousekinsAreSuicidal_Title>
+	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>耳なしマウスキンは自殺行為</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>
 
 	<!-- EN: Mousekins who lose both their ears and do not receive prosthetic or natural implants will commit suicide after 15 in-game days due to social stigma.\n\nDisabling this will keep them alive, but they will continue to experience mood debuffs from missing ears. -->
-	<MousekinRace_Settings_EarlessMousekinsAreSuicidal_Desc>両耳を失ったマウスキンが義肢や天然のインプラントを受けなかった場合、社会的な汚名によりゲーム内で15日後に自殺してしまいます.\n\nこれを無効化すると、生存は可能ですが、耳の欠損による感情状態の低下が継続します.</MousekinRace_Settings_EarlessMousekinsAreSuicidal_Desc>
+	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>両耳を失ったマウスキンが義肢や天然のインプラントを受けなかった場合、社会的な汚名によりゲーム内で15日後に自殺してしまいます.\n\nこれを無効化すると、生存は可能ですが、耳の欠損による感情状態の低下が継続します.</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>
+	
+	<!-- EN: Faction Allegiance system -->
+	<MousekinRace_Settings_SectionAllegianceSys_Heading>派閥忠誠システム</MousekinRace_Settings_SectionAllegianceSys_Heading>
+	
+	<!-- EN: Random trade caravan interval: {0} -->
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>ランダム貿易キャラバン間隔: {0}</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>
+	
+	<!-- EN: Specify how often a random caravan trader from the chosen allegiance faction should visit your settlements. -->
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>選択した忠誠派閥のランダムなキャラバン商人が入植地を訪れる頻度を指定します.</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>
 
 </LanguageData>

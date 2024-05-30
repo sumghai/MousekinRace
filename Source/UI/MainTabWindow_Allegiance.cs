@@ -324,7 +324,7 @@ namespace MousekinRace
 
         public void DrawMenuOptionButton(Rect r, MenuOption option)
         {
-            Widgets.DrawOptionBackground(r, option.pageTag == selectedPageTag); // todo - change background dynamically
+            Widgets.DrawOptionBackground(r, option.pageTag == selectedPageTag);
             if (Widgets.ButtonInvisible(r))
             {
                 selectedPageTag = option.pageTag;
@@ -550,7 +550,9 @@ namespace MousekinRace
 
             var listingStandard = new Listing_Standard();
             listingStandard.Begin(r);
-            listingStandard.Label("[todo - time to next random trader arrival]");
+
+            listingStandard.Label("MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn".Translate(GameComponent_Allegiance.Instance.ticksUntilNextRandomCaravanTrader.ToStringTicksToPeriod()));
+
             listingStandard.GapLine();
             listingStandard.Gap();
 
@@ -609,6 +611,21 @@ namespace MousekinRace
             Widgets.EndScrollView();
 
             listingStandard.End();
+
+            // Development / God mode debug buttons
+            if (DebugSettings.godMode)
+            {
+                string devRandCaravanTraderButtonLabel = "DEV: Spawn random caravan trader now";
+                Vector2 devRandCaravanTraderButtonSize = Text.CalcSize(devRandCaravanTraderButtonLabel);
+                devRandCaravanTraderButtonSize.x += StandardMargin * 2;
+                Log.Warning(devRandCaravanTraderButtonSize.ToStringSafe());
+                Rect devRandCaravanTraderButtonRect = new Rect(r.xMax - devRandCaravanTraderButtonSize.x, r.yMin, devRandCaravanTraderButtonSize.x, devRandCaravanTraderButtonSize.y);
+
+                if (Widgets.ButtonText(devRandCaravanTraderButtonRect, devRandCaravanTraderButtonLabel))
+                {
+                    GameComponent_Allegiance.Instance.ticksUntilNextRandomCaravanTrader = 0;
+                }
+            }
         }
 
         public class MenuOption

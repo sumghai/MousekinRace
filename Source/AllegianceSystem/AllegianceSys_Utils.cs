@@ -432,5 +432,19 @@ namespace MousekinRace
 
             GameComponent_Allegiance.Instance.RecacheAvailableSilver();
         }
+
+        public static void SpawnTradeCaravanFromAllegianceFaction(TraderKindDef specificTraderKind = null)
+        {
+            IncidentDef incidentDef = IncidentDefOf.TraderCaravanArrival;
+            Map targetMap = GameComponent_Allegiance.Instance.townSquares.FirstOrDefault().Map;
+            IncidentParms incidentParms = StorytellerUtility.DefaultParmsNow(incidentDef.category, targetMap);
+            incidentParms.faction = GameComponent_Allegiance.Instance.alignedFaction;
+            incidentParms.traderKind = specificTraderKind ?? GameComponent_Allegiance.Instance.alignedFaction.def.caravanTraderKinds.RandomElement();
+            if (incidentDef.Worker.CanFireNowSub(incidentParms))
+            {
+                incidentParms.forced = true;
+                incidentDef.Worker.TryExecuteWorker(incidentParms);
+            }
+        }
     }
 }

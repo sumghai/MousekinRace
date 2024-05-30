@@ -1,4 +1,5 @@
 ﻿using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
@@ -18,6 +19,8 @@ namespace MousekinRace
         public Faction alignedFaction = null;
 
         public float availableSilver;
+
+        public int ticksUntilNextRandomCaravanTrader = 0;
 
         public bool HasAnyTownSquares => townSquares.Count > 0;
 
@@ -59,11 +62,16 @@ namespace MousekinRace
         public override void GameComponentTick()
         {
             base.GameComponentTick();
-            
-            // Only try to recache silver every 2 seconds
-            if (Find.TickManager.TicksGame % (GenTicks.TicksPerRealSecond * 2) == 0) 
+
+            if (alignedFaction != null)
             {
-                RecacheAvailableSilver();
+                // Only try to recache silver every 2 seconds
+                if (Find.TickManager.TicksGame % (GenTicks.TicksPerRealSecond * 2) == 0)
+                {
+                    RecacheAvailableSilver();
+                }
+
+                TickRandomCaravanTrader();
             }
         }
 
@@ -83,6 +91,19 @@ namespace MousekinRace
             }
         }
 
+        public void TickRandomCaravanTrader()
+        {
+            if (ticksUntilNextRandomCaravanTrader <= 0)
+            {
+                ticksUntilNextRandomCaravanTrader = MousekinRaceMod.Settings.AllegianceSys_DaysBetweenRandomTraders * GenDate.TicksPerDay;
+                AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction();
+            }
+            else
+            {
+                ticksUntilNextRandomCaravanTrader--;
+            }
+        }
+        
         public  void ShowAllegianceSysIntroLetterFirstTime()
         {
             if (!seenAllegianceSysIntroLetter)
@@ -99,6 +120,7 @@ namespace MousekinRace
             Scribe_Values.Look(ref seenAllegianceSysIntroLetter, "seenAllegianceSysIntroLetter", false, true);
             Scribe_Values.Look(ref anyColonistsWithShatteredEmpireTitle, "anyColonistsWithShatteredEmpireTitle");
             Scribe_References.Look(ref alignedFaction, "alignedFaction");
+            Scribe_Values.Look(ref ticksUntilNextRandomCaravanTrader, "ticksUntilNextRandomCaravanTrader", 0);
             Instance = this;
         }
     }
