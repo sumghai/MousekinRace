@@ -17,9 +17,9 @@
 	<MousekinRace_Settings_SectionAllegianceSys_Heading>派系效忠系統</MousekinRace_Settings_SectionAllegianceSys_Heading>
 	
 	<!-- EN: Random trade caravan interval: {0} -->
-	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>隨機貿易商隊間隔: {0}</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>隨機交易旅隊間隔: {0}</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>
 	
 	<!-- EN: Specify how often a random caravan trader from the chosen allegiance faction should visit your settlements. -->
-	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>指定所選效忠派系的隨機貿易商隊訪問殖民地的頻率。</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>指定所選效忠派系的隨機交易旅隊訪問殖民地的頻率。</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>
 
 </LanguageData>
