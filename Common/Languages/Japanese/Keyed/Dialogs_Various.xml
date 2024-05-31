@@ -77,7 +77,7 @@
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}の{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
 	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
-	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>注意：「家族で招待」オプションには配偶者{0}が含まれます。</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>注意：「家族で招待」オプションには配偶者{0}が含まれます.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
 	
 	<!-- EN:  and 2~3 children -->
 	<MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>と2～3人の子供</MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>
@@ -96,6 +96,15 @@
 	
 	<!-- EN: Next random caravan trader arrives in: {0} -->
 	<MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>次のランダムなキャラバン商人が到着する: {0}</MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>
+	
+	<!-- EN: Next requested caravan trader arrives in: {0} ({1}) -->
+	<MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>次に特定のキャラバン商人が到着する: {0} ({1})</MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>
+	
+	<!-- EN: Cooldown remaining for requesting specific caravan traders: {0} -->
+	<MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>特定のキャラバン商人に依頼する際のクールダウンの残り時間: {0}</MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>
+	
+	<!-- EN: Are you sure you want to request a {0} to visit your settlement?\n\nThey will arrive in {1}. -->
+	<MousekinRace_AllegianceSys_Trader_Confirmation>本当に{0}の訪問を依頼しますか？\n\n{1}後に到着します.</MousekinRace_AllegianceSys_Trader_Confirmation>
 	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派閥忠誠</MousekinRace_TradePriceFactor_FactionAllegiance>

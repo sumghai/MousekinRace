@@ -6,5 +6,8 @@
 	
 	<!-- EN: Cannot pledge allegiance to {0}: requirements not met. -->
 	<MousekinRace_MessageCannotJoinFaction>{0}에 대한 충성을 서약할 수 없음: 요구 사항이 충족되지 않았습니다.</MousekinRace_MessageCannotJoinFaction>
+	
+	<!-- EN: Cannot request trader: you need to wait another {0}. -->
+	<MousekinRace_MessageCannotRequestTraderCooldownActive>트레이더를 요청할 수 없습니다: {0}을 더 기다려야 합니다.</MousekinRace_MessageCannotRequestTraderCooldownActive>
 
 </LanguageData>

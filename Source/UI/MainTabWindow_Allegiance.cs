@@ -553,6 +553,25 @@ namespace MousekinRace
 
             listingStandard.Label("MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn".Translate(GameComponent_Allegiance.Instance.ticksUntilNextRandomCaravanTrader.ToStringTicksToPeriod()));
 
+            if (GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed > 0)
+            {
+                if (!GameComponent_Allegiance.Instance.requestedCaravanTradersQueue.NullOrEmpty())
+                {
+                    RequestedTrader nextRequestedTrader = GameComponent_Allegiance.Instance.requestedCaravanTradersQueue[0];
+                    int ticksRemainingForRequestedTradeCaravan = nextRequestedTrader.spawnTick - Find.TickManager.TicksAbs;
+                    listingStandard.Label("MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn".Translate(ticksRemainingForRequestedTradeCaravan.ToStringTicksToPeriod(), nextRequestedTrader.traderKind.LabelCap));
+                }
+                else
+                {
+                    int cooldownTicksRemainingForRequestingTradeCaravans = GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed;
+                    listingStandard.Label("MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown".Translate(cooldownTicksRemainingForRequestingTradeCaravans.ToStringTicksToPeriod()));
+                }
+            }
+            else
+            {
+                listingStandard.Label("");
+            }
+
             listingStandard.GapLine();
             listingStandard.Gap();
 
@@ -584,26 +603,43 @@ namespace MousekinRace
                 GUI.DrawTexture(currentOptionIconRect, iconTex);
                 GUI.color = Color.white;
 
-                TaggedString optionName = traderOptions[i].LabelCap;
-                Widgets.Label(currentOptionControlsRect, optionName);
+                TraderKindDef traderOption = traderOptions[i];
+                TaggedString traderOptionName = traderOption.LabelCap;
+                Widgets.Label(currentOptionControlsRect, traderOptionName);
 
                 TextAnchor anchor = Text.Anchor;
                 Text.Anchor = TextAnchor.MiddleCenter;
-                float inviteButtonWidth = (currentOptionControlsRect.width - uiElementSpacing) / 2;
-                float inviteButtonHeight = Text.CalcHeight("Invite trader", inviteButtonWidth) + uiElementSpacing;
+                string requestTraderButtonLabel = "MousekinRace_AllegianceSys_CallTrader".Translate();
+                float requestTraderButtonWidth = (currentOptionControlsRect.width - uiElementSpacing) / 2;
+                float requestTraderButtonHeight = Text.CalcHeight(requestTraderButtonLabel, requestTraderButtonWidth) + uiElementSpacing;
                 
-                Rect inviteSingleButtonRect = new Rect(currentOptionControlsRect.xMin + uiElementSpacing + inviteButtonWidth, currentOptionControlsRect.yMax - inviteButtonHeight, inviteButtonWidth, inviteButtonHeight);
+                Rect requestTraderButtonRect = new Rect(currentOptionControlsRect.xMin + uiElementSpacing + requestTraderButtonWidth, currentOptionControlsRect.yMax - requestTraderButtonHeight, requestTraderButtonWidth, requestTraderButtonHeight);
 
-                if (Widgets.ButtonText(inviteSingleButtonRect, "Invite trader"))
+                Color orgColor = GUI.color;
+
+                if (GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed > 0)
                 {
-                    /* todo - implement actual trader request functionality
-                     * 
-                     * Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
-                    {
-                        AllegianceSys_Utils.GenerateAndSpawnNewColonists(inviteCost, recruitablePawnKind, recruitablePawnCount);
-                        SoundDefOf.ExecuteTrade.PlayOneShotOnCamera();
-                    }));*/
+                    GUI.color = Color.gray;
                 }
+
+                if (Widgets.ButtonText(requestTraderButtonRect, requestTraderButtonLabel))
+                {
+                    if (!(GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed > 0))
+                    {
+                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Trader_Confirmation".Translate(traderOptionName, "PeriodDays".Translate(AllegianceSys_Utils.requestArrivalDelayDays)), delegate
+                        {
+                            AllegianceSys_Utils.AddRequestedTraderToQueue(traderOption);
+                            GameComponent_Allegiance.Instance.StartCooldownForRequestingCaravanTrader();
+                            SoundDefOf.Click.PlayOneShotOnCamera();
+                        }));
+                    }
+                    else 
+                    {
+                        Messages.Message("MousekinRace_MessageCannotRequestTraderCooldownActive".Translate(GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed.ToStringTicksToPeriod()), MessageTypeDefOf.RejectInput, false);
+                    }  
+                }
+
+                GUI.color = orgColor;
 
                 Text.Anchor = anchor;
 
@@ -618,12 +654,39 @@ namespace MousekinRace
                 string devRandCaravanTraderButtonLabel = "DEV: Spawn random caravan trader now";
                 Vector2 devRandCaravanTraderButtonSize = Text.CalcSize(devRandCaravanTraderButtonLabel);
                 devRandCaravanTraderButtonSize.x += StandardMargin * 2;
-                Log.Warning(devRandCaravanTraderButtonSize.ToStringSafe());
                 Rect devRandCaravanTraderButtonRect = new Rect(r.xMax - devRandCaravanTraderButtonSize.x, r.yMin, devRandCaravanTraderButtonSize.x, devRandCaravanTraderButtonSize.y);
 
                 if (Widgets.ButtonText(devRandCaravanTraderButtonRect, devRandCaravanTraderButtonLabel))
                 {
                     GameComponent_Allegiance.Instance.ticksUntilNextRandomCaravanTrader = 0;
+                }
+
+                if (GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed > 0)
+                {
+                    if (!GameComponent_Allegiance.Instance.requestedCaravanTradersQueue.NullOrEmpty())
+                    {
+                        string devRequestedCaravanTraderButtonLabel = "DEV: Spawn requested caravan trader now";
+                        Vector2 devRequestedCaravanTraderButtonSize = Text.CalcSize(devRequestedCaravanTraderButtonLabel);
+                        devRequestedCaravanTraderButtonSize.x += StandardMargin * 2;
+                        Rect devRequestedCaravanTraderButtonRect = new Rect(r.xMax - devRequestedCaravanTraderButtonSize.x, r.yMin + devRandCaravanTraderButtonSize.y, devRequestedCaravanTraderButtonSize.x, devRequestedCaravanTraderButtonSize.y);
+
+                        if (Widgets.ButtonText(devRequestedCaravanTraderButtonRect, devRequestedCaravanTraderButtonLabel))
+                        {
+                            GameComponent_Allegiance.Instance.SpawnRequestedCaravanTrader();
+                        }
+                    }
+                    else
+                    {
+                        string devResetCooldownForCaravanTraderButtonLabel = "DEV: Reset cooldown now";
+                        Vector2 devResetCooldownForCaravanTraderButtonSize = Text.CalcSize(devResetCooldownForCaravanTraderButtonLabel);
+                        devResetCooldownForCaravanTraderButtonSize.x += StandardMargin * 2;
+                        Rect devResetCooldownForCaravanTraderButtonRect = new Rect(r.xMax - devResetCooldownForCaravanTraderButtonSize.x, r.yMin + devRandCaravanTraderButtonSize.y, devResetCooldownForCaravanTraderButtonSize.x, devResetCooldownForCaravanTraderButtonSize.y);
+
+                        if (Widgets.ButtonText(devResetCooldownForCaravanTraderButtonRect, devResetCooldownForCaravanTraderButtonLabel))
+                        {
+                            GameComponent_Allegiance.Instance.ResetCooldownForRequestingCaravanTrader();
+                        }
+                    }
                 }
             }
         }

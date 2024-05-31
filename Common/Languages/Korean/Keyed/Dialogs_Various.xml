@@ -97,6 +97,15 @@
 	<!-- EN: Next random caravan trader arrives in: {0} -->
 	<MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>다음 무작위 캐러밴 상인이 도착합니다: {0}</MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>
 	
+	<!-- EN: Next requested caravan trader arrives in: {0} ({1}) -->
+	<MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>다음 요청 캐러밴 상인이 도착합니다: {0} ({1})</MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>
+	
+	<!-- EN: Cooldown remaining for requesting specific caravan traders: {0} -->
+	<MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>특정 캐러밴 상인을 요청할 때 남은 재사용 대기시간: {0}</MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>
+	
+	<!-- EN: Are you sure you want to request a {0} to visit your settlement?\n\nThey will arrive in {1}. -->
+	<MousekinRace_AllegianceSys_Trader_Confirmation>정착지 방문을 위해 {0}를 요청하시겠습니까?\n\n{1} 후에 도착합니다.</MousekinRace_AllegianceSys_Trader_Confirmation>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>진영 충성</MousekinRace_TradePriceFactor_FactionAllegiance>
 

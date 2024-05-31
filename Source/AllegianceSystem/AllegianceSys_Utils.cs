@@ -9,6 +9,10 @@ namespace MousekinRace
 {
     public static class AllegianceSys_Utils
     {
+        public const int requestArrivalDelayDays = 2;
+
+        public const int requestArrivalDelayTicks = requestArrivalDelayDays * GenDate.TicksPerDay;
+        
         public static TaggedString MembershipToFactionLabel(Faction faction, bool coloredFactionName = false)
         {
             TaggedString factionNameRendered = coloredFactionName ? faction.Name.Colorize(faction.Color) : faction.Name;
@@ -445,6 +449,11 @@ namespace MousekinRace
                 incidentParms.forced = true;
                 incidentDef.Worker.TryExecuteWorker(incidentParms);
             }
+        }
+
+        public static void AddRequestedTraderToQueue(TraderKindDef traderKind)
+        {
+            GameComponent_Allegiance.Instance.AddRequestedTraderToQueue(traderKind, Find.TickManager.TicksAbs + requestArrivalDelayTicks);
         }
     }
 }

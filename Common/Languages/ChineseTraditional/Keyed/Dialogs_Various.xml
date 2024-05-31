@@ -97,6 +97,15 @@
 	<!-- EN: Next random caravan trader arrives in: {0} -->
 	<MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>下一個隨機交易旅隊抵達時間: {0}</MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>
 	
+	<!-- EN: Next requested caravan trader arrives in: {0} ({1}) -->
+	<MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>下一個被請求的交易旅隊抵達時間: {0} ({1})</MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>
+	
+	<!-- EN: Cooldown remaining for requesting specific caravan traders: {0} -->
+	<MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>請求特定交易旅隊的剩餘冷卻時間: {0}</MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>
+	
+	<!-- EN: Are you sure you want to request a {0} to visit your settlement?\n\nThey will arrive in {1}. -->
+	<MousekinRace_AllegianceSys_Trader_Confirmation>您想要請求{0}來訪問您的定居點嗎?\n\n他們將在{1}後抵達.</MousekinRace_AllegianceSys_Trader_Confirmation>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派系效忠</MousekinRace_TradePriceFactor_FactionAllegiance>
 

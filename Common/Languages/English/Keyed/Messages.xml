@@ -5,4 +5,6 @@
 	
 	<MousekinRace_MessageCannotJoinFaction>Cannot pledge allegiance to {0}: requirements not met.</MousekinRace_MessageCannotJoinFaction>
 	
+	<MousekinRace_MessageCannotRequestTraderCooldownActive>Cannot request trader: you need to wait another {0}.</MousekinRace_MessageCannotRequestTraderCooldownActive>
+	
 </LanguageData>

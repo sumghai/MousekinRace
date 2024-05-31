@@ -65,6 +65,12 @@
 	
 	<MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>Next random caravan trader arrives in: {0}</MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>
 	
+	<MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>Next requested caravan trader arrives in: {0} ({1})</MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>
+	
+	<MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>Cooldown remaining for requesting specific caravan traders: {0}</MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>
+	
+	<MousekinRace_AllegianceSys_Trader_Confirmation>Are you sure you want to request a {0} to visit your settlement?\n\nThey will arrive in {1}.</MousekinRace_AllegianceSys_Trader_Confirmation>
+	
 	<MousekinRace_TradePriceFactor_FactionAllegiance>faction allegiance</MousekinRace_TradePriceFactor_FactionAllegiance>
 
 </LanguageData>
