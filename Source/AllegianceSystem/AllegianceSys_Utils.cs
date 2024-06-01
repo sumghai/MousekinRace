@@ -262,10 +262,10 @@ namespace MousekinRace
             }
         }
         
-        public static void GenerateAndSpawnNewColonists(float silverToPay, PawnKindDef pawnKind, int reqCount = 1, bool makeFamily = false, PawnKindDef spousePawnKind = null)
+        public static void GenerateNewColonistsToQueue(float silverToPay, PawnKindDef pawnKind, int reqCount = 1, bool makeFamily = false, PawnKindDef spousePawnKind = null)
         {
             Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction;
-            List<Pawn> pawnsToRecruit = new();  // Placeholder list for new colony recuits
+            List<Pawn> pawnsToRecruit = new();  // Placeholder list for new colonists
 
             if (makeFamily)
             {
@@ -286,7 +286,7 @@ namespace MousekinRace
                 float maxAgeOfFirstTimeMother = 25f;
                 float ageOfMother = Rand.Range(minAgeOfFirstTimeMother, maxAgeOfFirstTimeMother) + oldestChildAge;
 
-                // Generate the required primary  pawnkind and their spouse, ensuring that:
+                // Generate the required primary pawnkind and their spouse, ensuring that:
                 // - the wife is younger than the husband
                 // - both spouses are of reasonable parental age
                 //
@@ -387,7 +387,6 @@ namespace MousekinRace
                 if (pawnsToRecruit.Count < reqCount)
                 {
                     int additionalPawnsToGenerate = reqCount - pawnsToRecruit.Count;
-                    Log.Warning("\tOnly got " + pawnsToRecruit.Count + "candidate world pawns, need to generate " + additionalPawnsToGenerate + " more");
 
                     for (int i = 0; i < additionalPawnsToGenerate; i++)
                     {
@@ -399,30 +398,20 @@ namespace MousekinRace
 
             pawnsToRecruit.SortByDescending(p => p.ageTracker.AgeBiologicalTicks);
 
-
-            // Find the map belonging to the first town square and set a random spawn location near the edge of the map,
-            // while ensuring the player settlement is still reachable
-            Building_TownSquare building_TownSquare = GameComponent_Allegiance.Instance.townSquares.First();
-            Map map = building_TownSquare.Map;
-            CellFinder.TryFindRandomEdgeCellWith((IntVec3 c) => map.reachability.CanReachColony(c) && !c.Fogged(map), map, CellFinder.EdgeRoadChance_Neutral, out IntVec3 recruiteeEntryCell);
-
-            TaggedString newRecruits = new TaggedString();
-            // Spawn the recruitees
-            foreach (Pawn pawn in pawnsToRecruit) 
+            // Set the new colonists' faction and ideology to that of the player
+            foreach (Pawn pawn in pawnsToRecruit)
             {
                 pawn.SetFaction(Faction.OfPlayer);
                 if (ModsConfig.IdeologyActive)
                 {
-                    pawn.ideo.SetIdeo(alignedFaction.ideos.primaryIdeo);                  
+                    pawn.ideo.SetIdeo(alignedFaction.ideos.primaryIdeo);
                 }
-                newRecruits += "\n- "+ pawn.NameFullColored + ", " + pawn.story.TitleShort;
-                GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(recruiteeEntryCell, building_TownSquare.Map, 3), building_TownSquare.Map);
             }
 
-            // Notify the player of the new colonists
-            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysNewColonists".Translate(), "MousekinRace_Letter_AllegianceSysNewColonistsDesc".Translate(newRecruits), LetterDefOf.PositiveEvent, new LookTargets(pawnsToRecruit));
+            // Add the new colonist(s) to the queue
+            GameComponent_Allegiance.Instance.AddRecruiteesToQueue(pawnsToRecruit, Find.TickManager.TicksAbs + requestArrivalDelayTicks);
 
-            // Pay for the recruits
+            // Pay for the new colonist(s)
             int remainingCost = Mathf.RoundToInt(silverToPay);
             List<Thing> silverList = Find.Maps.Where(m => m.IsPlayerHome).SelectMany(m => m.listerThings.ThingsOfDef(ThingDefOf.Silver)
                                     .Where(x => !x.Position.Fogged(x.Map) && (m.areaManager.Home[x.Position] || x.IsInAnyStorage()))).ToList();
@@ -435,6 +424,29 @@ namespace MousekinRace
             }
 
             GameComponent_Allegiance.Instance.RecacheAvailableSilver();
+
+            // Notify the player
+            Messages.Message("MousekinRace_MessageNewColonistsWillArrive".Translate(pawnsToRecruit.Count(), "PeriodDays".Translate(AllegianceSys_Utils.requestArrivalDelayDays)), MessageTypeDefOf.PositiveEvent, false);
+        }
+
+        public static void SpawnNewColonists(List<Pawn> newColonistPawns)
+        {
+            // Find the map belonging to the first town square and set a random spawn location near the edge of the map,
+            // while ensuring the player settlement is still reachable
+            Building_TownSquare building_TownSquare = GameComponent_Allegiance.Instance.townSquares.First();
+            Map map = building_TownSquare.Map;
+            CellFinder.TryFindRandomEdgeCellWith((IntVec3 c) => map.reachability.CanReachColony(c) && !c.Fogged(map), map, CellFinder.EdgeRoadChance_Neutral, out IntVec3 recruiteeEntryCell);
+
+            TaggedString newRecruits = new TaggedString();
+            // Spawn the recruitees
+            foreach (Pawn pawn in newColonistPawns) 
+            {
+                newRecruits += "\n- "+ pawn.NameFullColored + ", " + pawn.story.TitleShort;
+                GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(recruiteeEntryCell, building_TownSquare.Map, 3), building_TownSquare.Map);
+            }
+
+            // Notify the player of the new colonists
+            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysNewColonists".Translate(), "MousekinRace_Letter_AllegianceSysNewColonistsDesc".Translate(newRecruits), LetterDefOf.PositiveEvent, new LookTargets(newColonistPawns));
         }
 
         public static void SpawnTradeCaravanFromAllegianceFaction(TraderKindDef specificTraderKind = null)

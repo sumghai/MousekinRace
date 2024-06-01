@@ -76,6 +76,9 @@
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1} {0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
+	<!-- EN: View pending colonists... -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>이동 중인 새 식민지 주민 보기...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
+	
 	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
 	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>참고: 가족 초대 옵션에는 배우자가 {0}포함됩니다.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
 	

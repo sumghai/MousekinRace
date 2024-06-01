@@ -19,6 +19,8 @@ namespace MousekinRace
 
         public float availableSilver;
 
+        public List<RecruitedPawnGroup> recruitedColonistsQueue = new();
+
         public int ticksUntilNextRandomCaravanTrader = 0;
 
         public List<RequestedTrader> requestedCaravanTradersQueue = new();
@@ -75,6 +77,7 @@ namespace MousekinRace
                 {
                     RecacheAvailableSilver();
                 }
+                TickNewColonistsSpawn();
                 TickRandomCaravanTrader();
                 TickRequestedCaravanTrader();
             }
@@ -90,6 +93,20 @@ namespace MousekinRace
         {
             availableSilver = Find.Maps.Where(m => m.IsPlayerHome).SelectMany(m => m.listerThings.ThingsOfDef(ThingDefOf.Silver)
                                             .Where(x => !x.Position.Fogged(x.Map) && (m.areaManager.Home[x.Position] || x.IsInAnyStorage()))).Sum(t => t.stackCount);
+        }
+
+        public void TickNewColonistsSpawn()
+        {
+            if (recruitedColonistsQueue.Any() && Find.TickManager.TicksAbs > recruitedColonistsQueue.First().spawnTick)
+            { 
+                SpawnNextNewColonists();
+            }
+        }
+
+        public void SpawnNextNewColonists()
+        {
+            AllegianceSys_Utils.SpawnNewColonists(recruitedColonistsQueue.First().pawns);
+            recruitedColonistsQueue.RemoveAt(0);
         }
 
         public void TickRandomCaravanTrader()
@@ -131,6 +148,11 @@ namespace MousekinRace
                 
         }
 
+        public void AddRecruiteesToQueue(List<Pawn> pawns, int spawnTick)
+        {
+            recruitedColonistsQueue.Add(new RecruitedPawnGroup(pawns, spawnTick));
+        }
+
         public void AddRequestedTraderToQueue(TraderKindDef traderKind, int spawnTick)
         { 
             requestedCaravanTradersQueue.Add(new RequestedTrader(traderKind, spawnTick));
@@ -143,15 +165,45 @@ namespace MousekinRace
             Scribe_Values.Look(ref seenAllegianceSysIntroLetter, "seenAllegianceSysIntroLetter", false, true);
             Scribe_Values.Look(ref anyColonistsWithShatteredEmpireTitle, "anyColonistsWithShatteredEmpireTitle");
             Scribe_References.Look(ref alignedFaction, "alignedFaction");
+            Scribe_Collections.Look(ref recruitedColonistsQueue, "recruitedColonistsQueue");
             Scribe_Values.Look(ref ticksUntilNextRandomCaravanTrader, "ticksUntilNextRandomCaravanTrader", 0, true);
             Scribe_Values.Look(ref ticksUntilNextRequestedCaravanTraderAllowed, "ticksUntilNextRequestedCaravanTraderAllowed", 0, true);
             Scribe_Collections.Look(ref requestedCaravanTradersQueue, "requestedCaravanTradersQueue");
 
-            if (Scribe.mode == LoadSaveMode.PostLoadInit && requestedCaravanTradersQueue == null)
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
-                requestedCaravanTradersQueue = new();
+                if (recruitedColonistsQueue == null)
+                {
+                    recruitedColonistsQueue = new();
+                }
+                if (requestedCaravanTradersQueue == null)
+                {
+                    requestedCaravanTradersQueue = new();
+                }
             }
             Instance = this;
+        }
+    }
+
+    public class RecruitedPawnGroup : IExposable
+    { 
+        public List<Pawn> pawns;
+        public int spawnTick;
+
+        public RecruitedPawnGroup()
+        { 
+        }
+
+        public RecruitedPawnGroup(List<Pawn> pawns, int spawnTick)
+        {
+            this.pawns = pawns;
+            this.spawnTick = spawnTick;
+        }
+
+        public void ExposeData()
+        {
+            Scribe_Collections.Look(ref pawns, "pawns");
+            Scribe_Values.Look(ref spawnTick, "spawnTick");
         }
     }
 

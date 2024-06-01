@@ -42,7 +42,7 @@ namespace MousekinRace
             get
             { 
                 Vector2 originalTabSize = base.RequestedTabSize;
-                originalTabSize.y = 800f;
+                originalTabSize.y = 900f;
                 return originalTabSize;
             }
         }
@@ -417,21 +417,36 @@ namespace MousekinRace
             listingStandard.Begin(r);
 
             string silverAvailableValue = availableSilver.ToString();
-            Rect silverAvailableReadoutRect = new Rect(0, 0, r.width / 4, Text.CalcHeight(silverAvailableValue, r.width / 4) + StandardMargin / 2);
-            Widgets.DrawBoxSolid(silverAvailableReadoutRect, optionBg);
-            GUI.color = optionBgMouseover;
-            Widgets.DrawHighlightIfMouseover(silverAvailableReadoutRect);
-            GUI.color = Color.white;
-            Rect silverIconRect = new Rect(silverAvailableReadoutRect.xMin + StandardMargin / 2, silverAvailableReadoutRect.yMin, silverAvailableReadoutRect.height, silverAvailableReadoutRect.height);
-            Rect silverTextRect = new Rect(silverIconRect.xMin + silverIconRect.width + StandardMargin / 2, silverAvailableReadoutRect.yMin, silverAvailableReadoutRect.width - silverIconRect.width - StandardMargin / 2, silverAvailableReadoutRect.height);
+            Vector2 silverTextSize = Text.CalcSize(silverAvailableValue);
+            Rect silverAvailableReadoutRect = new Rect(0, 0, silverTextSize.y + StandardMargin / 2 + silverTextSize.x, silverTextSize.y);
+            Rect silverIconRect = new Rect(silverAvailableReadoutRect.xMin, silverAvailableReadoutRect.yMin, silverAvailableReadoutRect.height, silverAvailableReadoutRect.height);
+            Rect silverTextRect = new Rect(silverIconRect.xMin + silverIconRect.width + StandardMargin / 2, silverAvailableReadoutRect.yMin, silverTextSize.x, silverAvailableReadoutRect.height);
             Widgets.ThingIcon(silverIconRect, ThingDefOf.Silver);
-            TextAnchor anchor = Text.Anchor;
-            Text.Anchor = TextAnchor.MiddleLeft;
             Widgets.Label(silverTextRect, silverAvailableValue);
-            Text.Anchor = anchor;
-            TooltipHandler.TipRegion(silverAvailableReadoutRect, ThingDefOf.Silver.LabelCap + ": " + ThingDefOf.Silver.description.CapitalizeFirst());
 
-            listingStandard.curY = silverAvailableReadoutRect.yMax;
+            string viewNewColonistQueueButtonLabel = "MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel".Translate();
+            Vector2 viewNewColonistQueueButtonSize = Text.CalcSize(viewNewColonistQueueButtonLabel);
+            viewNewColonistQueueButtonSize.x += StandardMargin * 2;
+            Rect viewNewColonistQueueButtonRect = new Rect(0, silverAvailableReadoutRect.yMax + listingStandard.verticalSpacing, viewNewColonistQueueButtonSize.x, viewNewColonistQueueButtonSize.y);
+            Color orgColor = GUI.color;
+            if (GameComponent_Allegiance.Instance.recruitedColonistsQueue.NullOrEmpty())
+            {
+                GUI.color = Color.gray;
+            }
+            if (Widgets.ButtonText(viewNewColonistQueueButtonRect, viewNewColonistQueueButtonLabel))
+            {
+                if (GameComponent_Allegiance.Instance.recruitedColonistsQueue.Count > 0)
+                {
+                    Find.WindowStack.Add(new Dialog_AllegianceQueuedNewColonists(GameComponent_Allegiance.Instance.recruitedColonistsQueue));
+                }
+                else
+                {
+                    Messages.Message("MousekinRace_MessageNewColonistsQueueEmpty".Translate(), MessageTypeDefOf.RejectInput, false);
+                }
+            }
+            GUI.color = orgColor;
+
+            listingStandard.curY = viewNewColonistQueueButtonRect.yMax + listingStandard.verticalSpacing;
             listingStandard.GapLine();
             string familyOptionNote = "MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc".Translate(ModsConfig.BiotechActive ? "MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix".Translate() : null);
             listingStandard.Label(familyOptionNote);
@@ -469,7 +484,7 @@ namespace MousekinRace
                 TaggedString optionPawnCount = ((recruitableOptions[i].count > 1) ? "(x" + recruitableOptions[i].count + ")" : "");
                 Widgets.Label(currentOptionControlsRect, optionName + " " + optionPawnCount);
 
-                anchor = Text.Anchor;
+                TextAnchor anchor = Text.Anchor;
                 Text.Anchor = TextAnchor.MiddleCenter;
                 float inviteButtonWidth = (currentOptionControlsRect.width - uiElementSpacing) / 2;
                 float inviteButtonHeight = Text.CalcHeight("MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(), inviteButtonWidth) + uiElementSpacing;
@@ -480,7 +495,6 @@ namespace MousekinRace
                 int recruitablePawnCount = recruitableOptions[i].count;
                 int inviteCost = recruitableOptions[i].basePrice;
 
-                Color orgColor = GUI.color;
                 if (recruitablePawnCanHaveFamily)
                 {
                     int inviteCostFamily = inviteCost + recruitableColonistSettings.priceOffsetWithSpouse + (ModsConfig.BiotechActive ? recruitableColonistSettings.priceOffsetWithChildren : 0);
@@ -498,7 +512,7 @@ namespace MousekinRace
                         {
                             Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCostFamily), delegate
                             {
-                                AllegianceSys_Utils.GenerateAndSpawnNewColonists(inviteCostFamily, recruitablePawnKind, 1, recruitablePawnCanHaveFamily, recruitableSpousePawnKind);
+                                AllegianceSys_Utils.GenerateNewColonistsToQueue(inviteCostFamily, recruitablePawnKind, 1, recruitablePawnCanHaveFamily, recruitableSpousePawnKind);
                                 SoundDefOf.ExecuteTrade.PlayOneShotOnCamera();
                             }));
                         }
@@ -524,7 +538,7 @@ namespace MousekinRace
                     {
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
                         {
-                            AllegianceSys_Utils.GenerateAndSpawnNewColonists(inviteCost, recruitablePawnKind, recruitablePawnCount);
+                            AllegianceSys_Utils.GenerateNewColonistsToQueue(inviteCost, recruitablePawnKind, recruitablePawnCount);
                             SoundDefOf.ExecuteTrade.PlayOneShotOnCamera();
                         }));
                     }
@@ -542,6 +556,23 @@ namespace MousekinRace
             Widgets.EndScrollView();
 
             listingStandard.End();
+
+            // Development / God mode debug buttons
+            if (DebugSettings.godMode)
+            {
+                if (!GameComponent_Allegiance.Instance.recruitedColonistsQueue.NullOrEmpty())
+                {
+                    string devSpawnNextNewColonistsButtonLabel = "DEV: Spawn next new colonists now";
+                    Vector2 devSpawnNextNewColonistsButtonSize = Text.CalcSize(devSpawnNextNewColonistsButtonLabel);
+                    devSpawnNextNewColonistsButtonSize.x += StandardMargin * 2;
+                    Rect devSpawnNextNewColonistsButtonRect = new Rect(r.xMax - devSpawnNextNewColonistsButtonSize.x, r.yMin + devSpawnNextNewColonistsButtonSize.y + listingStandard.verticalSpacing, devSpawnNextNewColonistsButtonSize.x, devSpawnNextNewColonistsButtonSize.y);
+
+                    if (Widgets.ButtonText(devSpawnNextNewColonistsButtonRect, devSpawnNextNewColonistsButtonLabel))
+                    {
+                        GameComponent_Allegiance.Instance.SpawnNextNewColonists();
+                    }
+                }
+            }
         }
 
         public void DrawPageTraders(Rect r)

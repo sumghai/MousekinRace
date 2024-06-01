@@ -76,6 +76,9 @@
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}の{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
+	<!-- EN: View pending colonists... -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>新しい入植者を見る...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
+	
 	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
 	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>注意：「家族で招待」オプションには配偶者{0}が含まれます.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
 	

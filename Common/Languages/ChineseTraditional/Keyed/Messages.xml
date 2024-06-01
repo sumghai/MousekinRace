@@ -7,6 +7,12 @@
 	<!-- EN: Cannot pledge allegiance to {0}: requirements not met. -->
 	<MousekinRace_MessageCannotJoinFaction>無法效忠{0}：未滿足所有要求。</MousekinRace_MessageCannotJoinFaction>
 	
+	<!-- EN: No new colonists on their way. -->
+	<MousekinRace_MessageNewColonistsQueueEmpty>沒有新殖民者在路上。</MousekinRace_MessageNewColonistsQueueEmpty>
+	
+	<!-- EN: {0} new colonists will arrive in {1}. -->
+	<MousekinRace_MessageNewColonistsWillArrive>{0}個新殖民者在{1}後抵達。</MousekinRace_MessageNewColonistsWillArrive>
+	
 	<!-- EN: Cannot request trader: you need to wait another {0}. -->
 	<MousekinRace_MessageCannotRequestTraderCooldownActive>無法請求交易旅隊：您需要再等{0}。</MousekinRace_MessageCannotRequestTraderCooldownActive>
 

@@ -7,6 +7,12 @@
 	<!-- EN: Cannot pledge allegiance to {0}: requirements not met. -->
 	<MousekinRace_MessageCannotJoinFaction>{0}에 대한 충성을 서약할 수 없음: 요구 사항이 충족되지 않았습니다.</MousekinRace_MessageCannotJoinFaction>
 	
+	<!-- EN: No new colonists on their way. -->
+	<MousekinRace_MessageNewColonistsQueueEmpty>새로운 식민지 개척자가 오지 않습니다.</MousekinRace_MessageNewColonistsQueueEmpty>
+	
+	<!-- EN: {0} new colonists will arrive in {1}. -->
+	<MousekinRace_MessageNewColonistsWillArrive>{1} 후에 새로운 식민지 주민 {0}명이 도착합니다.</MousekinRace_MessageNewColonistsWillArrive>
+	
 	<!-- EN: Cannot request trader: you need to wait another {0}. -->
 	<MousekinRace_MessageCannotRequestTraderCooldownActive>트레이더를 요청할 수 없습니다: {0}을 더 기다려야 합니다.</MousekinRace_MessageCannotRequestTraderCooldownActive>
 
