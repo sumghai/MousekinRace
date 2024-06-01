@@ -79,6 +79,12 @@
 	<!-- EN: View pending colonists... -->
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>新しい入植者を見る...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
 	
+	<!-- EN: Pending new colonists -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>新しい入植者</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>
+	
+	<!-- EN: Arrives in {0}. -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>{0}後に到着.</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>
+	
 	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
 	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>注意：「家族で招待」オプションには配偶者{0}が含まれます.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
 	

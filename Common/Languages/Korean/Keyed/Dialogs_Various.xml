@@ -79,6 +79,12 @@
 	<!-- EN: View pending colonists... -->
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>이동 중인 새 식민지 주민 보기...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
 	
+	<!-- EN: Pending new colonists -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>대기 중인 신규 식민지 개척자</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>
+	
+	<!-- EN: Arrives in {0}. -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>{0} 후에 도착합니다.</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>
+	
 	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
 	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>참고: 가족 초대 옵션에는 배우자가 {0}포함됩니다.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
 	

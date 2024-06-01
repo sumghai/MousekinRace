@@ -202,7 +202,7 @@ namespace MousekinRace
 
         public void ExposeData()
         {
-            Scribe_Collections.Look(ref pawns, "pawns");
+            Scribe_Collections.Look(ref pawns, "pawns", LookMode.Reference);
             Scribe_Values.Look(ref spawnTick, "spawnTick");
         }
     }

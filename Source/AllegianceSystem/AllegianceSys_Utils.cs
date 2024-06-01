@@ -406,6 +406,12 @@ namespace MousekinRace
                 {
                     pawn.ideo.SetIdeo(alignedFaction.ideos.primaryIdeo);
                 }
+                
+                // Save the new colonists as world pawns (if they aren't already)
+                if (!Find.WorldPawns.Contains(pawn)) 
+                { 
+                    Find.WorldPawns.PassToWorld(pawn);
+                }
             }
 
             // Add the new colonist(s) to the queue

@@ -79,6 +79,12 @@
 	<!-- EN: View pending colonists... -->
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>查看在路上的新殖民者...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
 	
+	<!-- EN: Pending new colonists -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>在路上的新殖民者</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>
+	
+	<!-- EN: Arrives in {0}. -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>在{0}後抵達。</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>
+	
 	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
 	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>注:邀請家庭選項包括配偶{0}。</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
 	
@@ -107,7 +113,7 @@
 	<MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>請求特定交易旅隊的剩餘冷卻時間: {0}</MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>
 	
 	<!-- EN: Are you sure you want to request a {0} to visit your settlement?\n\nThey will arrive in {1}. -->
-	<MousekinRace_AllegianceSys_Trader_Confirmation>您想要請求{0}來訪問您的定居點嗎?\n\n他們將在{1}後抵達.</MousekinRace_AllegianceSys_Trader_Confirmation>
+	<MousekinRace_AllegianceSys_Trader_Confirmation>您想要請求{0}來訪問您的定居點嗎?\n\n他們將在{1}後抵達。</MousekinRace_AllegianceSys_Trader_Confirmation>
 	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派系效忠</MousekinRace_TradePriceFactor_FactionAllegiance>
