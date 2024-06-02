@@ -52,13 +52,15 @@ namespace MousekinRace
                 {
                     Widgets.DrawAltRect(curRowRect);
                 }
+
                 // Pawn group preview column
-                // todo - colonist portraits
                 for (int j = 0; j < curPawnGroup.pawns.Count; j++)
                 {
                     Pawn curPawn = curPawnGroup.pawns[j];
+
                     Rect curPawnPortraitRect = new Rect(curRowRect.xMin + pawnPortraitMargin + (pawnPortraitDrawSize + pawnPortraitMargin) * (float) j, curRowRect.yMin + pawnPortraitMargin, pawnPortraitDrawSize, pawnPortraitDrawSize);
-                    Widgets.DrawRectFast(curPawnPortraitRect, (j % 2 == 0) ? Color.red : Color.blue);
+                    RenderTexture curPawnPortraitImage = PortraitsCache.Get(curPawn, new Vector2(pawnPortraitDrawSize, pawnPortraitDrawSize), Rot4.South, cameraZoom: 1.5f);
+                    GUI.DrawTexture(curPawnPortraitRect, curPawnPortraitImage);
 
                     Text.Font = GameFont.Tiny;
                     Text.Anchor = TextAnchor.MiddleCenter;
