@@ -1,4 +1,5 @@
 ﻿using RimWorld;
+using RimWorld.Planet;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -299,7 +300,7 @@ namespace MousekinRace
                 float tmpStartingAge = 25f; // Minimum age for most starting colonist bios, ensures we get good selection of bio choices
                 PawnGenerationRequest primaryPawnGenRequest = new PawnGenerationRequest(
                     pawnKind,
-                    faction: alignedFaction,
+                    faction: Faction.OfPlayer,
                     canGeneratePawnRelations: false,
                     colonistRelationChanceFactor: 0f,
                     allowGay: false,
@@ -312,7 +313,7 @@ namespace MousekinRace
                 Pawn primaryPawn = PawnGenerator.GeneratePawn(primaryPawnGenRequest);
                 PawnGenerationRequest spouseGenRequest = new PawnGenerationRequest(
                     spousePawnKind,
-                    faction: alignedFaction,
+                    faction: Faction.OfPlayer,
                     canGeneratePawnRelations: false,
                     colonistRelationChanceFactor: 0f,
                     allowGay: false,
@@ -346,7 +347,7 @@ namespace MousekinRace
                     {
                         PawnGenerationRequest currentChildGenRequest = new PawnGenerationRequest(
                             MousekinDefOf.MousekinChild,
-                            faction: alignedFaction,
+                            faction: Faction.OfPlayer,
                             canGeneratePawnRelations: false,
                             colonistRelationChanceFactor: 0f,
                             allowGay: false,
@@ -390,7 +391,7 @@ namespace MousekinRace
 
                     for (int i = 0; i < additionalPawnsToGenerate; i++)
                     {
-                        Pawn additionalPawn = PawnGenerator.GeneratePawn(pawnKind, alignedFaction);
+                        Pawn additionalPawn = PawnGenerator.GeneratePawn(pawnKind, Faction.OfPlayer);
                         pawnsToRecruit.Add(additionalPawn);
                     }
                 }
@@ -398,19 +399,21 @@ namespace MousekinRace
 
             pawnsToRecruit.SortByDescending(p => p.ageTracker.AgeBiologicalTicks);
 
-            // Set the new colonists' faction and ideology to that of the player
             foreach (Pawn pawn in pawnsToRecruit)
             {
+                // Save the new colonists as world pawns (if they aren't already)
+                if (!Find.WorldPawns.Contains(pawn))
+                {
+                    // Note: PassToWorld() tends to reassign pawns to a random faction, so we need to
+                    // explicitly change their faction back to the player in a subsequent operation
+                    Find.WorldPawns.PassToWorld(pawn, PawnDiscardDecideMode.KeepForever);
+                }
+
+                // Set the new colonists' faction and ideology to that of the player
                 pawn.SetFaction(Faction.OfPlayer);
                 if (ModsConfig.IdeologyActive)
                 {
                     pawn.ideo.SetIdeo(alignedFaction.ideos.primaryIdeo);
-                }
-                
-                // Save the new colonists as world pawns (if they aren't already)
-                if (!Find.WorldPawns.Contains(pawn)) 
-                { 
-                    Find.WorldPawns.PassToWorld(pawn);
                 }
             }
 
