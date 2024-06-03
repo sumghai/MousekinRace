@@ -9,11 +9,7 @@ using Verse;
 namespace MousekinRace
 {
     public static class AllegianceSys_Utils
-    {
-        public const int requestArrivalDelayDays = 2;
-
-        public const int requestArrivalDelayTicks = requestArrivalDelayDays * GenDate.TicksPerDay;
-        
+    {      
         public static TaggedString MembershipToFactionLabel(Faction faction, bool coloredFactionName = false)
         {
             TaggedString factionNameRendered = coloredFactionName ? faction.Name.Colorize(faction.Color) : faction.Name;
@@ -68,6 +64,9 @@ namespace MousekinRace
 
             // Remove any workbench bills for items disallowed by faction allegiance/restriction
             AllegianceSys_Utils.ResetFactionRestrictedCraftingBills();
+
+            // Schedule the first random trade caravan from the chosen faction
+            GameComponent_Allegiance.Instance.SetNextRandTraderTick();
         }
 
         public static bool IsEnemyBecauseOfAllegiance(Faction a, Faction b)
@@ -418,7 +417,7 @@ namespace MousekinRace
             }
 
             // Add the new colonist(s) to the queue
-            GameComponent_Allegiance.Instance.AddRecruiteesToQueue(pawnsToRecruit, Find.TickManager.TicksAbs + requestArrivalDelayTicks);
+            GameComponent_Allegiance.Instance.AddNewColonistsToQueue(pawnsToRecruit, Find.TickManager.TicksGame + GameComponent_Allegiance.requestArrivalDelayTicks);
 
             // Pay for the new colonist(s)
             int remainingCost = Mathf.RoundToInt(silverToPay);
@@ -435,7 +434,7 @@ namespace MousekinRace
             GameComponent_Allegiance.Instance.RecacheAvailableSilver();
 
             // Notify the player
-            Messages.Message("MousekinRace_MessageNewColonistsWillArrive".Translate(pawnsToRecruit.Count(), "PeriodDays".Translate(AllegianceSys_Utils.requestArrivalDelayDays)), MessageTypeDefOf.PositiveEvent, false);
+            Messages.Message("MousekinRace_MessageNewColonistsWillArrive".Translate(pawnsToRecruit.Count(), "PeriodDays".Translate(GameComponent_Allegiance.requestArrivalDelayDays)), MessageTypeDefOf.PositiveEvent, false);
         }
 
         public static void SpawnNewColonists(List<Pawn> newColonistPawns)
@@ -470,11 +469,6 @@ namespace MousekinRace
                 incidentParms.forced = true;
                 incidentDef.Worker.TryExecuteWorker(incidentParms);
             }
-        }
-
-        public static void AddRequestedTraderToQueue(TraderKindDef traderKind)
-        {
-            GameComponent_Allegiance.Instance.AddRequestedTraderToQueue(traderKind, Find.TickManager.TicksAbs + requestArrivalDelayTicks);
         }
     }
 }

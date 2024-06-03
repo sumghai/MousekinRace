@@ -73,7 +73,7 @@ namespace MousekinRace
                 // Arrival time column
                 Rect curRowArrivalTimeRect = new Rect(curRowRect.width * pawnPortraitSetColumnWidthPct, curRowRect.yMin, curRowRect.width * (1f - pawnPortraitSetColumnWidthPct), curRowRect.height);
                 Text.Anchor = TextAnchor.MiddleCenter;
-                Widgets.Label(curRowArrivalTimeRect, "MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime".Translate((curPawnGroup.spawnTick - Find.TickManager.TicksAbs).ToStringTicksToPeriod()));
+                Widgets.Label(curRowArrivalTimeRect, "MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime".Translate((curPawnGroup.spawnTick - Find.TickManager.TicksGame).ToStringTicksToPeriod()));
                 Text.Anchor = TextAnchor.UpperLeft;
             }
             Widgets.EndScrollView();

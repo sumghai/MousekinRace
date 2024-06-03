@@ -7,6 +7,14 @@ namespace MousekinRace
 {
     public class GameComponent_Allegiance : GameComponent
     {
+        public const int requestArrivalDelayDays = 2;
+
+        public const int requestArrivalDelayTicks = requestArrivalDelayDays * GenDate.TicksPerDay;
+
+        public const int requestTraderCooldownDays = 15; // One quadrum or season
+
+        public const int requestTraderCooldownTicks = requestTraderCooldownDays * GenDate.TicksPerDay;
+
         public bool seenAllegianceSysIntroLetter = false;
 
         public bool anyColonistsWithShatteredEmpireTitle = false;
@@ -21,15 +29,21 @@ namespace MousekinRace
 
         public List<RecruitedPawnGroup> recruitedColonistsQueue = new();
 
-        public int ticksUntilNextRandomCaravanTrader = 0;
+        public int nextNewColonistArrivalTick = -99999;
 
-        public List<RequestedTrader> requestedCaravanTradersQueue = new();
+        public int nextRandTraderTick = -99999;
+
+        public int nextRequestedTraderTick = -99999;
+
+        public int nextRequestedTraderCooldownTick = -99999;
+
+        public TraderKindDef nextRequestedTraderKind = null;
 
         public const int daysUntilNextRequestedCaravanTraderAllowed = GenDate.TicksPerSeason;
 
-        public int ticksUntilNextRequestedCaravanTraderAllowed = 0;
-
         public bool HasAnyTownSquares => townSquares.Count > 0;
+
+        public bool HasDeclaredAllegiance => alignedFaction != null;
 
         public static GameComponent_Allegiance Instance;
 
@@ -70,17 +84,41 @@ namespace MousekinRace
         {
             base.GameComponentTick();
 
-            if (alignedFaction != null)
+            // Skip if player has no allegiance to any Mousekin faction
+            if (!HasDeclaredAllegiance) 
             {
-                // Only recache once per second
-                if (Find.TickManager.TicksGame % GenTicks.TicksPerRealSecond == 0)
-                {
-                    RecacheAvailableSilver();
-                }
-                TickNewColonistsSpawn();
-                TickRandomCaravanTrader();
-                TickRequestedCaravanTrader();
+                return;
             }
+
+            if (nextNewColonistArrivalTick > 0 && Find.TickManager.TicksGame > nextNewColonistArrivalTick) 
+            {
+                SpawnNextNewColonists();
+            }
+
+            if (nextRandTraderTick > 0 && Find.TickManager.TicksGame > nextRandTraderTick)
+            {
+                SpawnRandTrader();
+            }
+
+            if (nextRequestedTraderTick > 0 && Find.TickManager.TicksGame > nextRequestedTraderTick)
+            {
+                SpawnRequestedTrader();
+            }
+
+            if (nextRequestedTraderCooldownTick > 0 && Find.TickManager.TicksGame > nextRequestedTraderCooldownTick)
+            { 
+                ClearRequestedTraderCooldownTick();
+            }
+        }
+
+        public void ShowAllegianceSysIntroLetterFirstTime()
+        {
+            if (!seenAllegianceSysIntroLetter)
+            {
+                Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysIntro".Translate(), "MousekinRace_Letter_AllegianceSysIntroDesc".Translate(), LetterDefOf.PositiveEvent);
+                seenAllegianceSysIntroLetter = true; // don't show the letter in the future for the current savegame
+            }
+
         }
 
         public void RecacheTownSquares()
@@ -95,11 +133,12 @@ namespace MousekinRace
                                             .Where(x => !x.Position.Fogged(x.Map) && (m.areaManager.Home[x.Position] || x.IsInAnyStorage()))).Sum(t => t.stackCount);
         }
 
-        public void TickNewColonistsSpawn()
+        public void AddNewColonistsToQueue(List<Pawn> pawns, int spawnTick)
         {
-            if (recruitedColonistsQueue.Any() && Find.TickManager.TicksAbs > recruitedColonistsQueue.First().spawnTick)
-            { 
-                SpawnNextNewColonists();
+            recruitedColonistsQueue.Add(new RecruitedPawnGroup(pawns, spawnTick));
+            if (recruitedColonistsQueue.Count == 1) 
+            {
+                nextNewColonistArrivalTick = spawnTick;
             }
         }
 
@@ -107,55 +146,45 @@ namespace MousekinRace
         {
             AllegianceSys_Utils.SpawnNewColonists(recruitedColonistsQueue.First().pawns);
             recruitedColonistsQueue.RemoveAt(0);
+            nextNewColonistArrivalTick = (recruitedColonistsQueue.Count > 0) ? recruitedColonistsQueue.First().spawnTick : -99999;
         }
 
-        public void TickRandomCaravanTrader()
+        public void SetNextRandTraderTick()
         {
-            if (ticksUntilNextRandomCaravanTrader <= 0)
-            {
-                ticksUntilNextRandomCaravanTrader = MousekinRaceMod.Settings.AllegianceSys_DaysBetweenRandomTraders * GenDate.TicksPerDay;
-                AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction();
-            }
-            ticksUntilNextRandomCaravanTrader--;
+            nextRandTraderTick = Find.TickManager.TicksGame + MousekinRaceMod.Settings.AllegianceSys_DaysBetweenRandomTraders * GenDate.TicksPerDay;
         }
 
-        public void StartCooldownForRequestingCaravanTrader() => ticksUntilNextRequestedCaravanTraderAllowed = daysUntilNextRequestedCaravanTraderAllowed;
-
-        public void ResetCooldownForRequestingCaravanTrader() => ticksUntilNextRequestedCaravanTraderAllowed = 0;
-
-        public void TickRequestedCaravanTrader()
+        public void SpawnRandTrader()
         {
-            if (requestedCaravanTradersQueue.Any() && Find.TickManager.TicksAbs > requestedCaravanTradersQueue.First().spawnTick)
-            {
-                SpawnRequestedCaravanTrader();
-            }
-            ticksUntilNextRequestedCaravanTraderAllowed--;
+            AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction();
+            SetNextRandTraderTick();
         }
 
-        public void SpawnRequestedCaravanTrader()
-        {
-            AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction(requestedCaravanTradersQueue.First().traderKind);
-            requestedCaravanTradersQueue.RemoveAt(0);
-        }
-
-        public void ShowAllegianceSysIntroLetterFirstTime()
-        {
-            if (!seenAllegianceSysIntroLetter)
-            {
-                Find.LetterStack.ReceiveLetter("MousekinRace_Letter_AllegianceSysIntro".Translate(), "MousekinRace_Letter_AllegianceSysIntroDesc".Translate(), LetterDefOf.PositiveEvent);
-                seenAllegianceSysIntroLetter = true; // don't show the letter in the future for the current savegame
-            }
-                
-        }
-
-        public void AddRecruiteesToQueue(List<Pawn> pawns, int spawnTick)
-        {
-            recruitedColonistsQueue.Add(new RecruitedPawnGroup(pawns, spawnTick));
-        }
-
-        public void AddRequestedTraderToQueue(TraderKindDef traderKind, int spawnTick)
+        public void SetNextRequestedTraderKind(TraderKindDef traderKind)
         { 
-            requestedCaravanTradersQueue.Add(new RequestedTrader(traderKind, spawnTick));
+            nextRequestedTraderKind = traderKind;
+        }
+
+        public void SetNextRequestedTraderTick()
+        {
+            nextRequestedTraderTick = Find.TickManager.TicksGame + requestArrivalDelayTicks;
+        }
+
+        public void SetNextRequestedTraderCooldownTick()
+        {
+            nextRequestedTraderCooldownTick = Find.TickManager.TicksGame + requestTraderCooldownTicks;
+        }
+
+        public void ClearRequestedTraderCooldownTick()
+        {
+            nextRequestedTraderCooldownTick = -99999;
+        }
+
+        public void SpawnRequestedTrader()
+        { 
+            AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction(nextRequestedTraderKind);
+            nextRequestedTraderKind = null;
+            nextRequestedTraderTick = -99999;
         }
 
         public override void ExposeData()
@@ -166,20 +195,15 @@ namespace MousekinRace
             Scribe_Values.Look(ref anyColonistsWithShatteredEmpireTitle, "anyColonistsWithShatteredEmpireTitle");
             Scribe_References.Look(ref alignedFaction, "alignedFaction");
             Scribe_Collections.Look(ref recruitedColonistsQueue, "recruitedColonistsQueue");
-            Scribe_Values.Look(ref ticksUntilNextRandomCaravanTrader, "ticksUntilNextRandomCaravanTrader", 0, true);
-            Scribe_Values.Look(ref ticksUntilNextRequestedCaravanTraderAllowed, "ticksUntilNextRequestedCaravanTraderAllowed", 0, true);
-            Scribe_Collections.Look(ref requestedCaravanTradersQueue, "requestedCaravanTradersQueue");
+            Scribe_Values.Look(ref nextNewColonistArrivalTick, "nextNewColonistArrivalTick", 0, true);
+            Scribe_Values.Look(ref nextRandTraderTick, "nextRandTraderTick", 0, true);
+            Scribe_Values.Look(ref nextRequestedTraderTick, "nextRequestedTraderTick", 0, true);
+            Scribe_Values.Look(ref nextRequestedTraderCooldownTick, "nextRequestedTraderCooldownTick", 0, true);
+            Scribe_Defs.Look(ref nextRequestedTraderKind, "nextRequestedTraderKind");
 
-            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            if (Scribe.mode == LoadSaveMode.PostLoadInit && recruitedColonistsQueue == null)
             {
-                if (recruitedColonistsQueue == null)
-                {
-                    recruitedColonistsQueue = new();
-                }
-                if (requestedCaravanTradersQueue == null)
-                {
-                    requestedCaravanTradersQueue = new();
-                }
+                recruitedColonistsQueue = new();
             }
             Instance = this;
         }
@@ -203,28 +227,6 @@ namespace MousekinRace
         public void ExposeData()
         {
             Scribe_Collections.Look(ref pawns, "pawns", LookMode.Reference);
-            Scribe_Values.Look(ref spawnTick, "spawnTick");
-        }
-    }
-
-    public class RequestedTrader : IExposable
-    {
-        public TraderKindDef traderKind;
-        public int spawnTick;
-
-        public RequestedTrader()
-        { 
-        }
-
-        public RequestedTrader(TraderKindDef traderKind, int spawnTick)
-        {
-            this.traderKind = traderKind;
-            this.spawnTick = spawnTick;
-        }
-
-        public void ExposeData()
-        {
-            Scribe_Defs.Look(ref traderKind, "traderKind");
             Scribe_Values.Look(ref spawnTick, "spawnTick");
         }
     }

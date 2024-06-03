@@ -11,17 +11,17 @@ namespace MousekinRace
     {
         public List<MenuOption> menuOptions = new()
         {
-            new MenuOption("AllegianceSys_Overview", "MousekinRace_AllegianceSys_Overview".Translate()),
-            new MenuOption("AllegianceSys_Benefits", "MousekinRace_AllegianceSys_Benefits".Translate()),
-            new MenuOption("AllegianceSys_Costs", "MousekinRace_AllegianceSys_Costs".Translate()),
-            new MenuOption("AllegianceSys_Recruit", "MousekinRace_AllegianceSys_Recruit".Translate()),
-            new MenuOption("AllegianceSys_CallTrader", "MousekinRace_AllegianceSys_CallTrader".Translate()),
-            new MenuOption("AllegianceSys_CallMilitaryAid", "MousekinRace_AllegianceSys_CallMilitaryAid".Translate()),
-            new MenuOption("AllegianceSys_Log", "MousekinRace_AllegianceSys_Log".Translate()) //,
+            new MenuOption(PageTag.AllegianceSys_Overview, "MousekinRace_AllegianceSys_Overview".Translate()),
+            new MenuOption(PageTag.AllegianceSys_Benefits, "MousekinRace_AllegianceSys_Benefits".Translate()),
+            new MenuOption(PageTag.AllegianceSys_Costs, "MousekinRace_AllegianceSys_Costs".Translate()),
+            new MenuOption(PageTag.AllegianceSys_Recruit, "MousekinRace_AllegianceSys_Recruit".Translate()),
+            new MenuOption(PageTag.AllegianceSys_CallTrader, "MousekinRace_AllegianceSys_CallTrader".Translate()),
+            new MenuOption(PageTag.AllegianceSys_CallMilitaryAid, "MousekinRace_AllegianceSys_CallMilitaryAid".Translate()),
+            new MenuOption(PageTag.AllegianceSys_Log, "MousekinRace_AllegianceSys_Log".Translate()) //,
             // new MenuOption("AllegianceSys_Change", "MousekinRace_AllegianceSys_Change".Translate()), // not yet implemented
         };
 
-        public string selectedPageTag = "AllegianceSys_Overview";
+        public PageTag selectedPageTag = PageTag.AllegianceSys_Overview;
 
         public const float uiElementSpacing = 10f;
 
@@ -72,7 +72,7 @@ namespace MousekinRace
         public override void PostClose()
         {
             base.PostClose();
-            selectedPageTag = "AllegianceSys_Overview";
+            selectedPageTag = PageTag.AllegianceSys_Overview;
         }
 
         public void DrawTitleBlock(Rect rect, ref float y)
@@ -329,31 +329,37 @@ namespace MousekinRace
             {
                 selectedPageTag = option.pageTag;
                 SoundDefOf.Click.PlayOneShotOnCamera();
+
+                // Update available silver every time we switch to the Invite Settlers page
+                if (selectedPageTag == PageTag.AllegianceSys_Recruit) 
+                { 
+                    GameComponent_Allegiance.Instance.RecacheAvailableSilver();
+                }
             }
             Widgets.Label(r, option.buttonLabel);
         }
 
-        public void DrawPageBlock(Rect r, string pageTag)
+        public void DrawPageBlock(Rect r, PageTag pageTag)
         {
             Widgets.DrawMenuSection(r);
             Rect innerRect = r.ContractedBy(17f);
 
             switch (pageTag)
             {
-                case "AllegianceSys_Benefits":
+                case PageTag.AllegianceSys_Benefits:
                     DrawPageBenefits(innerRect); 
                     break;
-                case "AllegianceSys_Costs":
+                case PageTag.AllegianceSys_Costs:
                     DrawPageCosts(innerRect);
                     break;
-                case "AllegianceSys_Recruit":
+                case PageTag.AllegianceSys_Recruit:
                     DrawPageRecruit(innerRect);
                     break;
-                case "AllegianceSys_CallTrader":
+                case PageTag.AllegianceSys_CallTrader:
                     DrawPageTraders(innerRect);
                     break;
                 default:
-                    Widgets.Label(innerRect, pageTag);
+                    Widgets.Label(innerRect, pageTag.ToStringSafe());
                     break;
             }            
         }
@@ -582,21 +588,18 @@ namespace MousekinRace
             var listingStandard = new Listing_Standard();
             listingStandard.Begin(r);
 
-            listingStandard.Label("MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn".Translate(GameComponent_Allegiance.Instance.ticksUntilNextRandomCaravanTrader.ToStringTicksToPeriod()));
+            int ticksUntilNextRandTrader = GameComponent_Allegiance.Instance.nextRandTraderTick - Find.TickManager.TicksGame;
+            listingStandard.Label("MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn".Translate(ticksUntilNextRandTrader.ToStringTicksToPeriod()));
 
-            if (GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed > 0)
+            if (GameComponent_Allegiance.Instance.nextRequestedTraderKind is TraderKindDef nextRequestedTraderKind)
             {
-                if (!GameComponent_Allegiance.Instance.requestedCaravanTradersQueue.NullOrEmpty())
-                {
-                    RequestedTrader nextRequestedTrader = GameComponent_Allegiance.Instance.requestedCaravanTradersQueue[0];
-                    int ticksRemainingForRequestedTradeCaravan = nextRequestedTrader.spawnTick - Find.TickManager.TicksAbs;
-                    listingStandard.Label("MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn".Translate(ticksRemainingForRequestedTradeCaravan.ToStringTicksToPeriod(), nextRequestedTrader.traderKind.LabelCap));
-                }
-                else
-                {
-                    int cooldownTicksRemainingForRequestingTradeCaravans = GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed;
-                    listingStandard.Label("MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown".Translate(cooldownTicksRemainingForRequestingTradeCaravans.ToStringTicksToPeriod()));
-                }
+                int ticksRemainingForRequestedTradeCaravan = GameComponent_Allegiance.Instance.nextRequestedTraderTick - Find.TickManager.TicksGame;
+                listingStandard.Label("MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn".Translate(ticksRemainingForRequestedTradeCaravan.ToStringTicksToPeriod(), nextRequestedTraderKind.LabelCap));
+            }
+            else if (GameComponent_Allegiance.Instance.nextRequestedTraderCooldownTick > Find.TickManager.TicksGame)
+            {
+                int cooldownTicksRemainingForRequestingTradeCaravans = GameComponent_Allegiance.Instance.nextRequestedTraderCooldownTick - Find.TickManager.TicksGame;
+                listingStandard.Label("MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown".Translate(cooldownTicksRemainingForRequestingTradeCaravans.ToStringTicksToPeriod()));
             }
             else
             {
@@ -648,25 +651,27 @@ namespace MousekinRace
 
                 Color orgColor = GUI.color;
 
-                if (GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed > 0)
+                if (GameComponent_Allegiance.Instance.nextRequestedTraderKind != null || GameComponent_Allegiance.Instance.nextRequestedTraderCooldownTick > Find.TickManager.TicksGame)
                 {
                     GUI.color = Color.gray;
                 }
 
                 if (Widgets.ButtonText(requestTraderButtonRect, requestTraderButtonLabel))
                 {
-                    if (!(GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed > 0))
+                    if (GameComponent_Allegiance.Instance.nextRequestedTraderKind == null && Find.TickManager.TicksGame > GameComponent_Allegiance.Instance.nextRequestedTraderCooldownTick)
                     {
-                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Trader_Confirmation".Translate(traderOptionName, "PeriodDays".Translate(AllegianceSys_Utils.requestArrivalDelayDays)), delegate
+                        Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Trader_Confirmation".Translate(traderOptionName, "PeriodDays".Translate(GameComponent_Allegiance.requestArrivalDelayDays)), delegate
                         {
-                            AllegianceSys_Utils.AddRequestedTraderToQueue(traderOption);
-                            GameComponent_Allegiance.Instance.StartCooldownForRequestingCaravanTrader();
+                            GameComponent_Allegiance.Instance.SetNextRequestedTraderKind(traderOption);
+                            GameComponent_Allegiance.Instance.SetNextRequestedTraderTick();
+                            GameComponent_Allegiance.Instance.SetNextRequestedTraderCooldownTick();
                             SoundDefOf.Click.PlayOneShotOnCamera();
                         }));
                     }
                     else 
                     {
-                        Messages.Message("MousekinRace_MessageCannotRequestTraderCooldownActive".Translate(GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed.ToStringTicksToPeriod()), MessageTypeDefOf.RejectInput, false);
+                        int cooldownTicksRemainingForRequestingTradeCaravans = GameComponent_Allegiance.Instance.nextRequestedTraderCooldownTick - Find.TickManager.TicksGame;
+                        Messages.Message("MousekinRace_MessageCannotRequestTraderCooldownActive".Translate(cooldownTicksRemainingForRequestingTradeCaravans.ToStringTicksToPeriod()), MessageTypeDefOf.RejectInput, false);
                     }  
                 }
 
@@ -681,7 +686,7 @@ namespace MousekinRace
 
             // Development / God mode debug buttons
             if (DebugSettings.godMode)
-            {
+            {              
                 string devRandCaravanTraderButtonLabel = "DEV: Spawn random caravan trader now";
                 Vector2 devRandCaravanTraderButtonSize = Text.CalcSize(devRandCaravanTraderButtonLabel);
                 devRandCaravanTraderButtonSize.x += StandardMargin * 2;
@@ -689,45 +694,54 @@ namespace MousekinRace
 
                 if (Widgets.ButtonText(devRandCaravanTraderButtonRect, devRandCaravanTraderButtonLabel))
                 {
-                    GameComponent_Allegiance.Instance.ticksUntilNextRandomCaravanTrader = 0;
+                    GameComponent_Allegiance.Instance.SpawnRandTrader();
                 }
 
-                if (GameComponent_Allegiance.Instance.ticksUntilNextRequestedCaravanTraderAllowed > 0)
+                if (GameComponent_Allegiance.Instance.nextRequestedTraderTick > Find.TickManager.TicksGame)
                 {
-                    if (!GameComponent_Allegiance.Instance.requestedCaravanTradersQueue.NullOrEmpty())
-                    {
-                        string devRequestedCaravanTraderButtonLabel = "DEV: Spawn requested caravan trader now";
-                        Vector2 devRequestedCaravanTraderButtonSize = Text.CalcSize(devRequestedCaravanTraderButtonLabel);
-                        devRequestedCaravanTraderButtonSize.x += StandardMargin * 2;
-                        Rect devRequestedCaravanTraderButtonRect = new Rect(r.xMax - devRequestedCaravanTraderButtonSize.x, r.yMin + devRandCaravanTraderButtonSize.y, devRequestedCaravanTraderButtonSize.x, devRequestedCaravanTraderButtonSize.y);
+                    string devRequestedCaravanTraderButtonLabel = "DEV: Spawn requested caravan trader now";
+                    Vector2 devRequestedCaravanTraderButtonSize = Text.CalcSize(devRequestedCaravanTraderButtonLabel);
+                    devRequestedCaravanTraderButtonSize.x += StandardMargin * 2;
+                    Rect devRequestedCaravanTraderButtonRect = new Rect(r.xMax - devRequestedCaravanTraderButtonSize.x, r.yMin + devRandCaravanTraderButtonSize.y, devRequestedCaravanTraderButtonSize.x, devRequestedCaravanTraderButtonSize.y);
 
-                        if (Widgets.ButtonText(devRequestedCaravanTraderButtonRect, devRequestedCaravanTraderButtonLabel))
-                        {
-                            GameComponent_Allegiance.Instance.SpawnRequestedCaravanTrader();
-                        }
+                    if (Widgets.ButtonText(devRequestedCaravanTraderButtonRect, devRequestedCaravanTraderButtonLabel))
+                    {
+                        GameComponent_Allegiance.Instance.SpawnRequestedTrader();
                     }
-                    else
-                    {
-                        string devResetCooldownForCaravanTraderButtonLabel = "DEV: Reset cooldown now";
-                        Vector2 devResetCooldownForCaravanTraderButtonSize = Text.CalcSize(devResetCooldownForCaravanTraderButtonLabel);
-                        devResetCooldownForCaravanTraderButtonSize.x += StandardMargin * 2;
-                        Rect devResetCooldownForCaravanTraderButtonRect = new Rect(r.xMax - devResetCooldownForCaravanTraderButtonSize.x, r.yMin + devRandCaravanTraderButtonSize.y, devResetCooldownForCaravanTraderButtonSize.x, devResetCooldownForCaravanTraderButtonSize.y);
+                }
+                else if (GameComponent_Allegiance.Instance.nextRequestedTraderCooldownTick > Find.TickManager.TicksGame)
+                {
+                    string devResetCooldownForCaravanTraderButtonLabel = "DEV: Reset cooldown now";
+                    Vector2 devResetCooldownForCaravanTraderButtonSize = Text.CalcSize(devResetCooldownForCaravanTraderButtonLabel);
+                    devResetCooldownForCaravanTraderButtonSize.x += StandardMargin * 2;
+                    Rect devResetCooldownForCaravanTraderButtonRect = new Rect(r.xMax - devResetCooldownForCaravanTraderButtonSize.x, r.yMin + devRandCaravanTraderButtonSize.y, devResetCooldownForCaravanTraderButtonSize.x, devResetCooldownForCaravanTraderButtonSize.y);
 
-                        if (Widgets.ButtonText(devResetCooldownForCaravanTraderButtonRect, devResetCooldownForCaravanTraderButtonLabel))
-                        {
-                            GameComponent_Allegiance.Instance.ResetCooldownForRequestingCaravanTrader();
-                        }
+                    if (Widgets.ButtonText(devResetCooldownForCaravanTraderButtonRect, devResetCooldownForCaravanTraderButtonLabel))
+                    {
+                        GameComponent_Allegiance.Instance.ClearRequestedTraderCooldownTick();
                     }
                 }
             }
         }
 
-        public class MenuOption
+        public enum PageTag 
         {
-            public string pageTag;
+            AllegianceSys_Overview,
+            AllegianceSys_Benefits,
+            AllegianceSys_Costs,
+            AllegianceSys_Recruit,
+            AllegianceSys_CallTrader,
+            AllegianceSys_CallMilitaryAid,
+            AllegianceSys_Log,
+            AllegianceSys_Change // not yet implemented
+        }
+
+    public class MenuOption
+        {
+            public PageTag pageTag;
             public string buttonLabel;
 
-            public MenuOption(string pageTagInput, string buttonLabelInput)
+            public MenuOption(PageTag pageTagInput, string buttonLabelInput)
             {
                 pageTag = pageTagInput;
                 buttonLabel = buttonLabelInput;
