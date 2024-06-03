@@ -1,6 +1,7 @@
 ﻿using RimWorld;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Verse;
 using Verse.Sound;
@@ -358,6 +359,9 @@ namespace MousekinRace
                 case PageTag.AllegianceSys_CallTrader:
                     DrawPageTraders(innerRect);
                     break;
+                case PageTag.AllegianceSys_CallMilitaryAid:
+                    DrawPageMilitaryAid(innerRect);
+                    break;
                 default:
                     Widgets.Label(innerRect, pageTag.ToStringSafe());
                     break;
@@ -665,7 +669,6 @@ namespace MousekinRace
                             GameComponent_Allegiance.Instance.SetNextRequestedTraderKind(traderOption);
                             GameComponent_Allegiance.Instance.SetNextRequestedTraderTick();
                             GameComponent_Allegiance.Instance.SetNextRequestedTraderCooldownTick();
-                            SoundDefOf.Click.PlayOneShotOnCamera();
                         }));
                     }
                     else 
@@ -722,6 +725,83 @@ namespace MousekinRace
                     }
                 }
             }
+        }
+
+        public void DrawPageMilitaryAid(Rect r)
+        {
+            var listingStandard = new Listing_Standard();
+            listingStandard.Begin(r);
+            listingStandard.Label("MousekinRace_AllegianceSys_MilitaryAid_Desc".Translate(AllegianceSys_Utils.MembershipToFactionLabel(GameComponent_Allegiance.Instance.alignedFaction)));
+
+            int ticksUntilMilitaryAid = GameComponent_Allegiance.Instance.militaryAidArrivalTick - Find.TickManager.TicksGame;
+
+            if (GameComponent_Allegiance.Instance.militaryAidArrivalTick > 0)
+            {
+                listingStandard.Gap();
+
+                // Development / God mode debug button
+                if (DebugSettings.godMode)
+                {
+                    string devMilitaryAidNowButtonLabel = "DEV: Spawn military aid now";
+                    Vector2 devMilitaryAidNowButtonSize = Text.CalcSize(devMilitaryAidNowButtonLabel);
+                    devMilitaryAidNowButtonSize.x += StandardMargin * 2;
+                    Rect devMilitaryAidNowButtonRect = new Rect(r.width - devMilitaryAidNowButtonSize.x, listingStandard.curY, devMilitaryAidNowButtonSize.x, devMilitaryAidNowButtonSize.y);
+
+                    if (Widgets.ButtonText(devMilitaryAidNowButtonRect, devMilitaryAidNowButtonLabel))
+                    {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
+                        GameComponent_Allegiance.Instance.SpawnMilitaryAid();
+                    }
+                }
+
+                listingStandard.Label("MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn".Translate(ticksUntilMilitaryAid.ToStringTicksToPeriod()));
+            }
+
+            listingStandard.GapLine();
+            listingStandard.Gap();
+
+            bool hostilesOnMap = GameComponent_Allegiance.Instance.townSquares.Where(b => AllegianceSys_Utils.MapHasHostiles(b.Map)).FirstOrDefault() != null;
+            bool canCallMilitaryAidNow = !(GameComponent_Allegiance.Instance.militaryAidArrivalTick > 0) && hostilesOnMap;
+
+            Color orgColor = GUI.color;
+            if (!canCallMilitaryAidNow)
+            {
+                GUI.color = Color.gray;
+            }
+
+            string callMilitaryAidButtonLabel = "MousekinRace_AllegianceSys_CallMilitaryAid".Translate();
+            float buttonHeight = 45f;
+            float buttonWidth = Text.CalcSize(callMilitaryAidButtonLabel).x + StandardMargin;
+            Rect callMilitaryAidButton = new Rect(0, listingStandard.curY, buttonWidth, buttonHeight);
+            if (Widgets.ButtonText(callMilitaryAidButton, callMilitaryAidButtonLabel))
+            {
+                SoundDefOf.Click.PlayOneShotOnCamera();
+
+                if (canCallMilitaryAidNow)
+                {
+                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_MilitaryAid_Confirmation".Translate(GameComponent_Allegiance.militaryAidDelayTicks.ToStringTicksToPeriod()), delegate
+                    {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
+                        GameComponent_Allegiance.Instance.SetMilitaryAidArrivalTick();
+                        Messages.Message("MousekinRace_MessageMilitaryAidWillArrive".Translate(AllegianceSys_Utils.FactionNameWithDefiniteArticle(GameComponent_Allegiance.Instance.alignedFaction.Name), GameComponent_Allegiance.militaryAidDelayTicks.ToStringTicksToPeriod()), MessageTypeDefOf.PositiveEvent, false);
+                    }));
+                }
+                else
+                {
+                    if (GameComponent_Allegiance.Instance.militaryAidArrivalTick > 0)
+                    {
+                        Messages.Message("MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested".Translate("MousekinRace_MessageMilitaryAidWillArrive".Translate(AllegianceSys_Utils.FactionNameWithDefiniteArticle(GameComponent_Allegiance.Instance.alignedFaction.Name), GameComponent_Allegiance.militaryAidDelayTicks.ToStringTicksToPeriod())), MessageTypeDefOf.RejectInput, false);
+                    }
+                    else if (!hostilesOnMap)
+                    {
+                        Messages.Message("MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap".Translate(), MessageTypeDefOf.RejectInput, false);
+                    }
+                }
+            }
+
+            GUI.color = orgColor;
+
+            listingStandard.End();
         }
 
         public enum PageTag 

@@ -15,6 +15,8 @@ namespace MousekinRace
 
         public const int requestTraderCooldownTicks = requestTraderCooldownDays * GenDate.TicksPerDay;
 
+        public const int militaryAidDelayTicks = GenDate.TicksPerDay / 2; // 12 hours
+
         public bool seenAllegianceSysIntroLetter = false;
 
         public bool anyColonistsWithShatteredEmpireTitle = false;
@@ -36,6 +38,8 @@ namespace MousekinRace
         public int nextRequestedTraderTick = -99999;
 
         public int nextRequestedTraderCooldownTick = -99999;
+
+        public int militaryAidArrivalTick = -99999;
 
         public TraderKindDef nextRequestedTraderKind = null;
 
@@ -108,6 +112,11 @@ namespace MousekinRace
             if (nextRequestedTraderCooldownTick > 0 && Find.TickManager.TicksGame > nextRequestedTraderCooldownTick)
             { 
                 ClearRequestedTraderCooldownTick();
+            }
+
+            if (militaryAidArrivalTick > 0 && Find.TickManager.TicksGame > militaryAidArrivalTick)
+            { 
+                SpawnMilitaryAid();
             }
         }
 
@@ -187,6 +196,17 @@ namespace MousekinRace
             nextRequestedTraderTick = -99999;
         }
 
+        public void SetMilitaryAidArrivalTick()
+        { 
+            militaryAidArrivalTick = Find.TickManager.TicksGame + militaryAidDelayTicks;
+        }
+
+        public void SpawnMilitaryAid()
+        {
+            AllegianceSys_Utils.SpawnMilitaryAidFromAllegianceFaction();
+            militaryAidArrivalTick = -99999;
+        }
+
         public override void ExposeData()
         {
             base.ExposeData();
@@ -200,6 +220,7 @@ namespace MousekinRace
             Scribe_Values.Look(ref nextRequestedTraderTick, "nextRequestedTraderTick", 0, true);
             Scribe_Values.Look(ref nextRequestedTraderCooldownTick, "nextRequestedTraderCooldownTick", 0, true);
             Scribe_Defs.Look(ref nextRequestedTraderKind, "nextRequestedTraderKind");
+            Scribe_Values.Look(ref militaryAidArrivalTick, "militaryAidArrivalTick", 0, true);
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit && recruitedColonistsQueue == null)
             {

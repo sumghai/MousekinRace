@@ -115,6 +115,15 @@
 	<!-- EN: Are you sure you want to request a {0} to visit your settlement?\n\nThey will arrive in {1}. -->
 	<MousekinRace_AllegianceSys_Trader_Confirmation>정착지 방문을 위해 {0}를 요청하시겠습니까?\n\n{1} 후에 도착합니다.</MousekinRace_AllegianceSys_Trader_Confirmation>
 	
+	<!-- EN: As a {0}, you can request military aid at no cost. -->
+	<MousekinRace_AllegianceSys_MilitaryAid_Desc>{0} 무료로 군사 지원을 요청할 수 있습니다.</MousekinRace_AllegianceSys_MilitaryAid_Desc>
+	
+	<!-- EN: Reinforcements will arrive in: {0} -->
+	<MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>지원군이 도착합니다: {0}</MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>
+	
+	<!-- EN: Are you sure you want to request military aid?\n\nIt will arrive in {0}. -->
+	<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>군사 지원을 요청하시겠습니까?\n\n{0} 후에 도착할 것입니다.</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>진영 충성</MousekinRace_TradePriceFactor_FactionAllegiance>
 

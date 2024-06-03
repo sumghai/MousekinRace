@@ -11,4 +11,10 @@
 	
 	<MousekinRace_MessageCannotRequestTraderCooldownActive>Cannot request trader: you need to wait another {0}.</MousekinRace_MessageCannotRequestTraderCooldownActive>
 	
+	<MousekinRace_MessageMilitaryAidWillArrive>Reinforcements from {0} will arrive in {1}.</MousekinRace_MessageMilitaryAidWillArrive>
+	
+	<MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>Already requested military aid: {0}.</MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>
+	
+	<MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>Cannot call for military aid: no hostiles on the map.</MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>
+	
 </LanguageData>
