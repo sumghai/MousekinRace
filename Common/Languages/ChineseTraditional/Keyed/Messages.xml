@@ -15,5 +15,14 @@
 	
 	<!-- EN: Cannot request trader: you need to wait another {0}. -->
 	<MousekinRace_MessageCannotRequestTraderCooldownActive>無法請求交易旅隊：您需要再等{0}。</MousekinRace_MessageCannotRequestTraderCooldownActive>
+	
+	<!-- EN: Reinforcements from {0} will arrive in {1}. -->
+	<MousekinRace_MessageMilitaryAidWillArrive>{0}的救兵將在{1}後抵達。</MousekinRace_MessageMilitaryAidWillArrive>
+	
+	<!-- EN: Already requested military aid: {0}. -->
+	<MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>已經請求軍事援助:{0}。</MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>
+	
+	<!-- EN: Cannot call for military aid: no hostiles on the map. -->
+	<MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>無法請求軍事援助：地圖上沒有敵人。</MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>
 
 </LanguageData>

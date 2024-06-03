@@ -115,6 +115,15 @@
 	<!-- EN: Are you sure you want to request a {0} to visit your settlement?\n\nThey will arrive in {1}. -->
 	<MousekinRace_AllegianceSys_Trader_Confirmation>本当に{0}の訪問を依頼しますか？\n\n{1}後に到着します.</MousekinRace_AllegianceSys_Trader_Confirmation>
 	
+	<!-- EN: As a {0}, you can request military aid at no cost. -->
+	<MousekinRace_AllegianceSys_MilitaryAid_Desc>{0}であれば、無償で軍事援助を要請できます.</MousekinRace_AllegianceSys_MilitaryAid_Desc>
+	
+	<!-- EN: Reinforcements will arrive in: {0} -->
+	<MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>援軍到着時間: {0}</MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>
+	
+	<!-- EN: Are you sure you want to request military aid?\n\nIt will arrive in {0}. -->
+	<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>本当に軍事援助を要請しますか?\n\n{0}で到着します.</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派閥忠誠</MousekinRace_TradePriceFactor_FactionAllegiance>
 

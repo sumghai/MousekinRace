@@ -15,5 +15,14 @@
 	
 	<!-- EN: Cannot request trader: you need to wait another {0}. -->
 	<MousekinRace_MessageCannotRequestTraderCooldownActive>トレーダーを要求できない：さらに{0}間待つ必要があります.</MousekinRace_MessageCannotRequestTraderCooldownActive>
+	
+	<!-- EN: Reinforcements from {0} will arrive in {1}. -->
+	<MousekinRace_MessageMilitaryAidWillArrive>{0}からの援軍は{1}後に到着します.</MousekinRace_MessageMilitaryAidWillArrive>
+	
+	<!-- EN: Already requested military aid: {0}. -->
+	<MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>軍事援助はすでに要請されている:{0}.</MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>
+	
+	<!-- EN: Cannot call for military aid: no hostiles on the map. -->
+	<MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>軍事援助は要請できない：地図上に敵はいません.</MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>
 
 </LanguageData>

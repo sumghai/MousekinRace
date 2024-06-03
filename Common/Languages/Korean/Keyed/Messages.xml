@@ -15,5 +15,14 @@
 	
 	<!-- EN: Cannot request trader: you need to wait another {0}. -->
 	<MousekinRace_MessageCannotRequestTraderCooldownActive>트레이더를 요청할 수 없습니다: {0}을 더 기다려야 합니다.</MousekinRace_MessageCannotRequestTraderCooldownActive>
+	
+	<!-- EN: Reinforcements from {0} will arrive in {1}. -->
+	<MousekinRace_MessageMilitaryAidWillArrive>{0}의 지원군이 {1} 후에 도착합니다.</MousekinRace_MessageMilitaryAidWillArrive>
+	
+	<!-- EN: Already requested military aid: {0}. -->
+	<MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>이미 군사 지원을 요청하셨습니다: {0}.</MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>
+	
+	<!-- EN: Cannot call for military aid: no hostiles on the map. -->
+	<MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>군사 지원을 요청할 수 없음: 지도에 적군이 없습니다.</MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>
 
 </LanguageData>

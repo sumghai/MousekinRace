@@ -1,6 +1,7 @@
 ﻿using RimWorld;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Verse;
 using Verse.Sound;
@@ -202,10 +203,12 @@ namespace MousekinRace
                 float infoButtonsWidth = (innerRect.width - StandardMargin) / 2;
                 if (Widgets.ButtonText(new Rect(innerRect.xMin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Benefits".Translate())))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Benefits".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOptions[i], true)), AllegianceSys_Utils.GenerateBenefitsDesc(factionOptions[i]), currentFactionExtension.factionRestrictedCraftableThingDefs));
                 }
                 if (Widgets.ButtonText(new Rect(innerRect.xMin + infoButtonsWidth + StandardMargin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Costs".Translate())))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Costs".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOptions[i], true)), AllegianceSys_Utils.GenerateCostsDesc(factionOptions[i])));
                 }
 
@@ -230,10 +233,12 @@ namespace MousekinRace
                 {
                     if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight * 2 - StandardMargin, 150f, buttonHeight), "DEV: +10 Goodwill"))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         factionOptions[i].TryAffectGoodwillWith(Faction.OfPlayer, 10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
                     }
                     if (Widgets.ButtonText(new Rect(innerRect.xMin + 150f + StandardMargin, innerRect.yMax - buttonHeight * 2 - StandardMargin, 150f, buttonHeight), "DEV: -10 Goodwill"))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         factionOptions[i].TryAffectGoodwillWith(Faction.OfPlayer, -10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
                     }
                 }
@@ -246,6 +251,7 @@ namespace MousekinRace
                 }
                 if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight, innerRect.width, buttonHeight), currentFactionExtension.joinButtonLabel))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     if (joinRequirementsMet)
                     {
                         Faction targetFaction = factionOptions[i];
@@ -358,6 +364,9 @@ namespace MousekinRace
                 case PageTag.AllegianceSys_CallTrader:
                     DrawPageTraders(innerRect);
                     break;
+                case PageTag.AllegianceSys_CallMilitaryAid:
+                    DrawPageMilitaryAid(innerRect);
+                    break;
                 default:
                     Widgets.Label(innerRect, pageTag.ToStringSafe());
                     break;
@@ -441,6 +450,7 @@ namespace MousekinRace
             }
             if (Widgets.ButtonText(viewNewColonistQueueButtonRect, viewNewColonistQueueButtonLabel))
             {
+                SoundDefOf.Click.PlayOneShotOnCamera();
                 if (GameComponent_Allegiance.Instance.recruitedColonistsQueue.Count > 0)
                 {
                     Find.WindowStack.Add(new Dialog_AllegianceQueuedNewColonists(GameComponent_Allegiance.Instance.recruitedColonistsQueue));
@@ -514,6 +524,7 @@ namespace MousekinRace
 
                     if (Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCostFamily)))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         if (inviteCostFamily <= availableSilver)
                         {
                             Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCostFamily), delegate
@@ -540,6 +551,7 @@ namespace MousekinRace
 
                 if (Widgets.ButtonText(inviteSingleButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(inviteCost)))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     if (inviteCost <= availableSilver)
                     {
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
@@ -575,6 +587,7 @@ namespace MousekinRace
 
                     if (Widgets.ButtonText(devSpawnNextNewColonistsButtonRect, devSpawnNextNewColonistsButtonLabel))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         GameComponent_Allegiance.Instance.SpawnNextNewColonists();
                     }
                 }
@@ -658,6 +671,7 @@ namespace MousekinRace
 
                 if (Widgets.ButtonText(requestTraderButtonRect, requestTraderButtonLabel))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     if (GameComponent_Allegiance.Instance.nextRequestedTraderKind == null && Find.TickManager.TicksGame > GameComponent_Allegiance.Instance.nextRequestedTraderCooldownTick)
                     {
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Trader_Confirmation".Translate(traderOptionName, "PeriodDays".Translate(GameComponent_Allegiance.requestArrivalDelayDays)), delegate
@@ -665,7 +679,6 @@ namespace MousekinRace
                             GameComponent_Allegiance.Instance.SetNextRequestedTraderKind(traderOption);
                             GameComponent_Allegiance.Instance.SetNextRequestedTraderTick();
                             GameComponent_Allegiance.Instance.SetNextRequestedTraderCooldownTick();
-                            SoundDefOf.Click.PlayOneShotOnCamera();
                         }));
                     }
                     else 
@@ -694,6 +707,7 @@ namespace MousekinRace
 
                 if (Widgets.ButtonText(devRandCaravanTraderButtonRect, devRandCaravanTraderButtonLabel))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     GameComponent_Allegiance.Instance.SpawnRandTrader();
                 }
 
@@ -706,6 +720,7 @@ namespace MousekinRace
 
                     if (Widgets.ButtonText(devRequestedCaravanTraderButtonRect, devRequestedCaravanTraderButtonLabel))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         GameComponent_Allegiance.Instance.SpawnRequestedTrader();
                     }
                 }
@@ -718,10 +733,87 @@ namespace MousekinRace
 
                     if (Widgets.ButtonText(devResetCooldownForCaravanTraderButtonRect, devResetCooldownForCaravanTraderButtonLabel))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         GameComponent_Allegiance.Instance.ClearRequestedTraderCooldownTick();
                     }
                 }
             }
+        }
+
+        public void DrawPageMilitaryAid(Rect r)
+        {
+            var listingStandard = new Listing_Standard();
+            listingStandard.Begin(r);
+            listingStandard.Label("MousekinRace_AllegianceSys_MilitaryAid_Desc".Translate(AllegianceSys_Utils.MembershipToFactionLabel(GameComponent_Allegiance.Instance.alignedFaction)));
+
+            int ticksUntilMilitaryAid = GameComponent_Allegiance.Instance.militaryAidArrivalTick - Find.TickManager.TicksGame;
+
+            if (GameComponent_Allegiance.Instance.militaryAidArrivalTick > 0)
+            {
+                listingStandard.Gap();
+
+                // Development / God mode debug button
+                if (DebugSettings.godMode)
+                {
+                    string devMilitaryAidNowButtonLabel = "DEV: Spawn military aid now";
+                    Vector2 devMilitaryAidNowButtonSize = Text.CalcSize(devMilitaryAidNowButtonLabel);
+                    devMilitaryAidNowButtonSize.x += StandardMargin * 2;
+                    Rect devMilitaryAidNowButtonRect = new Rect(r.width - devMilitaryAidNowButtonSize.x, listingStandard.curY, devMilitaryAidNowButtonSize.x, devMilitaryAidNowButtonSize.y);
+
+                    if (Widgets.ButtonText(devMilitaryAidNowButtonRect, devMilitaryAidNowButtonLabel))
+                    {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
+                        GameComponent_Allegiance.Instance.SpawnMilitaryAid();
+                    }
+                }
+
+                listingStandard.Label("MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn".Translate(ticksUntilMilitaryAid.ToStringTicksToPeriod()));
+            }
+
+            listingStandard.GapLine();
+            listingStandard.Gap();
+
+            bool hostilesOnMap = GameComponent_Allegiance.Instance.townSquares.Where(b => AllegianceSys_Utils.MapHasHostiles(b.Map)).FirstOrDefault() != null;
+            bool canCallMilitaryAidNow = !(GameComponent_Allegiance.Instance.militaryAidArrivalTick > 0) && hostilesOnMap;
+
+            Color orgColor = GUI.color;
+            if (!canCallMilitaryAidNow)
+            {
+                GUI.color = Color.gray;
+            }
+
+            string callMilitaryAidButtonLabel = "MousekinRace_AllegianceSys_CallMilitaryAid".Translate();
+            float buttonHeight = 45f;
+            float buttonWidth = Text.CalcSize(callMilitaryAidButtonLabel).x + StandardMargin;
+            Rect callMilitaryAidButton = new Rect(0, listingStandard.curY, buttonWidth, buttonHeight);
+            if (Widgets.ButtonText(callMilitaryAidButton, callMilitaryAidButtonLabel))
+            {
+                SoundDefOf.Click.PlayOneShotOnCamera();
+                if (canCallMilitaryAidNow)
+                {
+                    Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_MilitaryAid_Confirmation".Translate(GameComponent_Allegiance.militaryAidDelayTicks.ToStringTicksToPeriod()), delegate
+                    {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
+                        GameComponent_Allegiance.Instance.SetMilitaryAidArrivalTick();
+                        Messages.Message("MousekinRace_MessageMilitaryAidWillArrive".Translate(AllegianceSys_Utils.FactionNameWithDefiniteArticle(GameComponent_Allegiance.Instance.alignedFaction.Name), GameComponent_Allegiance.militaryAidDelayTicks.ToStringTicksToPeriod()), MessageTypeDefOf.PositiveEvent, false);
+                    }));
+                }
+                else
+                {
+                    if (GameComponent_Allegiance.Instance.militaryAidArrivalTick > 0)
+                    {
+                        Messages.Message("MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested".Translate("MousekinRace_MessageMilitaryAidWillArrive".Translate(AllegianceSys_Utils.FactionNameWithDefiniteArticle(GameComponent_Allegiance.Instance.alignedFaction.Name), GameComponent_Allegiance.militaryAidDelayTicks.ToStringTicksToPeriod())), MessageTypeDefOf.RejectInput, false);
+                    }
+                    else if (!hostilesOnMap)
+                    {
+                        Messages.Message("MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap".Translate(), MessageTypeDefOf.RejectInput, false);
+                    }
+                }
+            }
+
+            GUI.color = orgColor;
+
+            listingStandard.End();
         }
 
         public enum PageTag 
@@ -736,7 +828,7 @@ namespace MousekinRace
             AllegianceSys_Change // not yet implemented
         }
 
-    public class MenuOption
+        public class MenuOption
         {
             public PageTag pageTag;
             public string buttonLabel;

@@ -5,17 +5,23 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Verse;
+using Verse.AI;
 
 namespace MousekinRace
 {
     public static class AllegianceSys_Utils
-    {      
+    {
+        public static TaggedString FactionNameWithDefiniteArticle(TaggedString name)
+        {
+            return name.RawText.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? name : "DefiniteArticle".Translate() + " " + name;
+        }
+        
         public static TaggedString MembershipToFactionLabel(Faction faction, bool coloredFactionName = false)
         {
             TaggedString factionNameRendered = coloredFactionName ? faction.Name.Colorize(faction.Color) : faction.Name;
             AlliableFactionExtension factionExtension = faction.def.GetModExtension<AlliableFactionExtension>();
 
-            return "MousekinRace_AllegianceSys_SubtitleFactionRelationship".Translate(factionExtension.membershipTypeLabel, factionNameRendered.RawText.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? factionNameRendered : "DefiniteArticle".Translate() + " " + factionNameRendered);
+            return "MousekinRace_AllegianceSys_SubtitleFactionRelationship".Translate(factionExtension.membershipTypeLabel, FactionNameWithDefiniteArticle(factionNameRendered));
         }
 
         public static void JoinFaction(Faction allegianceFaction)
@@ -441,6 +447,7 @@ namespace MousekinRace
         {
             // Find the map belonging to the first town square and set a random spawn location near the edge of the map,
             // while ensuring the player settlement is still reachable
+            // todo - handle multiple player maps (currently defaults to first player colony map with town square)
             Building_TownSquare building_TownSquare = GameComponent_Allegiance.Instance.townSquares.First();
             Map map = building_TownSquare.Map;
             CellFinder.TryFindRandomEdgeCellWith((IntVec3 c) => map.reachability.CanReachColony(c) && !c.Fogged(map), map, CellFinder.EdgeRoadChance_Neutral, out IntVec3 recruiteeEntryCell);
@@ -460,6 +467,7 @@ namespace MousekinRace
         public static void SpawnTradeCaravanFromAllegianceFaction(TraderKindDef specificTraderKind = null)
         {
             IncidentDef incidentDef = IncidentDefOf.TraderCaravanArrival;
+            // todo - handle multiple player maps (currently defaults to first player colony map with town square)
             Map targetMap = GameComponent_Allegiance.Instance.townSquares.FirstOrDefault().Map;
             IncidentParms incidentParms = StorytellerUtility.DefaultParmsNow(incidentDef.category, targetMap);
             incidentParms.faction = GameComponent_Allegiance.Instance.alignedFaction;
@@ -469,6 +477,30 @@ namespace MousekinRace
                 incidentParms.forced = true;
                 incidentDef.Worker.TryExecuteWorker(incidentParms);
             }
+        }
+
+        public static bool MapHasHostiles(Map map)
+        {
+            foreach (IAttackTarget item in map.attackTargetsCache.TargetsHostileToColony)
+            {
+                if (GenHostility.IsActiveThreatToPlayer(item))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static void SpawnMilitaryAidFromAllegianceFaction()
+        { 
+            IncidentDef incidentDef = IncidentDefOf.RaidFriendly;
+            // todo - handle multiple player maps (currently defaults to first player colony map with hostile pawns)
+            Map targetMap = Find.Maps.Where(m => m.IsPlayerHome && MapHasHostiles(m)).FirstOrDefault();
+            IncidentParms incidentParms = StorytellerUtility.DefaultParmsNow(incidentDef.category, targetMap);
+            incidentParms.faction = GameComponent_Allegiance.Instance.alignedFaction;
+            incidentParms.raidArrivalMode = PawnsArrivalModeDefOf.EdgeWalkIn;
+            incidentParms.forced = true;
+            incidentDef.Worker.TryExecuteWorker(incidentParms);
         }
     }
 }
