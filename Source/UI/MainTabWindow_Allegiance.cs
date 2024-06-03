@@ -203,10 +203,12 @@ namespace MousekinRace
                 float infoButtonsWidth = (innerRect.width - StandardMargin) / 2;
                 if (Widgets.ButtonText(new Rect(innerRect.xMin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Benefits".Translate())))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Benefits".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOptions[i], true)), AllegianceSys_Utils.GenerateBenefitsDesc(factionOptions[i]), currentFactionExtension.factionRestrictedCraftableThingDefs));
                 }
                 if (Widgets.ButtonText(new Rect(innerRect.xMin + infoButtonsWidth + StandardMargin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Costs".Translate())))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Costs".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOptions[i], true)), AllegianceSys_Utils.GenerateCostsDesc(factionOptions[i])));
                 }
 
@@ -231,10 +233,12 @@ namespace MousekinRace
                 {
                     if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight * 2 - StandardMargin, 150f, buttonHeight), "DEV: +10 Goodwill"))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         factionOptions[i].TryAffectGoodwillWith(Faction.OfPlayer, 10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
                     }
                     if (Widgets.ButtonText(new Rect(innerRect.xMin + 150f + StandardMargin, innerRect.yMax - buttonHeight * 2 - StandardMargin, 150f, buttonHeight), "DEV: -10 Goodwill"))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         factionOptions[i].TryAffectGoodwillWith(Faction.OfPlayer, -10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
                     }
                 }
@@ -247,6 +251,7 @@ namespace MousekinRace
                 }
                 if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight, innerRect.width, buttonHeight), currentFactionExtension.joinButtonLabel))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     if (joinRequirementsMet)
                     {
                         Faction targetFaction = factionOptions[i];
@@ -445,6 +450,7 @@ namespace MousekinRace
             }
             if (Widgets.ButtonText(viewNewColonistQueueButtonRect, viewNewColonistQueueButtonLabel))
             {
+                SoundDefOf.Click.PlayOneShotOnCamera();
                 if (GameComponent_Allegiance.Instance.recruitedColonistsQueue.Count > 0)
                 {
                     Find.WindowStack.Add(new Dialog_AllegianceQueuedNewColonists(GameComponent_Allegiance.Instance.recruitedColonistsQueue));
@@ -518,6 +524,7 @@ namespace MousekinRace
 
                     if (Widgets.ButtonText(inviteFamilyButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel".Translate(inviteCostFamily)))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         if (inviteCostFamily <= availableSilver)
                         {
                             Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate("IndefiniteForm".Translate(optionName), "MousekinRace_AllegianceSys_Recruit_ConfirmationFamily".Translate(), inviteCostFamily), delegate
@@ -544,6 +551,7 @@ namespace MousekinRace
 
                 if (Widgets.ButtonText(inviteSingleButtonRect, "MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel".Translate(inviteCost)))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     if (inviteCost <= availableSilver)
                     {
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Recruit_Confirmation".Translate(recruitablePawnCount > 1 ? recruitablePawnCount + "x " + recruitablePawnKind.labelPlural.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() : "IndefiniteForm".Translate(optionName), "", inviteCost), delegate
@@ -579,6 +587,7 @@ namespace MousekinRace
 
                     if (Widgets.ButtonText(devSpawnNextNewColonistsButtonRect, devSpawnNextNewColonistsButtonLabel))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         GameComponent_Allegiance.Instance.SpawnNextNewColonists();
                     }
                 }
@@ -662,6 +671,7 @@ namespace MousekinRace
 
                 if (Widgets.ButtonText(requestTraderButtonRect, requestTraderButtonLabel))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     if (GameComponent_Allegiance.Instance.nextRequestedTraderKind == null && Find.TickManager.TicksGame > GameComponent_Allegiance.Instance.nextRequestedTraderCooldownTick)
                     {
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_Trader_Confirmation".Translate(traderOptionName, "PeriodDays".Translate(GameComponent_Allegiance.requestArrivalDelayDays)), delegate
@@ -697,6 +707,7 @@ namespace MousekinRace
 
                 if (Widgets.ButtonText(devRandCaravanTraderButtonRect, devRandCaravanTraderButtonLabel))
                 {
+                    SoundDefOf.Click.PlayOneShotOnCamera();
                     GameComponent_Allegiance.Instance.SpawnRandTrader();
                 }
 
@@ -709,6 +720,7 @@ namespace MousekinRace
 
                     if (Widgets.ButtonText(devRequestedCaravanTraderButtonRect, devRequestedCaravanTraderButtonLabel))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         GameComponent_Allegiance.Instance.SpawnRequestedTrader();
                     }
                 }
@@ -721,6 +733,7 @@ namespace MousekinRace
 
                     if (Widgets.ButtonText(devResetCooldownForCaravanTraderButtonRect, devResetCooldownForCaravanTraderButtonLabel))
                     {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
                         GameComponent_Allegiance.Instance.ClearRequestedTraderCooldownTick();
                     }
                 }
@@ -776,7 +789,6 @@ namespace MousekinRace
             if (Widgets.ButtonText(callMilitaryAidButton, callMilitaryAidButtonLabel))
             {
                 SoundDefOf.Click.PlayOneShotOnCamera();
-
                 if (canCallMilitaryAidNow)
                 {
                     Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation("MousekinRace_AllegianceSys_MilitaryAid_Confirmation".Translate(GameComponent_Allegiance.militaryAidDelayTicks.ToStringTicksToPeriod()), delegate
@@ -816,7 +828,7 @@ namespace MousekinRace
             AllegianceSys_Change // not yet implemented
         }
 
-    public class MenuOption
+        public class MenuOption
         {
             public PageTag pageTag;
             public string buttonLabel;
