@@ -50,6 +50,14 @@
 				</value>
 			</li>
 			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Mousekin_FactionKingdom"]/modExtensions/li[@Class="MousekinRace.AlliableFactionExtension"]/hostileToFactionTypes</xpath>
+				<value>
+					<li>Rakinia</li>
+					<li>RK_PlayerFaction</li>
+				</value>
+			</li>
+			
 			<!-- Add Ratkins to the list of "different" rodent races -->
 			
 			<li Class="PatchOperationAdd">
