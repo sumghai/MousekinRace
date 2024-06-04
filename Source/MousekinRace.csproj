@@ -337,6 +337,7 @@
     <Compile Include="Patches\Harmony_RecipeDef.cs" />
     <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />
     <Compile Include="Patches\Harmony_Tradeable.cs" />
+    <Compile Include="Patches\Harmony_VFE_NewFactionSpawningUtility.cs" />
     <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
     <Compile Include="Patches\Harmony_PawnRenderTree.cs" />
     <Compile Include="PawnRendering\PawnRenderNodeWorker_Apparel_Head_ToggleableHood.cs" />

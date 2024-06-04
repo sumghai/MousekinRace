@@ -82,6 +82,10 @@ namespace MousekinRace
             PreInit();
             RecacheTownSquares();
             RecacheAvailableSilver();
+            if (HasDeclaredAllegiance) 
+            {
+                AllegianceSys_Utils.SyncRelationsWithAllegianceFaction(alignedFaction);
+            }
         }
 
         public override void GameComponentTick()

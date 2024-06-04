@@ -24,17 +24,52 @@ namespace MousekinRace
             return "MousekinRace_AllegianceSys_SubtitleFactionRelationship".Translate(factionExtension.membershipTypeLabel, FactionNameWithDefiniteArticle(factionNameRendered));
         }
 
-        public static void JoinFaction(Faction allegianceFaction)
+        public static void SyncRelationsWithAllegianceFaction(Faction allegianceFaction)
         {
-            GameComponent_Allegiance.Instance.alignedFaction = allegianceFaction;
-            AlliableFactionExtension allegianceFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
-            List<Pawn> colonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+            // Fetch the allegiance faction's list of relations with third-party factions that:
+            // - are not null
+            // - is not the player faction itself
+            // - are not temporary factions (typically quest-related)
+            // - are not explicitly listed as their enemy via AlliableFactionExtension
+            List<FactionRelation> allegianceFactionRelations = allegianceFaction.relations.Where(facRel => facRel.other != null && facRel.other != Faction.OfPlayer && !facRel.other.temporary && !allegianceFaction.def.GetModExtension<AlliableFactionExtension>().hostileToFactionTypes.Contains(facRel.other.def)).ToList();
 
-            // Set chosen faction as ally
-            Faction.OfPlayer.SetRelationDirect(allegianceFaction, FactionRelationKind.Ally, false);
+            // Fetch the player faction's list of relations with temporary third-party factions (from quests)
+            List<FactionRelation> playerFactionRelations = Faction.OfPlayer.relations.Where(facRel => facRel.other != null &&  facRel.other.temporary).ToList();
 
-            // Set enemies of chosen faction to be hostile to player
-            List<FactionDef> hostileFactionDefs = allegianceFactionExtension.hostileToFactionTypes;
+            // Fix relations with temporary factions that are marked as hostile but have positive goodwill
+            foreach (FactionRelation relation in playerFactionRelations)
+            {
+                if (relation.kind == FactionRelationKind.Hostile && relation.baseGoodwill > 0)
+                { 
+                    relation.baseGoodwill = -relation.baseGoodwill;
+                }
+            }
+
+            // Compile the final list of faction relationships to be shared by both the player and the allegiance faction
+            List<FactionRelation> unifiedFactionRelations = new();
+            unifiedFactionRelations.AddRange(allegianceFactionRelations);
+            unifiedFactionRelations.AddRange(playerFactionRelations);
+
+            // Update the relations for both the player and allegiance faction with the compiled data
+            foreach (FactionRelation relation in unifiedFactionRelations)
+            { 
+                Faction otherFaction = relation.other;
+                FactionRelationKind otherRelationKind = relation.kind;
+                int otherRelationGoodwill = relation.baseGoodwill;
+
+                // Cannot use Faction.OfPlayer.SetRelationDirect(otherFaction, otherRelationKind, false),
+                // as player goodwill with otherFaction would override it
+                Faction.OfPlayer.RelationWith(otherFaction).baseGoodwill = otherRelationGoodwill;
+                otherFaction.RelationWith(Faction.OfPlayer).baseGoodwill = otherRelationGoodwill;
+
+                allegianceFaction.SetRelationDirect(otherFaction, otherRelationKind, false);
+                allegianceFaction.RelationWith(otherFaction).baseGoodwill = otherRelationGoodwill;
+                otherFaction.SetRelationDirect(allegianceFaction, otherRelationKind, false);
+                otherFaction.RelationWith(allegianceFaction).baseGoodwill = otherRelationGoodwill;
+            }
+
+            // Set enemies of allegiance faction to be hostile to player
+            List<FactionDef> hostileFactionDefs = allegianceFaction.def.GetModExtension<AlliableFactionExtension>().hostileToFactionTypes;
             foreach (Faction faction in Find.FactionManager.AllFactionsVisible)
             {
                 if (hostileFactionDefs.Contains(faction.def))
@@ -44,6 +79,21 @@ namespace MousekinRace
                     faction.RelationWith(Faction.OfPlayer).baseGoodwill = -100;
                 }
             }
+        }
+
+        public static void JoinFaction(Faction allegianceFaction)
+        {
+            GameComponent_Allegiance.Instance.alignedFaction = allegianceFaction;
+            AlliableFactionExtension allegianceFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
+            List<Pawn> colonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+
+            // Sync third-party faction relations with allegiance faction
+            SyncRelationsWithAllegianceFaction(allegianceFaction);
+
+            // Set allegiance faction as ally
+            Faction.OfPlayer.SetRelationDirect(allegianceFaction, FactionRelationKind.Ally, false);
+            Faction.OfPlayer.RelationWith(allegianceFaction).baseGoodwill = 100;
+            allegianceFaction.RelationWith(Faction.OfPlayer).baseGoodwill = 100;
 
             // Pawns with blacklist pawnkind types and traits should leave the player faction
             List<Tuple<Pawn, string>> quittingColonistsWithReasons = GetQuittingColonistsWithReasons(allegianceFaction);
