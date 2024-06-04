@@ -543,6 +543,7 @@
 					<li>TemperateForest</li>
 				</allowedBiomes>
 				<excludeFromQuests>true</excludeFromQuests>
+				<excludeFromCommConsole>true</excludeFromCommConsole>
 			</li>
 			<li Class="MousekinRace.AlliableFactionExtension">
 				<joinButtonLabel>Pledge fealty to The Mousekin King</joinButtonLabel>
@@ -803,6 +804,7 @@
 					<li>TemperateForest</li>
 				</allowedBiomes>
 				<excludeFromQuests>true</excludeFromQuests>
+				<excludeFromCommConsole>true</excludeFromCommConsole>
 			</li>
 			<li Class="MousekinRace.AlliableFactionExtension">
 				<joinRequirements>
@@ -989,6 +991,7 @@
 					<OutlanderCivil>5~20</OutlanderCivil>
 				</startingGoodwillByFactionDefs>
 				<excludeFromQuests>true</excludeFromQuests>
+				<excludeFromCommConsole>true</excludeFromCommConsole>
 			</li>
 		</modExtensions>
 	</FactionDef>
@@ -1062,6 +1065,7 @@
 			</li>
 			<li Class="VFECore.FactionDefExtension">
 				<excludeFromQuests>true</excludeFromQuests>
+				<excludeFromCommConsole>true</excludeFromCommConsole>
 			</li>
 		</modExtensions>
 	</FactionDef>
