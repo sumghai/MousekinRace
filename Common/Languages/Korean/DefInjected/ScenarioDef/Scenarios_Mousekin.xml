@@ -11,13 +11,13 @@
 	<Mousekin_Scenario_Settlers.scenario.name>마우스킨 정착민</Mousekin_Scenario_Settlers.scenario.name>
 
 	<!-- EN: Eight Mousekin settlers establish a new hamlet. -->
-	<Mousekin_Scenario_Settlers.scenario.summary>8명의 Mousekin 정착민이 새로운 마을을 세웁니다.</Mousekin_Scenario_Settlers.scenario.summary>
+	<Mousekin_Scenario_Settlers.scenario.summary>8명의 마우스킨 정착민이 새로운 마을을 세웁니다.</Mousekin_Scenario_Settlers.scenario.summary>
 
 	<!-- EN: With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come. -->
 	<Mousekin_Scenario_Settlers.scenario.description>마을 어르신들과 가족들의 축복으로 당신과 일곱 친구들은 당신만의 작은 마을을 시작하기 시작했습니다.\n\n많은 도전이 기다리고 있지만 성공한다면 당신의 성취와 꽃밭의 아름다움이 드높여질 것입니다 다음 세대를 위해.</Mousekin_Scenario_Settlers.scenario.description>
 
 	<!-- EN: Today is the day!\n\nAfter months of scouting, your friends have finally found a good plot of land to call your own. Perhaps you'll grow hedges of the most delicious nuts, build the most impressive lodges housing hundreds of your fellow Mousekins, or maybe plant a beautiful flower garden that will draw visitors from all over the kingdom.\n\nBidding goodbye to your families, you and your friends set out on an adventure of a lifetime. -->
-	<Mousekin_Scenario_Settlers.scenario.parts.21.text>오늘이 바로 그 날입니다!\n\n몇 달 간의 정찰 끝에 친구들이 마침내 자신의 땅이라고 부를 수 있는 좋은 땅을 찾았습니다. 아마도 당신은 가장 맛있는 견과류의 울타리를 키우고, 수백 명의 마우스킨 친구들을 수용할 수 있는 가장 인상적인 오두막을 지을 수도 있고, 왕국 전역에서 방문객을 끌어들일 아름다운 꽃밭을 심을 수도 있습니다.\n\n가족들에게 작별을 고하고, 당신과 당신의 친구들은 일생일대의 모험을 시작합니다.</Mousekin_Scenario_Settlers.scenario.parts.21.text>
+	<Mousekin_Scenario_Settlers.scenario.parts.1.text>오늘이 바로 그 날입니다!\n\n몇 달 간의 정찰 끝에 친구들이 마침내 자신의 땅이라고 부를 수 있는 좋은 땅을 찾았습니다. 아마도 당신은 가장 맛있는 견과류의 울타리를 키우고, 수백 명의 마우스킨 친구들을 수용할 수 있는 가장 인상적인 오두막을 지을 수도 있고, 왕국 전역에서 방문객을 끌어들일 아름다운 꽃밭을 심을 수도 있습니다.\n\n가족들에게 작별을 고하고, 당신과 당신의 친구들은 일생일대의 모험을 시작합니다.</Mousekin_Scenario_Settlers.scenario.parts.1.text>
 
 	<!-- EN: Mousekin Refugees -->
 	<Mousekin_Scenario_Refugees.label>마우스킨 피난민</Mousekin_Scenario_Refugees.label>
@@ -35,6 +35,6 @@
 	<Mousekin_Scenario_Refugees.scenario.description>당신의 고향 마을은 검은 고양이 민주주의 인민 공화국의 돌격대에 의해 파괴되었고 당신 중 다섯 명만이 탈출했습니다. 이제 새 집을 지을 때입니다.\n\n참고: 더 적은 수의 항목과 식량으로 시작하게 되므로 어려운 시나리오입니다.</Mousekin_Scenario_Refugees.scenario.description>
 
 	<!-- EN: The Grimalkins came in the night, just before supper.\n\nThe barrels of their rapid-fire muskets glinting eerily in the moonlight like their wicked grins, they smashed through the town walls with their mechanical beasts. The Guardeners and Knights fought a gallant but doomed battle so that the rest of the village could escape, but you could still hear the horrific cries and squeals behind you as the cats slaughtered your fathers, brothers and sons, raped your mothers, sisters and daughters, and feasted on the little, helpless pups.\n\nWith what few possessions you and a few others managed to grab, you find yourselves far from home, the village behind you engulfed in flames. You should set up camp here before deciding what to do next. -->
-	<Mousekin_Scenario_Refugees.scenario.parts.11.text>검은 고양이들은 밤에, 저녁 식사 직전에 왔습니다.\n\n그들의 사악한 미소처럼 달빛 아래에서 으스스하게 빛나는 그들의 속사 머스킷 총신은 기계 짐승들과 함께 벽을 무너뜨렸습니다. 호위병과 기사들은 마을의 나머지 사람들이 탈출할 수 있도록 용감하지만 불운한 전투를 벌였지만 고양이들이 당신의 아버지와 형제, 아들을 학살하고 어머니와 누이와 딸을 강간하고 모든 생쥐 아기를 산 채로 먹습니다. 다음에 무엇을 할지 결정하기 전에 여기에 캠프를 세워야 합니다.</Mousekin_Scenario_Refugees.scenario.parts.11.text>
+	<Mousekin_Scenario_Refugees.scenario.parts.1.text>검은 고양이들은 밤에, 저녁 식사 직전에 왔습니다.\n\n그들의 사악한 미소처럼 달빛 아래에서 으스스하게 빛나는 그들의 속사 머스킷 총신은 기계 짐승들과 함께 벽을 무너뜨렸습니다. 호위병과 기사들은 마을의 나머지 사람들이 탈출할 수 있도록 용감하지만 불운한 전투를 벌였지만 고양이들이 당신의 아버지와 형제, 아들을 학살하고 어머니와 누이와 딸을 강간하고 모든 생쥐 아기를 산 채로 먹습니다. 다음에 무엇을 할지 결정하기 전에 여기에 캠프를 세워야 합니다.</Mousekin_Scenario_Refugees.scenario.parts.1.text>
 	
 </LanguageData>
