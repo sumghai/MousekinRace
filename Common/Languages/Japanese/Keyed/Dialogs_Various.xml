@@ -49,6 +49,9 @@
 	<!-- EN: You will no longer receive quests and tribute collectors from {0} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>{0}からクエストと王室徴税官を受け取らなくなります</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
 	
+	<!-- EN: The following factions are enemies of {0}, and will become hostile to your faction:\n{1} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>以下の派閥は{0}の敵であり、あなたの派閥と敵対します:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
+	
 	<!-- EN: The following faction-exclusive items will be available for crafting: -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>以下の派閥限定アイテムを作ることができます:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
 	

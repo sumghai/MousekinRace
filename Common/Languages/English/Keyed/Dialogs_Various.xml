@@ -33,6 +33,8 @@
 	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>You will no longer receive quests and tribute collectors from {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
 	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>The following factions are enemies of {0}, and will become hostile to your faction:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
+	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>The following faction-exclusive items will be available for crafting:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
 	
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>Your faction will adopt the {0} ideoligion</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>

@@ -49,6 +49,9 @@
 	<!-- EN: You will no longer receive quests and tribute collectors from {0} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>您將不再收到來自{0}的任務和帝國徵募官</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
 	
+	<!-- EN: The following factions are enemies of {0}, and will become hostile to your faction:\n{1} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>以下派系是{0}的敵人，將與你的派系敵對:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
+	
 	<!-- EN: The following faction-exclusive items will be available for crafting: -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>您可以製作以下派系專屬物品:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
 	

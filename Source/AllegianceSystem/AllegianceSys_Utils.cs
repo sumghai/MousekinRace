@@ -252,6 +252,20 @@ namespace MousekinRace
                 descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString().Colorize(allegianceFaction.ideos.PrimaryIdeo.Color)) + "\n\n";
             }
 
+            List<Faction> enemiesOfAllegianceFaction = Find.FactionManager.AllFactionsVisible.Where(f => allegianceFaction.def.GetModExtension<AlliableFactionExtension>().hostileToFactionTypes.Contains(f.def)).ToList();
+            if (enemiesOfAllegianceFaction.Count > 0)
+            { 
+                TaggedString enemyFactionsListString = TaggedString.Empty;
+                foreach (Faction faction in enemiesOfAllegianceFaction)
+                {
+                    // faction.Name.Colorize(faction.Color) ensures we get the original faction color
+                    // (and not the automatic allied/hostile green/red overrides)
+                    enemyFactionsListString += "  - " + faction.Name.Colorize(faction.Color) + "\n";
+                }
+
+                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions".Translate(FactionNameWithDefiniteArticle(allegianceFaction.Name.Colorize(allegianceFaction.Color)), enemyFactionsListString) + "\n";
+            }
+
             if (ModsConfig.RoyaltyActive && Faction.OfEmpire != null)
             {
                 descBody += "- " + GenerateShatteredEmpireQuestsDisabledDesc();

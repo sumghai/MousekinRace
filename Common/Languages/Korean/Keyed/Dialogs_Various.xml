@@ -49,6 +49,9 @@
 	<!-- EN: You will no longer receive quests and tribute collectors from {0} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>더 이상 {0}로부터 퀘스트와 공물 수집가를 받지 못합니다</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
 	
+	<!-- EN: The following factions are enemies of {0}, and will become hostile to your faction:\n{1} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>다음 진영은 {0}의 적이며, 내 진영에 적대적인 진영이 됩니다:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
+	
 	<!-- EN: The following faction-exclusive items will be available for crafting: -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>다음 진영 전용 아이템을 제작할 수 있습니다:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
 	
