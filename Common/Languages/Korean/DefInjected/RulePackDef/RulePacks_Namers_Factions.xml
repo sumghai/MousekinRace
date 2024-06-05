@@ -21,6 +21,12 @@
 
 	<!-- EN: r_name->[PoliticalUnion] of Free Mousekins -->
 	<NamerFaction_MousekinIndyTown.rulePack.rulesStrings.1>r_name->마우스킨 공화국[PoliticalUnion]</NamerFaction_MousekinIndyTown.rulePack.rulesStrings.1>
+	
+	<!-- EN: r_name->[Region_Type] of [Place_Name] -->
+	<NamerFaction_MousekinPlayerKingdom.rulePack.rulesStrings.0>r_name->[PlaceName] [RegionType]</NamerFaction_MousekinPlayerKingdom.rulePack.rulesStrings.0>
+	
+	<!-- EN: r_name->[Region_Type] of [Place_Name] -->
+	<NamerFaction_MousekinPlayerIndyTown.rulePack.rulesStrings.0>r_name->[PlaceName] [RegionType]</NamerFaction_MousekinPlayerIndyTown.rulePack.rulesStrings.0>
 
 	<!-- EN: r_name->The [MousekinGangName] -->
 	<NamerFaction_MousekinBrigands.rulePack.rulesStrings.0>r_name->[MousekinGangName] 가다</NamerFaction_MousekinBrigands.rulePack.rulesStrings.0>

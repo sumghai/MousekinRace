@@ -51,6 +51,10 @@
 	
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} of {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
+	<MousekinRace_AllegianceSys_LeaderTitleFullName>{0} {1}</MousekinRace_AllegianceSys_LeaderTitleFullName>
+	
+	<MousekinRace_AllegianceSys_RenameFactionDialog_Message>{0} recommends that your faction be renamed to something more appropriate for a new {1}.\n\nWhat should your faction be called?</MousekinRace_AllegianceSys_RenameFactionDialog_Message>
+	
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>View pending colonists...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
 	
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>Pending new colonists</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>

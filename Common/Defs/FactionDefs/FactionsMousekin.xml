@@ -90,7 +90,7 @@
 		<allowedCultures>
 			<li>Mousekin_CultureKingdom</li>
 		</allowedCultures>
-		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<factionNameMaker>NamerFaction_MousekinPlayerKingdom</factionNameMaker>
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -547,6 +547,7 @@
 			<li Class="MousekinRace.AlliableFactionExtension">
 				<joinButtonLabel>Pledge fealty to The Mousekin King</joinButtonLabel>
 				<membershipTypeLabel>vassal</membershipTypeLabel>
+				<playerFactionNameMaker>NamerFaction_MousekinPlayerKingdom</playerFactionNameMaker>
 				<hostileToFactionTypes>
 					<li>Mousekin_FactionIndyTown</li>
 				</hostileToFactionTypes>
@@ -811,6 +812,7 @@
 				</joinRequirements>
 				<joinButtonLabel>Long Live the Revolution!</joinButtonLabel>
 				<membershipTypeLabel>member</membershipTypeLabel>
+				<playerFactionNameMaker>NamerFaction_MousekinPlayerIndyTown</playerFactionNameMaker>
 				<hostileToFactionTypes>
 					<li>Mousekin_FactionKingdom</li>
 				</hostileToFactionTypes>

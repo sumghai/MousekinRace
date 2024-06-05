@@ -421,6 +421,7 @@
     <Compile Include="DefModExtensions\TraitConflictResolverExtension.cs" />
     <Compile Include="UI\Dialog_AllegianceExtraInfo.cs" />
     <Compile Include="UI\Dialog_AllegianceQueuedNewColonists.cs" />
+    <Compile Include="UI\Dialog_AllegianceRenamePlayerFaction.cs" />
     <Compile Include="UI\MainButtonWorker_Allegiance.cs" />
     <Compile Include="UI\MainTabWindow_Allegiance.cs" />
     <Compile Include="UI\Page_IdeoFixedByScenario.cs" />

@@ -76,6 +76,12 @@
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1} {0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
+	<!-- EN: {0} {1} ([faction leader title] [faction leader full name]) -->
+	<MousekinRace_AllegianceSys_LeaderTitleFullName>{1}{0}</MousekinRace_AllegianceSys_LeaderTitleFullName>
+	
+	<!-- EN: {0} recommends that your faction be renamed to something more appropriate for a new {1}.\n\nWhat should your faction be called? -->
+	<MousekinRace_AllegianceSys_RenameFactionDialog_Message>{0}는 진영의 이름을 새로운 {1}에 더 적합한 이름으로 변경할 것을 권장합니다.\n\n어떤 이름이 좋을까요?</MousekinRace_AllegianceSys_RenameFactionDialog_Message>
+	
 	<!-- EN: View pending colonists... -->
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>이동 중인 새 식민지 주민 보기...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
 	

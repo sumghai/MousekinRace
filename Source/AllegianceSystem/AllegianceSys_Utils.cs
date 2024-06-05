@@ -123,6 +123,9 @@ namespace MousekinRace
 
             // Schedule the first random trade caravan from the chosen faction
             GameComponent_Allegiance.Instance.SetNextRandTraderTick();
+
+            // Recommend renaming the player faction
+            Find.WindowStack.Add(new Dialog_AllegianceRenamePlayerFaction());
         }
 
         public static bool IsEnemyBecauseOfAllegiance(Faction a, Faction b)

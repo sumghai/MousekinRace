@@ -14,6 +14,8 @@ namespace MousekinRace
         [MustTranslate]
         public string membershipTypeLabel;
 
+        public RulePackDef playerFactionNameMaker = null;
+
         public List<FactionDef> hostileToFactionTypes = new();
 
         public GraphicData flagGraphicData = null;
