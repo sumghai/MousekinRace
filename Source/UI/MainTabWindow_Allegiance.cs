@@ -145,7 +145,8 @@ namespace MousekinRace
             // Draw the actual faction option
             for (int i = 0; i < numColumns; i++) 
             {
-                AlliableFactionExtension currentFactionExtension = factionOptions[i].def.GetModExtension<AlliableFactionExtension>();
+                Faction factionOption = factionOptions[i];
+                AlliableFactionExtension currentFactionExtension = factionOption.def.GetModExtension<AlliableFactionExtension>();
                 
                 Rect factionChoiceRect = new Rect(i * (columnWidth + columnSpacing), y, columnWidth, rect.height - y);
                 Widgets.DrawMenuSection(factionChoiceRect);
@@ -158,23 +159,23 @@ namespace MousekinRace
 
                 innerY += 30f;
                 Rect bigFactionIconRect = new Rect((innerRect.width - bigFactionIconSize) / 2 + innerRect.xMin, innerY, bigFactionIconSize, bigFactionIconSize);
-                GUI.color = factionOptions[i].Color;
-                GUI.DrawTexture(bigFactionIconRect, factionOptions[i].def.FactionIcon);
+                GUI.color = factionOption.Color;
+                GUI.DrawTexture(bigFactionIconRect, factionOption.def.FactionIcon);
                 GUI.color = Color.white;
                 innerY += bigFactionIconSize;
 
                 Text.Font = GameFont.Medium;
-                Widgets.Label(new Rect(innerRect.xMin, innerY, innerRect.width, Text.CalcHeight(factionOptions[i].Name, innerRect.width)), factionOptions[i].Name);
-                innerY += Text.CalcHeight(factionOptions[i].Name, innerRect.width);
+                Widgets.Label(new Rect(innerRect.xMin, innerY, innerRect.width, Text.CalcHeight(factionOption.Name, innerRect.width)), factionOption.Name);
+                innerY += Text.CalcHeight(factionOption.Name, innerRect.width);
 
                 Text.Font = GameFont.Small;
-                Widgets.Label(new Rect(innerRect.xMin, innerY, innerRect.width, Text.CalcHeight(factionOptions[i].def.LabelCap, innerRect.width)), factionOptions[i].def.LabelCap);
-                innerY += Text.CalcHeight(factionOptions[i].def.LabelCap, innerRect.width);
+                Widgets.Label(new Rect(innerRect.xMin, innerY, innerRect.width, Text.CalcHeight(factionOption.def.LabelCap, innerRect.width)), factionOption.def.LabelCap);
+                innerY += Text.CalcHeight(factionOption.def.LabelCap, innerRect.width);
 
                 innerY += StandardMargin;
 
                 // Faction short description (first paragraph of full description)
-                string factionShortDesc = factionOptions[i].def.Description.Substring(0, factionOptions[i].def.Description.IndexOf("\n"));
+                string factionShortDesc = factionOption.def.Description.Substring(0, factionOption.def.Description.IndexOf("\n"));
                 Widgets.Label(new Rect(innerRect.xMin, innerY, innerRect.width, factionDescHeight), factionShortDesc);
                 innerY += factionDescHeight;
 
@@ -195,7 +196,7 @@ namespace MousekinRace
 
                 DrawJoiningRequirementRow(innerRect, ref innerY, "MousekinRace_AllegianceSys_ReqMinMousekinPopPct".Translate(currentFactionExtension.joinRequirements.minMousekinPopulationPercentage.ToStringPercent()), Utils.PercentColonistsAreMousekins().ToStringPercent(), Utils.PercentColonistsAreMousekins() >= currentFactionExtension.joinRequirements.minMousekinPopulationPercentage);
 
-                DrawJoiningRequirementRow(innerRect, ref innerY, "MousekinRace_AllegianceSys_ReqMinGoodwill".Translate(currentFactionExtension.joinRequirements.minGoodwill), factionOptions[i].PlayerGoodwill.ToString(), factionOptions[i].PlayerGoodwill >= currentFactionExtension.joinRequirements.minGoodwill);
+                DrawJoiningRequirementRow(innerRect, ref innerY, "MousekinRace_AllegianceSys_ReqMinGoodwill".Translate(currentFactionExtension.joinRequirements.minGoodwill), factionOption.PlayerGoodwill.ToString(), factionOption.PlayerGoodwill >= currentFactionExtension.joinRequirements.minGoodwill);
 
                 innerY += StandardMargin;
 
@@ -204,12 +205,12 @@ namespace MousekinRace
                 if (Widgets.ButtonText(new Rect(innerRect.xMin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Benefits".Translate())))
                 {
                     SoundDefOf.Click.PlayOneShotOnCamera();
-                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Benefits".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOptions[i], true)), AllegianceSys_Utils.GenerateBenefitsDesc(factionOptions[i]), currentFactionExtension.factionRestrictedCraftableThingDefs));
+                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Benefits".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOption, true)), AllegianceSys_Utils.GenerateBenefitsDesc(factionOption), currentFactionExtension.factionRestrictedCraftableThingDefs));
                 }
                 if (Widgets.ButtonText(new Rect(innerRect.xMin + infoButtonsWidth + StandardMargin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Costs".Translate())))
                 {
                     SoundDefOf.Click.PlayOneShotOnCamera();
-                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Costs".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOptions[i], true)), AllegianceSys_Utils.GenerateCostsDesc(factionOptions[i])));
+                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Costs".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOption, true)), AllegianceSys_Utils.GenerateCostsDesc(factionOption)));
                 }
 
                 innerY += buttonHeight;
@@ -218,7 +219,7 @@ namespace MousekinRace
                 // Conditional info box if join requirements are not met
                 bool joinRequirementsMet = GenDate.DaysPassedSinceSettle >= currentFactionExtension.joinRequirements.minDaysPassedSinceSettle
                     && Utils.PercentColonistsAreMousekins() >= currentFactionExtension.joinRequirements.minMousekinPopulationPercentage
-                    && factionOptions[i].PlayerGoodwill >= currentFactionExtension.joinRequirements.minGoodwill;
+                    && factionOption.PlayerGoodwill >= currentFactionExtension.joinRequirements.minGoodwill;
 
                 if (!joinRequirementsMet)
                 {
@@ -234,12 +235,17 @@ namespace MousekinRace
                     if (Widgets.ButtonText(new Rect(innerRect.xMin, innerRect.yMax - buttonHeight * 2 - StandardMargin, 150f, buttonHeight), "DEV: +10 Goodwill"))
                     {
                         SoundDefOf.Click.PlayOneShotOnCamera();
-                        factionOptions[i].TryAffectGoodwillWith(Faction.OfPlayer, 10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
+                        factionOption.TryAffectGoodwillWith(Faction.OfPlayer, 10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
                     }
                     if (Widgets.ButtonText(new Rect(innerRect.xMin + 150f + StandardMargin, innerRect.yMax - buttonHeight * 2 - StandardMargin, 150f, buttonHeight), "DEV: -10 Goodwill"))
                     {
                         SoundDefOf.Click.PlayOneShotOnCamera();
-                        factionOptions[i].TryAffectGoodwillWith(Faction.OfPlayer, -10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
+                        factionOption.TryAffectGoodwillWith(Faction.OfPlayer, -10, canSendMessage: true, canSendHostilityLetter: true, HistoryEventDefOf.DebugGoodwill);
+                    }
+                    if (Widgets.ButtonText(new Rect(innerRect.xMin + (150f + StandardMargin) * 2, innerRect.yMax - buttonHeight * 2 - StandardMargin, 100f, buttonHeight), "DEV: Join"))
+                    {
+                        SoundDefOf.Click.PlayOneShotOnCamera();
+                        AllegianceSys_Utils.JoinFaction(factionOption);
                     }
                 }
 
@@ -254,10 +260,10 @@ namespace MousekinRace
                     SoundDefOf.Click.PlayOneShotOnCamera();
                     if (joinRequirementsMet)
                     {
-                        Faction targetFaction = factionOptions[i];
-                        TaggedString targetFactionNameRendered = targetFaction.Name.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? targetFaction.Name.Colorize(targetFaction.Color) : "DefiniteArticle".Translate() + " " + targetFaction.Name.Colorize(targetFaction.Color);
+                        
+                        TaggedString targetFactionNameRendered = factionOption.Name.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? factionOption.Name.Colorize(factionOption.Color) : "DefiniteArticle".Translate() + " " + factionOption.Name.Colorize(factionOption.Color);
 
-                        List<Tuple<Pawn, string>> quittingColonists = AllegianceSys_Utils.GetQuittingColonistsWithReasons(targetFaction);
+                        List<Tuple<Pawn, string>> quittingColonists = AllegianceSys_Utils.GetQuittingColonistsWithReasons(factionOption);
 
                         Find.TickManager.Pause();
 
@@ -268,12 +274,12 @@ namespace MousekinRace
 
                         Find.WindowStack.Add(Dialog_MessageBox.CreateConfirmation(joinConfirmationMsg, delegate
                         {
-                            AllegianceSys_Utils.JoinFaction(targetFaction);
+                            AllegianceSys_Utils.JoinFaction(factionOption);
                         }));
                     }
                     else
                     {
-                        Messages.Message("MousekinRace_MessageCannotJoinFaction".Translate(factionOptions[i].Name), MessageTypeDefOf.RejectInput, false);
+                        Messages.Message("MousekinRace_MessageCannotJoinFaction".Translate(factionOption.Name), MessageTypeDefOf.RejectInput, false);
                     }
                 }
                 GUI.color = orgColor;
