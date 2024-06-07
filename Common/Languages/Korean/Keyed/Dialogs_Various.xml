@@ -85,6 +85,51 @@
 	<!-- EN: {0} recommends that your faction be renamed to something more appropriate for a new {1}.\n\nWhat should your faction be called? -->
 	<MousekinRace_AllegianceSys_RenameFactionDialog_Message>{0}는 진영의 이름을 새로운 {1}에 더 적합한 이름으로 변경할 것을 권장합니다.\n\n어떤 이름이 좋을까요?</MousekinRace_AllegianceSys_RenameFactionDialog_Message>
 	
+	<!-- EN: General -->
+	<MousekinRace_AllegianceSys_Overview_GeneralCatHeading>일반</MousekinRace_AllegianceSys_Overview_GeneralCatHeading>
+	
+	<!-- EN: Date allegiance pledged -->
+	<MousekinRace_AllegianceSys_Overview_GeneralJoinDate>날짜 충성 서약</MousekinRace_AllegianceSys_Overview_GeneralJoinDate>
+	
+	<!-- EN: Time as {0} -->
+	<MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>{0}으로서의 시간</MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>
+	
+	<!-- EN: Demographics -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>인구 통계</MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>
+	
+	<!-- EN: Population -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsPopulation>인구</MousekinRace_AllegianceSys_Overview_DemographicsPopulation>
+	
+	<!-- EN: Non-Mousekin rodentkinds -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>마우스킨이 아닌 설치류</MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>
+	
+	<!-- EN: Other -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsOther>기타</MousekinRace_AllegianceSys_Overview_DemographicsOther>
+	
+	<!-- EN: Races -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsRaces>종류</MousekinRace_AllegianceSys_Overview_DemographicsRaces>
+	
+	<!-- EN: Ages -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsAges>나이</MousekinRace_AllegianceSys_Overview_DemographicsAges>
+	
+	<!-- EN: Religious Affinities -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>종교적 친화성</MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>
+	
+	<!-- EN: Statistics -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>통계</MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>
+	
+	<!-- EN: New settlers invited -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>신규 정착민 초대</MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>
+	
+	<!-- EN: Visits by random caravan traders -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>무작위 캐러밴 상인의 방문</MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>
+	
+	<!-- EN: Visits by requested caravan traders -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>요청된 캐러밴 상인의 방문</MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>
+	
+	<!-- EN: Military aid requested -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>군사 지원 요청</MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>
+	
 	<!-- EN: View pending colonists... -->
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>이동 중인 새 식민지 주민 보기...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
 	

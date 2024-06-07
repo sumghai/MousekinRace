@@ -27,6 +27,8 @@ namespace MousekinRace
 
         public Faction alignedFaction = null;
 
+        public int allegiancePledgedTick;
+
         public float availableSilver;
 
         public List<RecruitedPawnGroup> recruitedColonistsQueue = new();
@@ -42,6 +44,32 @@ namespace MousekinRace
         public int militaryAidArrivalTick = -99999;
 
         public TraderKindDef nextRequestedTraderKind = null;
+
+        public int histDemographicsPopulationTotal = 0;
+
+        public int histDemographicsPopulationMousekin = 0;
+
+        public int histDemographicsPopulationNonMousekinRodentkinds = 0;
+
+        public int histDemographicsPopulationOther = 0;
+
+        public int histDemographicsPopulationAgeAdults = 0;
+
+        public int histDemographicsPopulationAgeChildren = 0;
+
+        public int histDemographicsPopulationAgeBabies = 0;
+
+        public int histDemographicsPopulationWithReligiousAffinity = 0;
+
+        public List<ReligiousAffinityPawnCount> histDemographicsPopulationReligiousAffinity = new();
+
+        public int histNewColonistsInvited = 0;
+
+        public int histVisitsFromRandTraders = 0;
+
+        public int histVisitsFromRequestedTraders = 0;
+
+        public int histMilitaryAidRequested = 0;
 
         public const int daysUntilNextRequestedCaravanTraderAllowed = GenDate.TicksPerSeason;
 
@@ -85,6 +113,7 @@ namespace MousekinRace
             if (HasDeclaredAllegiance) 
             {
                 AllegianceSys_Utils.SyncRelationsWithAllegianceFaction(alignedFaction);
+                AllegianceSys_Utils.RecacheDemographicsData();
             }
         }
 
@@ -171,6 +200,7 @@ namespace MousekinRace
         {
             AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction();
             SetNextRandTraderTick();
+            histVisitsFromRandTraders++;
         }
 
         public void SetNextRequestedTraderKind(TraderKindDef traderKind)
@@ -198,11 +228,13 @@ namespace MousekinRace
             AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction(nextRequestedTraderKind);
             nextRequestedTraderKind = null;
             nextRequestedTraderTick = -99999;
+            histVisitsFromRequestedTraders++;
         }
 
         public void SetMilitaryAidArrivalTick()
         { 
             militaryAidArrivalTick = Find.TickManager.TicksGame + militaryAidDelayTicks;
+            histMilitaryAidRequested++;
         }
 
         public void SpawnMilitaryAid()
@@ -218,6 +250,7 @@ namespace MousekinRace
             Scribe_Values.Look(ref seenAllegianceSysIntroLetter, "seenAllegianceSysIntroLetter", false, true);
             Scribe_Values.Look(ref anyColonistsWithShatteredEmpireTitle, "anyColonistsWithShatteredEmpireTitle");
             Scribe_References.Look(ref alignedFaction, "alignedFaction");
+            Scribe_Values.Look(ref allegiancePledgedTick, "allegiancePledgedTick");
             Scribe_Collections.Look(ref recruitedColonistsQueue, "recruitedColonistsQueue");
             Scribe_Values.Look(ref nextNewColonistArrivalTick, "nextNewColonistArrivalTick", 0, true);
             Scribe_Values.Look(ref nextRandTraderTick, "nextRandTraderTick", 0, true);
@@ -225,6 +258,11 @@ namespace MousekinRace
             Scribe_Values.Look(ref nextRequestedTraderCooldownTick, "nextRequestedTraderCooldownTick", 0, true);
             Scribe_Defs.Look(ref nextRequestedTraderKind, "nextRequestedTraderKind");
             Scribe_Values.Look(ref militaryAidArrivalTick, "militaryAidArrivalTick", 0, true);
+            // Historical data for overview page
+            Scribe_Values.Look(ref histNewColonistsInvited, "histNewColonistsInvited");
+            Scribe_Values.Look(ref histVisitsFromRandTraders, "histVisitsFromRandTraders");
+            Scribe_Values.Look(ref histVisitsFromRequestedTraders, "histVisitsFromRequestedTraders");
+            Scribe_Values.Look(ref histMilitaryAidRequested, "histMilitaryAidRequested");
 
             if (Scribe.mode == LoadSaveMode.PostLoadInit && recruitedColonistsQueue == null)
             {
@@ -253,6 +291,24 @@ namespace MousekinRace
         {
             Scribe_Collections.Look(ref pawns, "pawns", LookMode.Reference);
             Scribe_Values.Look(ref spawnTick, "spawnTick");
+        }
+    }
+
+    public class ReligiousAffinityPawnCount 
+    {
+        public int degree;
+        public int pawnsWithTrait = 0;
+        public TaggedString affinityLabel;
+
+        public ReligiousAffinityPawnCount() 
+        {
+        }
+
+        public ReligiousAffinityPawnCount(int degree, int pawnsWithTrait, TaggedString affinityLabel)
+        {
+            this.degree = degree;
+            this.pawnsWithTrait = pawnsWithTrait;
+            this.affinityLabel = affinityLabel;
         }
     }
 }

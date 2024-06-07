@@ -85,6 +85,51 @@
 	<!-- EN: {0} recommends that your faction be renamed to something more appropriate for a new {1}.\n\nWhat should your faction be called? -->
 	<MousekinRace_AllegianceSys_RenameFactionDialog_Message>{0}殿は、あなたの派閥を{1}にふさわしいものに改名するよう勧告します.\n\nあなたの派閥を何と呼べば良いですか?</MousekinRace_AllegianceSys_RenameFactionDialog_Message>
 	
+	<!-- EN: General -->
+	<MousekinRace_AllegianceSys_Overview_GeneralCatHeading>一般</MousekinRace_AllegianceSys_Overview_GeneralCatHeading>
+	
+	<!-- EN: Date allegiance pledged -->
+	<MousekinRace_AllegianceSys_Overview_GeneralJoinDate>忠誠誓約日</MousekinRace_AllegianceSys_Overview_GeneralJoinDate>
+	
+	<!-- EN: Time as {0} -->
+	<MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>{0}としての期間</MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>
+	
+	<!-- EN: Demographics -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>人口統計</MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>
+	
+	<!-- EN: Population -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsPopulation>人口</MousekinRace_AllegianceSys_Overview_DemographicsPopulation>
+	
+	<!-- EN: Non-Mousekin rodentkinds -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>非マウスキンの齧歯類</MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>
+	
+	<!-- EN: Other -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsOther>その他</MousekinRace_AllegianceSys_Overview_DemographicsOther>
+	
+	<!-- EN: Races -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsRaces>種族</MousekinRace_AllegianceSys_Overview_DemographicsRaces>
+	
+	<!-- EN: Ages -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsAges>年齢層</MousekinRace_AllegianceSys_Overview_DemographicsAges>
+	
+	<!-- EN: Religious Affinities -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>宗教の信念</MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>
+	
+	<!-- EN: Statistics -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>統計</MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>
+	
+	<!-- EN: New settlers invited -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>新規入植者数</MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>
+	
+	<!-- EN: Visits by random caravan traders -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>ランダムなキャラバン商人の訪問回数</MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>
+	
+	<!-- EN: Visits by requested caravan traders -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>特定のキャラバン商人の訪問回数</MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>
+	
+	<!-- EN: Military aid requested -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>軍事援助の要請回数</MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>
+	
 	<!-- EN: View pending colonists... -->
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>新しい入植者を見る...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
 	

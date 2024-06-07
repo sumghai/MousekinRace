@@ -121,11 +121,46 @@ namespace MousekinRace
             // Remove any workbench bills for items disallowed by faction allegiance/restriction
             AllegianceSys_Utils.ResetFactionRestrictedCraftingBills();
 
+            // Record the in-game date/time when allegiance was pledged
+            GameComponent_Allegiance.Instance.allegiancePledgedTick = Find.TickManager.TicksAbs;
+
             // Schedule the first random trade caravan from the chosen faction
             GameComponent_Allegiance.Instance.SetNextRandTraderTick();
 
             // Recommend renaming the player faction
             Find.WindowStack.Add(new Dialog_AllegianceRenamePlayerFaction());
+        }
+
+        public static void RecacheDemographicsData()
+        {
+            GameComponent_Allegiance gameComponent = GameComponent_Allegiance.Instance;
+            List<Pawn> colonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+            OtherRodentRacesExtension otherRodentRaces = MousekinDefOf.Mousekin.GetModExtension<OtherRodentRacesExtension>();
+            List<AlienRace.ThingDef_AlienRace> differentRodentRaces = otherRodentRaces.differentRodentRaces;
+            List<AlienRace.ThingDef_AlienRace> hostileRodentRaces = otherRodentRaces.hostileRodentRaces;
+            gameComponent.histDemographicsPopulationTotal = colonists.Count;
+            gameComponent.histDemographicsPopulationMousekin = colonists.Where(p => p.IsMousekin()).Count();
+            gameComponent.histDemographicsPopulationNonMousekinRodentkinds = colonists.Where(p => differentRodentRaces.Contains(p.def) || hostileRodentRaces.Contains(p.def)).Count();
+            gameComponent.histDemographicsPopulationOther = gameComponent.histDemographicsPopulationTotal - (gameComponent.histDemographicsPopulationMousekin + gameComponent.histDemographicsPopulationNonMousekinRodentkinds);
+
+            gameComponent.histDemographicsPopulationAgeAdults = colonists.Where(p => p.DevelopmentalStage == DevelopmentalStage.Adult).Count();
+            gameComponent.histDemographicsPopulationAgeChildren = colonists.Where(p => p.DevelopmentalStage == DevelopmentalStage.Child).Count();
+            gameComponent.histDemographicsPopulationAgeBabies = colonists.Where(p => p.DevelopmentalStage == DevelopmentalStage.Baby || p.DevelopmentalStage == DevelopmentalStage.Newborn).Count();
+
+            gameComponent.histDemographicsPopulationReligiousAffinity.Clear();
+            foreach (TraitDegreeData traitDegreeData in MousekinDefOf.Mousekin_TraitSpectrum_Faith.degreeDatas)
+            {
+                gameComponent.histDemographicsPopulationReligiousAffinity.Add(new ReligiousAffinityPawnCount(traitDegreeData.degree, 0, traitDegreeData.LabelCap));
+            }
+            List<Pawn> colonistsWithReligiousAffinities = colonists.Where(p => p.story.traits.HasTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith)).ToList();
+            gameComponent.histDemographicsPopulationWithReligiousAffinity = colonistsWithReligiousAffinities.Count();
+            foreach (Pawn colonist in colonistsWithReligiousAffinities)
+            {
+                int traitDegree = colonist.story.traits.GetTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith).Degree;
+                gameComponent.histDemographicsPopulationReligiousAffinity.Find(x => x.degree == traitDegree).pawnsWithTrait++;
+            }
+            int pawnsWithUnknownReligiousAffinity = colonists.Count - colonistsWithReligiousAffinities.Count;
+            gameComponent.histDemographicsPopulationReligiousAffinity.Add(new ReligiousAffinityPawnCount(-99999, pawnsWithUnknownReligiousAffinity, "UnknownLower".Translate().CapitalizeFirst()));
         }
 
         public static bool IsEnemyBecauseOfAllegiance(Faction a, Faction b)
@@ -508,6 +543,9 @@ namespace MousekinRace
 
             // Notify the player
             Messages.Message("MousekinRace_MessageNewColonistsWillArrive".Translate(pawnsToRecruit.Count(), "PeriodDays".Translate(GameComponent_Allegiance.requestArrivalDelayDays)), MessageTypeDefOf.PositiveEvent, false);
+
+            // Increment historical stats
+            GameComponent_Allegiance.Instance.histNewColonistsInvited += pawnsToRecruit.Count();
         }
 
         public static void SpawnNewColonists(List<Pawn> newColonistPawns)

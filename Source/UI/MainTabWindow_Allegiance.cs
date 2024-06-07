@@ -38,6 +38,8 @@ namespace MousekinRace
 
         public Vector2 scrollPosition = Vector2.zero;
 
+        public static float overviewListHeight;
+
         public override Vector2 RequestedTabSize
         {
             get
@@ -68,6 +70,12 @@ namespace MousekinRace
                     DrawFactionChooser(inRect, ref y);
                 }
             }            
+        }
+
+        public override void PreOpen()
+        {
+            base.PreOpen();
+            AllegianceSys_Utils.RecacheDemographicsData();
         }
 
         public override void PostClose()
@@ -342,10 +350,16 @@ namespace MousekinRace
                 selectedPageTag = option.pageTag;
                 SoundDefOf.Click.PlayOneShotOnCamera();
 
-                // Update available silver every time we switch to the Invite Settlers page
-                if (selectedPageTag == PageTag.AllegianceSys_Recruit) 
-                { 
-                    GameComponent_Allegiance.Instance.RecacheAvailableSilver();
+                switch (selectedPageTag)
+                {
+                    // Update colony pawn demographics data every time we switch to the Overview page
+                    case PageTag.AllegianceSys_Overview:
+                        AllegianceSys_Utils.RecacheDemographicsData();
+                        break;
+                    // Update available silver every time we switch to the Invite Settlers page
+                    case PageTag.AllegianceSys_Recruit:
+                        GameComponent_Allegiance.Instance.RecacheAvailableSilver();
+                        break;
                 }
             }
             Widgets.Label(r, option.buttonLabel);
@@ -358,6 +372,9 @@ namespace MousekinRace
 
             switch (pageTag)
             {
+                case PageTag.AllegianceSys_Overview:
+                    DrawPageOverview(innerRect);
+                    break;
                 case PageTag.AllegianceSys_Benefits:
                     DrawPageBenefits(innerRect); 
                     break;
@@ -377,6 +394,94 @@ namespace MousekinRace
                     Widgets.Label(innerRect, pageTag.ToStringSafe());
                     break;
             }            
+        }
+
+        public void DrawPageOverview(Rect r)
+        {
+            GameComponent_Allegiance gameComponent = GameComponent_Allegiance.Instance;           
+            AlliableFactionExtension factionExtension = gameComponent.alignedFaction.def.GetModExtension<AlliableFactionExtension>();
+
+            // Update demographics data every x period, and only when the current (Overview) page is open
+            if (GenTicks.TicksGame % (GenTicks.TicksPerRealSecond * 5) == 0)
+            {
+                AllegianceSys_Utils.RecacheDemographicsData();
+            }
+
+            Rect scrollableAreaRect = new Rect(r);
+
+            float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
+            Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, overviewListHeight);
+
+            Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
+            float curY = 0f;
+
+            // --- General ---
+            Widgets.ListSeparator(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_GeneralCatHeading".Translate());
+
+            Vector2 location = ((Find.CurrentMap != null) ? Find.WorldGrid.LongLatOf(Find.CurrentMap.Tile) : default);
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_GeneralJoinDate".Translate(), GenDate.DateReadoutStringAt(gameComponent.allegiancePledgedTick, location));
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember".Translate(factionExtension.membershipTypeLabel), (Find.TickManager.TicksAbs - gameComponent.allegiancePledgedTick).ToStringTicksToPeriod());
+
+            // --- Demographics ---
+            Widgets.ListSeparator(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_DemographicsCatHeading".Translate());
+
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_DemographicsPopulation".Translate(), gameComponent.histDemographicsPopulationTotal.ToString());
+            List<(TaggedString label, float valuePct)> raceDemographicsData = new List<(TaggedString label, float valuePct)>
+            {
+                (label: MousekinDefOf.Mousekin.LabelCap, valuePct: (float) gameComponent.histDemographicsPopulationMousekin / gameComponent.histDemographicsPopulationTotal),
+                (label: "MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents".Translate(), valuePct: (float) gameComponent.histDemographicsPopulationNonMousekinRodentkinds / gameComponent.histDemographicsPopulationTotal),
+                (label: "MousekinRace_AllegianceSys_Overview_DemographicsOther".Translate(), valuePct: (float) gameComponent.histDemographicsPopulationOther / gameComponent.histDemographicsPopulationTotal)
+            };
+            TaggedString raceDemographicDataOutput = TaggedString.Empty;
+            foreach ((TaggedString label, float valuePct) in raceDemographicsData)
+            {
+                if (valuePct > 0) 
+                {
+                    raceDemographicDataOutput += valuePct.ToStringPercent("0.0") + " " + label + "\n";
+                }
+            }
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_DemographicsRaces".Translate(), raceDemographicDataOutput.Trim());
+            if (ModsConfig.BiotechActive)
+            {
+                List<(TaggedString label, float valuePct)> ageDemographicsData = new List<(TaggedString label, float valuePct)>
+                {
+                    (label: "Adults".Translate().CapitalizeFirst(), valuePct: (float) gameComponent.histDemographicsPopulationAgeAdults / gameComponent.histDemographicsPopulationTotal),
+                    (label: "Children".Translate().CapitalizeFirst(), valuePct: (float) gameComponent.histDemographicsPopulationAgeChildren / gameComponent.histDemographicsPopulationTotal),
+                    (label: "Babies".Translate().CapitalizeFirst(), valuePct: (float) gameComponent.histDemographicsPopulationAgeBabies / gameComponent.histDemographicsPopulationTotal)
+                };
+                TaggedString ageDemographicDataOutput = TaggedString.Empty;
+                foreach ((TaggedString label, float valuePct) in ageDemographicsData)
+                {
+                    if (valuePct > 0)
+                    {
+                        ageDemographicDataOutput += valuePct.ToStringPercent("0.0") + " " + label + "\n";
+                    }
+                }
+                DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_DemographicsAges".Translate(), ageDemographicDataOutput.Trim());
+            }
+            
+            TaggedString religiousAffinityDemographicDataOutput = TaggedString.Empty;
+            foreach (ReligiousAffinityPawnCount religiousAffinityPawnCount in gameComponent.histDemographicsPopulationReligiousAffinity)
+            {
+                if (religiousAffinityPawnCount.pawnsWithTrait > 0)
+                {
+                    float currentAffinityPct = (float) religiousAffinityPawnCount.pawnsWithTrait / gameComponent.histDemographicsPopulationTotal;
+                    religiousAffinityDemographicDataOutput += currentAffinityPct.ToStringPercent("0.0") + " " + religiousAffinityPawnCount.affinityLabel + "\n";
+                }
+            }
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity".Translate(), religiousAffinityDemographicDataOutput.Trim());
+
+            // --- Statistics ---
+            Widgets.ListSeparator(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_StatisticsCatHeading".Translate());
+
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited".Translate(), gameComponent.histNewColonistsInvited.ToString());
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits".Translate(), gameComponent.histVisitsFromRandTraders.ToString());
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits".Translate(), gameComponent.histVisitsFromRequestedTraders.ToString());
+            DrawOverviewStatListing(ref curY, scrollableContentsWidth, "MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid".Translate(), gameComponent.histMilitaryAidRequested.ToString());
+
+            overviewListHeight = curY;
+
+            Widgets.EndScrollView();
         }
 
         public void DrawPageBenefits(Rect r)
@@ -820,6 +925,17 @@ namespace MousekinRace
             GUI.color = orgColor;
 
             listingStandard.End();
+        }
+
+        public void DrawOverviewStatListing(ref float curY, float width, TaggedString label, TaggedString content) 
+        {
+            float contentColWidth = width * 0.66f;
+            float rowIndent = 8f;
+            Rect entryLabelRect = new Rect(rowIndent, curY, width - rowIndent - contentColWidth, Text.CalcHeight(content, contentColWidth));
+            Widgets.Label(entryLabelRect, label + ":");
+            Rect entryContentRect = new Rect(entryLabelRect.xMax, curY, contentColWidth, entryLabelRect.height);
+            Widgets.Label(entryContentRect, content);
+            curY += entryLabelRect.height;
         }
 
         public enum PageTag 

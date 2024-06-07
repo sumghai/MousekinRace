@@ -85,6 +85,51 @@
 	<!-- EN: {0} recommends that your faction be renamed to something more appropriate for a new {1}.\n\nWhat should your faction be called? -->
 	<MousekinRace_AllegianceSys_RenameFactionDialog_Message>{0}建議你的派系改名為更適合一個新的{1}的名字。\n\n該取什麼好呢?</MousekinRace_AllegianceSys_RenameFactionDialog_Message>
 	
+	<!-- EN: General -->
+	<MousekinRace_AllegianceSys_Overview_GeneralCatHeading>概觀</MousekinRace_AllegianceSys_Overview_GeneralCatHeading>
+	
+	<!-- EN: Date allegiance pledged -->
+	<MousekinRace_AllegianceSys_Overview_GeneralJoinDate>效忠日期</MousekinRace_AllegianceSys_Overview_GeneralJoinDate>
+	
+	<!-- EN: Time as {0} -->
+	<MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>作為{0}的時間</MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>
+	
+	<!-- EN: Demographics -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>人口統計</MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>
+	
+	<!-- EN: Population -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsPopulation>人口</MousekinRace_AllegianceSys_Overview_DemographicsPopulation>
+	
+	<!-- EN: Non-Mousekin rodentkinds -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>非白鼠鼠族</MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>
+	
+	<!-- EN: Other -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsOther>其他</MousekinRace_AllegianceSys_Overview_DemographicsOther>
+	
+	<!-- EN: Races -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsRaces>種族</MousekinRace_AllegianceSys_Overview_DemographicsRaces>
+	
+	<!-- EN: Ages -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsAges>年齡</MousekinRace_AllegianceSys_Overview_DemographicsAges>
+	
+	<!-- EN: Religious Affinities -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>宗教信仰</MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>
+	
+	<!-- EN: Statistics -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>統計</MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>
+	
+	<!-- EN: New settlers invited -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>受邀新殖民者計數</MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>
+	
+	<!-- EN: Visits by random caravan traders -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>隨機交易旅隊來訪次數</MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>
+	
+	<!-- EN: Visits by requested caravan traders -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>受邀交易旅隊來訪次數</MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>
+	
+	<!-- EN: Military aid requested -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>軍事援助請求次數</MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>
+	
 	<!-- EN: View pending colonists... -->
 	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>查看在路上的新殖民者...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
 	

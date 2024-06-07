@@ -6,15 +6,15 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class Utils
+    public static class Utils
     {
         // Determine whether a given pawn or pawnKindDef is a Mousekin
-        public static bool IsMousekin(Pawn pawn)
+        public static bool IsMousekin(this Pawn pawn)
         {
             return pawn.def.Equals(MousekinDefOf.Mousekin);
         }
 
-        public static bool IsMousekin(PawnKindDef pawnKindDef)
+        public static bool IsMousekin(this PawnKindDef pawnKindDef)
         {
             return (pawnKindDef != null) ? pawnKindDef.race.Equals(MousekinDefOf.Mousekin) : false;
         }
