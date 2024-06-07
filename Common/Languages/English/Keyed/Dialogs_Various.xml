@@ -119,6 +119,18 @@
 	
 	<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>Are you sure you want to request military aid?\n\nIt will arrive in {0}.</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
 	
+	<MousekinRace_AllegianceSys_Log_JoinedFaction>Pledged allegaince to {0}</MousekinRace_AllegianceSys_Log_JoinedFaction>
+	
+	<MousekinRace_AllegianceSys_Log_NewColonists>Invited new settlers: {0}</MousekinRace_AllegianceSys_Log_NewColonists>
+	
+	<MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix> with family</MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>
+	
+	<MousekinRace_AllegianceSys_Log_RandTraderArrival>Random caravan trader arrived</MousekinRace_AllegianceSys_Log_RandTraderArrival>
+	
+	<MousekinRace_AllegianceSys_Log_ReqTraderArrival>Requested caravan trader arrived: {0}</MousekinRace_AllegianceSys_Log_ReqTraderArrival>
+	
+	<MousekinRace_AllegianceSys_Log_MilitaryAid>Requested military aid</MousekinRace_AllegianceSys_Log_MilitaryAid>
+	
 	<MousekinRace_TradePriceFactor_FactionAllegiance>faction allegiance</MousekinRace_TradePriceFactor_FactionAllegiance>
 
 </LanguageData>

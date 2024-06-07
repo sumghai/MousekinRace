@@ -127,6 +127,9 @@ namespace MousekinRace
             // Schedule the first random trade caravan from the chosen faction
             GameComponent_Allegiance.Instance.SetNextRandTraderTick();
 
+            // Record the event to the allegiance system log
+            GameComponent_Allegiance.Instance.AddLogEntry(AllegianceLogEntryType.JoinedFaction, FactionNameWithDefiniteArticle(allegianceFaction.Name.Colorize(allegianceFaction.Color)));
+
             // Recommend renaming the player faction
             Find.WindowStack.Add(new Dialog_AllegianceRenamePlayerFaction());
         }
@@ -546,6 +549,11 @@ namespace MousekinRace
 
             // Increment historical stats
             GameComponent_Allegiance.Instance.histNewColonistsInvited += pawnsToRecruit.Count();
+
+            // Record the event to the allegiance system log
+            TaggedString pawnKindLabel = reqCount > 1 ? pawnKind.labelPlural.CapitalizeFirst() : pawnKind.LabelCap;
+            TaggedString logData = reqCount.ToString() + "x " + pawnKindLabel.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() + (makeFamily ? "MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix".Translate() : null); 
+            GameComponent_Allegiance.Instance.AddLogEntry(AllegianceLogEntryType.NewColonists, logData);
         }
 
         public static void SpawnNewColonists(List<Pawn> newColonistPawns)

@@ -71,6 +71,8 @@ namespace MousekinRace
 
         public int histMilitaryAidRequested = 0;
 
+        public List<AllegianceEventLogEntry> allegianceEventLog = new();
+
         public const int daysUntilNextRequestedCaravanTraderAllowed = GenDate.TicksPerSeason;
 
         public bool HasAnyTownSquares => townSquares.Count > 0;
@@ -175,6 +177,11 @@ namespace MousekinRace
                                             .Where(x => !x.Position.Fogged(x.Map) && (m.areaManager.Home[x.Position] || x.IsInAnyStorage()))).Sum(t => t.stackCount);
         }
 
+        public void AddLogEntry(AllegianceLogEntryType logType, TaggedString data)
+        {
+            allegianceEventLog.Add(new(logType, data));
+        }
+
         public void AddNewColonistsToQueue(List<Pawn> pawns, int spawnTick)
         {
             recruitedColonistsQueue.Add(new RecruitedPawnGroup(pawns, spawnTick));
@@ -201,6 +208,8 @@ namespace MousekinRace
             AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction();
             SetNextRandTraderTick();
             histVisitsFromRandTraders++;
+            // Record the event to the allegiance system log
+            AddLogEntry(AllegianceLogEntryType.RandTraderArrival, null);
         }
 
         public void SetNextRequestedTraderKind(TraderKindDef traderKind)
@@ -226,6 +235,8 @@ namespace MousekinRace
         public void SpawnRequestedTrader()
         { 
             AllegianceSys_Utils.SpawnTradeCaravanFromAllegianceFaction(nextRequestedTraderKind);
+            // Record the event to the allegiance system log
+            AddLogEntry(AllegianceLogEntryType.ReqTraderArrival, nextRequestedTraderKind.LabelCap);
             nextRequestedTraderKind = null;
             nextRequestedTraderTick = -99999;
             histVisitsFromRequestedTraders++;
@@ -235,6 +246,8 @@ namespace MousekinRace
         { 
             militaryAidArrivalTick = Find.TickManager.TicksGame + militaryAidDelayTicks;
             histMilitaryAidRequested++;
+            // Record the event to the allegiance system log
+            AddLogEntry(AllegianceLogEntryType.MilitaryAid, null);
         }
 
         public void SpawnMilitaryAid()
@@ -263,10 +276,19 @@ namespace MousekinRace
             Scribe_Values.Look(ref histVisitsFromRandTraders, "histVisitsFromRandTraders");
             Scribe_Values.Look(ref histVisitsFromRequestedTraders, "histVisitsFromRequestedTraders");
             Scribe_Values.Look(ref histMilitaryAidRequested, "histMilitaryAidRequested");
+            // Log
+            Scribe_Collections.Look(ref allegianceEventLog, "allegianceEventLog");
 
-            if (Scribe.mode == LoadSaveMode.PostLoadInit && recruitedColonistsQueue == null)
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
-                recruitedColonistsQueue = new();
+                if (recruitedColonistsQueue == null)
+                {
+                    recruitedColonistsQueue = new();
+                }
+                if (allegianceEventLog == null)
+                {
+                    allegianceEventLog = new();
+                }
             }
             Instance = this;
         }
@@ -310,5 +332,40 @@ namespace MousekinRace
             this.pawnsWithTrait = pawnsWithTrait;
             this.affinityLabel = affinityLabel;
         }
+    }
+
+    public class AllegianceEventLogEntry : IExposable
+    {
+        public int arrivalTick;
+        public AllegianceLogEntryType logType;
+        public TaggedString data;
+
+        public AllegianceEventLogEntry()
+        { 
+        }
+        
+        public AllegianceEventLogEntry(AllegianceLogEntryType logType, TaggedString data)
+        {
+            arrivalTick = Find.TickManager.TicksAbs;
+            this.logType = logType;
+            this.data = data;
+        }
+
+        public void ExposeData()
+        {
+            Scribe_Values.Look(ref arrivalTick, "arrivalTick");
+            Scribe_Values.Look(ref logType, "logType", AllegianceLogEntryType.Undefined, true);
+            Scribe_Values.Look(ref data, "data");
+        }
+    }
+
+    public enum AllegianceLogEntryType
+    { 
+        Undefined,
+        JoinedFaction,
+        NewColonists,
+        RandTraderArrival,
+        ReqTraderArrival,
+        MilitaryAid
     }
 }

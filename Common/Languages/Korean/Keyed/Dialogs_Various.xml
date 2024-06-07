@@ -178,6 +178,24 @@
 	<!-- EN: Are you sure you want to request military aid?\n\nIt will arrive in {0}. -->
 	<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>군사 지원을 요청하시겠습니까?\n\n{0} 후에 도착할 것입니다.</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
 	
+	<!-- EN: Pledged allegaince to {0} -->
+	<MousekinRace_AllegianceSys_Log_JoinedFaction>{0} 대한 충성 맹세</MousekinRace_AllegianceSys_Log_JoinedFaction>
+	
+	<!-- EN: Invited new settlers: {0} -->
+	<MousekinRace_AllegianceSys_Log_NewColonists>새로운 정착민 초대: {0}</MousekinRace_AllegianceSys_Log_NewColonists>
+	
+	<!-- EN:  with family -->
+	<MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix> 및 가족</MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>
+	
+	<!-- EN: Random caravan trader arrived -->
+	<MousekinRace_AllegianceSys_Log_RandTraderArrival>무작위 무역 캐러밴 도착</MousekinRace_AllegianceSys_Log_RandTraderArrival>
+	
+	<!-- EN: Requested caravan trader arrived: {0} -->
+	<MousekinRace_AllegianceSys_Log_ReqTraderArrival>요청된 무역 캐러밴 도착: {0}</MousekinRace_AllegianceSys_Log_ReqTraderArrival>
+	
+	<!-- EN: Requested military aid -->
+	<MousekinRace_AllegianceSys_Log_MilitaryAid>군사 지원이 요청되었습니다</MousekinRace_AllegianceSys_Log_MilitaryAid>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>진영 충성</MousekinRace_TradePriceFactor_FactionAllegiance>
 

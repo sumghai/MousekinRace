@@ -390,6 +390,9 @@ namespace MousekinRace
                 case PageTag.AllegianceSys_CallMilitaryAid:
                     DrawPageMilitaryAid(innerRect);
                     break;
+                case PageTag.AllegianceSys_Log:
+                    DrawPageLog(innerRect);
+                    break;
                 default:
                     Widgets.Label(innerRect, pageTag.ToStringSafe());
                     break;
@@ -926,6 +929,28 @@ namespace MousekinRace
 
             listingStandard.End();
         }
+        
+        public void DrawPageLog(Rect r)
+        {
+            Rect scrollableAreaRect = new Rect(r);
+
+            float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
+            Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, overviewListHeight);
+
+            Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
+            float curY = 0f;
+
+            int rowNum = 0;
+            foreach (AllegianceEventLogEntry logEntry in GameComponent_Allegiance.Instance.allegianceEventLog.AsEnumerable().Reverse())
+            {
+                DrawLogEntryRow(ref curY, scrollableContentsWidth, logEntry, rowNum % 2 == 0);
+                rowNum++;
+            }
+
+            overviewListHeight = curY;
+
+            Widgets.EndScrollView();
+        }
 
         public void DrawOverviewStatListing(ref float curY, float width, TaggedString label, TaggedString content) 
         {
@@ -936,6 +961,31 @@ namespace MousekinRace
             Rect entryContentRect = new Rect(entryLabelRect.xMax, curY, contentColWidth, entryLabelRect.height);
             Widgets.Label(entryContentRect, content);
             curY += entryLabelRect.height;
+        }
+
+        public void DrawLogEntryRow(ref float curY, float width, AllegianceEventLogEntry entry, bool altStyleRow = false)
+        {
+            Vector2 location = ((Find.CurrentMap != null) ? Find.WorldGrid.LongLatOf(Find.CurrentMap.Tile) : default);
+            string entryTypeTransKey = "MousekinRace_AllegianceSys_Log_" + entry.logType.ToString();
+            TaggedString content = entryTypeTransKey.Translate(!entry.data.NullOrEmpty() ? entry.data.ToString() : null);
+
+            float rowInnerRectWidth = width - uiElementSpacing * 2;
+            float contentColWidth = rowInnerRectWidth * 0.66f;
+            float contentColHeight = Text.CalcHeight(content, contentColWidth);
+
+            Rect rowOuterRect = new Rect(0, curY, width, contentColHeight + uiElementSpacing * 2);
+            if (altStyleRow)
+            {
+                Widgets.DrawBoxSolid(rowOuterRect, optionBg);
+            }
+
+            Rect rowInnerRect = rowOuterRect.ContractedBy(uiElementSpacing);
+
+            Rect entryDateRect = new Rect(rowInnerRect.xMin, rowInnerRect.yMin, rowInnerRectWidth - contentColWidth, contentColHeight);
+            Widgets.Label(entryDateRect, GenDate.DateFullStringWithHourAt(entry.arrivalTick, location));
+            Rect entryContentRect = new Rect(entryDateRect.xMax, entryDateRect.yMin, contentColWidth, entryDateRect.height);
+            Widgets.Label(entryContentRect, content);
+            curY += rowOuterRect.height;
         }
 
         public enum PageTag 

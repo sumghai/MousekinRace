@@ -178,6 +178,24 @@
 	<!-- EN: Are you sure you want to request military aid?\n\nIt will arrive in {0}. -->
 	<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>本当に軍事援助を要請しますか?\n\n{0}で到着します.</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
 	
+	<!-- EN: Pledged allegaince to {0} -->
+	<MousekinRace_AllegianceSys_Log_JoinedFaction>{0}に忠誠を誓った</MousekinRace_AllegianceSys_Log_JoinedFaction>
+	
+	<!-- EN: Invited new settlers: {0} -->
+	<MousekinRace_AllegianceSys_Log_NewColonists>新しい入植者を招いた: {0}</MousekinRace_AllegianceSys_Log_NewColonists>
+	
+	<!-- EN:  with family -->
+	<MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>とその家族</MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>
+	
+	<!-- EN: Random caravan trader arrived -->
+	<MousekinRace_AllegianceSys_Log_RandTraderArrival>ランダムなキャラバン商人が到着した</MousekinRace_AllegianceSys_Log_RandTraderArrival>
+	
+	<!-- EN: Requested caravan trader arrived: {0} -->
+	<MousekinRace_AllegianceSys_Log_ReqTraderArrival>特定のキャラバン商人が到着した: {0}</MousekinRace_AllegianceSys_Log_ReqTraderArrival>
+	
+	<!-- EN: Requested military aid -->
+	<MousekinRace_AllegianceSys_Log_MilitaryAid>軍事援助を要請した</MousekinRace_AllegianceSys_Log_MilitaryAid>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派閥忠誠</MousekinRace_TradePriceFactor_FactionAllegiance>
 

@@ -178,6 +178,24 @@
 	<!-- EN: Are you sure you want to request military aid?\n\nIt will arrive in {0}. -->
 	<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>您想要請求軍事援助嗎?\n\n他們將在{0}後抵達。</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
 	
+	<!-- EN: Pledged allegaince to {0} -->
+	<MousekinRace_AllegianceSys_Log_JoinedFaction>效忠了{0}</MousekinRace_AllegianceSys_Log_JoinedFaction>
+	
+	<!-- EN: Invited new settlers: {0} -->
+	<MousekinRace_AllegianceSys_Log_NewColonists>邀請了新殖民者: {0}</MousekinRace_AllegianceSys_Log_NewColonists>
+	
+	<!-- EN:  with family -->
+	<MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>及其家屬</MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>
+	
+	<!-- EN: Random caravan trader arrived -->
+	<MousekinRace_AllegianceSys_Log_RandTraderArrival>隨機交易旅隊來訪</MousekinRace_AllegianceSys_Log_RandTraderArrival>
+	
+	<!-- EN: Requested caravan trader arrived: {0} -->
+	<MousekinRace_AllegianceSys_Log_ReqTraderArrival>受邀交易旅隊來訪: {0}</MousekinRace_AllegianceSys_Log_ReqTraderArrival>
+	
+	<!-- EN: Requested military aid -->
+	<MousekinRace_AllegianceSys_Log_MilitaryAid>請求了軍事援助</MousekinRace_AllegianceSys_Log_MilitaryAid>
+	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派系效忠</MousekinRace_TradePriceFactor_FactionAllegiance>
 
