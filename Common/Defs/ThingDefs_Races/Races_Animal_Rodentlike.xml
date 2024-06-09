@@ -45,7 +45,7 @@
 			</ageGenerationCurve>
 			<!-- Giant cavies love to nuzzle. A lot. -->
 			<nuzzleMtbHours>2</nuzzleMtbHours>
-			<mateMtbHours>24</mateMtbHours>
+			<mateMtbHours>72</mateMtbHours>
 			<gestationPeriodDays>15</gestationPeriodDays>
 			<!-- 4~5 pups per litter -->
 			<litterSizeCurve>
@@ -241,7 +241,7 @@
 			</ageGenerationCurve>
 			<!-- Pudgemice love to nuzzle. A lot. -->
 			<nuzzleMtbHours>2</nuzzleMtbHours>
-			<mateMtbHours>24</mateMtbHours>
+			<mateMtbHours>72</mateMtbHours>
 			<gestationPeriodDays>15</gestationPeriodDays>
 			<!-- 1~3 pups per litter -->
 			<litterSizeCurve>
