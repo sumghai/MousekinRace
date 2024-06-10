@@ -205,13 +205,4 @@
 		<researchViewY>4.90</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
-		<defName>Mousekin_ResearchGlassmaking</defName>
-		<label>Glassmaking</label>
-		<description>Melt sand at high temperatures into glass for fabricating windows. (Only available if Fertile Fields mods is installed)</description>
-		<baseCost>300</baseCost>
-		<researchViewX>2.00</researchViewX>
-		<researchViewY>4.90</researchViewY>
-	</ResearchProjectDef>
-	
 </Defs>

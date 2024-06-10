@@ -90,11 +90,5 @@
 
 	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
 	<Mousekin_ResearchBuildingCastle.description>为白鼠族贵族建造豪宅，并建造防御工事以保护白鼠族社区免受外部威胁。</Mousekin_ResearchBuildingCastle.description>
-
-	<!-- EN: Glassmaking -->
-	<Mousekin_ResearchGlassmaking.label>玻璃制造</Mousekin_ResearchGlassmaking.label>
-
-	<!-- EN: Melt sand at high temperatures into glass for fabricating windows. (Only available if Fertile Fields mods is installed) -->
-	<Mousekin_ResearchGlassmaking.description>在高温下熔化沙子，制成窗户玻璃。（需Fertile Fields模组）</Mousekin_ResearchGlassmaking.description>
 	
 </LanguageData>

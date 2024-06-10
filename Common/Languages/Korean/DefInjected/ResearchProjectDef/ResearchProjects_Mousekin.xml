@@ -90,11 +90,5 @@
 
 	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
 	<Mousekin_ResearchBuildingCastle.description>마우스킨 귀족을 위한 저택을 짓고 요새를 건설하여 외부 위협으로부터 마우스킨 커뮤니티를 보호하세요.</Mousekin_ResearchBuildingCastle.description>
-
-	<!-- EN: Glassmaking -->
-	<Mousekin_ResearchGlassmaking.label>유리 제조</Mousekin_ResearchGlassmaking.label>
-
-	<!-- EN: Melt sand at high temperatures into glass for fabricating windows. (Only available if Fertile Fields mods is installed) -->
-	<Mousekin_ResearchGlassmaking.description>고온에서 모래를 녹여 유리창을 만듭니다. (Fertile Fields 모드가 설치된 경우에만 사용 가능)</Mousekin_ResearchGlassmaking.description>
 	
 </LanguageData>
