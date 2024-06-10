@@ -4,4 +4,10 @@
 	<!-- EN: Mousekin Tech -->
 	<Mousekin_Tech.label>마우스킨 기술</Mousekin_Tech.label>
 	
+	<!-- EN: Mousekin research projects -->
+	<Mousekin_Tech.generalTitle>마우스킨 연구 과제</Mousekin_Tech.generalTitle>
+	
+	<!-- EN: Unlock medieval technology exclusive to the Mousekin race. You can only have one active project at a time, and some projects require a Mousekin researcher wearing special Research Glasses. -->
+	<Mousekin_Tech.generalDescription>마우스킨 종족 전용 중세 기술을 잠금 해제하세요. 한 번에 하나의 프로젝트만 활성화할 수 있으며, 일부 프로젝트에는 특수 연구 안경을 착용한 마우스킨 연구원이 필요합니다.</Mousekin_Tech.generalDescription>
+	
 </LanguageData>

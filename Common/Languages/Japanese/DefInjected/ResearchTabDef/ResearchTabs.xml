@@ -4,4 +4,10 @@
 	<!-- EN: Mousekin Tech -->
 	<Mousekin_Tech.label>マウスキンの技術</Mousekin_Tech.label>
 	
+	<!-- EN: Mousekin research projects -->
+	<Mousekin_Tech.generalTitle>マウスキンの研究プロジェクト</Mousekin_Tech.generalTitle>
+	
+	<!-- EN: Unlock medieval technology exclusive to the Mousekin race. You can only have one active project at a time, and some projects require a Mousekin researcher wearing special Research Glasses. -->
+	<Mousekin_Tech.generalDescription>マウスキン種族専用の中世テクノロジーを解放します。複数の研究を同時に行うことはできず、プロジェクトによっては特別な研究用眼鏡をかけたマウスキンの研究者が必要となります。</Mousekin_Tech.generalDescription>
+	
 </LanguageData>
