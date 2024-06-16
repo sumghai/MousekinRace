@@ -378,6 +378,14 @@ namespace MousekinRace
             Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction;
             List<Pawn> pawnsToRecruit = new();  // Placeholder list for new colonists
 
+            // Fetch list of new colonists already in queue (so that we can exclude them from the generation process later)
+            List<Pawn> pawnsAlreadyInQueue = new();
+            List<RecruitedPawnGroup> pawnGroupsAlreadyInQueue = GameComponent_Allegiance.Instance.recruitedColonistsQueue;
+            foreach (RecruitedPawnGroup currentPawnGroup in pawnGroupsAlreadyInQueue)
+            {
+                pawnsAlreadyInQueue.AddRange(currentPawnGroup.pawns);
+            }
+
             if (makeFamily)
             {
                 // Calculate the wife's potential age based on potential children
@@ -484,9 +492,10 @@ namespace MousekinRace
             }
             else 
             {
-                // Get a list of living world pawns from the player-chosen allegiance faction (excluding the faction leader),
+                // Get a list of living world pawns from the player-chosen allegiance faction
+                // (excluding the faction leader and any already-recruited new colonists in the queue),
                 // with (any) relatives of existing colonists taking priority
-                List<Pawn> alignedFactionWorldPawns = Find.WorldPawns.AllPawnsAlive.Where(p => p.Faction == alignedFaction && p != alignedFaction.leader).OrderByDescending(p => PawnRelationUtility.GetMostImportantColonyRelative(p) != null).ToList();
+                List<Pawn> alignedFactionWorldPawns = Find.WorldPawns.AllPawnsAlive.Where(p => p.Faction == alignedFaction && p != alignedFaction.leader && !pawnsAlreadyInQueue.Contains(p)).OrderByDescending(p => PawnRelationUtility.GetMostImportantColonyRelative(p) != null).ToList();
 
                 // Downselect to world pawns that match the desired pawnKind
                 List<Pawn> candidateWorldPawns = alignedFactionWorldPawns.Where(p => p.kindDef == pawnKind).ToList();
