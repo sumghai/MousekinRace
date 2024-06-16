@@ -608,9 +608,10 @@ namespace MousekinRace
         { 
             IncidentDef incidentDef = IncidentDefOf.RaidFriendly;
             // todo - handle multiple player maps (currently defaults to first player colony map with hostile pawns)
-            Map targetMap = Find.Maps.Where(m => m.IsPlayerHome && MapHasHostiles(m)).FirstOrDefault();
+            Map targetMap = Find.Maps.Where(m => m.uniqueID == GameComponent_Allegiance.Instance.militaryAidTargetMapID).FirstOrDefault();
             IncidentParms incidentParms = StorytellerUtility.DefaultParmsNow(incidentDef.category, targetMap);
             incidentParms.faction = GameComponent_Allegiance.Instance.alignedFaction;
+            incidentParms.points = GameComponent_Allegiance.Instance.militaryAidThreatPointSize;
             incidentParms.raidArrivalMode = PawnsArrivalModeDefOf.EdgeWalkIn;
             incidentParms.forced = true;
             incidentDef.Worker.TryExecuteWorker(incidentParms);

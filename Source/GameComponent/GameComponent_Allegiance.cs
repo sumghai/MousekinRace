@@ -41,6 +41,10 @@ namespace MousekinRace
 
         public int nextRequestedTraderCooldownTick = -99999;
 
+        public float militaryAidThreatPointSize = -99999;
+
+        public int militaryAidTargetMapID = -99999;
+
         public int militaryAidArrivalTick = -99999;
 
         public TraderKindDef nextRequestedTraderKind = null;
@@ -243,7 +247,9 @@ namespace MousekinRace
         }
 
         public void SetMilitaryAidArrivalTick()
-        { 
+        {
+            militaryAidTargetMapID = Find.Maps.Where(m => m.IsPlayerHome && AllegianceSys_Utils.MapHasHostiles(m)).FirstOrDefault().uniqueID;
+            militaryAidThreatPointSize = StorytellerUtility.DefaultThreatPointsNow(Find.Maps.Where(m => m.IsPlayerHome).FirstOrDefault());
             militaryAidArrivalTick = Find.TickManager.TicksGame + militaryAidDelayTicks;
             histMilitaryAidRequested++;
             // Record the event to the allegiance system log
@@ -270,6 +276,8 @@ namespace MousekinRace
             Scribe_Values.Look(ref nextRequestedTraderTick, "nextRequestedTraderTick", 0, true);
             Scribe_Values.Look(ref nextRequestedTraderCooldownTick, "nextRequestedTraderCooldownTick", 0, true);
             Scribe_Defs.Look(ref nextRequestedTraderKind, "nextRequestedTraderKind");
+            Scribe_Values.Look(ref militaryAidThreatPointSize, "militaryAidThreatPointSize");
+            Scribe_Values.Look(ref militaryAidTargetMapID, "militaryAidTargetMapID");
             Scribe_Values.Look(ref militaryAidArrivalTick, "militaryAidArrivalTick", 0, true);
             // Historical data for overview page
             Scribe_Values.Look(ref histNewColonistsInvited, "histNewColonistsInvited");
