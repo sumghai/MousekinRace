@@ -196,16 +196,16 @@
 
 			<!-- Apparel -->
 
-			<li Class="StockGenerator_MarketValue">
+			<li Class="StockGenerator_Tag">
 				<tradeTag>Mousekin_TradeGoods_ApparelCommoner</tradeTag>
-				<!--<thingDefCountRange>8~10</thingDefCountRange>-->
+				<thingDefCountRange>8~10</thingDefCountRange>
 				<countRange>2~3</countRange>
 				<price>Cheap</price>
 			</li>
 			
-			<li Class="StockGenerator_MarketValue">
+			<li Class="StockGenerator_Tag">
 				<tradeTag>Mousekin_TradeGoods_ApparelMiddle</tradeTag>
-				<!--<thingDefCountRange>6~8</thingDefCountRange>-->
+				<thingDefCountRange>6~8</thingDefCountRange>
 				<countRange>2~3</countRange>
 				<price>Cheap</price>
 			</li>
