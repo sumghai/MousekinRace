@@ -40,8 +40,8 @@ namespace MousekinRace
             // Ideology DLC check
             if (ModsConfig.IdeologyActive)
             {
-                // Skip if pawn's ideo has HAR Alien Race general relation Neutral, Respected, Exhalted precepts
-                if (pawn.ideo.ideo.HasPrecept(MousekinDefOf.HAR_AlienRaces_Standard) || pawn.ideo.ideo.HasPrecept(MousekinDefOf.HAR_AlienRaces_Respected) || pawn.ideo.ideo.HasPrecept(MousekinDefOf.HAR_AlienRaces_Exalted))
+                // Skip if pawn's ideo has HAR Alien Race general relation Respected or Exhalted precepts
+                if (pawn.ideo.ideo.HasPrecept(MousekinDefOf.HAR_AlienRaces_Respected) || pawn.ideo.ideo.HasPrecept(MousekinDefOf.HAR_AlienRaces_Exalted))
                 {
                     return false;
                 }
