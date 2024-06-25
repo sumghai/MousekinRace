@@ -146,6 +146,60 @@
 				</value>
 			</li>
 
+			<!-- 
+					Ratkin refugee pawnkind:
+					
+					- Use a curated selection of existing (broken English) childhood backstories from NewRatkinPlus
+					
+					- Custom adult refugee backstories from Mousekin Race
+					
+					- Set Ratkin Apron and Worker dresses as apparel choices on spawn
+
+					- Add pawnkind to the Independent Mousekin faction's recruitables list for the Faction Allegiance system
+			-->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.AlienBackstoryDef[
+					defName="Ratkin_CountryKid" or
+					defName="Ratkin_ShepherdBoy" or
+					defName="Ratkin_Orphan" or
+					defName="Ratkin_Student" or
+					defName="Ratkin_LittleLibrarian" or 
+					defName="Ratkin_Bastard" or
+					defName="Ratkin_Successor" or
+					defName="Ratkin_ChefStudent" or
+					defName="Ratkin_MerchantKid" or
+					defName="Ratkin_Kid" or
+					defName="Ratkin_ServentChild" or
+					defName="Ratkin_CityKid"
+				]/spawnCategories</xpath>
+				<value>
+					<li>MousekinRatkinRefugee</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+					defName="RK_ApronSkirt" or
+					defName="RK_WorkerWear"
+				]/apparel/tags</xpath>
+				<value>
+					<li>MousekinRatkinRefugee</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Mousekin_FactionIndyTown"]/modExtensions/li[@Class="MousekinRace.AlliableFactionExtension"]/recruitableColonistSettings/options</xpath>
+				<value>
+					<li>
+						<pawnKind>MousekinRatkinRefugee</pawnKind>
+						<iconPath>UI/Icons/AllegianceSystem/RecruitRatkinRefugee</iconPath>
+						<!-- 4 is an inauspicious number in Korea (where Ratkins come from) -->
+						<basePrice>444</basePrice>
+					</li>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
 </Patch>

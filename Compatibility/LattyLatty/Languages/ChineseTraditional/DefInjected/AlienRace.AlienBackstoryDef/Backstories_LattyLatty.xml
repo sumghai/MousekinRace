@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Ratkin refugee -->
+	<Mousekin_Ratkin_Adulthood_RefugeeA.title>鼠娘人難民</Mousekin_Ratkin_Adulthood_RefugeeA.title>
+	
+	<!-- EN: refugee -->
+	<Mousekin_Ratkin_Adulthood_RefugeeA.titleShort>難民</Mousekin_Ratkin_Adulthood_RefugeeA.titleShort>
+	
+	<!-- EN: After a deadly epidemic caused by a centuries-old tradition of sex-selective inbreeding swept throughout the Ratkin Kingdom, [PAWN_nameDef] fled as [PAWN_possessive] home village collapsed into anarchy, but was shunned by countless human settlements for spurious reasons, before eventually and reluctantly seeking refuge in an Independent Mousekin town.\n\nWhile [PAWN_pronoun] was able to help out on the town's farms, [PAWN_possessive] poor health, limited understanding of English, and personal disdain for "annoying and short talking rats" made [PAWN_possessive] difficult to deal with. -->
+	<Mousekin_Ratkin_Adulthood_RefugeeA.description>在一場由數百年歷史的性別選擇性近親繁殖傳統引發的致命流行病席捲整個鼠娘王國之後，[PAWN_nameDef]隨著[PAWN_possessive]家鄉陷入無政府狀態而逃離，但由於虛假原因而被無數人類住區所迴避，最終還是不情願地在一個獨立的白鼠族城鎮尋求庇護。\n\n雖然[PAWN_pronoun]能夠在鎮上的農場幫忙，但[PAWN_possessive]健康狀況不佳、對英語的理解有限、以及個人對「短小而煩人的會說話的老鼠」的蔑視，使她很難相處。</Mousekin_Ratkin_Adulthood_RefugeeA.description>
+
+	<!-- EN: Ratkin survivor -->
+	<Mousekin_Ratkin_Adulthood_RefugeeB.title>鼠娘人倖存者</Mousekin_Ratkin_Adulthood_RefugeeB.title>
+	
+	<!-- EN: survivor -->
+	<Mousekin_Ratkin_Adulthood_RefugeeB.titleShort>倖存者</Mousekin_Ratkin_Adulthood_RefugeeB.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was one of the few survivors of a village in the Ratkin Kingdom that was completely obliterated by a Ratkin Demoman who had a psychotic break during a military training exercise.\n\nA passing Rodemani nomad caravan later found [PAWN_possessive] and [PAWN_possessive] compatriots wandering dazed and confused far from home, and brought them to the nearest Independent Mousekin town for convalescence.\n\nThis traumatic experience left [PAWN_nameDef] with a lifelong fear of violence and fire. -->
+	<Mousekin_Ratkin_Adulthood_RefugeeB.description>[PAWN_nameDef]是鼠娘王國的一個村莊中為數不多的倖存者之一，該村莊當時被一名在軍事訓練演習中精神崩潰的鼠娘人爆破手徹底摧毀。\n\n後來，一輛路過的羅德馬尼白鼠族游牧商隊發現[PAWN_objective]和[PAWN_possessive]同胞們在遠離家鄉的地方茫然迷茫地徘徊，於是把他們帶到最近的獨立白鼠族城鎮療養。\n\n這種創傷經歷使[PAWN_objective]對暴力和火災產生了終生的恐懼。</Mousekin_Ratkin_Adulthood_RefugeeB.description>
+
+	<!-- EN: Ratkin exile -->
+	<Mousekin_Ratkin_Adulthood_RefugeeC.title>鼠娘人流亡者</Mousekin_Ratkin_Adulthood_RefugeeC.title>
+	
+	<!-- EN: exiled -->
+	<Mousekin_Ratkin_Adulthood_RefugeeC.titleShort>流亡者</Mousekin_Ratkin_Adulthood_RefugeeC.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] did not share [PAWN_possessive] compatriots' collective prejudice towards "annoying and short talking rats", and was exiled from [PAWN_possessive] home village for daring to befriend a passing Mousekin traveler.\n\n[PAWN_pronoun] subsequently accepted an invitation by the traveler to come live in the Independent Mousekin town he came from, where [PAWN_pronoun] helped the Mousekin townsfolk negotiate fairer trade deals with human trade caravans with [PAWN_possessive] charisma and unusually good command of the English language. -->
+	<Mousekin_Ratkin_Adulthood_RefugeeC.description>[PAWN_nameDef]不同意[PAWN_possessive]同胞們對「短而煩人的會說話的老鼠」的集體偏見，並因敢於與路過的白鼠族旅行者成為朋友而被逐出家鄉。\n\n隨後，[PAWN_pronoun]接受了旅行者的邀請，到他來自的獨立白鼠族城鎮生活。[PAWN_pronoun]在那裡憑藉自己的個人魅力和出色的英語能力，幫助白鼠族鎮民與人類貿易商隊談判更公平的貿易協定。</Mousekin_Ratkin_Adulthood_RefugeeC.description>
+
+</LanguageData>

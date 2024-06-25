@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Ratkin refugees (recruitable via Faction Allegiance to Independent Mousekins) -->
+	<PawnKindDef ParentName="RKBasePawnKind">
+		<defName>MousekinRatkinRefugee</defName>
+		<label>Ratkin refugee</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinRatkinRefugee</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<defaultFactionType>Rakinia</defaultFactionType>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
+		<fixedGender>Female</fixedGender> <!-- Ratkins were designed to be a female-only race, bugs in the original mod notwithstanding -->
+		<apparelMoney>
+			<min>100</min>
+			<max>600</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>MousekinRatkinRefugee</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>RK_OutdoorBackpack</li>
+		</apparelRequired>
+		<minApparelQuality>Awful</minApparelQuality>
+		<maxApparelQuality>Poor</maxApparelQuality>
+		<apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+	</PawnKindDef>
+
+</Defs>

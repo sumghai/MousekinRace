@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Ratkin refugee -->
+	<Mousekin_Ratkin_Adulthood_RefugeeA.title>ラットキン難民</Mousekin_Ratkin_Adulthood_RefugeeA.title>
+	
+	<!-- EN: refugee -->
+	<Mousekin_Ratkin_Adulthood_RefugeeA.titleShort>難民</Mousekin_Ratkin_Adulthood_RefugeeA.titleShort>
+	
+	<!-- EN: After a deadly epidemic caused by a centuries-old tradition of sex-selective inbreeding swept throughout the Ratkin Kingdom, [PAWN_nameDef] fled as [PAWN_possessive] home village collapsed into anarchy, but was shunned by countless human settlements for spurious reasons, before eventually and reluctantly seeking refuge in an Independent Mousekin town.\n\nWhile [PAWN_pronoun] was able to help out on the town's farms, [PAWN_possessive] poor health, limited understanding of English, and personal disdain for "annoying and short talking rats" made [PAWN_possessive] difficult to deal with. -->
+	<Mousekin_Ratkin_Adulthood_RefugeeA.description>何世紀も続く近親交配と性淘汰の伝統によって引き起こされた致命的な伝染病がラットキン王国中に蔓延した後、[PAWN_nameDef]は故郷の村が無政府状態に陥ったため逃亡した。しかし、数え切れないほどの人間の集落から不当な理由で敬遠された彼女は、最終的に不本意ながら独立したマウスキンの町に避難した。\n\n町の農場を手伝うことはできたが、健康状態が悪く、英語もあまり理解できず、「背が低くてうるさいしゃべるネズミ」を個人的に嫌っていたため、付き合いにくかった。</Mousekin_Ratkin_Adulthood_RefugeeA.description>
+
+	<!-- EN: Ratkin survivor -->
+	<Mousekin_Ratkin_Adulthood_RefugeeB.title>ラットキン生残者</Mousekin_Ratkin_Adulthood_RefugeeB.title>
+	
+	<!-- EN: survivor -->
+	<Mousekin_Ratkin_Adulthood_RefugeeB.titleShort>生残者</Mousekin_Ratkin_Adulthood_RefugeeB.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was one of the few survivors of a village in the Ratkin Kingdom that was completely obliterated by a Ratkin Demoman who had a psychotic break during a military training exercise.\n\nA passing Rodemani nomad caravan later found [PAWN_objective] and [PAWN_possessive] compatriots wandering dazed and confused far from home, and brought them to the nearest Independent Mousekin town for convalescence.\n\nThis traumatic experience left [PAWN_nameDef] with a lifelong fear of violence and fire. -->
+	<Mousekin_Ratkin_Adulthood_RefugeeB.description>[PAWN_nameDef]は、軍事訓練中に精神に異常をきたしたラットキン爆弾魔によって完全に消滅させられたラットキン王国の村の数少ない生き残りの1人だった。\n\nその後、通りかかったロデマニの遊牧民のキャラバンが、[PAWN_objective]と[PAWN_possessive]同胞が家から遠く離れてフラフラと混乱してさまよっているのを見つけ、療養のために最も近い独立したマウスキンの町に連れてきた。\n\nこのトラウマから、[PAWN_nameDef]は暴力と火に対する恐怖心を生涯持ち続けることになった。</Mousekin_Ratkin_Adulthood_RefugeeB.description>
+
+	<!-- EN: Ratkin exile -->
+	<Mousekin_Ratkin_Adulthood_RefugeeC.title>ラットキン追放者</Mousekin_Ratkin_Adulthood_RefugeeC.title>
+	
+	<!-- EN: exiled -->
+	<Mousekin_Ratkin_Adulthood_RefugeeC.titleShort>追放者</Mousekin_Ratkin_Adulthood_RefugeeC.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] did not share [PAWN_possessive] compatriots' collective prejudice towards "annoying and short talking rats", and was exiled from [PAWN_possessive] home village for daring to befriend a passing Mousekin traveler.\n\n[PAWN_pronoun] subsequently accepted an invitation by the traveler to come live in the Independent Mousekin town he came from, where [PAWN_pronoun] helped the Mousekin townsfolk negotiate fairer trade deals with human trade caravans with [PAWN_possessive] charisma and unusually good command of the English language. -->
+	<Mousekin_Ratkin_Adulthood_RefugeeC.description>[PAWN_nameDef]は、「背が低くてうるさい喋るネズミ」に対する同胞の集団的偏見に同意せず、通りすがりのマウスキンの旅人とあえて親しくしたために故郷の村から追放された。\n\nその後、その旅人からの招待を受け、彼の出身地である独立したマウスキンの町に住むことになった。[PAWN_pronoun]はそのカリスマ性と並外れた英語力で、マウスキンの町の人々が人間の交易キャラバンとより公正な交易交渉をするのを助けた。</Mousekin_Ratkin_Adulthood_RefugeeC.description>
+
+</LanguageData>

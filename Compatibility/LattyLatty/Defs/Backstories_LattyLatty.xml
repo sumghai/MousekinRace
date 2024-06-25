@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ========== Ratkin refugee exclusive backstories ========== -->
+
+	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory">
+		<defName>Mousekin_Ratkin_Adulthood_RefugeeA</defName>
+		<title>Ratkin refugee</title>
+		<titleShort>refugee</titleShort>
+		<description>After a deadly epidemic caused by a centuries-old tradition of sex-selective inbreeding swept throughout the Ratkin Kingdom, [PAWN_nameDef] fled as [PAWN_possessive] home village collapsed into anarchy, but was shunned by countless human settlements for spurious reasons, before eventually and reluctantly seeking refuge in an Independent Mousekin town.\n\nWhile [PAWN_pronoun] was able to help out on the town's farms, [PAWN_possessive] poor health, limited understanding of English, and personal disdain for "annoying and short talking rats" made [PAWN_possessive] difficult to deal with.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>3</Plants>
+			<Social>-4</Social>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+			<li>
+				<defName Degree="-1">Immunity</defName>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<!-- From HAR - never xenophile, but not forced xenophobe -->
+				<defName Degree="-1">HAR_Xenophobia</defName>
+			</li>
+			<li>
+				<defName>Kind</defName>
+			</li>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>MousekinRatkinRefugee</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory">
+		<defName>Mousekin_Ratkin_Adulthood_RefugeeB</defName>
+		<title>Ratkin survivor</title>
+		<titleShort>survivor</titleShort>
+		<description>[PAWN_nameDef] was one of the few survivors of a village in the Ratkin Kingdom that was completely obliterated by a Ratkin Demoman who had a psychotic break during a military training exercise.\n\nA passing Rodemani nomad caravan later found [PAWN_objective] and [PAWN_possessive] compatriots wandering dazed and confused far from home, and brought them to the nearest Independent Mousekin town for convalescence.\n\nThis traumatic experience left [PAWN_nameDef] with a lifelong fear of violence and fire.</description>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Violent</li>
+			<li>Firefighting</li>
+		</workDisables>
+		<spawnCategories>
+			<li>MousekinRatkinRefugee</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory">
+		<defName>Mousekin_Ratkin_Adulthood_RefugeeC</defName>
+		<title>Ratkin exile</title>
+		<titleShort>exiled</titleShort>
+		<description>[PAWN_nameDef] did not share [PAWN_possessive] compatriots' collective prejudice towards "annoying and short talking rats", and was exiled from [PAWN_possessive] home village for daring to befriend a passing Mousekin traveler.\n\n[PAWN_pronoun] subsequently accepted an invitation by the traveler to come live in the Independent Mousekin town he came from, where [PAWN_pronoun] helped the Mousekin townsfolk negotiate fairer trade deals with human trade caravans with [PAWN_possessive] charisma and unusually good command of the English language.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<!-- Should negate "prejudiced against talking mice" social modifier -->
+				<defName>Kind</defName>
+			</li>
+			<li>
+				<!-- Obviously interested in befriending other races -->
+				<defName Degree="-1">HAR_Xenophobia</defName>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>MousekinRatkinRefugee</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>
