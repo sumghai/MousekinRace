@@ -66,6 +66,7 @@ namespace MousekinRace
 
         public static PawnKindDef MousekinColonist;
 
+        public static FactionDef Mousekin_PlayerFaction_Settlers;
         public static FactionDef Mousekin_FactionKingdom;
         public static FactionDef Mousekin_FactionIndyTown;
 

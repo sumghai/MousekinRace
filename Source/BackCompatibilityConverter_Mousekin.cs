@@ -17,6 +17,7 @@ namespace MousekinRace
         public override void PostLoadSavegame(string loadingVersion)
         {
             base.PostLoadSavegame(loadingVersion);
+            AllegianceSys_Utils.UpdatePlayerFactionToMousekinOnJoining();
             AllegianceSys_Utils.ResetFactionRestrictedCraftingBills();
         }
     }

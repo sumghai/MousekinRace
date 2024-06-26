@@ -81,11 +81,23 @@ namespace MousekinRace
             }
         }
 
+        public static void UpdatePlayerFactionToMousekinOnJoining()
+        {
+            if (GameComponent_Allegiance.Instance.HasDeclaredAllegiance && Faction.OfPlayer.def.factionIconPath != MousekinDefOf.Mousekin_PlayerFaction_Settlers.factionIconPath)
+            {
+                Faction.OfPlayer.def = MousekinDefOf.Mousekin_PlayerFaction_Settlers;
+            }
+        }
+
         public static void JoinFaction(Faction allegianceFaction)
         {
             GameComponent_Allegiance.Instance.alignedFaction = allegianceFaction;
             AlliableFactionExtension allegianceFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
             List<Pawn> colonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+
+            // Update the player faction icon, type and description if the player previously started as a non-Mousekin colony
+            // (Automatically ignores Mousekin Refugee player faction)
+            UpdatePlayerFactionToMousekinOnJoining();
 
             // Sync third-party faction relations with allegiance faction
             SyncRelationsWithAllegianceFaction(allegianceFaction);
