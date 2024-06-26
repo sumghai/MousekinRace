@@ -55,6 +55,15 @@
 				</value>
 			</li>
 
+			<!-- Restrict crafting of Firecracker Rocket ammo to players aligned with the Indy Town faction -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Mousekin_FactionIndyTown"]/modExtensions/li[@Class="MousekinRace.AlliableFactionExtension"]/factionRestrictedCraftableThingDefs</xpath>
+				<value>
+					<li>Mousekin_Ammo_FirecrackerRocket</li>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
 </Patch>
