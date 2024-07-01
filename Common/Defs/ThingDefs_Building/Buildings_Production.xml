@@ -890,7 +890,8 @@
 		<altitudeLayer>ItemImportant</altitudeLayer>
 		<rotatable>false</rotatable>
 		<fillPercent>1</fillPercent>
-		<useHitPoints>True</useHitPoints><statBases>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
 			<WorkToBuild>50000</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>10000</Mass>
