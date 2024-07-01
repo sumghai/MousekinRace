@@ -475,6 +475,7 @@
 			<disallowedThingDefs>
 				<li>Meat_Human</li>
 				<li>Meat_Megaspider</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
 				<li>Meat_Mousekin</li>
 				<li>Meat_Mousekin_AnimalGiantCavy</li>
 				<li>Meat_Mousekin_AnimalPudgemouse</li>
