@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 
-			<!-- ========== Patch apparel bulk and stats ========== -->
+			<!-- Patch apparel bulk and stats -->
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
@@ -166,7 +166,7 @@
 				</value>
 			</li>
 			
-			<!-- ========== Patch headgear bulk and stats ========== -->
+			<!-- Patch headgear bulk and stats -->
 			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[
@@ -297,7 +297,7 @@
 				</value>
 			</li>
 
-			<!-- ========== Patch accessory bulk and stats ========== -->
+			<!-- Patch accessory bulk and stats -->
 			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Mousekin_BackpackLeather"]/statBases</xpath>
@@ -340,6 +340,18 @@
 				<xpath>Defs/ThingDef[defName="Mousekin_BackpackWicker"]/equippedStatOffsets</xpath>
 				<value>
 					<CarryBulk>55</CarryBulk>
+				</value>
+			</li>
+			
+			<!-- Use CE backpack apparel layer for Mousekin backpacks -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+					defName="Mousekin_BackpackLeather" or
+					defName="Mousekin_BackpackWicker"
+				]/apparel/layers/li[text()='Belt']</xpath>
+				<value>
+					<li>Backpack</li>
 				</value>
 			</li>
 			
