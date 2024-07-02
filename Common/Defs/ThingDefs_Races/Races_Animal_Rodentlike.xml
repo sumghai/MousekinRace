@@ -67,7 +67,7 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.5</minAge>
+					<minAge>0.25</minAge>
 					<soundWounded>Pawn_GuineaPig_Wounded</soundWounded>
 					<soundDeath>Pawn_GuineaPig_Death</soundDeath>
 					<soundCall>Pawn_GuineaPig_Call</soundCall>
@@ -75,7 +75,7 @@
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>1.5</minAge>
+					<minAge>0.3333</minAge>
 					<soundWounded>Pawn_GuineaPig_Wounded</soundWounded>
 					<soundDeath>Pawn_GuineaPig_Death</soundDeath>
 					<soundCall>Pawn_GuineaPig_Call</soundCall>
@@ -259,7 +259,7 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.333</minAge>
+					<minAge>0.1</minAge>
 					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
 					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
 					<soundCall>Pawn_Alphabeaver_Call</soundCall>
@@ -267,7 +267,7 @@
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>1</minAge>
+					<minAge>0.2222</minAge>
 					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
 					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
 					<soundCall>Pawn_Alphabeaver_Call</soundCall>
