@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Mousekin root cellar -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_CellarOutdoor</defName>
+		<label>Mousekin root cellar</label>
+		<description>An underground structure traditionally used for long-term storage of raw food, taking advantage of the naturally cooler temperatures under the earth mound to passively refrigerate its contents.</description>
+		<thingClass>Building</thingClass>
+		<!-- todo - custom storage class
+				  - vanilla Building_Storage class blocks plant spawn/growth
+				  - hide contents
+				  - refrigerate contents -->
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Storage/Mousekin_CellarOutdoor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<uiIconPath>Things/Building/Storage/Mousekin_CellarOutdoor_IconBlueprint</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<costList>
+			<WoodLog>200</WoodLog>
+		</costList>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>20000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.25</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<designationCategory>Misc</designationCategory>
+		<passability>Standable</passability>
+		<pathCost>200</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+			<!-- todo - tab to list contents -->
+		</inspectorTabs>
+		<constructEffect />
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowAutoroof>false</allowAutoroof>
+			<blueprintClass>Blueprint_Storage</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Storage/Mousekin_CellarOutdoor_IconBlueprint</texPath>
+				<shaderType>EdgeDetect</shaderType>
+				<color>(1, 1, 1, 1)</color>
+			</blueprintGraphicData>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<isEdifice>false</isEdifice>
+			<maxItemsInCell>5</maxItemsInCell>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<storageGroupTag>Mousekin_FoodCellar</storageGroupTag>
+			<fixedStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+						<li>EggsUnfertilized</li>
+					</categories>
+					<specialFiltersToDisallow>
+						<li>AllowPlantFood</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+						<li>EggsUnfertilized</li>
+					</categories>
+					<disallowedThingDefs>
+						<li>Meat_Human</li>
+						<li>Meat_Megaspider</li>
+						<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+						<li>Meat_Mousekin</li>
+						<li>Meat_Mousekin_AnimalGiantCavy</li>
+						<li>Meat_Mousekin_AnimalPudgemouse</li>
+					</disallowedThingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<comps>
+			<li Class="MousekinRace.CompProperties_CellarOutdoor">
+				<exposedWallGraphicData>
+					<texPath>Things/Building/Storage/Mousekin_CellarOutdoor_ExposedWall</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(7,7)</drawSize>
+					<drawOffset>(0, -0.355, 0)</drawOffset>
+					<shaderType>CutoutComplex</shaderType>
+				</exposedWallGraphicData>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_CellarOutdoor</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+</Defs>
