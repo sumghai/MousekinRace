@@ -111,6 +111,7 @@
 				</inheritRecipesFrom>
 			</li>
 		</modExtensions>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</ThingDef>
 
 </Defs>

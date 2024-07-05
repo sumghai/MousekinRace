@@ -112,6 +112,7 @@
 		<researchPrerequisites>
 			<li>Mousekin_ResearchCookingIronStoves</li>
 		</researchPrerequisites>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 		<modExtensions>
 			<li Class="RecipeInheritance.ThingDefExtension">
 				<inheritRecipesFrom>
@@ -178,6 +179,7 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	</ThingDef>
 	
 	<!-- Mousekin brewery -->
@@ -397,6 +399,7 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 		<modExtensions>
 			<li Class="RecipeInheritance.ThingDefExtension">
 				<inheritRecipesFrom>
@@ -502,6 +505,7 @@
 		<researchPrerequisites>
 			<li>Smithing</li>
 		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 		<modExtensions>
 			<li Class="MousekinRace.BuildingIgnoreWorkSpeedPenaltiesExtension" />
 		</modExtensions>
@@ -564,6 +568,7 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	</ThingDef>
 
 	<!-- ========== Non-standard work buildings ==============-->
@@ -969,6 +974,7 @@
 		<researchPrerequisites Inherit="false">
 			<li>Mousekin_ResearchMachineryAdvanced</li>
 		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	</ThingDef>
 	
 </Defs>

@@ -121,6 +121,7 @@
 		<researchPrerequisites>
 			<li>Stonecutting</li>
 		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</ThingDef>
 	
 </Defs>
