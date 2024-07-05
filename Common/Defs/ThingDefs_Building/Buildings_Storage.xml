@@ -21,6 +21,7 @@
 			<shaderType>Transparent</shaderType>
 		</graphicData>
 		<uiIconPath>Things/Building/Storage/Mousekin_CellarOutdoor_IconBlueprint</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
 		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
 		<costList>
 			<WoodLog>200</WoodLog>
