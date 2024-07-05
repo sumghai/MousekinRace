@@ -14,7 +14,7 @@ namespace MousekinRace
                 List<Thing> list = map.thingGrid.ThingsListAt(item);
                 for (int i = 0; i < list.Count; i++)
                 {
-                    if (list[i] != thingToIgnore && (list[i].def.IsEdifice() || list[i].def.IsBlueprint || list[i].def.IsFrame))
+                    if (list[i] != thingToIgnore && (list[i].def.IsBuildingArtificial || list[i].def.IsBlueprint || list[i].def.IsFrame))
                     {
                         return "SpaceAlreadyOccupied".Translate();
                     }
