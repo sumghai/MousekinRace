@@ -15,6 +15,10 @@
 	
 	<MousekinRace_Beehive_Instructions>To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n</MousekinRace_Beehive_Instructions>
 	
+	<MousekinRace_CellarOutdoor_ContainedItemsDesc>The items currently stored inside this root cellar.</MousekinRace_CellarOutdoor_ContainedItemsDesc>
+	
+	<MousekinRace_CellarOutdoor_EjectItemTooltip>Remove this item from the root cellar.</MousekinRace_CellarOutdoor_EjectItemTooltip>
+	
 	<MousekinRace_CheesePress_InsertMilkDesc>Milk to Insert</MousekinRace_CheesePress_InsertMilkDesc>
 	
 	<MousekinRace_CheesePress_StartInsertionMilk>Bring Milk</MousekinRace_CheesePress_StartInsertionMilk>

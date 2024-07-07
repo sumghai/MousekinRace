@@ -6,6 +6,8 @@ namespace MousekinRace
     {
         public GraphicData exposedWallGraphicData = null;
 
+        public int storageCells;
+
         public CompProperties_CellarOutdoor() 
         {
             compClass = typeof(CompCellarOutdoor);

@@ -7,11 +7,7 @@
 		<defName>Mousekin_CellarOutdoor</defName>
 		<label>Mousekin root cellar</label>
 		<description>An underground structure traditionally used for long-term storage of raw food, taking advantage of the naturally cooler temperatures under the earth mound to passively refrigerate its contents.</description>
-		<thingClass>Building</thingClass>
-		<!-- todo - custom storage class
-				  - vanilla Building_Storage class blocks plant spawn/growth
-				  - hide contents
-				  - refrigerate contents -->
+		<thingClass>MousekinRace.Building_StorageCellar</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -49,7 +45,7 @@
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<inspectorTabs>
 			<li>ITab_Storage</li>
-			<!-- todo - tab to list contents -->
+			<li>MousekinRace.ITab_ContentsCellar</li>
 		</inspectorTabs>
 		<constructEffect />
 		<repairEffect>ConstructWood</repairEffect>
@@ -111,6 +107,7 @@
 					<drawOffset>(0, -0.355, 0)</drawOffset>
 					<shaderType>CutoutComplex</shaderType>
 				</exposedWallGraphicData>
+				<storageCells>10</storageCells>
 			</li>
 		</comps>
 		<placeWorkers>
