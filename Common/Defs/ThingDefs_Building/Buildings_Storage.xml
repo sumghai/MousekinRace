@@ -72,8 +72,11 @@
 					<categories>
 						<li>MeatRaw</li>
 						<li>PlantFoodRaw</li>
-						<li>EggsUnfertilized</li>
+						<li>AnimalProductRaw</li>
 					</categories>
+					<disallowedCategories>
+						<li>EggsFertilized</li>
+					</disallowedCategories>
 					<specialFiltersToDisallow>
 						<li>AllowPlantFood</li>
 					</specialFiltersToDisallow>
@@ -85,7 +88,7 @@
 					<categories>
 						<li>MeatRaw</li>
 						<li>PlantFoodRaw</li>
-						<li>EggsUnfertilized</li>
+						<li>AnimalProductRaw</li>
 					</categories>
 					<disallowedThingDefs>
 						<li>Meat_Human</li>
