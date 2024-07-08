@@ -9,7 +9,6 @@ namespace MousekinRace
     public class Building_StorageCellar : Building, ILoadReferenceable, IThingHolder, IHaulDestination, IHaulEnroute, IHaulSource, IStorageGroupMember, IStoreSettingsParent, ISearchableContents
     {
         // todo
-        // - fix SpaceRemainingFor()
         // - allow pawns to fetch items from cellar to fulfill bills (can already reorganize between storages)
         // - add refrigeration using map cell caching
         
@@ -88,8 +87,11 @@ namespace MousekinRace
 
         public int SpaceRemainingFor(ThingDef _)
         {
-            // todo - fix based on stack sizes
-            return MaxStoredItems - StoredItems.Count();
+            int emptyStacksSpaceRemaining = (MaxStoredItems - StoredItems.Count()) * _.stackLimit;
+            List<Thing> partialStacksOfThing = StoredItems.Where(t => t.def == _ && t.stackCount < t.def.stackLimit).ToList();
+            int partialStacksSpaceRemaining = (partialStacksOfThing.Count * _.stackLimit) - partialStacksOfThing.Sum(t => t.stackCount);
+
+            return emptyStacksSpaceRemaining + partialStacksSpaceRemaining;
         }
 
         public void Notify_SettingsChanged()
