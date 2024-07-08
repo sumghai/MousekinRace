@@ -20,9 +20,10 @@ namespace MousekinRace
                     List<Thing> list = map.thingGrid.ThingsListAt(item);
                     for (int i = 0; i < list.Count; i++)
                     {
-                        // Ignore the Town Square flagpole itself, and look for any artificial buildings or mineable chunks
+                        // Ignore the Town Square flagpole itself or terrain defs
+                        // and look for any artificial buildings or mineable chunks
                         // (Plants are skipped, as they will be auto-cut)
-                        if (list[i].def != MousekinDefOf.Mousekin_TownSquare && (list[i].def.IsBuildingArtificial || list[i].def.mineable))
+                        if (list[i].def != MousekinDefOf.Mousekin_TownSquare && list[i].def.entityDefToBuild is not TerrainDef && (list[i].def.IsBuildingArtificial || list[i].def.mineable))
                         {
                             return true;
                         }
