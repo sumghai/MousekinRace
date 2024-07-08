@@ -10,8 +10,6 @@ namespace MousekinRace
     {
         // todo
         // - fix SpaceRemainingFor()
-        // - fix item search visibility
-        // - fix counting of items in resources list
         // - allow pawns to fetch items from cellar to fulfill bills (can already reorganize between storages)
         // - add refrigeration using map cell caching
         
@@ -111,6 +109,7 @@ namespace MousekinRace
         {
             base.SpawnSetup(map, respawningAfterLoad);
             compCellarOutdoor = GetComp<CompCellarOutdoor>();
+            GameComponent_StorageCellars.Instance.RecacheStorageCellars();
 
             if (storageGroup != null && map != storageGroup.Map)
             {
@@ -139,7 +138,14 @@ namespace MousekinRace
                 storageGroup = null;
             }
             innerContainer.TryDropAll(base.Position, base.Map, ThingPlaceMode.Near);
+            GameComponent_StorageCellars.Instance.RecacheStorageCellars();
             base.DeSpawn(mode);
+        }
+
+        public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
+        {
+            base.Destroy(mode);
+            GameComponent_StorageCellars.Instance.RecacheStorageCellars();
         }
 
         public override void DrawExtraSelectionOverlays()

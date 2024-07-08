@@ -329,6 +329,7 @@
     <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="DefModExtensions\TraderExtension.cs" />
+    <Compile Include="GameComponent\GameComponent_StorageCellars.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
     <Compile Include="Patches\Harmony_Game.cs" />
     <Compile Include="Patches\Harmony_IncidentWorker_CaravanArrivalTributeCollector.cs" />
@@ -339,6 +340,7 @@
     <Compile Include="Patches\Harmony_QuestNode_GetPawn.cs" />
     <Compile Include="Patches\Harmony_QuestNode_GetFaction.cs" />
     <Compile Include="Patches\Harmony_RecipeDef.cs" />
+    <Compile Include="Patches\Harmony_ResourceCounter.cs" />
     <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />
     <Compile Include="Patches\Harmony_WildPlantSpawner.cs" />
     <Compile Include="Patches\Harmony_Tradeable.cs" />
