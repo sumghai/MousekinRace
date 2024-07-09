@@ -15,6 +15,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(7,7)</drawSize>
 			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.65, 0, 3.675, 4.50)</rect>
+			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Storage/Mousekin_CellarOutdoor_IconBlueprint</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
