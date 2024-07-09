@@ -342,6 +342,7 @@
     <Compile Include="Patches\Harmony_RecipeDef.cs" />
     <Compile Include="Patches\Harmony_ResourceCounter.cs" />
     <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />
+    <Compile Include="Patches\Harmony_ThingOwnerUtility.cs" />
     <Compile Include="Patches\Harmony_WildPlantSpawner.cs" />
     <Compile Include="Patches\Harmony_Tradeable.cs" />
     <Compile Include="Patches\Harmony_VFE_NewFactionSpawningUtility.cs" />

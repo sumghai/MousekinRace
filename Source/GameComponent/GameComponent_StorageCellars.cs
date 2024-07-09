@@ -8,8 +8,6 @@ namespace MousekinRace
     {
         public List<Building_StorageCellar> storageCellarsCache = new();
 
-        public Dictionary<Map, bool[]> storageCellarsGrid = new();
-
         public static GameComponent_StorageCellars Instance;
 
         public GameComponent_StorageCellars()
@@ -41,10 +39,9 @@ namespace MousekinRace
             RecacheStorageCellars();
         }
 
-        public void RecacheStorageCellars() 
-        { 
+        public void RecacheStorageCellars()
+        {
             storageCellarsCache.Clear();
-            storageCellarsGrid.Clear();
             storageCellarsCache = Find.Maps.Where(m => m.IsPlayerHome).SelectMany(m => m.listerBuildings.AllBuildingsColonistOfClass<Building_StorageCellar>()).ToList();
         }
     }

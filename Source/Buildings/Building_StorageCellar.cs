@@ -10,7 +10,8 @@ namespace MousekinRace
     {
         // todo
         // - allow pawns to fetch items from cellar to fulfill bills (can already reorganize between storages)
-        // - add refrigeration using map cell caching
+        // - include cellar contents in colony wealth calculations
+        // - allow trading of cellar contents
         
         public CompCellarOutdoor compCellarOutdoor;
         
@@ -154,6 +155,18 @@ namespace MousekinRace
         {
             base.DrawExtraSelectionOverlays();
             StorageGroupUtility.DrawSelectionOverlaysFor(this);
+        }
+
+        public override void Tick()
+        {
+            base.Tick();
+            innerContainer.ThingOwnerTick();
+        }
+
+        public override void TickRare()
+        {
+            base.TickRare();
+            innerContainer.ThingOwnerTickRare();
         }
 
         public override string GetInspectString()

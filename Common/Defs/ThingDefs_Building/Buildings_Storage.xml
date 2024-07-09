@@ -9,7 +9,7 @@
 		<description>An underground structure traditionally used for long-term storage of raw food, taking advantage of the naturally cooler temperatures under the earth mound to passively refrigerate its contents.</description>
 		<thingClass>MousekinRace.Building_StorageCellar</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
-		<tickerType>Normal</tickerType>
+		<tickerType>Rare</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Storage/Mousekin_CellarOutdoor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -63,7 +63,6 @@
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
 			<isEdifice>false</isEdifice>
 			<maxItemsInCell>5</maxItemsInCell>
-			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<sowTag>SupportPlantsOnly</sowTag>
 			<storageGroupTag>Mousekin_FoodCellar</storageGroupTag>
 			<fixedStorageSettings>

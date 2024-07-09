@@ -69,10 +69,13 @@ namespace MousekinRace
         {
             GUI.BeginGroup(inRect);
 
-            // Tab heading and tooltip
+            float inRectWidthNoScrollbar = inRect.width - 16f;
+
+            // Tab heading (with item count and temperature) and tooltip
             float num = curY;
-            Widgets.ListSeparator(ref curY, inRect.width - 16f, containedItemsKey.Translate() + " (" + container.Count + " / " + StorageCellar.MaxStoredItems + " " + "ItemsLower".Translate() + ")");
-            Rect headingRect = new Rect(0f, num, inRect.width - 16f, curY - num - 3f);
+            ThingOwnerUtility.TryGetFixedTemperature(StorageCellar, null, out float curTemp);
+            Widgets.ListSeparator(ref curY, inRectWidthNoScrollbar, containedItemsKey.Translate() + " (" + container.Count + " / " + StorageCellar.MaxStoredItems + " " + "ItemsLower".Translate() + ", " + GenText.ToStringTemperature(curTemp, "F0") + ")");
+            Rect headingRect = new Rect(0f, num, inRectWidthNoScrollbar, curY - num - 3f);
             if (Mouse.IsOver(headingRect))
             {
                 Widgets.DrawHighlight(headingRect);
@@ -82,18 +85,18 @@ namespace MousekinRace
             // Cellar contents - either empty, or a scrollable list of stored items
             if (items.NullOrEmpty())
             {
-                Widgets.NoneLabel(ref curY, inRect.width - 16f);
+                Widgets.NoneLabel(ref curY, inRectWidthNoScrollbar);
             }
             else 
             {
                 Rect scrollableAreaRect = new Rect(0f, curY, inRect.width, inRect.height - curY);
-                Rect scrollableContentsRect = new Rect(0f, curY, inRect.width - 16f, rowHeight * items.Count);
+                Rect scrollableContentsRect = new Rect(0f, curY, inRectWidthNoScrollbar, rowHeight * items.Count);
                 Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
                 for (int i = 0; i < items.Count; i++)
                 {
                     if (items[i] is Thing thing)
                     {
-                        DoRow(thing, inRect.width - 16f, i, ref curY);
+                        DoRow(thing, inRectWidthNoScrollbar, i, ref curY);
                     }
                 }
                 Widgets.EndScrollView();
@@ -150,13 +153,14 @@ namespace MousekinRace
                 GUI.color = Color.white;
                 Text.Anchor = TextAnchor.UpperLeft;
 
-                float curTemp = GenTemperature.RotRateAtTemperature(Mathf.RoundToInt(StorageCellar.AmbientTemperature));
+                ThingOwnerUtility.TryGetFixedTemperature(StorageCellar, item, out float curTemp);
+                float rotRate = GenTemperature.RotRateAtTemperature(Mathf.RoundToInt(curTemp));
                 TaggedString spoilDaysTooltipText = new();
-                if (curTemp < 0.001f)
+                if (rotRate < 0.001f)
                 {
                     spoilDaysTooltipText = "CurrentlyFrozen".Translate() + ".";
                 }
-                else if (curTemp < 0.999f)
+                else if (rotRate < 0.999f)
                 {
                     spoilDaysTooltipText = "CurrentlyRefrigerated".Translate(ticksUntilRotAtCurrentTemp.ToStringTicksToPeriod()) + ".";
                 }
