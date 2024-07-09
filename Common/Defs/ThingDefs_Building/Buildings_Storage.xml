@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_CellarOutdoor</defName>
 		<label>Mousekin root cellar</label>
-		<description>An underground structure traditionally used for long-term storage of raw food, taking advantage of the naturally cooler temperatures under the earth mound to passively refrigerate its contents.</description>
+		<description>An underground structure traditionally used for long-term storage of raw food and alcoholic beverages, taking advantage of the naturally cooler temperatures under the earth mound to passively refrigerate its contents.</description>
 		<thingClass>MousekinRace.Building_StorageCellar</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Rare</tickerType>
@@ -75,13 +75,14 @@
 						<li>MeatRaw</li>
 						<li>PlantFoodRaw</li>
 						<li>AnimalProductRaw</li>
+						<li>Mousekin_Beverages</li>
 					</categories>
 					<disallowedCategories>
 						<li>EggsFertilized</li>
 					</disallowedCategories>
-					<specialFiltersToDisallow>
-						<li>AllowPlantFood</li>
-					</specialFiltersToDisallow>
+					<disallowedThingDefs>
+						<li>Mousekin_DrinkChonkoNutBrew</li>
+					</disallowedThingDefs>
 				</filter>
 			</fixedStorageSettings>
 			<defaultStorageSettings>
@@ -91,6 +92,7 @@
 						<li>MeatRaw</li>
 						<li>PlantFoodRaw</li>
 						<li>AnimalProductRaw</li>
+						<li>Mousekin_Beverages</li>
 					</categories>
 					<disallowedThingDefs>
 						<li>Meat_Human</li>
