@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>LWM's Deep Storage</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- 
+					Move root cellar to Deep Storage mod's Storage architect menu category
+				
+					Although root cellars technically do not use the LWM.DeepStorage.Properties comp,
+					we move it into the same category as other storage buildings for consistency.
+				-->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_CellarOutdoor"]/designationCategory</xpath>
+					<value>
+						<designationCategory>LWM_DS_Storage</designationCategory>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
