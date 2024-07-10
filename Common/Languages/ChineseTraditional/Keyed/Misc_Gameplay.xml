@@ -21,6 +21,12 @@
 
 	<!-- EN: To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n -->
 	<MousekinRace_Beehive_Instructions>要生產蜂蜜和蜂蠟，白鼠族蜂箱的溫度範圍必須在{0}~{1}以內，並且範圍內要有至少{2}格含以下任何花種︰\n</MousekinRace_Beehive_Instructions>
+	
+	<!-- EN: The items currently stored inside this root cellar. -->
+	<MousekinRace_CellarOutdoor_ContainedItemsDesc>目前存放在此根窖內的物品。</MousekinRace_CellarOutdoor_ContainedItemsDesc>
+	
+	<!-- EN: Remove this item from the root cellar. -->
+	<MousekinRace_CellarOutdoor_EjectItemTooltip>把此物品從此根窖移除。</MousekinRace_CellarOutdoor_EjectItemTooltip>
 
 	<!-- EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>選原乳</MousekinRace_CheesePress_InsertMilkDesc>

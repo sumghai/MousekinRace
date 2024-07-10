@@ -21,6 +21,12 @@
 
 	<!-- EN: To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n -->
 	<MousekinRace_Beehive_Instructions>蜂蜜と蜜蝋を生産するために、マウスキン養蜂箱は{0} ~ {1}の温度範囲で、以下の花のいずれかを含む少なくとも{2}セルの範囲内にあることが必要です︰\n</MousekinRace_Beehive_Instructions>
+	
+	<!-- EN: The items currently stored inside this root cellar. -->
+	<MousekinRace_CellarOutdoor_ContainedItemsDesc>この地下貯蔵庫に収納されているアイテムです.</MousekinRace_CellarOutdoor_ContainedItemsDesc>
+	
+	<!-- EN: Remove this item from the root cellar. -->
+	<MousekinRace_CellarOutdoor_EjectItemTooltip>地下貯蔵庫からこのアイテムを取り出します.</MousekinRace_CellarOutdoor_EjectItemTooltip>
 
 	<!-- EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>チーズプレス機で押すミルクを選択します. ミルクにより、違う種類のチーズができるかもしれません.</MousekinRace_CheesePress_InsertMilkDesc>

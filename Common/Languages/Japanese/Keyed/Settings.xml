@@ -13,6 +13,15 @@
 	<!-- EN: Mousekins who lose both their ears and do not receive prosthetic or natural implants will commit suicide after 15 in-game days due to social stigma.\n\nDisabling this will keep them alive, but they will continue to experience mood debuffs from missing ears. -->
 	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>両耳を失ったマウスキンが義肢や天然のインプラントを受けなかった場合、社会的な汚名によりゲーム内で15日後に自殺してしまいます.\n\nこれを無効化すると、生存は可能ですが、耳の欠損による感情状態の低下が継続します.</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>
 	
+	<!-- EN: Miscellaneous -->
+	<MousekinRace_Settings_SectionMisc_Heading>その他</MousekinRace_Settings_SectionMisc_Heading>
+	
+	<!-- EN: Root cellar temperature: {0} -->
+	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>地下貯蔵庫の温度: {0}</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>
+	
+	<!-- EN: Specify the temperature at which root cellars refrigerate their contents. -->
+	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>地下貯蔵庫の冷蔵温度を指定します.</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>
+	
 	<!-- EN: Faction Allegiance system -->
 	<MousekinRace_Settings_SectionAllegianceSys_Heading>派閥忠誠システム</MousekinRace_Settings_SectionAllegianceSys_Heading>
 	
