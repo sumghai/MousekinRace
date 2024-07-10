@@ -34,11 +34,9 @@
 					</li>
 					<li>
 						<defName Degree="-1">Beauty</defName>
-						<chance>100</chance>
 					</li>
 					<li>
 						<defName Degree="-2">Beauty</defName>
-						<chance>100</chance>
 					</li>
 					<li>
 						<defName>BodyPurist</defName>
@@ -57,15 +55,12 @@
 					</li>
 					<li>
 						<defName Degree="2">DrugDesire</defName>
-						<chance>100</chance>
 					</li>
 					<li>
 						<defName Degree="1">DrugDesire</defName>
-						<chance>100</chance>
 					</li>
 					<li>
 						<defName Degree="-1">DrugDesire</defName>
-						<chance>100</chance>
 					</li>
 					<li>
 						<defName>NightOwl</defName>
