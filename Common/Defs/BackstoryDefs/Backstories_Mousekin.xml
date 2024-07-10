@@ -2194,6 +2194,9 @@
 		</forcedTraitsChance>
 		<disallowedTraitsChance>
 			<li>
+				<defName>Bloodlust</defName>
+			</li>
+			<li>
 				<defName Degree="-1">Industriousness</defName>
 			</li>
 			<li>
@@ -2202,6 +2205,9 @@
 			<li>
 				<!-- Inquisitionist -->
 				<defName Degree="4">Mousekin_TraitSpectrum_Faith</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraitsChance>
 		<workDisables>
@@ -2239,6 +2245,9 @@
 		</forcedTraitsChance>
 		<disallowedTraitsChance>
 			<li>
+				<defName>Bloodlust</defName>
+			</li>
+			<li>
 				<defName Degree="-1">Industriousness</defName>
 			</li>
 			<li>
@@ -2247,6 +2256,9 @@
 			<li>
 				<!-- Inquisitionist -->
 				<defName Degree="4">Mousekin_TraitSpectrum_Faith</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
 			</li>
 		</disallowedTraitsChance>
 		<workDisables>
