@@ -102,6 +102,20 @@
 					</value>
 				</li>
 
+				<!-- Add MO wort and wine must recipes to Mousekin brewery workbench -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[
+						@Name="DankPyon_Make_WortBase" or
+						defName="DankPyon_MakeMustWine" or
+						defName="DankPyon_MakeMustMulberry" or
+						defName="DankPyon_MakeMustGriffon"
+					]/recipeUsers</xpath>
+					<value>
+						<li>Mousekin_WorkbenchBrewery</li>
+					</value>
+				</li>
+
 			</operations>
 		</match>
 	</Operation>
