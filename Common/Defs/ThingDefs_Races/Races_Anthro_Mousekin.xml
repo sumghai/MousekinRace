@@ -474,6 +474,9 @@
 						<Mousekin>Things/Pawn/Humanlike/Bodies/Naked_Mousekin</Mousekin>
 					</bodytypeGraphics>
 				</body>
+				<skull>
+					<path>Things/Pawn/Humanlike/Heads/Skull_Mousekin</path>
+				</skull>
 				<skinShader>Cutout</skinShader>
 				<!-- Override apparel graphics -->
 				<apparel>
