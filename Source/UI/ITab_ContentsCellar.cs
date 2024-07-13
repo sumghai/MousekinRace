@@ -14,15 +14,15 @@ namespace MousekinRace
 
         public static readonly float rowHeight = 28f;
 
-        public Building_StorageCellar StorageCellar => SelThing as Building_StorageCellar;
-        
-        public override IList<Thing> container => StorageCellar.GetDirectlyHeldThings().ToList();
+        public Building_CellarOutdoor RootCellar => SelThing as Building_CellarOutdoor;
+
+        public override IList<Thing> container => RootCellar.GetSlotGroup().HeldThings.ToList();
 
         public override bool IsVisible
         {
             get
             {
-                if (SelThing != null)
+                if (SelThing != null && !SelThing.def.IsFrame)
                 {
                     return base.IsVisible;
                 }
@@ -73,8 +73,7 @@ namespace MousekinRace
 
             // Tab heading (with item count and temperature) and tooltip
             float num = curY;
-            ThingOwnerUtility.TryGetFixedTemperature(StorageCellar, null, out float curTemp);
-            Widgets.ListSeparator(ref curY, inRectWidthNoScrollbar, containedItemsKey.Translate() + " (" + container.Count + " / " + StorageCellar.MaxStoredItems + " " + "ItemsLower".Translate() + ", " + GenText.ToStringTemperature(curTemp, "F0") + ")");
+            Widgets.ListSeparator(ref curY, inRectWidthNoScrollbar, containedItemsKey.Translate() + " (" + container.Count + " / " + RootCellar.MaxStoredItems + " " + "ItemsLower".Translate() + ", " + GenText.ToStringTemperature(MousekinRaceMod.Settings.RootCellarTemperature, "F0") + ")");
             Rect headingRect = new Rect(0f, num, inRectWidthNoScrollbar, curY - num - 3f);
             if (Mouse.IsOver(headingRect))
             {
@@ -123,11 +122,7 @@ namespace MousekinRace
             Rect ejectItemButtonRect = new Rect(curRowRect.width - buttonSize, curY, buttonSize, buttonSize);
             if (Widgets.ButtonImage(ejectItemButtonRect, DropTex.Texture))
             {
-                StorageCellar.GetDirectlyHeldThings().TryDrop(item, StorageCellar.InteractionCell, StorageCellar.Map, ThingPlaceMode.Near, item.stackCount, out var resultingThing);
-                if (resultingThing.TryGetComp(out CompForbiddable comp))
-                {
-                    comp.Forbidden = true;
-                }
+                RootCellar.EjectThing(item);
             }
             TooltipHandler.TipRegionByKey(ejectItemButtonRect, "MousekinRace_CellarOutdoor_EjectItemTooltip");
 
@@ -153,8 +148,7 @@ namespace MousekinRace
                 GUI.color = Color.white;
                 Text.Anchor = TextAnchor.UpperLeft;
 
-                ThingOwnerUtility.TryGetFixedTemperature(StorageCellar, item, out float curTemp);
-                float rotRate = GenTemperature.RotRateAtTemperature(Mathf.RoundToInt(curTemp));
+                float rotRate = GenTemperature.RotRateAtTemperature(Mathf.RoundToInt(item.AmbientTemperature));
                 TaggedString spoilDaysTooltipText = new();
                 if (rotRate < 0.001f)
                 {
