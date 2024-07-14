@@ -80,6 +80,7 @@
 					</categories>
 					<thingDefs>
 						<li>Mousekin_Flour</li>
+						<li>RawHops</li>
 					</thingDefs>
 					<disallowedCategories>
 						<li>EggsFertilized</li>
@@ -100,6 +101,7 @@
 					</categories>
 					<thingDefs>
 						<li>Mousekin_Flour</li>
+						<li>RawHops</li>
 					</thingDefs>
 					<disallowedThingDefs>
 						<li>Meat_Human</li>
