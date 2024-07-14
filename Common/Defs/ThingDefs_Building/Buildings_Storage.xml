@@ -78,6 +78,9 @@
 						<li>AnimalProductRaw</li>
 						<li>Mousekin_Beverages</li>
 					</categories>
+					<thingDefs>
+						<li>Mousekin_Flour</li>
+					</thingDefs>
 					<disallowedCategories>
 						<li>EggsFertilized</li>
 					</disallowedCategories>
@@ -95,6 +98,9 @@
 						<li>AnimalProductRaw</li>
 						<li>Mousekin_Beverages</li>
 					</categories>
+					<thingDefs>
+						<li>Mousekin_Flour</li>
+					</thingDefs>
 					<disallowedThingDefs>
 						<li>Meat_Human</li>
 						<li>Meat_Megaspider</li>
