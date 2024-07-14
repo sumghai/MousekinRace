@@ -61,7 +61,7 @@ namespace MousekinRace
                 QualityCategory c;
                 x.TryGetQuality(out c);
                 return (int)c;
-            }).ThenByDescending((Thing x) => (x.HitPoints / x.MaxHitPoints)).ToList();
+            }).ThenBy((Thing x) => x.TryGetComp<CompRottable>().TicksUntilRotAtCurrentTemp).ThenByDescending((Thing x) => (x.HitPoints / x.MaxHitPoints)).ToList();
             ListContainedItems(inRect, items, ref curY);
         }
 
