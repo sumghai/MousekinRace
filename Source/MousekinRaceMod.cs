@@ -19,6 +19,15 @@ namespace MousekinRace
             var harmony = new Harmony("com.MousekinRace");
             harmony.PatchAll();
 
+            if (ModCompatibility.LwmDeepStorageIsActive)
+            {
+                Log.Message("MousekinRace :: LWM's Deep Storage detected!");
+
+                var LwmDeepStorage_PatchPostfix = AccessTools.Method("LWM.DeepStorage.Open_DS_Tab_On_Select:Postfix");
+                var MousekinRace_LwmDeepStorage_PatchPrefix = AccessTools.Method(typeof(Harmony_LWM_DeepStorage_Open_DS_Tab_On_Select_IgnoreRootCellars), nameof(Harmony_LWM_DeepStorage_Open_DS_Tab_On_Select_IgnoreRootCellars.Prefix));
+                harmony.Patch(LwmDeepStorage_PatchPostfix, prefix: new HarmonyMethod(MousekinRace_LwmDeepStorage_PatchPrefix));
+            }
+
             if (ModCompatibility.VanillaCookingExpandedIsActive)
             {
                 Log.Message("MousekinRace :: Vanilla Cooking Expanded detected!");
