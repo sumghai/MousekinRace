@@ -76,6 +76,22 @@
 					</value>
 				</li>
 				
+				<!-- Replace flour from Root Cellar storage filters with MO Flour -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_CellarOutdoor"]/building/fixedStorageSettings/filter/thingDefs/li[.="Mousekin_Flour"]</xpath>
+					<value>
+						<li>DankPyon_Flour</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_CellarOutdoor"]/building/defaultStorageSettings/filter/thingDefs/li[.="Mousekin_Flour"]</xpath>
+					<value>
+						<li>DankPyon_Flour</li>
+					</value>
+				</li>
+				
 				<!-- Allow Country bread to be stored in MO's bread cupboards -->
 				
 				<li Class="PatchOperationAdd">
