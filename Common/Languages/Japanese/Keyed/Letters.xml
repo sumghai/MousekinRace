@@ -5,19 +5,19 @@
 	<MousekinRace_Letter_AllegianceSysIntro>忠誠システムをアンロック</MousekinRace_Letter_AllegianceSysIntro>
 	
 	<!-- EN: By building a town square, you have now unlocked the Faction Allegiance system.\n\nOnce you have built up enough goodwill with certain factions, you can choose which faction to declare allegiance to and access various perks.\n\nFor more information, click on the Allegiance button in the bottom menu bar. -->
-	<MousekinRace_Letter_AllegianceSysIntroDesc>広場を建設することで、派閥忠誠システムがアンロックされました。\n\n特定の派閥と十分な友好関係を築けば、どの派閥に忠誠を誓うかを選択でき、さまざまな特典を利用できます。\n\n詳しくは、下部メニューバーの「忠誠」ボタンをクリックしてください。</MousekinRace_Letter_AllegianceSysIntroDesc>
+	<MousekinRace_Letter_AllegianceSysIntroDesc>広場を建設することで、派閥忠誠システムがアンロックされました.\n\n特定の派閥と十分な友好関係を築けば、どの派閥に忠誠を誓うかを選択でき、さまざまな特典を利用できます.\n\n詳しくは、下部メニューバーの「忠誠」ボタンをクリックしてください.</MousekinRace_Letter_AllegianceSysIntroDesc>
 	
 	<!-- EN: Allegiance pledged to {0} -->
 	<MousekinRace_Letter_AllegianceSysJoinedFaction>忠誠は{0}に誓われた</MousekinRace_Letter_AllegianceSysJoinedFaction>
 
 	<!-- EN: Your faction is now a {0}. -->
-	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>あなたの派閥は{0}になりました。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>あなたの派閥は{0}になりました.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
 	
 	<!-- EN: The following colonists were unhappy with your new allegiance, and have decided to leave your faction:\n{0} -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>以下の入植者はあなたの新しい派閥忠誠に不満であり、あなたの派閥から離脱することを決定した:\n{0}</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>
 	
 	<!-- EN: All of your colonists have adopted the {0} ideoligion of the parent faction. -->
-	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>入植者全員が親派閥の{0}思想に従いました。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>入植者全員が親派閥の{0}思想に従いました.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
 	
 	<!-- EN: New colonists -->
 	<MousekinRace_Letter_AllegianceSysNewColonists>新しい入植者</MousekinRace_Letter_AllegianceSysNewColonists>
