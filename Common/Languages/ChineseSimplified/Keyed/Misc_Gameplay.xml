@@ -100,4 +100,7 @@
 	<!-- EN: Irrigation paused: Insufficient wind speed -->
 	<MousekinRace_Windmill_LowWindspeed>灌溉暂停︰风速不足</MousekinRace_Windmill_LowWindspeed>
 	
+	<!-- EN: But as for the Mousekins amongst the departing colonists, they will soon discover that regardless of noble title, the Empire extends no such courtesies to lesser races like them, and they will spend the rest of their days as glorified circus animals and "talking pets" performing for the amusement of the Imperial court.\n\nSuch is the fate of mice who naively believe in the lies of men. -->
+	<MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>但至于你的殖民者中的白鼠族们，他们很快就会发现，无论拥有多么高贵的头衔，帝国都不会对像他们这样的低等种族给予这样的礼遇。因此，他们将在余下的日子里被当作 「会说话的宠物」，为帝国宫廷的娱乐而表演，与马戏团的动物无异。 \n\n这就是天真地相信人类谎言的老鼠的命运。</MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>
+	
 </LanguageData>

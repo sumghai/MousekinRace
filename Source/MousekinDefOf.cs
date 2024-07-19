@@ -70,6 +70,9 @@ namespace MousekinRace
         public static FactionDef Mousekin_FactionKingdom;
         public static FactionDef Mousekin_FactionIndyTown;
 
+        [MayRequireRoyalty]
+        public static QuestScriptDef EndGame_RoyalAscent;
+
         [MayRequireIdeology]
         public static MemeDef AnimalPersonhood;
 
