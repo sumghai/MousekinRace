@@ -50,7 +50,6 @@
 			<li>Insult</li>
 		</blockInteractionRecipientExcept>
 		<blockRandomInteraction>true</blockRandomInteraction>
-		<colonistsOnly>true</colonistsOnly>
 		<requiredCapacities>
 			<li>Moving</li>
 			<li>Manipulation</li>

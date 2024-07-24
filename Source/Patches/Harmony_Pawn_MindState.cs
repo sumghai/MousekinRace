@@ -37,8 +37,8 @@ namespace MousekinRace
                         // Only check if the time has elapsed past the suicide threshold
                         if (EarlessMousekinAlertUtility.GetDaysSinceBothEarsLost(pawn) > EarlessMousekinAlertUtility.suicideAttemptThresholdDays)
                         {
-                            // Only trigger if the Mousekin belongs to the player faction and is not already a(nother) mental state
-                            if (!pawn.InMentalState && pawn.Faction == Faction.OfPlayer && MousekinDefOf.Mousekin_MentalState_EarlessSuicide.Worker.StateCanOccur(pawn))
+                            // Only trigger if the Mousekin is not already a(nother) mental state
+                            if (!pawn.InMentalState && MousekinDefOf.Mousekin_MentalState_EarlessSuicide.Worker.StateCanOccur(pawn))
                             {
                                 pawn.mindState.mentalStateHandler.TryStartMentalState(MousekinDefOf.Mousekin_MentalState_EarlessSuicide);
                             }
