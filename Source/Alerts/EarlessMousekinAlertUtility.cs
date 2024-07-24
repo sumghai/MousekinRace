@@ -23,10 +23,10 @@ namespace MousekinRace
             {
                 mousekinsMiserableResult.Clear();
 
-                foreach (Pawn pawn in PawnsFinder.AllMaps_FreeColonistsSpawned)
+                foreach (Pawn pawn in PawnsFinder.AllMaps_FreeColonistsAndPrisonersSpawned)
                 {
                     // Only check Mousekin pawns
-                    if (Utils.IsMousekin(pawn))
+                    if (pawn.IsMousekin())
                     {
                         if ((IsMissingBothEars(pawn) && GetDaysSinceBothEarsLost(pawn) < criticalWarningThresholdDays) || (IsMissingBothEars(pawn) && !MousekinRaceMod.Settings.EarlessMousekinsAreSuicidal))
                         {
@@ -45,10 +45,10 @@ namespace MousekinRace
             {
                 mousekinsSuicidalResult.Clear();
 
-                foreach (Pawn pawn in PawnsFinder.AllMaps_FreeColonistsSpawned)
+                foreach (Pawn pawn in PawnsFinder.AllMaps_FreeColonistsAndPrisonersSpawned)
                 {
                     // Only check Mousekin pawns
-                    if (Utils.IsMousekin(pawn))
+                    if (pawn.IsMousekin())
                     {
                         if (IsMissingBothEars(pawn) && GetDaysSinceBothEarsLost(pawn) > criticalWarningThresholdDays && MousekinRaceMod.Settings.EarlessMousekinsAreSuicidal)
                         {

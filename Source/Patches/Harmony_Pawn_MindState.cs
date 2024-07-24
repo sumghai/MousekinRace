@@ -29,7 +29,7 @@ namespace MousekinRace
             if (pawn.IsHashIntervalTick(15000))
             {
                 // Only check Mousekin pawns
-                if (Utils.IsMousekin(pawn))
+                if (pawn.IsMousekin())
                 {
                     // Only check if the Mousekin has lost both ears
                     if (EarlessMousekinAlertUtility.IsMissingBothEars(pawn))
