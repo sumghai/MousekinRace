@@ -93,7 +93,7 @@ namespace MousekinRace
         {
             GameComponent_Allegiance.Instance.alignedFaction = allegianceFaction;
             AlliableFactionExtension allegianceFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
-            List<Pawn> colonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+            List<Pawn> colonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists.Where(p => !p.IsSlave && !p.IsPrisoner).ToList();
 
             // Update the player faction icon, type and description if the player previously started as a non-Mousekin colony
             // (Automatically ignores Mousekin Refugee player faction)
@@ -149,7 +149,7 @@ namespace MousekinRace
         public static void RecacheDemographicsData()
         {
             GameComponent_Allegiance gameComponent = GameComponent_Allegiance.Instance;
-            List<Pawn> colonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+            List<Pawn> colonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists.Where(p => !p.IsSlave && !p.IsPrisoner).ToList();
             OtherRodentRacesExtension otherRodentRaces = MousekinDefOf.Mousekin.GetModExtension<OtherRodentRacesExtension>();
             List<AlienRace.ThingDef_AlienRace> differentRodentRaces = otherRodentRaces.differentRodentRaces;
             List<AlienRace.ThingDef_AlienRace> hostileRodentRaces = otherRodentRaces.hostileRodentRaces;
@@ -197,7 +197,7 @@ namespace MousekinRace
             AlliableFactionExtension alliableFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
             List<PawnKindDef> quittingPawnKinds = alliableFactionExtension.quittingPawnKinds;
             List<BackstoryTrait> quittingPawnWithTraits = alliableFactionExtension.quittingPawnsWithTraits;
-            List<Pawn> tempAllColonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+            List<Pawn> tempAllColonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists.Where(p => !p.IsSlave && !p.IsPrisoner).ToList();
             List<Tuple<Pawn, string>> quittingColonists = new();
             List<Tuple<Pawn, string>> quittingColonistsByPawnKind = new();
             List<Tuple<Pawn, string>> quittingColonistsByTraits = new();
@@ -347,7 +347,7 @@ namespace MousekinRace
 
         public static bool AnyColonistsWithShatteredEmpireTitle()
         {          
-            List<Pawn> tempAllColonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+            List<Pawn> tempAllColonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists.Where(p => !p.IsSlave && !p.IsPrisoner).ToList();
             foreach (Pawn pawn in tempAllColonists)
             {
                 if (pawn.royalty.HasAnyTitleIn(Faction.OfEmpire))

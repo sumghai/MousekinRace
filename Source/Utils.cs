@@ -22,10 +22,10 @@ namespace MousekinRace
         // Get the primary race of any given faction
         public static ThingDef_AlienRace GetRaceOfFaction(FactionDef faction) => (faction.basicMemberKind?.race ?? faction.pawnGroupMakers?.SelectMany(selector: groupMaker => groupMaker.options).GroupBy(keySelector: groupMaker => groupMaker.kind.race).OrderByDescending(keySelector: g => g.Count()).First().Key) as ThingDef_AlienRace;
 
-        // Get percentage of player faction colonists that are Mousekins
+        // Get percentage of player faction free colonists that are Mousekins
         public static float PercentColonistsAreMousekins()
         {
-            List<Pawn> allColonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists;
+            List<Pawn> allColonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists.Where(p => !p.IsSlave && !p.IsPrisoner).ToList();
             int playerFactionTotalColonistCount = allColonists.Count();
             int playerFactionMousekinColonistCount = allColonists.Where(p => IsMousekin(p)).Count();
             return (playerFactionTotalColonistCount == 0) ? 0 : (float) playerFactionMousekinColonistCount / playerFactionTotalColonistCount;
