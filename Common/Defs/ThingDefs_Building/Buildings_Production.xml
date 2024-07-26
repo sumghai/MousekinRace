@@ -578,7 +578,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_Beehive</defName>
 		<label>Mousekin beehive</label>
-		<description>A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees.</description>
+		<description>A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate.</description>
 		<thingClass>MousekinRace.Building_Beehive</thingClass>
 		<tickerType>Rare</tickerType>
 		<graphicData>

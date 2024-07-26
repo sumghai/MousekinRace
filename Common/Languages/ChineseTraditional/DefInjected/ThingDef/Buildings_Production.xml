@@ -14,8 +14,8 @@
 	<Mousekin_WorkbenchSmithy.description>一種燒木頭的鍛爐、鐵砧和淬火桶，用於鍛造各種白鼠族武器、工具和板甲。在戶外使用不會受到工作速度懲罰。</Mousekin_WorkbenchSmithy.description>		<!-- EN: Mousekin seamstress bench -->
 	<Mousekin_WorkbenchTailor.label>白鼠族裁縫桌</Mousekin_WorkbenchTailor.label>		<!-- EN: A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing. -->
 	<Mousekin_WorkbenchTailor.description>一種帶有鑄鐵腳踏縫紉機的工作台，用於縫製白鼠族的衣服。</Mousekin_WorkbenchTailor.description>		<!-- EN: Mousekin beehive -->
-	<Mousekin_Beehive.label>白鼠族蜂箱</Mousekin_Beehive.label>		<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. -->
-	<Mousekin_Beehive.description>一種用於飼養蜜蜂的木製蜂箱。由於白鼠族的獨創性，育雛框架中的蜂窩細胞被設計成只需簡單地拉動一個槓桿就可以裂開，這樣就可以在不干擾蜜蜂的情況下輕鬆收穫蜂蜜和蜂蠟。</Mousekin_Beehive.description>		<!-- EN: Mousekin cheese press -->
+	<Mousekin_Beehive.label>白鼠族蜂箱</Mousekin_Beehive.label>		<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate. -->
+	<Mousekin_Beehive.description>一種用於飼養蜜蜂的木製蜂箱。由於白鼠族的獨創性，育雛框架中的蜂窩細胞被設計成只需簡單地拉動一個槓桿就可以裂開，這樣就可以在不干擾蜜蜂的情況下輕鬆收穫蜂蜜和蜂蠟。需要在標示的圓形區域內至少種植20種花卉才能運作。</Mousekin_Beehive.description>		<!-- EN: Mousekin cheese press -->
 	<Mousekin_CheesePress.label>白鼠族起司壓榨機</Mousekin_CheesePress.label>		<!-- EN: A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese. -->
 	<Mousekin_CheesePress.description>一種木製裝置，用於將凝乳中的乳清壓榨成三葉草伯里起司。</Mousekin_CheesePress.description>		<!-- EN: Mousekin fermenting barrel -->
 	<Mousekin_FermentingBarrel.label>白鼠族發酵桶</Mousekin_FermentingBarrel.label>		<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->

@@ -44,8 +44,8 @@
 	<!-- EN: Mousekin beehive -->
 	<Mousekin_Beehive.label>マウスキン養蜂箱</Mousekin_Beehive.label>
 	
-	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. -->
-	<Mousekin_Beehive.description>ミツバチを飼うための木製の蜂の巣です.マウスキンの工夫により、ブルードフレームのハニカムセルはレバーを引くだけで割れるようになっており、ミツバチの邪魔をすることなく簡単にハチミツやミツロウを収穫することができます.</Mousekin_Beehive.description>
+	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate. -->
+	<Mousekin_Beehive.description>ミツバチを飼うための木製の蜂の巣です.マウスキンの工夫により、ブルードフレームのハニカムセルはレバーを引くだけで割れるようになっており、ミツバチの邪魔をすることなく簡単にハチミツやミツロウを収穫することができます.作動させるには、マークされた円形エリア内に少なくとも20本の花を植える必要があります.</Mousekin_Beehive.description>
 	
 	<!-- EN: Mousekin cheese press -->
 	<Mousekin_CheesePress.label>マウスキンチーズプレス</Mousekin_CheesePress.label>
