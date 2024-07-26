@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin door -->
+	<Mousekin_DoorBasic.label>マウスキンの木製扉</Mousekin_DoorBasic.label>
+	
+	<!-- EN: A simple wooden door typically found in cottages and other Mousekin commoner buildings. Divides rooms and must be manually opened, which slows people down. -->
+	<Mousekin_DoorBasic.description>コテージなどマウスキンの庶民的な建物によく見られるシンプルな木製扉.部屋を仕切り、手で操作するため、移動速度が遅くなります.</Mousekin_DoorBasic.description>
+	
+	<!-- EN: Mousekin reinforced door -->
+	<Mousekin_DoorReinforced.label>マウスキン強化木製扉</Mousekin_DoorReinforced.label>
+	
+	<!-- EN: A heavy wooden door reinforced with steel straps, typically found in middle- and upper-class Mousekin buildings. Divides rooms and must be manually opened, which slows people down. -->
+	<Mousekin_DoorReinforced.description>鋼鉄製のストラップで補強された重い木製扉で、マウスキンの中流階級以上の建物によく見られます.部屋を仕切り、手で操作するため、移動速度が遅くなります.</Mousekin_DoorReinforced.description>
+
 	<!-- EN: wattle and daub wall -->
 	<Mousekin_WallCottage.label>土壁</Mousekin_WallCottage.label>
 	

@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- ========== Doors ========== -->
+	
+	<ThingDef Name="Mousekin_DoorSingleBase" ParentName="Door" Abstract="True">
+		<thingClass>MousekinRace.Building_DoorSingle</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<stuffCategories Inherit="false" />
+		<costStuffCount Inherit="false" />
+		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+		<building>
+			<blueprintGraphicData>
+				<graphicClass>Graphic_Multi</graphicClass>
+			</blueprintGraphicData>
+			<paintable>false</paintable>
+		</building>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchBuildingVillage</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DoorSingleBase">
+		<defName>Mousekin_DoorBasic</defName>
+		<label>Mousekin door</label>
+		<description>A simple wooden door typically found in cottages and other Mousekin commoner buildings. Divides rooms and must be manually opened, which slows people down.</description>
+		<graphicData>
+			<texPath>Things/Building/Door/Mousekin_DoorBasic_Mover</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Door/Mousekin_DoorBasic_Mover_north</uiIconPath>
+		<costList>
+			<WoodLog>20</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DoorOpenSpeed>1.2</DoorOpenSpeed>
+		</statBases>	
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Door/Mousekin_DoorBasic_Blueprint</texPath>
+			</blueprintGraphicData>
+		</building>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_DoorSingleBase">
+		<defName>Mousekin_DoorReinforced</defName>
+		<label>Mousekin reinforced door</label>
+		<description>A heavy wooden door reinforced with steel straps, typically found in middle- and upper-class Mousekin buildings. Divides rooms and must be manually opened, which slows people down.</description>
+		<graphicData>
+			<texPath>Things/Building/Door/Mousekin_DoorReinforced_Mover</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Door/Mousekin_DoorReinforced_Mover_north</uiIconPath>
+		<costList>
+			<WoodLog>20</WoodLog>
+			<Steel>5</Steel>
+		</costList>
+		<statBases>
+			<WorkToBuild>900</WorkToBuild>
+			<MaxHitPoints>140</MaxHitPoints>
+		</statBases>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Door/Mousekin_DoorReinforced_Blueprint</texPath>
+			</blueprintGraphicData>
+		</building>
+	</ThingDef>
+	
+	<!-- ========== Walls ========== -->
+	
 	<!-- Wattle and daub wall -->
 	
 	<ThingDef ParentName="Wall">
@@ -30,6 +102,10 @@
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Mousekin_WallCottage_Blueprint</texPath>
 			</blueprintGraphicData>
+			<relatedBuildCommands Inherit="false">
+				<li>Mousekin_DoorBasic</li>
+				<li>Mousekin_DoorReinforced</li>
+			</relatedBuildCommands>
 		</building>
 		<researchPrerequisites>
 			<li>Mousekin_ResearchBuildingVillage</li>

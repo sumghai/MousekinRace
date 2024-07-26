@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin door -->
+	<Mousekin_DoorBasic.label>白鼠族木门</Mousekin_DoorBasic.label>
+	
+	<!-- EN: A simple wooden door typically found in cottages and other Mousekin commoner buildings. Divides rooms and must be manually opened, which slows people down. -->
+	<Mousekin_DoorBasic.description>通常出现在平房和其他白鼠族平民建筑物的简单木门。用来分隔房间，必须手动开关的门，人们在通行时会减速。</Mousekin_DoorBasic.description>
+	
+	<!-- EN: Mousekin reinforced door -->
+	<Mousekin_DoorReinforced.label>白鼠族强化木门</Mousekin_DoorReinforced.label>
+	
+	<!-- EN: A heavy wooden door reinforced with steel straps, typically found in middle- and upper-class Mousekin buildings. Divides rooms and must be manually opened, which slows people down. -->
+	<Mousekin_DoorReinforced.description>以钢带加固的厚重木门，通常出现在中上等的白鼠族建筑中。用来分隔房间，必须手动开关的门，人们在通行时会减速。</Mousekin_DoorReinforced.description>
+
 	<!-- EN: wattle and daub wall -->
 	<Mousekin_WallCottage.label>抹灰篱笆墙</Mousekin_WallCottage.label>
 	

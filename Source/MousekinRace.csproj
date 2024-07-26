@@ -309,6 +309,7 @@
     <Compile Include="BackCompatibilityConverter_Mousekin.cs" />
     <Compile Include="Buildings\Building_Beehive.cs" />
     <Compile Include="Buildings\Building_CellarOutdoor.cs" />
+    <Compile Include="Buildings\Building_DoorSingle.cs" />
     <Compile Include="Buildings\Building_TownSquare.cs" />
     <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
     <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />

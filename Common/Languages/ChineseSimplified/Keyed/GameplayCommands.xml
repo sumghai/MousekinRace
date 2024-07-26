@@ -19,6 +19,12 @@
 	<!-- EN: Toggle wearing {0} attached to apparel. -->
 	<MousekinRace_CommandToggleAttachedHeadgearDesc>切换是否戴上附着在服装的{0}。</MousekinRace_CommandToggleAttachedHeadgearDesc>
 	
+	<!-- EN: Flip -->
+	<MousekinRace_CommandToggleFlipDoorLabel>翻转</MousekinRace_CommandToggleFlipDoorLabel>
+	
+	<!-- EN: Flip which direction the door should close towards. -->
+	<MousekinRace_CommandToggleFlipDoorDesc>翻转门应朝哪个方向关闭。</MousekinRace_CommandToggleFlipDoorDesc>
+	
 	<!-- EN: Your faction is a {0}, who is an enemy of this settlement's faction. -->
 	<MousekinRace_CommandShowSellableItemsDesc_DisabledReason>你的派系是{0}，也是这个定居点的派系的敌人。</MousekinRace_CommandShowSellableItemsDesc_DisabledReason>
 	

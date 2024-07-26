@@ -19,6 +19,12 @@
 	<!-- EN: Toggle wearing {0} attached to apparel. -->
 	<MousekinRace_CommandToggleAttachedHeadgearDesc>의류에 부착된 {0} 착용을 전환합니다.</MousekinRace_CommandToggleAttachedHeadgearDesc>
 	
+	<!-- EN: Flip -->
+	<MousekinRace_CommandToggleFlipDoorLabel>플립</MousekinRace_CommandToggleFlipDoorLabel>
+	
+	<!-- EN: Flip which direction the door should close towards. -->
+	<MousekinRace_CommandToggleFlipDoorDesc>문이 어느 방향으로 닫힐지 뒤집습니다.</MousekinRace_CommandToggleFlipDoorDesc>
+	
 	<!-- EN: Your faction is a {0}, who is an enemy of this settlement's faction. -->
 	<MousekinRace_CommandShowSellableItemsDesc_DisabledReason>당신의 진영은 {0}이며, 이 정착지의 진영의 적이기도 합니다.</MousekinRace_CommandShowSellableItemsDesc_DisabledReason>
 	
