@@ -7,4 +7,10 @@
 	<!-- EN: A sturdy stone fireplace for heating rooms as well as cooking simple meals. -->
 	<Mousekin_Fireplace.description>石造りの頑丈な暖炉は、部屋を暖めるだけでなく、簡単な料理も作ることができます.</Mousekin_Fireplace.description>
 	
+	<!-- EN: cast-iron wall vent -->
+	<Mousekin_WallVent.label>鋳鉄製壁掛け換気口</Mousekin_WallVent.label>
+	
+	<!-- EN: A wall-mounted vent with a cast-iron grille for equalizing the temperature between two rooms without allowing people to walk between them. -->
+	<Mousekin_WallVent.description>鋳鉄製グリル付き壁掛け換気口は,人の往来を禁止した状態のままでも2つの部屋の温度を均一にします.</Mousekin_WallVent.description>
+	
 </LanguageData>

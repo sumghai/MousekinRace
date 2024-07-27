@@ -114,4 +114,62 @@
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</ThingDef>
 
+	<!-- Wall vent -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_WallVent</defName>
+		<label>cast-iron wall vent</label>
+		<description>A wall-mounted vent with a cast-iron grille for equalizing the temperature between two rooms without allowing people to walk between them.</description>
+		<thingClass>Building_Vent</thingClass>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mousekin_WallVent</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<fillPercent>0.25</fillPercent>
+		<statBases>
+			<WorkToBuild>100</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<designationCategory>Temperature</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<castEdgeShadows>false</castEdgeShadows>
+		<blockWind>true</blockWind>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<blockWeather>true</blockWeather>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<comps>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>UI/Commands/Vent</commandTexture>
+				<commandLabelKey>CommandDesignateOpenCloseVentLabel</commandLabelKey>
+				<commandDescKey>CommandDesignateOpenCloseVentDesc</commandDescKey>
+			</li>
+			<li Class="VanillaFurnitureExpanded.CompProperties_MountableOnWall"/>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_Vent</li>
+			<li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchBuildingVillage</li>
+		</researchPrerequisites>
+	</ThingDef>
+
 </Defs>
