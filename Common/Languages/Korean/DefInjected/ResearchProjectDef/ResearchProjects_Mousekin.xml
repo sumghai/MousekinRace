@@ -1,94 +1,403 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: Commoner apparel -->
+	<!-- EN: commoner apparel -->
 	<Mousekin_ResearchApparelCommoner.label>평민 의류</Mousekin_ResearchApparelCommoner.label>
 
 	<!-- EN: Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners. -->
 	<Mousekin_ResearchApparelCommoner.description>다양한 리젠시 시대 복장과 액세서리를 맞춤 제작하여 마우스킨 평민들이 일상적으로 입을 수 있는 실용적인 옷을 입으세요.</Mousekin_ResearchApparelCommoner.description>
+	
+	<!-- EN : 
+		<li>subject->practical apparel</li>
+		<li>subject->everyday apparel</li>
+		
+		<li>subject_story->established a tailor's shop in a bustling Mousekin city</li>
+		<li>subject_story->altered clothes as a favor to family and friends, before eventually taking on paid work from other Mousekins in the village</li>
+		<li>subject_story->apprenticed under an experienced Mousekin seamstress in a faraway Mousekin town</li>
+		
+		<li>subject_gerund->tailoring practical apparel</li>
+		<li>subject_gerund->tailoring everyday apparel</li>
+	-->
+	<Mousekin_ResearchApparelCommoner.generalRules.rulesStrings>
+		<li>subject->실용적인 의류</li>
+		<li>subject->일상 의류</li>
+		
+		<li>subject_story->번화 한 마우스킨 도시에 양복점을 설립했습니다.</li>
+		<li>subject_story->가족과 친구들에게 호의로 옷을 갈아 입히고, 결국 마을의 다른 마우스킨들로부터 돈을 받고 일을 맡습니다.</li>
+		<li>subject_story->멀리 떨어진 마우스킨 마을에서 숙련된 마우스킨 재봉사 밑에서 도제 생활을 하며</li>
+		
+		<li>subject_gerund->실용적인 의류 맞춤 제작</li>
+		<li>subject_gerund->일상 의류 맞춤 제작</li>
+	</Mousekin_ResearchApparelCommoner.generalRules.rulesStrings>
 
-	<!-- EN: Middle-class apparel -->
+	<!-- EN: middle-class apparel -->
 	<Mousekin_ResearchApparelMiddle.label>중산층 의류</Mousekin_ResearchApparelMiddle.label>
 
 	<!-- EN: Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchApparelMiddle.description>고급 서번트, 가드너, 사제, 수녀 등 마우스킨 전문가들이 착용하는 다양한 의상을 맞춤 제작하세요. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchApparelMiddle.description>
+	
+	<!-- EN:
+		<li>subject->middle-class apparel</li>
+		
+		<li>subject_story->mended clothes for [ANYPAWN_possessive] fellow servants while working in the household of a wealthy Mousekin landowner</li>
+		<li>subject_story->earned the patronage of the local Mousekin church by fixing a tear in a bishop's clerical robes just before an important religious mass</li>
+		<li>subject_story->supplied uniforms to the local Mousekin Guardener order</li>
+		
+		<li>subject_gerund->tailoring middle-class apparel</li>
+	-->
+	<Mousekin_ResearchApparelMiddle.generalRules.rulesStrings>
+		<li>subject->중산층 의류</li>
+		
+		<li>subject_story->부유한 마우스킨 지주의 집에서 일하면서 동료 하인들의 옷을 수선했습니다</li>
+		<li>subject_story->중요한 종교 미사 직전에 주교의 성직자 예복의 찢어진 부분을 수선하여 지역 마우스킨 교회의 후원을 받았습니다</li>
+		<li>subject_story->지역 마우스킨 가디너 주문에 유니폼 공급</li>
+		
+		<li>subject_gerund->중산층 의류 맞춤 제작</li>
+	</Mousekin_ResearchApparelMiddle.generalRules.rulesStrings>
 
-	<!-- EN: Military apparel -->
+	<!-- EN: military apparel -->
 	<Mousekin_ResearchApparelMilitary.label>군복</Mousekin_ResearchApparelMilitary.label>
 
 	<!-- EN: Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchApparelMilitary.description>덧대어진 갬베슨을 재단하고 다양한 갑옷과 투구를 만들어 전투에서 마스크인 병사와 기사들을 보호합니다. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchApparelMilitary.description>
+	
+	<!-- EN: 
+		<li>subject->Mousekin military apparel</li>
+		
+		<li>subject_story->was commissioned by a local Mousekin Knight Commander to supply gambesons for his soldiers</li>
+		<li>subject_story->apprenticed under a Mousekin blacksmith and forged armor for the town garrison</li>
+		<li>subject_story->made padded liners for the kettle hats and morions worn by Mousekin soldiers</li>
+		
+		<li>subject_gerund->tailoring Mousekin gambesons</li>
+		<li>subject_gerund->smithing Mousekin armor</li>
+	-->
+	<Mousekin_ResearchApparelMilitary.generalRules.rulesStrings>
+		<li>subject->마우스킨 군용 의류</li>
+		
+		<li>subject_story->지역 마우스킨 기사단 사령관으로부터 병사들에게 갬베슨을 공급해 달라는 의뢰를 받았습니다</li>
+		<li>subject_story->마우스킨 대장장이 밑에서 도제 생활을 하며 마을 수비대를 위해 갑옷을 만들었습니다</li>
+		<li>subject_story->는 마우스킨 병사들이 착용하는 케틀 헬멧과 모리온 헬멧의 패딩 라이너를 제작했습니다</li>
+		
+		<li>subject_gerund->마우스킨 갬베슨 테일러링</li>
+		<li>subject_gerund->제련 마우스킨 갑옷</li>
+	</Mousekin_ResearchApparelMilitary.generalRules.rulesStrings>
 
-	<!-- EN: Aristocratic apparel -->
+	<!-- EN: aristocratic apparel -->
 	<Mousekin_ResearchApparelNoble.label>귀족 의류</Mousekin_ResearchApparelNoble.label>
 
 	<!-- EN: Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchApparelNoble.description>안목 있는 취향을 지닌 귀족 마우스킨을 위한 스타일리시한 정장 의상을 맞춤 제작하세요. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchApparelNoble.description>
+	
+	<!-- EN:
+		<li>subject->aristocratic apparel</li>
+		<li>subject->formal apparel</li>
+		<li>subject->noble apparel</li>
+		
+		<li>subject_story->mended clothes for [ANYPAWN_possessive] master, a local Mousekin baron</li>
+		<li>subject_story->was commissioned to tailor an elaborate suit for a groom in a wedding between two Mousekin noble families</li>
+		<li>subject_story->apprenticed under a Mousekin seamstress, whose clients included members of the Mousekin Royal Family</li>
+		
+		<li>subject_gerund->tailoring aristocratic apparel</li>
+		<li>subject_gerund->tailoring for the nobility</li>
+	-->
+	<Mousekin_ResearchApparelNoble.generalRules.rulesStrings>
+		<li>subject->귀족 복장</li>
+		<li>subject->예식 복장</li>
+		<li>subject->귀족 복장</li>
+		
+		<li>subject_story->주인이었던 마우스킨 남작의 옷을 수선했습니다</li>
+		<li>subject_story->는 마우스킨 귀족 가문의 결혼식에서 신랑을 위한 정교한 양복 맞춤을 의뢰받았습니다</li>
+		<li>subject_story->마우스킨 왕실 가족을 고객으로 둔 마우스킨 재봉사 밑에서 견습생으로 일했습니다</li>
+		
+		<li>subject_gerund->귀족 의류 맞춤 제작</li>
+		<li>subject_gerund->귀족을 위한 테일러링</li>
+	</Mousekin_ResearchApparelNoble.generalRules.rulesStrings>
 
-	<!-- EN: Medicinal alchemy -->
+	<!-- EN: medicinal alchemy -->
 	<Mousekin_ResearchAlchemy.label>약용 연금술</Mousekin_ResearchAlchemy.label>
 
 	<!-- EN: Concoct poultices and potions from a variety of herbal and mineral ingredients. -->
 	<Mousekin_ResearchAlchemy.description>다양한 허브 및 미네랄 성분으로 만든 습포제와 물약을 만듭니다.</Mousekin_ResearchAlchemy.description>
+	
+	<!-- EN: 
+		<li>subject->potions</li>
+		<li>subject->medicinal poultices</li>
+		
+		<li>subject_story->concocted potions of courage for a cowardly Mousekin soldier, who later became a fearless Mousekin Knight Commander</li>
+		<li>subject_story->cultivated and sold herbal medicines wholesale to Mousekin doctors and Guardeners</li>
+		<li>subject_story->spent a lifetime attempting to transmutate cheap gravel into gold and silver</li>
+		
+		<li>subject_gerund->concocting potions</li>
+		<li>subject_gerund->preparing medicinal poultices</li>	
+	-->
+	<Mousekin_ResearchAlchemy.generalRules.rulesStrings>
+		<li>subject->물약</li>
+		<li>subject->약용 파스</li>
+		
+		<li>subject_story->겁 많은 마우스킨 병사에게 용기의 물약을 만들어주었고, 나중에 용감한 마우스킨 기사단 사령관이 되었습니다.</li>
+		<li>subject_story->마우스킨 의사 및 정원경비원에게 한약재 재배 및 도매 판매</li>
+		<li>subject_story->값싼 자갈을 금과 은으로 바꾸기 위해 평생을 보냈습니다</li>
+		
+		<li>subject_gerund->물약 만들기</li>
+		<li>subject_gerund->약용 파스 준비하기</li>
+	</Mousekin_ResearchAlchemy.generalRules.rulesStrings>
 
-	<!-- EN: 숯 -->
-	<Mousekin_ResearchCharcoal.label>木炭</Mousekin_ResearchCharcoal.label>
+	<!-- EN: charcoal -->
+	<Mousekin_ResearchCharcoal.label>숯</Mousekin_ResearchCharcoal.label>
 
 	<!-- EN: Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions. -->
 	<Mousekin_ResearchCharcoal.description>나무를 숯으로 정제하여 고효율 연료원으로 사용하거나 다양한 마스킨 약용 물약의 원료로 사용할 수 있습니다.</Mousekin_ResearchCharcoal.description>
+	
+	<!-- EN: 
+		<li>subject->charcoal making</li>
+		
+		<li>subject_story->apprenticed under a collier in a distant Mousekin village</li>
+		<li>subject_story->noticed how unburnt chunks of wood left over from a campfire burned better than new firewood</li>
+		<li>subject_story->lived alone on the outskirts of a Mousekin town, tending [ANYPAWN_possessive] charcoal piles</li>
+		
+		<li>subject_gerund->making charcoal</li>
+	-->
+	<Mousekin_ResearchCharcoal.generalRules.rulesStrings>
+		<li>subject->숯 만들기</li>
+		
+		<li>subject_story->먼 마우스킨 마을의 숯 제작자 밑에서 도제 생활을 하며</li>
+		<li>subject_story->모닥불을 피우고 남은 타지 않은 나무 덩어리가 새 장작보다 더 잘 타는 것을 발견했습니다.</li>
+		<li>subject_story->마우스킨 마을 외곽에서 숯더미를 돌보며 혼자 살았습니다.</li>
+		
+		<li>subject_gerund->숯 만들기</li>
+	</Mousekin_ResearchCharcoal.generalRules.rulesStrings>
 
-	<!-- EN: Clockwork mechanisms -->
+	<!-- EN: clockwork mechanisms -->
 	<Mousekin_ResearchMachineryBasic.label>시계 메커니즘</Mousekin_ResearchMachineryBasic.label>
 
 	<!-- EN: Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchMachineryBasic.description>자동 석궁과 같은 다양한 장치에 사용할 수 있는 복잡한 부품과 태엽을 감는 스프링 메커니즘을 제작하세요. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchMachineryBasic.description>
+	
+	<!-- EN:
+		<li>subject->clockwork mechanisms</li>
+		
+		<li>subject_story->crafted small mechanical toys from scraps of metal to amuse local Mouselings</li>
+		<li>subject_story->apprenticed under a Mousekin master craftsman commissioned to make automatic crossbows for the Mousekin Kingdom's army</li>
+		<li>subject_story->repaired clocks and pocket watches for wealthy Mousekin nobles</li>
+		
+		<li>subject_gerund->crafting clockwork mechanisms</li>
+	-->
+	<Mousekin_ResearchMachineryBasic.generalRules.rulesStrings>
+		<li>subject->시계 메커니즘</li>
+		
+		<li>subject_story->금속 조각으로 작은 기계 장난감을 만들어 동네 쥐새끼들을 즐겁게 해주었습니다</li>
+		<li>subject_story->마우스킨 왕국의 군대를 위한 자동 석궁 제작을 의뢰받은 마우스킨의 장인 밑에서 도제 생활을 했습니다</li>
+		<li>subject_story->부유한 마우스킨 귀족들을 위해 시계와 회중시계를 수리했습니다</li>
+		
+		<li>subject_gerund->시계 메커니즘 제작</li>
+	</Mousekin_ResearchMachineryBasic.generalRules.rulesStrings>
 
-	<!-- EN: Heavy machinery -->
+	<!-- EN: heavy machinery -->
 	<Mousekin_ResearchMachineryAdvanced.label>중장비</Mousekin_ResearchMachineryAdvanced.label>
 
 	<!-- EN: Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchMachineryAdvanced.description>수력 발전소와 돌을 던지는 야생조류와 같은 중장비를 만드세요. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchMachineryAdvanced.description>
+	
+	<!-- EN:
+		<li>subject->heavy machinery</li>
+		
+		<li>subject_story->erected and operated rock-throwing onagers in the Mousekin Kingdom's army</li>
+		<li>subject_story->witnessed a terrifying flood that decimated a Mousekin village, and became determined to tame the raw power of the flowing river</li>
+		<li>subject_story->toiled day and night in the treadwheel cranes at the construction site of a grand Mousekin fortress</li>
+		
+		<li>subject_gerund->constructing heavy machinery</li>
+	-->
+	<Mousekin_ResearchMachineryAdvanced.generalRules.rulesStrings>
+		<li>subject->중장비</li>
+		
+		<li>subject_story->마우스킨 왕국의 군대에 돌을 던지는 오네이저를 세우고 운영했습니다</li>
+		<li>subject_story->마우스킨 마을을 초토화시킨 끔찍한 홍수를 목격하고 흐르는 강의 원초적 힘을 길들이기로 결심합니다</li>
+		<li>subject_story->웅장한 마우스킨 요새 건설 현장의 트레드휠 크레인에서 밤낮으로 고생했습니다</li>
+		
+		<li>subject_gerund->중장비 건설</li>
+	</Mousekin_ResearchMachineryAdvanced.generalRules.rulesStrings>
 
-	<!-- EN: Deep mining -->
+	<!-- EN: deep mining -->
 	<Mousekin_ResearchMining.label>깊은 채굴</Mousekin_ResearchMining.label>
 
 	<!-- EN: Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchMining.description>일반 광물과 이국적인 광물을 지하에서 채굴할 수 있도록 깊은 샤프트 광산 입구를 건설하십시오. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchMining.description>
+	
+	<!-- EN:
+		<li>subject->deep underground mining</li>
+		
+		<li>subject_story->survived a cave-in that left dozens of [ANYPAWN_possessive] fellow Mousekin miners buried alive under rubble</li>
+		<li>subject_story->made a fortune from discovering an untapped gold vein</li>
+		<li>subject_story->erected bracing for tunnels deep inside a Mousekin underground mine</li>
+		
+		<li>subject_gerund->toiling in deep underground mines</li>
+	-->
+	<Mousekin_ResearchMining.generalRules.rulesStrings>
+		<li>subject->깊은 지하 채굴</li>
+		
+		<li>subject_story->수십 명의 동료 마우스킨 광부들이 잔해 속에 산 채로 묻힌 동굴에서 살아남았습니다</li>
+		<li>subject_story->미개발 금맥을 발견해 큰돈을 벌었습니다</li>
+		<li>subject_story->마우스킨 지하 광산 깊숙한 곳에 터널을 위한 버팀대를 세웠습니다</li>
+		
+		<li>subject_gerund->깊은 지하 광산에서의 수고</li>
+	</Mousekin_ResearchMining.generalRules.rulesStrings>
 
-	<!-- EN: Gunpowder -->
+	<!-- EN: gunpowder -->
 	<Mousekin_ResearchGunpowder.label>화약</Mousekin_ResearchGunpowder.label>
 
 	<!-- EN: Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchGunpowder.description>머스킷총, 선회포, 대포와 같은 무기의 추진제로 사용되는 원시적인 마우스킨 폭발물을 제작합니다. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchGunpowder.description>
+	
+	<!-- EN: 
+		<li>subject->making gunpowder</li>
+		
+		<li>subject_story->blew [ANYPAWN_objective]self sky-high while attempting to concoct the Elixir of Life</li>
+		<li>subject_story->was commissioned by the Mousekin Kingdom's army to craft acorn grenades</li>
+		<li>subject_story->witnessed the terrifying power of rockets fired by Mousekin rebels from their Thunderpikes</li>
+		
+		<li>subject_gerund->making gunpowder</li>
+	-->
+	<Mousekin_ResearchGunpowder.generalRules.rulesStrings>
+		<li>subject->화약 만들기</li>
+		
+		<li>subject_story->불로장생의 묘약을 만들려다 자폭했습니다</li>
+		<li>subject_story->마우스킨 왕국의 군대에게 도토리 수류탄 제작을 의뢰받았습니다</li>
+		<li>subject_story->마우스킨 반군이 썬더파이크에서 발사한 로켓의 무시무시한 위력을 목격했습니다</li>
+		
+		<li>subject_gerund->화약 만들기</li>
+	</Mousekin_ResearchGunpowder.generalRules.rulesStrings>
 
-	<!-- EN: Cast-iron stoves -->
+	<!-- EN: cast-iron stoves -->
 	<Mousekin_ResearchCookingIronStoves.label>주철 스토브</Mousekin_ResearchCookingIronStoves.label>
 
 	<!-- EN: Build cast-iron stoves for cooking more complex Mousekin dishes. -->
 	<Mousekin_ResearchCookingIronStoves.description>더 복잡한 마우스킨 요리를 요리하기 위해 주철 스토브를 만드십시오.</Mousekin_ResearchCookingIronStoves.description>
+	
+	<!-- EN:
+		<li>subject->cast-iron stoves</li>
+		
+		<li>subject_story->stoked the furnaces of an iron foundry in a bustling Mousekin town</li>
+		<li>subject_story->trained a succession of apprentices on the art of iron casting</li>
+		
+		<li>subject_gerund->casting iron stoves</li>
+	-->
+	<Mousekin_ResearchCookingIronStoves.generalRules.rulesStrings>
+		<li>subject->주철 스토브</li>
+		
+		<li>subject_story->번화한 마우스킨 마을의 철 주조 공장 용광로에 불을 지폈습니다</li>
+		<li>subject_story->철 주조 기술에 대한 연속적인 견습생 교육</li>
+		
+		<li>subject_gerund->주철 스토브 만들기</li>
+	</Mousekin_ResearchCookingIronStoves.generalRules.rulesStrings>
 
-	<!-- EN: Apiaries -->
+	<!-- EN: apiaries -->
 	<Mousekin_ResearchBeekeeping.label>양봉장</Mousekin_ResearchBeekeeping.label>
 
 	<!-- EN: Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles. -->
 	<Mousekin_ResearchBeekeeping.description>요리 및 양조 목적의 꿀과 양초용 밀랍을 얻기 위해 나무 벌통을 만드십시오.</Mousekin_ResearchBeekeeping.description>
+	
+	<!-- EN:
+		<li>subject->apiculture</li>
+		<li>subject->beekeeping</li>
+		
+		<li>subject_story->was repeatedly stung in the ears while harvesting honey for a banquet celebrating the coming-of-age of a local Mousekin feudal lord's eldest daughter</li>
+		<li>subject_story->invented a new kind of beehive that allowed honey to be easily harvested without disturbing the bees inside</li>
+		<li>subject_story->made a fortune after switching from making and selling cheap tallow candles to higher-quality beeswax ones</li>
+		
+		<li>subject_gerund->beekeeping</li>
+	-->
+	<Mousekin_ResearchBeekeeping.generalRules.rulesStrings>
+		<li>subject->양봉</li>
+		<li>subject->양봉장</li>
+		
+		<li>subject_story->마우스킨 영주의 장녀의 성년을 축하하는 연회를 위해 꿀을 채취하던 중 귀를 반복해서 쏘였습니다</li>
+		<li>subject_story->벌을 방해하지 않고도 꿀을 쉽게 수확할 수 있는 새로운 종류의 벌통을 발명했습니다</li>
+		<li>subject_story->값싼 동물성 지방 양초 제조 및 판매에서 고품질 밀랍 양초로 전환한 후 큰 돈을 벌었습니다</li>
+		
+		<li>subject_gerund->양봉장</li>
+	</Mousekin_ResearchBeekeeping.generalRules.rulesStrings>
 
-	<!-- EN: Aristocratic cuisine -->
+	<!-- EN: aristocratic cuisine -->
 	<Mousekin_ResearchCookingNoble.label>귀족 요리</Mousekin_ResearchCookingNoble.label>
 
 	<!-- EN: Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchCookingNoble.description>가장 안목 있는 마우스킨 미각을 위해 요리 걸작을 준비하십시오. 연구하려면 연구용 안경을 쓴 마우스킨이 필요합니다.</Mousekin_ResearchCookingNoble.description>
+	
+	<!-- EN:
+		<li>subject->aristocratic cuisine</li>
+		
+		<li>subject_story->crafted exquisite dishes as the head chef in the household of a wealthy Mousekin landowner</li>
+		<li>subject_story->impressed a visiting Mousekin ambassador with an old family recipe for Nyam nut-flavored ice cream</li>
+		<li>subject_story->apprenticed in the kitchens of the Mousekin King's palace</li>
+		
+		<li>subject_gerund->preparing aristocratic cuisine</li>
+		<li>subject_gerund->cooking for noble palates</li>	
+	-->
+	<Mousekin_ResearchCookingNoble.generalRules.rulesStrings>
+		<li>subject->귀족 요리</li>
+		
+		<li>subject_story->마우스킨의 부유한 지주 집안의 수석 요리사로서 정교한 요리를 만들었습니다</li>
+		<li>subject_story->냠 견과류 맛 아이스크림의 오래된 가족 레시피로 방문한 마우스킨 홍보 대사에게 깊은 인상을 남겼습니다</li>
+		<li>subject_story->마우스킨 왕궁의 부엌에서 견습생으로 일하며</li>
+		
+		<li>subject_gerund->귀족 요리 준비</li>
+		<li>subject_gerund->고귀한 입맛을 위한 요리</li>
+	</Mousekin_ResearchCookingNoble.generalRules.rulesStrings>
 
-	<!-- EN: Cottage building -->
+	<!-- EN: cottage building -->
 	<Mousekin_ResearchBuildingVillage.label>별장 건물</Mousekin_ResearchBuildingVillage.label>
 
 	<!-- EN: Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows. -->
 	<Mousekin_ResearchBuildingVillage.description>욋가지로 칠한 벽, 문, 창문을 사용하여 마우스킨 서민을 위한 집을 짓습니다.</Mousekin_ResearchBuildingVillage.description>
+	
+	<!-- EN:
+		<li>subject->wattle-and-daub construction</li>
+		<li>subject->practical joinery for country cottages</li>
+		
+		<li>subject_story->erected a cosy Mousekin cottage with nothing but [ANYPAWN_possessive] own two paws</li>
+		<li>subject_story->thatched straw roofs for houses in a growing Mousekin village</li>
+		
+		<li>subject_gerund->building cottages</li>
+		<li>subject_gerund->erecting wattle-and-daub walls</li>
+	-->
+	<Mousekin_ResearchBuildingVillage.generalRules.rulesStrings>
+		<li>subject->와틀 앤 도브 구조</li>
+		<li>subject->시골 별장을 위한 실용적인 가구</li>
+		
+		<li>subject_story->자신의 두 손만으로 아늑한 마우스킨 오두막을 세웠습니다</li>
+		<li>subject_story->성장하는 마우스킨 마을의 초가집 짚 지붕</li>
+		
+		<li>subject_gerund->코티지 구축</li>
+		<li>subject_gerund->와틀 앤 더브 벽 세우기</li>
+	</Mousekin_ResearchBuildingVillage.generalRules.rulesStrings>
 
-	<!-- EN: Castle architecture -->
+	<!-- EN: castle architecture -->
 	<Mousekin_ResearchBuildingCastle.label>성 건축</Mousekin_ResearchBuildingCastle.label>
 
 	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
 	<Mousekin_ResearchBuildingCastle.description>마우스킨 귀족을 위한 저택을 짓고 요새를 건설하여 외부 위협으로부터 마우스킨 커뮤니티를 보호하세요.</Mousekin_ResearchBuildingCastle.description>
+	
+	<!-- EN: 
+		<li>subject->castle architecture</li>
+		<li>subject->castle construction</li>
+		<li>subject->castle fortifications</li>
+		
+		<li>subject_story->joined a stonemason's guild in a nearby Mousekin town</li>
+		<li>subject_story->apprenticed under [ANYPAWN_possessive] own father, whose forefathers once set the foundation stones of the grand Mousekin fortress, Whitefur's Keep</li>
+		<li>subject_story->cut and shaped decorative stone lintels for a discerning Mousekin duke</li>
+		
+		<li>subject_gerund->constructing castles</li>
+	-->
+	<Mousekin_ResearchBuildingCastle.generalRules.rulesStrings>
+		<li>subject->성 건축</li>
+		<li>subject->성 건설</li>
+		<li>subject->성 요새화</li>
+		
+		<li>subject_story->인근 마우스킨 마을의 석공 길드에 가입했습니다</li>
+		<li>subject_story->웅장한 마우스킨 요새인 하얀 털의 성의 주춧돌을 세운 선조 밑에서 도제 생활을 했습니다</li>
+		<li>subject_story->안목있는 마우스킨 공작을 위해 장식용 돌 상인방을 자르고 모양을 만들었습니다</li>
+		
+		<li>subject_gerund->성 건설</li>
+	</Mousekin_ResearchBuildingCastle.generalRules.rulesStrings>
 	
 </LanguageData>

@@ -1,94 +1,403 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: Commoner apparel -->
+	<!-- EN: commoner apparel -->
 	<Mousekin_ResearchApparelCommoner.label>平民衣物</Mousekin_ResearchApparelCommoner.label>
 
 	<!-- EN: Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners. -->
 	<Mousekin_ResearchApparelCommoner.description>制作各种适合白鼠族平民的摄政时期服装和配饰。</Mousekin_ResearchApparelCommoner.description>
+	
+	<!-- EN : 
+		<li>subject->practical apparel</li>
+		<li>subject->everyday apparel</li>
+		
+		<li>subject_story->established a tailor's shop in a bustling Mousekin city</li>
+		<li>subject_story->altered clothes as a favor to family and friends, before eventually taking on paid work from other Mousekins in the village</li>
+		<li>subject_story->apprenticed under an experienced Mousekin seamstress in a faraway Mousekin town</li>
+		
+		<li>subject_gerund->tailoring practical apparel</li>
+		<li>subject_gerund->tailoring everyday apparel</li>
+	-->
+	<Mousekin_ResearchApparelCommoner.generalRules.rulesStrings>
+		<li>subject->实用服装</li>
+		<li>subject->日常服装</li>
 
-	<!-- EN: Middle-class apparel -->
+		<li>subject_story->在繁华的白鼠族城市开了一家裁缝店</li>
+		<li>subject_story->帮家人和朋友改衣服，后来从村中其他白鼠族接下有薪工作</li>
+		<li>subject_story->在遥远的白鼠族城镇拜一位经验丰富的白鼠族裁缝为师</li>
+
+		<li>subject_gerund->制作实用服装</li>
+		<li>subject_gerund->制作日常服装</li>
+	</Mousekin_ResearchApparelCommoner.generalRules.rulesStrings>
+
+	<!-- EN: middle-class apparel -->
 	<Mousekin_ResearchApparelMiddle.label>中产阶衣物</Mousekin_ResearchApparelMiddle.label>
 
 	<!-- EN: Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchApparelMiddle.description>制作各种适合白鼠族中产阶(如:高级仆人、花园卫女、牧师和修女)的服装和配饰。需要一只戴着研究眼镜的白鼠族进行研究。</Mousekin_ResearchApparelMiddle.description>
+	
+	<!-- EN:
+		<li>subject->middle-class apparel</li>
+		
+		<li>subject_story->mended clothes for [ANYPAWN_possessive] fellow servants while working in the household of a wealthy Mousekin landowner</li>
+		<li>subject_story->earned the patronage of the local Mousekin church by fixing a tear in a bishop's clerical robes just before an important religious mass</li>
+		<li>subject_story->supplied uniforms to the local Mousekin Guardener order</li>
+		
+		<li>subject_gerund->tailoring middle-class apparel</li>
+	-->
+	<Mousekin_ResearchApparelMiddle.generalRules.rulesStrings>
+		<li>subject->中产阶衣物</li>
 
-	<!-- EN: Military apparel -->
+		<li>subject_story->在富有的白鼠族地主家中工作时，为[ANYPAWN_possessive]仆人同伴补衣服</li>
+		<li>subject_story->在一次重要的宗教弥撒之前，在主教的教士袍上修补一条裂缝，从而赢得当地白鼠族教会的赞助</li>
+		<li>subject_story->为当地白鼠族花园卫女会提供制服</li>
+
+		<li>subject_gerund->制作中产阶衣物</li>
+	</Mousekin_ResearchApparelMiddle.generalRules.rulesStrings>
+
+	<!-- EN: military apparel -->
 	<Mousekin_ResearchApparelMilitary.label>军用衣物</Mousekin_ResearchApparelMilitary.label>
 
 	<!-- EN: Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchApparelMilitary.description>制作填充布甲，锻造各种盔甲和头盔，以在战斗中保护白鼠族士兵和骑士。需要一只戴着研究眼镜的白鼠族进行研究。</Mousekin_ResearchApparelMilitary.description>
+	
+	<!-- EN: 
+		<li>subject->Mousekin military apparel</li>
+		
+		<li>subject_story->was commissioned by a local Mousekin Knight Commander to supply gambesons for his soldiers</li>
+		<li>subject_story->apprenticed under a Mousekin blacksmith and forged armor for the town garrison</li>
+		<li>subject_story->made padded liners for the kettle hats and morions worn by Mousekin soldiers</li>
+		
+		<li>subject_gerund->tailoring Mousekin gambesons</li>
+		<li>subject_gerund->smithing Mousekin armor</li>
+	-->
+	<Mousekin_ResearchApparelMilitary.generalRules.rulesStrings>
+		<li>subject->白鼠族军装</li>
 
-	<!-- EN: Aristocratic apparel -->
+		<li>subject_story->受当地一位白鼠族骑士长的委托，为其士兵制作填充布甲</li>
+		<li>subject_story->在白鼠族铁匠手下当学徒，为镇上的驻军锻造盔甲</li>
+		<li>subject_story->为白鼠族士兵所戴的锅盖盔和莫里恩头盔制作衬垫</li>
+
+		<li>subject_gerund->裁缝白鼠族填充布甲</li>
+		<li>subject_gerund->打造白鼠族盔甲</li>
+	</Mousekin_ResearchApparelMilitary.generalRules.rulesStrings>
+
+	<!-- EN: aristocratic apparel -->
 	<Mousekin_ResearchApparelNoble.label>贵族服饰</Mousekin_ResearchApparelNoble.label>
 
 	<!-- EN: Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchApparelNoble.description>为品味挑剔的贵族白鼠族制作时尚正装。需要一只戴着研究眼镜的白鼠族进行研究。</Mousekin_ResearchApparelNoble.description>
+	
+	<!-- EN:
+		<li>subject->aristocratic apparel</li>
+		<li>subject->formal apparel</li>
+		<li>subject->noble apparel</li>
+		
+		<li>subject_story->mended clothes for [ANYPAWN_possessive] master, a local Mousekin baron</li>
+		<li>subject_story->was commissioned to tailor an elaborate suit for a groom in a wedding between two Mousekin noble families</li>
+		<li>subject_story->apprenticed under a Mousekin seamstress, whose clients included members of the Mousekin Royal Family</li>
+		
+		<li>subject_gerund->tailoring aristocratic apparel</li>
+		<li>subject_gerund->tailoring for the nobility</li>
+	-->
+	<Mousekin_ResearchApparelNoble.generalRules.rulesStrings>
+		<li>subject->贵族服饰</li>
+		<li>subject->正规服饰</li>
+		<li>subject->贵族服饰</li>
 
-	<!-- EN: Medicinal alchemy -->
+		<li>subject_story->为主人白鼠族男爵补衣服</li>
+		<li>subject_story->受命为白鼠族两个贵族家族婚礼上的新郎量身打造一套精致的西服</li>
+		<li>subject_story->在一位白鼠族裁缝手下当学徒，她的客户包括白鼠族皇室成员</li>
+
+		<li>subject_gerund->制作贵族服饰</li>
+		<li>subject_gerund->为贵族量身订造</li>
+	</Mousekin_ResearchApparelNoble.generalRules.rulesStrings>
+
+	<!-- EN: medicinal alchemy -->
 	<Mousekin_ResearchAlchemy.label>药用炼金术</Mousekin_ResearchAlchemy.label>
 
 	<!-- EN: Concoct poultices and potions from a variety of herbal and mineral ingredients. -->
 	<Mousekin_ResearchAlchemy.description>用各种草药和矿物成分配制药膏和药水。</Mousekin_ResearchAlchemy.description>
+	
+	<!-- EN: 
+		<li>subject->potions</li>
+		<li>subject->medicinal poultices</li>
+		
+		<li>subject_story->concocted potions of courage for a cowardly Mousekin soldier, who later became a fearless Mousekin Knight Commander</li>
+		<li>subject_story->cultivated and sold herbal medicines wholesale to Mousekin doctors and Guardeners</li>
+		<li>subject_story->spent a lifetime attempting to transmutate cheap gravel into gold and silver</li>
+		
+		<li>subject_gerund->concocting potions</li>
+		<li>subject_gerund->preparing medicinal poultices</li>	
+	-->
+	<Mousekin_ResearchAlchemy.generalRules.rulesStrings>
+		<li>subject->药水</li>
+		<li>subject->药膏</li>
 
-	<!-- EN: Charcoal -->
+		<li>subject_story->为一名懦弱的白鼠族士兵调制勇气药水，让士兵后来成为无畏的白鼠族骑士长</li>
+		<li>subject_story->种植草药并批发销售给白鼠族医生和花园卫女</li>
+		<li>subject_story->一生都在试图把廉价的砾石转化为金银</li>
+
+		<li>subject_gerund->调制药水</li>
+		<li>subject_gerund->配制药膏</li>
+	</Mousekin_ResearchAlchemy.generalRules.rulesStrings>
+
+	<!-- EN: charcoal -->
 	<Mousekin_ResearchCharcoal.label>木炭</Mousekin_ResearchCharcoal.label>
 
 	<!-- EN: Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions. -->
 	<Mousekin_ResearchCharcoal.description>将木材提炼成木炭，可用作高效燃料来源，或用作各种白鼠族药水的成分。</Mousekin_ResearchCharcoal.description>
+	
+	<!-- EN: 
+		<li>subject->charcoal making</li>
+		
+		<li>subject_story->apprenticed under a collier in a distant Mousekin village</li>
+		<li>subject_story->noticed how unburnt chunks of wood left over from a campfire burned better than new firewood</li>
+		<li>subject_story->lived alone on the outskirts of a Mousekin town, tending [ANYPAWN_possessive] charcoal piles</li>
+		
+		<li>subject_gerund->making charcoal</li>
+	-->
+	<Mousekin_ResearchCharcoal.generalRules.rulesStrings>
+		<li>subject->木炭提炼</li>
 
-	<!-- EN: Clockwork mechanisms -->
+		<li>subject_story->在一个遥远的白鼠族村庄的木炭匠手下当学徒</li>
+		<li>subject_story->注意到篝火留下的未燃烧的木块比新的木柴更能燃烧</li>
+		<li>subject_story->独自住在白鼠族镇子的郊外，打理着[ANYPAWN_possessive]炭堆</li>
+
+		<li>subject_gerund->提炼木炭</li>
+	</Mousekin_ResearchCharcoal.generalRules.rulesStrings>
+
+	<!-- EN: clockwork mechanisms -->
 	<Mousekin_ResearchMachineryBasic.label>发条机构</Mousekin_ResearchMachineryBasic.label>
 
 	<!-- EN: Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchMachineryBasic.description>制作用于各种设备（例:自动弩）的复杂组件和发条弹簧机构。需要一只戴着研究眼镜的白鼠族进行研究。</Mousekin_ResearchMachineryBasic.description>
+	
+	<!-- EN:
+		<li>subject->clockwork mechanisms</li>
+		
+		<li>subject_story->crafted small mechanical toys from scraps of metal to amuse local Mouselings</li>
+		<li>subject_story->apprenticed under a Mousekin master craftsman commissioned to make automatic crossbows for the Mousekin Kingdom's army</li>
+		<li>subject_story->repaired clocks and pocket watches for wealthy Mousekin nobles</li>
+		
+		<li>subject_gerund->crafting clockwork mechanisms</li>
+	-->
+	<Mousekin_ResearchMachineryBasic.generalRules.rulesStrings>
+		<li>subject->发条机构</li>
 
-	<!-- EN: Heavy machinery -->
+		<li>subject_story->用金属碎片制作小机械玩具，逗当地鼠童开心</li>
+		<li>subject_story->在白鼠族大工匠手下当学徒，受命为白鼠族王国军队制造自动弩箭</li>
+		<li>subject_story->为富有的白鼠族贵族修理时钟和怀表</li>
+
+		<li>subject_gerund->制作发条机构</li>
+	</Mousekin_ResearchMachineryBasic.generalRules.rulesStrings>
+
+	<!-- EN: heavy machinery -->
 	<Mousekin_ResearchMachineryAdvanced.label>重型机械</Mousekin_ResearchMachineryAdvanced.label>
 
 	<!-- EN: Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchMachineryAdvanced.description>建造重型机械，例如水力锻铁炉和投石机。需要一只戴着研究眼镜的白鼠族进行研究。</Mousekin_ResearchMachineryAdvanced.description>
+	
+	<!-- EN:
+		<li>subject->heavy machinery</li>
+		
+		<li>subject_story->erected and operated rock-throwing onagers in the Mousekin Kingdom's army</li>
+		<li>subject_story->witnessed a terrifying flood that decimated a Mousekin village, and became determined to tame the raw power of the flowing river</li>
+		<li>subject_story->toiled day and night in the treadwheel cranes at the construction site of a grand Mousekin fortress</li>
+		
+		<li>subject_gerund->constructing heavy machinery</li>
+	-->
+	<Mousekin_ResearchMachineryAdvanced.generalRules.rulesStrings>
+		<li>subject->重型机械</li>
 
-	<!-- EN: Deep mining -->
+		<li>subject_story->在白鼠族的军队中架设并操作投石机</li>
+		<li>subject_story->目睹了一场摧毁白鼠族村庄的可怕洪水，并决定要驯服这条奔流不息的河流的原始力量</li>
+		<li>subject_story->在白鼠族大堡垒的建筑工地上，日以继夜地在踏轮吊车上辛勤工作</li>
+
+		<li>subject_gerund->建造重型机械</li>
+	</Mousekin_ResearchMachineryAdvanced.generalRules.rulesStrings>
+
+	<!-- EN: deep mining -->
 	<Mousekin_ResearchMining.label>深井采矿</Mousekin_ResearchMining.label>
 
 	<!-- EN: Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchMining.description>建造深井矿井入口，以便在地下开采各种矿物。需要一只戴着研究眼镜的白鼠族进行研究。</Mousekin_ResearchMining.description>
+	
+	<!-- EN:
+		<li>subject->deep underground mining</li>
+		
+		<li>subject_story->survived a cave-in that left dozens of [ANYPAWN_possessive] fellow Mousekin miners buried alive under rubble</li>
+		<li>subject_story->made a fortune from discovering an untapped gold vein</li>
+		<li>subject_story->erected bracing for tunnels deep inside a Mousekin underground mine</li>
+		
+		<li>subject_gerund->toiling in deep underground mines</li>
+	-->
+	<Mousekin_ResearchMining.generalRules.rulesStrings>
+		<li>subject->深井采矿</li>
 
-	<!-- EN: Gunpowder -->
+		<li>subject_story->在一次塌方事故中幸免于难，那次事故导致白鼠族数十名矿工被活埋在瓦砾下</li>
+		<li>subject_story->因发现未开发的金矿而发财</li>
+		<li>subject_story->在白鼠族地下矿井深处为隧道安装支架</li>
+
+		<li>subject_gerund->在深层地下矿井中劳动</li>
+	</Mousekin_ResearchMining.generalRules.rulesStrings>
+
+	<!-- EN: gunpowder -->
 	<Mousekin_ResearchGunpowder.label>火药</Mousekin_ResearchGunpowder.label>
 
 	<!-- EN: Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchGunpowder.description>制作原始的白鼠族炸药，用作鸟铳、旋转枪和大炮等武器的推进剂。需要一只戴着研究眼镜的白鼠族进行研究。</Mousekin_ResearchGunpowder.description>
+	
+	<!-- EN: 
+		<li>subject->making gunpowder</li>
+		
+		<li>subject_story->blew [ANYPAWN_objective]self sky-high while attempting to concoct the Elixir of Life</li>
+		<li>subject_story->was commissioned by the Mousekin Kingdom's army to craft acorn grenades</li>
+		<li>subject_story->witnessed the terrifying power of rockets fired by Mousekin rebels from their Thunderpikes</li>
+		
+		<li>subject_gerund->making gunpowder</li>
+	-->
+	<Mousekin_ResearchGunpowder.generalRules.rulesStrings>
+		<li>subject->制作火药</li>
 
-	<!-- EN: Cast-iron stoves -->
+		<li>subject_story->在试图制造长生不老药时自爆身亡</li>
+		<li>subject_story->被白鼠族王国的军队委托制作橡果手榴弹</li>
+		<li>subject_story->目睹了白鼠族叛军从他们的轰雷长柄枪发射火箭的可怕威力</li>
+
+		<li>subject_gerund->制作火药</li>
+	</Mousekin_ResearchGunpowder.generalRules.rulesStrings>
+
+	<!-- EN: cast-iron stoves -->
 	<Mousekin_ResearchCookingIronStoves.label>铸铁炉</Mousekin_ResearchCookingIronStoves.label>
 
 	<!-- EN: Build cast-iron stoves for cooking more complex Mousekin dishes. -->
 	<Mousekin_ResearchCookingIronStoves.description>建造铸铁炉子来烹饪更复杂的白鼠族菜肴。</Mousekin_ResearchCookingIronStoves.description>
+	
+	<!-- EN:
+		<li>subject->cast-iron stoves</li>
+		
+		<li>subject_story->stoked the furnaces of an iron foundry in a bustling Mousekin town</li>
+		<li>subject_story->trained a succession of apprentices on the art of iron casting</li>
+		
+		<li>subject_gerund->casting iron stoves</li>
+	-->
+	<Mousekin_ResearchCookingIronStoves.generalRules.rulesStrings>
+		<li>subject->铸铁炉</li>
 
-	<!-- EN: Apiaries -->
+		<li>subject_story->在繁华的白鼠族城镇为铸铁厂的熔炉加热</li>
+		<li>subject_story->在铸铁技术方面训练了一批又一批的学徒</li>
+
+		<li>subject_gerund->建造铸铁炉</li>
+	</Mousekin_ResearchCookingIronStoves.generalRules.rulesStrings>
+
+	<!-- EN: apiaries -->
 	<Mousekin_ResearchBeekeeping.label>蜂房</Mousekin_ResearchBeekeeping.label>
 
 	<!-- EN: Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles. -->
 	<Mousekin_ResearchBeekeeping.description>建造木制蜂箱，获取用于烹饪和酿造的蜂蜜，以及用于制作蜡烛的蜂蜡。</Mousekin_ResearchBeekeeping.description>
+	
+	<!-- EN:
+		<li>subject->apiculture</li>
+		<li>subject->beekeeping</li>
+		
+		<li>subject_story->was repeatedly stung in the ears while harvesting honey for a banquet celebrating the coming-of-age of a local Mousekin feudal lord's eldest daughter</li>
+		<li>subject_story->invented a new kind of beehive that allowed honey to be easily harvested without disturbing the bees inside</li>
+		<li>subject_story->made a fortune after switching from making and selling cheap tallow candles to higher-quality beeswax ones</li>
+		
+		<li>subject_gerund->beekeeping</li>
+	-->
+	<Mousekin_ResearchBeekeeping.generalRules.rulesStrings>
+		<li>subject->养蜂业</li>
+		<li>subject->养蜂</li>
 
-	<!-- EN: Aristocratic cuisine -->
+		<li>subject_story->在为庆祝当地白鼠族封建主的长女成年的宴会采蜜时，耳朵多次被蜇伤</li>
+		<li>subject_story->发明了一种新型蜂箱，可以在不打扰蜂箱内蜜蜂的情况下轻松采蜜</li>
+		<li>subject_story->从制造和销售廉价的牛油蜡烛转为高品质的蜂蜡蜡烛后，赚了一大笔钱</li>
+
+		<li>subject_gerund->养蜂</li>
+	</Mousekin_ResearchBeekeeping.generalRules.rulesStrings>
+
+	<!-- EN: aristocratic cuisine -->
 	<Mousekin_ResearchCookingNoble.label>贵族料理</Mousekin_ResearchCookingNoble.label>
 
 	<!-- EN: Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research. -->
 	<Mousekin_ResearchCookingNoble.description>为最挑剔的白鼠族味觉准备烹饪杰作。需要一只戴着研究眼镜的白鼠族进行研究。</Mousekin_ResearchCookingNoble.description>
+	
+	<!-- EN:
+		<li>subject->aristocratic cuisine</li>
+		
+		<li>subject_story->crafted exquisite dishes as the head chef in the household of a wealthy Mousekin landowner</li>
+		<li>subject_story->impressed a visiting Mousekin ambassador with an old family recipe for Nyam nut-flavored ice cream</li>
+		<li>subject_story->apprenticed in the kitchens of the Mousekin King's palace</li>
+		
+		<li>subject_gerund->preparing aristocratic cuisine</li>
+		<li>subject_gerund->cooking for noble palates</li>	
+	-->
+	<Mousekin_ResearchCookingNoble.generalRules.rulesStrings>
+		<li>subject->贵族料理</li>
 
-	<!-- EN: Cottage building -->
+		<li>subject_story->在富有的白鼠族地主家中担任主厨，制作精美的菜肴</li>
+		<li>subject_story->用纳木坚果风味冰淇淋的家庭食谱打动了到访的白鼠族大使</li>
+		<li>subject_story->在白鼠族国王宫殿的厨房当学徒</li>
+
+		<li>subject_gerund->制作贵族料理</li>
+		<li>subject_gerund->高雅烹饪</li>
+	</Mousekin_ResearchCookingNoble.generalRules.rulesStrings>
+
+	<!-- EN: cottage building -->
 	<Mousekin_ResearchBuildingVillage.label>村屋建筑</Mousekin_ResearchBuildingVillage.label>
 
 	<!-- EN: Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows. -->
 	<Mousekin_ResearchBuildingVillage.description>使用荆棘和涂抹墙、门窗为白鼠族平民建造房屋。</Mousekin_ResearchBuildingVillage.description>
+	
+	<!-- EN:
+		<li>subject->wattle-and-daub construction</li>
+		<li>subject->practical joinery for country cottages</li>
+		
+		<li>subject_story->erected a cosy Mousekin cottage with nothing but [ANYPAWN_possessive] own two paws</li>
+		<li>subject_story->thatched straw roofs for houses in a growing Mousekin village</li>
+		
+		<li>subject_gerund->building cottages</li>
+		<li>subject_gerund->erecting wattle-and-daub walls</li>
+	-->
+	<Mousekin_ResearchBuildingVillage.generalRules.rulesStrings>
+		<li>subject->抹灰篱笆墙建筑</li>
+		<li>subject->乡间别墅的实用细木工艺</li>
 
-	<!-- EN: Castle architecture -->
+		<li>subject_story->只用自己的两只爪子就建起了一间舒适的白鼠族小村屋</li>
+		<li>subject_story->在白鼠族成长的村庄中，为房屋盖上茅草屋顶</li>
+
+		<li>subject_gerund->建造村屋</li>
+		<li>subject_gerund->筑抹灰篱笆墙</li>
+	</Mousekin_ResearchBuildingVillage.generalRules.rulesStrings>
+
+	<!-- EN: castle architecture -->
 	<Mousekin_ResearchBuildingCastle.label>城堡建筑</Mousekin_ResearchBuildingCastle.label>
 
 	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
 	<Mousekin_ResearchBuildingCastle.description>为白鼠族贵族建造豪宅，并建造防御工事以保护白鼠族社区免受外部威胁。</Mousekin_ResearchBuildingCastle.description>
+	
+	<!-- EN: 
+		<li>subject->castle architecture</li>
+		<li>subject->castle construction</li>
+		<li>subject->castle fortifications</li>
+		
+		<li>subject_story->joined a stonemason's guild in a nearby Mousekin town</li>
+		<li>subject_story->apprenticed under [ANYPAWN_possessive] own father, whose forefathers once set the foundation stones of the grand Mousekin fortress, Whitefur's Keep</li>
+		<li>subject_story->cut and shaped decorative stone lintels for a discerning Mousekin duke</li>
+		
+		<li>subject_gerund->constructing castles</li>
+	-->
+	<Mousekin_ResearchBuildingCastle.generalRules.rulesStrings>
+		<li>subject->城堡建筑</li>
+		<li>subject->城堡建造</li>
+		<li>subject->城堡工事</li>
+
+		<li>subject_story->加入附近白鼠族城镇的石匠行会</li>
+		<li>subject_story->在自己的父亲手下当学徒，而他的祖先曾为伟大的白毛城堡奠下基石</li>
+		<li>subject_story->为眼光独到的白鼠族公爵切割和塑造装饰石门楣</li>
+
+		<li>subject_gerund->建造城堡</li>
+	</Mousekin_ResearchBuildingCastle.generalRules.rulesStrings>
 	
 </LanguageData>
