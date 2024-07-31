@@ -39,7 +39,7 @@
 	<!-- EN:
 		<li>subject->middle-class apparel</li>
 		
-		<li>subject_story->mended clothes for [ANYPAWN_possessive] fellow servants while working in the household of a wealthy Mousekin landowner</li>
+		<li>subject_story->mended clothes for their fellow servants while working in the household of a wealthy Mousekin landowner</li>
 		<li>subject_story->earned the patronage of the local Mousekin church by fixing a tear in a bishop's clerical robes just before an important religious mass</li>
 		<li>subject_story->supplied uniforms to the local Mousekin Guardener order</li>
 		
@@ -48,7 +48,7 @@
 	<Mousekin_ResearchApparelMiddle.generalRules.rulesStrings>
 		<li>subject->中产阶衣物</li>
 
-		<li>subject_story->在富有的白鼠族地主家中工作时，为[ANYPAWN_possessive]仆人同伴补衣服</li>
+		<li>subject_story->在富有的白鼠族地主家中工作时，为仆人同伴补衣服</li>
 		<li>subject_story->在一次重要的宗教弥撒之前，在主教的教士袍上修补一条裂缝，从而赢得当地白鼠族教会的赞助</li>
 		<li>subject_story->为当地白鼠族花园卫女会提供制服</li>
 
@@ -93,7 +93,7 @@
 		<li>subject->formal apparel</li>
 		<li>subject->noble apparel</li>
 		
-		<li>subject_story->mended clothes for [ANYPAWN_possessive] master, a local Mousekin baron</li>
+		<li>subject_story->mended clothes for their master, a local Mousekin baron</li>
 		<li>subject_story->was commissioned to tailor an elaborate suit for a groom in a wedding between two Mousekin noble families</li>
 		<li>subject_story->apprenticed under a Mousekin seamstress, whose clients included members of the Mousekin Royal Family</li>
 		
@@ -153,7 +153,7 @@
 		
 		<li>subject_story->apprenticed under a collier in a distant Mousekin village</li>
 		<li>subject_story->noticed how unburnt chunks of wood left over from a campfire burned better than new firewood</li>
-		<li>subject_story->lived alone on the outskirts of a Mousekin town, tending [ANYPAWN_possessive] charcoal piles</li>
+		<li>subject_story->lived alone on the outskirts of a Mousekin town tending charcoal piles</li>
 		
 		<li>subject_gerund->making charcoal</li>
 	-->
@@ -162,7 +162,7 @@
 
 		<li>subject_story->在一个遥远的白鼠族村庄的木炭匠手下当学徒</li>
 		<li>subject_story->注意到篝火留下的未燃烧的木块比新的木柴更能燃烧</li>
-		<li>subject_story->独自住在白鼠族镇子的郊外，打理着[ANYPAWN_possessive]炭堆</li>
+		<li>subject_story->独自住在白鼠族镇子的郊外，打理着炭堆</li>
 
 		<li>subject_gerund->提炼木炭</li>
 	</Mousekin_ResearchCharcoal.generalRules.rulesStrings>
@@ -226,7 +226,7 @@
 	<!-- EN:
 		<li>subject->deep underground mining</li>
 		
-		<li>subject_story->survived a cave-in that left dozens of [ANYPAWN_possessive] fellow Mousekin miners buried alive under rubble</li>
+		<li>subject_story->survived a cave-in that left dozens of other Mousekin miners buried alive under rubble</li>
 		<li>subject_story->made a fortune from discovering an untapped gold vein</li>
 		<li>subject_story->erected bracing for tunnels deep inside a Mousekin underground mine</li>
 		
@@ -251,7 +251,6 @@
 	<!-- EN: 
 		<li>subject->making gunpowder</li>
 		
-		<li>subject_story->blew [ANYPAWN_objective]self sky-high while attempting to concoct the Elixir of Life</li>
 		<li>subject_story->was commissioned by the Mousekin Kingdom's army to craft acorn grenades</li>
 		<li>subject_story->witnessed the terrifying power of rockets fired by Mousekin rebels from their Thunderpikes</li>
 		
@@ -260,7 +259,6 @@
 	<Mousekin_ResearchGunpowder.generalRules.rulesStrings>
 		<li>subject->制作火药</li>
 
-		<li>subject_story->在试图制造长生不老药时自爆身亡</li>
 		<li>subject_story->被白鼠族王国的军队委托制作橡果手榴弹</li>
 		<li>subject_story->目睹了白鼠族叛军从他们的轰雷长柄枪发射火箭的可怕威力</li>
 
@@ -354,7 +352,7 @@
 		<li>subject->wattle-and-daub construction</li>
 		<li>subject->practical joinery for country cottages</li>
 		
-		<li>subject_story->erected a cosy Mousekin cottage with nothing but [ANYPAWN_possessive] own two paws</li>
+		<li>subject_story->erected a cosy Mousekin cottage with nothing but their own two paws</li>
 		<li>subject_story->thatched straw roofs for houses in a growing Mousekin village</li>
 		
 		<li>subject_gerund->building cottages</li>
@@ -383,7 +381,7 @@
 		<li>subject->castle fortifications</li>
 		
 		<li>subject_story->joined a stonemason's guild in a nearby Mousekin town</li>
-		<li>subject_story->apprenticed under [ANYPAWN_possessive] own father, whose forefathers once set the foundation stones of the grand Mousekin fortress, Whitefur's Keep</li>
+		<li>subject_story->apprenticed under their own father, whose forefathers once set the foundation stones of the grand Mousekin fortress, Whitefur's Keep</li>
 		<li>subject_story->cut and shaped decorative stone lintels for a discerning Mousekin duke</li>
 		
 		<li>subject_gerund->constructing castles</li>
