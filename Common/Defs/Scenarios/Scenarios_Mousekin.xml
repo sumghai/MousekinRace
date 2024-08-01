@@ -164,6 +164,13 @@
 					<count>1</count>
 				</li>
 				
+				<!-- A small library of Mousekin treatises, to help with starting research -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BookResearch</thingDef>
+					<count>5</count>
+				</li>
+				
 				<!-- Giant cavies as pack animals that helped the settlers carry their inventory -->				
 				<li Class="ScenPart_StartingAnimal">
 					<def>StartingAnimal</def>
@@ -274,6 +281,13 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Mousekin_MeleeWeapon_HammerMetal</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- A single Mousekin treatise to help with starting research, grabbed in a hurry -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BookResearch</thingDef>
 					<count>1</count>
 				</li>
 
