@@ -302,6 +302,7 @@
   <ItemGroup>
     <Compile Include="Alerts\Alert_MissingEarsSuicidal.cs" />
     <Compile Include="Alerts\Alert_MissingEarsMiserable.cs" />
+    <Compile Include="Alerts\Alert_ResearchProjNeedsGlasses.cs" />
     <Compile Include="Alerts\Alert_TownSquareNeeded.cs" />
     <Compile Include="Alerts\Alert_TownSquareObstructed.cs" />
     <Compile Include="Alerts\Alert_TownSquareUnpaved.cs" />

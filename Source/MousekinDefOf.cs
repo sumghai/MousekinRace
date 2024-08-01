@@ -1,5 +1,7 @@
-﻿using RimWorld;
+﻿using AlienRace;
+using RimWorld;
 using System.Collections.Generic;
+using System.Linq;
 using Verse;
 
 namespace MousekinRace
@@ -8,6 +10,8 @@ namespace MousekinRace
     public static class MousekinDefOf
     {
         public static ThingDef Mousekin;
+
+        public static ThingDef Mousekin_GlassesLarge;
 
         public static ThingDef Mousekin_AnimalGiantCavy;
         public static ThingDef Mousekin_AnimalPudgemouse;
@@ -21,6 +25,7 @@ namespace MousekinRace
         public static ThingDef Meat_Sheep;
 
         public static ThingDef Mousekin_Beehive;
+        public static ThingDef Mousekin_ResearchBench;
         public static ThingDef Mousekin_Windmill;
         public static ThingDef Mousekin_TownSquare;
 
@@ -39,6 +44,17 @@ namespace MousekinRace
                     thingDefs.AddRange(faction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs);
                 }
                 return thingDefs;
+            }
+        }
+
+        public static List<ResearchProjectDef> ResearchProjectsNeedingGlasses
+        {
+            get 
+            {
+                // Assumes that the first set of restricted projects we get that have apparel requirements
+                // is the one that requires Mousekin_GlassesLarge
+                // (we cannot directly reference a DefOf within a DefOf, as it hasn't been instantiated yet)
+                return (Mousekin as ThingDef_AlienRace).alienRace.raceRestriction.researchList.FirstOrDefault(p => !p.apparelList.NullOrEmpty()).projects;
             }
         }
 

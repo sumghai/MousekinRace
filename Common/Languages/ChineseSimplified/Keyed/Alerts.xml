@@ -60,4 +60,10 @@
 	<!-- EN: Remove all obstructing buildings and furniture. -->
 	<AlertObstructedTownSquareDescEnding>移除所有阻碍的建筑物和家具。</AlertObstructedTownSquareDescEnding>
 	
+	<!-- EN: Research project needs {0} -->
+	<AlertResearchProjNeedsGlassesLabel>研究项目需要{0}</AlertResearchProjNeedsGlassesLabel>
+	
+	<!-- EN: You have an active research project '{0}' that requires an active researcher wearing {1}, but none of your colonists meet this requirement.\n\nCraft a pair of {2} at a {3}. -->
+	<AlertResearchProjNeedsGlassesDesc>你已激活的研究项目“{0}”需要一个戴{1}的研究员，但您没有符合这项要求的殖民者.\n\n在{3}制作一副{2}.</AlertResearchProjNeedsGlassesDesc>
+	
 </LanguageData>
