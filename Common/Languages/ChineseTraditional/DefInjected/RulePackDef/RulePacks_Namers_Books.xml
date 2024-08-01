@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: 
+		<li>volNumeral->I</li>
+		<li>volNumeral->II</li>
+		<li>volNumeral->III</li>
+		<li>volNumeral->IV</li>
+		<li>volNumeral->V</li>
+		
+		<li>editionOrdinal->1st</li>
+		<li>editionOrdinal->2nd</li>
+		<li>editionOrdinal->3rd</li>
+		<li>editionOrdinal->4th</li>
+		<li>editionOrdinal->5th</li>
+		
+		<li>titleSuffix->Part [volNumeral]</li>
+		<li>titleSuffix->Vol. [volNumeral]</li>
+		<li>titleSuffix->[editionOrdinal] Edition</li>
+		
+		<li>authorSurname(p=10)->[Mousekin_LastName_Commoner]</li>
+		<li>authorSurname->[Mousekin_LastName_Heroic]</li>
+		<li>authorFullname(p=8)->[Mousekin_FirstName_Male] [authorSurname]</li>
+		<li>authorFullname->[Mousekin_FirstName_Female] [authorSurname]</li>
+		
+		<li>bookQualityBad->Almost all of the pages are on the verge of splitting from the spine.</li>
+		<li>bookQualityBad->Maggots have infested the leather covers and spine.</li>
+		<li>bookQualityBad->Nearly every page has been discolored by smoke from a fire, rendering the contents barely legible.</li>
+		<li>bookQualityBad->Opening the cover unleashes a rancid odor of urine, suggesting the previous owner had been using this copy to prop up a chamberpot.</li>
+		<li>bookQualityBad->Several pages have stains from a mug of Chonko nut brew.</li>				
+		<li>bookQualityBad->The contents and introductory pages have been completely obscured by spilled black ink that has thoroughly soaked through several layers of paper.</li>
+		<li>bookQualityBad->The front and back flyleaves are almost entirely covered by the previous owner's amateurish attempts at practicing their signature.</li>
+		<li>bookQualityBad->The pages from one entire chapter have been torn out, leaving ragged stumps of paper.</li>
+		<li>bookQualityBad->The previous owner of this copy has underlined every other word on every single page with different colored inks.</li>
+		<li>bookQualityBad->The top-left corner of several dozen pages contain crude sequential doodles, depicting a Mousekin farmer repeatedly bludgeoning a Grimalkin rapid-musketeer with a gardening hoe.</li>
+		
+		<li>bookQualityNormal(p=3)-></li>
+		<li>bookQualityNormal->A few pages of this copy have been dogeared.</li>
+		<li>bookQualityNormal->A pressed flower has been left inside the middle pages.</li>
+		<li>bookQualityNormal->The gold inlay on the cover has dulled with age, but the book is otherwise in good condition.</li>
+		<li>bookQualityNormal->The spine on this copy has been broken in several places, and the edges on several chapters are slightly worn, suggesting the previous owner found this book particularly useful.</li>
+		
+		<li>bookQualityGood->The book bears the imprint of a respected printing house in the capital city of Arcadia.</li>
+		<li>bookQualityGood->All the illuminations from the book have been richly illustrated with colored ink, and in some cases, adorned with gold leaf.</li>
+		<li>bookQualityGood->The cover, spine and pages are practically pristine, almost as if the previous owner treated it with great reverence - or simply never read its contents.</li>
+		<li>bookQualityGood->The cover bears intricate craftsmanship, in the form of fine details in the gold inlay illustrating the book's subject matter.</li>
+	-->
+	<MousekinBookUtility.rulePack.rulesStrings>
+		<li>volNumeral->I</li>
+		<li>volNumeral->II</li>
+		<li>volNumeral->III</li>
+		<li>volNumeral->IV</li>
+		<li>volNumeral->V</li>
+		
+		<li>editionOrdinal->一</li>
+		<li>editionOrdinal->二</li>
+		<li>editionOrdinal->三</li>
+		<li>editionOrdinal->四</li>
+		<li>editionOrdinal->五</li>
+		
+		<li>titleSuffix->第[volNumeral]冊</li>
+		<li>titleSuffix->Vol.[volNumeral]</li>
+		<li>titleSuffix->第[editionOrdinal]版</li>
+		
+		<li>authorSurname(p=10)->[Mousekin_LastName_Commoner]</li>
+		<li>authorSurname->[Mousekin_LastName_Heroic]</li>
+		<li>authorFullname(p=8)->[Mousekin_FirstName_Male]·[authorSurname]</li>
+		<li>authorFullname->[Mousekin_FirstName_Female]·[authorSurname]</li>
+		
+		<li>bookQualityBad->幾乎所有的書頁都快要從書脊脫落了。</li>
+		<li>bookQualityBad->皮革封面和書脊上有蛆蟲。</li>
+		<li>bookQualityBad->幾乎每一頁都因火災煙燻而變色，內容幾乎無法辨認。</li>
+		<li>bookQualityBad->打開封面時會有一股尿臊味，這說明前書主曾用這本書來墊尿壺。</li>
+		<li>bookQualityBad->有幾頁有一杯充柯堅果咖啡留下的污漬。</li>				
+		<li>bookQualityBad->內容和介紹頁已完全被灑落的黑色墨水遮蓋，墨水徹底浸透了幾層紙。</li>
+		<li>bookQualityBad->正面和背面的扉頁幾乎全被前書主嘗試練習簽名所覆蓋。</li>
+		<li>bookQualityBad->一整章的頁面都被撕掉了，只剩下破爛的紙墩。</li>
+		<li>bookQualityBad->這本書的前主人用不同顏色的墨水在每頁上的每一個字劃下了底線。</li>
+		<li>bookQualityBad->在幾十頁的左上角，有一些粗糙的連續塗鴉，描繪了一個白鼠族農夫用鋤頭反覆敲打一個黑貓族速射鳥銃手。</li>
+		
+		<li>bookQualityNormal(p=3)-></li>
+		<li>bookQualityNormal->這本書的幾頁有皺角。</li>
+		<li>bookQualityNormal->中頁內留有一朵壓花。</li>
+		<li>bookQualityNormal->封面上的金色鑲嵌物已隨著歲月的流逝而變得黯淡無光，但這本書在其他方面的狀況良好。</li>
+		<li>bookQualityNormal->這本書的書脊有幾處斷裂，幾個章節的邊緣略有磨損，顯示前書主經常翻閱。</li>
+		
+		<li>bookQualityGood->書上印有阿卡迪亞京城一家受人尊敬的印刷廠的印記。</li>
+		<li>bookQualityGood->書中的所有插圖都用彩色墨水進行了豐富的繪畫，有些還用金箔進行了裝飾。</li>
+		<li>bookQualityGood->封面、書脊和書頁幾乎都是原封不動的，就好像前書主對這本書非常敬重一樣 - 或者根本就沒有讀過它的內容。</li>
+		<li>bookQualityGood->封面上的金色鑲嵌插圖表現出精緻的工藝。</li>
+	</MousekinBookUtility.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>title(p=5)->A Treatise on [subject_primary]</li>
+		<li>title(p=5)->Notes on [subject_primary]</li>
+		<li>title(p=5)->Understanding [subject_primary]</li>
+		<li>title(p=5)->Principles of [subject_primary]</li>
+		<li>title(p=5)->The Fundamentals of [subject_primary]</li>
+		<li>title->[subject_primary], [titleSuffix]</li>
+		<li>title->The Guidebook to [subject_primary], [titleSuffix]</li>
+	-->	
+	<NamerBook_Mousekin_BookResearch.rulePack.rulesStrings>
+		<li>title(p=5)->[subject_primary]論</li>
+		<li>title(p=5)->[subject_primary]詳解</li>
+		<li>title(p=5)->新手也能理解的[subject_primary]</li>
+		<li>title(p=5)->[subject_primary]概論</li>
+		<li>title(p=5)->[subject_primary]入門</li>
+		<li>title->[subject_primary]，[titleSuffix]</li>
+		<li>title->[subject_primary]指南，[titleSuffix]</li>
+	</NamerBook_Mousekin_BookResearch.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>subject->[subject_primary]</li>
+				
+		<li>desc->[bookDesc]\n\n[bookQuality]</li>
+		
+		<li>bookDesc->Drawing on [authorFullname]'s years of practical experience, this [bookType] establishes the author as a leading authority in [subject] throughout the Mousekin Kingdom.</li>
+		<li>bookDesc->[authorFullname] [subject_primary_story]. This [bookType] is the author's collation of various notes, rules of thumb, and case studies on [subject_primary_gerund].</li>
+		<li>bookDesc->This [bookType] by [authorFullname] is widely regarded as an excellent introductory text on [subject], covering fundamental theories, history, common techniques and practical applications.</li>
+		<li>bookDesc->This [bookType] by [authorFullname] is primarily a collection of detailed sketches and notes on practical examples of [subject], with the occasional witty but topical anecdote.</li>
+		
+		<li>bookType->codex</li>
+		<li>bookType->compendium</li>
+		<li>bookType->tome</li>
+		
+		<li>bookQuality(quality[less_than]2)->[bookQualityBad]</li>
+		<li>bookQuality(quality[less_than]4,quality[greater_than]1)->[bookQualityNormal]</li>
+		<li>bookQuality(quality[greater_than]3)->[bookQualityGood]</li>
+	-->
+	<Description_Mousekin_BookResearch.rulePack.rulesStrings>
+		<li>subject->[subject_primary]</li>
+				
+		<li>desc->[bookDesc]\n\n[bookQuality]</li>
+		
+		<li>bookDesc->本[bookType]以作者[authorFullname]多年的實際經驗為基礎，奠定了他在白鼠族王國[subject]界的權威地位。</li>
+		<li>bookDesc->[authorFullname][subject_primary_story]。本[bookType]是作者整理有關[subject_primary_gerund]的各種筆記、經驗法則和案例研究。</li>
+		<li>bookDesc->[authorFullname]所著的這本[bookType]被廣泛認為是[subject]的絕佳入門教科書，內容涵蓋基本理論、歷史、常用技術和實際應用。</li>
+		<li>bookDesc->這本[authorFullname]所著的[bookType]主要是[subject]實例的詳細素描和筆記的匯集，並包括偶爾诙谐但有用的軼事。</li>
+		
+		<li>bookType->法典</li>
+		<li>bookType->概要</li>
+		<li>bookType->大部頭</li>
+		
+		<li>bookQuality(quality[less_than]2)->[bookQualityBad]</li>
+		<li>bookQuality(quality[less_than]4,quality[greater_than]1)->[bookQualityNormal]</li>
+		<li>bookQuality(quality[greater_than]3)->[bookQualityGood]</li>
+	</Description_Mousekin_BookResearch.rulePack.rulesStrings>
+
+</LanguageData>
