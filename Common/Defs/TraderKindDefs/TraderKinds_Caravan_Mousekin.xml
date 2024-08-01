@@ -166,6 +166,13 @@
 				<price>Expensive</price>
 			</li>
 			
+			<!-- Books -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_BookResearch</thingDef>
+				<countRange>2~5</countRange>
+			</li>
+			
 			<!-- Buying -->
 			
 			<li Class="StockGenerator_BuySingleDef">
@@ -560,6 +567,13 @@
 					<Hyperweave>50~100</Hyperweave>
 				</customCountRanges>
 				<price>Cheap</price>
+			</li>
+			
+			<!-- Books -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_BookResearch</thingDef>
+				<countRange>5~10</countRange>
 			</li>
 			
 			<!-- Raw food at regular prices (just enough to sustain their nomadic lifestyle) -->

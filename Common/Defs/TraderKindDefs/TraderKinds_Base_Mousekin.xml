@@ -257,6 +257,13 @@
 				<countRange>40~50</countRange>
 				<price>Cheap</price>
 			</li>
+			
+			<!-- Books -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_BookResearch</thingDef>
+				<countRange>10~20</countRange>
+			</li>
 
 			<!-- Buying -->
 
