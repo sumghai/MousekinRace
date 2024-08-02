@@ -25,8 +25,8 @@ namespace MousekinRace
         public static ThingDef Meat_Sheep;
 
         public static ThingDef Mousekin_Beehive;
-        public static ThingDef Mousekin_ResearchBench;
         public static ThingDef Mousekin_Windmill;
+        public static ThingDef Mousekin_WorkbenchCrafting;
         public static ThingDef Mousekin_TownSquare;
 
         public static ThingDef Blueprint_Mousekin_Windmill;

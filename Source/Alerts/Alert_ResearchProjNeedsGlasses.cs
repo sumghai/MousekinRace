@@ -23,7 +23,7 @@ namespace MousekinRace
                 Find.ResearchManager.GetProject().LabelCap,
                 MousekinDefOf.Mousekin_GlassesLarge.LabelCap,
                 MousekinDefOf.Mousekin_GlassesLarge.LabelCap.Replace(MousekinDefOf.Mousekin.LabelCap, ""),
-                MousekinDefOf.Mousekin_ResearchBench.LabelCap
+                MousekinDefOf.Mousekin_WorkbenchCrafting.LabelCap
             );
         }
 
