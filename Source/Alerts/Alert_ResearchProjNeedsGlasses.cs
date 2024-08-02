@@ -24,7 +24,12 @@ namespace MousekinRace
                 MousekinDefOf.Mousekin_GlassesLarge.LabelCap,
                 MousekinDefOf.Mousekin_GlassesLarge.LabelCap.Replace(MousekinDefOf.Mousekin.LabelCap, ""),
                 MousekinDefOf.Mousekin_WorkbenchCrafting.LabelCap
-            );
+            ) + ("\n\n(" + "ClickToOpenResearchTab".Translate() + ")");
+        }
+
+        public override void OnClick()
+        {
+            Find.MainTabsRoot.SetCurrentTab(MainButtonDefOf.Research);
         }
 
         public override AlertReport GetReport()
