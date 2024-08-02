@@ -63,7 +63,7 @@
 	<!-- EN: Research project needs {0} -->
 	<AlertResearchProjNeedsGlassesLabel>研究项目需要{0}</AlertResearchProjNeedsGlassesLabel>
 	
-	<!-- EN: You have an active research project '{0}' that requires an active researcher wearing {1}, but none of your colonists meet this requirement.\n\nCraft a pair of {2} at a {3}. -->
-	<AlertResearchProjNeedsGlassesDesc>你已激活的研究项目“{0}”需要一个戴{1}的研究员，但您没有符合这项要求的殖民者.\n\n在{3}制作一副{2}.</AlertResearchProjNeedsGlassesDesc>
+	<!-- EN: You have an active research project '{0}' that requires an active researcher wearing {1}, but none of your colonists meet this requirement.\n\nCraft a pair of {2} at a {3}, and make sure any colonists wearing them are assigned to research work. -->
+	<AlertResearchProjNeedsGlassesDesc>你已激活的研究项目“{0}”需要一个戴{1}的研究员，但您没有符合这项要求的殖民者.\n\n在{3}制作一副{2}，并确保所有佩戴它们的殖民者都被分配从事研究工作.</AlertResearchProjNeedsGlassesDesc>
 	
 </LanguageData>

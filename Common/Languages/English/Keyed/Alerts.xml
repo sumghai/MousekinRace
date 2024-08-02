@@ -41,6 +41,6 @@
 	
 	<AlertResearchProjNeedsGlassesLabel>Research project needs {0}</AlertResearchProjNeedsGlassesLabel>
 	
-	<AlertResearchProjNeedsGlassesDesc>You have an active research project '{0}' that requires an active researcher wearing {1}, but none of your colonists meet this requirement.\n\nCraft a pair of {2} at a {3}.</AlertResearchProjNeedsGlassesDesc>
+	<AlertResearchProjNeedsGlassesDesc>You have an active research project '{0}' that requires an active researcher wearing {1}, but none of your colonists meet this requirement.\n\nCraft a pair of {2} at a {3}, and make sure any colonists wearing them are assigned to research work.</AlertResearchProjNeedsGlassesDesc>
 
 </LanguageData>
