@@ -78,4 +78,89 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
+	<!-- ========================= Church ==========================-->
+	
+	<!-- Mousekin Lectern -->
+	
+	<ThingDef ParentName="FurnitureBase">
+		<defName>Mousekin_ChurchLectern</defName>
+		<label>Mousekin lectern</label>
+		<description>A standing desk with a slanted top to support liturgical books and other literature to be read aloud. Mousekin Priests use lecterns to conduct church services.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_ChurchLectern</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.75, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/Mousekin_ChurchLectern_south</uiIconPath>
+		<costList>
+			<WoodLog>20</WoodLog>
+			<Gold>1</Gold>
+		</costList>
+		<fillPercent>0.35</fillPercent>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<!-- Mousekin Pew -->
+	
+	<ThingDef ParentName="FurnitureBase">
+		<defName>Mousekin_ChurchPew</defName>
+		<label>Mousekin pew</label>
+		<description>A long bench with a back, for Mousekin colonists to sit on while attending church services.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_ChurchPew</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,1)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.75, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<WoodLog>80</WoodLog>
+		</costList>
+		<fillPercent>0.35</fillPercent>
+		<statBases>
+			<WorkToBuild>1500</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>15</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+			<Comfort>0.60</Comfort>
+		</statBases>
+		<size>(3,1)</size>
+		<pathCost>25</pathCost>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<isSittable>true</isSittable>
+			<multiSittable>true</multiSittable>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 </Defs>

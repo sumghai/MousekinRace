@@ -7,4 +7,16 @@
 	<!-- EN: A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat. -->
 	<Mousekin_FurnitureWallCandle.description>用于照亮某个区域的壁挂式蜡烛。白鼠族需要光亮才能全速移动、工作。需要定期补充蜡烛燃料。不产生热量。</Mousekin_FurnitureWallCandle.description>
 	
+	<!-- EN: Mousekin lectern -->
+	<Mousekin_ChurchLectern.label>白鼠族讲台</Mousekin_ChurchLectern.label>
+	
+	<!-- EN: A standing desk with a slanted top to support liturgical books and other literature to be read aloud. Mousekin Priests use lecterns to conduct church services. -->
+	<Mousekin_ChurchLectern.description>有斜顶的立式书桌，用来放置礼仪书籍和其他需要朗读的文献。白鼠族牧师会使用讲台进行教堂仪式。</Mousekin_ChurchLectern.description>
+	
+	<!-- EN: Mousekin pew -->
+	<Mousekin_ChurchPew.label>白鼠族长座椅</Mousekin_ChurchPew.label>
+	
+	<!-- EN: A long bench with a back, for Mousekin colonists to sit on while attending church services. -->
+	<Mousekin_ChurchPew.description>有靠背的长椅，供白鼠族民众参加教堂仪式时坐。</Mousekin_ChurchPew.description>
+	
 </LanguageData>

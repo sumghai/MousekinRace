@@ -7,4 +7,16 @@
 	<!-- EN: A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat. -->
 	<Mousekin_FurnitureWallCandle.description>周囲を照らすための壁掛けタイプのキャンドルです.マウスキンが快適に動き,仕事をするためには光が必要です.キャンドルがあれば自動的に燃料補給できます.熱を発生させません.</Mousekin_FurnitureWallCandle.description>
 	
+	<!-- EN: Mousekin lectern -->
+	<Mousekin_ChurchLectern.label>マウスキン講演台</Mousekin_ChurchLectern.label>
+	
+	<!-- EN: A standing desk with a slanted top to support liturgical books and other literature to be read aloud. Mousekin Priests use lecterns to conduct church services. -->
+	<Mousekin_ChurchLectern.description>典礼書などを読み上げるための、天板が斜めになった立ち机.マウスキン司祭が教会の礼拝を行う際に使用します.</Mousekin_ChurchLectern.description>
+	
+	<!-- EN: Mousekin pew -->
+	<Mousekin_ChurchPew.label>マウスキン信者席</Mousekin_ChurchPew.label>
+	
+	<!-- EN: A long bench with a back, for Mousekin colonists to sit on while attending church services. -->
+	<Mousekin_ChurchPew.description>背もたれのある長いベンチで、マウスキンの入植者が教会の礼拝に出席するときに座るためのもの.</Mousekin_ChurchPew.description>
+	
 </LanguageData>
