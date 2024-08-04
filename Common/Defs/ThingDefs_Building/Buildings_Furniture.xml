@@ -138,7 +138,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,1)</drawSize>
 			<shadowData>
-				<volume>(0.8, 0.75, 0.8)</volume>
+				<volume>(3, 0.75, 0.8)</volume>
 			</shadowData>
 		</graphicData>
 		<costList>
