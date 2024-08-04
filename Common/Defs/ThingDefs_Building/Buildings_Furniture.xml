@@ -57,6 +57,11 @@
 				<offsetEast>(0.492,0,0.252)</offsetEast>
 			</li>
 			<li Class="CompProperties_Refuelable">
+				<!-- 
+					- 1 candle flame
+					- 1 candle fuelCapacity
+					- lasts for 3 days (0.33333 per day per candle)
+				-->
 				<fuelConsumptionRate>0.33333333</fuelConsumptionRate>
 				<fuelCapacity>1.0</fuelCapacity>
 				<fuelFilter>
