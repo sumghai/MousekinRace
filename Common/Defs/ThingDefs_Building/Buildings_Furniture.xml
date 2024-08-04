@@ -113,6 +113,7 @@
 			<Beauty>2</Beauty>
 		</statBases>
 		<size>(1,1)</size>
+		<passability>PassThroughOnly</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
