@@ -85,6 +85,121 @@
 	
 	<!-- ========================= Church ==========================-->
 	
+	<!-- Mousekin Altar -->
+	
+	<ThingDef ParentName="FurnitureBase">
+		<defName>Mousekin_ChurchAltar</defName>
+		<label>Mousekin altar</label>
+		<description>A table used by Mousekin clergy for rituals related to the worship of the deity Valerian the Wise. Silver from tithes are collected here at the end of church services.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_ChurchAltar</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(3, 0.75, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<WoodLog>70</WoodLog>
+			<Cloth>15</Cloth>
+			<Gold>20</Gold>
+		</costList>
+		<fillPercent>0.5</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>20</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<size>(3,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<relatedBuildCommands>
+				<li>Mousekin_ChurchLectern</li>
+				<li>Mousekin_ChurchPew</li>
+			</relatedBuildCommands>
+			<destroySound>BuildingDestroyed_Wood_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(252,187,113,1)</glowColor>
+			</li>
+			<li Class="MousekinRace.CompProperties_FireOverlayMulti">
+				<fireSize>0.25</fireSize>
+				<fires>
+					<!-- 6 candles, 3 on either side of crucifix -->
+					<li>
+						<offsetNorth>(-1.00,0,0.8257)</offsetNorth>
+						<offsetSouth>(1.00,0,0.0757)</offsetSouth>
+						<offsetWest>(-0.1596,0,-0.4303)</offsetWest>
+						<offsetEast>(0.1596,0,1.3301)</offsetEast>
+					</li>
+					<li>
+						<offsetNorth>(-0.75,0,0.7007)</offsetNorth>
+						<offsetSouth>(0.75,0,0.2007)</offsetSouth>
+						<offsetWest>(0,0,-0.2259)</offsetWest>
+						<offsetEast>(0,0,1.1258)</offsetEast>
+					</li>
+					<li>
+						<offsetNorth>(-0.50,0,0.8257)</offsetNorth>
+						<offsetSouth>(0.50,0,0.0757)</offsetSouth>
+						<offsetWest>(-0.1596,0,-0.0215)</offsetWest>
+						<offsetEast>(0.1596,0,0.9213)</offsetEast>
+					</li>
+					<li>
+						<offsetNorth>(0.50,0,0.8257)</offsetNorth>
+						<offsetSouth>(-0.50,0,0.0757)</offsetSouth>
+						<offsetWest>(-0.1596,0,0.9213)</offsetWest>
+						<offsetEast>(0.1596,0,-0.0215)</offsetEast>
+					</li>
+					<li>
+						<offsetNorth>(0.75,0,0.7007)</offsetNorth>
+						<offsetSouth>(-0.75,0,0.2007)</offsetSouth>
+						<offsetWest>(0,0,1.1258)</offsetWest>
+						<offsetEast>(0,0,-0.2259)</offsetEast>
+					</li>
+					<li>
+						<offsetNorth>(1.00,0,0.8257)</offsetNorth>
+						<offsetSouth>(-1.00,0,0.0757)</offsetSouth>
+						<offsetWest>(-0.1596,0,1.3301)</offsetWest>
+						<offsetEast>(0.1596,0,-0.4303)</offsetEast>
+					</li>
+				</fires>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<!-- 
+					- 6 candle flames
+					- 6 candle fuelCapacity
+					- lasts for 3 days (0.33333 per day per candle)
+				-->
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>6.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Mousekin_Candle</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 	<!-- Mousekin Lectern -->
 	
 	<ThingDef ParentName="FurnitureBase">

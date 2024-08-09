@@ -316,8 +316,10 @@
     <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
     <Compile Include="Comps\CompAutoCutWindmill.cs" />
+    <Compile Include="Comps\CompFireOverlayMulti.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs" />
+    <Compile Include="Comps\CompProperties_FireOverlayMulti.cs" />
     <Compile Include="Comps\CompProperties_FireplaceRenderer.cs" />
     <Compile Include="Comps\CompProperties_RemembersCheeseEaten.cs" />
     <Compile Include="Comps\CompProperties_StateDependentBuildingEmissive.cs" />

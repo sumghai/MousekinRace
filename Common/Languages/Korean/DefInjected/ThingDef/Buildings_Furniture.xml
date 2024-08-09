@@ -7,6 +7,12 @@
 	<!-- EN: A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat. -->
 	<Mousekin_FurnitureWallCandle.description>공간을 비추기 위한 벽걸이형 초. 마우스킨이 최고 속도로 움직이고 작동하려면 빛이 필요합니다. 양초로 자동으로 연료를 보급할 수 있습니다. 열을 발생시키지 않습니다.</Mousekin_FurnitureWallCandle.description>
 	
+	<!-- EN: Mousekin altar -->
+	<Mousekin_ChurchAltar.label>마우스킨 제단</Mousekin_ChurchAltar.label>
+	
+	<!-- EN: A table used by Mousekin clergy for rituals related to the worship of the deity Valerian the Wise. Silver from tithes are collected here at the end of church services. -->
+	<Mousekin_ChurchAltar.description>마우스킨 성직자들이 현자 발레리안 숭배와 관련된 의식을 위해 사용하는 테이블입니다. 교회 예배가 끝날 때 십일조에서 나온 은은 이곳에 모입니다.</Mousekin_ChurchAltar.description>
+	
 	<!-- EN: Mousekin lectern -->
 	<Mousekin_ChurchLectern.label>마우스킨 강단</Mousekin_ChurchLectern.label>
 	
