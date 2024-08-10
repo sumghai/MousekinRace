@@ -12,13 +12,7 @@ namespace MousekinRace
 
         protected CompBreakdownable breakdownableComp;
 
-        private CompProperties_StateDependentBuildingEmissive Props
-        {
-            get
-            {
-                return (CompProperties_StateDependentBuildingEmissive)props;
-            }
-        }
+        public CompProperties_StateDependentBuildingEmissive Props => (CompProperties_StateDependentBuildingEmissive)props;
 
         public override void PostDraw()
         {

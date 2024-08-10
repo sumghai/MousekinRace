@@ -15,13 +15,7 @@ namespace MousekinRace
 
         protected static readonly Graphic FireGraphic = GraphicDatabase.Get<Graphic_Flicker>("Things/Special/Fire", ShaderDatabase.TransparentPostLight, Vector2.one, Color.white);
 
-        private new CompProperties_FireplaceRenderer Props
-        {
-            get
-            {
-                return (CompProperties_FireplaceRenderer)props;
-            }
-        }
+        public new CompProperties_FireplaceRenderer Props => (CompProperties_FireplaceRenderer)props;
 
         public override void PostDraw()
         {
