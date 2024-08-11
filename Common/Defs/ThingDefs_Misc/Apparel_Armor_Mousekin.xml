@@ -8,6 +8,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCuirass/MousekinCuirass</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 		</graphicData>
 		<!-- for gilding only -->
 		<costStuffCount>1</costStuffCount>
@@ -42,6 +43,7 @@
 				<li>Shoulders</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCuirass/MousekinCuirass</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -73,6 +75,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MousekinPlateArmor/MousekinPlateArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 		</graphicData>
 		<!-- for gilding only -->
 		<costStuffCount>1</costStuffCount>
@@ -112,6 +115,7 @@
 				<li>Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinPlateArmor/MousekinPlateArmor</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
 			</layers>

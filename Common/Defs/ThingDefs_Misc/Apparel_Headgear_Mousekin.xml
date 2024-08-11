@@ -244,6 +244,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKettle/MousekinHelmetKettle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 		</graphicData>
 		<!-- for gilding only -->
 		<costStuffCount>1</costStuffCount>
@@ -275,6 +276,7 @@
 				<li>UpperHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKettle/MousekinHelmetKettle</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -306,6 +308,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetMorion/MousekinHelmetMorion</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 		</graphicData>
 		<!-- for gilding only -->
 		<costStuffCount>1</costStuffCount>
@@ -337,6 +340,7 @@
 				<li>UpperHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetMorion/MousekinHelmetMorion</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -369,6 +373,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 		</graphicData>
 		<!-- for gilding only -->
 		<costStuffCount>1</costStuffCount>
@@ -400,6 +405,7 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
 			</layers>

@@ -369,6 +369,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCloak/MousekinCloak</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 		</graphicData>
 		<!-- hood (50) and cloak (70) -->
 		<costStuffCount>120</costStuffCount>
@@ -396,6 +397,7 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCloak/MousekinCloak</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Shell</li>
 			</layers>
