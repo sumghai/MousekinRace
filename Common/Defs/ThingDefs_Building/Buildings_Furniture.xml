@@ -196,6 +196,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_OnlyOnePerMap</li>
 			<li>PlaceWorker_MustBeIndoors</li>
 		</placeWorkers>
 		<researchPrerequisites>
@@ -241,6 +242,7 @@
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_OnlyOnePerMap</li>
 			<li>PlaceWorker_MustBeIndoors</li>
 		</placeWorkers>
 		<researchPrerequisites>
