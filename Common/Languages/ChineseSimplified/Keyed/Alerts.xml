@@ -16,6 +16,12 @@
 	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
 	<AlertEarlessMousekinDescEnding>用布料制作一些假耳，或从其他白鼠族身上取得天生的耳朵。</AlertEarlessMousekinDescEnding>
 	
+	<!-- EN: Need Church -->
+	<AlertNeedChurchLabel>需要教堂</AlertNeedChurchLabel>
+	
+	<!-- EN: Mousekins in your settlement are demanding a place to worship Valerian the Wise.\n\nBuild an enclosed room that satisfies the following requirements: -->
+	<AlertNeedChurchDesc>你的殖民地的白鼠族们要求有地方供奉智者缬草.\n\n建造一个满足以下要求的房间:</AlertNeedChurchDesc>
+	
 	<!-- EN: Need Town Square -->
 	<AlertNeedTownSquareSingularLabel>缺少广场</AlertNeedTownSquareSingularLabel>
 	

@@ -16,6 +16,12 @@
 	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
 	<AlertEarlessMousekinDescEnding>布製の義耳を作るか、他のマウスキンから天然の耳を入手します.</AlertEarlessMousekinDescEnding>
 	
+	<!-- EN: Need Church -->
+	<AlertNeedChurchLabel>教会堂が必要</AlertNeedChurchLabel>
+	
+	<!-- EN: Mousekins in your settlement are demanding a place to worship Valerian the Wise.\n\nBuild an enclosed room that satisfies the following requirements: -->
+	<AlertNeedChurchDesc>集落のマウスキンたちが賢者バレリアンを祀る場所を求めています.\n\n以下の条件を満たす部屋を作ってください：</AlertNeedChurchDesc>
+	
 	<!-- EN: Need Town Square -->
 	<AlertNeedTownSquareSingularLabel>広場が必要</AlertNeedTownSquareSingularLabel>
 	
