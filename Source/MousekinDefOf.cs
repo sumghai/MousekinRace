@@ -84,6 +84,7 @@ namespace MousekinRace
         public static JobDef Mousekin_Job_HarvestFromBeehive;
 
         public static PawnKindDef MousekinColonist;
+        public static PawnKindDef MousekinPriest;
 
         public static FactionDef Mousekin_PlayerFaction_Settlers;
         public static FactionDef Mousekin_FactionKingdom;

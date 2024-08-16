@@ -15,6 +15,10 @@
 	
 	<AlertNeedChurchDesc>Mousekins in your settlement are demanding a place to worship Valerian the Wise.\n\nBuild an enclosed room that satisfies the following requirements:</AlertNeedChurchDesc>
 	
+	<AlertNeedPriestLabel>Need {0}</AlertNeedPriestLabel>
+	
+	<AlertNeedPriestDesc>Your church requires at least one {0} to conduct regular church services for your Mousekin colonists.\n\nYou can recruit them directly from the {1}, or invite one to join your colony through the Faction Allegiance system.</AlertNeedPriestDesc>
+	
 	<AlertNeedTownSquareSingularLabel>Need Town Square</AlertNeedTownSquareSingularLabel>
 	
 	<AlertNeedTownSquarePluralLabel>Need Town Squares</AlertNeedTownSquarePluralLabel>

@@ -22,6 +22,12 @@
 	<!-- EN: Mousekins in your settlement are demanding a place to worship Valerian the Wise.\n\nBuild an enclosed room that satisfies the following requirements: -->
 	<AlertNeedChurchDesc>你的殖民地的白鼠族們要求有地方供奉智者纈草.\n\n建造一個滿足以下要求的房間:</AlertNeedChurchDesc>
 	
+	<!-- EN: Need {0} -->
+	<AlertNeedPriestLabel>需要{0}</AlertNeedPriestLabel>
+	
+	<!-- EN: Your church requires at least one {0} to conduct regular church services for your Mousekin colonists.\n\nYou can recruit them directly from the {1}, or invite one to join your colony through the Faction Allegiance system. -->
+	<AlertNeedPriestDesc>你的教堂需要至少一位{0}來為你的白鼠族殖民者定期舉行教堂儀式。\n\n你可以直接從{1}招募他們，或者通過派系效忠系統邀請一位加入你的殖民地。</AlertNeedPriestDesc>
+	
 	<!-- EN: Need Town Square -->
 	<AlertNeedTownSquareSingularLabel>需要廣場</AlertNeedTownSquareSingularLabel>
 	
