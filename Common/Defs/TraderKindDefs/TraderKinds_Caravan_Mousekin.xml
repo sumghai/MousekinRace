@@ -217,6 +217,13 @@
 				<price>Cheap</price>
 			</li>
 			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_AccessoryCommoner</tradeTag>
+				<thingDefCountRange>4~4</thingDefCountRange>
+				<countRange>1~2</countRange>
+				<price>Cheap</price>
+			</li>
+			
 			<!-- Fabrics, Leathers and Wools -->
 
 			<li Class="StockGenerator_SingleDef">
@@ -617,6 +624,12 @@
 				<tradeTag>Mousekin_TradeGoods_ApparelCommoner</tradeTag>
 				<thingDefCountRange>3~4</thingDefCountRange>
 				<countRange>2~3</countRange>
+			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_AccessoryCommoner</tradeTag>
+				<thingDefCountRange>4~4</thingDefCountRange>
+				<countRange>1~2</countRange>
 			</li>
 			
 			<!-- Textiles -->
