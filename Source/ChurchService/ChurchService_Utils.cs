@@ -77,7 +77,7 @@ namespace MousekinRace
         // Find a random Mousekin Priest from the player colonists on a given map
         public static Pawn GetRandomMousekinPriest(Map map)
         { 
-            return map.mapPawns.PawnsInFaction(Faction.OfPlayer).Where(p => p.kindDef == MousekinDefOf.MousekinPriest).RandomElement();
+            return map.mapPawns.PawnsInFaction(Faction.OfPlayer).Where(p => p.kindDef == MousekinDefOf.MousekinPriest).RandomElementWithFallback();
         }
     }
 }
