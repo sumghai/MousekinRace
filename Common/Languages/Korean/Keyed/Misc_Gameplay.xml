@@ -48,6 +48,9 @@
 
 	<!-- EN: Remove cheese from the press. -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>언론에서 치즈를 제거하십시오.</MousekinRace_CheesePress_RemoveCheeseDesc>
+	
+	<!-- EN: New {0} will arrive in {1}. -->
+	<MousekinRace_ChurchAltar_NewClergyArrivalTime>새로운 {0}가 {1} 후에 도착합니다.</MousekinRace_ChurchAltar_NewClergyArrivalTime>
 
 	<!-- EN: Must or Wort to Insert -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>삽입할 맥즙</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>

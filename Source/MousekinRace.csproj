@@ -312,6 +312,7 @@
     <Compile Include="BackCompatibilityConverter_Mousekin.cs" />
     <Compile Include="Buildings\Building_Beehive.cs" />
     <Compile Include="Buildings\Building_CellarOutdoor.cs" />
+    <Compile Include="Buildings\Building_ChurchAltar.cs" />
     <Compile Include="Buildings\Building_DoorSingle.cs" />
     <Compile Include="Buildings\Building_TownSquare.cs" />
     <Compile Include="ChurchService\ChurchService_Utils.cs" />

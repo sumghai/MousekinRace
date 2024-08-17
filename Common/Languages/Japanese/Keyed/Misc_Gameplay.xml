@@ -48,6 +48,9 @@
 
 	<!-- EN: Remove cheese from the press. -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>チーズプレス機からチーズを取り出します.</MousekinRace_CheesePress_RemoveCheeseDesc>
+	
+	<!-- EN: New {0} will arrive in {1}. -->
+	<MousekinRace_ChurchAltar_NewClergyArrivalTime>新しい{0}が{1}後に到着します.</MousekinRace_ChurchAltar_NewClergyArrivalTime>
 
 	<!-- EN: Must or Wort to Insert -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>ビア樽で発酵させてムストや麦汁を選択します.</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>

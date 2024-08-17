@@ -387,7 +387,8 @@ namespace MousekinRace
         
         public static void GenerateNewColonistsToQueue(float silverToPay, PawnKindDef pawnKind, int reqCount = 1, bool makeFamily = false, PawnKindDef spousePawnKind = null)
         {
-            Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction;
+            // Get the player-chosen allegiance faction, or default to the Kingdom if not aligned
+            Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction ?? Find.FactionManager.FirstFactionOfDef(MousekinDefOf.Mousekin_FactionKingdom);
             List<Pawn> pawnsToRecruit = new();  // Placeholder list for new colonists
 
             // Fetch list of new colonists already in queue (so that we can exclude them from the generation process later)

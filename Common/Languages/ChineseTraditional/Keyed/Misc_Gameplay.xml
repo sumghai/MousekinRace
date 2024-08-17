@@ -48,6 +48,9 @@
 
 	<!-- EN: Remove cheese from the press. -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>從起司壓制器移除起司。</MousekinRace_CheesePress_RemoveCheeseDesc>
+	
+	<!-- EN: New {0} will arrive in {1}. -->
+	<MousekinRace_ChurchAltar_NewClergyArrivalTime>新的{0}在{1}後抵達。</MousekinRace_ChurchAltar_NewClergyArrivalTime>
 
 	<!-- EN: Must or Wort to Insert -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>選原漿或麥汁</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>

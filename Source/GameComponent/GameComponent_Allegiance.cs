@@ -130,6 +130,12 @@ namespace MousekinRace
             // Skip if player has no allegiance to any Mousekin faction
             if (!HasDeclaredAllegiance) 
             {
+                // Special use case: clergy recruited via altar
+                if (!recruitedColonistsQueue.Empty() && nextNewColonistArrivalTick > 0 && Find.TickManager.TicksGame > nextNewColonistArrivalTick) 
+                {
+                    SpawnNextNewColonists();
+                }
+                
                 return;
             }
 

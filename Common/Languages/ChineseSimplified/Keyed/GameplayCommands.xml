@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+	
+	<!-- EN: Invite {0} -->
+	<MousekinRace_CommandInviteLabel>邀请{0}</MousekinRace_CommandInviteLabel>
+	
+	<!-- EN: Invite a {0} to join your settlement.\n\nCost: {1} silver -->
+	<MousekinRace_CommandInviteDesc>邀请一位{0}来定居。\n\n(花费：{1}白银)</MousekinRace_CommandInviteDesc>
 
 	<!-- EN: Rotate cap -->
 	<MousekinRace_CommandRotateWindmillCapLabel>旋转屋顶</MousekinRace_CommandRotateWindmillCapLabel>

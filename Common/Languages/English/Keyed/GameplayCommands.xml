@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
+	<MousekinRace_CommandInviteLabel>Invite {0}</MousekinRace_CommandInviteLabel>
+	
+	<MousekinRace_CommandInviteDesc>Invite a {0} to join your settlement.\n\nCost: {1} silver</MousekinRace_CommandInviteDesc>
+	
 	<MousekinRace_CommandRotateWindmillCapLabel>Rotate cap</MousekinRace_CommandRotateWindmillCapLabel>
 	
 	<MousekinRace_CommandRotateWindmillCapDesc>Rotate the cap and sails of the windmill.</MousekinRace_CommandRotateWindmillCapDesc>
