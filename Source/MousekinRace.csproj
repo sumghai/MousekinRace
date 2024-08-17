@@ -364,7 +364,7 @@
     <Compile Include="DefModExtensions\AlliableFactionExtension.cs" />
     <Compile Include="DefModExtensions\ApparelIgnoreStuffStatFactorsExtension.cs" />
     <Compile Include="DefModExtensions\BeehiveValidFlowersExtension.cs" />
-    <Compile Include="GameComponent\GameComponent_Allegiance.cs" />
+    <Compile Include="Comps\GameComponent_Allegiance.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_BothMousekin.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs" />
     <Compile Include="Goodwill\GoodwillSituationWorker_PrejudicedAgainstMousekin.cs" />
