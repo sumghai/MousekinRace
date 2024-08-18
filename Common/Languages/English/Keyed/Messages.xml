@@ -3,6 +3,8 @@
 
 	<MousekinRace_MessagePurchasedAnimalNamed>A purchased {0} is now named {1}.</MousekinRace_MessagePurchasedAnimalNamed>
 	
+	<MousekinRace_MessageChurchMissedService>Your Mousekin colonists are unhappy that they have missed their weekly church service. Make sure you have built a church, and have a priest available to hold services.</MousekinRace_MessageChurchMissedService>
+	
 	<MousekinRace_MessageCannotJoinFaction>Cannot pledge allegiance to {0}: requirements not met.</MousekinRace_MessageCannotJoinFaction>
 	
 	<Mousekinrace_MessageFactionRenamedViaAllegiance>Your faction is now known as the {0}, {1}.</Mousekinrace_MessageFactionRenamedViaAllegiance>

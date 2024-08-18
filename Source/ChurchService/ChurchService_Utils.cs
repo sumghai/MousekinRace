@@ -7,16 +7,20 @@ namespace MousekinRace
 {
     public static class ChurchService_Utils
     {
-        // Determine if there are enough (i.e. 5 or more) non-Apostate Mousekin player colonists on a given map
+        public const int MinNumWorshippers = 5;
+
+        // Get a list of non-Apostate Mousekin player colonists on a given map as (potential) worshippers
         // - Apostates have trait degree = 1
         // - Mousekins with no religious affinity are also considered worshippers
+        public static List<Pawn> GetMousekinPotentialWorshippers(Map map)
+        { 
+            return map.mapPawns.PawnsInFaction(Faction.OfPlayer).Where(p => p.IsMousekin() && p.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith) != 1).ToList();
+        }
+
+        // Determine if there are enough (i.e. 5 or more) Mousekin worshippers on a given map
         public static bool EnoughPlayerMousekinWorshippers(Map map)
         {
-            int MinNumWorshippers = 5;
-
-            int mousekinWorshippers = map.mapPawns.PawnsInFaction(Faction.OfPlayer).Where(p => p.IsMousekin() && p.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith) != 1).Count();
-
-            return mousekinWorshippers > MinNumWorshippers;
+            return GetMousekinPotentialWorshippers(map).Count() > MinNumWorshippers;
         }
 
         // Determine if there is a properly-configured church room/building on a given map

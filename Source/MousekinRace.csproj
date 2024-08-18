@@ -334,6 +334,7 @@
     <Compile Include="Comps\CompFireplaceRenderer.cs" />
     <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
+    <Compile Include="Comps\MapComponent_ChurchService.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
     <Compile Include="DefModExtensions\TraderExtension.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />

@@ -4,6 +4,9 @@
 	<!-- EN: A purchased {0} is now named {1}. -->
 	<MousekinRace_MessagePurchasedAnimalNamed>一只购买的{0}现在命名为{1}。</MousekinRace_MessagePurchasedAnimalNamed>
 	
+	<!-- EN: Your Mousekin colonists are unhappy that they have missed their weekly church service. Make sure you have built a church, and have a priest available to hold services. -->
+	<MousekinRace_MessageChurchMissedService>你的白鼠族殖民者因为错过了每周的教堂仪式而感到不满。请确保你已经建造了一座教堂，并有一名牧师可以举行仪式。</MousekinRace_MessageChurchMissedService>
+	
 	<!-- EN: Cannot pledge allegiance to {0}: requirements not met. -->
 	<MousekinRace_MessageCannotJoinFaction>无法效忠{0}：未满足所有要求。</MousekinRace_MessageCannotJoinFaction>
 	

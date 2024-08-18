@@ -96,6 +96,12 @@
 
 	<!-- EN: I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden! -->
 	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>同胞の一人を獣のように切り刻んでしまった.もう、大庭園には入れませんよ！</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: missed church service -->
+	<Mousekin_Thought_ChurchMissedService.stages.0.label>教会の礼拝を欠席した</Mousekin_Thought_ChurchMissedService.stages.0.label>
+	
+	<!-- EN: I missed church this week. Valerian forgive me, for I have strayed. -->
+	<Mousekin_Thought_ChurchMissedService.stages.0.description>今週は教会に行けなかった.バレリアン、私をお許しください.</Mousekin_Thought_ChurchMissedService.stages.0.description>
 
 	<!-- EN: colonist left unburied -->
 	<Mousekin_Thought_ColonistLeftUnburied.stages.0.label>死者には安らぎを</Mousekin_Thought_ColonistLeftUnburied.stages.0.label>

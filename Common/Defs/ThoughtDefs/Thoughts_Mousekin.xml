@@ -207,6 +207,20 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ChurchMissedService</defName>
+		<showBubble>true</showBubble>
+		<icon>UI/Ideoligions/FlowerCross</icon>
+		<durationDays>2</durationDays>
+		<stages>
+			<li>
+				<label>missed church service</label>
+				<description>I missed church this week. Valerian forgive me, for I have strayed.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 	<ThoughtDef>
 		<defName>Mousekin_Thought_ColonistLeftUnburied</defName>
