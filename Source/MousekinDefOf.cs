@@ -3,6 +3,7 @@ using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
+using Verse.AI;
 
 namespace MousekinRace
 {
@@ -61,6 +62,10 @@ namespace MousekinRace
             }
         }
 
+        // todo - determine if needed
+        //public static TaleDef Mousekin_Tale_ChurchAttendedService;
+        //public static TaleDef Mousekin_Tale_ChurchHeldService;
+        
         public static ThoughtDef Mousekin_Thought_AteCheese;
         public static ThoughtDef Mousekin_Thought_ChurchMissedService;
 
@@ -80,13 +85,21 @@ namespace MousekinRace
         public static DamageDef Mousekin_SuicideKnife;
         public static DamageDef Mousekin_SuicidePoison;
 
+        public static JobDef Mousekin_Job_ChurchServiceGiveSermon;
         public static JobDef Mousekin_Job_CommitSuicideWithKnife;
         public static JobDef Mousekin_Job_CommitSuicideWithPoison;
         public static JobDef Mousekin_Job_HarvestFromBeehive;
 
+        public static DutyDef Mousekin_DutyChurchServiceGiveSermon;
+        public static DutyDef Mousekin_DutyChurchServiceSpectate;
+
+        public static GatheringDef Mousekin_GatheringChurchService;
+
         public static PawnKindDef MousekinColonist;
         public static PawnKindDef MousekinPriest;
         public static PawnKindDef MousekinNun;
+
+        public static RoomRoleDef Mousekin_RoomChurch;
 
         public static FactionDef Mousekin_PlayerFaction_Settlers;
         public static FactionDef Mousekin_FactionKingdom;

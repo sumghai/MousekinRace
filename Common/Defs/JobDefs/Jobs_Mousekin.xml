@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	
+	<JobDef>
+		<defName>Mousekin_Job_ChurchServiceGiveSermon</defName>
+		<driverClass>MousekinRace.JobDriver_ChurchServiceGiveSermon</driverClass>
+		<reportString>holding church service.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
 
 	<JobDef>
 		<defName>Mousekin_Job_CommitSuicideWithKnife</defName>

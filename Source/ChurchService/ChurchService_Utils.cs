@@ -39,7 +39,7 @@ namespace MousekinRace
             int MinNumPews = 3;
 
             // If an altar exists, and is enclosed in a room (and is thus a Church)
-            if (altar != null && RoomRoleWorker_Church.IsValidRoom(altar.GetRoom()))
+            if (altar != null && RoomRoleWorker_Church.Validate(altar.GetRoom()))
             {
                 altarInValidRoom = true;
 
