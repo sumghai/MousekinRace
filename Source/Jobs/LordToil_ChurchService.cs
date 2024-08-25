@@ -27,7 +27,7 @@ namespace MousekinRace
                 if (c.InBounds(map))
                 { 
                     Building edifice = c.GetEdifice(map);
-                    if (edifice != null && edifice.def.hasInteractionCell && edifice.InteractionCell == cell)
+                    if (edifice != null && edifice.def == MousekinDefOf.Mousekin_ChurchLectern && edifice.def.hasInteractionCell && edifice.InteractionCell == cell)
                     { 
                         return edifice;
                     }
