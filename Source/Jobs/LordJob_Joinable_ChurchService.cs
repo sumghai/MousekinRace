@@ -46,16 +46,13 @@ namespace MousekinRace
 
         public override float VoluntaryJoinPriorityFor(Pawn p)
         {
-            if (p == organizer) 
+            // Priests and all worshippers must attend
+            if (p == organizer || ChurchService_Utils.GetMousekinPotentialWorshippers(p.Map).Contains(p)) 
             {
                 return 100f;
             }
 
-            if (ChurchService_Utils.GetMousekinPotentialWorshippers(p.Map).Contains(p))
-            { 
-                return VoluntarilyJoinableLordJobJoinPriorities.SocialGathering;
-            }
-
+            // Non-Apostate Mousekin guests can attend socially
             if (IsGuest(p))
             {
                 if (p.IsMousekin() && p.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith) != 1)
@@ -64,7 +61,8 @@ namespace MousekinRace
                 }
             }
 
-            return base.VoluntaryJoinPriorityFor(p);
+            // Humans, Apostate Mousekins and non-Mousekins in general should not attend at all
+            return 0f;
         }
 
         public override LordToil CreateGatheringToil(IntVec3 spot, Pawn organizer, GatheringDef gatheringDef)
