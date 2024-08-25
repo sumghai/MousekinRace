@@ -1,6 +1,7 @@
 ﻿using RimWorld;
 using System.Linq;
 using Verse;
+using Verse.AI;
 using Verse.AI.Group;
 
 namespace MousekinRace
@@ -38,7 +39,7 @@ namespace MousekinRace
             }
 
             Thing churchLectern = church.ContainedAndAdjacentThings.Where(t => t.def == MousekinDefOf.Mousekin_ChurchLectern).FirstOrDefault();
-            if (churchLectern == null || churchLectern.Position.IsForbidden(organizer))
+            if (churchLectern == null || !organizer.CanReach((LocalTargetInfo)churchLectern, PathEndMode.InteractionCell, Danger.None, false, false, TraverseMode.ByPawn))
             {
                 return false;
             }
