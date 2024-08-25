@@ -22,6 +22,51 @@ namespace MousekinRace
         {
         }
 
+        public bool IsGuest(Pawn p)
+        {
+            if (!p.RaceProps.Humanlike)
+            {
+                return false;
+            }
+            if (p == organizer)
+            {
+                return false;
+            }
+            if (p.Faction == organizer.Faction)
+            {
+                return false;
+            }
+            if (!GatheringsUtility.ShouldGuestKeepAttendingGathering(p))
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public override float VoluntaryJoinPriorityFor(Pawn p)
+        {
+            if (p == organizer) 
+            {
+                return 100f;
+            }
+
+            if (ChurchService_Utils.GetMousekinPotentialWorshippers(p.Map).Contains(p))
+            { 
+                return VoluntarilyJoinableLordJobJoinPriorities.SocialGathering;
+            }
+
+            if (IsGuest(p))
+            {
+                if (p.IsMousekin() && p.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith) != 1)
+                {
+                    return VoluntarilyJoinableLordJobJoinPriorities.SocialGathering;
+                }
+            }
+
+            return base.VoluntaryJoinPriorityFor(p);
+        }
+
         public override LordToil CreateGatheringToil(IntVec3 spot, Pawn organizer, GatheringDef gatheringDef)
         {
             return new LordToil_ChurchService(spot, gatheringDef, organizer);

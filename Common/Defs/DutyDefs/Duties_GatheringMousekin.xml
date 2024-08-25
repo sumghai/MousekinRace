@@ -3,7 +3,7 @@
 
 	<DutyDef>
 		<defName>Mousekin_DutyChurchServiceGiveSermon</defName>
-		<hook>MediumPriority</hook>
+		<hook>HighPriority</hook>
 		<socialModeMax>Off</socialModeMax>
 		<thinkNode Class="ThinkNode_Priority">
 			<subNodes>
@@ -32,7 +32,7 @@
 
 	<DutyDef>
 		<defName>Mousekin_DutyChurchServiceSpectate</defName>
-		<hook>MediumPriority</hook>
+		<hook>HighPriority</hook>
 		<socialModeMax>Off</socialModeMax>
 		<thinkNode Class="ThinkNode_Priority">
 			<subNodes>

@@ -15,7 +15,6 @@ namespace MousekinRace
         {
             this.spot = spot;
             this.organizer = organizer;
-            Log.Warning("LordToil_ChurchService() :: organizer = " + organizer);
             data = new LordToilData_ChurchServiceGiveSermon();
         }
 
@@ -46,18 +45,12 @@ namespace MousekinRace
             Data.spectateRectPreferredSide = rotation.AsSpectateSide;
         }
 
-        /*public override ThinkTreeDutyHook VoluntaryJoinDutyHookFor(Pawn p)
-        {
-            //if (p == this.organizer)
-            //    return MousekinDefOf.Mousekin_DutyChurchServiceGiveSermon.hook;
-            return MousekinDefOf.Mousekin_DutyChurchServiceGiveSermon.hook;
-        }*/
-
         public override void UpdateAllDuties()
         {
             for (int index = 0; index < lord.ownedPawns.Count; ++index)
             {
                 Pawn ownedPawn = lord.ownedPawns[index];
+
                 if (ownedPawn == organizer)
                 {
                     Building churchLectern = GetLecternFromInteractionCell(spot, Map);

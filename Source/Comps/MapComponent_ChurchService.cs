@@ -27,7 +27,6 @@ namespace MousekinRace
                     if (ChurchService_Utils.ValidChurchFound(map, out _) && ChurchService_Utils.GetRandomMousekinPriest(map) is Pawn priest)
                     {
                         Log.Warning("DORIME, INTERIMO ADAPARE, DORIME, AMENO AMENO");
-                        Log.Warning("Can execute? " + MousekinDefOf.Mousekin_GatheringChurchService.Worker.CanExecute(map, priest).ToStringYesNo());
                         MousekinDefOf.Mousekin_GatheringChurchService.Worker.TryExecute(map, priest);
                     }
                     // Otherwise, notify the player and give all potential worshippers a mood debuff
