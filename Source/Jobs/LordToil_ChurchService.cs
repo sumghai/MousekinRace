@@ -57,8 +57,6 @@ namespace MousekinRace
                 if (pawn == organizer)
                 {
                     Building churchLectern = GetLecternFromInteractionCell(spot, Map);
-                    Log.Warning("spot IntVec " + spot);
-                    Log.Warning("churchLectern pos IntVec " + churchLectern.Position);
                     pawn.mindState.duty = new PawnDuty(MousekinDefOf.Mousekin_DutyChurchServiceGiveSermon, spot, churchLectern);
                     pawn.jobs.EndCurrentJob(JobCondition.InterruptForced, true, true);
                 }

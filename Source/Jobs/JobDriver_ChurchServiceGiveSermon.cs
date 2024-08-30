@@ -19,7 +19,7 @@ namespace MousekinRace
 
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
-            return pawn.Reserve((LocalTargetInfo)ChurchLectern, job, 1, -1, null, errorOnFailed);
+            return pawn.Reserve(ChurchLectern, job, 1, -1, null, errorOnFailed);
         }
 
         public override IEnumerable<Toil> MakeNewToils()
@@ -27,12 +27,12 @@ namespace MousekinRace
             this.FailOnDespawnedNullOrForbidden(TargetIndex.A);
             yield return Toils_General.Do(new Action(delegate () 
             { 
-                job.SetTarget(TargetIndex.B, (LocalTargetInfo)(ChurchLectern.InteractionCell + ChurchLectern.Rotation.FacingCell)); 
+                job.SetTarget(TargetIndex.B, ChurchLectern.InteractionCell + ChurchLectern.Rotation.FacingCell); 
             }));
 
             Toil toil = new();
             toil.FailOnCannotTouch(TargetIndex.A, PathEndMode.InteractionCell);
-            toil.FailOn(new Func<bool>(() => RoomRoleWorker_Church.Validate(ChurchLectern.GetRoom(RegionType.Set_Passable))));
+            toil.FailOn(() => !RoomRoleWorker_Church.Validate(ChurchLectern.GetRoom()));
             
             toil.tickAction = new Action(delegate ()
             {
@@ -44,7 +44,6 @@ namespace MousekinRace
                 rotateToFace = TargetIndex.B;
             });
             toil.defaultCompleteMode = ToilCompleteMode.Never;
-
             yield return toil;
         }
     }
