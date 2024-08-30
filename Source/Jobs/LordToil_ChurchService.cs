@@ -45,21 +45,26 @@ namespace MousekinRace
             Data.spectateRectPreferredSide = rotation.AsSpectateSide;
         }
 
+        public override ThinkTreeDutyHook VoluntaryJoinDutyHookFor(Pawn p)
+        {
+            return MousekinDefOf.Mousekin_DutyChurchServiceGiveSermon.hook;
+        }
+
         public override void UpdateAllDuties()
         {
-            for (int index = 0; index < lord.ownedPawns.Count; ++index)
+            foreach (Pawn pawn in lord.ownedPawns)
             {
-                Pawn ownedPawn = lord.ownedPawns[index];
-
-                if (ownedPawn == organizer)
+                if (pawn == organizer)
                 {
                     Building churchLectern = GetLecternFromInteractionCell(spot, Map);
-                    ownedPawn.mindState.duty = new PawnDuty(MousekinDefOf.Mousekin_DutyChurchServiceGiveSermon, (LocalTargetInfo)spot, (LocalTargetInfo)churchLectern, -1f);
-                    ownedPawn.jobs.EndCurrentJob(JobCondition.InterruptForced, true, true);
+                    Log.Warning("spot IntVec " + spot);
+                    Log.Warning("churchLectern pos IntVec " + churchLectern.Position);
+                    pawn.mindState.duty = new PawnDuty(MousekinDefOf.Mousekin_DutyChurchServiceGiveSermon, spot, churchLectern);
+                    pawn.jobs.EndCurrentJob(JobCondition.InterruptForced, true, true);
                 }
                 else
                 {
-                    ownedPawn.mindState.duty = new PawnDuty(MousekinDefOf.Mousekin_DutyChurchServiceSpectate)
+                    pawn.mindState.duty = new PawnDuty(MousekinDefOf.Mousekin_DutyChurchServiceSpectate)
                     {
                         spectateRect = Data.spectateRect,
                         spectateRectAllowedSides = Data.spectateRectAllowedSides,

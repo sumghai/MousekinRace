@@ -82,12 +82,11 @@ namespace MousekinRace
             transition1.AddTrigger(new Trigger_TickCondition(new Func<bool>(ShouldBeCalledOff), 1));
             transition1.AddTrigger(new Trigger_PawnKilled());
             transition1.AddTrigger(new Trigger_PawnLost(PawnLostCondition.LeftVoluntarily, organizer));
-            transition1.AddPreAction(new TransitionAction_Custom((Action)(() => ApplyOutcome((float)lord.ticksInToil / serviceDuration))));
             stateGraph.AddTransition(transition1, false);
-            timeoutTrigger = new Trigger_TicksPassedAfterConditionMet((int)serviceDuration, (Func<bool>)(() => GatheringsUtility.InGatheringArea(organizer.Position, spot, organizer.Map)), 60);
+            timeoutTrigger = new Trigger_TicksPassedAfterConditionMet((int)serviceDuration, (() => GatheringsUtility.InGatheringArea(organizer.Position, spot, organizer.Map)), 60);
             Transition transition2 = new Transition(gatheringToil, lordToilEnd, false, true);
             transition2.AddTrigger(timeoutTrigger);
-            transition2.AddPreAction(new TransitionAction_Custom((Action)(() => ApplyOutcome(1f))));
+            transition2.AddPreAction(new TransitionAction_Custom(() => ApplyOutcome(1f)));
             stateGraph.AddTransition(transition2, false);
             return stateGraph;
         }
@@ -95,11 +94,7 @@ namespace MousekinRace
         public override string GetReport(Pawn pawn)
         {
             // todo - translate to keyed strings
-            if (pawn != organizer)
-            {
-                return "Attending church service";
-            }
-            return "Giving sermon";
+            return (pawn == organizer) ? "Giving sermon" :  "Attending church service";
         }
 
         public virtual void ApplyOutcome(float progress)
