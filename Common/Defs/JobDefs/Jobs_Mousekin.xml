@@ -5,7 +5,6 @@
 		<defName>Mousekin_Job_ChurchServiceGiveSermon</defName>
 		<driverClass>MousekinRace.JobDriver_ChurchServiceGiveSermon</driverClass>
 		<reportString>holding church service.</reportString>
-		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 		<neverShowWeapon>true</neverShowWeapon>
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
