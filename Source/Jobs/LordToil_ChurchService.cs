@@ -21,7 +21,7 @@ namespace MousekinRace
         public static Building GetLecternFromInteractionCell(IntVec3 cell, Map map)
         {
             // Check all four cardinal directions from the given cell
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < Rot4.RotationCount; i++)
             { 
                 IntVec3 c = cell + GenAdj.CardinalDirections[i];
                 if (c.InBounds(map))

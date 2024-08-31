@@ -78,24 +78,6 @@ namespace MousekinRace
 
         public override StateGraph CreateGraph()
         {
-            /*StateGraph stateGraph = new();
-            LordToil gatheringToil = CreateGatheringToil(spot, organizer, gatheringDef);
-            stateGraph.AddToil(gatheringToil);
-            LordToil_End lordToilEnd = new();
-            stateGraph.AddToil(lordToilEnd);
-            float serviceDuration = 8000f; // todo - what does this do?
-            Transition transition1 = new(gatheringToil, lordToilEnd, false, true);
-            transition1.AddTrigger(new Trigger_TickCondition(new Func<bool>(ShouldBeCalledOff), 1));
-            transition1.AddTrigger(new Trigger_PawnKilled());
-            transition1.AddTrigger(new Trigger_PawnLost(PawnLostCondition.LeftVoluntarily, organizer));
-            stateGraph.AddTransition(transition1, false);
-            timeoutTrigger = new Trigger_TicksPassedAfterConditionMet((int)serviceDuration, (() => GatheringsUtility.InGatheringArea(organizer.Position, spot, organizer.Map)), 60);
-            Transition transition2 = new Transition(gatheringToil, lordToilEnd, false, true);
-            transition2.AddTrigger(timeoutTrigger);
-            transition2.AddPreAction(new TransitionAction_Custom(() => ApplyOutcome(1f)));
-            stateGraph.AddTransition(transition2, false);
-            return stateGraph;*/
-
             StateGraph stateGraph = new();
             LordToil churchServiceToil = CreateGatheringToil(spot, organizer, gatheringDef);
             stateGraph.AddToil(churchServiceToil);
