@@ -7,7 +7,7 @@ namespace MousekinRace
 {
     public class LordJob_Joinable_ChurchService : LordJob_Joinable_Gathering
     {
-        public const float DurationHours = 1.5f;
+        public const float DurationHours = 2f;
 
         public override bool AllowStartNewGatherings => false;
 
@@ -20,6 +20,7 @@ namespace MousekinRace
         public LordJob_Joinable_ChurchService(IntVec3 spot, Pawn organizer, GatheringDef gatheringDef)
           : base(spot, organizer, gatheringDef)
         {
+            durationTicks = (int)(DurationHours * GenDate.TicksPerHour);
         }
 
         public bool IsGuest(Pawn p)
@@ -70,9 +71,14 @@ namespace MousekinRace
             return new LordToil_ChurchService(spot, gatheringDef, organizer);
         }
 
+        public override Trigger_TicksPassed GetTimeoutTrigger()
+        {
+            return new Trigger_TicksPassedAfterConditionMet(durationTicks, () => GatheringsUtility.InGatheringArea(organizer.Position, spot, organizer.Map), 60);
+        }
+
         public override StateGraph CreateGraph()
         {
-            StateGraph stateGraph = new();
+            /*StateGraph stateGraph = new();
             LordToil gatheringToil = CreateGatheringToil(spot, organizer, gatheringDef);
             stateGraph.AddToil(gatheringToil);
             LordToil_End lordToilEnd = new();
@@ -88,16 +94,39 @@ namespace MousekinRace
             transition2.AddTrigger(timeoutTrigger);
             transition2.AddPreAction(new TransitionAction_Custom(() => ApplyOutcome(1f)));
             stateGraph.AddTransition(transition2, false);
+            return stateGraph;*/
+
+            StateGraph stateGraph = new();
+            LordToil churchServiceToil = CreateGatheringToil(spot, organizer, gatheringDef);
+            stateGraph.AddToil(churchServiceToil);
+            LordToil_End lordToil_End = new();
+            stateGraph.AddToil(lordToil_End);
+
+            Transition transition = new (churchServiceToil, lordToil_End);
+            transition.AddTrigger(new Trigger_TickCondition(ShouldBeCalledOff));
+            transition.AddTrigger(new Trigger_PawnKilled());
+            transition.AddTrigger(new Trigger_PawnLost(PawnLostCondition.LeftVoluntarily, organizer));
+            transition.AddPreAction(new TransitionAction_Custom((Action)delegate
+            {
+                ApplyOutcome((LordToil_ChurchService)churchServiceToil);
+            }));
+            transition.AddPreAction(new TransitionAction_Message(gatheringDef.calledOffMessage, MessageTypeDefOf.NegativeEvent, new TargetInfo(spot, Map)));
+            stateGraph.AddTransition(transition);
+
+            timeoutTrigger = GetTimeoutTrigger();
+            Transition transition2 = new(churchServiceToil, lordToil_End);
+            transition2.AddTrigger(timeoutTrigger);
+            transition2.AddPreAction(new TransitionAction_Custom((Action)delegate
+            {
+                ApplyOutcome((LordToil_ChurchService)churchServiceToil);
+            }));
+            transition2.AddPreAction(new TransitionAction_Message(gatheringDef.finishedMessage, MessageTypeDefOf.SituationResolved, new TargetInfo(spot, Map)));
+            stateGraph.AddTransition(transition2);
+
             return stateGraph;
         }
 
-        public override string GetReport(Pawn pawn)
-        {
-            // todo - translate to keyed strings
-            return (pawn == organizer) ? "Giving sermon" :  "Attending church service";
-        }
-
-        public virtual void ApplyOutcome(float progress)
+        public virtual void ApplyOutcome(LordToil_ChurchService churchServiceToil)
         {
             // todo - apply various effects on participants
             /* 
