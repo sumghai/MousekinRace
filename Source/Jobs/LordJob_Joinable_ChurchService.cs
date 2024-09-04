@@ -102,7 +102,7 @@ namespace MousekinRace
             {
                 ApplyOutcome((LordToil_ChurchService)churchServiceToil);
             }));
-            transition2.AddPreAction(new TransitionAction_Message(gatheringDef.finishedMessage, MessageTypeDefOf.SituationResolved, new TargetInfo(spot, Map)));
+            transition2.AddPreAction(new TransitionAction_Message(gatheringDef.finishedMessage, MessageTypeDefOf.PositiveEvent, new TargetInfo(spot, Map)));
             stateGraph.AddTransition(transition2);
 
             return stateGraph;
@@ -110,6 +110,7 @@ namespace MousekinRace
 
         public virtual void ApplyOutcome(LordToil_ChurchService churchServiceToil)
         {
+            Log.Warning("end of church service - apply appropriate outcome");
             // todo - apply various effects on participants
             /* 
                 foreach (Pawn ownedPawn in this.lord.ownedPawns)        iterates through all participants
