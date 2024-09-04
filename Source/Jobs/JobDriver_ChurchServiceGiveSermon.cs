@@ -10,7 +10,7 @@ namespace MousekinRace
     [StaticConstructorOnStartup]
     public class JobDriver_ChurchServiceGiveSermon : JobDriver
     {
-        public static readonly IntRange MoteInterval = new IntRange(300, 500);
+        public static readonly IntRange MoteInterval = new(300, 500);
         public static readonly Texture2D moteImage = ContentFinder<Texture2D>.Get("UI/Ideoligions/FlowerCross", true);
         public const TargetIndex ChurchLecternIndex = TargetIndex.A;
         public const TargetIndex FacingIndex = TargetIndex.B;
@@ -24,14 +24,14 @@ namespace MousekinRace
 
         public override IEnumerable<Toil> MakeNewToils()
         {
-            this.FailOnDespawnedNullOrForbidden(TargetIndex.A);
+            this.FailOnDespawnedNullOrForbidden(ChurchLecternIndex);
             yield return Toils_General.Do(new Action(delegate () 
             { 
-                job.SetTarget(TargetIndex.B, ChurchLectern.InteractionCell + ChurchLectern.Rotation.FacingCell); 
+                job.SetTarget(FacingIndex, ChurchLectern.InteractionCell + ChurchLectern.Rotation.FacingCell); 
             }));
 
             Toil toil = new();
-            toil.FailOnCannotTouch(TargetIndex.A, PathEndMode.InteractionCell);
+            toil.FailOnCannotTouch(ChurchLecternIndex, PathEndMode.InteractionCell);
             toil.FailOn(() => !RoomRoleWorker_Church.Validate(ChurchLectern.GetRoom()));
             
             toil.tickAction = new Action(delegate ()
@@ -41,7 +41,8 @@ namespace MousekinRace
                 {
                     MoteMaker.MakeSpeechBubble(pawn, moteImage);
                 }
-                rotateToFace = TargetIndex.B;
+                // Forces priest to always face the lectern while standing at its interaction cell
+                rotateToFace = FacingIndex;
             });
             toil.defaultCompleteMode = ToilCompleteMode.Never;
             yield return toil;

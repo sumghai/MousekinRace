@@ -8,6 +8,7 @@ namespace MousekinRace
         public override Job TryGiveJob(Pawn pawn)
         {
             PawnDuty duty = pawn.mindState.duty;
+
             if (duty == null)
             { 
                 return null;
