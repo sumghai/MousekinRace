@@ -85,6 +85,7 @@ namespace MousekinRace
         public static DamageDef Mousekin_SuicideKnife;
         public static DamageDef Mousekin_SuicidePoison;
 
+        public static JobDef Mousekin_Job_ChurchServiceAttendSermon;
         public static JobDef Mousekin_Job_ChurchServiceGiveSermon;
         public static JobDef Mousekin_Job_CommitSuicideWithKnife;
         public static JobDef Mousekin_Job_CommitSuicideWithPoison;

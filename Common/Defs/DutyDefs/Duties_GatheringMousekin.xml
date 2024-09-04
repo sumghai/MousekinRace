@@ -43,7 +43,7 @@
 				</li>
 				
 				<!-- Go to church room, and sit or stand to spectate sermon -->
-				<li Class="JobGiver_SpectateDutySpectateRect"/>
+				<li Class="MousekinRace.JobGiver_ChurchServiceAttendSermon"/>
 				
 			</subNodes>
 		</thinkNode>
