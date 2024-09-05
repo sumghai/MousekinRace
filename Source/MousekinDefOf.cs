@@ -61,10 +61,6 @@ namespace MousekinRace
                 return (Mousekin as ThingDef_AlienRace).alienRace.raceRestriction.researchList.FirstOrDefault(p => !p.apparelList.NullOrEmpty()).projects;
             }
         }
-
-        // todo - determine if needed
-        //public static TaleDef Mousekin_Tale_ChurchAttendedService;
-        //public static TaleDef Mousekin_Tale_ChurchHeldService;
         
         public static ThoughtDef Mousekin_Thought_AteCheese;
         public static ThoughtDef Mousekin_Thought_ChurchMissedService;
