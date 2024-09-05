@@ -8,14 +8,14 @@ namespace MousekinRace
     {
         public Pawn organizer;
 
-        public new LordToilData_ChurchServiceGiveSermon Data => data as LordToilData_ChurchServiceGiveSermon;
+        public new LordToilData_ChurchService Data => data as LordToilData_ChurchService;
 
         public LordToil_ChurchService(IntVec3 spot, GatheringDef gatheringDef, Pawn organizer)
           : base(spot, gatheringDef)
         {
             this.spot = spot;
             this.organizer = organizer;
-            data = new LordToilData_ChurchServiceGiveSermon();
+            data = new LordToilData_ChurchService();
         }
 
         public static Building GetLecternFromInteractionCell(IntVec3 cell, Map map)

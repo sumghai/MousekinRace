@@ -1,6 +1,10 @@
 ﻿using RimWorld;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 using Verse;
+using Verse.AI;
 using Verse.AI.Group;
 
 namespace MousekinRace
@@ -8,6 +12,12 @@ namespace MousekinRace
     public class LordJob_Joinable_ChurchService : LordJob_Joinable_Gathering
     {
         public const float DurationHours = 2f;
+
+        public virtual ThoughtDef AttendeeThought => MousekinDefOf.Mousekin_Thought_ChurchAttendedService;
+
+        public virtual ThoughtDef MissedThought => MousekinDefOf.Mousekin_Thought_ChurchMissedService;
+
+        public virtual ThoughtDef OrganizerThought => MousekinDefOf.Mousekin_Thought_ChurchHeldService;
 
         public override bool AllowStartNewGatherings => false;
 
@@ -110,14 +120,42 @@ namespace MousekinRace
 
         public virtual void ApplyOutcome(LordToil_ChurchService churchServiceToil)
         {
-            Log.Warning("end of church service - apply appropriate outcome");
+            LordToilData_ChurchService lordToilData_Gathering = churchServiceToil.data as LordToilData_ChurchService;
+
+            // Apply the appropriate memory to priests and worshippers who attended the church service,
+            // as well as those who did not join the church service in time before it ended
+            foreach (Pawn pawn in lord.ownedPawns)
+            {
+                bool isOrganiser = pawn == organizer;
+                ThoughtDef thoughtDef;
+                if (lordToilData_Gathering.presentForTicks.TryGetValue(pawn, out var value) && value > 0)
+                {
+                    thoughtDef = isOrganiser ? OrganizerThought : AttendeeThought;
+                }
+                else
+                {
+                    thoughtDef = MissedThought;
+                }
+
+                pawn.needs.mood?.thoughts.memories.TryGainMemory(thoughtDef);
+            }
+
+            // Worshippers who missed the church service entirely get the "missed church service" memory
+            List<Pawn> absentPawns = ChurchService_Utils.GetMousekinPotentialWorshippers(Map).Where(p => !lord.ownedPawns.Contains(p)).ToList();
+
+            foreach (Pawn pawn in absentPawns)
+            {
+                pawn.needs.mood?.thoughts.memories.TryGainMemory(MousekinDefOf.Mousekin_Thought_ChurchMissedService);
+            }
+
+
             // todo - apply various effects on participants
             /* 
-                foreach (Pawn ownedPawn in this.lord.ownedPawns)        iterates through all participants
+                foreach (Pawn pawn in this.lord.ownedPawns)        iterates through all participants
 
-                ownedPawn != this.organizer                             not the priest/organizer
+                pawn != this.organizer                             not the priest/organizer
 
-                ownedPawn.needs.mood.thoughts.memories.TryGainMemory()  applying memories to a given participant
+                pawn.needs.mood.thoughts.memories.TryGainMemory()  applying memories to a given participant
              */
         }
     }

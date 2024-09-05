@@ -3,7 +3,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class LordToilData_ChurchServiceGiveSermon : LordToilData_Gathering
+    public class LordToilData_ChurchService : LordToilData_Gathering
     {
         public CellRect spectateRect;
         public SpectateRectSide spectateRectAllowedSides = SpectateRectSide.All;

@@ -63,6 +63,8 @@ namespace MousekinRace
         }
         
         public static ThoughtDef Mousekin_Thought_AteCheese;
+        public static ThoughtDef Mousekin_Thought_ChurchAttendedService;
+        public static ThoughtDef Mousekin_Thought_ChurchHeldService;
         public static ThoughtDef Mousekin_Thought_ChurchMissedService;
 
         public static TraitDef Mousekin_TraitSpectrum_Faith;

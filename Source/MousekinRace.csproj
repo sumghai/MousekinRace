@@ -343,7 +343,7 @@
     <Compile Include="Jobs\JobGiver_ChurchServiceAttendSermon.cs" />
     <Compile Include="Jobs\JobGiver_ChurchServiceGiveSermon.cs" />
     <Compile Include="Jobs\LordJob_Joinable_ChurchService.cs" />
-    <Compile Include="Jobs\LordToilData_ChurchServiceGiveSermon.cs" />
+    <Compile Include="Jobs\LordToilData_ChurchService.cs" />
     <Compile Include="Jobs\LordToil_ChurchService.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
     <Compile Include="Patches\Harmony_CellInspectorDrawer.cs" />
