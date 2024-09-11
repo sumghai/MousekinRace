@@ -124,6 +124,8 @@ namespace MousekinRace
 
             // Apply the appropriate memory to priests and worshippers who attended the church service,
             // as well as those who did not join the church service in time before it ended
+            //
+            // Worshippers will also get a custom work frenzy inspiration
             foreach (Pawn pawn in lord.ownedPawns)
             {
                 bool isOrganiser = pawn == organizer;
@@ -138,6 +140,11 @@ namespace MousekinRace
                 }
 
                 pawn.needs.mood?.thoughts.memories.TryGainMemory(thoughtDef);
+
+                if (!isOrganiser)
+                {
+                    pawn.mindState.inspirationHandler.TryStartInspiration(MousekinDefOf.Mousekin_Inspiration_FrenzyWork, sendLetter: false);
+                }
             }
 
             // Worshippers who missed the church service entirely get the "missed church service" memory
