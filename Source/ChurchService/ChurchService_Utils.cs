@@ -78,6 +78,40 @@ namespace MousekinRace
             return ValidChurchFound(map, out altarOnMap, out _, out _);
         }
 
+        // Get a list of cells behind the last row of pews/seats in a church,
+        // where pawns without seats can stand
+        public static List<IntVec3> GetStandableCellsBehindPews(Map map, Building lectern)
+        {
+            // Find the church room, given a lectern
+            Room churchRoom = lectern.Position.GetRoom(map);
+
+            // Get a list of pews/seats in the church room
+            List<Thing> sittables = churchRoom.ContainedAndAdjacentThings.Where(x => x.def.category == ThingCategory.Building && x.def.building.isSittable).ToList();
+
+            List<IntVec3> foundSpots = [];
+
+            // Take the direction the lectern is facing, find the furthest row/column of seats from it,
+            // then mark all the free cells beyond that as standable
+            // (we +/- 1 so that pawns don't simply stand in the exact same row/column as the furthest seats
+            switch (lectern.Rotation.AsInt)
+            {
+                case Rot4.NorthInt:
+                    foundSpots = churchRoom.Cells.Where(c => c.z - 1 > sittables.MaxBy(t => t.Position.z).Position.z).ToList();
+                    break;
+                case Rot4.EastInt:
+                    foundSpots = churchRoom.Cells.Where(c => c.x - 1 > sittables.MaxBy(t => t.Position.x).Position.x).ToList();
+                    break;
+                case Rot4.SouthInt:
+                    foundSpots = churchRoom.Cells.Where(c => c.z + 1 < sittables.MaxBy(t => t.Position.z).Position.z).ToList();
+                    break;
+                case Rot4.WestInt:
+                    foundSpots = churchRoom.Cells.Where(c => c.x + 1 < sittables.MaxBy(t => t.Position.x).Position.x).ToList();
+                    break;
+            }
+
+            return foundSpots;
+        }
+
         // Find a random Mousekin Priest from the player colonists on a given map
         public static Pawn GetRandomMousekinPriest(Map map)
         { 

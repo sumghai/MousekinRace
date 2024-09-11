@@ -32,19 +32,25 @@ namespace MousekinRace
         }
 
         public virtual bool TryFindSpot(Pawn pawn, PawnDuty duty, out IntVec3 spot)
-        {
-            if ((duty.spectateRectPreferredSide == SpectateRectSide.None || !SpectatorCellFinder.TryFindSpectatorCellFor(pawn, duty.spectateRect, pawn.Map, out spot, duty.spectateRectPreferredSide)) && !SpectatorCellFinder.TryFindSpectatorCellFor(pawn, duty.spectateRect, pawn.Map, out spot, duty.spectateRectAllowedSides))
+        {           
+            if ((duty.spectateRectPreferredSide == SpectateRectSide.None || !SpectatorCellFinder.TryFindSpectatorCellFor(pawn, duty.spectateRect, pawn.Map, out spot, duty.spectateRectPreferredSide, extraValidator: GoodSpectateCellForChurchSermon)) && !SpectatorCellFinder.TryFindSpectatorCellFor(pawn, duty.spectateRect, pawn.Map, out spot, duty.spectateRectAllowedSides, extraValidator: GoodSpectateCellForChurchSermon))
             {
-                // todo - pick a spot that is either a sittable furniture (pew) or a "reasonable" standing spot (i.e. not right up against the lectern)
-                IntVec3 target = duty.spectateRect.CenterCell;
-                if (CellFinder.TryFindRandomReachableNearbyCell(target, pawn.MapHeld, 5f, TraverseParms.For(pawn), (IntVec3 c) => c.GetRoom(pawn.MapHeld) == target.GetRoom(pawn.MapHeld) && pawn.CanReserveSittableOrSpot(c) && !duty.spectateRect.Contains(c), null, out spot))
-                {
-                    return true;
-                }
-                Log.Warning("Failed to find a spectator spot for " + pawn);
                 return false;
             }
-            return true;
+            return spot.IsValid;
+        }
+
+        public static bool GoodSpectateCellForChurchSermon(IntVec3 spot, Pawn p, Map map)
+        {
+            // Prioritize looking for seats
+            Building potentialSeat = spot.GetEdifice(p.Map);
+            bool spotIsSeat = potentialSeat != null && potentialSeat.def.category == ThingCategory.Building && potentialSeat.def.building.isSittable;
+
+            // Fallback: free standing spot behind last row of seats/pews
+            Building lectern = spot.GetRoom(p.MapHeld).ContainedThings(MousekinDefOf.Mousekin_ChurchLectern).FirstOrDefault() as Building;
+            bool spotBehindSeatsIsStandable = ChurchService_Utils.GetStandableCellsBehindPews(map, lectern).Contains(spot);
+
+            return spotIsSeat || spotBehindSeatsIsStandable;
         }
     }
 }
