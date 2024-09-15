@@ -9,6 +9,16 @@ namespace MousekinRace
     {
         public const int MinNumWorshippers = 5;
 
+        public const float BaseTitheDefault = 1f;
+
+        public const float BaseTithePious = 3f;
+
+        public const float BaseTitheInquisitionist = 2f;
+
+        public static float TitheMultiplierPriest(int priestPawnSocialSkill) => priestPawnSocialSkill * 0.2f;
+
+        public static float TitheMultiplierNuns(int numNuns) => (numNuns <= 4) ? 1f + 0.1f * numNuns : 1.4f;
+
         // Get a list of non-Apostate Mousekin player colonists on a given map as (potential) worshippers
         // - Apostates have trait degree = 1
         // - Mousekins with no religious affinity are also considered worshippers
@@ -116,6 +126,40 @@ namespace MousekinRace
         public static Pawn GetRandomMousekinPriest(Map map)
         { 
             return map.mapPawns.PawnsInFaction(Faction.OfPlayer).Where(p => p.kindDef == MousekinDefOf.MousekinPriest).RandomElementWithFallback();
+        }
+
+        // Calculate how much silver tithe was collected from the sermon
+        public static int GetTitheAmount(Pawn organizer, List<Pawn> worshippers)
+        {
+            float amount = 0;
+
+            // Don't count the priest as a worshipper
+            worshippers.Remove(organizer);
+
+            // Count the number of nuns, but exclude them from the worshippers
+            int numNuns = worshippers.Where(p => p.kindDef == MousekinDefOf.MousekinNun).Count();
+            worshippers.RemoveAll(p => p.kindDef == MousekinDefOf.MousekinNun);
+
+            // Calculate baseline tithes based on each worshipper's religious trait affinity degree
+            foreach (Pawn worshipper in worshippers)
+            {
+                int pawnFaithTraitDegree = worshipper.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith);
+
+                amount += pawnFaithTraitDegree switch
+                {
+                    3 => BaseTithePious, // Pious
+                    4 => BaseTitheInquisitionist, // Inqusitionist
+                    _ => BaseTitheDefault, // unknown/none (0) and Devotionist (2)
+                };
+            }
+
+            // Apply various multipliers
+            // - Priest social skill level
+            // - Number of nuns
+            amount *= TitheMultiplierPriest(organizer.skills.GetSkill(SkillDefOf.Social).Level);
+            amount *= TitheMultiplierNuns(numNuns);
+
+            return (int) amount;
         }
     }
 }

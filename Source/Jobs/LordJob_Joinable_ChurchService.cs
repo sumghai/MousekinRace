@@ -121,6 +121,7 @@ namespace MousekinRace
         public virtual void ApplyOutcome(LordToil_ChurchService churchServiceToil)
         {
             LordToilData_ChurchService lordToilData_Gathering = churchServiceToil.data as LordToilData_ChurchService;
+            Building churchAltar = lordToilData_Gathering.churchAltar;
 
             // Apply the appropriate memory to priests and worshippers who attended the church service,
             // as well as those who did not join the church service in time before it ended
@@ -155,15 +156,17 @@ namespace MousekinRace
                 pawn.needs.mood?.thoughts.memories.TryGainMemory(MousekinDefOf.Mousekin_Thought_ChurchMissedService);
             }
 
+            // Calculate tithe collected for this sermon
+            int titheAmount = ChurchService_Utils.GetTitheAmount(organizer, lord.ownedPawns);
 
-            // todo - apply various effects on participants
-            /* 
-                foreach (Pawn pawn in this.lord.ownedPawns)        iterates through all participants
+            // Spawn silver at altar
+            Thing t = ThingMaker.MakeThing(ThingDefOf.Silver);
+            t.stackCount = titheAmount;
+            GenPlace.TryPlaceThing(t, churchAltar.positionInt, Map, ThingPlaceMode.Direct);
 
-                pawn != this.organizer                             not the priest/organizer
+            // Send letter summarizing outcome of sermon
+            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_ChurchServiceConcluded".Translate(), "MousekinRace_Letter_ChurchServiceConcludedDesc".Translate(titheAmount), LetterDefOf.NeutralEvent);
 
-                pawn.needs.mood.thoughts.memories.TryGainMemory()  applying memories to a given participant
-             */
         }
     }
 }
