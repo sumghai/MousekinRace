@@ -128,17 +128,16 @@ namespace MousekinRace
             return map.mapPawns.PawnsInFaction(Faction.OfPlayer).Where(p => p.kindDef == MousekinDefOf.MousekinPriest).RandomElementWithFallback();
         }
 
-        // Calculate how much silver tithe was collected from the sermon
-        public static int GetTitheAmount(Pawn organizer, List<Pawn> worshippers)
+        // Generate the church service multipliersSummary letter contents and calculate the tithe amount
+        public static TaggedString GetSummaryAndTitheAmount(Pawn organizer, List<Pawn> lordPawns, out int silverAmount)
         {
             float amount = 0;
 
-            // Don't count the priest as a worshipper
-            worshippers.Remove(organizer);
-
             // Count the number of nuns, but exclude them from the worshippers
-            int numNuns = worshippers.Where(p => p.kindDef == MousekinDefOf.MousekinNun).Count();
-            worshippers.RemoveAll(p => p.kindDef == MousekinDefOf.MousekinNun);
+            int numNuns = lordPawns.Where(p => p.kindDef == MousekinDefOf.MousekinNun).Count();
+
+            // Count all worshippers (excluding the officating priest and any nuns)
+            List<Pawn> worshippers = lordPawns.Where(p => p != organizer && p.kindDef != MousekinDefOf.MousekinNun).ToList();
 
             // Calculate baseline tithes based on each worshipper's religious trait affinity degree
             foreach (Pawn worshipper in worshippers)
@@ -153,13 +152,22 @@ namespace MousekinRace
                 };
             }
 
-            // Apply various multipliers
+            // Apply various multipliers to get the final tithe amount
             // - Priest social skill level
             // - Number of nuns
-            amount *= TitheMultiplierPriest(organizer.skills.GetSkill(SkillDefOf.Social).Level);
+            int priestSocialSkill = organizer.skills.GetSkill(SkillDefOf.Social).Level;
+            amount *= TitheMultiplierPriest(priestSocialSkill);
             amount *= TitheMultiplierNuns(numNuns);
+            silverAmount = (int) amount;
 
-            return (int) amount;
+            // Generate summary
+            TaggedString multipliersSummary = new();
+            multipliersSummary += "Officiating priest: " + organizer.NameFullColored + " (Social skill: " + priestSocialSkill + ", multiplier: " + TitheMultiplierPriest(priestSocialSkill).ToStringPercent() + ")\n";
+            multipliersSummary += "Nuns: " + numNuns + " (multiplier: " + TitheMultiplierNuns(numNuns).ToStringPercent() + ")";
+
+
+            // Return the (translated) letter contents
+            return "MousekinRace_Letter_ChurchServiceConcludedDesc".Translate(GenDate.DateFullStringAt(Find.TickManager.TicksAbs, Find.WorldGrid.LongLatOf(organizer.Map.Tile)), multipliersSummary, silverAmount);
         }
     }
 }

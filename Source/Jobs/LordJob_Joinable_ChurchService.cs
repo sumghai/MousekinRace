@@ -156,17 +156,13 @@ namespace MousekinRace
                 pawn.needs.mood?.thoughts.memories.TryGainMemory(MousekinDefOf.Mousekin_Thought_ChurchMissedService);
             }
 
-            // Calculate tithe collected for this sermon
-            int titheAmount = ChurchService_Utils.GetTitheAmount(organizer, lord.ownedPawns);
+            // Send letter summarizing outcome of sermon and calculate tithe amount
+            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_ChurchServiceConcluded".Translate(), ChurchService_Utils.GetSummaryAndTitheAmount(organizer, lord.ownedPawns, out int titheAmount), LetterDefOf.NeutralEvent);
 
             // Spawn silver at altar
             Thing t = ThingMaker.MakeThing(ThingDefOf.Silver);
             t.stackCount = titheAmount;
             GenPlace.TryPlaceThing(t, churchAltar.positionInt, Map, ThingPlaceMode.Direct);
-
-            // Send letter summarizing outcome of sermon
-            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_ChurchServiceConcluded".Translate(), "MousekinRace_Letter_ChurchServiceConcludedDesc".Translate(titheAmount), LetterDefOf.NeutralEvent);
-
         }
     }
 }
