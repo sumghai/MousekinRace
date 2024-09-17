@@ -123,6 +123,9 @@ namespace MousekinRace
             LordToilData_ChurchService lordToilData_Gathering = churchServiceToil.data as LordToilData_ChurchService;
             Building churchAltar = lordToilData_Gathering.churchAltar;
 
+            List<Pawn> attendeePawns = new();
+            List<Pawn> absentPawns = new();
+
             // Apply the appropriate memory to priests and worshippers who attended the church service,
             // as well as those who did not join the church service in time before it ended
             //
@@ -133,10 +136,12 @@ namespace MousekinRace
                 ThoughtDef thoughtDef;
                 if (lordToilData_Gathering.presentForTicks.TryGetValue(pawn, out var value) && value > 0)
                 {
+                    attendeePawns.Add(pawn);
                     thoughtDef = isOrganiser ? OrganizerThought : AttendeeThought;
                 }
                 else
                 {
+                    absentPawns.Add(pawn);
                     thoughtDef = MissedThought;
                 }
 
@@ -148,16 +153,8 @@ namespace MousekinRace
                 }
             }
 
-            // Worshippers who missed the church service entirely get the "missed church service" memory
-            List<Pawn> absentPawns = ChurchService_Utils.GetMousekinPotentialWorshippers(Map).Where(p => !lord.ownedPawns.Contains(p)).ToList();
-
-            foreach (Pawn pawn in absentPawns)
-            {
-                pawn.needs.mood?.thoughts.memories.TryGainMemory(MousekinDefOf.Mousekin_Thought_ChurchMissedService);
-            }
-
             // Send letter summarizing outcome of sermon and calculate tithe amount
-            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_ChurchServiceConcluded".Translate(), ChurchService_Utils.GetSummaryAndTitheAmount(organizer, lord.ownedPawns, out int titheAmount), LetterDefOf.NeutralEvent);
+            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_ChurchServiceConcluded".Translate(), ChurchService_Utils.GetSummaryAndTitheAmount(organizer, attendeePawns, absentPawns, out int titheAmount), LetterDefOf.NeutralEvent);
 
             // Spawn silver at altar
             Thing t = ThingMaker.MakeThing(ThingDefOf.Silver);

@@ -129,15 +129,15 @@ namespace MousekinRace
         }
 
         // Generate the church service multipliersSummary letter contents and calculate the tithe amount
-        public static TaggedString GetSummaryAndTitheAmount(Pawn organizer, List<Pawn> lordPawns, out int silverAmount)
+        public static TaggedString GetSummaryAndTitheAmount(Pawn organizer, List<Pawn> attendeePawns, List<Pawn> absentPawns, out int silverAmount)
         {
             float amount = 0;
 
             // Count the number of nuns, but exclude them from the worshippers
-            int numNuns = lordPawns.Where(p => p.kindDef == MousekinDefOf.MousekinNun).Count();
+            int numNuns = attendeePawns.Where(p => p.kindDef == MousekinDefOf.MousekinNun).Count();
 
             // Count all worshippers (excluding the officating priest and any nuns)
-            List<Pawn> worshippers = lordPawns.Where(p => p != organizer && p.kindDef != MousekinDefOf.MousekinNun).ToList();
+            List<Pawn> worshippers = attendeePawns.Where(p => p != organizer && p.kindDef != MousekinDefOf.MousekinNun).ToList();
 
             // Calculate baseline tithes based on each worshipper's religious trait affinity degree
             foreach (Pawn worshipper in worshippers)
@@ -152,6 +152,37 @@ namespace MousekinRace
                 };
             }
 
+            // Generate breakdown of religious affinities among worshippers
+            List<ReligiousAffinityPawnCount> churchReligiousAffinityPawnCounts = new();
+
+            foreach (TraitDegreeData traitDegreeData in MousekinDefOf.Mousekin_TraitSpectrum_Faith.degreeDatas)
+            {
+                churchReligiousAffinityPawnCounts.Add(new ReligiousAffinityPawnCount(traitDegreeData.degree, 0, traitDegreeData.LabelCap));
+            }
+
+            List<Pawn> colonistsWithReligiousAffinities = new();
+            foreach (Pawn worshipper in worshippers)
+            {
+                if (worshipper.story.traits.GetTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith) is Trait faithTrait)
+                {
+                    colonistsWithReligiousAffinities.Add(worshipper);
+                    churchReligiousAffinityPawnCounts.Find(x => x.degree == faithTrait.Degree).pawnsWithTrait++;
+                }                
+            }
+
+            int pawnsWithUnknownReligiousAffinity = worshippers.Count - colonistsWithReligiousAffinities.Count;
+            churchReligiousAffinityPawnCounts.Add(new ReligiousAffinityPawnCount(-99999, pawnsWithUnknownReligiousAffinity, "UnknownLower".Translate().CapitalizeFirst()));
+
+            TaggedString worshipperReligiousAffinitySummary = TaggedString.Empty;
+            
+            foreach (ReligiousAffinityPawnCount religiousAffinityPawnCount in churchReligiousAffinityPawnCounts)
+            {
+                if (religiousAffinityPawnCount.pawnsWithTrait > 0)
+                {
+                    worshipperReligiousAffinitySummary += "\n    " + religiousAffinityPawnCount.affinityLabel + ": " + religiousAffinityPawnCount.pawnsWithTrait;
+                }
+            }
+
             // Apply various multipliers to get the final tithe amount
             // - Priest social skill level
             // - Number of nuns
@@ -160,14 +191,17 @@ namespace MousekinRace
             amount *= TitheMultiplierNuns(numNuns);
             silverAmount = (int) amount;
 
-            // Generate summary
-            TaggedString multipliersSummary = new();
-            multipliersSummary += "Officiating priest: " + organizer.NameFullColored + " (Social skill: " + priestSocialSkill + ", multiplier: " + TitheMultiplierPriest(priestSocialSkill).ToStringPercent() + ")\n";
-            multipliersSummary += "Nuns: " + numNuns + " (multiplier: " + TitheMultiplierNuns(numNuns).ToStringPercent() + ")";
-
-
             // Return the (translated) letter contents
-            return "MousekinRace_Letter_ChurchServiceConcludedDesc".Translate(GenDate.DateFullStringAt(Find.TickManager.TicksAbs, Find.WorldGrid.LongLatOf(organizer.Map.Tile)), multipliersSummary, silverAmount);
+            return "MousekinRace_Letter_ChurchServiceConcludedDesc".Translate(
+                GenDate.DateFullStringAt(Find.TickManager.TicksAbs, Find.WorldGrid.LongLatOf(organizer.Map.Tile)),
+                organizer.NameFullColored,
+                priestSocialSkill + " (x" + TitheMultiplierPriest(priestSocialSkill).ToStringPercent() + ")",
+                numNuns + " (x" + TitheMultiplierNuns(numNuns).ToStringPercent() + ")",
+                worshippers.Count(),
+                worshipperReligiousAffinitySummary,
+                absentPawns.Count(),
+                silverAmount
+            );
         }
     }
 }
