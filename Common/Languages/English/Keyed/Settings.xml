@@ -11,6 +11,10 @@
 	
 	<MousekinRace_Settings_SectionMisc_Heading>Miscellaneous</MousekinRace_Settings_SectionMisc_Heading>
 	
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>Church tithe multiplier: {0}x</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>
+	
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>Specify the multiplier applied to the amount of silver tithe generated at the end of church service gatherings.</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>
+	
 	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>Root cellar temperature: {0}</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>
 	
 	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>Specify the temperature at which root cellars refrigerate their contents.</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>

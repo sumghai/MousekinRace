@@ -186,9 +186,11 @@ namespace MousekinRace
             // Apply various multipliers to get the final tithe amount
             // - Priest social skill level
             // - Number of nuns
+            // - Mod setting multiplier
             int priestSocialSkill = organizer.skills.GetSkill(SkillDefOf.Social).Level;
             amount *= TitheMultiplierPriest(priestSocialSkill);
             amount *= TitheMultiplierNuns(numNuns);
+            amount *= MousekinRaceMod.Settings.ChurchTitheMultiplier;
             silverAmount = (int) amount;
 
             // Return the (translated) letter contents
