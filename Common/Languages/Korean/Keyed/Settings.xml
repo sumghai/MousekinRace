@@ -16,6 +16,12 @@
 	<!-- EN: Miscellaneous -->
 	<MousekinRace_Settings_SectionMisc_Heading>기타</MousekinRace_Settings_SectionMisc_Heading>
 	
+	<!-- EN: Church tithe multiplier: {0}x -->
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>교회 십일조 배율: {0}x</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>
+
+	<!-- EN: Specify the multiplier applied to the amount of silver tithe generated at the end of church service gatherings. -->
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>교회 예배 모임이 끝날 때 발생하는 은 십일조 금액에 적용되는 배수를 지정합니다.</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>
+	
 	<!-- EN: Root cellar temperature: {0} -->
 	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>루트 지하실 온도: {0}</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>
 	

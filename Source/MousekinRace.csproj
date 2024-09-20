@@ -23,7 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>9</LangVersion>
+    <LangVersion>12</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -33,7 +33,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>9</LangVersion>
+    <LangVersion>12</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
@@ -337,6 +337,14 @@
     <Compile Include="Comps\MapComponent_ChurchService.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
     <Compile Include="DefModExtensions\TraderExtension.cs" />
+    <Compile Include="Gatherings\GatheringWorker_ChurchService.cs" />
+    <Compile Include="Jobs\JobDriver_ChurchServiceAttendSermon.cs" />
+    <Compile Include="Jobs\JobDriver_ChurchServiceGiveSermon.cs" />
+    <Compile Include="Jobs\JobGiver_ChurchServiceAttendSermon.cs" />
+    <Compile Include="Jobs\JobGiver_ChurchServiceGiveSermon.cs" />
+    <Compile Include="Jobs\LordJob_Joinable_ChurchService.cs" />
+    <Compile Include="Jobs\LordToilData_ChurchService.cs" />
+    <Compile Include="Jobs\LordToil_ChurchService.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
     <Compile Include="Patches\Harmony_CellInspectorDrawer.cs" />
     <Compile Include="Patches\Harmony_CompForbiddable.cs" />

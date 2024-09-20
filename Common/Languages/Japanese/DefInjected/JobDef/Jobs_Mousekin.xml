@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: attending church service. -->
+	<Mousekin_Job_ChurchServiceAttendSermon.reportString>教会の礼拝に出席する</Mousekin_Job_ChurchServiceAttendSermon.reportString>
+	
+	<!-- EN: holding church service. -->
+	<Mousekin_Job_ChurchServiceGiveSermon.reportString>教会の礼拝を司式する</Mousekin_Job_ChurchServiceGiveSermon.reportString>
+
 	<!-- EN: Doing something. -->
 	<Mousekin_Job_CommitSuicideWithKnife.reportString>事をする</Mousekin_Job_CommitSuicideWithKnife.reportString>
 

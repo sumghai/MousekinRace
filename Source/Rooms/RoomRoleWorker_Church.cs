@@ -6,7 +6,7 @@ namespace MousekinRace
     public class RoomRoleWorker_Church : RoomRoleWorker
     {
         // Only enclosed rooms are valid churches
-        public static bool IsValidRoom(Room room)
+        public static bool Validate(Room room)
         {
             if (room == null || room.OutdoorsForWork)
             {
@@ -28,7 +28,7 @@ namespace MousekinRace
                     break;
                 }
             }
-            return (altarFound && IsValidRoom(room)) ? 10000 : 0;
+            return (altarFound && Validate(room)) ? 10000 : 0;
         }
     }
 }

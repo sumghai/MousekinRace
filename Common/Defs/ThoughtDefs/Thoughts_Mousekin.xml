@@ -209,6 +209,34 @@
 	</ThoughtDef>
 	
 	<ThoughtDef>
+		<defName>Mousekin_Thought_ChurchAttendedService</defName>
+		<showBubble>true</showBubble>
+		<icon>UI/Ideoligions/FlowerCross</icon>
+		<durationDays>2</durationDays>
+		<stages>
+			<li>
+				<label>attended church service</label>
+				<description>May the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt;</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ChurchHeldService</defName>
+		<showBubble>true</showBubble>
+		<icon>UI/Ideoligions/FlowerCross</icon>
+		<durationDays>2</durationDays>
+		<stages>
+			<li>
+				<label>held church service</label>
+				<description>&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt;</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Mousekin_Thought_ChurchMissedService</defName>
 		<showBubble>true</showBubble>
 		<icon>UI/Ideoligions/FlowerCross</icon>

@@ -23,11 +23,13 @@ namespace MousekinRace
                 // If there are enough potential worshippers
                 if (ChurchService_Utils.EnoughPlayerMousekinWorshippers(map))
                 {
-                    // If there is a properly-furnished church and priest available, start a church service gathering
-                    if (ChurchService_Utils.ValidChurchFound(map, out _) && ChurchService_Utils.GetRandomMousekinPriest(map) != null)
+                    GatheringWorker_ChurchService churchServiceWorker = MousekinDefOf.Mousekin_GatheringChurchService.Worker as GatheringWorker_ChurchService;
+
+                    // If there is a properly-furnished and accessible church on the map, as well as a priest available,
+                    // start a church service gathering
+                    if (ChurchService_Utils.ValidChurchFound(map, out _) && ChurchService_Utils.GetRandomMousekinPriest(map) is Pawn priest && churchServiceWorker.CanExecute(map, priest))
                     {
-                        Log.Warning("DORIME, INTERIMO ADAPARE, DORIME, AMENO AMENO");
-                        // todo - start church gathering for all worshippers (excluding sick or those with critical needs)
+                        churchServiceWorker.TryExecute(map, priest);
                     }
                     // Otherwise, notify the player and give all potential worshippers a mood debuff
                     else 

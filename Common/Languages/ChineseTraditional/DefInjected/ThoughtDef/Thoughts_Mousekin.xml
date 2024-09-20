@@ -97,8 +97,20 @@
 	<!-- EN: I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden! -->
 	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>我像屠殺動物一樣屠殺了我們的同胞。我永遠進不了大花園啦！</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>
 	
+	<!-- EN: attended church service -->
+	<Mousekin_Thought_ChurchAttendedService.stages.0.label>參加教會禮拜</Mousekin_Thought_ChurchAttendedService.stages.0.label>
+	
+	<!-- EN: May the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt; -->
+	<Mousekin_Thought_ChurchAttendedService.stages.0.description>願智者纈草的教誨引導我們前往大花園。\n\n&lt;i&gt;阿梅諾阿梅諾。&lt;/i&gt;</Mousekin_Thought_ChurchAttendedService.stages.0.description>
+	
+	<!-- EN: held church service -->
+	<Mousekin_Thought_ChurchHeldService.stages.0.label>舉辦教會禮拜</Mousekin_Thought_ChurchHeldService.stages.0.label>
+	
+	<!-- EN: &lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt; -->
+	<Mousekin_Thought_ChurchHeldService.stages.0.description>&lt;i&gt;哆利梅，茵達利茉阿達帕瑞。&lt;/i&gt;\n\n願智者纈草的教誨引導我們前往大花園。\n\n&lt;i&gt;阿梅諾阿梅諾。&lt;/i&gt;</Mousekin_Thought_ChurchHeldService.stages.0.description>
+	
 	<!-- EN: missed church service -->
-	<Mousekin_Thought_ChurchMissedService.stages.0.label>錯過了教堂儀式</Mousekin_Thought_ChurchMissedService.stages.0.label>
+	<Mousekin_Thought_ChurchMissedService.stages.0.label>錯過了教會禮拜</Mousekin_Thought_ChurchMissedService.stages.0.label>
 	
 	<!-- EN: I missed church this week. Valerian forgive me, for I have strayed. -->
 	<Mousekin_Thought_ChurchMissedService.stages.0.description>這星期我沒去教堂做禮拜。智者纈草啊，请原谅我的過錯吧。</Mousekin_Thought_ChurchMissedService.stages.0.description>

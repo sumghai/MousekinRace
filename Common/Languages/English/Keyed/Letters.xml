@@ -16,5 +16,9 @@
 	<MousekinRace_Letter_AllegianceSysNewColonists>New colonists</MousekinRace_Letter_AllegianceSysNewColonists>
 	
 	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>New colonists have arrived at your settlement:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
+	
+	<MousekinRace_Letter_ChurchServiceConcluded>Church service concluded</MousekinRace_Letter_ChurchServiceConcluded>
+	
+	<MousekinRace_Letter_ChurchServiceConcludedDesc>&lt;b&gt;&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;&lt;/b&gt;\n\nThe church service for {0} has concluded.\n\nOfficiating priest: {1}\nPriest's social skill: {2}\nNuns: {3}\n\nAttendees: {4}\nReligious affinities: {5}\nAbsences: {6}\n\nTithe collected: {7} silver\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;b&gt;&lt;i&gt;Ameno Ameno.&lt;/i&gt;&lt;/b&gt;</MousekinRace_Letter_ChurchServiceConcludedDesc>
 
 </LanguageData>

@@ -7,6 +7,7 @@ namespace MousekinRace
     {
         public bool EarlessMousekinsAreSuicidal = true;
         public float RootCellarTemperature = 1f;
+        public int ChurchTitheMultiplier = 1;
         public int AllegianceSys_DaysBetweenRandomTraders = 5;
 
         public override void ExposeData()
@@ -15,6 +16,7 @@ namespace MousekinRace
             var defaults = new Settings();
             Scribe_Values.Look(ref EarlessMousekinsAreSuicidal, "EarlessMousekinsAreSuicidal", defaults.EarlessMousekinsAreSuicidal, true);
             Scribe_Values.Look(ref RootCellarTemperature, "RootCellarTemperature", defaults.RootCellarTemperature, true);
+            Scribe_Values.Look(ref ChurchTitheMultiplier, "ChurchTitheMultiplier", defaults.ChurchTitheMultiplier, true);
             Scribe_Values.Look(ref AllegianceSys_DaysBetweenRandomTraders, "AllegianceSys_DaysBetweenRandomTraders", defaults.AllegianceSys_DaysBetweenRandomTraders, true);
         }
 
@@ -36,6 +38,7 @@ namespace MousekinRace
             listingStandard.Gap();
             listingStandard.Header("MousekinRace_Settings_SectionMisc_Heading".Translate());
             RootCellarTemperature = (int)listingStandard.SliderLabeled("MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label".Translate(GenText.ToStringTemperature(RootCellarTemperature, "F0")), RootCellarTemperature, 1f, 4f, 0.65f, "MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip".Translate());
+            ChurchTitheMultiplier = (int)listingStandard.SliderLabeled("MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label".Translate(ChurchTitheMultiplier), ChurchTitheMultiplier, 1f, 10f, 0.65f, "MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip".Translate());
 
             // Second Column
             listingStandard.NewColumn();

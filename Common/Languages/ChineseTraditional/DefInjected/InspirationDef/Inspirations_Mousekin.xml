@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: work frenzy -->
+	<Mousekin_Inspiration_FrenzyWork.label>工作狂熱</Mousekin_Inspiration_FrenzyWork.label>
+	
+	<!-- EN: Inspired: Work frenzy -->
+	<Mousekin_Inspiration_FrenzyWork.baseInspectLine>激勵：工作狂熱</Mousekin_Inspiration_FrenzyWork.baseInspectLine>
+	
+	<!-- EN: {0} is no longer inspired (work frenzy). -->
+	<Mousekin_Inspiration_FrenzyWork.endMessage>{0}的狂熱狀態已經結束(工作狂熱)。</Mousekin_Inspiration_FrenzyWork.endMessage>
+
+</LanguageData>

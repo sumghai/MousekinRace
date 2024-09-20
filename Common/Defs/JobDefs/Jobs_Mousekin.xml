@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	
+	<JobDef>
+		<defName>Mousekin_Job_ChurchServiceAttendSermon</defName>
+		<driverClass>MousekinRace.JobDriver_ChurchServiceAttendSermon</driverClass>
+		<reportString>attending church service.</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+	
+	<JobDef>
+		<defName>Mousekin_Job_ChurchServiceGiveSermon</defName>
+		<driverClass>MousekinRace.JobDriver_ChurchServiceGiveSermon</driverClass>
+		<reportString>holding church service.</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
 
 	<JobDef>
 		<defName>Mousekin_Job_CommitSuicideWithKnife</defName>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<DutyDef>
+		<defName>Mousekin_DutyChurchServiceGiveSermon</defName>
+		<hook>HighPriority</hook>
+		<socialModeMax>Off</socialModeMax>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+			
+				<!-- Satisfy any basic needs first -->
+				<li Class="ThinkNode_Subtree">
+					<treeDef>SatisfyVeryUrgentNeeds</treeDef>
+				</li>
+				
+				<!-- Find church lectern and stand at interaction cell -->
+				<li Class="JobGiver_GotoTravelDestination">
+					<exactCell>true</exactCell>
+					<locomotionUrgency>Walk</locomotionUrgency>
+				</li>
+				
+				<!-- Give sermon -->
+				<li Class="ThinkNode_ConditionalAtDutyLocation">
+					<subNodes>
+						<li Class="MousekinRace.JobGiver_ChurchServiceGiveSermon"/>
+					</subNodes>
+				</li>
+			
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+
+	<DutyDef>
+		<defName>Mousekin_DutyChurchServiceSpectate</defName>
+		<hook>HighPriority</hook>
+		<socialModeMax>Off</socialModeMax>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+			
+				<!-- Satisfy any basic needs first -->
+				<li Class="ThinkNode_Subtree">
+					<treeDef>SatisfyVeryUrgentNeeds</treeDef>
+				</li>
+				
+				<!-- Go to church room, and sit or stand to spectate sermon -->
+				<li Class="MousekinRace.JobGiver_ChurchServiceAttendSermon"/>
+				
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
+</Defs>

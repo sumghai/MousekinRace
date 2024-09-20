@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: attending church service. -->
+	<Mousekin_Job_ChurchServiceAttendSermon.reportString>교회 예배 참석.</Mousekin_Job_ChurchServiceAttendSermon.reportString>
+	
+	<!-- EN: holding church service. -->
+	<Mousekin_Job_ChurchServiceGiveSermon.reportString>교회 예배를 주관합니다.</Mousekin_Job_ChurchServiceGiveSermon.reportString>
+
 	<!-- EN: Doing something. -->
 	<Mousekin_Job_CommitSuicideWithKnife.reportString>뭔가를하고.</Mousekin_Job_CommitSuicideWithKnife.reportString>
 

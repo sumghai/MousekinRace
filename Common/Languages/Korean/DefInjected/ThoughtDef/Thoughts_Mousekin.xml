@@ -97,6 +97,18 @@
 	<!-- EN: I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden! -->
 	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>나는 동물처럼 우리 형제 중 한 명을 도살했습니다. 이제 나는 그 위대한 정원에 절대 들어가지 못할 것입니다!</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>
 	
+	<!-- EN: attended church service -->
+	<Mousekin_Thought_ChurchAttendedService.stages.0.label>교회 예배 참석</Mousekin_Thought_ChurchAttendedService.stages.0.label>
+	
+	<!-- EN: May the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt; -->
+	<Mousekin_Thought_ChurchAttendedService.stages.0.description>현자 발레리안의 가르침이 우리를 위대한 정원으로 인도하길 바랍니다.\n\n&lt;i&gt;아메노 아메노.&lt;/i&gt;</Mousekin_Thought_ChurchAttendedService.stages.0.description>
+	
+	<!-- EN: held church service -->
+	<Mousekin_Thought_ChurchHeldService.stages.0.label>교회 예배 개최</Mousekin_Thought_ChurchHeldService.stages.0.label>
+	
+	<!-- EN: &lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt; -->
+	<Mousekin_Thought_ChurchHeldService.stages.0.description>&lt;i&gt;도리메, 인터모 아다파레.&lt;/i&gt;\n\n현자 발레리안의 가르침이 우리를 위대한 정원으로 인도하길 바랍니다.\n\n&lt;i&gt;아메노 아메노.&lt;/i&gt;</Mousekin_Thought_ChurchHeldService.stages.0.description>
+	
 	<!-- EN: missed church service -->
 	<Mousekin_Thought_ChurchMissedService.stages.0.label>교회 예배에 참석하지 못함</Mousekin_Thought_ChurchMissedService.stages.0.label>
 	

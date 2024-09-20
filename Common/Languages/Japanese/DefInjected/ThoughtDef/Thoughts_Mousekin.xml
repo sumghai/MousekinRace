@@ -97,6 +97,18 @@
 	<!-- EN: I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden! -->
 	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>同胞の一人を獣のように切り刻んでしまった.もう、大庭園には入れませんよ！</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>
 	
+	<!-- EN: attended church service -->
+	<Mousekin_Thought_ChurchAttendedService.stages.0.label>教会の礼拝に出席した</Mousekin_Thought_ChurchAttendedService.stages.0.label>
+	
+	<!-- EN: May the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt; -->
+	<Mousekin_Thought_ChurchAttendedService.stages.0.description>賢者バレリアンの教えが、私たちを大庭園へと導いてくれますように.\n\n&lt;i&gt;アメノアメノ.&lt;/i&gt;</Mousekin_Thought_ChurchAttendedService.stages.0.description>
+	
+	<!-- EN: held church service -->
+	<Mousekin_Thought_ChurchHeldService.stages.0.label>教会の礼拝を司式した</Mousekin_Thought_ChurchHeldService.stages.0.label>
+	
+	<!-- EN: &lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt; -->
+	<Mousekin_Thought_ChurchHeldService.stages.0.description>&lt;i&gt;ドリメ、インテリモアダパレ.&lt;/i&gt;\n\n賢者バレリアンの教えが、私たちを大庭園へと導いてくれますように.\n\n&lt;i&gt;アメノアメノ.&lt;/i&gt;</Mousekin_Thought_ChurchHeldService.stages.0.description>
+	
 	<!-- EN: missed church service -->
 	<Mousekin_Thought_ChurchMissedService.stages.0.label>教会の礼拝を欠席した</Mousekin_Thought_ChurchMissedService.stages.0.label>
 	
