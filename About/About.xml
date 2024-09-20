@@ -3,7 +3,8 @@
 	<name>Mousekin Race</name>
 	<author>sumghai</author>
 	<packageId>sumghai.MousekinRace</packageId>
-	<description>Adds a race of hobbit-sized anthropomorphic white mice with a late-medieval to pre-industrial theme, inspired by &lt;i&gt;Redwall&lt;/i&gt;, &lt;i&gt;Mouse Guard&lt;/i&gt;, &lt;i&gt;Brambly Hedge&lt;/i&gt; and Sylvanian Families.\n\nv1.1.3\n\n&lt;b&gt;Features&lt;/b&gt;\n\n- Fisherian (1:1) sex ratio\n- Race-specific apparel, weapons, structures and crafting benches\n- Race-specific gameplay mechanics\n- Race-unique backstories and thoughts\n- Race-unique livestock and pet animals\n- Four NPC factions (with unique Ideologies): Kingdom, Independent Towns, Nomads and Brigands\n- Faction Allegiance system: pledge allegiance to either the Kingdom or Independent factions, and craft exclusive gear, recruit colonists, request traders and other perks\n- Vanilla-compatible art aesthetic\n- Rich, carefully curated lore</description>
+	<modVersion IgnoreIfNoMatchingField="True">1.1.3</modVersion>
+	<description>Adds a race of hobbit-sized anthropomorphic white mice with a late-medieval to pre-industrial theme, inspired by &lt;i&gt;Redwall&lt;/i&gt;, &lt;i&gt;Mouse Guard&lt;/i&gt;, &lt;i&gt;Brambly Hedge&lt;/i&gt; and Sylvanian Families.\n\n&lt;b&gt;Features&lt;/b&gt;\n\n- Fisherian (1:1) sex ratio\n- Race-specific apparel, weapons, structures and crafting benches\n- Race-specific gameplay mechanics\n- Race-unique backstories and thoughts\n- Race-unique livestock and pet animals\n- Four NPC factions (with unique Ideologies): Kingdom, Independent Towns, Nomads and Brigands\n- Faction Allegiance system: pledge allegiance to either the Kingdom or Independent factions, and craft exclusive gear, recruit colonists, request traders and other perks\n- Vanilla-compatible art aesthetic\n- Rich, carefully curated lore</description>
 	<url/>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/MousekinRaceModIcon</modIconPath>
 	<supportedVersions>
