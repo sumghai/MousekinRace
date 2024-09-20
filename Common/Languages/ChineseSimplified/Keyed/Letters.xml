@@ -24,5 +24,11 @@
 	
 	<!-- EN: New colonists have arrived at your settlement:\n{0} -->
 	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>新殖民者已抵达您的定居点:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
+	
+	<!-- EN: Church service concluded -->
+	<MousekinRace_Letter_ChurchServiceConcluded>教会礼拜结束</MousekinRace_Letter_ChurchServiceConcluded>
+	
+	<!-- EN: &lt;b&gt;&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;&lt;/b&gt;\n\nThe church service for {0} has concluded.\n\nOfficiating priest: {1}\nPriest's social skill: {2}\nNuns: {3}\n\nAttendees: {4}\nReligious affinities: {5}\nAbsences: {6}\n\nTithe collected: {7} silver\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;b&gt;&lt;i&gt;Ameno Ameno.&lt;/i&gt;&lt;/b&gt; -->
+	<MousekinRace_Letter_ChurchServiceConcludedDesc>&lt;b&gt;&lt;i&gt;哆利梅，茵达利茉阿达帕瑞。&lt;/i&gt;&lt;/b&gt;\n\n{0}的教会礼拜已结束。\n\n主祭牧師: {1}\n牧师的社交技能: {2}\n修女: {3}\n\n出席者: {4}\n宗教信仰: {5}\n缺席者: {6}\n\n收取的什一税: {7}白銀\n\n愿智者缬草的教诲引导我们前往大花园。\n\n&lt;b&gt;&lt;i&gt;阿梅诺阿梅诺。&lt;/i&gt;&lt;/b&gt;</MousekinRace_Letter_ChurchServiceConcludedDesc>
 
 </LanguageData>

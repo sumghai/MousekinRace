@@ -24,5 +24,11 @@
 	
 	<!-- EN: New colonists have arrived at your settlement:\n{0} -->
 	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>새로운 식민지 개척자가 정착지에 도착했습니다:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
+	
+	<!-- EN: Church service concluded -->
+	<MousekinRace_Letter_ChurchServiceConcluded>교회 예배 종료</MousekinRace_Letter_ChurchServiceConcluded>
+	
+	<!-- EN: &lt;b&gt;&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;&lt;/b&gt;\n\nThe church service for {0} has concluded.\n\nOfficiating priest: {1}\nPriest's social skill: {2}\nNuns: {3}\n\nAttendees: {4}\nReligious affinities: {5}\nAbsences: {6}\n\nTithe collected: {7} silver\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;b&gt;&lt;i&gt;Ameno Ameno.&lt;/i&gt;&lt;/b&gt; -->
+	<MousekinRace_Letter_ChurchServiceConcludedDesc>&lt;b&gt;&lt;i&gt;도리메, 인터모 아다파레.&lt;/i&gt;&lt;/b&gt;\n\n{0}의 교회 예배가 종료되었습니다.\n\n주례 성직자: {1}\n성직자의 사회적 기술 수준: {2}\n수녀: {3}\n\n참석자: {4}\n종교적 친화성: {5}\n부재자: {6}\n\n십일조 모금액: {7}실버입니다\n\n현자 발레리안의 가르침이 우리를 위대한 정원으로 인도하길 바랍니다.\n\n&lt;b&gt;&lt;i&gt;아메노 아메노.&lt;/i&gt;&lt;/b&gt;</MousekinRace_Letter_ChurchServiceConcludedDesc>
 
 </LanguageData>

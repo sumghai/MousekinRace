@@ -16,6 +16,12 @@
 	<!-- EN: Miscellaneous -->
 	<MousekinRace_Settings_SectionMisc_Heading>その他</MousekinRace_Settings_SectionMisc_Heading>
 	
+	<!-- EN: Church tithe multiplier: {0}x -->
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>教会の什分の一乗数: {0}x</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>
+
+	<!-- EN: Specify the multiplier applied to the amount of silver tithe generated at the end of church service gatherings. -->
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>教会の礼拝の集まりの終わりに発生する銀什分の一の金額に適用される倍率を指定します.</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>
+	
 	<!-- EN: Root cellar temperature: {0} -->
 	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>地下貯蔵庫の温度: {0}</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>
 	

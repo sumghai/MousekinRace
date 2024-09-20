@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: church service -->
+	<Mousekin_GatheringChurchService.label>교회 봉사</Mousekin_GatheringChurchService.label>
+	
+	<!-- EN: Church service -->
+	<Mousekin_GatheringChurchService.letterTitle>교회 봉사</Mousekin_GatheringChurchService.letterTitle>
+	
+	<!-- EN: {ORGANIZER_labelShort} is holding a weekly church service for all Mousekin worshippers of Valerian the Wise in your colony.\n\nEveryone who attends will gain work speed and positive mood bonuses for the next few days, while silver will be collected as tithes. -->
+	<Mousekin_GatheringChurchService.letterText>{ORGANIZER_labelShort}가 식민지에서 현자 발레리안을 숭배하는 모든 마우스킨을 위한 교회 예배를 매주 개최합니다.\n\n참석하는 모든 플레이어는 앞으로 며칠 동안 작업 속도와 긍정적인 기분 보너스를 얻고, 은은 십일조로 징수됩니다.</Mousekin_GatheringChurchService.letterText>
+	
+	<!-- EN: The church service has been called off. -->
+	<Mousekin_GatheringChurchService.calledOffMessage>교회 예배가 취소되었습니다.</Mousekin_GatheringChurchService.calledOffMessage>
+	
+	<!-- EN: The church service has finished. -->
+	<Mousekin_GatheringChurchService.finishedMessage>교회 예배가 끝났습니다.</Mousekin_GatheringChurchService.finishedMessage>
+
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: church service -->
+	<Mousekin_GatheringChurchService.label>教会礼拜</Mousekin_GatheringChurchService.label>
+	
+	<!-- EN: Church service -->
+	<Mousekin_GatheringChurchService.letterTitle>教会礼拜</Mousekin_GatheringChurchService.letterTitle>
+	
+	<!-- EN: {ORGANIZER_labelShort} is holding a weekly church service for all Mousekin worshippers of Valerian the Wise in your colony.\n\nEveryone who attends will gain work speed and positive mood bonuses for the next few days, while silver will be collected as tithes. -->
+	<Mousekin_GatheringChurchService.letterText>{ORGANIZER_labelShort}正在为您殖民地中所有崇拜智者缬草的白鼠族举行每周一次的教会礼拜。\n\n每个参加仪式的人都会在接下来的几天获得工作速度和心情奖励，并会捐献银币。</Mousekin_GatheringChurchService.letterText>
+	
+	<!-- EN: The church service has been called off. -->
+	<Mousekin_GatheringChurchService.calledOffMessage>教会礼拜取消了。</Mousekin_GatheringChurchService.calledOffMessage>
+	
+	<!-- EN: The church service has finished. -->
+	<Mousekin_GatheringChurchService.finishedMessage>教会礼拜结束了。</Mousekin_GatheringChurchService.finishedMessage>
+
+</LanguageData>

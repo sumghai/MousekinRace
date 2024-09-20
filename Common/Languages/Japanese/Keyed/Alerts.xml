@@ -26,7 +26,7 @@
 	<AlertNeedPriestLabel>{0}が必要</AlertNeedPriestLabel>
 	
 	<!-- EN: Your church requires at least one {0} to conduct regular church services for your Mousekin colonists.\n\nYou can recruit them directly from the {1}, or invite one to join your colony through the Faction Allegiance system. -->
-	<AlertNeedPriestDesc>あなたの教会では、マウスキンたちのために定期的な教会礼拝を行うために少なくとも1人の{0}が必要です.\n\n{1}から直接募集することもできますし、派閥忠誠システムを通じて集落に招待することもできます.</AlertNeedPriestDesc>
+	<AlertNeedPriestDesc>あなたの教会では、マウスキンたちのために定期的な教会の礼拝を行うために少なくとも1人の{0}が必要です.\n\n{1}から直接募集することもできますし、派閥忠誠システムを通じて集落に招待することもできます.</AlertNeedPriestDesc>
 	
 	<!-- EN: Need Town Square -->
 	<AlertNeedTownSquareSingularLabel>広場が必要</AlertNeedTownSquareSingularLabel>
