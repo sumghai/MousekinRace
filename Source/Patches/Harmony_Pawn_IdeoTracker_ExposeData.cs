@@ -22,8 +22,8 @@ namespace MousekinRace
                 // Only for savegames running scenarios with a preset ideo forced on the player
                 if (scenParts.Any() && scenParts.FirstOrDefault(scenPart => scenPart.useFactionIdeoForPlayer == true) != null)
                 {                   
-                    // Only for player colonists
-                    if (__instance.pawn.IsColonist)
+                    // Only for player Mousekin colonists
+                    if (__instance.pawn.IsColonist && __instance.pawn.IsMousekin())
                     {
                         GameComponent_Allegiance gameComp_Allegiance_Instance = GameComponent_Allegiance.Instance;
                         Faction alignedFaction = gameComp_Allegiance_Instance.alignedFaction;
