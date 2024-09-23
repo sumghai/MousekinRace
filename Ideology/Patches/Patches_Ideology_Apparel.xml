@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Mousekin ears should stick out through holes in Burkas - we do this by changing the Burka's default renderSkipFlags -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_Burka"]/apparel/renderSkipFlags/li[text()="Head"]</xpath>
+				<value>
+					<li>Hair</li>
+				</value>
+			</li>
+		
+		</operations>
+	</Operation>
+
+</Patch>

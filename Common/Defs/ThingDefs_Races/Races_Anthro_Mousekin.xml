@@ -94,7 +94,7 @@
 					</bodyTypes>
 					<headOffsetDirectional>
 						<north>
-							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 					</headOffsetDirectional>
 					<atlasScale>4</atlasScale>
@@ -196,7 +196,7 @@
 									<layerOffset>-0.3</layerOffset>
 								</east>
 								<south>
-									<layerOffset>-0.27</layerOffset> <!-- draw ears behind pike when drafted -->
+									<layerOffset>-0.2655</layerOffset> <!-- draw ears behind pike when drafted, but also over Ideology DLC Burkas -->
 								</south>
 								<west>
 									<layerOffset>0</layerOffset>
@@ -232,7 +232,7 @@
 									<layerOffset>0</layerOffset>
 								</east>
 								<south>
-									<layerOffset>-0.27</layerOffset> <!-- draw ears behind pike when drafted -->
+									<layerOffset>-0.2655</layerOffset> <!-- draw ears behind pike when drafted, but also over Ideology DLC Burkas -->
 								</south>
 								<west>
 									<layerOffset>-0.3</layerOffset>
@@ -908,10 +908,6 @@
 						- Apparel_RobeRoyal
 						- Apparel_ShirtRuffle
 						- Apparel_VestRoyal
-					- Ideology DLC
-						- Apparel_BodyStrap
-						- Apparel_Burka
-						- Apparel_Robe
 					- Biotech DLC
 						- Apparel_Bandolier
 						- Apparel_MechlordSuit
@@ -1149,7 +1145,7 @@
 					<headOffsetDirectional>
 						<north>
 							<offset>(0, -0.075)</offset>
-							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 						<east>
 							<offset>(-0.025, -0.075)</offset>
@@ -1164,7 +1160,7 @@
 					<headFemaleOffsetDirectional>
 						<north>
 							<offset>(0, -0.075)</offset>
-							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 						<east>
 							<offset>(-0.025, -0.075)</offset>
@@ -1187,7 +1183,7 @@
 					<headOffsetDirectional>
 						<north>
 							<offset>(0, -0.1375)</offset>
-							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 						<east>
 							<offset>(-0.02875, -0.1375)</offset>
@@ -1202,7 +1198,7 @@
 					<headFemaleOffsetDirectional>
 						<north>
 							<offset>(0, -0.1375)</offset>
-							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 						<east>
 							<offset>(-0.02875, -0.1375)</offset>
@@ -1225,12 +1221,12 @@
 					<headOffset>(0, -0.015)</headOffset>
 					<headOffsetDirectional>
 						<north>
-							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 					</headOffsetDirectional>
 					<headFemaleOffsetDirectional>
 						<north>
-							<layerOffset>0.05</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
 						</north>
 					</headFemaleOffsetDirectional>
 					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
