@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MousekinRace_MessagePurchasedAnimalNamed>Купленный {0} теперь называется {1}.</MousekinRace_MessagePurchasedAnimalNamed>
+	
+	<MousekinRace_MessageCannotJoinFaction>Не удается заявить преданность {0}: требования не выполнены.</MousekinRace_MessageCannotJoinFaction>
+	
+	<Mousekinrace_MessageFactionRenamedViaAllegiance>Ваша фракция теперь известна как {0}, {1}.</Mousekinrace_MessageFactionRenamedViaAllegiance>
+	
+	<MousekinRace_MessageNewColonistsQueueEmpty>Новых колонистов нет в пути.</MousekinRace_MessageNewColonistsQueueEmpty>
+	
+	<MousekinRace_MessageNewColonistsWillArrive>{0} новых колонистов прибудут через {1}.</MousekinRace_MessageNewColonistsWillArrive>
+	
+	<MousekinRace_MessageCannotRequestTraderCooldownActive>Не удается запросить торговца: нужно подождать еще {0}.</MousekinRace_MessageCannotRequestTraderCooldownActive>
+	
+	<MousekinRace_MessageMilitaryAidWillArrive>Подкрепления от {0} прибудут через {1}.</MousekinRace_MessageMilitaryAidWillArrive>
+	
+	<MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>Военная помощь уже запрошена: {0}.</MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>
+	
+	<MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>Не удается вызвать военную помощь: на карте нет врагов.</MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>
+	
+</LanguageData>

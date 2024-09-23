@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MousekinRace_Letter_AllegianceSysIntro>Система преданности разблокирована</MousekinRace_Letter_AllegianceSysIntro>
+	
+	<MousekinRace_Letter_AllegianceSysIntroDesc>Построив площадь, вы разблокировали систему преданности фракции.\n\nПосле того как вы накопите достаточное количество доброй воли с определенными фракциями, вы сможете выбрать, какой фракции объявить преданность и получить доступ к различным бонусам.\n\nДля получения дополнительной информации нажмите кнопку преданности в нижней панели меню.</MousekinRace_Letter_AllegianceSysIntroDesc>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFaction>Преданность заявлена {0}</MousekinRace_Letter_AllegianceSysJoinedFaction>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>Ваша фракция теперь является {0}.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>Следующие колонисты были недовольны вашей новой преданностью и решили покинуть вашу фракцию:\n{0}</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>Все ваши колонисты приняли идеологию {0} родительской фракции.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
+	
+	<MousekinRace_Letter_AllegianceSysNewColonists>Новые колонисты</MousekinRace_Letter_AllegianceSysNewColonists>
+	
+	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>Новые колонисты прибыли в ваше поселение:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
+
+</LanguageData>
