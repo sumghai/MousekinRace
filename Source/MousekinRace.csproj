@@ -354,6 +354,7 @@
     <Compile Include="Patches\Harmony_LWM_DeepStorage_Open_DS_Tab_On_Select.cs" />
     <Compile Include="Patches\Harmony_MouseoverReadout.cs" />
     <Compile Include="Patches\Harmony_Pawn_RoyaltyTracker.cs" />
+    <Compile Include="Patches\Harmony_Precept_Role.cs" />
     <Compile Include="Patches\Harmony_QuestGen.cs" />
     <Compile Include="Patches\Harmony_QuestNode_GetPawn.cs" />
     <Compile Include="Patches\Harmony_QuestNode_GetFaction.cs" />
