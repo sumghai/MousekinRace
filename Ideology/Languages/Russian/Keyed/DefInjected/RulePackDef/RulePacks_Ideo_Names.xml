@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: r_ideoName->Word of Valerian -->
+	<NamerIdeoMousekinChurch.rulePack.rulesStrings.0>r_ideoName->Слово Валериана</NamerIdeoMousekinChurch.rulePack.rulesStrings.0>
+
+	<!-- EN: r_ideoAdjective->Valerianist -->
+	<NamerIdeoMousekinChurch.rulePack.rulesStrings.1>r_ideoAdjective->Валерианистский</NamerIdeoMousekinChurch.rulePack.rulesStrings.1>
+
+	<!-- EN: r_memberName->Valerianist -->
+	<NamerIdeoMousekinChurch.rulePack.rulesStrings.2>r_memberName->Валерианист</NamerIdeoMousekinChurch.rulePack.rulesStrings.2>
+	
+	<!-- EN: hyphenPrefix-> (leave blank) -->
+	<NamerIdeoMousekinChurch.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinChurch.rulePack.rulesStrings.3>
+
+	<!-- EN: r_ideoName->Agrarian Republicanism -->
+	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.0>r_ideoName->Аграрный республиканизм</NamerIdeoMousekinRepublic.rulePack.rulesStrings.0>
+
+	<!-- EN: r_ideoAdjective->Republican -->
+	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.1>r_ideoAdjective->Республиканский</NamerIdeoMousekinRepublic.rulePack.rulesStrings.1>
+
+	<!-- EN: r_memberName->Republican -->
+	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.2>r_memberName->Республиканец</NamerIdeoMousekinRepublic.rulePack.rulesStrings.2>
+	
+	<!-- EN: hyphenPrefix-> (leave blank) -->
+	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinRepublic.rulePack.rulesStrings.3>
+
+	<!-- EN: r_ideoName->Way of the Rodemani -->
+	<NamerIdeoMousekinNomad.rulePack.rulesStrings.0>r_ideoName->Путь Родемани</NamerIdeoMousekinNomad.rulePack.rulesStrings.0>
+
+	<!-- EN: r_ideoAdjective->Rodemani -->
+	<NamerIdeoMousekinNomad.rulePack.rulesStrings.1>r_ideoAdjective->Родеманский</NamerIdeoMousekinNomad.rulePack.rulesStrings.1>
+
+	<!-- EN: r_memberName->Rodemani -->
+	<NamerIdeoMousekinNomad.rulePack.rulesStrings.2>r_memberName->Родемани</NamerIdeoMousekinNomad.rulePack.rulesStrings.2>
+	
+	<!-- EN: hyphenPrefix-> (leave blank) -->
+	<NamerIdeoMousekinNomad.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinNomad.rulePack.rulesStrings.3>
+
+	<!-- EN: r_ideoName->Outpawism -->
+	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.0>r_ideoName->Беззаконие</NamerIdeoMousekinBrigands.rulePack.rulesStrings.0>
+
+	<!-- EN: r_ideoAdjective->Outpaw -->
+	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.1>r_ideoAdjective->Беззаконный</NamerIdeoMousekinBrigands.rulePack.rulesStrings.1>
+
+	<!-- EN: r_memberName->Outpawian -->
+	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.2>r_memberName->Беззаконник</NamerIdeoMousekinBrigands.rulePack.rulesStrings.2>
+	
+	<!-- EN: hyphenPrefix-> (leave blank) -->
+	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinBrigands.rulePack.rulesStrings.3>
+	
+</LanguageData>
