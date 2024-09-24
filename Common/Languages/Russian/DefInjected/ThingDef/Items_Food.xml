@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin trail mix -->
+	<Mousekin_MealTrailMix.label>Мышиный тропический микс</Mousekin_MealTrailMix.label>
+	
+	<!-- EN: A pouch of roasted nuts, dried berries and popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekin that consumes it. Great for traveling. -->
+	<Mousekin_MealTrailMix.description>Пакет жареных орехов, сушеных ягод и попкорна. Питательный и вкусный, он слегка поднимает настроение любому Мышкину, который его съедает. Отлично подходит для путешествий.</Mousekin_MealTrailMix.description>
+	
+	<!-- EN: country bread -->
+	<Mousekin_FoodCountryBread.label>Деревенский хлеб</Mousekin_FoodCountryBread.label>
+	
+	<!-- EN: A round loaf of bread with a thick, crunchy crust and fluffy crumb, often eaten to stave off hunger or used as an ingredient in other dishes. Reduces hunger rate by 10% for 12 hours. -->
+	<Mousekin_FoodCountryBread.description>Круглый хлеб с толстой хрустящей коркой и пушистым мякишем, часто употребляемый для утоления голода или как ингредиент в других блюдах. Уменьшает уровень голода на 10% на 12 часов.</Mousekin_FoodCountryBread.description>
+	
+	<!-- EN: barley porridge -->
+	<Mousekin_MealBarleyPorridge.label>Ячменная каша</Mousekin_MealBarleyPorridge.label>
+	
+	<!-- EN: A simple and nutritious bowl of barley grains cooked in milk, often eaten as a simple meal by farmhands and laborers, fed to baby Mousekin pups, or served by Mousekin nuns to recuperating patients. -->
+	<Mousekin_MealBarleyPorridge.description>Простая и питательная чаша с ячменными зернами, сваренными в молоке, часто съедаемая как простое блюдо крестьянами и рабочими, кормящими детенышей Мышкина или подаваемая мышиными монахинями пациентам на восстановление.</Mousekin_MealBarleyPorridge.description>
+	
+	<!-- EN: eggs on toast -->
+	<Mousekin_MealEggsOnToast.label>Яйца на тосте</Mousekin_MealEggsOnToast.label>
+	
+	<!-- EN: Thick slices of country bread topped with eggs fried sunny-side up. The perfect breakfast to start the day! -->
+	<Mousekin_MealEggsOnToast.description>Толстые ломтики деревенского хлеба, сверху с яйцами, жареными глазуньей. Идеальный завтрак, чтобы начать день!</Mousekin_MealEggsOnToast.description>
+	
+	<!-- EN: ploughman's lunch -->
+	<Mousekin_MealPloughmansLunch.label>Обед пахаря</Mousekin_MealPloughmansLunch.label>
+	
+	<!-- EN: Slices of country bread accompanied by cheese, pickled vegetables and a handful of roasted nuts, often eaten as a simple meal by farm laborers. Reduces hunger rate by 20% for 12 hours. -->
+	<Mousekin_MealPloughmansLunch.description>Ломтики деревенского хлеба с сыром, маринованными овощами и горстью жареных орехов, часто съедаемые крестьянами как простое блюдо. Уменьшает уровень голода на 20% на 12 часов.</Mousekin_MealPloughmansLunch.description>
+	
+	<!-- EN: bread bowl -->
+	<Mousekin_MealBreadBowl.label>Хлебная чаша</Mousekin_MealBreadBowl.label>
+	
+	<!-- EN: A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours. -->
+	<Mousekin_MealBreadBowl.description>Булка деревенского хлеба, выдолбленная и наполненная кремовым мясным и овощным потажем, что приводит к сытному и удовлетворительному блюду. Уменьшает уровень голода на 35% на 12 часов.</Mousekin_MealBreadBowl.description>
+	
+</LanguageData>

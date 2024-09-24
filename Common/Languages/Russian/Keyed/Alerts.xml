@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AlertEarlessMousekinFeelingMiserableLabel>Несчастный безухий мышонок</AlertEarlessMousekinFeelingMiserableLabel>
+	
+	<AlertEarlessMousekinFeelingMiserableDesc>Эти Мышкины недавно потеряли оба уха из-за болезни или травмы и стыдятся своего уродства.:\n\n{0}</AlertEarlessMousekinFeelingMiserableDesc>
+	
+	<AlertEarlessMousekinFeelingSuicidalLabel>Безухий мышонок-самоубийца</AlertEarlessMousekinFeelingSuicidalLabel>
+	
+	<AlertEarlessMousekinFeelingSuicidalDesc>Эти Мышкины унижены длительной потерей ушей из-за болезни или травмы, и имеют очень высокий риск покончить жизнь самоубийством от отчаяния в течение следующих нескольких дней.:\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
+	
+	<AlertEarlessMousekinDescEnding>Изготовьте протезы ушек из ткани или получите натуральные ушки от других Мышкинов..</AlertEarlessMousekinDescEnding>
+	
+	<AlertNeedTownSquareSingularLabel>Нужна городская площадь</AlertNeedTownSquareSingularLabel>
+	
+	<AlertNeedTownSquarePluralLabel>Нужны городские площади</AlertNeedTownSquarePluralLabel>
+	
+	<AlertNeedTownSquareSingularDesc>Мышкины в вашем поселении требуют места для сбора.\n\n</AlertNeedTownSquareSingularDesc>
+	
+	<AlertNeedTownSquarePluralDesc>Мышкины в {0} ваших поселениях требуют места для сбора:{1}\n\n</AlertNeedTownSquarePluralDesc>
+	
+	<AlertNeedTownSquareDescEnding>Постройте {0} на открытом пространстве без построек.</AlertNeedTownSquareDescEnding>
+	
+	<AlertUnpavedTownSquareSingularLabel>Грунтовая городская площадь</AlertUnpavedTownSquareSingularLabel>
+	
+	<AlertUnpavedTownSquarePluralLabel>Грунтовые городские площади</AlertUnpavedTownSquarePluralLabel>
+	
+	<AlertUnpavedTownSquareSingularDesc>Ваш {0} должен быть полностью выложен одной из следующих плиток или напольного покрытия.:\n\n{1}</AlertUnpavedTownSquareSingularDesc>
+	
+	<AlertUnpavedTownSquarePluralDesc>{0} из ваших {1} должно быть полностью выложено одной из следующих плиток или напольного покрытия:\n\n{2}</AlertUnpavedTownSquarePluralDesc>
+	
+	<AlertObstructedTownSquareSingularLabel>Загражденная городская площадь</AlertObstructedTownSquareSingularLabel>
+	
+	<AlertObstructedTownSquarePluralLabel>Загражденные городские площади</AlertObstructedTownSquarePluralLabel>
+	
+	<AlertObstructedTownSquareSingularDesc>Ваше препятствие(я) {0} {1} в ограниченной области..\n\n</AlertObstructedTownSquareSingularDesc>
+	
+	<AlertObstructedTownSquarePluralDesc>{0} из ваших {1} препятствий {2} в пределах ограниченной области.\n\n</AlertObstructedTownSquarePluralDesc>
+	
+	<AlertObstructedTownSquareDescEnding>Уберите все мешающие постройки и мебель..</AlertObstructedTownSquareDescEnding>
+
+</LanguageData>

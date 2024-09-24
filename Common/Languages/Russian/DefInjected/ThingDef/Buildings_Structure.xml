@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin door -->
+	<Mousekin_DoorBasic.label>Мышкинская деревянная дверь</Mousekin_DoorBasic.label>
+	
+	<!-- EN: A simple wooden door typically found in cottages and other Mousekin commoner buildings. Divides rooms and must be manually opened, which slows people down. -->
+	<Mousekin_DoorBasic.description>Простая деревянная дверь, обычно встречающаяся в коттеджах и других зданиях мышкинских общин. Делит комнаты и должна открываться вручную, что замедляет движение.</Mousekin_DoorBasic.description>
+	
+	<!-- EN: Mousekin reinforced door -->
+	<Mousekin_DoorReinforced.label>Мышкинская укреплённая деревянная дверь</Mousekin_DoorReinforced.label>
+	
+	<!-- EN: A heavy wooden door reinforced with steel straps, typically found in middle- and upper-class Mousekin buildings. Divides rooms and must be manually opened, which slows people down. -->
+	<Mousekin_DoorReinforced.description>Тяжелая деревянная дверь, усиленная стальными ремнями, обычно встречающаяся в зданиях среднего и высшего класса мышкинцев. Делит комнаты и должна открываться вручную, что замедляет движение.</Mousekin_DoorReinforced.description>
+
+	<!-- EN: wattle and daub wall -->
+	<Mousekin_WallCottage.label>Трубчатая стена</Mousekin_WallCottage.label>
+	
+	<!-- EN: An impassable wall, constructed from a wooden lattice covered with an insulating and fire-resistant mixture of wet clay and straw. Capable of holding up a roof. -->
+	<Mousekin_WallCottage.description>Непроходимая стена, построенная из деревянного каркаса, покрытого теплоизоляционной и огнеупорной смесью из влажной глины и соломы. Способна поддерживать крышу.</Mousekin_WallCottage.description>
+	
+</LanguageData>

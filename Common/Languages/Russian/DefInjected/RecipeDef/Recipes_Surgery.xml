@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Install Cloth Mousekin Ear -->
+	<Mousekin_InstallProstheticClothEar.label>Установить тканевое ухо мышкинов</Mousekin_InstallProstheticClothEar.label>
+
+	<!-- EN: Install a cloth Mousekin ear. -->
+	<Mousekin_InstallProstheticClothEar.description>Устанавливается тканевое ухо мышкинов.</Mousekin_InstallProstheticClothEar.description>
+
+	<!-- EN: Installing Cloth Mousekin Ear. -->
+	<Mousekin_InstallProstheticClothEar.jobString>Установка тканевого уха мышкинов</Mousekin_InstallProstheticClothEar.jobString>
+
+	<!-- EN: Install Cloth Mousekin Tail -->
+	<Mousekin_InstallProstheticClothTail.label>Установить тканевой хвост мышкинов</Mousekin_InstallProstheticClothTail.label>
+
+	<!-- EN: Install a cloth Mousekin tail. -->
+	<Mousekin_InstallProstheticClothTail.description>Устанавливается тканевой хвост мышкинов.</Mousekin_InstallProstheticClothTail.description>
+
+	<!-- EN: Installing Cloth Mousekin Tail. -->
+	<Mousekin_InstallProstheticClothTail.jobString>Установка тканевого хвоста мышкинов</Mousekin_InstallProstheticClothTail.jobString>
+
+	<!-- EN: Install Mousekin Ear -->
+	<Mousekin_InstallNaturalEar.label>Установить ухо мышкинов</Mousekin_InstallNaturalEar.label>
+
+	<!-- EN: Install a biological Mousekin ear. -->
+	<Mousekin_InstallNaturalEar.description>Устанавливается биологическое ухо мышкинов.</Mousekin_InstallNaturalEar.description>
+
+	<!-- EN: Installing Mousekin Ear -->
+	<Mousekin_InstallNaturalEar.jobString>Установка уха мышкинов</Mousekin_InstallNaturalEar.jobString>
+
+	<!-- EN: Install Mousekin Tail -->
+	<Mousekin_InstallNaturalTail.label>Установить хвост мышкинов</Mousekin_InstallNaturalTail.label>
+
+	<!-- EN: Install a biological Mousekin tail. -->
+	<Mousekin_InstallNaturalTail.description>Устанавливается биологический хвост мышкинов.</Mousekin_InstallNaturalTail.description>
+
+	<!-- EN: Installing Mousekin Tail -->
+	<Mousekin_InstallNaturalTail.jobString>Установка хвоста мышкинов</Mousekin_InstallNaturalTail.jobString>
+	
+</LanguageData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MousekinRace_SettingsCategory_Heading>Раса Мышкинов</MousekinRace_SettingsCategory_Heading>
+	
+	<MousekinRace_Settings_SectionRace_Heading>Раса</MousekinRace_Settings_SectionRace_Heading>
+	
+	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>Мышкины без ушей самоубийцы</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>
+	
+	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>Мышкины, которые потеряли оба уха и не получили протезов или натуральных имплантов, совершат самоубийство через 15 игровых дней из-за социальной стигмы.\n\nОтключение этой опции позволит им выжить, но они будут продолжать испытывать негативные эмоции из-за отсутствующих ушей.</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>
+	
+	<MousekinRace_Settings_SectionMisc_Heading>Разное</MousekinRace_Settings_SectionMisc_Heading>
+	
+	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>Температура в подвале: {0}</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>
+	
+	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>Укажите температуру, при которой подвал будет охлаждать свои содержимое.</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>
+	
+	<MousekinRace_Settings_SectionAllegianceSys_Heading>Система Альянса Фракций</MousekinRace_Settings_SectionAllegianceSys_Heading>
+	
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>Интервал случайных торговых караванов: {0}</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>
+	
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>Укажите, как часто случайный торговец из выбранной фракции альянса должен посещать ваши поселения.</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>
+
+</LanguageData>

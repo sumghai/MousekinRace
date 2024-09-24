@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: mouse-ear barley -->
+	<Mousekin_RawBarley.label>Ушко-мыши ячмень</Mousekin_RawBarley.label>
+
+	<!-- EN: Small, edible rounded cereal grains, used in cooking or as animal feed. -->
+	<Mousekin_RawBarley.description>Мелкие съедобные круглые злаковые зерна, используемые в кулинарии или в качестве корма для животных.</Mousekin_RawBarley.description>
+
+	<!-- EN: chonko nuts -->
+	<Mousekin_RawNutChonko.label>Орехи чонко</Mousekin_RawNutChonko.label>
+
+	<!-- EN: Raw chonko nuts, resembling oversized almonds. Nice to eat, even when raw. -->
+	<Mousekin_RawNutChonko.description>Сырые орехи чонко, напоминающие oversized almonds. Вкусные даже в сыром виде.</Mousekin_RawNutChonko.description>
+
+	<!-- EN: nyam nuts -->
+	<Mousekin_RawNutNyam.label>Орехи ням</Mousekin_RawNutNyam.label>
+
+	<!-- EN: Raw nyam nuts, resembling macadamias with faint stripes. Nice to eat, even when raw. -->
+	<Mousekin_RawNutNyam.description>Сырые орехи ням, напоминающие макадамии с легкими полосками. Вкусные даже в сыром виде.</Mousekin_RawNutNyam.description>
+
+	<!-- EN: wheat -->
+	<Mousekin_RawWheat.label>Пшеница</Mousekin_RawWheat.label>
+
+	<!-- EN: Small, edible oval cereal grains, which can be further processed into flour or used as animal feed. -->
+	<Mousekin_RawWheat.description>Мелкие съедобные овальные злаковые зерна, которые можно переработать в муку или использовать в качестве корма для животных.</Mousekin_RawWheat.description>
+
+	<!-- EN: flour -->
+	<Mousekin_Flour.label>Мука</Mousekin_Flour.label>
+
+	<!-- EN: Finely ground powder of wheat, used in baking and cooking. -->
+	<Mousekin_Flour.description>Мелко размолотый порошок из пшеницы, используемый в выпечке и кулинарии.</Mousekin_Flour.description>
+	
+</LanguageData>

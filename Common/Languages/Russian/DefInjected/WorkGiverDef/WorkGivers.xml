@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make things at crafting bench -->
+	<Mousekin_DoBillsUseCraftingBench.label>Изготавливать вещи на верстаке</Mousekin_DoBillsUseCraftingBench.label>
+
+	<!-- EN: craft -->
+	<Mousekin_DoBillsUseCraftingBench.verb>Изготавливать</Mousekin_DoBillsUseCraftingBench.verb>
+
+	<!-- EN: crafting at -->
+	<Mousekin_DoBillsUseCraftingBench.gerund>Изготавливать на</Mousekin_DoBillsUseCraftingBench.gerund>
+
+	<!-- EN: harvest products from beehives -->
+	<Mousekin_HarvestFromBeehive.label>Собирать продукты из ульев</Mousekin_HarvestFromBeehive.label>
+
+	<!-- EN: harvest products from -->
+	<Mousekin_HarvestFromBeehive.verb>Собирать продукты из</Mousekin_HarvestFromBeehive.verb>
+
+	<!-- EN: harvesting products from -->
+	<Mousekin_HarvestFromBeehive.gerund>Собирать продукты из</Mousekin_HarvestFromBeehive.gerund>
+	
+</LanguageData>

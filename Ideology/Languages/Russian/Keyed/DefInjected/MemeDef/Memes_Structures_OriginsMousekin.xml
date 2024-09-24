@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin origin -->
+	<Structure_OriginMousekin.label>Происхождение мышкинов</Structure_OriginMousekin.label>
+
+	<!-- EN: This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins. -->
+	<Structure_OriginMousekin.description>Это вариант конкретизированной теистической структуры. Эта идеология поверхностно напоминает древнее христианство, но независимо развилась тысячи лет назад из предписаний, впервые проповеданных Валерианом Мудрым своим соплеменникам-прото-мышкинам.</Structure_OriginMousekin.description>
+
+	<!-- EN: memeMoralist->Mousekin Pope -->
+	<Structure_OriginMousekin.generalRules.rulesStrings.0>memeMoralist->Мишкинский Папа</Structure_OriginMousekin.generalRules.rulesStrings.0>
+	
+	<!-- EN: memeAdjective-> (leave blank) -->
+	<Structure_OriginMousekin.generalRules.rulesStrings.1>memeAdjective-> </Structure_OriginMousekin.generalRules.rulesStrings.1>
+
+	<!-- EN: Mousekin -->
+	<Structure_OriginMousekin.symbolPacks.0.adjective>Мишкинский</Structure_OriginMousekin.symbolPacks.0.adjective>
+	
+	<!-- EN: Christianity -->
+	<Structure_OriginMousekin.symbolPacks.0.ideoName>Христианство</Structure_OriginMousekin.symbolPacks.0.ideoName>
+	
+	<!-- EN: Christian -->
+	<Structure_OriginMousekin.symbolPacks.0.member>Христианин</Structure_OriginMousekin.symbolPacks.0.member>
+	
+	<!-- EN: church -->
+	<Structure_OriginMousekin.worshipRoomLabel>Церковь</Structure_OriginMousekin.worshipRoomLabel>
+	
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: apostate -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.0.label>отступник</Mousekin_TraitSpectrum_Faith.degreeDatas.0.label>
+
+	<!-- EN: [PAWN_nameDef] prefers to focus on living [PAWN_possessive] life to the fullest, rather than strictly obeying religious doctrine.\n\nAs such, [PAWN_pronoun] is more scientifically- and technically-minded compared with other Mousekins. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.0.description>[PAWN_nameDef] предпочитает сосредоточиться на том, чтобы жить свою жизнь на полную катушку, а не строго подчиняться религиозной доктрине.\n\nТаким образом, [PAWN_pronoun] более научно и технически настроен по сравнению с другими мышами.</Mousekin_TraitSpectrum_Faith.degreeDatas.0.description>
+
+	<!-- EN: devotionist -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.1.label>преданный</Mousekin_TraitSpectrum_Faith.degreeDatas.1.label>
+
+	<!-- EN: [PAWN_nameDef] is a member of a splinter sect of Mousekins that seek to follow the spirit of Valerian the Wise's original teachings, rather than the official interpretation espoused by the Mousekin Church. [PAWN_pronoun] has a closer affinity to nature, is more adept at working with plants and has increased sensitivity to psychic phenomena, but is also less susceptible to mental breaks. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.1.description>[PAWN_nameDef] является членом секты мышей, которая стремится следовать духу оригинальных учений Валериана Мудрого, а не официальной интерпретации, проповедуемой Мышиным Церковью. [PAWN_pronoun] имеет более близкую связь с природой, лучше справляется с работой с растениями и обладает повышенной чувствительностью к психическим явлениям, но также меньше подвержен психическим срывам.</Mousekin_TraitSpectrum_Faith.degreeDatas.1.description>
+
+	<!-- EN: pious -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.2.label>набожный</Mousekin_TraitSpectrum_Faith.degreeDatas.2.label>
+
+	<!-- EN: [PAWN_nameDef] is a pious follower of the teachings of Valerian the Wise, and believes that industrious Mousekins who perform good deeds and respect the sanctity of their bodies will be rewarded with a peaceful afterlife in The Great Garden. \n\n[PAWN_pronoun] will work harder than most of [PAWN_possessive] fellow Mousekins, and press on even under the greatest of hardships. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.2.description>[PAWN_nameDef] является благочестивым последователем учений Валериана Мудрого и верит, что трудолюбивые мыши, которые совершают добрые дела и уважают святость своих тел, будут вознаграждены мирной загробной жизнью в Великом Саду.\n\n[PAWN_pronoun] будет работать усерднее, чем большинство своих сотоварищей, и продолжать даже в самых тяжелых условиях.</Mousekin_TraitSpectrum_Faith.degreeDatas.2.description>
+	
+	<!-- EN: inquisitionist -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.3.label>инквизитор</Mousekin_TraitSpectrum_Faith.degreeDatas.3.label>
+
+	<!-- EN: [PAWN_nameDef] believes in the absolute truth and power of The Inquisition, which declares that anyone who strays from the Mousekin Church and the teachings of Valerian the Wise are irredeemable heretics and enemies of all Mousekins - including Apostates, Devotionists and even other non-Mousekin rodentlike races.\n\n[PAWN_pronoun] is better at capturing prisoners and is less susceptible to psychic phenomena, but [PAWN_possessive] religious zealotry greatly impairs [PAWN_possessive] ability to understand technical and scientific matters beyond what is permitted by church doctrine. -->
+	<Mousekin_TraitSpectrum_Faith.degreeDatas.3.description>[PAWN_nameDef] верит в абсолютную истину и силу Инквизиции, которая заявляет, что любой, кто отклоняется от Мышиной Церкви и учений Валериана Мудрого, является неоспоримым еретиком и врагом всех мышей — включая отступников, преданных и даже других не-мышиных грызунов.\n\n[PAWN_pronoun] лучше справляется с захватом пленников и меньше подвержен психическим явлениям, но [PAWN_possessive] религиозный фанатизм значительно ослабляет [PAWN_possessive] способность понимать технические и научные вопросы, выходящие за пределы, разрешенные церковной доктриной.</Mousekin_TraitSpectrum_Faith.degreeDatas.3.description>
+	
+</LanguageData>

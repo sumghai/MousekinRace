@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Candle -->
+	<Mousekin_Candle.label>Мышкинская свеча</Mousekin_Candle.label>
+	
+	<!-- EN: Slow-burning beeswax candles used in lamps and lanterns. -->
+	<Mousekin_Candle.description>Медовые свечи медленного горения, используемые в лампах и фонарях.</Mousekin_Candle.description>
+	
+	<!-- EN: Clockwork Mechanism -->
+	<Mousekin_ClockworkComponent.label>Часовой механизм</Mousekin_ClockworkComponent.label>
+	
+	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
+	<Mousekin_ClockworkComponent.description>Ассортимент металлических пружин, шестеренок и рычагов, используемых для создания сложных устройств мышкинов.</Mousekin_ClockworkComponent.description>
+	
+	<!-- EN: Mousekin poultice -->
+	<Mousekin_MedicinePoultice.label>Мышкинская компресс</Mousekin_MedicinePoultice.label>
+	
+	<!-- EN: A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals. -->
+	<Mousekin_MedicinePoultice.description>Тканевый мешок, содержащий мягкую, влажную массу тщательно отобранных лечебных трав и порошка коры деревьев. Благодаря знаниям мышиных алхимиков, они более эффективны, чем человеческие травяные препараты и хорошо хранятся, но не так эффективны, как промышленные фармацевтические средства.</Mousekin_MedicinePoultice.description>
+	
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Tech -->
+	<Mousekin_Tech.label>Технологии мышкинов</Mousekin_Tech.label>
+	
+	<!-- EN: Mousekin research projects -->
+	<Mousekin_Tech.generalTitle>Исследовательские проекты мышкинов</Mousekin_Tech.generalTitle>
+	
+	<!-- EN: Unlock medieval technology exclusive to the Mousekin race. You can only have one active project at a time, and some projects require a Mousekin researcher wearing special Research Glasses. -->
+	<Mousekin_Tech.generalDescription>Разблокируйте средневековые технологии, доступные только мышкинам. Одновременно может быть активен только один проект, и для некоторых из них требуется исследователь-мышкин в специальных исследовательских очках.</Mousekin_Tech.generalDescription>
+	
+</LanguageData>

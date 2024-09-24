@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Settlers -->
+	<Mousekin_Scenario_Settlers.label>Мышкинские поселенцы</Mousekin_Scenario_Settlers.label>
+
+	<!-- EN: With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come. -->
+	<Mousekin_Scenario_Settlers.description>С благословениями старейшин деревни и ваших семей, вы и семь ваших друзей отправились создать своё собственное поселение.\n\nМножество испытаний ждёт впереди, но если вам удастся, ваши достижения и красота цветочных садов будут прославлены на протяжении поколений.</Mousekin_Scenario_Settlers.description>
+
+	<!-- EN: Mousekin Settlers -->
+	<Mousekin_Scenario_Settlers.scenario.name>Мышкинские поселенцы</Mousekin_Scenario_Settlers.scenario.name>
+
+	<!-- EN: Eight Mousekin settlers establish a new hamlet. -->
+	<Mousekin_Scenario_Settlers.scenario.summary>Восемь мышкинских поселенцев основывают новое поселение.</Mousekin_Scenario_Settlers.scenario.summary>
+
+	<!-- EN: With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come. -->
+	<Mousekin_Scenario_Settlers.scenario.description>С благословениями старейшин деревни и ваших семей, вы и семь ваших друзей отправились создать своё собственное поселение.\n\nМножество испытаний ждёт впереди, но если вам удастся, ваши достижения и красота цветочных садов будут прославлены на протяжении поколений.</Mousekin_Scenario_Settlers.scenario.description>
+
+	<!-- EN: Today is the day!\n\nAfter months of scouting, your friends have finally found a good plot of land to call your own. Perhaps you'll grow hedges of the most delicious nuts, build the most impressive lodges housing hundreds of your fellow Mousekins, or maybe plant a beautiful flower garden that will draw visitors from all over the kingdom.\n\nBidding goodbye to your families, you and your friends set out on an adventure of a lifetime. -->
+	<Mousekin_Scenario_Settlers.scenario.parts.1.text>Сегодня этот день!\n\nПосле месяцев разведки, ваши друзья наконец нашли хорошее место для вашего собственного участка. Возможно, вы посадите живую изгородь из самых вкусных орехов, построите впечатляющие дома, вмещающие сотни мышкинских собратьев, или создадите красивый цветочный сад, который привлечет посетителей со всего королевства.\n\nПрощаясь с семьями, вы и ваши друзья отправляетесь в приключение всей жизни.</Mousekin_Scenario_Settlers.scenario.parts.1.text>
+
+	<!-- EN: Mousekin Refugees -->
+	<Mousekin_Scenario_Refugees.label>Мышкинские беженцы</Mousekin_Scenario_Refugees.label>
+
+	<!-- EN: Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario. -->
+	<Mousekin_Scenario_Refugees.description>Ваш родной поселок был разрушен штурмовиками Грималкинского Доминиона, и только пятерым из вас удалось сбежать. Теперь пришло время построить новый дом.\n\nПримечание: Поскольку вы начнете с меньшим количеством предметов и припасов, это сложный сценарий.</Mousekin_Scenario_Refugees.description>
+
+	<!-- EN: Mousekin Refugees -->
+	<Mousekin_Scenario_Refugees.scenario.name>Мышкинские беженцы</Mousekin_Scenario_Refugees.scenario.name>
+
+	<!-- EN: Five Mousekin survivors attempt to rebuild. Difficult. -->
+	<Mousekin_Scenario_Refugees.scenario.summary>Пятеро выживших мышкинских беженцев пытаются восстановиться. Сложно.</Mousekin_Scenario_Refugees.scenario.summary>
+
+	<!-- EN: Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario. -->
+	<Mousekin_Scenario_Refugees.scenario.description>Ваш родной поселок был разрушен штурмовиками Грималкинского Доминиона, и только пятерым из вас удалось сбежать. Теперь пришло время построить новый дом.\n\nПримечание: Поскольку вы начнете с меньшим количеством предметов и припасов, это сложный сценарий.</Mousekin_Scenario_Refugees.scenario.description>
+
+	<!-- EN: The Grimalkins came in the night, just before supper.\n\nThe barrels of their rapid-fire muskets glinting eerily in the moonlight like their wicked grins, they smashed through the town walls with their mechanical beasts. The Guardeners and Knights fought a gallant but doomed battle so that the rest of the village could escape, but you could still hear the horrific cries and squeals behind you as the cats slaughtered your fathers, brothers and sons, raped your mothers, sisters and daughters, and feasted on the little, helpless pups.\n\nWith what few possessions you and a few others managed to grab, you find yourselves far from home, the village behind you engulfed in flames. You should set up camp here before deciding what to do next. -->
+	<Mousekin_Scenario_Refugees.scenario.parts.1.text>Грималкины пришли ночью, прямо перед ужином.\n\nСтволы их скорострельных мушкетов зловеще блестели в лунном свете, как их злые ухмылки, они проломили стены города своими механическими зверями. Садовники и рыцари сражались отважно, но обреченно, чтобы остальные жители деревни могли бежать, но вы все еще слышите ужасные крики и визги за спиной, когда кошки убивали ваших отцов, братьев и сыновей, насиловали ваших матерей, сестер и дочерей, и пировали на маленьких, беспомощных мышкинских детенышах.\n\nС теми немногими вещами, которые вам и нескольким другим удалось взять, вы оказались далеко от дома, а позади вас деревня охвачена огнем. Вам стоит разбить лагерь здесь, прежде чем решать, что делать дальше.</Mousekin_Scenario_Refugees.scenario.parts.1.text>
+
+</LanguageData>

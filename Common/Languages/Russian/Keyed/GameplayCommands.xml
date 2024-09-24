@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<MousekinRace_CommandRotateWindmillCapLabel>Повернуть крышу</MousekinRace_CommandRotateWindmillCapLabel>
+	
+	<MousekinRace_CommandRotateWindmillCapDesc>Повернуть крышу и паруса ветряной мельницы.</MousekinRace_CommandRotateWindmillCapDesc>
+	
+	<MousekinRace_CommandShowBeehiveManualLabel>Показать руководство</MousekinRace_CommandShowBeehiveManualLabel>
+	
+	<MousekinRace_CommandShowBeehiveManualDesc>Показать инструкции по использованию улья Москинов.</MousekinRace_CommandShowBeehiveManualDesc>
+
+	<MousekinRace_CommandToggleAttachedHeadgearLabel>Надеть {0}</MousekinRace_CommandToggleAttachedHeadgearLabel>
+
+	<MousekinRace_CommandToggleAttachedHeadgearDesc>Переключить ношение {0}, прикрепленного к одежде.</MousekinRace_CommandToggleAttachedHeadgearDesc>
+	
+	<MousekinRace_CommandToggleFlipDoorLabel>Перевернуть</MousekinRace_CommandToggleFlipDoorLabel>
+	
+	<MousekinRace_CommandToggleFlipDoorDesc>Изменить направление, в котором должна закрываться дверь.</MousekinRace_CommandToggleFlipDoorDesc>
+	
+	<MousekinRace_CommandShowSellableItemsDesc_DisabledReason>Ваша фракция является {0}, которая является врагом фракции этого поселения.</MousekinRace_CommandShowSellableItemsDesc_DisabledReason>
+
+</LanguageData>

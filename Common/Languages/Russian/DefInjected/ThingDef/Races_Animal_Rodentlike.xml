@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: giant cavy -->
+	<Mousekin_AnimalGiantCavy.label>Гигантская кави</Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Giant cavy") -->
+	<Mousekin_AnimalGiantCavy.description>Вид: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Гигантская кави")\n\nГигантский, спокойный грызун, в несколько раз превышающий размеры обычной морской свинки и способный хорошо переносить суровые климатические условия.\n\nОн питается высококлетчатой пищей из трав, сена, ягод, фруктов и овощей, также известно, что он поедает собственные экскременты, чтобы переработать жизненно важные микроэлементы.\n\nИзначально генетически модифицированные и выведенные людьми тысячелетия назад как потенциальный источник пищи для суровых пограничных колоний, доисторические мышки в конечном итоге успешно одомашнили этих странных существ в качестве компаньонов, ездовых животных и вьючных животных.</Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalGiantCavy.tools.1.label>Голова</Mousekin_AnimalGiantCavy.tools.1.label>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalGiantCavy.tools.2.label>Левый коготь</Mousekin_AnimalGiantCavy.tools.2.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalGiantCavy.tools.3.label>Правый коготь</Mousekin_AnimalGiantCavy.tools.3.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.label>Мясо гигантской кави</Meat_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.description>Сырые нарезанные куски съедобного мяса. Можно готовить или есть сырыми.</Meat_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.label>Труп гигантской кави</Corpse_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.description>Труп гигантской кави.</Corpse_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: Pudgemouse -->
+	<Mousekin_AnimalPudgemouse.label>Паджмаус</Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: Species: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Fat ash-grey mouse") -->
+	<Mousekin_AnimalPudgemouse.description>Вид: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Толстая пепельно-серая мышь")\n\nБольшой вид грызунов с серой шерстью, размером с чихуахуа, способный долго ходить только на задних лапах. Питается разнообразной пищей из фруктов, семян и злаков, также охотно ест мясо.\n\nИз-за их необычно высокого уровня интеллекта и эмпатии, а также явной способности понимать как письменные, так и устные языки гуманоидов (несмотря на то, что они не могут произносить настоящие слова, кроме писка), эти мыши легко одомашниваются как компаньоны и домашние животные для мышек и универсально освобождаются от любых правил, которые в противном случае запрещают домашних животных.</Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalPudgemouse.tools.0.label>Левый коготь</Mousekin_AnimalPudgemouse.tools.0.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalPudgemouse.tools.1.label>Правый коготь</Mousekin_AnimalPudgemouse.tools.1.label>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalPudgemouse.tools.3.label>Голова</Mousekin_AnimalPudgemouse.tools.3.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.label>Мясо паджмауса</Meat_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.description>Сырые нарезанные куски съедобного мяса. Можно готовить или есть сырыми.</Meat_Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.label>Труп паджмауса</Corpse_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.description>Труп паджмауса.</Corpse_Mousekin_AnimalPudgemouse.description>
+	
+</LanguageData>

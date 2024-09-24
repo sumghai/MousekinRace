@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.label>Приготовить напиток из орехов Чонко</Mousekin_Make_DrinkChonkoNutBrew.label>
+	
+	<!-- EN: Make a warm, coffee-like beverage brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick. Temporarily improves mood, consciousness and blood circulation. -->
+	<Mousekin_Make_DrinkChonkoNutBrew.description>Приготовьте теплый напиток, похожий на кофе, из жареных и молотых орехов Чонко, добавив "секретный ингредиент" для дополнительного эффекта. Временно улучшает настроение, сознание и кровообращение.</Mousekin_Make_DrinkChonkoNutBrew.description>
+	
+	<!-- EN: Making Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.jobString>Приготовление напитка из орехов Чонко</Mousekin_Make_DrinkChonkoNutBrew.jobString>
+	
+	<!-- EN: make Mousekin lager wort -->
+	<Mousekin_Make_WortLager.label>Приготовить сусло для лагера мышкинов</Mousekin_Make_WortLager.label>
+	
+	<!-- EN: Make Mousekin lager wort from Mouse-ear barley and hops. -->
+	<Mousekin_Make_WortLager.description>Приготовьте сусло для лагера мышкинов из ячменя "Мышиное ухо" и хмеля.</Mousekin_Make_WortLager.description>
+	
+	<!-- EN: Making Mousekin lager wort -->
+	<Mousekin_Make_WortLager.jobString>Приготовление сусла для лагера мышкинов</Mousekin_Make_WortLager.jobString>
+	
+	<!-- EN: make Mousekin mead must -->
+	<Mousekin_Make_WortMead.label>Приготовить сусло для медовухи мышкинов</Mousekin_Make_WortMead.label>
+	
+	<!-- EN: Make Mousekin mead must from Mousekin honey. -->
+	<Mousekin_Make_WortMead.description>Приготовьте сусло для медовухи мышкинов из меда мышкинов.</Mousekin_Make_WortMead.description>
+	
+	<!-- EN: Making Mousekin mead must -->
+	<Mousekin_Make_WortMead.jobString>Приготовление сусла для медовухи мышкинов</Mousekin_Make_WortMead.jobString>
+	
+</LanguageData>

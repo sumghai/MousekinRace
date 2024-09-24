@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin -->
+	<Mousekin.label>Мышкин</Mousekin.label>
+
+	<!-- EN: left lung -->
+	<Mousekin.corePart.parts.6.customLabel>левое лёгкое</Mousekin.corePart.parts.6.customLabel>
+
+	<!-- EN: right lung -->
+	<Mousekin.corePart.parts.7.customLabel>правое лёгкое</Mousekin.corePart.parts.7.customLabel>
+
+	<!-- EN: left kidney -->
+	<Mousekin.corePart.parts.8.customLabel>левая почка</Mousekin.corePart.parts.8.customLabel>
+
+	<!-- EN: right kidney -->
+	<Mousekin.corePart.parts.9.customLabel>правая почка</Mousekin.corePart.parts.9.customLabel>
+
+	<!-- EN: left eye -->
+	<Mousekin.corePart.parts.11.parts.0.parts.1.customLabel>левый глаз</Mousekin.corePart.parts.11.parts.0.parts.1.customLabel>
+
+	<!-- EN: right eye -->
+	<Mousekin.corePart.parts.11.parts.0.parts.2.customLabel>правый глаз</Mousekin.corePart.parts.11.parts.0.parts.2.customLabel>
+
+	<!-- EN: left ear -->
+	<Mousekin.corePart.parts.11.parts.0.parts.3.customLabel>левое ухо</Mousekin.corePart.parts.11.parts.0.parts.3.customLabel>
+
+	<!-- EN: right ear -->
+	<Mousekin.corePart.parts.11.parts.0.parts.4.customLabel>правое ухо</Mousekin.corePart.parts.11.parts.0.parts.4.customLabel>
+
+	<!-- EN: left shoulder -->
+	<Mousekin.corePart.parts.12.customLabel>левое плечо</Mousekin.corePart.parts.12.customLabel>
+
+	<!-- EN: left clavicle -->
+	<Mousekin.corePart.parts.12.parts.0.customLabel>левая ключица</Mousekin.corePart.parts.12.parts.0.customLabel>
+
+	<!-- EN: left arm -->
+	<Mousekin.corePart.parts.12.parts.1.customLabel>левая рука</Mousekin.corePart.parts.12.parts.1.customLabel>
+
+	<!-- EN: left humerus -->
+	<Mousekin.corePart.parts.12.parts.1.parts.0.customLabel>левая плечевая кость</Mousekin.corePart.parts.12.parts.1.parts.0.customLabel>
+
+	<!-- EN: left radius -->
+	<Mousekin.corePart.parts.12.parts.1.parts.1.customLabel>левая лучевая кость</Mousekin.corePart.parts.12.parts.1.parts.1.customLabel>
+
+	<!-- EN: left paw -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.customLabel>левая лапа</Mousekin.corePart.parts.12.parts.1.parts.2.customLabel>
+
+	<!-- EN: left pinky -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>левый мизинец</Mousekin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: left ring finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>левый безымянный палец</Mousekin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>левый средний палец</Mousekin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: left index finger -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>левый указательный палец</Mousekin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: left thumb -->
+	<Mousekin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>левый большой палец</Mousekin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: right shoulder -->
+	<Mousekin.corePart.parts.13.customLabel>правое плечо</Mousekin.corePart.parts.13.customLabel>
+
+	<!-- EN: right clavicle -->
+	<Mousekin.corePart.parts.13.parts.0.customLabel>правая ключица</Mousekin.corePart.parts.13.parts.0.customLabel>
+
+	<!-- EN: right arm -->
+	<Mousekin.corePart.parts.13.parts.1.customLabel>правая рука</Mousekin.corePart.parts.13.parts.1.customLabel>
+
+	<!-- EN: right humerus -->
+	<Mousekin.corePart.parts.13.parts.1.parts.0.customLabel>правая плечевая кость</Mousekin.corePart.parts.13.parts.1.parts.0.customLabel>
+
+	<!-- EN: right radius -->
+	<Mousekin.corePart.parts.13.parts.1.parts.1.customLabel>правая лучевая кость</Mousekin.corePart.parts.13.parts.1.parts.1.customLabel>
+
+	<!-- EN: right paw -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.customLabel>правая лапа</Mousekin.corePart.parts.13.parts.1.parts.2.customLabel>
+
+	<!-- EN: right pinky -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>правый мизинец</Mousekin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: right ring finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>правый безымянный палец</Mousekin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>правый средний палец</Mousekin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: right index finger -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>правый указательный палец</Mousekin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: right thumb -->
+	<Mousekin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>правый большой палец</Mousekin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: tail -->
+	<Mousekin.corePart.parts.15.customLabel>хвост</Mousekin.corePart.parts.15.customLabel>
+
+	<!-- EN: left leg -->
+	<Mousekin.corePart.parts.16.customLabel>левая нога</Mousekin.corePart.parts.16.customLabel>
+
+	<!-- EN: left femur -->
+	<Mousekin.corePart.parts.16.parts.0.customLabel>левая бедренная кость</Mousekin.corePart.parts.16.parts.0.customLabel>
+
+	<!-- EN: left tibia -->
+	<Mousekin.corePart.parts.16.parts.1.customLabel>левая большеберцовая кость</Mousekin.corePart.parts.16.parts.1.customLabel>
+
+	<!-- EN: left hind paw -->
+	<Mousekin.corePart.parts.16.parts.2.customLabel>левая задняя лапа</Mousekin.corePart.parts.16.parts.2.customLabel>
+
+	<!-- EN: left little toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.0.customLabel>левый мизинец на ноге</Mousekin.corePart.parts.16.parts.2.parts.0.customLabel>
+
+	<!-- EN: left fourth toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.1.customLabel>левый четвёртый палец на ноге</Mousekin.corePart.parts.16.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.2.customLabel>левый средний палец на ноге</Mousekin.corePart.parts.16.parts.2.parts.2.customLabel>
+
+	<!-- EN: left second toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.3.customLabel>левый второй палец на ноге</Mousekin.corePart.parts.16.parts.2.parts.3.customLabel>
+
+	<!-- EN: left big toe -->
+	<Mousekin.corePart.parts.16.parts.2.parts.4.customLabel>левый большой палец на ноге</Mousekin.corePart.parts.16.parts.2.parts.4.customLabel>
+
+	<!-- EN: right leg -->
+	<Mousekin.corePart.parts.17.customLabel>правая нога</Mousekin.corePart.parts.17.customLabel>
+
+	<!-- EN: right femur -->
+	<Mousekin.corePart.parts.17.parts.0.customLabel>правая бедренная кость</Mousekin.corePart.parts.17.parts.0.customLabel>
+
+	<!-- EN: right tibia -->
+	<Mousekin.corePart.parts.17.parts.1.customLabel>правая большеберцовая кость</Mousekin.corePart.parts.17.parts.1.customLabel>
+
+	<!-- EN: right hind paw -->
+	<Mousekin.corePart.parts.17.parts.2.customLabel>правая задняя лапа</Mousekin.corePart.parts.17.parts.2.customLabel>
+
+	<!-- EN: right little toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.0.customLabel>правый мизинец на ноге</Mousekin.corePart.parts.17.parts.2.parts.0.customLabel>
+
+	<!-- EN: right fourth toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.1.customLabel>правый четвёртый палец на ноге</Mousekin.corePart.parts.17.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.2.customLabel>правый средний палец на ноге</Mousekin.corePart.parts.17.parts.2.parts.2.customLabel>
+
+	<!-- EN: right second toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.3.customLabel>правый второй палец на ноге</Mousekin.corePart.parts.17.parts.2.parts.3.customLabel>
+
+	<!-- EN: right big toe -->
+	<Mousekin.corePart.parts.17.parts.2.parts.4.customLabel>правый большой палец на ноге</Mousekin.corePart.parts.17.parts.2.parts.4.customLabel>
+	
+</LanguageData>

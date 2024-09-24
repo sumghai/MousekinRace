@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- EN: ate cheese -->
+    <Mousekin_Thought_AteCheese.stages.0.label>Съел сыр</Mousekin_Thought_AteCheese.stages.0.label>
+
+    <!-- EN: I ate some cheese. I guess it tastes alright, but I'd prefer some crunchy roasted nuts or juicy berries. -->
+    <Mousekin_Thought_AteCheese.stages.0.description>Я съел немного сыра. Думаю, он неплохой, но мне больше понравились бы хрустящие жареные орехи или сочные ягоды.</Mousekin_Thought_AteCheese.stages.0.description>
+
+    <!-- EN: ate cheese x2 -->
+    <Mousekin_Thought_AteCheese.stages.1.label>Съел сыр x2</Mousekin_Thought_AteCheese.stages.1.label>
+
+    <!-- EN: I ate some more cheese. I'm starting to get sick of this. -->
+    <Mousekin_Thought_AteCheese.stages.1.description>Я съел еще немного сыра. Мне это начинает надоедать.</Mousekin_Thought_AteCheese.stages.1.description>
+
+    <!-- EN: ate cheese x3 -->
+    <Mousekin_Thought_AteCheese.stages.2.label>Съел сыр x3</Mousekin_Thought_AteCheese.stages.2.label>
+
+    <!-- EN: Cheese again? Ugh. -->
+    <Mousekin_Thought_AteCheese.stages.2.description>Снова сыр? Ух.</Mousekin_Thought_AteCheese.stages.2.description>
+
+    <!-- EN: ate cheese x4 -->
+    <Mousekin_Thought_AteCheese.stages.3.label>Съел сыр x4</Mousekin_Thought_AteCheese.stages.3.label>
+
+    <!-- EN: No...more...cheese...please... -->
+    <Mousekin_Thought_AteCheese.stages.3.description>Пожалуйста... больше... сыра... не надо...</Mousekin_Thought_AteCheese.stages.3.description>
+
+    <!-- EN: ate corpse -->
+    <Mousekin_Thought_AteCorpse.stages.0.label>Съел труп</Mousekin_Thought_AteCorpse.stages.0.label>
+
+    <!-- EN: I had to eat the flesh of a dead creature without even butchering or cooking it, like a filthy, primitive rat. -->
+    <Mousekin_Thought_AteCorpse.stages.0.description>Мне пришлось съесть плоть мертвого существа, даже не разделывая и не готовя ее, как грязная, примитивная крыса.</Mousekin_Thought_AteCorpse.stages.0.description>
+
+    <!-- EN: ate cooked human meat -->
+    <Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.label>Съел приготовленное человеческое мясо</Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.label>
+
+    <!-- EN: Huh. Who knew cooked smoothskin meat tastes like pork tenderloin? -->
+    <Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.description>Хм. Кто бы мог подумать, что приготовленное мясо гладкокожих на вкус похоже на свинину?</Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.description>
+
+    <!-- EN: ate raw human meat -->
+    <Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.label>Съел сырое человеческое мясо</Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.label>
+
+    <!-- EN: Ew, it tastes like raw pork! -->
+    <Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.description>Фу, на вкус как сырая свинина!</Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.description>
+
+    <!-- EN: ate kibble -->
+    <Mousekin_Thought_AteKibble.stages.0.label>Съел корм для животных</Mousekin_Thought_AteKibble.stages.0.label>
+
+    <!-- EN: I had to eat animal kibble, like a filthy, primitive rat. -->
+    <Mousekin_Thought_AteKibble.stages.0.description>Мне пришлось есть корм для животных, как грязной, примитивной крысе.</Mousekin_Thought_AteKibble.stages.0.description>
+
+    <!-- EN: cooked cannibalism -->
+    <Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.label>Съел приготовленное мясо мышки</Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.label>
+
+    <!-- EN: My meal was made from the cooked meat of my brethren! Valerian forgive me, for I have sinned! -->
+    <Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.description>Моя еда была приготовлена из мяса моих сородичей! Валериан, прости меня, я согрешил!</Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.description>
+
+    <!-- EN: raw cannibalism -->
+    <Mousekin_Thought_AteMousekinMeatDirect.stages.0.label>Съел сырое мясо мышки</Mousekin_Thought_AteMousekinMeatDirect.stages.0.label>
+
+    <!-- EN: I ate the raw flesh of my brethren! Valerian forgive me, for I have sinned! -->
+    <Mousekin_Thought_AteMousekinMeatDirect.stages.0.description>Я съел сырое мясо своих сородичей! Валериан, прости меня, я согрешил!</Mousekin_Thought_AteMousekinMeatDirect.stages.0.description>
+
+    <!-- EN: ate raw food -->
+    <Mousekin_Thought_AteRawFood.stages.0.label>Съел сырые продукты</Mousekin_Thought_AteRawFood.stages.0.label>
+
+    <!-- EN: I had to eat raw food. We should be cooking that kind of food before eating it. We're not filthy, primitive rats. -->
+    <Mousekin_Thought_AteRawFood.stages.0.description>Мне пришлось есть сырую еду. Мы должны готовить такую еду перед тем, как есть. Мы не грязные, примитивные крысы.</Mousekin_Thought_AteRawFood.stages.0.description>
+
+    <!-- EN: ate Mousekin trail mix -->
+    <Mousekin_Thought_AteTrailMix.stages.0.label>Съел смесь для путешествий мышков</Mousekin_Thought_AteTrailMix.stages.0.label>
+
+    <!-- EN: I love trail mix! Crunchy nuts, chewy dried berries, yummy popcorn! -->
+    <Mousekin_Thought_AteTrailMix.stages.0.description>Я люблю смесь для путешествий! Хрустящие орехи, жевательные сухие ягоды, вкусный попкорн!</Mousekin_Thought_AteTrailMix.stages.0.description>
+
+    <!-- EN: ate without table -->
+    <Mousekin_Thought_AteWithoutTable.stages.0.label>Поел на земле</Mousekin_Thought_AteWithoutTable.stages.0.label>
+	<!-- EN: I had to eat a meal off the ground, like a filthy, primitive rat. Can't we get a joiner to make us a proper table? -->
+	<Mousekin_Thought_AteWithoutTable.stages.0.description>Как грязная, примитивная крыса, мне пришлось есть еду с земли. Не можем ли мы попросить плотника сделать нам proper table?</Mousekin_Thought_AteWithoutTable.stages.0.description>
+
+	<!-- EN: attended wedding -->
+	<Mousekin_Thought_AttendedWedding.stages.0.label>Участвовал в свадьбе</Mousekin_Thought_AttendedWedding.stages.0.label>
+
+	<!-- EN: May they grow the biggest and most beautiful garden together! -->
+	<Mousekin_Thought_AttendedWedding.stages.0.description>Пусть они вырастят вместе самый большой и красивый сад!</Mousekin_Thought_AttendedWedding.stages.0.description>
+
+	<!-- EN: I butchered human corpse -->
+	<Mousekin_Thought_ButcheredHumanCorpse.stages.0.label>Я разделал человеческое тело</Mousekin_Thought_ButcheredHumanCorpse.stages.0.label>
+
+	<!-- EN: Huh, these smoothskins have such strange bones and meat. -->
+	<Mousekin_Thought_ButcheredHumanCorpse.stages.0.description>Хм, у этих гладкокожих такие странные кости и мясо.</Mousekin_Thought_ButcheredHumanCorpse.stages.0.description>
+
+	<!-- EN: I butchered another Mousekin -->
+	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.label>Я разделал другого Мышкина</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.label>
+
+	<!-- EN: I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>Я разделал одного из наших братьев как животное. Теперь меня никогда не пустят в Великий Сад!</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>
+
+	<!-- EN: colonist left unburied -->
+	<Mousekin_Thought_ColonistLeftUnburied.stages.0.label>Покойся с миром</Mousekin_Thought_ColonistLeftUnburied.stages.0.label>
+
+	<!-- EN: One of us died and we're just leaving them lying in the open. We should give them a proper burial, or their soul will never reach The Great Garden. -->
+	<Mousekin_Thought_ColonistLeftUnburied.stages.0.description>Один из нас умер, и мы просто оставляем его лежать на открытом месте. Мы должны дать ему proper burial, иначе его душа никогда не достигнет Великого Сада.</Mousekin_Thought_ColonistLeftUnburied.stages.0.description>
+
+	<!-- EN: drank Chonko nut brew -->
+	<Mousekin_Thought_DrankChonkoNutBrew.stages.0.label>Выпил настойку из орехов Чонко</Mousekin_Thought_DrankChonkoNutBrew.stages.0.label>
+
+	<!-- EN: Mmm, delicious! I feel so much more awake already! -->
+	<Mousekin_Thought_DrankChonkoNutBrew.stages.0.description>Ммм, вкусно! Я уже чувствую себя намного более бодрым!</Mousekin_Thought_DrankChonkoNutBrew.stages.0.description>
+
+	<!-- EN: fellow apostates -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.1.label>Оба являются отступниками</Mousekin_Thought_FaithAffinityOpinions.stages.1.label>
+
+	<!-- EN: apostate vs inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.4.label>Отступник против инквизитора</Mousekin_Thought_FaithAffinityOpinions.stages.4.label>
+
+	<!-- EN: devotionist vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.6.label>Преданный против отступника</Mousekin_Thought_FaithAffinityOpinions.stages.6.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.7.label>Разделенная вера в Великий Сад</Mousekin_Thought_FaithAffinityOpinions.stages.7.label>
+
+	<!-- EN: devotionist vs inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.9.label>Преданный против инквизитора</Mousekin_Thought_FaithAffinityOpinions.stages.9.label>
+
+	<!-- EN: pious vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.11.label>Благочестивый против отступника</Mousekin_Thought_FaithAffinityOpinions.stages.11.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.12.label>Разделенная вера в Великий Сад</Mousekin_Thought_FaithAffinityOpinions.stages.12.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.13.label>Разделенная вера в Великий Сад</Mousekin_Thought_FaithAffinityOpinions.stages.13.label>
+
+	<!-- EN: cautious respect for inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.14.label>Осторожное уважение к инквизитору</Mousekin_Thought_FaithAffinityOpinions.stages.14.label>
+
+	<!-- EN: inquisitionist vs non-pious -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.15.label>Инквизитор против нечестивого</Mousekin_Thought_FaithAffinityOpinions.stages.15.label>
+
+	<!-- EN: inquisitionist vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.16.label>Инквизитор против отступника</Mousekin_Thought_FaithAffinityOpinions.stages.16.label>
+
+	<!-- EN: inquisitionist vs devotionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.17.label>Инквизитор против преданного</Mousekin_Thought_FaithAffinityOpinions.stages.17.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.18.label>Разделенная вера в Великий Сад</Mousekin_Thought_FaithAffinityOpinions.stages.18.label>
+
+	<!-- EN: shared zealotry in the Inquisition -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.19.label>Общий фанатизм в Инквизиции</Mousekin_Thought_FaithAffinityOpinions.stages.19.label>
+
+	<!-- EN: got married to {0} -->
+	<Mousekin_Thought_GotMarried.stages.0.label>Я женился на {0}</Mousekin_Thought_GotMarried.stages.0.label>
+
+	<!-- EN: I got married! May we grow the biggest and most beautiful garden together! -->
+	<Mousekin_Thought_GotMarried.stages.0.description>Я женился! Пусть мы вырастим самый большой и красивый сад вместе!</Mousekin_Thought_GotMarried.stages.0.description>
+
+	<!-- EN: buried in sarcophagus -->
+	<Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.label>Похоронен в саркофаге</Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.label>
+
+	<!-- EN: We buried someone in an ornamented sarcophagus. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.description>Мы похоронили кого-то в украшенном саркофаге. Пусть его душа покоится в Великом Саду навсегда.</Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.description>
+
+
+		<!-- EN: we butchered human corpse -->
+	<Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.label>Мы разделали человеческое тело</Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.label>
+
+	<!-- EN: We butchered up a smoothskin. Apparently, they have really tiny ears, stiff ribs and long leg bones. How do they hear anything, squeeze through small gaps, and not fall over all the time? -->
+	<Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.description>Мы разделали гладкокожего. Оказывается, у них действительно очень маленькие уши, жесткие ребра и длинные кости ног. Как они вообще что-то слышат, пролезают через маленькие щели и не падают все время?</Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.description>
+
+	<!-- EN: we butchered another Mousekin -->
+	<Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.label>Мы разделали еще одного Мышкина</Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.label>
+
+	<!-- EN: We butchered up one of our brethren like an animal. Now we'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.description>Мы разделали одного из наших братьев, как животное. Теперь нам никогда не позволят войти в Великий Сад!</Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.description>
+
+	<!-- EN: colonist died -->
+	<Mousekin_Thought_KnowColonistDied.stages.0.label>Поселенец умер</Mousekin_Thought_KnowColonistDied.stages.0.label>
+
+	<!-- EN: May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistDied.stages.0.description>Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_KnowColonistDied.stages.0.description>
+
+	<!-- EN: justified execution of colonist -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.0.label>Исполнение приговора (поселенец)</Mousekin_Thought_KnowColonistExecuted.stages.0.label>
+
+	<!-- EN: A guilty colonist was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.0.description>Был приведен в исполнение приговор виновного поселенца. Пусть Валериан Мудрый будет милостив и даст им место в Великом Саду.</Mousekin_Thought_KnowColonistExecuted.stages.0.description>
+
+	<!-- EN: colonist euthanized -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.1.label>Поселенец был подвергнут эвтаназии</Mousekin_Thought_KnowColonistExecuted.stages.1.label>
+
+	<!-- EN: A colonist was euthanized. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.1.description>Поселенец был подвергнут эвтаназии. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_KnowColonistExecuted.stages.1.description>
+
+	<!-- EN: colonist executed -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.2.label>Поселенец был казнен</Mousekin_Thought_KnowColonistExecuted.stages.2.label>
+
+	<!-- EN: A colonist was killed in cold blood. Their blood is on our paws. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.2.description>Поселенец был убит хладнокровно. Их кровь на наших лапах.</Mousekin_Thought_KnowColonistExecuted.stages.2.description>
+
+	<!-- EN: colonist organ-harvested -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.3.label>У поселенца были изъяты органы</Mousekin_Thought_KnowColonistExecuted.stages.3.label>
+
+	<!-- EN: A colonist died because we cut them up for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.3.description>Поселенец умер, потому что мы разделали его на части. Наши души будут прокляты в Пустоши!</Mousekin_Thought_KnowColonistExecuted.stages.3.description>
+
+	<!-- EN: colonist's organ harvested -->
+	<Mousekin_Thought_KnowColonistOrganHarvested.stages.0.label>У поселенца были изъяты органы</Mousekin_Thought_KnowColonistOrganHarvested.stages.0.label>
+
+	<!-- EN: We cut up one of our own for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowColonistOrganHarvested.stages.0.description>Мы разделали одного из своих для частей тела. Наши души будут прокляты в Пустоши!</Mousekin_Thought_KnowColonistOrganHarvested.stages.0.description>
+
+	<!-- EN: justified execution -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.0.label>Исполнение приговора</Mousekin_Thought_KnowGuestExecuted.stages.0.label>
+
+	<!-- EN: A guilty prisoner or guest was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.0.description>Был казнен виновный узник или гость. Пусть Валериан Мудрый будет милостив и даст им место в Великом Саду.</Mousekin_Thought_KnowGuestExecuted.stages.0.description>
+
+	<!-- EN: someone was euthanized -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.1.label>Кого-то подвергли эвтаназии</Mousekin_Thought_KnowGuestExecuted.stages.1.label>
+
+	<!-- EN: A prisoner or guest was euthanized. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.1.description>Кого-то из узников или гостей подвергли эвтаназии. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_KnowGuestExecuted.stages.1.description>
+
+	<!-- EN: someone was executed -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.2.label>Кого-то казнили</Mousekin_Thought_KnowGuestExecuted.stages.2.label>
+
+	<!-- EN: A prisoner or guest was killed in cold blood. Their blood is on our paws. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.2.description>Кого-то из узников или гостей убили хладнокровно. Их кровь на наших лапах.</Mousekin_Thought_KnowGuestExecuted.stages.2.description>
+
+	<!-- EN: someone was organ-murdered -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.3.label>У кого-то изъяты органы</Mousekin_Thought_KnowGuestExecuted.stages.3.label>
+
+	<!-- EN: A prisoner or guest died because we cut them up for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.3.description>Кто-то из узников или гостей умер, потому что мы разделали его на части. Наши души будут прокляты в Пустоши!</Mousekin_Thought_KnowGuestExecuted.stages.3.description>
+
+	<!-- EN: someone's organ harvested -->
+	<Mousekin_Thought_KnowGuestOrganHarvested.stages.0.label>У кого-то изъяты органы</Mousekin_Thought_KnowGuestOrganHarvested.stages.0.label>
+
+	<!-- EN: We cut up a guest or prisoner for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowGuestOrganHarvested.stages.0.description>Мы разделали гостя или узника на части. Наши души будут прокляты в Пустоши!</Mousekin_Thought_KnowGuestOrganHarvested.stages.0.description>
+
+	<!-- EN: One prosthetic ear -->
+	<Mousekin_Thought_MissingEars.stages.0.label>Одно протезированное ухо</Mousekin_Thought_MissingEars.stages.0.label>
+
+	<!-- EN: I had to get my missing ear replaced with a cloth prosthetic. I hope nobody else notices. -->
+	<Mousekin_Thought_MissingEars.stages.0.description>Мне пришлось заменить отсутствующее ухо на тканевый протез. Надеюсь, никто не заметит.</Mousekin_Thought_MissingEars.stages.0.description>
+
+	<!-- EN: Two prosthetic ears -->
+<Mousekin_Thought_MissingEars.stages.1.label>Две искусственные уши</Mousekin_Thought_MissingEars.stages.1.label>
+
+<!-- EN: I had to get both my missing ears replaced with cloth prosthetics. I hope nobody else notices. -->
+<Mousekin_Thought_MissingEars.stages.1.description>Мне пришлось заменить оба потерянных уха на тканевые протезы. Надеюсь, никто не заметит.</Mousekin_Thought_MissingEars.stages.1.description>
+
+<!-- EN: One ear missing -->
+<Mousekin_Thought_MissingEars.stages.2.label>Одно ухо пропало</Mousekin_Thought_MissingEars.stages.2.label>
+
+<!-- EN: I've lost one of my ears. This is humiliating! -->
+<Mousekin_Thought_MissingEars.stages.2.description>Я потерял одно из ушей. Это унизительно!</Mousekin_Thought_MissingEars.stages.2.description>
+
+<!-- EN: One prosthetic and one missing ear -->
+<Mousekin_Thought_MissingEars.stages.3.label>Одно искусственное и одно пропавшее ухо</Mousekin_Thought_MissingEars.stages.3.label>
+
+<!-- EN: I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating! -->
+<Mousekin_Thought_MissingEars.stages.3.description>Я потерял оба уха, но только одно было заменено на тканевый протез. Это унизительно!</Mousekin_Thought_MissingEars.stages.3.description>
+
+<!-- EN: Both ears missing -->
+<Mousekin_Thought_MissingEars.stages.4.label>Оба уха пропали</Mousekin_Thought_MissingEars.stages.4.label>
+
+<!-- EN: I've lost both my ears! I'd rather die than live with this humiliation! -->
+<Mousekin_Thought_MissingEars.stages.4.description>Я потерял оба уха! Я лучше умру, чем жить с этим унижением!</Mousekin_Thought_MissingEars.stages.4.description>
+
+<!-- EN: my aunt {0} died -->
+<Mousekin_Thought_MyAuntDied.stages.0.label>Моя тётя {0} умерла</Mousekin_Thought_MyAuntDied.stages.0.label>
+
+<!-- EN: My aunt died. May her soul rest forever in The Great Garden. -->
+<Mousekin_Thought_MyAuntDied.stages.0.description>Моя тётя умерла. Пусть её душа вечно покоится в Великом Саду.</Mousekin_Thought_MyAuntDied.stages.0.description>
+
+<!-- EN: my brother {0} died -->
+<Mousekin_Thought_MyBrotherDied.stages.0.label>Мой брат {0} умер</Mousekin_Thought_MyBrotherDied.stages.0.label>
+
+<!-- EN: My brother died. May his soul rest forever in The Great Garden. -->
+<Mousekin_Thought_MyBrotherDied.stages.0.description>Мой брат умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyBrotherDied.stages.0.description>
+
+<!-- EN: my cousin {0} died -->
+<Mousekin_Thought_MyCousinDied.stages.0.label>Мой двоюродный брат {0} умер</Mousekin_Thought_MyCousinDied.stages.0.label>
+
+<!-- EN: My cousin died. May their soul rest forever in The Great Garden. -->
+<Mousekin_Thought_MyCousinDied.stages.0.description>Мой двоюродный брат умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyCousinDied.stages.0.description>
+
+<!-- EN: my daughter {0} died -->
+<Mousekin_Thought_MyDaughterDied.stages.0.label>Моя дочь {0} умерла</Mousekin_Thought_MyDaughterDied.stages.0.label>
+
+<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+<Mousekin_Thought_MyDaughterDied.stages.0.description>Бедная, бедная девочка! Мне следовало лучше заботиться о тебе!</Mousekin_Thought_MyDaughterDied.stages.0.description>
+
+<!-- EN: my father {0} died -->
+<Mousekin_Thought_MyFatherDied.stages.0.label>Мой отец {0} умер</Mousekin_Thought_MyFatherDied.stages.0.label>
+
+<!-- EN: My father died. May his soul rest forever in The Great Garden. -->
+<Mousekin_Thought_MyFatherDied.stages.0.description>Мой отец умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyFatherDied.stages.0.description>
+
+<!-- EN: my fiance {0} died -->
+<Mousekin_Thought_MyFianceDied.stages.0.label>Мой жених {0} умер</Mousekin_Thought_MyFianceDied.stages.0.label>
+
+<!-- EN: My fiance died. We promised we'd grow our garden together! -->
+<Mousekin_Thought_MyFianceDied.stages.0.description>Мой жених умер. Мы обещали, что будем вместе выращивать наш сад!</Mousekin_Thought_MyFianceDied.stages.0.description>
+
+<!-- EN: my fiancée {0} died -->
+<Mousekin_Thought_MyFianceeDied.stages.0.label>Моя невеста {0} умерла</Mousekin_Thought_MyFianceeDied.stages.0.label>
+
+<!-- EN: My fiancée died. We promised we'd grow our garden together! -->
+<Mousekin_Thought_MyFianceeDied.stages.0.description>Моя невеста умерла. Мы обещали, что будем вместе выращивать наш сад!</Mousekin_Thought_MyFianceeDied.stages.0.description>
+
+<!-- EN: my grandchild {0} died -->
+<Mousekin_Thought_MyGrandchildDied.stages.0.label>Мой внук {0} умер</Mousekin_Thought_MyGrandchildDied.stages.0.label>
+
+<!-- EN: My grandchild died. Our family's future, taken away from us forever... -->
+<Mousekin_Thought_MyGrandchildDied.stages.0.description>Мой внук умер. Будущее нашей семьи, навсегда отнято от нас...</Mousekin_Thought_MyGrandchildDied.stages.0.description>
+
+<!-- EN: my grandparent {0} died -->
+<Mousekin_Thought_MyGrandparentDied.stages.0.label>Мой дедушка или бабушка {0} умерли</Mousekin_Thought_MyGrandparentDied.stages.0.label>
+
+<!-- EN: My grandparent died. May their soul rest forever in The Great Garden. -->
+<Mousekin_Thought_MyGrandparentDied.stages.0.description>Мой дедушка или бабушка умерли. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyGrandparentDied.stages.0.description>
+
+<!-- EN: my half-sibling {0} died -->
+<Mousekin_Thought_MyHalfSiblingDied.stages.0.label>Мой сводный брат или сестра {0} умерли</Mousekin_Thought_MyHalfSiblingDied.stages.0.label>
+
+<!-- EN: My half-sibling died. May their soul rest forever in The Great Garden. -->
+<Mousekin_Thought_MyHalfSiblingDied.stages.0.description>Мой сводный брат или сестра умерли. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyHalfSiblingDied.stages.0.description>
+
+<!-- EN: my husband {0} died -->
+<Mousekin_Thought_MyHusbandDied.stages.0.label>Мой муж {0} умер</Mousekin_Thought_MyHusbandDied.stages.0.label>
+
+<!-- EN: My husband is dead. May we be reunited in The Great Garden someday. -->
+<Mousekin_Thought_MyHusbandDied.stages.0.description>Мой муж умер. Пусть мы когда-нибудь воссоединимся в Великом Саду.</Mousekin_Thought_MyHusbandDied.stages.0.description>
+
+
+	<	<!-- EN: my kin {0} died -->
+	<Mousekin_Thought_MyKinDied.stages.0.label>Мой родственник {0} умер</Mousekin_Thought_MyKinDied.stages.0.label>
+
+	<!-- EN: My kin died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyKinDied.stages.0.description>Мой родственник умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyKinDied.stages.0.description>
+
+	<!-- EN: my mother {0} died -->
+	<Mousekin_Thought_MyMotherDied.stages.0.label>Моя мать {0} умерла</Mousekin_Thought_MyMotherDied.stages.0.label>
+
+	<!-- EN: My mother died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyMotherDied.stages.0.description>Моя мать умерла. Пусть её душа вечно покоится в Великом Саду.</Mousekin_Thought_MyMotherDied.stages.0.description>
+
+	<!-- EN: my niece {0} died -->
+	<Mousekin_Thought_MyNieceDied.stages.0.label>Моя племянница {0} умерла</Mousekin_Thought_MyNieceDied.stages.0.label>
+
+	<!-- EN: My niece died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyNieceDied.stages.0.description>Моя племянница умерла. Пусть её душа вечно покоится в Великом Саду.</Mousekin_Thought_MyNieceDied.stages.0.description>
+
+	<!-- EN: my nephew {0} died -->
+	<Mousekin_Thought_MyNephewDied.stages.0.label>Мой племянник {0} умер</Mousekin_Thought_MyNephewDied.stages.0.label>
+
+	<!-- EN: My nephew died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyNephewDied.stages.0.description>Мой племянник умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyNephewDied.stages.0.description>
+
+	<!-- EN: my organ harvested -->
+	<Mousekin_Thought_MyOrganHarvested.stages.0.label>Мои органы были изъяты</Mousekin_Thought_MyOrganHarvested.stages.0.label>
+
+	<!-- EN: The colony's cutting me up for parts! Damn you all to The Wasteland! -->
+	<Mousekin_Thought_MyOrganHarvested.stages.0.description>Колония разбирает меня на запчасти! Прокляните все вы на Пустошь!</Mousekin_Thought_MyOrganHarvested.stages.0.description>
+
+	<!-- EN: my sister {0} died -->
+	<Mousekin_Thought_MySisterDied.stages.0.label>Моя сестра {0} умерла</Mousekin_Thought_MySisterDied.stages.0.label>
+
+	<!-- EN: My sister died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MySisterDied.stages.0.description>Моя сестра умерла. Пусть её душа вечно покоится в Великом Саду.</Mousekin_Thought_MySisterDied.stages.0.description>
+
+	<!-- EN: my son {0} died -->
+	<Mousekin_Thought_MySonDied.stages.0.label>Мой сын {0} умер</Mousekin_Thought_MySonDied.stages.0.label>
+
+	<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+	<Mousekin_Thought_MySonDied.stages.0.description>Мой бедный, бедный малыш! Мне следовало лучше заботиться о тебе!</Mousekin_Thought_MySonDied.stages.0.description>
+
+	<!-- EN: my uncle {0} died -->
+	<Mousekin_Thought_MyUncleDied.stages.0.label>Мой дядя {0} умер</Mousekin_Thought_MyUncleDied.stages.0.label>
+
+	<!-- EN: My uncle died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyUncleDied.stages.0.description>Мой дядя умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyUncleDied.stages.0.description>
+
+	<!-- EN: my wife {0} died -->
+	<Mousekin_Thought_MyWifeDied.stages.0.label>Моя жена {0} умерла</Mousekin_Thought_MyWifeDied.stages.0.label>
+
+	<!-- EN: My wife is dead. May we be reunited in The Great Garden someday. -->
+	<Mousekin_Thought_MyWifeDied.stages.0.description>Моя жена умерла. Пусть мы когда-нибудь воссоединимся в Великом Саду.</Mousekin_Thought_MyWifeDied.stages.0.description>
+
+	<!-- EN: cramped interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.0.label>Узкое помещение</Mousekin_Thought_NeedRoomSize.stages.0.label>
+
+	<!-- EN: Squeak, somebody let me out of here! -->
+	<Mousekin_Thought_NeedRoomSize.stages.0.description>Чирик, кто-нибудь, выпустите меня отсюда!</Mousekin_Thought_NeedRoomSize.stages.0.description>
+
+	<!-- EN: cosy interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.1.label>Уютное помещение</Mousekin_Thought_NeedRoomSize.stages.1.label>
+
+	<!-- EN: Nice and cosy, snug as a burrow! -->
+	<Mousekin_Thought_NeedRoomSize.stages.1.description>Неплохо и уютно, удобно как в норе!</Mousekin_Thought_NeedRoomSize.stages.1.description>
+
+	<!-- EN: spacious interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.2.label>Просторное помещение</Mousekin_Thought_NeedRoomSize.stages.2.label>
+
+	<!-- EN: So much space, we can hold a town meeting in here! -->
+	<Mousekin_Thought_NeedRoomSize.stages.2.description>Так много места, мы можем провести здесь собрание города!</Mousekin_Thought_NeedRoomSize.stages.2.description>
+
+	<!-- EN: body defiled by prosthetics -->
+	<Mousekin_Thought_OtherMousekinHasProstheticOpinions.stages.0.label>Тело осквернено протезами</Mousekin_Thought_OtherMousekinHasProstheticOpinions.stages.0.label>
+
+	<!-- EN: my rival {0} died -->
+	<Mousekin_Thought_PawnWithBadOpinionDied.stages.0.label>Мой соперник {0} умер</Mousekin_Thought_PawnWithBadOpinionDied.stages.0.label>
+
+	<!-- EN: Serves them right. May they rot in The Wasteland forever! -->
+	<Mousekin_Thought_PawnWithBadOpinionDied.stages.0.description>Сами виноваты. Пусть они гниют в Пустоши вечно!</Mousekin_Thought_PawnWithBadOpinionDied.stages.0.description>
+
+	<!-- EN: my rival {0} lost -->
+	<Mousekin_Thought_PawnWithBadOpinionLost.stages.0.label>Я потерял своего соперника {0}</Mousekin_Thought_PawnWithBadOpinionLost.stages.0.label>
+
+	<!-- EN: Serves them right. I hope they never come back, and wander in The Wasteland forever! -->
+	<Mousekin_Thought_PawnWithBadOpinionLost.stages.0.description>Сами виноваты. Надеюсь, они никогда не вернутся и будут блуждать по Пустоши вечно!</Mousekin_Thought_PawnWithBadOpinionLost.stages.0.description>
+
+	<!-- EN: my friend {0} died -->
+	<Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.label>Мой друг {0} умер</Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.label>
+
+	<!-- EN: Such a wonderful person. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.description>Какой замечательный человек. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.description>
+
+
+		<!-- EN: my friend {0} lost -->
+	<Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.label>Я потерял моего друга {0}</Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.label>
+
+	<!-- EN: Such a wonderful person, lost. I hope they will get back to us someday. -->
+	<Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.description>Такой замечательный человек, потерян. Я надеюсь, что они когда-нибудь вернутся к нам.</Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.description>
+
+	<!-- EN: prisoner released -->
+	<Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.label>Освобожденный заключенный</Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.label>
+
+	<!-- EN: We released a healthy prisoner. Valerian the Wise would be proud we followed his teachings of mercy. -->
+	<Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.description>Мы освободили здорового заключенного. Валериан Мудрый гордился бы тем, что мы следовали его учениям о милосердии.</Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.description>
+
+	<!-- EN: devout with prosthetic -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.label>Религиозный с протезами</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.label>
+
+	<!-- EN: I hate having this unnatural thing attached to me. It goes against my faith. -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.description>Мне ненавистно, что это ненормальное нечто прикреплено ко мне. Это противоречит моей вере.</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.description>
+
+	<!-- EN: devout with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.label>Религиозный с {0} протезами</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.label>
+
+	<!-- EN: These artificial parts are violating the sanctity of my body! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.description>Эти искусственные части нарушают святость моего тела!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.description>
+
+	<!-- EN: devout with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.label>Религиозный с {0} протезами</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.label>
+
+	<!-- EN: My flesh has been defiled by all these artificial parts! Now I'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.description>Моя плоть была осквернена всеми этими искусственными частями! Теперь я никогда не смогу попасть в Великий Сад!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.description>
+
+	<!-- EN: inquisitionist with prosthetic -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.label>Инквизитор с протезами</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.label>
+
+	<!-- EN: This witchcraft taints my body! Get it off me! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.description>Эта магия загрязняет моё тело! Убери это с меня!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.description>
+
+	<!-- EN: inquisitionist with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.label>Инквизитор с {0} протезами</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.label>
+
+	<!-- EN: More witchcraft, polluting my pure, natural flesh! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.description>Больше колдовства, загрязняющего мою чистую, натуральную плоть!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.description>
+
+	<!-- EN: inquisitionist with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.label>Инквизитор с {0} протезами</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.label>
+
+	<!-- EN: My flesh has been defiled by all this witchcraft! I'm no better than those heretics! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.description>Моя плоть была осквернена всей этой магией! Я не лучше, чем те еретики!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.description>
+
+	<!-- EN: saw a Pudgemouse -->
+	<Mousekin_Thought_SawNearbyPudgemouse.stages.0.label>Я увидел Паджмауса</Mousekin_Thought_SawNearbyPudgemouse.stages.0.label>
+
+	<!-- EN: Squeak! Pudgemice are the best! -->
+	<Mousekin_Thought_SawNearbyPudgemouse.stages.0.description>Чирик! Паджмаусы — лучшие!</Mousekin_Thought_SawNearbyPudgemouse.stages.0.description>
+
+	<!-- EN: slept in the cold -->
+	<Mousekin_Thought_SleptInCold.stages.0.label>Спал на холоде</Mousekin_Thought_SleptInCold.stages.0.label>
+
+	<!-- EN: I had to sleep in the cold. We should get a fireplace going. -->
+	<Mousekin_Thought_SleptInCold.stages.0.description>Мне пришлось спать на холоде. Нам следует разжечь камин.</Mousekin_Thought_SleptInCold.stages.0.description>
+
+	<!-- EN: slept in the heat -->
+	<Mousekin_Thought_SleptInHeat.stages.0.label>Спал в жаре</Mousekin_Thought_SleptInHeat.stages.0.label>
+
+	<!-- EN: I had to sleep in unbearable heat. Can't we have some ventilation around here? -->
+	<Mousekin_Thought_SleptInHeat.stages.0.description>Мне пришлось спать в невыносимой жаре. Разве здесь нельзя организовать вентиляцию?</Mousekin_Thought_SleptInHeat.stages.0.description>
+
+	<!-- EN: slept on ground -->
+	<Mousekin_Thought_SleptOnGround.stages.0.label>Спал на земле</Mousekin_Thought_SleptOnGround.stages.0.label>
+
+
+		<!-- EN: I had to sleep on the ground like a filthy, primitive rat. -->
+	<Mousekin_Thought_SleptOnGround.stages.0.description>Мне пришлось спать на земле, как грязная, примитивная крыса.</Mousekin_Thought_SleptOnGround.stages.0.description>
+
+	<!-- EN: slept outside -->
+	<Mousekin_Thought_SleptOutside.stages.0.label>Спал на улице</Mousekin_Thought_SleptOutside.stages.0.label>
+
+	<!-- EN: I had to sleep outdoors without any protection from the elements, like a filthy, primitive rat. -->
+	<Mousekin_Thought_SleptOutside.stages.0.description>Мне пришлось спать на улице без какой-либо защиты от непогоды, как грязная, примитивная крыса.</Mousekin_Thought_SleptOutside.stages.0.description>
+
+	<!-- EN: wearing Mousekin fur apparel -->
+	<Mousekin_Thought_WearingMousekinFurApparel.stages.0.label>Ношу одежду из меха Маускина</Mousekin_Thought_WearingMousekinFurApparel.stages.0.label>
+
+	<!-- EN: I'm wearing clothes made from the fur of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_WearingMousekinFurApparel.stages.0.description>Я ношу одежду из меха моих братьев! Валериан, прости меня, я согрешил!</Mousekin_Thought_WearingMousekinFurApparel.stages.0.description>
+
+	<!-- EN: wearing Pudgemouse fur apparel -->
+	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.label>Ношу одежду из меха Паджмауса</Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.label>
+
+	<!-- EN: I'm wearing clothes made from the fur of a pudgemouse. That poor innocent creature didn't deserve this! -->
+	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>Я ношу одежду из меха паджмауса. Это бедное невинное существо не заслуживало этого!</Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>
+
+	
+</LanguageData>

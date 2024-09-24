@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mouseling -->
+	<Mousekin_Childhood_GenericChild.title>マウスキン子供</Mousekin_Childhood_GenericChild.title>
+	
+	<!-- EN: Mouseling -->
+	<Mousekin_Childhood_GenericChild.titleShort>マウスキン子供</Mousekin_Childhood_GenericChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] is a mouseling. The story of [PAWN_possessive] childhood is still being written. -->
+	<Mousekin_Childhood_GenericChild.description>[PAWN_nameDef]はマウスキン子供です.[PAWN_possessive]子供時代の物語はまだ書かれている途中です.</Mousekin_Childhood_GenericChild.description>
+	
+	<!-- EN: Mouseling -->
+	<Mousekin_Childhood_GenericChildhood.title>マウスキン子供</Mousekin_Childhood_GenericChildhood.title>
+	
+	<!-- EN: Village mouseling -->
+	<Mousekin_Childhood_GenericChildhood.titleShort>村のマウスキン子供</Mousekin_Childhood_GenericChildhood.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up in our village. -->
+	<Mousekin_Childhood_GenericChildhood.description>[PAWN_nameDef]はあなたの村で育ちました.</Mousekin_Childhood_GenericChildhood.description>
+	
+	<!-- EN: Villager -->
+	<Mousekin_Adulthood_GenericAdult.title>村民</Mousekin_Adulthood_GenericAdult.title>
+	
+	<!-- EN: Villager -->
+	<Mousekin_Adulthood_GenericAdult.titleShort>村民</Mousekin_Adulthood_GenericAdult.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] became an adult in our village. [PAWN_possessive] story is still being written. -->
+	<Mousekin_Adulthood_GenericAdult.description>[PAWN_nameDef]はあなたの村で大人になりました.[PAWN_possessive]物語はまだ書かれている途中です.</Mousekin_Adulthood_GenericAdult.description>
+	
+	<!-- EN: Apprentice alchemist -->
+	<Mousekin_Childhood_AlchemistApprentice.title>錬金術師見習い</Mousekin_Childhood_AlchemistApprentice.title>
+	
+	<!-- EN: Apprentice alchemist -->
+	<Mousekin_Childhood_AlchemistApprentice.titleShort>錬金術師見習い</Mousekin_Childhood_AlchemistApprentice.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] became an apprentice to an alchemist in a nearby Mousekin town, and spent [PAWN_possessive] days fetching water, tending the fireplace and cleaning glassware, while [PAWN_possessive] master concocted various medicines and elixirs. [PAWN_pronoun] was soon trained to quickly identify medicinal herbs and minerals by sight, touch and smell. -->
+	<Mousekin_Childhood_AlchemistApprentice.description>[PAWN_nameDef]はマウスキンの町の近くにある錬金術師の弟子となり、主人がさまざまな薬や万能薬を調合する間、水汲みや暖炉の手入れ、ガラス製品の洗浄に明け暮れた.[PAWN_pronoun]はすぐに薬草や鉱物を視覚、触覚、嗅覚で素早く識別できるように訓練された.</Mousekin_Childhood_AlchemistApprentice.description>
+	
+	<!-- EN: Bastard child -->
+	<Mousekin_Childhood_Bastard.title>婚外子</Mousekin_Childhood_Bastard.title>
+	<Mousekin_Childhood_Bastard.titleFemale>婚外子</Mousekin_Childhood_Bastard.titleFemale>
+	
+	<!-- EN: Bastard -->
+	<Mousekin_Childhood_Bastard.titleShort>婚外子</Mousekin_Childhood_Bastard.titleShort>
+	<Mousekin_Childhood_Bastard.titleShortFemale>婚外子</Mousekin_Childhood_Bastard.titleShortFemale>
+	
+	<!-- EN: As the product of an illict affair between a wealthy Mousekin landowner and his scullery maid, [PAWN_nameDef] had no legal status in Mousekin society.\n\nTo avoid further scandal, the landowner quietly sent them away to a distant countryside cottage, where mother and child led simple lives as peasants. -->
+	<Mousekin_Childhood_Bastard.description>[PAWN_nameDef]は、マウスキンの裕福な地主と雑用係の間の不倫の産物であり、マウスキン社会での法的地位はない.\n\nそれ以上のスキャンダルを避けるため、地主は二人を遠くの田舎の別荘にそっと送り出し、母子は農民として質素な生活を送ることになった.</Mousekin_Childhood_Bastard.description>
+	
+	<!-- EN: Apprentice blacksmith -->
+	<Mousekin_Childhood_BlacksmithApprentice.title>鍛冶屋見習い</Mousekin_Childhood_BlacksmithApprentice.title>
+	
+	<!-- EN: Apprentice blacksmith -->
+	<Mousekin_Childhood_BlacksmithApprentice.titleShort>鍛冶屋見習い</Mousekin_Childhood_BlacksmithApprentice.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was taken in as an apprentice by the blacksmith of their Mousekin village, and spent [PAWN_possessive] days tending the forge's fire, pumping the bellows, fetching water and cleaning the tools, while [PAWN_possessive] master forged rakes, hoes and ploughs.\n\nAs per tradition, [PAWN_pronoun] forged [PAWN_possessive] first items under [PAWN_possessive] master's careful tutelage - [PAWN_possessive] own set of tools. -->
+	<Mousekin_Childhood_BlacksmithApprentice.description>[PAWN_nameDef]はマウスキンの村の鍛冶屋に弟子入りし、鍛冶場の火の世話、ふいごのポンプ、水汲み、道具の掃除に明け暮れ、主人は熊手や鍬や鋤を鍛えた.\n\n伝統に従って、 そして、師匠の手ほどきを受けながら、初めて自分の道具を鍛えました.</Mousekin_Childhood_BlacksmithApprentice.description>
+	
+	<!-- EN: Caravan child -->
+	<Mousekin_Childhood_CaravanChild.title>キャラバンの子</Mousekin_Childhood_CaravanChild.title>
+	
+	<!-- EN: Caravan child -->
+	<Mousekin_Childhood_CaravanChild.titleShort>キャラバンの子</Mousekin_Childhood_CaravanChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] spent much of [PAWN_possessive] childhood on the road with [PAWN_possessive] parents, who were members of a Mousekin merchant caravan that travelled between towns to offer their wares.\n\n[PAWN_pronoun] did [PAWN_possessive] best to study from loaned books from the back of [PAWN_possessive] parents' giant cavy-drawn cart, all while learning the art of the deal from over [PAWN_possessive] parents' shoulders. -->
+	<Mousekin_Childhood_CaravanChild.description>[PAWN_nameDef]は幼少期の多くを、町と町を行き来して品物を提供するマウスキン商人のキャラバンのメンバーである両親と共に旅先で過ごした.\n\n彼は両親の肩越しに取引の技術を学びながら、両親のジャイアントキャビーが引く荷車の荷台から、借りた本で勉強することに全力を尽くした.</Mousekin_Childhood_CaravanChild.description>
+	
+	<!-- EN: City child -->
+	<Mousekin_Childhood_CityChild.title>都市の子</Mousekin_Childhood_CityChild.title>
+	
+	<!-- EN: City kid -->
+	<Mousekin_Childhood_CityChild.titleShort>都市の子</Mousekin_Childhood_CityChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up in one of the major cities in the Mousekin Kingdom, where [PAWN_possessive] parents could afford to send [PAWN_objective] to one of the best schools in the realm.\n\n[PAWN_pronoun] became knowledgeable in a variety of academic matters, but like the rest of [PAWN_possessive] family, tended to look down upon the backwards and uncivilized Mousekins from the countryside. -->
+	<Mousekin_Childhood_CityChild.description>[PAWN_nameDef]はマウスキン王国の主要都市のひとつで育ち、両親は[PAWN_objective]を王国で最も優れた学校のひとつに通わせる余裕があった.\n\n[PAWN_pronoun]は様々な学問に精通するようになったが、他の家族同様、田舎から来た後進的で未開なマウスキンを見下す傾向があった.</Mousekin_Childhood_CityChild.description>
+	
+	<!-- EN: Apprentice cobbler -->
+	<Mousekin_Childhood_CobblerApprentice.title>靴屋見習い</Mousekin_Childhood_CobblerApprentice.title>
+	
+	<!-- EN: Apprentice cobbler -->
+	<Mousekin_Childhood_CobblerApprentice.titleShort>靴屋見習い</Mousekin_Childhood_CobblerApprentice.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was taken in as an apprentice by the cobbler of their Mousekin village, and spent [PAWN_possessive] days fetching water, tending the fireplace and tidying the workshop, while [PAWN_possessive] master repaired shoes.\n\nOcassionally, [PAWN_pronoun] would be allowed to shine a customer's boots, and get tipped in silver coins. -->
+	<Mousekin_Childhood_CobblerApprentice.description>[PAWN_nameDef]はマウスキンの村の靴屋に弟子入りし、主人が靴を修理している間、水汲み、暖炉の手入れ、工房の片付けをする日々を送っていました.\n\nたまにお客さんの靴を磨かせてもらい、銀貨でチップをもらうこともあった.</Mousekin_Childhood_CobblerApprentice.description>
+	
+	<!-- EN: Apprentice cook -->
+	<Mousekin_ChildHood_CookApprentice.title>厨房の見習い</Mousekin_ChildHood_CookApprentice.title>
+	
+	<!-- EN: Apprentice cook -->
+	<Mousekin_ChildHood_CookApprentice.titleShort>厨房の見習い</Mousekin_ChildHood_CookApprentice.titleShort>
+	
+	<!-- EN: After [PAWN_possessive] talent in the kitchen was discovered at an young age, [PAWN_nameDef]'s parents arranged for [PAWN_objective] to be taken in as an apprentice to a Mousekin cook who worked at the village inn.\n\n[PAWN_pronoun] spent [PAWN_possessive] days washing dirty dishes, cleaning benchtops and taking out the garbage, while [PAWN_possessive] master toiled in front of the stove and dealt with customers.\n\nIn time, [PAWN_nameDef] learned to prepare basic ingredients and soup bases, as well as how to choose and utilize the best herbs and nuts in a variety of dishes. -->
+	<Mousekin_ChildHood_CookApprentice.description>幼い頃にキッチンの才能を見出された[PAWN_nameDef]の両親は、村の宿屋で働くマウスキンの料理人に弟子入りするように仕向けたのです.\n\n主人がコンロの前でお客さんの相手をする間、[PAWN_pronoun]は汚れた食器を洗ったり、テーブルを掃除したり、ゴミを出したりする日々を送った.\n\nやがて[PAWN_pronoun]は、基本的な食材やスープのベース、さまざまな料理に最適なハーブや木の実の選び方や使い方を学びました.</Mousekin_ChildHood_CookApprentice.description>
+	
+	<!-- EN: Apprentice cooper -->
+	<Mousekin_Childhood_CooperApprentice.title>桶屋見習い</Mousekin_Childhood_CooperApprentice.title>
+	
+	<!-- EN: Apprentice cooper -->
+	<Mousekin_Childhood_CooperApprentice.titleShort>桶屋見習い</Mousekin_Childhood_CooperApprentice.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] left home at a young age to serve as the apprentice of a barrelmaker in a nearby Mousekin town, and under [PAWN_possessive] master's watchful eye, spent [PAWN_possessive] days shaping planks of wood into staves, roasting half-finished barrels over fire and plugging leaks. -->
+	<Mousekin_Childhood_CooperApprentice.description>[PAWN_nameDef]は幼い頃に家を出て、近くのマウスキンの町の樽職人に弟子入りし、師匠の目を盗んで、板材をステーブに成形し、半製品の樽を火であぶり、漏れをふさぐ日々を送った.</Mousekin_Childhood_CooperApprentice.description>
+	
+	<!-- EN: Blessed Apprentice Guardener -->
+	<Mousekin_Childhood_GuardenerApprenticeBlessed.title>恵まれた花園守護者見習い</Mousekin_Childhood_GuardenerApprenticeBlessed.title>
+	
+	<!-- EN: Apprentice Guardener -->
+	<Mousekin_Childhood_GuardenerApprenticeBlessed.titleShort>花園守護者見習い</Mousekin_Childhood_GuardenerApprenticeBlessed.titleShort>
+	
+	<!-- EN: Shortly after [PAWN_nameDef] was born, [PAWN_possessive] mother, in accordance with local custom, had [PAWN_objective] blessed by a Guardener, a member of an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom.\n\nAfter [PAWN_possessive] tenth birthday, [PAWN_pronoun] voluntarily devoted [PAWN_objective]self to the grueling path of becoming a Guardener, and was accepted as an Apprentice at [PAWN_possessive] hometown's Guardener Lodge. -->
+	<Mousekin_Childhood_GuardenerApprenticeBlessed.description>[PAWN_nameDef]は生まれて間もなく、地元の習慣に従って、マウスキン王国の花園の手入れと保護に従事する花園守護者の祝福を受けることになった.\n\n10歳の誕生日を迎えた後、自ら進んで花園守護者の道を歩み、故郷の花守修道会ロッジで見習いとして認められる.</Mousekin_Childhood_GuardenerApprenticeBlessed.description>
+	
+	<!-- EN: Noble Apprentice Guardener -->
+	<Mousekin_Childhood_GuardenerApprenticeNoble.title>貴族花園守護者見習い</Mousekin_Childhood_GuardenerApprenticeNoble.title>
+	
+	<!-- EN: Apprentice Guardener -->
+	<Mousekin_Childhood_GuardenerApprenticeNoble.titleShort>花園守護者見習い</Mousekin_Childhood_GuardenerApprenticeNoble.titleShort>
+	
+	<!-- EN: Born into a wealthy noble family, [PAWN_nameDef]'s mother arranged for [PAWN_objective] to be blessed by a Guardener, a member of an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom - simply so that she could brag about it to other Mousekin noblewomen.\n\nHowever, much to [PAWN_possessive] family's dismay, [PAWN_nameDef] decided to follow through on the blessing after [PAWN_possessive] tenth birthday, and was accepted as an Apprentice at the Guardener Lodge of a nearby village.\n\n[PAWN_pronoun] trained just as diligently as apprentices from commoner families, and impressed others with [PAWN_possessive] refined and graceful ways. -->
+	<Mousekin_Childhood_GuardenerApprenticeNoble.description>裕福な貴族の家に生まれた[PAWN_nameDef]は、他の貴族の女性たちに自慢できるようにと、母がマウスキン王国の花園を管理と保護する花園守護者の祝福を受けるように仕向けた.\n\nしかし、10歳の誕生日を迎えた[PAWN_nameDef]は、家族の心配をよそに、祝福の義務を果たすことを決意し、近くの村の花守修道会ロッジで見習いとして受け入れられることになった.\n\n平民の弟子と同じように熱心に修行し、その洗練された優雅な振る舞いで周囲に感銘を与えた.</Mousekin_Childhood_GuardenerApprenticeNoble.description>
+	
+	<!-- EN: Orphaned Apprentice Guardener -->
+	<Mousekin_Childhood_GuardenerApprenticeOrphan.title>孤児の花園守護者見習い</Mousekin_Childhood_GuardenerApprenticeOrphan.title>
+	
+	<!-- EN: Apprentice Guardener -->
+	<Mousekin_Childhood_GuardenerApprenticeOrphan.titleShort>花園守護者見習い</Mousekin_Childhood_GuardenerApprenticeOrphan.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of [PAWN_possessive] new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom. -->
+	<Mousekin_Childhood_GuardenerApprenticeOrphan.description>[PAWN_nameDef]は幼い頃、グリマルキン人民共和国の軍の襲撃で家族を失い孤児となったが、侵略者を撃退した花園守護者の一団に救出された.\n\nそして、練習用の木刀を振り回せるようになったとき、ロッジマザーは[PAWN_objective]を正式に花園守護者見習いとして迎え入れ、マウスキン王国の花畑の手入れと保護にあたらせることを決めた.</Mousekin_Childhood_GuardenerApprenticeOrphan.description>
+	
+	<!-- EN: Nomad child -->
+	<Mousekin_Childhood_NomadChild.title>遊牧民の子</Mousekin_Childhood_NomadChild.title>
+	
+	<!-- EN: Nomad kid -->
+	<Mousekin_Childhood_NomadChild.titleShort>遊牧民の子</Mousekin_Childhood_NomadChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up in a Rodemani caravan, and helped [PAWN_possessive] clan cook, wash clothes and look after the giant cavies that pulled their carts.\n\nBecause these caravans seldom stayed in one place for long, and caravan members often went their separate ways due to disagreements, [PAWN_pronoun] never developed any lasting friendships. -->
+	<Mousekin_Childhood_NomadChild.description>[PAWN_nameDef]はロデマニのキャラバンで育ち、一族の料理や洗濯、荷車を引くジャイアントキャビーの世話を手伝った.\n\nキャラバンは一箇所に長く留まることが少なく、キャラバンのメンバーは意見の相違から別々の道を歩むことが多かったため、[PAWN_pronoun]は長続きする友情を育むことはなかった.</Mousekin_Childhood_NomadChild.description>
+	
+	<!-- EN: Hallboy -->
+	<Mousekin_Childhood_Hallboy.title>ホールボーイ</Mousekin_Childhood_Hallboy.title>
+	
+	<!-- EN: Hallboy -->
+	<Mousekin_Childhood_Hallboy.titleShort>ホールボーイ</Mousekin_Childhood_Hallboy.titleShort>
+	
+	<!-- EN: When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents sent [PAWN_objective] to work as a servant in the household of a wealthy Mousekin landowner.\n\n[PAWN_pronoun] duties included polishing the shoes of both [PAWN_possessive] master's family and all the older servants, waiting the tables for the master's mouselings, and emptying the chamber pots. In the evenings, [PAWN_possessive] master's butler would give him lessons in social etiquette, in preparation for becoming a footman, valet or butler. -->
+	<Mousekin_Childhood_Hallboy.description>[PAWN_nameDef]の農民の家族が彼とその多くの兄弟を養う余裕がなくなったとき、[PAWN_possessive]両親は彼を裕福なマウスキンの地主の家で使用人として働かせることにしました.\n\n[PAWN_possessive]仕事は、主人の家族と年上の使用人たちの靴を磨き、主人のマウスキン子供のためにテーブルを待ち、部屋のポットを空にすることでした.夜には、主人の執事から、フットマン、バレット、バトラーになるためのエチケットを教わることができた.</Mousekin_Childhood_Hallboy.description>
+	
+	<!-- EN: Hamlet child -->
+	<Mousekin_Childhood_HamletChild.title>ハムレットの子</Mousekin_Childhood_HamletChild.title>
+	
+	<!-- EN: Hamlet kid -->
+	<Mousekin_Childhood_HamletChild.titleShort>ハムレットの子</Mousekin_Childhood_HamletChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up in a small farming hamlet in the furthest reaches of the Mousekin Kingdom, where [PAWN_pronoun] spent much of [PAWN_possessive] early years helping out in the fields or running small errands.\n\nConsequently, [PAWN_possessive] never learned to read or write. -->
+	<Mousekin_Childhood_HamletChild.description>[PAWN_nameDef]はマウスキン王国の一番奥にある小さなハムレットで育ち、幼少期は畑仕事を手伝ったり、小さな用事をこなしたりして過ごした.\n\nそのため、読み書きを習うことはなかった.</Mousekin_Childhood_HamletChild.description>
+	
+	<!-- EN: Apprentice joiner -->
+	<Mousekin_Childhood_JoinerApprentice.title>建具見習い</Mousekin_Childhood_JoinerApprentice.title>
+	
+	<!-- EN: Apprentice joiner -->
+	<Mousekin_Childhood_JoinerApprentice.titleShort>建具見習い</Mousekin_Childhood_JoinerApprentice.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] joined a Mousekin craftsmen's guild in [PAWN_possessive] hometown, and alongside the other apprentices, would fetch water, tend the fireplace and swept the shop floor clean while their masters toiled away on various projects.\n\nIn time, [PAWN_pronoun] would help [PAWN_possessive] master on a major commission, or be entrusted with simple projects of [PAWN_possessive] own. -->
+	<Mousekin_Childhood_JoinerApprentice.description>[PAWN_nameDef]は故郷のマウスキン職人ギルドに入り、他の見習いたちとともに、師匠が様々なプロジェクトに取り組んでいる間、水を汲み、暖炉を手入れし、店の床をきれいに掃く.\n\nやがて、大きな仕事を任されたときは師匠を手伝い、簡単な仕事であれば一人でこなすようになった.</Mousekin_Childhood_JoinerApprentice.description>
+	
+	<!-- EN: Squire -->
+	<Mousekin_Childhood_KnightSquire.title>騎士従者</Mousekin_Childhood_KnightSquire.title>
+	
+	<!-- EN: Squire -->
+	<Mousekin_Childhood_KnightSquire.titleShort>騎士従者</Mousekin_Childhood_KnightSquire.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] left [PAWN_possessive] home village after becoming apprenticed to a knight of the Mousekin Kingdom.\n\n[PAWN_pronoun] spent [PAWN_possessive] days cleaning [PAWN_possessive] master's armor and weapons, as well as looking after [PAWN_possessive] master's giant cavy mount. In return, [PAWN_possessive] master trained [PAWN_objective] in basic swordsmanship and aspects of chivalry. -->
+	<Mousekin_Childhood_KnightSquire.description>[PAWN_nameDef]はマウスキン王国の騎士に弟子入りし、故郷の村を離れました.\n\n主人の鎧や武器の手入れをしたり、主人の飼っているジャイアントキャビーの世話をしたりする日々を送っていた.その代わり、主人から基本的な剣術や騎士道について教わる.</Mousekin_Childhood_KnightSquire.description>
+	
+	<!-- EN: Laboratory mouse -->
+	<Mousekin_Childhood_LabMouse.title>実験用マウス</Mousekin_Childhood_LabMouse.title>
+	
+	<!-- EN: Lab mouse -->
+	<Mousekin_Childhood_LabMouse.titleShort>実験用マウス</Mousekin_Childhood_LabMouse.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was kidnapped as a young pup by Mousekin Slavers, who then sold [PAWN_objective] to a group of human scientists.\n\nThe scientists particularly liked working with Mousekin test subjects, as their larger body mass and physiology more accurately simulated the effects of drugs and implants in humans compared with ordinary non-sapient lab mice.\n\nAfter years of cruel experimentation, [PAWN_pronoun] was unceremoniously dumped in the wilderness, leaving [PAWN_objective] to try to make [PAWN_possessive] own way back to Mousekin civilization. -->
+	<Mousekin_Childhood_LabMouse.description>[PAWN_nameDef]は幼い子の頃にマウスキンの奴隷商人に誘拐され、人間の科学者のグループに売られた.\n\n科学者たちはマウスキンの実験体を特に好んで使用した.マウスキンの体格と生理機能は、通常の非サピエント実験用マウスに比べて、人間の薬やインプラントの効果をより正確にシミュレートすることができたからである.\n\n何年も残酷な実験を受けた後、彼は無情にも荒野に捨てられ、マウスキン文明に戻るために自分自身で道を切り開くことを余儀なくされました.</Mousekin_Childhood_LabMouse.description>
+	
+	<!-- EN: Lost wild child -->
+	<Mousekin_Childhood_LostWildChild.title>荒野の迷子</Mousekin_Childhood_LostWildChild.title>
+	
+	<!-- EN: Wild child -->
+	<Mousekin_Childhood_LostWildChild.titleShort>荒野の迷子</Mousekin_Childhood_LostWildChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was accidentally left behind in the wilderness as a pup by [PAWN_possessive] mother, after a gang of human pirates ambushed their settler caravan.\n\n[PAWN_pronoun] was forced to survive on [PAWN_possessive] own, learning to forage for food, dig crude burrows and make simple tools. [PAWN_pronoun] remembers little from [PAWN_possessive] old life other than [PAWN_possessive] own name. -->
+	<Mousekin_Childhood_LostWildChild.description>[PAWN_nameDef]は、人間の海賊のギャングが入植者のキャラバンを待ち伏せした後、母親によって誤って荒野に置き去りにされた子だった.\n\n彼は自力で生き延びることを余儀なくされ、食料の調達、粗末な穴の掘り方、簡単な道具の作り方を学んだ.彼は自分の名前以外、昔のことはほとんど覚えていない.</Mousekin_Childhood_LostWildChild.description>
+	
+	<!-- EN: Maid-of-all-work -->
+	<Mousekin_Childhood_MaidOfAllWork.title>メイド</Mousekin_Childhood_MaidOfAllWork.title>
+	
+	<!-- EN: Maid -->
+	<Mousekin_Childhood_MaidOfAllWork.titleShort>メイド</Mousekin_Childhood_MaidOfAllWork.titleShort>
+	
+	<!-- EN: When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents sent [PAWN_objective] to work as a servant in the household of a middle-class Mousekin.\n\n[PAWN_pronoun] rose early every morning to cook and serve meals, fetch water, wash [PAWN_possessive] master's clothes and change the bedsheets. -->
+	<Mousekin_Childhood_MaidOfAllWork.description>[PAWN_nameDef]の農民の家は、彼女と多くの兄弟を養う余裕がなくなったので、両親は彼女を中流階級のマウスキンの家の使用人として働かせるようにしました.\n\n[PAWN_pronoun]は毎朝早起きして食事を作り、水を汲み、主人の服を洗い、ベッドシーツを取り替える.</Mousekin_Childhood_MaidOfAllWork.description>
+	
+	<!-- EN: Apprentice stonemason -->
+	<Mousekin_Childhood_MasonApprentice.title>石工見習い</Mousekin_Childhood_MasonApprentice.title>
+	
+	<!-- EN: Apprentice mason -->
+	<Mousekin_Childhood_MasonApprentice.titleShort>石工見習い</Mousekin_Childhood_MasonApprentice.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] joined a Mousekin stonemason's guild that arrived in [PAWN_possessive] hometown to build defensive fortifications there. [PAWN_pronoun] and the other apprentices would fetch water, tend the fireplace and swept the shop floor clean while their masters cut and shaped stone into blocks.\n\nAfter the fortifications were finally completed several years later, [PAWN_pronoun] bid farewell to [PAWN_possessive] family and followed the guild to their next job. -->
+	<Mousekin_Childhood_MasonApprentice.description>[PAWN_nameDef]は、故郷にやってきたマウスキンの石工ギルドに入り、故郷の防衛のための要塞を築いた.[PAWN_pronoun]と他の見習いたちは、師匠が石を切ってブロックに成形する間、水を汲み、暖炉の手入れをし、店の床をきれいに掃くのだった.\n\n数年後、ようやく要塞が完成すると、[PAWN_pronoun]は家族に別れを告げ、ギルドの次の仕事について行った.</Mousekin_Childhood_MasonApprentice.description>
+	
+	<!-- EN: Noble heir / Noble heiress -->
+	<Mousekin_Childhood_NobleHeir.title>貴族の相続人</Mousekin_Childhood_NobleHeir.title>
+	<Mousekin_Childhood_NobleHeir.titleFemale>貴族の相続人</Mousekin_Childhood_NobleHeir.titleFemale>
+	
+	<!-- EN: Heir / Heiress -->
+	<Mousekin_Childhood_NobleHeir.titleShort>相続人</Mousekin_Childhood_NobleHeir.titleShort>
+	<Mousekin_Childhood_NobleHeir.titleShortFemale>相続人</Mousekin_Childhood_NobleHeir.titleShortFemale>
+	
+	<!-- EN: [PAWN_nameDef] was the oldest of many mouselings in a Mousekin noble family, and had every need and whim attended to by [PAWN_possessive] personal retinue of servants.\n\nIn preparation for [PAWN_possessive] role as [PAWN_possessive] father's successor, [PAWN_pronoun] was extensively educated in high society etiquette, history, literature and the arts. -->
+	<Mousekin_Childhood_NobleHeir.description>[PAWN_nameDef]はマウスキンの貴族の家の多くの子供のうちの長子で、個人的な使用人の従者によってすべての必要性と気まぐれに対処されていました.\n\n父の後継者としての役割を果たすために、[PAWN_pronoun]は上流社会のエチケット、歴史、文学、芸術について幅広く教育された.</Mousekin_Childhood_NobleHeir.description>
+	
+	<!-- EN: Noble child -->
+	<Mousekin_Childhood_NobleNonHeir.title>貴族の子</Mousekin_Childhood_NobleNonHeir.title>
+	
+	<!-- EN: Noble child -->
+	<Mousekin_Childhood_NobleNonHeir.titleShort>貴族の子</Mousekin_Childhood_NobleNonHeir.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was one of many mouselings born to a Mousekin noble family, and had every need and whim attended to by [PAWN_possessive] personal retinue of servants.\n\nAs [PAWN_possessive] parents were focused on grooming [PAWN_possessive] older sibling as their successor, [PAWN_pronoun] received only material gifts instead of parental affection, which caused [PAWN_objective] to often misbehave in order to seek attention. -->
+	<Mousekin_Childhood_NobleNonHeir.description>[PAWN_nameDef]はマウスキンの貴族の家に生まれた多くの子供のうちの一人で、個人的な使用人の従者によってすべての必要性と気まぐれに対処されていました.\n\n両親は兄妹を後継者として育てることに専念していたため、[PAWN_pronoun]は親の愛情の代わりに物質的な贈り物しか受け取らず、そのため[PAWN_pronoun]はしばしば注意を引くために悪さをするようになった.</Mousekin_Childhood_NobleNonHeir.description>
+	
+	<!-- EN: Orphan -->
+	<Mousekin_Childhood_Orphan.title>孤児</Mousekin_Childhood_Orphan.title>
+	
+	<!-- EN: Orphan -->
+	<Mousekin_Childhood_Orphan.titleShort>孤児</Mousekin_Childhood_Orphan.titleShort>
+	
+	<!-- EN: After [PAWN_possessive] parents both died in a tragic workplace accident, [PAWN_nameDef] was raised in an orphanage as a Mousekin pup.\n\nDue to a misunderstanding and despite the best efforts of the orphanage workers, [PAWN_pronoun] was constantly bullied by the other mouselings, and so [PAWN_pronoun] grew to prefer the company of books, plants and the orphanage's pet Pudgemouse to other Mousekins. -->
+	<Mousekin_Childhood_Orphan.description>[PAWN_nameDef]は、両親が悲惨な労働災害で死亡した後、孤児院で育てられた.\n\n誤解から、孤児院の職員の努力にもかかわらず、他の子どもたちから常にいじめられていたため、他のマウスキンよりも本や植物、孤児院のペットであるパッジマウスの仲間を好むようになった.</Mousekin_Childhood_Orphan.description>
+	
+	<!-- EN: Young Prince / Young Princess -->
+	<Mousekin_Childhood_RoyalChild.title>若王子</Mousekin_Childhood_RoyalChild.title>
+	<Mousekin_Childhood_RoyalChild.titleFemale>若王女</Mousekin_Childhood_RoyalChild.titleFemale>
+	
+	<!-- EN: Prince / Princess -->
+	<Mousekin_Childhood_RoyalChild.titleShort>王子</Mousekin_Childhood_RoyalChild.titleShort>
+	<Mousekin_Childhood_RoyalChild.titleShortFemale>王女</Mousekin_Childhood_RoyalChild.titleShortFemale>
+	
+	<!-- EN: [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nIn preparation for [PAWN_possessive] future role in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_pronoun] was extensively educated in high society etiquette, history, literature and the arts. -->
+	<Mousekin_Childhood_RoyalChild.description>[PAWN_nameDef]は王宮で豪奢に暮らし、個人的な使用人の従者によってすべての必要性と気まぐれに対処されていました.\n\nマウスキン王国の非常に大きな王室での将来の役割に備え、[PAWN_pronoun]は上流社会のエチケット、歴史、文学、芸術について幅広く教育された.</Mousekin_Childhood_RoyalChild.description>
+	
+	<!-- EN: Apprentice seamstress -->
+	<Mousekin_Childhood_SeamstressApprentice.title>小針子</Mousekin_Childhood_SeamstressApprentice.title>
+	
+	<!-- EN: Apprentice seamstress -->
+	<Mousekin_Childhood_SeamstressApprentice.titleShort>小針子</Mousekin_Childhood_SeamstressApprentice.titleShort>
+	
+	<!-- EN: Apprenticed to a Mousekin master dressmaker at a young age, [PAWN_nameDef] spun thread, tidied rolls of fabric and swept the shop floor clean.\n\nIn time, [PAWN_pronoun] was also entrusted with sewing buttons, handkerchiefs and other small, simple items. -->
+	<Mousekin_Childhood_SeamstressApprentice.description>幼い頃からマウスキンのドレスメーカーに弟子入りした[PAWN_nameDef]は、糸を紡ぎ、布のロールを整え、店の床をきれいに掃除していました.\n\nやがて、ボタンやハンカチなどの簡単な小物の縫製も任されるようになりました.</Mousekin_Childhood_SeamstressApprentice.description>
+	
+	<!-- EN: Servant child -->
+	<Mousekin_Childhood_ServantChild.title>使用人の子</Mousekin_Childhood_ServantChild.title>
+	
+	<!-- EN: Servant child -->
+	<Mousekin_Childhood_ServantChild.titleShort>使用人の子</Mousekin_Childhood_ServantChild.titleShort>
+	
+	<!-- EN: Born to two servants working for a wealthy Mousekin landowner, [PAWN_nameDef] did [PAWN_possessive] best to help out around the estate and stay out of the way of the other servants and [PAWN_possessive] parents' master's family.\n\nHowever, the landowner treated [PAWN_objective] and the mouselings of other servants well, encouraging his own mouselings to play with them and arranging for the family governess to also tutor the servant mouselings.\n\n[PAWN_nameDef] vowed to one day repay [PAWN_possessive] master's kindness. -->
+	<Mousekin_Childhood_ServantChild.description>[PAWN_nameDef]は裕福なマウスキンの地主に仕える2人の使用人の間に生まれ、領地の周りを手伝い、他の使用人や両親の主人の家族の邪魔にならないように最善を尽くしました.\n\nしかし、地主は彼女や他の使用人の子供たちによく接し、自分の子供たちを一緒に遊ぶように勧め、家庭教師が使用人の子供たちの家庭教師にもなるように手配していた.\n\n[PAWN_nameDef]はいつか主人に恩返しをしようと心に誓った.</Mousekin_Childhood_ServantChild.description>
+	
+	<!-- EN: Shepherd boy / Shepherd girl -->
+	<Mousekin_Childhood_ShepherdChild.title>牧童</Mousekin_Childhood_ShepherdChild.title>
+	<Mousekin_Childhood_ShepherdChild.titleFemale>牧童</Mousekin_Childhood_ShepherdChild.titleFemale>
+	
+	<!-- EN: Shepherd boy / Shepherd girl -->
+	<Mousekin_Childhood_ShepherdChild.titleShort>牧童</Mousekin_Childhood_ShepherdChild.titleShort>
+	<Mousekin_Childhood_ShepherdChild.titleShortFemale>牧童</Mousekin_Childhood_ShepherdChild.titleShortFemale>
+	
+	<!-- EN: [PAWN_nameDef]'s parents owned a large pasture near a Mousekin village, where they kept, cows, pigs, sheep and giant cavies.\n\nDuring the day [PAWN_pronoun] would help [PAWN_possessive] parents round up the animals, deliver feed and water to the troughs, and care for the sick. In the evenings, [PAWN_pronoun] would be homeschooled by candlelight. -->
+	<Mousekin_Childhood_ShepherdChild.description>[PAWN_nameDef]の両親はマウスキンの村の近くに大きな牧場を持ち、そこで牛、豚、羊、ジャイアントキャビーなどを飼っていた.\n\n日中、[PAWN_pronoun]は両親の手伝いをして、動物たちを丸め、飼料や水を桶に運び、病気の世話をした.夜は、キャンドルの灯りの中で家庭教育を受ける.</Mousekin_Childhood_ShepherdChild.description>
+	
+	<!-- EN: Shop child -->
+	<Mousekin_Childhood_ShopChild.title>店主の子</Mousekin_Childhood_ShopChild.title>
+	
+	<!-- EN: Shop kid -->
+	<Mousekin_Childhood_ShopChild.titleShort>店主の子</Mousekin_Childhood_ShopChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s parents owned a small general store in a Mousekin village.\n\nEvery day after school, [PAWN_pronoun] would help stock the shelves, sweep the floors clean and run small errands, as well as help look after [PAWN_possessive] many siblings, leaving [PAWN_objective] with little free time to [PAWN_objective]self. -->
+	<Mousekin_Childhood_ShopChild.description>[PAWN_nameDef]の両親はマウスキンの村で小さな雑貨屋を営んでいました.\n\n毎日、放課後は棚卸しや床掃除、ちょっとした用事、兄弟姉妹の世話などを手伝い、自分の時間はほとんどなかった.</Mousekin_Childhood_ShopChild.description>
+	
+	<!-- EN: Slave child -->
+	<Mousekin_Childhood_SlaveChild.title>子供の奴隷</Mousekin_Childhood_SlaveChild.title>
+	
+	<!-- EN: Slave child -->
+	<Mousekin_Childhood_SlaveChild.titleShort>奴隷</Mousekin_Childhood_SlaveChild.titleShort>
+	
+	<!-- EN: When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents asked a passing Mousekin trader to help find [PAWN_objective] an apprenticeship.\n\nInstead, the trader secretly sold [PAWN_objective] to a group of Mousekin slavers, who regularly beat and abused [PAWN_objective]. This left [PAWN_objective] with a lifelong fear of authority. -->
+	<Mousekin_Childhood_SlaveChild.description>[PAWN_nameDef]とその兄弟を養う余裕がなくなったとき、両親は通りすがりのマウスキンの商人に見習い先を探してくれるよう頼んだ.\n\nしかし、その商人は密かに[PAWN_objective]をマウスキンの奴隷商人に売り、彼らは定期的に[PAWN_objective]を殴り、虐待した.そのため、[PAWN_objective]は生涯、権威に対する恐怖心を抱くようになった.</Mousekin_Childhood_SlaveChild.description>
+	
+	<!-- EN: Sole survivor -->
+	<Mousekin_Childhood_SoleSurvivor.title>ひとり生き残り</Mousekin_Childhood_SoleSurvivor.title>
+	
+	<!-- EN: Survivor -->
+	<Mousekin_Childhood_SoleSurvivor.titleShort>生残者</Mousekin_Childhood_SoleSurvivor.titleShort>
+	
+	<!-- EN: When [PAWN_nameDef] was a only a young Mousekin pup, [PAWN_possessive] entire village was wiped out by stormtroopers of the Grimalkin Dominion, who torched every house with flamethrowers and burned entire families alive while they were still inside.\n\n[PAWN_possessive] parents threw [PAWN_objective] into a well to save [PAWN_possessive] life, then sacrificed themselves to lure the Grimalkins away.\n\nThis traumatic experience left [PAWN_nameDef] with a lifelong fear of violence and fire. -->
+	<Mousekin_Childhood_SoleSurvivor.description>[PAWN_nameDef]がまだ幼いマウスキンの子供だったとき、彼女の村はグリマルキン人民共和国の精鋭部隊に全滅させられ、すべての家を火炎放射器で焼き払われ、多くのマウスキンの家族が生きたまま焼かれてしまいました.\n\n両親は彼女を井戸に投げ込んで命を助け、グリマルキン兵を誘い出すために自らを犠牲にした.\n\nこのトラウマから、彼女は暴力と火に対する恐怖心を生涯持ち続けることになった.</Mousekin_Childhood_SoleSurvivor.description>
+	
+	<!-- EN: Town child -->
+	<Mousekin_Childhood_TownChild.title>町の子</Mousekin_Childhood_TownChild.title>
+	
+	<!-- EN: Town kid -->
+	<Mousekin_Childhood_TownChild.titleShort>町の子</Mousekin_Childhood_TownChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up in a bustling town in the Mousekin Kingdom, where [PAWN_pronoun] studied mathematics, history and music in one of the best schools in the province.\n\n[PAWN_possessive] parents were able to afford various domestic gadgets, so [PAWN_pronoun] had plenty of free time, which [PAWN_pronoun] spent visiting the town market and playing in the flower gardens with [PAWN_possessive] friends. -->
+	<Mousekin_Childhood_TownChild.description>[PAWN_nameDef]はマウスキン王国の賑やかな町で育ち、県内でも有数の学校で数学、歴史、音楽を学びました.\n\n両親は家庭用ガジェットの購入に余裕があったため、自由な時間が多く、町の市場を訪れたり、友人と花園で遊んだりして過ごした.</Mousekin_Childhood_TownChild.description>
+	
+	<!-- EN: Village child -->
+	<Mousekin_Childhood_VillageChild.title>村の子</Mousekin_Childhood_VillageChild.title>
+	
+	<!-- EN: Village kid -->
+	<Mousekin_Childhood_VillageChild.titleShort>村の子</Mousekin_Childhood_VillageChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up in a village in the Mousekin Kingdom, where [PAWN_pronoun] learned to read and write at the local schoolhouse during the day, and helped [PAWN_possessive] parents around the house in the afternoons. -->
+	<Mousekin_Childhood_VillageChild.description>[PAWN_nameDef]が育ったのはマウスキン王国の村.昼間は地元の学校で読み書きを学び、午後は両親の家の手伝いをした.</Mousekin_Childhood_VillageChild.description>
+	
+	<!-- EN: Abandoned soldier -->
+	<Mousekin_Adulthood_AbandonedSoldier.title>棄てられ兵</Mousekin_Adulthood_AbandonedSoldier.title>
+	
+	<!-- EN: Abandoned -->
+	<Mousekin_Adulthood_AbandonedSoldier.titleShort>棄てられ兵</Mousekin_Adulthood_AbandonedSoldier.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a Crossbowman in the Mousekin Kingdom's army.\n\nWhile their fort was being beseiged by the army of another, rival Mousekin Kingdom, [PAWN_pronoun] and [PAWN_possessive] comrades stayed behind to cover the escape of their commander, who promised to bring back reinforcements to rescue them.\n\nHowever, after months of watching [PAWN_possessive] fellow soldiers fall one after another from starvation and disease, [PAWN_pronoun] realized that their commander had long abandoned them, and along with [PAWN_possessive] few surviving comrades, turned to banditry to survive. -->
+	<Mousekin_Adulthood_AbandonedSoldier.description>[PAWN_nameDef]はマウスキン王国の軍隊で弩手として働いていた.\n\n砦が敵対するマウスキン王国の軍隊に攻め落とされたとき、[PAWN_pronoun]と仲間たちは司令官の逃亡を援護するために残り、司令官は援軍を呼び戻して彼らを救出すると約束した.\n\nしかし、飢えと病気で次々と死んでいく仲間たちを見て、指揮官が自分たちを見捨てたことを悟り、生き残ったわずかな仲間たちとともに、生き残るために盗賊に手を染めた.</Mousekin_Adulthood_AbandonedSoldier.description>
+	
+	<!-- EN: Alchemist -->
+	<Mousekin_Adulthood_Alchemist.title>錬金術師</Mousekin_Adulthood_Alchemist.title>
+	
+	<!-- EN: Alchemist -->
+	<Mousekin_Adulthood_Alchemist.titleShort>錬金術師</Mousekin_Adulthood_Alchemist.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] found work as an alchemist in one of the larger cities in the Mousekin Kingdom, where [PAWN_pronoun] made and sold various medicinal poultices to Mousekin doctors, priests, sisters and Guardeners.\n\nWhen the Kingdom began experimenting with gunpowder weapons, [PAWN_pronoun] was also contracted by the Kingdom's Army to develop increasingly powerful gunpowder recipes. -->
+	<Mousekin_Adulthood_Alchemist.description>[PAWN_nameDef]はマウスキン王国の大きな都市のひとつで錬金術師として仕事を見つけ、マウスキンの医者、司祭、修道女、花園守護者に様々な薬用湿布薬を作って売っていました.\n\n王国が火薬兵器の実験を始めたとき、[PAWN_pronoun]はまた王国軍と契約し、ますます強力な火薬のレシピを開発することになった.</Mousekin_Adulthood_Alchemist.description>
+	
+	<!-- EN: Ambassador -->
+	<Mousekin_Adulthood_Ambassador.title>大使</Mousekin_Adulthood_Ambassador.title>
+	
+	<!-- EN: Ambassador -->
+	<Mousekin_Adulthood_Ambassador.titleShort>大使</Mousekin_Adulthood_Ambassador.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was appointed as an ambassador for the Mousekin Kingdom for [PAWN_possessive] persuasive abilities, which [PAWN_pronoun] put to good use in swaying and influencing representatives of other non-Mousekin factions - a particularly difficult feat, as Mousekins are generally not taken seriously by other races due to their short stature, squeaky voices and obstensibly cute appearance.\n\nHowever, like any other Mousekin, [PAWN_pronoun] is easily offended by the stereotype of mice eating cheese, and has on several occassions flown into a rage after being served with only cheese for food at diplomatic dinners held by ignorant non-Mousekins. -->
+	<Mousekin_Adulthood_Ambassador.description>[PAWN_nameDef]がマウスキン王国の大使に任命されたのは、その説得力のある能力が評価されたからで、マウスキン以外の派閥の代表者を動かし、影響を与えた.特に、マウスキンは背が低く、声が小さく、表向きはかわいいので、他の種族から尊敬されていないため、これは難しい仕事だった.\n\nしかし、他のマウスキンと同様に、ネズミがチーズを食べるというステレオタイプに簡単に腹を立て、無知な非マウスキンが開いた外交的な夕食会でチーズしか食べられなかったために、何度か激怒したことがある.</Mousekin_Adulthood_Ambassador.description>
+	
+	<!-- EN: Blacksmith -->
+	<Mousekin_Adulthood_Blacksmith.title>鍛冶屋</Mousekin_Adulthood_Blacksmith.title>
+	
+	<!-- EN: Blacksmith -->
+	<Mousekin_Adulthood_Blacksmith.titleShort>鍛冶屋</Mousekin_Adulthood_Blacksmith.titleShort>
+	
+	<!-- EN: After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] established [PAWN_possessive] own smithy in a newly-founded hamlet, where like [PAWN_possessive] master before [PAWN_objective], [PAWN_pronoun] forged rakes, hoes and ploughs.\n\nOccassionally, a passing Guardener or Knight would stop by to have their swords reforged. -->
+	<Mousekin_Adulthood_Blacksmith.description>見習い期間を終えた[PAWN_nameDef]は、新しくできた村に自分の鍛冶場を設け、師匠と同じように熊手や鍬、鋤を鍛えた.\n\n時には、通りすがりの花園守護者や騎士が剣の鍛え直しに立ち寄ることもあった.</Mousekin_Adulthood_Blacksmith.description>
+	
+	<!-- EN: Butcher -->
+	<Mousekin_Adulthood_Butcher.title>肉屋</Mousekin_Adulthood_Butcher.title>
+	
+	<!-- EN: Butcher -->
+	<Mousekin_Adulthood_Butcher.titleShort>肉屋</Mousekin_Adulthood_Butcher.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] owned a butcher's shop in a Mousekin village, and was particularly skilled at carving the best cuts of meat from various animals.\n\n[PAWN_pronoun] also made the best spiced pork sausages for kilometers around. -->
+	<Mousekin_Adulthood_Butcher.description>[PAWN_nameDef]ソフィーさんはマウスキンの村で肉屋を営んでおり、さまざまな動物の肉を切り分けるのが得意だった.\n\n[PAWN_pronoun]はまた、何キロも離れた場所で知られている最高のスパイス豚肉ソーセージを作っていた.</Mousekin_Adulthood_Butcher.description>
+	
+	<!-- EN: Butler -->
+	<Mousekin_Adulthood_Butler.title>バトラー</Mousekin_Adulthood_Butler.title>
+	
+	<!-- EN: Butler -->
+	<Mousekin_Adulthood_Butler.titleShort>バトラー</Mousekin_Adulthood_Butler.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as the butler of a very wealthy Mousekin landowner, and supervised dozens of valets, maids and other servants in catering to their master's needs.\n\n[PAWN_pronoun] was also very good at entertaining [PAWN_possessive] master's guests and mixing drinks for them. -->
+	<Mousekin_Adulthood_Butler.description>[PAWN_nameDef]はマウスキンの大富豪の執事として仕え、何十人もの付き人やメイド、その他の使用人を監督して、主人の要望に応えていました.\n\n[PAWN_pronoun]はまた、主人のゲストをもてなし、飲み物を調合するのが得意だった.</Mousekin_Adulthood_Butler.description>
+	
+	<!-- EN: Caravan merchant -->
+	<Mousekin_Adulthood_CaravanMerchant.title>キャラバンの商人</Mousekin_Adulthood_CaravanMerchant.title>
+	
+	<!-- EN: Merchant -->
+	<Mousekin_Adulthood_CaravanMerchant.titleShort>商人</Mousekin_Adulthood_CaravanMerchant.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] travelled throughout the Mousekin Kingdom and the outer territories, offering various goods for sale. [PAWN_pronoun] quickly became very good at foraging for food and medicinal herbs, as well as caring for sick pack animals. -->
+	<Mousekin_Adulthood_CaravanMerchant.description>[PAWN_nameDef]はマウスキン王国と外側の領土を旅して、様々な商品を売りました.[PAWN_pronoun]はすぐに食料や薬草を探し出すのが得意になり、病気の動物の世話もするようになった.</Mousekin_Adulthood_CaravanMerchant.description>
+	
+	<!-- EN: Giant cavy breeder -->
+	<Mousekin_Adulthood_CavyBreeder.title>ジャイアントキャビー飼育者</Mousekin_Adulthood_CavyBreeder.title>
+	
+	<!-- EN: Breeder -->
+	<Mousekin_Adulthood_CavyBreeder.titleShort>飼育者</Mousekin_Adulthood_CavyBreeder.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] owned a large pasture just outside a Mousekin village, where [PAWN_pronoun] specialized in breeding giant cavies - giant guinea pigs used by Mousekins as pack animals and riding mounts.\n\n[PAWN_pronoun] developed a keen eye and reputation for matching a cavy to a prospective owner. -->
+	<Mousekin_Adulthood_CavyBreeder.description>[PAWN_nameDef]はマウスキンの村の郊外に大きな牧場を持ち、マウスキンがキャラバンや乗馬に使う巨大なモルモットであるジャイアントキャビーを専門に飼育していた.\n\n[PAWN_pronoun]は、飼い主となるべきキャビーのマッチングに鋭い目を持ち、高い評価を受けていた.</Mousekin_Adulthood_CavyBreeder.description>
+	
+	<!-- EN: Head chef -->
+	<Mousekin_Adulthood_ChefHead.title>料理長</Mousekin_Adulthood_ChefHead.title>
+	
+	<!-- EN: Chef -->
+	<Mousekin_Adulthood_ChefHead.titleShort>料理長</Mousekin_Adulthood_ChefHead.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as the head chef in the household staff of a Mousekin nobleman, and was responsible for preparing all the main courses and meat dishes in every meal.\n\n[PAWN_pronoun] also supervised dozens of specialist chefs and line cooks in preparing elaborate feasts for [PAWN_possessive] master's guests. -->
+	<Mousekin_Adulthood_ChefHead.description>[PAWN_nameDef]はマウスキンの貴族の家政婦の料理長として、毎食のメインディッシュと肉料理の調理を担当していた.\n\nまた、数十人の専門シェフやラインコックを監督し、主人のゲストのために手の込んだごちそうを用意することもありました.</Mousekin_Adulthood_ChefHead.description>
+	
+	<!-- EN: Pastry chef -->
+	<Mousekin_Adulthood_ChefPastry.title>パティシエ</Mousekin_Adulthood_ChefPastry.title>
+	
+	<!-- EN: Chef -->
+	<Mousekin_Adulthood_ChefPastry.titleShort>パティシエ</Mousekin_Adulthood_ChefPastry.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s specialty was in making cakes and desserts, and was sought after by many wealthy Mousekin landowners and nobles for [PAWN_possessive] talent.\n\n[PAWN_possessive] most popular dish was Nyam nut-flavored ice cream sandwiched between puff pastry. -->
+	<Mousekin_Adulthood_ChefPastry.description>[PAWN_nameDef]はケーキやデザートを作るのが得意で、マウスキンの裕福な地主や貴族たちからその才能を求められていました.\n\n[PAWN_possessive]一番人気は、ニャムナッツ風味のアイスクリームをシュークリームで挟んだものでした.</Mousekin_Adulthood_ChefPastry.description>
+	
+	<!-- EN: Sous chef -->
+	<Mousekin_Adulthood_ChefSous.title>副料理長</Mousekin_Adulthood_ChefSous.title>
+	
+	<!-- EN: Chef -->
+	<Mousekin_Adulthood_ChefSous.titleShort>副料理長</Mousekin_Adulthood_ChefSous.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served in the household staff of a Mousekin nobleman, and was responsible for preparing appetizers, soup and vegetable dishes.\n\n[PAWN_possessive] also acted as the second-in-command of the kitchen staff under the head chef. -->
+	<Mousekin_Adulthood_ChefSous.description>[PAWN_nameDef]マークはマウスキンの貴族の家庭のキッチンスタッフとして、前菜、スープ、野菜料理などの調理を担当しました.\n\nまた、料理長のもとで厨房スタッフの副官として活躍しました.</Mousekin_Adulthood_ChefSous.description>
+	
+	<!-- EN: Cobbler -->
+	<Mousekin_Adulthood_Cobbler.title>靴屋</Mousekin_Adulthood_Cobbler.title>
+	
+	<!-- EN: Cobbler -->
+	<Mousekin_Adulthood_Cobbler.titleShort>靴屋</Mousekin_Adulthood_Cobbler.titleShort>
+	
+	<!-- EN: After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] moved into one of the larger cities in the Mousekin Kingdom, where [PAWN_pronoun] set up [PAWN_possessive] own workshop and repaired shoes for customers.\n\nIn time, [PAWN_pronoun] became experienced enough to start making [PAWN_possessive] own shoes from scratch, which [PAWN_pronoun] often sold for a tidy profit. -->
+	<Mousekin_Adulthood_Cobbler.description>見習い期間を終えた[PAWN_nameDef]は、マウスキン王国の大きな都市のひとつに移り住み、自分の工房を構えて顧客のために靴を修理していました.\n\nやがて、自分の靴を一から作ることができるようになり、それを売れば儲かるようになった.</Mousekin_Adulthood_Cobbler.description>
+	
+	<!-- EN: Line cook -->
+	<Mousekin_Adulthood_Cook.title>厨房員</Mousekin_Adulthood_Cook.title>
+	
+	<!-- EN: Cook -->
+	<Mousekin_Adulthood_Cook.titleShort>厨房員</Mousekin_Adulthood_Cook.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] worked as a line cook in the household staff of a Mousekin nobleman, performing mundane tasks such as peeling potatoes, boiling vegetables and cracking nuts.\n\n[PAWN_pronoun] dreams of starting [PAWN_possessive] own inn someday, where [PAWN_pronoun] could cook whatever [PAWN_pronoun] wanted instead of whatever the head chef ordered [PAWN_objective] to do. -->
+	<Mousekin_Adulthood_Cook.description>[PAWN_nameDef]はマウスキン貴族の家庭用キッチンスタッフで厨房員として働き、ジャガイモの皮むき、野菜の茹で、ナッツのクラッキングなどの平凡な仕事をこなしている.\n\nいつか自分の宿を持ち、料理長の命令ではなく、自分の好きな料理を作るのが夢である.</Mousekin_Adulthood_Cook.description>
+	
+	<!-- EN: Cooper -->
+	<Mousekin_Adulthood_Cooper.title>桶屋</Mousekin_Adulthood_Cooper.title>
+	
+	<!-- EN: Cooper -->
+	<Mousekin_Adulthood_Cooper.titleShort>桶屋</Mousekin_Adulthood_Cooper.titleShort>
+	
+	<!-- EN: After completing [PAWN_possessive] apprenticeship, [PAWN_nameDef] established [PAWN_possessive] own cooperage in [PAWN_possessive] home village, where [PAWN_pronoun] made barrels, casks, buckets and troughs for other Mousekins to store liquid and dry bulk goods.\n\n[PAWN_pronoun] also dabbled in beer brewing in [PAWN_possessive] spare time. -->
+	<Mousekin_Adulthood_Cooper.description>見習い期間を終えた[PAWN_nameDef]は、故郷の村に自分の樽製造工場を設立し、他のマウスキンのために液体や乾燥したバルク品を保管するための大樽、小樽、バケツ、トラフを製造した.\n\nまた、余暇にはビール醸造にも手を出していた.</Mousekin_Adulthood_Cooper.description>
+	
+	<!-- EN: Cowardly Deserter -->
+	<Mousekin_Adulthood_DeserterCoward.title>臆病な脱走兵</Mousekin_Adulthood_DeserterCoward.title>
+	
+	<!-- EN: Deserter -->
+	<Mousekin_Adulthood_DeserterCoward.titleShort>脱走兵</Mousekin_Adulthood_DeserterCoward.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a pikeman in the Mousekin Kingdom's army.\n\nDuring a battle with another, rival Mousekin Kingdom, [PAWN_pronoun] was overcome with fear of the charging enemy and fled, causing the defensive formation [PAWN_pronoun] was in to collapse and rout. Knowing that [PAWN_pronoun] would be executed for cowardice, [PAWN_pronoun] decided to take [PAWN_possessive] chances and flee into the wilderness. -->
+	<Mousekin_Adulthood_DeserterCoward.description>[PAWN_nameDef]はマウスキン王国の軍隊でパイク兵として活躍した.\n\n敵国であるマウスキン王国との戦いの最中、突進してくる敵に恐怖を感じて逃げ出したため、[PAWN_possessive]いた防御陣形は崩壊し、敗走することになった.臆病者として処刑されることが分かっていた[PAWN_pronoun]は、チャンスだと思い、荒野に逃げ込むことにした.</Mousekin_Adulthood_DeserterCoward.description>
+	
+	<!-- EN: Greedy Deserter -->
+	<Mousekin_Adulthood_DeserterGreedy.title>貪欲な脱走兵</Mousekin_Adulthood_DeserterGreedy.title>
+	
+	<!-- EN: Deserter -->
+	<Mousekin_Adulthood_DeserterGreedy.titleShort>脱走兵</Mousekin_Adulthood_DeserterGreedy.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a Mousekeeter in the Mousekin Kingdom's army.\n\nAfter successfully defeating the army of another, rival Mousekin Kingdom in battle, [PAWN_pronoun] and [PAWN_possessive] comrades were denied their fair share of the spoils of war by their incompetent commander.\n\nFed up with the low pay and mistreatment, they promptly deserted and became brigands instead. -->
+	<Mousekin_Adulthood_DeserterGreedy.description>[PAWN_nameDef]はマウスキン王国の軍隊で銃士として働いていた.\n\n敵国のマウスキン王国軍を打ち負かした後、無能な司令官によって戦利品の分配を拒否された.\n\n低賃金と不当な扱いに嫌気がさした彼らは、すぐに脱走し、山賊となった.</Mousekin_Adulthood_DeserterGreedy.description>
+	
+	<!-- EN: Destitute farmer -->
+	<Mousekin_Adulthood_DestituteFarmer.title>貧農</Mousekin_Adulthood_DestituteFarmer.title>
+	
+	<!-- EN: Destitute -->
+	<Mousekin_Adulthood_DestituteFarmer.titleShort>貧農</Mousekin_Adulthood_DestituteFarmer.titleShort>
+	
+	<!-- EN: After a blight wiped out [PAWN_possessive] hometown's annual harvest, [PAWN_nameDef] and several others begged the Mousekin Kingdom for help, all while watching their families slowly and agnonizingly die from starvation and the brutal winter.\n\nWhen the Kingdom refused to render aid, claiming unpaid taxes, [PAWN_pronoun] had no choice but to turn to banditry to survive. -->
+	<Mousekin_Adulthood_DestituteFarmer.description>毎年収穫していた故郷が疫病で全滅した後、[PAWN_nameDef]と他の数人はマウスキン王国に助けを求め、家族が飢えと厳しい冬でゆっくりと死んでいくのを目の当たりにした.\n\nしかし、王国が税金の未納を理由に援助を拒否したため、[PAWN_pronoun]は生きるために盗賊になるしかなかった.</Mousekin_Adulthood_DestituteFarmer.description>
+	
+	<!-- EN: City Doctor -->
+	<Mousekin_Adulthood_DoctorCity.title>都市の医師</Mousekin_Adulthood_DoctorCity.title>
+	
+	<!-- EN: Doctor -->
+	<Mousekin_Adulthood_DoctorCity.titleShort>医師</Mousekin_Adulthood_DoctorCity.titleShort>
+	
+	<!-- EN: After many years of study, [PAWN_nameDef] became a doctor working in a bustling Mousekin city.\n\nMost of [PAWN_possessive] patients were nobles and other wealthy Mousekins, afflicted with heart and kidney diseases caused by their rich diets and lack of physical labor.\n\nOccassionally, [PAWN_pronoun] performed minor cosmetic operations for idle Mousekin ladies that wanted to appear more attractive to their spouses - [PAWN_pronoun] was particularly skilled in repairing damaged ears. -->
+	<Mousekin_Adulthood_DoctorCity.description>[PAWN_nameDef]は長年の研究の末、賑やかなマウスキンの都市で働く医者になった.\n\n[PAWN_possessive]患者のほとんどは貴族や裕福なマウスキンで、豊かな食生活と肉体労働の欠如が原因で心臓や腎臓の病気に悩まされていた.\n\n時には、配偶者にもっと魅力的に見せたいと願う暇なマウスキンの貴婦人たちのために、小さな美容整形手術を行うこともあった - [PAWN_pronoun]は特に傷ついた耳の修復が得意だった.</Mousekin_Adulthood_DoctorCity.description>
+	
+	<!-- EN: Village Doctor -->
+	<Mousekin_Adulthood_DoctorVillage.title>村の医師</Mousekin_Adulthood_DoctorVillage.title>
+	
+	<!-- EN: Doctor -->
+	<Mousekin_Adulthood_DoctorVillage.titleShort>医師</Mousekin_Adulthood_DoctorVillage.titleShort>
+	
+	<!-- EN: After many years of study, [PAWN_nameDef] became a doctor working in a Mousekin village.\n\n[PAWN_pronoun] typically treated villagers for cuts, scrapes, bruises and broken bones from workplace and farmland accidents, as well as cases of Ear Rot caused by Mousekins not cleaning their ears regularly.\n\n[PAWN_pronoun] also made house calls to nearby hamlets that were too small to have their own doctors, and ocassionally even treated pets and farm animals, due to the rarity of dedicated veterinarians in Mousekin society. -->
+	<Mousekin_Adulthood_DoctorVillage.description>[PAWN_nameDef]は長年の研究の末、マウスキンの村で働く医者になった.\n\n労働災害や農作業中の事故による切り傷、擦り傷、打撲、骨折、マウスキンの耳掃除不足による耳腐れの治療などを行う.\n\nまた、医者を持つには小さすぎる近隣の集落に往診に行くこともありました.マウスキンの社会では獣医師が少ないため、時にはペットや家畜の治療も行いました.</Mousekin_Adulthood_DoctorVillage.description>
+	
+	<!-- EN: Crop Farmer -->
+	<Mousekin_Adulthood_FarmerCrops.title>穀物の農家</Mousekin_Adulthood_FarmerCrops.title>
+	
+	<!-- EN: Farmer -->
+	<Mousekin_Adulthood_FarmerCrops.titleShort>農家</Mousekin_Adulthood_FarmerCrops.titleShort>
+	
+	<!-- EN: Like generations before [PAWN_objective], [PAWN_nameDef] grew wheat, corn and potatoes in the fields outside the Mousekin hamlet [PAWN_pronoun] and [PAWN_possessive] family lived in.\n\n[PAWN_possessive] biggest worries were the increasing taxes being levied by the provincial lord, and the rats nesting in the granaries. -->
+	<Mousekin_Adulthood_FarmerCrops.description>[PAWN_nameDef]は先代と同じように、家族とともに住むマウスキンのハムレットの外にある畑で小麦、トウモロコシ、ジャガイモを栽培していました.\n\n[PAWN_possessive]最大の悩みは、地方領主から課される税金が増えることと、穀物庫にねずみが巣を作ることだった.</Mousekin_Adulthood_FarmerCrops.description>
+	
+	<!-- EN: Fruit Farmer -->
+	<Mousekin_Adulthood_FarmerFruit.title>果樹農家</Mousekin_Adulthood_FarmerFruit.title>
+	
+	<!-- EN: Farmer -->
+	<Mousekin_Adulthood_FarmerFruit.titleShort>農家</Mousekin_Adulthood_FarmerFruit.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] owned an orchard near a Mousekin town, where [PAWN_pronoun] and [PAWN_possessive] family grew the crunchiest apples and juiciest oranges for kilometers around.\n\n[PAWN_pronoun] also had a reputation for making the best cinnamon apple pie in town. -->
+	<Mousekin_Adulthood_FarmerFruit.description>[PAWN_nameDef]はマウスキンの町の近くに果樹園を持ち、そこで家族と一緒に、何キロも先まで届くような歯ごたえのあるリンゴやジューシーなオレンジを育てていました.\n\nまた、町で一番おいしいシナモンアップルパイを作るという評判もあった.</Mousekin_Adulthood_FarmerFruit.description>
+	
+	<!-- EN: Nut Farmer -->
+	<Mousekin_Adulthood_FarmerNuts.title>ナッツ農家</Mousekin_Adulthood_FarmerNuts.title>
+	
+	<!-- EN: Farmer -->
+	<Mousekin_Adulthood_FarmerNuts.titleShort>農家</Mousekin_Adulthood_FarmerNuts.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] owned a field in a Mousekin village, where [PAWN_pronoun] and [PAWN_possessive] family grew bushes of delicious Chonko and Nyam nuts in neat hedgerows.\n\nWhile nut farming was grueling work, their efforts were always rewarded with the opportunity to enjoy the most freshly-ripened nuts at harvesttime. -->
+	<Mousekin_Adulthood_FarmerNuts.description>[PAWN_nameDef]はマウスキンの村に畑を持ち、家族で美味しいチョンコやニャムナッツの実を育てていた.\n\n大変な作業ではあったが、その甲斐あって、収穫時には一番おいしい完熟したナッツを食べることができた.</Mousekin_Adulthood_FarmerNuts.description>
+	
+	<!-- EN: Vegetable Farmer -->
+	<Mousekin_Adulthood_FarmerVegetables.title>野菜農家</Mousekin_Adulthood_FarmerVegetables.title>
+	
+	<!-- EN: Farmer -->
+	<Mousekin_Adulthood_FarmerVegetables.titleShort>農家</Mousekin_Adulthood_FarmerVegetables.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s family had a small plot just outside their farmhouse, where they grew cabbages, tomatoes, peas, onions and carrots.\n\nOn weekends, [PAWN_pronoun] would drive a giant cavy-drawn cart full of vegetables to sell at the local Mousekin town market. -->
+	<Mousekin_Adulthood_FarmerVegetables.description>[PAWN_nameDef]一家は農家のすぐ近くに小さな畑を持ち、キャベツ、トマト、エンドウ豆、タマネギ、ニンジンなどを育てていた.\n\n週末になると、彼はジャイアントキャビーが引く荷車に野菜を満載して、地元マウスキンの町のマーケットに売りに行ったものです.</Mousekin_Adulthood_FarmerVegetables.description>
+	
+	<!-- EN: Farmhand -->
+	<Mousekin_Adulthood_Farmhand.title>農場労働者</Mousekin_Adulthood_Farmhand.title>
+	
+	<!-- EN: Farmhand -->
+	<Mousekin_Adulthood_Farmhand.titleShort>労働者</Mousekin_Adulthood_Farmhand.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] worked as a laborer on various farms in the countryside, ploughing the fields, mending fences and caring for farm animals, as well as sowing and harvesting crops.\n\nWhenever work dried up, [PAWN_pronoun] would move on to a different Mousekin village. -->
+	<Mousekin_Adulthood_Farmhand.description>[PAWN_nameDef]は、田舎のさまざまな農場で労働者として働いていました、 畑を耕し、柵を直し、家畜の世話をし、作物の種まきや収穫をする.\n\n仕事がなくなると、また別のマウスキンの村に移っていった.</Mousekin_Adulthood_Farmhand.description>
+	
+	<!-- EN: Fishmonger -->
+	<Mousekin_Adulthood_Fishmonger.title>魚屋</Mousekin_Adulthood_Fishmonger.title>
+	
+	<!-- EN: Fishmonger -->
+	<Mousekin_Adulthood_Fishmonger.titleShort>魚屋</Mousekin_Adulthood_Fishmonger.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] owned a fishmonger's stall in the market of a Mousekin village, offering the freshest fish and seafood at very affordable prices.\n\n[PAWN_pronoun] took great care to never reveal the secret of [PAWN_possessive] success: a trade network of Otters who helped [PAWN_objective] source high-quality seafood in exchange for shiny pebbles. -->
+	<Mousekin_Adulthood_Fishmonger.description>[PAWN_nameDef]はマウスキンの村の市場で魚屋を営んでおり、新鮮な魚介類を非常に手頃な価格で提供していました.\n\nその秘密は、ラッコの仲間たちが、光る小石と引き換えに、高品質の魚介類を提供してくれるという取引ネットワークだった.</Mousekin_Adulthood_Fishmonger.description>
+	
+	<!-- EN: Footman -->
+	<Mousekin_Adulthood_Footman.title>フットマン</Mousekin_Adulthood_Footman.title>
+	
+	<!-- EN: Footman -->
+	<Mousekin_Adulthood_Footman.titleShort>フットマン</Mousekin_Adulthood_Footman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a footman in the household of a wealthy Mousekin landowner, where [PAWN_pronoun] served meals, opened and closed doors, carried or moved heavy things.\n\n[PAWN_pronoun] dreams of starting [PAWN_possessive] own business one day, and becoming rich enough to afford a mansion of [PAWN_possessive] own filled with servants. -->
+	<Mousekin_Adulthood_Footman.description>マークはマウスキンの裕福な地主の家でフットマンとして働き、食事を出したり、ドアを開けたり閉めたり、重いものを運んだり移動したりした.\n\nいつか自分のじぎょうを立ち上げ、使用人を従えた自分の屋敷を持てるほどの金持ちになるのが夢だ.</Mousekin_Adulthood_Footman.description>
+	
+	<!-- EN: Government Minister -->
+	<Mousekin_Adulthood_GovtMinister.title>大臣</Mousekin_Adulthood_GovtMinister.title>
+	
+	<!-- EN: Minister -->
+	<Mousekin_Adulthood_GovtMinister.titleShort>大臣</Mousekin_Adulthood_GovtMinister.titleShort>
+	
+	<!-- EN: Like most other ministers in the Mousekin Kingdom's government, [PAWN_nameDef] did very little actual work [PAWN_objective]self - [PAWN_pronoun] usually foisted [PAWN_possessive] duties on to [PAWN_possessive] hapless clerks and subordinates, in favor of attending elaborate parties and plotting the downfall of other, rival government officials. -->
+	<Mousekin_Adulthood_GovtMinister.description>マウスキン王国の他の多くの大臣と同様、[PAWN_nameDef]は自分ではほとんど仕事をしない.その代わり、[PAWN_pronoun]は自分の仕事をしがない事務官や部下に押し付け、手の込んだパーティーに出席したり、他のライバル国の政府高官の失脚を目論んだりすることを優先していた.</Mousekin_Adulthood_GovtMinister.description>
+	
+	<!-- EN: City Guardener -->
+	<Mousekin_Adulthood_GuardenerCity.title>都市の花園守護者</Mousekin_Adulthood_GuardenerCity.title>
+	
+	<!-- EN: Guardener -->
+	<Mousekin_Adulthood_GuardenerCity.titleShort>花園守護者</Mousekin_Adulthood_GuardenerCity.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was a Guardener based in a bustling Mousekin city, and lived with dozens of other Guardeners and hundreds of apprentices in a giant mansion-like lodge complex.\n\nBecause Guardener chapters in big cities had plenty of Guardeners to share the workload of tending and protecting the city's many gardens and parks, [PAWN_pronoun] was able to spend most of [PAWN_possessive] time focusing on researching and cataloguing new plant species, to be compiled into The Great Book of Flowers kept at the Grand Floral Lodge in the Mousekin Kingdom's capital city.\n\n[PAWN_pronoun] often left town for weeks at a time in search of ever-more exotic flowers and herbs. -->
+	<Mousekin_Adulthood_GuardenerCity.description>[PAWN_nameDef]はマウスキンの賑やかな都市を拠点とする花園守護者で、他の数十人の花園守護者や数百人の見習いと共に、巨大な邸宅のような宿舎で暮らしていました.\n\n大都市にある花園守護者支部には、街の多くの庭園や公園の手入れや保護の仕事を分担する花園守護者がたくさんいたため、[PAWN_pronoun]は新種の植物の研究やカタログ作成に時間を費やし、マウスキン王国の首都にあるグランド・フローラル・ロッジにある「花の大書」にまとめることができました.\n\n[PAWN_pronoun]は、よりエキゾチックな花やハーブを求めて、何週間も町を離れることもあった.</Mousekin_Adulthood_GuardenerCity.description>
+	
+	<!-- EN: Town Guardener -->
+	<Mousekin_Adulthood_GuardenerTown.title>町の花園守護者</Mousekin_Adulthood_GuardenerTown.title>
+	
+	<!-- EN: Guardener -->
+	<Mousekin_Adulthood_GuardenerTown.titleShort>花園守護者</Mousekin_Adulthood_GuardenerTown.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was a Guardener based in a large Mousekin town, and lived with several other Guardeners and dozens more apprentices in a large lodgehouse.\n\nIn addition to tending and protecting the town gardens and parks, [PAWN_pronoun] was also responsible for educating Mousekin townsfolk on the proper selection and care of decorative plants, as well as training apprentices to become the next generation of Guardeners. -->
+	<Mousekin_Adulthood_GuardenerTown.description>[PAWN_nameDef]はネズミの町の花園守護者で、数人の花園守護者や数十人の見習いと共に大きなロッジハウスで暮らしていました.\n\n町の庭や公園を管理や保護するほか、マウスキンの町の人々に観葉植物の正しい選び方や手入れの仕方を教え、次世代の花園守護者になるための見習いを育成する役割も担っていました.</Mousekin_Adulthood_GuardenerTown.description>
+	
+	<!-- EN: Village Guardener -->
+	<Mousekin_Adulthood_GuardenerVillage.title>村の花園守護者</Mousekin_Adulthood_GuardenerVillage.title>
+	
+	<!-- EN: Guardener -->
+	<Mousekin_Adulthood_GuardenerVillage.titleShort>花園守護者</Mousekin_Adulthood_GuardenerVillage.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was a Guardener based in a small Mousekin village, and lived with a few other Guardeners and their apprentices in a small cottage-like lodge.\n\nIn addition to tending and protecting the village gardens, [PAWN_pronoun] she was often called on the resolve disputes between Mousekin citizens, catch Mousekin criminals, and bless newborn female Mousekin pups.\n\n[PAWN_pronoun] also enforced the law in nearby hamlets that were too small and remote to have their own Guardener lodges. -->
+	<Mousekin_Adulthood_GuardenerVillage.description>[PAWN_nameDef]はマウスキンの小さな村に住む花園守護者で、他の数人の花園守護者やその見習いたちとともに、小さなコテージのようなロッジで暮らしていました.\n\n村の庭の手入れと保護に加え、[PAWN_pronoun]はしばしばマウスキンの市民間の紛争の解決、マウスキンの犯罪者の逮捕、生まれたばかりのマウスキンの女性の赤ちゃんの祝福を依頼された.\n\n[PAWN_pronoun]はまた、自分たちの花園守護者のロッジを持つには小さすぎて辺鄙な近隣の村々で法律を執行した.</Mousekin_Adulthood_GuardenerVillage.description>
+	
+	<!-- EN: Housekeeper -->
+	<Mousekin_Adulthood_Housekeeper.title>家政婦</Mousekin_Adulthood_Housekeeper.title>
+	
+	<!-- EN: Housekeeper -->
+	<Mousekin_Adulthood_Housekeeper.titleShort>家政婦</Mousekin_Adulthood_Housekeeper.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as the housekeeper for a very wealthy Mousekin landowner, and was responsible for supervising all the other female servants in the household, as well as managing the food stores, china closet and linen cupboard.\n\n[PAWN_pronoun] was well-regarded for [PAWN_possessive] ability to cut down on household expenses while still exceeding the expectations of [PAWN_possessive] master's family. -->
+	<Mousekin_Adulthood_Housekeeper.description>[PAWN_nameDef]は、非常に裕福なマウスキンの地主の家政婦として、家庭内の他のすべての女性使用人を監督し、食品庫、食器棚、リネン棚を管理する責任を負っていました.\n\n[PAWN_pronoun]は、家計の支出を削減しながらも、主人の家族の期待を上回る能力を発揮し、高く評価されました.</Mousekin_Adulthood_Housekeeper.description>
+	
+	<!-- EN: Human servant -->
+	<Mousekin_Adulthood_HumanServant.title>人間の使用人</Mousekin_Adulthood_HumanServant.title>
+	
+	<!-- EN: Servant -->
+	<Mousekin_Adulthood_HumanServant.titleShort>使用人</Mousekin_Adulthood_HumanServant.titleShort>
+	
+	<!-- EN: While most humans despite Mousekins, a few girls like [PAWN_nameDef] found work in human towns as live-in housekeepers and assistants.\n\n[PAWN_pronoun] was good at preparing meals, laundering clothes and running errands, and learned much about the outside world beyond the Mousekin Kingdom, but was often ridiculed by [PAWN_possessive] human master's visitors for being a "talking animal".\n\nDespite this harassment, [PAWN_pronoun] stayed on because [PAWN_possessive] weekly pay was far more than what [PAWN_possessive] entire family back home could ever dream of collectively earning in a month. -->
+	<Mousekin_Adulthood_HumanServant.description>ほとんどの人間がマウスキンを軽蔑する中、[PAWN_nameDef]のような少数のマウスキンの少女は、人間の町で住み込みの家政婦や助手として仕事を見つけた.\n\n[PAWN_pronoun]は食事の準備、衣類の洗濯、用事をこなすのが得意で、マウスキン王国以外の外の世界についても多くを学んだが、人間の主人の訪問者からは「話す動物」であるとしてしばしば嘲笑された.\n\nこのような嫌がらせを受けながらも、[PAWN_pronoun]が主人の下で働き続けたのは、週給が故郷の家族全員が1カ月に稼ぐ金額よりもはるかに多かったからです.</Mousekin_Adulthood_HumanServant.description>
+	
+	<!-- EN: Hunter -->
+	<Mousekin_Adulthood_Hunter.title>猟人</Mousekin_Adulthood_Hunter.title>
+	
+	<!-- EN: Hunter -->
+	<Mousekin_Adulthood_Hunter.titleShort>猟人</Mousekin_Adulthood_Hunter.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] hunted wild animals at first mainly to feed [PAWN_possessive] family, but was soon earning a healthy income by supplying game birds to butchers, cooks and chefs.\n\[PAWN_pronoun] was exceptionally skilled with [PAWN_possessive] trusty hunting crossbow, and took advantange of [PAWN_possessive] race's inherently small but nimble body and animal-like scent to ambush unsuspecting prey.\n\n[PAWN_pronoun] also often cooked up a really mean roast boar for visitors to [PAWN_possessive] hunting lodge. -->
+	<Mousekin_Adulthood_Hunter.description>[PAWN_nameDef]マークは当初、家族を養うために野生動物を狩っていたが、やがて肉屋や料理屋、シェフに鳥を提供し、健全な収入を得ていた.\n\n[PAWN_pronoun]は狩猟用のクロスボウの扱いに長けており、マウスキン族が本来持っている小さくても軽快な身体と動物のような匂いを利用して、無防備な獲物を待ち伏せしていました.\n\nまた、狩猟小屋を訪れた客に、よくイノシシのロースト料理を作っていた.</Mousekin_Adulthood_Hunter.description>
+	
+	<!-- EN: Town Councilor -->
+	<Mousekin_Adulthood_IndyTownCouncilor.title>町の評議員</Mousekin_Adulthood_IndyTownCouncilor.title>
+	
+	<!-- EN: Councilor -->
+	<Mousekin_Adulthood_IndyTownCouncilor.titleShort>評議員</Mousekin_Adulthood_IndyTownCouncilor.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served in the council of an independent Mousekin town, working tirelessly with [PAWN_possessive] colleagues to address the needs and concerns of [PAWN_possessive] constituents, secure tenous trade routes with outside factions and strengthen the town's defenses - all while resisting constant pressure by representatives of the Mousekin Kingdom to give up their “democratic separatist nonsense” and submit to the Mousekin King. -->
+	<Mousekin_Adulthood_IndyTownCouncilor.description>[PAWN_nameDef]は独立したマウスキンの町の議会で、同僚たちとともに、有権者のニーズや懸念に対応し、外部の派閥との十全な貿易ルートを確保し、町の防衛を強化するために精力的に働きました.また、マウスキン王国の代表から「民主分離主義の無意味さ」を放棄してマウスキン王に服従するよう絶えず圧力をかけられていましたが抵抗しています.</Mousekin_Adulthood_IndyTownCouncilor.description>
+	
+	<!-- EN: Town Farmer -->
+	<Mousekin_Adulthood_IndyTownFarmer.title>独立町の農家</Mousekin_Adulthood_IndyTownFarmer.title>
+	
+	<!-- EN: Farmer -->
+	<Mousekin_Adulthood_IndyTownFarmer.titleShort>農家</Mousekin_Adulthood_IndyTownFarmer.titleShort>
+	
+	<!-- EN: When a neighboring Mousekin town declared independence from the Mousekin Kingdom, most farmers in [PAWN_nameDef]'s home village fled in fear of becoming collateral damage from the Kingdom's inevitable retribution.\n\n[PAWN_nameDef], on the other hand, relished in the thought of finally growing whatever crops [PAWN_pronoun] wanted without being taxed heavily by a feudal lord, and joined the independent Mousekins instead.\n\n[PAWN_pronoun] faith in the burgeoning democracy was soon rewarded when, true to their word, the town councilors insisted on only accepting a pittance from [PAWN_possessive] annual harvest, allowing [PAWN_objective] to earn enough money to send [PAWN_possessive] mouselings to school. -->
+	<Mousekin_Adulthood_IndyTownFarmer.description>隣のマウスキンの町がマウスキン王国からの独立を宣言したとき、[PAWN_nameDef]の住む村のほとんどの農民は、王国の報復に巻き込まれることを恐れて逃げ出しました.\n\n一方、[PAWN_nameDef]は、封建領主から重税を課されることなく、好きな作物を栽培できることに喜びを感じ、独立したマウスキンの町に参加することにした.\n\n民主主義の発展に対する彼の信頼は、町議たちが約束を守り、毎年の収穫にわずかな税金を課したことで報われ、彼は子供たちを学校に通わせるだけのお金を得ることができた.</Mousekin_Adulthood_IndyTownFarmer.description>
+	
+	<!-- EN: Town Soldier -->
+	<Mousekin_Adulthood_IndyTownSoldier.title>独立町の兵士</Mousekin_Adulthood_IndyTownSoldier.title>
+	
+	<!-- EN: Soldier -->
+	<Mousekin_Adulthood_IndyTownSoldier.titleShort>兵士</Mousekin_Adulthood_IndyTownSoldier.titleShort>
+	
+	<!-- EN: Like many of [PAWN_possessive] comrades, [PAWN_nameDef] was a former soldier from the Mousekin Kingdom who defected to an independent town, in order to ensure a better future for [PAWN_possessive] family.\n\nIn addition to guarding the town walls for Mousekin brigands and kingdom troops, [PAWN_pronoun] often had to pitch in and help out on the farms. -->
+	<Mousekin_Adulthood_IndyTownSoldier.description>多くの仲間たちと同じように、[PAWN_nameDef]もマウスキン王国の元兵士で、家族のより良い未来のために、独立した町に亡命してきた.\n\nマウスキン王国の山賊や軍隊から町の壁を守るだけでなく、[PAWN_pronoun]はしばしば農場を手伝わなければならなかった.</Mousekin_Adulthood_IndyTownSoldier.description>
+	
+	<!-- EN: Innkeeper -->
+	<Mousekin_Adulthood_Innkeeper.title>宿屋の番人</Mousekin_Adulthood_Innkeeper.title>
+	
+	<!-- EN: Innkeeper -->
+	<Mousekin_Adulthood_Innkeeper.titleShort>宿屋の番人</Mousekin_Adulthood_Innkeeper.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] owned a Mousekin village inn, where [PAWN_pronoun] offered home-cooked meals of roasts, pies and sausages accompanied by country-style bread, cheese and mead.\n\nAfter several profitable years, [PAWN_pronoun] sold the inn to one of [PAWN_possessive] most trusted employees, and decided to use the windfall to fund [PAWN_possessive] next venture. -->
+	<Mousekin_Adulthood_Innkeeper.description>[PAWN_nameDef]はマウスキンの村の宿屋を経営しており、ローストやパイ、ソーセージを田舎風のパンやチーズ、ミードとともに手料理で提供していた.\n\n数年後、[PAWN_pronoun]は最も信頼できる従業員に宿屋を売却し、その資金を次の事業に使うことにしました.</Mousekin_Adulthood_Innkeeper.description>
+	
+	<!-- EN: Inn Wench -->
+	<Mousekin_Adulthood_InnWench.title>宿屋の少女</Mousekin_Adulthood_InnWench.title>
+	
+	<!-- EN: Wench -->
+	<Mousekin_Adulthood_InnWench.titleShort>宿屋の少女</Mousekin_Adulthood_InnWench.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served meals and drinks at a Mousekin village inn, and was renowned for [PAWN_possessive] good looks - as well as [PAWN_possessive] lightning-fast reflexes with a dagger, which served to discourage boorish Mousekin laborers from hitting on [PAWN_objective] too much. -->
+	<Mousekin_Adulthood_InnWench.description>[PAWN_nameDef]はマウスキンの村の宿屋で食事や飲み物を提供しており、その美貌と短剣を使った瞬発力で有名で、野暮なマウスキンの労働者たちにあまり口説かれないようにしていた.</Mousekin_Adulthood_InnWench.description>
+	
+	<!-- EN: Inquisitor -->
+	<Mousekin_Adulthood_Inquisitor.title>審問官</Mousekin_Adulthood_Inquisitor.title>
+	
+	<!-- EN: Inquisitor -->
+	<Mousekin_Adulthood_Inquisitor.titleShort>審問官</Mousekin_Adulthood_Inquisitor.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] became a priest in the Mousekin Church, and was well-regarded by [PAWN_possessive] peers for [PAWN_possessive] keen understanding of and strict adherence to religious scripture - as well as [PAWN_possessive] fiery sermons warning against heresy.\n\nRecognizing [PAWN_possessive] talents, the Mousekin Pope inducted [PAWN_objective] into the Mousekin Inquisition, an organization that seeks to protect the Mousekin Kingdom's spiritual purity and morality from splinter sects, non-believers and other heretics. -->
+	<Mousekin_Adulthood_Inquisitor.description>[PAWN_nameDef]はマウスキン教会の司祭となり、宗教的な経典に対する鋭い理解と厳格な遵守、そして異端を警告する激しい説教で、仲間から高く評価されていた.\n\n[PAWN_possessive]才能を認めたマウスキンの教皇は、[PAWN_objective]をマウスキン異端審問所に入会させた.この組織は、マウスキン王国が分裂した宗派や非信者、その他の異端者から精神の純粋さと道徳を守ることを目的としている.</Mousekin_Adulthood_Inquisitor.description>
+	
+	<!-- EN: Joiner -->
+	<Mousekin_Adulthood_Joiner.title>建具師</Mousekin_Adulthood_Joiner.title>
+	
+	<!-- EN: Joiner -->
+	<Mousekin_Adulthood_Joiner.titleShort>建具師</Mousekin_Adulthood_Joiner.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] started a joinery business in a major Mousekin city, where [PAWN_pronoun] made beds, tables, chairs, shelves and other wooden furniture for clients, as well as window and door frames for houses.\n\n[PAWN_pronoun] was particularly respected for the artistic embellishments [PAWN_pronoun] would add to [PAWN_possessive] works. -->
+	<Mousekin_Adulthood_Joiner.description>[PAWN_nameDef]はマウスキンの主要都市で建具屋を始め、顧客のためにベッドやテーブル、椅子、棚などの木製家具や、家の窓枠やドア枠を作った.\n\n[PAWN_pronoun]は特に、作品に芸術的な装飾を施すことで尊敬を集めていた.</Mousekin_Adulthood_Joiner.description>
+	
+	<!-- EN: Kitchen maid -->
+	<Mousekin_Adulthood_KitchenMaid.title>厨房のメイド</Mousekin_Adulthood_KitchenMaid.title>
+	
+	<!-- EN: Maid -->
+	<Mousekin_Adulthood_KitchenMaid.titleShort>メイド</Mousekin_Adulthood_KitchenMaid.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] worked as a kitchen maid for a wealthy Mousekin landowner, where [PAWN_pronoun] prepared vegetables and peeled potatoes for the line cooks and chefs in the household staff.\n\n[PAWN_pronoun] would save scraps of leftovers and offcuts to send back to [PAWN_possessive] relatives living nearby, while the head chef and their master knowingly looked the other way. -->
+	<Mousekin_Adulthood_KitchenMaid.description>[PAWN_nameDef]はマウスキンの裕福な地主のもとで厨房のメイドとして働き、家事担当のコックやシェフのために野菜の下ごしらえやジャガイモの皮むきを行っていた.\n\n[PAWN_pronoun]は、主人や料理長がわざと見て見ぬふりをする中、残飯や切り落としを取っておいて、近くに住む親戚に送ったりしていた.</Mousekin_Adulthood_KitchenMaid.description>
+	
+	<!-- EN: Knight -->
+	<Mousekin_Adulthood_Knight.title>騎士</Mousekin_Adulthood_Knight.title>
+	
+	<!-- EN: Knight -->
+	<Mousekin_Adulthood_Knight.titleShort>騎士</Mousekin_Adulthood_Knight.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was ordained into knighthood by a regional Knight Commander, and served as one of many bastions of defence for the Mousekin Kingdom, leading entire units of peasant milita and trained soldiers into battle.\n\nOccassionally, [PAWN_pronoun] was called on by local Guardeners to help them catch dangerous criminals, like Mousekin brigands or psychotic murderers. -->
+	<Mousekin_Adulthood_Knight.description>[PAWN_nameDef]は地域の騎士団長から騎士に叙任され、マウスキン王国の防衛の砦の1つとして、農民の民兵や訓練された兵士の部隊全体を率いて戦場に赴く役割を果たした.\n\n時には、地域の花園守護者に呼ばれ、マウスキンの山賊や精神病の殺人者などの危険な犯罪者を捕まえる手助けをすることもあった.</Mousekin_Adulthood_Knight.description>
+	
+	<!-- EN: Knight Commander -->
+	<Mousekin_Adulthood_KnightCommander.title>騎士団長
+	</Mousekin_Adulthood_KnightCommander.title>
+	
+	<!-- EN: Commander -->
+	<Mousekin_Adulthood_KnightCommander.titleShort>騎士団長</Mousekin_Adulthood_KnightCommander.titleShort>
+	
+	<!-- EN: As one of a handful of Knights Commanders chosen personally by the Mousekin King himself, [PAWN_nameDef] led groups of Knights and entire armies into battle, as well as overseeing the construction and maintenance of city defenses.\n\n[PAWN_pronoun] was often the final authority for enforcing the Mousekin Kingdom's laws in an entire province or region - even Mousekin nobles had to obey a Knight Commander's decrees like they would obey the Mousekin King himself. -->
+	<Mousekin_Adulthood_KnightCommander.description>マウスキン王が自ら選んだ一握りの騎士団長の一人として、[PAWN_nameDef]は騎士団や軍隊全体を戦いに導き、また都市の防衛の建設と維持を監督した.\n\n[PAWN_pronoun]はしばしば、州や地域全体にマウスキン王国の法律を施行する最終的な権限を持ち、マウスキンの貴族でさえ、マウスキン王自身に従うのと同じように、騎士団長の命令に従わなければなりませんでした.</Mousekin_Adulthood_KnightCommander.description>
+	
+	<!-- EN: Lord Protector -->
+	<Mousekin_Adulthood_KnightLordProtector.title>護国卿</Mousekin_Adulthood_KnightLordProtector.title>
+	
+	<!-- EN: Lord Protector -->
+	<Mousekin_Adulthood_KnightLordProtector.titleShort>護国卿</Mousekin_Adulthood_KnightLordProtector.titleShort>
+	
+	<!-- EN: After many years of faithful service as a Knight Commander in the Mousekin Kingdom, [PAWN_nameDef] was widely recognized as exemplifying the highest ideals of chivalry, and was bestowed the title of Lord Protector by the Mousekin King himself.\n\nIn this capacity, [PAWN_pronoun] oversaw the entire Kingdom's military and domestic affairs, often acting on behalf of the King when enacting new laws, negotiating diplomatic treaties or declaring wars on enemy factions, such that for all intents and purposes, [PAWN_pronoun] was the de facto leader of the Kingdom itself. -->
+	<Mousekin_Adulthood_KnightLordProtector.description>マウスキン王国の騎士団長として長年の忠誠を尽くした[PAWN_nameDef]は、騎士道の最高の理想を体現していると広く認められ、マウスキンの王自身から護国卿の称号を授けられた.\n\n王国の軍事と内政を統括し、王の代理として新法制定、外交交渉、敵対派閥への宣戦布告などを行い、事実上、王国の指導者としての役割を担っている.</Mousekin_Adulthood_KnightLordProtector.description>
+	
+	<!-- EN: Maidservant -->
+	<Mousekin_Adulthood_Maidservant.title>仕え女</Mousekin_Adulthood_Maidservant.title>
+	
+	<!-- EN: Maidservant -->
+	<Mousekin_Adulthood_Maidservant.titleShort>仕え女</Mousekin_Adulthood_Maidservant.titleShort>
+	
+	<!-- EN: As the personal maid to a Mousekin noblewoman, [PAWN_nameDef] helped dress [PAWN_possessive] mistress, style her hair, and looked after the jewelry.\n\n[PAWN_pronoun] also helped serve as [PAWN_possessive] mistress's eyes and ears, collecting rumors and scandals that could be used as blackmail against the noble family's political opponents. -->
+	<Mousekin_Adulthood_Maidservant.description>[PAWN_nameDef]はマウスキンの貴族の専属メイドとして、女主人の着付け、髪の手入れ、宝飾品の管理をした.\n\nまた、女主人の目となり耳となり、噂やスキャンダルを収集し、貴族の政敵に対する脅迫に利用することもありました.</Mousekin_Adulthood_Maidservant.description>
+	
+	<!-- EN: Manor lord -->
+	<Mousekin_Adulthood_ManorLord.title>領主</Mousekin_Adulthood_ManorLord.title>
+	
+	<!-- EN: Lord -->
+	<Mousekin_Adulthood_ManorLord.titleShort>領主</Mousekin_Adulthood_ManorLord.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was a minor noble in charge of a large region of farmland in the Mousekin Kingdom, and lived in a luxurious mansion with [PAWN_possessive] wife and many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] particularly enjoyed hosting opulent parties for important visitors, appraising artworks purchased from foreign lands, and watching hundreds of farm laborers toil in [PAWN_possessive] fields from the comfort of [PAWN_possessive] manor. -->
+	<Mousekin_Adulthood_ManorLord.description>[PAWN_nameDef]はマウスキン王国の広大な農地を管理する小貴族で、妻と多くの子供たちと共に豪華な邸宅に住み、彼のあらゆる気まぐれに仕える何十人もの召使いに仕えていました.\n\n[PAWN_pronoun]は特に、重要な訪問者を招いて豪華なパーティーを開いたり、外国から購入した美術品を鑑定したり、快適な邸宅から畑で働く何百人もの農夫を眺めるのが好きでした.</Mousekin_Adulthood_ManorLord.description>
+	
+	<!-- EN: Stonemason -->
+	<Mousekin_Adulthood_Mason.title>石工</Mousekin_Adulthood_Mason.title>
+	
+	<!-- EN: Mason -->
+	<Mousekin_Adulthood_Mason.titleShort>石工</Mousekin_Adulthood_Mason.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] became an independent journeyman mason, and travelled throughout the Mousekin Kingdom to build castle walls, bridges and aqueducts. [PAWN_pronoun] was an expert in picking the best stones from quarries, shaping them into blocks and fitting them in place.\n\n[PAWN_pronoun] was also skilled at carving decorative architectural elements in buildings owned by Mousekin nobles and royalty. -->
+	<Mousekin_Adulthood_Mason.description>[PAWN_nameDef]は独立した職人石工となり、マウスキン王国中を旅して城壁や橋、水道橋などを建設した.[PAWN_pronoun]は、採石場から最高の石を選び、それをブロックに成形し、所定の位置にはめ込むエキスパートだった.\n\nまた、マウスキンの貴族や王族が所有する建物の装飾的な建築要素を彫ることにも長けていた.</Mousekin_Adulthood_Mason.description>
+	
+	<!-- EN: Miner -->
+	<Mousekin_Adulthood_Miner.title>坑夫</Mousekin_Adulthood_Miner.title>
+	
+	<!-- EN: Miner -->
+	<Mousekin_Adulthood_Miner.titleShort>坑夫</Mousekin_Adulthood_Miner.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] toiled in the deepest, darkest Mousekin mines, in search of coal, mineral ores and precious jewels.\n\nMining was extremely hazardous work, and [PAWN_pronoun] was no stranger to losing family and friends to mine explosions and cave-ins. -->
+	<Mousekin_Adulthood_Miner.description>[PAWN_nameDef]は、石炭や鉱石、貴重な宝石を求め、マウスキンの最も深く暗い鉱山で労働した.\n\n鉱山は非常に危険な仕事であり、[PAWN_pronoun]はしばしば家族や友人を鉱山の爆発や陥没で死なせてしまった.</Mousekin_Adulthood_Miner.description>
+	
+	<!-- EN: Noblewoman -->
+	<Mousekin_Adulthood_Noblewoman.title>貴婦人</Mousekin_Adulthood_Noblewoman.title>
+	
+	<!-- EN: Lady -->
+	<Mousekin_Adulthood_Noblewoman.titleShort>貴婦人</Mousekin_Adulthood_Noblewoman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was the wife of a Mousekin nobleman, and lived in a luxurious mansion with [PAWN_possessive] husband and their many mouselings, served by dozens of servants that catered to [PAWN_possessive] every whim.\n\n[PAWN_pronoun] spent [PAWN_possessive] days hosting tea parties for other Mousekin noblewomen, dabbled in embroidery and musical performances. -->
+	<Mousekin_Adulthood_Noblewoman.description>[PAWN_nameDef]はマウスキン貴族の妻で、夫とその子供たちと共に豪華な邸宅に住み、[PAWN_possessive]あらゆる気まぐれに仕える何十人もの召使いに仕えていました.\n\n[PAWN_pronoun]は日々、他のマウスキン貴族の女性たちのためにお茶会を開き、刺繍や演奏に没頭していた.</Mousekin_Adulthood_Noblewoman.description>
+	
+	<!-- EN: Nomad Craftsman -->
+	<Mousekin_Adulthood_NomadCraftsman.title>遊牧民の職人</Mousekin_Adulthood_NomadCraftsman.title>
+	
+	<!-- EN: Craftsman -->
+	<Mousekin_Adulthood_NomadCraftsman.titleShort>職人</Mousekin_Adulthood_NomadCraftsman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] had a knack for craftwork, and from a small workshop at the back of [PAWN_possessive] Rodemani wagon, [PAWN_pronoun] made and sold all sorts of intricate jewelry and ornaments to Mousekin townsfolk.\n[PAWN_pronoun] also tinkered in [PAWN_possessive] spare time, and was familiar with human-made curios like "lightning bottles", "flameless lamps" and "picture boxes". -->
+	<Mousekin_Adulthood_NomadCraftsman.description>[PAWN_nameDef]は工芸品作りに長けていて、ロデマニの馬車の荷台にある小さな工房で、マウスキンの町の人たちにいろいろと手の込んだ宝石や装飾品を作って売っていました.\n\nまた、暇さえあれば工作をしており、「雷の瓶」や「火のないランプ」や「絵の箱」といった人造の珍品にも詳しかった.</Mousekin_Adulthood_NomadCraftsman.description>
+
+	<!-- EN: Nomad Entertainer -->
+	<Mousekin_Adulthood_NomadEntertainer.title>遊牧民の芸人</Mousekin_Adulthood_NomadEntertainer.title>
+	
+	<!-- EN: Entertainer -->
+	<Mousekin_Adulthood_NomadEntertainer.titleShort>芸人</Mousekin_Adulthood_NomadEntertainer.titleShort>
+	
+	<!-- EN: Known among [PAWN_possessive] Rodemani clan for having "happy hindpaws", [PAWN_nameDef] earned a living singing and dancing for the entertainment of Mousekin townsfolk.\n\n[PAWN_pronoun] was particularly adept with the wood flute and tambourine, which [PAWN_pronoun] played as part of [PAWN_possessive] enthralling performances - often at the same time. -->
+	<Mousekin_Adulthood_NomadEntertainer.description>ロデマニ一族の間では「幸せな後ろ足」の持ち主として知られる[PAWN_nameDef]は、マウスキンの町の人々の娯楽のために歌や踊りで生計を立てていた.\n\n[PAWN_pronoun]は特に木管楽器とタンバリンを得意としており、それらを同時に演奏して魅惑的なパフォーマンスを披露することもあった.</Mousekin_Adulthood_NomadEntertainer.description>
+	
+	<!-- EN: Fortune Teller -->
+	<Mousekin_Adulthood_NomadFortuneTeller.title>占い師</Mousekin_Adulthood_NomadFortuneTeller.title>
+	
+	<!-- EN: Fortune Teller -->
+	<Mousekin_Adulthood_NomadFortuneTeller.titleShort>占い師</Mousekin_Adulthood_NomadFortuneTeller.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] believed [PAWN_pronoun] was blessed with the gift of prescience, and set out to help every Mousekin steer their destiny.\n\n[PAWN_pronoun] offered paw, tarot card, and flower petal readings to a wide range of clients - be it merchants seeking riches, lovesick bachelors, or nobles fearing rivals plotting against them - all for a pretty penny. -->
+	<Mousekin_Adulthood_NomadFortuneTeller.description>[PAWN_nameDef]は自分が予知能力に恵まれていると信じ、すべてのマウスキンの運命の舵取りを助けるために動き出した.\n\nお金持ちになりたい商人、恋に悩む独身男性、ライバルに謀られることを恐れる貴族など、幅広い客層に肉球占い、タロットカード占い、花びら占いを提供し、すべて高額な報酬を支払っている.</Mousekin_Adulthood_NomadFortuneTeller.description>
+	
+	<!-- EN: Magician -->
+	<Mousekin_Adulthood_NomadMagician.title>魔術師</Mousekin_Adulthood_NomadMagician.title>
+	
+	<!-- EN: Magician -->
+	<Mousekin_Adulthood_NomadMagician.titleShort>魔術師</Mousekin_Adulthood_NomadMagician.titleShort>
+	
+	<!-- EN: Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_objective] friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike. -->
+	<Mousekin_Adulthood_NomadMagician.description>子供の頃、祖父の「消える足」のトリックに魅了された[PAWN_nameDef]は、独学でそれを友達に披露し、注目されるのが大好きでした.\n\nやがて[PAWN_pronoun]は、他のマウスキンの耳の後ろからナッツや銀貨を取り出したり、空のヘッドスカーフからパッジマウスを取り出したり、不毛の土地から花を咲かせたりして、マウスキンの町の人々や貴族たちから大喝采を浴びるようになりました.</Mousekin_Adulthood_NomadMagician.description>
+	
+	<!-- EN: Wagonwife -->
+	<Mousekin_Adulthood_NomadWagonWife.title>キャラバンの妻</Mousekin_Adulthood_NomadWagonWife.title>
+	
+	<!-- EN: Wagonwife -->
+	<Mousekin_Adulthood_NomadWagonWife.titleShort>キャラバンの妻</Mousekin_Adulthood_NomadWagonWife.titleShort>
+	
+	<!-- EN: While [PAWN_possessive] husband plied his trade whenever their Rodemani clan stopped at a Mousekin town, [PAWN_nameDef] tended the wagon stove and cared for their many mouselings.\n\n[PAWN_pronoun] also made some extra money by selling ribbons and mending clothes. -->
+	<Mousekin_Adulthood_NomadWagonWife.description>ロデマニ一族がマウスキンの町に立ち寄るたびに夫が商売をしている間、[PAWN_nameDef]は荷車のストーブの手入れをし、たくさんの子供たちの世話をしていました.\n\nまた、リボンを売ったり、服を直したりして小遣い稼ぎもした.</Mousekin_Adulthood_NomadWagonWife.description>
+	
+	<!-- EN: Nun -->
+	<Mousekin_Adulthood_Nun.title>修道女</Mousekin_Adulthood_Nun.title>
+	
+	<!-- EN: Nun -->
+	<Mousekin_Adulthood_Nun.titleShort>修道女</Mousekin_Adulthood_Nun.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] conducted regular ancestral rites to help guide the souls of deceased Mousekins to The Great Garden, collected tithes at the end of church services, and kept the church grounds clean and sanctified. [PAWN_pronoun] and [PAWN_possessive] fellow nuns also cared for the sick and orphaned. -->
+	<Mousekin_Adulthood_Nun.description>[PAWN_nameDef]は亡くなったマウスキンの魂を大庭園に導くために定期的に祖先の儀式を行い、教会の礼拝が終わると什分の一を集め、教会の敷地を清潔で神聖な状態に保つ.また、[PAWN_pronoun]と仲間の修道女たちは、病人や孤児の世話もした.</Mousekin_Adulthood_Nun.description>
+	
+	<!-- EN: Priest -->
+	<Mousekin_Adulthood_Priest.title>司祭</Mousekin_Adulthood_Priest.title>
+	
+	<!-- EN: Priest -->
+	<Mousekin_Adulthood_Priest.titleShort>司祭</Mousekin_Adulthood_Priest.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] presided over a large church, preaching the words of Valerian the Wise, holding sermons and supervising dozens of nuns in conducting ancestral rites and handling religious affairs. -->
+	<Mousekin_Adulthood_Priest.description>[PAWN_nameDef]は大きな教会を主宰し、賢者バレリアンの言葉を説き、説教を行い、数十人の修道女を監督して先祖の祭祀を行い、宗教的な事柄を処理した.</Mousekin_Adulthood_Priest.description>
+	
+	<!-- EN: Prince / Princess -->
+	<Mousekin_Adulthood_Royal.title>王子</Mousekin_Adulthood_Royal.title>
+	<Mousekin_Adulthood_Royal.titleFemale>王女</Mousekin_Adulthood_Royal.titleFemale>
+	
+	<!-- EN: Prince / Princess -->
+	<Mousekin_Adulthood_Royal.titleShort>王子</Mousekin_Adulthood_Royal.titleShort>
+	<Mousekin_Adulthood_Royal.titleShortFemale>王女</Mousekin_Adulthood_Royal.titleShortFemale>
+	
+	<!-- EN: Like most adults in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nHowever, under this glamourous veneer lies the cutthroat nature of political machinations and court intrigue, as various Princes and Princesses seek favor from the Mousekin King to become his appointed successor.\n\n[PAWN_nameDef] became very good at manipulating events to ensure the downfall of [PAWN_possessive] rival siblings - and possessed the sword and marksmanship to defend [PAWN_objective]self, if neccessary. -->
+	<Mousekin_Adulthood_Royal.description>[PAWN_nameDef]は、マウスキン王国の大家族のほとんどの大人と同じように、王宮で豪華に暮らし、必要なものや気まぐれなものは、専属の使用人たちに支えられていました.\n\nしかし、その華やかさの裏には、政治的な駆け引きや宮廷の陰謀があり、さまざまな王子や王女がマウスキンの王から気に入られ、後継者になることを求めている.\n\n[PAWN_nameDef]は、ライバルの兄弟を破滅させるために出来事を操るのが得意で、必要であれば自分を守るための剣と射撃の技術も持っていました.</Mousekin_Adulthood_Royal.description>
+	
+	<!-- EN: Scullery Maid -->
+	<Mousekin_Adulthood_SculleryMaid.title>スカラリーのメイド</Mousekin_Adulthood_SculleryMaid.title>
+	
+	<!-- EN: Maid -->
+	<Mousekin_Adulthood_SculleryMaid.titleShort>メイド</Mousekin_Adulthood_SculleryMaid.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] found work as a scullery maid for a wealthy Mousekin landowner.\n\n[PAWN_pronoun] spent [PAWN_possessive] days washing dishes and cooking utensils, scrubbing the kitchen floor and benches, as well as boiling hot water for tea and washing.\n\n[PAWN_possessive] only solace was in carrying on a secret affair with a particularly handsome footman serving in the same household. -->
+	<Mousekin_Adulthood_SculleryMaid.description>[PAWN_nameDef]はマウスキンの裕福な地主のもとで、雑用係として仕事を見つけた.\n\n食器や調理器具を洗い、台所の床やベンチを磨き、お茶や洗濯のためにお湯を沸かす毎日だった.\n\nそんな[PAWN_possessive]唯一の慰めは、同じ家に仕える特にハンサムなフットマンと秘密の情事を続けることだった.</Mousekin_Adulthood_SculleryMaid.description>
+	
+	<!-- EN: Seamstress -->
+	<Mousekin_Adulthood_Seamstress.title>お針子</Mousekin_Adulthood_Seamstress.title>
+	
+	<!-- EN: Seamstress -->
+	<Mousekin_Adulthood_Seamstress.titleShort>お針子</Mousekin_Adulthood_Seamstress.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] became good at making a variety of clothes, ranging from simple workers' dresses to elaborate formal outfits. Many Mousekin nobles often travelled all the way to [PAWN_possessive] humble workshop to commission apparel for special occasions.\n\n[PAWN_possessive] own apprentice later went on to become a successful seamstress in her own right. -->
+	<Mousekin_Adulthood_Seamstress.description>[PAWN_nameDef]は、簡単な労働者用のドレスから凝ったフォーマルな服まで、さまざまな服を作るのが得意になった.マウスキンの貴族たちは、特別な日に着る服を依頼するために、わざわざ彼女の小さな工房に足を運ぶこともあった.\n\n[PAWN_possessive]見習いも、後に裁縫師として成功した.</Mousekin_Adulthood_Seamstress.description>
+	
+	<!-- EN: Shepherd / Shepherdess -->
+	<Mousekin_Adulthood_Shepherd.title>牧人</Mousekin_Adulthood_Shepherd.title>
+	<Mousekin_Adulthood_Shepherd.titleFemale>牧人</Mousekin_Adulthood_Shepherd.titleFemale>
+	
+	<!-- EN: Shepherd / Shepherdess -->
+	<Mousekin_Adulthood_Shepherd.titleShort>牧人</Mousekin_Adulthood_Shepherd.titleShort>
+	<Mousekin_Adulthood_Shepherd.titleShortFemale>牧人</Mousekin_Adulthood_Shepherd.titleShortFemale>
+	
+	<!-- EN: [PAWN_nameDef] managed large flocks of sheep on the pastures outside a Mousekin village.\n\n[PAWN_pronoun] made a good living selling wool, lamb and mutton at the village market, but envied those selling bales of the more luxurious and lucrative giant cavy wool. -->
+	<Mousekin_Adulthood_Shepherd.description>[PAWN_nameDef]はマウスキンの村の郊外の牧草地で羊の大群を管理していました.\n\n[PAWN_pronoun]は村の市場で羊毛や羊肉、マトンを売って生計を立てていたが、より豪華で有利なジャイアントキャビーの毛を俵売りする人たちを羨ましく思っていた.</Mousekin_Adulthood_Shepherd.description>
+	
+	<!-- EN: Book store owner -->
+	<Mousekin_Adulthood_ShopkeeperBooks.title>本屋の主</Mousekin_Adulthood_ShopkeeperBooks.title>
+	
+	<!-- EN: Bookseller -->
+	<Mousekin_Adulthood_ShopkeeperBooks.titleShort>本屋</Mousekin_Adulthood_ShopkeeperBooks.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] owned a bookshop in a busy Mousekin town, selling everything from cookbooks and almanacs to romance novels, and had a knack for knowing exactly what book a customer needed, no matter how vague their requests were.\n\n[PAWN_pronoun] was also skilled at appraising and rebinding old books. -->
+	<Mousekin_Adulthood_ShopkeeperBooks.description>[PAWN_nameDef]はマウスキンの賑やかな町で本屋を営み、料理本や年鑑からロマンス小説まで、あらゆるものを扱っていた.\n\nまた、古書の鑑定や装丁の変更にも長けていた.</Mousekin_Adulthood_ShopkeeperBooks.description>
+	
+	<!-- EN: Shopkeeper -->
+	<Mousekin_Adulthood_ShopkeeperGeneral.title>店主</Mousekin_Adulthood_ShopkeeperGeneral.title>
+	
+	<!-- EN: Shopkeeper -->
+	<Mousekin_Adulthood_ShopkeeperGeneral.titleShort>店主</Mousekin_Adulthood_ShopkeeperGeneral.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] owned a general store in a Mousekin village, and sold everything from cooking supplies and kitchenware to candles and bedroom linen.\n\n[PAWN_pronoun] placed great importance on good customer service, to the point that if a customer needed something [PAWN_pronoun] didn't stock, [PAWN_pronoun] would go get it from a competitor [PAWN_objective]self rather than turn the customer away. -->
+	<Mousekin_Adulthood_ShopkeeperGeneral.description>[PAWN_nameDef]はマウスキンの村で雑貨店を経営しており、調理器具やキッチン用品からキャンドルやベッドルームリネンまで、あらゆるものを販売していました.\n\n[PAWN_pronoun]は顧客サービスを重視しており、もし顧客が在庫のないものを必要とした場合、その顧客を追い返すのではなく、自ら競合他社に取りに行くほどであった.</Mousekin_Adulthood_ShopkeeperGeneral.description>
+	
+	<!-- EN: Slave laborer -->
+	<Mousekin_Adulthood_SlaveLaborer.title>奴隸労働者</Mousekin_Adulthood_SlaveLaborer.title>
+	
+	<!-- EN: Slave -->
+	<Mousekin_Adulthood_SlaveLaborer.titleShort>奴隷</Mousekin_Adulthood_SlaveLaborer.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was shuffled between different slave masters, who put [PAWN_objective] to work breaking rocks in mines or hauling lumber from forests, in return for a single, measly loaf of stale bread each day.\n\n[PAWN_pronoun] soon became used to watching [PAWN_possessive] fellow slaves collapse and die suddenly from starvation, disease or accidents - or be used as target practice by particularly cruel masters. -->
+	<Mousekin_Adulthood_SlaveLaborer.description>[PAWN_nameDef]は奴隷の主人を転々とし、鉱山で石を割ったり、森で材木を運んだりさせられ、その見返りは毎日、古びたパン一個だけだった.\n\n餓死、病死、事故死、あるいは残酷な主人の標的として使われるなど、仲間の奴隷が突然倒れて死んでいくのを見るのは、すぐに慣れた.</Mousekin_Adulthood_SlaveLaborer.description>
+	
+	<!-- EN: Slave trader -->
+	<Mousekin_Adulthood_SlaveTrader.title>奴隷商人</Mousekin_Adulthood_SlaveTrader.title>
+	
+	<!-- EN: Slaver -->
+	<Mousekin_Adulthood_SlaveTrader.titleShort>奴隷商人</Mousekin_Adulthood_SlaveTrader.titleShort>
+	
+	<!-- EN: Those that trade in others of their own kind are among the most despised in Mousekin society.\n\nHowever, as far as [PAWN_nameDef] is concerned, [PAWN_pronoun] simply provides "merchandise" for those drawn to the allure of cheap, disposable labor - be it wealthy Mousekin landowners, Mousekin nobles or unscrupulous human scientists. -->
+	<Mousekin_Adulthood_SlaveTrader.description>同族の他者を売買する者は、マウスキン社会で最も軽蔑される存在である.\n\nしかし、[PAWN_nameDef]に言わせれば、彼は安い使い捨ての労働力の魅力に引き寄せられた人たち-それが裕福なマウスキンの地主、マウスキンの貴族、あるいは不誠実な人間の科学者-に「商品」を提供しているだけなのである.</Mousekin_Adulthood_SlaveTrader.description>
+	
+	<!-- EN: Crossbowman -->
+	<Mousekin_Adulthood_SoldierCrossbow.title>弩手</Mousekin_Adulthood_SoldierCrossbow.title>
+	
+	<!-- EN: Crossbowman -->
+	<Mousekin_Adulthood_SoldierCrossbow.titleShort>弩手</Mousekin_Adulthood_SoldierCrossbow.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a crossbowman in the Mousekin Kingdom's army.\n\n[PAWN_pronoun] and [PAWN_possessive] comrades were trained to lay barrages of crossbow bolts down on advancing enemy troops, as well as ambushing enemy columns from hidden positions. -->
+	<Mousekin_Adulthood_SoldierCrossbow.description>[PAWN_nameDef]はマウスキン王国の軍隊で弩手として働いていた.\n\n[PAWN_pronoun]と[PAWN_possessive]仲間たちは、前進する敵軍にクロスボウの矢を放ち、隠れた位置から敵の隊列を待ち伏せする訓練を受けた.</Mousekin_Adulthood_SoldierCrossbow.description>
+	
+	<!-- EN: Mouseketeer -->
+	<Mousekin_Adulthood_SoldierMusket.title>銃士</Mousekin_Adulthood_SoldierMusket.title>
+	
+	<!-- EN: Mouseketeer -->
+	<Mousekin_Adulthood_SoldierMusket.titleShort>銃士</Mousekin_Adulthood_SoldierMusket.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was a member of the Mouseketeer Corps, a hand-picked group of Mousekin Kingdom soldiers armed and trained in the use of gunpowder muskets.\n\nWhile [PAWN_pronoun] and [PAWN_possessive] comrades could not fire their weapons as fast as their crossbowmen comrades, they were each individually capable of instantly killing a well-armored enemy Mousekin knight at range. -->
+	<Mousekin_Adulthood_SoldierMusket.description>[PAWN_nameDef]は火薬マスケット銃で武装し、訓練を受けたマウスキン王国の兵士からなる選りすぐりの集団、マウスケティア軍団の一員であった.\n\n[PAWN_pronoun]とその仲間は、弩手の仲間ほど速く武器を発射することはできないが、それぞれ個別に、装甲の厚い敵のマウスキン騎士を射程距離で瞬時に殺すことができる.</Mousekin_Adulthood_SoldierMusket.description>
+	
+	<!-- EN: Pikeman -->
+	<Mousekin_Adulthood_SoldierPike.title>パイク兵</Mousekin_Adulthood_SoldierPike.title>
+	
+	<!-- EN: Pikeman -->
+	<Mousekin_Adulthood_SoldierPike.titleShort>パイク兵</Mousekin_Adulthood_SoldierPike.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a pikeman in the Mousekin Kingdom's army.\n\nWell-trained and disciplined, [PAWN_pronoun] and [PAWN_possessive] comrades were responsible for preventing enemy calvary from flanking, charging and overwhelming friendly troops. -->
+	<Mousekin_Adulthood_SoldierPike.description>[PAWN_nameDef]はマウスキン王国の軍隊でパイク兵として働いていました.\n\nよく訓練され、規律正しい彼とその仲間は、敵の騎兵隊が側面から突撃し、味方部隊を圧倒するのを防ぐ役割を担っていた.</Mousekin_Adulthood_SoldierPike.description>
+	
+	<!-- EN: Toymaker -->
+	<Mousekin_Adulthood_Toymaker.title>玩具職人</Mousekin_Adulthood_Toymaker.title>
+	
+	<!-- EN: Toymaker -->
+	<Mousekin_Adulthood_Toymaker.titleShort>玩具職人</Mousekin_Adulthood_Toymaker.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] had a fondness for toys, and was particularly skilled with intricate components, and so decided to put [PAWN_possessive] talent to good use by opening a toy shop in a bustling Mousekin city.\n\n[PAWN_pronoun] made a respectable fortune selling [PAWN_possessive] most popular toy - a wooden mechanical mouse that would walk and squeak when a child pulled it along by it leash. -->
+	<Mousekin_Adulthood_Toymaker.description>[PAWN_nameDef]はおもちゃが好きで、特に複雑な部品の扱いに長けていたため、その才能を活かして、にぎやかなマウスキンの街でおもちゃ屋を開くことにしました.\n\n一番人気のあるおもちゃは、木製の機械仕掛けのネズミで、子供がリードで引っ張ると歩いて鳴くというもので、彼はそれなりの財を成した.</Mousekin_Adulthood_Toymaker.description>
+	
+	<!-- EN: Valet -->
+	<Mousekin_Adulthood_Valet.title>バレット</Mousekin_Adulthood_Valet.title>
+	
+	<!-- EN: Valet -->
+	<Mousekin_Adulthood_Valet.titleShort>バレット</Mousekin_Adulthood_Valet.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as the personal valet to a Mousekin nobleman, helping to groom and dress [PAWN_possessive] master, maintain his wardrobe and preparing his bedchamber, as well as supervising other household staff in the absence of the butler. -->
+	<Mousekin_Adulthood_Valet.description>[PAWN_nameDef]はマウスキンの貴族の付き人として、主人の身だしなみや着付け、ワードローブの管理、寝室の準備などを行い、執事不在の場合は他の家事スタッフを監督しています.</Mousekin_Adulthood_Valet.description>
+	
+	<!-- EN: Wanderer -->
+	<Mousekin_Adulthood_Wanderer.title>浮浪者</Mousekin_Adulthood_Wanderer.title>
+	
+	<!-- EN: Wanderer -->
+	<Mousekin_Adulthood_Wanderer.titleShort>浮浪者</Mousekin_Adulthood_Wanderer.titleShort>
+	
+	<!-- EN: Consumed by wanderlust, [PAWN_nameDef] drifted aimlessly throughout the lands.\n\nSometimes [PAWN_pronoun] was lucky to find a temporary odd job in return for a hot meal and a pile of clean straw to sleep on, while other times [PAWN_pronoun] resorted to foraging for wild nuts and sleeping in caves.\n\nMost townsfolk distrusted [PAWN_possessive] aloof, itinerant ways, and [PAWN_pronoun] in turn was uninterested in forming any meaningful relationships with others. -->
+	<Mousekin_Adulthood_Wanderer.description>放浪癖のあるマイクは、あてもなく各地を放浪していた.\n\n時には、温かい食事と清潔な藁の山と引き換えに、一時的な奇妙な仕事を見つける幸運もあったが、時には野生の木の実を探して洞窟で寝泊まりすることに頼った.\n\n飄々とした態度で旅する[PAWN_pronoun]に、ほとんどの町民は不信感を抱き、また[PAWN_pronoun]も他人と有意義な関係を築くことに興味を示さなかった.</Mousekin_Adulthood_Wanderer.description>
+	
+	<!-- EN: Woodcutter -->
+	<Mousekin_Adulthood_Woodcutter.title>木樵</Mousekin_Adulthood_Woodcutter.title>
+	
+	<!-- EN: Woodcutter -->
+	<Mousekin_Adulthood_Woodcutter.titleShort>木樵</Mousekin_Adulthood_Woodcutter.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] toiled day and night in the forests near [PAWN_possessive] hometown, felling, delimbing and bucking trees into logs.\n\n[PAWN_pronoun] had a keen eye for choosing the best trees depending on whether a Mousekin needed the logs for building houses or furniture. -->
+	<Mousekin_Adulthood_Woodcutter.description>[PAWN_nameDef]は故郷の近くの森で昼夜を問わず働き、木を伐採し、枝打ちして丸太にした.\n\n[PAWN_pronoun]は、マウスキンが家を建てるために丸太を必要とするか、家具を作るために丸太を必要とするかによって、最適な木を選ぶ鋭い目を持っていました.</Mousekin_Adulthood_Woodcutter.description>
+	
+</LanguageData>

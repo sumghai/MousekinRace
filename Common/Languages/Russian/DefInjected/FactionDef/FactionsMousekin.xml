@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: New Mousekin Settlers -->
+	<Mousekin_PlayerFaction_Settlers.label>Новые мышиные поселенцы</Mousekin_PlayerFaction_Settlers.label>
+
+	<!-- EN: A newly-established hamlet of Mousekin settlers. -->
+	<Mousekin_PlayerFaction_Settlers.description>Новая деревня мышиных поселенцев.</Mousekin_PlayerFaction_Settlers.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Settlers.pawnSingular>Мышкин</Mousekin_PlayerFaction_Settlers.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_PlayerFaction_Settlers.pawnsPlural>Мышкины</Mousekin_PlayerFaction_Settlers.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Settlers.leaderTitle>Лидер</Mousekin_PlayerFaction_Settlers.leaderTitle>
+
+	<!-- EN: New Mousekin Refugees -->
+	<Mousekin_PlayerFaction_Refugees.label>Новые мышиные беженцы</Mousekin_PlayerFaction_Refugees.label>
+
+	<!-- EN: A group of Mousekin who have lost their home village to Grimalkin invaders. -->
+	<Mousekin_PlayerFaction_Refugees.description>Группа мышкинов, потерявших свою родную деревню от вторжения Грималкин.</Mousekin_PlayerFaction_Refugees.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Refugees.pawnSingular>Мышкин</Mousekin_PlayerFaction_Refugees.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_PlayerFaction_Refugees.pawnsPlural>Мышкины</Mousekin_PlayerFaction_Refugees.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Refugees.leaderTitle>Лидер</Mousekin_PlayerFaction_Refugees.leaderTitle>
+
+	<!-- EN: Mousekin Kingdom -->
+	<Mousekin_FactionKingdom.label>Мышиное королевство</Mousekin_FactionKingdom.label>
+
+	<!-- EN: A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified, patriarchal and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or persistent enemies if angered. -->
+	<Mousekin_FactionKingdom.description>Монархическая цивилизация мышкинов, занимающаяся главным образом сельским хозяйством, горным делом и торговлей, с уровнем технологий от позднего средневековья до доиндустриального.\n\nТакие общества имеют высокую стратификацию, патриархат и организованы по феодальным линиям, с королевской семьей на вершине социальной пирамиды, за которой следуют аристократия и духовенство, классы рыцарей и хранителей, обычные граждане и торговцы, и наконец, крестьяне и рабочие в самом низу.\n\nХотя формально ими управляет король мышкинов, реальная исполнительная власть в надзоре за военными и внутренними делами королевства находится в руках Лорда Защитника, ветерана мышиного рыцаря-командующего, избранного за воплощение высших идеалов рыцарства среди Ордена Рыцарей.\n\nХотя они обычно настороженно относятся к чужим, поскольку часто испытывают пренебрежение со стороны большинства не-мышиных гуманоидов, они могут быть надежными, преданными друзьями, если союзниками, или настойчивыми врагами, если их разозлить.</Mousekin_FactionKingdom.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionKingdom.pawnSingular>Мышкин</Mousekin_FactionKingdom.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionKingdom.pawnsPlural>Мышкины</Mousekin_FactionKingdom.pawnsPlural>
+
+	<!-- EN: Lord Protector -->
+	<Mousekin_FactionKingdom.leaderTitle>Лорд Защитник</Mousekin_FactionKingdom.leaderTitle>
+	
+	<!-- EN: Pledge fealty to The Mousekin King -->
+	<Mousekin_FactionKingdom.modExtensions.1.joinButtonLabel>Клянемся верности королю мышкинов</Mousekin_FactionKingdom.modExtensions.1.joinButtonLabel>
+	
+	<!-- EN: vassal -->
+	<Mousekin_FactionKingdom.modExtensions.1.membershipTypeLabel>Вассал</Mousekin_FactionKingdom.modExtensions.1.membershipTypeLabel>
+
+	<!-- EN: Independent Mousekins -->
+	<Mousekin_FactionIndyTown.label>Независимые мышкины</Mousekin_FactionIndyTown.label>
+
+	<!-- EN: A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom. -->
+	<Mousekin_FactionIndyTown.description>Слабая конфедерация мышиных городов и деревень, жители которых объявили независимость от королевства мышкинов, столкнувшись с его регрессивным монархическим правлением, и практикуют грубую форму демократии.\n\nОни несколько более склонны к торговле с не-мышиными иностранцами, пытаясь компенсировать свои военные и экономические недостатки по сравнению с мышиным королевством.</Mousekin_FactionIndyTown.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionIndyTown.pawnSingular>Мышкин</Mousekin_FactionIndyTown.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionIndyTown.pawnsPlural>Мышкины</Mousekin_FactionIndyTown.pawnsPlural>
+
+	<!-- EN: Prime Councilor -->
+	<Mousekin_FactionIndyTown.leaderTitle>Первый советник</Mousekin_FactionIndyTown.leaderTitle>
+	
+	<!-- EN: Long Live the Revolution! -->
+	<Mousekin_FactionIndyTown.modExtensions.1.joinButtonLabel>Да здравствует революция!</Mousekin_FactionIndyTown.modExtensions.1.joinButtonLabel>
+	
+	<!-- EN: member -->
+	<Mousekin_FactionIndyTown.modExtensions.1.membershipTypeLabel>Член</Mousekin_FactionIndyTown.modExtensions.1.membershipTypeLabel>
+
+	<!-- EN: Mousekin Nomads -->
+	<Mousekin_FactionNomad.label>Мышиные кочевники</Mousekin_FactionNomad.label>
+
+	<!-- EN: A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in giant cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves. -->
+	<Mousekin_FactionNomad.description>Слабая группа мышиных кочевников, которые проводят всю свою жизнь, путешествуя по землям на гигантских карликовых повозках, свободно торгуя с мышкинами и не-мышкинами.\n\nОни дружелюбны к большинству чужаков и обычно не имеют организованной армии для самозащиты.</Mousekin_FactionNomad.description>
+
+	<!-- EN: Rodemani -->
+	<Mousekin_FactionNomad.fixedName>Родемани</Mousekin_FactionNomad.fixedName>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionNomad.pawnSingular>Мышкин</Mousekin_FactionNomad.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionNomad.pawnsPlural>Мышкины</Mousekin_FactionNomad.pawnsPlural>
+
+	<!-- EN: Wagon Master -->
+	<Mousekin_FactionNomad.leaderTitle>Мастер повозки</Mousekin_FactionNomad.leaderTitle>
+
+	<!-- EN: Mousekin Brigands -->
+	<Mousekin_FactionBrigand.label>Мышиные разбойники</Mousekin_FactionBrigand.label>
+
+	<!-- EN: A roving band of Mousekin raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate. -->
+	<Mousekin_FactionBrigand.description>Блуждающая банда мышиных налетчиков, которые грабят и разрушают любые поселения, с которыми сталкиваются, ради выживания или финансовой выгоды. Они обычно состоят из дезертиров, изгнанников, беглых преступников и голодающих крестьян из деревень, опустошенных голодом.\n\nПоскольку у них нет фиксированной базы, их обычно невозможно искоренить.</Mousekin_FactionBrigand.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionBrigand.pawnSingular>Мышкин</Mousekin_FactionBrigand.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionBrigand.pawnsPlural>Мышкины</Mousekin_FactionBrigand.pawnsPlural>
+
+	<!-- EN: Ringleader -->
+	<Mousekin_FactionBrigand.leaderTitle>Главарь</Mousekin_FactionBrigand.leaderTitle>
+	
+</LanguageData>

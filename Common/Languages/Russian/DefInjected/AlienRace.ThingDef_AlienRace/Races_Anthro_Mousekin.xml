@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin -->
+	<Mousekin.label>Мышкин</Mousekin.label>
+
+	<!-- EN: Species: &lt;i&gt;Mus sapiens albus&lt;/i&gt; ("Wise white mouse")\n\nA race of small and agile anthropomorphic mice, readily identified by their large round ears, short-snouted faces, black beady eyes, pink noses, slight overbite, thin scaly tails and white fur.\n\nMousekin adult males can grow up to 100 centimeters tall, while females tend to reach 90 centimeters in height. They have a smaller head-to-body ratio compared with other humanoid races, resembling oversized toddlers with short legs and noticeable hind rumps.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single pup; twins, triplets and other multiple births are rare.\n\nVariations among individual Mousekin include different head hair color and lengths independent of their white body fur, as well as moustaches and other forms of facial hair for males.\n\nWhile the vast majority of humanoid rodent-like races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is generally understood that Mousekins are among the very few species that have evolved naturally from their non-sapient mouse ancestors.\n\nBarring accidents, injury or disease, a Mousekin’s average life expectancy is 90~100 years; their head hair turns fully grey by around 60 years of age, but no Mousekin will experience baldness. -->
+	<Mousekin.description>Научное название: &lt;i&gt;Mus sapiens albus&lt;/i&gt; ("Умная белая мышь")\n\nРаса небольших и ловких антропоморфных мышей, легко узнаваемых по своим большим круглым ушам, коротким мордочкам, черным бусинчатым глазам, розовым носам, легкому перекосу челюсти, тонким чешуйчатым хвостам и белой шерсти.\n\nВзрослые самцы Мышкина могут вырасти до 100 сантиметров в высоту, в то время как самки обычно достигают 90 сантиметров. У них меньшая пропорция головы к телу по сравнению с другими гуманоидными расами, что делает их похожими на больших, пухлых малышей с короткими ногами и заметными ягодицами.\n\nСредний срок беременности схож с базовыми людьми, после чего беременная самка обычно рождает одного детеныша; близнецы, тройняшки и другие многоплодные рождения встречаются редко.\n\nВариации среди отдельных Мышкинов включают различные цвета и длины волос на голове, независимо от их белой шерсти, а также усики и другие формы волос на лице для самцов.\n\nХотя подавляющее большинство гуманоидных грызуноподобных рас в галактике является продуктом целенаправленного генетического эксперимента на базовых людях, начавшегося тысячи лет назад, считается, что Мышкины — одна из немногих рас, которые естественным образом эволюционировали от своих несознательных предков-мышей.\n\nПри отсутствии несчастных случаев, травм или заболеваний средняя продолжительность жизни Мышкина составляет 90~100 лет; волосы на голове полностью седеют к примерно 60 годам, но ни один Мышкин не страдает от облысения.</Mousekin.description>
+
+	<!-- EN: left paw -->
+	<Mousekin.tools.0.label>левая лапа</Mousekin.tools.0.label>
+
+	<!-- EN: right paw -->
+	<Mousekin.tools.1.label>правая лапа</Mousekin.tools.1.label>
+
+	<!-- EN: teeth -->
+	<Mousekin.tools.2.label>зубы</Mousekin.tools.2.label>
+	
+</LanguageData>
