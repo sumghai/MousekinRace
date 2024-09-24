@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: grind flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.label>Измельчить пшеничную муку</Mousekin_Make_FlourFromWheat.label>
+
+	<!-- EN: Grind flour from wheat grains in a mortar and pestle. The process is slow, labour-intensive and inefficient due to the small quantities involved. -->
+	<Mousekin_Make_FlourFromWheat.description>Измельчите пшеничные зерна в ступке и пестике. Процесс медленный, трудоемкий и неэффективный из-за небольших объемов.</Mousekin_Make_FlourFromWheat.description>
+
+	<!-- EN: Grinding flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.jobString>Измельчение пшеничной муки</Mousekin_Make_FlourFromWheat.jobString>
+
+	<!-- EN: make Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.label>Приготовить смесь для похода мышкинов</Mousekin_Make_TrailMix.label>
+
+	<!-- EN: Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMix.description>Приготовьте смесь для похода, обжарив орехи, высушив ягоды и приготовив попкорн. Питательная и вкусная, она слегка поднимает настроение всем мышкинам, кто её съест.</Mousekin_Make_TrailMix.description>
+
+	<!-- EN: Preparing Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.jobString>Приготовление смеси для похода мышкинов</Mousekin_Make_TrailMix.jobString>
+
+	<!-- EN: make Mousekin trail mix x3 -->
+	<Mousekin_Make_TrailMixBulk.label>Приготовить смесь для похода мышкинов x3</Mousekin_Make_TrailMixBulk.label>
+
+	<!-- EN: Make bulk trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMixBulk.description>Приготовьте большую партию смеси для похода, обжарив орехи, высушив ягоды и приготовив попкорн. Питательная и вкусная, она слегка поднимает настроение всем мышкинам, кто её съест.</Mousekin_Make_TrailMixBulk.description>
+
+	<!-- EN: Preparing bulk Mousekin trail mix -->
+	<Mousekin_Make_TrailMixBulk.jobString>Приготовление большой партии смеси для похода мышкинов</Mousekin_Make_TrailMixBulk.jobString>
+
+	<!-- EN: bake country bread -->
+	<Mousekin_Make_CountryBread.label>Испечь деревенский хлеб</Mousekin_Make_CountryBread.label>
+
+	<!-- EN: Bake a loaf of country bread from flour. -->
+	<Mousekin_Make_CountryBread.description>Испеките буханку деревенского хлеба из муки.</Mousekin_Make_CountryBread.description>
+
+	<!-- EN: Baking country bread -->
+	<Mousekin_Make_CountryBread.jobString>Выпекание деревенского хлеба</Mousekin_Make_CountryBread.jobString>
+
+	<!-- EN: bake country bread x4 -->
+	<Mousekin_Make_CountryBreadBulk.label>Испечь деревенский хлеб x4</Mousekin_Make_CountryBreadBulk.label>
+
+	<!-- EN: Bake 4 loaves of country bread from flour. -->
+	<Mousekin_Make_CountryBreadBulk.description>Испеките 4 буханки деревенского хлеба из муки.</Mousekin_Make_CountryBreadBulk.description>
+
+	<!-- EN: Baking 4 loaves of country bread -->
+	<Mousekin_Make_CountryBreadBulk.jobString>Выпекание 4 буханок деревенского хлеба</Mousekin_Make_CountryBreadBulk.jobString>
+
+	<!-- EN: cook barley porridge -->
+	<Mousekin_Make_BarleyPorridge.label>Приготовить ячменную кашу</Mousekin_Make_BarleyPorridge.label>
+
+	<!-- EN: Cook a bowl of barley porridge. -->
+	<Mousekin_Make_BarleyPorridge.description>Приготовьте тарелку ячменной каши.</Mousekin_Make_BarleyPorridge.description>
+
+	<!-- EN: Cooking barley porridge -->
+	<Mousekin_Make_BarleyPorridge.jobString>Приготовление ячменной каши</Mousekin_Make_BarleyPorridge.jobString>
+
+	<!-- EN: cook barley porridge x4 -->
+	<Mousekin_Make_BarleyPorridgeBulk.label>Приготовить ячменную кашу x4</Mousekin_Make_BarleyPorridgeBulk.label>
+
+	<!-- EN: Cook 4 bowls of barley porridge. -->
+	<Mousekin_Make_BarleyPorridgeBulk.description>Приготовьте 4 порции ячменной каши.</Mousekin_Make_BarleyPorridgeBulk.description>
+
+	<!-- EN: Cooking 4 bowls of barley porridge -->
+	<Mousekin_Make_BarleyPorridgeBulk.jobString>Приготовление 4 порций ячменной каши</Mousekin_Make_BarleyPorridgeBulk.jobString>
+
+	<!-- EN: cook eggs on toast x4 -->
+	<Mousekin_Make_EggsOnToast.label>Приготовить яйца на тосте x4</Mousekin_Make_EggsOnToast.label>
+
+	<!-- EN: Cook 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.description>Приготовьте 4 порции яиц на тосте.</Mousekin_Make_EggsOnToast.description>
+
+	<!-- EN: Cooking 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.jobString>Приготовление 4 порций яиц на тосте</Mousekin_Make_EggsOnToast.jobString>
+
+	<!-- EN: make ploughman's lunch x4 -->
+	<Mousekin_Make_PloughmansLunch.label>Приготовить ланч пловмана x4</Mousekin_Make_PloughmansLunch.label>
+
+	<!-- EN: Make 4 servings of ploughman's lunch. -->
+	<Mousekin_Make_PloughmansLunch.description>Приготовьте 4 порции ланча пловмана.</Mousekin_Make_PloughmansLunch.description>
+
+	<!-- EN: Making 4 servings of ploughman's lunch -->
+	<Mousekin_Make_PloughmansLunch.jobString>Приготовление 4 порций ланча пловмана</Mousekin_Make_PloughmansLunch.jobString>
+	
+	<!-- EN: nuts -->
+	<Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>Орехи</Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl -->
+	<Mousekin_Make_BreadBowl.label>Приготовить хлебную чашу</Mousekin_Make_BreadBowl.label>
+
+	<!-- EN: Hollow out a loaf of country bread and fill it with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowl.description>Выпустите середину буханки деревенского хлеба и наполните ее кремовым мясным и овощным супом.</Mousekin_Make_BreadBowl.description>
+
+	<!-- EN: Making bread bowl -->
+	<Mousekin_Make_BreadBowl.jobString>Приготовление хлебной чаши</Mousekin_Make_BreadBowl.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>Белки</Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl x4 -->
+	<Mousekin_Make_BreadBowlBulk.label>Приготовить хлебную чашу x4</Mousekin_Make_BreadBowlBulk.label>
+
+	<!-- EN: Hollow out 4 loaves of country bread and fill them with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowlBulk.description>Выпустите середины 4 буханок деревенского хлеба и наполните их кремовым мясным и овощным супом.</Mousekin_Make_BreadBowlBulk.description>
+
+	<!-- EN: Making 4 bread bowls -->
+	<Mousekin_Make_BreadBowlBulk.jobString>Приготовление 4 хлебных чаш</Mousekin_Make_BreadBowlBulk.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>Белки</Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>
+	
+</LanguageData>

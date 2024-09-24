@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: mousekin crossbow bolt -->
+	<Mousekin_CrossbowBolt.label>Мышкинский арбалетной болт </Mousekin_CrossbowBolt.label>
+
+	<!-- EN: {0} has been shot to death by a Mousekin crossbow bolt. -->
+	<Mousekin_CrossbowBolt.deathMessage>{0} был застрелен арбалетной стрелой мышкина.</Mousekin_CrossbowBolt.deathMessage>
+
+	<!-- EN: mousekin gunpowder explosion -->
+	<Mousekin_GunpowderExplosion.label>Мышкинский взрыв пороха </Mousekin_GunpowderExplosion.label>
+
+	<!-- EN: {0} has died in an explosion. -->
+	<Mousekin_GunpowderExplosion.deathMessage>{0} погиб в результате взрыва.</Mousekin_GunpowderExplosion.deathMessage>
+	
+</LanguageData>

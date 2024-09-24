@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: bulk goods trader -->
+	<Mousekin_TraderCaravan_Bulk.label>Торговец оптовыми товарами</Mousekin_TraderCaravan_Bulk.label>
+
+	<!-- EN: clothing merchant -->
+	<Mousekin_TraderCaravan_Apparel.label>Торговец одеждой</Mousekin_TraderCaravan_Apparel.label>
+
+	<!-- EN: livestock trader -->
+	<Mousekin_TraderCaravan_Animals.label>Торговец скотом</Mousekin_TraderCaravan_Animals.label>
+
+	<!-- EN: ironmonger -->
+	<Mousekin_TraderCaravan_MilitaryKingdom.label>Торговец металлическими изделиями</Mousekin_TraderCaravan_MilitaryKingdom.label>
+	<Mousekin_TraderCaravan_MilitaryIndyTown.label>Торговец металлическими изделиями</Mousekin_TraderCaravan_MilitaryIndyTown.label>
+	
+	<!-- EN: exotic goods trader -->
+	<Mousekin_TraderCaravan_Exotic.label>Торговец экзотическими товарами</Mousekin_TraderCaravan_Exotic.label>
+	
+</LanguageData>

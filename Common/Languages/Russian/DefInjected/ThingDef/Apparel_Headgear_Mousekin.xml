@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Straw Hat -->
+	<Mousekin_HatStraw.label>Мышкин соломенная шляпа</Mousekin_HatStraw.label>
+
+	<!-- EN: A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatStraw.description>Широкополая шляпа, сплетённая из соломы, которую носят мышкинские крестьяне и рабочие для защиты от солнца. Имеет отверстия для ушей мышкина.</Mousekin_HatStraw.description>
+
+	<!-- EN: Mousekin Headscarf -->
+	<Mousekin_HatHeadscarf.label>Мышкин платок на голову</Mousekin_HatHeadscarf.label>
+
+	<!-- EN: A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatHeadscarf.description>Кусок ткани, покрывающий верх, стороны и заднюю часть головы, который носят женщины-мышкины крестьяне и рабочие, чтобы волосы не мешали во время работы. Имеет отверстия для ушей мышкина.</Mousekin_HatHeadscarf.description>
+
+	<!-- EN: Mousekin Nun’s Veil -->
+	<Mousekin_HatNunVeil.label>Мышкин монашеский вуаль</Mousekin_HatNunVeil.label>
+
+	<!-- EN: A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatNunVeil.description>Скромный вуаль, который носят мышкинские монахини, чтобы волосы не мешали при проведении обрядов, а также при заботе о больных и сиротах. Имеет отверстия для ушей мышкина.</Mousekin_HatNunVeil.description>
+
+	<!-- EN: Mousekin Kettle Hat -->
+	<Mousekin_HelmetKettle.label>Мышкин котловой шлем</Mousekin_HelmetKettle.label>
+
+	<!-- EN: A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKettle.description>Широкополый стальной шлем, который защищает верхнюю часть головы от большинства травм, оставляя нижнюю часть головы и лицо открытыми для максимальной видимости и комфорта. Носится мышкинскими арбалетчиками, название получено из-за сходства с одним из распространённых кухонных сосудов. Имеет отверстия для ушей мышкина.</Mousekin_HelmetKettle.description>
+
+	<!-- EN: Mousekin Morion Helmet -->
+	<Mousekin_HelmetMorion.label>Мышкин морион</Mousekin_HelmetMorion.label>
+
+	<!-- EN: A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetMorion.description>Шлем из стали с плоским ободом и гребнем, который защищает верхнюю часть головы от большинства травм, оставляя нижнюю часть головы и лицо открытыми для максимальной видимости и комфорта. Носится мышкинскими пикинёрами и мушкетёрами. Имеет отверстия для ушей мышкина.</Mousekin_HelmetMorion.description>
+
+	<!-- EN: Mousekin Knight's Helmet -->
+	<Mousekin_HelmetKnight.label>Мышкин рыцарский шлем</Mousekin_HelmetKnight.label>
+
+	<!-- EN: A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnight.description>Средневековый пластинчатый шлем, который носят мышкинские рыцари, с поворотным забралом, обеспечивающим видимость, не compromising защиту. Имеет отверстия для ушей мышкина.</Mousekin_HelmetKnight.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>Открыть/закрыть забрало</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>Открывает или закрывает забрало шлема.</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>
+
+	<!-- EN: Mousekin Woodsman’s Bycocket -->
+	<Mousekin_HatWoodsman.label>Мышкин лесной головной убор</Mousekin_HatWoodsman.label>
+
+	<!-- EN: A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries. -->
+	<Mousekin_HatWoodsman.description>Тканевая шляпа с заострённым передом и широким загнутым назад ободом, часто украшенная перьями. Изначально носилась мышкинскими лесорубами, но теперь принята мышкинскими революционерами.</Mousekin_HatWoodsman.description>
+
+	<!-- EN: Mousekin Knight Commander’s Helmet -->
+	<Mousekin_HelmetKnightCommander.label>Мышкин шлем командира рыцарей</Mousekin_HelmetKnightCommander.label>
+
+	<!-- EN: A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnightCommander.description>Средневековый пластинчатый шлем, который носят мышкинские командиры рыцарей, с поворотным забралом для обеспечения видимости, не compromising защиту, и украшенный пером ярко окрашенных перьев, чтобы помочь другим мышкинским рыцарям найти своего командира во время битвы. Имеет отверстия для ушей мышкина.</Mousekin_HelmetKnightCommander.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>Открыть/закрыть забрало</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>Открывает или закрывает забрало шлема.</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>
+
+	<!-- EN: Veil Back -->
+	<Mousekin_HatNunVeilBack.label>Мышкин монашеский вуаль (обратная сторона)</Mousekin_HatNunVeilBack.label>
+
+	<!-- EN: Back of the Mousekin Nun’s Veil. -->
+	<Mousekin_HatNunVeilBack.description>Обратная сторона вуали мышкинской монахини.</Mousekin_HatNunVeilBack.description>
+	
+</LanguageData>

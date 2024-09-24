@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin fur -->
+	<Mousekin_Leather_Mousekin.label>Мех мышкина</Mousekin_Leather_Mousekin.label>
+
+	<!-- EN: The soft, furry and snowy white pelt of a Mousekin. While most humanoids regard this as just another type of fur, Mousekins find this material to be utterly horrifying. -->
+	<Mousekin_Leather_Mousekin.description>Мягкий, пушистый и снежно-белый мех мышкина. Хотя большинство гуманоидов рассматривают это как просто другой вид меха, Маускины находят этот материал абсолютно ужасным.</Mousekin_Leather_Mousekin.description>
+
+	<!-- EN: Mousekin fur -->
+	<Mousekin_Leather_Mousekin.stuffProps.stuffAdjective>Мех мышкина</Mousekin_Leather_Mousekin.stuffProps.stuffAdjective>
+
+	<!-- EN: giant cavy fur -->
+	<Mousekin_LeatherGiantCavy.label>Мех гигантского кави</Mousekin_LeatherGiantCavy.label>
+
+	<!-- EN: The soft, furry pelt of a giant cavy, more durable and luxurious than regular guinea pig fur, while retaining the unique cuteness of the oversized rodent it originated from. Good at temperature regulation in hot climates. -->
+	<Mousekin_LeatherGiantCavy.description>Мягкий, пушистый мех гигантского кави, более прочный и роскошный, чем обычный мех морской свинки, но сохраняющий уникальную милоту этого увеличенного грызуна. Хорошо регулирует температуру в жарком климате.</Mousekin_LeatherGiantCavy.description>
+
+	<!-- EN: giant cavy fur -->
+	<Mousekin_LeatherGiantCavy.stuffProps.stuffAdjective>Мех гигантского кави</Mousekin_LeatherGiantCavy.stuffProps.stuffAdjective>
+
+	<!-- EN: pudgemouse fur -->
+	<Mousekin_LeatherPudgemouse.label>Мех пуджмауса</Mousekin_LeatherPudgemouse.label>
+
+	<!-- EN: Sheets of soft, grey Pudgemouse fur. It is delicate and luxurious, but not particularly insulating. Most Mousekins consider Pudgemice to be sentient companions, and will be disturbed if they see apparel made with this material. -->
+	<Mousekin_LeatherPudgemouse.description>Листы мягкого серого меха пуджмауса. Он деликатный и роскошный, но не особенно утепляющий. Большинство Маускинов считают пуджмаусов разумными спутниками и будут смущены, если увидят одежду из этого материала.</Mousekin_LeatherPudgemouse.description>
+
+	<!-- EN: pudgemouse fur -->
+	<Mousekin_LeatherPudgemouse.stuffProps.stuffAdjective>Мех пуджмауса</Mousekin_LeatherPudgemouse.stuffProps.stuffAdjective>
+
+</LanguageData>

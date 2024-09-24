@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Make Mousekin Candle x5 -->
+	<Mousekin_Make_CandleBulkSmall.label>Создать 5 восковых свечей мышкинов</Mousekin_Make_CandleBulkSmall.label>
+
+	<!-- EN: Melt beeswax and cast a small batch of candles. -->
+	<Mousekin_Make_CandleBulkSmall.description>Растопите пчелиный воск и отлейте небольшую партию свечей.</Mousekin_Make_CandleBulkSmall.description>
+
+	<!-- EN: Making Mousekin Candles. -->
+	<Mousekin_Make_CandleBulkSmall.jobString>Создание восковых свечей мышкинов</Mousekin_Make_CandleBulkSmall.jobString>
+
+	<!-- EN: Make Mousekin Candle x25 -->
+	<Mousekin_Make_CandleBulkLarge.label>Создать 25 восковых свечей мышкинов</Mousekin_Make_CandleBulkLarge.label>
+
+	<!-- EN: Melt beeswax and cast a large batch of candles. -->
+	<Mousekin_Make_CandleBulkLarge.description>Растопите пчелиный воск и отлейте большую партию свечей.</Mousekin_Make_CandleBulkLarge.description>
+
+	<!-- EN: Making Mousekin Candles. -->
+	<Mousekin_Make_CandleBulkLarge.jobString>Создание восковых свечей мышкинов</Mousekin_Make_CandleBulkLarge.jobString>
+
+	<!-- EN: make Clockwork Mechanism -->
+	<Mousekin_Make_ClockworkComponent.label>Создать механизмы с часовым механизмом</Mousekin_Make_ClockworkComponent.label>
+
+	<!-- EN: Make a Clockwork Mechanism by forming and trimming steel into intricate metal components. -->
+	<Mousekin_Make_ClockworkComponent.description>Сформируйте и обрежьте сталь в сложные металлические компоненты для создания часового механизма.</Mousekin_Make_ClockworkComponent.description>
+
+	<!-- EN: Making a Clockwork Mechanism. -->
+	<Mousekin_Make_ClockworkComponent.jobString>Создание часового механизма</Mousekin_Make_ClockworkComponent.jobString>
+
+	<!-- EN: make Clockwork Mechanism x5 -->
+	<Mousekin_Make_ClockworkComponentBulk.label>Создать 5 часовых механизмов</Mousekin_Make_ClockworkComponentBulk.label>
+
+	<!-- EN: Make a batch of Clockwork Mechanisms by forming and trimming steel into intricate metal components. -->
+<Mousekin_Make_ClockworkComponentBulk.description>Сформируйте и обрежьте сталь в сложные металлические компоненты для создания партии часовых механизмов.</Mousekin_Make_ClockworkComponentBulk.description>
+
+
+	<!-- EN: Making Clockwork Mechanisms. -->
+	<Mousekin_Make_ClockworkComponentBulk.jobString>Создание часового механизма</Mousekin_Make_ClockworkComponentBulk.jobString>
+
+</LanguageData>

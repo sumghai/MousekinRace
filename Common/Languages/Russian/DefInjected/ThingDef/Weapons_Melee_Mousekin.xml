@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin Axe -->
+	<Mousekin_MeleeWeapon_Axe.label>Мышкин топор</Mousekin_MeleeWeapon_Axe.label>
+	
+	<!-- EN: A bladed implement with a handle typically used to cut down trees, hew logs into timber and split firewood, but in a pinch can also be used as a crude but deadly weapon. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Axe.description>Инструмент с лезвием и ручкой, обычно используемый для рубки деревьев, распиливания бревен на доски и колки дров, но в экстренной ситуации может также служить грубым, но смертоносным оружием. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_Axe.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Axe.tools.0.label>Ручка</Mousekin_MeleeWeapon_Axe.tools.0.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_Axe.tools.1.label>Лезвие</Mousekin_MeleeWeapon_Axe.tools.1.label>
+	
+	<!-- EN: Mousekin Cleaver -->
+	<Mousekin_MeleeWeapon_Cleaver.label>Мышкин нож</Mousekin_MeleeWeapon_Cleaver.label>
+	
+	<!-- EN: A large knife with a rectangular blade typically used to split large, thick pieces of meat. While it helps increase the amount of meat harvested when butchering animals, it is not a particularly good weapon. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Cleaver.description>Большой нож с прямоугольным лезвием, обычно используемый для разделки больших и толстых кусков мяса. Хотя он помогает увеличить количество мяса, добываемого при разделке животных, это не особенно хорошее оружие. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_Cleaver.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Cleaver.tools.0.label>Ручка</Mousekin_MeleeWeapon_Cleaver.tools.0.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_Cleaver.tools.1.label>Лезвие</Mousekin_MeleeWeapon_Cleaver.tools.1.label>
+	
+	<!-- EN: Mousekin Dagger -->
+	<Mousekin_MeleeWeapon_Dagger.label>Мышкин кинжал</Mousekin_MeleeWeapon_Dagger.label>
+	
+	<!-- EN: A cute little dagger, good for quick stabbing attacks and easily concealed under most Mousekin clothing. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Dagger.description>Милый маленький кинжал, хорошо подходящий для быстрых колющих атак и легко скрывающийся под большей частью одежды Мышкина. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_Dagger.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Dagger.tools.0.label>Ручка</Mousekin_MeleeWeapon_Dagger.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_Dagger.tools.1.label>Кончик</Mousekin_MeleeWeapon_Dagger.tools.1.label>
+	
+	<!-- EN: Mousekin Hammer -->
+	<Mousekin_MeleeWeapon_HammerMetal.label>Мышкин молот</Mousekin_MeleeWeapon_HammerMetal.label>
+	
+	<!-- EN: A hammer with a small metal head, used to beat and form metals into shape, as well as general construction work. Despite its small size, a Mousekin armed with a hammer can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_HammerMetal.description>Молот с маленькой металлической головой, используемый для ковки и формовки металлов, а также для общестроительных работ. Несмотря на свои небольшие размеры, Мышкин с молотом может легко сломать пальцы взрослого человека. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_HammerMetal.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_HammerMetal.tools.0.label>Ручка</Mousekin_MeleeWeapon_HammerMetal.tools.0.label>
+	
+	<!-- EN: head -->
+	<Mousekin_MeleeWeapon_HammerMetal.tools.1.label>Голова</Mousekin_MeleeWeapon_HammerMetal.tools.1.label>
+	
+	<!-- EN: Mousekin Mallet -->
+	<Mousekin_MeleeWeapon_HammerWood.label>Мышкин деревянный молот</Mousekin_MeleeWeapon_HammerWood.label>
+	
+	<!-- EN: A hammer with a large wooden head, used in carpentry and general construction work. Despite its small size, a Mousekin armed with a mallet can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_HammerWood.description>Молот с большой деревянной головой, используемый в плотницких и общестроительных работах. Несмотря на свои небольшие размеры, Мышкин с деревянным молотом может легко сломать пальцы взрослого человека. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_HammerWood.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_HammerWood.tools.0.label>Ручка</Mousekin_MeleeWeapon_HammerWood.tools.0.label>
+	
+	<!-- EN: head -->
+	<Mousekin_MeleeWeapon_HammerWood.tools.1.label>Голова</Mousekin_MeleeWeapon_HammerWood.tools.1.label>
+	
+	<!-- EN: Mousekin Hoe -->
+	<Mousekin_MeleeWeapon_Hoe.label>Мышкин мотыга</Mousekin_MeleeWeapon_Hoe.label>
+	
+	<!-- EN: A common agricultural hand tool used to break up soil, remove weeds and harvest root vegetables. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Hoe.description>Общий сельскохозяйственный инструмент, используемый для рыхления почвы, удаления сорняков и сбора корнеплодов. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_Hoe.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Hoe.tools.0.label>Ручка</Mousekin_MeleeWeapon_Hoe.tools.0.label>
+	
+	<!-- EN: hoe head -->
+	<Mousekin_MeleeWeapon_Hoe.tools.1.label>Голова</Mousekin_MeleeWeapon_Hoe.tools.1.label>
+	
+	<!-- EN: hoe blade -->
+	<Mousekin_MeleeWeapon_Hoe.tools.2.label>Лезвие</Mousekin_MeleeWeapon_Hoe.tools.2.label>
+	
+	<!-- EN: Mousekin Pickaxe -->
+	<Mousekin_MeleeWeapon_Pickaxe.label>Мышкин кирка</Mousekin_MeleeWeapon_Pickaxe.label>
+	
+	<!-- EN: A hand tool with a large, curved metal blade, used to quickly dig at compacted soil and break up rocks. Its handle is too small and thin for a human to wield properly. -->
+<Mousekin_MeleeWeapon_Pickaxe.description>Ручной инструмент с большой изогнутой металлической лезвием, используемый для быстрого копания в уплотненной почве и разрушения камней. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_Pickaxe.description>
+
+<!-- EN: handle -->
+<Mousekin_MeleeWeapon_Pickaxe.tools.0.label>Ручка</Mousekin_MeleeWeapon_Pickaxe.tools.0.label>
+
+<!-- EN: head -->
+<Mousekin_MeleeWeapon_Pickaxe.tools.1.label>Голова</Mousekin_MeleeWeapon_Pickaxe.tools.1.label>
+
+<!-- EN: pick -->
+<Mousekin_MeleeWeapon_Pickaxe.tools.2.label>Кончик</Mousekin_MeleeWeapon_Pickaxe.tools.2.label>
+
+<!-- EN: Mousekin Pike -->
+<Mousekin_MeleeWeapon_PikeRegular.label>Мышкин пика</Mousekin_MeleeWeapon_PikeRegular.label>
+
+<!-- EN: A long polearm weapon, the Mousekin Pike is technically a pike-halberd hybrid, with a spear tip for fending off enemy cavalry charges, a hooked blade to pull enemy knights off their mounts, and an axe-like blade to deliver the final killing blow. It is also one of the few Mousekin weapons that humans can wield properly. -->
+<Mousekin_MeleeWeapon_PikeRegular.description>Длинное копейное оружие, Мышкин пика является гибридом пики и алебарды, с наконечником для отражения атак кавалерии противника, изогнутым лезвием для сбивания врагов с седел и лезвием, похожим на топор, для нанесения финального удара. Это также одно из немногих оружий Мышкина, которые могут правильно использовать люди.</Mousekin_MeleeWeapon_PikeRegular.description>
+
+<!-- EN: shaft -->
+<Mousekin_MeleeWeapon_PikeRegular.tools.0.label>Древко</Mousekin_MeleeWeapon_PikeRegular.tools.0.label>
+
+<!-- EN: point -->
+<Mousekin_MeleeWeapon_PikeRegular.tools.1.label>Наконечник</Mousekin_MeleeWeapon_PikeRegular.tools.1.label>
+
+<!-- EN: blade -->
+<Mousekin_MeleeWeapon_PikeRegular.tools.2.label>Лезвие</Mousekin_MeleeWeapon_PikeRegular.tools.2.label>
+
+<!-- EN: Mousekin Thunderpike -->
+<Mousekin_MeleeWeapon_PikeThunder.label>Мышкин громопика</Mousekin_MeleeWeapon_PikeThunder.label>
+
+<!-- EN: A variant of the standard Mousekin Pike used by soldiers from Independent Mousekin towns, with a large firecracker tied to its spear end capable of blasting enemy Mousekin knights or setting them on fire. It is also one of the few Mousekin weapons that humans can wield properly. -->
+<Mousekin_MeleeWeapon_PikeThunder.description>Вариант стандартной Мышкиной пики, используемой солдатами из независимых городов Мышкина, с большой петардой, привязанной к концу копья, способной взорвать врагов или поджечь их. Это также одно из немногих оружий Мышкина, которые могут правильно использовать люди.</Mousekin_MeleeWeapon_PikeThunder.description>
+
+<!-- EN: shaft -->
+<Mousekin_MeleeWeapon_PikeThunder.tools.0.label>Древко</Mousekin_MeleeWeapon_PikeThunder.tools.0.label>
+
+<!-- EN: point -->
+<Mousekin_MeleeWeapon_PikeThunder.tools.1.label>Наконечник</Mousekin_MeleeWeapon_PikeThunder.tools.1.label>
+
+<!-- EN: blade -->
+<Mousekin_MeleeWeapon_PikeThunder.tools.2.label>Лезвие</Mousekin_MeleeWeapon_PikeThunder.tools.2.label>
+
+<!-- EN: Mousekin Thunderpike -->
+<Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>Мышкин громопика</Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>
+
+<!-- EN: Mousekin Pitchfork -->
+<Mousekin_MeleeWeapon_Pitchfork.label>Мышкин вилы</Mousekin_MeleeWeapon_Pitchfork.label>
+
+<!-- EN: An agricultural hand tool with a long handle and three tines, used to pitch and pile straw. Its handle is too small and thin for a human to wield properly. -->
+<Mousekin_MeleeWeapon_Pitchfork.description>Сельскохозяйственный ручной инструмент с длинной ручкой и тремя зубьями, используемый для подбрасывания и укладки соломы. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_Pitchfork.description>
+
+<!-- EN: handle -->
+<Mousekin_MeleeWeapon_Pitchfork.tools.0.label>Ручка</Mousekin_MeleeWeapon_Pitchfork.tools.0.label>
+
+<!-- EN: tines -->
+<Mousekin_MeleeWeapon_Pitchfork.tools.1.label>Зубья</Mousekin_MeleeWeapon_Pitchfork.tools.1.label>
+
+<!-- EN: Mousekin Gardener’s Sword -->
+<Mousekin_MeleeWeapon_SwordGuardener.label>Мышкин меч садовода</Mousekin_MeleeWeapon_SwordGuardener.label>
+
+<!-- EN: A one-handed shortsword carried by Gardeners, an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom. The light and compact design exemplifies the femininity and grace of the weapon’s user. Its handle is too small and thin for a human to wield properly. -->
+<Mousekin_MeleeWeapon_SwordGuardener.description>Одноручный короткий меч, носимый садоводами, элитным орденом, посвященным уходу и защите цветочных садов Мышкиного королевства. Легкий и компактный дизайн воплощает женственность и грацию пользователя оружия. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_SwordGuardener.description>
+
+<!-- EN: handle -->
+<Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>Ручка</Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>
+
+<!-- EN: point -->
+<Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>Наконечник</Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>
+
+<!-- EN: edge -->
+<Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>Лезвие</Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>
+
+<!-- EN: Mousekin Gardener’s Training Sword -->
+<Mousekin_MeleeWeapon_SwordGuardenerTraining.label>Мышкин меч тренировки садовода</Mousekin_MeleeWeapon_SwordGuardenerTraining.label>
+
+	<!-- EN: A wooden version of the Guardener shortsword, carried by apprentices as part of their training to tend and protect the flower gardens of the Mousekin Kingdom. The blunted blade reduces risk of injury during training. Its handle is too small and thin for a human to wield properly. -->
+<Mousekin_MeleeWeapon_SwordGuardenerTraining.description>Деревянная версия короткого меча садовода, используемая учениками в рамках их обучения по уходу и защите цветочных садов Мышкиного королевства. Затупленное лезвие снижает риск травм во время тренировок. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_SwordGuardenerTraining.description>
+
+<!-- EN: handle -->
+<Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>Ручка</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>
+
+<!-- EN: wooden blade -->
+<Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>Деревянное лезвие</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>
+
+<!-- EN: Mousekin Knight’s Sword -->
+<Mousekin_MeleeWeapon_SwordKnight.label>Мышкин меч рыцаря</Mousekin_MeleeWeapon_SwordKnight.label>
+
+<!-- EN: A longsword perfectly balanced for one-handed use, good for stabbing or slashing. Its handle is too small and thin for a human to wield properly. -->
+<Mousekin_MeleeWeapon_SwordKnight.description>Длинный меч, идеально сбалансированный для использования одной рукой, хороший для колющих и рубящих ударов. Его ручка слишком мала и тонка, чтобы человек мог правильно им управлять.</Mousekin_MeleeWeapon_SwordKnight.description>
+
+<!-- EN: handle -->
+<Mousekin_MeleeWeapon_SwordKnight.tools.0.label>Ручка</Mousekin_MeleeWeapon_SwordKnight.tools.0.label>
+
+<!-- EN: point -->
+<Mousekin_MeleeWeapon_SwordKnight.tools.1.label>Наконечник</Mousekin_MeleeWeapon_SwordKnight.tools.1.label>
+
+<!-- EN: edge -->
+<Mousekin_MeleeWeapon_SwordKnight.tools.2.label>Лезвие</Mousekin_MeleeWeapon_SwordKnight.tools.2.label>
+
+<!-- EN: Mousekin Knight’s Greatsword -->
+<Mousekin_MeleeWeapon_SwordKnightLarge.label>Мышкин большой меч рыцаря</Mousekin_MeleeWeapon_SwordKnightLarge.label>
+
+<!-- EN: A long and heavy sword that requires both hands to wield, but if used properly, can literally split an enemy in two. It is also one of the few Mousekin weapons that humans can wield properly. -->
+<Mousekin_MeleeWeapon_SwordKnightLarge.description>Длинный и тяжелый меч, для которого требуется обе руки, но если его правильно использовать, он может буквально разрезать врага пополам. Это также одно из немногих оружий Мышкина, которые могут правильно использовать люди.</Mousekin_MeleeWeapon_SwordKnightLarge.description>
+
+<!-- EN: handle -->
+<Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>Ручка</Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>
+
+<!-- EN: point -->
+<Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>Наконечник</Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>
+
+<!-- EN: edge -->
+<Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>Лезвие</Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>
+
+</LanguageData>

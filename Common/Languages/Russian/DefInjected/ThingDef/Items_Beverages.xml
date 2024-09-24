@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Chonko nut brew -->
+	<Mousekin_DrinkChonkoNutBrew.label>Чонко-ореховый напиток</Mousekin_DrinkChonkoNutBrew.label>
+	
+	<!-- EN: A coffee-like beverage that temporarily improves mood, consciousness and blood circulation, as well as reducing the need for rest. Brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick. -->
+	<Mousekin_DrinkChonkoNutBrew.description>Кофейный напиток, который временно улучшает настроение, сознание и кровообращение, а также снижает потребность в отдыхе. Заваривается из жареных и измельченных орехов чонко, а также с добавлением "секретного ингредиента" для дополнительного эффекта.</Mousekin_DrinkChonkoNutBrew.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkChonkoNutBrew.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkChonkoNutBrew.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkChonkoNutBrew.ingestible.ingestReportString>Пью {0}</Mousekin_DrinkChonkoNutBrew.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin lager -->
+	<Mousekin_DrinkLager.label>Лагер Маускин</Mousekin_DrinkLager.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting Mouse-ear barley, hops and water with a clear, pale-golden appearance and crisp, refreshing taste, often enjoyed by Mousekin peasants and laborers after work. -->
+	<Mousekin_DrinkLager.description>Алкогольный напиток, сделанный путем ферментации ячменя "мышиный ухо", хмеля и воды с прозрачным, бледно-золотистым цветом и хрустящим, освежающим вкусом, который часто наслаждаются мышиные крестьяне и рабочие после работы.</Mousekin_DrinkLager.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkLager.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkLager.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkLager.ingestible.ingestReportString>Пью {0}</Mousekin_DrinkLager.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (awful) -->
+	<Mousekin_DrinkMeadAwful.label>Медовуха Маускин (ужасная)</Mousekin_DrinkMeadAwful.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadAwful.description>Алкогольный напиток, сделанный путем ферментации меда и воды. Медовуха Маускин, как правило, слаще, чем сделанная людьми, с сильным фруктовым послевкусием. Делает питье счастливым и снижает вероятность психических срывов.</Mousekin_DrinkMeadAwful.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadAwful.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkMeadAwful.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadAwful.ingestible.ingestReportString>Пью {0}</Mousekin_DrinkMeadAwful.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (poor) -->
+	<Mousekin_DrinkMeadPoor.label>Медовуха Маускин (плохая)</Mousekin_DrinkMeadPoor.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadPoor.description>Алкогольный напиток, сделанный путем ферментации меда и воды. Медовуха Маускин, как правило, слаще, чем сделанная людьми, с сильным фруктовым послевкусием. Делает питье счастливым и снижает вероятность психических срывов.</Mousekin_DrinkMeadPoor.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadPoor.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkMeadPoor.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadPoor.ingestible.ingestReportString>Пью {0}</Mousekin_DrinkMeadPoor.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (normal) -->
+	<Mousekin_DrinkMeadNormal.label>Медовуха Маускин (нормальная)</Mousekin_DrinkMeadNormal.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadNormal.description>Алкогольный напиток, сделанный путем ферментации меда и воды. Медовуха Маускин, как правило, слаще, чем сделанная людьми, с сильным фруктовым послевкусием. Делает питье счастливым и снижает вероятность психических срывов.</Mousekin_DrinkMeadNormal.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadNormal.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkMeadNormal.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadNormal.ingestible.ingestReportString>Пью {0}</Mousekin_DrinkMeadNormal.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (good) -->
+	<Mousekin_DrinkMeadGood.label>Медовуха Маускин (хорошая)</Mousekin_DrinkMeadGood.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadGood.description>Алкогольный напиток, сделанный путем ферментации меда и воды. Медовуха Маускин, как правило, слаще, чем сделанная людьми, с сильным фруктовым послевкусием. Делает питье счастливым и снижает вероятность психических срывов.</Mousekin_DrinkMeadGood.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadGood.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkMeadGood.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadGood.ingestible.ingestReportString>Пью {0}</Mousekin_DrinkMeadGood.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (excellent) -->
+	<Mousekin_DrinkMeadExcellent.label>Медовуха Маускин (отличная)</Mousekin_DrinkMeadExcellent.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadExcellent.description>Алкогольный напиток, сделанный путем ферментации меда и воды. Медовуха Маускин, как правило, слаще, чем сделанная людьми, с сильным фруктовым послевкусием. Делает питье счастливым и снижает вероятность психических срывов.</Mousekin_DrinkMeadExcellent.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadExcellent.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkMeadExcellent.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadExcellent.ingestible.ingestReportString>Пью {0}</Mousekin_DrinkMeadExcellent.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (masterwork) -->
+	<Mousekin_DrinkMeadMasterwork.label>Медовуха Маускин (шедевр)</Mousekin_DrinkMeadMasterwork.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadMasterwork.description>Алкогольный напиток, приготовленный путем ферментации меда и воды. Медовухи Мышкина, как правило, слаще, чем медовухи, сделанные людьми, и имеют сильный фруктовый оттенок. Делает пьющих счастливыми и снижает вероятность психических срывов.</Mousekin_DrinkMeadMasterwork.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadMasterwork.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkMeadMasterwork.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadMasterwork.ingestible.ingestReportString>Пьет {0}.</Mousekin_DrinkMeadMasterwork.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin mead (legendary) -->
+	<Mousekin_DrinkMeadLegendary.label>Медовуха Мышкина (легендарная)</Mousekin_DrinkMeadLegendary.label>
+	
+	<!-- EN: An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks. -->
+	<Mousekin_DrinkMeadLegendary.description>Алкогольный напиток, приготовленный путем ферментации меда и воды. Медовухи Мышкина, как правило, слаще, чем медовухи, сделанные людьми, и имеют сильный фруктовый оттенок. Делает пьющих счастливыми и снижает вероятность психических срывов.</Mousekin_DrinkMeadLegendary.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkMeadLegendary.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkMeadLegendary.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>Пьет {0}.</Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>
+	
+</LanguageData>

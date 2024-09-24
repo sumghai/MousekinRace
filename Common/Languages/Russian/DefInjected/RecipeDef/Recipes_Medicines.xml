@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.label>Создать мазь мышкинов</Mousekin_Make_MedicinePoultice.label>
+
+	<!-- EN: Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs. -->
+	<Mousekin_Make_MedicinePoultice.description>Измельчите и смешайте кору деревьев из бревен с лечебным корнем, чтобы сделать целебную мазь.</Mousekin_Make_MedicinePoultice.description>
+
+	<!-- EN: Making bags of Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.jobString>Создаётся мазь мышкинов</Mousekin_Make_MedicinePoultice.jobString>
+
+</LanguageData>

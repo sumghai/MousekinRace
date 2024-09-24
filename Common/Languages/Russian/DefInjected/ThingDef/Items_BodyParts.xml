@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Cloth Mousekin Ear -->
+	<Mousekin_ProstheticClothEar.label>Мышиный тканевый протез уха</Mousekin_ProstheticClothEar.label>
+
+	<!-- EN: A fake Mousekin ear sewn from cloth.\n\nMousekins take great pride in their large rounded ears, as their presence (or absence) greatly affects their standing in Mousekin society. Those who have lost their natural ears through injury or disease wear fake ears to hide their humiliating disfigurement. -->
+	<Mousekin_ProstheticClothEar.description>Тканевый протез уха Мышкина.\n\nМышкины гордятся своими большими округлыми ушами, поскольку их наличие (или отсутствие) сильно влияет на их положение в обществе. Те, кто потерял свои естественные уши из-за травм или болезней, носят подделки, чтобы скрыть свое унизительное уродство.</Mousekin_ProstheticClothEar.description>
+
+	<!-- EN: Cloth Mousekin Tail -->
+	<Mousekin_ProstheticClothTail.label>Мышиный тканевый протез хвоста</Mousekin_ProstheticClothTail.label>
+
+	<!-- EN: A fake Mousekin tail made from cloth twisted and braided into rope.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving. Those who have lost their natural tails through injury and disease wear fake tails, and while the non-living rope tail does not fully restore their loss of balancing ability, it at least attracts less attention than a stump. -->
+	<Mousekin_ProstheticClothTail.description>Тканевый протез хвоста Мышкина, сплетенный из ткани в форме веревки.\n\nКак и обычные не-гуманоидные мыши, мышкины используют свои хвосты для поддержания равновесия во время движения. Те, кто потерял свои естественные хвосты из-за травм и болезней, носят подделки; хотя неживой веревочный хвост не полностью восстанавливает их способность к равновесию, он, по крайней мере, привлекает меньше внимания, чем пень.</Mousekin_ProstheticClothTail.description>
+
+	<!-- EN: Mousekin Ear -->
+	<Mousekin_BodyPartEar.label>Ухо Мышкина</Mousekin_BodyPartEar.label>
+
+	<!-- EN: A biological Mousekin ear, most likely harvested from a dead or unwilling Mousekin.\n\nBesides allowing Mousekins to pick up quiet, distant sounds, large rounded ears represent a Mousekin’s personal honor, dignity and standing in their society, and this replacement ear fully restores their loss of hearing ability as well as their social status. -->
+	<Mousekin_BodyPartEar.description>Биологическое ухо Мышкина, скорее всего, harvested из мертвого или нежелательного Мышкина.\n\nКроме того, что уши позволяют Мышкинам улавливать тихие, далекие звуки, большие округлые уши представляют собой личную честь, достоинство и статус Мышкина в обществе, и этот протез уха полностью восстанавливает их слух и социальный статус.</Mousekin_BodyPartEar.description>
+
+	<!-- EN: Mousekin Tail -->
+	<Mousekin_BodyPartTail.label>Хвост Мышкина</Mousekin_BodyPartTail.label>
+
+	<!-- EN: A biological Mousekin tail, most likely harvested from a dead or unwilling Mousekin.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving, and this replacement tail fully restores their loss of balancing ability. -->
+	<Mousekin_BodyPartTail.description>Биологический хвост Мышкина, скорее всего, harvested из мертвого или нежелательного Мышкина.\n\nКак и обычные не-гуманоидные мыши, мышкины используют свои хвосты для поддержания равновесия во время движения, и этот протез хвоста полностью восстанавливает их потерю способности к равновесию.</Mousekin_BodyPartTail.description>
+	
+</LanguageData>

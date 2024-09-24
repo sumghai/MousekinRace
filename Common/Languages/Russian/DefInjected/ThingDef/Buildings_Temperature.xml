@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin fireplace -->
+	<Mousekin_Fireplace.label>Мышкинский камин</Mousekin_Fireplace.label>
+	
+	<!-- EN: A sturdy stone fireplace for heating rooms as well as cooking simple meals. -->
+	<Mousekin_Fireplace.description>Крепкий каменный камин для обогрева помещений, а также для приготовления простых блюд.</Mousekin_Fireplace.description>
+	
+	<!-- EN: cast-iron wall vent -->
+	<Mousekin_WallVent.label>Чугунная настенная вентиляция</Mousekin_WallVent.label>
+	
+	<!-- EN: A wall-mounted vent with a cast-iron grille for equalizing the temperature between two rooms without allowing people to walk between them. -->
+	<Mousekin_WallVent.description>Настенный вентиль с чугунной решеткой для выравнивания температуры между двумя помещениями, не позволяя людям проходить между ними.</Mousekin_WallVent.description>
+	
+</LanguageData>

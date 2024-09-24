@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Pince-Nez Glasses -->
+	<Mousekin_GlassesSmall.label>Мышкинские пенсне</Mousekin_GlassesSmall.label>
+
+	<!-- EN: A pair of spectacles with small round lenses, designed to sit directly on the wearer’s nose. Often worn by elderly Mousekins to compensate for their poor eyesight in old age - or to inspire respect from younger Mousekins. -->
+	<Mousekin_GlassesSmall.description>Очки с маленькими круглыми линзами, которые располагаются прямо на носу. Часто носятся пожилыми мышкинами для компенсации слабого зрения в старости или для внушения уважения молодым мышкинам.</Mousekin_GlassesSmall.description>
+
+	<!-- EN: Mousekin Research Glasses -->
+	<Mousekin_GlassesLarge.label>Мышкинские исследовательские очки</Mousekin_GlassesLarge.label>
+
+	<!-- EN: A pair of spectacles with large round lenses, designed to specifically fit the unique head and ear anatomy of Mousekins. Often worn by Mousekins with myopia, these glasses help increase research speed and are required to unlock high level Mousekin research projects - as well as making the wearer look and feel smarter. -->
+	<Mousekin_GlassesLarge.description>Очки с большими круглыми линзами, специально разработанные для уникальной анатомии головы и ушей мышкинов. Часто надеваются мышкинами с миопией, помогают увеличивать скорость исследований и необходимы для разблокировки высокоуровневых исследовательских проектов мышкинов, а также делают носителя более умным на вид и ощущениям.</Mousekin_GlassesLarge.description>
+
+	<!-- EN: Mousekin Wicker Backpack -->
+	<Mousekin_BackpackWicker.label>Мышкинская плетеная корзина</Mousekin_BackpackWicker.label>
+
+	<!-- EN: A wicker basket with shoulder straps, often used by Mousekin peasants to transport crops to storehouses. Has a large carrying capacity but is less durable than a leather backpack. -->
+	<Mousekin_BackpackWicker.description>Плетеная корзина с лямками, которую часто используют мышкины-крестьяне для перевозки урожая в амбары. Имеет большую вместимость, но менее прочна по сравнению с кожаным рюкзаком.</Mousekin_BackpackWicker.description>
+
+	<!-- EN: Mousekin Leather Backpack -->
+	<Mousekin_BackpackLeather.label>Мышкинский кожаный рюкзак</Mousekin_BackpackLeather.label>
+
+	<!-- EN: A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness. -->
+	<Mousekin_BackpackLeather.description>Прочный кожаный рюкзак с лямками, множеством отделений и простой флягой, идеально подходит для мышкинов, отправляющихся в длительные путешествия по дикой местности.</Mousekin_BackpackLeather.description>
+	
+</LanguageData>

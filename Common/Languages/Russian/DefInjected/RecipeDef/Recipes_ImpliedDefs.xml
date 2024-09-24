@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: administer Chonko nut brew -->
+	<Administer_Mousekin_DrinkChonkoNutBrew.label>Ввести напиток из орехов Чонко</Administer_Mousekin_DrinkChonkoNutBrew.label>
+
+	<!-- EN: Administering Chonko nut brew. -->
+	<Administer_Mousekin_DrinkChonkoNutBrew.jobString>Вводится напиток из орехов Чонко</Administer_Mousekin_DrinkChonkoNutBrew.jobString>
+
+	<!-- EN: administer Mousekin lager -->
+	<Administer_Mousekin_DrinkLager.label>Ввести лагер мышкинов</Administer_Mousekin_DrinkLager.label>
+
+	<!-- EN: Administering Mousekin lager. -->
+	<Administer_Mousekin_DrinkLager.jobString>Вводится лагер мышкинов</Administer_Mousekin_DrinkLager.jobString>
+
+	<!-- EN: administer Mousekin mead (awful) -->
+	<Administer_Mousekin_DrinkMeadAwful.label>Ввести медовуху мышкинов (ужасная)</Administer_Mousekin_DrinkMeadAwful.label>
+
+	<!-- EN: Administering Mousekin mead (awful). -->
+	<Administer_Mousekin_DrinkMeadAwful.jobString>Вводится медовуха мышкинов (ужасная)</Administer_Mousekin_DrinkMeadAwful.jobString>
+
+	<!-- EN: administer Mousekin mead (poor) -->
+	<Administer_Mousekin_DrinkMeadPoor.label>Ввести медовуху мышкинов (низкое качество)</Administer_Mousekin_DrinkMeadPoor.label>
+
+	<!-- EN: Administering Mousekin mead (poor). -->
+	<Administer_Mousekin_DrinkMeadPoor.jobString>Вводится медовуха мышкинов (низкое качество)</Administer_Mousekin_DrinkMeadPoor.jobString>
+
+	<!-- EN: administer Mousekin mead (normal) -->
+	<Administer_Mousekin_DrinkMeadNormal.label>Ввести медовуху мышкинов (стандартная)</Administer_Mousekin_DrinkMeadNormal.label>
+
+	<!-- EN: Administering Mousekin mead (normal). -->
+	<Administer_Mousekin_DrinkMeadNormal.jobString>Вводится медовуха мышкинов (стандартная)</Administer_Mousekin_DrinkMeadNormal.jobString>
+
+	<!-- EN: administer Mousekin mead (good) -->
+	<Administer_Mousekin_DrinkMeadGood.label>Ввести медовуху мышкинов (хорошая)</Administer_Mousekin_DrinkMeadGood.label>
+
+	<!-- EN: Administering Mousekin mead (good). -->
+	<Administer_Mousekin_DrinkMeadGood.jobString>Вводится медовуха мышкинов (хорошая)</Administer_Mousekin_DrinkMeadGood.jobString>
+
+	<!-- EN: administer Mousekin mead (excellent) -->
+	<Administer_Mousekin_DrinkMeadExcellent.label>Ввести медовуху мышкинов (отличная)</Administer_Mousekin_DrinkMeadExcellent.label>
+
+	<!-- EN: Administering Mousekin mead (excellent). -->
+	<Administer_Mousekin_DrinkMeadExcellent.jobString>Вводится медовуха мышкинов (отличная)</Administer_Mousekin_DrinkMeadExcellent.jobString>
+
+	<!-- EN: administer Mousekin mead (masterwork) -->
+	<Administer_Mousekin_DrinkMeadMasterwork.label>Ввести медовуху мышкинов (шедевр)</Administer_Mousekin_DrinkMeadMasterwork.label>
+
+	<!-- EN: Administering Mousekin mead (masterwork). -->
+	<Administer_Mousekin_DrinkMeadMasterwork.jobString>Вводится медовуха мышкинов (шедевр)</Administer_Mousekin_DrinkMeadMasterwork.jobString>
+
+	<!-- EN: administer Mousekin mead (legendary) -->
+	<Administer_Mousekin_DrinkMeadLegendary.label>Ввести медовуху мышкинов (легендарная)</Administer_Mousekin_DrinkMeadLegendary.label>
+
+	<!-- EN: Administering Mousekin mead (legendary). -->
+	<Administer_Mousekin_DrinkMeadLegendary.jobString>Вводится медовуха мышкинов (легендарная)</Administer_Mousekin_DrinkMeadLegendary.jobString>
+
+	<!-- EN: make Cloth Mousekin Ear -->
+	<Make_Mousekin_ProstheticClothEar.label>Сделать тканевое ухо мышкинов</Make_Mousekin_ProstheticClothEar.label>
+
+	<!-- EN: Make Cloth Mousekin Ear. -->
+	<Make_Mousekin_ProstheticClothEar.description>Создание тканевого уха мышкинов.</Make_Mousekin_ProstheticClothEar.description>
+
+	<!-- EN: Making Cloth Mousekin Ear. -->
+	<Make_Mousekin_ProstheticClothEar.jobString>Создание тканевого уха мышкинов</Make_Mousekin_ProstheticClothEar.jobString>
+
+	<!-- EN: make Cloth Mousekin Tail -->
+	<Make_Mousekin_ProstheticClothTail.label>Сделать тканевую хвост мышкинов</Make_Mousekin_ProstheticClothTail.label>
+
+	<!-- EN: Make Cloth Mousekin Tail. -->
+	<Make_Mousekin_ProstheticClothTail.description>Создание тканевого хвоста мышкинов.</Make_Mousekin_ProstheticClothTail.description>
+
+	<!-- EN: Making Cloth Mousekin Tail. -->
+	<Make_Mousekin_ProstheticClothTail.jobString>Создание тканевого хвоста мышкинов</Make_Mousekin_ProstheticClothTail.jobString>
+
+	<!-- EN: make Mousekin Pince-Nez Glasses -->
+	<Make_Mousekin_GlassesSmall.label>Сделать очки мышкинов</Make_Mousekin_GlassesSmall.label>
+
+	<!-- EN: Make Mousekin Pince-Nez Glasses. -->
+	<Make_Mousekin_GlassesSmall.description>Создание очков мышкинов.</Make_Mousekin_GlassesSmall.description>
+
+	<!-- EN: Making Mousekin Pince-Nez Glasses. -->
+	<Make_Mousekin_GlassesSmall.jobString>Создание очков мышкинов</Make_Mousekin_GlassesSmall.jobString>
+
+	<!-- EN: make Mousekin Research Glasses -->
+	<Make_Mousekin_GlassesLarge.label>Сделать исследовательские очки мышкинов</Make_Mousekin_GlassesLarge.label>
+
+	<!-- EN: Make Mousekin Research Glasses. -->
+	<Make_Mousekin_GlassesLarge.description>Создание исследовательских очков мышкинов.</Make_Mousekin_GlassesLarge.description>
+
+	<!-- EN: Making Mousekin Research Glasses. -->
+	<Make_Mousekin_GlassesLarge.jobString>Создание исследовательских очков мышкинов</Make_Mousekin_GlassesLarge.jobString>
+
+	<!-- EN: make Mousekin Wicker Backpack -->
+	<Make_Mousekin_BackpackWicker.label>Сделать плетеный рюкзак мышкинов</Make_Mousekin_BackpackWicker.label>
+
+	<!-- EN: Make Mousekin Wicker Backpack. -->
+	<Make_Mousekin_BackpackWicker.description>Создание плетеного рюкзака мышкинов.</Make_Mousekin_BackpackWicker.description>
+
+	<!-- EN: Making Mousekin Wicker Backpack. -->
+	<Make_Mousekin_BackpackWicker.jobString>Создание плетеного рюкзака мышкинов</Make_Mousekin_BackpackWicker.jobString>
+
+	<!-- EN: make Mousekin Leather Backpack -->
+	<Make_Mousekin_BackpackLeather.label>Сделать кожаный рюкзак мышкинов</Make_Mousekin_BackpackLeather.label>
+
+	<!-- EN: Make Mousekin Leather Backpack. -->
+	<Make_Mousekin_BackpackLeather.description>Создание кожаного рюкзака мышкинов.</Make_Mousekin_BackpackLeather.description>
+
+	<!-- EN: Making Mousekin Leather Backpack. -->
+	<Make_Mousekin_BackpackLeather.jobString>Создание кожаного рюкзака мышкинов</Make_Mousekin_BackpackLeather.jobString>
+
+	<!-- EN: make Mousekin Cuirass -->
+	<Make_Mousekin_ArmorCuirass.label>Сделать кирасу мышкинов</Make_Mousekin_ArmorCuirass.label>
+
+	<!-- EN: Make Mousekin Cuirass. -->
+	<Make_Mousekin_ArmorCuirass.description>Создание кирасы мышкинов.</Make_Mousekin_ArmorCuirass.description>
+
+	<!-- EN: Making Mousekin Cuirass. -->
+	<Make_Mousekin_ArmorCuirass.jobString>Создание кирасы мышкинов</Make_Mousekin_ArmorCuirass.jobString>
+
+	<!-- EN: make Mousekin Plate Armor -->
+	<Make_Mousekin_ArmorPlate.label>Сделать пластинчатые доспехи мышкинов</Make_Mousekin_ArmorPlate.label>
+
+	<!-- EN: Make Mousekin Plate Armor. -->
+	<Make_Mousekin_ArmorPlate.description>Создание пластинчатых доспехов мышкинов.</Make_Mousekin_ArmorPlate.description>
+
+	<!-- EN: Making Mousekin Plate Armor. -->
+	<Make_Mousekin_ArmorPlate.jobString>Создание пластинчатых доспехов мышкинов</Make_Mousekin_ArmorPlate.jobString>
+
+	<!-- EN: make Mousekin Settler’s Outfit -->
+<Make_Mousekin_ApparelSettlerOutfit.label>Создать одежду поселенца мышкинов</Make_Mousekin_ApparelSettlerOutfit.label>
+
+<!-- EN: Make Mousekin Settler’s Outfit. -->
+<Make_Mousekin_ApparelSettlerOutfit.description>Создание одежды поселенца мышкинов.</Make_Mousekin_ApparelSettlerOutfit.description>
+
+<!-- EN: Making Mousekin Settler’s Outfit. -->
+<Make_Mousekin_ApparelSettlerOutfit.jobString>Создание одежды поселенца мышкинов</Make_Mousekin_ApparelSettlerOutfit.jobString>
+
+<!-- EN: make Mousekin Settler’s Dress -->
+<Make_Mousekin_ApparelSettlerDress.label>Создать платье поселенца мышкинов</Make_Mousekin_ApparelSettlerDress.label>
+
+<!-- EN: Make Mousekin Settler’s Dress. -->
+<Make_Mousekin_ApparelSettlerDress.description>Создание платья поселенца мышкинов.</Make_Mousekin_ApparelSettlerDress.description>
+
+<!-- EN: Making Mousekin Settler’s Dress. -->
+<Make_Mousekin_ApparelSettlerDress.jobString>Создание платья поселенца мышкинов</Make_Mousekin_ApparelSettlerDress.jobString>
+
+<!-- EN: make Mousekin Worker’s Outfit -->
+<Make_Mousekin_ApparelWorkerOutfit.label>Создать одежду рабочего мышкинов</Make_Mousekin_ApparelWorkerOutfit.label>
+
+<!-- EN: Make Mousekin Worker’s Outfit. -->
+<Make_Mousekin_ApparelWorkerOutfit.description>Создание одежды рабочего мышкинов.</Make_Mousekin_ApparelWorkerOutfit.description>
+
+<!-- EN: Making Mousekin Worker’s Outfit. -->
+<Make_Mousekin_ApparelWorkerOutfit.jobString>Создание одежды рабочего мышкинов</Make_Mousekin_ApparelWorkerOutfit.jobString>
+
+<!-- EN: make Mousekin Worker’s Dress -->
+<Make_Mousekin_ApparelWorkerDress.label>Создать платье рабочего мышкинов</Make_Mousekin_ApparelWorkerDress.label>
+
+<!-- EN: Make Mousekin Worker’s Dress. -->
+<Make_Mousekin_ApparelWorkerDress.description>Создание платья рабочего мышкинов.</Make_Mousekin_ApparelWorkerDress.description>
+
+<!-- EN: Making Mousekin Worker’s Dress. -->
+<Make_Mousekin_ApparelWorkerDress.jobString>Создание платья рабочего мышкинов</Make_Mousekin_ApparelWorkerDress.jobString>
+
+<!-- EN: make Mousekin Craftsman’s Outfit -->
+<Make_Mousekin_ApparelCraftsmanOutfit.label>Создать одежду мастера мышкинов</Make_Mousekin_ApparelCraftsmanOutfit.label>
+
+<!-- EN: Make Mousekin Craftsman’s Outfit. -->
+<Make_Mousekin_ApparelCraftsmanOutfit.description>Создание одежды мастера мышкинов.</Make_Mousekin_ApparelCraftsmanOutfit.description>
+
+<!-- EN: Making Mousekin Craftsman’s Outfit. -->
+<Make_Mousekin_ApparelCraftsmanOutfit.jobString>Создание одежды мастера мышкинов</Make_Mousekin_ApparelCraftsmanOutfit.jobString>
+
+<!-- EN: make Mousekin Cloak -->
+<Make_Mousekin_ApparelCloak.label>Создать плащ мышкинов</Make_Mousekin_ApparelCloak.label>
+
+<!-- EN: Make Mousekin Cloak. -->
+<Make_Mousekin_ApparelCloak.description>Создание плаща мышкинов.</Make_Mousekin_ApparelCloak.description>
+
+<!-- EN: Making Mousekin Cloak. -->
+<Make_Mousekin_ApparelCloak.jobString>Создание плаща мышкинов</Make_Mousekin_ApparelCloak.jobString>
+
+<!-- EN: make Mousekin Guardener’s Gown -->
+<Make_Mousekin_ApparelGuardenerGown.label>Создать платье садовода мышкинов</Make_Mousekin_ApparelGuardenerGown.label>
+
+<!-- EN: Make Mousekin Guardener’s Gown. -->
+<Make_Mousekin_ApparelGuardenerGown.description>Создание платья садовода мышкинов.</Make_Mousekin_ApparelGuardenerGown.description>
+
+<!-- EN: Making Mousekin Guardener’s Gown. -->
+<Make_Mousekin_ApparelGuardenerGown.jobString>Создание платья садовода мышкинов</Make_Mousekin_ApparelGuardenerGown.jobString>
+
+<!-- EN: make Mousekin Guardener’s Robe -->
+<Make_Mousekin_ApparelGuardenerRobe.label>Создать рясу садовода мышкинов</Make_Mousekin_ApparelGuardenerRobe.label>
+
+<!-- EN: Make Mousekin Guardener’s Robe. -->
+<Make_Mousekin_ApparelGuardenerRobe.description>Создание рясы садовода мышкинов.</Make_Mousekin_ApparelGuardenerRobe.description>
+
+<!-- EN: Making Mousekin Guardener’s Robe. -->
+<Make_Mousekin_ApparelGuardenerRobe.jobString>Создание рясы садовода мышкинов</Make_Mousekin_ApparelGuardenerRobe.jobString>
+
+<!-- EN: make Mousekin Nun’s Habit -->
+<Make_Mousekin_ApparelNunHabit.label>Создать монашеское одеяние мышкинов</Make_Mousekin_ApparelNunHabit.label>
+
+<!-- EN: Make Mousekin Nun’s Habit. -->
+<Make_Mousekin_ApparelNunHabit.description>Создание монашеского одеяния мышкинов.</Make_Mousekin_ApparelNunHabit.description>
+
+<!-- EN: Making Mousekin Nun’s Habit. -->
+<Make_Mousekin_ApparelNunHabit.jobString>Создание монашеского одеяния мышкинов</Make_Mousekin_ApparelNunHabit.jobString>
+
+<!-- EN: make Mousekin Priest’s Cassock -->
+<Make_Mousekin_ApparelPriestCassock.label>Создать рясу священника мышкинов</Make_Mousekin_ApparelPriestCassock.label>
+
+<!-- EN: Make Mousekin Priest’s Cassock. -->
+<Make_Mousekin_ApparelPriestCassock.description>Создание рясы священника мышкинов.</Make_Mousekin_ApparelPriestCassock.description>
+
+<!-- EN: Making Mousekin Priest’s Cassock. -->
+<Make_Mousekin_ApparelPriestCassock.jobString>Создание рясы священника мышкинов</Make_Mousekin_ApparelPriestCassock.jobString>
+
+<!-- EN: make Mousekin Gambeson -->
+<Make_Mousekin_ApparelGambeson.label>Создать гамбезон мышкинов</Make_Mousekin_ApparelGambeson.label>
+
+<!-- EN: Make Mousekin Gambeson. -->
+<Make_Mousekin_ApparelGambeson.description>Создание гамбезона мышкинов.</Make_Mousekin_ApparelGambeson.description>
+
+<!-- EN: Making Mousekin Gambeson. -->
+<Make_Mousekin_ApparelGambeson.jobString>Создание гамбезона мышкинов</Make_Mousekin_ApparelGambeson.jobString>
+
+<!-- EN: make Mousekin Straw Hat -->
+<Make_Mousekin_HatStraw.label>Создать соломенную шляпу мышкинов</Make_Mousekin_HatStraw.label>
+
+<!-- EN: Make Mousekin Straw Hat. -->
+<Make_Mousekin_HatStraw.description>Создание соломенной шляпы мышкинов.</Make_Mousekin_HatStraw.description>
+
+<!-- EN: Making Mousekin Straw Hat. -->
+<Make_Mousekin_HatStraw.jobString>Создание соломенной шляпы мышкинов</Make_Mousekin_HatStraw.jobString>
+
+<!-- EN: make Mousekin Headscarf -->
+<Make_Mousekin_HatHeadscarf.label>Создать платок для головы мышкинов</Make_Mousekin_HatHeadscarf.label>
+
+<!-- EN: Make Mousekin Headscarf. -->
+<Make_Mousekin_HatHeadscarf.description>Создание платка для головы мышкинов.</Make_Mousekin_HatHeadscarf.description>
+
+<!-- EN: Making Mousekin Headscarf. -->
+<Make_Mousekin_HatHeadscarf.jobString>Создание платка для головы мышкинов</Make_Mousekin_HatHeadscarf.jobString>
+
+<!-- EN: make Mousekin Nun’s Veil -->
+<Make_Mousekin_HatNunVeil.label>Создать вуаль для монахини мышкинов</Make_Mousekin_HatNunVeil.label>
+
+<!-- EN: Make Mousekin Nun’s Veil. -->
+<Make_Mousekin_HatNunVeil.description>Создание вуали для монахини мышкинов.</Make_Mousekin_HatNunVeil.description>
+
+<!-- EN: Making Mousekin Nun’s Veil. -->
+<Make_Mousekin_HatNunVeil.jobString>Создание вуали для монахини мышкинов</Make_Mousekin_HatNunVeil.jobString>
+
+<!-- EN: make Mousekin Kettle Hat -->
+<Make_Mousekin_HelmetKettle.label>Создать котловую шляпу мышкинов</Make_Mousekin_HelmetKettle.label>
+
+<!-- EN: Make Mousekin Kettle Hat. -->
+<Make_Mousekin_HelmetKettle.description>Создание котловой шляпы мышкинов.</Make_Mousekin_HelmetKettle.description>
+
+<!-- EN: Making Mousekin Kettle Hat. -->
+<Make_Mousekin_HelmetKettle.jobString>Создание котловой шляпы мышкинов</Make_Mousekin_HelmetKettle.jobString>
+
+<!-- EN: make Mousekin Morion Helmet -->
+<Make_Mousekin_HelmetMorion.label>Создать шлем морион мышкинов</Make_Mousekin_HelmetMorion.label>
+
+<!-- EN: Make Mousekin Morion Helmet. -->
+<Make_Mousekin_HelmetMorion.description>Создание шлема морион мышкинов.</Make_Mousekin_HelmetMorion.description>
+
+<!-- EN: Making Mousekin Morion Helmet. -->
+<Make_Mousekin_HelmetMorion.jobString>Создание шлема морион мышкинов</Make_Mousekin_HelmetMorion.jobString>
+
+	<!-- EN: make Mousekin Knight's Helmet -->
+<Make_Mousekin_HelmetKnight.label>Создать шлем рыцаря мышкинов</Make_Mousekin_HelmetKnight.label>
+
+<!-- EN: Make Mousekin Knight's Helmet. -->
+<Make_Mousekin_HelmetKnight.description>Создание шлема рыцаря мышкинов.</Make_Mousekin_HelmetKnight.description>
+
+<!-- EN: Making Mousekin Knight's Helmet. -->
+<Make_Mousekin_HelmetKnight.jobString>Создание шлема рыцаря мышкинов</Make_Mousekin_HelmetKnight.jobString>
+
+<!-- EN: make Mousekin Knight Commander’s Helmet -->
+<Make_Mousekin_HelmetKnightCommander.label>Создать шлем командира рыцарей мышкинов</Make_Mousekin_HelmetKnightCommander.label>
+
+<!-- EN: Make Mousekin Knight Commander’s Helmet. -->
+<Make_Mousekin_HelmetKnightCommander.description>Создание шлема командира рыцарей мышкинов.</Make_Mousekin_HelmetKnightCommander.description>
+
+<!-- EN: Making Mousekin Knight Commander’s Helmet. -->
+<Make_Mousekin_HelmetKnightCommander.jobString>Создание шлема командира рыцарей мышкинов</Make_Mousekin_HelmetKnightCommander.jobString>
+
+<!-- EN: make Mousekin Axe -->
+<Make_Mousekin_MeleeWeapon_Axe.label>Создать топор мышкинов</Make_Mousekin_MeleeWeapon_Axe.label>
+
+<!-- EN: Make Mousekin Axe. -->
+<Make_Mousekin_MeleeWeapon_Axe.description>Создание топора мышкинов.</Make_Mousekin_MeleeWeapon_Axe.description>
+
+<!-- EN: Making Mousekin Axe. -->
+<Make_Mousekin_MeleeWeapon_Axe.jobString>Создание топора мышкинов</Make_Mousekin_MeleeWeapon_Axe.jobString>
+
+<!-- EN: make Mousekin Cleaver -->
+<Make_Mousekin_MeleeWeapon_Cleaver.label>Создать нож мышкинов</Make_Mousekin_MeleeWeapon_Cleaver.label>
+
+<!-- EN: Make Mousekin Cleaver. -->
+<Make_Mousekin_MeleeWeapon_Cleaver.description>Создание ножа мышкинов.</Make_Mousekin_MeleeWeapon_Cleaver.description>
+
+<!-- EN: Making Mousekin Cleaver. -->
+<Make_Mousekin_MeleeWeapon_Cleaver.jobString>Создание ножа мышкинов</Make_Mousekin_MeleeWeapon_Cleaver.jobString>
+
+<!-- EN: make Mousekin Dagger -->
+<Make_Mousekin_MeleeWeapon_Dagger.label>Создать кинжал мышкинов</Make_Mousekin_MeleeWeapon_Dagger.label>
+
+<!-- EN: Make Mousekin Dagger. -->
+<Make_Mousekin_MeleeWeapon_Dagger.description>Создание кинжала мышкинов.</Make_Mousekin_MeleeWeapon_Dagger.description>
+
+<!-- EN: Making Mousekin Dagger. -->
+<Make_Mousekin_MeleeWeapon_Dagger.jobString>Создание кинжала мышкинов</Make_Mousekin_MeleeWeapon_Dagger.jobString>
+
+<!-- EN: make Mousekin Hammer -->
+<Make_Mousekin_MeleeWeapon_HammerMetal.label>Создать металлический молот мышкинов</Make_Mousekin_MeleeWeapon_HammerMetal.label>
+
+<!-- EN: Make Mousekin Hammer. -->
+<Make_Mousekin_MeleeWeapon_HammerMetal.description>Создание металлического молота мышкинов.</Make_Mousekin_MeleeWeapon_HammerMetal.description>
+
+<!-- EN: Making Mousekin Hammer. -->
+<Make_Mousekin_MeleeWeapon_HammerMetal.jobString>Создание металлического молота мышкинов</Make_Mousekin_MeleeWeapon_HammerMetal.jobString>
+
+<!-- EN: make Mousekin Mallet -->
+<Make_Mousekin_MeleeWeapon_HammerWood.label>Создать деревянный молот мышкинов</Make_Mousekin_MeleeWeapon_HammerWood.label>
+
+<!-- EN: Make Mousekin Mallet. -->
+<Make_Mousekin_MeleeWeapon_HammerWood.description>Создание деревянного молота мышкинов.</Make_Mousekin_MeleeWeapon_HammerWood.description>
+
+<!-- EN: Making Mousekin Mallet. -->
+<Make_Mousekin_MeleeWeapon_HammerWood.jobString>Создание деревянного молота мышкинов</Make_Mousekin_MeleeWeapon_HammerWood.jobString>
+
+<!-- EN: make Mousekin Hoe -->
+<Make_Mousekin_MeleeWeapon_Hoe.label>Создать мотыгу мышкинов</Make_Mousekin_MeleeWeapon_Hoe.label>
+
+<!-- EN: Make Mousekin Hoe. -->
+<Make_Mousekin_MeleeWeapon_Hoe.description>Создание мотыги мышкинов.</Make_Mousekin_MeleeWeapon_Hoe.description>
+
+<!-- EN: Making Mousekin Hoe. -->
+<Make_Mousekin_MeleeWeapon_Hoe.jobString>Создание мотыги мышкинов</Make_Mousekin_MeleeWeapon_Hoe.jobString>
+
+<!-- EN: make Mousekin Pickaxe -->
+<Make_Mousekin_MeleeWeapon_Pickaxe.label>Создать кирку мышкинов</Make_Mousekin_MeleeWeapon_Pickaxe.label>
+
+<!-- EN: Make Mousekin Pickaxe. -->
+<Make_Mousekin_MeleeWeapon_Pickaxe.description>Создание кирки мышкинов.</Make_Mousekin_MeleeWeapon_Pickaxe.description>
+
+<!-- EN: Making Mousekin Pickaxe. -->
+<Make_Mousekin_MeleeWeapon_Pickaxe.jobString>Создание кирки мышкинов</Make_Mousekin_MeleeWeapon_Pickaxe.jobString>
+
+<!-- EN: make Mousekin Pike -->
+<Make_Mousekin_MeleeWeapon_PikeRegular.label>Создать пику мышкинов</Make_Mousekin_MeleeWeapon_PikeRegular.label>
+
+<!-- EN: Make Mousekin Pike. -->
+<Make_Mousekin_MeleeWeapon_PikeRegular.description>Создание пики мышкинов.</Make_Mousekin_MeleeWeapon_PikeRegular.description>
+
+<!-- EN: Making Mousekin Pike. -->
+<Make_Mousekin_MeleeWeapon_PikeRegular.jobString>Создание пики мышкинов</Make_Mousekin_MeleeWeapon_PikeRegular.jobString>
+
+<!-- EN: make Mousekin Pitchfork -->
+<Make_Mousekin_MeleeWeapon_Pitchfork.label>Создать вилы мышкинов</Make_Mousekin_MeleeWeapon_Pitchfork.label>
+
+<!-- EN: Make Mousekin Pitchfork. -->
+<Make_Mousekin_MeleeWeapon_Pitchfork.description>Создание вил мышкинов.</Make_Mousekin_MeleeWeapon_Pitchfork.description>
+
+<!-- EN: Making Mousekin Pitchfork. -->
+<Make_Mousekin_MeleeWeapon_Pitchfork.jobString>Создание вил мышкинов</Make_Mousekin_MeleeWeapon_Pitchfork.jobString>
+
+<!-- EN: make Mousekin Guardener’s Sword -->
+<Make_Mousekin_MeleeWeapon_SwordGuardener.label>Создать меч хранителя сада мышкинов</Make_Mousekin_MeleeWeapon_SwordGuardener.label>
+
+<!-- EN: Make Mousekin Guardener’s Sword. -->
+<Make_Mousekin_MeleeWeapon_SwordGuardener.description>Создание меча хранителя сада мышкинов.</Make_Mousekin_MeleeWeapon_SwordGuardener.description>
+
+<!-- EN: Making Mousekin Guardener’s Sword. -->
+<Make_Mousekin_MeleeWeapon_SwordGuardener.jobString>Создание меча хранителя сада мышкинов</Make_Mousekin_MeleeWeapon_SwordGuardener.jobString>
+
+<!-- EN: make Mousekin Guardener’s Training Sword -->
+<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.label>Создать деревянный меч хранителя сада мышкинов</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.label>
+
+<!-- EN: Make Mousekin Guardener’s Training Sword. -->
+<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.description>Создание деревянного меча хранителя сада мышкинов.</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.description>
+
+<!-- EN: Making Mousekin Guardener’s Training Sword. -->
+<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.jobString>Создание деревянного меча хранителя сада мышкинов</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.jobString>
+
+<!-- EN: make Mousekin Knight’s Sword -->
+<Make_Mousekin_MeleeWeapon_SwordKnight.label>Создать меч рыцаря мышкинов</Make_Mousekin_MeleeWeapon_SwordKnight.label>
+
+<!-- EN: Make Mousekin Knight’s Sword. -->
+<Make_Mousekin_MeleeWeapon_SwordKnight.description>Создание меча рыцаря мышкинов.</Make_Mousekin_MeleeWeapon_SwordKnight.description>
+
+<!-- EN: Making Mousekin Knight’s Sword. -->
+<Make_Mousekin_MeleeWeapon_SwordKnight.jobString>Создание меча рыцаря мышкинов</Make_Mousekin_MeleeWeapon_SwordKnight.jobString>
+
+<!-- EN: make Mousekin Hunter’s Crossbow -->
+<Make_Mousekin_RangedWeapon_Crossbow.label>Создать арбалет охотника мышкинов</Make_Mousekin_RangedWeapon_Crossbow.label>
+
+<!-- EN: Make Mousekin Hunter’s Crossbow. -->
+<Make_Mousekin_RangedWeapon_Crossbow.description>Создание арбалета охотника мышкинов.</Make_Mousekin_RangedWeapon_Crossbow.description>
+
+<!-- EN: Making Mousekin Hunter’s Crossbow. -->
+<Make_Mousekin_RangedWeapon_Crossbow.jobString>Создание арбалета охотника мышкинов</Make_Mousekin_RangedWeapon_Crossbow.jobString>
+
+		<!-- EN: make Mousekin Automatic Crossbow -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.label>Создать арбалет мышкинов</Make_Mousekin_RangedWeapon_CrossbowAuto.label>
+
+	<!-- EN: Make Mousekin Automatic Crossbow. -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.description>Создаёт арбалет мышкинов.</Make_Mousekin_RangedWeapon_CrossbowAuto.description>
+
+	<!-- EN: Making Mousekin Automatic Crossbow. -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.jobString>Создаётся арбалет мышкинов</Make_Mousekin_RangedWeapon_CrossbowAuto.jobString>
+
+	<!-- EN: make Mousekin Musket -->
+	<Make_Mousekin_RangedWeapon_MusketLong.label>Создать мушкет мышкинов</Make_Mousekin_RangedWeapon_MusketLong.label>
+
+	<!-- EN: Make Mousekin Musket. -->
+	<Make_Mousekin_RangedWeapon_MusketLong.description>Создаёт мушкет мышкинов.</Make_Mousekin_RangedWeapon_MusketLong.description>
+
+	<!-- EN: Making Mousekin Musket. -->
+	<Make_Mousekin_RangedWeapon_MusketLong.jobString>Создаётся мушкет мышкинов</Make_Mousekin_RangedWeapon_MusketLong.jobString>
+
+	<!-- EN: make Mousekin Blunderbuss -->
+	<Make_Mousekin_RangedWeapon_MusketShort.label>Создать бандолер мышкинов</Make_Mousekin_RangedWeapon_MusketShort.label>
+
+	<!-- EN: Make Mousekin Blunderbuss. -->
+	<Make_Mousekin_RangedWeapon_MusketShort.description>Создаёт бандолер мышкинов.</Make_Mousekin_RangedWeapon_MusketShort.description>
+
+	<!-- EN: Making Mousekin Blunderbuss. -->
+	<Make_Mousekin_RangedWeapon_MusketShort.jobString>Создаётся бандолер мышкинов</Make_Mousekin_RangedWeapon_MusketShort.jobString>
+
+</LanguageData>

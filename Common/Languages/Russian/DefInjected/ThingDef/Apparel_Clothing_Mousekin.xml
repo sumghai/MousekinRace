@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin Settler’s Outfit -->
+	<Mousekin_ApparelSettlerOutfit.label>Мышкинский наряд поселенца</Mousekin_ApparelSettlerOutfit.label>
+	
+	<!-- EN: A simple shirt, pair of trousers and a vest, typically worn by Mousekin settlers and homesteaders. -->
+	<Mousekin_ApparelSettlerOutfit.description>Простая рубашка, брюки и жилет, обычно носимые мышкиными поселенцами и домовладельцами.</Mousekin_ApparelSettlerOutfit.description>
+	
+	<!-- EN: Mousekin Settler’s Dress -->
+	<Mousekin_ApparelSettlerDress.label>Мышкинское платье поселенца</Mousekin_ApparelSettlerDress.label>
+	
+	<!-- EN: A simple full-body dress with an apron and shawl, typically worn by Mousekin settlers and homesteaders. -->
+	<Mousekin_ApparelSettlerDress.description>Простое платье с фартуком и шалью, обычно носимое мышкиными поселенцами и домовладельцами.</Mousekin_ApparelSettlerDress.description>
+	
+	<!-- EN: Mousekin Worker’s Outfit -->
+	<Mousekin_ApparelWorkerOutfit.label>Мышкинский рабочий наряд</Mousekin_ApparelWorkerOutfit.label>
+	
+	<!-- EN: A simple shirt, pair of trousers and a brown vest, typically worn by Mousekin peasants and laborers. -->
+	<Mousekin_ApparelWorkerOutfit.description>Простая рубашка, брюки и коричневый жилет, обычно носимые мышкиными крестьянами и рабочими.</Mousekin_ApparelWorkerOutfit.description>
+	
+	<!-- EN: Mousekin Worker’s Dress -->
+	<Mousekin_ApparelWorkerDress.label>Мышкинское платье рабочего</Mousekin_ApparelWorkerDress.label>
+	
+	<!-- EN: A blouse and bodice paired with a dress, typically worn by Mousekin peasants, laborers and domestic servants. -->
+	<Mousekin_ApparelWorkerDress.description>Платье, состоящее из блузки и корсета, обычно носимое мышкиными крестьянами, рабочими и домработницами.</Mousekin_ApparelWorkerDress.description>
+	
+	<!-- EN: Mousekin Craftsman’s Outfit -->
+	<Mousekin_ApparelCraftsmanOutfit.label>Мышкинская одежда ремесленника</Mousekin_ApparelCraftsmanOutfit.label>
+	
+	<!-- EN: A loose shirt and trousers protected by a hard-wearing craftsman's apron, practical for all sorts of crafting. Increases the wearer's general labor speed. -->
+	<Mousekin_ApparelCraftsmanOutfit.description>Свободная рубашка и брюки, защищенные прочным фартуком ремесленника, практичные для всех видов ремесла. Увеличивают общую скорость труда носителя.</Mousekin_ApparelCraftsmanOutfit.description>
+	
+	<!-- EN: Mousekin Cloak -->
+	<Mousekin_ApparelCloak.label>Мышкинский плащ</Mousekin_ApparelCloak.label>
+	
+	<!-- EN: A simple hooded cloak worn by Mousekin villagers or travellers in colder climates. -->
+	<Mousekin_ApparelCloak.description>Простой плащ с капюшоном, носимый мышкиными деревенскими жителями или путешественниками в холодных климатах.</Mousekin_ApparelCloak.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>Капюшон</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
+	
+	<!-- EN: Mousekin Guardener’s Gown -->
+	<Mousekin_ApparelGuardenerGown.label>Мышкинское платье хранителя сада</Mousekin_ApparelGuardenerGown.label>
+	
+	<!-- EN: A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat. -->
+	<Mousekin_ApparelGuardenerGown.description>Серая накидка, носимая учениками и полностью посвященными членами Ордена Цветочных Хранителей Мышкинского Королевства, предназначенная для удобства как в садоводстве, так и в бою.</Mousekin_ApparelGuardenerGown.description>
+	
+	<!-- EN: Mousekin Guardener’s Robe -->
+	<Mousekin_ApparelGuardenerRobe.label>Мышкинская ряса хранителя сада</Mousekin_ApparelGuardenerRobe.label>
+	
+	<!-- EN: A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike. -->
+	<Mousekin_ApparelGuardenerRobe.description>Стильная серая ряса, носимая элитными ветеранами и матерями Ложа Ордена Цветочных Хранителей Мышкинского Королевства, предназначенная для вдохновения восхищения как у союзников, так и у врагов.</Mousekin_ApparelGuardenerRobe.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>Капюшон</Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
+	
+	<!-- EN: Mousekin Nun’s Habit -->
+	<Mousekin_ApparelNunHabit.label>Мышкинский наряд монахини</Mousekin_ApparelNunHabit.label>
+	
+	<!-- EN: A demure habit, practical for administering religious rites as well as caring for the sick and orphaned. -->
+	<Mousekin_ApparelNunHabit.description>Скромный наряд, практичный для проведения религиозных обрядов, а также для ухода за больными и сиротами.</Mousekin_ApparelNunHabit.description>
+	
+	<!-- EN: Mousekin Priest’s Cassock -->
+	<Mousekin_ApparelPriestCassock.label>Мышкинский рясный священник</Mousekin_ApparelPriestCassock.label>
+	
+	<!-- EN: An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer. -->
+	<Mousekin_ApparelPriestCassock.description>Туника до щиколотки с характерным священническим воротником, внушающая уважение к своему носителю.</Mousekin_ApparelPriestCassock.description>
+	
+	<!-- EN: Mousekin Gambeson -->
+	<Mousekin_ApparelGambeson.label>Мышкинский гамбезон</Mousekin_ApparelGambeson.label>
+	
+	<!-- EN: A thick, padded defensive jacket and pair of trousers worn by Mousekin soldiers, squires and knights, designed to cushion blows to plate armor. Comfortable to wear in cold climates. -->
+	<Mousekin_ApparelGambeson.description>Толстая подбитая защитная куртка и брюки, носимые мышкиными солдатами, оруженосцами и рыцарями, предназначенные для смягчения ударов по пластинчатой броне. Удобны для ношения в холодном климате.</Mousekin_ApparelGambeson.description>
+	
+	<!-- EN: Mousekin Knight Commander’s Cape -->
+	<Mousekin_ApparelKnightCommanderCape.label>Мышкинский плащ командира рыцарей</Mousekin_ApparelKnightCommanderCape.label>
+	
+	<!-- EN: A stylish blue cape worn by Mousekin knight commanders to inspire awe from both allies and enemies alike. -->
+	<Mousekin_ApparelKnightCommanderCape.description>Стильный синий плащ, носимый мышкиными командирами рыцарей, чтобы внушать восхищение как союзникам, так и врагам.</Mousekin_ApparelKnightCommanderCape.description>
+	
+	<!-- EN: Knight Commander’s Cape Back -->
+	<Mousekin_ApparelKnightCommanderCapeBack.label>Задняя сторона плаща командира рыцарей</Mousekin_ApparelKnightCommanderCapeBack.label>
+	
+	<!-- EN: Back of the Knight Commander’s Cape -->
+	<Mousekin_ApparelKnightCommanderCapeBack.description>Задняя сторона плаща командира рыцарей.</Mousekin_ApparelKnightCommanderCapeBack.description>
+	
+</LanguageData>

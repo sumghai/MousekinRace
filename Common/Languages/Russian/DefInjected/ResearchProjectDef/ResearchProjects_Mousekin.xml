@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Commoner apparel -->
+	<Mousekin_ResearchApparelCommoner.label>Одежда для простолюдинов</Mousekin_ResearchApparelCommoner.label>
+
+	<!-- EN: Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners. -->
+	<Mousekin_ResearchApparelCommoner.description>Будет доступно шитье различных нарядов и аксессуаров эпохи Регентства для повседневной носки простыми мышкинами.</Mousekin_ResearchApparelCommoner.description>
+
+	<!-- EN: Middle-class apparel -->
+	<Mousekin_ResearchApparelMiddle.label>Одежда для среднего класса</Mousekin_ResearchApparelMiddle.label>
+
+	<!-- EN: Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMiddle.description>Будет доступно шитье различных нарядов и аксессуаров для профессиональных мышкинов, включая высококлассных слуг, садоводов, священников и монахинь. Для исследования требуется мышкин в исследовательских очках.</Mousekin_ResearchApparelMiddle.description>
+
+	<!-- EN: Military apparel -->
+	<Mousekin_ResearchApparelMilitary.label>Военная одежда</Mousekin_ResearchApparelMilitary.label>
+
+	<!-- EN: Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMilitary.description>Будет доступно шитье мягких гамбесонов и кование различных доспехов и шлемов для защиты мышкинов-солдат и рыцарей в бою. Для исследования требуется мышкин в исследовательских очках.</Mousekin_ResearchApparelMilitary.description>
+
+	<!-- EN: Aristocratic apparel -->
+	<Mousekin_ResearchApparelNoble.label>Одежда для аристократов</Mousekin_ResearchApparelNoble.label>
+
+	<!-- EN: Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelNoble.description>Будет доступно шитье стильной формальной одежды для аристократических мышкинов с утонченным вкусом. Для исследования требуется мышкин в исследовательских очках.</Mousekin_ResearchApparelNoble.description>
+
+	<!-- EN: Medicinal alchemy -->
+	<Mousekin_ResearchAlchemy.label>Медицинская алхимия</Mousekin_ResearchAlchemy.label>
+
+	<!-- EN: Concoct poultices and potions from a variety of herbal and mineral ingredients. -->
+	<Mousekin_ResearchAlchemy.description>Будет доступно приготовление мазей и зельев из различных травяных и минеральных ингредиентов.</Mousekin_ResearchAlchemy.description>
+
+	<!-- EN: Charcoal -->
+	<Mousekin_ResearchCharcoal.label>Древесный уголь</Mousekin_ResearchCharcoal.label>
+
+	<!-- EN: Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions. -->
+	<Mousekin_ResearchCharcoal.description>Будет доступна переработка древесины в древесный уголь, который может использоваться как высокоэффективный источник топлива или как ингредиент в различных медицинских зельях для мышкинов.</Mousekin_ResearchCharcoal.description>
+
+	<!-- EN: Clockwork mechanisms -->
+	<Mousekin_ResearchMachineryBasic.label>Часовые механизмы</Mousekin_ResearchMachineryBasic.label>
+
+	<!-- EN: Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryBasic.description>Будет доступно создание сложных компонентов и заводных механизмов для использования в различных устройствах, таких как автоматические арбалеты. Для исследования требуется мышкин в исследовательских очках.</Mousekin_ResearchMachineryBasic.description>
+
+	<!-- EN: Heavy machinery -->
+	<Mousekin_ResearchMachineryAdvanced.label>Тяжелое оборудование</Mousekin_ResearchMachineryAdvanced.label>
+
+	<!-- EN: Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryAdvanced.description>Будет доступно строительство тяжелого оборудования, такого как водные плавильни и катапульты. Для исследования требуется мышкин в исследовательских очках.</Mousekin_ResearchMachineryAdvanced.description>
+
+	<!-- EN: Deep mining -->
+	<Mousekin_ResearchMining.label>Глубокая шахта</Mousekin_ResearchMining.label>
+
+	<!-- EN: Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMining.description>Будет доступно строительство входов в глубокие шахты для добычи обычных и экзотических минералов. Для исследования требуется мышкин в исследовательских очках.</Mousekin_ResearchMining.description>
+
+	<!-- EN: Gunpowder -->
+	<Mousekin_ResearchGunpowder.label>Порох</Mousekin_ResearchGunpowder.label>
+
+	<!-- EN: Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchGunpowder.description>Будет доступно изготовление примитивных взрывчатых веществ мышкинов, используемых в качестве пороха в оружии, таком как мушкеты, поворотные пушки и пушки. Для исследования требуется мышкин в исследовательских очках.</Mousekin_ResearchGunpowder.description>
+
+	<!-- EN: Cast-iron stoves -->
+	<Mousekin_ResearchCookingIronStoves.label>Чугунные плиты</Mousekin_ResearchCookingIronStoves.label>
+
+	<!-- EN: Build cast-iron stoves for cooking more complex Mousekin dishes. -->
+	<Mousekin_ResearchCookingIronStoves.description>Будет доступно строительство чугунных плит для приготовления более сложных блюд мышкинов.</Mousekin_ResearchCookingIronStoves.description>
+
+	<!-- EN: Apiaries -->
+	<Mousekin_ResearchBeekeeping.label>Пчеловодство</Mousekin_ResearchBeekeeping.label>
+
+	<!-- EN: Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles. -->
+	<Mousekin_ResearchBeekeeping.description>Будет доступно строительство деревянных ульев для получения меда для кулинарии и пивоварения, а также воска для свечей.</Mousekin_ResearchBeekeeping.description>
+
+	<!-- EN: Aristocratic cuisine -->
+	<Mousekin_ResearchCookingNoble.label>Аристократическая кухня</Mousekin_ResearchCookingNoble.label>
+
+	<!-- EN: Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchCookingNoble.description>Будет доступно приготовление кулинарных шедевров для самых взыскательных мышкинов. Для исследования требуется мышкин в исследовательских очках.</Mousekin_ResearchCookingNoble.description>
+
+	<!-- EN: Cottage building -->
+	<Mousekin_ResearchBuildingVillage.label>Строительство коттеджей</Mousekin_ResearchBuildingVillage.label>
+
+	<!-- EN: Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows. -->
+	<Mousekin_ResearchBuildingVillage.description>Будет доступно строительство домов для простых мышкинов с использованием стен из прутьев и глины, дверей и окон.</Mousekin_ResearchBuildingVillage.description>
+
+	<!-- EN: Castle architecture -->
+	<Mousekin_ResearchBuildingCastle.label>Замковая архитектура</Mousekin_ResearchBuildingCastle.label>
+
+	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
+	<Mousekin_ResearchBuildingCastle.description>Будет доступно строительство усадеб для мышкинов-аристократов и укреплений для защиты сообществ мышкинов от внешних угроз.</Mousekin_ResearchBuildingCastle.description>
+	
+</LanguageData>

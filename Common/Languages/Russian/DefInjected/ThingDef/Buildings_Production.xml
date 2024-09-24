@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin Cast-Iron Stove -->
+	<Mousekin_CastIronStove.label>Мышкинский чугунный котел</Mousekin_CastIronStove.label>
+	
+	<!-- EN: A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals. -->
+	<Mousekin_CastIronStove.description>Тяжелая чугунная печь с несколькими конфорками и двумя духовками для приготовления сложных блюд.</Mousekin_CastIronStove.description>
+	
+	<!-- EN: Mousekin alchemy bench -->
+	<Mousekin_WorkbenchAlchemy.label>Мышкинская алхимическая скамейка</Mousekin_WorkbenchAlchemy.label>
+	
+	<!-- EN: A workbench for concocting various Mousekin herbal poultices, potions and explosives. -->
+	<Mousekin_WorkbenchAlchemy.description>Рабочая скамейка для приготовления различных травяных настоев, зельев и взрывчатых веществ Мышкина.</Mousekin_WorkbenchAlchemy.description>
+	
+	<!-- EN: Mousekin brewery -->
+	<Mousekin_WorkbenchBrewery.label>Мышкинская пивоварня</Mousekin_WorkbenchBrewery.label>
+	
+	<!-- EN: A workbench for preparing musts used in the fermentation of various Mousekin alcoholic beverages. -->
+	<Mousekin_WorkbenchBrewery.description>Рабочая скамейка для приготовления сусла, используемого для ферментации различных алкогольных напитков Мышкина.</Mousekin_WorkbenchBrewery.description>
+	
+	<!-- EN: Mousekin butcher table -->
+	<Mousekin_WorkbenchButcher.label>Мышкинская столярная скамейка</Mousekin_WorkbenchButcher.label>
+	
+	<!-- EN: A workbench with a sturdy countertop used for butchering dead creatures into pieces of raw meat. -->
+	<Mousekin_WorkbenchButcher.description>Рабочая скамейка с прочным столешницей, используемая для разделки мертвых существ на куски сырого мяса.</Mousekin_WorkbenchButcher.description>
+	
+	<!-- EN: Mousekin crafting bench -->
+	<Mousekin_WorkbenchCrafting.label>Мышкинская ремесленная скамейка</Mousekin_WorkbenchCrafting.label>
+	
+	<!-- EN: A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting stone blocks and carving sculptures. -->
+	<Mousekin_WorkbenchCrafting.description>Рабочая скамейка для создания различных предметов, от механических часов и очков до деревянных молотков и желудевых гранат, а также для резки каменных блоков и лепки скульптур.</Mousekin_WorkbenchCrafting.description>
+	
+	<!-- EN: Mousekin smithy -->
+	<Mousekin_WorkbenchSmithy.label>Мышкинская кузница</Mousekin_WorkbenchSmithy.label>
+	
+	<!-- EN: A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty. -->
+	<Mousekin_WorkbenchSmithy.description>Кузница, наковальня и чан для закалки, предназначенные для кузнечного ремесла различных оружий, инструментов и пластинчатых доспехов Мышкина. Требует древесину в качестве топлива и может использоваться на открытом воздухе без штрафов за скорость работы.</Mousekin_WorkbenchSmithy.description>
+	
+	<!-- EN: Mousekin seamstress bench -->
+	<Mousekin_WorkbenchTailor.label>Мышкинская швейная скамейка</Mousekin_WorkbenchTailor.label>
+	
+	<!-- EN: A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing. -->
+	<Mousekin_WorkbenchTailor.description>Рабочая скамейка с чугунной ножной швейной машинкой для пошива одежды Мышкина.</Mousekin_WorkbenchTailor.description>
+	
+	<!-- EN: Mousekin beehive -->
+	<Mousekin_Beehive.label>Мышкинская пчелиная улей</Mousekin_Beehive.label>
+	
+	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate. -->
+	<Mousekin_Beehive.description>Деревянный улей для содержания пчел. Благодаря изобретательности мышек, ячейки сот в рамках расплода предназначены для простого разрезания при помощи рычага, позволяя легко собирать мед и воск, не беспокоя пчел. Для работы требуется как минимум 20 цветов, посаженных в пределах обозначенного круглого радиуса.</Mousekin_Beehive.description>
+	
+	<!-- EN: Mousekin cheese press -->
+	<Mousekin_CheesePress.label>Мышкинская сыроделка</Mousekin_CheesePress.label>
+	
+	<!-- EN: A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese. -->
+	<Mousekin_CheesePress.description>Деревянное устройство для отжима сыворотки из молочных сгустков для производства колесиков сыра Кловербери.</Mousekin_CheesePress.description>
+	
+	<!-- EN: Mousekin fermenting barrel -->
+	<Mousekin_FermentingBarrel.label>Мышкинская бочка для ферментации</Mousekin_FermentingBarrel.label>
+	
+	<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
+	<Mousekin_FermentingBarrel.description>Большая бочка для ферментации различных алкогольных напитков Мышкина. Требует прохладное, темное помещение.</Mousekin_FermentingBarrel.description>
+	
+	<!-- EN: Mousekin research bench -->
+	<Mousekin_ResearchBench.label>Мышкинская исследовательская скамейка</Mousekin_ResearchBench.label>
+	
+	<!-- EN: A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things. -->
+	<Mousekin_ResearchBench.description>Скамейка с экспериментальным стекляннымware, разнообразными компонентами, простыми измерительными инструментами, канцелярскими принадлежностями и справочными книгами. Исследователи Мышкина работают здесь, чтобы делать новые открытия.</Mousekin_ResearchBench.description>
+	
+	<!-- EN: Mousekin windmill -->
+	<Mousekin_Windmill.label>Мышкинская ветряная мельница</Mousekin_Windmill.label>
+	
+	<!-- EN: A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water. -->
+	<Mousekin_Windmill.description>Деревянная башня, которая преобразует ветер в вращательную энергию для помола зерна в муку или для откачки воды для орошения. Очень медленно выравнивает влажность в окрестностях, превращая болота или мелководье в сухую землю, мягкий песок в обычный песок и обычную почву в богатую, плодородную почву, идеальную для посева сельскохозяйственных культур и цветочных садов. Не влияет на глубокую воду.</Mousekin_Windmill.description>
+	
+</LanguageData>

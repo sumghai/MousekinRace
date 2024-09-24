@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- EN: Mousekin Hunter’s Crossbow -->
+    <Mousekin_RangedWeapon_Crossbow.label>Мышкин охотничий арбалет</Mousekin_RangedWeapon_Crossbow.label>
+    
+    <!-- EN: A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used for hunting or self-defense, firing one bolt at a time using fiber or sinew strings under tension, and comes with a miniature crank wheel to allow the relatively weak Mousekins to quickly and easily draw the bow after firing. Its grip and trigger are too small for a human to wield and operate properly. -->
+    <Mousekin_RangedWeapon_Crossbow.description>Дальнобойное оружие, которое эластично запускает деревянные болты на дальние цели.\n\nЭтот арбалет в основном используется для охоты или самозащиты, стреляя по одному болту за раз с помощью натянутых волокон или сухожилий, и снабжен миниатюрным ручным механизмом, который позволяет относительно слабым Мышкам быстро и легко натягивать лук после выстрела. Его ручка и спусковой механизм слишком малы для человека, чтобы правильно ими управлять.</Mousekin_RangedWeapon_Crossbow.description>
+    
+    <!-- EN: stirrup -->
+    <Mousekin_RangedWeapon_Crossbow.tools.0.label>Подножка</Mousekin_RangedWeapon_Crossbow.tools.0.label>
+    
+    <!-- EN: Mousekin Hunter’s Crossbow -->
+    <Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>Мышкин охотничий арбалет</Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>
+    
+    <!-- EN: Mousekin Automatic Crossbow -->
+    <Mousekin_RangedWeapon_CrossbowAuto.label>Мышкин автоматический арбалет</Mousekin_RangedWeapon_CrossbowAuto.label>
+    
+    <!-- EN: A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used in combat, firing multiple bolts in quick succession from a removable drum magazine using fiber or sinew strings under tension, and uses a wind-up spring mechanism to automatically reload and fire the next shot. Its grip and trigger are too small for a human to wield and operate properly. -->
+    <Mousekin_RangedWeapon_CrossbowAuto.description>Дальнобойное оружие, которое эластично запускает деревянные болты на дальние цели.\n\nЭтот арбалет в основном используется в бою, стреляя несколькими болтами подряд из съемного барабанного магазина с помощью натянутых волокон или сухожилий, и использует механизм с пружиной для автоматической перезарядки и следующего выстрела. Его ручка и спусковой механизм слишком малы для человека, чтобы правильно ими управлять.</Mousekin_RangedWeapon_CrossbowAuto.description>
+    
+    <!-- EN: stirrup -->
+    <Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>Подножка</Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>
+    
+    <!-- EN: Mousekin Automatic Crossbow -->
+    <Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>Мышкин автоматический арбалет</Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>
+    
+    <!-- EN: Mousekin Musket -->
+    <Mousekin_RangedWeapon_MusketLong.label>Мышкин мушкет</Mousekin_RangedWeapon_MusketLong.label>
+    
+    <!-- EN: A slow-firing firearm that propels small, smooth cast iron balls at distant targets, with a longer effective range and greater damage than crossbows. Its grip and trigger are too small for a human to wield and operate properly. -->
+    <Mousekin_RangedWeapon_MusketLong.description>Медленно стреляющее огнестрельное оружие, которое выталкивает небольшие гладкие чугунные шарики на дальние цели, с большим эффективным диапазоном и большей мощностью, чем арбалеты. Его ручка и спусковой механизм слишком малы для человека, чтобы правильно ими управлять.</Mousekin_RangedWeapon_MusketLong.description>
+    
+    <!-- EN: stock -->
+    <Mousekin_RangedWeapon_MusketLong.tools.0.label>Приклад</Mousekin_RangedWeapon_MusketLong.tools.0.label>
+    
+    <!-- EN: barrel -->
+    <Mousekin_RangedWeapon_MusketLong.tools.1.label>Ствол</Mousekin_RangedWeapon_MusketLong.tools.1.label>
+    
+    <!-- EN: Mousekin Musket -->
+    <Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>Мышкин мушкет</Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>
+    
+    <!-- EN: Mousekin Blunderbuss -->
+    <Mousekin_RangedWeapon_MusketShort.label>Мышкин бландабус</Mousekin_RangedWeapon_MusketShort.label>
+    
+    <!-- EN: A slow-firing firearm shorter than the regular Mousekin Musket, with a comparably shorter effective range but capable of great damage against armored targets. Its grip and trigger are too small for a human to wield and operate properly. -->
+    <Mousekin_RangedWeapon_MusketShort.description>Медленно стреляющее огнестрельное оружие, короче обычного мушкета Мышкина, с относительно коротким эффективным диапазоном, но способное нанести большой урон бронебойным целям. Его ручка и спусковой механизм слишком малы для человека, чтобы правильно ими управлять.</Mousekin_RangedWeapon_MusketShort.description>
+    
+    <!-- EN: stock -->
+    <Mousekin_RangedWeapon_MusketShort.tools.0.label>Приклад</Mousekin_RangedWeapon_MusketShort.tools.0.label>
+    
+    <!-- EN: barrel -->
+    <Mousekin_RangedWeapon_MusketShort.tools.1.label>Ствол</Mousekin_RangedWeapon_MusketShort.tools.1.label>
+    
+    <!-- EN: Mousekin Blunderbuss -->
+    <Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>Мышкин бландабус</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
+    
+</LanguageData>
