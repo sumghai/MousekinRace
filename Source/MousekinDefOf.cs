@@ -127,6 +127,9 @@ namespace MousekinRace
         [MayRequireIdeology]
         public static PreceptDef HAR_AlienRaces_Exalted;
 
+        [MayRequireIdeology]
+        public static RulePackDef NamerRoleMoralist_Mousekin;
+
         [MayRequireBiotech]
         public static PawnKindDef MousekinChild;
 

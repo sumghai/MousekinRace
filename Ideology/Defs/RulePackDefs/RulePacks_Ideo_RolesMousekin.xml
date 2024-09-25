@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- 
+		Custom name maker called programmatically to replace the standard Moralist role namer,
+		and limit the role name generation to just the moralist title (e.g. Mousekin Pope, not Valernist Mousekin Pope or Valerian the Wise's Mousekin Pope)
+	-->
+
+	<RulePackDef>
+		<defName>NamerRoleMoralist_Mousekin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_roleName->[memeMoralist]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>
