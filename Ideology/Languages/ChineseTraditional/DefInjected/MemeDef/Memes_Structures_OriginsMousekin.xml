@@ -7,11 +7,14 @@
 	<!-- EN: This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins. -->
 	<Structure_OriginMousekin.description>抽象一神論架構的一個變體，這個信仰表面上類似於古代基督教，但在數千年前由智者綞草首先向他的原始白鼠族同胞傳播的教義獨立演變而來。</Structure_OriginMousekin.description>
 
-	<!-- EN: memeMoralist->Mousekin Pope -->
-	<Structure_OriginMousekin.generalRules.rulesStrings.0>memeMoralist->白鼠族教宗</Structure_OriginMousekin.generalRules.rulesStrings.0>
-	
-	<!-- EN: memeAdjective-> (leave blank) -->
-	<Structure_OriginMousekin.generalRules.rulesStrings.1>memeAdjective-> </Structure_OriginMousekin.generalRules.rulesStrings.1>
+	<!-- EN:
+		<li>memeMoralist->Mousekin Pope</li>
+		<li>memeAdjective-> (leave blank)</li>
+	-->
+	<Structure_OriginMousekin.generalRules.rulesStrings>
+		<li>memeMoralist->白鼠族教宗</li>
+		<li>memeAdjective-> </li>
+	</Structure_OriginMousekin.generalRules.rulesStrings>
 
 	<!-- EN: Mousekin -->
 	<Structure_OriginMousekin.symbolPacks.0.adjective>白鼠族教的</Structure_OriginMousekin.symbolPacks.0.adjective>

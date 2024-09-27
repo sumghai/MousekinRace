@@ -7,11 +7,14 @@
 	<!-- EN: This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins. -->
 	<Structure_OriginMousekin.description>이것은 구체화된 유신론적 구조의 변형입니다. 이 이데올로기는 표면적으로는 고대 기독교와 비슷하지만, 수천 년 전에 현자 발레리아누스가 그의 동료 원시 쥐킨들에게 처음으로 설교한 교훈에서 독립적으로 진화했습니다.</Structure_OriginMousekin.description>
 
-	<!-- EN: memeMoralist->Mousekin Pope -->
-	<Structure_OriginMousekin.generalRules.rulesStrings.0>memeMoralist->마우스킨 로마 교황</Structure_OriginMousekin.generalRules.rulesStrings.0>
-	
-	<!-- EN: memeAdjective-> (leave blank) -->
-	<Structure_OriginMousekin.generalRules.rulesStrings.1>memeAdjective-> </Structure_OriginMousekin.generalRules.rulesStrings.1>
+	<!-- EN:
+		<li>memeMoralist->Mousekin Pope</li>
+		<li>memeAdjective-> (leave blank)</li>
+	-->
+	<Structure_OriginMousekin.generalRules.rulesStrings>
+		<li>memeMoralist->마우스킨 로마 교황</li>
+		<li>memeAdjective-> </li>
+	</Structure_OriginMousekin.generalRules.rulesStrings>
 
 	<!-- EN: Mousekin -->
 	<Structure_OriginMousekin.symbolPacks.0.adjective>마우스킨</Structure_OriginMousekin.symbolPacks.0.adjective>

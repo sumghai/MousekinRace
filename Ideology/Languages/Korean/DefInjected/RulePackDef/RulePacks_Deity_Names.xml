@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: r_deityName->Valerian the Wise -->
-	<NamerDeityMousekin.rulePack.rulesStrings.0>r_deityName->현자 발레리안</NamerDeityMousekin.rulePack.rulesStrings.0>
+	<!-- EN:
+		<li>r_deityName->Valerian the Wise</li>
+	-->
+	<NamerDeityMousekin.rulePack.rulesStrings>
+		<li>r_deityName->현자 발레리안</li>
+	</NamerDeityMousekin.rulePack.rulesStrings>
 	
 </LanguageData>

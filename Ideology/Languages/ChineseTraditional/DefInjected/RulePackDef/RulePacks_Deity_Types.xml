@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: r_deityType->Sage of Sages -->
-	<DeityTypeMakerMousekin.rulePack.rulesStrings.0>r_deityType->賢者之賢者</DeityTypeMakerMousekin.rulePack.rulesStrings.0>
+	<!-- EN: 
+		<li>r_deityType->Sage of Sages</li>
+	-->
+	<DeityTypeMakerMousekin.rulePack.rulesStrings>
+		<li>r_deityType->賢者之賢者</li>
+	</DeityTypeMakerMousekin.rulePack.rulesStrings>
 	
 </LanguageData>

@@ -7,11 +7,14 @@
 	<!-- EN: This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins. -->
 	<Structure_OriginMousekin.description>Это вариант конкретизированной теистической структуры. Эта идеология поверхностно напоминает древнее христианство, но независимо развилась тысячи лет назад из предписаний, впервые проповеданных Валерианом Мудрым своим соплеменникам-прото-мышкинам.</Structure_OriginMousekin.description>
 
-	<!-- EN: memeMoralist->Mousekin Pope -->
-	<Structure_OriginMousekin.generalRules.rulesStrings.0>memeMoralist->Мишкинский Папа</Structure_OriginMousekin.generalRules.rulesStrings.0>
-	
-	<!-- EN: memeAdjective-> (leave blank) -->
-	<Structure_OriginMousekin.generalRules.rulesStrings.1>memeAdjective-> </Structure_OriginMousekin.generalRules.rulesStrings.1>
+	<!-- EN: 
+		<li>memeMoralist->Mousekin Pope</li>
+		<li>memeAdjective-> (leave blank)</li>
+	-->
+	<Structure_OriginMousekin.generalRules.rulesStrings>
+		<li>memeMoralist->Мишкинский Папа</li>
+		<li>memeAdjective-> </li>
+	</Structure_OriginMousekin.generalRules.rulesStrings>
 
 	<!-- EN: Mousekin -->
 	<Structure_OriginMousekin.symbolPacks.0.adjective>Мишкинский</Structure_OriginMousekin.symbolPacks.0.adjective>

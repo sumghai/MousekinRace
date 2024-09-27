@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: r_leaderTitle->Lord Protector -->
-	<LeaderTitleMaker_MousekinChurch.rulePack.rulesStrings.0>r_leaderTitle->護国卿</LeaderTitleMaker_MousekinChurch.rulePack.rulesStrings.0>
+	<!-- EN:
+		<li>r_leaderTitle->Lord Protector</li>
+	-->
+	<LeaderTitleMaker_MousekinChurch.rulePack.rulesStrings>
+		<li>r_leaderTitle->護国卿</li>
+	</LeaderTitleMaker_MousekinChurch.rulePack.rulesStrings>
 
-	<!-- EN: r_leaderTitle->Prime Councilor -->
-	<LeaderTitleMaker_MousekinRepublic.rulePack.rulesStrings.0>r_leaderTitle->主席評議員</LeaderTitleMaker_MousekinRepublic.rulePack.rulesStrings.0>
+	<!-- EN:
+		<li>r_leaderTitle->Prime Councilor</li>
+	-->
+	<LeaderTitleMaker_MousekinRepublic.rulePack.rulesStrings>
+		<li>r_leaderTitle->主席評議員</li>
+	</LeaderTitleMaker_MousekinRepublic.rulePack.rulesStrings>
 
-	<!-- EN: r_leaderTitle->Wagon Master -->
-	<LeaderTitleMaker_MousekinNomad.rulePack.rulesStrings.0>r_leaderTitle->キャラバン隊長</LeaderTitleMaker_MousekinNomad.rulePack.rulesStrings.0>
+	<!-- EN:
+		<li>r_leaderTitle->Wagon Master</li>
+	-->
+	<LeaderTitleMaker_MousekinNomad.rulePack.rulesStrings>
+		<li>r_leaderTitle->キャラバン隊長</li>
+	</LeaderTitleMaker_MousekinNomad.rulePack.rulesStrings>
 
-	<!-- EN: r_leaderTitle->Leader -->
-	<LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings.0>r_leaderTitle->親分</LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings.0>
+	<!-- EN:
+		<li>r_leaderTitle->Leader</li>
+	-->
+	<LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
+		<li>r_leaderTitle->親分</li>
+	</LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
 	
 </LanguageData>

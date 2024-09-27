@@ -3,18 +3,38 @@
 
 	<!-- No translation required for pawn naming rules -->
 
-	<MousekinNamePackUtility.rulePack.rulesStrings.0>Mousekin_FirstName_Male(p=10)->[mousekin_firstname_male]</MousekinNamePackUtility.rulePack.rulesStrings.0>
-	<MousekinNamePackUtility.rulePack.rulesStrings.1>Mousekin_FirstName_Female(p=10)->[mousekin_firstname_female]</MousekinNamePackUtility.rulePack.rulesStrings.1>
-	<MousekinNamePackUtility.rulePack.rulesStrings.2>Mousekin_LastName_Commoner->[mousekin_surname_commoner]</MousekinNamePackUtility.rulePack.rulesStrings.2>
-	<MousekinNamePackUtility.rulePack.rulesStrings.3>Mousekin_LastName_Heroic->[mousekin_surname_heroic]</MousekinNamePackUtility.rulePack.rulesStrings.3>
-	<MousekinNamePackUtility.rulePack.rulesStrings.4>Mousekin_LastName_Royal->[mousekin_surname_royal]</MousekinNamePackUtility.rulePack.rulesStrings.4>
-	<NamerPerson_MousekinMale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</NamerPerson_MousekinMale.rulePack.rulesStrings.0>
-	<NamerPerson_MousekinFemale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</NamerPerson_MousekinFemale.rulePack.rulesStrings.0>
-	<NamerPerson_MousekinHeroicMale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</NamerPerson_MousekinHeroicMale.rulePack.rulesStrings.0>
-	<NamerPerson_MousekinHeroicMale.rulePack.rulesStrings.1>r_name(p=2)->[Mousekin_FirstName_Male] [Mousekin_LastName_Heroic]</NamerPerson_MousekinHeroicMale.rulePack.rulesStrings.1>
-	<NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings.0>
-	<NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings.1>r_name(p=2)->[Mousekin_FirstName_Female] [Mousekin_LastName_Heroic]</NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings.1>
-	<NamerPerson_MousekinRoyalMale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</NamerPerson_MousekinRoyalMale.rulePack.rulesStrings.0>
-	<NamerPerson_MousekinRoyalFemale.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</NamerPerson_MousekinRoyalFemale.rulePack.rulesStrings.0>
+	<MousekinNamePackUtility.rulePack.rulesStrings>
+		<li>Mousekin_FirstName_Male(p=10)->[mousekin_firstname_male]</li>
+		<li>Mousekin_FirstName_Female(p=10)->[mousekin_firstname_female]</li>
+		<li>Mousekin_LastName_Commoner->[mousekin_surname_commoner]</li>
+		<li>Mousekin_LastName_Heroic->[mousekin_surname_heroic]</li>
+		<li>Mousekin_LastName_Royal->[mousekin_surname_royal]</li>
+	</MousekinNamePackUtility.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinMale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+	</NamerPerson_MousekinMale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinFemale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+	</NamerPerson_MousekinFemale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinHeroicMale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>r_name(p=2)->[Mousekin_FirstName_Male] [Mousekin_LastName_Heroic]</li>
+	</NamerPerson_MousekinHeroicMale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		<li>r_name(p=2)->[Mousekin_FirstName_Female] [Mousekin_LastName_Heroic]</li>
+	</NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinRoyalMale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</li>
+	</NamerPerson_MousekinRoyalMale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinRoyalFemale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</li>
+	</NamerPerson_MousekinRoyalFemale.rulePack.rulesStrings>
 	
 </LanguageData>

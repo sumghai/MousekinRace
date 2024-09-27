@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: description->In ages past, mice once squabbled over berries, nuts and fertile mouse maidens, their uncivilized ways blighting the land. Through the teachings of [deity0_name] and his thirteen disciples, we came to honor our forefathers for bestowing us the gift of life by keeping our flesh and spirits pure, and to venerate the meadows and forests that nourish us. For those that heed the wisdom of [deity0_name] are rewarded with everlasting life in The Great Garden, while the deviants and the wicked shall wander The Wasteland forevermore. -->
-	<Mousekin_IdeoDesc_Kingdom.rules.rulesStrings.0>description->その昔、ネズミは木の実や豊穣の処女をめぐって争い、その未開なやり方が大地を荒廃させました.[deity0_name]と彼の13人の弟子たちの教えによって、私たちは肉と精神を清らかに保つことによって、生命の贈り物を与えてくれた祖先を尊敬し、私たちを養ってくれる草原と森を崇めるようになった.[deity0_name]の知恵に耳を傾ける者は、大庭園での永遠の命で報われ、逸脱者と邪悪な者は永遠に荒れ地をさまようことになるからである.</Mousekin_IdeoDesc_Kingdom.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->In ages past, mice once squabbled over berries, nuts and fertile mouse maidens, their uncivilized ways blighting the land. Through the teachings of [deity0_name] and his thirteen disciples, we came to honor our forefathers for bestowing us the gift of life by keeping our flesh and spirits pure, and to venerate the meadows and forests that nourish us. For those that heed the wisdom of [deity0_name] are rewarded with everlasting life in The Great Garden, while the deviants and the wicked shall wander The Wasteland forevermore.</li>
+	-->
+	<Mousekin_IdeoDesc_Kingdom.rules.rulesStrings>
+		<li>description->その昔、ネズミは木の実や豊穣の処女をめぐって争い、その未開なやり方が大地を荒廃させました.[deity0_name]と彼の13人の弟子たちの教えによって、私たちは肉と精神を清らかに保つことによって、生命の贈り物を与えてくれた祖先を尊敬し、私たちを養ってくれる草原と森を崇めるようになった.[deity0_name]の知恵に耳を傾ける者は、大庭園での永遠の命で報われ、逸脱者と邪悪な者は永遠に荒れ地をさまようことになるからである.</li>
+	</Mousekin_IdeoDesc_Kingdom.rules.rulesStrings>
 
-	<!-- EN: description->For generations, our ancestors toiled in the fields and mines of the Kingdom, chafing under the heavy taxes levied by nobles. The mice of the woods, moved by our plight, shared a feast of vension poached from the King's own forests, while teaching us the ways of brotherhood and equality. Inspired by their generosity and wisdom, we turned our backs on those who would exploit us for their own gain, and built a society where every mouse could squeak their mind and enjoy the fair fruits of their own labors. -->
-	<Mousekin_IdeoDesc_IndyTown.rules.rulesStrings.0>description->先祖代々王国の畑や鉱山で働き、貴族から課される重い税に苦しめられてきた.森のネズミたちは、我々の窮状に心を動かされ、国王の森で獲れた鹿肉をごちそうになりながら、兄弟愛と平等の道を教えてくれた.彼らの寛大さと知恵に触発された私たちは、私たちの利益のために搾取する者たちに背を向け、すべてのネズミが自分の心を鳴らし、自分の労働の公正な成果を享受できる社会を作りました.</Mousekin_IdeoDesc_IndyTown.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->For generations, our ancestors toiled in the fields and mines of the Kingdom, chafing under the heavy taxes levied by nobles. The mice of the woods, moved by our plight, shared a feast of vension poached from the King's own forests, while teaching us the ways of brotherhood and equality. Inspired by their generosity and wisdom, we turned our backs on those who would exploit us for their own gain, and built a society where every mouse could squeak their mind and enjoy the fair fruits of their own labors.</li>
+	-->
+	<Mousekin_IdeoDesc_IndyTown.rules.rulesStrings>
+		<li>description->先祖代々王国の畑や鉱山で働き、貴族から課される重い税に苦しめられてきた.森のネズミたちは、我々の窮状に心を動かされ、国王の森で獲れた鹿肉をごちそうになりながら、兄弟愛と平等の道を教えてくれた.彼らの寛大さと知恵に触発された私たちは、私たちの利益のために搾取する者たちに背を向け、すべてのネズミが自分の心を鳴らし、自分の労働の公正な成果を享受できる社会を作りました.</li>
+	</Mousekin_IdeoDesc_IndyTown.rules.rulesStrings>
 
-	<!-- EN: description->Just as our ancestors once roamed the meadows and forests for sustenance, we too wander in search of spritiual succor and beauty. For change is the only constant, and to remain is to stagnate.\n\nThis is the Way. -->
-	<Mousekin_IdeoDesc_Nomad.rules.rulesStrings.0>description->かつて私たちの祖先が食べ物を求めて草原や森を歩き回ったように、私たちも精神的な安らぎや美しさを求めてさまよい歩くのです.変化こそ唯一の不変のものであり、留まることは停滞することだからです.\n\n我らの道.</Mousekin_IdeoDesc_Nomad.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->Just as our ancestors once roamed the meadows and forests for sustenance, we too wander in search of spritiual succor and beauty. For change is the only constant, and to remain is to stagnate.\n\nThis is the Way.</li>
+	-->
+	<Mousekin_IdeoDesc_Nomad.rules.rulesStrings>
+		<li>description->かつて私たちの祖先が食べ物を求めて草原や森を歩き回ったように、私たちも精神的な安らぎや美しさを求めてさまよい歩くのです.変化こそ唯一の不変のものであり、留まることは停滞することだからです.\n\n我らの道.</li>
+	</Mousekin_IdeoDesc_Nomad.rules.rulesStrings>
 
-	<!-- EN: description->"My nuts! Mine, all mine!"\n\n  - Castor Gnawtooth, while picking through his spoils -->
-	<Mousekin_IdeoDesc_Brigand.rules.rulesStrings.0>description->"私のナッツ！俺のだ、全部俺のだ！"\n\n  - キャスター・ノートゥースが、戦利品を拾いながら</Mousekin_IdeoDesc_Brigand.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->"My nuts! Mine, all mine!"\n\n  - Castor Gnawtooth, while picking through his spoils</li>
+	-->
+	<Mousekin_IdeoDesc_Brigand.rules.rulesStrings>
+		<li>description->"私のナッツ！俺のだ、全部俺のだ！"\n\n  - キャスター・ノートゥースが、戦利品を拾いながら</li>
+	</Mousekin_IdeoDesc_Brigand.rules.rulesStrings>
 	
 </LanguageData>

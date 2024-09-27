@@ -1,52 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: r_ideoName->Word of Valerian -->
-	<NamerIdeoMousekinChurch.rulePack.rulesStrings.0>r_ideoName->缬草之言</NamerIdeoMousekinChurch.rulePack.rulesStrings.0>
+	<!-- EN: 
+		<li>r_ideoName->Word of Valerian</li>
+		<li>r_ideoAdjective->Valerianist</li>
+		<li>r_memberName->Valerianist</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoMousekinChurch.rulePack.rulesStrings>
+		<li>r_ideoName->缬草之言</li>
+		<li>r_ideoAdjective->缬草教的</li>
+		<li>r_memberName->缬草教徒</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoMousekinChurch.rulePack.rulesStrings>
 
-	<!-- EN: r_ideoAdjective->Valerianist -->
-	<NamerIdeoMousekinChurch.rulePack.rulesStrings.1>r_ideoAdjective->缬草教的</NamerIdeoMousekinChurch.rulePack.rulesStrings.1>
+	<!-- EN:
+		<li>r_ideoName->Agrarian Republicanism</li>
+		<li>r_ideoAdjective->Republican</li>
+		<li>r_memberName->Republican</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoMousekinRepublic.rulePack.rulesStrings>
+		<li>r_ideoName->农业民主义</li>
+		<li>r_ideoAdjective->民主</li>
+		<li>r_memberName->民主者</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoMousekinRepublic.rulePack.rulesStrings>
 
-	<!-- EN: r_memberName->Valerianist -->
-	<NamerIdeoMousekinChurch.rulePack.rulesStrings.2>r_memberName->缬草教徒</NamerIdeoMousekinChurch.rulePack.rulesStrings.2>
-	
-	<!-- EN: hyphenPrefix-> (leave blank) -->
-	<NamerIdeoMousekinChurch.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinChurch.rulePack.rulesStrings.3>
+	<!-- EN:
+		<li>r_ideoName->Way of the Rodemani</li>
+		<li>r_ideoAdjective->Rodemani</li>
+		<li>r_memberName->Rodemani</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoMousekinNomad.rulePack.rulesStrings>
+		<li>r_ideoName->罗德马尼之道</li>
+		<li>r_ideoAdjective->罗德马尼</li>
+		<li>r_memberName->罗德马尼</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoMousekinNomad.rulePack.rulesStrings>
 
-	<!-- EN: r_ideoName->Agrarian Republicanism -->
-	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.0>r_ideoName->农业民主义</NamerIdeoMousekinRepublic.rulePack.rulesStrings.0>
-
-	<!-- EN: r_ideoAdjective->Republican -->
-	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.1>r_ideoAdjective->民主</NamerIdeoMousekinRepublic.rulePack.rulesStrings.1>
-
-	<!-- EN: r_memberName->Republican -->
-	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.2>r_memberName->民主者</NamerIdeoMousekinRepublic.rulePack.rulesStrings.2>
-	
-	<!-- EN: hyphenPrefix-> (leave blank) -->
-	<NamerIdeoMousekinRepublic.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinRepublic.rulePack.rulesStrings.3>
-
-	<!-- EN: r_ideoName->Way of the Rodemani -->
-	<NamerIdeoMousekinNomad.rulePack.rulesStrings.0>r_ideoName->罗德马尼之道</NamerIdeoMousekinNomad.rulePack.rulesStrings.0>
-
-	<!-- EN: r_ideoAdjective->Rodemani -->
-	<NamerIdeoMousekinNomad.rulePack.rulesStrings.1>r_ideoAdjective->罗德马尼</NamerIdeoMousekinNomad.rulePack.rulesStrings.1>
-
-	<!-- EN: r_memberName->Rodemani -->
-	<NamerIdeoMousekinNomad.rulePack.rulesStrings.2>r_memberName->罗德马尼</NamerIdeoMousekinNomad.rulePack.rulesStrings.2>
-	
-	<!-- EN: hyphenPrefix-> (leave blank) -->
-	<NamerIdeoMousekinNomad.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinNomad.rulePack.rulesStrings.3>
-
-	<!-- EN: r_ideoName->Outpawism -->
-	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.0>r_ideoName->非爪主义</NamerIdeoMousekinBrigands.rulePack.rulesStrings.0>
-
-	<!-- EN: r_ideoAdjective->Outpaw -->
-	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.1>r_ideoAdjective->非爪</NamerIdeoMousekinBrigands.rulePack.rulesStrings.1>
-
-	<!-- EN: r_memberName->Outpawian -->
-	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.2>r_memberName->非爪者</NamerIdeoMousekinBrigands.rulePack.rulesStrings.2>
-	
-	<!-- EN: hyphenPrefix-> (leave blank) -->
-	<NamerIdeoMousekinBrigands.rulePack.rulesStrings.3>hyphenPrefix-> </NamerIdeoMousekinBrigands.rulePack.rulesStrings.3>
+	<!-- EN:
+		<li>r_ideoName->Outpawism</li>
+		<li>r_ideoAdjective->Outpaw</li>
+		<li>r_memberName->Outpawian</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoMousekinBrigands.rulePack.rulesStrings>
+		<li>r_ideoName->非爪主义</li>
+		<li>r_ideoAdjective->非爪</li>
+		<li>r_memberName->非爪者</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoMousekinBrigands.rulePack.rulesStrings>
 	
 </LanguageData>

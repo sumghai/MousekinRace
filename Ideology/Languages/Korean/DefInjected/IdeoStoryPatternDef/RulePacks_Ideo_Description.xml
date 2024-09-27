@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: description->In ages past, mice once squabbled over berries, nuts and fertile mouse maidens, their uncivilized ways blighting the land. Through the teachings of [deity0_name] and his thirteen disciples, we came to honor our forefathers for bestowing us the gift of life by keeping our flesh and spirits pure, and to venerate the meadows and forests that nourish us. For those that heed the wisdom of [deity0_name] are rewarded with everlasting life in The Great Garden, while the deviants and the wicked shall wander The Wasteland forevermore. -->
-	<Mousekin_IdeoDesc_Kingdom.rules.rulesStrings.0>description->옛날에 생쥐는 열매, 견과류, 번식력이 좋은 생쥐 처녀를 놓고 다투었고, 그들의 미개한 방식은 땅을 황폐화시켰습니다. [deity0_name]과 그의 열세 제자의 가르침을 통해 우리는 우리의 육체와 영혼을 순수하게 지켜 생명의 선물을 주신 조상들을 존경하고 우리를 양육하는 초원과 숲을 숭배하게 되었습니다. [deity0_name]의 지혜에 주의를 기울이는 자에게는 그레이트 가든에서 영원한 생명이 보상되는 반면, 일탈자와 악인은 황무지를 영원히 떠돌아다닐 것입니다.</Mousekin_IdeoDesc_Kingdom.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->In ages past, mice once squabbled over berries, nuts and fertile mouse maidens, their uncivilized ways blighting the land. Through the teachings of [deity0_name] and his thirteen disciples, we came to honor our forefathers for bestowing us the gift of life by keeping our flesh and spirits pure, and to venerate the meadows and forests that nourish us. For those that heed the wisdom of [deity0_name] are rewarded with everlasting life in The Great Garden, while the deviants and the wicked shall wander The Wasteland forevermore.</li>
+	-->
+	<Mousekin_IdeoDesc_Kingdom.rules.rulesStrings>
+		<li>description->옛날에 생쥐는 열매, 견과류, 번식력이 좋은 생쥐 처녀를 놓고 다투었고, 그들의 미개한 방식은 땅을 황폐화시켰습니다. [deity0_name]과 그의 열세 제자의 가르침을 통해 우리는 우리의 육체와 영혼을 순수하게 지켜 생명의 선물을 주신 조상들을 존경하고 우리를 양육하는 초원과 숲을 숭배하게 되었습니다. [deity0_name]의 지혜에 주의를 기울이는 자에게는 그레이트 가든에서 영원한 생명이 보상되는 반면, 일탈자와 악인은 황무지를 영원히 떠돌아다닐 것입니다.</li>
+	</Mousekin_IdeoDesc_Kingdom.rules.rulesStrings>
 
-	<!-- EN: description->For generations, our ancestors toiled in the fields and mines of the Kingdom, chafing under the heavy taxes levied by nobles. The mice of the woods, moved by our plight, shared a feast of vension poached from the King's own forests, while teaching us the ways of brotherhood and equality. Inspired by their generosity and wisdom, we turned our backs on those who would exploit us for their own gain, and built a society where every mouse could squeak their mind and enjoy the fair fruits of their own labors. -->
-	<Mousekin_IdeoDesc_IndyTown.rules.rulesStrings.0>description->여러 세대 동안 우리 조상들은 왕국의 들판과 광산에서 귀족들이 부과하는 무거운 세금에 시달리며 고생했습니다. 우리의 곤경에 감동한 숲의 쥐들은 우리에게 형제애와 평등의 길을 가르치면서 왕 자신의 숲에서 밀렵된 환각의 잔치를 나누었습니다. 그들의 관대함과 지혜에 고무되어 우리는 자신의 이익을 위해 우리를 착취하려는 사람들에게 등을 돌렸고 모든 쥐가 자신의 생각을 말하고 자신의 노동의 정당한 열매를 즐길 수 있는 사회를 만들었습니다.</Mousekin_IdeoDesc_IndyTown.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->For generations, our ancestors toiled in the fields and mines of the Kingdom, chafing under the heavy taxes levied by nobles. The mice of the woods, moved by our plight, shared a feast of vension poached from the King's own forests, while teaching us the ways of brotherhood and equality. Inspired by their generosity and wisdom, we turned our backs on those who would exploit us for their own gain, and built a society where every mouse could squeak their mind and enjoy the fair fruits of their own labors.</li>
+	-->
+	<Mousekin_IdeoDesc_IndyTown.rules.rulesStrings>
+		<li>description->여러 세대 동안 우리 조상들은 왕국의 들판과 광산에서 귀족들이 부과하는 무거운 세금에 시달리며 고생했습니다. 우리의 곤경에 감동한 숲의 쥐들은 우리에게 형제애와 평등의 길을 가르치면서 왕 자신의 숲에서 밀렵된 환각의 잔치를 나누었습니다. 그들의 관대함과 지혜에 고무되어 우리는 자신의 이익을 위해 우리를 착취하려는 사람들에게 등을 돌렸고 모든 쥐가 자신의 생각을 말하고 자신의 노동의 정당한 열매를 즐길 수 있는 사회를 만들었습니다.</li>
+	</Mousekin_IdeoDesc_IndyTown.rules.rulesStrings>
 
-	<!-- EN: description->Just as our ancestors once roamed the meadows and forests for sustenance, we too wander in search of spritiual succor and beauty. For change is the only constant, and to remain is to stagnate.\n\nThis is the Way. -->
-	<Mousekin_IdeoDesc_Nomad.rules.rulesStrings.0>description->우리의 조상들이 생계를 위해 풀밭과 숲을 배회했던 것처럼 우리도 영적 구원과 아름다움을 찾아 방황합니다. 변화는 유일한 상수이며 남아 있는 것은 침체하는 것입니다.\n\n이것이 길입니다.</Mousekin_IdeoDesc_Nomad.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->Just as our ancestors once roamed the meadows and forests for sustenance, we too wander in search of spritiual succor and beauty. For change is the only constant, and to remain is to stagnate.\n\nThis is the Way.</li>
+	-->
+	<Mousekin_IdeoDesc_Nomad.rules.rulesStrings>
+		<li>description->우리의 조상들이 생계를 위해 풀밭과 숲을 배회했던 것처럼 우리도 영적 구원과 아름다움을 찾아 방황합니다. 변화는 유일한 상수이며 남아 있는 것은 침체하는 것입니다.\n\n이것이 길입니다.</li>
+	</Mousekin_IdeoDesc_Nomad.rules.rulesStrings>
 
-	<!-- EN: description->"My nuts! Mine, all mine!"\n\n  - Castor Gnawtooth, while picking through his spoils -->
-	<Mousekin_IdeoDesc_Brigand.rules.rulesStrings.0>description->"내 견과류! 내 것, 모두 내 것!"\n\n - 전리품을 고르는 동안 피마자 리트아먹는이빨</Mousekin_IdeoDesc_Brigand.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->"My nuts! Mine, all mine!"\n\n  - Castor Gnawtooth, while picking through his spoils</li>
+	-->
+	<Mousekin_IdeoDesc_Brigand.rules.rulesStrings>
+		<li>description->"내 견과류! 내 것, 모두 내 것!"\n\n - 전리품을 고르는 동안 피마자 리트아먹는이빨</li>
+	</Mousekin_IdeoDesc_Brigand.rules.rulesStrings>
 	
 </LanguageData>

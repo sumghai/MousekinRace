@@ -1,34 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: r_name->The Kingdom of [Herb] -->
-	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.0>r_name->[Herb]왕국</NamerFaction_MousekinKingdom.rulePack.rulesStrings.0>
+	<!-- EN: 
+		<li>r_name->The Kingdom of [Herb]</li> 
+		<li>r_name->The Kingdom of the [Flower]</li>
+		<li>r_name->Kingdom of [Herb]</li>
+		<li>r_name->Kingdom of the [Flower]</li>
+		<li>r_name->The [Flower] Kingdom</li>
+	-->
+	<NamerFaction_MousekinKingdom.rulePack.rulesStrings>
+		<li>r_name->[Herb]왕국</li>
+		<li>r_name->[Flower]왕국</li>
+		<li>r_name->[Herb]왕국</li>
+		<li>r_name->[Flower]왕국</li>
+		<li>r_name->[Flower]왕국</li>
+	</NamerFaction_MousekinKingdom.rulePack.rulesStrings>
 
-	<!-- EN: r_name->The Kingdom of the [Flower] -->
-	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.1>r_name->[Flower]왕국</NamerFaction_MousekinKingdom.rulePack.rulesStrings.1>
-
-	<!-- EN: r_name->Kingdom of [Herb] -->
-	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.2>r_name->[Herb]왕국</NamerFaction_MousekinKingdom.rulePack.rulesStrings.2>
-
-	<!-- EN: r_name->Kingdom of the [Flower] -->
-	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.3>r_name->[Flower]왕국</NamerFaction_MousekinKingdom.rulePack.rulesStrings.3>
-
-	<!-- EN: r_name->The [Flower] Kingdom -->
-	<NamerFaction_MousekinKingdom.rulePack.rulesStrings.4>r_name->[Flower]왕국</NamerFaction_MousekinKingdom.rulePack.rulesStrings.4>
-
-	<!-- EN: r_name->Free Mousekin [PoliticalUnion] -->
-	<NamerFaction_MousekinIndyTown.rulePack.rulesStrings.0>r_name->무료 마우스킨[PoliticalUnion]</NamerFaction_MousekinIndyTown.rulePack.rulesStrings.0>
-
-	<!-- EN: r_name->[PoliticalUnion] of Free Mousekins -->
-	<NamerFaction_MousekinIndyTown.rulePack.rulesStrings.1>r_name->마우스킨 공화국[PoliticalUnion]</NamerFaction_MousekinIndyTown.rulePack.rulesStrings.1>
+	<!-- EN: 
+		<li>r_name->Free Mousekin [PoliticalUnion]</li>
+		<li>r_name->[PoliticalUnion] of Free Mousekins</li>
+	-->
+	<NamerFaction_MousekinIndyTown.rulePack.rulesStrings>
+		<li>r_name->무료 마우스킨[PoliticalUnion]</li>
+		<li>r_name->마우스킨 공화국[PoliticalUnion]</li>
+	</NamerFaction_MousekinIndyTown.rulePack.rulesStrings>
 	
-	<!-- EN: r_name->[Region_Type] of [Place_Name] -->
-	<NamerFaction_MousekinPlayerKingdom.rulePack.rulesStrings.0>r_name->[PlaceName] [RegionType]</NamerFaction_MousekinPlayerKingdom.rulePack.rulesStrings.0>
+	<!-- EN: 
+		<li>r_name->[Region_Type] of [Place_Name]</li>
+	-->
+	<NamerFaction_MousekinPlayerKingdom.rulePack.rulesStrings>
+		<li>r_name->[PlaceName] [RegionType]</li>
+	</NamerFaction_MousekinPlayerKingdom.rulePack.rulesStrings>
 	
-	<!-- EN: r_name->[Region_Type] of [Place_Name] -->
-	<NamerFaction_MousekinPlayerIndyTown.rulePack.rulesStrings.0>r_name->[PlaceName] [RegionType]</NamerFaction_MousekinPlayerIndyTown.rulePack.rulesStrings.0>
+	<!-- EN: 
+		<li>r_name->[Region_Type] of [Place_Name]</li>
+	-->
+	<NamerFaction_MousekinPlayerIndyTown.rulePack.rulesStrings>
+		<li>r_name->[PlaceName] [RegionType]</li>
+	</NamerFaction_MousekinPlayerIndyTown.rulePack.rulesStrings>
 
-	<!-- EN: r_name->The [MousekinGangName] -->
-	<NamerFaction_MousekinBrigands.rulePack.rulesStrings.0>r_name->[MousekinGangName] 가다</NamerFaction_MousekinBrigands.rulePack.rulesStrings.0>
+	<!-- EN: 
+		<li>r_name->The [MousekinGangName]</li>
+	-->
+	<NamerFaction_MousekinBrigands.rulePack.rulesStrings>
+		<li>r_name->[MousekinGangName] 가다</li>
+	</NamerFaction_MousekinBrigands.rulePack.rulesStrings>
 	
 </LanguageData>

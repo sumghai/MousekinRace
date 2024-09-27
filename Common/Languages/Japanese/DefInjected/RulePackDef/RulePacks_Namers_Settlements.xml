@@ -1,40 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
-	<!-- EN: Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix] -->
-	<MousekinSettlementNameUtility.rulePack.rulesStrings.0>Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix]</MousekinSettlementNameUtility.rulePack.rulesStrings.0>
+	<!-- EN: 
+		<li>Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name->[Tree]bridge</li>
+		<li>Settlement_Name->[Metal]bridge</li>
+		<li>Settlement_Name->[Metal]forge</li>
+	-->
+	<MousekinSettlementNameUtility.rulePack.rulesStrings>
+		<li>Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name->[Tree]ブリッジ</li>
+		<li>Settlement_Name->[Metal]ブリッジ</li>
+		<li>Settlement_Name->[Metal]フォージ</li>
+	</MousekinSettlementNameUtility.rulePack.rulesStrings>
 	
-	<!-- EN: Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix] -->
-	<MousekinSettlementNameUtility.rulePack.rulesStrings.1>Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix]</MousekinSettlementNameUtility.rulePack.rulesStrings.1>
+	<!-- EN: 
+		<li>r_name->[Settlement_Name]</li>
+	-->
+	<NamerSettlement_MousekinStandard.rulePack.rulesStrings>
+		<li>r_name->[Settlement_Name]</li>
+	</NamerSettlement_MousekinStandard.rulePack.rulesStrings>
 	
-	<!-- EN: Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix] -->
-	<MousekinSettlementNameUtility.rulePack.rulesStrings.2>Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix]</MousekinSettlementNameUtility.rulePack.rulesStrings.2>
+	<!-- EN: 
+		<li>r_name->[Settlement_Name]</li>
+	-->
+	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings>
+		<li>r_name->[Settlement_Name]</li>
+	</NamerSettlement_MousekinKingdom.rulePack.rulesStrings>
 	
-	<!-- EN: Settlement_Name->[Tree]bridge -->
-	<MousekinSettlementNameUtility.rulePack.rulesStrings.3>Settlement_Name->[Tree]ブリッジ</MousekinSettlementNameUtility.rulePack.rulesStrings.3>
+	<!-- EN: 
+		<li>r_name->New [Settlement_Name]</li>
+		<li>r_name->[Mousekin_LastName_Commoner]'s Rest</li>
+		<li>r_name->[Mousekin_LastName_Commoner]'s Sorrow</li>
+	-->
+	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings>
+		<li>r_name->ニュー[Settlement_Name][Settlement_Type]</li>
+		<li>r_name->[Mousekin_LastName_Commoner]の墓</li>
+		<li>r_name->[Mousekin_LastName_Commoner]の哀</li>
+	</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings>
 	
-	<!-- EN: Settlement_Name->[Metal]bridge -->
-	<MousekinSettlementNameUtility.rulePack.rulesStrings.4>Settlement_Name->[Metal]ブリッジ</MousekinSettlementNameUtility.rulePack.rulesStrings.4>
-	
-	<!-- EN: Settlement_Name->[Metal]forge -->
-	<MousekinSettlementNameUtility.rulePack.rulesStrings.5>Settlement_Name->[Metal]フォージ</MousekinSettlementNameUtility.rulePack.rulesStrings.5>
-	
-	<!-- EN: r_name->[Settlement_Name] -->
-	<NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>r_name->[Settlement_Name]</NamerSettlement_MousekinStandard.rulePack.rulesStrings.0>
-	
-	<!-- EN: r_name->[Settlement_Name] -->
-	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>r_name->[Settlement_Name]</NamerSettlement_MousekinKingdom.rulePack.rulesStrings.0>
-	
-	<!-- EN: r_name->New [Settlement_Name] -->
-	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>r_name->ニュー[Settlement_Name]</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.0>
-	
-	<!-- EN: r_name->[Mousekin_LastName_Commoner]'s Rest -->
-	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.1>r_name->[Mousekin_LastName_Commoner]の墓</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.1>
-	
-	<!-- EN: r_name->[Mousekin_LastName_Commoner]'s Sorrow -->
-	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.2>r_name->[Mousekin_LastName_Commoner]の哀</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings.2>
-	
-	<!-- EN: r_name->Free [Settlement_Type] of [Settlement_Name] -->
-	<NamerSettlement_MousekinIndyTown.rulePack.rulesStrings.0>r_name->自由[Settlement_Type][Settlement_Name]</NamerSettlement_MousekinIndyTown.rulePack.rulesStrings.0>
+	<!-- EN: 
+		<li>r_name->Free [Settlement_Type] of [Settlement_Name]</li>
+	-->
+	<NamerSettlement_MousekinIndyTown.rulePack.rulesStrings>
+		<li>r_name->自由[Settlement_Type][Settlement_Name]</li>
+	</NamerSettlement_MousekinIndyTown.rulePack.rulesStrings>
 	
 </LanguageData>

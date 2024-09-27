@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: description->In ages past, mice once squabbled over berries, nuts and fertile mouse maidens, their uncivilized ways blighting the land. Through the teachings of [deity0_name] and his thirteen disciples, we came to honor our forefathers for bestowing us the gift of life by keeping our flesh and spirits pure, and to venerate the meadows and forests that nourish us. For those that heed the wisdom of [deity0_name] are rewarded with everlasting life in The Great Garden, while the deviants and the wicked shall wander The Wasteland forevermore. -->
-	<Mousekin_IdeoDesc_Kingdom.rules.rulesStrings.0>description->在過去，白鼠族們曾為漿果、堅果和可生育的白鼠女爭吵不休，它們不文明的行為毀壞了這片土地。經過[deity0_name]和他的十三個門徒的教導，我們開始保持我們肉體和精神的純潔，以感謝祖先賜予我們的生命，並崇敬滋養我們的草地和森林。那些聽從[deity0_name]智慧的白鼠族將在大花園中獲得永生，而離經叛道的惡鼠將永遠流浪荒原。</Mousekin_IdeoDesc_Kingdom.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->In ages past, mice once squabbled over berries, nuts and fertile mouse maidens, their uncivilized ways blighting the land. Through the teachings of [deity0_name] and his thirteen disciples, we came to honor our forefathers for bestowing us the gift of life by keeping our flesh and spirits pure, and to venerate the meadows and forests that nourish us. For those that heed the wisdom of [deity0_name] are rewarded with everlasting life in The Great Garden, while the deviants and the wicked shall wander The Wasteland forevermore.</li>
+	-->
+	<Mousekin_IdeoDesc_Kingdom.rules.rulesStrings>
+		<li>description->在過去，白鼠族們曾為漿果、堅果和可生育的白鼠女爭吵不休，它們不文明的行為毀壞了這片土地。經過[deity0_name]和他的十三個門徒的教導，我們開始保持我們肉體和精神的純潔，以感謝祖先賜予我們的生命，並崇敬滋養我們的草地和森林。那些聽從[deity0_name]智慧的白鼠族將在大花園中獲得永生，而離經叛道的惡鼠將永遠流浪荒原。</li>
+	</Mousekin_IdeoDesc_Kingdom.rules.rulesStrings>
 
-	<!-- EN: description->For generations, our ancestors toiled in the fields and mines of the Kingdom, chafing under the heavy taxes levied by nobles. The mice of the woods, moved by our plight, shared a feast of vension poached from the King's own forests, while teaching us the ways of brotherhood and equality. Inspired by their generosity and wisdom, we turned our backs on those who would exploit us for their own gain, and built a society where every mouse could squeak their mind and enjoy the fair fruits of their own labors. -->
-	<Mousekin_IdeoDesc_IndyTown.rules.rulesStrings.0>description->世世代代，我們的祖先在白鼠族王國的田野和礦山中勞作，在貴族徵收的重稅下焦躁不安。樹林裡的白鼠族為我們的困境所感動，分享了從國王自己的森林中偷獵來的鹿肉盛宴，同時教導我們兄弟情誼和平等之道。在他們的慷慨和智慧的鼓舞下，我們背棄了那些為了自己的利益而剝削我們的白鼠族，並建立了一個讓每隻老鼠都能暢所欲言，享受自己勞動的公平成果的社會。</Mousekin_IdeoDesc_IndyTown.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->For generations, our ancestors toiled in the fields and mines of the Kingdom, chafing under the heavy taxes levied by nobles. The mice of the woods, moved by our plight, shared a feast of vension poached from the King's own forests, while teaching us the ways of brotherhood and equality. Inspired by their generosity and wisdom, we turned our backs on those who would exploit us for their own gain, and built a society where every mouse could squeak their mind and enjoy the fair fruits of their own labors.</li>
+	-->
+	<Mousekin_IdeoDesc_IndyTown.rules.rulesStrings>
+		<li>description->世世代代，我們的祖先在白鼠族王國的田野和礦山中勞作，在貴族徵收的重稅下焦躁不安。樹林裡的白鼠族為我們的困境所感動，分享了從國王自己的森林中偷獵來的鹿肉盛宴，同時教導我們兄弟情誼和平等之道。在他們的慷慨和智慧的鼓舞下，我們背棄了那些為了自己的利益而剝削我們的白鼠族，並建立了一個讓每隻老鼠都能暢所欲言，享受自己勞動的公平成果的社會。</li>
+	</Mousekin_IdeoDesc_IndyTown.rules.rulesStrings>
 
-	<!-- EN: description->Just as our ancestors once roamed the meadows and forests for sustenance, we too wander in search of spritiual succor and beauty. For change is the only constant, and to remain is to stagnate.\n\nThis is the Way. -->
-	<Mousekin_IdeoDesc_Nomad.rules.rulesStrings.0>description->正如我們的祖先曾經為了生計在草地和森林中漫遊一樣，我們也為了尋求精神食糧和自然之美而四處遊蕩。因為變化是唯一不變的，留下就是停滯不前。\n\n正是此道。</Mousekin_IdeoDesc_Nomad.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->Just as our ancestors once roamed the meadows and forests for sustenance, we too wander in search of spritiual succor and beauty. For change is the only constant, and to remain is to stagnate.\n\nThis is the Way.</li>
+	-->
+	<Mousekin_IdeoDesc_Nomad.rules.rulesStrings>
+		<li>description->正如我們的祖先曾經為了生計在草地和森林中漫遊一樣，我們也為了尋求精神食糧和自然之美而四處遊蕩。因為變化是唯一不變的，留下就是停滯不前。\n\n正是此道。</li>
+	</Mousekin_IdeoDesc_Nomad.rules.rulesStrings>
 
-	<!-- EN: description->"My nuts! Mine, all mine!"\n\n  - Castor Gnawtooth, while picking through his spoils -->
-	<Mousekin_IdeoDesc_Brigand.rules.rulesStrings.0>description->「我的堅果！我的，全是我的！」\n\n-蓖麻·啃啃牙，在挑選他的搶劫品時</Mousekin_IdeoDesc_Brigand.rules.rulesStrings.0>
+	<!-- EN:
+		<li>description->"My nuts! Mine, all mine!"\n\n  - Castor Gnawtooth, while picking through his spoils</li>
+	-->
+	<Mousekin_IdeoDesc_Brigand.rules.rulesStrings>
+		<li>description->「我的堅果！我的，全是我的！」\n\n-蓖麻·啃啃牙，在挑選他的搶劫品時</li>
+	</Mousekin_IdeoDesc_Brigand.rules.rulesStrings>
 	
 </LanguageData>

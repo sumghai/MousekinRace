@@ -3,7 +3,12 @@
 
 	<!-- No translation required for animal naming rules -->
 	
-	<MousekinNamerAnimalGiantCavy.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_AnimalName_GiantCavy]</MousekinNamerAnimalGiantCavy.rulePack.rulesStrings.0>
-	<MousekinNamerAnimalPudgemouse.rulePack.rulesStrings.0>r_name(p=5)->[Mousekin_AnimalName_Pudgemouse]</MousekinNamerAnimalPudgemouse.rulePack.rulesStrings.0>
+	<MousekinNamerAnimalGiantCavy.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_AnimalName_GiantCavy]</li>
+	</MousekinNamerAnimalGiantCavy.rulePack.rulesStrings>
+	
+	<MousekinNamerAnimalPudgemouse.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_AnimalName_Pudgemouse]</li>
+	</MousekinNamerAnimalPudgemouse.rulePack.rulesStrings>
 	
 </LanguageData>
