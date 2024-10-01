@@ -31,7 +31,7 @@ namespace MousekinRace
     {
         static bool Prefix(ref List<PreceptApparelRequirement> __result, FactionDef generatingFor)
         {
-            if (generatingFor.categoryTag != null && generatingFor.categoryTag.Contains("Mousekin")) 
+            if (generatingFor?.categoryTag != null && generatingFor.categoryTag.Contains("Mousekin")) 
             {
                 __result = null;
                 return false;
