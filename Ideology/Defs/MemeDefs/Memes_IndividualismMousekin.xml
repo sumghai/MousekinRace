@@ -94,6 +94,11 @@
 				<li>Slavery_Abhorrent</li>
 			</li>
 		</requireOne>
+		<generalRules>
+			<rulesStrings>
+				<li>memeMoralistMousekin->Republican Secretariat</li>
+			</rulesStrings>
+		</generalRules>
 		<descriptionMaker>
 			<patterns>
 				<li>

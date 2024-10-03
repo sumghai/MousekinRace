@@ -9,6 +9,13 @@
 
 	<!-- EN: Rodent Republic -->
 	<Mousekin_IdeoMeme_Republic.label>설치류 공화국</Mousekin_IdeoMeme_Republic.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Republican Secretariat</li>
+	-->
+	<Mousekin_IdeoMeme_Republic.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->공화당 사무국</li>
+	</Mousekin_IdeoMeme_Republic.generalRules.rulesStrings>
 
 	<!-- EN: Every mouse has a voice in how their community should be run. -->
 	<Mousekin_IdeoMeme_Republic.description>모든 마우스는 커뮤니티 운영 방식에 대해 목소리를 냅니다.</Mousekin_IdeoMeme_Republic.description>

@@ -15,12 +15,26 @@
 
 	<!-- EN: Wanderlust -->
 	<Mousekin_IdeoMeme_Wanderlust.label>流浪癖</Mousekin_IdeoMeme_Wanderlust.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Trail Guide</li>
+	-->
+	<Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->道路导师</li>
+	</Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
 
 	<!-- EN: There is much that these lands can teach us; to stay in one place is to deny the ourselves new experiences. -->
 	<Mousekin_IdeoMeme_Wanderlust.description>大地能教我们很多事，停留则是剥夺我们自己获得新体验的机会。</Mousekin_IdeoMeme_Wanderlust.description>
 
 	<!-- EN: Nutsnatching -->
 	<Mousekin_IdeoMeme_Raider.label>抢坚果主义</Mousekin_IdeoMeme_Raider.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Right-Paw</li>
+	-->
+	<Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->右爪</li>
+	</Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
 
 	<!-- EN: Only the strong deserve to have nuts. -->
 	<Mousekin_IdeoMeme_Raider.description>只有强者才配拥有坚果。</Mousekin_IdeoMeme_Raider.description>

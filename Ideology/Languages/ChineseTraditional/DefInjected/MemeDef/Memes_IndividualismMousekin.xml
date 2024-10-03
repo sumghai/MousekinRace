@@ -9,6 +9,13 @@
 
 	<!-- EN: Rodent Republic -->
 	<Mousekin_IdeoMeme_Republic.label>鼠族民主主義</Mousekin_IdeoMeme_Republic.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Republican Secretariat</li>
+	-->
+	<Mousekin_IdeoMeme_Republic.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->民主書記</li>
+	</Mousekin_IdeoMeme_Republic.generalRules.rulesStrings>
 
 	<!-- EN: Every mouse has a voice in how their community should be run. -->
 	<Mousekin_IdeoMeme_Republic.description>每隻老鼠都應該對他們的社區如何運作有發言權。</Mousekin_IdeoMeme_Republic.description>

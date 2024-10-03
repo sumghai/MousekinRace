@@ -97,6 +97,11 @@
 				<li>SpouseCount_Male_MaxThree</li>
 			</li>
 		</requireOne>
+		<generalRules>
+			<rulesStrings>
+				<li>memeMoralistMousekin->Trail Guide</li>
+			</rulesStrings>
+		</generalRules>
 		<descriptionMaker>
 			<patterns>
 				<li>
@@ -171,6 +176,11 @@
 				<li>SpouseCount_Male_Unlimited</li>
 			</li>
 		</requireOne>
+		<generalRules>
+			<rulesStrings>
+				<li>memeMoralistMousekin->Right-Paw</li>
+			</rulesStrings>
+		</generalRules>
 		<descriptionMaker>
 			<patterns>
 				<li>

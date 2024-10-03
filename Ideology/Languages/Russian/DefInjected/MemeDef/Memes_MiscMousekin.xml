@@ -15,12 +15,26 @@
 
 	<!-- EN: Wanderlust -->
 	<Mousekin_IdeoMeme_Wanderlust.label>Стремление к путешествиям</Mousekin_IdeoMeme_Wanderlust.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Trail Guide</li>
+	-->
+	<Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->Путеводитель</li>
+	</Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
 
 	<!-- EN: There is much that these lands can teach us; to stay in one place is to deny ourselves new experiences. -->
 	<Mousekin_IdeoMeme_Wanderlust.description>Эти земли могут научить нас многому; оставаться на одном месте значит отрицать себе новые опыты.</Mousekin_IdeoMeme_Wanderlust.description>
 
 	<!-- EN: Nutsnatching -->
 	<Mousekin_IdeoMeme_Raider.label>Грабеж орехов</Mousekin_IdeoMeme_Raider.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Right-Paw</li>
+	-->
+	<Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->правая лапа</li>
+	</Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
 
 	<!-- EN: Only the strong deserve to have nuts. -->
 	<Mousekin_IdeoMeme_Raider.description>Только сильные достойны иметь орехи.</Mousekin_IdeoMeme_Raider.description>

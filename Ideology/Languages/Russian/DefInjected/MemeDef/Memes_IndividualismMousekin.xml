@@ -9,6 +9,13 @@
 
 	<!-- EN: Rodent Republic -->
 	<Mousekin_IdeoMeme_Republic.label>Грызунная республика</Mousekin_IdeoMeme_Republic.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Republican Secretariat</li>
+	-->
+	<Mousekin_IdeoMeme_Republic.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->республиканский секретариат</li>
+	</Mousekin_IdeoMeme_Republic.generalRules.rulesStrings>
 
 	<!-- EN: Every mouse has a voice in how their community should be run. -->
 	<Mousekin_IdeoMeme_Republic.description>Каждая мышь имеет право голоса в том, как должна управляться их община.</Mousekin_IdeoMeme_Republic.description>

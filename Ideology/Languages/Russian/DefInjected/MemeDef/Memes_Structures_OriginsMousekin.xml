@@ -8,12 +8,10 @@
 	<Structure_OriginMousekin.description>Это вариант конкретизированной теистической структуры. Эта идеология поверхностно напоминает древнее христианство, но независимо развилась тысячи лет назад из предписаний, впервые проповеданных Валерианом Мудрым своим соплеменникам-прото-мышкинам.</Structure_OriginMousekin.description>
 
 	<!-- EN: 
-		<li>memeMoralist->Mousekin Pope</li>
-		<li>memeAdjective-> (leave blank)</li>
+		<li>memeMoralistMousekin->Mousekin Pope</li>
 	-->
 	<Structure_OriginMousekin.generalRules.rulesStrings>
-		<li>memeMoralist->Мишкинский Папа</li>
-		<li>memeAdjective-> </li>
+		<li>memeMoralistMousekin->Мишкинский Папа</li>
 	</Structure_OriginMousekin.generalRules.rulesStrings>
 
 	<!-- EN: Mousekin -->

@@ -15,12 +15,26 @@
 
 	<!-- EN: Wanderlust -->
 	<Mousekin_IdeoMeme_Wanderlust.label>放浪癖</Mousekin_IdeoMeme_Wanderlust.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Trail Guide</li>
+	-->
+	<Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->トレイルガイド</li>
+	</Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
 
 	<!-- EN: There is much that these lands can teach us; to stay in one place is to deny the ourselves new experiences. -->
 	<Mousekin_IdeoMeme_Wanderlust.description>この土地から教えられることはたくさんあります.一つの土地に留まることは、自分たちの新しい経験を否定することになるのです.</Mousekin_IdeoMeme_Wanderlust.description>
 
 	<!-- EN: Nutsnatching -->
 	<Mousekin_IdeoMeme_Raider.label>ナッツ泥棒主義</Mousekin_IdeoMeme_Raider.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Right-Paw</li>
+	-->
+	<Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->右掌</li>
+	</Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
 
 	<!-- EN: Only the strong deserve to have nuts. -->
 	<Mousekin_IdeoMeme_Raider.description>強者だけがナッツを持つに値する.</Mousekin_IdeoMeme_Raider.description>

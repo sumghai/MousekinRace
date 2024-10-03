@@ -15,12 +15,26 @@
 
 	<!-- EN: Wanderlust -->
 	<Mousekin_IdeoMeme_Wanderlust.label>방황</Mousekin_IdeoMeme_Wanderlust.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Trail Guide</li>
+	-->
+	<Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->트레일 가이드</li>
+	</Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
 
 	<!-- EN: There is much that these lands can teach us; to stay in one place is to deny the ourselves new experiences. -->
 	<Mousekin_IdeoMeme_Wanderlust.description>이 땅이 우리에게 가르쳐 줄 수 있는 것이 많습니다. 한 곳에 머무르는 것은 새로운 경험을 거부하는 것입니다.</Mousekin_IdeoMeme_Wanderlust.description>
 
 	<!-- EN: Nutsnatching -->
 	<Mousekin_IdeoMeme_Raider.label>호두 훔치기</Mousekin_IdeoMeme_Raider.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Right-Paw</li>
+	-->
+	<Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->오른팔</li>
+	</Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
 
 	<!-- EN: Only the strong deserve to have nuts. -->
 	<Mousekin_IdeoMeme_Raider.description>강한 자만이 견과류를 가질 자격이 있습니다.</Mousekin_IdeoMeme_Raider.description>
