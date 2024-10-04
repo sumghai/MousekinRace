@@ -25,13 +25,13 @@ namespace MousekinRace
         }
     }
     
-    // Disable role precept apparel requirements in Mousekin ideos/factions
+    // Disable role precept apparel requirements in Mousekin ideos/cultures
     [HarmonyPatch(typeof(Precept_Role), nameof(Precept_Role.GenerateNewApparelRequirements))]
     public static class Harmony_Precept_Role_DisableApparelRequirementsForMousekinIdeos
     {
-        static bool Prefix(ref List<PreceptApparelRequirement> __result, FactionDef generatingFor)
+        static bool Prefix(ref List<PreceptApparelRequirement> __result, Ideo ___ideo)
         {
-            if (generatingFor?.categoryTag != null && generatingFor.categoryTag.Contains("Mousekin")) 
+            if (___ideo.culture.defName.Contains("Mousekin")) 
             {
                 __result = null;
                 return false;
