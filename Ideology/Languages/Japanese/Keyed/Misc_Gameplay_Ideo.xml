@@ -6,5 +6,8 @@
 	
 	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
 	<MousekinRace_Page_IdeoFixedByScenario_Desc>{0}シナリオが選択されたため、あなたの派閥ー立ち上げ時の最初の思想が設定された：</MousekinRace_Page_IdeoFixedByScenario_Desc>
+	
+	<!-- EN: Mayor -->
+	<MousekinRace_PreceptRole_PlayerLeaderTitle>村長</MousekinRace_PreceptRole_PlayerLeaderTitle>
 
 </LanguageData>

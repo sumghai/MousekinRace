@@ -6,5 +6,8 @@
 	
 	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
 	<MousekinRace_Page_IdeoFixedByScenario_Desc>因為您選擇了{0}脚本，你的陣營起始理念已設定為:</MousekinRace_Page_IdeoFixedByScenario_Desc>
+	
+	<!-- EN: Mayor -->
+	<MousekinRace_PreceptRole_PlayerLeaderTitle>村長</MousekinRace_PreceptRole_PlayerLeaderTitle>
 
 </LanguageData>

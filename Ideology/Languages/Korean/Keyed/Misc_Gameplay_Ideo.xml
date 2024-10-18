@@ -6,5 +6,8 @@
 	
 	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
 	<MousekinRace_Page_IdeoFixedByScenario_Desc>{0} 시나리오에서 진영의 시작 이데올로기는 다음과 같이 설정되었습니다:</MousekinRace_Page_IdeoFixedByScenario_Desc>
+	
+	<!-- EN: Mayor -->
+	<MousekinRace_PreceptRole_PlayerLeaderTitle>시장</MousekinRace_PreceptRole_PlayerLeaderTitle>
 
 </LanguageData>

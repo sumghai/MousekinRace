@@ -13,7 +13,7 @@ namespace MousekinRace
     {
         static bool Prefix(Precept_Role __instance, ref string __result, Ideo ___ideo)
         {
-            if (___ideo.culture.defName.Contains("Mousekin") && !__instance.def.leaderRole && __instance.def == PreceptDefOf.IdeoRole_Moralist)
+            if (___ideo.culture.IsMousekin() && !__instance.def.leaderRole && __instance.def == PreceptDefOf.IdeoRole_Moralist)
             {
                 GrammarRequest request = default;
                 request.Includes.Add(MousekinDefOf.NamerRoleMoralist_Mousekin);
@@ -31,12 +31,25 @@ namespace MousekinRace
     {
         static bool Prefix(ref List<PreceptApparelRequirement> __result, Ideo ___ideo)
         {
-            if (___ideo.culture.defName.Contains("Mousekin")) 
+            if (___ideo.culture.IsMousekin()) 
             {
                 __result = null;
                 return false;
             }
             return true;
+        }
+    }
+
+    // Conditionally patch leader and moral guide role titles for Mousekin player faction
+    [HarmonyPatch(typeof(Precept_Role), nameof(Precept_Role.LabelForPawn))]
+    public static class Harmony_Precept_Role_LabelForPaw_ReplaceRoleTitlesForMousekinPlayer
+    {
+        static void Postfix(ref string __result, Pawn p, ref Precept_Role __instance)
+        {            
+            if (p.Faction.IsPlayer)
+            {
+                __result = Utils.ReplaceIdeoRoleTitlesForMousekinPlayer(__result, __instance);
+            }
         }
     }
 }
