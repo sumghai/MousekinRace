@@ -52,4 +52,33 @@ namespace MousekinRace
             }
         }
     }
+
+    // Conditionally append leader and moral guide role titles for Mousekin player faction
+    // to the role precept box display in the Ideo tab
+    [HarmonyPatch(typeof(Precept_Role), nameof(Precept_Role.UIInfoSecondLine), MethodType.Getter)]
+    public static class Harmony_Precept_Role_UIInfoSecondLine_AppendRoleTitlesForMousekinPlayer
+    {
+        static void Postfix(ref string __result, ref Precept_Role __instance)
+        {
+            if (Utils.IsMousekin(__instance.ideo.culture) && Faction.OfPlayer.ideos.Has(__instance.ideo))
+            {
+                // Leader titles should only be appended if
+                // - the player's allegiance faction ideo/culture matches the current role's ideo/culture
+                // - the player has no allegiance, but the current role's ideo/culture is from the Kingdom
+                bool shouldAppendPlayerLeaderTitle = __instance.def.leaderRole && (GameComponent_Allegiance.Instance.alignedFaction?.ideos.PrimaryCulture == __instance.ideo.culture || (!GameComponent_Allegiance.Instance.HasDeclaredAllegiance && Utils.IsMousekinKingdomLike(__instance.ideo.culture)));
+
+                // Moral Guide titles should only be appended if
+                // - there are enough believers for the ideo
+                // - the player has no allegiance, but the current role's ideo/culture is from the Kingdom
+                bool shouldAppendPlayerMoralistTitle = __instance.def == PreceptDefOf.IdeoRole_Moralist && __instance.ideo.colonistBelieverCountCached > __instance.def.deactivationBelieverCount || (!GameComponent_Allegiance.Instance.HasDeclaredAllegiance && Utils.IsMousekinKingdomLike(__instance.ideo.culture));
+
+                if (shouldAppendPlayerLeaderTitle || shouldAppendPlayerMoralistTitle)
+                {
+                    string originalRoleTitle = __result;
+                    string playerVariantRoleTitle = Utils.ReplaceIdeoRoleTitlesForMousekinPlayer(__result, __instance);
+                    __result = originalRoleTitle + ((playerVariantRoleTitle != originalRoleTitle) ? " (" + playerVariantRoleTitle + ")" : "");
+                }
+            }
+        }
+    }
 }

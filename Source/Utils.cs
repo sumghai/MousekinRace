@@ -32,6 +32,12 @@ namespace MousekinRace
             return culture.IsMousekin() && culture.defName.Contains("Kingdom");
         }
 
+        // Determine if a faction's ideo/culture is (based on) the Independent Mousekin Towns
+        public static bool IsMousekinIndyTownLike(this CultureDef culture)
+        {
+            return culture.IsMousekin() && culture.defName.Contains("IndyTown");
+        }
+
         // Get the primary race of any given faction
         public static ThingDef_AlienRace GetRaceOfFaction(FactionDef faction) => (faction.basicMemberKind?.race ?? faction.pawnGroupMakers?.SelectMany(selector: groupMaker => groupMaker.options).GroupBy(keySelector: groupMaker => groupMaker.kind.race).OrderByDescending(keySelector: g => g.Count()).First().Key) as ThingDef_AlienRace;
 
@@ -51,18 +57,22 @@ namespace MousekinRace
         }
 
         // Replace the leader and moral guide ideo role titles for Mousekin Player faction
-        public static string ReplaceIdeoRoleTitlesForMousekinPlayer(string originalString, Precept_Role role)
-        {
+        // Includes optional boolean flag to remove any indefinite articles from the title
+        public static string ReplaceIdeoRoleTitlesForMousekinPlayer(string originalString, Precept_Role role, bool removeIndef = false)
+        {   
             if (role != null && role.ideo.culture.IsMousekin())
-            {
+            {                
                 string tempOutput = originalString;
+
+                string tgtRoleLabelCap = removeIndef ? Find.ActiveLanguageWorker.WithIndefiniteArticle(role.LabelCap) : role.LabelCap;
+
                 if (role.def.leaderRole)
                 {
-                    originalString = tempOutput.Replace(role.LabelCap, "MousekinRace_PreceptRole_PlayerLeaderTitle".Translate());
+                    originalString = tempOutput.Replace(tgtRoleLabelCap, "MousekinRace_PreceptRole_PlayerLeaderTitle".Translate());
                 }
                 if (role.ideo.culture.IsMousekinKingdomLike() && role.def == PreceptDefOf.IdeoRole_Moralist)
                 {
-                    originalString = tempOutput.Replace(role.LabelCap, MousekinDefOf.MousekinPriest.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst());
+                    originalString = tempOutput.Replace(tgtRoleLabelCap, MousekinDefOf.MousekinPriest.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst());
                 }
             }
             return originalString;
