@@ -9,5 +9,11 @@
 	
 	<!-- EN: Mayor -->
 	<MousekinRace_PreceptRole_PlayerLeaderTitle>村長</MousekinRace_PreceptRole_PlayerLeaderTitle>
+	
+	<!-- EN: Your faction's {0} role title has been renamed to {1}, as you are a {2}. -->
+	<MousekinRace_PreceptRole_PlayerTitleChangedAllegiance>あなたは{2}であるため、あなたの派閥の{0}の役割の称号は{1}に変更されました.</MousekinRace_PreceptRole_PlayerTitleChangedAllegiance>
+	
+	<!-- EN: Your faction's {0} role title has been renamed to {1}, as your colonists originated from {2}. -->
+	<MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>あなたの入植者は元々{2}出身であるため、あなたの派閥の{0}の役割の称号は{1}に変更されました.</MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>
 
 </LanguageData>

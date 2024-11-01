@@ -40,9 +40,51 @@ namespace MousekinRace
         }
     }
 
+    // Conditionally pre-pend info about changes to leader and moral guide titles for Mousekin player faction
+    // in the role precept info box mouseover tip text
+    [HarmonyPatch(typeof(Precept_Role), nameof(Precept_Role.GetTip))]
+    public static class Harmony_Precept_Role_GetTip_PrependRoleTitleExtraInfoForMousekinPlayer
+    {
+        static void Postfix(ref string __result, ref Precept_Role __instance)
+        {
+            if (Utils.IsMousekin(__instance.ideo.culture) && Faction.OfPlayer.ideos.Has(__instance.ideo))
+            {
+                string originalTipText = __result;
+
+                // If the Mousekin player faction has pledged allegiance to a NPC Mousekin faction,
+                // and the player's ideo matches the ideo of the role currently being rendered
+                // (exception: Indy Town moral guide title, as it has not been renamed for players)
+                if (GameComponent_Allegiance.Instance.HasDeclaredAllegiance && Faction.OfPlayer.ideos.primaryIdeo.Equals(__instance.ideo) && !(Faction.OfPlayer.ideos.primaryIdeo.culture.IsMousekinIndyTownLike() && __instance.def == PreceptDefOf.IdeoRole_Moralist))
+                {
+                    // Have to do this locally instead of calling AllegianceSys_Utils.MembershipToFactionLabel()
+                    Faction allegianceFaction = GameComponent_Allegiance.Instance.alignedFaction;
+                    AlliableFactionExtension factionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
+
+                    __result = "MousekinRace_PreceptRole_PlayerTitleChangedAllegiance".Translate(
+                        __instance.def.LabelCap, 
+                        Utils.ReplaceIdeoRoleTitlesForMousekinPlayer(__instance.Label, __instance).Colorize(allegianceFaction.Color),
+                        "MousekinRace_AllegianceSys_SubtitleFactionRelationship".Translate(factionExtension.membershipTypeLabel, AllegianceSys_Utils.FactionNameWithDefiniteArticle(allegianceFaction.name.Colorize(allegianceFaction.Color)))
+                        ).Colorize(ColoredText.ImpactColor) + "\n\n" + originalTipText;
+                }
+                // Fallback if the Mousekin player faction has no set allegiance
+                // (but the role has the same ideo as the Mousekin Kingdom)
+                if (!GameComponent_Allegiance.Instance.HasDeclaredAllegiance && Utils.IsMousekinKingdomLike(__instance.ideo.culture))
+                {
+                    Faction kingdomFaction = Find.FactionManager.FirstFactionOfDef(MousekinDefOf.Mousekin_FactionKingdom);
+                    
+                    __result = "MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo".Translate(
+                        __instance.def.LabelCap,
+                        Utils.ReplaceIdeoRoleTitlesForMousekinPlayer(__instance.Label, __instance).Colorize(kingdomFaction.Color),
+                        AllegianceSys_Utils.FactionNameWithDefiniteArticle(kingdomFaction.name.Colorize(kingdomFaction.Color))
+                        ).Colorize(ColoredText.ImpactColor) + "\n\n" + originalTipText;
+                }
+            }
+        }
+    }
+    
     // Conditionally patch leader and moral guide role titles for Mousekin player faction
     [HarmonyPatch(typeof(Precept_Role), nameof(Precept_Role.LabelForPawn))]
-    public static class Harmony_Precept_Role_LabelForPaw_ReplaceRoleTitlesForMousekinPlayer
+    public static class Harmony_Precept_Role_LabelForPawn_ReplaceRoleTitlesForMousekinPlayer
     {
         static void Postfix(ref string __result, Pawn p, ref Precept_Role __instance)
         {            
