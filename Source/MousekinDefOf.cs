@@ -116,6 +116,9 @@ namespace MousekinRace
         public static MemeDef Mousekin_IdeoMeme_AncestorWorship;
 
         [MayRequireIdeology]
+        public static MemeDef Mousekin_IdeoMeme_Raider;
+
+        [MayRequireIdeology]
         public static MemeDef Mousekin_IdeoMeme_RodentPurity;
 
         [MayRequireIdeology]
