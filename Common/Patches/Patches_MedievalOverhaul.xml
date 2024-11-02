@@ -132,6 +132,55 @@
 					</value>
 				</li>
 
+				<!-- Replace all instances of steel in building/apparel/weapon/item costs and recipes with iron ingots (DankPyon_IronIngot) -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[@Name="Mousekin_FactionBase"]/apparelStuffFilter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[contains(defName, "Mousekin") or contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][fixedIngredientFilter/thingDefs/li[.="Steel"]]/fixedIngredientFilter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[contains(defName, "Mousekin") or contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][ingredients/li/filter/thingDefs/li[.="Steel"]]/ingredients/li/filter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[contains(defName, "Mousekin")]/scenario/parts/li[thingDef="Steel"]/thingDef</xpath>
+					<value>
+						<thingDef>DankPyon_IronIngot</thingDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[contains(@Name, "Mousekin")][defaultStuff="Steel"]/defaultStuff</xpath>
+					<value>
+						<defaultStuff>DankPyon_IronIngot</defaultStuff>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationSetName">
+					<xpath>Defs/ThingDef[contains(defName, "Mousekin")][costList/Steel]/costList/Steel</xpath>
+					<name>DankPyon_IronIngot</name>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TraderKindDef[contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][stockGenerators/li[thingDef="Steel"]]/stockGenerators/li[thingDef="Steel"]/thingDef</xpath>
+					<value>
+						<thingDef>DankPyon_IronIngot</thingDef>
+					</value>
+				</li>
+			
 			</operations>
 		</match>
 	</Operation>
