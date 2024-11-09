@@ -16,6 +16,12 @@
 	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
 	<AlertEarlessMousekinDescEnding>用布料制作一些假耳，或从其他白鼠族身上取得天生的耳朵。</AlertEarlessMousekinDescEnding>
 	
+	<!-- EN: Faction allegiance offer available -->
+	<AlertFactionAllegianceAvailableLabel>派系效忠机会</AlertFactionAllegianceAvailableLabel>
+	
+	<!-- EN: Your Mousekin colonists have now earned enough goodwill with one or more Mousekin factions, and they would like to invite your colony to align with them.\n\nIn exchange for pledging allegiance to their faction, your colonists will benefit from regular traders, crafting unlocks, military aid and the ability to invite more colonists to join your settlement.\n\nConsider their offers carefully.\n\n(Click to open the allegiance window.) -->
+	<AlertFactionAllegianceAvailableDesc>您的白鼠族殖民者现在已经在至少一个白鼠族派系中赢得了足够的好感，他们希望邀请您的殖民地与他们结盟。\n\n如果您效忠于他们的派系，您的殖民者将受益于定期贸易商、新工艺配方解锁和军事援助，还可以邀请更多殖民者加入您的定居点。\n\n请仔细考虑他们的提议。\n\n(点击打开效忠窗口。)</AlertFactionAllegianceAvailableDesc>
+	
 	<!-- EN: Need Church -->
 	<AlertNeedChurchLabel>需要教堂</AlertNeedChurchLabel>
 	

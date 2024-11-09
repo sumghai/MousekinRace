@@ -16,6 +16,12 @@
 	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
 	<AlertEarlessMousekinDescEnding>布製の義耳を作るか、他のマウスキンから天然の耳を入手します.</AlertEarlessMousekinDescEnding>
 	
+	<!-- EN: Faction allegiance offer available -->
+	<AlertFactionAllegianceAvailableLabel>派閥忠誠の機会</AlertFactionAllegianceAvailableLabel>
+	
+	<!-- EN: Your Mousekin colonists have now earned enough goodwill with one or more Mousekin factions, and they would like to invite your colony to align with them.\n\nIn exchange for pledging allegiance to their faction, your colonists will benefit from regular traders, crafting unlocks, military aid and the ability to invite more colonists to join your settlement.\n\nConsider their offers carefully.\n\n(Click to open the allegiance window.) -->
+	<AlertFactionAllegianceAvailableDesc>あなたのマウスキンの入植者は、1つまたは複数のマウスキン派閥から十分な好意を得ています.\n\n彼らの派閥に忠誠を誓う代わりに、あなたの入植者は定期的な交易、クラフトのアンロック、軍事援助、より多くの入植者をあなたの入植地に招待する能力などの恩恵を受けることができます.\n\n彼らの申し出を慎重に検討してください.\n\n(クリックして忠誠タブを開く.)</AlertFactionAllegianceAvailableDesc>
+	
 	<!-- EN: Need Church -->
 	<AlertNeedChurchLabel>教会堂が必要</AlertNeedChurchLabel>
 	

@@ -19,6 +19,8 @@ namespace MousekinRace
 
         public bool seenAllegianceSysIntroLetter = false;
 
+        public bool anyAllegianceFactionJoinReqsMet = false;
+
         public bool anyColonistsWithShatteredEmpireTitle = false;
 
         public List<Building_TownSquare> townSquares = new();
@@ -130,6 +132,9 @@ namespace MousekinRace
             // Skip if player has no allegiance to any Mousekin faction
             if (!HasDeclaredAllegiance) 
             {
+                // Check for any Mousekin factions whose joining criteria have been met
+                anyAllegianceFactionJoinReqsMet = alliableFactions.Any(f => AllegianceSys_Utils.FactionJoinRequirementsMet(f));
+                
                 // Special use case: clergy recruited via altar
                 if (!recruitedColonistsQueue.Empty() && nextNewColonistArrivalTick > 0 && Find.TickManager.TicksGame > nextNewColonistArrivalTick) 
                 {

@@ -24,6 +24,15 @@ namespace MousekinRace
             return "MousekinRace_AllegianceSys_SubtitleFactionRelationship".Translate(factionExtension.membershipTypeLabel, FactionNameWithDefiniteArticle(factionNameRendered));
         }
 
+        public static bool FactionJoinRequirementsMet(Faction faction)
+        {
+            AlliableFactionExtension factionExt = faction.def.GetModExtension<AlliableFactionExtension>();
+
+            return GenDate.DaysPassedSinceSettle >= factionExt.joinRequirements.minDaysPassedSinceSettle
+                    && Utils.PercentColonistsAreMousekins() >= factionExt.joinRequirements.minMousekinPopulationPercentage
+                    && faction.PlayerGoodwill >= factionExt.joinRequirements.minGoodwill;
+        }
+
         public static void SyncRelationsWithAllegianceFaction(Faction allegianceFaction)
         {
             // Fetch the allegiance faction's list of relations with third-party factions that:

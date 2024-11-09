@@ -301,6 +301,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alerts\Alert_ChurchNeeded.cs" />
+    <Compile Include="Alerts\Alert_FactionAllegianceAvailable.cs" />
     <Compile Include="Alerts\Alert_MissingEarsSuicidal.cs" />
     <Compile Include="Alerts\Alert_MissingEarsMiserable.cs" />
     <Compile Include="Alerts\Alert_PriestNeeded.cs" />

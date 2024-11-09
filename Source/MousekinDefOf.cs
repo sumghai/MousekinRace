@@ -106,6 +106,8 @@ namespace MousekinRace
         public static FactionDef Mousekin_FactionKingdom;
         public static FactionDef Mousekin_FactionIndyTown;
 
+        public static MainButtonDef Mousekin_MainButton_Allegiance;
+
         [MayRequireRoyalty]
         public static QuestScriptDef EndGame_RoyalAscent;
 

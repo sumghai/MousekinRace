@@ -225,9 +225,7 @@ namespace MousekinRace
                 innerY += StandardMargin;
 
                 // Conditional info box if join requirements are not met
-                bool joinRequirementsMet = GenDate.DaysPassedSinceSettle >= currentFactionExtension.joinRequirements.minDaysPassedSinceSettle
-                    && Utils.PercentColonistsAreMousekins() >= currentFactionExtension.joinRequirements.minMousekinPopulationPercentage
-                    && factionOption.PlayerGoodwill >= currentFactionExtension.joinRequirements.minGoodwill;
+                bool joinRequirementsMet = AllegianceSys_Utils.FactionJoinRequirementsMet(factionOption);
 
                 if (!joinRequirementsMet)
                 {

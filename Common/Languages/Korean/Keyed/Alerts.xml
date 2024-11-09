@@ -16,6 +16,12 @@
 	<!-- EN: Craft some prosthetic ears from cloth, or obtain natural ears from other Mousekins. -->
 	<AlertEarlessMousekinDescEnding>천으로 의수를 만들거나 다른 마우스킨을 위해 자연스러운 귀를 만드십시오.</AlertEarlessMousekinDescEnding>
 	
+	<!-- EN: Faction allegiance offer available -->
+	<AlertFactionAllegianceAvailableLabel>진영 충성 기회</AlertFactionAllegianceAvailableLabel>
+	
+	<!-- EN: Your Mousekin colonists have now earned enough goodwill with one or more Mousekin factions, and they would like to invite your colony to align with them.\n\nIn exchange for pledging allegiance to their faction, your colonists will benefit from regular traders, crafting unlocks, military aid and the ability to invite more colonists to join your settlement.\n\nConsider their offers carefully.\n\n(Click to open the allegiance window.) -->
+	<AlertFactionAllegianceAvailableDesc>마우스킨 식민지 개척자들은 이제 한 개 이상의 마우스킨 세력과 충분한 친분을 쌓았으며, 그들은 내 식민지를 자신들과 동맹을 맺도록 초대하고 싶어합니다.\n\n해당 세력에 충성을 맹세하는 대가로 식민지 주민들은 일반 상인, 제작물 잠금 해제, 군사 지원, 더 많은 식민지 주민을 정착지로 초대할 수 있는 혜택 등을 받게 됩니다.\n\n그들의 제안을 신중하게 고려하세요.\n\n(클릭하면 충성 창이 열립니다.)</AlertFactionAllegianceAvailableDesc>
+	
 	<!-- EN: Need Church -->
 	<AlertNeedChurchLabel>교회 필요</AlertNeedChurchLabel>
 	
