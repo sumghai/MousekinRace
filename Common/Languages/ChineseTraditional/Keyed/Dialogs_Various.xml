@@ -6,13 +6,13 @@
 	
 	<!-- EN: Requirements: -->
 	<MousekinRace_AllegianceSys_ReqSubheading>所需條件：</MousekinRace_AllegianceSys_ReqSubheading>
-
+	
 	<!-- EN: Colony at least {0} old -->
 	<MousekinRace_AllegianceSys_ReqMinColonyAge>殖民地至少有{0}歷史</MousekinRace_AllegianceSys_ReqMinColonyAge>
-
+	
 	<!-- EN: At least {0} of population are Mousekin -->
 	<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>至少{0}的人口是白鼠族</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
-
+	
 	<!-- EN: At least {0} goodwill with faction -->
 	<MousekinRace_AllegianceSys_ReqMinGoodwill>至少與派系建立{0}友好度</MousekinRace_AllegianceSys_ReqMinGoodwill>
 	
@@ -39,10 +39,10 @@
 	
 	<!-- EN: Change Allegiance -->
 	<MousekinRace_AllegianceSys_Change>改變派系效忠</MousekinRace_AllegianceSys_Change>
-
+	
 	<!-- EN: View {0}... -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>查看{0}...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>
-
+	
 	<!-- EN: {0} of becoming a {1} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>成為{1}的{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>
 	
@@ -69,13 +69,13 @@
 	
 	<!-- EN: {0} trait -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>{0}特性</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>
-
+	
 	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
 	<MousekinRace_AllegianceSys_ReqDesc>要效忠該派系，您需要滿足上述要求。</MousekinRace_AllegianceSys_ReqDesc>
 	
 	<!-- EN: Are you sure you want to pledge allegiance to {0}? -->
 	<MousekinRace_AllegianceSys_JoinConfirmation>你想要效忠{0}嗎？</MousekinRace_AllegianceSys_JoinConfirmation>
-
+	
 	<!-- EN: {0} of {1} -->
 	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{1}的{0}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
 	
@@ -201,5 +201,5 @@
 	
 	<!-- EN: faction allegiance -->
 	<MousekinRace_TradePriceFactor_FactionAllegiance>派系效忠</MousekinRace_TradePriceFactor_FactionAllegiance>
-
+	
 </LanguageData>

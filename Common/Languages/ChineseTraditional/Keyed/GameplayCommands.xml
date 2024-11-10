@@ -6,22 +6,22 @@
 	
 	<!-- EN: Invite a {0} to join your settlement.\n\nCost: {1} silver -->
 	<MousekinRace_CommandInviteDesc>邀請一位{0}來定居。\n\n(花費：{1}白銀)</MousekinRace_CommandInviteDesc>
-
+	
 	<!-- EN: Rotate cap -->
 	<MousekinRace_CommandRotateWindmillCapLabel>旋轉屋頂</MousekinRace_CommandRotateWindmillCapLabel>
-
+	
 	<!-- EN: Rotate the cap and sails of the windmill. -->
 	<MousekinRace_CommandRotateWindmillCapDesc>旋轉風車的屋頂與風帆的方向。</MousekinRace_CommandRotateWindmillCapDesc>
-
+	
 	<!-- EN: Show manual -->
 	<MousekinRace_CommandShowBeehiveManualLabel>顯示手冊</MousekinRace_CommandShowBeehiveManualLabel>
-
+	
 	<!-- EN: Show instructions for using the Mousekin Beehive. -->
 	<MousekinRace_CommandShowBeehiveManualDesc>顯示白鼠族蜂箱的使用手冊。</MousekinRace_CommandShowBeehiveManualDesc>
-
+	
 	<!-- EN: Wear {0} -->
 	<MousekinRace_CommandToggleAttachedHeadgearLabel>戴上{0}</MousekinRace_CommandToggleAttachedHeadgearLabel>
-
+	
 	<!-- EN: Toggle wearing {0} attached to apparel. -->
 	<MousekinRace_CommandToggleAttachedHeadgearDesc>切換是否戴上附著在服裝的{0}。</MousekinRace_CommandToggleAttachedHeadgearDesc>
 	

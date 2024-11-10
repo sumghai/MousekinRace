@@ -6,19 +6,19 @@
 	
 	<!-- EN: Whitefur's Keep -->
 	<MousekinRace_Settlement_Fort>白毛城堡</MousekinRace_Settlement_Fort>
-
+	
 	<!-- EN: Paused: Non-ideal temperature. -->
 	<MousekinRace_Beehive_HoneyPausedBadTemp>暫停︰溫度不佳</MousekinRace_Beehive_HoneyPausedBadTemp>
 
 	<!-- EN: Paused: Not enough flowers in range ({0} of {1} required). -->
 	<MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>暫停：範圍內沒有足夠的花(只有{0}朵，需{1}朵)</MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>
-
+	
 	<!-- EN: Next honey in: {0} -->
 	<MousekinRace_Beehive_HoneyProgress>下一次蜂蜜於:{0}</MousekinRace_Beehive_HoneyProgress>
-
+	
 	<!-- EN: Awaiting pickup. -->
 	<MousekinRace_Beehive_HoneyReady>等待取蜂蜜。</MousekinRace_Beehive_HoneyReady>
-
+	
 	<!-- EN: To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n -->
 	<MousekinRace_Beehive_Instructions>要生產蜂蜜和蜂蠟，白鼠族蜂箱的溫度範圍必須在{0}~{1}以內，並且範圍內要有至少{2}格含以下任何花種︰\n</MousekinRace_Beehive_Instructions>
 	
@@ -27,79 +27,79 @@
 	
 	<!-- EN: Remove this item from the root cellar. -->
 	<MousekinRace_CellarOutdoor_EjectItemTooltip>把此物品從此根窖移除。</MousekinRace_CellarOutdoor_EjectItemTooltip>
-
+	
 	<!-- EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>選原乳</MousekinRace_CheesePress_InsertMilkDesc>
-
+	
 	<!-- EN: Bring Milk -->
 	<MousekinRace_CheesePress_StartInsertionMilk>添加原乳</MousekinRace_CheesePress_StartInsertionMilk>
-
+	
 	<!-- EN: Bring milk to the cheese press to start the cheesemaking process -->
 	<MousekinRace_CheesePress_StartInsertionMilkDesc>往該起司壓制器添加原乳以開始壓制。</MousekinRace_CheesePress_StartInsertionMilkDesc>
-
+	
 	<!-- EN: Cancel bringing Milk -->
 	<MousekinRace_CheesePress_CancelBringingMilk>取消添加原乳</MousekinRace_CheesePress_CancelBringingMilk>
-
+	
 	<!-- EN: Cancel bringing Milk to the cheese press. -->
 	<MousekinRace_CheesePress_CancelBringingMilkDesc>取消往該起司壓制器添加原乳。</MousekinRace_CheesePress_CancelBringingMilkDesc>
-
+	
 	<!-- EN: Remove Cheese -->
 	<MousekinRace_CheesePress_RemoveCheese>移除起司</MousekinRace_CheesePress_RemoveCheese>
-
+	
 	<!-- EN: Remove cheese from the press. -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>從起司壓制器移除起司。</MousekinRace_CheesePress_RemoveCheeseDesc>
 	
 	<!-- EN: New {0} will arrive in {1}. -->
 	<MousekinRace_ChurchAltar_NewClergyArrivalTime>新的{0}在{1}後抵達。</MousekinRace_ChurchAltar_NewClergyArrivalTime>
-
+	
 	<!-- EN: Must or Wort to Insert -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>選原漿或麥汁</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
-
+	
 	<!-- EN: Bring Must or Wort -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWort>添加原漿或麥汁</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
-
+	
 	<!-- EN: Bring mead must or lager wort to the barrel to start fermentation process -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>往該發酵桶添加原漿或麥汁以開始釀造。</MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
-
+	
 	<!-- EN: Cancel bringing Must or Wort -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWort>取消添加原漿或麥汁</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
-
+	
 	<!-- EN: Cancel bringing mead must or lager wort to the barrel. -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>取消往該發酵桶添加原漿或麥汁。</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
-
+	
 	<!-- EN: We are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Player>我們{0}</MousekinRace_MemeGoodwillImpact_Player>
-
+	
 	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>他們{0}</MousekinRace_MemeGoodwillImpact_Other>
 	
 	<!-- EN: Cannot build more than one {0} on the map. -->
 	<MousekinRace_PlaceWorker_OnlyOnePerMap>不能在地圖上建造一個以上的{0}。</MousekinRace_PlaceWorker_OnlyOnePerMap>
-
+	
 	<!-- EN: {0} must be placed at least {1} cells away from any impassable structures. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0}必須放置在距任何無法通行的結構至少{1}格的位置。</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
-
+	
 	<!-- EN: {0} must be placed at least {1} cells away from any other {0}s. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0}必須放置在距其他{0}至少{1}格的位置。</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
-
+	
 	<!-- EN: {0} must be placed clear of any obstructions. -->
 	<MousekinRace_PlaceWorker_MustBeClearOfObstructions>{0}必須放置在沒有任何障礙物的位置。</MousekinRace_PlaceWorker_MustBeClearOfObstructions>
-
+	
 	<!-- EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>選穀物</MousekinRace_Windmill_InsertWheatDesc>
-
+	
 	<!-- EN: Bring Wheat -->
 	<MousekinRace_Windmill_StartInsertionWheat>添加小麥</MousekinRace_Windmill_StartInsertionWheat>
-
+	
 	<!-- EN: Bring raw wheat to the windmill for milling into flour -->
 	<MousekinRace_Windmill_StartInsertionWheatDesc>往該風車添加小麥以開始磨成麵粉。</MousekinRace_Windmill_StartInsertionWheatDesc>
-
+	
 	<!-- EN: Cancel bringing Wheat -->
 	<MousekinRace_Windmill_CancelBringingWheat>取消添加小麥</MousekinRace_Windmill_CancelBringingWheat>
-
+	
 	<!-- EN: Cancel bringing raw wheat to the windmill -->
 	<MousekinRace_Windmill_CancelBringingWheatDesc>取消往該風車添加小麥。</MousekinRace_Windmill_CancelBringingWheatDesc>
-
+	
 	<!-- EN: Irrigation paused: Insufficient wind speed -->
 	<MousekinRace_Windmill_LowWindspeed>灌溉暫停︰風速不足</MousekinRace_Windmill_LowWindspeed>
 	

@@ -6,10 +6,10 @@
 	
 	<!-- EN: Race -->
 	<MousekinRace_Settings_SectionRace_Heading>種族</MousekinRace_Settings_SectionRace_Heading>
-
+	
 	<!-- EN: Earless Mousekins are suicidal -->
 	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>失去耳朵的白鼠族是否會自殺</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>
-
+	
 	<!-- EN: Mousekins who lose both their ears and do not receive prosthetic or natural implants will commit suicide after 15 in-game days due to social stigma.\n\nDisabling this will keep them alive, but they will continue to experience mood debuffs from missing ears. -->
 	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>失去雙耳且未接受假耳或移植耳的白鼠族，會由於社會恥辱感而在遊戲中15天后自殺。\n\n禁用此選項將使他們存活下來，但他們會繼續遭受情緒減益。</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>
 	
@@ -18,7 +18,7 @@
 	
 	<!-- EN: Church tithe multiplier: {0}x -->
 	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>教會什一奉獻倍率: {0}x</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>
-
+	
 	<!-- EN: Specify the multiplier applied to the amount of silver tithe generated at the end of church service gatherings. -->
 	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>指定教會禮拜結束時所產生的白銀什一奉獻金額的倍率。</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>
 	
@@ -36,5 +36,5 @@
 	
 	<!-- EN: Specify how often a random caravan trader from the chosen allegiance faction should visit your settlements. -->
 	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>指定所選效忠派系的隨機交易旅隊訪問殖民地的頻率。</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>
-
+	
 </LanguageData>

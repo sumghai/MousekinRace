@@ -22,6 +22,18 @@
 	<!-- EN: Your Mousekin colonists have now earned enough goodwill with one or more Mousekin factions, and they would like to invite your colony to align with them.\n\nIn exchange for pledging allegiance to their faction, your colonists will benefit from regular traders, crafting unlocks, military aid and the ability to invite more colonists to join your settlement.\n\nConsider their offers carefully.\n\n(Click to open the allegiance window.) -->
 	<AlertFactionAllegianceAvailableDesc>Ваши колонисты из племени мышкинов заслужили расположение одной или нескольких фракций, и теперь они хотят предложить вашей колонии присоединиться к ним.\n\nВ обмен на присягу на верность их фракции ваши колонисты получат выгоду от постоянных торговцев, разблокировки ремесел, военную помощь и возможность приглашать других колонистов присоединиться к вашему поселению.\n\nВнимательно изучите их предложения.\n\n(Нажмите, чтобы открыть окно верности).</AlertFactionAllegianceAvailableDesc>
 	
+	<!-- EN: Need Church -->
+	<AlertNeedChurchLabel>Нужен церковь</AlertNeedChurchLabel>
+	
+	<!-- EN: Mousekins in your settlement are demanding a place to worship Valerian the Wise.\n\nBuild an enclosed room that satisfies the following requirements: -->
+	<AlertNeedChurchDesc>Мышкины в вашем поселении требуют место для поклонения Валериану Мудрому.\n\nПостройте закрытое помещение, отвечающее следующим требованиям:</AlertNeedChurchDesc>
+	
+	<!-- EN: Need {0} -->
+	<AlertNeedPriestLabel>Нужен {0}</AlertNeedPriestLabel>
+	
+	<!-- EN: Your church requires at least one {0} to conduct regular church services for your Mousekin colonists.\n\nYou can recruit them directly from the {1}, or invite one to join your colony through the Faction Allegiance system. -->
+	<AlertNeedPriestDesc>Для проведения регулярных церковных служб для колонистов Мышкина в вашей церкви требуется как минимум один {0}.\n\nВы можете набрать их непосредственно из {1} или пригласить присоединиться к вашей колонии через систему Система преданности.</AlertNeedPriestDesc>
+	
 	<!-- EN: Need Town Square -->
 	<AlertNeedTownSquareSingularLabel>Нужна городская площадь</AlertNeedTownSquareSingularLabel>
 	
@@ -63,5 +75,11 @@
 	
 	<!-- EN: Remove all obstructing buildings and furniture. -->
 	<AlertObstructedTownSquareDescEnding>Уберите все мешающие постройки и мебель..</AlertObstructedTownSquareDescEnding>
-
+	
+	<!-- EN: Research project needs {0} -->
+	<AlertResearchProjNeedsGlassesLabel>Исследовательский проект требует {0}</AlertResearchProjNeedsGlassesLabel>
+	
+	<!-- EN: You have an active research project '{0}' that requires an active researcher wearing {1}, but none of your colonists meet this requirement.\n\nCraft a pair of {2} at a {3}, and make sure any colonists wearing them are assigned to research work. -->
+	<AlertResearchProjNeedsGlassesDesc>У вас есть активный исследовательский проект «{0}», для которого требуется активный исследователь, носящий {1}, но ни один из ваших колонистов не соответствует этому требованию.\n\nСоздайте пару {2} на {3} и убедитесь, что все колонисты, носящие их, заняты исследовательской работой.</AlertResearchProjNeedsGlassesDesc>
+	
 </LanguageData>

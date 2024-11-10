@@ -1,72 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
+	<!-- EN: Arcadia -->
 	<MousekinRace_Settlement_CapitalCity>Аркадия</MousekinRace_Settlement_CapitalCity>
 	
+	<!-- EN: Whitefur's Keep -->
 	<MousekinRace_Settlement_Fort>Крепость Белого Пуха</MousekinRace_Settlement_Fort>
 	
+	<!-- EN: Paused: Non-ideal temperature. -->
 	<MousekinRace_Beehive_HoneyPausedBadTemp>Приостановлено: неидеальная температура.</MousekinRace_Beehive_HoneyPausedBadTemp>
 
+	<!-- EN: Paused: Not enough flowers in range ({0} of {1} required). -->
 	<MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>Приостановлено: недостаточно цветов в радиусе ({0} из {1} требуется).</MousekinRace_Beehive_HoneyPausedNotEnoughFlowers>
 	
+	<!-- EN: Next honey in: {0} -->
 	<MousekinRace_Beehive_HoneyProgress>Следующий мёд будет готов через: {0}</MousekinRace_Beehive_HoneyProgress>
 	
+	<!-- EN: Awaiting pickup. -->
 	<MousekinRace_Beehive_HoneyReady>Ожидает забирания.</MousekinRace_Beehive_HoneyReady>
 	
+	<!-- EN: To produce honey and beeswax, the Mousekin beehive must be at a temperature range of {0} ~ {1} and within range of at least {2} cells containing any of the following flowers:\n -->
 	<MousekinRace_Beehive_Instructions>Чтобы производить мед и восковые изделия, улей должен находиться в температурном диапазоне от {0} до {1} и в радиусе как минимум {2} клеток, содержащих любые из следующих цветов:\n</MousekinRace_Beehive_Instructions>
 	
+	<!-- EN: The items currently stored inside this root cellar. -->
 	<MousekinRace_CellarOutdoor_ContainedItemsDesc>Предметы, в настоящее время хранящиеся в этом подвале.</MousekinRace_CellarOutdoor_ContainedItemsDesc>
 	
+	<!-- EN: Remove this item from the root cellar. -->
 	<MousekinRace_CellarOutdoor_EjectItemTooltip>Удалить этот предмет из подвала.</MousekinRace_CellarOutdoor_EjectItemTooltip>
 	
+	<!-- EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>Молоко для вставки</MousekinRace_CheesePress_InsertMilkDesc>
 	
+	<!-- EN: Bring Milk -->
 	<MousekinRace_CheesePress_StartInsertionMilk>Принести молоко</MousekinRace_CheesePress_StartInsertionMilk>
 	
+	<!-- EN: Bring milk to the cheese press to start the cheesemaking process -->
 	<MousekinRace_CheesePress_StartInsertionMilkDesc>Принести молоко в сыроварню, чтобы начать процесс сыроделия</MousekinRace_CheesePress_StartInsertionMilkDesc>
 	
+	<!-- EN: Cancel bringing Milk -->
 	<MousekinRace_CheesePress_CancelBringingMilk>Отменить доставку молока</MousekinRace_CheesePress_CancelBringingMilk>
 	
+	<!-- EN: Cancel bringing Milk to the cheese press. -->
 	<MousekinRace_CheesePress_CancelBringingMilkDesc>Отменить доставку молока в сыроварню.</MousekinRace_CheesePress_CancelBringingMilkDesc>
 	
+	<!-- EN: Remove Cheese -->
 	<MousekinRace_CheesePress_RemoveCheese>Удалить сыр</MousekinRace_CheesePress_RemoveCheese>
 	
+	<!-- EN: Remove cheese from the press. -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>Удалить сыр из пресса.</MousekinRace_CheesePress_RemoveCheeseDesc>
 	
+	<!-- EN: New {0} will arrive in {1}. -->
+	<MousekinRace_ChurchAltar_NewClergyArrivalTime>Новый {0} появится через {1}.</MousekinRace_ChurchAltar_NewClergyArrivalTime>
+	
+	<!-- EN: Must or Wort to Insert -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>Дрожжи или сусло для вставки</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
 	
+	<!-- EN: Bring Must or Wort -->							
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWort>Принести дрожжи или сусло</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
 	
+	<!-- EN: Bring mead must or lager wort to the barrel to start fermentation process -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>Принести сусло для медовухи или лагера в бочку, чтобы начать процесс ферментации</MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
 	
+	<!-- EN: Cancel bringing Must or Wort -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWort>Отменить доставку дрожжей или сусла</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
 	
+	<!-- EN: Cancel bringing mead must or lager wort to the barrel. -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>Отменить доставку дрожжей для медовухи или сусла для лагера в бочку.</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
 	
+	<!-- EN: We are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Player>Мы {0}</MousekinRace_MemeGoodwillImpact_Player>
 	
+	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>Они {0}</MousekinRace_MemeGoodwillImpact_Other>
 	
+	<!-- EN: Cannot build more than one {0} on the map. -->
 	<MousekinRace_PlaceWorker_OnlyOnePerMap>Нельзя построить больше одной {0} на карте.</MousekinRace_PlaceWorker_OnlyOnePerMap>
 	
+	<!-- EN: {0} must be placed at least {1} cells away from any impassable structures. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0} должен быть размещен на расстоянии как минимум {1} клеток от любых непроходимых структур.</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
 	
+	<!-- EN: {0} must be placed at least {1} cells away from any other {0}s. -->
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0} должен быть размещен на расстоянии как минимум {1} клеток от любых других {0}.</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
 	
+	<!-- EN: {0} must be placed clear of any obstructions. -->
 	<MousekinRace_PlaceWorker_MustBeClearOfObstructions>{0} должен быть размещен в свободном от препятствий месте.</MousekinRace_PlaceWorker_MustBeClearOfObstructions>
 	
+	<!-- EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>Зерно для вставки</MousekinRace_Windmill_InsertWheatDesc>
 	
+	<!-- EN: Bring Wheat -->
 	<MousekinRace_Windmill_StartInsertionWheat>Принести пшеницу</MousekinRace_Windmill_StartInsertionWheat>
 	
+	<!-- EN: Bring raw wheat to the windmill for milling into flour -->
 	<MousekinRace_Windmill_StartInsertionWheatDesc>Принести сырую пшеницу в мельницу для перемалывания в муку</MousekinRace_Windmill_StartInsertionWheatDesc>
 	
+	<!-- EN: Cancel bringing Wheat -->							   
 	<MousekinRace_Windmill_CancelBringingWheat>Отменить доставку пшеницы</MousekinRace_Windmill_CancelBringingWheat>
 	
+	<!-- EN: Cancel bringing raw wheat to the windmill -->
 	<MousekinRace_Windmill_CancelBringingWheatDesc>Отменить доставку сырой пшеницы в мельницу</MousekinRace_Windmill_CancelBringingWheatDesc>
 	
+	<!-- EN: Irrigation paused: Insufficient wind speed -->
 	<MousekinRace_Windmill_LowWindspeed>Ирригация приостановлена: недостаточная скорость ветра</MousekinRace_Windmill_LowWindspeed>
 	
+	<!-- EN: But as for the Mousekins amongst the departing colonists, they will soon discover that regardless of noble title, the Empire extends no such courtesies to lesser races like them, and they will spend the rest of their days as glorified circus animals and "talking pets" performing for the amusement of the Imperial court.\n\nSuch is the fate of mice who naively believe in the lies of men. -->
 	<MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>Но что касается мышат среди покидающих колонистов, они вскоре поймут, что, несмотря на благородные титулы, Империя не проявляет таких любезностей к менее значительным расам, как они, и проведут оставшиеся дни, став обезьянами в цирке и «говорящими питомцами», развлекающими Императорский двор.\n\nТакова судьба мышей, которые наивно верят в лживые обещания людей.</MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>
 	
 </LanguageData>

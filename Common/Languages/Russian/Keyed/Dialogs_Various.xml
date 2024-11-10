@@ -1,136 +1,205 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+	<!-- EN: The Faction Allegiance system is disabled, as at least one of your colonists holds a royal title with {0}.\n\nTo access this system, all of your colonists must renounce their royal titles. -->
+	<MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>Система преданности фракции отключена, так как минимум один из ваших колонистов имеет королевский титул с {0}.\n\nЧтобы получить доступ к этой системе, все ваши колонисты должны отказаться от своих королевских титулов.</MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>
 	
-<MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>Система преданности фракции отключена, так как минимум один из ваших колонистов имеет королевский титул с {0}.\n\nЧтобы получить доступ к этой системе, все ваши колонисты должны отказаться от своих королевских титулов.</MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>
-
-<MousekinRace_AllegianceSys_ReqSubheading>Требования:</MousekinRace_AllegianceSys_ReqSubheading>
-
-<MousekinRace_AllegianceSys_ReqMinColonyAge>Колония как минимум {0} лет</MousekinRace_AllegianceSys_ReqMinColonyAge>
-
-<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>По крайней мере {0} населения — Мышкин</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
-
-<MousekinRace_AllegianceSys_ReqMinGoodwill>Не менее {0} доброй воли с фракцией</MousekinRace_AllegianceSys_ReqMinGoodwill>
-
-<MousekinRace_AllegianceSys_Overview>Обзор</MousekinRace_AllegianceSys_Overview>
-
-<MousekinRace_AllegianceSys_Benefits>Преимущества</MousekinRace_AllegianceSys_Benefits>
-
-<MousekinRace_AllegianceSys_Costs>Затраты</MousekinRace_AllegianceSys_Costs>
-
-<MousekinRace_AllegianceSys_Recruit>Пригласить поселенцев</MousekinRace_AllegianceSys_Recruit>
-
-<MousekinRace_AllegianceSys_CallTrader>Запросить торговца</MousekinRace_AllegianceSys_CallTrader>
-
-<MousekinRace_AllegianceSys_CallMilitaryAid>Запросить военную помощь</MousekinRace_AllegianceSys_CallMilitaryAid>
-
-<MousekinRace_AllegianceSys_Log>Просмотреть журнал</MousekinRace_AllegianceSys_Log>
-
-<MousekinRace_AllegianceSys_Change>Сменить преданность</MousekinRace_AllegianceSys_Change>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>Просмотреть {0}...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>{0} для становления {1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>Вы больше не будете получать квесты и сборщиков дани от {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>Следующие фракции являются врагами {0} и станут враждебными к вашей фракции:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>Следующие предметы, эксклюзивные для фракции, будут доступны для создания:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>Ваша фракция примет идеологию {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>Следующие типы колонистов из фракции могут быть приглашены в ваши поселения:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>Торговцы из этой фракции будут предлагать товары по {0} от типичных рыночных цен</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>Следующие колонисты будут недовольны, если вы поклянетесь в преданности этой фракции, и покинут вас:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
-
-<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>{0} черта</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>
-
-<MousekinRace_AllegianceSys_ReqDesc>Чтобы поклясться в преданности этой фракции, вам нужно выполнить перечисленные выше требования.</MousekinRace_AllegianceSys_ReqDesc>
-
-<MousekinRace_AllegianceSys_JoinConfirmation>Вы уверены, что хотите поклясться в преданности {0}?</MousekinRace_AllegianceSys_JoinConfirmation>
-
-<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} из {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
-
-<MousekinRace_AllegianceSys_LeaderTitleFullName>{0} {1}</MousekinRace_AllegianceSys_LeaderTitleFullName>
-
-<MousekinRace_AllegianceSys_RenameFactionDialog_Message>{0} рекомендует, чтобы вашу фракцию переименовали во что-то более подходящее для нового {1}.\n\nКак должно называться вашу фракцию?</MousekinRace_AllegianceSys_RenameFactionDialog_Message>
-
-<MousekinRace_AllegianceSys_Overview_GeneralCatHeading>Общее</MousekinRace_AllegianceSys_Overview_GeneralCatHeading>
-
-<MousekinRace_AllegianceSys_Overview_GeneralJoinDate>Дата клятвы в преданности</MousekinRace_AllegianceSys_Overview_GeneralJoinDate>
-
-<MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>Время в качестве {0}</MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>
-
-<MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>Демография</MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>
-
-<MousekinRace_AllegianceSys_Overview_DemographicsPopulation>Население</MousekinRace_AllegianceSys_Overview_DemographicsPopulation>
-
-<MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>Немышиные грызуны</MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>
-
-<MousekinRace_AllegianceSys_Overview_DemographicsOther>Прочие</MousekinRace_AllegianceSys_Overview_DemographicsOther>
-
-<MousekinRace_AllegianceSys_Overview_DemographicsRaces>Расы</MousekinRace_AllegianceSys_Overview_DemographicsRaces>
-
-<MousekinRace_AllegianceSys_Overview_DemographicsAges>Возраст</MousekinRace_AllegianceSys_Overview_DemographicsAges>
-
-<MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>Религиозные привязанности</MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>
-
-<MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>Статистика</MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>
-
-<MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>Приглашенные новые поселенцы</MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>
-
-<MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>Посещения случайными торговыми караванами</MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>
-
-<MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>Посещения запрошенными торговыми караванами</MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>
-
-<MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>Запрошенная военная помощь</MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>
-
-<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>Просмотреть ожидающих колонистов...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
-
-<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>Ожидающие новые колонисты</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>
-
-<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>Прибудет через {0}.</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>
-
-<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>Примечание: опция Пригласить семью включает супруга{0}.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
-
-<MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix> и 2~3 детей</MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>
-
-<MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>Пригласить\n({0})</MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>
-
-<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>Пригласить семью\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
-
-<MousekinRace_AllegianceSys_Recruit_Confirmation>Вы уверены, что хотите пригласить {0}{1} в ваше поселение?\n\nЭто будет стоить {2} серебра.</MousekinRace_AllegianceSys_Recruit_Confirmation>
-
-<MousekinRace_AllegianceSys_Recruit_ConfirmationFamily> и их семью</MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>
-
-<MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>Следующий случайный торговец караваном прибывает через: {0}</MousekinRace_Trader_NextRandomCaravanArrivesIn>
-
-<MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>Следующий запрошенный торговец караваном прибывает через: {0} ({1})</MousekinRace_Trader_NextRequestedCaravanArrivesIn>
-
-<MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>Остаток времени на запрос конкретных торговцев караваном: {0}</MousekinRace_Trader_RequestedCaravanCooldown>
-
-<MousekinRace_AllegianceSys_Trader_Confirmation>Вы уверены, что хотите запросить {0} для визита в ваше поселение?\n\nОни прибудут через {1}.</MousekinRace_Trader_Confirmation>
-
-<MousekinRace_AllegianceSys_MilitaryAid_Desc>Как {0}, вы можете запросить военную помощь без затрат.</MousekinRace_AllegianceSys_MilitaryAid_Desc>
-
-<MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>Подкрепление прибудет через: {0}</MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>
-
-<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>Вы уверены, что хотите запросить военную помощь?\n\nОна прибудет через {0}.</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
-
-<MousekinRace_AllegianceSys_Log_JoinedFaction>Поклялся в преданности {0}</MousekinRace_AllegianceSys_Log_JoinedFaction>
-
-<MousekinRace_AllegianceSys_Log_NewColonists>Приглашены новые поселенцы: {0}</MousekinRace_AllegianceSys_Log_NewColonists>
-
-<MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix> с семьей</MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>
-
-<MousekinRace_AllegianceSys_Log_RandTraderArrival>Прибыл случайный торговец караваном</MousekinRace_AllegianceSys_Log_RandTraderArrival>
-
-<MousekinRace_AllegianceSys_Log_ReqTraderArrival>Прибыл запрошенный торговец караваном: {0}</MousekinRace_AllegianceSys_Log_ReqTraderArrival>
-
-<MousekinRace_AllegianceSys_Log_MilitaryAid>Запрошена военная помощь</MousekinRace_AllegianceSys_Log_MilitaryAid>
-
-<MousekinRace_TradePriceFactor_FactionAllegiance>преданность фракции</MousekinRace_TradePriceFactor_FactionAllegiance>
-
+	<!-- EN: Requirements: -->
+	<MousekinRace_AllegianceSys_ReqSubheading>Требования:</MousekinRace_AllegianceSys_ReqSubheading>
+	
+	<!-- EN: Colony at least {0} old -->
+	<MousekinRace_AllegianceSys_ReqMinColonyAge>Колония как минимум {0} лет</MousekinRace_AllegianceSys_ReqMinColonyAge>
+	
+	<!-- EN: At least {0} of population are Mousekin -->
+	<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>По крайней мере {0} населения — Мышкин</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
+	
+	<!-- EN: At least {0} goodwill with faction -->
+	<MousekinRace_AllegianceSys_ReqMinGoodwill>Не менее {0} доброй воли с фракцией</MousekinRace_AllegianceSys_ReqMinGoodwill>
+	
+	<!-- EN: Overview -->
+	<MousekinRace_AllegianceSys_Overview>Обзор</MousekinRace_AllegianceSys_Overview>
+	
+	<!-- EN: Benefits -->
+	<MousekinRace_AllegianceSys_Benefits>Преимущества</MousekinRace_AllegianceSys_Benefits>
+	
+	<!-- EN: Costs -->
+	<MousekinRace_AllegianceSys_Costs>Затраты</MousekinRace_AllegianceSys_Costs>
+	
+	<!-- EN: Invite Colonists -->
+	<MousekinRace_AllegianceSys_Recruit>Пригласить поселенцев</MousekinRace_AllegianceSys_Recruit>
+	
+	<!-- EN: Request Trader -->
+	<MousekinRace_AllegianceSys_CallTrader>Запросить торговца</MousekinRace_AllegianceSys_CallTrader>
+	
+	<!-- EN: Request Military Aid -->
+	<MousekinRace_AllegianceSys_CallMilitaryAid>Запросить военную помощь</MousekinRace_AllegianceSys_CallMilitaryAid>
+	
+	<!-- EN: View Log -->	
+	<MousekinRace_AllegianceSys_Log>Просмотреть журнал</MousekinRace_AllegianceSys_Log>
+	
+	<!-- EN: Change Allegiance -->
+	<MousekinRace_AllegianceSys_Change>Сменить преданность</MousekinRace_AllegianceSys_Change>
+	
+	<!-- EN: View {0}... -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>Просмотреть {0}...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>
+	
+	<!-- EN: {0} of becoming a {1} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>{0} для становления {1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>
+	
+	<!-- EN: You will no longer receive quests and tribute collectors from {0} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>Вы больше не будете получать квесты и сборщиков дани от {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
+	
+	<!-- EN: The following factions are enemies of {0}, and will become hostile to your faction:\n{1} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>Следующие фракции являются врагами {0} и станут враждебными к вашей фракции:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
+	
+	<!-- EN: The following faction-exclusive items will be available for crafting: -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>Следующие предметы, эксклюзивные для фракции, будут доступны для создания:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
+	
+	<!-- EN: Your faction will adopt the {0} ideoligion -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>Ваша фракция примет идеологию {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
+	
+	<!-- EN: The following colonist types from the faction can be invited to join your settlements:\n{0} -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>Следующие типы колонистов из фракции могут быть приглашены в ваши поселения:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>
+	
+	<!-- EN: Traders from this faction will offer goods at {0} of typical market values -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>Торговцы из этой фракции будут предлагать товары по {0} от типичных рыночных цен</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
+	
+	<!-- EN: The following colonists will be unhappy if you pledge allegiance to this faction, and will leave:\n{0} -->	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>Следующие колонисты будут недовольны, если вы поклянетесь в преданности этой фракции, и покинут вас:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
+	
+	<!-- EN: {0} trait -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>{0} черта</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>
+	
+	<!-- EN: To pledge allegiance to this faction, you need to meet the requirements listed above. -->
+	<MousekinRace_AllegianceSys_ReqDesc>Чтобы поклясться в преданности этой фракции, вам нужно выполнить перечисленные выше требования.</MousekinRace_AllegianceSys_ReqDesc>
+	
+	<!-- EN: Are you sure you want to pledge allegiance to {0}? -->
+	<MousekinRace_AllegianceSys_JoinConfirmation>Вы уверены, что хотите поклясться в преданности {0}?</MousekinRace_AllegianceSys_JoinConfirmation>
+	
+	<!-- EN: {0} of {1} -->
+	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} из {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
+	
+	<!-- EN: {0} {1} ([faction leader title] [faction leader full name]) -->
+	<MousekinRace_AllegianceSys_LeaderTitleFullName>{0} {1}</MousekinRace_AllegianceSys_LeaderTitleFullName>
+	
+	<!-- EN: {0} recommends that your faction be renamed to something more appropriate for a new {1}.\n\nWhat should your faction be called? -->
+	<MousekinRace_AllegianceSys_RenameFactionDialog_Message>{0} рекомендует, чтобы вашу фракцию переименовали во что-то более подходящее для нового {1}.\n\nКак должно называться вашу фракцию?</MousekinRace_AllegianceSys_RenameFactionDialog_Message>
+	
+	<!-- EN: General -->
+	<MousekinRace_AllegianceSys_Overview_GeneralCatHeading>Общее</MousekinRace_AllegianceSys_Overview_GeneralCatHeading>
+	
+	<!-- EN: Date allegiance pledged -->
+	<MousekinRace_AllegianceSys_Overview_GeneralJoinDate>Дата клятвы в преданности</MousekinRace_AllegianceSys_Overview_GeneralJoinDate>
+	
+	<!-- EN: Time as {0} -->
+	<MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>Время в качестве {0}</MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>
+	
+	<!-- EN: Demographics -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>Демография</MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>
+	
+	<!-- EN: Population -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsPopulation>Население</MousekinRace_AllegianceSys_Overview_DemographicsPopulation>
+	
+	<!-- EN: Non-Mousekin rodentkinds -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>Немышиные грызуны</MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>
+	
+	<!-- EN: Other -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsOther>Прочие</MousekinRace_AllegianceSys_Overview_DemographicsOther>
+	
+	<!-- EN: Races -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsRaces>Расы</MousekinRace_AllegianceSys_Overview_DemographicsRaces>
+	
+	<!-- EN: Ages -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsAges>Возраст</MousekinRace_AllegianceSys_Overview_DemographicsAges>
+	
+	<!-- EN: Religious Affinities -->
+	<MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>Религиозные привязанности</MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>
+	
+	<!-- EN: Statistics -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>Статистика</MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>
+	
+	<!-- EN: New settlers invited -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>Приглашенные новые поселенцы</MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>
+	
+	<!-- EN: Visits by random caravan traders -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>Посещения случайными торговыми караванами</MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>
+	
+	<!-- EN: Visits by requested caravan traders -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>Посещения запрошенными торговыми караванами</MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>
+	
+	<!-- EN: Military aid requested -->
+	<MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>Запрошенная военная помощь</MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>
+	
+	<!-- EN: View pending colonists... -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>Просмотреть ожидающих колонистов...</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
+	
+	<!-- EN: Pending new colonists -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>Ожидающие новые колонисты</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>
+	
+	<!-- EN: Arrives in {0}. -->
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>Прибудет через {0}.</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>
+	
+	<!-- EN: Note: The Invite Family option includes a spouse{0}.  -->
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>Примечание: опция Пригласить семью включает супруга{0}.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
+	
+	<!-- EN:  and 2~3 children -->
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix> и 2~3 детей</MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>
+	
+	<!-- EN: Invite\n({0}) -->
+	<MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>Пригласить\n({0})</MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>
+	
+	<!-- EN: Invite Family\n({0}) -->
+	<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>Пригласить семью\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
+	
+	<!-- EN: Are you sure you want to invite {0}{1} to join your settlement?\n\nIt will cost {2} silver. -->
+	<MousekinRace_AllegianceSys_Recruit_Confirmation>Вы уверены, что хотите пригласить {0}{1} в ваше поселение?\n\nЭто будет стоить {2} серебра.</MousekinRace_AllegianceSys_Recruit_Confirmation>
+	
+	<!-- EN:  and their family -->
+	<MousekinRace_AllegianceSys_Recruit_ConfirmationFamily> и их семью</MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>
+	
+	<!-- EN: Next random caravan trader arrives in: {0} -->
+	<MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>Следующий случайный торговец караваном прибывает через: {0}</MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>
+	
+	<!-- EN: Next requested caravan trader arrives in: {0} ({1}) -->
+	<MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>Следующий запрошенный торговец караваном прибывает через: {0} ({1})</MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>
+	
+	<!-- EN: Cooldown remaining for requesting specific caravan traders: {0} -->
+	<MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>Остаток времени на запрос конкретных торговцев караваном: {0}</MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>
+	
+	<!-- EN: Are you sure you want to request a {0} to visit your settlement?\n\nThey will arrive in {1}. -->
+	<MousekinRace_AllegianceSys_Trader_Confirmation>Вы уверены, что хотите запросить {0} для визита в ваше поселение?\n\nОни прибудут через {1}.</MousekinRace_AllegianceSys_Trader_Confirmation>
+	
+	<!-- EN: As a {0}, you can request military aid at no cost. -->
+	<MousekinRace_AllegianceSys_MilitaryAid_Desc>Как {0}, вы можете запросить военную помощь без затрат.</MousekinRace_AllegianceSys_MilitaryAid_Desc>
+	
+	<!-- EN: Reinforcements will arrive in: {0} -->
+	<MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>Подкрепление прибудет через: {0}</MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>
+	
+	<!-- EN: Are you sure you want to request military aid?\n\nIt will arrive in {0}. -->
+	<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>Вы уверены, что хотите запросить военную помощь?\n\nОна прибудет через {0}.</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
+	
+	<!-- EN: Pledged allegaince to {0} -->
+	<MousekinRace_AllegianceSys_Log_JoinedFaction>Поклялся в преданности {0}</MousekinRace_AllegianceSys_Log_JoinedFaction>
+	
+	<!-- EN: Invited new settlers: {0} -->
+	<MousekinRace_AllegianceSys_Log_NewColonists>Приглашены новые поселенцы: {0}</MousekinRace_AllegianceSys_Log_NewColonists>
+	
+	<!-- EN:  with family -->
+	<MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix> с семьей</MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>
+	
+	<!-- EN: Random caravan trader arrived -->
+	<MousekinRace_AllegianceSys_Log_RandTraderArrival>Прибыл случайный торговец караваном</MousekinRace_AllegianceSys_Log_RandTraderArrival>
+	
+	<!-- EN: Requested caravan trader arrived: {0} -->
+	<MousekinRace_AllegianceSys_Log_ReqTraderArrival>Прибыл запрошенный торговец караваном: {0}</MousekinRace_AllegianceSys_Log_ReqTraderArrival>
+	
+	<!-- EN: Requested military aid -->
+	<MousekinRace_AllegianceSys_Log_MilitaryAid>Запрошена военная помощь</MousekinRace_AllegianceSys_Log_MilitaryAid>
+	
+	<!-- EN: minimum -->
+	<MousekinRace_Minimum>минимум</MousekinRace_Minimum>
+	
+	<!-- EN: faction allegiance -->
+	<MousekinRace_TradePriceFactor_FactionAllegiance>преданность фракции</MousekinRace_TradePriceFactor_FactionAllegiance>
+	
 </LanguageData>

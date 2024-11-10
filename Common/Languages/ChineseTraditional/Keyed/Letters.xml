@@ -9,7 +9,7 @@
 	
 	<!-- EN: Allegiance pledged to {0} -->
 	<MousekinRace_Letter_AllegianceSysJoinedFaction>效忠{0}</MousekinRace_Letter_AllegianceSysJoinedFaction>
-
+	
 	<!-- EN: Your faction is now a {0}. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>您的派系現在是{0}了。</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
 	
@@ -31,5 +31,4 @@
 	<!-- EN: &lt;b&gt;&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;&lt;/b&gt;\n\nThe church service for {0} has concluded.\n\nOfficiating priest: {1}\nPriest's social skill: {2}\nNuns: {3}\n\nAttendees: {4}\nReligious affinities: {5}\nAbsences: {6}\n\nTithe collected: {7} silver\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;b&gt;&lt;i&gt;Ameno Ameno.&lt;/i&gt;&lt;/b&gt; -->
 	<MousekinRace_Letter_ChurchServiceConcludedDesc>&lt;b&gt;&lt;i&gt;哆利梅，茵達利茉阿達帕瑞。&lt;/i&gt;&lt;/b&gt;\n\n{0}的教會禮拜已結束。\n\n主祭牧師: {1}\n牧師的社交技能: {2}\n修女: {3}\n\n出席者: {4}\n宗教信仰: {5}\n缺席者: {6}\n\n收取的什一稅: {7}白銀\n\n願智者纈草的教誨引導我們前往大花園。\n\n&lt;b&gt;&lt;i&gt;阿梅諾阿梅諾。&lt;/i&gt;&lt;/b&gt;</MousekinRace_Letter_ChurchServiceConcludedDesc>
 	
-
 </LanguageData>

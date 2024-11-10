@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
+	<!-- EN: Invite {0} -->
+	<MousekinRace_CommandInviteLabel>пригласить {0}</MousekinRace_CommandInviteLabel>
+	
+	<!-- EN: Invite a {0} to join your settlement.\n\nCost: {1} silver -->
+	<MousekinRace_CommandInviteDesc>Пригласите {0} присоединиться к вашему поселению.\n\nСтоимость: {1} серебро</MousekinRace_CommandInviteDesc>
+	
+	<!-- EN: Rotate cap -->
 	<MousekinRace_CommandRotateWindmillCapLabel>Повернуть крышу</MousekinRace_CommandRotateWindmillCapLabel>
 	
+	<!-- EN: Rotate the cap and sails of the windmill. -->
 	<MousekinRace_CommandRotateWindmillCapDesc>Повернуть крышу и паруса ветряной мельницы.</MousekinRace_CommandRotateWindmillCapDesc>
 	
+	<!-- EN: Show manual -->
 	<MousekinRace_CommandShowBeehiveManualLabel>Показать руководство</MousekinRace_CommandShowBeehiveManualLabel>
 	
+	<!-- EN: Show instructions for using the Mousekin Beehive. -->
 	<MousekinRace_CommandShowBeehiveManualDesc>Показать инструкции по использованию улья Москинов.</MousekinRace_CommandShowBeehiveManualDesc>
-
+	
+	<!-- EN: Wear {0} -->
 	<MousekinRace_CommandToggleAttachedHeadgearLabel>Надеть {0}</MousekinRace_CommandToggleAttachedHeadgearLabel>
-
+	
+	<!-- EN: Toggle wearing {0} attached to apparel. -->
 	<MousekinRace_CommandToggleAttachedHeadgearDesc>Переключить ношение {0}, прикрепленного к одежде.</MousekinRace_CommandToggleAttachedHeadgearDesc>
 	
+	<!-- EN: Flip -->
 	<MousekinRace_CommandToggleFlipDoorLabel>Перевернуть</MousekinRace_CommandToggleFlipDoorLabel>
 	
+	<!-- EN: Flip which direction the door should close towards. -->
 	<MousekinRace_CommandToggleFlipDoorDesc>Изменить направление, в котором должна закрываться дверь.</MousekinRace_CommandToggleFlipDoorDesc>
 	
+	<!-- EN: Your faction is a {0}, who is an enemy of this settlement's faction. -->
 	<MousekinRace_CommandShowSellableItemsDesc_DisabledReason>Ваша фракция является {0}, которая является врагом фракции этого поселения.</MousekinRace_CommandShowSellableItemsDesc_DisabledReason>
-
+	
 </LanguageData>

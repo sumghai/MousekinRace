@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin Race -->
 	<MousekinRace_SettingsCategory_Heading>Раса Мышкинов</MousekinRace_SettingsCategory_Heading>
 	
+	<!-- EN: Race -->
 	<MousekinRace_Settings_SectionRace_Heading>Раса</MousekinRace_Settings_SectionRace_Heading>
 	
+	<!-- EN: Earless Mousekins are suicidal -->
 	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>Мышкины без ушей самоубийцы</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>
 	
+	<!-- EN: Mousekins who lose both their ears and do not receive prosthetic or natural implants will commit suicide after 15 in-game days due to social stigma.\n\nDisabling this will keep them alive, but they will continue to experience mood debuffs from missing ears. -->
 	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>Мышкины, которые потеряли оба уха и не получили протезов или натуральных имплантов, совершат самоубийство через 15 игровых дней из-за социальной стигмы.\n\nОтключение этой опции позволит им выжить, но они будут продолжать испытывать негативные эмоции из-за отсутствующих ушей.</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>
 	
+	<!-- EN: Miscellaneous -->
 	<MousekinRace_Settings_SectionMisc_Heading>Разное</MousekinRace_Settings_SectionMisc_Heading>
 	
+	<!-- EN: Church tithe multiplier: {0}x -->
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>Умножитель церковной десятины: {0}x</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>
+	
+	<!-- EN: Specify the multiplier applied to the amount of silver tithe generated at the end of church service gatherings. -->
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>Укажите множитель, применяемый к сумме серебряной десятины, получаемой в конце церковных собраний.</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>
+	
+	<!-- EN: Root cellar temperature: {0} -->
 	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>Температура в подвале: {0}</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>
 	
+	<!-- EN: Specify the temperature at which root cellars refrigerate their contents. -->
 	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>Укажите температуру, при которой подвал будет охлаждать свои содержимое.</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>
 	
+	<!-- EN: Faction Allegiance system -->
 	<MousekinRace_Settings_SectionAllegianceSys_Heading>Система Альянса Фракций</MousekinRace_Settings_SectionAllegianceSys_Heading>
 	
+	<!-- EN: Random trade caravan interval: {0} -->
 	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>Интервал случайных торговых караванов: {0}</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>
 	
+	<!-- EN: Specify how often a random caravan trader from the chosen allegiance faction should visit your settlements. -->
 	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>Укажите, как часто случайный торговец из выбранной фракции альянса должен посещать ваши поселения.</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>
-
+	
 </LanguageData>

@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<!-- EN: Allegiance system unlocked -->
 	<MousekinRace_Letter_AllegianceSysIntro>Система преданности разблокирована</MousekinRace_Letter_AllegianceSysIntro>
 	
+	<!-- EN: By building a town square, you have now unlocked the Faction Allegiance system.\n\nOnce you have built up enough goodwill with certain factions, you can choose which faction to declare allegiance to and access various perks.\n\nFor more information, click on the Allegiance button in the bottom menu bar. -->
 	<MousekinRace_Letter_AllegianceSysIntroDesc>Построив площадь, вы разблокировали систему преданности фракции.\n\nПосле того как вы накопите достаточное количество доброй воли с определенными фракциями, вы сможете выбрать, какой фракции объявить преданность и получить доступ к различным бонусам.\n\nДля получения дополнительной информации нажмите кнопку преданности в нижней панели меню.</MousekinRace_Letter_AllegianceSysIntroDesc>
 	
+	<!-- EN: Allegiance pledged to {0} -->
 	<MousekinRace_Letter_AllegianceSysJoinedFaction>Преданность заявлена {0}</MousekinRace_Letter_AllegianceSysJoinedFaction>
 	
+	<!-- EN: Your faction is now a {0}. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>Ваша фракция теперь является {0}.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
 	
+	<!-- EN: The following colonists were unhappy with your new allegiance, and have decided to leave your faction:\n{0} -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>Следующие колонисты были недовольны вашей новой преданностью и решили покинуть вашу фракцию:\n{0}</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>
 	
+	<!-- EN: All of your colonists have adopted the {0} ideoligion of the parent faction. -->
 	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>Все ваши колонисты приняли идеологию {0} родительской фракции.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
 	
+	<!-- EN: New colonists -->
 	<MousekinRace_Letter_AllegianceSysNewColonists>Новые колонисты</MousekinRace_Letter_AllegianceSysNewColonists>
 	
+	<!-- EN: New colonists have arrived at your settlement:\n{0} -->
 	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>Новые колонисты прибыли в ваше поселение:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
-
+	
+	<!-- EN: Church service concluded -->
+	<MousekinRace_Letter_ChurchServiceConcluded>Церковная служба завершилась</MousekinRace_Letter_ChurchServiceConcluded>
+	
+	<!-- EN: &lt;b&gt;&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;&lt;/b&gt;\n\nThe church service for {0} has concluded.\n\nOfficiating priest: {1}\nPriest's social skill: {2}\nNuns: {3}\n\nAttendees: {4}\nReligious affinities: {5}\nAbsences: {6}\n\nTithe collected: {7} silver\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;b&gt;&lt;i&gt;Ameno Ameno.&lt;/i&gt;&lt;/b&gt; -->
+	<MousekinRace_Letter_ChurchServiceConcludedDesc>&lt;b&gt;&lt;i&gt;Дориме, Интеримо Адапаре.&lt;/i&gt;&lt;/b&gt;\n\nЦерковная служба на дату {0} закончилась.\n\nСвященник: {1}\nСоциальный навык священника: {2}\nМонахини: {3}\n\nПрисутствующие: {4}\nРелигиозные привязанности: {5}\nОтсутствующие: {6}\n\nСобранная десятина: {7} серебро\n\nПусть учения Валериана Мудрого направят нас к Великому Саду.\n\n&lt;b&gt;&lt;i&gt;Амено Амено.&lt;/i&gt;&lt;/b&gt;</MousekinRace_Letter_ChurchServiceConcludedDesc>
 </LanguageData>
