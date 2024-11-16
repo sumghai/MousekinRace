@@ -12,7 +12,7 @@ namespace MousekinRace
 
         public override void ExposeData()
         {
-            Scribe_Values.Look(ref churchAltar, "churchAltar", null, false);
+            Scribe_References.Look(ref churchAltar, "churchAltar");
             Scribe_Values.Look(ref spectateRect, "spectateRect", new CellRect(), false);
             Scribe_Values.Look(ref spectateRectAllowedSides, "spectateRectAllowedSides", SpectateRectSide.None, false);
             Scribe_Values.Look(ref spectateRectPreferredSide, "spectateRectPreferredSide", SpectateRectSide.None, false);
