@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-using Verse;
+﻿using Verse;
 
 namespace MousekinRace
 {
     public class BeehiveValidFlowersExtension : DefModExtension
     {
-        public List<ThingDef> validFlowerPlantDefs = new();
+        public FlowerListDef validFlowersList;
     }
 }

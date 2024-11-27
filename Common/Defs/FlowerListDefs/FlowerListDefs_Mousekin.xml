@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MousekinRace.FlowerListDef>
+		<defName>Mousekin_ValidFlowers</defName>
+		<flowerPlants>
+			<li>Plant_Dandelion</li>
+			<li>Plant_Daylily</li>
+			<li>Plant_Rose</li>
+		</flowerPlants>
+	</MousekinRace.FlowerListDef>
+
+</Defs>

@@ -33,7 +33,7 @@ namespace MousekinRace
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
             base.SpawnSetup(map, respawningAfterLoad);
-            validFlowerDefs = base.def.GetModExtension<BeehiveValidFlowersExtension>().validFlowerPlantDefs.OrderBy(x => x.label).ToList();
+            validFlowerDefs = base.def.GetModExtension<BeehiveValidFlowersExtension>().validFlowersList.flowerPlants.OrderBy(x => x.label).ToList();
         }
 
         public int CellsWithValidFlowers(Map map)

@@ -7,10 +7,11 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				
-				<!-- Allow Mousekin beehive to recognize selected flowers for honey and beeswax production -->
+				<!-- Allow selected flowers to be recognized by Mousekin beehives for honey and beeswax production,
+					 and for the Flowers: desired precept -->
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Mousekin_Beehive"]/modExtensions/li[@Class="MousekinRace.BeehiveValidFlowersExtension"]/validFlowerPlantDefs</xpath>
+					<xpath>Defs/MousekinRace.FlowerListDef[defName="Mousekin_ValidFlowers"]/flowerPlants</xpath>
 					<value>
 						<li>OF_Allium</li>
 						<li>OF_Alliums</li>

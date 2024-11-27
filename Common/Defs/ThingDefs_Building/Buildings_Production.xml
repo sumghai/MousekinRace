@@ -632,11 +632,7 @@
 		</researchPrerequisites>
 		<modExtensions>
 			<li Class="MousekinRace.BeehiveValidFlowersExtension">
-				<validFlowerPlantDefs>
-					<li>Plant_Dandelion</li>
-					<li>Plant_Daylily</li>
-					<li>Plant_Rose</li>
-				</validFlowerPlantDefs>
+				<validFlowersList>Mousekin_ValidFlowers</validFlowersList>
 			</li>
 		</modExtensions>
 	</ThingDef>

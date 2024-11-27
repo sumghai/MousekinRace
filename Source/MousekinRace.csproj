@@ -338,6 +338,7 @@
     <Compile Include="Comps\MapComponent_ChurchService.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
     <Compile Include="DefModExtensions\TraderExtension.cs" />
+    <Compile Include="Defs\FlowerListDef.cs" />
     <Compile Include="Gatherings\GatheringWorker_ChurchService.cs" />
     <Compile Include="Jobs\JobDriver_ChurchServiceAttendSermon.cs" />
     <Compile Include="Jobs\JobDriver_ChurchServiceGiveSermon.cs" />
