@@ -49,7 +49,12 @@
 		<description>The flowers and trees of the land nourish our bodies and souls; when they blossom, so do we.</description>
 		<iconPath>UI/Memes/MousekinFloralReverence</iconPath>
 		<groupDef>Misc</groupDef>
-		<impact>2</impact>
+		<impact>1</impact>
+		<requireOne>
+			<li>
+				<li>Mousekin_Precept_FlowersDesired</li>
+			</li>
+		</requireOne>
 	</MemeDef>
 	
 	<MemeDef>

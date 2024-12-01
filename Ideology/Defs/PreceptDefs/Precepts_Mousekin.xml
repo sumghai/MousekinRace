@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<PreceptDef>
+		<defName>Mousekin_Precept_FlowersDesired</defName>
+		<issue>Mousekins_Issue_Flowers</issue>
+		<label>desired</label>
+		<description>We should live surrounded by flowers, to remind us of the fleeting beauty of life and nature.</description>
+		<impact>Medium</impact>
+		<displayOrderInIssue>0</displayOrderInIssue>
+		<displayOrderInImpact>1000</displayOrderInImpact>
+		<associatedMemes>
+			<li>Mousekin_IdeoMeme_FloralReverence</li>
+		</associatedMemes>
+		<comps>
+			<!-- todo - define custom thoughts
+			<li Class="PreceptComp_SituationalThought">
+				<thought>Humanlike_Thought_FlowersDesired</thought>
+			</li>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>Humanlike_Thought_FlowersDestroyed</thought>
+			</li>-->
+		</comps>
+	</PreceptDef>
+	
+</Defs>
