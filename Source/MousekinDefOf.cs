@@ -108,6 +108,8 @@ namespace MousekinRace
 
         public static MainButtonDef Mousekin_MainButton_Allegiance;
 
+        public static FlowerListDef Mousekin_ValidFlowers;
+
         [MayRequireRoyalty]
         public static QuestScriptDef EndGame_RoyalAscent;
 
@@ -131,6 +133,9 @@ namespace MousekinRace
 
         [MayRequireIdeology]
         public static PreceptDef HAR_AlienRaces_Exalted;
+
+        [MayRequireIdeology]
+        public static PreceptDef Mousekin_Precept_FlowersDesired;
 
         [MayRequireIdeology]
         public static RulePackDef NamerRoleMoralist_Mousekin;

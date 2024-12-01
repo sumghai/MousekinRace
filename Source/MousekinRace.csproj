@@ -336,6 +336,7 @@
     <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="Comps\MapComponent_ChurchService.cs" />
+    <Compile Include="Comps\MapComponent_FlowerTracker.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
     <Compile Include="DefModExtensions\TraderExtension.cs" />
     <Compile Include="Defs\FlowerListDef.cs" />
@@ -362,6 +363,7 @@
     <Compile Include="Patches\Harmony_PawnPortraitIconsDrawer.cs" />
     <Compile Include="Patches\Harmony_PawnRitualRoleSelectionWidget.cs" />
     <Compile Include="Patches\Harmony_Pawn_RoyaltyTracker.cs" />
+    <Compile Include="Patches\Harmony_Plant.cs" />
     <Compile Include="Patches\Harmony_Precept_Ritual.cs" />
     <Compile Include="Patches\Harmony_Precept_Role.cs" />
     <Compile Include="Patches\Harmony_Precept_RoleSingle.cs" />
