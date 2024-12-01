@@ -18,10 +18,12 @@ namespace MousekinRace
 
         public override void MapComponentTick()
         {
-            // Every in-game day, "forget" about flowers that were planted or destroyed over a year ago (see above)
+            // Every in-game day, "forget" about flowers that were destroyed over a year ago
+            //
+            // We don't forget about flowers planted, unless they were destroyed (handled by Notify_FlowerDestroyed);
+            // this caters for edge cases like perpetual spring/summer biomes, or long-lived flowers from third-party mods
             if (GenTicks.TicksAbs % GenDate.TicksPerDay == 0)
             {
-                playerFlowersPlanted.RemoveWhere(p => Find.TickManager.TicksGame - p.TickSpawned > ticksToForget);
                 playerFlowerDestructionTicks.RemoveWhere(t => Find.TickManager.TicksGame - t > ticksToForget);
             }
         }
