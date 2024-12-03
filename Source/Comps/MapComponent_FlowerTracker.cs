@@ -20,8 +20,8 @@ namespace MousekinRace
         {
             // Every in-game day, "forget" about flowers that were destroyed over a year ago
             //
-            // We don't forget about flowers planted, unless they were destroyed (handled by Notify_FlowerDestroyed);
-            // this caters for edge cases like perpetual spring/summer biomes, or long-lived flowers from third-party mods
+            // We don't forget about flowers planted, unless they were despawned by other means;
+            // this supports edge cases like perpetual spring/summer biomes, or long-lived flowers
             if (GenTicks.TicksAbs % GenDate.TicksPerDay == 0)
             {
                 playerFlowerDestructionTicks.RemoveWhere(t => Find.TickManager.TicksGame - t > ticksToForget);
@@ -39,13 +39,17 @@ namespace MousekinRace
 
         // Register destruction time of player-planted flowers deliberately destroyed by pawns/damage from non-Player factions,
         // if the player faction has the Flowers desired precept (ignores flowers that die from the cold)
-        public void Notify_FlowerDestroyed(Plant flower, DamageInfo dInfo)
-        {           
-            if (PlayerHasFlowersDesiredPrecept() && IsValidFlower(flower)  && dInfo.Instigator != null && dInfo.Instigator.Faction != Faction.OfPlayer)
+        public void Notify_FlowerDestroyed(Plant flower, DamageInfo? dInfo)
+        {
+            if (PlayerHasFlowersDesiredPrecept() && IsValidFlower(flower))
             {
                 playerFlowersPlanted.Remove(flower);
-                playerFlowerDestructionTicks.Add(Find.TickManager.TicksGame);
-            }
+
+                if (dInfo?.Instigator != null && dInfo?.Instigator.Faction != Faction.OfPlayer)
+                {
+                    playerFlowerDestructionTicks.Add(Find.TickManager.TicksGame);
+                }
+            } 
         }
 
         // Check whether player faction ideo desires flowers

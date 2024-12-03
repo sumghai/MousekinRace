@@ -27,4 +27,16 @@ namespace MousekinRace
             }
         }
     }
+
+    [HarmonyPatch(typeof(Plant), nameof(Plant.DeSpawn))]
+    public static class Harmony_Plant_SpawnSetup_NotifyFlowerDespawned
+    {
+        static void Prefix(Plant __instance)
+        {
+            if (__instance != null && __instance.Spawned)
+            {
+                __instance.Map?.GetComponent<MapComponent_FlowerTracker>()?.Notify_FlowerDestroyed(__instance, null);
+            }
+        }
+    }
 }
