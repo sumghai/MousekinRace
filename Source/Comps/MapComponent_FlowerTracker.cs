@@ -1,14 +1,29 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
+using System.Linq;
 using Verse;
 
 namespace MousekinRace
 {
     public class MapComponent_FlowerTracker : MapComponent
     {
+        public const int FlowerThresholdLow = 10;
+
+        public const int FlowerThresholdMed = 20;
+
+        public const int FlowerThresholdHigh = 30;
+
+        public const int MinQtyForVarietyToBeCounted = 5;
+
         public HashSet<Plant> playerFlowersPlanted = [];
 
         public List<int> playerFlowerDestructionTicks = [];
+
+        // Count the varieties of flowers planted by players
+        //
+        // To prevent cheesing of the max variety bonuses (by planting lots of one type, and only one of each of all other types),
+        // we only include a given variety to the count if a minimum number of them are planted.
+        public int playerFlowerVarietiesPlanted => playerFlowersPlanted.GroupBy(p => p.def).Select(group => new { Count = group.Count() }).Where(x => x.Count >= MinQtyForVarietyToBeCounted).Count();
 
         public int ticksToForget = GenDate.TicksPerYear;
 

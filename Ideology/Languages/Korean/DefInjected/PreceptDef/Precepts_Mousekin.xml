@@ -7,4 +7,19 @@
 	<!-- EN: We should live surrounded by flowers, to remind us of the fleeting beauty of life and nature. -->
 	<Mousekin_Precept_FlowersDesired.description>우리는 삶과 자연의 덧없는 아름다움을 상기시키기 위해 꽃에 둘러싸여 살아야 합니다.</Mousekin_Precept_FlowersDesired.description>
 	
+	<!-- EN: No flowers planted -->
+	<Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.0>심은 꽃 없음</Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.0>
+	
+	<!-- EN: Few flowers planted -->
+	<Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.1>심은 꽃이 거의 없음</Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.1>
+	
+	<!-- EN: Some flowers planted -->
+	<Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.2>일부 꽃 심기</Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.2>
+	
+	<!-- EN: Many flowers planted -->
+	<Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.3>많은 꽃 심기</Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.3>
+	
+	<!-- EN: Plethora of flowers planted -->
+	<Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.4>수많은 꽃 심기</Mousekin_Precept_FlowersDesired.comps.0.thoughtStageDescriptions.4>
+	
 </LanguageData>

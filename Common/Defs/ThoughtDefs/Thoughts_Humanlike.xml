@@ -44,6 +44,40 @@
 	</ThoughtDef>
 	
 	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowersPlanted</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_FlowersPlanted</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>no flowers planted</label>
+				<description>Our beds lay bare and the the soil unturned. There are no new blooms this year...</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>few flowers planted</label>
+				<description>Our gardens look so sparse... We've barely planted any new flowers this year.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>some flowers planted</label>
+				<description>Our gardens has sprouted new blooms, but there is plenty of room for more flowers.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>many flowers planted</label>
+				<description>Our gardens flourish! The breeze is sweet with the colors and scents of this year's flower beds.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>plethora of flowers planted</label>
+				<description>Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Humanlike_Thought_PrejudicedTowardsMousekins</defName>
 		<thoughtClass>Thought_SituationalSocial</thoughtClass>
 		<workerClass>MousekinRace.ThoughtWorker_PrejudicedTowardsMousekins</workerClass>

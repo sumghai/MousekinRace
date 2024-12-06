@@ -13,6 +13,16 @@
 			<li>Mousekin_IdeoMeme_FloralReverence</li>
 		</associatedMemes>
 		<comps>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>Humanlike_Thought_FlowersPlanted</thought>
+				<thoughtStageDescriptions>
+					<li>No flowers planted</li>
+					<li>Few flowers planted</li>
+					<li>Some flowers planted</li>
+					<li>Many flowers planted</li>
+					<li>Plethora of flowers planted</li>
+				</thoughtStageDescriptions>
+			</li>
 			<!-- todo - define custom thoughts
 			<li Class="PreceptComp_SituationalThought">
 				<thought>Humanlike_Thought_FlowersDesired</thought>
