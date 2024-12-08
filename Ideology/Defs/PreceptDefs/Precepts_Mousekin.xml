@@ -23,13 +23,15 @@
 					<li>Plethora of flowers planted</li>
 				</thoughtStageDescriptions>
 			</li>
-			<!-- todo - define custom thoughts
-			<li Class="PreceptComp_SituationalThought">
-				<thought>Humanlike_Thought_FlowersDesired</thought>
-			</li>
 			<li Class="PreceptComp_SituationalThought">
 				<thought>Humanlike_Thought_FlowersDestroyed</thought>
-			</li>-->
+				<thoughtStageDescriptions>
+					<li>Few flowers destroyed</li>
+					<li>Some flowers destroyed</li>
+					<li>Many flowers destroyed</li>
+					<li>Countless flowers destroyed</li>
+				</thoughtStageDescriptions>
+			</li>
 		</comps>
 	</PreceptDef>
 	

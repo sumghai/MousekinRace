@@ -44,6 +44,35 @@
 	</ThoughtDef>
 	
 	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowersDestroyed</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_FlowersDestroyed</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>few flowers destroyed</label>
+				<description>A handful of flowers were snuffed out before they could fully blossom...what a shame!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>some flowers destroyed</label>
+				<description>Our flower beds are blemished with missing blooms, every broken stem a reminder of how fragile the beauty of nature can be.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>many flowers destroyed</label>
+				<description>Our gardens are scarred with swaths of ravaged stems, where dozens of colored petals once danced gaily in the breeze, a place of tranquility now a stark testament to all that has been lost.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<li>
+				<label>countless flowers destroyed</label>
+				<description>Our gardens are ruined! Valerian forgive us, for we have failed our stewardship of this land!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Humanlike_Thought_FlowersPlanted</defName>
 		<thoughtClass>Thought_Situational</thoughtClass>
 		<workerClass>MousekinRace.ThoughtWorker_FlowersPlanted</workerClass>

@@ -17,7 +17,31 @@
     <Humanlike_Thought_DrankChonkoNutBrew.stages.0.label>Выпил напиток из орехов Чонко</Humanlike_Thought_DrankChonkoNutBrew.stages.0.label>
 
     <!-- EN: Wow, this actually tastes pretty good. -->
-    <Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>Ух ты, на самом деле это довольно вкусно.</Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>
+	<Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>Ух ты, на самом деле это довольно вкусно.</Humanlike_Thought_DrankChonkoNutBrew.stages.0.description>
+	
+	<!-- EN: few flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.0.label>несколько уничтоженных цветов</Humanlike_Thought_FlowersDestroyed.stages.0.label>
+	
+	<!-- EN: A handful of flowers were snuffed out before they could fully blossom...what a shame! -->
+	<Humanlike_Thought_FlowersDestroyed.stages.0.description>Горстка цветов была уничтожена до того, как они успели полностью распуститься... какая жалость!</Humanlike_Thought_FlowersDestroyed.stages.0.description>
+	
+	<!-- EN: some flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.1.label>некоторые цветы уничтожены</Humanlike_Thought_FlowersDestroyed.stages.1.label>
+	
+	<!-- EN: Our flower beds are blemished with missing blooms, every broken stem a reminder of how fragile the beauty of nature can be. -->
+	<Humanlike_Thought_FlowersDestroyed.stages.1.description>Наши клумбы украшены пропавшими цветами, каждый сломанный стебель напоминает о том, насколько хрупкой может быть красота природы.</Humanlike_Thought_FlowersDestroyed.stages.1.description>
+	
+	<!-- EN: many flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.2.label>много цветов уничтожено</Humanlike_Thought_FlowersDestroyed.stages.2.label>
+	
+	<!-- EN: Our gardens are scarred with swaths of ravaged stems, where dozens of colored petals once danced gaily in the breeze, a place of tranquility now a stark testament to all that has been lost. -->
+	<Humanlike_Thought_FlowersDestroyed.stages.2.description>Наши сады испещрены полосами поврежденных стеблей, на которых когда-то танцевали десятки разноцветных лепестков, - место спокойствия, ставшее теперь ярким свидетельством всего, что было потеряно.</Humanlike_Thought_FlowersDestroyed.stages.2.description>
+	
+	<!-- EN: countless flowers destroyed -->
+	<Humanlike_Thought_FlowersDestroyed.stages.3.label>Бесчисленные уничтоженные цветы</Humanlike_Thought_FlowersDestroyed.stages.3.label>
+	
+	<!-- EN: Our gardens are ruined! Valerian forgive us, for we have failed our stewardship of this land! -->
+	<Humanlike_Thought_FlowersDestroyed.stages.3.description>Наши сады разрушены! Валериан Мудрый прости нас, ибо мы не справились с управлением этой землей!</Humanlike_Thought_FlowersDestroyed.stages.3.description>
 	
 	<!-- EN: no flowers planted -->
 	<Humanlike_Thought_FlowersPlanted.stages.0.label>цветы не посажены</Humanlike_Thought_FlowersPlanted.stages.0.label>
