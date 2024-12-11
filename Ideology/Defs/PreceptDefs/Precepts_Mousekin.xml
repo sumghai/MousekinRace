@@ -32,6 +32,13 @@
 					<li>Countless flowers destroyed</li>
 				</thoughtStageDescriptions>
 			</li>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>Humanlike_Thought_GardensDesired</thought>
+				<thoughtStageDescriptions>
+					<li>No flower gardens</li>
+					<li>Inadequate flower gardens</li>
+				</thoughtStageDescriptions>
+			</li>
 		</comps>
 	</PreceptDef>
 	

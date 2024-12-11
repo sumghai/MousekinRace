@@ -72,6 +72,18 @@
 	
 	<!-- EN: Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land! -->
 	<Humanlike_Thought_FlowersPlanted.stages.4.description>Такое восхитительное сочетание цветов и форм. Валериан Мудрый, должно быть, гордится нами за то, что мы бережно относимся к этой земле!</Humanlike_Thought_FlowersPlanted.stages.4.description>
+	
+	<!-- EN: no flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.0.label>никаких цветников</Humanlike_Thought_GardensDesired.stages.0.label>
+	
+	<!-- EN: We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless. -->
+	<Humanlike_Thought_GardensDesired.stages.0.description>У нас нет ни цветника, которым можно было бы любоваться и отдыхать, ни даже кустарника. Наш район кажется таким унылым и бесцветным.</Humanlike_Thought_GardensDesired.stages.0.description>
+	
+	<!-- EN: inadequate flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.1.label>слишком маленькие цветники</Humanlike_Thought_GardensDesired.stages.1.label>
+	
+	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
+	<Humanlike_Thought_GardensDesired.stages.1.description>Это что, сад для Паджмауса? Он должен быть как минимум в три раза больше!</Humanlike_Thought_GardensDesired.stages.1.description>
     
     <!-- EN: prejudiced towards talking mice -->
     <Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>Предвзятость по отношению к говорящим мышам</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>

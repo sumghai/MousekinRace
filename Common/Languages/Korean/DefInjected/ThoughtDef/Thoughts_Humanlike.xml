@@ -73,6 +73,18 @@
 	<!-- EN: Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land! -->
 	<Humanlike_Thought_FlowersPlanted.stages.4.description>색과 모양이 정말 유쾌하게 어우러져 있네요. 현자 발레리안이 이 땅을 잘 가꾸는 우리를 자랑스러워할 거예요!</Humanlike_Thought_FlowersPlanted.stages.4.description>
 	
+	<!-- EN: no flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.0.label>꽃밭 없음</Humanlike_Thought_GardensDesired.stages.0.label>
+	
+	<!-- EN: We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless. -->
+	<Humanlike_Thought_GardensDesired.stages.0.description>감탄하고 휴식을 취할 수 있는 꽃밭도, 관목도 없습니다. 우리 커뮤니티는 너무 칙칙하고 무채색으로 느껴집니다.</Humanlike_Thought_GardensDesired.stages.0.description>
+	
+	<!-- EN: inadequate flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.1.label>너무 작은 꽃밭</Humanlike_Thought_GardensDesired.stages.1.label>
+	
+	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
+	<Humanlike_Thought_GardensDesired.stages.1.description>퍼지마우스를 위한 정원인가요? 적어도 세 배는 커야 해요!</Humanlike_Thought_GardensDesired.stages.1.description>
+	
 	<!-- EN: prejudiced towards talking mice -->
 	<Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>말하는 쥐에 대한 편견</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>
 

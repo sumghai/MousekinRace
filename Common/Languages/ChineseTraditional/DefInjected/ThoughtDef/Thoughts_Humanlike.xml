@@ -73,6 +73,18 @@
 	<!-- EN: Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land! -->
 	<Humanlike_Thought_FlowersPlanted.stages.4.description>顏色和形狀都如此豐富，令人愉悅。智者纈草一定會為我們好好照顧這片土地而感到驕傲！</Humanlike_Thought_FlowersPlanted.stages.4.description>
 	
+	<!-- EN: no flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.0.label>沒有花園</Humanlike_Thought_GardensDesired.stages.0.label>
+	
+	<!-- EN: We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless. -->
+	<Humanlike_Thought_GardensDesired.stages.0.description>我們沒有花園可供欣賞和休憩，甚至連灌木叢也沒有。我們的社區給人的感覺是如此單調無色。</Humanlike_Thought_GardensDesired.stages.0.description>
+	
+	<!-- EN: inadequate flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.1.label>太小的花園</Humanlike_Thought_GardensDesired.stages.1.label>
+	
+	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
+	<Humanlike_Thought_GardensDesired.stages.1.description>這是什麼,給胖胖鼠的花園嗎？它至少需要比這個大三倍！</Humanlike_Thought_GardensDesired.stages.1.description>
+	
 	<!-- EN: prejudiced towards talking mice -->
 	<Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>歧視會說話的老鼠</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>
 

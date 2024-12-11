@@ -463,6 +463,7 @@
     <Compile Include="Thoughts\ThoughtWorker_AteCheese.cs" />
     <Compile Include="Thoughts\ThoughtWorker_FaithAffinityOpinions.cs" />
     <Compile Include="Thoughts\ThoughtWorker_FlowersPlanted.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_GardensDesired.cs" />
     <Compile Include="Thoughts\ThoughtWorker_MissingEars.cs" />
     <Compile Include="Thoughts\ThoughtWorker_OtherMousekinHasProstheticOpinions.cs" />
     <Compile Include="Thoughts\ThoughtWorker_PrejudicedTowardsMousekins.cs" />

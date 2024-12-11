@@ -1,4 +1,5 @@
 ﻿using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
@@ -14,6 +15,8 @@ namespace MousekinRace
         public const int FlowerThresholdHigh = 30;
 
         public const int MinQtyForVarietyToBeCounted = 5;
+
+        public int gardenSize = 0;
 
         public HashSet<Plant> playerFlowersPlanted = [];
 
@@ -33,12 +36,17 @@ namespace MousekinRace
 
         public override void MapComponentTick()
         {
-            // Every in-game day, "forget" about flowers that were destroyed over a year ago
+            // Every in-game day:
+            //
+            // 1) Calculate the total area of growing zones set to grow flowers
+            //
+            // 2) "Forget" about flowers that were destroyed over a year ago
             //
             // We don't forget about flowers planted, unless they were despawned by other means;
             // this supports edge cases like perpetual spring/summer biomes, or long-lived flowers
             if (GenTicks.TicksAbs % GenDate.TicksPerDay == 0)
             {
+                gardenSize = GetFlowerGardensTotalArea();
                 playerFlowerDestructionTicks.RemoveWhere(t => Find.TickManager.TicksGame - t > ticksToForget);
             }
         }
@@ -82,9 +90,27 @@ namespace MousekinRace
             return MousekinDefOf.Mousekin_ValidFlowers.flowerPlants.Contains(flower.def) && flower.CurrentlyCultivated() && flower.IsOutside();
         }
 
+        public int GetFlowerGardensTotalArea()
+        {
+            List<Zone> zonesList = map.zoneManager.AllZones;
+
+            int totalArea = 0;
+            
+            foreach (Zone zone in zonesList)
+            {
+                if (zone is IPlantToGrowSettable plantableZone && MousekinDefOf.Mousekin_ValidFlowers.flowerPlants.Contains(plantableZone.GetPlantDefToGrow()))
+                {
+                    totalArea += zone.CellCount;
+                }
+            }
+
+            return totalArea;
+        }
+
         public override void ExposeData()
         {
             base.ExposeData();
+            Scribe_Values.Look(ref gardenSize, "gardenSize", 0);
             Scribe_Collections.Look(ref playerFlowersPlanted, "playerFlowersPlanted", LookMode.Reference);
             Scribe_Collections.Look(ref playerFlowerDestructionTicks, "playerFlowerDestructionTicks", LookMode.Value);
         }

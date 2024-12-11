@@ -73,6 +73,18 @@
 	<!-- EN: Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land! -->
 	<Humanlike_Thought_FlowersPlanted.stages.4.description>色と形の楽しい乱舞だ.賢者バレリアンは、この土地を大切にする私たちを誇りに思うに違いない！</Humanlike_Thought_FlowersPlanted.stages.4.description>
 	
+	<!-- EN: no flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.0.label>花園なし</Humanlike_Thought_GardensDesired.stages.0.label>
+	
+	<!-- EN: We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless. -->
+	<Humanlike_Thought_GardensDesired.stages.0.description>私たちには、感嘆したりくつろいだりする花畑もなければ、低木の庭さえない.私たちのコミュニティは、とても殺風景で無彩色に感じられる.</Humanlike_Thought_GardensDesired.stages.0.description>
+	
+	<!-- EN: inadequate flower gardens -->
+	<Humanlike_Thought_GardensDesired.stages.1.label>小さすぎる花園</Humanlike_Thought_GardensDesired.stages.1.label>
+	
+	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
+	<Humanlike_Thought_GardensDesired.stages.1.description>これは何だ？パッジマウスのための庭か？少なくとも3倍の広さが必要だ！</Humanlike_Thought_GardensDesired.stages.1.description>
+	
 	<!-- EN: prejudiced towards talking mice -->
 	<Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>話すネズミに対する偏見</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>
 
