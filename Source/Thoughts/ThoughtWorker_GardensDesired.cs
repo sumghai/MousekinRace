@@ -10,11 +10,12 @@ namespace MousekinRace
             MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
             int gardenSize = flowerTracker.gardenSize;
 
+            // Garden area thresholds are fixed for each stage, and does not scale with number of ideo/precept believers
             if (gardenSize == 0)
             {
                 return ThoughtState.ActiveAtStage(0);
             }
-            if (gardenSize > 0 && gardenSize < 32)
+            if (gardenSize > 0 && gardenSize < flowerTracker.GardenAreaThresholdLow)
             {
                 return ThoughtState.ActiveAtStage(1);
             }

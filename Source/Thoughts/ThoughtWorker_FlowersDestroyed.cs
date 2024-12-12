@@ -9,9 +9,8 @@ namespace MousekinRace
 		{
 			MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
 			int flowersDestroyed = flowerTracker.playerFlowerDestructionTicks.Count;
-
-			// Number of flowers destroyed is fixed for each stage
-			// (i.e. does not scale with number of believers in the precept)
+			
+			// Number of flowers destroyed are fixed for each stage, and does not scale with number of ideo/precept believers
 			if (flowersDestroyed > 0 && flowersDestroyed < 5)
 			{
 				return ThoughtState.ActiveAtStage(0);

@@ -20,17 +20,17 @@ namespace MousekinRace
             {
                 return 0;
             }
-            if (flowersPlanted < MapComponent_FlowerTracker.FlowerThresholdLow)
+            if (flowersPlanted < flowerTracker.flowerThresholdLow)
             {
                 return 1;
             }
-            if (flowersPlanted >= MapComponent_FlowerTracker.FlowerThresholdMed)
+            if (flowersPlanted >= flowerTracker.flowerThresholdMed)
             {
                 if (varietyCount >= 2 && varietyCount < 3)
                 {
                     return 3;
                 }
-                if (flowersPlanted >= MapComponent_FlowerTracker.FlowerThresholdHigh && varietyCount >= 3)
+                if (flowersPlanted >= flowerTracker.flowerThresholdHigh && varietyCount >= 3)
                 {
                     return 4;
                 }
