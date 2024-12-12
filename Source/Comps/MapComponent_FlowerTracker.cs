@@ -8,19 +8,23 @@ namespace MousekinRace
 {
     public class MapComponent_FlowerTracker : MapComponent
     {
-        public const int FlowerThresholdMedBaseline = 20;
+        public const int FlowersPlantedThresMedBaseline = 20;
 
-        public const int FlowerThresholdHighBaseline = 30;
-
-        public int flowerThresholdLow = 10;
-
-        public int flowerThresholdMed = FlowerThresholdMedBaseline; // Default
-
-        public int flowerThresholdHigh = FlowerThresholdHighBaseline; // Default
-
-        public int GardenAreaThresholdLow = 32; // Equivalent to two 4x4 (16 cell) flower patches
+        public const int FlowersPlantedThresHighBaseline = 30;
 
         public const int MinQtyForVarietyToBeCounted = 5;
+
+        public int flowersPlantedThresLow = 10;
+
+        public int flowersPlantedThresMed = FlowersPlantedThresMedBaseline;
+
+        public int flowersPlantedThresHigh = FlowersPlantedThresHighBaseline;
+
+        public int flowerVarietyThresMed = 2;
+
+        public int flowerVarietyThresHigh = 3;
+
+        public int GardenAreaThresLow = 32; // Equivalent to two 4x4 (16 cell) flower patches
 
         public int gardenSize = 0;
 
@@ -42,13 +46,23 @@ namespace MousekinRace
 
         public override void MapComponentTick()
         {
-            // Every in-game hour, recalculate threshold amounts for flowers planted
+            // Every in-game hour, recalculate threshold amounts for flowers planted and varieties
             if (GenTicks.TicksAbs % GenDate.TicksPerHour == 0)
             {
-                int preceptBelievers = Faction.OfPlayer.ideos.PrimaryIdeo.ColonistBelieverCountCached;
+                int flowerVarietiesAvailable = MousekinDefOf.Mousekin_ValidFlowers.flowerPlants.Count;
 
-                flowerThresholdMed = BelieverScaledFlowerThreshold(preceptBelievers, FlowerThresholdMedBaseline);
-                flowerThresholdHigh = BelieverScaledFlowerThreshold(preceptBelievers, FlowerThresholdHighBaseline);
+                flowersPlantedThresMed = BelieverScaledFlowerThreshold(Faction.OfPlayer.ideos.PrimaryIdeo.ColonistBelieverCountCached, FlowersPlantedThresMedBaseline);
+                flowersPlantedThresHigh = BelieverScaledFlowerThreshold(Faction.OfPlayer.ideos.PrimaryIdeo.ColonistBelieverCountCached, FlowersPlantedThresHighBaseline);
+                flowerVarietyThresMed = (int)Math.Ceiling(flowerVarietiesAvailable * 0.5);
+                flowerVarietyThresHigh = (int)Math.Ceiling(flowerVarietiesAvailable * 0.75);
+
+                // DEV - remove before release
+                string foobar = "";
+                for (int i = 3; i < 21; i++) 
+                {
+                    foobar += $"{i} total varieties: {(int)Math.Ceiling(i * 0.5)} med, {(int)Math.Ceiling(i * 0.75)} high\n";
+                }
+                Log.Warning(foobar);
             }
 
             // Every in-game day:
@@ -138,6 +152,10 @@ namespace MousekinRace
         {
             base.ExposeData();
             Scribe_Values.Look(ref gardenSize, "gardenSize", GetFlowerGardensTotalArea());
+            Scribe_Values.Look(ref flowersPlantedThresMed, "flowersPlantedThresMed", FlowersPlantedThresMedBaseline);
+            Scribe_Values.Look(ref flowersPlantedThresHigh, "flowersPlantedThresHigh", FlowersPlantedThresHighBaseline);
+            Scribe_Values.Look(ref flowerVarietyThresMed, "flowerVarietyThresMed", 2);
+            Scribe_Values.Look(ref flowerVarietyThresHigh, "flowerVarietyThresHigh", 3);
             Scribe_Collections.Look(ref playerFlowersPlanted, "playerFlowersPlanted", LookMode.Reference);
             Scribe_Collections.Look(ref playerFlowerDestructionTicks, "playerFlowerDestructionTicks", LookMode.Value);
         }

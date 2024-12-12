@@ -15,7 +15,7 @@ namespace MousekinRace
             {
                 return ThoughtState.ActiveAtStage(0);
             }
-            if (gardenSize > 0 && gardenSize < flowerTracker.GardenAreaThresholdLow)
+            if (gardenSize > 0 && gardenSize < flowerTracker.GardenAreaThresLow)
             {
                 return ThoughtState.ActiveAtStage(1);
             }

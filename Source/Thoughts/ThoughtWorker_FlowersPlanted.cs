@@ -16,21 +16,24 @@ namespace MousekinRace
             int flowersPlanted = flowerTracker.playerFlowersPlanted.Count;
             int varietyCount = flowerTracker.playerFlowerVarietiesPlanted;
 
+            // dev - remove before release
+            Log.Warning($"{p} : {flowersPlanted} flowers of {varietyCount} varieties planted (qty thresholds: {flowerTracker.flowersPlantedThresLow} low, {flowerTracker.flowersPlantedThresMed} med , {flowerTracker.flowersPlantedThresHigh} high) (variety thresholds: {flowerTracker.flowerVarietyThresMed} med, {flowerTracker.flowerVarietyThresHigh} high)");
+
             if (flowersPlanted == 0)
             {
                 return 0;
             }
-            if (flowersPlanted < flowerTracker.flowerThresholdLow)
+            if (flowersPlanted < flowerTracker.flowersPlantedThresLow)
             {
                 return 1;
             }
-            if (flowersPlanted >= flowerTracker.flowerThresholdMed)
+            if (flowersPlanted >= flowerTracker.flowersPlantedThresMed)
             {
-                if (varietyCount >= 2 && varietyCount < 3)
+                if (varietyCount >= flowerTracker.flowerVarietyThresMed && varietyCount < flowerTracker.flowerVarietyThresHigh)
                 {
                     return 3;
                 }
-                if (flowersPlanted >= flowerTracker.flowerThresholdHigh && varietyCount >= 3)
+                if (flowersPlanted >= flowerTracker.flowersPlantedThresHigh && varietyCount >= flowerTracker.flowerVarietyThresHigh)
                 {
                     return 4;
                 }
