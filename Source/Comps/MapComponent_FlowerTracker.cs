@@ -55,14 +55,6 @@ namespace MousekinRace
                 flowersPlantedThresHigh = BelieverScaledFlowerThreshold(Faction.OfPlayer.ideos.PrimaryIdeo.ColonistBelieverCountCached, FlowersPlantedThresHighBaseline);
                 flowerVarietyThresMed = (int)Math.Ceiling(flowerVarietiesAvailable * 0.5);
                 flowerVarietyThresHigh = (int)Math.Ceiling(flowerVarietiesAvailable * 0.75);
-
-                // DEV - remove before release
-                string foobar = "";
-                for (int i = 3; i < 21; i++) 
-                {
-                    foobar += $"{i} total varieties: {(int)Math.Ceiling(i * 0.5)} med, {(int)Math.Ceiling(i * 0.75)} high\n";
-                }
-                Log.Warning(foobar);
             }
 
             // Every in-game day:
