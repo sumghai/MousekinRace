@@ -36,7 +36,7 @@ namespace MousekinRace
         //
         // To prevent cheesing of the max variety bonuses (by planting lots of one type, and only one of each of all other types),
         // we only include a given variety to the count if a minimum number of them are planted.
-        public int playerFlowerVarietiesPlanted => playerFlowersPlanted.GroupBy(p => p.def).Select(group => new { Count = group.Count() }).Where(x => x.Count >= MinQtyForVarietyToBeCounted).Count();
+        public int PlayerFlowerVarietiesPlanted => (!playerFlowersPlanted.NullOrEmpty()) ? playerFlowersPlanted.GroupBy(p => p.def).Select(group => new { Count = group.Count() }).Where(x => x.Count >= MinQtyForVarietyToBeCounted).Count() : 0;
 
         public int ticksToForget = GenDate.TicksPerYear;
 
@@ -46,10 +46,16 @@ namespace MousekinRace
 
         public override void MapComponentTick()
         {
-            // Every in-game hour, recalculate threshold amounts for flowers planted and varieties
-            if (GenTicks.TicksAbs % GenDate.TicksPerHour == 0)
+            // Every 3 in-game minutes:
+            //
+            // 1) Calculate the total area of growing zones set to grow flowers
+            //
+            // 2) recalculate threshold amounts for flowers planted and varieties
+            if (GenTicks.TicksAbs % GenDate.TicksPerHour / 60 * 3 == 0)
             {
                 int flowerVarietiesAvailable = MousekinDefOf.Mousekin_ValidFlowers.flowerPlants.Count;
+
+                gardenSize = GetFlowerGardensTotalArea();
 
                 flowersPlantedThresMed = BelieverScaledFlowerThreshold(Faction.OfPlayer.ideos.PrimaryIdeo.ColonistBelieverCountCached, FlowersPlantedThresMedBaseline);
                 flowersPlantedThresHigh = BelieverScaledFlowerThreshold(Faction.OfPlayer.ideos.PrimaryIdeo.ColonistBelieverCountCached, FlowersPlantedThresHighBaseline);
@@ -57,17 +63,12 @@ namespace MousekinRace
                 flowerVarietyThresHigh = (int)Math.Ceiling(flowerVarietiesAvailable * 0.75);
             }
 
-            // Every in-game day:
-            //
-            // 1) Calculate the total area of growing zones set to grow flowers
-            //
-            // 2) "Forget" about flowers that were destroyed over a year ago
+            // Every in-game day, forget about flowers that were destroyed over a year ago
             //
             // We don't forget about flowers planted, unless they were despawned by other means;
             // this supports edge cases like perpetual spring/summer biomes, or long-lived flowers
             if (GenTicks.TicksAbs % GenDate.TicksPerDay == 0)
             {
-                gardenSize = GetFlowerGardensTotalArea();
                 playerFlowerDestructionTicks.RemoveWhere(t => Find.TickManager.TicksGame - t > ticksToForget);
             }
         }

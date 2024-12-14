@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- EN: {0} flower gardens -->
+	<AlertFlowerGardenLabel>{0}的花园</AlertFlowerGardenLabel>
+	
+	<!-- EN: As adherents of {IDEO_name}, your colonists have planted a flower garden.\n\nTotal area of all gardens: {1} cells\nFlowers planted in the past year: {2}\nFlower varieties planted: {3}\n\nOverall rating: {4} -->
+	<AlertFlowerGardenDesc>由于你的殖民者信仰{IDEO_name}，他们设置了花园。\n\n花园总面积: {1}格\n过去一年种植的花卉: {2}\n种植的花卉品种: {3}\n\n花园评分: {4}</AlertFlowerGardenDesc>
+	
+	<!-- EN: Consider planting more and a wider variety of flowers. -->
+	<AlertFlowerGardenDesc_PlantMoreSuffix>请考虑种植更多、更广种类的花卉。</AlertFlowerGardenDesc_PlantMoreSuffix>
+	
+	<!-- EN: {IDEO_name} requires that you have a flower garden in your colony.\n\nPlace one or more growing zones, and set them to grow flowers. -->
+	<AlertNoFlowerGardensDesc>由于你的殖民者信仰{IDEO_name}，他们需要在你的殖民地里设置花园。\n\n划设一个或多个种植区、并选择要种植的花卉。</AlertNoFlowerGardensDesc>
+
+</LanguageData>

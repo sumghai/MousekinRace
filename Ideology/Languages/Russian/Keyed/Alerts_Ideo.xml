@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- EN: {0} flower gardens -->
+	<AlertFlowerGardenLabel>{0} сады</AlertFlowerGardenLabel>
+	
+	<!-- EN: As adherents of {IDEO_name}, your colonists have planted a flower garden.\n\nTotal area of all gardens: {1} cells\nFlowers planted in the past year: {2}\nFlower varieties planted: {3}\n\nOverall rating: {4} -->
+	<AlertFlowerGardenDesc>Будучи приверженцами {IDEO_name}, ваши колонисты разбили цветочный сад.\n\nОбщая площадь всех садов: {1} клеток\nЦветы, посаженные в прошлом году: {2}\nПосаженные сорта цветов: {3}\n\nрейтинг сада: {4}</AlertFlowerGardenDesc>
+	
+	<!-- EN: Consider planting more and a wider variety of flowers. -->
+	<AlertFlowerGardenDesc_PlantMoreSuffix>Подумайте о том, чтобы посадить больше и разнообразнее цветов.</AlertFlowerGardenDesc_PlantMoreSuffix>
+	
+	<!-- EN: {IDEO_name} requires that you have a flower garden in your colony.\n\nPlace one or more growing zones, and set them to grow flowers. -->
+	<AlertNoFlowerGardensDesc>{IDEO_name} требует, чтобы в вашей колонии был цветочный сад.\n\nРазместите одну или несколько зон выращивания и настройте их на выращивание цветов.</AlertNoFlowerGardensDesc>
+
+</LanguageData>

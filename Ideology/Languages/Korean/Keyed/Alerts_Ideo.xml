@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- EN: {0} flower gardens -->
+	<AlertFlowerGardenLabel>{0} 정원</AlertFlowerGardenLabel>
+	
+	<!-- EN: As adherents of {IDEO_name}, your colonists have planted a flower garden.\n\nTotal area of all gardens: {1} cells\nFlowers planted in the past year: {2}\nFlower varieties planted: {3}\n\nOverall rating: {4} -->
+	<AlertFlowerGardenDesc>{IDEO_name}의 지지자로서 식민지 주민들이 꽃밭을 심었습니다.\n\n모든 정원의 총 면적: {1} 칸\n지난 1년간 심은 꽃입니다: {2}\n심은 꽃의 종류: {3}\n\n전체 평가: {4}</AlertFlowerGardenDesc>
+	
+	<!-- EN: Consider planting more and a wider variety of flowers. -->
+	<AlertFlowerGardenDesc_PlantMoreSuffix>더 많은 종류의 꽃을 심는 것을 고려해 보세요.</AlertFlowerGardenDesc_PlantMoreSuffix>
+	
+	<!-- EN: {IDEO_name} requires that you have a flower garden in your colony.\n\nPlace one or more growing zones, and set them to grow flowers. -->
+	<AlertNoFlowerGardensDesc>{IDEO_name} 식민지에 꽃밭이 있어야 합니다.\n\n하나 이상의 성장 구역을 배치하고 꽃을 재배하도록 설정하세요.</AlertNoFlowerGardensDesc>
+
+</LanguageData>

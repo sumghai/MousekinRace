@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- EN: {0} flower gardens -->
+	<AlertFlowerGardenLabel>{0}花園</AlertFlowerGardenLabel>
+	
+	<!-- EN: As adherents of {IDEO_name}, your colonists have planted a flower garden.\n\nTotal area of all gardens: {1} cells\nFlowers planted in the past year: {2}\nFlower varieties planted: {3}\n\nOverall rating: {4} -->
+	<AlertFlowerGardenDesc>{IDEO_name}の信者として、あなた方の入植者は花畑を作った.\n\n花園の総面積: {1}セル\n過去1年間に植えた花: {2}\n植えた花の品種: {3}\n\n花園の評価: {4}</AlertFlowerGardenDesc>
+	
+	<!-- EN: Consider planting more and a wider variety of flowers. -->
+	<AlertFlowerGardenDesc_PlantMoreSuffix>もっといろいろな花を植えてください.</AlertFlowerGardenDesc_PlantMoreSuffix>
+	
+	<!-- EN: {IDEO_name} requires that you have a flower garden in your colony.\n\nPlace one or more growing zones, and set them to grow flowers. -->
+	<AlertNoFlowerGardensDesc>{IDEO_name}では、コロニーに花園を作る必要があります.栽培ゾーンを1つ以上配置し、花を育てるように設定してください.</AlertNoFlowerGardensDesc>
+
+</LanguageData>

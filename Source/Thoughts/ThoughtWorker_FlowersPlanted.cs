@@ -14,7 +14,7 @@ namespace MousekinRace
         {
             MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
             int flowersPlanted = flowerTracker.playerFlowersPlanted.Count;
-            int varietyCount = flowerTracker.playerFlowerVarietiesPlanted;
+            int varietyCount = flowerTracker.PlayerFlowerVarietiesPlanted;
 
             if (flowersPlanted == 0)
             {

@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<!-- EN: one -->
 	<Quantifier_One>один</Quantifier_One>
 	
+	<!-- EN: some -->
 	<Quantifier_Some>некоторые</Quantifier_Some>
 	
+	<!-- EN: all -->
 	<Quantifier_All>все</Quantifier_All>
 	
+	<!-- EN: has -->
 	<Possess_Singular>имеет</Possess_Singular>
 	
+	<!-- EN: have -->
 	<Possess_Plural>имеют</Possess_Plural>
+	
+	<!-- EN: mediocre -->
+	<Adjective_Mediocre>заурядный</Adjective_Mediocre>
+	
+	<!-- EN: beautiful -->
+	<Adjective_Beautiful>красивый</Adjective_Beautiful>
 
 </LanguageData>

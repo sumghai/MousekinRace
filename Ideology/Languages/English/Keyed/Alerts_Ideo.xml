@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<AlertFlowerGardenLabel>{0} flower gardens</AlertFlowerGardenLabel>
+	
+	<AlertFlowerGardenDesc>As adherents of {IDEO_name}, your colonists have planted a flower garden.\n\nTotal area of all gardens: {1} cells\nFlowers planted in the past year: {2}\nFlower varieties planted: {3}\n\nOverall rating: {4}</AlertFlowerGardenDesc>
+	
+	<AlertFlowerGardenDesc_PlantMoreSuffix>Consider planting more and a wider variety of flowers.</AlertFlowerGardenDesc_PlantMoreSuffix>
+	
+	<AlertNoFlowerGardensDesc>{IDEO_name} requires that you have a flower garden in your colony.\n\nPlace one or more growing zones, and set them to grow flowers.</AlertNoFlowerGardensDesc>
+
+</LanguageData>
