@@ -959,6 +959,15 @@
 	<!-- EN: Consumed by wanderlust, [PAWN_nameDef] drifted aimlessly throughout the lands.\n\nSometimes [PAWN_pronoun] was lucky to find a temporary odd job in return for a hot meal and a pile of clean straw to sleep on, while other times [PAWN_pronoun] resorted to foraging for wild nuts and sleeping in caves.\n\nMost townsfolk distrusted [PAWN_possessive] aloof, itinerant ways, and [PAWN_pronoun] in turn was uninterested in forming any meaningful relationships with others. -->
 	<Mousekin_Adulthood_Wanderer.description>放浪癖のあるマイクは、あてもなく各地を放浪していた.\n\n時には、温かい食事と清潔な藁の山と引き換えに、一時的な奇妙な仕事を見つける幸運もあったが、時には野生の木の実を探して洞窟で寝泊まりすることに頼った.\n\n飄々とした態度で旅する[PAWN_pronoun]に、ほとんどの町民は不信感を抱き、また[PAWN_pronoun]も他人と有意義な関係を築くことに興味を示さなかった.</Mousekin_Adulthood_Wanderer.description>
 	
+	<!-- EN: Plague Survivor -->
+	<Mousekin_Adulthood_WandererPlague.title>ペスト生き残り</Mousekin_Adulthood_WandererPlague.title>
+	
+	<!-- EN: Survivor -->
+	<Mousekin_Adulthood_WandererPlague.titleShort>生残者</Mousekin_Adulthood_WandererPlague.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] worked as a cook in a small inn, but fled after an plague ravaged through [PAWN_possessive] village.\n\nAs [PAWN_pronoun] wandered from town to town in search of work, other Mousekins would inexplicably fall sick, earning [PAWN_objective] the moniker of "Typhoid [PAWN_nameDef]". -->
+	<Mousekin_Adulthood_WandererPlague.description>[PAWN_nameDef]は小さな宿屋でコックとして働いていたが、村に疫病が蔓延したため逃げ出した。仕事を求めて町から町へと放浪していると、他のマウスキンが不可解なことに病気になり、「チフスの[PAWN_nameDef]」と呼ばれるようになった。</Mousekin_Adulthood_WandererPlague.description>
+	
 	<!-- EN: Woodcutter -->
 	<Mousekin_Adulthood_Woodcutter.title>木樵</Mousekin_Adulthood_Woodcutter.title>
 	

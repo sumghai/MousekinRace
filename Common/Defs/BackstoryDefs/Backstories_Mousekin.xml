@@ -5045,6 +5045,36 @@
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
+		<defName>Mousekin_Adulthood_WandererPlague</defName>
+		<title>Plague Survivor</title>
+		<titleShort>Survivor</titleShort>
+		<description>[PAWN_nameDef] worked as a cook in a small inn, but fled after an plague ravaged through [PAWN_possessive] village.\n\nAs [PAWN_pronoun] wandered from town to town in search of work, other Mousekins would inexplicably fall sick, earning [PAWN_objective] the moniker of "Typhoid [PAWN_nameDef]".</description>
+		<maleCommonality>33</maleCommonality>
+		<femaleCommonality>33</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>3</Cooking>
+		</skillGains>
+		<forcedTraitsChance Inherit="false">
+			<li>
+				<defName Degree="-1">Immunity</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="1">Immunity</defName>
+			</li>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<spawnCategories>
+			<li>MousekinWanderer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Woodcutter</defName>

@@ -917,6 +917,15 @@
 	<!-- EN: Consumed by wanderlust, [PAWN_nameDef] drifted aimlessly throughout the lands.\n\nSometimes [PAWN_pronoun] was lucky to find a temporary odd job in return for a hot meal and a pile of clean straw to sleep on, while other times [PAWN_pronoun] resorted to foraging for wild nuts and sleeping in caves.\n\nMost townsfolk distrusted [PAWN_possessive] aloof, itinerant ways, and [PAWN_pronoun] in turn was uninterested in forming any meaningful relationships with others. -->
 	<Mousekin_Adulthood_Wanderer.description>由于流浪癖，[PAWN_nameDef]在大地上漫无目的地漂流。\n\n有时[PAWN_pronoun]很幸运能找到一份临时的零工来换取一顿热饭和一堆干净的稻草睡觉，而其他时候[PAWN_pronoun]不得不觅食野坚果和睡在洞穴里。\n\n大多数镇民不信任[PAWN_pronoun]冷漠、流动的行为，而[PAWN_pronoun]对与他人建立任何有意义的关系也不感兴趣。</Mousekin_Adulthood_Wanderer.description>
 	
+	<!-- EN: Plague Survivor -->
+	<Mousekin_Adulthood_WandererPlague.title>瘟疫幸存者</Mousekin_Adulthood_WandererPlague.title>
+	
+	<!-- EN: Survivor -->
+	<Mousekin_Adulthood_WandererPlague.titleShort>幸存者</Mousekin_Adulthood_WandererPlague.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] worked as a cook in a small inn, but fled after an plague ravaged through [PAWN_possessive] village.\n\nAs [PAWN_pronoun] wandered from town to town in search of work, other Mousekins would inexplicably fall sick, earning [PAWN_objective] the moniker of "Typhoid [PAWN_nameDef]". -->
+	<Mousekin_Adulthood_WandererPlague.description>[PAWN_nameDef]在一家小旅馆里做厨师，但是在瘟疫肆虐[PAWN_possessive]村庄之后，[PAWN_pronoun]逃了出来。当[PAWN_pronoun]从一个城镇流浪到另一个城镇寻找工作的时候，其他白鼠族会莫名其妙地生病，这让[PAWN_objective]获得了「伤寒[PAWN_nameDef]」的称号。</Mousekin_Adulthood_WandererPlague.description>
+	
 	<!-- EN: Woodcutter -->
 	<Mousekin_Adulthood_Woodcutter.title>樵夫</Mousekin_Adulthood_Woodcutter.title>
 	
