@@ -37,5 +37,19 @@
 		<reportString>harvesting products from TargetA.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
+	
+	<JobDef>
+		<defName>Mousekin_Job_PlayTabletopGame</defName>
+		<driverClass>JobDriver_SitFacingBuilding</driverClass>
+		<reportString>playing Mousie-Go-Home.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joyGainRate>1.1</joyGainRate>
+		<joySkill>Intellectual</joySkill>
+		<joyXpPerTick>0.005</joyXpPerTick>
+		<joyKind>Gaming_Cerebral</joyKind>
+		<taleOnCompletion>PlayedGame</taleOnCompletion>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
 
 </Defs>

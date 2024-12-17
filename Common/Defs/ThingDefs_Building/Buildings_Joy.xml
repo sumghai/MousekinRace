@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Mousie-Go-Home tabletop game -->
+	
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>Mousekin_JoyTabletopGame</defName>
+		<label>Mousie-Go-Home</label>
+		<description>A clockwork mechanical tabletop game popular amongst middle-class Mousekins, originally designed to teach young Mouselings how to identify and avoid common real-life hazards. Can be played by up to four people, and guaranteed to provide hours of chaotic entertainment!</description>
+		<graphicData>
+			<texPath>Things/Building/Joy/Mousekin_JoyTabletopGame</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(0.65, 0.25, 0.6)</volume>
+				<offset>(0, 0, -0.15)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.09375,0.296875,0.796875,0.703125)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<WoodLog>10</WoodLog>
+			<Mousekin_ClockworkComponent>1</Mousekin_ClockworkComponent>
+		</costList>
+		<rotatable>false</rotatable>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<WorkToBuild>6000</WorkToBuild>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>2</Beauty>
+			<JoyGainFactor>1.1</JoyGainFactor>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>Joy</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>30</pathCost>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<minTechLevelToBuild>Medieval</minTechLevelToBuild>
+		<building>
+			<joyKind>Gaming_Cerebral</joyKind>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Mousekin_ResearchMachineryBasic</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>
