@@ -186,6 +186,11 @@
 			<!-- Better at preserving foraged food while travelling -->
 			<ForagedNutritionPerDay>0.3</ForagedNutritionPerDay>
 		</equippedStatOffsets>
+		<recipeMaker>
+			<recipeUsers Inherit="false">
+				<li>Mousekin_WorkbenchTailor</li>
+			</recipeUsers>
+		</recipeMaker>
 		<apparel>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<bodyPartGroups>
