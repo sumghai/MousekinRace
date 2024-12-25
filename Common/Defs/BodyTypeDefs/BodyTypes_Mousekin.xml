@@ -14,8 +14,8 @@
 			<li>
 				<rotation>South</rotation>
 				<group>FullHead</group>
-				<offset>(0, 0, 0.22)</offset>
-				<range>0.1</range>
+				<offset>(0, 0, 0)</offset>
+				<range>0.3</range>
 				<layer>Head</layer>
 				<debugColor>(0,1,1,1)</debugColor>
 			</li>
@@ -23,8 +23,8 @@
 			<li>
 				<rotation>West</rotation>
 				<group>FullHead</group>
-				<offset>(0, 0, 0.22)</offset>
-				<range>0.2</range>
+				<offset>(0, 0, 0)</offset>
+				<range>0.3</range>
 				<layer>Head</layer>
 				<debugColor>(0,1,1,1)</debugColor>
 			</li>
@@ -35,17 +35,17 @@
 				<rotation>South</rotation>
 				<tag>LeftEye</tag>
 				<canMirror>false</canMirror>
-				<offset>(0.095, 0, 0.26)</offset>
+				<offset>(0.11, 0, 0.19)</offset>
 				<range>0</range>
 				<layer>Head</layer>
 				<debugColor>(0,0,0,1)</debugColor>
 			</li>
-			
+
 			<li>
 				<rotation>West</rotation>
 				<tag>LeftEye</tag>
 				<canMirror>false</canMirror>
-				<offset>(-0.22, 0, 0.26)</offset>
+				<offset>(-0.11, 0, 0.19)</offset>
 				<range>0</range>
 				<layer>Head</layer>
 				<debugColor>(0,0,0,1)</debugColor>
@@ -57,7 +57,7 @@
 				<rotation>South</rotation>
 				<tag>RightEye</tag>
 				<canMirror>false</canMirror>
-				<offset>(-0.095, 0, 0.26)</offset>
+				<offset>(-0.11, 0, 0.19)</offset>
 				<range>0</range>
 				<layer>Head</layer>
 				<debugColor>(1,1,1,1)</debugColor>
@@ -67,7 +67,7 @@
 				<rotation>East</rotation>
 				<tag>RightEye</tag>
 				<canMirror>false</canMirror>
-				<offset>(0.22, 0, 0.26)</offset>
+				<offset>(0.11, 0, 0.19)</offset>
 				<range>0</range>
 				<layer>Head</layer>
 				<debugColor>(1,1,1,1)</debugColor>
@@ -78,15 +78,15 @@
 			<li>
 				<rotation>South</rotation>
 				<group>Torso</group>
-				<offset>(0,0,-0.20)</offset>
-				<range>0.15</range>
+				<offset>(0,0,-0.25)</offset>
+				<range>0.2</range>
 				<debugColor>(1,0,0,1)</debugColor>
 			</li>
 
 			<li>
 				<rotation>West</rotation>
 				<group>Torso</group>
-				<offset>(0,0,-0.20)</offset>
+				<offset>(0.1,0,-0.25)</offset>
 				<range>0.2</range>
 				<debugColor>(1,0,0,1)</debugColor>
 			</li>
@@ -96,15 +96,15 @@
 			<li>
 				<rotation>South</rotation>
 				<tag>LeftShoulder</tag>
-				<offset>(-0.1,0,0.05)</offset>
-				<range>0.075</range>
+				<offset>(0.12,0,-0.1)</offset>
+				<range>0.1</range>
 				<debugColor>(1,1,0,1)</debugColor>
 			</li>
 			
 			<li>
-				<rotation>East</rotation>
+				<rotation>West</rotation>
 				<tag>LeftShoulder</tag>
-				<offset>(-0.05,0,0.1)</offset>
+				<offset>(0.075,0,-0.1)</offset>
 				<range>0.15</range>
 				<canMirror>false</canMirror>
 				<debugColor>(1,1,0,1)</debugColor>
@@ -115,15 +115,15 @@
 			<li>
 				<rotation>South</rotation>
 				<tag>RightShoulder</tag>
-				<offset>(0.1,0,0.05)</offset>
-				<range>0.075</range>
+				<offset>(-0.12,0,-0.1)</offset>
+				<range>0.1</range>
 				<debugColor>(1,0,1,1)</debugColor>
 			</li>
 			
 			<li>
-				<rotation>West</rotation>
+				<rotation>East</rotation>
 				<tag>RightShoulder</tag>
-				<offset>(0.05,0,0.1)</offset>
+				<offset>(-0.075,0,-0.1)</offset>
 				<range>0.15</range>
 				<canMirror>false</canMirror>
 				<debugColor>(1,0,1,1)</debugColor>
@@ -134,16 +134,16 @@
 			<li>
 				<rotation>South</rotation>
 				<tag>LeftLeg</tag>
-				<offset>(-0.075,0,-0.375)</offset>
+				<offset>(0.15,0,-0.375)</offset>
 				<range>0.1</range>
 				<debugColor>(0,1,0,1)</debugColor>
 			</li>
 			
 			<li>
-				<rotation>East</rotation>
+				<rotation>West</rotation>
 				<tag>LeftLeg</tag>
-				<offset>(-0.05,0,-0.3)</offset>
-				<range>0.15</range>
+				<offset>(0.05,0,-0.375)</offset>
+				<range>0.5</range>
 				<canMirror>false</canMirror>
 				<debugColor>(0,1,0,1)</debugColor>
 			</li>
@@ -153,16 +153,16 @@
 			<li>
 				<rotation>South</rotation>
 				<tag>RightLeg</tag>
-				<offset>(0.075,0,-0.375)</offset>
+				<offset>(-0.15,0,-0.375)</offset>
 				<range>0.1</range>
 				<debugColor>(0,0,1,1)</debugColor>
 			</li>
 			
 			<li>
-				<rotation>West</rotation>
+				<rotation>East</rotation>
 				<tag>RightLeg</tag>
-				<offset>(0.05,0,-0.3)</offset>
-				<range>0.15</range>
+				<offset>(-0.05,0,-0.375)</offset>
+				<range>0.5</range>
 				<canMirror>false</canMirror>
 				<debugColor>(0,0,1,1)</debugColor>
 			</li>
