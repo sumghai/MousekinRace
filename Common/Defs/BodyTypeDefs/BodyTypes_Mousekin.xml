@@ -29,6 +29,70 @@
 				<debugColor>(0,1,1,1)</debugColor>
 			</li>
 			
+			<!-- Mousekin_LeftEar -->
+			
+			<li>
+				<rotation>South</rotation>
+				<tag>Mousekin_LeftEar</tag>
+				<canMirror>false</canMirror>
+				<offset>(0.25, 0.0096, 0.25)</offset>
+				<range>0</range>
+				<layer>Head</layer>
+				<debugColor>(0,0,0.5,1)</debugColor>
+			</li>
+			
+			<li>
+				<rotation>North</rotation>
+				<tag>Mousekin_LeftEar</tag>
+				<canMirror>false</canMirror>
+				<offset>(-0.25, 0.0096, 0.25)</offset>
+				<range>0</range>
+				<layer>Head</layer>
+				<debugColor>(0,0,0.5,1)</debugColor>
+			</li>
+			
+			<li>
+				<rotation>West</rotation>
+				<tag>Mousekin_LeftEar</tag>
+				<canMirror>false</canMirror>
+				<offset>(0.125, 0.5, 0.25)</offset>
+				<range>0</range>
+				<layer>Head</layer>
+				<debugColor>(0,1,0.5,1)</debugColor>
+			</li>
+			
+			<!-- Mousekin_RightEar -->
+			
+			<li>
+				<rotation>South</rotation>
+				<tag>Mousekin_RightEar</tag>
+				<canMirror>false</canMirror>
+				<offset>(-0.25, 0.0096, 0.25)</offset>
+				<range>0</range>
+				<layer>Head</layer>
+				<debugColor>(0,0.5,0,1)</debugColor>
+			</li>
+			
+			<li>
+				<rotation>North</rotation>
+				<tag>Mousekin_RightEar</tag>
+				<canMirror>false</canMirror>
+				<offset>(0.25, 0.0096, 0.25)</offset>
+				<range>0</range>
+				<layer>Head</layer>
+				<debugColor>(0,0.5,0,1)</debugColor>
+			</li>
+			
+			<li>
+				<rotation>East</rotation>
+				<tag>Mousekin_RightEar</tag>
+				<canMirror>false</canMirror>
+				<offset>(-0.125, 0.5, 0.25)</offset>
+				<range>0</range>
+				<layer>Head</layer>
+				<debugColor>(0,0.5,0,1)</debugColor>
+			</li>
+			
 			<!-- LeftEye -->
 			
 			<li>
@@ -71,7 +135,7 @@
 				<range>0</range>
 				<layer>Head</layer>
 				<debugColor>(1,1,1,1)</debugColor>
-			</li>			
+			</li>
 
 			<!-- Torso -->
 
@@ -127,7 +191,7 @@
 				<range>0.15</range>
 				<canMirror>false</canMirror>
 				<debugColor>(1,0,1,1)</debugColor>
-			</li>			
+			</li>
 			
 			<!-- LeftLeg -->
 			

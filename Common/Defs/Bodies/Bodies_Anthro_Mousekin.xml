@@ -182,6 +182,7 @@
 										<li>UpperHead</li>
 										<li>FullHead</li>
 									</groups>
+									<woundAnchorTag>Mousekin_LeftEar</woundAnchorTag>
 								</li>
 								<li>
 									<def>Mousekin_Ear</def>
@@ -192,6 +193,7 @@
 										<li>UpperHead</li>
 										<li>FullHead</li>
 									</groups>
+									<woundAnchorTag>Mousekin_RightEar</woundAnchorTag>
 								</li>
 								<li>
 									<def>Nose</def>
