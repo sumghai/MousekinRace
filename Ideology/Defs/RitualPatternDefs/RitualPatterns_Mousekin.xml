@@ -15,5 +15,20 @@
 		<ignoreConsumableBuildingRequirement>true</ignoreConsumableBuildingRequirement>
 		<ritualOutcomeEffect>DestroyConsumableBuilding_ChristmasTree</ritualOutcomeEffect>
 	</RitualPatternDef>
+	
+	<!-- Mousekin Brigand variant of the Gladiator Duel ritual pattern, which uses a custom namemaker that simply defaults to "Gladiator Duel" -->
+
+	<RitualPatternDef>
+		<defName>Mousekin_RitualPatternGladiatorDuel</defName>
+		<canStartAnytime>true</canStartAnytime>
+		<ritualObligationTargetFilter>AnyRitualSpot</ritualObligationTargetFilter>
+		<ritualBehavior>GladiatorDuel</ritualBehavior>
+		<alwaysStartAnytime>true</alwaysStartAnytime>
+		<nameMaker>NamerRitualGladiatorDuelMousekin</nameMaker>
+		<ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+		<ritualOutcomeEffect>GladiatorDuel</ritualOutcomeEffect>
+		<tags Inherit="False" />
+		<playsIdeoMusic>false</playsIdeoMusic>
+	</RitualPatternDef>
 
 </Defs>

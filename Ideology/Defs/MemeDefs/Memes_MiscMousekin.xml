@@ -201,6 +201,12 @@
 				</li>
 			</patterns>
 		</descriptionMaker>
+		<requiredRituals>
+			<li>
+				<precept>GladiatorDuel</precept>
+				<pattern>Mousekin_RitualPatternGladiatorDuel</pattern>
+			</li>
+		</requiredRituals>
 	</MemeDef>
 
 </Defs>
