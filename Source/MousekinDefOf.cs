@@ -139,6 +139,12 @@ namespace MousekinRace
         public static PreceptDef Mousekin_Precept_FlowersDesired;
 
         [MayRequireIdeology]
+        public static RitualAttachableOutcomeEffectDef RandomRecruit;
+
+        [MayRequireIdeology]
+        public static RitualPatternDef CelebrationTree;
+
+        [MayRequireIdeology]
         public static RulePackDef NamerRoleMoralist_Mousekin;
 
         [MayRequireBiotech]

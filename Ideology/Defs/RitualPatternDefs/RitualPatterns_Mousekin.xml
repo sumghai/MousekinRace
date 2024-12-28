@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Tree Festival - Mousekin equivalent of Christmas -->
+	
+	<RitualPatternDef ParentName="CelebrationConsumable">
+		<defName>Mousekin_RitualPatternTreeFestival</defName>
+		<shortDescOverride>tree festival</shortDescOverride>
+		<descOverride>A party around a pine tree, which symbolizes endurance during winter and other times of hardship. Participants will gather around the tree and make merry.</descOverride>
+		<canStartAnytime>false</canStartAnytime>
+		<iconPathOverride>UI/Icons/Rituals/TreeCelebration</iconPathOverride>
+		<ritualObligationTargetFilter>ChristmasTree</ritualObligationTargetFilter>
+		<ritualBehavior>CelebrationTree</ritualBehavior>	
+		<nameMaker>NamerRitualTreeFestivalMousekin</nameMaker>
+		<ignoreConsumableBuildingRequirement>true</ignoreConsumableBuildingRequirement>
+		<ritualOutcomeEffect>DestroyConsumableBuilding_ChristmasTree</ritualOutcomeEffect>
+	</RitualPatternDef>
+
+</Defs>

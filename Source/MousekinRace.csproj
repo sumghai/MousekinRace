@@ -376,6 +376,8 @@
     <Compile Include="Patches\Harmony_RitualBehaviorWorker.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker_Conversion.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker_Speech.cs" />
+    <Compile Include="Patches\Harmony_RitualObligationTrigger_Date.cs" />
+    <Compile Include="Patches\Harmony_RitualPatternDef.cs" />
     <Compile Include="Patches\Harmony_RitualRoleTag.cs" />
     <Compile Include="Patches\Harmony_RitualUtility.cs" />
     <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />

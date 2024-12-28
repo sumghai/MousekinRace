@@ -55,6 +55,13 @@
 				<li>Mousekin_Precept_FlowersDesired</li>
 			</li>
 		</requireOne>
+		<requiredRituals>
+			<li>
+				<precept>DateRitualConsumable</precept>
+				<pattern>Mousekin_RitualPatternTreeFestival</pattern>
+				<building>ChristmasTree</building>
+			</li>
+		</requiredRituals>
 	</MemeDef>
 	
 	<MemeDef>
