@@ -147,6 +147,15 @@ namespace MousekinRace
         [MayRequireIdeology]
         public static RulePackDef NamerRoleMoralist_Mousekin;
 
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualFuneralMousekinKingdom;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualFuneralMousekinIndyTown;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualFuneralMousekinNomads;
+
         [MayRequireBiotech]
         public static PawnKindDef MousekinChild;
 

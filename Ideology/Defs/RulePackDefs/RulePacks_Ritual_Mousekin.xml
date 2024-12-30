@@ -2,6 +2,33 @@
 <Defs>
 
 	<RulePackDef>
+		<defName>NamerRitualFuneralMousekinKingdom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Internment</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerRitualFuneralMousekinIndyTown</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Republican Eulogy</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerRitualFuneralMousekinNomads</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Wanderer's Final Rest</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
 		<defName>NamerRitualTreeFestivalMousekin</defName>
 		<rulePack>
 			<rulesStrings>

@@ -38,6 +38,12 @@ namespace MousekinRace
             return culture.IsMousekin() && culture.defName.Contains("IndyTown");
         }
 
+        // Determine if a faction's ideo/culture is (based on) the Rodemani Nomads
+        public static bool IsMousekinNomadLike(this CultureDef culture)
+        {
+            return culture.IsMousekin() && culture.defName.Contains("Nomad");
+        }
+
         // Get the primary race of any given faction
         public static ThingDef_AlienRace GetRaceOfFaction(FactionDef faction) => (faction.basicMemberKind?.race ?? faction.pawnGroupMakers?.SelectMany(selector: groupMaker => groupMaker.options).GroupBy(keySelector: groupMaker => groupMaker.kind.race).OrderByDescending(keySelector: g => g.Count()).First().Key) as ThingDef_AlienRace;
 

@@ -41,6 +41,12 @@
 				<li>Scarification_Horrible</li>
 			</li>
 		</requireOne>
+		<requiredRituals>
+			<li>
+				<precept>Funeral</precept>
+				<pattern>FuneralStandard</pattern>
+			</li>
+		</requiredRituals>
 	</MemeDef>
 	
 	<MemeDef>
