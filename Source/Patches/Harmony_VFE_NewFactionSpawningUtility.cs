@@ -6,7 +6,7 @@ using VFECore;
 namespace MousekinRace
 {
     [HarmonyPatch]
-    public static class Harmony_VFE_NewFactionSpawningUtility_Foobar
+    public static class Harmony_VFE_NewFactionSpawningUtility_SyncRelationsWithAllegianceFaction
     {
         static IEnumerable<MethodBase> TargetMethods()
         {
