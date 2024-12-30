@@ -44,6 +44,12 @@ namespace MousekinRace
             return culture.IsMousekin() && culture.defName.Contains("Nomad");
         }
 
+        // Determine if a faction's ideo/culture is (based on) the Brigands
+        public static bool IsMousekinBrigandLike(this CultureDef culture)
+        {
+            return culture.IsMousekin() && culture.defName.Contains("Brigand");
+        }
+
         // Get the primary race of any given faction
         public static ThingDef_AlienRace GetRaceOfFaction(FactionDef faction) => (faction.basicMemberKind?.race ?? faction.pawnGroupMakers?.SelectMany(selector: groupMaker => groupMaker.options).GroupBy(keySelector: groupMaker => groupMaker.kind.race).OrderByDescending(keySelector: g => g.Count()).First().Key) as ThingDef_AlienRace;
 
