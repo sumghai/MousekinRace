@@ -7,4 +7,7 @@ Race mod for RimWorld, which adds a species of anthropomorphic white mice called
 
 [**Discord Server**](https://discord.gg/7N4bquUWqU)
 
-**Steam Workshop Page** Coming Soon
+[**Steam Workshop Page**](https://steamcommunity.com/sharedfiles/filedetails/?id=2494193063)
+
+### Acknowledgements
+This mod makes use of the PostInheritanceOperation assembly from @bbradson's [Patch Operation Collection](https://github.com/bbradson/Patch-Operation-Collection).
