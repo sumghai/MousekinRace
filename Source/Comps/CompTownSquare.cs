@@ -25,6 +25,12 @@ namespace MousekinRace
                         // (Plants are skipped, as they will be auto-cut)
                         if (list[i].def != MousekinDefOf.Mousekin_TownSquare && list[i].def.entityDefToBuild is not TerrainDef && (list[i].def.IsBuildingArtificial || list[i].def.mineable))
                         {
+                            // (Some special buildings can be built on Town Squares)
+                            if (list[i].def.tradeTags?.Contains("Mousekin_TownSquare_NotObstruction") ?? false)
+                            {
+                                return false;
+                            }
+                            
                             return true;
                         }
                     }
