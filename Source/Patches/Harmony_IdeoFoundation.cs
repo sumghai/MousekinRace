@@ -30,9 +30,9 @@ namespace MousekinRace
         }
     }
 
-    // Override namemakers for Mousekin ideo buildings, so that they simply use the thingDef labels instead
+    // Ignore namemakers for Mousekin ideo buildings, so that they simply use the thingDef labels instead
     [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.AddRequiredPreceptsForMemes))]
-    public static class Harmony_IdeoFoundation_AddRequiredPreceptsForMemes_foobar
+    public static class Harmony_IdeoFoundation_AddRequiredPreceptsForMemes_IgnoreNamemakersForMousekinIdeoBuildings
     {
         static void Postfix(ref IdeoFoundation __instance)
         {
