@@ -29,7 +29,26 @@ namespace MousekinRace
             }
         }
     }
-    
+
+    // Override namemakers for Mousekin ideo buildings, so that they simply use the thingDef labels instead
+    [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.AddRequiredPreceptsForMemes))]
+    public static class Harmony_IdeoFoundation_AddRequiredPreceptsForMemes_foobar
+    {
+        static void Postfix(ref IdeoFoundation __instance)
+        {
+            if (__instance.ideo.culture.IsMousekin())
+            {
+                foreach (Precept_Building precept in __instance.ideo.precepts.Where(p => p is Precept_Building).ToList().Cast<Precept_Building>())
+                {
+                    if (precept.ThingDef.defName.Contains("Mousekin"))
+                    { 
+                        precept.name = GenText.ToTitleCaseSmart(precept.ThingDef.LabelCap);
+                    }
+                }
+            }
+        }
+    }
+
     // Used fixed symbols for Mousekin ideologies
     [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.GetRandomIconDef))]
     public static class Harmony_IdeoFoundation_GetRandomIconDef_LimitToMatchingCultures
