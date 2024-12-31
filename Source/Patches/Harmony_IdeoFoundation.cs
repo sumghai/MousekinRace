@@ -123,10 +123,10 @@ namespace MousekinRace
 
                 // Add the preferred xenotype precept to ideos with the Rodentkind Purity or Nutsnatching memes
                 if (__instance.ideo.HasMeme(MousekinDefOf.Mousekin_IdeoMeme_RodentPurity) || __instance.ideo.HasMeme(MousekinDefOf.Mousekin_IdeoMeme_Raider))
-                {
+                {                
                     Precept_Xenotype precept_Xenotype = (Precept_Xenotype)PreceptMaker.MakePrecept(PreceptDefOf.PreferredXenotype);
                     precept_Xenotype.xenotype = MousekinDefOf.Mousekin_XenotypeMousekin;
-                    __instance.ideo.AddPrecept(precept_Xenotype);
+                    __instance.ideo.AddPrecept(precept_Xenotype, true);
                 }
             }
         }
