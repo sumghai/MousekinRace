@@ -39,6 +39,8 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeding</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Ritualist</li>
 		</disallowedMemes>
 		<disallowedPrecepts>
 			<!-- Mousekins don't really venerate any animal in particular (requires Harmony postfix) -->
