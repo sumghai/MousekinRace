@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RitualOutcomeEffectDef ParentName="DestroyConsumableBuilding">
+		<defName>DestroyConsumableBuilding_Mousekin_IdeoXmasTree</defName>
+		<effecter>VanishChristmasTree</effecter>
+		<comps Inherit="false">
+			<li Class="RitualOutcomeComp_ParticipantCount">
+				<label>participant count</label>
+				<curve>
+					<points>
+						<li>(1,  0.0)</li>
+						<li>(8,  0.5)</li>
+						<li>(16, 1.0)</li>
+					</points>
+				</curve>
+			</li>
+		</comps>
+	</RitualOutcomeEffectDef>
+	
+</Defs>

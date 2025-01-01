@@ -13,7 +13,7 @@
 		<ritualBehavior>CelebrationTree</ritualBehavior>	
 		<nameMaker>NamerRitualTreeFestivalMousekin</nameMaker>
 		<ignoreConsumableBuildingRequirement>true</ignoreConsumableBuildingRequirement>
-		<ritualOutcomeEffect>DestroyConsumableBuilding_ChristmasTree</ritualOutcomeEffect>
+		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_IdeoXmasTree</ritualOutcomeEffect>
 	</RitualPatternDef>
 	
 	<!-- Mousekin Brigand variant of the Gladiator Duel ritual pattern, which uses a custom namemaker that simply defaults to "Gladiator Duel" -->
