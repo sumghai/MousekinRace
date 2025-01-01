@@ -1,80 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AlienRace.RaceSettings>
-		<defName>Mousekin_RaceSettings</defName>
-		<pawnKindSettings>
-			<startingColonists>
-				<li>
-					<pawnKindEntries>
-						<li>
-							<kindDefs>
-								<li>MousekinColonist</li>
-							</kindDefs>
-							<chance>20.0</chance>
-						</li>
-						<li>
-							<kindDefs>
-								<li>MousekinTradesman</li>
-							</kindDefs>
-							<chance>30.0</chance>
-						</li>
-						<li>
-							<kindDefs>
-								<li>MousekinGuardener</li>
-							</kindDefs>
-							<chance>20.0</chance>
-						</li>	
-						<li>
-							<kindDefs>
-								<li>MousekinDoctor</li>
-							</kindDefs>
-							<chance>10.0</chance>
-						</li>					
-						<li>
-							<kindDefs>
-								<li>MousekinPeasant</li>
-							</kindDefs>
-							<chance>20.0</chance>
-						</li>
-						<li>
-							<kindDefs>
-								<li>MousekinPriest</li>
-							</kindDefs>
-							<chance>10.0</chance>
-						</li>
-					</pawnKindEntries>
-					<factionDefs>
-						<li>Mousekin_PlayerFaction_Settlers</li>
-						<li>Mousekin_PlayerFaction_Refugees</li>
-					</factionDefs>
-				</li>
-			</startingColonists>
-			<alienslavekinds>
-				<li>
-					<kindDefs>
-						<li>MousekinSlave</li>
-					</kindDefs>
-					<chance>10.0</chance>
-				</li>
-			</alienslavekinds>
-			<alienwandererkinds>
-				<li>
-					<pawnKindEntries>
-						<li>
-							<kindDefs>
-								<li>MousekinWanderer</li>
-							</kindDefs>
-							<chance>50.0</chance>
-						</li>
-					</pawnKindEntries>
-					<factionDefs>
-						<li>Mousekin_FactionKingdom</li>
-						<li>Mousekin_FactionIndyTown</li>
-					</factionDefs>
-				</li>
-			</alienwandererkinds>
-		</pawnKindSettings>
-	</AlienRace.RaceSettings>
+  <!--
+    RaceSettings for Mousekin, defining the pawn kinds
+    that appear as starting colonists, slaves, or wanderers.
+  -->
+
+  <AlienRace.RaceSettings>
+    <defName>Mousekin_RaceSettings</defName>
+
+    <!-- PawnKindSettings: controlling spawn chances for various scenarios. -->
+    <pawnKindSettings>
+
+      <!-- Starting Colonists: 
+           Defines which pawn kinds can appear when the player starts a new colony 
+           with Mousekin factions.
+      -->
+      <startingColonists>
+        <li>
+          <!-- Pawn kind entries for the starting colonists -->
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>MousekinColonist</li>
+              </kindDefs>
+              <chance>20.0</chance>
+            </li>
+            <li>
+              <kindDefs>
+                <li>MousekinTradesman</li>
+              </kindDefs>
+              <chance>30.0</chance>
+            </li>
+            <li>
+              <kindDefs>
+                <li>MousekinGuardener</li>
+              </kindDefs>
+              <chance>20.0</chance>
+            </li>
+            <li>
+              <kindDefs>
+                <li>MousekinDoctor</li>
+              </kindDefs>
+              <chance>10.0</chance>
+            </li>
+            <li>
+              <kindDefs>
+                <li>MousekinPeasant</li>
+              </kindDefs>
+              <chance>20.0</chance>
+            </li>
+            <li>
+              <kindDefs>
+                <li>MousekinPriest</li>
+              </kindDefs>
+              <chance>10.0</chance>
+            </li>
+          </pawnKindEntries>
+
+          <!-- The factions where these kinds can appear as starting colonists -->
+          <factionDefs>
+            <li>Mousekin_PlayerFaction_Settlers</li>
+            <li>Mousekin_PlayerFaction_Refugees</li>
+          </factionDefs>
+        </li>
+      </startingColonists>
+
+      <!-- Slave kinds:
+           Pawn kinds that may appear as slaves, presumably in hostile or trade contexts.
+      -->
+      <alienslavekinds>
+        <li>
+          <kindDefs>
+            <li>MousekinSlave</li>
+          </kindDefs>
+          <chance>10.0</chance>
+        </li>
+      </alienslavekinds>
+
+      <!-- Wanderer kinds:
+           Pawn kinds that appear as wanderers, visitors, or quest refugees from 
+           the Mousekin society.
+      -->
+      <alienwandererkinds>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>MousekinWanderer</li>
+              </kindDefs>
+              <chance>50.0</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>Mousekin_FactionKingdom</li>
+            <li>Mousekin_FactionIndyTown</li>
+          </factionDefs>
+        </li>
+      </alienwandererkinds>
+
+    </pawnKindSettings>
+  </AlienRace.RaceSettings>
 
 </Defs>
