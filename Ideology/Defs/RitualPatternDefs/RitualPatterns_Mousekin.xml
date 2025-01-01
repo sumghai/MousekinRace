@@ -9,7 +9,7 @@
 		<descOverride>A party around a pine tree, which symbolizes endurance during winter and other times of hardship. Participants will gather around the tree and make merry.</descOverride>
 		<canStartAnytime>false</canStartAnytime>
 		<iconPathOverride>UI/Icons/Rituals/TreeCelebration</iconPathOverride>
-		<ritualObligationTargetFilter>ChristmasTree</ritualObligationTargetFilter>
+		<ritualObligationTargetFilter>Mousekin_IdeoXmasTree</ritualObligationTargetFilter>
 		<ritualBehavior>CelebrationTree</ritualBehavior>	
 		<nameMaker>NamerRitualTreeFestivalMousekin</nameMaker>
 		<ignoreConsumableBuildingRequirement>true</ignoreConsumableBuildingRequirement>

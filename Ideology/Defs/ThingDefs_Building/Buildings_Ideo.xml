@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Great Pine (Mousekin Christmas Tree) -->
+	
+	<ThingDef ParentName="IdeoBuildingConsumableBase">
+		<defName>Mousekin_IdeoXmasTree</defName>
+		<label>great pine</label>
+		<description>A giant pine tree, traditionally decorated with ribbons and ornaments as part of Tree Festival celebrations. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Misc/Mousekin_IdeoXmasTree</texPath>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0, 0, 0.75)</drawOffset>
+			<shadowData>
+				<volume>(0.8, 1.5, 0.8)</volume>
+				<offset>(0, 0, -0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.333</uiIconScale>
+		<costList>
+			<WoodLog>10</WoodLog> <!-- todo - replace with actual pine tree? -->
+		</costList>
+		<rotatable>false</rotatable>
+		<ritualFocus>
+			<spectateDistance>3~4</spectateDistance>
+		</ritualFocus>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>10</Beauty>
+			<Mass>25</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<uiOrder>2050</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+		</building>
+		<comps>
+			<li Class="CompProperties_RitualTargetEffecterSpawner">
+				<effecter>ChristmasTreeTwinkle</effecter>
+			</li>
+			<li Class="CompProperties_RitualSignalSender" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(255,255,108,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<tradeTags>
+			<li>Mousekin_TownSquare_NotObstruction</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

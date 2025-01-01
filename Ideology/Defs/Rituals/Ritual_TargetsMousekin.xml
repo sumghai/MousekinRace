@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RitualObligationTargetFilterDef>
+		<defName>Mousekin_IdeoXmasTree</defName>
+		<workerClass>RitualObligationTargetWorker_ConsumableBuilding</workerClass>
+		<thingDefs>
+			<li>Mousekin_IdeoXmasTree</li>
+		</thingDefs>
+	</RitualObligationTargetFilterDef>
+	
+</Defs>
