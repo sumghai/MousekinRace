@@ -4,6 +4,7 @@
 	<AlienRace.RaceSettings>
 		<defName>Mousekin_RaceSettings</defName>
 		<pawnKindSettings>
+		
 			<startingColonists>
 				<li>
 					<pawnKindEntries>
@@ -24,13 +25,13 @@
 								<li>MousekinGuardener</li>
 							</kindDefs>
 							<chance>20.0</chance>
-						</li>	
+						</li>
 						<li>
 							<kindDefs>
 								<li>MousekinDoctor</li>
 							</kindDefs>
 							<chance>10.0</chance>
-						</li>					
+						</li>
 						<li>
 							<kindDefs>
 								<li>MousekinPeasant</li>
@@ -50,6 +51,7 @@
 					</factionDefs>
 				</li>
 			</startingColonists>
+			
 			<alienslavekinds>
 				<li>
 					<kindDefs>
@@ -58,6 +60,7 @@
 					<chance>10.0</chance>
 				</li>
 			</alienslavekinds>
+			
 			<alienwandererkinds>
 				<li>
 					<pawnKindEntries>
@@ -74,7 +77,8 @@
 					</factionDefs>
 				</li>
 			</alienwandererkinds>
+			
 		</pawnKindSettings>
 	</AlienRace.RaceSettings>
-
+	
 </Defs>
