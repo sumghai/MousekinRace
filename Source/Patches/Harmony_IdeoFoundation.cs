@@ -30,7 +30,9 @@ namespace MousekinRace
         }
     }
 
-    // Ignore namemakers for Mousekin ideo buildings, so that they simply use the thingDef labels instead
+    // For for Mousekin ideo buildings:
+    // - Ignore namemakers and simply use thingDef labels instead
+    // - Remove room requirements
     [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.AddRequiredPreceptsForMemes))]
     public static class Harmony_IdeoFoundation_AddRequiredPreceptsForMemes_IgnoreNamemakersForMousekinIdeoBuildings
     {
@@ -43,6 +45,7 @@ namespace MousekinRace
                     if (precept.ThingDef.defName.Contains("Mousekin"))
                     { 
                         precept.name = GenText.ToTitleCaseSmart(precept.ThingDef.LabelCap);
+                        precept.presenceDemand.roomRequirements.Clear();
                     }
                 }
             }
