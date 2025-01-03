@@ -156,6 +156,9 @@ namespace MousekinRace
         [MayRequireIdeology]
         public static RulePackDef NamerRitualFuneralMousekinNomads;
 
+        [MayRequireIdeology]
+        public static ThingDef Mousekin_IdeoXmasTree;
+
         [MayRequireBiotech]
         public static PawnKindDef MousekinChild;
 

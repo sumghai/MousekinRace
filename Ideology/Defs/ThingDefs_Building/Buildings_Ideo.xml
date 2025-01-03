@@ -19,7 +19,7 @@
 		</graphicData>
 		<uiIconScale>0.333</uiIconScale>
 		<costList>
-			<WoodLog>10</WoodLog> <!-- todo - replace with actual pine tree? -->
+			<MinifiedTree>1</MinifiedTree>
 		</costList>
 		<rotatable>false</rotatable>
 		<ritualFocus>

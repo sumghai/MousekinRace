@@ -351,11 +351,15 @@
     <Compile Include="Jobs\LordToil_ChurchService.cs" />
     <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
+    <Compile Include="Patches\Harmony_Designator_Build.cs" />
+    <Compile Include="Patches\Harmony_Frame.cs" />
+    <Compile Include="Patches\Harmony_BuildableDef.cs" />
     <Compile Include="Patches\Harmony_CellInspectorDrawer.cs" />
     <Compile Include="Patches\Harmony_CompAbilityEffect_Convert.cs" />
     <Compile Include="Patches\Harmony_CompForbiddable.cs" />
     <Compile Include="Patches\Harmony_Dialog_BeginRitual.cs" />
     <Compile Include="Patches\Harmony_Game.cs" />
+    <Compile Include="Patches\Harmony_Blueprint_Build.cs" />
     <Compile Include="Patches\Harmony_Ideo.cs" />
     <Compile Include="Patches\Harmony_IncidentWorker_CaravanArrivalTributeCollector.cs" />
     <Compile Include="Patches\Harmony_IncidentWorker_GiveQuest.cs" />
@@ -366,6 +370,7 @@
     <Compile Include="Patches\Harmony_PawnRitualRoleSelectionWidget.cs" />
     <Compile Include="Patches\Harmony_Pawn_RoyaltyTracker.cs" />
     <Compile Include="Patches\Harmony_Plant.cs" />
+    <Compile Include="Patches\Harmony_Precept_Building.cs" />
     <Compile Include="Patches\Harmony_Precept_Ritual.cs" />
     <Compile Include="Patches\Harmony_Precept_Role.cs" />
     <Compile Include="Patches\Harmony_Precept_RoleSingle.cs" />
@@ -390,6 +395,7 @@
     <Compile Include="Patches\Harmony_WildPlantSpawner.cs" />
     <Compile Include="Patches\Harmony_Tradeable.cs" />
     <Compile Include="Patches\Harmony_VFE_NewFactionSpawningUtility.cs" />
+    <Compile Include="Patches\Harmony_WorkGiver_ConstructDeliverResources.cs" />
     <Compile Include="Patches\LwmDeepStorageCompatPatch.cs" />
     <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
     <Compile Include="Patches\Harmony_PawnRenderTree.cs" />

@@ -2,6 +2,7 @@
 using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using Verse;
 
 namespace MousekinRace
@@ -87,6 +88,17 @@ namespace MousekinRace
                     originalString = tempOutput.Replace(tgtRoleLabelCap, MousekinDefOf.MousekinPriest.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst());
                 }
             }
+            return originalString;
+        }
+
+        // For Mousekin Great Pine cost list strings, replace the original Minified Tree text
+        // with an amended version that includes a "(Pine Tree)" suffix
+        public static string PatchMinifiedTreeWithPineTreeSuffix(this string originalString)
+        {
+            // Handle both lowercase and title case variants
+            originalString = originalString.Replace(ThingDefOf.MinifiedTree.label, ThingDefOf.MinifiedTree.label + $" ({ThingDefOf.Plant_TreePine.label})");
+            originalString = originalString.Replace(ThingDefOf.MinifiedTree.LabelCap, ThingDefOf.MinifiedTree.LabelCap + $" ({ThingDefOf.Plant_TreePine.LabelCap})");
+
             return originalString;
         }
     }
