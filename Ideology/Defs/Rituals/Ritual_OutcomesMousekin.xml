@@ -2,7 +2,7 @@
 <Defs>
 
 	<RitualOutcomeEffectDef ParentName="DestroyConsumableBuilding">
-		<defName>DestroyConsumableBuilding_Mousekin_IdeoXmasTree</defName>
+		<defName>DestroyConsumableBuilding_Mousekin_Generic</defName>
 		<effecter>VanishChristmasTree</effecter>
 		<comps Inherit="false">
 			<li Class="RitualOutcomeComp_ParticipantCount">

@@ -10,10 +10,10 @@
 		<canStartAnytime>false</canStartAnytime>
 		<iconPathOverride>UI/Icons/Rituals/TreeCelebration</iconPathOverride>
 		<ritualObligationTargetFilter>Mousekin_IdeoXmasTree</ritualObligationTargetFilter>
-		<ritualBehavior>CelebrationTree</ritualBehavior>	
+		<ritualBehavior>CelebrationTree</ritualBehavior>
 		<nameMaker>NamerRitualTreeFestivalMousekin</nameMaker>
 		<ignoreConsumableBuildingRequirement>true</ignoreConsumableBuildingRequirement>
-		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_IdeoXmasTree</ritualOutcomeEffect>
+		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_Generic</ritualOutcomeEffect>
 	</RitualPatternDef>
 	
 	<!-- Mousekin Brigand variant of the Gladiator Duel ritual pattern, which uses a custom namemaker that simply defaults to "Gladiator Duel" -->
