@@ -142,9 +142,6 @@ namespace MousekinRace
         public static RitualAttachableOutcomeEffectDef RandomRecruit;
 
         [MayRequireIdeology]
-        public static RitualPatternDef CelebrationTree;
-
-        [MayRequireIdeology]
         public static RulePackDef NamerRoleMoralist_Mousekin;
 
         [MayRequireIdeology]
@@ -155,6 +152,9 @@ namespace MousekinRace
 
         [MayRequireIdeology]
         public static RulePackDef NamerRitualFuneralMousekinNomads;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualTreeFestivalMousekin;
 
         [MayRequireIdeology]
         public static ThingDef Mousekin_IdeoXmasTree;

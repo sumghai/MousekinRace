@@ -9,7 +9,7 @@ namespace MousekinRace
     {
         static void Postfix(RitualObligationTrigger_Date __instance)
         {
-            if (__instance.ritual.ideo.culture.IsMousekin() && __instance.ritual.def.ritualPatternBase == MousekinDefOf.CelebrationTree)
+            if (__instance.ritual.ideo.culture.IsMousekin() && __instance.ritual.nameMaker == MousekinDefOf.NamerRitualTreeFestivalMousekin)
             {
                 __instance.triggerDaysSinceStartOfYear = 54; // 10th Decembrary in-game
             }

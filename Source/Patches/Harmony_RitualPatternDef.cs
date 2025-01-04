@@ -30,7 +30,7 @@ namespace MousekinRace
                     }
                 }
                 
-                if (ritual.def.ritualPatternBase == MousekinDefOf.CelebrationTree)
+                if (ritual.nameMaker == MousekinDefOf.NamerRitualTreeFestivalMousekin)
                 {
                     ritual.attachableOutcomeEffect = MousekinDefOf.RandomRecruit;
                 }
