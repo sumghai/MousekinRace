@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- Funerals -->
+
 	<RulePackDef>
 		<defName>NamerRitualFuneralMousekinKingdom</defName>
 		<rulePack>
@@ -28,6 +30,8 @@
 		</rulePack>
 	</RulePackDef>
 	
+	<!-- Celebrations -->
+	
 	<RulePackDef>
 		<defName>NamerRitualTreeFestivalMousekin</defName>
 		<rulePack>
@@ -36,6 +40,8 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	
+	<!-- Misc -->
 	
 	<RulePackDef>
 		<defName>NamerRitualGladiatorDuelMousekin</defName>
