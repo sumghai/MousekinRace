@@ -61,7 +61,8 @@ namespace MousekinRace
                 return (Mousekin as ThingDef_AlienRace).alienRace.raceRestriction.researchList.FirstOrDefault(p => !p.apparelList.NullOrEmpty()).projects;
             }
         }
-        
+
+        public static ThoughtDef AteLavishMeal;
         public static ThoughtDef Mousekin_Thought_AteCheese;
         public static ThoughtDef Mousekin_Thought_ChurchAttendedService;
         public static ThoughtDef Mousekin_Thought_ChurchHeldService;
@@ -111,6 +112,8 @@ namespace MousekinRace
 
         public static FlowerListDef Mousekin_ValidFlowers;
 
+        public static SoundDef Meal_Eat;
+
         [MayRequireRoyalty]
         public static QuestScriptDef EndGame_RoyalAscent;
 
@@ -136,6 +139,9 @@ namespace MousekinRace
         public static PreceptDef HAR_AlienRaces_Exalted;
 
         [MayRequireIdeology]
+        public static JobDef Mousekin_Job_EatAtBarbecueTable;
+
+        [MayRequireIdeology]
         public static PreceptDef Mousekin_Precept_FlowersDesired;
 
         [MayRequireIdeology]
@@ -152,6 +158,9 @@ namespace MousekinRace
 
         [MayRequireIdeology]
         public static RulePackDef NamerRitualFuneralMousekinNomads;
+
+        [MayRequireIdeology]
+        public static RulePackDef NamerRitualBarbecueMousekin;
 
         [MayRequireIdeology]
         public static RulePackDef NamerRitualTreeFestivalMousekin;

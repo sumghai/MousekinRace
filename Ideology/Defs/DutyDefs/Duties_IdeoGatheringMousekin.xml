@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<DutyDef>
+		<defName>Mousekin_DutyEatAtBarbecueTable</defName>
+		<hook>HighPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="MousekinRace.JobGiver_EatAtBarbecueTable"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
+</Defs>

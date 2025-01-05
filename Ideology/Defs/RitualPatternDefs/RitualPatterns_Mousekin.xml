@@ -16,6 +16,21 @@
 		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_Generic</ritualOutcomeEffect>
 	</RitualPatternDef>
 	
+	<!-- Countryside Cookout - Indy Town Mousekin barbecue -->
+	
+	<RitualPatternDef ParentName="CelebrationConsumable">
+		<defName>Mousekin_RitualBarbecue</defName>
+		<shortDescOverride>barbecue</shortDescOverride>
+		<descOverride>A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables.</descOverride>
+		<iconPathOverride>UI/Icons/Rituals/Barbecue</iconPathOverride>
+		<canStartAnytime>true</canStartAnytime>
+		<alwaysStartAnytime>true</alwaysStartAnytime>
+		<ritualObligationTargetFilter>Mousekin_IdeoBarbecueTable</ritualObligationTargetFilter>
+		<ritualBehavior>Mousekin_RitualBehaviorBarbecue</ritualBehavior>
+		<nameMaker>NamerRitualBarbecueMousekin</nameMaker>
+		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_Generic</ritualOutcomeEffect>
+	</RitualPatternDef>
+	
 	<!-- Mousekin Brigand variant of the Gladiator Duel ritual pattern, which uses a custom namemaker that simply defaults to "Gladiator Duel" -->
 
 	<RitualPatternDef>

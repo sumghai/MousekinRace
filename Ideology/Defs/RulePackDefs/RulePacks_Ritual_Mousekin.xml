@@ -33,6 +33,15 @@
 	<!-- Celebrations -->
 	
 	<RulePackDef>
+		<defName>NamerRitualBarbecueMousekin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Countryside cookout</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
 		<defName>NamerRitualTreeFestivalMousekin</defName>
 		<rulePack>
 			<rulesStrings>

@@ -57,4 +57,60 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Barbecue table -->
+	
+	<ThingDef ParentName="IdeoBuildingConsumableBase">
+		<defName>Mousekin_IdeoBarbecueTable</defName>
+		<label>Barbecue table</label>
+		<description>A gridiron over a hot fire, accompanied by a wooden table filled with various grilled meats, corn and potatoes, collectively serving as the centerpiece of Countryside Cookout celebrations. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Misc/Mousekin_IdeoBarbecueTable</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(3, 0.75, 0.8)</volume>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<WoodLog>35</WoodLog>
+			<Steel>10</Steel>
+			<Meat_Chicken>15</Meat_Chicken>
+			<Meat_Cow>15</Meat_Cow>
+			<Meat_Pig>15</Meat_Pig>
+			<Meat_Sheep>15</Meat_Sheep>
+			<RawCorn>20</RawCorn>
+			<RawPotatoes>20</RawPotatoes>
+		</costList>
+		<ritualFocus>
+			<spectateDistance>1~2</spectateDistance>
+		</ritualFocus>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>25</Mass>
+		</statBases>
+		<size>(3,1)</size>
+		<passability>PassThroughOnly</passability>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<pathCost>42</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+		</building>
+		<placeWorkers Inherit="False" >
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<tradeTags>
+			<li>Mousekin_TownSquare_NotObstruction</li>
+		</tradeTags>
+	</ThingDef>
+
 </Defs>

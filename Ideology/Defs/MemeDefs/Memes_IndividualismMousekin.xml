@@ -107,6 +107,13 @@
 				</li>
 			</patterns>
 		</descriptionMaker>
+		<requiredRituals>
+			<li>
+				<precept>DateRitualConsumable</precept>
+				<pattern>Mousekin_RitualBarbecue</pattern>
+				<building>Mousekin_IdeoBarbecueTable</building>
+			</li>
+		</requiredRituals>
 	</MemeDef>
 
 </Defs>

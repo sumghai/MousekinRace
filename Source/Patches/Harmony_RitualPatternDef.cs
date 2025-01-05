@@ -5,8 +5,7 @@ namespace MousekinRace
 {
     // Conditionally override various field/parameter values for Mousekin ritual patterns
     // - Replace namemakers for funerals depending on Mousekin ideology
-    // - Set the outcome of fun/unforgettable Mousekin Tree Festival rituals to a fixed type
-    //   (currently 50% chance of new recruitee, may change to plant-related buff in the future)
+    // - Set the outcome of fun/unforgettable Mousekin rituals to a fixed type
     [HarmonyPatch(typeof(RitualPatternDef), nameof(RitualPatternDef.Fill))]
     public static class Harmony_RitualPatternDef_Fill_OverrideValues
     {
@@ -30,7 +29,13 @@ namespace MousekinRace
                     }
                 }
                 
+                // todo - replace with plant-related work buff
                 if (ritual.nameMaker == MousekinDefOf.NamerRitualTreeFestivalMousekin)
+                {
+                    ritual.attachableOutcomeEffect = MousekinDefOf.RandomRecruit;
+                }
+
+                if (ritual.nameMaker == MousekinDefOf.NamerRitualBarbecueMousekin)
                 {
                     ritual.attachableOutcomeEffect = MousekinDefOf.RandomRecruit;
                 }

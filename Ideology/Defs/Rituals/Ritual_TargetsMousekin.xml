@@ -9,4 +9,12 @@
 		</thingDefs>
 	</RitualObligationTargetFilterDef>
 	
+	<RitualObligationTargetFilterDef>
+		<defName>Mousekin_IdeoBarbecueTable</defName>
+		<workerClass>RitualObligationTargetWorker_ConsumableBuilding</workerClass>
+		<thingDefs>
+			<li>Mousekin_IdeoBarbecueTable</li>
+		</thingDefs>
+	</RitualObligationTargetFilterDef>
+	
 </Defs>
