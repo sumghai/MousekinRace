@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: A party around a pine tree, which symbolizes endurance during winter and other times of hardship. Participants will gather around the tree and make merry. -->
+	<Mousekin_RitualPatternTreeFestival.descOverride>松の木を囲む宴会.松の木は冬や苦難に耐えることを象徴している.参加者は松を囲んで歓談する.</Mousekin_RitualPatternTreeFestival.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternTreeFestival.ritualExpectedDesc>毎年{DATE}に, {MEMBERS}は特別なお祝いをすることができます.</Mousekin_RitualPatternTreeFestival.ritualExpectedDesc>
+	
+	<!-- EN: tree festival -->
+	<Mousekin_RitualPatternTreeFestival.shortDescOverride>木祭り</Mousekin_RitualPatternTreeFestival.shortDescOverride>
+	
+	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
+	<Mousekin_RitualBarbecue.descOverride>野外での共同調理と食事会.参加者はバーベキューテーブルを囲み、焼いた肉や野菜に舌鼓を打つ.</Mousekin_RitualBarbecue.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualBarbecue.ritualExpectedDesc>毎年{DATE}に, {MEMBERS}は特別なお祝いをすることができます.</Mousekin_RitualBarbecue.ritualExpectedDesc>
+	
+	<!-- EN: barbecue -->
+	<Mousekin_RitualBarbecue.shortDescOverride>バーベキュー</Mousekin_RitualBarbecue.shortDescOverride>
+	
+</LanguageData>

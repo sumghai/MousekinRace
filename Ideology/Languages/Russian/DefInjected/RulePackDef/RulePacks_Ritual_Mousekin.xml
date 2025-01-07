@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: 
+		<li>r_ritualName->Interment</li>
+	-->
+	<NamerRitualFuneralMousekinKingdom.rulePack.rulesStrings>
+		<li>r_ritualName->прощание</li>
+	</NamerRitualFuneralMousekinKingdom.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_ritualName->Republican Eulogy</li>
+	-->
+	<NamerRitualFuneralMousekinIndyTown.rulePack.rulesStrings>
+		<li>r_ritualName->Республиканский погребение</li>
+	</NamerRitualFuneralMousekinIndyTown.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_ritualName->Wanderer's Final Rest</li>
+	-->
+	<NamerRitualFuneralMousekinNomads.rulePack.rulesStrings>
+		<li>r_ritualName->Последний покой странника</li>
+	</NamerRitualFuneralMousekinNomads.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_ritualName->Countryside cookout</li>
+	-->
+	<NamerRitualBarbecueMousekin.rulePack.rulesStrings>
+		<li>r_ritualName->деревенская вечеринка</li>
+	</NamerRitualBarbecueMousekin.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_ritualName->Tree festival</li>
+	-->
+	<NamerRitualTreeFestivalMousekin.rulePack.rulesStrings>
+		<li>r_ritualName->фестиваль деревьев</li>
+	</NamerRitualTreeFestivalMousekin.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_ritualName->Gladiator duel</li>
+	-->
+	<NamerRitualGladiatorDuelMousekin.rulePack.rulesStrings>
+		<li>r_ritualName->дуэль</li>
+	</NamerRitualGladiatorDuelMousekin.rulePack.rulesStrings>
+	
+</LanguageData>

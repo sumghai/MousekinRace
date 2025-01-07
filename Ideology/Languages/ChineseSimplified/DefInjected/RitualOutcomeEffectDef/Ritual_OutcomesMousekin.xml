@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: The ritual target will be destroyed. -->
+	<DestroyConsumableBuilding_Mousekin_Generic.description>仪式的目标将被摧毁。</DestroyConsumableBuilding_Mousekin_Generic.description>
+	
+	<!-- EN: participant count -->
+	<DestroyConsumableBuilding_Mousekin_Generic.comps.0.label>参与者数量</DestroyConsumableBuilding_Mousekin_Generic.comps.0.label>
+	
+	<!-- EN: Terrible -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.0.label>糟糕的</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.0.label>
+	
+	<!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.0.description>{0}非常糟糕！ 参与者忍受了数小时令人的紧张闲聊，等待演讲结束。</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.0.description>
+	
+	<!-- EN: Boring -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.1.label>枯燥乏味的</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.1.label>
+	
+	<!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.1.description>{0}枯燥乏味。 参与者感到尴尬却又不敢放声大笑。</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.1.description>
+	
+	<!-- EN: Fun -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.2.label>有趣的</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.2.label>
+	
+	<!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.2.description>{0}非常有趣。 每个参与者都非常高兴能一起放松玩耍。</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.2.description>
+	
+	<!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.2.potentialExtraOutcomeDesc>随机一位参与者有5%的几率获得灵感。</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.2.potentialExtraOutcomeDesc>
+	
+	<!-- EN: Unforgettable -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.label>令人难忘的</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.label>
+	
+	<!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.description>{0}令人难忘。 每个参与者都相互了解， 仿佛身处一个大家庭。</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.description>
+	
+	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
+	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>随机一位参与者有10%的几率获得灵感。</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>
+	
+</LanguageData>
