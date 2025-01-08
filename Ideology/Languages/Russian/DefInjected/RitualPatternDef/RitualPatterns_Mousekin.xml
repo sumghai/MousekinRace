@@ -11,12 +11,12 @@
 	<Mousekin_RitualPatternTreeFestival.shortDescOverride>фестиваль деревьев</Mousekin_RitualPatternTreeFestival.shortDescOverride>
 	
 	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
-	<Mousekin_RitualBarbecue.descOverride>Общая вечеринка с приготовлением пищи и обедом на свежем воздухе. Участники соберутся вокруг стола для барбекю и будут есть мясо и овощи, приготовленные на гриле.</Mousekin_RitualBarbecue.descOverride>
+	<Mousekin_RitualPatternBarbecue.descOverride>Общая вечеринка с приготовлением пищи и обедом на свежем воздухе. Участники соберутся вокруг стола для барбекю и будут есть мясо и овощи, приготовленные на гриле.</Mousekin_RitualPatternBarbecue.descOverride>
 	
 	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
-	<Mousekin_RitualBarbecue.ritualExpectedDesc>Каждый год {DATE} {MEMBERS} могут отметить свой праздник.</Mousekin_RitualBarbecue.ritualExpectedDesc>
+	<Mousekin_RitualPatternBarbecue.ritualExpectedDesc>Каждый год {DATE} {MEMBERS} могут отметить свой праздник.</Mousekin_RitualPatternBarbecue.ritualExpectedDesc>
 	
 	<!-- EN: barbecue -->
-	<Mousekin_RitualBarbecue.shortDescOverride>барбекю</Mousekin_RitualBarbecue.shortDescOverride>
+	<Mousekin_RitualPatternBarbecue.shortDescOverride>барбекю</Mousekin_RitualPatternBarbecue.shortDescOverride>
 	
 </LanguageData>

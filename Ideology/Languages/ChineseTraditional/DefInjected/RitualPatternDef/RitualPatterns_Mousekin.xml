@@ -11,12 +11,12 @@
 	<Mousekin_RitualPatternTreeFestival.shortDescOverride>樹木節</Mousekin_RitualPatternTreeFestival.shortDescOverride>
 	
 	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
-	<Mousekin_RitualBarbecue.descOverride>共同的戶外烹飪與用餐派對。參加者將圍攏在燒烤桌旁，享用烤肉和蔬菜。</Mousekin_RitualBarbecue.descOverride>
+	<Mousekin_RitualPatternBarbecue.descOverride>共同的戶外烹飪與用餐派對。參加者將圍攏在燒烤桌旁，享用烤肉和蔬菜。</Mousekin_RitualPatternBarbecue.descOverride>
 	
 	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
-	<Mousekin_RitualBarbecue.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</Mousekin_RitualBarbecue.ritualExpectedDesc>
+	<Mousekin_RitualPatternBarbecue.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</Mousekin_RitualPatternBarbecue.ritualExpectedDesc>
 	
 	<!-- EN: barbecue -->
-	<Mousekin_RitualBarbecue.shortDescOverride>烤肉</Mousekin_RitualBarbecue.shortDescOverride>
+	<Mousekin_RitualPatternBarbecue.shortDescOverride>烤肉</Mousekin_RitualPatternBarbecue.shortDescOverride>
 	
 </LanguageData>

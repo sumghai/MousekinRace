@@ -19,7 +19,7 @@
 	<!-- Countryside Cookout - Indy Town Mousekin barbecue -->
 	
 	<RitualPatternDef ParentName="CelebrationConsumable">
-		<defName>Mousekin_RitualBarbecue</defName>
+		<defName>Mousekin_RitualPatternBarbecue</defName>
 		<shortDescOverride>barbecue</shortDescOverride>
 		<descOverride>A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables.</descOverride>
 		<iconPathOverride>UI/Icons/Rituals/Barbecue</iconPathOverride>

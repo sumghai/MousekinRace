@@ -110,7 +110,7 @@
 		<requiredRituals>
 			<li>
 				<precept>DateRitualConsumable</precept>
-				<pattern>Mousekin_RitualBarbecue</pattern>
+				<pattern>Mousekin_RitualPatternBarbecue</pattern>
 				<building>Mousekin_IdeoBarbecueTable</building>
 			</li>
 		</requiredRituals>

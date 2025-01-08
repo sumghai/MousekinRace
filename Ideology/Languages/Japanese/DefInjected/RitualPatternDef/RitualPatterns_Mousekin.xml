@@ -11,12 +11,12 @@
 	<Mousekin_RitualPatternTreeFestival.shortDescOverride>木祭り</Mousekin_RitualPatternTreeFestival.shortDescOverride>
 	
 	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
-	<Mousekin_RitualBarbecue.descOverride>野外での共同調理と食事会.参加者はバーベキューテーブルを囲み、焼いた肉や野菜に舌鼓を打つ.</Mousekin_RitualBarbecue.descOverride>
+	<Mousekin_RitualPatternBarbecue.descOverride>野外での共同調理と食事会.参加者はバーベキューテーブルを囲み、焼いた肉や野菜に舌鼓を打つ.</Mousekin_RitualPatternBarbecue.descOverride>
 	
 	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
-	<Mousekin_RitualBarbecue.ritualExpectedDesc>毎年{DATE}に, {MEMBERS}は特別なお祝いをすることができます.</Mousekin_RitualBarbecue.ritualExpectedDesc>
+	<Mousekin_RitualPatternBarbecue.ritualExpectedDesc>毎年{DATE}に, {MEMBERS}は特別なお祝いをすることができます.</Mousekin_RitualPatternBarbecue.ritualExpectedDesc>
 	
 	<!-- EN: barbecue -->
-	<Mousekin_RitualBarbecue.shortDescOverride>バーベキュー</Mousekin_RitualBarbecue.shortDescOverride>
+	<Mousekin_RitualPatternBarbecue.shortDescOverride>バーベキュー</Mousekin_RitualPatternBarbecue.shortDescOverride>
 	
 </LanguageData>
