@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Krysa Race (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!--
+					Set player and NPC faction relations between Krysa and Mousekins 
+					
+					- The Mousekin Kingdom's obsession with rodentkind purity makes them enemies of the Krysa player faction
+					
+					- On the other hand, Independent Mousekins and Rodemani nomads are more open minded, and thus somewhat friendlier to Krysa
+				-->
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/FactionDef[defName="PlayerKrysaTribe"]/modExtensions</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="PlayerKrysaTribe"]</xpath>
+					<value>
+						<modExtensions/>
+					</value>
+				</nomatch>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="PlayerKrysaTribe"]/modExtensions</xpath>
+				<value>
+					<li Class="VFECore.FactionDefExtension">
+						<startingGoodwillByFactionDefs>
+							<Mousekin_PlayerFaction_Settlers>0~5</Mousekin_PlayerFaction_Settlers>
+							<Mousekin_PlayerFaction_Refugees>0~5</Mousekin_PlayerFaction_Refugees>
+							<Mousekin_FactionKingdom>-90~-80</Mousekin_FactionKingdom>
+							<Mousekin_FactionIndyTown>10~20</Mousekin_FactionIndyTown>
+							<Mousekin_FactionNomad>10~20</Mousekin_FactionNomad>
+						</startingGoodwillByFactionDefs>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Mousekin_FactionKingdom"]/modExtensions/li[@Class="MousekinRace.AlliableFactionExtension"]/hostileToFactionTypes</xpath>
+				<value>
+					<li>PlayerKrysaTribe</li>
+				</value>
+			</li>
+			
+			<!-- Add Krysa to the list of "different" rodent races -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/modExtensions/li[@Class="MousekinRace.OtherRodentRacesExtension"]/differentRodentRaces</xpath>
+				<value>
+					<li>Krysa</li>
+				</value>
+			</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
