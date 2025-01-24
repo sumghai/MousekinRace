@@ -37,4 +37,43 @@
 	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
 	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>10%의 확률로 참여자 중 한 명이 영감을 획득합니다.</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>
 	
+	<!-- EN: The ritual target will be destroyed, and depending on ritual quality, participants will have any death-related mood debuffs removed. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.description>의식 대상이 파괴되며, 의식의 질에 따라 참가자는 죽음과 관련된 기분 디버프가 제거됩니다.</DestroyConsumableBuilding_Mousekin_FlowerDance.description>
+	
+	<!-- EN: nuns -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.comps.0.label>수녀 수</DestroyConsumableBuilding_Mousekin_FlowerDance.comps.0.label>
+
+	<!-- EN: spectator count -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.comps.1.label>관중 수</DestroyConsumableBuilding_Mousekin_FlowerDance.comps.1.label>
+	
+	<!-- EN: Terrible -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.label>끔찍한</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.label>
+
+	<!-- EN: The {0} was terrible! The nuns awkwardly stumbled through their performance, and some of the offerings were trampled. Everyone was waiting for it to end. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>{0}(은)는 끔찍했습니다! 수녀들은 공연 도중 어색하게 비틀거렸고 일부 제물은 짓밟혔어요. 모두는 이 시간이 어서 끝나기만을 기다리고 있었습니다.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>
+
+	<!-- EN: Mediocre -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.label>평범한</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.label>
+
+	<!-- EN: The {0} was mediocre. The nuns' movements were stiff and unnatural, lacking any sort of grace and dignity. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.description>{0}(은)는 평범했다. 수녀들의 움직임은 뻣뻣하고 부자연스러웠으며 우아함과 품위가 전혀 없었습니다.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.description>
+
+	<!-- EN: Beautiful -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.label>아름다웠다</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.label>
+
+	<!-- EN: The {0} was beautiful. The nuns moved with grace and finesse as they circled the offerings with their bouquets, captivating spectators with their dignified, sincere performance. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.description>{0}(은)는 아름다웠습니다. 수녀들은 부케를 들고 제물을 돌며 우아하고 기교 있게 움직였고, 품위 있고 진지한 공연으로 관중을 사로잡았습니다.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.description>
+
+	<!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.potentialExtraOutcomeDesc>참여자들이 5% 확률로 영감을 획득합니다.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.potentialExtraOutcomeDesc>
+
+	<!-- EN: Unforgettable -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.label>인상적인</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.label>
+
+	<!-- EN: The {0} was unforgettable! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze. Everyone was left awestruck by how the ceremony was conducted with such reverence and beauty. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.description>{0}(은)는 잊지 않을 겁니다! 수녀님들의 움직임은 산들바람처럼 부드럽게 흘러가면서 다른 세상의 우아함으로 춤을 추었습니다. 모두가 경건하고 아름답게 진행된 의식에 놀라움을 금치 못했습니다.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.description>
+
+	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>10%의 확률로 참여자 중 한 명이 영감을 획득합니다.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>
+	
 </LanguageData>

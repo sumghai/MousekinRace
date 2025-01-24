@@ -7,4 +7,10 @@
 		<reportString>eating at TargetA.</reportString>
 	</JobDef>
 	
+	<JobDef>
+		<defName>Mousekin_Job_PerformFlowerDance</defName>
+		<driverClass>MousekinRace.JobDriver_PerformFlowerDance</driverClass>
+		<reportString>performing Ancestral Flower Dance.</reportString>
+	</JobDef>
+	
 </Defs>

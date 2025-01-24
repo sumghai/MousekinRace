@@ -53,6 +53,15 @@
 	<!-- Misc -->
 	
 	<RulePackDef>
+		<defName>NamerRitualFlowerDanceMousekin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Ancestral flower dance</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
 		<defName>NamerRitualGladiatorDuelMousekin</defName>
 		<rulePack>
 			<rulesStrings>

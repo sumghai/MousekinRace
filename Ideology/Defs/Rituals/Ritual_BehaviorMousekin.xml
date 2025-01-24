@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
+	<RitualBehaviorDef ParentName="DateRitualBehavior">
+		<defName>Mousekin_RitualBehaviorFlowerDance</defName>
+		<workerClass>MousekinRace.RitualBehaviorWorker_FlowerDance</workerClass>
+		<durationTicks>5000</durationTicks>
+		<roles Inherit="False">
+			<li Class="MousekinRace.RitualRoleNun">
+				<label>nun</label>
+				<categoryLabel>nuns</categoryLabel>
+				<missingDesc>a Mousekin nun</missingDesc>
+				<id>mousekinNun</id>
+				<required>True</required>
+				<maxCount>8</maxCount>
+				<countsAsParticipant>False</countsAsParticipant>
+				<allowChild>false</allowChild>
+				<mustBeAbleToReachTarget>True</mustBeAbleToReachTarget>
+			</li>
+		</roles>
+		<spectatorsLabel>Spectators</spectatorsLabel>
+		<spectatorGerund>spectate</spectatorGerund>
+		<stages Inherit="False">
+			<li>
+				<defaultDuty>SpectateCircle</defaultDuty>
+				<spectatorsRequired>true</spectatorsRequired>
+				<spectateDistanceOverride>5~6</spectateDistanceOverride>
+				<endTriggers>
+					<li Class="MousekinRace.StageEndTrigger_AllArrived">
+						<roleId>mousekinNun</roleId>
+					</li>
+				</endTriggers>
+				<roleBehaviors>
+					<li>
+						<roleId>mousekinNun</roleId>
+						<dutyDef>ArriveToCell</dutyDef>
+						<customPositions>
+							<li Class="MousekinRace.RitualPosition_FlowerDanceSpots">
+								<circleRadius>3.9</circleRadius>
+							</li>
+						</customPositions>
+					</li>
+				</roleBehaviors>
+			</li>
+			<li>
+				<defaultDuty>SpectateCircle</defaultDuty>
+				<spectatorsRequired>true</spectatorsRequired>
+				<spectateDistanceOverride>5~6</spectateDistanceOverride>
+				<endTriggers>
+					<li Class="StageEndTrigger_DurationPercentage">
+						<percentage>1.0</percentage>
+					</li>
+				</endTriggers>
+				<roleBehaviors>
+					<li>
+						<roleId>mousekinNun</roleId>
+						<dutyDef>Mousekin_DutyNunPerformFlowerDance</dutyDef>
+					</li>
+				</roleBehaviors>
+			</li>
+		</stages>
+	</RitualBehaviorDef>
 
 	<RitualBehaviorDef ParentName="DateRitualBehavior">
 		<defName>Mousekin_RitualBehaviorBarbecue</defName>
@@ -9,7 +69,7 @@
 		<spectatorGerund>participate</spectatorGerund>
 		<stages Inherit="False">
 			<li>
-				<defaultDuty>Mousekin_DutyEatAtBarbecueTable</defaultDuty> <!-- todo -->
+				<defaultDuty>Mousekin_DutyEatAtBarbecueTable</defaultDuty>
 				<endTriggers>
 					<li Class="StageEndTrigger_DurationPercentage">
 						<percentage>1.0</percentage>

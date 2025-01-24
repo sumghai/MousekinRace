@@ -7,6 +7,9 @@
 	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
 	<MousekinRace_Page_IdeoFixedByScenario_Desc>{0} 시나리오에서 진영의 시작 이데올로기는 다음과 같이 설정되었습니다:</MousekinRace_Page_IdeoFixedByScenario_Desc>
 	
+	<!-- EN: (Disabled by {0} meme) -->
+	<MousekinRace_MemeTip_RitualDisabledByMeme>({0} 가르침 인해 비활성화)</MousekinRace_MemeTip_RitualDisabledByMeme>
+	
 	<!-- EN: Mayor -->
 	<MousekinRace_PreceptRole_PlayerLeaderTitle>시장</MousekinRace_PreceptRole_PlayerLeaderTitle>
 	
@@ -15,5 +18,8 @@
 	
 	<!-- EN: Your faction's {0} role title has been renamed to {1}, as your colonists originated from {2}. -->
 	<MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>식민지 개척자가 원래 {2}에서 왔으므로 진영의 {0} 역할 칭호가 {1}로 변경되었습니다.</MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>
+	
+	<!-- EN: Any lingering thoughts and mood debuffs among your colonists from recent deaths have been placated. -->
+	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>최근 사망으로 인해 식민지 주민들 사이에 남아있는 생각과 기분 저하가 완화되었습니다.</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
 
 </LanguageData>

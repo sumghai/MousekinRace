@@ -46,7 +46,28 @@
 				<precept>Funeral</precept>
 				<pattern>FuneralStandard</pattern>
 			</li>
+			<li>
+				<precept>DateRitualConsumable</precept>
+				<pattern>Mousekin_RitualPatternFlowerDance</pattern>
+				<building>Mousekin_IdeoFlowerDanceOfferings</building>
+			</li>
 		</requiredRituals>
+		<modExtensions>
+			<li Class="MousekinRace.IdeoMemeRitualsExtension">
+				<ritualsWithExtraParams>
+					<li>
+						<ritual>
+							<precept>DateRitualConsumable</precept>
+							<pattern>Mousekin_RitualPatternFlowerDance</pattern>
+							<building>Mousekin_IdeoFlowerDanceOfferings</building>
+						</ritual>
+						<conflictingMemes>
+							<li>Mousekin_IdeoMeme_Wanderlust</li>
+						</conflictingMemes>
+					</li>
+				</ritualsWithExtraParams>
+			</li>
+		</modExtensions>
 	</MemeDef>
 	
 	<MemeDef>

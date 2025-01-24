@@ -7,6 +7,9 @@
 	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
 	<MousekinRace_Page_IdeoFixedByScenario_Desc>{0}シナリオが選択されたため、あなたの派閥ー立ち上げ時の最初の思想が設定された：</MousekinRace_Page_IdeoFixedByScenario_Desc>
 	
+	<!-- EN: (Disabled by {0} meme) -->
+	<MousekinRace_MemeTip_RitualDisabledByMeme>(ミーム'{0}'によって無効)</MousekinRace_MemeTip_RitualDisabledByMeme>
+	
 	<!-- EN: Mayor -->
 	<MousekinRace_PreceptRole_PlayerLeaderTitle>村長</MousekinRace_PreceptRole_PlayerLeaderTitle>
 	
@@ -15,5 +18,8 @@
 	
 	<!-- EN: Your faction's {0} role title has been renamed to {1}, as your colonists originated from {2}. -->
 	<MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>あなたの入植者は元々{2}出身であるため、あなたの派閥の{0}の役割の称号は{1}に変更されました.</MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>
+	
+	<!-- EN: Any lingering thoughts and mood debuffs among your colonists from recent deaths have been placated. -->
+	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>最近の死によってコロニー住民の間に残っていた考えや気分の落ち込みは和らいだ.</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
 
 </LanguageData>

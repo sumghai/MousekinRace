@@ -37,4 +37,43 @@
 	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
 	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>有10%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>
 	
+	<!-- EN: The ritual target will be destroyed, and depending on ritual quality, participants will have any death-related mood debuffs removed. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.description>儀式道具將會被銷毀，而且根據儀式的品質，參與者會消除任何與死亡有關的負面情緒。</DestroyConsumableBuilding_Mousekin_FlowerDance.description>
+	
+	<!-- EN: nuns -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.comps.0.label>修女人數</DestroyConsumableBuilding_Mousekin_FlowerDance.comps.0.label>
+
+	<!-- EN: spectator count -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.comps.1.label>观众人數</DestroyConsumableBuilding_Mousekin_FlowerDance.comps.1.label>
+	
+	<!-- EN: Terrible -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.label>糟糕</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.label>
+
+	<!-- EN: The {0} was terrible! The nuns awkwardly stumbled through their performance, and some of the offerings were trampled. Everyone was waiting for it to end. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>{0}太糟糕了!修女們笨拙地跌跌撞撞地表演著，有些供品還被踩爛了。每個人都等不及完結。</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>
+
+	<!-- EN: Mediocre -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.label>单调</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.label>
+
+	<!-- EN: The {0} was mediocre. The nuns' movements were stiff and unnatural, lacking any sort of grace and dignity. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.description>{0}太单调了。修女們的動作僵硬不自然，缺乏任何一種優雅和尊嚴。</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.description>
+
+	<!-- EN: Beautiful -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.label>優美</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.label>
+
+	<!-- EN: The {0} was beautiful. The nuns moved with grace and finesse as they circled the offerings with their bouquets, captivating spectators with their dignified, sincere performance. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.description>{0}非常美麗。修女們的動作優雅而細膩，她們手持花束圍繞著供品，以莊重、真誠的表演吸引了觀眾。</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.description>
+
+	<!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.potentialExtraOutcomeDesc>有5%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.potentialExtraOutcomeDesc>
+
+	<!-- EN: Unforgettable -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.label>難忘</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.label>
+
+	<!-- EN: The {0} was unforgettable! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze. Everyone was left awestruck by how the ceremony was conducted with such reverence and beauty. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.description>{0}令人難忘！修女們跳著超凡脫俗的優雅舞蹈，動作如微風輕拂般流暢。儀式進行得如此虔誠和優美，讓每個人都驚嘆不已。</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.description>
+
+	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>有10%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>
+	
 </LanguageData>

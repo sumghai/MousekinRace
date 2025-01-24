@@ -16,6 +16,21 @@
 		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_Generic</ritualOutcomeEffect>
 	</RitualPatternDef>
 	
+	<!-- Ancestral Flower Dance - Mousekin  -->
+	
+	<RitualPatternDef ParentName="CelebrationConsumable">
+		<defName>Mousekin_RitualPatternFlowerDance</defName>
+		<shortDescOverride>ancestor worship</shortDescOverride>
+		<descOverride>A ancestral rite unique to Mousekin societies, often held to venerate ancestors or appease the souls of the dead after a major calamity. Participants will gather to watch nuns dance with flower bouquets around a pile of offerings.</descOverride>
+		<iconPathOverride>UI/Icons/Rituals/FlowerDance</iconPathOverride>
+		<canStartAnytime>true</canStartAnytime>
+		<alwaysStartAnytime>true</alwaysStartAnytime>
+		<ritualObligationTargetFilter>Mousekin_IdeoFlowerDanceOfferings</ritualObligationTargetFilter>
+		<ritualBehavior>Mousekin_RitualBehaviorFlowerDance</ritualBehavior>
+		<nameMaker>NamerRitualFlowerDanceMousekin</nameMaker>
+		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_FlowerDance</ritualOutcomeEffect>
+	</RitualPatternDef>
+	
 	<!-- Countryside Cookout - Indy Town Mousekin barbecue -->
 	
 	<RitualPatternDef ParentName="CelebrationConsumable">

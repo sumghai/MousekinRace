@@ -30,16 +30,30 @@ namespace MousekinRace
         }
     }
 
-    // For for Mousekin ideo buildings:
-    // - Ignore namemakers and simply use thingDef labels instead
-    // - Remove room requirements
+    // Curate rituals and buildings for Mousekin ideos
     [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.AddRequiredPreceptsForMemes))]
-    public static class Harmony_IdeoFoundation_AddRequiredPreceptsForMemes_IgnoreNamemakersForMousekinIdeoBuildings
+    public static class Harmony_IdeoFoundation_AddRequiredPreceptsForMemes_CurateMousekinIdeoRitualsAndBuildings
     {
         static void Postfix(ref IdeoFoundation __instance)
         {
             if (__instance.ideo.culture.IsMousekin())
             {
+                // Remove any rituals blocked by any specified memes
+                List<RitualWithExtraParams> ritualsWithConflicts = __instance.ideo.memes.Where(m => m.requiredRituals != null && m.HasModExtension<IdeoMemeRitualsExtension>()).SelectMany(x => x.GetModExtension<IdeoMemeRitualsExtension>().ritualsWithExtraParams).ToList();
+
+                foreach (RitualWithExtraParams ritualWithConflict in ritualsWithConflicts)
+                {
+                    if (__instance.ideo.memes.Intersect(ritualWithConflict.conflictingMemes).Any())
+                    {
+                        __instance.ideo.precepts.RemoveAll(p => p is Precept_Ritual pRitual && pRitual.sourcePattern == ritualWithConflict.ritual.pattern);
+
+                        __instance.ideo.precepts.RemoveAll(p => p is Precept_Building pBldg && pBldg.thingDef == ritualWithConflict.ritual.building);
+                    }
+                }
+
+                // For for Mousekin ideo buildings:
+                // - Ignore namemakers and simply use thingDef labels instead
+                // - Remove room requirements
                 foreach (Precept_Building precept in __instance.ideo.precepts.Where(p => p is Precept_Building).ToList().Cast<Precept_Building>())
                 {
                     if (precept.ThingDef.defName.Contains("Mousekin"))

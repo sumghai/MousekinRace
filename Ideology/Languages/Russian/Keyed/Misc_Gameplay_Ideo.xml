@@ -7,6 +7,9 @@
 	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
 	<MousekinRace_Page_IdeoFixedByScenario_Desc>Для сценария {0} начальная идеология вашей фракции установлена на:</MousekinRace_Page_IdeoFixedByScenario_Desc>
 	
+	<!-- EN: (Disabled by {0} meme) -->
+	<MousekinRace_MemeTip_RitualDisabledByMeme>(Заблокировано черт {0})</MousekinRace_MemeTip_RitualDisabledByMeme>
+	
 	<!-- EN: Mayor -->
 	<MousekinRace_PreceptRole_PlayerLeaderTitle>Мэр</MousekinRace_PreceptRole_PlayerLeaderTitle>
 	
@@ -15,5 +18,8 @@
 	
 	<!-- EN: Your faction's {0} role title has been renamed to {1}, as your colonists originated from {2}. -->
 	<MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>Название роли {0} вашей фракции было переименовано в {1}, так как ваши колонисты происходят из {2}.</MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>
+	
+	<!-- EN: Any lingering thoughts and mood debuffs among your colonists from recent deaths have been placated. -->
+	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>Все затянувшиеся мысли и ухудшение настроения ваших колонистов после недавних смертей улеглись.</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
 
 </LanguageData>

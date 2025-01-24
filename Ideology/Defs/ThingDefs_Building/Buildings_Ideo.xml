@@ -57,6 +57,111 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Ancestral offerings -->
+	
+	<ThingDef ParentName="IdeoBuildingConsumableBase">
+		<defName>Mousekin_IdeoFlowerDanceOfferings</defName>
+		<label>Ancestral offerings</label>
+		<description>Food, candles and flowers offered in veneration to Mousekin ancestors as part of the Ancestral Flower Dance ritual. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Misc/Mousekin_IdeoFlowerDanceOfferings</texPath>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1, 0.5, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<Mousekin_Candle>8</Mousekin_Candle>
+			<Mousekin_RawHoney>4</Mousekin_RawHoney>
+			<Mousekin_RawNutChonko>75</Mousekin_RawNutChonko>
+			<Mousekin_RawNutNyam>75</Mousekin_RawNutNyam>
+		</costList>
+		<rotatable>false</rotatable>
+		<ritualFocus>
+			<spectateDistance>3~4</spectateDistance>
+		</ritualFocus>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>2</Beauty>
+			<Mass>25</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<uiOrder>2050</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+		</building>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(252,187,113,1)</glowColor>
+			</li>
+			<li Class="MousekinRace.CompProperties_FireOverlayMulti">
+				<fireSize>0.25</fireSize>
+				<fires>
+					<!-- 8 candles in a circle -->
+					<li>
+						<offsetNorth>(0,0,0.8437)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(0.4455,0,0.6697)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(0.6285,0,0.2277)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(0.4455,0,-0.2142)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(0,0,-0.3594)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(-0.4455,0,-0.2142)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(-0.6285,0,0.2277)</offsetNorth>
+					</li>
+					<li>
+						<offsetNorth>(-0.4455,0,0.6697)</offsetNorth>
+					</li>
+				</fires>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<!-- 
+					- 8 candle flames
+					- 8 candle fuelCapacity
+					- lasts for 3 days (0.33333 per day per candle)
+				-->
+				<fuelConsumptionRate>2.666667</fuelConsumptionRate>
+				<fuelCapacity>8.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Mousekin_Candle</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>MousekinRace.PlaceWorker_NeverAdjacentUnstandableAncestralOfferings</li>
+		</placeWorkers>
+		<tradeTags>
+			<li>Mousekin_TownSquare_NotObstruction</li>
+		</tradeTags>
+	</ThingDef>
+
 	<!-- Barbecue table -->
 	
 	<ThingDef ParentName="IdeoBuildingConsumableBase">

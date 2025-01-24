@@ -37,4 +37,43 @@
 	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
 	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>Случайный участник с вероятностью 10% может получить воодушевление.</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>
 	
+	<!-- EN: The ritual target will be destroyed, and depending on ritual quality, participants will have any death-related mood debuffs removed. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.description>цель ритуала будет уничтожена, а также, в зависимости от качества ритуала, с участников будут сняты все связанные со смертью дебаффы настроения.</DestroyConsumableBuilding_Mousekin_FlowerDance.description>
+	
+	<!-- EN: nuns -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.comps.0.label>количество монахинь</DestroyConsumableBuilding_Mousekin_FlowerDance.comps.0.label>
+
+	<!-- EN: spectator count -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.comps.1.label>количество зрителей</DestroyConsumableBuilding_Mousekin_FlowerDance.comps.1.label>
+	
+	<!-- EN: Terrible -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.label>ужасно</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.label>
+
+	<!-- EN: The {0} was terrible! The nuns awkwardly stumbled through their performance, and some of the offerings were trampled. Everyone was waiting for it to end. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>Эти похороны были ужасны. Монахини неловко спотыкались во время своего выступления, а некоторые подношения были растоптаны. Все присутствующие просто ждали, когда всё закончится.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>
+
+	<!-- EN: Mediocre -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.label>заурядный</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.label>
+
+	<!-- EN: The {0} was mediocre. The nuns' movements were stiff and unnatural, lacking any sort of grace and dignity. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.description>{0} было посредственным. Движения монахинь были скованными и неестественными, лишенными грации и достоинства.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.description>
+
+	<!-- EN: Beautiful -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.label>прекрасен</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.label>
+
+	<!-- EN: The {0} was beautiful. The nuns moved with grace and finesse as they circled the offerings with their bouquets, captivating spectators with their dignified, sincere performance. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.description>{0} был прекрасен. Монахини двигались с грацией и элегантностью, обходя подношения и держа в руках букеты, завораживая зрителей своим достойным, искренним исполнением.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.description>
+
+	<!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.potentialExtraOutcomeDesc>Случайный участник с вероятностью 5% может получить воодушевление.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.2.potentialExtraOutcomeDesc>
+
+	<!-- EN: Unforgettable -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.label>незабываемо</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.label>
+
+	<!-- EN: The {0} was unforgettable! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze. Everyone was left awestruck by how the ceremony was conducted with such reverence and beauty. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.description>Встреча была незабываемой! Монахини танцевали с неземной грацией, их движения струились, как легкий ветерок. Все были потрясены тем, как трепетно и красиво была проведена церемония.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.description>
+
+	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>Случайный участник с вероятностью 10% может получить воодушевление.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>
+	
 </LanguageData>

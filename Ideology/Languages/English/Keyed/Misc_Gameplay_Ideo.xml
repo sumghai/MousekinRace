@@ -5,10 +5,14 @@
 	
 	<MousekinRace_Page_IdeoFixedByScenario_Desc>For the {0} scenario, your faction's starting ideology has been set to:</MousekinRace_Page_IdeoFixedByScenario_Desc>
 	
+	<MousekinRace_MemeTip_RitualDisabledByMeme>(Disabled by {0} meme)</MousekinRace_MemeTip_RitualDisabledByMeme>
+	
 	<MousekinRace_PreceptRole_PlayerLeaderTitle>Mayor</MousekinRace_PreceptRole_PlayerLeaderTitle>
 	
 	<MousekinRace_PreceptRole_PlayerTitleChangedAllegiance>Your faction's {0} role title has been renamed to {1}, as you are a {2}.</MousekinRace_PreceptRole_PlayerTitleChangedAllegiance>
 	
 	<MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>Your faction's {0} role title has been renamed to {1}, as your colonists originated from {2}.</MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>
+	
+	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>Any lingering thoughts and mood debuffs among your colonists from recent deaths have been placated.</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
 
 </LanguageData>

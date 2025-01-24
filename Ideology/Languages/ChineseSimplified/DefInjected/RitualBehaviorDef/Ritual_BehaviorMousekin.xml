@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
+	<!-- EN: nun -->
+	<Mousekin_RitualBehaviorFlowerDance.roles.0.label>修女</Mousekin_RitualBehaviorFlowerDance.roles.0.label>
+	
+	<!-- EN: nuns -->
+	<Mousekin_RitualBehaviorFlowerDance.roles.0.categoryLabel>修女</Mousekin_RitualBehaviorFlowerDance.roles.0.categoryLabel>
+	
+	<!-- EN: a Mousekin nun -->
+	<Mousekin_RitualBehaviorFlowerDance.roles.0.missingDesc>白鼠族修女</Mousekin_RitualBehaviorFlowerDance.roles.0.missingDesc>
+	
+	<!-- EN: spectate -->
+	<Mousekin_RitualBehaviorFlowerDance.spectatorGerund>旁觀</Mousekin_RitualBehaviorFlowerDance.spectatorGerund>
+	
+	<!-- EN: Spectators -->
+	<Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>旁觀者</Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>
+	
 	<!-- EN: participate -->
 	<Mousekin_RitualBehaviorBarbecue.spectatorGerund>参加</Mousekin_RitualBehaviorBarbecue.spectatorGerund>
 	

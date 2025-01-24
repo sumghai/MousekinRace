@@ -11,4 +11,14 @@
 		</thinkNode>
 	</DutyDef>
 	
+	<DutyDef>
+		<defName>Mousekin_DutyNunPerformFlowerDance</defName>
+		<hook>HighPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="MousekinRace.JobGiver_PerformFlowerDance"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
 </Defs>

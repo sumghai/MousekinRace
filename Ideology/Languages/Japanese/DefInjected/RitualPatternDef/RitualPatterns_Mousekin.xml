@@ -10,6 +10,15 @@
 	<!-- EN: tree festival -->
 	<Mousekin_RitualPatternTreeFestival.shortDescOverride>木祭り</Mousekin_RitualPatternTreeFestival.shortDescOverride>
 	
+	<!-- EN: A ancestral rite unique to Mousekin societies, often held to venerate ancestors or appease the souls of the dead after a major calamity. Participants will gather to watch nuns dance with flower bouquets around a pile of offerings. -->
+	<Mousekin_RitualPatternFlowerDance.descOverride>先祖を祀ったり、大きな災難の後に死者の魂を鎮めたりするために行われることが多い、マウスキン社会特有の先祖祭祀.参加者は、修道女が供え物の山の周りで花束を持って踊るのを見るために集まる.</Mousekin_RitualPatternFlowerDance.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>毎年{DATE}に, {MEMBERS}は特別なお祝いをすることができます.</Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>
+	
+	<!-- EN: ancestor worship -->
+	<Mousekin_RitualPatternFlowerDance.shortDescOverride>祖先崇拝</Mousekin_RitualPatternFlowerDance.shortDescOverride>
+	
 	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
 	<Mousekin_RitualPatternBarbecue.descOverride>野外での共同調理と食事会.参加者はバーベキューテーブルを囲み、焼いた肉や野菜に舌鼓を打つ.</Mousekin_RitualPatternBarbecue.descOverride>
 	

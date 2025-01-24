@@ -7,6 +7,9 @@
 	<!-- EN: For the {0} scenario, your faction's starting ideology has been set to: -->
 	<MousekinRace_Page_IdeoFixedByScenario_Desc>因为您选择了{0}脚本，你的派系开局文化形态已设定为:</MousekinRace_Page_IdeoFixedByScenario_Desc>
 	
+	<!-- EN: (Disabled by {0} meme) -->
+	<MousekinRace_MemeTip_RitualDisabledByMeme>(被{0}模因禁用)</MousekinRace_MemeTip_RitualDisabledByMeme>
+	
 	<!-- EN: Mayor -->
 	<MousekinRace_PreceptRole_PlayerLeaderTitle>镇长</MousekinRace_PreceptRole_PlayerLeaderTitle>
 	
@@ -15,5 +18,8 @@
 	
 	<!-- EN: Your faction's {0} role title has been renamed to {1}, as your colonists originated from {2}. -->
 	<MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>您派系的{0}职位名称已更名为{1}，因为您的殖民者来自{2}。</MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>
+	
+	<!-- EN: Any lingering thoughts and mood debuffs among your colonists from recent deaths have been placated. -->
+	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>您的殖民者中因最近的死亡而产生的任何挥之不去的想法和情绪衰减都已得到平复。</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
 
 </LanguageData>

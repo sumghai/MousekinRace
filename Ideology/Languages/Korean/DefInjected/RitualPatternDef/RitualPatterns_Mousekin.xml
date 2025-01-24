@@ -10,6 +10,15 @@
 	<!-- EN: tree festival -->
 	<Mousekin_RitualPatternTreeFestival.shortDescOverride>트리 페스티벌</Mousekin_RitualPatternTreeFestival.shortDescOverride>
 	
+	<!-- EN: A ancestral rite unique to Mousekin societies, often held to venerate ancestors or appease the souls of the dead after a major calamity. Participants will gather to watch nuns dance with flower bouquets around a pile of offerings. -->
+	<Mousekin_RitualPatternFlowerDance.descOverride>조상을 숭배하거나 큰 재난이 발생한 후 죽은 자의 영혼을 달래기 위해 종종 열리는 마우스킨 사회 특유의 조상 의례입니다. 참가자들은 제물 더미 주변에서 수녀들이 꽃다발을 들고 춤을 추는 모습을 보기 위해 모입니다.</Mousekin_RitualPatternFlowerDance.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>매년 {DATE}에, {MEMBERS}(은)는 특별한 기념을 합니다.</Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>
+	
+	<!-- EN: ancestor worship -->
+	<Mousekin_RitualPatternFlowerDance.shortDescOverride>조상 숭배</Mousekin_RitualPatternFlowerDance.shortDescOverride>
+	
 	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
 	<Mousekin_RitualPatternBarbecue.descOverride>공동 야외 요리 및 식사 파티. 참가자들은 바비큐 테이블에 둘러앉아 구운 고기와 야채를 먹으며 즐거운 시간을 보내게 됩니다.</Mousekin_RitualPatternBarbecue.descOverride>
 	

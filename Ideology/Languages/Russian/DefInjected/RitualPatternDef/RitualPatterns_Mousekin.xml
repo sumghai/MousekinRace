@@ -10,6 +10,15 @@
 	<!-- EN: tree festival -->
 	<Mousekin_RitualPatternTreeFestival.shortDescOverride>фестиваль деревьев</Mousekin_RitualPatternTreeFestival.shortDescOverride>
 	
+	<!-- EN: A ancestral rite unique to Mousekin societies, often held to venerate ancestors or appease the souls of the dead after a major calamity. Participants will gather to watch nuns dance with flower bouquets around a pile of offerings. -->
+	<Mousekin_RitualPatternFlowerDance.descOverride>Уникальный для общества Мышкина родовой обряд, часто проводимый для почитания предков или успокоения душ умерших после большого несчастья. Участники собираются, чтобы посмотреть, как монахини танцуют с букетами цветов вокруг кучи подношений.</Mousekin_RitualPatternFlowerDance.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>Каждый год {DATE} {MEMBERS} могут отметить свой праздник.</Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>
+	
+	<!-- EN: ancestor worship -->
+	<Mousekin_RitualPatternFlowerDance.shortDescOverride>поклонение предкам</Mousekin_RitualPatternFlowerDance.shortDescOverride>
+	
 	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
 	<Mousekin_RitualPatternBarbecue.descOverride>Общая вечеринка с приготовлением пищи и обедом на свежем воздухе. Участники соберутся вокруг стола для барбекю и будут есть мясо и овощи, приготовленные на гриле.</Mousekin_RitualPatternBarbecue.descOverride>
 	

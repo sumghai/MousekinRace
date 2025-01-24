@@ -18,4 +18,138 @@
 		</comps>
 	</RitualOutcomeEffectDef>
 	
+	<RitualOutcomeEffectDef ParentName="DestroyConsumableBuilding">
+		<defName>DestroyConsumableBuilding_Mousekin_FlowerDance</defName>
+		<description>The ritual target will be destroyed, and depending on ritual quality, participants will have any death-related mood debuffs removed.</description>
+		<workerClass>MousekinRace.RitualOutcomeEffectWorker_FlowerDance</workerClass>
+		<effecter>VanishChristmasTree</effecter>
+		<comps Inherit="false">
+			<li Class="MousekinRace.RitualOutcomeComp_NunCount">
+				<roleId>mousekinNun</roleId>
+				<label>nuns</label>
+				<curve>
+					<!-- diminishing returns for each additional nun -->
+					<points>
+						<li>(0, 0.00)</li>
+						<li>(1, 0.29)</li>
+						<li>(2, 0.39)</li>
+						<li>(3, 0.45)</li>
+						<li>(4, 0.49)</li>
+						<li>(5, 0.53)</li>
+						<li>(6, 0.56)</li>
+						<li>(7, 0.58)</li>
+						<li>(8, 0.60)</li>
+					</points>
+				</curve>
+			</li>
+			<li Class="RitualOutcomeComp_ParticipantCount">
+				<label>spectator count</label>
+				<curve>
+					<points>
+						<li>(1,  0.0)</li>
+						<li>(8,  0.2)</li>
+						<li>(16, 0.4)</li>
+					</points>
+				</curve>
+			</li>
+			<li Class="MousekinRace.RitualOutcomeComp_DeathThoughts">
+				<thoughtDefsToRemoveOnPositiveOutcome>
+					<!-- humans -->
+					<li>BondedAnimalDied</li>
+					<li>KnowColonistDied</li>
+					<li>KnowColonistExecuted</li>
+					<li>KnowGuestExecuted</li>
+					<li>KnowPrisonerDiedInnocent</li>
+					<li>MyAuntDied</li>
+					<li>MyBrotherDied</li>
+					<li>MyCousinDied</li>
+					<li>MyDaughterDied</li>
+					<li>MyFatherDied</li>
+					<li>MyFianceDied</li>
+					<li>MyFianceeDied</li>
+					<li>MyGrandchildDied</li>
+					<li>MyGrandparentDied</li>
+					<li>MyHalfSiblingDied</li>
+					<li>MyHusbandDied</li>
+					<li>MyKinDied</li>
+					<li>MyLoverDied</li>
+					<li>MyMotherDied</li>
+					<li>MyNephewDied</li>
+					<li>MyNieceDied</li>
+					<li>MySisterDied</li>
+					<li>MySonDied</li>
+					<li>MyUncleDied</li>
+					<li>MyWifeDied</li>
+					<li>PawnWithGoodOpinionDied</li>
+					<!-- Mousekin -->
+					<li>Mousekin_Thought_KnowColonistDied</li>
+					<li>Mousekin_Thought_KnowColonistExecuted</li>
+					<li>Mousekin_Thought_KnowGuestExecuted</li>
+					<li>Mousekin_Thought_MyAuntDied</li>
+					<li>Mousekin_Thought_MyBrotherDied</li>
+					<li>Mousekin_Thought_MyCousinDied</li>
+					<li>Mousekin_Thought_MyDaughterDied</li>
+					<li>Mousekin_Thought_MyFatherDied</li>
+					<li>Mousekin_Thought_MyFianceDied</li>
+					<li>Mousekin_Thought_MyFianceeDied</li>
+					<li>Mousekin_Thought_MyGrandchildDied</li>
+					<li>Mousekin_Thought_MyGrandparentDied</li>
+					<li>Mousekin_Thought_MyHalfSiblingDied</li>
+					<li>Mousekin_Thought_MyHusbandDied</li>
+					<li>Mousekin_Thought_MyKinDied</li>
+					<li>Mousekin_Thought_MyMotherDied</li>
+					<li>Mousekin_Thought_MyNephewDied</li>
+					<li>Mousekin_Thought_MyNieceDied</li>
+					<li>Mousekin_Thought_MySisterDied</li>
+					<li>Mousekin_Thought_MySonDied</li>
+					<li>Mousekin_Thought_MyUncleDied</li>
+					<li>Mousekin_Thought_MyWifeDied</li>
+					<li>Mousekin_Thought_PawnWithGoodOpinionDied</li>
+				</thoughtDefsToRemoveOnPositiveOutcome>
+			</li>
+		</comps>
+		<outcomeChances Inherit="false">
+			<li>
+				<label>Terrible</label>
+				<chance>0.05</chance>
+				<memory>Humanlike_Thought_FlowerDanceTerrible</memory>
+				<roleIdsNotGainingMemory>
+					<li>mousekinNun</li>
+				</roleIdsNotGainingMemory>
+				<description>The {0} was terrible! The nuns awkwardly stumbled through their performance, and some of the offerings were trampled. Everyone was waiting for it to end.</description>
+				<positivityIndex>-2</positivityIndex>
+			</li>
+			<li>
+				<label>Mediocre</label>
+				<chance>0.15</chance>
+				<memory>Humanlike_Thought_FlowerDanceMediocre</memory>
+				<roleIdsNotGainingMemory>
+					<li>mousekinNun</li>
+				</roleIdsNotGainingMemory>
+				<description>The {0} was mediocre. The nuns' movements were stiff and unnatural, lacking any sort of grace and dignity.</description>
+				<positivityIndex>-1</positivityIndex>
+			</li>
+			<li>
+				<label>Beautiful</label>
+				<chance>0.6</chance>
+				<memory>Humanlike_Thought_FlowerDanceBeautiful</memory>
+				<roleIdsNotGainingMemory>
+					<li>mousekinNun</li>
+				</roleIdsNotGainingMemory>
+				<description>The {0} was beautiful. The nuns moved with grace and finesse as they circled the offerings with their bouquets, captivating spectators with their dignified, sincere performance.</description>
+				<positivityIndex>1</positivityIndex>
+			</li>
+			<li>
+				<label>Unforgettable</label>
+				<chance>0.2</chance>
+				<memory>Humanlike_Thought_FlowerDanceUnforgettable</memory>
+				<roleIdsNotGainingMemory>
+					<li>mousekinNun</li>
+				</roleIdsNotGainingMemory>
+				<description>The {0} was unforgettable! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze. Everyone was left awestruck by how the ceremony was conducted with such reverence and beauty.</description>
+				<positivityIndex>2</positivityIndex>
+			</li>
+		</outcomeChances>
+	</RitualOutcomeEffectDef>
+	
 </Defs>

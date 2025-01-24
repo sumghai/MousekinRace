@@ -10,6 +10,15 @@
 	<!-- EN: tree festival -->
 	<Mousekin_RitualPatternTreeFestival.shortDescOverride>樹木節</Mousekin_RitualPatternTreeFestival.shortDescOverride>
 	
+	<!-- EN: A ancestral rite unique to Mousekin societies, often held to venerate ancestors or appease the souls of the dead after a major calamity. Participants will gather to watch nuns dance with flower bouquets around a pile of offerings. -->
+	<Mousekin_RitualPatternFlowerDance.descOverride>白鼠族獨有的祭祖儀式，通常是為了祭拜祖先或在重大災難後安撫亡魂而舉行。參加者會聚集在一起，觀看修女圍著一堆祭品手持花束跳舞。</Mousekin_RitualPatternFlowerDance.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>每年的{DATE}，{MEMBERS}都會舉行特別的慶祝活動。</Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>
+	
+	<!-- EN: ancestor worship -->
+	<Mousekin_RitualPatternFlowerDance.shortDescOverride>祖先崇拜</Mousekin_RitualPatternFlowerDance.shortDescOverride>
+	
 	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
 	<Mousekin_RitualPatternBarbecue.descOverride>共同的戶外烹飪與用餐派對。參加者將圍攏在燒烤桌旁，享用烤肉和蔬菜。</Mousekin_RitualPatternBarbecue.descOverride>
 	
