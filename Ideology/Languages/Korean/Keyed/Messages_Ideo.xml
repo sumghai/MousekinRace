@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
+	<!-- EN: Precepts for {0} Mousekin ideoligions regenerated. -->
+	<MousekinRace_MessageIdeoPreceptRegen_Done>{0} 마우스킨 이데올로기온의 계율이 재생성됩니다.</MousekinRace_MessageIdeoPreceptRegen_Done>
+	
+	<!-- EN: Load a savegame first before regenerating precepts. -->
+	<MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>교훈을 재생성하기 전에 먼저 세이브 게임을 로드하세요.</MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>
+	
+	<!-- EN: No Mousekin ideoligions found. -->
+	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>마우스킨 이데올로기를 찾을 수 없습니다.</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
+	
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}(은)는 {1} 합니다.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	

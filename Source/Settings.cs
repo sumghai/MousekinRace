@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using RimWorld;
+using UnityEngine;
 using Verse;
 
 namespace MousekinRace
@@ -46,6 +47,16 @@ namespace MousekinRace
 
             listingStandard.Header("MousekinRace_Settings_SectionAllegianceSys_Heading".Translate());
             AllegianceSys_DaysBetweenRandomTraders = (int)listingStandard.SliderLabeled("MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label".Translate("PeriodDays".Translate(AllegianceSys_DaysBetweenRandomTraders)), AllegianceSys_DaysBetweenRandomTraders, 3, 10, 0.65f, "MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip".Translate());
+
+            if (ModsConfig.IdeologyActive)
+            {
+                listingStandard.Gap();
+                listingStandard.Header("DifficultyIdeologySection".Translate());
+                if (listingStandard.ButtonTextLabeledPct("MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label".Translate(), "Regenerate".Translate(), 0.65f, TextAnchor.MiddleLeft, null, "MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip".Translate()))
+                {
+                    Utils.RegenerateIdeoPrecepts();
+                }
+            }
 
             listingStandard.End();
         }

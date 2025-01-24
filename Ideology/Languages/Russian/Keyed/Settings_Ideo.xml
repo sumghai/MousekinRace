@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Regenerate Mousekin ideoligion precepts -->
+	<MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label>Регенеративные заповеди Мышкина идеолигия</MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label>
+	
+	<!-- EN: Regenerate precepts for all Mousekin ideoligions.\n\nThis is especially useful if you are migrating from an existing savegame created prior to v1.2 of the Mousekin Race mod. -->
+	<MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip>Регенерируйте заповеди для всех идеологий Мышкина.\n\nЭто особенно полезно, если вы переносите сохранения из игры, созданной до версии 1.2 модов «Раса Мышкинов».</MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip>
+	
+</LanguageData>

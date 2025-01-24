@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Regenerate Mousekin ideoligion precepts -->
+	<MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label>重新生成白鼠族理念的戒律</MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label>
+	
+	<!-- EN: Regenerate precepts for all Mousekin ideoligions.\n\nThis is especially useful if you are migrating from an existing savegame created prior to v1.2 of the Mousekin Race mod. -->
+	<MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip>重新生成所有白鼠族理念的戒律。\n\n此功能可用於更新白鼠族模組v1.2之前建立的儲存。</MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip>
+	
+</LanguageData>

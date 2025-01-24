@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
+	<MousekinRace_MessageIdeoPreceptRegen_Done>Precepts for {0} Mousekin ideoligions regenerated.</MousekinRace_MessageIdeoPreceptRegen_Done>
+	
+	<MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>Load a savegame first before regenerating precepts.</MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>
+	
+	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>No Mousekin ideoligions found.</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
+	
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0_labelShort} must be a {1}.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	
 </LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Regenerate Mousekin ideoligion precepts -->
+	<MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label>마우스킨 이데올로기 교훈 재생성</MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label>
+	
+	<!-- EN: Regenerate precepts for all Mousekin ideoligions.\n\nThis is especially useful if you are migrating from an existing savegame created prior to v1.2 of the Mousekin Race mod. -->
+	<MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip>모든 마우스킨 이데올로기에 대한 교훈을 재생성합니다.\n\n이 기능은 마우스킨 레이스 모드 v1.2 이전에 생성된 기존 세이브 게임에서 마이그레이션하는 경우에 특히 유용합니다.</MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip>
+	
+</LanguageData>

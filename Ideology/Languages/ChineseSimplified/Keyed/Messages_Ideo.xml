@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
+	<!-- EN: Precepts for {0} Mousekin ideoligions regenerated. -->
+	<MousekinRace_MessageIdeoPreceptRegen_Done>重新生成了{0}个白鼠族文化形态的戒律。</MousekinRace_MessageIdeoPreceptRegen_Done>
+	
+	<!-- EN: Load a savegame first before regenerating precepts. -->
+	<MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>在重新生成戒律前，请先载入存档。</MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>
+	
+	<!-- EN: No Mousekin ideoligions found. -->
+	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>未找到任何白鼠族的文化形态。</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
+	
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}必须是{1}。</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	

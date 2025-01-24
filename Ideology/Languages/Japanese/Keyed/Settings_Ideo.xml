@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Regenerate Mousekin ideoligion precepts -->
+	<MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label>再生マウスキン思想の戒律</MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Label>
+	
+	<!-- EN: Regenerate precepts for all Mousekin ideoligions.\n\nThis is especially useful if you are migrating from an existing savegame created prior to v1.2 of the Mousekin Race mod. -->
+	<MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip>すべてのマウスキン思想の戒律を再生成します.\n\nこれはマウスキン種族MODのv1.2以前に作成された既存のセーブデータから移行する場合に特に便利です.</MousekinRace_Settings_SectionIdeo_RegenIdeoPrecepts_Tooltip>
+	
+</LanguageData>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
+	<!-- EN: Precepts for {0} Mousekin ideoligions regenerated. -->
+	<MousekinRace_MessageIdeoPreceptRegen_Done>{0}つのマウスキン思想の戒律が再生されました.</MousekinRace_MessageIdeoPreceptRegen_Done>
+	
+	<!-- EN: Load a savegame first before regenerating precepts. -->
+	<MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>戒律を再生する前に、まずセーブデータをロードしてください.</MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>
+	
+	<!-- EN: No Mousekin ideoligions found. -->
+	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>マウスキン思想は見つからなかった.</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
+	
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}は{1}である必要があります.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	

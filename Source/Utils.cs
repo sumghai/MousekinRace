@@ -2,7 +2,6 @@
 using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using Verse;
 
 namespace MousekinRace
@@ -100,6 +99,35 @@ namespace MousekinRace
             originalString = originalString.Replace(ThingDefOf.MinifiedTree.LabelCap, ThingDefOf.MinifiedTree.LabelCap + $" ({ThingDefOf.Plant_TreePine.LabelCap})");
 
             return originalString;
+        }
+
+        // Regenerate precepts for Mousekin ideos
+        // (useful if the player is migrating an existing save created prior to the v1.2 mod update)
+        public static void RegenerateIdeoPrecepts()
+        {
+            if (Current.ProgramState == ProgramState.Playing)
+            {
+                List<Ideo> mousekinIdeos = Find.IdeoManager.ideos.Where(x => x.culture.IsMousekin()).ToList();
+
+                if (mousekinIdeos.Count > 0)
+                {
+                    foreach (Ideo ideo in mousekinIdeos)
+                    {
+                        ideo.foundation.RandomizePrecepts(init: true, new IdeoGenerationParms(IdeoUIUtility.FactionForRandomization(ideo)));
+                        ideo.RegenerateDescription();
+                        ideo.anyPreceptEdited = false;
+                    }
+                    Messages.Message("MousekinRace_MessageIdeoPreceptRegen_Done".Translate(mousekinIdeos.Count()), MessageTypeDefOf.TaskCompletion, false);
+                }
+                else
+                {
+                    Messages.Message("MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound".Translate(), MessageTypeDefOf.RejectInput, false);
+                }
+            }
+            else
+            {
+                Messages.Message("MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame".Translate(), MessageTypeDefOf.RejectInput, false);
+            }
         }
     }
 }
