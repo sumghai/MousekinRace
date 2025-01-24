@@ -10,6 +10,7 @@ namespace MousekinRace
         public float RootCellarTemperature = 1f;
         public int ChurchTitheMultiplier = 1;
         public int AllegianceSys_DaysBetweenRandomTraders = 5;
+        public float ListingStandardRowHeight = 30f;
 
         public override void ExposeData()
         {
@@ -34,7 +35,7 @@ namespace MousekinRace
             listingStandard.Gap();
             listingStandard.Header("MousekinRace_Settings_SectionRace_Heading".Translate());
             listingStandard.CheckboxLabeled("MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label".Translate(),
-                ref EarlessMousekinsAreSuicidal, "MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip".Translate());
+                ref EarlessMousekinsAreSuicidal, "MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip".Translate(), ListingStandardRowHeight);
 
             listingStandard.Gap();
             listingStandard.Header("MousekinRace_Settings_SectionMisc_Heading".Translate());
