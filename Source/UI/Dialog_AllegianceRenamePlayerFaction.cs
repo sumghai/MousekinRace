@@ -18,7 +18,7 @@ namespace MousekinRace
             nameGenerator = () => NameGenerator.GenerateName(newFactionNameMaker, IsValidName);
             curName = nameGenerator();
             nameMessageKey = "MousekinRace_AllegianceSys_RenameFactionDialog_Message";
-            gainedNameMessageKey = "Mousekinrace_MessageFactionRenamedViaAllegiance";
+            gainedNameMessageKey = "MousekinRace_MessageFactionRenamedViaAllegiance";
             invalidNameMessageKey = "PlayerFactionNameIsInvalid";
         }
 

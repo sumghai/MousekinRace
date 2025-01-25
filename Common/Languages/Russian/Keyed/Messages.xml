@@ -11,7 +11,7 @@
 	<MousekinRace_MessageCannotJoinFaction>Не удается заявить преданность {0}: требования не выполнены.</MousekinRace_MessageCannotJoinFaction>
 	
 	<!-- EN: Your faction is now known as the {0}, {1}. -->
-	<Mousekinrace_MessageFactionRenamedViaAllegiance>Ваша фракция теперь известна как {0}, {1}.</Mousekinrace_MessageFactionRenamedViaAllegiance>
+	<MousekinRace_MessageFactionRenamedViaAllegiance>Ваша фракция теперь известна как {0}, {1}.</MousekinRace_MessageFactionRenamedViaAllegiance>
 	
 	<!-- EN: No new colonists on their way. -->
 	<MousekinRace_MessageNewColonistsQueueEmpty>Новых колонистов нет в пути.</MousekinRace_MessageNewColonistsQueueEmpty>

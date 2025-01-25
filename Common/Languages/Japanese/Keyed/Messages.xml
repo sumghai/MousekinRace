@@ -11,7 +11,7 @@
 	<MousekinRace_MessageCannotJoinFaction>{0}に忠誠を誓うことができない：要件を満たしていません.</MousekinRace_MessageCannotJoinFaction>
 	
 	<!-- EN: Your faction is now known as the {0}, {1}. -->
-	<Mousekinrace_MessageFactionRenamedViaAllegiance>あなたの派閥は現在、{1}である{0}として知られています.</Mousekinrace_MessageFactionRenamedViaAllegiance>
+	<MousekinRace_MessageFactionRenamedViaAllegiance>あなたの派閥は現在、{1}である{0}として知られています.</MousekinRace_MessageFactionRenamedViaAllegiance>
 	
 	<!-- EN: No new colonists on their way. -->
 	<MousekinRace_MessageNewColonistsQueueEmpty>新しい入植者は来ません.</MousekinRace_MessageNewColonistsQueueEmpty>
