@@ -16,7 +16,7 @@
 		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_Generic</ritualOutcomeEffect>
 	</RitualPatternDef>
 	
-	<!-- Ancestral Flower Dance - Mousekin  -->
+	<!-- Ancestral Flower Dance - Mousekin ancestor worship  -->
 	
 	<RitualPatternDef ParentName="CelebrationConsumable">
 		<defName>Mousekin_RitualPatternFlowerDance</defName>
