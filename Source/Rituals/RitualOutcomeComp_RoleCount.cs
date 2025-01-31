@@ -5,7 +5,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class RitualOutcomeComp_NunCount : RitualOutcomeComp_ParticipantCount
+    public class RitualOutcomeComp_RoleCount : RitualOutcomeComp_ParticipantCount
     {
         public string roleId;
 
