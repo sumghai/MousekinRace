@@ -16,6 +16,39 @@
 	<!-- EN: Spectators -->
 	<Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>관전자</Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>
 	
+	<!-- EN: speaker -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.0.label>연설자</Mousekin_RitualBehaviorHereticExecution.roles.0.label>
+	
+	<!-- EN: heretic -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.label>이단</Mousekin_RitualBehaviorHereticExecution.roles.1.label>
+	
+	<!-- EN: heretics -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.categoryLabel>이단</Mousekin_RitualBehaviorHereticExecution.roles.1.categoryLabel>
+	
+	<!-- EN: a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.missingDesc>배교자 또는 헌신주의자 특성을 가진 마우스킨 포로 또는 마우스킨이 아닌 설치류 종족 포로입니다</Mousekin_RitualBehaviorHereticExecution.roles.1.missingDesc>
+	
+	<!-- EN: escort -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.label>호위 경비</Mousekin_RitualBehaviorHereticExecution.roles.2.label>
+	
+	<!-- EN: escorts -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.categoryLabel>호위 경비</Mousekin_RitualBehaviorHereticExecution.roles.2.categoryLabel>
+	
+	<!-- EN: non-downed Mousekin colonist capable of hauling, and does not have the Apostate or Devotionist traits -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.missingDesc>다른 사람을 태울 수 있고 배교자 또는 헌신자 특성이 없는 비붕괴 마우스킨 정착민입니다</Mousekin_RitualBehaviorHereticExecution.roles.2.missingDesc>
+	
+	<!-- EN: spectate -->
+	<Mousekin_RitualBehaviorHereticExecution.spectatorGerund>관전</Mousekin_RitualBehaviorHereticExecution.spectatorGerund>
+	
+	<!-- EN: Spectators -->
+	<Mousekin_RitualBehaviorHereticExecution.spectatorsLabel>관전자</Mousekin_RitualBehaviorHereticExecution.spectatorsLabel>
+	
+	<!-- EN: {0}: The charges against the heretics will now be laid. -->
+	<Mousekin_RitualBehaviorHereticExecution.stages.0.postAction.text>{0}: 이제 이단자들에 대한 기소가 시작됩니다.</Mousekin_RitualBehaviorHereticExecution.stages.0.postAction.text>
+	
+	<!-- EN: {0}: The heretics have been found guilty, and will now be purged by fire. -->
+	<Mousekin_RitualBehaviorHereticExecution.stages.1.postAction.text>{0}: 이단자들은 유죄 판결을 받았으며 이제 불로 숙청될 것입니다.</Mousekin_RitualBehaviorHereticExecution.stages.1.postAction.text>
+	
 	<!-- EN: participate -->
 	<Mousekin_RitualBehaviorBarbecue.spectatorGerund>참여자</Mousekin_RitualBehaviorBarbecue.spectatorGerund>
 	

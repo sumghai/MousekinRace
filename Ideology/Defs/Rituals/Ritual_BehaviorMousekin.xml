@@ -26,8 +26,10 @@
 				<spectatorsRequired>true</spectatorsRequired>
 				<spectateDistanceOverride>5~6</spectateDistanceOverride>
 				<endTriggers>
-					<li Class="MousekinRace.StageEndTrigger_AllArrived">
-						<roleId>mousekinNun</roleId>
+					<li Class="MousekinRace.StageEndTrigger_RolesArrivedMulti">
+						<roleIds>
+							<li>mousekinNun</li>
+						</roleIds>
 					</li>
 				</endTriggers>
 				<roleBehaviors>
@@ -55,6 +57,176 @@
 					<li>
 						<roleId>mousekinNun</roleId>
 						<dutyDef>Mousekin_DutyNunPerformFlowerDance</dutyDef>
+					</li>
+				</roleBehaviors>
+			</li>
+		</stages>
+	</RitualBehaviorDef>
+	
+	<RitualBehaviorDef ParentName="DateRitualBehavior">
+		<defName>Mousekin_RitualBehaviorHereticExecution</defName>
+		<workerClass>MousekinRace.RitualBehaviorWorker_HereticExecution</workerClass>
+		<durationTicks>1250</durationTicks>
+		<roles Inherit="False">
+			<li Class="RitualRoleTag">
+				<label>speaker</label>
+				<id>moralist</id>
+				<required>True</required>
+				<precept>IdeoRole_Moralist</precept>
+				<tag>Moralist</tag>
+				<maxCount>1</maxCount>
+				<countsAsParticipant>False</countsAsParticipant>
+				<allowChild>false</allowChild>
+				<mustBeAbleToReachTarget>True</mustBeAbleToReachTarget>
+			</li>
+			<li Class="MousekinRace.RitualRoleHeretic">
+				<label>heretic</label>
+				<categoryLabel>heretics</categoryLabel>
+				<missingDesc>a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner</missingDesc>
+				<id>mousekinHeretic</id>
+				<required>True</required>
+				<maxCount>3</maxCount>
+				<ignoreBleeding>true</ignoreBleeding>
+				<allowDowned>true</allowDowned>
+				<countsAsParticipant>False</countsAsParticipant>
+				<allowChild>false</allowChild>
+			</li>
+			<li Class="MousekinRace.RitualRoleColonistNonHeretic">
+				<label>escort</label>
+				<categoryLabel>escorts</categoryLabel>
+				<missingDesc>non-downed Mousekin colonist capable of hauling, and does not have the Apostate or Devotionist traits</missingDesc>
+				<id>mousekinEscort</id>
+				<required>True</required>
+				<maxCount>3</maxCount>
+				<countsAsParticipant>False</countsAsParticipant>
+				<allowChild>false</allowChild>
+				<mustBeAbleToReachTarget>True</mustBeAbleToReachTarget>
+			</li>
+		</roles>
+		<spectatorsLabel>Spectators</spectatorsLabel>
+		<spectatorGerund>spectate</spectatorGerund>
+		<stages Inherit="False">
+			<!-- 1. Spectators gather, moralist moves to speaking position, escort(s) take heretic(s) to execution spots -->
+			<li Class="MousekinRace.RitualStage_HereticExecutionEscortToHereticPairing">
+				<defaultDuty>Spectate</defaultDuty>
+				<spectatorsRequired>true</spectatorsRequired>
+				<endTriggers>
+					<li Class="MousekinRace.StageEndTrigger_RolesArrivedMulti">
+						<roleIds>
+							<li>moralist</li>
+							<li>mousekinEscort</li>
+						</roleIds>
+					</li>
+				</endTriggers>
+				<roleBehaviors>
+					<li>
+						<roleId>moralist</roleId>
+						<dutyDef>ArriveToCell</dutyDef>
+						<customPositions>
+							<li Class="MousekinRace.RitualPosition_HereticExecutionMoralist" />
+						</customPositions>
+					</li>
+					<li>
+						<roleId>mousekinEscort</roleId>
+						<dutyDef>DeliverPawnToCellIfAliveThenIdle</dutyDef>
+						<customPositions>
+							<li Class="MousekinRace.RitualPosition_HereticExecutionStakes">
+								<stakeMoteDef>Mousekin_Mote_IdeoExecutionStake</stakeMoteDef>
+							</li>
+						</customPositions>
+					</li>
+					<li>
+						<roleId>mousekinHeretic</roleId>
+						<dutyDef>IdleNoInteraction</dutyDef>
+					</li>
+				</roleBehaviors>
+				<postAction Class="RitualStageAction_Message">
+					<text>{0}: The charges against the heretics will now be laid.</text>
+					<messageTypeDef>NeutralEvent</messageTypeDef>
+				</postAction>
+			</li>
+			<!-- 2. Moralist speaks on cell -->
+			<li>
+				<defaultDuty>Spectate</defaultDuty>
+				<spectatorsRequired>true</spectatorsRequired>
+				<endTriggers>
+					<li Class="StageEndTrigger_DurationPercentage">
+						<percentage>1.0</percentage>
+					</li>
+				</endTriggers>
+				<roleBehaviors>
+					<li>
+						<roleId>moralist</roleId>
+						<dutyDef>SpeakOnCellFacingSpectators</dutyDef>
+						<speakerInteraction>Speech_Execution</speakerInteraction>
+						<customPositions>
+							<li Class="MousekinRace.RitualPosition_HereticExecutionMoralist" />
+						</customPositions>
+					</li>
+					<li>
+						<roleId>mousekinHeretic</roleId>
+						<dutyDef>IdleNoInteraction</dutyDef>
+						<customPositions>
+							<li Class="RitualPosition_OnInteractionCell" >
+								<facing>South</facing>
+							</li>
+						</customPositions>
+					</li>
+				</roleBehaviors>
+				<postAction Class="RitualStageAction_Message">
+					<text>{0}: The heretics have been found guilty, and will now be purged by fire.</text>
+					<messageTypeDef>NeutralEvent</messageTypeDef>
+				</postAction>	
+			</li>
+			<!-- 3. Escort(s) set heretic(s) on fire -->
+			<li>
+				<showProgressBar>false</showProgressBar>
+				<defaultDuty>Spectate</defaultDuty>
+				<spectatorsRequired>true</spectatorsRequired>
+				<endTriggers>
+					<li Class="MousekinRace.StageEndTrigger_PawnOnFireMulti">
+						<roleIds>
+							<li>mousekinHeretic</li>
+						</roleIds>
+					</li>
+				</endTriggers>
+				<roleBehaviors>
+					<li>
+						<roleId>mousekinEscort</roleId>
+						<dutyDef>Mousekin_DutySetHereticsOnFire</dutyDef>
+					</li>
+					<li>
+						<roleId>mousekinHeretic</roleId>
+						<dutyDef>IdleNoInteraction</dutyDef>
+						<customPositions>
+							<li Class="RitualPosition_OnInteractionCell" >
+								<facing>South</facing>
+							</li>
+						</customPositions>
+					</li>
+				</roleBehaviors>
+			</li>
+			<!-- 4. Spectators watch heretic(s) burn to death -->
+			<li>
+				<showProgressBar>false</showProgressBar>
+				<defaultDuty>Spectate</defaultDuty>
+				<spectatorsRequired>true</spectatorsRequired>
+				<endTriggers>
+					<li Class="MousekinRace.StageEndTrigger_PawnDeadMulti">
+						<roleIds>
+							<li>mousekinHeretic</li>
+						</roleIds>
+					</li>
+				</endTriggers>
+				<roleBehaviors>
+					<li>
+						<roleId>mousekinHeretic</roleId>
+						<dutyDef>IdleNoInteraction</dutyDef>
+						<customPositions>
+							<li Class="RitualPosition_OnInteractionCell" >
+								<facing>South</facing>
+							</li>
+						</customPositions>
 					</li>
 				</roleBehaviors>
 			</li>

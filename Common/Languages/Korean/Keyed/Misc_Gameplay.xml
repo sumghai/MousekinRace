@@ -73,6 +73,9 @@
 	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>그들은 {0}입니다</MousekinRace_MemeGoodwillImpact_Other>
 	
+	<!-- EN: non-Mousekin rodentkind -->
+	<MousekinRace_NonMousekinRodentkind>마우스킨이 아닌 설치류</MousekinRace_NonMousekinRodentkind>
+	
 	<!-- EN: Cannot build more than one {0} on the map. -->
 	<MousekinRace_PlaceWorker_OnlyOnePerMap>맵에 {0}을 두 개 이상 지을 수 없습니다.</MousekinRace_PlaceWorker_OnlyOnePerMap>
 

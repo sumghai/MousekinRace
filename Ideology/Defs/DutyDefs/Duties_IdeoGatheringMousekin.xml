@@ -21,4 +21,14 @@
 		</thinkNode>
 	</DutyDef>
 	
+	<DutyDef>
+		<defName>Mousekin_DutySetHereticsOnFire</defName>
+		<hook>HighPriority</hook>
+		<thinkNode Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="MousekinRace.JobGiver_SetHereticsOnFire"/>
+			</subNodes>
+		</thinkNode>
+	</DutyDef>
+	
 </Defs>

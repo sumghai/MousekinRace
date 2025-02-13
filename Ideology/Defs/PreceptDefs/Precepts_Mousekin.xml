@@ -42,4 +42,25 @@
 		</comps>
 	</PreceptDef>
 	
+	<PreceptDef>
+		<defName>Mousekin_Precept_RitualHereticExecution</defName>
+		<label>heretic execution</label>
+		<tipLabelOverride>Public execution of heretics by burning</tipLabelOverride>
+		<description>A public execution of Mousekin heretics and other non-Mousekin rodentkind prisoners. The organizer will give a speech to excite the crowd, then order up to three prisoners to be burned at the stake.</description>
+		<impact>Medium</impact>
+		<iconPath>UI/Icons/Rituals/BurningStake</iconPath>
+		<issue>Ritual</issue>
+		<preceptClass>Precept_Ritual</preceptClass>
+		<ritualPatternBase>Mousekin_RitualPatternHereticExecution</ritualPatternBase>
+		<allowDuplicates>false</allowDuplicates>
+		<countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+		<selectionWeight>0.0</selectionWeight> <!-- never randomly available -->
+		<canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
+		<displayOrderInImpact>100</displayOrderInImpact>
+		<ignoreLimitsInEditMode>false</ignoreLimitsInEditMode>
+		<usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+		<receivesExpectationsQualityOffset>true</receivesExpectationsQualityOffset>
+		<ignoreNameUniqueness>true</ignoreNameUniqueness>
+	</PreceptDef>
+	
 </Defs>

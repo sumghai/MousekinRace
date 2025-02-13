@@ -44,6 +44,13 @@
 	</NamerRitualFlowerDanceMousekin.rulePack.rulesStrings>
 	
 	<!-- EN: 
+		<li>r_ritualName->Purging flames</li>
+	-->
+	<NamerRitualHereticExecutionMousekin.rulePack.rulesStrings>
+		<li>r_ritualName->净化火焰</li>
+	</NamerRitualHereticExecutionMousekin.rulePack.rulesStrings>
+	
+	<!-- EN: 
 		<li>r_ritualName->Gladiator duel</li>
 	-->
 	<NamerRitualGladiatorDuelMousekin.rulePack.rulesStrings>

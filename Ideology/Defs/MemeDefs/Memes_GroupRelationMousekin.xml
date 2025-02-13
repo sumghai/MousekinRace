@@ -40,6 +40,13 @@
 				<li>HAR_AlienSlavery_Acceptable</li>
 			</li>
 		</requireOne>
+		<requiredRituals>
+			<li>
+				<precept>Mousekin_Precept_RitualHereticExecution</precept>
+				<pattern>Mousekin_RitualPatternHereticExecution</pattern>
+				<building>Mousekin_TownSquare</building>
+			</li>
+		</requiredRituals>
 	</MemeDef>
 
 </Defs>

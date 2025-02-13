@@ -24,7 +24,7 @@
 		<workerClass>MousekinRace.RitualOutcomeEffectWorker_FlowerDance</workerClass>
 		<effecter>VanishChristmasTree</effecter>
 		<comps Inherit="false">
-			<li Class="MousekinRace.RitualOutcomeComp_NunCount">
+			<li Class="MousekinRace.RitualOutcomeComp_RoleCount">
 				<roleId>mousekinNun</roleId>
 				<label>nuns</label>
 				<curve>
@@ -147,6 +147,85 @@
 					<li>mousekinNun</li>
 				</roleIdsNotGainingMemory>
 				<description>The {0} was unforgettable! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze. Everyone was left awestruck by how the ceremony was conducted with such reverence and beauty.</description>
+				<positivityIndex>2</positivityIndex>
+			</li>
+		</outcomeChances>
+	</RitualOutcomeEffectDef>
+	
+	<RitualOutcomeEffectDef>
+		<defName>Execution_Mousekin_Heretic</defName>
+		<description>Spectating slaves will be 100% suppressed, and depending on ritual quality, participants may change religious affinity traits.</description>
+		<workerClass>MousekinRace.RitualOutcomeEffectWorker_HereticExecution</workerClass>
+		<comps Inherit="false">
+			<li Class="MousekinRace.RitualOutcomeComp_RoleCount">
+				<roleId>mousekinHeretic</roleId>
+				<label>heretics</label>
+				<curve>
+					<points>
+						<li>(0, 0.00)</li>
+						<li>(3, 0.3)</li>
+					</points>
+				</curve>
+			</li>
+			<li Class="RitualOutcomeComp_PawnSkill">
+				<label>{PAWN_labelShort}'s social skill</label>
+				<labelAbstract>moralist's social skill</labelAbstract>
+				<roleId>moralist</roleId>
+				<skillDef>Social</skillDef>
+				<curve>
+					<points>
+						<li>(0, 0.0)</li>
+						<li>(20, 0.3)</li>
+					</points>
+				</curve>
+			</li>
+			<li Class="RitualOutcomeComp_ParticipantCount">
+				<label>spectator count</label>
+				<curve>
+					<points>
+						<li>(1,  0.0)</li>
+						<li>(8,  0.2)</li>
+						<li>(16, 0.4)</li>
+					</points>
+				</curve>
+			</li>
+			<li Class="MousekinRace.RitualOutcomeComp_OneEscortPerHeretic">
+				<hereticRoleId>mousekinHeretic</hereticRoleId>
+				<escortRoleId>mousekinEscort</escortRoleId>
+			</li>
+		</comps>
+		<outcomeChances Inherit="false">
+			<li>
+				<label>Terrible</label>
+				<chance>0.15</chance>
+				<memory>Humanlike_Thought_HereticExecutionTerrible</memory>
+				<roleIdsNotGainingMemory>
+					<li>moralist</li>
+					<li>mousekinHeretic</li>
+				</roleIdsNotGainingMemory>
+				<description>The {0} was terrible! The speech outlining the heresy charges was stuttered and incoherent, the heretics nearly broke free, and their final words of defiance stirred dissent before the flames reached them.</description>
+				<positivityIndex>-1</positivityIndex>
+			</li>
+			<li>
+				<label>Satisfying</label>
+				<chance>0.65</chance>
+				<memory>Humanlike_Thought_HereticExecutionSatisfying</memory>
+				<roleIdsNotGainingMemory>
+					<li>moralist</li>
+					<li>mousekinHeretic</li>
+				</roleIdsNotGainingMemory>
+				<description>The {0} was satisfying. The speech outlining the heresy charges was convincing, and the heretics begged for penance as the flames lapped at their bodies. Everyone agreed that justice was being upheld.</description>
+				<positivityIndex>1</positivityIndex>
+			</li>
+			<li>
+				<label>Spectacular</label>
+				<chance>0.2</chance>
+				<memory>Humanlike_Thought_HereticExecutionSpectacular</memory>
+				<roleIdsNotGainingMemory>
+					<li>moralist</li>
+					<li>mousekinHeretic</li>
+				</roleIdsNotGainingMemory>
+				<description>The {0} was spectacular! The speech outlining the heresy charges outraged and persuaded even the most merciful of spectators, and the crowd's frenzied cheers were only bested by the heretics' screams as the roaring flames consumed them. Not a single soul doubted the absolute truth and righteousness of the Word of Valerian.</description>
 				<positivityIndex>2</positivityIndex>
 			</li>
 		</outcomeChances>

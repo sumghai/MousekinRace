@@ -62,6 +62,15 @@
 	</RulePackDef>
 	
 	<RulePackDef>
+		<defName>NamerRitualHereticExecutionMousekin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ritualName->Purging flames</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
 		<defName>NamerRitualGladiatorDuelMousekin</defName>
 		<rulePack>
 			<rulesStrings>

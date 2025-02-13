@@ -40,4 +40,13 @@
 	<!-- EN: inadequate flower gardens -->
 	<Mousekin_Precept_FlowersDesired.comps.2.thoughtStageDescriptions.1>太小的花園</Mousekin_Precept_FlowersDesired.comps.2.thoughtStageDescriptions.1>
 	
+	<!-- EN: heretic execution -->
+	<Mousekin_Precept_RitualHereticExecution.label>異端處決</Mousekin_Precept_RitualHereticExecution.label>
+	
+	<!-- EN: A public execution of Mousekin heretics and other non-Mousekin rodentkind prisoners. The organizer will give a speech to excite the crowd, then order up to three prisoners to be burned at the stake. -->
+	<Mousekin_Precept_RitualHereticExecution.description>公開處決白鼠族的異教徒和其他非白鼠族的齧齒動物囚犯。組織者會發表演說以激勵群眾，然後會下令將最多三名囚犯燒死在火刑柱上。</Mousekin_Precept_RitualHereticExecution.description>
+	
+	<!-- EN: Public execution of heretics by burning -->
+	<Mousekin_Precept_RitualHereticExecution.tipLabelOverride>以焚燒方式公開處決異端分子</Mousekin_Precept_RitualHereticExecution.tipLabelOverride>
+	
 </LanguageData>

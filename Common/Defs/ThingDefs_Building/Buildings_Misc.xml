@@ -35,13 +35,17 @@
 		</statBases>
 		<size>(3,1)</size>
 		<designationCategory>Misc</designationCategory>
-		<passability>Impassable</passability>
+		<passability>PassThroughOnly</passability>
+		<pathCost>900</pathCost>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
 			<allowAutoroof>false</allowAutoroof>
+			<buildingTags>
+				<li>RitualFocus</li>
+			</buildingTags>
 		</building>
 		<comps>
 			<li Class="MousekinRace.CompProperties_TownSquare">

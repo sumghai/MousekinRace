@@ -38,7 +38,7 @@
 	<DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>有10%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding_Mousekin_Generic.outcomeChances.3.potentialExtraOutcomeDesc>
 	
 	<!-- EN: The ritual target will be destroyed, and depending on ritual quality, participants will have any death-related mood debuffs removed. -->
-	<DestroyConsumableBuilding_Mousekin_FlowerDance.description>儀式道具將會被銷毀，而且根據儀式的品質，參與者會消除任何與死亡有關的負面情緒。</DestroyConsumableBuilding_Mousekin_FlowerDance.description>
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.description>儀式道具將會被銷毀，而且視乎儀式表現，參與者會消除任何與死亡有關的負面情緒。</DestroyConsumableBuilding_Mousekin_FlowerDance.description>
 	
 	<!-- EN: nuns -->
 	<DestroyConsumableBuilding_Mousekin_FlowerDance.comps.0.label>修女人數</DestroyConsumableBuilding_Mousekin_FlowerDance.comps.0.label>
@@ -75,5 +75,38 @@
 
 	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
 	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>有10%的機率其中一位參加者會獲得靈感。</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>
+	
+	<!-- EN: Spectating slaves will be 100% suppressed, and depending on ritual quality, participants may change religious affinity traits. -->
+	<Execution_Mousekin_Heretic.description>旁觀的奴隸將會達到100%壓制，而且視乎儀式表現，參與者的宗教信仰特性會改變。</Execution_Mousekin_Heretic.description>
+	
+	<!-- EN: heretics -->
+	<Execution_Mousekin_Heretic.comps.0.label>異端人數</Execution_Mousekin_Heretic.comps.0.label>
+	
+	<!-- EN: {PAWN_labelShort}'s social skill -->
+	<Execution_Mousekin_Heretic.comps.1.label>{PAWN_labelShort}的社交技能</Execution_Mousekin_Heretic.comps.1.label>
+	
+	<!-- EN: moralist's social skill -->
+	<Execution_Mousekin_Heretic.comps.1.labelAbstract>教義導師的社交技能</Execution_Mousekin_Heretic.comps.1.labelAbstract>
+	
+	<!-- EN: spectator count -->
+	<Execution_Mousekin_Heretic.comps.2.label>旁觀者人數</Execution_Mousekin_Heretic.comps.2.label>
+	
+	<!-- EN: Terrible -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.0.label>糟糕</Execution_Mousekin_Heretic.comps.outcomeChances.0.label>
+	
+	<!-- EN: The {0} was terrible! The speech outlining the heresy charges was stuttered and incoherent, the heretics nearly broke free, and their final words of defiance stirred dissent before the flames reached them. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.0.description>{0}太糟糕了!概述異端指控的演講結結巴巴、語無倫次，異端幾乎掙脫了束縛，並且在火焰燒到他們之前，他們最後的反抗之詞激起了異議。</Execution_Mousekin_Heretic.comps.outcomeChances.0.description>
+	
+	<!-- EN: Satisfying -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.1.label>滿足</Execution_Mousekin_Heretic.comps.outcomeChances.1.label>
+	
+	<!-- EN: The {0} was satisfying. The speech outlining the heresy charges was convincing, and the heretics begged for penance as the flames lapped at their bodies. Everyone agreed that justice was being upheld. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.1.description>{0}令人滿足。概述異端指控的演講令人信服，並且當火焰舔舐他們的身體時，異端乞求懺悔。所有人都認為正義得到了伸張。</Execution_Mousekin_Heretic.comps.outcomeChances.1.description>
+	
+	<!-- EN: Spectacular -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.2.label>精彩</Execution_Mousekin_Heretic.comps.outcomeChances.2.label>
+	
+	<!-- EN: The {0} was spectacular! The speech outlining the heresy charges outraged and persuaded even the most merciful of spectators, and the crowd's frenzied cheers were only bested by the heretics' screams as the roaring flames consumed them. Not a single soul doubted the absolute truth and righteousness of the Word of Valerian. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.2.description>{0}太精彩了!概述異端指控的演說，即使是最仁慈的觀眾也感到憤怒和信服，而群眾狂熱的歡呼聲，只有異端在熊熊烈焰吞噬他們時的尖叫聲最勝一籌。沒有一個人懷疑纈草之言的絕對真理與正義。</Execution_Mousekin_Heretic.comps.outcomeChances.2.description>
 	
 </LanguageData>

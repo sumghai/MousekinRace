@@ -7,6 +7,14 @@
 	
 	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>No Mousekin ideoligions found.</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
 	
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>Too many escorts.</MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>
+	
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>Each heretic must have one escort.</MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>
+	
+	<MousekinRace_MessageRitualRoleMustBeHeretic>{0_labelShort} must be either a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner.</MousekinRace_MessageRitualRoleMustBeHeretic>
+	
+	<MousekinRace_MessageRitualRoleMustBeNonHeretic>{0} must not have the Apostate or Devotionist traits.</MousekinRace_MessageRitualRoleMustBeNonHeretic>
+	
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0_labelShort} must be a {1}.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	
 </LanguageData>

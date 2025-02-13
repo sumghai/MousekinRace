@@ -14,5 +14,11 @@
 	<MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>Your faction's {0} role title has been renamed to {1}, as your colonists originated from {2}.</MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>
 	
 	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>Any lingering thoughts and mood debuffs among your colonists from recent deaths have been placated.</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
+	
+	<MousekinRace_RitualOutcome_HereticExecutionNewApostates>These colonists were outraged by the unjustified barbarity of the Inquisition, and have gained the Apostate trait:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewApostates>
+	
+	<MousekinRace_RitualOutcome_HereticExecutionNewInquisitionists>These colonists became radicalized and have gained the Inquisitionist trait:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewInquisitionists>
+	
+	<MousekinRace_RitualOutcome_HereticExecutionNewPious>These colonists became awed by the terrifying power of the Inquisition, and have gained the Pious trait:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewPious>
 
 </LanguageData>

@@ -76,4 +76,34 @@
 	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
 	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>随机一位参与者有10%的几率获得灵感。</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>
 	
+	<!-- EN: heretics -->
+	<Execution_Mousekin_Heretic.comps.0.label>异端人数</Execution_Mousekin_Heretic.comps.0.label>
+	
+	<!-- EN: {PAWN_labelShort}'s social skill -->
+	<Execution_Mousekin_Heretic.comps.1.label>{PAWN_labelShort}的社交技能</Execution_Mousekin_Heretic.comps.1.label>
+	
+	<!-- EN: moralist's social skill -->
+	<Execution_Mousekin_Heretic.comps.1.labelAbstract>传道者的社交技能</Execution_Mousekin_Heretic.comps.1.labelAbstract>
+	
+	<!-- EN: spectator count -->
+	<Execution_Mousekin_Heretic.comps.2.label>旁觀者人数</Execution_Mousekin_Heretic.comps.2.label>
+	
+	<!-- EN: Terrible -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.0.label>糟糕的</Execution_Mousekin_Heretic.comps.outcomeChances.0.label>
+	
+	<!-- EN: The {0} was terrible! The speech outlining the heresy charges was stuttered and incoherent, the heretics nearly broke free, and their final words of defiance stirred dissent before the flames reached them. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.0.description>{0}非常糟糕!概述异端指控的演讲结结巴巴、语无伦次，异端几乎挣脱了束缚，并且在火焰烧到他们之前，他们最后的反抗之词激起了异议。</Execution_Mousekin_Heretic.comps.outcomeChances.0.description>
+	
+	<!-- EN: Satisfying -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.1.label>令人满意的</Execution_Mousekin_Heretic.comps.outcomeChances.1.label>
+	
+	<!-- EN: The {0} was satisfying. The speech outlining the heresy charges was convincing, and the heretics begged for penance as the flames lapped at their bodies. Everyone agreed that justice was being upheld. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.1.description>{0}令人满意。概述异端指控的演讲令人信服，并且当火焰舔舐他们的身体时，异端乞求忏悔。所有人都认为正义得到了伸张。</Execution_Mousekin_Heretic.comps.outcomeChances.1.description>
+	
+	<!-- EN: Spectacular -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.2.label>精彩的</Execution_Mousekin_Heretic.comps.outcomeChances.2.label>
+	
+	<!-- EN: The {0} was spectacular! The speech outlining the heresy charges outraged and persuaded even the most merciful of spectators, and the crowd's frenzied cheers were only bested by the heretics' screams as the roaring flames consumed them. Not a single soul doubted the absolute truth and righteousness of the Word of Valerian. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.2.description>{0}太精彩了!概述异端指控的演说，即使是最仁慈的观众也感到愤怒和信服，而群众狂热的欢呼声，只有异端在熊熊烈焰吞噬他们时的尖叫声最胜一筹。没有一个人怀疑缬草之言的绝对真理与正义。</Execution_Mousekin_Heretic.comps.outcomeChances.2.description>
+	
 </LanguageData>

@@ -109,6 +109,78 @@
 	<!-- EN: What is this, a garden for Pudgemice? It needs to be at least three times as big! -->
 	<Humanlike_Thought_GardensDesired.stages.1.description>퍼지마우스를 위한 정원인가요? 적어도 세 배는 커야 해요!</Humanlike_Thought_GardensDesired.stages.1.description>
 	
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.0.label>이단 처형에 대한 공포</Humanlike_Thought_HereticExecutionTerrible.stages.0.label>
+	
+	<!-- EN: Such barbarism! I don't feel safe here anymore...  -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.0.description>이런 야만! 여긴 더 이상 안전하지 않아요...</Humanlike_Thought_HereticExecutionTerrible.stages.0.description>
+	
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.1.label>이단 처형에 대한 공포</Humanlike_Thought_HereticExecutionTerrible.stages.1.label>
+	
+	<!-- EN: Everyone knew this was all wrong! I don't feel safe here anymore... -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.1.description>모두들 이게 잘못됐다는 걸 알았어요! 여긴 더 이상 안전하지 않아요...</Humanlike_Thought_HereticExecutionTerrible.stages.1.description>
+	
+	<!-- EN: Terrible heretic execution -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.2.label>끔찍한 이단 처형</Humanlike_Thought_HereticExecutionTerrible.stages.2.label>
+	
+	<!-- EN: None of the charges made any sense, and yet the prisoners were condemned to the fires. Is this what Valerian would have wanted? -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.2.description>어떤 혐의도 말이 되지 않는데도 죄수들은 화형에 처해졌습니다. 현자 발레리안이 원했을까요?</Humanlike_Thought_HereticExecutionTerrible.stages.2.description>
+	
+	<!-- EN: Terrible heretic execution -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.3.label>끔찍한 이단 처형</Humanlike_Thought_HereticExecutionTerrible.stages.3.label>
+	
+	<!-- EN: Mediocre! How would anyone take the divine truth seriously after this display of incompetence? -->
+	<Humanlike_Thought_HereticExecutionTerrible.stages.3.description>평범한! 이런 무능함을 보여준 후에 누가 신성한 진리를 진지하게 받아들일 수 있을까요?</Humanlike_Thought_HereticExecutionTerrible.stages.3.description>
+
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.0.label>이단 처형에 대한 공포</Humanlike_Thought_HereticExecutionSatisfying.stages.0.label>
+	
+	<!-- EN: Such barbarism! I don't feel safe here anymore...  -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.0.description>이런 야만! 여긴 더 이상 안전하지 않아요...</Humanlike_Thought_HereticExecutionSatisfying.stages.0.description>
+	
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.1.label>이단 처형에 대한 공포</Humanlike_Thought_HereticExecutionSatisfying.stages.1.label>
+	
+	<!-- EN: They're persecuting us! I don't feel safe here anymore... -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.1.description>우릴 박해하고 있어! 여긴 더 이상 안전하지 않아요...</Humanlike_Thought_HereticExecutionSatisfying.stages.1.description>
+	
+	<!-- EN: Satisfying heretic execution -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.2.label>만족스러운 이단 처형</Humanlike_Thought_HereticExecutionSatisfying.stages.2.label>
+	
+	<!-- EN: Justice had to be served against those heretics. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.2.description>이단자들에게 정의를 구현해야 했습니다. 현자 발레리안이 자비를 베풀어 위대한 동산에 자리를 허락하시길.</Humanlike_Thought_HereticExecutionSatisfying.stages.2.description>
+	
+	<!-- EN: Satisfying heretic execution -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.3.label>만족스러운 이단 처형</Humanlike_Thought_HereticExecutionSatisfying.stages.3.label>
+	
+	<!-- EN: Serves those heretics right! -->
+	<Humanlike_Thought_HereticExecutionSatisfying.stages.3.description>이단자들에게 제대로 된 서비스를 제공하세요!</Humanlike_Thought_HereticExecutionSatisfying.stages.3.description>
+
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.0.label>이단 처형에 대한 공포</Humanlike_Thought_HereticExecutionSpectacular.stages.0.label>
+	
+	<!-- EN: Such barbarism! I don't feel safe here anymore...  -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.0.description>이런 야만! 여긴 더 이상 안전하지 않아요...</Humanlike_Thought_HereticExecutionSpectacular.stages.0.description>
+	
+	<!-- EN: Horrified by heretic execution -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.1.label>이단 처형에 대한 공포</Humanlike_Thought_HereticExecutionSpectacular.stages.1.label>
+	
+	<!-- EN: They're persecuting us! I don't feel safe here anymore... -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.1.description>우릴 박해하고 있어! 여긴 더 이상 안전하지 않아요...</Humanlike_Thought_HereticExecutionSpectacular.stages.1.description>
+	
+	<!-- EN: Spectacular heretic execution -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.2.label>화려한 이단 처형</Humanlike_Thought_HereticExecutionSpectacular.stages.2.label>
+	
+	<!-- EN: To think such depraved individuals once lived among us... we were right to purge the impure from this community! -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.2.description>그런 타락한 사람들이 한때 우리 가운데 살았다고 생각하니... 이 공동체에서 불순물을 제거한 것은 옳은 일이었습니다!</Humanlike_Thought_HereticExecutionSpectacular.stages.2.description>
+	
+	<!-- EN: Spectacular heretic execution -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.3.label>화려한 이단 처형</Humanlike_Thought_HereticExecutionSpectacular.stages.3.label>
+	
+	<!-- EN: The flames, the screams! Valerian be praised, for thy will has been done! -->
+	<Humanlike_Thought_HereticExecutionSpectacular.stages.3.description>이렇게 즐거운 불꽃과 비명소리가! 현자 발레리안, 당신의 뜻이 이루어졌으니 찬양을 받으소서!</Humanlike_Thought_HereticExecutionSpectacular.stages.3.description>
+	
 	<!-- EN: prejudiced towards talking mice -->
 	<Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>말하는 쥐에 대한 편견</Humanlike_Thought_PrejudicedTowardsMousekins.stages.0.label>
 

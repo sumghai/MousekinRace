@@ -5,20 +5,22 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class StageEndTrigger_AllArrived : StageEndTrigger
+    public class StageEndTrigger_RolesArrivedMulti : StageEndTrigger
     {
-        public string roleId;
-        
+        public List<string> roleIds;
+
         public override Trigger MakeTrigger(LordJob_Ritual ritual, TargetInfo spot, IEnumerable<TargetInfo> foci, RitualStage stage)
         {
-            LordJob_Ritual_FlowerDance flowerDance = ritual as LordJob_Ritual_FlowerDance;
             Trigger_Custom trigger = new(delegate (TriggerSignal signal)
             {
-                foreach (var pawn in flowerDance.assignments.AssignedPawns(roleId))
+                foreach (string roleId in roleIds) 
                 {
-                    if (!flowerDance.PawnTagSet(pawn, "Arrived")) 
-                    { 
-                        return false;
+                    foreach (Pawn pawn in ritual.assignments.AssignedPawns(roleId))
+                    {
+                        if (!ritual.PawnTagSet(pawn, "Arrived"))
+                        {
+                            return false;
+                        }
                     }
                 }
                 return true;

@@ -73,6 +73,9 @@
 	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>他們{0}</MousekinRace_MemeGoodwillImpact_Other>
 	
+	<!-- EN: non-Mousekin rodentkind -->
+	<MousekinRace_NonMousekinRodentkind>非白鼠鼠族</MousekinRace_NonMousekinRodentkind>
+	
 	<!-- EN: Cannot build more than one {0} on the map. -->
 	<MousekinRace_PlaceWorker_OnlyOnePerMap>不能在地圖上建造一個以上的{0}。</MousekinRace_PlaceWorker_OnlyOnePerMap>
 	

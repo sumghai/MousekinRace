@@ -18,6 +18,11 @@
 	</RitualObligationTargetFilterDef>
 	
 	<RitualObligationTargetFilterDef>
+		<defName>Mousekin_IdeoTownSquare</defName>
+		<workerClass>MousekinRace.RitualObligationTargetWorker_TownSquare</workerClass>
+	</RitualObligationTargetFilterDef>
+	
+	<RitualObligationTargetFilterDef>
 		<defName>Mousekin_IdeoBarbecueTable</defName>
 		<workerClass>RitualObligationTargetWorker_ConsumableBuilding</workerClass>
 		<thingDefs>

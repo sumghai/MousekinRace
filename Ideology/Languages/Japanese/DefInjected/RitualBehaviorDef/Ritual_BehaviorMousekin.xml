@@ -16,6 +16,39 @@
 	<!-- EN: Spectators -->
 	<Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>聴衆</Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>
 	
+	<!-- EN: speaker -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.0.label>話者</Mousekin_RitualBehaviorHereticExecution.roles.0.label>
+	
+	<!-- EN: heretic -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.label>異端者</Mousekin_RitualBehaviorHereticExecution.roles.1.label>
+	
+	<!-- EN: heretics -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.categoryLabel>異端者</Mousekin_RitualBehaviorHereticExecution.roles.1.categoryLabel>
+	
+	<!-- EN: a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.missingDesc>背教者または献身者の特性を持つマウスキンの囚人、またはマウスキン以外のネズミ科の囚人</Mousekin_RitualBehaviorHereticExecution.roles.1.missingDesc>
+	
+	<!-- EN: escort -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.label>付添</Mousekin_RitualBehaviorHereticExecution.roles.2.label>
+	
+	<!-- EN: escorts -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.categoryLabel>付添</Mousekin_RitualBehaviorHereticExecution.roles.2.categoryLabel>
+	
+	<!-- EN: non-downed Mousekin colonist capable of hauling, and does not have the Apostate or Devotionist traits -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.missingDesc>運ぶことができ、背教者や献身者の特性を持たない、倒れてないマウスキン入植者</Mousekin_RitualBehaviorHereticExecution.roles.2.missingDesc>
+	
+	<!-- EN: spectate -->
+	<Mousekin_RitualBehaviorHereticExecution.spectatorGerund>聴衆</Mousekin_RitualBehaviorHereticExecution.spectatorGerund>
+	
+	<!-- EN: Spectators -->
+	<Mousekin_RitualBehaviorHereticExecution.spectatorsLabel>聴衆</Mousekin_RitualBehaviorHereticExecution.spectatorsLabel>
+	
+	<!-- EN: {0}: The charges against the heretics will now be laid. -->
+	<Mousekin_RitualBehaviorHereticExecution.stages.0.postAction.text>{0}: これより異端者に対する告発を行います.</Mousekin_RitualBehaviorHereticExecution.stages.0.postAction.text>
+	
+	<!-- EN: {0}: The heretics have been found guilty, and will now be purged by fire. -->
+	<Mousekin_RitualBehaviorHereticExecution.stages.1.postAction.text>{0}: 異端者は有罪となり、火で清められます.</Mousekin_RitualBehaviorHereticExecution.stages.1.postAction.text>
+	
 	<!-- EN: participate -->
 	<Mousekin_RitualBehaviorBarbecue.spectatorGerund>参加する</Mousekin_RitualBehaviorBarbecue.spectatorGerund>
 	

@@ -40,4 +40,13 @@
 	<!-- EN: inadequate flower gardens -->
 	<Mousekin_Precept_FlowersDesired.comps.2.thoughtStageDescriptions.1>слишком маленькие цветники</Mousekin_Precept_FlowersDesired.comps.2.thoughtStageDescriptions.1>
 	
+	<!-- EN: heretic execution -->
+	<Mousekin_Precept_RitualHereticExecution.label>казни еретика</Mousekin_Precept_RitualHereticExecution.label>
+	
+	<!-- EN: A public execution of Mousekin heretics and other non-Mousekin rodentkind prisoners. The organizer will give a speech to excite the crowd, then order up to three prisoners to be burned at the stake. -->
+	<Mousekin_Precept_RitualHereticExecution.description>Публичная казнь еретиков из племени Мышкинов и заключенных из грызуноподобных рас, которые не являются Мышкинами. Организатор произнесет речь, чтобы возбудить толпу, а затем прикажет сжечь на костре до трех заключенных.</Mousekin_Precept_RitualHereticExecution.description>
+	
+	<!-- EN: Public execution of heretics by burning -->
+	<Mousekin_Precept_RitualHereticExecution.tipLabelOverride>Публичная казнь еретиков через сожжение</Mousekin_Precept_RitualHereticExecution.tipLabelOverride>
+	
 </LanguageData>

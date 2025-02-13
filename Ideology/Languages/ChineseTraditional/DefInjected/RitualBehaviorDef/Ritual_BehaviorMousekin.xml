@@ -16,6 +16,39 @@
 	<!-- EN: Spectators -->
 	<Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>观众</Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>
 	
+	<!-- EN: speaker -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.0.label>主持</Mousekin_RitualBehaviorHereticExecution.roles.0.label>
+	
+	<!-- EN: heretic -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.label>異教徒</Mousekin_RitualBehaviorHereticExecution.roles.1.label>
+	
+	<!-- EN: heretics -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.categoryLabel>異教徒</Mousekin_RitualBehaviorHereticExecution.roles.1.categoryLabel>
+	
+	<!-- EN: a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.missingDesc>持有叛教或奉獻特性的白鼠族囚犯，或非白鼠族的嚙齒類動物囚犯</Mousekin_RitualBehaviorHereticExecution.roles.1.missingDesc>
+	
+	<!-- EN: escort -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.label>押衛</Mousekin_RitualBehaviorHereticExecution.roles.2.label>
+	
+	<!-- EN: escorts -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.categoryLabel>押衛</Mousekin_RitualBehaviorHereticExecution.roles.2.categoryLabel>
+	
+	<!-- EN: non-downed Mousekin colonist capable of hauling, and does not have the Apostate or Devotionist traits -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.missingDesc>能夠行動和搬運，並且沒有叛教或奉獻特性的白鼠族居民</Mousekin_RitualBehaviorHereticExecution.roles.2.missingDesc>
+	
+	<!-- EN: spectate -->
+	<Mousekin_RitualBehaviorHereticExecution.spectatorGerund>观看</Mousekin_RitualBehaviorHereticExecution.spectatorGerund>
+	
+	<!-- EN: Spectators -->
+	<Mousekin_RitualBehaviorHereticExecution.spectatorsLabel>观众</Mousekin_RitualBehaviorHereticExecution.spectatorsLabel>
+	
+	<!-- EN: {0}: The charges against the heretics will now be laid. -->
+	<Mousekin_RitualBehaviorHereticExecution.stages.0.postAction.text>{0}: 現在開始控告異教徒。</Mousekin_RitualBehaviorHereticExecution.stages.0.postAction.text>
+	
+	<!-- EN: {0}: The heretics have been found guilty, and will now be purged by fire. -->
+	<Mousekin_RitualBehaviorHereticExecution.stages.1.postAction.text>{0}: 異教徒已被判有罪，現在將以火刑肅清。</Mousekin_RitualBehaviorHereticExecution.stages.1.postAction.text>
+	
 	<!-- EN: participate -->
 	<Mousekin_RitualBehaviorBarbecue.spectatorGerund>參與</Mousekin_RitualBehaviorBarbecue.spectatorGerund>
 	

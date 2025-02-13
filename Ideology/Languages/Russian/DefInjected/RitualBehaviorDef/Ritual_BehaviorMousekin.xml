@@ -16,6 +16,39 @@
 	<!-- EN: Spectators -->
 	<Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>Зрители</Mousekin_RitualBehaviorFlowerDance.spectatorsLabel>
 	
+	<!-- EN: speaker -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.0.label>оратор</Mousekin_RitualBehaviorHereticExecution.roles.0.label>
+	
+	<!-- EN: heretic -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.label>еретик</Mousekin_RitualBehaviorHereticExecution.roles.1.label>
+	
+	<!-- EN: heretics -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.categoryLabel>еретики</Mousekin_RitualBehaviorHereticExecution.roles.1.categoryLabel>
+	
+	<!-- EN: a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.1.missingDesc>заключенный Мышкина с признаком отступник или преданный или заключенный грызуна, не являющегося Мышкиным</Mousekin_RitualBehaviorHereticExecution.roles.1.missingDesc>
+	
+	<!-- EN: escort -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.label>эскорт</Mousekin_RitualBehaviorHereticExecution.roles.2.label>
+	
+	<!-- EN: escorts -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.categoryLabel>эскорт</Mousekin_RitualBehaviorHereticExecution.roles.2.categoryLabel>
+	
+	<!-- EN: non-downed Mousekin colonist capable of hauling, and does not have the Apostate or Devotionist traits -->
+	<Mousekin_RitualBehaviorHereticExecution.roles.2.missingDesc>Мышкины поселенцы, которые стоят на ногах, могут переносить других людей и не обладают чертами отступник или преданный</Mousekin_RitualBehaviorHereticExecution.roles.2.missingDesc>
+	
+	<!-- EN: spectate -->
+	<Mousekin_RitualBehaviorHereticExecution.spectatorGerund>смотреть</Mousekin_RitualBehaviorHereticExecution.spectatorGerund>
+	
+	<!-- EN: Spectators -->
+	<Mousekin_RitualBehaviorHereticExecution.spectatorsLabel>Зрители</Mousekin_RitualBehaviorHereticExecution.spectatorsLabel>
+	
+	<!-- EN: {0}: The charges against the heretics will now be laid. -->
+	<Mousekin_RitualBehaviorHereticExecution.stages.0.postAction.text>{0}: Теперь будут выдвинуты обвинения против еретиков.</Mousekin_RitualBehaviorHereticExecution.stages.0.postAction.text>
+	
+	<!-- EN: {0}: The heretics have been found guilty, and will now be purged by fire. -->
+	<Mousekin_RitualBehaviorHereticExecution.stages.1.postAction.text>{0}: Еретики были признаны виновными и теперь будут очищены огнем.</Mousekin_RitualBehaviorHereticExecution.stages.1.postAction.text>
+	
 	<!-- EN: participate -->
 	<Mousekin_RitualBehaviorBarbecue.spectatorGerund>участвовать</Mousekin_RitualBehaviorBarbecue.spectatorGerund>
 	

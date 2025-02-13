@@ -31,6 +31,20 @@
 		<ritualOutcomeEffect>DestroyConsumableBuilding_Mousekin_FlowerDance</ritualOutcomeEffect>
 	</RitualPatternDef>
 	
+	<!-- Purging Flames - Mousekin heretic execution -->
+	
+	<RitualPatternDef>
+		<defName>Mousekin_RitualPatternHereticExecution</defName>
+		<canStartAnytime>true</canStartAnytime>
+		<alwaysStartAnytime>true</alwaysStartAnytime>
+		<ritualObligationTargetFilter>Mousekin_IdeoTownSquare</ritualObligationTargetFilter>
+		<ritualBehavior>Mousekin_RitualBehaviorHereticExecution</ritualBehavior>
+		<ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+		<nameMaker>NamerRitualHereticExecutionMousekin</nameMaker>
+		<ritualOutcomeEffect>Execution_Mousekin_Heretic</ritualOutcomeEffect>
+		<playsIdeoMusic>false</playsIdeoMusic>
+	</RitualPatternDef>
+	
 	<!-- Countryside Cookout - Indy Town Mousekin barbecue -->
 	
 	<RitualPatternDef ParentName="CelebrationConsumable">

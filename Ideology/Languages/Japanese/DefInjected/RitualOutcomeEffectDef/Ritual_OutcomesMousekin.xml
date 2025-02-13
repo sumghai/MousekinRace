@@ -50,7 +50,7 @@
 	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.label>酷い</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.label>
 
 	<!-- EN: The {0} was terrible! The nuns awkwardly stumbled through their performance, and some of the offerings were trampled. Everyone was waiting for it to end. -->
-	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>{0}は酷いものでした!はひどかった！修道女たちはぎこちなく演奏につまずき、供え物のいくつかは踏みつけられた.誰もがそれが終わるのをただ耐えていました.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>
+	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>{0}は酷いものでした!修道女たちはぎこちなく演奏につまずき、供え物のいくつかは踏みつけられた.誰もがそれが終わるのをただ耐えていました.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.0.description>
 
 	<!-- EN: Mediocre -->
 	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.label>平凡</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.1.label>
@@ -75,5 +75,38 @@
 
 	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
 	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>ランダムな参加者が奮い立つ可能性は10%です.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>
+	
+	<!-- EN: Spectating slaves will be 100% suppressed, and depending on ritual quality, participants may change religious affinity traits. -->
+	<Execution_Mousekin_Heretic.description>観衆となる奴隷は100％抑圧されて、儀式の質に応じて参加者は宗教の信念の特性を変えるかもしれない.</Execution_Mousekin_Heretic.description>
+	
+	<!-- EN: heretics -->
+	<Execution_Mousekin_Heretic.comps.0.label>異端者の数</Execution_Mousekin_Heretic.comps.0.label>
+	
+	<!-- EN: {PAWN_labelShort}'s social skill -->
+	<Execution_Mousekin_Heretic.comps.1.label>{PAWN_labelShort}の社会スキル</Execution_Mousekin_Heretic.comps.1.label>
+	
+	<!-- EN: moralist's social skill -->
+	<Execution_Mousekin_Heretic.comps.1.labelAbstract>モラルガイドの社会スキル</Execution_Mousekin_Heretic.comps.1.labelAbstract>
+	
+	<!-- EN: spectator count -->
+	<Execution_Mousekin_Heretic.comps.2.label>聴衆の数</Execution_Mousekin_Heretic.comps.2.label>
+	
+	<!-- EN: Terrible -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.0.label>酷い</Execution_Mousekin_Heretic.comps.outcomeChances.0.label>
+	
+	<!-- EN: The {0} was terrible! The speech outlining the heresy charges was stuttered and incoherent, the heretics nearly broke free, and their final words of defiance stirred dissent before the flames reached them. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.0.description>{0}は酷いものでした!異端者たちの罪状を説明する演説はたどたどしく支離滅裂で、異端者たちは脱走しそうになり、最後の反抗の言葉は炎が彼らに届く前に反対意見をかき立てた.</Execution_Mousekin_Heretic.comps.outcomeChances.0.description>
+	
+	<!-- EN: Satisfying -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.1.label>満足</Execution_Mousekin_Heretic.comps.outcomeChances.1.label>
+	
+	<!-- EN: The {0} was satisfying. The speech outlining the heresy charges was convincing, and the heretics begged for penance as the flames lapped at their bodies. Everyone agreed that justice was being upheld. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.1.description>{0}は満足のいくものでした.異端の罪状を説明する演説は説得力があり、異端者たちは炎に体をなぶられながら懺悔を乞うた.正義が守られたことに誰もが納得した.</Execution_Mousekin_Heretic.comps.outcomeChances.1.description>
+	
+	<!-- EN: Spectacular -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.2.label>壮観</Execution_Mousekin_Heretic.comps.outcomeChances.2.label>
+	
+	<!-- EN: The {0} was spectacular! The speech outlining the heresy charges outraged and persuaded even the most merciful of spectators, and the crowd's frenzied cheers were only bested by the heretics' screams as the roaring flames consumed them. Not a single soul doubted the absolute truth and righteousness of the Word of Valerian. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.2.description>{0}は素晴らしいものでした!異端の罪状を説明する演説は、最も慈悲深い観衆でさえも憤慨させ、説得した.群衆の熱狂的な歓声は、燃え盛る炎に焼き尽くされる異端者たちの悲鳴に勝るものではなかった.バレリアンの言葉の絶対的な真実と正しさを疑う者は一人もいなかった.</Execution_Mousekin_Heretic.comps.outcomeChances.2.description>
 	
 </LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Stake and haypile mote for Purging Flames heretic execution ritual -->
+	
+	<ThingDef ParentName="MoteBase">
+		<defName>Mousekin_Mote_IdeoExecutionStake</defName>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<mote>
+			<solidTime>99999</solidTime>
+		</mote>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mousekin_IdeoHereticExecutionStake</texPath>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+	</ThingDef>
+	
+</Defs>

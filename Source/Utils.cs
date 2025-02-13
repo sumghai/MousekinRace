@@ -3,6 +3,7 @@ using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
+using Verse.AI.Group;
 
 namespace MousekinRace
 {
@@ -50,6 +51,34 @@ namespace MousekinRace
             return culture.IsMousekin() && culture.defName.Contains("Brigand");
         }
 
+        // Determine whether a given pawn is a non-Mousekin rodentkind
+        public static bool IsNonMousekinRodentkind(this Pawn pawn)
+        {
+            List<ThingDef_AlienRace> otherRodentRaces = Enumerable.Concat(
+                MousekinDefOf.Mousekin.GetModExtension<OtherRodentRacesExtension>().differentRodentRaces,
+                MousekinDefOf.Mousekin.GetModExtension<OtherRodentRacesExtension>().hostileRodentRaces
+            ).ToList();
+
+            return otherRodentRaces.Contains(pawn.def);
+        }
+
+        // Determine whether a given pawn is a heretic by Mousekin standards:
+        // - Mousekins with either the Apostate or Devotionist trait
+        // - Non-Mousekin rodentkinds in general
+        public static bool IsHeretic(this Pawn pawn)
+        {
+            return pawn.IsMousekin() &&
+                pawn.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith) > 0 &&
+                pawn.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith) < 3;
+        }
+
+        // Determine whether a pawn is being executed as part of the Purging Flames ritual
+        // Note that we directly check by whether or not they have ritual role of heretic, and not simply IsHeretic()
+        public static bool IsHereticBeingPurgedByFire(this Pawn pawn)
+        {
+            return pawn.GetLord()?.LordJob is LordJob_Ritual_HereticExecution hereticExecution && hereticExecution.heretics.Contains(pawn);
+        }
+
         // Get the primary race of any given faction
         public static ThingDef_AlienRace GetRaceOfFaction(FactionDef faction) => (faction.basicMemberKind?.race ?? faction.pawnGroupMakers?.SelectMany(selector: groupMaker => groupMaker.options).GroupBy(keySelector: groupMaker => groupMaker.kind.race).OrderByDescending(keySelector: g => g.Count()).First().Key) as ThingDef_AlienRace;
 
@@ -66,6 +95,22 @@ namespace MousekinRace
         public static string YearHumanReadable(float years)
         {
             return (years != 1.0f) ? "PeriodYears".Translate(years.ToString("0.#")) : "Period1Year".Translate();
+        }
+
+        // Set the Mousekin religious affinity level for a given pawn
+        // Includes handling for pawns without any affinity in the first place
+        public static void ChangePawnReligiousAffinity(this Pawn pawn, ReligiousTraitAffinity newAffinity)
+        {
+            TraitDef affinityTrait = MousekinDefOf.Mousekin_TraitSpectrum_Faith;
+
+            if (pawn.story.traits.HasTrait(affinityTrait))
+            {
+                pawn.story.traits.GetTrait(affinityTrait).degree = (int)newAffinity;
+            }
+            else
+            {
+                pawn.story.traits.GainTrait(new Trait(affinityTrait, (int)newAffinity), true);
+            }
         }
 
         // Replace the leader and moral guide ideo role titles for Mousekin Player faction

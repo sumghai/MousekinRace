@@ -76,4 +76,37 @@
 	<!-- EN: There's a 10% chance a random participant gains an inspiration. -->
 	<DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>10%의 확률로 참여자 중 한 명이 영감을 획득합니다.</DestroyConsumableBuilding_Mousekin_FlowerDance.outcomeChances.3.potentialExtraOutcomeDesc>
 	
+	<!-- EN: Spectating slaves will be 100% suppressed, and depending on ritual quality, participants may change religious affinity traits. -->
+	<Execution_Mousekin_Heretic.description>관전 노예는 100% 억제되며, 의식의 질에 따라 참가자의 종교적 호감도 특성이 변경될 수 있습니다.</Execution_Mousekin_Heretic.description>
+	
+	<!-- EN: heretics -->
+	<Execution_Mousekin_Heretic.comps.0.label>이단</Execution_Mousekin_Heretic.comps.0.label>
+	
+	<!-- EN: {PAWN_labelShort}'s social skill -->
+	<Execution_Mousekin_Heretic.comps.1.label>{PAWN_labelShort}의 사교 능력</Execution_Mousekin_Heretic.comps.1.label>
+	
+	<!-- EN: moralist's social skill -->
+	<Execution_Mousekin_Heretic.comps.1.labelAbstract>종교 지도자의 사교 능력</Execution_Mousekin_Heretic.comps.1.labelAbstract>
+	
+	<!-- EN: spectator count -->
+	<Execution_Mousekin_Heretic.comps.2.label>관중 수</Execution_Mousekin_Heretic.comps.2.label>
+	
+	<!-- EN: Terrible -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.0.label>끔찍한</Execution_Mousekin_Heretic.comps.outcomeChances.0.label>
+	
+	<!-- EN: The {0} was terrible! The speech outlining the heresy charges was stuttered and incoherent, the heretics nearly broke free, and their final words of defiance stirred dissent before the flames reached them. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.0.description>{0}는 끔찍했습니다! 이단 혐의를 설명하는 연설은 더듬거리고 일관성이 없었으며, 이단자들은 거의 풀려날 뻔했고, 마지막 반항의 말은 불길이 그들에게 닿기도 전에 반대파를 자극했습니다.</Execution_Mousekin_Heretic.comps.outcomeChances.0.description>
+	
+	<!-- EN: Satisfying -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.1.label>만족스러운</Execution_Mousekin_Heretic.comps.outcomeChances.1.label>
+	
+	<!-- EN: The {0} was satisfying. The speech outlining the heresy charges was convincing, and the heretics begged for penance as the flames lapped at their bodies. Everyone agreed that justice was being upheld. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.1.description>{0}는 만족스러웠습니다. 이단 혐의를 설명하는 연설은 설득력이 있었고, 이단자들은 불길이 자신의 몸을 휘감는 동안 참회를 빌었습니다. 모두가 정의가 지켜지고 있다는 데 동의했습니다.</Execution_Mousekin_Heretic.comps.outcomeChances.1.description>
+	
+	<!-- EN: Spectacular -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.2.label>화려한</Execution_Mousekin_Heretic.comps.outcomeChances.2.label>
+	
+	<!-- EN: The {0} was spectacular! The speech outlining the heresy charges outraged and persuaded even the most merciful of spectators, and the crowd's frenzied cheers were only bested by the heretics' screams as the roaring flames consumed them. Not a single soul doubted the absolute truth and righteousness of the Word of Valerian. -->
+	<Execution_Mousekin_Heretic.comps.outcomeChances.2.description>{0}은 장관이었습니다! 이단 혐의를 설명하는 연설은 가장 자비로운 관중조차도 분노하고 설득했고, 군중의 열광적인 환호는 이단자들의 비명소리에 밀려 활활 타오르는 불길이 그들을 집어삼킬 뿐이었죠. 발레리안의 말씀의 절대적인 진리와 의로움을 의심하는 사람은 단 한 명도 없었습니다.</Execution_Mousekin_Heretic.comps.outcomeChances.2.description>
+	
 </LanguageData>

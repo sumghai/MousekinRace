@@ -182,6 +182,105 @@
 	</ThoughtDef>
 	
 	<ThoughtDef>
+		<defName>Humanlike_Thought_HereticExecutionTerrible</defName>
+		<thoughtClass>MousekinRace.Thought_AttendedRitual_StageByReligiousAffinity</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<!-- Non-Mousekin rodentkinds or non-player ideo colonists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>Such barbarism! I don't feel safe here anymore... </description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Apostates and Devotionists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>Everyone knew this was all wrong! I don't feel safe here anymore...</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<!-- Pious and nones -->
+			<li>
+				<label>Terrible heretic execution</label>
+				<description>None of the charges made any sense, and yet the prisoners were condemned to the fires. Is this what Valerian would have wanted?</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<!-- Inquisitionists -->
+			<li>
+				<label>Terrible heretic execution</label>
+				<description>Mediocre! How would anyone take the divine truth seriously after this display of incompetence?</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_HereticExecutionSatisfying</defName>
+		<thoughtClass>MousekinRace.Thought_AttendedRitual_StageByReligiousAffinity</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<!-- Non-Mousekin rodentkinds or non-player ideo colonists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>Such barbarism! I don't feel safe here anymore... </description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Apostates and Devotionists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>They're persecuting us! I don't feel safe here anymore...</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Pious and nones -->
+			<li>
+				<label>Satisfying heretic execution</label>
+				<description>Justice had to be served against those heretics. May Valerian the Wise be merciful and grant them a place in The Great Garden.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<!-- Inquisitionists -->
+			<li>
+				<label>Satisfying heretic execution</label>
+				<description>Serves those heretics right!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_HereticExecutionSpectacular</defName>
+		<thoughtClass>MousekinRace.Thought_AttendedRitual_StageByReligiousAffinity</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<!-- Non-Mousekin rodentkinds or non-player ideo colonists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>Such barbarism! I don't feel safe here anymore... </description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Apostates and Devotionists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>They're persecuting us! I don't feel safe here anymore...</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Pious and nones -->
+			<li>
+				<label>Spectacular heretic execution</label>
+				<description>To think such depraved individuals once lived among us... we were right to purge the impure from this community!</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+			<!-- Inquisitionists -->
+			<li>
+				<label>Spectacular heretic execution</label>
+				<description>The flames, the screams! Valerian be praised, for thy will has been done!</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Humanlike_Thought_PrejudicedTowardsMousekins</defName>
 		<thoughtClass>Thought_SituationalSocial</thoughtClass>
 		<workerClass>MousekinRace.ThoughtWorker_PrejudicedTowardsMousekins</workerClass>

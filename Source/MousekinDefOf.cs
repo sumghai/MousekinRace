@@ -145,6 +145,9 @@ namespace MousekinRace
         public static JobDef Mousekin_Job_PerformFlowerDance;
 
         [MayRequireIdeology]
+        public static JobDef Mousekin_Job_SetHereticOnFire;
+
+        [MayRequireIdeology]
         public static PreceptDef Mousekin_Precept_FlowersDesired;
 
         [MayRequireIdeology]

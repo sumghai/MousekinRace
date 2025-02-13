@@ -13,4 +13,10 @@
 		<reportString>performing Ancestral Flower Dance.</reportString>
 	</JobDef>
 	
+	<JobDef>
+		<defName>Mousekin_Job_SetHereticOnFire</defName>
+		<driverClass>MousekinRace.JobDriver_SetHereticOnFire</driverClass>
+		<reportString>setting TargetA on fire.</reportString>
+	</JobDef>
+	
 </Defs>

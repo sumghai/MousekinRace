@@ -2,9 +2,12 @@
 <LanguageData>
 
 	<!-- EN: eating at TargetA. -->
-	<Mousekin_Job_EatAtBarbecueTable.reportString>正在吃TargetA。</Mousekin_Job_EatAtBarbecueTable.reportString>
+	<Mousekin_Job_EatAtBarbecueTable.reportString>正在吃TargetA</Mousekin_Job_EatAtBarbecueTable.reportString>
 	
 	<!-- EN: performing Ancestral Flower Dance. -->
 	<Mousekin_Job_PerformFlowerDance.reportString>表演祭祖花舞</Mousekin_Job_PerformFlowerDance.reportString>
+	
+	<!-- EN: setting TargetA on fire. -->
+	<Mousekin_Job_SetHereticOnFire.reportString>放火烧TargetA</Mousekin_Job_SetHereticOnFire.reportString>
 	
 </LanguageData>

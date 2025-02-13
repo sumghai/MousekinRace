@@ -49,6 +49,8 @@
 	
 	<MousekinRace_MemeGoodwillImpact_Other>They are {0}</MousekinRace_MemeGoodwillImpact_Other>
 	
+	<MousekinRace_NonMousekinRodentkind>non-Mousekin rodentkind</MousekinRace_NonMousekinRodentkind>
+	
 	<MousekinRace_PlaceWorker_OnlyOnePerMap>Cannot build more than one {0} on the map.</MousekinRace_PlaceWorker_OnlyOnePerMap>
 	
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>{0} must be placed at least {1} cells away from any impassable structures.</MousekinRace_PlaceWorker_MustBeAwayFromOtherStructures>
