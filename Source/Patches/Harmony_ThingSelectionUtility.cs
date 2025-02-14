@@ -2,7 +2,7 @@
 using RimWorld;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     [HarmonyPatch(typeof(ThingSelectionUtility), nameof(ThingSelectionUtility.SelectableByMapClick))]
     public static class ThingSelectionUtility_SelectableByMapClick_PreventSelectionOfRootCellarContents

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Reflection.Emit;
 using Verse;
 
-namespace MousekinRace.Patches
+namespace MousekinRace
 {
     // If a ritual focus target is a Mousekin Town Square building,
     // change the pawn duty focus to the Town Square's center cell instead of the building itself
