@@ -25,15 +25,47 @@ namespace MousekinRace
         }
     }
     
-    // Disable role precept apparel requirements in Mousekin ideos/cultures
+    // Override role precept apparel requirements in Mousekin ideos/cultures
     [HarmonyPatch(typeof(Precept_Role), nameof(Precept_Role.GenerateNewApparelRequirements))]
-    public static class Harmony_Precept_Role_DisableApparelRequirementsForMousekinIdeos
+    public static class Harmony_Precept_Role_OverrideApparelRequirementsForMousekinIdeos
     {
-        static bool Prefix(ref List<PreceptApparelRequirement> __result, Ideo ___ideo)
+        static bool Prefix(Precept_Role __instance, ref List<PreceptApparelRequirement> __result, Ideo ___ideo)
         {
             if (___ideo.culture.IsMousekin()) 
             {
+                // Clear existing apparel requirements
                 __result = null;
+
+                // Mousekin Kingdom moralists should wear cassocks
+                if (___ideo.culture.IsMousekinKingdomLike() && __instance.def == PreceptDefOf.IdeoRole_Moralist)
+                {
+                    ThingDef kingdomMoralistApparel = MousekinDefOf.Mousekin_ApparelPriestCassock;
+                    PreceptApparelRequirement kingdomMoralistApparelRequirement = new()
+                    {
+                        requirement = new()
+                        {
+                            bodyPartGroupsMatchAny = kingdomMoralistApparel.apparel.bodyPartGroups,
+                            requiredDefs = [kingdomMoralistApparel]
+                        }
+                    };
+                    __result = [kingdomMoralistApparelRequirement];
+                }
+
+                // Indy Town Mousekin leaders and moralists should wear bycockets
+                if (___ideo.culture.IsMousekinIndyTownLike())
+                {
+                    ThingDef indyTownMoralistApparel = MousekinDefOf.Mousekin_HatWoodsman;
+                    PreceptApparelRequirement indyTownMoralistApparelRequirement = new()
+                    {
+                        requirement = new()
+                        {
+                            bodyPartGroupsMatchAny = indyTownMoralistApparel.apparel.bodyPartGroups,
+                            requiredDefs = [indyTownMoralistApparel]
+                        }
+                    };
+                    __result = [indyTownMoralistApparelRequirement];
+                }
+                
                 return false;
             }
             return true;

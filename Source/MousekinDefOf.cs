@@ -14,6 +14,9 @@ namespace MousekinRace
 
         public static ThingDef Mousekin_GlassesLarge;
 
+        public static ThingDef Mousekin_ApparelPriestCassock;
+        public static ThingDef Mousekin_HatWoodsman;
+
         public static ThingDef Mousekin_AnimalGiantCavy;
         public static ThingDef Mousekin_AnimalPudgemouse;
 
