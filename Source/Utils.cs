@@ -161,6 +161,7 @@ namespace MousekinRace
                         ideo.foundation.RandomizePrecepts(init: true, new IdeoGenerationParms(IdeoUIUtility.FactionForRandomization(ideo)));
                         ideo.RegenerateDescription();
                         ideo.anyPreceptEdited = false;
+                        ideo.style.RecalculateAvailableStyleItems(); // Also regen Mousekin hair and beard styles
                     }
                     Messages.Message("MousekinRace_MessageIdeoPreceptRegen_Done".Translate(mousekinIdeos.Count()), MessageTypeDefOf.TaskCompletion, false);
                 }
