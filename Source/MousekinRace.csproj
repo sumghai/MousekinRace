@@ -399,10 +399,12 @@
     <Compile Include="Patches\Harmony_RitualBehaviorWorker_Speech.cs" />
     <Compile Include="Patches\Harmony_RitualObligationTrigger_Date.cs" />
     <Compile Include="Patches\Harmony_RitualPatternDef.cs" />
+    <Compile Include="Patches\Harmony_RitualPosition_BesideThing.cs" />
     <Compile Include="Patches\Harmony_RitualRoleTag.cs" />
     <Compile Include="Patches\Harmony_RitualUtility.cs" />
     <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />
     <Compile Include="Patches\Harmony_SocialCardUtility.cs" />
+    <Compile Include="Patches\Harmony_SpectatorCellFinder.cs" />
     <Compile Include="Patches\Harmony_StatPart_RoleConversionPower.cs" />
     <Compile Include="Patches\Harmony_ThingSelectionUtility.cs" />
     <Compile Include="Patches\Harmony_ThinkNode_ConditionalBurning.cs" />

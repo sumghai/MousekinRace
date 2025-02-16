@@ -12,6 +12,8 @@ namespace MousekinRace
         
         public IntVec3 centerCellPos;
 
+        public IntVec3 speechSpeakerCellPos;
+
         private int count;
         
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
@@ -23,6 +25,9 @@ namespace MousekinRace
             centerCellPos = base.Position;
             centerCellPos.x += compTownSquare.Props.squareCenterOffset.x;
             centerCellPos.z += compTownSquare.Props.squareCenterOffset.z;
+            speechSpeakerCellPos = base.Position;
+            speechSpeakerCellPos.x += compTownSquare.Props.speechSpeakerOffset.x;
+            speechSpeakerCellPos.z += compTownSquare.Props.speechSpeakerOffset.z;
         }
 
         public override void DeSpawn(DestroyMode mode = DestroyMode.Vanish)

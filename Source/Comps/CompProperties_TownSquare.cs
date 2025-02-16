@@ -9,6 +9,8 @@ namespace MousekinRace
 
         public IntVec2 squareCenterOffset = IntVec2.Zero;
 
+        public IntVec2 speechSpeakerOffset = IntVec2.Zero;
+
         public GraphicData flagPoleGraphicData = null;
 
         public List<TerrainDef> acceptablePavedTerrainDefs;

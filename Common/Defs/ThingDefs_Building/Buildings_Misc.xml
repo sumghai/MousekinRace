@@ -51,6 +51,7 @@
 			<li Class="MousekinRace.CompProperties_TownSquare">
 				<squareSize>(13,13)</squareSize>
 				<squareCenterOffset>(0,-5)</squareCenterOffset>
+				<speechSpeakerOffset>(0,-2)</speechSpeakerOffset>
 				<flagPoleGraphicData>
 					<texPath>Things/Building/Misc/Mousekin_TownSquare_FlagPole</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
