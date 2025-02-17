@@ -133,6 +133,9 @@ namespace MousekinRace
         public static MemeDef Mousekin_IdeoMeme_RodentPurity;
 
         [MayRequireIdeology]
+        public static MemeDef HAR_Xenophilia;
+
+        [MayRequireIdeology]
         public static PreceptDef HAR_AlienRaces_Standard;
 
         [MayRequireIdeology]

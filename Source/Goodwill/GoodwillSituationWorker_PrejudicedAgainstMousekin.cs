@@ -30,7 +30,7 @@ namespace MousekinRace
 
         private bool Applies(Faction a, Faction b)
         {
-            return Utils.IsMousekin(a.def.basicMemberKind) && !Utils.IsMousekin(b.def.basicMemberKind);
+            return Utils.IsMousekin(a.def.basicMemberKind) && !Utils.IsMousekin(b.def.basicMemberKind) && !b.ideos.PrimaryIdeo.HasMeme(MousekinDefOf.HAR_Xenophilia);
         }
     }
 }
