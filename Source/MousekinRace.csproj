@@ -397,10 +397,13 @@
     <Compile Include="Patches\Harmony_RitualBehaviorWorker.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker_Conversion.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker_Speech.cs" />
+    <Compile Include="Patches\Harmony_RitualObligationTargetWorker_AnyRitualSpotIdeogramOrAltar.cs" />
     <Compile Include="Patches\Harmony_RitualObligationTrigger_Date.cs" />
     <Compile Include="Patches\Harmony_RitualPatternDef.cs" />
-    <Compile Include="Patches\Harmony_RitualPosition_BesideThing.cs" />
+    <Compile Include="Patches\Harmony_RitualPosition_Generic.cs" />
+    <Compile Include="Patches\Harmony_RitualRoleBehavior.cs" />
     <Compile Include="Patches\Harmony_RitualRoleTag.cs" />
+    <Compile Include="Patches\Harmony_RitualStage.cs" />
     <Compile Include="Patches\Harmony_RitualUtility.cs" />
     <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />
     <Compile Include="Patches\Harmony_SocialCardUtility.cs" />

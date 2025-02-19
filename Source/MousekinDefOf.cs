@@ -121,6 +121,12 @@ namespace MousekinRace
         public static QuestScriptDef EndGame_RoyalAscent;
 
         [MayRequireIdeology]
+        public static DutyDef AcceptRole;
+
+        [MayRequireIdeology]
+        public static DutyDef SpectateCircle;
+
+        [MayRequireIdeology]
         public static MemeDef AnimalPersonhood;
 
         [MayRequireIdeology]
