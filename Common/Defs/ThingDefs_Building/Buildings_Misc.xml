@@ -37,6 +37,8 @@
 		<designationCategory>Misc</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>900</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<constructEffect>ConstructWood</constructEffect>

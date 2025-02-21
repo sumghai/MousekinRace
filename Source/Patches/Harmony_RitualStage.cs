@@ -4,16 +4,26 @@ using Verse.AI;
 
 namespace MousekinRace
 {
-    // If a ritual focus target is a Mousekin Town Square, and the default duty for any given ritual stage is SpectateCircle,
-    // dynamically change to the regular Spectate instead (which has been patched elsewhere to correctly handle Town Squares)
+    // If a ritual focus target is a Mousekin Town Square, conditionally change duties to different ones
+    // that have been patched elsewhere to correctly handle Town Squares:
+    // - SpectateCircle -> Spectate
+    // - DeliverPawnToAltar -> DeliverPawnToCell
     [HarmonyPatch(typeof(RitualStage), nameof(RitualStage.GetDuty))]
-    public class Harmony_RitualStage_GetDuty_OverrideSpectateDutyForTownSquare
+    public class Harmony_RitualStage_GetDuty_OverrideDutiesForTownSquare
     {
         static void Postfix(ref DutyDef __result, LordJob_Ritual ritual)
         {
-            if (ritual.selectedTarget.Thing is Building_TownSquare && __result == MousekinDefOf.SpectateCircle)
+            if (ritual.selectedTarget.Thing is Building_TownSquare)
             {
-                __result = DutyDefOf.Spectate;
+                if (__result == MousekinDefOf.SpectateCircle)
+                {
+                    __result = DutyDefOf.Spectate;
+                }
+
+                if (__result == MousekinDefOf.DeliverPawnToAltar)
+                {
+                    __result = MousekinDefOf.DeliverPawnToCell;
+                }
             }
         }
     }

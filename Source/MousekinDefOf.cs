@@ -124,6 +124,15 @@ namespace MousekinRace
         public static DutyDef AcceptRole;
 
         [MayRequireIdeology]
+        public static DutyDef DeliverPawnToAltar;
+
+        [MayRequireIdeology]
+        public static DutyDef DeliverPawnToCell;
+
+        [MayRequireIdeology]
+        public static DutyDef LayDownAwake;
+
+        [MayRequireIdeology]
         public static DutyDef SpectateCircle;
 
         [MayRequireIdeology]
