@@ -372,6 +372,7 @@
     <Compile Include="Patches\Harmony_Game.cs" />
     <Compile Include="Patches\Harmony_Blueprint_Build.cs" />
     <Compile Include="Patches\Harmony_Ideo.cs" />
+    <Compile Include="Patches\Harmony_IdeoBuildingPresenceDemand.cs" />
     <Compile Include="Patches\Harmony_IdeoUIUtility.cs" />
     <Compile Include="Patches\Harmony_IncidentWorker_CaravanArrivalTributeCollector.cs" />
     <Compile Include="Patches\Harmony_IncidentWorker_GiveQuest.cs" />
