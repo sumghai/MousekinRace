@@ -17,6 +17,15 @@
 				</value>
 			</li>
 			
+			<!-- Add pines to temperate forests (IRL pines can and do grow well in such forests, seems to be an oversight by Tynan) -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+				<value>
+					<Plant_TreePine>0.1</Plant_TreePine>
+				</value>
+			</li>
+			
 			<!-- Add wild giant cavies to boreal and temperate forests -->
 
 			<li Class="PatchOperationAdd">
