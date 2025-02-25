@@ -21,7 +21,7 @@ namespace MousekinRace
 
         public bool IsPerformingFlowerDanceNow(PawnDrawParms parms)
         { 
-            return parms.pawn.CurJob?.def == MousekinDefOf.Mousekin_Job_PerformFlowerDance;
+            return parms.pawn.CurJob != null && parms.pawn.CurJob.def == MousekinDefOf.Mousekin_Job_PerformFlowerDance;
         }
     }
 }
