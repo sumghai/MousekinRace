@@ -361,6 +361,7 @@
     <Compile Include="Jobs\LordToil_ChurchService.cs" />
     <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
+    <Compile Include="Patches\Harmony_DesignationCategoryDef.cs" />
     <Compile Include="Patches\Harmony_Designator_Build.cs" />
     <Compile Include="Patches\Harmony_AttachableThing.cs" />
     <Compile Include="Patches\Harmony_Frame.cs" />
