@@ -114,13 +114,24 @@ namespace MousekinRace
     [HarmonyPatch(typeof(IdeoFoundation), nameof(IdeoFoundation.RandomizePrecepts))]
     public static class Harmony_IdeoFoundation_RandomizePrecepts_CleanUpBuildingPreceptsForMousekin
     {
-        public static void Postfix(ref IdeoFoundation __instance)
+        public static void Postfix(ref IdeoFoundation __instance, IdeoGenerationParms parms)
         {
             if (__instance.ideo.culture.IsMousekin())
             {
                 List<ThingDef> hardcodedRitualBuildings = __instance.ideo.memes.Where(m => m.requiredRituals != null).SelectMany(x => x.requiredRituals).Select(x => x.building).ToList();
 
                 __instance.ideo.precepts.RemoveAll(x => x is Precept_RitualSeat || (x is Precept_Building building && !hardcodedRitualBuildings.Contains(building.thingDef)));
+
+                // Explicitly add Town Square building precept to Indy Town ideo
+                // (Kingdom ideo automatically adds a town square via the Purging Flames heretic execution)
+                if (__instance.ideo.culture.IsMousekinIndyTownLike())
+                {
+                    Precept_Building precept_Building = (Precept_Building)PreceptMaker.MakePrecept(PreceptDefOf.IdeoBuilding);
+                    __instance.ideo.AddPrecept(precept_Building, true, parms.forFaction);
+                    precept_Building.ThingDef = MousekinDefOf.Mousekin_TownSquare;
+                    precept_Building.name = MousekinDefOf.Mousekin_TownSquare.LabelCap;
+                    precept_Building.presenceDemand.roomRequirements.Clear();
+                }
             }
         }
     }
