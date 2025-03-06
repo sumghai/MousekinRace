@@ -575,13 +575,15 @@
 	<Mousekin_Adulthood_Housekeeper.titleShort>女管家</Mousekin_Adulthood_Housekeeper.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] served as the housekeeper for a very wealthy Mousekin landowner, and was responsible for supervising all the other female servants in the household, as well as managing the food stores, china closet and linen cupboard.\n\n[PAWN_pronoun] was well-regarded for [PAWN_possessive] ability to cut down on household expenses while still exceeding the expectations of [PAWN_possessive] master's family. -->
-	<Mousekin_Adulthood_Housekeeper.description>[PAWN_nameDef]担任一位非常富有的白鼠族地主的女管家，负责管理家中所有其他女仆，以及食物储藏室、瓷器柜和亚麻橱柜。\n\n[PAWN_pronoun]在减少家庭开支的同时，还超出了主人家人的期望，因此受到了好评。</Mousekin_Adulthood_Housekeeper.description>		<!-- EN: Human servant -->
+	<Mousekin_Adulthood_Housekeeper.description>[PAWN_nameDef]担任一位非常富有的白鼠族地主的女管家，负责管理家中所有其他女仆，以及食物储藏室、瓷器柜和亚麻橱柜。\n\n[PAWN_pronoun]在减少家庭开支的同时，还超出了主人家人的期望，因此受到了好评。</Mousekin_Adulthood_Housekeeper.description>
+	
+	<!-- EN: Human servant -->
 	<Mousekin_Adulthood_HumanServant.title>人类仆人</Mousekin_Adulthood_HumanServant.title>
 	
 	<!-- EN: Servant -->
 	<Mousekin_Adulthood_HumanServant.titleShort>仆人</Mousekin_Adulthood_HumanServant.titleShort>
 	
-	<!-- EN: While most humans despite Mousekins, a few girls like [PAWN_nameDef] found work in human towns as live-in housekeepers and assistants.\n\n[PAWN_pronoun] was good at preparing meals, laundering clothes and running errands, and learned much about the outside world beyond the Mousekin Kingdom, but was often ridiculed by [PAWN_possessive] human master's visitors for being a "talking animal".\n\nDespite this harassment, [PAWN_pronoun] stayed on because [PAWN_possessive] weekly pay was far more than what [PAWN_possessive] entire family back home could ever dream of collectively earning in a month. -->
+	<!-- EN: While most humans despise Mousekins, a few girls like [PAWN_nameDef] found work in human towns as live-in housekeepers and assistants.\n\n[PAWN_pronoun] was good at preparing meals, laundering clothes and running errands, and learned much about the outside world beyond the Mousekin Kingdom, but was often ridiculed by [PAWN_possessive] human master's visitors for being a "talking animal".\n\nDespite this harassment, [PAWN_pronoun] stayed on because [PAWN_possessive] weekly pay was far more than what [PAWN_possessive] entire family back home could ever dream of collectively earning in a month. -->
 	<Mousekin_Adulthood_HumanServant.description>虽然大多数人类鄙视白鼠族，但少数像[PAWN_nameDef]的女孩在人类城镇找到了住家管家和助理的工作。\n\n[PAWN_pronoun]擅长做饭、洗衣服和跑腿，也从中对白鼠族王国之外的世界了解甚多，但[PAWN_pronoun]经常被主人的来访者嘲讽为"会说话的动物"。\n\n尽管有这种骚扰，[PAWN_pronoun]还是留下来了，因为[PAWN_pronoun]每周的工资远远超过[PAWN_pronoun]在家乡的全家人梦寐以求的一个月集体收入。</Mousekin_Adulthood_HumanServant.description>
 	
 	<!-- EN: Hunter -->
