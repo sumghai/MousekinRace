@@ -7,6 +7,12 @@
 	<!-- EN: Slow-burning beeswax candles used in lamps and lanterns. -->
 	<Mousekin_Candle.description>ランプやランタンに使われる、ゆっくりと燃える蜜蝋のキャンドル.</Mousekin_Candle.description>
 	
+	<!-- EN: Charcoal -->
+	<Mousekin_Charcoal.label>木炭</Mousekin_Charcoal.label>
+	
+	<!-- EN: Lightweight carbon residue formed by strongly heating wood in the absence of oxygen to remove all water and volatile compounds. Can be used as an efficient source of heating fuel, or for making gunpowder. -->
+	<Mousekin_Charcoal.description>酸素のない状態で木材を強力に加熱し、水分や揮発性化合物をすべて除去してできた軽量の炭素残渣.暖房用燃料や火薬の原料として利用できます.</Mousekin_Charcoal.description>
+	
 	<!-- EN: Clockwork Mechanism -->
 	<Mousekin_ClockworkComponent.label>時計仕掛けの機構</Mousekin_ClockworkComponent.label>
 	
