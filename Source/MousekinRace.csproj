@@ -318,6 +318,7 @@
     <Compile Include="Buildings\Building_DoorSingle.cs" />
     <Compile Include="Buildings\Building_TownSquare.cs" />
     <Compile Include="ChurchService\ChurchService_Utils.cs" />
+    <Compile Include="Comps\CompAllowedFuelTypes.cs" />
     <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
     <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
@@ -398,6 +399,7 @@
     <Compile Include="Patches\Harmony_QuestNode_GetFaction.cs" />
     <Compile Include="Patches\Harmony_QuestPart_EndGame.cs" />
     <Compile Include="Patches\Harmony_RecipeDef.cs" />
+    <Compile Include="Patches\Harmony_RefuelWorkGiverUtility.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker_Conversion.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker_Speech.cs" />
@@ -532,6 +534,7 @@
     <Compile Include="UI\Dialog_AllegianceQueuedNewColonists.cs" />
     <Compile Include="UI\Dialog_AllegianceRenamePlayerFaction.cs" />
     <Compile Include="UI\ITab_ContentsCellar.cs" />
+    <Compile Include="UI\ITab_FuelFilter.cs" />
     <Compile Include="UI\MainButtonWorker_Allegiance.cs" />
     <Compile Include="UI\MainTabWindow_Allegiance.cs" />
     <Compile Include="UI\Page_IdeoFixedByScenario.cs" />

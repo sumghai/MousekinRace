@@ -11,6 +11,8 @@ namespace MousekinRace
 
         public static bool LwmDeepStorageIsActive => ModsConfig.IsActive("LWM.DeepStorage");
 
+        public static bool LwmFuelFilterIsActive => ModsConfig.IsActive("LWM.FuelFilter");
+
         public static bool OrionHospitalityIsActive => ModsConfig.IsActive("Orion.Hospitality");
     }
 }

@@ -50,6 +50,7 @@
 		<surfaceType>Item</surfaceType>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
+			<li>MousekinRace.ITab_FuelFilter</li>
 		</inspectorTabs>
 		<constructEffect />
 		<building>
@@ -65,10 +66,14 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
 					</thingDefs>
 				</fuelFilter>
 				<initialFuelPercent>1</initialFuelPercent>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>10</glowRadius>

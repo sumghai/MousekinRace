@@ -66,6 +66,7 @@
 		<surfaceType>Item</surfaceType>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
+			<li>MousekinRace.ITab_FuelFilter</li>
 		</inspectorTabs>
 		<constructEffect>ConstructMetal</constructEffect>
 		<repairEffect>ConstructMetal</repairEffect>
@@ -81,10 +82,14 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
 					</thingDefs>
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
 			</li>
 			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
 				<emissiveGraphicData>
@@ -231,6 +236,7 @@
 		<surfaceType>Item</surfaceType>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
+			<li>MousekinRace.ITab_FuelFilter</li>
 		</inspectorTabs>
 		<constructEffect />
 		<building>
@@ -243,10 +249,14 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
 					</thingDefs>
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
 			</li>
 			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
 				<emissiveGraphicData>
@@ -458,6 +468,7 @@
 		<surfaceType>Item</surfaceType>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
+			<li>MousekinRace.ITab_FuelFilter</li>
 		</inspectorTabs>
 		<constructEffect />
 		<building>
@@ -470,10 +481,14 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
 					</thingDefs>
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
 			</li>
 			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
 				<emissiveGraphicData>
