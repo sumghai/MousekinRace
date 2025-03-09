@@ -46,7 +46,9 @@
 	<Mousekin_Childhood_Bastard.titleShortFemale>私生女</Mousekin_Childhood_Bastard.titleShortFemale>
 	
 	<!-- EN: As the product of an illict affair between a wealthy Mousekin landowner and his scullery maid, [PAWN_nameDef] had no legal status in Mousekin society.\n\nTo avoid further scandal, the landowner quietly sent them away to a distant countryside cottage, where mother and child led simple lives as peasants. -->
-	<Mousekin_Childhood_Bastard.description>[PAWN_nameDef]作为白鼠族富有的地主和他的洗碗女佣偷情的产物，因此在白鼠族社会中没有合法地位。\n\n为了避免进一步的丑闻，地主悄悄将他们送到了遥远的乡下小屋，让母子过着简朴的农民生活。</Mousekin_Childhood_Bastard.description>		<!-- EN: Apprentice blacksmith -->
+	<Mousekin_Childhood_Bastard.description>[PAWN_nameDef]作为白鼠族富有的地主和他的洗碗女佣偷情的产物，因此在白鼠族社会中没有合法地位。\n\n为了避免进一步的丑闻，地主悄悄将他们送到了遥远的乡下小屋，让母子过着简朴的农民生活。</Mousekin_Childhood_Bastard.description>
+	
+	<!-- EN: Apprentice blacksmith -->
 	<Mousekin_Childhood_BlacksmithApprentice.title>铁匠学徒</Mousekin_Childhood_BlacksmithApprentice.title>
 	
 	<!-- EN: Apprentice blacksmith -->
@@ -89,7 +91,9 @@
 	<Mousekin_ChildHood_CookApprentice.titleShort>厨师学徒</Mousekin_ChildHood_CookApprentice.titleShort>
 	
 	<!-- EN: After [PAWN_possessive] talent in the kitchen was discovered at an young age, [PAWN_nameDef]'s parents arranged for [PAWN_objective] to be taken in as an apprentice to a Mousekin cook who worked at the village inn.\n\n[PAWN_pronoun] spent [PAWN_possessive] days washing dirty dishes, cleaning benchtops and taking out the garbage, while [PAWN_possessive] master toiled in front of the stove and dealt with customers.\n\nIn time, [PAWN_nameDef] learned to prepare basic ingredients and soup bases, as well as how to choose and utilize the best herbs and nuts in a variety of dishes. -->
-	<Mousekin_ChildHood_CookApprentice.description>[PAWN_nameDef]小时候在厨房的天分被发现之后，[PAWN_possessive]的父母安排[PAWN_objective]被村里一个在旅店的白鼠族厨师收为学徒。\n\n[PAWN_possessive]师傅每天在炉子前辛勤工作并与客户打交道的时候，[PAWN_objective]负责洗碗、清洁工作台和倒垃圾。\n\n随着时间的推移，[PAWN_nameDef]学会了准备基本食材和汤底，以及如何在各种菜肴中选择和使用最好的香草和坚果。</Mousekin_ChildHood_CookApprentice.description>		<!-- EN: Apprentice cooper -->
+	<Mousekin_ChildHood_CookApprentice.description>[PAWN_nameDef]小时候在厨房的天分被发现之后，[PAWN_possessive]的父母安排[PAWN_objective]被村里一个在旅店的白鼠族厨师收为学徒。\n\n[PAWN_possessive]师傅每天在炉子前辛勤工作并与客户打交道的时候，[PAWN_objective]负责洗碗、清洁工作台和倒垃圾。\n\n随着时间的推移，[PAWN_nameDef]学会了准备基本食材和汤底，以及如何在各种菜肴中选择和使用最好的香草和坚果。</Mousekin_ChildHood_CookApprentice.description>
+	
+	<!-- EN: Apprentice cooper -->
 	<Mousekin_Childhood_CooperApprentice.title>桶匠学徒</Mousekin_Childhood_CooperApprentice.title>
 	
 	<!-- EN: Apprentice cooper -->
@@ -123,7 +127,9 @@
 	<Mousekin_Childhood_GuardenerApprenticeOrphan.titleShort>见习花园卫女</Mousekin_Childhood_GuardenerApprenticeOrphan.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] was orphaned as a young pup after a Grimalkin attack on [PAWN_possessive] home village left [PAWN_possessive] family dead, but [PAWN_pronoun] was rescued by a group of Guardeners that fought off the invaders.\n\n[PAWN_pronoun] grew up under the care of [PAWN_possessive] new older "sisters", and when [PAWN_pronoun] was old enough to swing one of the practice wooden swords around, the Lodge Mother decided to formally accept [PAWN_objective] as an Apprentice Guardener, training [PAWN_objective] to tend and protect the flower gardens of the Mousekin Kingdom. -->
-	<Mousekin_Childhood_GuardenerApprenticeOrphan.description>[PAWN_nameDef]在黑猫族军团攻击[PAWN_possessive]家乡后成为孤儿，[PAWN_possessive]一家人都死了，但[PAWN_pronoun]被一群击退入侵者的花园卫女救出。\n\n[PAWN_pronoun]后来在她新的"姊姊"们的照顾下长大，并且当[PAWN_pronoun]大到可以挥舞一把练习用的木剑时，会所长母决定正式接受[PAWN_objective]作为一名见习花园卫女，训练[PAWN_objective]照料和保护白鼠族王国的花园。</Mousekin_Childhood_GuardenerApprenticeOrphan.description>		<!-- EN: Nomad child -->
+	<Mousekin_Childhood_GuardenerApprenticeOrphan.description>[PAWN_nameDef]在黑猫族军团攻击[PAWN_possessive]家乡后成为孤儿，[PAWN_possessive]一家人都死了，但[PAWN_pronoun]被一群击退入侵者的花园卫女救出。\n\n[PAWN_pronoun]后来在她新的"姊姊"们的照顾下长大，并且当[PAWN_pronoun]大到可以挥舞一把练习用的木剑时，会所长母决定正式接受[PAWN_objective]作为一名见习花园卫女，训练[PAWN_objective]照料和保护白鼠族王国的花园。</Mousekin_Childhood_GuardenerApprenticeOrphan.description>
+	
+	<!-- EN: Nomad child -->
 	<Mousekin_Childhood_NomadChild.title>游民鼠童</Mousekin_Childhood_NomadChild.title>
 	
 	<!-- EN: Nomad kid -->
@@ -166,7 +172,9 @@
 	<Mousekin_Childhood_KnightSquire.titleShort>骑士侍从</Mousekin_Childhood_KnightSquire.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] left [PAWN_possessive] home village after becoming apprenticed to a knight of the Mousekin Kingdom.\n\n[PAWN_pronoun] spent [PAWN_possessive] days cleaning [PAWN_possessive] master's armor and weapons, as well as looking after [PAWN_possessive] master's giant cavy mount. In return, [PAWN_possessive] master trained [PAWN_objective] in basic swordsmanship and aspects of chivalry. -->
-	<Mousekin_Childhood_KnightSquire.description>[PAWN_nameDef]在成为白鼠族王国的骑士侍从后离开了[PAWN_possessive]家乡。\n\n[PAWN_pronoun]每天清洁与保养主人的盔甲和武器，以及照顾主人的乘用巨豚鼠。作为回报，[PAWN_possessive]主人训练了他基本的剑术和骑士精神。</Mousekin_Childhood_KnightSquire.description>		<!-- EN: Laboratory mouse -->
+	<Mousekin_Childhood_KnightSquire.description>[PAWN_nameDef]在成为白鼠族王国的骑士侍从后离开了[PAWN_possessive]家乡。\n\n[PAWN_pronoun]每天清洁与保养主人的盔甲和武器，以及照顾主人的乘用巨豚鼠。作为回报，[PAWN_possessive]主人训练了他基本的剑术和骑士精神。</Mousekin_Childhood_KnightSquire.description>
+	
+	<!-- EN: Laboratory mouse -->
 	<Mousekin_Childhood_LabMouse.title>实验鼠</Mousekin_Childhood_LabMouse.title>
 	
 	<!-- EN: Lab mouse -->
@@ -200,7 +208,9 @@
 	<Mousekin_Childhood_MasonApprentice.titleShort>石匠学徒</Mousekin_Childhood_MasonApprentice.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] joined a Mousekin stonemason's guild that arrived in [PAWN_possessive] hometown to build defensive fortifications there. [PAWN_pronoun] and the other apprentices would fetch water, tend the fireplace and swept the shop floor clean while their masters cut and shaped stone into blocks.\n\nAfter the fortifications were finally completed several years later, [PAWN_pronoun] bid farewell to [PAWN_possessive] family and followed the guild to their next job. -->
-	<Mousekin_Childhood_MasonApprentice.description>[PAWN_nameDef]加入了来[PAWN_pronoun]家乡建造防御工事的白鼠族石匠行会。[PAWN_pronoun]和其他学徒会打水，照料壁炉，打扫工房地板，而他们的师傅们则将石头切割成型。\n\n几年后，当工事终于完工时，[PAWN_pronoun]告别了家人，并跟随了行会到他们下一份的工作。</Mousekin_Childhood_MasonApprentice.description>		<!-- EN: Noble heir / Noble heiress -->
+	<Mousekin_Childhood_MasonApprentice.description>[PAWN_nameDef]加入了来[PAWN_pronoun]家乡建造防御工事的白鼠族石匠行会。[PAWN_pronoun]和其他学徒会打水，照料壁炉，打扫工房地板，而他们的师傅们则将石头切割成型。\n\n几年后，当工事终于完工时，[PAWN_pronoun]告别了家人，并跟随了行会到他们下一份的工作。</Mousekin_Childhood_MasonApprentice.description>
+	
+	<!-- EN: Noble heir / Noble heiress -->
 	<Mousekin_Childhood_NobleHeir.title>贵族继承人</Mousekin_Childhood_NobleHeir.title>
 	<Mousekin_Childhood_NobleHeir.titleFemale>贵族继承人</Mousekin_Childhood_NobleHeir.titleFemale>
 	
@@ -238,7 +248,9 @@
 	<Mousekin_Childhood_RoyalChild.titleShortFemale>公主</Mousekin_Childhood_RoyalChild.titleShortFemale>
 	
 	<!-- EN: [PAWN_nameDef] lived in opulent luxury at the Royal Palace, with every need and whim catered for by [PAWN_possessive] personal retinue of servants.\n\nIn preparation for [PAWN_possessive] future role in the very large extended Royal Family of the Mousekin Kingdom, [PAWN_pronoun] was extensively educated in high society etiquette, history, literature and the arts. -->
-	<Mousekin_Childhood_RoyalChild.description>[PAWN_nameDef]在皇宫里过着奢华的生活，有自己的随从仆人来满足[PAWN_possessive]每一个需要和愿望。\n\n为了准备[PAWN_objective]未来在白鼠氏族王国庞大的皇室中扮演的角色，[PAWN_pronoun]广泛地受过上流社会礼仪、历史、文学和艺术方面的教育。</Mousekin_Childhood_RoyalChild.description>		<!-- EN: Apprentice seamstress -->
+	<Mousekin_Childhood_RoyalChild.description>[PAWN_nameDef]在皇宫里过着奢华的生活，有自己的随从仆人来满足[PAWN_possessive]每一个需要和愿望。\n\n为了准备[PAWN_objective]未来在白鼠氏族王国庞大的皇室中扮演的角色，[PAWN_pronoun]广泛地受过上流社会礼仪、历史、文学和艺术方面的教育。</Mousekin_Childhood_RoyalChild.description>
+	
+	<!-- EN: Apprentice seamstress -->
 	<Mousekin_Childhood_SeamstressApprentice.title>裁缝学徒</Mousekin_Childhood_SeamstressApprentice.title>
 	
 	<!-- EN: Apprentice seamstress -->
@@ -283,7 +295,9 @@
 	<Mousekin_Childhood_SlaveChild.titleShort>鼠童奴</Mousekin_Childhood_SlaveChild.titleShort>
 	
 	<!-- EN: When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents asked a passing Mousekin trader to help find [PAWN_objective] an apprenticeship.\n\nInstead, the trader secretly sold [PAWN_objective] to a group of Mousekin slavers, who regularly beat and abused [PAWN_objective]. This left [PAWN_objective] with a lifelong fear of authority. -->
-	<Mousekin_Childhood_SlaveChild.description>当[PAWN_nameDef]的农民家庭再也无法养活[PAWN_objective]和[PAWN_possessive]许多兄弟姐妹时，[PAWN_possessive]父母请了一位路过的白鼠族商人帮[PAWN_objective]寻找学徒机会。\n\n然而，商人偷偷将[PAWN_objective]卖给了一群经常殴打和虐待[PAWN_objective]的奴隶贩子。这让[PAWN_objective]对权威产生了终生的恐惧。</Mousekin_Childhood_SlaveChild.description>		<!-- EN: Sole survivor -->
+	<Mousekin_Childhood_SlaveChild.description>当[PAWN_nameDef]的农民家庭再也无法养活[PAWN_objective]和[PAWN_possessive]许多兄弟姐妹时，[PAWN_possessive]父母请了一位路过的白鼠族商人帮[PAWN_objective]寻找学徒机会。\n\n然而，商人偷偷将[PAWN_objective]卖给了一群经常殴打和虐待[PAWN_objective]的奴隶贩子。这让[PAWN_objective]对权威产生了终生的恐惧。</Mousekin_Childhood_SlaveChild.description>
+	
+	<!-- EN: Sole survivor -->
 	<Mousekin_Childhood_SoleSurvivor.title>唯一幸存者</Mousekin_Childhood_SoleSurvivor.title>
 	
 	<!-- EN: Survivor -->
@@ -308,7 +322,9 @@
 	<Mousekin_Childhood_VillageChild.titleShort>村庄鼠童</Mousekin_Childhood_VillageChild.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] grew up in a village in the Mousekin Kingdom, where [PAWN_pronoun] learned to read and write at the local schoolhouse during the day, and helped [PAWN_possessive] parents around the house in the afternoons. -->
-	<Mousekin_Childhood_VillageChild.description>[PAWN_nameDef]在白鼠族王国的一个村庄长大，白天[PAWN_pronoun]在当地的学校学习读书和写字，下午在家里帮助父母做家务。</Mousekin_Childhood_VillageChild.description>		<!-- EN: Abandoned soldier -->
+	<Mousekin_Childhood_VillageChild.description>[PAWN_nameDef]在白鼠族王国的一个村庄长大，白天[PAWN_pronoun]在当地的学校学习读书和写字，下午在家里帮助父母做家务。</Mousekin_Childhood_VillageChild.description>
+	
+	<!-- EN: Abandoned soldier -->
 	<Mousekin_Adulthood_AbandonedSoldier.title>遗弃士兵</Mousekin_Adulthood_AbandonedSoldier.title>
 	
 	<!-- EN: Abandoned -->
@@ -333,7 +349,9 @@
 	<Mousekin_Adulthood_Ambassador.titleShort>大使</Mousekin_Adulthood_Ambassador.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] was appointed as an ambassador for the Mousekin Kingdom for [PAWN_possessive] persuasive abilities, which [PAWN_pronoun] put to good use in swaying and influencing representatives of other non-Mousekin factions - a particularly difficult feat, as Mousekins are generally not taken seriously by other races due to their short stature, squeaky voices and obstensibly cute appearance.\n\nHowever, like any other Mousekin, [PAWN_pronoun] is easily offended by the stereotype of mice eating cheese, and has on several occassions flown into a rage after being served with only cheese for food at diplomatic dinners held by ignorant non-Mousekins. -->
-	<Mousekin_Adulthood_Ambassador.description>[PAWN_nameDef]因其说服能力，而被任命为白鼠族王国的大使。\n\n[PAWN_pronoun]很好地利用了这一能力来动摇和影响其他非白鼠族派系的代表——这是一项特别困难的壮举，因为白鼠族的矮小身材、吱吱作响的声音和明显可爱的外表造成其他种族对他们的歧视。\n\n然而，像其他任何白鼠族一样，[PAWN_pronoun]很容易被老鼠吃芝士的刻板印象所冒犯，并且有几次因为在无知的非白鼠族举行的外交晚宴上只给[PAWN_objective]上了芝士而勃然大怒。</Mousekin_Adulthood_Ambassador.description>		<!-- EN: Blacksmith -->
+	<Mousekin_Adulthood_Ambassador.description>[PAWN_nameDef]因其说服能力，而被任命为白鼠族王国的大使。\n\n[PAWN_pronoun]很好地利用了这一能力来动摇和影响其他非白鼠族派系的代表——这是一项特别困难的壮举，因为白鼠族的矮小身材、吱吱作响的声音和明显可爱的外表造成其他种族对他们的歧视。\n\n然而，像其他任何白鼠族一样，[PAWN_pronoun]很容易被老鼠吃芝士的刻板印象所冒犯，并且有几次因为在无知的非白鼠族举行的外交晚宴上只给[PAWN_objective]上了芝士而勃然大怒。</Mousekin_Adulthood_Ambassador.description>
+	
+	<!-- EN: Blacksmith -->
 	<Mousekin_Adulthood_Blacksmith.title>铁匠</Mousekin_Adulthood_Blacksmith.title>
 	
 	<!-- EN: Blacksmith -->
@@ -385,7 +403,9 @@
 	<Mousekin_Adulthood_ChefHead.titleShort>主厨</Mousekin_Adulthood_ChefHead.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] served as the head chef in the household staff of a Mousekin nobleman, and was responsible for preparing all the main courses and meat dishes in every meal.\n\n[PAWN_pronoun] also supervised dozens of specialist chefs and line cooks in preparing elaborate feasts for [PAWN_possessive] master's guests. -->
-	<Mousekin_Adulthood_ChefHead.description>[PAWN_nameDef]在一个白鼠族贵族的家眷中担任主厨，负责准备每顿饭的所有主菜和荤菜。\n\n[PAWN_pronoun]还督导数十名专业厨师和线厨师为主人的客人精心准备宴席。</Mousekin_Adulthood_ChefHead.description>		<!-- EN: Pastry chef -->
+	<Mousekin_Adulthood_ChefHead.description>[PAWN_nameDef]在一个白鼠族贵族的家眷中担任主厨，负责准备每顿饭的所有主菜和荤菜。\n\n[PAWN_pronoun]还督导数十名专业厨师和线厨师为主人的客人精心准备宴席。</Mousekin_Adulthood_ChefHead.description>
+	
+	<!-- EN: Pastry chef -->
 	<Mousekin_Adulthood_ChefPastry.title>糕点厨师</Mousekin_Adulthood_ChefPastry.title>
 	
 	<!-- EN: Chef -->
@@ -437,7 +457,9 @@
 	<Mousekin_Adulthood_DeserterCoward.titleShort>逃兵</Mousekin_Adulthood_DeserterCoward.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] served as a pikeman in the Mousekin Kingdom's army.\n\nDuring a battle with another, rival Mousekin Kingdom, [PAWN_pronoun] was overcome with fear of the charging enemy and fled, causing the defensive formation [PAWN_pronoun] was in to collapse and rout. Knowing that [PAWN_pronoun] would be executed for cowardice, [PAWN_pronoun] decided to take [PAWN_possessive] chances and flee into the wilderness. -->
-	<Mousekin_Adulthood_DeserterCoward.description>[PAWN_nameDef]在白鼠族王国的军队中担任长枪兵。\n\n在与另一个敌对的白鼠族王国的战斗中，[PAWN_pronoun]因害怕冲锋的敌人而逃跑，导致[PAWN_pronoun]所在的防御阵型崩溃与溃败。\n\n知道自己会因为懦弱而被处死的[PAWN_pronoun]，并决定逃到荒野中。</Mousekin_Adulthood_DeserterCoward.description>		<!-- EN: Greedy Deserter -->
+	<Mousekin_Adulthood_DeserterCoward.description>[PAWN_nameDef]在白鼠族王国的军队中担任长枪兵。\n\n在与另一个敌对的白鼠族王国的战斗中，[PAWN_pronoun]因害怕冲锋的敌人而逃跑，导致[PAWN_pronoun]所在的防御阵型崩溃与溃败。\n\n知道自己会因为懦弱而被处死的[PAWN_pronoun]，并决定逃到荒野中。</Mousekin_Adulthood_DeserterCoward.description>
+	
+	<!-- EN: Greedy Deserter -->
 	<Mousekin_Adulthood_DeserterGreedy.title>贪婪逃兵</Mousekin_Adulthood_DeserterGreedy.title>
 	
 	<!-- EN: Deserter -->
@@ -480,7 +502,9 @@
 	<Mousekin_Adulthood_FarmerCrops.titleShort>农夫</Mousekin_Adulthood_FarmerCrops.titleShort>
 	
 	<!-- EN: Like generations before [PAWN_objective], [PAWN_nameDef] grew wheat, corn and potatoes in the fields outside the Mousekin hamlet [PAWN_pronoun] and [PAWN_possessive] family lived in.\n\n[PAWN_possessive] biggest worries were the increasing taxes being levied by the provincial lord, and the rats nesting in the granaries. -->
-	<Mousekin_Adulthood_FarmerCrops.description>和[PAWN_possessive]几代人一样，[PAWN_nameDef]在[PAWN_pronoun]和[PAWN_possessive]家人居住的白鼠族小村外的田地里种植小麦、玉米和马铃薯。\n\n[PAWN_pronoun]最大的担忧是省领主征收的税收越来越多，和在粮仓里面筑巢的老鼠。</Mousekin_Adulthood_FarmerCrops.description>		<!-- EN: Fruit Farmer -->
+	<Mousekin_Adulthood_FarmerCrops.description>和[PAWN_possessive]几代人一样，[PAWN_nameDef]在[PAWN_pronoun]和[PAWN_possessive]家人居住的白鼠族小村外的田地里种植小麦、玉米和马铃薯。\n\n[PAWN_pronoun]最大的担忧是省领主征收的税收越来越多，和在粮仓里面筑巢的老鼠。</Mousekin_Adulthood_FarmerCrops.description>
+	
+	<!-- EN: Fruit Farmer -->
 	<Mousekin_Adulthood_FarmerFruit.title>果园农夫</Mousekin_Adulthood_FarmerFruit.title>
 	
 	<!-- EN: Farmer -->
@@ -532,7 +556,9 @@
 	<Mousekin_Adulthood_Footman.titleShort>男仆</Mousekin_Adulthood_Footman.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] served as a footman in the household of a wealthy Mousekin landowner, where [PAWN_pronoun] served meals, opened and closed doors, carried or moved heavy things.\n\n[PAWN_pronoun] dreams of starting [PAWN_possessive] own business one day, and becoming rich enough to afford a mansion of [PAWN_possessive] own filled with servants. -->
-	<Mousekin_Adulthood_Footman.description>[PAWN_nameDef]在一个富有的白鼠族地主家里当男仆，负责端饭、开门、关门、搬运重物。\n\n[PAWN_pronoun]梦想有一天自己创业，变得足够富有买一座自己充满仆人的豪宅。</Mousekin_Adulthood_Footman.description>		<!-- EN: Government Minister -->
+	<Mousekin_Adulthood_Footman.description>[PAWN_nameDef]在一个富有的白鼠族地主家里当男仆，负责端饭、开门、关门、搬运重物。\n\n[PAWN_pronoun]梦想有一天自己创业，变得足够富有买一座自己充满仆人的豪宅。</Mousekin_Adulthood_Footman.description>
+	
+	<!-- EN: Government Minister -->
 	<Mousekin_Adulthood_GovtMinister.title>政府部长</Mousekin_Adulthood_GovtMinister.title>
 	
 	<!-- EN: Minister -->
@@ -611,7 +637,9 @@
 	<Mousekin_Adulthood_IndyTownFarmer.titleShort>农夫</Mousekin_Adulthood_IndyTownFarmer.titleShort>
 	
 	<!-- EN: When a neighboring Mousekin town declared independence from the Mousekin Kingdom, most farmers in [PAWN_nameDef]'s home village fled in fear of becoming collateral damage from the Kingdom's inevitable retribution.\n\n[PAWN_nameDef], on the other hand, relished in the thought of finally growing whatever crops [PAWN_pronoun] wanted without being taxed heavily by a feudal lord, and joined the independent Mousekins instead.\n\n[PAWN_pronoun] faith in the burgeoning democracy was soon rewarded when, true to their word, the town councilors insisted on only accepting a pittance from [PAWN_possessive] annual harvest, allowing [PAWN_objective] to earn enough money to send [PAWN_possessive] mouselings to school. -->
-	<Mousekin_Adulthood_IndyTownFarmer.description>当一个邻近的白鼠族城镇宣布从白鼠族王国独立时，[PAWN_nameDef]家乡的大多数农民，因为害怕成为王国不可避免的报复的附带损害，而都逃跑了。\n\n然而，[PAWN_nameDef]津津乐道想到[PAWN_pronoun]终于可以种植[PAWN_pronoun]任何想种的庄稼，而不会被封建领主课以重税，于是加入了独立的城镇。\n\n[PAWN_pronoun]对新兴民主的信念很快得到了回报，因为镇议员们信守诺言，坚持只接受[PAWN_pronoun]每年收获的微薄收入，让[PAWN_pronoun]赚到足够的钱供[PAWN_possessive]小孩上学。</Mousekin_Adulthood_IndyTownFarmer.description>		<!-- EN: Town Soldier -->
+	<Mousekin_Adulthood_IndyTownFarmer.description>当一个邻近的白鼠族城镇宣布从白鼠族王国独立时，[PAWN_nameDef]家乡的大多数农民，因为害怕成为王国不可避免的报复的附带损害，而都逃跑了。\n\n然而，[PAWN_nameDef]津津乐道想到[PAWN_pronoun]终于可以种植[PAWN_pronoun]任何想种的庄稼，而不会被封建领主课以重税，于是加入了独立的城镇。\n\n[PAWN_pronoun]对新兴民主的信念很快得到了回报，因为镇议员们信守诺言，坚持只接受[PAWN_pronoun]每年收获的微薄收入，让[PAWN_pronoun]赚到足够的钱供[PAWN_possessive]小孩上学。</Mousekin_Adulthood_IndyTownFarmer.description>
+	
+	<!-- EN: Town Soldier -->
 	<Mousekin_Adulthood_IndyTownSoldier.title>城镇士兵</Mousekin_Adulthood_IndyTownSoldier.title>
 	
 	<!-- EN: Soldier -->
@@ -654,7 +682,9 @@
 	<Mousekin_Adulthood_Joiner.titleShort>木匠</Mousekin_Adulthood_Joiner.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] started a joinery business in a major Mousekin city, where [PAWN_pronoun] made beds, tables, chairs, shelves and other wooden furniture for clients, as well as window and door frames for houses.\n\n[PAWN_pronoun] was particularly respected for the artistic embellishments [PAWN_pronoun] would add to [PAWN_possessive] works. -->
-	<Mousekin_Adulthood_Joiner.description>[PAWN_nameDef]在一个主要的白鼠族城市开了一个细木工作坊，为客户制作床、桌子、椅子、架子和其他木制家具，以及房屋的窗框和门框。\n\n[PAWN_pronoun]会为作品添加艺术点缀，尤其受到顾客的尊重。</Mousekin_Adulthood_Joiner.description>		<!-- EN: Kitchen maid -->
+	<Mousekin_Adulthood_Joiner.description>[PAWN_nameDef]在一个主要的白鼠族城市开了一个细木工作坊，为客户制作床、桌子、椅子、架子和其他木制家具，以及房屋的窗框和门框。\n\n[PAWN_pronoun]会为作品添加艺术点缀，尤其受到顾客的尊重。</Mousekin_Adulthood_Joiner.description>
+	
+	<!-- EN: Kitchen maid -->
 	<Mousekin_Adulthood_KitchenMaid.title>厨房女佣</Mousekin_Adulthood_KitchenMaid.title>
 	
 	<!-- EN: Maid -->
@@ -698,7 +728,9 @@
 	<Mousekin_Adulthood_Maidservant.titleShort>侍女</Mousekin_Adulthood_Maidservant.titleShort>
 	
 	<!-- EN: As the personal maid to a Mousekin noblewoman, [PAWN_nameDef] helped dress [PAWN_possessive] mistress, style her hair, and looked after the jewelry.\n\n[PAWN_pronoun] also helped serve as [PAWN_possessive] mistress's eyes and ears, collecting rumors and scandals that could be used as blackmail against the noble family's political opponents. -->
-	<Mousekin_Adulthood_Maidservant.description>作为白鼠族贵妇的贴身女仆，[PAWN_nameDef]帮[PAWN_possessive]女主人打扮、梳理头发、照料首饰。\n\n[PAWN_pronoun]也充当女主人的耳目，收集可用作敲诈贵族家庭的政敌的谣言和丑闻。</Mousekin_Adulthood_Maidservant.description>		<!-- EN: Manor lord -->
+	<Mousekin_Adulthood_Maidservant.description>作为白鼠族贵妇的贴身女仆，[PAWN_nameDef]帮[PAWN_possessive]女主人打扮、梳理头发、照料首饰。\n\n[PAWN_pronoun]也充当女主人的耳目，收集可用作敲诈贵族家庭的政敌的谣言和丑闻。</Mousekin_Adulthood_Maidservant.description>
+	
+	<!-- EN: Manor lord -->
 	<Mousekin_Adulthood_ManorLord.title>庄园主</Mousekin_Adulthood_ManorLord.title>
 	
 	<!-- EN: Lord -->
@@ -750,7 +782,9 @@
 	<Mousekin_Adulthood_NomadEntertainer.titleShort>艺人</Mousekin_Adulthood_NomadEntertainer.titleShort>
 	
 	<!-- EN: Known among [PAWN_possessive] Rodemani clan for having "happy hindpaws", [PAWN_nameDef] earned a living singing and dancing for the entertainment of Mousekin townsfolk.\n\n[PAWN_pronoun] was particularly adept with the wood flute and tambourine, which [PAWN_pronoun] played as part of [PAWN_possessive] enthralling performances - often at the same time. -->
-	<Mousekin_Adulthood_NomadEntertainer.description>[PAWN_nameDef]在[PAWN_possessive]罗德马尼游民氏族中以拥有"快乐的后爪"而闻名，因此以歌舞为生，供白鼠族镇民娱乐。\n\n[PAWN_pronoun]特别擅长木笛和手鼓，也经常在[PAWN_pronoun]引人入胜的表演当中同时演奏两种乐器。</Mousekin_Adulthood_NomadEntertainer.description>		<!-- EN: Fortune Teller -->
+	<Mousekin_Adulthood_NomadEntertainer.description>[PAWN_nameDef]在[PAWN_possessive]罗德马尼游民氏族中以拥有"快乐的后爪"而闻名，因此以歌舞为生，供白鼠族镇民娱乐。\n\n[PAWN_pronoun]特别擅长木笛和手鼓，也经常在[PAWN_pronoun]引人入胜的表演当中同时演奏两种乐器。</Mousekin_Adulthood_NomadEntertainer.description>
+	
+	<!-- EN: Fortune Teller -->
 	<Mousekin_Adulthood_NomadFortuneTeller.title>算命师</Mousekin_Adulthood_NomadFortuneTeller.title>
 	
 	<!-- EN: Fortune Teller -->
@@ -793,7 +827,9 @@
 	<Mousekin_Adulthood_Priest.titleShort>牧师</Mousekin_Adulthood_Priest.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] presided over a large church, preaching the words of Valerian the Wise, holding sermons and supervising dozens of nuns in conducting ancestral rites and handling religious affairs. -->
-	<Mousekin_Adulthood_Priest.description>[PAWN_nameDef]主持了一座大教堂，宣讲智者缬草的教义，举行布道，并监督数十名修女主持祭祖仪式和处理宗教事务。</Mousekin_Adulthood_Priest.description>	<!-- EN: Prince / Princess -->
+	<Mousekin_Adulthood_Priest.description>[PAWN_nameDef]主持了一座大教堂，宣讲智者缬草的教义，举行布道，并监督数十名修女主持祭祖仪式和处理宗教事务。</Mousekin_Adulthood_Priest.description>
+	
+<!-- EN: Prince / Princess -->
 	<Mousekin_Adulthood_Royal.title>王子</Mousekin_Adulthood_Royal.title>
 	<Mousekin_Adulthood_Royal.titleFemale>公主</Mousekin_Adulthood_Royal.titleFemale>
 	
@@ -840,7 +876,9 @@
 	<Mousekin_Adulthood_ShopkeeperBooks.titleShort>书商</Mousekin_Adulthood_ShopkeeperBooks.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] owned a bookshop in a busy Mousekin town, selling everything from cookbooks and almanacs to romance novels, and had a knack for knowing exactly what book a customer needed, no matter how vague their requests were.\n\n[PAWN_pronoun] was also skilled at appraising and rebinding old books. -->
-	<Mousekin_Adulthood_ShopkeeperBooks.description>[PAWN_nameDef]在一个繁忙的白鼠族城镇拥有一家书店，出售从食谱、年历到浪漫小说的各种书籍，并且有能力准确地知道顾客需要什么书，无论他们的要求多么模糊。\n\n[PAWN_pronoun]也擅长鉴定和重新装订旧书。</Mousekin_Adulthood_ShopkeeperBooks.description>		<!-- EN: Shopkeeper -->
+	<Mousekin_Adulthood_ShopkeeperBooks.description>[PAWN_nameDef]在一个繁忙的白鼠族城镇拥有一家书店，出售从食谱、年历到浪漫小说的各种书籍，并且有能力准确地知道顾客需要什么书，无论他们的要求多么模糊。\n\n[PAWN_pronoun]也擅长鉴定和重新装订旧书。</Mousekin_Adulthood_ShopkeeperBooks.description>
+	
+	<!-- EN: Shopkeeper -->
 	<Mousekin_Adulthood_ShopkeeperGeneral.title>店主</Mousekin_Adulthood_ShopkeeperGeneral.title>
 	
 	<!-- EN: Shopkeeper -->
@@ -883,7 +921,9 @@
 	<Mousekin_Adulthood_SoldierMusket.titleShort>鸟铳手</Mousekin_Adulthood_SoldierMusket.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] was a member of the Mouseketeer Corps, a hand-picked group of Mousekin Kingdom soldiers armed and trained in the use of gunpowder muskets.\n\nWhile [PAWN_pronoun] and [PAWN_possessive] comrades could not fire their weapons as fast as their crossbowmen comrades, they were each individually capable of instantly killing a well-armored enemy Mousekin knight at range. -->
-	<Mousekin_Adulthood_SoldierMusket.description>[PAWN_nameDef]是白鼠族王国士兵精心挑选的鸟铳兵军团的一员，有武装并接受过使用火药鸟铳的训练。\n\n虽然[PAWN_pronoun]和[PAWN_possessive]战友无法像他们的弩手战友们快速发射武器，他们每个人都能够在远距离上立即杀死一名装甲精良的敌方白鼠族骑士。</Mousekin_Adulthood_SoldierMusket.description>		<!-- EN: Pikeman -->
+	<Mousekin_Adulthood_SoldierMusket.description>[PAWN_nameDef]是白鼠族王国士兵精心挑选的鸟铳兵军团的一员，有武装并接受过使用火药鸟铳的训练。\n\n虽然[PAWN_pronoun]和[PAWN_possessive]战友无法像他们的弩手战友们快速发射武器，他们每个人都能够在远距离上立即杀死一名装甲精良的敌方白鼠族骑士。</Mousekin_Adulthood_SoldierMusket.description>
+	
+	<!-- EN: Pikeman -->
 	<Mousekin_Adulthood_SoldierPike.title>长枪兵</Mousekin_Adulthood_SoldierPike.title>
 	
 	<!-- EN: Pikeman -->
@@ -935,5 +975,6 @@
 	<Mousekin_Adulthood_Woodcutter.titleShort>樵夫</Mousekin_Adulthood_Woodcutter.titleShort>
 	
 	<!-- EN: [PAWN_nameDef] toiled day and night in the forests near [PAWN_possessive] hometown, felling, delimbing and bucking trees into logs.\n\n[PAWN_pronoun] had a keen eye for choosing the best trees depending on whether a Mousekin needed the logs for building houses or furniture. -->
-	<Mousekin_Adulthood_Woodcutter.description>[PAWN_nameDef]在[PAWN_pronoun]家乡附近的森林里日以继夜地劳作，砍伐、分枝并将树木砍成原木。\n\n[PAWN_pronoun]有敏锐的眼光来选择最好的树木，取决于某只白鼠族是否需要这些原木来建造房屋或家具。</Mousekin_Adulthood_Woodcutter.description>	
+	<Mousekin_Adulthood_Woodcutter.description>[PAWN_nameDef]在[PAWN_pronoun]家乡附近的森林里日以继夜地劳作，砍伐、分枝并将树木砍成原木。\n\n[PAWN_pronoun]有敏锐的眼光来选择最好的树木，取决于某只白鼠族是否需要这些原木来建造房屋或家具。</Mousekin_Adulthood_Woodcutter.description>
+	
 </LanguageData>
