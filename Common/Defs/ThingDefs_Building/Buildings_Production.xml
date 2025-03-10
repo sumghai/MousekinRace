@@ -652,6 +652,85 @@
 		</modExtensions>
 	</ThingDef>
 	
+	<!-- Mousekin charcoal pile -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_CharcoalPile</defName>
+		<label>Mousekin charcoal pile</label>
+		<description>A carefully arranged pile of wood covered with soil, inside which a fire is lit to carbonize the wood in the absence of oxygen. Produces a large amount of charcoal after three days.</description>
+		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_CharcoalPile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_CharcoalPileFull</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<costList>
+			<WoodLog>10</WoodLog>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.66</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>6000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>200</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<surfaceType>Item</surfaceType>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowAutoroof>false</allowAutoroof>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Production/Mousekin_CharcoalPileFull</texPath>
+				<shaderType>EdgeDetect</shaderType>
+				<color>(1, 1, 1, 1)</color>
+			</blueprintGraphicData>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<comps>
+			<li Class="ItemProcessor.CompProperties_ItemProcessor">
+				<buildingOnGraphic>Things/Building/Production/Mousekin_CharcoalPileFull</buildingOnGraphic>
+				<numberOfInputs>1</numberOfInputs>
+				<acceptsNoneAsInput>false</acceptsNoneAsInput>
+				<InsertFirstItemDesc>MousekinRace_CharcoalPile_InsertWoodDesc</InsertFirstItemDesc>
+				<ignoresIngredientLists>true</ignoresIngredientLists>
+				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
+				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_CharcoalPile_ResetWood</resetSemiautomaticIcon>
+				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_CharcoalPile_EmptyWoodIcon</chooseIngredientsIcon>
+
+				<bringIngredientsText>MousekinRace_CharcoalPile_StartInsertionWood</bringIngredientsText>
+				<bringIngredientsDesc>MousekinRace_CharcoalPile_StartInsertionWoodDesc</bringIngredientsDesc>
+				<bringIngredientsIcon>UI/ItemProcessors/Mousekin_CharcoalPile_InsertWood</bringIngredientsIcon >
+
+				<cancelIngredientsText>MousekinRace_CharcoalPile_CancelBringingWood</cancelIngredientsText>
+				<cancelIngredientsDesc>MousekinRace_CharcoalPile_CancelBringingWoodDesc</cancelIngredientsDesc>
+				<cancelIngredientsIcon>UI/ItemProcessors/Mousekin_CharcoalPile_CancelWood</cancelIngredientsIcon> 
+				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchCharcoal</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 	<!-- Mousekin cheese press -->
 	
 	<ThingDef ParentName="BuildingBase">

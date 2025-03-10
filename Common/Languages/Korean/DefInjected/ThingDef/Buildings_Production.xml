@@ -15,7 +15,13 @@
 	<Mousekin_WorkbenchTailor.label>마우스킨 재봉사 벤치</Mousekin_WorkbenchTailor.label>		<!-- EN: A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing. -->
 	<Mousekin_WorkbenchTailor.description>마우스킨 의류 재단을 위한 주철 발판 재봉틀이 있는 작업대.</Mousekin_WorkbenchTailor.description>		<!-- EN: Mousekin beehive -->
 	<Mousekin_Beehive.label>마우스킨 벌집</Mousekin_Beehive.label>		<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate. -->
-	<Mousekin_Beehive.description>꿀벌을 보관하기 위한 나무 벌통. 마우스킨의 독창성 덕분에 무리 프레임의 벌집 세포는 레버를 당기기만 하면 열리도록 설계되어 꿀벌을 방해하지 않고 꿀과 밀랍을 쉽게 수확할 수 있습니다. 작동하려면 표시된 원형 영역 내에 최소 20개의 꽃을 심어야 합니다.</Mousekin_Beehive.description>		<!-- EN: Mousekin cheese press -->
+	<Mousekin_Beehive.description>꿀벌을 보관하기 위한 나무 벌통. 마우스킨의 독창성 덕분에 무리 프레임의 벌집 세포는 레버를 당기기만 하면 열리도록 설계되어 꿀벌을 방해하지 않고 꿀과 밀랍을 쉽게 수확할 수 있습니다. 작동하려면 표시된 원형 영역 내에 최소 20개의 꽃을 심어야 합니다.</Mousekin_Beehive.description>
+	
+	<!-- EN: Mousekin charcoal pile -->
+	<Mousekin_CharcoalPile.label>마우스킨 숯 더미</Mousekin_CharcoalPile.label>
+	
+	<!-- EN: A carefully arranged pile of wood covered with soil, inside which a fire is lit to carbonize the wood in the absence of oxygen. Produces a large amount of charcoal after three days. -->
+	<Mousekin_CharcoalPile.description>흙으로 덮인 나무 더미를 조심스럽게 배열하고 그 안에 불을 피워 산소가 없는 상태에서 나무를 탄화시킵니다. 3일이 지나면 많은 양의 숯이 생성됩니다.</Mousekin_CharcoalPile.description>		<!-- EN: Mousekin cheese press -->
 	<Mousekin_CheesePress.label>마우스킨 치즈 압착기</Mousekin_CheesePress.label>		<!-- EN: A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese. -->
 	<Mousekin_CheesePress.description>클로버베리 치즈를 만들기 위해 우유 응유에서 유청을 누르는 나무 장치.</Mousekin_CheesePress.description>		<!-- EN: Mousekin fermenting barrel -->
 	<Mousekin_FermentingBarrel.label>마우스킨 발효 통</Mousekin_FermentingBarrel.label>		<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->

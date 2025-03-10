@@ -47,6 +47,12 @@
 	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate. -->
 	<Mousekin_Beehive.description>一种用于饲养蜜蜂的木制蜂箱。由于白鼠族的独创性，育雏框架中的蜂窝细胞被设计成只需简单地拉动一个杠杆就可以裂开，这样就可以在不干扰蜜蜂的情况下轻松收获蜂蜜和蜂蜡。需要在标记的圆形区域内种植至少20棵花才能运行。</Mousekin_Beehive.description>
 	
+	<!-- EN: Mousekin charcoal pile -->
+	<Mousekin_CharcoalPile.label>白鼠族木炭堆</Mousekin_CharcoalPile.label>
+	
+	<!-- EN: A carefully arranged pile of wood covered with soil, inside which a fire is lit to carbonize the wood in the absence of oxygen. Produces a large amount of charcoal after three days. -->
+	<Mousekin_CharcoalPile.description>精心排列的木头堆，上面覆盖泥土，里面点火，在没有氧气的情况下使木头碳化。三天后会产生大量的木炭。</Mousekin_CharcoalPile.description>
+	
 	<!-- EN: Mousekin cheese press -->
 	<Mousekin_CheesePress.label>白鼠族芝士压榨机</Mousekin_CheesePress.label>
 	

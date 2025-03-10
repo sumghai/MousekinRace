@@ -49,6 +49,12 @@
 	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate. -->
 	<Mousekin_Beehive.description>Деревянный улей для содержания пчел. Благодаря изобретательности мышек, ячейки сот в рамках расплода предназначены для простого разрезания при помощи рычага, позволяя легко собирать мед и воск, не беспокоя пчел. Для работы требуется как минимум 20 цветов, посаженных в пределах обозначенного круглого радиуса.</Mousekin_Beehive.description>
 	
+	<!-- EN: Mousekin charcoal pile -->
+	<Mousekin_CharcoalPile.label>Мышкинская угольная куча</Mousekin_CharcoalPile.label>
+	
+	<!-- EN: A carefully arranged pile of wood covered with soil, inside which a fire is lit to carbonize the wood in the absence of oxygen. Produces a large amount of charcoal after three days. -->
+	<Mousekin_CharcoalPile.description>Тщательно уложенная куча древесины, покрытая землей, внутри которой разжигается огонь, чтобы древесина карбонизировалась в отсутствие кислорода. Через три дня образуется большое количество древесного угля.</Mousekin_CharcoalPile.description>
+	
 	<!-- EN: Mousekin cheese press -->
 	<Mousekin_CheesePress.label>Мышкинская сыроделка</Mousekin_CheesePress.label>
 	

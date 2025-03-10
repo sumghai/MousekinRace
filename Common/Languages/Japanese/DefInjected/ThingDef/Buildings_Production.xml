@@ -47,6 +47,12 @@
 	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate. -->
 	<Mousekin_Beehive.description>ミツバチを飼うための木製の蜂の巣です.マウスキンの工夫により、ブルードフレームのハニカムセルはレバーを引くだけで割れるようになっており、ミツバチの邪魔をすることなく簡単にハチミツやミツロウを収穫することができます.作動させるには、マークされた円形エリア内に少なくとも20本の花を植える必要があります.</Mousekin_Beehive.description>
 	
+	<!-- EN: Mousekin charcoal pile -->
+	<Mousekin_CharcoalPile.label>マウスキン木炭窯</Mousekin_CharcoalPile.label>
+	
+	<!-- EN: A carefully arranged pile of wood covered with soil, inside which a fire is lit to carbonize the wood in the absence of oxygen. Produces a large amount of charcoal after three days. -->
+	<Mousekin_CharcoalPile.description>土をかぶせた薪を丁寧に積み上げ、その中で火をつけて酸素のない状態で炭化させます.3日後には大量の炭ができます.</Mousekin_CharcoalPile.description>
+	
 	<!-- EN: Mousekin cheese press -->
 	<Mousekin_CheesePress.label>マウスキンチーズプレス</Mousekin_CheesePress.label>
 	

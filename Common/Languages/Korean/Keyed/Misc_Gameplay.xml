@@ -27,6 +27,21 @@
 	
 	<!-- EN: Remove this item from the root cellar. -->
 	<MousekinRace_CellarOutdoor_EjectItemTooltip>루트 지하실에서 이 항목을 제거합니다.</MousekinRace_CellarOutdoor_EjectItemTooltip>
+	
+	<!-- EN: Wood to Insert -->
+	<MousekinRace_CharcoalPile_InsertWoodDesc>삽입할 목재</MousekinRace_CharcoalPile_InsertWoodDesc>
+	
+	<!-- EN: Bring Wood -->
+	<MousekinRace_CharcoalPile_StartInsertionWood>목재 가져오기</MousekinRace_CharcoalPile_StartInsertionWood>
+	
+	<!-- EN: Bring Wood Logs to the charcoal pile to start the carbonization process -->
+	<MousekinRace_CharcoalPile_StartInsertionWoodDesc>탄화 과정을 시작하려면 나무 통나무를 숯 더미로 가져와야 합니다.</MousekinRace_CharcoalPile_StartInsertionWoodDesc>
+	
+	<!-- EN: Cancel bringing Wood -->
+	<MousekinRace_CharcoalPile_CancelBringingWood>목재 가져오기 취소</MousekinRace_CharcoalPile_CancelBringingWood>
+	
+	<!-- EN: Cancel bringing Wood Logs to the charcoal pile. -->
+	<MousekinRace_CharcoalPile_CancelBringingWoodDesc>나무 통나무를 숯 더미로 가져오는 것을 취소합니다.</MousekinRace_CharcoalPile_CancelBringingWoodDesc>
 
 	<!-- EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>삽입할 우유</MousekinRace_CheesePress_InsertMilkDesc>
