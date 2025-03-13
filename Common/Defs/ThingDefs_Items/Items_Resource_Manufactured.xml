@@ -30,7 +30,7 @@
 		<label>Charcoal</label>
 		<description>Lightweight carbon residue formed by strongly heating wood in the absence of oxygen to remove all water and volatile compounds. Can be used as an efficient source of heating fuel, or for making gunpowder.</description>
 		<graphicData>
-			<texPath>Things/Items/Manufactured/Mousekin_Charcoal</texPath><!-- todo -->
+			<texPath>Things/Items/Manufactured/Mousekin_Charcoal</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
