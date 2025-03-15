@@ -141,6 +141,7 @@
 			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTrader</li>
+			<li>MousekinTraderSlaver</li>
 			<li>MousekinTradesman</li>
 			<li>MousekinWanderer</li>
 		</spawnCategories>
@@ -201,6 +202,7 @@
 			<li>MousekinNun</li>
 			<li>MousekinPriest</li>
 			<li>MousekinTrader</li>
+			<li>MousekinTraderSlaver</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -480,7 +482,6 @@
 		<spawnCategories>
 			<li>MousekinNomad</li>
 			<li>MousekinTraderNomad</li>
-			<li>MousekinTraderSlaver</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -1142,6 +1143,7 @@
 			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTrader</li>
+			<li>MousekinTraderSlaver</li>
 			<li>MousekinTradesman</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
