@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Allow spawning of Mousekin child slaves if Biotech DLC is active -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="MousekinSlave"]/minGenerationAge</xpath>
+				<value>
+					<minGenerationAge>8</minGenerationAge>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>

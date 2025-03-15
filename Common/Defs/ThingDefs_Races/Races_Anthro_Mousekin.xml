@@ -1102,8 +1102,8 @@
 				<points>
 					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(6,118)</li>	<!-- Increase likelihood of young children -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
 					<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
 					<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
 					<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
