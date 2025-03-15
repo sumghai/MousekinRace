@@ -992,6 +992,7 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
 		<apparelTags>
 			<li>MousekinTraderSlaver</li>
 		</apparelTags>
