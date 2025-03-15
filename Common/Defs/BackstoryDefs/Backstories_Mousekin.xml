@@ -4588,14 +4588,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>18</min>
-			<max>30</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>18</min>
-			<max>30</max>
-		</chronoAgeRange>
 		<forcedTraitsChance Inherit="false">
 			<li>
 				<defName Degree="-1">Immunity</defName>
