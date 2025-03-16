@@ -464,6 +464,29 @@
 		</stockGenerators>
 	</TraderKindDef>
 
+	<!-- Slave trader (Kingdom faction) -->
+	
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
+		<defName>Mousekin_TraderCaravan_Slaves</defName>
+		<label>slave trader</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+			
+			<!-- Slaves -->
+			
+			<li Class="StockGenerator_Slaves">
+				<countRange>15~20</countRange>
+				<slaveKindDef>MousekinSlave</slaveKindDef>
+			</li>
+			
+		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderSlaves</iconPath>
+			</li>
+		</modExtensions>
+	</TraderKindDef>
+	
 	<!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand); may also offer small quantities of basic goods -->
 
 	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">

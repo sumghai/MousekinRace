@@ -331,6 +331,13 @@
 				<tag>Mousekin_TradeGoods_ApparelMilitaryKingdomElite</tag>
 				<price>Expensive</price>
 			</li>
+			
+			<!-- Slaves -->
+			
+			<li Class="StockGenerator_Slaves">
+				<countRange>20~30</countRange>
+				<slaveKindDef>MousekinSlave</slaveKindDef>
+			</li>
 
 		</stockGenerators>
 	</TraderKindDef>
