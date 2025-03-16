@@ -798,6 +798,57 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!-- Misc -->
+	
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelSlave</defName>
+		<label>Mousekin Slave Rags</label>
+		<description>A worn old flour sack with crude holes cut for the arms and the head, worn by Mousekin slaves to protect what little dignity they have left in their short, miserable lives.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinSlave/MousekinSlave</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>None</tradeability>
+		<costList>
+			<Cloth>20</Cloth>
+		</costList>
+		<statBases>
+			<MarketValue>0</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToMake>600</WorkToMake>
+			<Mass>0.5</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>-0.75</NegotiationAbility>
+			<SocialImpact>-0.75</SocialImpact>
+			<SlaveSuppressionOffset>0.20</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<slaveApparel>true</slaveApparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinSlave/MousekinSlave</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinSlave</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Slave</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+
 	<!-- Uncraftable -->
 	
 	<ThingDef ParentName="Mousekin_ApparelBase">

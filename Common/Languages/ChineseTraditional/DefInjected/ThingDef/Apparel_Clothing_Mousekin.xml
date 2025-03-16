@@ -27,7 +27,13 @@
 	<Mousekin_ApparelPriestCassock.label>白鼠族牧師法衣</Mousekin_ApparelPriestCassock.label>		<!-- EN: An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer. -->
 	<Mousekin_ApparelPriestCassock.description>一件長及腳踝的牧師領長袍，可激發對穿著者的尊重。</Mousekin_ApparelPriestCassock.description>		<!-- EN: Mousekin Gambeson -->
 	<Mousekin_ApparelGambeson.label>白鼠族填充布甲</Mousekin_ApparelGambeson.label>		<!-- EN: A thick, padded defensive jacket and pair of trousers worn by Mousekin soldiers, squires and knights, designed to cushion blows to plate armor. Comfortable to wear in cold climates. -->
-	<Mousekin_ApparelGambeson.description>一件厚實的帶襯墊的防禦夾克和一條褲子，旨在緩衝對板甲的打擊，由白鼠族士兵、侍從和騎士穿著。在寒冷的氣候下穿著舒適。</Mousekin_ApparelGambeson.description>		<!-- EN: Mousekin Knight Commander’s Cape -->
+	<Mousekin_ApparelGambeson.description>一件厚實的帶襯墊的防禦夾克和一條褲子，旨在緩衝對板甲的打擊，由白鼠族士兵、侍從和騎士穿著。在寒冷的氣候下穿著舒適。</Mousekin_ApparelGambeson.description>	
+	<!-- EN: Mousekin Slave Rags -->
+	<Mousekin_ApparelSlave.label>白鼠族奴隸爛布衣</Mousekin_ApparelSlave.label>
+	
+	<!-- EN: A worn old flour sack with crude holes cut for the arms and the head, worn by Mousekin slaves to protect what little dignity they have left in their short, miserable lives. -->
+	<Mousekin_ApparelSlave.description>一個破舊的麵粉袋，上面有可容納手臂和頭部粗糙的洞，由白鼠族奴隸穿著，以保護他們在短暫悲慘的生命中僅有的一點尊嚴。</Mousekin_ApparelSlave.description>
+		<!-- EN: Mousekin Knight Commander’s Cape -->
 	<Mousekin_ApparelKnightCommanderCape.label>白鼠族騎士長披肩</Mousekin_ApparelKnightCommanderCape.label>		<!-- EN: A stylish blue cape worn by Mousekin knight commanders to inspire awe from both allies and enemies alike. -->
 	<Mousekin_ApparelKnightCommanderCape.description>一件雄偉的藍色披肩，讓盟友和敵人都敬畏，由白鼠氏族騎士長穿著。</Mousekin_ApparelKnightCommanderCape.description>		<!-- EN: Knight Commander’s Cape Back -->
 	<Mousekin_ApparelKnightCommanderCapeBack.label>白鼠族騎士長披肩(背層)</Mousekin_ApparelKnightCommanderCapeBack.label>		<!-- EN: Back of the Knight Commander’s Cape -->

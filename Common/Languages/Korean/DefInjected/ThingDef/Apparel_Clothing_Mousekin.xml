@@ -27,7 +27,13 @@
 	<Mousekin_ApparelPriestCassock.label>마우스킨 사제 복장</Mousekin_ApparelPriestCassock.label>		<!-- EN: An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer. -->
 	<Mousekin_ApparelPriestCassock.description>착용자에 대한 존경심을 불러일으키는 독특한 성직자 칼라가 있는 발목 길이의 튜닉.</Mousekin_ApparelPriestCassock.description>		<!-- EN: Mousekin Gambeson -->
 	<Mousekin_ApparelGambeson.label>마우스킨 갬베슨</Mousekin_ApparelGambeson.label>		<!-- EN: A thick, padded defensive jacket and pair of trousers worn by Mousekin soldiers, squires and knights, designed to cushion blows to plate armor. Comfortable to wear in cold climates. -->
-	<Mousekin_ApparelGambeson.description>두껍고 패딩 처리된 방어용 재킷과 바지는 마우스킨 병사, 종자 및 기사가 착용하며 판금 갑옷에 대한 충격을 완화하도록 설계되었습니다. 추운 날씨에 편안하게 착용할 수 있습니다.</Mousekin_ApparelGambeson.description>		<!-- EN: Mousekin Knight Commander’s Cape -->
+	<Mousekin_ApparelGambeson.description>두껍고 패딩 처리된 방어용 재킷과 바지는 마우스킨 병사, 종자 및 기사가 착용하며 판금 갑옷에 대한 충격을 완화하도록 설계되었습니다. 추운 날씨에 편안하게 착용할 수 있습니다.</Mousekin_ApparelGambeson.description>
+	
+	<!-- EN: Mousekin Slave Rags -->
+	<Mousekin_ApparelSlave.label>마우스킨 노예 헝겊</Mousekin_ApparelSlave.label>
+	
+	<!-- EN: A worn old flour sack with crude holes cut for the arms and the head, worn by Mousekin slaves to protect what little dignity they have left in their short, miserable lives. -->
+	<Mousekin_ApparelSlave.description>낡은 밀가루 자루에 팔과 머리에 조잡하게 구멍을 뚫어 마우스킨 노예들이 짧고 비참한 삶에서 남은 작은 존엄성을 지키기 위해 입는 옷입니다.</Mousekin_ApparelSlave.description>		<!-- EN: Mousekin Knight Commander’s Cape -->
 	<Mousekin_ApparelKnightCommanderCape.label>마우스킨 기사 사령관의 망토</Mousekin_ApparelKnightCommanderCape.label>		<!-- EN: A stylish blue cape worn by Mousekin knight commanders to inspire awe from both allies and enemies alike. -->
 	<Mousekin_ApparelKnightCommanderCape.description>아군과 적 모두에게 두려움을 불러일으키기 위해 마우스킨 기사단 사령관이 착용하는 스타일리시한 파란색 망토.</Mousekin_ApparelKnightCommanderCape.description>		<!-- EN: Knight Commander’s Cape Back -->
 	<Mousekin_ApparelKnightCommanderCapeBack.label>마우스킨 기사 사령관의 망토(최하층)</Mousekin_ApparelKnightCommanderCapeBack.label>		<!-- EN: Back of the Knight Commander’s Cape -->

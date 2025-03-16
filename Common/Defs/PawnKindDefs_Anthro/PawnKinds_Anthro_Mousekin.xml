@@ -1025,10 +1025,17 @@
 		</backstoryFiltersOverride>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>30</maxGenerationAge>
-		<!-- Temporarily naked, will replace with slave rags -->
+		<apparelTags>
+			<li>MousekinSlave</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelSlave</li>
+		</apparelRequired>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<apparelMoney>0~0</apparelMoney>
+		<minApparelQuality>Awful</minApparelQuality>
+		<maxApparelQuality>Poor</maxApparelQuality>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>13~20</initialResistanceRange>
 	</PawnKindDef>
