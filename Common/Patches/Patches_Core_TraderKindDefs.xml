@@ -131,6 +131,31 @@
 				</value>
 			</li>
 			
+			<!-- Allow outlander human factions and orbital slave ships to trade in Mousekin Slaves -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Slaves">
+						<countRange>2~10</countRange>
+						<slaveKindDef>MousekinSlave</slaveKindDef>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+					defName="Caravan_Outlander_PirateMerchant" or
+					defName="Orbital_PirateMerchant"
+				]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Slaves">
+						<countRange>0~4</countRange>
+						<slaveKindDef>MousekinSlave</slaveKindDef>
+					</li>
+				</value>
+			</li>
+			
 		</operations>
 	</Operation>
 </Patch>
