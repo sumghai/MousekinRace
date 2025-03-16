@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 		
-			<!-- Allow basic human factions to buy (but not sell) Mousekin Beverages -->
+			<!-- Allow the Shattered Empire faction to buy (but not sell) Mousekin Beverages -->
 			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TraderKindDef[
@@ -19,7 +19,7 @@
 				</value>
 			</li>
 			
-			<!-- Allow basic human factions to buy (but not sell) Mousekin Animal Products -->
+			<!-- Allow the Shattered Empire faction to buy (but not sell) Mousekin Animal Products -->
 			
 			<li Class="PatchOperationConditional">
 				<xpath>Defs/TraderKindDef[defName="Base_Empire_Standard"]/stockGenerators/li[categoryDef="FoodRaw"]/excludedThingDefs</xpath>
@@ -53,7 +53,7 @@
 				</value>
 			</li>
 			
-			<!-- Allow basic human factions to buy (but not sell) Mousekin Miscellaneous Goods -->
+			<!-- Allow the Shattered Empire faction to buy (but not sell) Mousekin Miscellaneous Goods -->
 			
 			<li Class="PatchOperationConditional">
 				<xpath>Defs/TraderKindDef[
@@ -97,6 +97,31 @@
 					
 					<li Class="StockGenerator_BuySingleDef">
 						<thingDef>Mousekin_Candle</thingDef>
+					</li>
+				</value>
+			</li>
+			
+			<!-- Allow the Shattered Empire faction to trade in Mousekin Slaves -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Base_Empire_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Slaves">
+						<countRange>2~10</countRange>
+						<slaveKindDef>MousekinSlave</slaveKindDef>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+					defName="Empire_Caravan_TraderGeneral" or
+					defName="Orbital_Empire"
+				]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Slaves">
+						<countRange>0~4</countRange>
+						<slaveKindDef>MousekinSlave</slaveKindDef>
 					</li>
 				</value>
 			</li>
