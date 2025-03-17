@@ -1023,6 +1023,10 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<fixedChildBackstories>
+			<!-- Biotech DLC compatibility: ensures slaves that actually spawn as children get the slave child bio, instead of the generic colony Mouseling bio -->
+			<li>Mousekin_Childhood_SlaveChild</li>
+		</fixedChildBackstories>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>30</maxGenerationAge>
 		<apparelTags>
