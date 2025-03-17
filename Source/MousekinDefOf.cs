@@ -104,6 +104,7 @@ namespace MousekinRace
         public static PawnKindDef MousekinColonist;
         public static PawnKindDef MousekinPriest;
         public static PawnKindDef MousekinNun;
+        public static PawnKindDef MousekinSlave;
 
         public static RoomRoleDef Mousekin_RoomChurch;
 
