@@ -7,14 +7,23 @@ using Verse;
 
 namespace MousekinRace
 {
-    // Remove traits that conflict with each degree of the Mousekin Faith spectrum
+    // Curate generation of Mousekin pawns
+    // - Ensure Mousekin Slaves always only join as slaves
+    // - Remove traits that conflict with each degree of the Mousekin Faith spectrum
     [HarmonyPatch(typeof(PawnGenerator), nameof(PawnGenerator.GeneratePawn), new Type[] { typeof(PawnGenerationRequest) })]
-    public static class Harmony_PawnGenerator_GeneratePawn_RemoveTraitsConflictingWithFaithSpectrum
+    public static class Harmony_PawnGenerator_GeneratePawn_CurateForMousekins
     {
         static void Postfix(ref Pawn __result)
         {
             if (Utils.IsMousekin(__result))
             {
+                // Mousekin slaves
+                if (ModsConfig.IdeologyActive && __result.kindDef == MousekinDefOf.MousekinSlave)
+                { 
+                    __result.guest.joinStatus = JoinStatus.JoinAsSlave;
+                }
+                
+                // Mousekin Faith trait spectrum cleanup
                 int pawnFaithTraitDegree = __result.story.traits.DegreeOfTrait(MousekinDefOf.Mousekin_TraitSpectrum_Faith);
 
                 if (pawnFaithTraitDegree > 0)
