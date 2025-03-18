@@ -1156,14 +1156,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Childhood</slot>
-		<skillGains>
-			<Shooting>-4</Shooting>
-			<Melee>-4</Melee>
-			<Construction>2</Construction>
-			<Mining>2</Mining>
-			<Social>-6</Social>
-			<Intellectual>-6</Intellectual>
-		</skillGains>
 		<forcedTraitsChance>
 			<li>
 				<defName Degree="2">Industriousness</defName>
@@ -1196,6 +1188,14 @@
 				<defName Degree="-2">Industriousness</defName>
 			</li>
 		</disallowedTraitsChance>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Caring</li>
+			<li>Crafting</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+			<li>Violent</li>
+		</workDisables>
 		<spawnCategories>
 			<li>MousekinSlave</li>
 		</spawnCategories>
@@ -4649,10 +4649,12 @@
 			</li>
 		</disallowedTraitsChance>
 		<workDisables>
-			<li>Violent</li>
-			<li>ManualSkilled</li>
-			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Caring</li>
 			<li>Crafting</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+			<li>Violent</li>
 		</workDisables>
 		<relationSettings>
 			<!-- Slaves have no time to start families of their own -->
