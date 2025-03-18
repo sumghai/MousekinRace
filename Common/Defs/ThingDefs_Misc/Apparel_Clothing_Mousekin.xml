@@ -824,7 +824,7 @@
 		<equippedStatOffsets>
 			<NegotiationAbility>-0.75</NegotiationAbility>
 			<SocialImpact>-0.75</SocialImpact>
-			<SlaveSuppressionOffset>0.20</SlaveSuppressionOffset>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Biotech">0.20</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<apparel>
 			<slaveApparel>true</slaveApparel>
