@@ -539,11 +539,6 @@
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
-		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
-				<usableWithShields>true</usableWithShields>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<!-- Mousekin Pike -->
