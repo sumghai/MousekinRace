@@ -475,7 +475,7 @@
 			<!-- Slaves -->
 			
 			<li Class="StockGenerator_Slaves">
-				<countRange>15~20</countRange>
+				<countRange>8~10</countRange>
 				<slaveKindDef>MousekinSlave</slaveKindDef>
 			</li>
 			
