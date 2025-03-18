@@ -2,6 +2,24 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
+		
+			<!-- Common - tag selected weapons as one-handed -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+					defName="Mousekin_MeleeWeapon_Axe" or
+					defName="Mousekin_MeleeWeapon_Cleaver" or
+					defName="Mousekin_MeleeWeapon_Dagger" or
+					defName="Mousekin_MeleeWeapon_HammerMetal" or
+					defName="Mousekin_MeleeWeapon_HammerWood" or
+					defName="Mousekin_MeleeWeapon_SwordGuardener" or
+					defName="Mousekin_MeleeWeapon_SwordGuardenerTraining" or
+					defName="Mousekin_MeleeWeapon_SwordKnight"
+				]/weaponTags</xpath>
+				<value>
+					<li>CE_OneHandedWeapon</li>
+				</value>
+			</li>
 
 			<!-- Mousekin Axe -->
 
