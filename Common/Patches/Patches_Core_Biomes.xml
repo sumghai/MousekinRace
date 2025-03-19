@@ -17,13 +17,20 @@
 				</value>
 			</li>
 			
-			<!-- Add pines to temperate forests (IRL pines can and do grow well in such forests, seems to be an oversight by Tynan) -->
+			<!-- 
+				Add pines to temperate forests
+				 - IRL pines can and do grow well in such forests, seems to be an oversight by Tynan
+				 - Uses a conditional check to ensure compatibility with mods like ReGrowth: Core (which also adds pines to temperate biomes)
+			-->
 			
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
-				<value>
-					<Plant_TreePine>0.1</Plant_TreePine>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants/Plant_TreePine</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+					<value>
+						<Plant_TreePine>0.1</Plant_TreePine>
+					</value>
+				</nomatch>
 			</li>
 			
 			<!-- Add wild giant cavies to boreal and temperate forests -->
