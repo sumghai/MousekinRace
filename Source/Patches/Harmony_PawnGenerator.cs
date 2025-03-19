@@ -41,16 +41,22 @@ namespace MousekinRace
         }
     }
 
-    // Ensure that any Mousekin Slaves generated has the Word of Valerian ideo
-    // (if the Mousekin Kingdom faction exists on the map)
+    // Ensure that any Mousekin Slaves generated:
+    // - is spawned wearing their default slave rag apparel (instead of being given random clothing for warm)
+    // - has the Word of Valerian ideo (if the Mousekin Kingdom faction exists on the map)
     [HarmonyPatch(typeof(PawnGenerator), nameof(PawnGenerator.TryGenerateNewPawnInternal))]
-    public static class Harmony_PawnGenerator_TryGenerateNewPawnInternal_OverrideIdeoForMousekinSlaves
+    public static class Harmony_PawnGenerator_TryGenerateNewPawnInternal_CurateForMousekinSlaves
     {
         static void Prefix(ref PawnGenerationRequest request)
         {
-            if (ModsConfig.IdeologyActive && request.KindDef == MousekinDefOf.MousekinSlave &&  Find.IdeoManager.ideos.First(x => x.culture.IsMousekinKingdomLike()) is Ideo mousekinDefaultIdeo)
+            if (request.KindDef == MousekinDefOf.MousekinSlave)
             {
-                request.FixedIdeo = mousekinDefaultIdeo;
+                request.ForceAddFreeWarmLayerIfNeeded = false;
+
+                if (ModsConfig.IdeologyActive && Find.IdeoManager.ideos.First(x => x.culture.IsMousekinKingdomLike()) is Ideo mousekinDefaultIdeo)
+                {
+                    request.FixedIdeo = mousekinDefaultIdeo;
+                }
             }
         }
     }
