@@ -469,6 +469,7 @@
 	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
 		<defName>Mousekin_TraderCaravan_Slaves</defName>
 		<label>slave trader</label>
+		<category>Slaver</category>
 		<commonality>1</commonality>
 		<stockGenerators>
 			
