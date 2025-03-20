@@ -33,7 +33,7 @@
 		<workType>Hauling</workType>
 		<priorityInType>25</priorityInType>
 		<verb>harvest products from</verb>
-		<gerund>harvestinf products from</gerund>
+		<gerund>harvesting products from</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
