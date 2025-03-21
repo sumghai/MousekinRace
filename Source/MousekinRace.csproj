@@ -385,6 +385,7 @@
     <Compile Include="Patches\Harmony_MentalState_IdeoChange.cs" />
     <Compile Include="Patches\Harmony_MouseoverReadout.cs" />
     <Compile Include="Patches\Harmony_PawnDownedWiggler.cs" />
+    <Compile Include="Patches\Harmony_PawnGroupKindWorker_Trader.cs" />
     <Compile Include="Patches\Harmony_PawnPortraitIconsDrawer.cs" />
     <Compile Include="Patches\Harmony_PawnRenderer.cs" />
     <Compile Include="Patches\Harmony_PawnRitualRoleSelectionWidget.cs" />
