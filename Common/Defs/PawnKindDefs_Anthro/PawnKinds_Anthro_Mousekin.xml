@@ -976,6 +976,7 @@
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
 		<defName>MousekinTraderSlaver</defName>
 		<label>Mousekin slaver</label>
+		<trader>true</trader>
 		<combatPower>40</combatPower>
 		<backstoryFiltersOverride>
 			<li>
