@@ -589,19 +589,28 @@ namespace MousekinRace
 
         public static void SpawnNewColonists(List<Pawn> newColonistPawns)
         {
-            // Find the map belonging to the first town square and set a random spawn location near the edge of the map,
-            // while ensuring the player settlement is still reachable
-            // todo - handle multiple player maps (currently defaults to first player colony map with town square)
-            Building_TownSquare building_TownSquare = GameComponent_Allegiance.Instance.townSquares.First();
-            Map map = building_TownSquare.Map;
-            CellFinder.TryFindRandomEdgeCellWith((IntVec3 c) => map.reachability.CanReachColony(c) && !c.Fogged(map), map, CellFinder.EdgeRoadChance_Neutral, out IntVec3 recruiteeEntryCell);
+            // Get the map to spawn the new colonist(s) on
+            // - First preference is to look for the first player colony map with a town square
+            //   (todo - handle multiple player colony maps, each of which may have their own town squares)
+            // - Fallback to look for the first player colony map with a church altar
+            //   (handles the use case where an unaligned player is recruiting clergy from the altar)
+            Map newColonistsSpawnMap = GameComponent_Allegiance.Instance.townSquares?.FirstOrDefault()?.Map ?? Find.Maps.FirstOrDefault(x => x.listerBuildings.ColonistsHaveBuilding(MousekinDefOf.Mousekin_ChurchAltar));
 
-            TaggedString newRecruits = new TaggedString();
+            if (newColonistsSpawnMap == null)
+            {
+                Log.Error("Mousekin Race :: Could not spawn new colonists: no map containing town square or church atlar found");
+                return;
+            }
+
+            // Find a random accessible cell for the map
+            CellFinder.TryFindRandomEdgeCellWith((IntVec3 c) => newColonistsSpawnMap.reachability.CanReachColony(c) && !c.Fogged(newColonistsSpawnMap), newColonistsSpawnMap, CellFinder.EdgeRoadChance_Neutral, out IntVec3 recruiteeEntryCell);
+
             // Spawn the recruitees
+            TaggedString newRecruits = new TaggedString();
             foreach (Pawn pawn in newColonistPawns) 
             {
                 newRecruits += "\n- "+ pawn.NameFullColored + ", " + pawn.story.TitleShort;
-                GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(recruiteeEntryCell, building_TownSquare.Map, 3), building_TownSquare.Map);
+                GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(recruiteeEntryCell, newColonistsSpawnMap, 3), newColonistsSpawnMap);
             }
 
             // Notify the player of the new colonists
