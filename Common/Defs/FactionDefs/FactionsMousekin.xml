@@ -770,8 +770,8 @@
 					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
 				</carriers>
 				<guards>
-					<MousekinIndyTownFarmer>1</MousekinIndyTownFarmer>
-					<MousekinIndyTownSoldier>1</MousekinIndyTownSoldier>
+					<MousekinTrader>1</MousekinTrader>
+					<MousekinIndyTownSoldier>3</MousekinIndyTownSoldier>
 				</guards>
 			</li>
 
