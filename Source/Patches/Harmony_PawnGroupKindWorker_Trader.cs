@@ -41,4 +41,21 @@ namespace MousekinRace
             }
         }
     }
+
+    // Reduce number of guards for Mousekin caravan traders
+    [HarmonyPatch(typeof(PawnGroupKindWorker_Trader), nameof(PawnGroupKindWorker_Trader.GenerateGuards))]
+    public static class Harmony_PawnGroupKindWorker_Trader_GenerateGuards_ReduceNumberForMousekinTraders
+    {
+        static void Prefix(ref PawnGroupMakerParms parms, Pawn trader)
+        {
+            if (parms.faction.ideos.PrimaryCulture.IsMousekin())
+            {
+                parms.points = Rand.Range(200, 250);
+                if (trader.kindDef == MousekinDefOf.MousekinTraderSlaver)
+                {
+                    parms.points = Rand.Range(80, 120);
+                }
+            }
+        }
+    }
 }
