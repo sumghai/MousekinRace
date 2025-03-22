@@ -4679,14 +4679,6 @@
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
-		<bioAgeRange>
-			<min>20</min>
-			<max>50</max>
-		</bioAgeRange>
-		<chronoAgeRange>
-			<min>20</min>
-			<max>50</max>
-		</chronoAgeRange>
 		<skillGains>
 			<Shooting>4</Shooting>
 			<Melee>3</Melee>
