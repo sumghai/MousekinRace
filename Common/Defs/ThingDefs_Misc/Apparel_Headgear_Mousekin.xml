@@ -107,6 +107,61 @@
 	<!-- Middle-class Headgear -->
 	
 	<ThingDef ParentName="Mousekin_HatMiddleMakeableBase">
+		<defName>Mousekin_HatFrontier</defName>
+		<label>Mousekin Frontier Hat</label>
+		<description>A hard-wearing leather hat with a wide brim that offers protection from both sunlight and rain - as well as making the wearer look more mysterious and tough. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatFrontier/MousekinHatFrontier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1800</WorkToMake>
+			<Mass>0.14</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.1</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatFrontier/MousekinHatFrontier</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_HatMiddleMakeableBase">
 		<defName>Mousekin_HatNunVeil</defName>
 		<label>Mousekin Nun’s Veil</label>
 		<description>A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears.</description>
