@@ -929,6 +929,9 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
+		<apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelMoney>500~700</apparelMoney>
 		<apparelTags>
 			<li>MousekinTrader</li>
 		</apparelTags>
@@ -994,23 +997,58 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
 		<fixedGender>Male</fixedGender>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>500~700</apparelMoney>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelTags>
 			<li>MousekinTraderSlaver</li>
 		</apparelTags>
 		<apparelRequired>
+			<li>Mousekin_ApparelSettlerOutfit</li>
+			<li>Mousekin_ApparelFrontierJacket</li>
 			<li>Mousekin_BackpackLeather</li>
+			<li>Mousekin_HatFrontier</li>
 		</apparelRequired>
 		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelSettlerOutfit</apparelDef>
+				<stuff>Cloth</stuff>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Black -->
+							<only>(45, 45, 45)</only>
+						</li>
+						<li>
+							<!-- Dark brown -->
+							<only>(79, 62, 45)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<apparelDef>Mousekin_ApparelFrontierJacket</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
 			<li>
 				<bodyPartGroup>Shoulders</bodyPartGroup>
 				<apparelLayer>Belt</apparelLayer>
 				<apparelDef>Mousekin_BackpackLeather</apparelDef>
 				<!-- Use faction default of plainleather or patchleather -->
 			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HatFrontier</apparelDef>
+				<stuff>Leather_Patch</stuff>
+			</li>
 		</specificApparelRequirements>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~28</initialResistanceRange>
-		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
