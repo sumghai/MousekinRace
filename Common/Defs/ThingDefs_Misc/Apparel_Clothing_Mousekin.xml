@@ -133,7 +133,6 @@
 				<li>MousekinServantChef</li>
 				<li>MousekinServantHighClass</li>
 				<li>MousekinTrader</li>
-				<li>MousekinTraderSlaver</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -416,7 +415,6 @@
 				<li>MousekinServantHighClass</li>
 				<li>MousekinTrader</li>
 				<li>MousekinTraderNomad</li>
-				<li>MousekinTraderSlaver</li>
 				<li>MousekinTradesman</li>
 				<li>MousekinWanderer</li>
 				<!-- Placeholders until upper-class pawnkinds get unique cloaks -->
@@ -466,6 +464,61 @@
 	</ThingDef>
 	
 	<!-- Middle-class Apparel -->
+	
+	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
+		<defName>Mousekin_ApparelFrontierJacket</defName>
+		<label>Mousekin Frontier Jacket</label>
+		<description>A hard-wearing jacket, ideal for those travelling through the wilderness without attracting too much attention from predators and opportunistic pirates.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinFrontierJacket/MousekinFrontierJacket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<!-- No additional fixed materials -->
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.1</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinFrontierJacket/MousekinFrontierJacket</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
 		<defName>Mousekin_ApparelGuardenerGown</defName>

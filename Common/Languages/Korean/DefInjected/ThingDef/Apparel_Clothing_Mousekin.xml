@@ -14,7 +14,15 @@
 	<Mousekin_ApparelCloak.description>마우스킨 주민이나 추운 기후의 여행자가 입는 단순한 후드 망토입니다.</Mousekin_ApparelCloak.description>
 	
 	<!-- EN: hood -->
-	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>후드</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>		<!-- EN: Mousekin Guardener’s Gown -->
+	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>후드</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
+	
+	<!-- EN: Mousekin Frontier Jacket -->
+	<Mousekin_ApparelFrontierJacket.label>마우스킨 프론티어 재킷</Mousekin_ApparelFrontierJacket.label>
+	
+	<!-- EN: A hard-wearing jacket, ideal for those travelling through the wilderness without attracting too much attention from predators and opportunistic pirates. -->
+	<Mousekin_ApparelFrontierJacket.description>포식자나 기회주의적인 해적의 눈에 띄지 않고 황야를 여행하는 데 이상적인 튼튼한 재킷입니다.</Mousekin_ApparelFrontierJacket.description>
+	
+	<!-- EN: Mousekin Guardener’s Gown -->
 	<Mousekin_ApparelGuardenerGown.label>마우스킨 정원경비원 가운</Mousekin_ApparelGuardenerGown.label>		<!-- EN: A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat. -->
 	<Mousekin_ApparelGuardenerGown.description>정원 가꾸기와 전투 모두에 실용적으로 디자인된 마우스킨 왕국의 꽃 수호단의 견습생과 정식 서품을 받은 사람들이 입는 회색 가운.</Mousekin_ApparelGuardenerGown.description>		<!-- EN: Mousekin Guardener’s Robe -->
 	<Mousekin_ApparelGuardenerRobe.label>마우스킨 정원경비원 망토</Mousekin_ApparelGuardenerRobe.label>		<!-- EN: A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike. -->

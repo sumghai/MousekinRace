@@ -14,7 +14,15 @@
 	<Mousekin_ApparelCloak.description>一種簡單的連帽披風，供白鼠族村民或旅行者在寒冷氣候時穿著。</Mousekin_ApparelCloak.description>
 	
 	<!-- EN: hood -->
-	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>兜帽</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>		<!-- EN: Mousekin Guardener’s Gown -->
+	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>兜帽</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
+	
+	<!-- EN: Mousekin Frontier Jacket -->
+	<Mousekin_ApparelFrontierJacket.label>白鼠族邊疆夾克</Mousekin_ApparelFrontierJacket.label>
+	
+	<!-- EN: A hard-wearing jacket, ideal for those travelling through the wilderness without attracting too much attention from predators and opportunistic pirates. -->
+	<Mousekin_ApparelFrontierJacket.description>一件耐磨的夾克，非常適合在野外旅行的人，不會引起掠食性動物和投機盜賊太多注意。</Mousekin_ApparelFrontierJacket.description>
+	
+	<!-- EN: Mousekin Guardener’s Gown -->
 	<Mousekin_ApparelGuardenerGown.label>白鼠族花園衛女長袍</Mousekin_ApparelGuardenerGown.label>		<!-- EN: A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat. -->
 	<Mousekin_ApparelGuardenerGown.description>一件灰色長袍，由白鼠族王國花卉守護修會的見習和正式成員穿著，適合園藝和戰鬥。</Mousekin_ApparelGuardenerGown.description>		<!-- EN: Mousekin Guardener’s Robe -->
 	<Mousekin_ApparelGuardenerRobe.label>白鼠族花園衛女披風</Mousekin_ApparelGuardenerRobe.label>		<!-- EN: A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike. -->
