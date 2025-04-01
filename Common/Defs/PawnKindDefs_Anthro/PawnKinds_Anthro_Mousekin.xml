@@ -1062,9 +1062,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<!-- Biotech DLC compatibility: ensures slaves that actually spawn as children get appropriate child bios, instead of the generic colony Mouseling bio -->
 		<fixedChildBackstories>
-			<!-- Biotech DLC compatibility: ensures slaves that actually spawn as children get the slave child bio, instead of the generic colony Mouseling bio -->
+			<!-- Default slave child childhood (linked to default slave laborer adulthood) -->
 			<li>Mousekin_Childhood_SlaveChild</li>
+			<!-- Alternative childhoods (adulthoods default to enslaved brigand) -->
+			<li>Mousekin_Childhood_HamletChild</li>
+			<li>Mousekin_Childhood_ShepherdChild</li>
+			<li>Mousekin_Childhood_ShopChild</li>
+			<li>Mousekin_Childhood_VillageChild</li>
 		</fixedChildBackstories>
 		<minGenerationAge>18</minGenerationAge>
 		<maxGenerationAge>30</maxGenerationAge>

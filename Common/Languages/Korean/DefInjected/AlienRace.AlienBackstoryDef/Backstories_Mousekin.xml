@@ -896,6 +896,15 @@
 	<!-- EN: [PAWN_nameDef] was shuffled between different slave masters, who put [PAWN_objective] to work breaking rocks in mines or hauling lumber from forests, in return for a single, measly loaf of stale bread each day.\n\n[PAWN_pronoun] soon became used to watching [PAWN_possessive] fellow slaves collapse and die suddenly from starvation, disease or accidents - or be used as target practice by particularly cruel masters. -->
 	<Mousekin_Adulthood_SlaveLaborer.description>[PAWN_nameDef]는 [PAWN_objective]에게 광산에서 바위를 부수거나 숲에서 목재를 운반하는 일을 시키고 매일 상한 빵 한 덩이를 받는 여러 노예 주인 사이에서 뒤섞였습니다.\n\n[PAWN_pronoun]은 곧 [PAWN_possessive] 동료 노예가 굶주림, 질병 또는 사고로 갑자기 쓰러지고 죽는 것을 보거나 특히 잔인한 주인의 표적 연습으로 사용되는 것을 보는 데 익숙합니다.</Mousekin_Adulthood_SlaveLaborer.description>
 	
+	<!-- EN: Enslaved criminal -->
+	<Mousekin_Adulthood_SlaveCriminal.title>노예 범죄자</Mousekin_Adulthood_SlaveCriminal.title>
+	
+	<!-- EN: Slave -->
+	<Mousekin_Adulthood_SlaveCriminal.titleShort>노예</Mousekin_Adulthood_SlaveCriminal.titleShort>
+	
+	<!-- EN: After a bad harvest devastated [PAWN_possessive] home village and the Kingdom's officials turned their backs on them, [PAWN_nameDef] threw in [PAWN_possessive] lot with a group of roving bandits, preying on wealthy merchants and travelling aristocrats to survive.\n\nEventually, they were arrested by Guardeners, and [PAWN_pronoun] was sentenced to slavery by the local magistrate as punishment for [PAWN_possessive] crimes. -->
+	<Mousekin_Adulthood_SlaveCriminal.description>흉작으로 고향 마을이 황폐해지고 왕국의 관리들이 등을 돌리자, [PAWN_nameDef]는 부유한 상인들과 여행하는 귀족들을 약탈하며 생존을 위해 떠돌이 도적 무리와 함께 [PAWN_nameDef]에 몸을 던졌죠. \나중에 그들은 경비병에게 체포되었고, [PAWN_대명사]는 지역 치안판사에게 [PAWN_소유] 범죄에 대한 처벌로 노예 형을 선고받았습니다.</Mousekin_Adulthood_SlaveCriminal.description>
+	
 	<!-- EN: Slave trader -->
 	<Mousekin_Adulthood_SlaveTrader.title>노예 상인</Mousekin_Adulthood_SlaveTrader.title>
 	

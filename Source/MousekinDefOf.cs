@@ -74,6 +74,8 @@ namespace MousekinRace
 
         public static TraitDef Mousekin_TraitSpectrum_Faith;
 
+        public static BackstoryDef Mousekin_Childhood_SlaveChild;
+
         public static BodyPartDef Mousekin_Ear;
 
         public static HediffDef Mousekin_ProstheticClothEar;

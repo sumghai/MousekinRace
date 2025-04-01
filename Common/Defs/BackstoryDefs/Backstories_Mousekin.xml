@@ -528,6 +528,7 @@
 			<li>MousekinPeasant</li>
 			<li>MousekinPikeman</li>
 			<li>MousekinRaider</li>
+			<li>MousekinSlave</li>
 			<li>MousekinWanderer</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
@@ -1097,6 +1098,7 @@
 			<li>MousekinPriest</li>
 			<li>MousekinRaider</li>
 			<li>MousekinStartingColonist</li>
+			<li>MousekinSlave</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -1145,6 +1147,7 @@
 			<li>MousekinTrader</li>
 			<li>MousekinTraderSlaver</li>
 			<li>MousekinTradesman</li>
+			<li>MousekinSlave</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
@@ -1322,6 +1325,7 @@
 			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
 			<li>MousekinRaider</li>
+			<li>MousekinSlave</li>
 			<li>MousekinStartingColonist</li>
 			<li>MousekinTrader</li>
 			<li>MousekinTradesman</li>
@@ -4669,6 +4673,76 @@
 			<li>MousekinSlave</li>
 		</spawnCategories>
 		<linkedBackstory>Mousekin_Childhood_SlaveChild</linkedBackstory>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
+		<defName>Mousekin_Adulthood_SlaveCriminal</defName>
+		<title>Enslaved criminal</title>
+		<titleShort>Slave</titleShort>
+		<description>After a bad harvest devastated [PAWN_possessive] home village and the Kingdom's officials turned their backs on them, [PAWN_nameDef] threw in [PAWN_possessive] lot with a group of roving bandits, preying on wealthy merchants and travelling aristocrats to survive.\n\nEventually, they were arrested by Guardeners, and [PAWN_pronoun] was sentenced to slavery by the local magistrate as punishment for [PAWN_possessive] crimes.</description>
+		<slot>Adulthood</slot>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Abrasive</defName>
+			</li>
+			<li>
+				<defName>Bloodlust</defName>
+			</li>
+			<li>
+				<defName>Greedy</defName>
+			</li>
+			<li>
+				<defName Degree="-1">Industriousness</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Industriousness</defName>
+			</li>
+			<li>
+				<defName>Jealous</defName>
+			</li>
+			<li>
+				<!-- Apostate -->
+				<defName Degree="1">Mousekin_TraitSpectrum_Faith</defName>
+			</li>
+			<li>
+				<!-- Devotionist -->
+				<defName Degree="2">Mousekin_TraitSpectrum_Faith</defName>
+			</li>
+			<li>
+				<!-- Pious -->
+				<defName Degree="3">Mousekin_TraitSpectrum_Faith</defName>
+			</li>
+			<li>
+				<!-- Inquisitionist -->
+				<defName Degree="4">Mousekin_TraitSpectrum_Faith</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Tough</defName>
+			</li>
+		</disallowedTraitsChance>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Caring</li>
+			<li>Crafting</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+			<li>Violent</li>
+		</workDisables>
+		<relationSettings>
+			<!-- Slaves have no time to start families of their own -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+		</relationSettings>
+		<spawnCategories>
+			<li>MousekinSlave</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">

@@ -896,6 +896,15 @@
 	<!-- EN: [PAWN_nameDef] was shuffled between different slave masters, who put [PAWN_objective] to work breaking rocks in mines or hauling lumber from forests, in return for a single, measly loaf of stale bread each day.\n\n[PAWN_pronoun] soon became used to watching [PAWN_possessive] fellow slaves collapse and die suddenly from starvation, disease or accidents - or be used as target practice by particularly cruel masters. -->
 	<Mousekin_Adulthood_SlaveLaborer.description>[PAWN_nameDef]在不同的奴隸主之間洗牌，在礦山中破碎岩石或從森林中搬運木材，以換取每天一條微不足道的陳麵包。\n\n[PAWN_pronoun]很快就習慣了看著[PAWN_possessive]奴隸同伴因飢餓、疾病或事故而突然崩潰和死亡——或者被特別殘忍的主人用作靶子練習。</Mousekin_Adulthood_SlaveLaborer.description>
 	
+	<!-- EN: Enslaved criminal -->
+	<Mousekin_Adulthood_SlaveCriminal.title>苦役犯</Mousekin_Adulthood_SlaveCriminal.title>
+	
+	<!-- EN: Slave -->
+	<Mousekin_Adulthood_SlaveCriminal.titleShort>奴隸</Mousekin_Adulthood_SlaveCriminal.titleShort>
+	
+	<!-- EN: After a bad harvest devastated [PAWN_possessive] home village and the Kingdom's officials turned their backs on them, [PAWN_nameDef] threw in [PAWN_possessive] lot with a group of roving bandits, preying on wealthy merchants and travelling aristocrats to survive.\n\nEventually, they were arrested by Guardeners, and [PAWN_pronoun] was sentenced to slavery by the local magistrate as punishment for [PAWN_possessive] crimes. -->
+	<Mousekin_Adulthood_SlaveCriminal.description>在一次歉收摧毀了[PAWN_possessive]家鄉，而王國的官員也背棄了他們之後，[PAWN_nameDef]投靠了一幫流寇，靠掠奪富有的商人和旅行貴族來謀生。\n\n後來，他們被花園衛女逮捕，[PAWN_pronoun] 將被當地的法官判為奴隸，以懲罰[PAWN_possessive]罪行。</Mousekin_Adulthood_SlaveCriminal.description>
+	
 	<!-- EN: Slave trader -->
 	<Mousekin_Adulthood_SlaveTrader.title>奴隸販子</Mousekin_Adulthood_SlaveTrader.title>
 	

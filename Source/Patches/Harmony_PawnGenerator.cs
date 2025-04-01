@@ -44,6 +44,7 @@ namespace MousekinRace
     // Ensure that any Mousekin Slaves generated:
     // - is spawned wearing their default slave rag apparel (instead of being given random clothing for warm)
     // - has the Word of Valerian ideo (if the Mousekin Kingdom faction exists on the map)
+    // - child slaves (i.e. those with no adulthoods) should always have the generic Mousekin Slave Child backstory
     [HarmonyPatch(typeof(PawnGenerator), nameof(PawnGenerator.TryGenerateNewPawnInternal))]
     public static class Harmony_PawnGenerator_TryGenerateNewPawnInternal_CurateForMousekinSlaves
     {
@@ -57,6 +58,17 @@ namespace MousekinRace
                 {
                     request.FixedIdeo = mousekinDefaultIdeo;
                 }
+            }
+        }
+
+        static void Postfix(ref Pawn __result, ref PawnGenerationRequest request) 
+        {
+            if (request.KindDef == MousekinDefOf.MousekinSlave && __result.story.adulthood == null)
+            {
+                __result.story.Childhood = MousekinDefOf.Mousekin_Childhood_SlaveChild;
+                // Regenerate traits and skills as required
+                PawnGenerator.GenerateTraits(__result, request);
+                PawnGenerator.GenerateSkills(__result, request);
             }
         }
     }
