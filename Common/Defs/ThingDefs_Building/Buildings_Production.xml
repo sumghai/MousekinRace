@@ -695,7 +695,7 @@
 			<ai_chillDestination>false</ai_chillDestination>
 			<allowAutoroof>false</allowAutoroof>
 			<blueprintGraphicData>
-				<texPath>Things/Building/Production/Mousekin_CharcoalPileFull</texPath>
+				<texPath>Things/Building/Production/Mousekin_CharcoalPileFullBlueprint</texPath>
 				<shaderType>EdgeDetect</shaderType>
 				<color>(1, 1, 1, 1)</color>
 			</blueprintGraphicData>
