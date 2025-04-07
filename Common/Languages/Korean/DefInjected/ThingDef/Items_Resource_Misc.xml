@@ -7,4 +7,10 @@
 	<!-- EN: Wax produced by honeybees from Mousekin Beehives, mainly used for crafting candles. -->
 	<Mousekin_Beeswax.description>마우스킨 벌집에서 꿀벌이 생산하는 왁스로 주로 양초 제작에 사용됩니다.</Mousekin_Beeswax.description>
 	
+	<!-- EN: Wood Ash -->
+	<Mousekin_WoodAsh.label>목재 재</Mousekin_WoodAsh.label>
+	
+	<!-- EN: Powdery residue remaining from the combustion of wood in fireplaces and stoves. Although normally a waste product, it can be used as a primitive fertilizer or as an ingredient in saltpeter production. -->
+	<Mousekin_WoodAsh.description>벽난로와 스토브에서 나무가 연소할 때 남은 가루 찌꺼기입니다. 일반적으로는 폐기물이지만, 원시 비료나 질산염 생산의 원료로 사용할 수 있습니다.</Mousekin_WoodAsh.description>
+	
 </LanguageData>

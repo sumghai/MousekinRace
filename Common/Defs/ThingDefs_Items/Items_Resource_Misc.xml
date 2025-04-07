@@ -23,5 +23,28 @@
 			<li>ResourcesRaw</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<!-- Wood Ash -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_WoodAsh</defName>
+		<label>Wood Ash</label>
+		<description>Powdery residue remaining from the combustion of wood in fireplaces and stoves. Although normally a waste product, it can be used as a primitive fertilizer or as an ingredient in saltpeter production.</description>
+		<graphicData>
+			<texPath>Things/Items/Resources/Mousekin_WoodAsh</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<MarketValue>0</MarketValue>
+			<Mass>0.5</Mass>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
 
 </Defs>
