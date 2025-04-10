@@ -9,6 +9,15 @@
 
 	<!-- EN: crafting at -->
 	<Mousekin_DoBillsUseCraftingBench.gerund>Изготавливать на</Mousekin_DoBillsUseCraftingBench.gerund>
+	
+	<!-- EN: empty ashes from hearths -->
+	<Mousekin_EmptyAshesFromHearth.label>пустой пепел из очагов</Mousekin_EmptyAshesFromHearth.label>
+	
+	<!-- EN: empty ashes from -->
+	<Mousekin_EmptyAshesFromHearth.verb>пустой пепел из</Mousekin_EmptyAshesFromHearth.verb>
+	
+	<!-- EN: emptying ashes from -->
+	<Mousekin_EmptyAshesFromHearth.gerund>вытряхивание пепла из</Mousekin_EmptyAshesFromHearth.gerund>
 
 	<!-- EN: harvest products from beehives -->
 	<Mousekin_HarvestFromBeehive.label>Собирать продукты из ульев</Mousekin_HarvestFromBeehive.label>

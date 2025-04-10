@@ -96,6 +96,7 @@ namespace MousekinRace
         public static JobDef Mousekin_Job_ChurchServiceGiveSermon;
         public static JobDef Mousekin_Job_CommitSuicideWithKnife;
         public static JobDef Mousekin_Job_CommitSuicideWithPoison;
+        public static JobDef Mousekin_Job_EmptyAshesFromHearth;
         public static JobDef Mousekin_Job_HarvestFromBeehive;
 
         public static DutyDef Mousekin_DutyChurchServiceGiveSermon;

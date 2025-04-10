@@ -322,10 +322,12 @@
     <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
     <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
+    <Compile Include="Comps\CompAshMaker.cs" />
     <Compile Include="Comps\CompAutoCutWindmill.cs" />
     <Compile Include="Comps\CompFireOverlayMulti.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAltStateGraphics.cs" />
     <Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs" />
+    <Compile Include="Comps\CompProperties_AshMaker.cs" />
     <Compile Include="Comps\CompProperties_FireOverlayMulti.cs" />
     <Compile Include="Comps\CompProperties_FireplaceRenderer.cs" />
     <Compile Include="Comps\CompProperties_RemembersCheeseEaten.cs" />
@@ -348,6 +350,7 @@
     <Compile Include="Jobs\JobDriver_ChurchServiceAttendSermon.cs" />
     <Compile Include="Jobs\JobDriver_ChurchServiceGiveSermon.cs" />
     <Compile Include="Jobs\JobDriver_EatAtBarbecueTable.cs" />
+    <Compile Include="Jobs\JobDriver_EmptyAshesFromHearth.cs" />
     <Compile Include="Jobs\JobDriver_PerformFlowerDance.cs" />
     <Compile Include="Jobs\JobDriver_SetHereticOnFire.cs" />
     <Compile Include="Jobs\JobGiver_ChurchServiceAttendSermon.cs" />
@@ -360,8 +363,10 @@
     <Compile Include="Jobs\LordJob_Ritual_HereticExecution.cs" />
     <Compile Include="Jobs\LordToilData_ChurchService.cs" />
     <Compile Include="Jobs\LordToil_ChurchService.cs" />
+    <Compile Include="Jobs\WorkGiver_EmptyAshesFromHearth.cs" />
     <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
+    <Compile Include="Patches\Harmony_CompRefuelable.cs" />
     <Compile Include="Patches\Harmony_DesignationCategoryDef.cs" />
     <Compile Include="Patches\Harmony_Designator_Build.cs" />
     <Compile Include="Patches\Harmony_AttachableThing.cs" />

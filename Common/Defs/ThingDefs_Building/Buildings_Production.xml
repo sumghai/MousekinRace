@@ -91,6 +91,10 @@
 			<li>
 				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
 			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
+				<ashCapacity>10</ashCapacity>
+			</li>
 			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
 				<emissiveGraphicData>
 					<texPath>Things/Building/Production/FX/Mousekin_CastIronStove_hearthGlow</texPath>
@@ -257,6 +261,9 @@
 			</li>
 			<li>
 				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
 			</li>
 			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
 				<emissiveGraphicData>
@@ -489,6 +496,9 @@
 			</li>
 			<li>
 				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
 			</li>
 			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
 				<emissiveGraphicData>

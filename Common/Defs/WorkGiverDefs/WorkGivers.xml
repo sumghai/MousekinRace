@@ -24,6 +24,22 @@
 	
 	<!-- ============= Hauling ============= -->
 	
+	<!-- Emptying ashes from hearths (e.g. stoves, fireplaces, smithies) -->
+	
+	<WorkGiverDef>
+		<defName>Mousekin_EmptyAshesFromHearth</defName>
+		<label>empty ashes from hearths</label>
+		<giverClass>MousekinRace.WorkGiver_EmptyAshesFromHearth</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>25</priorityInType>
+		<verb>empty ashes from</verb>
+		<gerund>emptying ashes from</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
 	<!-- Harvesting products from the Mousekin Beehive -->
 	
 	<WorkGiverDef>

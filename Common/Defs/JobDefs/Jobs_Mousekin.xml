@@ -32,6 +32,13 @@
 	</JobDef>
 	
 	<JobDef>
+		<defName>Mousekin_Job_EmptyAshesFromHearth</defName>
+		<driverClass>MousekinRace.JobDriver_EmptyAshesFromHearth</driverClass>
+		<reportString>emptying ashes from TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
+	<JobDef>
 		<defName>Mousekin_Job_HarvestFromBeehive</defName>
 		<driverClass>MousekinRace.JobDriver_HarvestFromBeehive</driverClass>
 		<reportString>harvesting products from TargetA.</reportString>

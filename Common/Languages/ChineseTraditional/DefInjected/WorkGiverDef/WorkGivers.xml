@@ -9,6 +9,15 @@
 
 	<!-- EN: crafting at -->
 	<Mousekin_DoBillsUseCraftingBench.gerund>製作</Mousekin_DoBillsUseCraftingBench.gerund>
+	
+	<!-- EN: empty ashes from hearths -->
+	<Mousekin_EmptyAshesFromHearth.label>清除爐灶中的灰燼</Mousekin_EmptyAshesFromHearth.label>
+	
+	<!-- EN: empty ashes from -->
+	<Mousekin_EmptyAshesFromHearth.verb>清除灰燼</Mousekin_EmptyAshesFromHearth.verb>
+	
+	<!-- EN: emptying ashes from -->
+	<Mousekin_EmptyAshesFromHearth.gerund>清除灰燼</Mousekin_EmptyAshesFromHearth.gerund>
 
 	<!-- EN: harvest products from beehives -->
 	<Mousekin_HarvestFromBeehive.label>從蜂箱收穫產品</Mousekin_HarvestFromBeehive.label>

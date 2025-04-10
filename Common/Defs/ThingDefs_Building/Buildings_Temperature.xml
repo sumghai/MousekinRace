@@ -75,6 +75,9 @@
 			<li>
 				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
 			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
+			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>10</glowRadius>
 				<glowColor>(252, 187, 113, 0)</glowColor>

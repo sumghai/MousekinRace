@@ -9,6 +9,15 @@
 
 	<!-- EN: crafting at -->
 	<Mousekin_DoBillsUseCraftingBench.gerund>에서 제작</Mousekin_DoBillsUseCraftingBench.gerund>
+	
+	<!-- EN: empty ashes from hearths -->
+	<Mousekin_EmptyAshesFromHearth.label>난로에서 나온 빈 재</Mousekin_EmptyAshesFromHearth.label>
+	
+	<!-- EN: empty ashes from -->
+	<Mousekin_EmptyAshesFromHearth.verb>에서 빈 재를</Mousekin_EmptyAshesFromHearth.verb>
+	
+	<!-- EN: emptying ashes from -->
+	<Mousekin_EmptyAshesFromHearth.gerund>유골 비우기</Mousekin_EmptyAshesFromHearth.gerund>
 
 	<!-- EN: harvest products from beehives -->
 	<Mousekin_HarvestFromBeehive.label>벌통에서 제품 수확</Mousekin_HarvestFromBeehive.label>

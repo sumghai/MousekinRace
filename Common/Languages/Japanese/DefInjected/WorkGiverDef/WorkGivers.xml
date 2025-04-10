@@ -9,6 +9,15 @@
 
 	<!-- EN: crafting at -->
 	<Mousekin_DoBillsUseCraftingBench.gerund>で作業する</Mousekin_DoBillsUseCraftingBench.gerund>
+	
+	<!-- EN: empty ashes from hearths -->
+	<Mousekin_EmptyAshesFromHearth.label>囲炉裏の灰を取り除く</Mousekin_EmptyAshesFromHearth.label>
+	
+	<!-- EN: empty ashes from -->
+	<Mousekin_EmptyAshesFromHearth.verb>から灰を取り除く</Mousekin_EmptyAshesFromHearth.verb>
+	
+	<!-- EN: emptying ashes from -->
+	<Mousekin_EmptyAshesFromHearth.gerund>から灰を取り除く</Mousekin_EmptyAshesFromHearth.gerund>
 
 	<!-- EN: harvest products from beehives -->
 	<Mousekin_HarvestFromBeehive.label>養蜂箱から製品を採取</Mousekin_HarvestFromBeehive.label>
