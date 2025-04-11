@@ -662,7 +662,7 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<!-- Mousekin charcoal pile -->
+	<!-- Mousekin charcoal pile (old VEF ItemProcessor) -->
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_CharcoalPile</defName>
@@ -741,7 +741,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
-	<!-- Mousekin cheese press -->
+	<!-- Mousekin cheese press (old VEF ItemProcessor) -->
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_CheesePress</defName>
@@ -830,7 +830,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
-	<!-- Mousekin fermenting barrel -->
+	<!-- Mousekin fermenting barrel (old VEF ItemProcessor) -->
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_FermentingBarrel</defName>
@@ -965,7 +965,7 @@
 		</placeWorkers>
 	</ThingDef>
 
-	<!-- Mousekin windmill -->
+	<!-- Mousekin windmill (old VEF ItemProcessor) -->
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_Windmill</defName>
