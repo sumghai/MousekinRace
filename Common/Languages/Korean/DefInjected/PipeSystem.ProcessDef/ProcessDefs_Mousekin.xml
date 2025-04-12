@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Carbonize wood logs into charcoal -->
+	<Mousekin_WoodLogToCharcoal.label>나무 통나무를 숯으로 탄화</Mousekin_WoodLogToCharcoal.label>
+	
+	<!-- EN: Turns 300 wood logs into 600 charcoal. -->
+	<Mousekin_WoodLogToCharcoal.description>나무 통나무 300개를 600개의 숯으로 바꿉니다.</Mousekin_WoodLogToCharcoal.description>
+	
+	<!-- EN: Carbonize 300 wood logs into 600 charcoal -->
+	<Mousekin_WoodLogToCharcoal.labelOverride>나무 통나무 300개를 탄화시켜 숯 600개로 만들기</Mousekin_WoodLogToCharcoal.labelOverride>
+	
+</LanguageData>

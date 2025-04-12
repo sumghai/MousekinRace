@@ -31,20 +31,8 @@
 	<!-- EN: Remove this item from the root cellar. -->
 	<MousekinRace_CellarOutdoor_EjectItemTooltip>地下貯蔵庫からこのアイテムを取り出します.</MousekinRace_CellarOutdoor_EjectItemTooltip>
 	
-	<!-- EN: Wood to Insert -->
-	<MousekinRace_CharcoalPile_InsertWoodDesc>炭焼きで炭化する木材を選択します.</MousekinRace_CharcoalPile_InsertWoodDesc>
-	
-	<!-- EN: Bring Wood -->
-	<MousekinRace_CharcoalPile_StartInsertionWood>木材を運ぶ</MousekinRace_CharcoalPile_StartInsertionWood>
-	
-	<!-- EN: Bring Wood Logs to the charcoal pile to start the carbonization process -->
-	<MousekinRace_CharcoalPile_StartInsertionWoodDesc>木材を運び、炭化を開始する</MousekinRace_CharcoalPile_StartInsertionWoodDesc>
-	
-	<!-- EN: Cancel bringing Wood -->
-	<MousekinRace_CharcoalPile_CancelBringingWood>運搬をやめる</MousekinRace_CharcoalPile_CancelBringingWood>
-	
-	<!-- EN: Cancel bringing Wood Logs to the charcoal pile. -->
-	<MousekinRace_CharcoalPile_CancelBringingWoodDesc>木材の運搬をやめる</MousekinRace_CharcoalPile_CancelBringingWoodDesc>
+	<!-- EN: This charcoal pile is not working at the moment -->
+	<MousekinRace_CharcoalPileNotWorking>この木炭窯は現在稼働していない</MousekinRace_CharcoalPileNotWorking>
 
 	<!-- EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>チーズプレス機で押すミルクを選択します. ミルクにより、違う種類のチーズができるかもしれません.</MousekinRace_CheesePress_InsertMilkDesc>

@@ -31,20 +31,8 @@
 	<!-- EN: Remove this item from the root cellar. -->
 	<MousekinRace_CellarOutdoor_EjectItemTooltip>把此物品从此根窖移除。</MousekinRace_CellarOutdoor_EjectItemTooltip>
 	
-	<!-- EN: Wood to Insert -->
-	<MousekinRace_CharcoalPile_InsertWoodDesc>选原木</MousekinRace_CharcoalPile_InsertWoodDesc>
-	
-	<!-- EN: Bring Wood -->
-	<MousekinRace_CharcoalPile_StartInsertionWood>添加原木</MousekinRace_CharcoalPile_StartInsertionWood>
-	
-	<!-- EN: Bring Wood Logs to the charcoal pile to start the carbonization process -->
-	<MousekinRace_CharcoalPile_StartInsertionWoodDesc>往该木炭堆添加原木以开始碳化。</MousekinRace_CharcoalPile_StartInsertionWoodDesc>
-	
-	<!-- EN: Cancel bringing Wood -->
-	<MousekinRace_CharcoalPile_CancelBringingWood>取消添加原木</MousekinRace_CharcoalPile_CancelBringingWood>
-	
-	<!-- EN: Cancel bringing Wood Logs to the charcoal pile. -->
-	<MousekinRace_CharcoalPile_CancelBringingWoodDesc>取消往该木炭堆添加原木。</MousekinRace_CharcoalPile_CancelBringingWoodDesc>
+	<!-- EN: This charcoal pile is not working at the moment -->
+	<MousekinRace_CharcoalPileNotWorking>木炭堆未处于工作状态</MousekinRace_CharcoalPileNotWorking>
 
 	<!-- EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>选原乳</MousekinRace_CheesePress_InsertMilkDesc>

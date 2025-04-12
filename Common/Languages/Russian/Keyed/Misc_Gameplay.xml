@@ -31,20 +31,8 @@
 	<!-- EN: Remove this item from the root cellar. -->
 	<MousekinRace_CellarOutdoor_EjectItemTooltip>Удалить этот предмет из подвала.</MousekinRace_CellarOutdoor_EjectItemTooltip>
 	
-	<!-- EN: Wood to Insert -->
-	<MousekinRace_CharcoalPile_InsertWoodDesc>древесина для вставки</MousekinRace_CharcoalPile_InsertWoodDesc>
-	
-	<!-- EN: Bring Wood -->
-	<MousekinRace_CharcoalPile_StartInsertionWood>Принести древесина</MousekinRace_CharcoalPile_StartInsertionWood>
-	
-	<!-- EN: Bring Wood Logs to the charcoal pile to start the carbonization process -->
-	<MousekinRace_CharcoalPile_StartInsertionWoodDesc>Принести древесина в угольную кучу, чтобы начать процесс карбонизации</MousekinRace_CharcoalPile_StartInsertionWoodDesc>
-	
-	<!-- EN: Cancel bringing Wood -->
-	<MousekinRace_CharcoalPile_CancelBringingWood>Отменить доставку древесина</MousekinRace_CharcoalPile_CancelBringingWood>
-	
-	<!-- EN: Cancel bringing Wood Logs to the charcoal pile. -->
-	<MousekinRace_CharcoalPile_CancelBringingWoodDesc>Отменить доставку древесина в угольную кучу.</MousekinRace_CharcoalPile_CancelBringingWoodDesc>
+	<!-- EN: This charcoal pile is not working at the moment -->
+	<MousekinRace_CharcoalPileNotWorking>Этот угольная куча сейчас не работает</MousekinRace_CharcoalPileNotWorking>
 	
 	<!-- EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>Молоко для вставки</MousekinRace_CheesePress_InsertMilkDesc>

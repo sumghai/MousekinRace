@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Carbonize wood logs into charcoal -->
+	<Mousekin_WoodLogToCharcoal.label>木材を木炭にする</Mousekin_WoodLogToCharcoal.label>
+	
+	<!-- EN: Turns 300 wood logs into 600 charcoal. -->
+	<Mousekin_WoodLogToCharcoal.description>300本の木材を600本の木炭にする.</Mousekin_WoodLogToCharcoal.description>
+	
+	<!-- EN: Carbonize 300 wood logs into 600 charcoal -->
+	<Mousekin_WoodLogToCharcoal.labelOverride>300本の木材を600本の木炭にする</Mousekin_WoodLogToCharcoal.labelOverride>
+	
+</LanguageData>

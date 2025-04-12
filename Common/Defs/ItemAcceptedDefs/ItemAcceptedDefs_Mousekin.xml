@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<ItemProcessor.ItemAcceptedDef>
-		<defName>Mousekin_IP_CharcoalPileFirstItem</defName>
-		<building>Mousekin_CharcoalPile</building>
-		<slot>1</slot>
-		<items>
-			<li>WoodLog</li>
-		</items>
-	</ItemProcessor.ItemAcceptedDef>
 	
 	<ItemProcessor.ItemAcceptedDef>
 		<defName>Mousekin_IP_CheesePressFirstItem</defName>

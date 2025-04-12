@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PipeSystem.ProcessDef>
+		<defName>Mousekin_WoodLogToCharcoal</defName>
+		<label>Carbonize wood logs into charcoal</label>
+		<description>Turns 300 wood logs into 600 charcoal.</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Carbonize 300 wood logs into 600 charcoal</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>WoodLog</thing>
+				<countNeeded>300</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>180000</ticks>
+		<results>
+			<li>
+				<thing>Mousekin_Charcoal</thing>
+				<count>600</count>
+			</li>
+		</results>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	
+</Defs>

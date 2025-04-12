@@ -32,21 +32,6 @@
 	</ItemProcessor.CombinationDef>
 	
 	<ItemProcessor.CombinationDef>
-		<defName>Mousekin_WoodLogToCharcoal</defName>
-		<building>Mousekin_CharcoalPile</building>
-		<items>
-			<li>WoodLog</li>
-		</items>
-		<amount>
-			<li>300</li>
-		</amount>
-		<result>Mousekin_Charcoal</result>
-		<yield>600</yield>
-		<useQualityIncreasing>false</useQualityIncreasing>
-		<singleTimeIfNotQualityIncreasing>3</singleTimeIfNotQualityIncreasing>
-	</ItemProcessor.CombinationDef>
-	
-	<ItemProcessor.CombinationDef>
 		<defName>Mousekin_WortLagerToDrinkLager</defName>
 		<building>Mousekin_FermentingBarrel</building>
 		<items>

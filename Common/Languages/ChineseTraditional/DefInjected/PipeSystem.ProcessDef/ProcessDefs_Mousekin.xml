@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Carbonize wood logs into charcoal -->
+	<Mousekin_WoodLogToCharcoal.label>用木頭碳化製作木炭</Mousekin_WoodLogToCharcoal.label>
+	
+	<!-- EN: Turns 300 wood logs into 600 charcoal. -->
+	<Mousekin_WoodLogToCharcoal.description>用300單位木頭碳化製作600單位木炭。</Mousekin_WoodLogToCharcoal.description>
+	
+	<!-- EN: Carbonize 300 wood logs into 600 charcoal -->
+	<Mousekin_WoodLogToCharcoal.labelOverride>用300單位木頭碳化製作600單位木炭</Mousekin_WoodLogToCharcoal.labelOverride>
+	
+</LanguageData>
