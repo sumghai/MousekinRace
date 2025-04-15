@@ -24,6 +24,30 @@
 		</thingCategories>
 	</ThingDef>
 	
+	<!-- Saltpeter -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Saltpeter</defName>
+		<label>Saltpeter</label>
+		<description>Also known as potassium nitrate, this off-white solid crystalline powder is obtained from underground mines or efflorescence from nitraries, and has uses ranging from food preservation and soil fertilization to medicine and gunpowder production.</description>
+		<graphicData>
+			<texPath>Things/Items/Resources/Mousekin_Saltpeter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>100</stackLimit>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>1</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
 	<!-- Wood Ash -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>Mousekin_WoodAsh</defName>
