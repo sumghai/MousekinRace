@@ -662,7 +662,7 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<!-- Mousekin charcoal pile (old VEF ItemProcessor) -->
+	<!-- Mousekin charcoal pile -->
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_CharcoalPile</defName>
