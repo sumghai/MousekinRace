@@ -2,6 +2,33 @@
 <Defs>
 
 	<PipeSystem.ProcessDef>
+		<defName>Mousekin_ManureToSaltpeter</defName>
+		<label>Convert manure into saltpeter</label>
+		<description>Turns 200 giant cavy pellets and 50 wood ash into 100 saltpeter.</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Convert 200 giant cavy pellets and 50 wood ash into 100 saltpeter</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Mousekin_PoopGiantCavy</thing>
+				<countNeeded>200</countNeeded>
+			</li>
+			<li>
+				<thing>Mousekin_WoodAsh</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>900000</ticks>
+		<results>
+			<li>
+				<thing>Mousekin_Saltpeter</thing>
+				<count>100</count>
+			</li>
+		</results>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
 		<defName>Mousekin_WoodLogToCharcoal</defName>
 		<label>Carbonize wood logs into charcoal</label>
 		<description>Turns 300 wood logs into 600 charcoal.</description>

@@ -25,7 +25,13 @@
 	<Mousekin_CheesePress.label>마우스킨 치즈 압착기</Mousekin_CheesePress.label>		<!-- EN: A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese. -->
 	<Mousekin_CheesePress.description>클로버베리 치즈를 만들기 위해 우유 응유에서 유청을 누르는 나무 장치.</Mousekin_CheesePress.description>		<!-- EN: Mousekin fermenting barrel -->
 	<Mousekin_FermentingBarrel.label>마우스킨 발효 통</Mousekin_FermentingBarrel.label>		<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
-	<Mousekin_FermentingBarrel.description>다양한 마우스킨 알코올 음료를 발효시키기 위한 큰 통. 시원하고 어두운 방이 필요합니다.</Mousekin_FermentingBarrel.description>		<!-- EN: Mousekin research bench -->
+	<Mousekin_FermentingBarrel.description>다양한 마우스킨 알코올 음료를 발효시키기 위한 큰 통. 시원하고 어두운 방이 필요합니다.</Mousekin_FermentingBarrel.description>
+	
+	<!-- EN: Mousekin Nitrary -->
+	<Mousekin_Nitrary.label>마우스킨 질산염층은</Mousekin_Nitrary.label>
+	
+	<!-- EN: Piles of manure mixed with wood ash, moistened by rain and urine. Produces saltpeter through efflorescence after 15 days. -->
+	<Mousekin_Nitrary.description>비와 소변으로 축축해진 나무 재와 섞인 분뇨 더미. 15일 후 백화를 통해 질산염을 생성합니다.</Mousekin_Nitrary.description>		<!-- EN: Mousekin research bench -->
 	<Mousekin_ResearchBench.label>마우스킨 연구대</Mousekin_ResearchBench.label>		<!-- EN: A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things. -->
 	<Mousekin_ResearchBench.description>실험적인 유리 제품, 다양한 구성 요소, 간단한 측정 도구, 필기구 및 참고 도서가 있는 벤치. 마우스킨 연구원들은 이곳에서 새로운 것을 발견하기 위해 일합니다.</Mousekin_ResearchBench.description>		<!-- EN: Mousekin windmill -->
 	<Mousekin_Windmill.label>마우스킨 풍차</Mousekin_Windmill.label>		<!-- EN: A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water. -->

@@ -65,6 +65,12 @@
 	<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
 	<Mousekin_FermentingBarrel.description>一种用于发酵各种白鼠族酒类的大桶。需要阴凉、黑暗的房间。</Mousekin_FermentingBarrel.description>
 	
+	<!-- EN: Mousekin Nitrary -->
+	<Mousekin_Nitrary.label>白鼠族硝土堆</Mousekin_Nitrary.label>
+	
+	<!-- EN: Piles of manure mixed with wood ash, moistened by rain and urine. Produces saltpeter through efflorescence after 15 days. -->
+	<Mousekin_Nitrary.description>成堆的粪便与木灰混合，被雨水和尿液滋润。15天后通过浸润产生硝石。</Mousekin_Nitrary.description>
+	
 	<!-- EN: Mousekin research bench -->
 	<Mousekin_ResearchBench.label>白鼠族研究桌</Mousekin_ResearchBench.label>
 	

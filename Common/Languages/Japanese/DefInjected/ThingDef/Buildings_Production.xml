@@ -65,6 +65,12 @@
 	<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
 	<Mousekin_FermentingBarrel.description>様々なマウスキンのアルコール飲料を発酵させるための大きな樽です.冷暗所が必要です.</Mousekin_FermentingBarrel.description>
 	
+	<!-- EN: Mousekin Nitrary -->
+	<Mousekin_Nitrary.label>マウスキン硝石丘</Mousekin_Nitrary.label>
+	
+	<!-- EN: Piles of manure mixed with wood ash, moistened by rain and urine. Produces saltpeter through efflorescence after 15 days. -->
+	<Mousekin_Nitrary.description>雨や尿で湿った木灰混じりの糞尿の山.15日後にエフロレッセンスによって塩硝を生成します.</Mousekin_Nitrary.description>
+	
 	<!-- EN: Mousekin research bench -->
 	<Mousekin_ResearchBench.label>マウスキン研究卓</Mousekin_ResearchBench.label>
 	

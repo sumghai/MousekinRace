@@ -912,6 +912,69 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
+	<!-- Mousekin nitrary -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_Nitrary</defName>
+		<label>Mousekin Nitrary</label>
+		<description>Piles of manure mixed with wood ash, moistened by rain and urine. Produces saltpeter through efflorescence after 15 days.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_Nitrary</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_NitraryFull_north</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<costList>
+			<Mousekin_PoopGiantCavy>20</Mousekin_PoopGiantCavy>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>200</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<constructEffect>ConstructDirt</constructEffect>
+		<repairEffect>ConstructDirt</repairEffect>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowAutoroof>false</allowAutoroof>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<destroySound>BuildingDestroyed_Soft_Medium</destroySound>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<comps>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_NitraryNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_ManureToSaltpeter</li>
+				</processes>
+				<finishedTexture>Things/Building/Production/Mousekin_NitraryFull</finishedTexture>
+				<hideSettings>true</hideSettings>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchAlchemy</li>
+		</researchPrerequisites>
+	</ThingDef>	
+	
 	<!-- Mousekin research bench -->
 
 	<ThingDef ParentName="Mousekin_BenchBase">
