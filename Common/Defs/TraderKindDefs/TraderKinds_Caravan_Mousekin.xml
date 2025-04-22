@@ -70,6 +70,24 @@
 				<countRange>200~400</countRange>
 				<price>Cheap</price>
 			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Charcoal</thingDef>
+				<countRange>400~800</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Saltpeter</thingDef>
+				<countRange>300~600</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Sulfur</thingDef>
+				<countRange>300~600</countRange>
+				<price>Cheap</price>
+			</li>
 
 			<!-- Crops -->
 
@@ -147,6 +165,11 @@
 				<countRange>75~150</countRange>
 			</li>
 
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Charcoal</thingDef>
+				<countRange>500~1000</countRange>
+			</li>
+			
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Dye</thingDef>
 				<countRange>15~20</countRange>

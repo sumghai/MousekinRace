@@ -152,6 +152,11 @@
 				<thingDef>Mousekin_Candle</thingDef>
 				<countRange>200~400</countRange>
 			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Charcoal</thingDef>
+				<countRange>5000~10000</countRange>
+			</li>
 
 			<!-- Apparel -->
 
