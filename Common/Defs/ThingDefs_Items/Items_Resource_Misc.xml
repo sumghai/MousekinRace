@@ -35,7 +35,7 @@
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>100</stackLimit>
+		<stackLimit>150</stackLimit>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<MarketValue>1</MarketValue>
