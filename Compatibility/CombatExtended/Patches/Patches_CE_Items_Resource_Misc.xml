@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Set bulk values for various resources -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_Beeswax"]/statBases</xpath>
+				<value>
+					<Bulk>0.25</Bulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_PoopGiantCavy"]/statBases</xpath>
+				<value>
+					<Bulk>0.25</Bulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_Saltpeter"]/statBases</xpath>
+				<value>
+					<Bulk>0.05</Bulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_Sulfur"]/statBases</xpath>
+				<value>
+					<Bulk>0.05</Bulk>
+				</value>
+			</li>
+		
+		</operations>
+	</Operation>
+</Patch>
