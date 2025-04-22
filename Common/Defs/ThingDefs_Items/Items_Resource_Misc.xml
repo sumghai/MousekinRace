@@ -88,6 +88,7 @@
 			<Flammability>0.1</Flammability>
 			<DeteriorationRate>2.0</DeteriorationRate>
 		</statBases>
+		<tradeability>None</tradeability>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
