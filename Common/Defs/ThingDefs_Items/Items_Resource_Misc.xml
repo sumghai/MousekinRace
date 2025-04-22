@@ -48,6 +48,28 @@
 		</thingCategories>
 	</ThingDef>
 	
+	<!-- Sulfur -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Sulfur</defName>
+		<label>Sulfur</label>
+		<description>A bright yellow and non-metallic crystalline chemical element typically obtained from underground mines, mainly used in medicine and gunpowder production.</description>
+		<graphicData>
+			<texPath>Things/Items/Resources/Mousekin_Sulfur</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<MarketValue>1.5</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+	
 	<!-- Wood Ash -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>Mousekin_WoodAsh</defName>
