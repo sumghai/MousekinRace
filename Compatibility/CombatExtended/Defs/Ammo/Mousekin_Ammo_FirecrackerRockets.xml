@@ -81,7 +81,6 @@
 		<description>Craft 25 Mousekin firecracker rockets.</description>
 		<jobString>Making Mousekin firecracker.</jobString>
 		<ingredients>
-			<!-- TODO - Add Mousekin gunpowder -->
 			<li>
 				<filter>
 					<thingDefs>
@@ -90,11 +89,19 @@
 				</filter>
 				<count>20</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Gunpowder</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<!-- TODO - Add Mousekin gunpowder -->
 				<li>Steel</li>
+				<li>Mousekin_Gunpowder</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
