@@ -19,6 +19,12 @@
 	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
 	<Mousekin_ClockworkComponent.description>Ассортимент металлических пружин, шестеренок и рычагов, используемых для создания сложных устройств мышкинов.</Mousekin_ClockworkComponent.description>
 	
+	<!-- EN: Gunpowder -->
+	<Mousekin_Gunpowder.label>Порох</Mousekin_Gunpowder.label>
+	
+	<!-- EN: An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful. -->
+	<Mousekin_Gunpowder.description>Раннее химическое взрывчатое вещество, изготовленное путем измельчения и смешивания древесного угля, селитры и серы. Пороховые составы мышкинов дефлагируют быстрее, чем человеческие, и поэтому менее мощные.</Mousekin_Gunpowder.description>
+	
 	<!-- EN: Mousekin poultice -->
 	<Mousekin_MedicinePoultice.label>Мышкинская компресс</Mousekin_MedicinePoultice.label>
 	

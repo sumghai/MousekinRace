@@ -385,6 +385,12 @@
 				<price>Cheap</price>
 			</li>
 
+			<!-- Gunpowder -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Gunpowder</thingDef>
+				<countRange>500~1000</countRange>
+			</li>
+
 		</stockGenerators>
 		<modExtensions>
 			<li Class="MousekinRace.TraderExtension">

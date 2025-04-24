@@ -75,6 +75,43 @@
 		</thingCategories>
 	</ThingDef>
 
+	<!-- Gunpowder -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Gunpowder</defName>
+		<label>Gunpowder</label>
+		<description>An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful.</description>
+		<graphicData>
+			<texPath>Things/Items/Manufactured/Mousekin_Gunpowder</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>100</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>5</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>15</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.4</explosiveRadius>
+				<explosiveDamageType>Mousekin_GunpowderExplosion</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>15~30</wickTicks>
+				<preExplosionSpawnThingDef>Mousekin_Filth_Gunpowder</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.33</preExplosionSpawnChance>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	<!-- Mousekin poultice (potency between vanilla herbal and industrial medicine) -->
 	<ThingDef ParentName="MedicineBase">
 		<defName>Mousekin_MedicinePoultice</defName>

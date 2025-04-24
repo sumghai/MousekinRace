@@ -19,6 +19,12 @@
 	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
 	<Mousekin_ClockworkComponent.description>복잡한 마우스킨 장치를 만드는 데 사용되는 다양한 금속 스프링, 기어 및 레버.</Mousekin_ClockworkComponent.description>
 	
+	<!-- EN: Gunpowder -->
+	<Mousekin_Gunpowder.label>화약</Mousekin_Gunpowder.label>
+	
+	<!-- EN: An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful. -->
+	<Mousekin_Gunpowder.description>숯, 질산염, 유황을 갈아서 섞어 만든 초기 화학 폭발물입니다. 마우스킨 화약은 인간용 화약보다 더 빨리 폭발하는 경향이 있어 위력이 약합니다.</Mousekin_Gunpowder.description>
+	
 	<!-- EN: Mousekin poultice -->
 	<Mousekin_MedicinePoultice.label>마우스킨 찜질</Mousekin_MedicinePoultice.label>
 	

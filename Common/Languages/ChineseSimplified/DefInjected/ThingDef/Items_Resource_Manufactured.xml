@@ -19,6 +19,12 @@
 	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
 	<Mousekin_ClockworkComponent.description>各种金属弹簧、齿轮和杠杆，用于制作复杂的白鼠族器具。</Mousekin_ClockworkComponent.description>
 	
+	<!-- EN: Gunpowder -->
+	<Mousekin_Gunpowder.label>火药</Mousekin_Gunpowder.label>
+	
+	<!-- EN: An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful. -->
+	<Mousekin_Gunpowder.description>一种早期的化学炸药，由木炭、硝石和硫磺研磨混合而成。白鼠族的火药配方往往比人类的配方爆燃得更快，因此威力较小。</Mousekin_Gunpowder.description>
+	
 	<!-- EN: Mousekin poultice -->
 	<Mousekin_MedicinePoultice.label>白鼠族膏药</Mousekin_MedicinePoultice.label>
 	

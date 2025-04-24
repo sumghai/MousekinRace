@@ -122,4 +122,98 @@
 		</products>
 	</RecipeDef>
 
+	<RecipeDef Name="MousekinMakeGunpowderBase" Abstract="True">
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_Charcoal</li>
+				<li>Mousekin_Saltpeter</li>
+				<li>Mousekin_Sulfur</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchAlchemy</li>
+		</recipeUsers>
+		<researchPrerequisite>Mousekin_ResearchGunpowder</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakeGunpowderBase">
+		<defName>Mousekin_Make_GunpowderBulkSmall</defName>
+		<label>Make gunpowder x20</label>
+		<description>Make a small batch of gunpowder.</description>
+		<jobString>Making gunpowder.</jobString>
+		<workAmount>800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Charcoal</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Saltpeter</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Sulfur</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_Gunpowder>20</Mousekin_Gunpowder>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakeGunpowderBase">
+		<defName>Mousekin_Make_GunpowderBulkLarge</defName>
+		<label>Make gunpowder x100</label>
+		<description>Make a large batch of gunpowder.</description>
+		<jobString>Making gunpowder.</jobString>
+		<workAmount>4000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Charcoal</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Saltpeter</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Sulfur</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_Gunpowder>100</Mousekin_Gunpowder>
+		</products>
+	</RecipeDef>
+	
+
 </Defs>

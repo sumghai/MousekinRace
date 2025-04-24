@@ -37,4 +37,22 @@
 	<!-- EN: Making Clockwork Mechanisms. -->
 	<Mousekin_Make_ClockworkComponentBulk.jobString>製作發條機構。</Mousekin_Make_ClockworkComponentBulk.jobString>
 	
+	<!-- EN: Make gunpowder x20 -->
+	<Mousekin_Make_GunpowderBulkSmall.label>製作火藥x20</Mousekin_Make_GunpowderBulkSmall.label>
+	
+	<!-- EN: Make a small batch of gunpowder. -->
+	<Mousekin_Make_GunpowderBulkSmall.description>製作一小批火藥。</Mousekin_Make_GunpowderBulkSmall.description>
+	
+	<!-- EN: Making gunpowder. -->
+	<Mousekin_Make_GunpowderBulkSmall.jobString>製作火藥。</Mousekin_Make_GunpowderBulkSmall.jobString>
+	
+	<!-- EN: Make gunpowder x100 -->
+	<Mousekin_Make_GunpowderBulkLarge.label>製作火藥x100</Mousekin_Make_GunpowderBulkLarge.label>
+	
+	<!-- EN: Make a large batch of gunpowder. -->
+	<Mousekin_Make_GunpowderBulkLarge.description>製作一大批火藥。</Mousekin_Make_GunpowderBulkLarge.description>
+	
+	<!-- EN: Making gunpowder. -->
+	<Mousekin_Make_GunpowderBulkLarge.jobString>製作火藥。</Mousekin_Make_GunpowderBulkLarge.jobString>
+	
 </LanguageData>

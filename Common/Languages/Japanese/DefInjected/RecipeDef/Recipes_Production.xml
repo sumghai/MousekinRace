@@ -37,4 +37,22 @@
 	<!-- EN: Making Clockwork Mechanisms. -->
 	<Mousekin_Make_ClockworkComponentBulk.jobString>時計仕掛けの機構を作成中</Mousekin_Make_ClockworkComponentBulk.jobString>
 	
+	<!-- EN: Make gunpowder x20 -->
+	<Mousekin_Make_GunpowderBulkSmall.label>火薬を作成する x20</Mousekin_Make_GunpowderBulkSmall.label>
+	
+	<!-- EN: Make a small batch of gunpowder. -->
+	<Mousekin_Make_GunpowderBulkSmall.description>少量の火薬を作成します.</Mousekin_Make_GunpowderBulkSmall.description>
+	
+	<!-- EN: Making gunpowder. -->
+	<Mousekin_Make_GunpowderBulkSmall.jobString>火薬を作成中</Mousekin_Make_GunpowderBulkSmall.jobString>
+	
+	<!-- EN: Make gunpowder x100 -->
+	<Mousekin_Make_GunpowderBulkLarge.label>火薬を作成する x100</Mousekin_Make_GunpowderBulkLarge.label>
+	
+	<!-- EN: Make a large batch of gunpowder. -->
+	<Mousekin_Make_GunpowderBulkLarge.description>大量の火薬を作成します.</Mousekin_Make_GunpowderBulkLarge.description>
+	
+	<!-- EN: Making gunpowder. -->
+	<Mousekin_Make_GunpowderBulkLarge.jobString>火薬を作成中</Mousekin_Make_GunpowderBulkLarge.jobString>
+	
 </LanguageData>

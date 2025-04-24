@@ -19,6 +19,12 @@
 	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
 	<Mousekin_ClockworkComponent.description>マウスキンの複雑な装置を作るための金属バネ、ギア、レバーの詰め合わせます.</Mousekin_ClockworkComponent.description>
 	
+	<!-- EN: Gunpowder -->
+	<Mousekin_Gunpowder.label>火薬</Mousekin_Gunpowder.label>
+	
+	<!-- EN: An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful. -->
+	<Mousekin_Gunpowder.description>木炭、塩硝、硫黄を粉砕混合した初期の化学火薬.マウスキンの火薬は人間のものより早く発火するため、威力は弱いです.</Mousekin_Gunpowder.description>
+	
 	<!-- EN: Mousekin poultice -->
 	<Mousekin_MedicinePoultice.label>マウスキン湿布</Mousekin_MedicinePoultice.label>
 	

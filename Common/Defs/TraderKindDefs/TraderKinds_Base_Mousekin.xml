@@ -157,6 +157,12 @@
 				<thingDef>Mousekin_Charcoal</thingDef>
 				<countRange>5000~10000</countRange>
 			</li>
+			
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Gunpowder</thingDef>
+				<countRange>2000~5000</countRange>
+			</li>
 
 			<!-- Apparel -->
 

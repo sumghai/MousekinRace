@@ -37,4 +37,22 @@
 	<!-- EN: Making Clockwork Mechanisms. -->
 	<Mousekin_Make_ClockworkComponentBulk.jobString>시계 태엽 장치 만들기.</Mousekin_Make_ClockworkComponentBulk.jobString>
 	
+	<!-- EN: Make gunpowder x20 -->
+	<Mousekin_Make_GunpowderBulkSmall.label>화약 만들기 x20</Mousekin_Make_GunpowderBulkSmall.label>
+	
+	<!-- EN: Make a small batch of gunpowder. -->
+	<Mousekin_Make_GunpowderBulkSmall.description>소량의 화약을 만드세요.</Mousekin_Make_GunpowderBulkSmall.description>
+	
+	<!-- EN: Making gunpowder. -->
+	<Mousekin_Make_GunpowderBulkSmall.jobString>화약 만들기.</Mousekin_Make_GunpowderBulkSmall.jobString>
+	
+	<!-- EN: Make gunpowder x100 -->
+	<Mousekin_Make_GunpowderBulkLarge.label>화약 만들기 x100</Mousekin_Make_GunpowderBulkLarge.label>
+	
+	<!-- EN: Make a large batch of gunpowder. -->
+	<Mousekin_Make_GunpowderBulkLarge.description>화약을 대량으로 만드세요.</Mousekin_Make_GunpowderBulkLarge.description>
+	
+	<!-- EN: Making gunpowder. -->
+	<Mousekin_Make_GunpowderBulkLarge.jobString>화약 만들기.</Mousekin_Make_GunpowderBulkLarge.jobString>
+	
 </LanguageData>
