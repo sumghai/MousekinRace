@@ -336,11 +336,17 @@
 				<price>Cheap</price>
 			</li>
 			
+			<!-- Ranged weapons (all others, buyback only) -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_WeaponRanged</tag>
+				<price>Cheap</price>
+			</li>
+			
 			<!-- Mid-tier military apparel (knight helmet and armor) -->
 			
 			<li Class="StockGenerator_MarketValue">
 				<tradeTag>Mousekin_TradeGoods_ApparelMilitaryKingdom</tradeTag>
-				<!--<thingDefCountRange>5~10</thingDefCountRange>-->
 				<countRange>4~6</countRange>
 				<price>Cheap</price>
 			</li>
