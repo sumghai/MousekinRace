@@ -467,13 +467,19 @@
 				<weaponTag>Mousekin_RangedWeapon</weaponTag>
 				<countRange>15~20</countRange>
 				<customCountRanges>
-					<Mousekin_MeleeWeapon_PikeThunder>3~4</Mousekin_MeleeWeapon_PikeThunder>
 					<Mousekin_RangedWeapon_Crossbow>2~4</Mousekin_RangedWeapon_Crossbow>
 					<Mousekin_RangedWeapon_CrossbowAuto>2~2</Mousekin_RangedWeapon_CrossbowAuto>
 					<Mousekin_RangedWeapon_MusketLong>4~6</Mousekin_RangedWeapon_MusketLong>
 					<Mousekin_RangedWeapon_MusketShort>2~3</Mousekin_RangedWeapon_MusketShort>
 				</customCountRanges>
 				<price>Cheap</price>
+			</li>
+			
+			<!-- Thunderpikes -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_MeleeWeapon_PikeThunder</thingDef>
+				<countRange>3~4</countRange>
+				<price>Expensive</price>
 			</li>
 			
 			<!-- Mid-tier military apparel (knight helmet and armor, buying for material value only) -->
