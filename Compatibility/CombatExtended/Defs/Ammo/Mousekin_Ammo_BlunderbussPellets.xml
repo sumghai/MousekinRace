@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- Mousekin Blunderbusses use the same craftable generic CE musket ball ammo item, but fires a shotgun-like spray of pellets that uses Mousekin textures instead.
+	<!-- Mousekin Blunderbusses use the same craftable generic CE blunderbuss shot ammo item, but fires a shotgun-like spray of pellets that uses Mousekin textures instead.
 
 	This projectile is defined in a XML PatchOperation. -->
 
@@ -9,7 +9,7 @@
 		<defName>Mousekin_AmmoSet_BlunderbussPellets</defName>
 		<label>Blunderbuss Shot</label>
 		<ammoTypes>
-			<Ammo_MusketBall>Bullet_Mousekin_BlunderbussPellets</Ammo_MusketBall>
+			<Ammo_BlunderbussShot>Bullet_Mousekin_BlunderbussPellets</Ammo_BlunderbussShot>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
