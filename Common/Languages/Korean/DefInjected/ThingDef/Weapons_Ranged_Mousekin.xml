@@ -55,4 +55,13 @@
 	<!-- EN: Mousekin Blunderbuss -->
 	<Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>마우스킨 나팔총</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
 	
+	<!-- EN: Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.label>마우스킨 도토리 수류탄</Mousekin_GrenadeAcorn.label>
+	
+	<!-- EN: A small explosive weapon consisting of a cast iron casing shaped like an oversized acorn and filled with gunpowder. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. -->
+	<Mousekin_GrenadeAcorn.description>대형 도토리 모양의 주철 케이스에 화약을 채운 소형 폭발 무기입니다. 근거리에서도 던질 수 있고 폭발하면 어떤 것이든 파괴할 수 있습니다.</Mousekin_GrenadeAcorn.description>
+	
+	<!-- EN: throw Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>마우스킨 도토리 수류탄 던지기</Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>
+	
 </LanguageData>

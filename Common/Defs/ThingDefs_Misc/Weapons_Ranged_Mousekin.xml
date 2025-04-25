@@ -343,4 +343,78 @@
 		</modExtensions>
 	</ThingDef>
 
+	<!-- ========================= Explosives ========================== -->
+
+	<!-- Mousekin Acorn Grenade -->
+	<ThingDef ParentName="BaseMakeableGrenade">
+		<defName>Mousekin_GrenadeAcorn</defName>
+		<label>Mousekin Acorn Grenade</label>
+		<description>A small explosive weapon consisting of a cast iron casing shaped like an oversized acorn and filled with gunpowder. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby.</description>
+		<tickerType>Normal</tickerType>
+		<techLevel>Medieval</techLevel>
+		<relicChance>0</relicChance>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Mousekin_GrenadeAcorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.3</uiIconScale>
+		<soundInteract>Interact_Grenade</soundInteract>
+		<costList>
+			<Steel>1</Steel>
+			<Mousekin_Gunpowder>5</Mousekin_Gunpowder>
+		</costList>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<Mass>1</Mass>
+			<RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon</li>
+			<li>Mousekin_RangedWeapon_Explosive</li>
+		</weaponTags>
+		<thingCategories Inherit="false">
+			<li>Mousekin_WeaponsRanged</li>
+		</thingCategories>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchGunpowder</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>Mousekin_WorkbenchCrafting</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<label>throw Mousekin Acorn Grenade</label>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>Proj_Mousekin_GrenadeAcorn</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.4</explosiveRadius>
+				<explosiveDamageType>Mousekin_GunpowderExplosion</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+				<preExplosionSpawnThingDef>Mousekin_Filth_Gunpowder</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.33</preExplosionSpawnChance>
+			</li>
+		</comps>
+		<tradeTags Inherit="false">
+			<li>Mousekin_WeaponRanged</li>
+		</tradeTags>
+	</ThingDef>
+	
 </Defs>

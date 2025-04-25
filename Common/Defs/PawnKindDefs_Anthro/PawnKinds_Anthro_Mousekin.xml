@@ -718,6 +718,13 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Mousekin_GrenadeAcorn</thingDef>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 		<forceWeaponQuality>Normal</forceWeaponQuality>
 		<weaponMoney>250</weaponMoney>
 		<weaponTags>
@@ -1193,6 +1200,7 @@
 			<li>Mousekin_RangedWeapon_Basic</li>
 			<li>Mousekin_RangedWeapon_Intermediate</li>
 			<li>Mousekin_RangedWeapon_Advanced</li>
+			<li>Mousekin_RangedWeapon_Explosive</li>
 		</weaponTags>
 		<minGenerationAge>35</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>

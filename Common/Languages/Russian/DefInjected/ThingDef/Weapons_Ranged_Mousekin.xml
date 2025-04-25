@@ -54,5 +54,14 @@
     
     <!-- EN: Mousekin Blunderbuss -->
     <Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>Мышкин бландабус</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
+	
+	<!-- EN: Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.label>Мышкин желудевый гранат</Mousekin_GrenadeAcorn.label>
+	
+	<!-- EN: A small explosive weapon consisting of a cast iron casing shaped like an oversized acorn and filled with gunpowder. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. -->
+	<Mousekin_GrenadeAcorn.description>Небольшое взрывное оружие, состоящее из чугунной гильзы в форме огромного желудя, наполненной порохом. Их можно бросить на небольшое расстояние, где они взорвутся, повредив все и вся поблизости.</Mousekin_GrenadeAcorn.description>
+	
+	<!-- EN: throw Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>метнуть Мышкин желудевый гранат</Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>
     
 </LanguageData>

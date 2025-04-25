@@ -80,4 +80,21 @@
 		</graphicData>
 	</ThingDef>
 
+	<!-- Acorn grenades -->
+	<ThingDef ParentName="BaseFragGrenadeProjectile">
+		<defName>Proj_Mousekin_GrenadeAcorn</defName>
+		<label>Mousekin Acorn Grenade</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mousekin_GrenadeAcorn</texPath>
+		</graphicData>
+		<projectile>
+			<damageDef>Mousekin_GunpowderExplosion</damageDef>
+			<explosionRadius>2.4</explosionRadius>
+			<preExplosionSpawnThingDef>Mousekin_Filth_Gunpowder</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.33</preExplosionSpawnChance>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<explosionDelay>100</explosionDelay>
+		</projectile>
+	</ThingDef>
+
 </Defs>

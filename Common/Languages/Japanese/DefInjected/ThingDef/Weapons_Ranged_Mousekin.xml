@@ -55,4 +55,13 @@
 	<!-- EN: Mousekin Blunderbuss -->
 	<Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>マウスキンブランダーバス</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
 	
+	<!-- EN: Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.label>マウスキンどんぐり手榴弾</Mousekin_GrenadeAcorn.label>
+	
+	<!-- EN: A small explosive weapon consisting of a cast iron casing shaped like an oversized acorn and filled with gunpowder. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. -->
+	<Mousekin_GrenadeAcorn.description>どんぐりのような形をした鋳鉄製の薬莢に火薬を詰めた小型の爆発兵器.短い距離を投げて爆発させることができ、近くにあるものや人にダメージを与えます.</Mousekin_GrenadeAcorn.description>
+	
+	<!-- EN: throw Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>マウスキンどんぐり手榴弾を投げる</Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>
+	
 </LanguageData>

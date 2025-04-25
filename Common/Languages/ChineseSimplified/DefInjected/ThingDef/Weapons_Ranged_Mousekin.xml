@@ -55,4 +55,13 @@
 	<!-- EN: Mousekin Blunderbuss -->
 	<Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>白鼠族雷筒</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
 	
+	<!-- EN: Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.label>白鼠族橡子手榴弹</Mousekin_GrenadeAcorn.label>
+	
+	<!-- EN: A small explosive weapon consisting of a cast iron casing shaped like an oversized acorn and filled with gunpowder. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. -->
+	<Mousekin_GrenadeAcorn.description>一种小型爆炸武器，由一个铸铁外壳组成，形状像一个特大号的橡子，里面装满火药。它们能被扔到不远的位置，当它们爆炸的时候，会伤害到附近的任何人和物体。</Mousekin_GrenadeAcorn.description>
+	
+	<!-- EN: throw Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>投掷白鼠族橡子手榴弹</Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>
+	
 </LanguageData>
