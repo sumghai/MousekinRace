@@ -158,10 +158,19 @@
 				<countRange>5000~10000</countRange>
 			</li>
 			
-			
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Mousekin_Gunpowder</thingDef>
 				<countRange>2000~5000</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Saltpeter</thingDef>
+				<countRange>3000~4000</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Sulfur</thingDef>
+				<countRange>3000~4000</countRange>
 			</li>
 
 			<!-- Apparel -->
