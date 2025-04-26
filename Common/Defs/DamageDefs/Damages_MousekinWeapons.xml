@@ -3,7 +3,7 @@
 
 	<DamageDef>
 		<defName>Mousekin_CrossbowBolt</defName>
-		<label>mousekin crossbow bolt</label>
+		<label>Mousekin crossbow bolt</label>
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been shot to death by a Mousekin crossbow bolt.</deathMessage>

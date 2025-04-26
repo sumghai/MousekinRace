@@ -16,7 +16,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="NeolithicAmmoBase">
 		<defName>Mousekin_Ammo_CrossbowBolt</defName>
-		<label>mousekin crossbow bolt</label>
+		<label>Mousekin crossbow bolt</label>
 		<description>A steel-tipped wooden crossbow bolt, crafted by Mousekin paws.</description>
 		<graphicData>
 			<texPath>Things/Ammo/Mousekin_CrossbowBolt</texPath>
@@ -44,7 +44,7 @@
 	
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseCrossbowBoltProjectile">
 		<defName>Mousekin_Projectile_CrossbowBolt</defName>
-		<label>mousekin crossbow bolt</label>
+		<label>Mousekin crossbow bolt</label>
 		<graphicData>
 			<texPath>Things/Projectile/Mousekin_CrossbowBolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -63,7 +63,7 @@
 	
 	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
 		<defName>MakeMousekin_Ammo_CrossbowBolt</defName>
-		<label>make mousekin crossbow bolts x25</label>
+		<label>make Mousekin crossbow bolts x25</label>
 		<description>Craft 25 Mousekin crossbow bolts.</description>
 		<jobString>Making Mousekin crossbow bolts.</jobString>
 		<ingredients>
