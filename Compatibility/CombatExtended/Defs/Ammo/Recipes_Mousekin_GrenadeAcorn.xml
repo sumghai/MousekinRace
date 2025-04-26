@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef ParentName="GrenadeRecipeBase">
+		<defName>MakeMousekin_GrenadeAcorn</defName>
+		<label>make Mousekin Acorn Grenade x10</label>
+		<description>Craft 10 Mousekin Acorn Grenades.</description>
+		<jobString>Making Mousekin Acorn Grenades.</jobString>
+		<workAmount>15000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Gunpowder</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Mousekin_Gunpowder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_GrenadeAcorn>10</Mousekin_GrenadeAcorn>
+		</products>
+		<skillRequirements Inherit="false">
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="false">
+			<li>Mousekin_WorkbenchCrafting</li>
+		</recipeUsers>
+		<researchPrerequisite>Mousekin_ResearchGunpowder</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

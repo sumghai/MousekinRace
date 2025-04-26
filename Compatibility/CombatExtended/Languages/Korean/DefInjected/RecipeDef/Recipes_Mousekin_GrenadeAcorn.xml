@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make Mousekin Acorn Grenade x10 -->
+	<MakeMousekin_GrenadeAcorn.label>마우스킨 도토리 수류탄 만들기 x10</MakeMousekin_GrenadeAcorn.label>
+	
+	<!-- EN: Craft 10 Mousekin Acorn Grenades. -->
+	<MakeMousekin_GrenadeAcorn.description>쥐가죽 도토리 수류탄 10개를 제작합니다.</MakeMousekin_GrenadeAcorn.description>
+	
+	<!-- EN: Making Mousekin Acorn Grenades. -->
+	<MakeMousekin_GrenadeAcorn.jobString>마우스킨 도토리 수류탄 만들기.</MakeMousekin_GrenadeAcorn.jobString>
+
+</LanguageData>
