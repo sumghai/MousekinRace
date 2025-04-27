@@ -24,6 +24,8 @@ namespace MousekinRace
 
         public int flowerVarietyThresHigh = 3;
 
+        public int flowerVarietyThresMax = 13; // Hardcoded upper limit for max variety, irrespective of number of available flower species from third-party mods
+
         public int GardenAreaThresLow = 32; // Equivalent to two 4x4 (16 cell) flower patches
 
         public int gardenSize = 0;
@@ -59,8 +61,8 @@ namespace MousekinRace
 
                 flowersPlantedThresMed = BelieverScaledFlowerThreshold(Faction.OfPlayer.ideos.PrimaryIdeo.ColonistBelieverCountCached, FlowersPlantedThresMedBaseline);
                 flowersPlantedThresHigh = BelieverScaledFlowerThreshold(Faction.OfPlayer.ideos.PrimaryIdeo.ColonistBelieverCountCached, FlowersPlantedThresHighBaseline);
-                flowerVarietyThresMed = (int)Math.Ceiling(flowerVarietiesAvailable * 0.5);
-                flowerVarietyThresHigh = (int)Math.Ceiling(flowerVarietiesAvailable * 0.75);
+                flowerVarietyThresMed = Math.Min((int)Math.Ceiling(flowerVarietiesAvailable * 0.5), (int)Math.Ceiling(flowerVarietyThresMax * 0.5));
+                flowerVarietyThresHigh = Math.Min((int)Math.Ceiling(flowerVarietiesAvailable * 0.75), flowerVarietyThresMax);
             }
 
             // Every in-game day, forget about flowers that were destroyed over a year ago
