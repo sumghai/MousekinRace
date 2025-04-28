@@ -111,7 +111,27 @@ namespace MousekinRace
         // - Is outside
         public bool IsValidFlower(Plant flower)
         {
-            return MousekinDefOf.Mousekin_ValidFlowers.flowerPlants.Contains(flower.def) && flower.CurrentlyCultivated() && flower.IsOutside();
+            return MousekinDefOf.Mousekin_ValidFlowers.flowerPlants.Contains(flower.def) && CurrentlyCultivatedInZonesOnly(flower) && flower.IsOutside();
+        }
+
+        // Variant of Plant.CurrentlyCultivated() that accepts any growable zone (including those from third-party mods)
+        // while excluding buildings like hydroponic basins and plant pots
+        public bool CurrentlyCultivatedInZonesOnly(Plant flower)
+        {
+            if (!flower.def.plant.Sowable)
+            {
+                return false;
+            }
+            if (!flower.Spawned)
+            {
+                return false;
+            }
+            Zone zone = flower.Map.zoneManager.ZoneAt(flower.Position);
+            if (zone != null && zone is IPlantToGrowSettable)
+            {
+                return true;
+            }
+            return false;
         }
 
         // Count area (number of cells) that are growing areas designated to grow flowers
@@ -122,7 +142,7 @@ namespace MousekinRace
             int totalArea = 0;
             
             foreach (Zone zone in zonesList)
-            {
+            {               
                 if (zone is IPlantToGrowSettable plantableZone && MousekinDefOf.Mousekin_ValidFlowers.flowerPlants.Contains(plantableZone.GetPlantDefToGrow()))
                 {
                     totalArea += zone.CellCount;
