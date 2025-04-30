@@ -5,6 +5,9 @@
 		<defName>Mousekin_Make_MedicinePoultice</defName>
 		<label>make Mousekin poultice x25</label>
 		<description>Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mousekin_MedicinePoultice</ThingDef>
+		</descriptionHyperlinks>
 		<jobString>Making bags of Mousekin poultice</jobString>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
