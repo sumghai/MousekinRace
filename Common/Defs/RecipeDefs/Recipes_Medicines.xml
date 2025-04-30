@@ -3,7 +3,7 @@
 
 	<RecipeDef>
 		<defName>Mousekin_Make_MedicinePoultice</defName>
-		<label>make Mousekin poultice</label>
+		<label>make Mousekin poultice x25</label>
 		<description>Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs.</description>
 		<jobString>Making bags of Mousekin poultice</jobString>
 		<effectWorking>Cook</effectWorking>
