@@ -92,21 +92,21 @@
 	<Execution_Mousekin_Heretic.comps.2.label>聴衆の数</Execution_Mousekin_Heretic.comps.2.label>
 	
 	<!-- EN: Terrible -->
-	<Execution_Mousekin_Heretic.comps.outcomeChances.0.label>酷い</Execution_Mousekin_Heretic.comps.outcomeChances.0.label>
+	<Execution_Mousekin_Heretic.outcomeChances.0.label>酷い</Execution_Mousekin_Heretic.outcomeChances.0.label>
 	
 	<!-- EN: The {0} was terrible! The speech outlining the heresy charges was stuttered and incoherent, the heretics nearly broke free, and their final words of defiance stirred dissent before the flames reached them. -->
-	<Execution_Mousekin_Heretic.comps.outcomeChances.0.description>{0}は酷いものでした!異端者たちの罪状を説明する演説はたどたどしく支離滅裂で、異端者たちは脱走しそうになり、最後の反抗の言葉は炎が彼らに届く前に反対意見をかき立てた.</Execution_Mousekin_Heretic.comps.outcomeChances.0.description>
+	<Execution_Mousekin_Heretic.outcomeChances.0.description>{0}は酷いものでした!異端者たちの罪状を説明する演説はたどたどしく支離滅裂で、異端者たちは脱走しそうになり、最後の反抗の言葉は炎が彼らに届く前に反対意見をかき立てた.</Execution_Mousekin_Heretic.outcomeChances.0.description>
 	
 	<!-- EN: Satisfying -->
-	<Execution_Mousekin_Heretic.comps.outcomeChances.1.label>満足</Execution_Mousekin_Heretic.comps.outcomeChances.1.label>
+	<Execution_Mousekin_Heretic.outcomeChances.1.label>満足</Execution_Mousekin_Heretic.outcomeChances.1.label>
 	
 	<!-- EN: The {0} was satisfying. The speech outlining the heresy charges was convincing, and the heretics begged for penance as the flames lapped at their bodies. Everyone agreed that justice was being upheld. -->
-	<Execution_Mousekin_Heretic.comps.outcomeChances.1.description>{0}は満足のいくものでした.異端の罪状を説明する演説は説得力があり、異端者たちは炎に体をなぶられながら懺悔を乞うた.正義が守られたことに誰もが納得した.</Execution_Mousekin_Heretic.comps.outcomeChances.1.description>
+	<Execution_Mousekin_Heretic.outcomeChances.1.description>{0}は満足のいくものでした.異端の罪状を説明する演説は説得力があり、異端者たちは炎に体をなぶられながら懺悔を乞うた.正義が守られたことに誰もが納得した.</Execution_Mousekin_Heretic.outcomeChances.1.description>
 	
 	<!-- EN: Spectacular -->
-	<Execution_Mousekin_Heretic.comps.outcomeChances.2.label>壮観</Execution_Mousekin_Heretic.comps.outcomeChances.2.label>
+	<Execution_Mousekin_Heretic.outcomeChances.2.label>壮観</Execution_Mousekin_Heretic.outcomeChances.2.label>
 	
 	<!-- EN: The {0} was spectacular! The speech outlining the heresy charges outraged and persuaded even the most merciful of spectators, and the crowd's frenzied cheers were only bested by the heretics' screams as the roaring flames consumed them. Not a single soul doubted the absolute truth and righteousness of the Word of Valerian. -->
-	<Execution_Mousekin_Heretic.comps.outcomeChances.2.description>{0}は素晴らしいものでした!異端の罪状を説明する演説は、最も慈悲深い観衆でさえも憤慨させ、説得した.群衆の熱狂的な歓声は、燃え盛る炎に焼き尽くされる異端者たちの悲鳴に勝るものではなかった.バレリアンの言葉の絶対的な真実と正しさを疑う者は一人もいなかった.</Execution_Mousekin_Heretic.comps.outcomeChances.2.description>
+	<Execution_Mousekin_Heretic.outcomeChances.2.description>{0}は素晴らしいものでした!異端の罪状を説明する演説は、最も慈悲深い観衆でさえも憤慨させ、説得した.群衆の熱狂的な歓声は、燃え盛る炎に焼き尽くされる異端者たちの悲鳴に勝るものではなかった.バレリアンの言葉の絶対的な真実と正しさを疑う者は一人もいなかった.</Execution_Mousekin_Heretic.outcomeChances.2.description>
 	
 </LanguageData>
