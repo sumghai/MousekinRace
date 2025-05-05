@@ -5,10 +5,10 @@
 	<Mousekin_ManureToSaltpeter.label>用粪肥浸润生成硝石</Mousekin_ManureToSaltpeter.label>
 	
 	<!-- EN: Turns 200 giant cavy pellets and 50 wood ash into 100 saltpeter. -->
-	<Mousekin_ManureToSaltpeter.label>用200单位巨豚鼠粪便和50单位木灰浸润生成100单位硝石。</Mousekin_ManureToSaltpeter.label>
+	<Mousekin_ManureToSaltpeter.description>用200单位巨豚鼠粪便和50单位木灰浸润生成100单位硝石。</Mousekin_ManureToSaltpeter.description>
 	
 	<!-- EN: Convert 200 giant cavy pellets and 50 wood ash into 100 saltpeter -->
-	<Mousekin_ManureToSaltpeter.label>用200单位巨豚鼠粪便和50单位木灰浸润生成100单位硝石</Mousekin_ManureToSaltpeter.label>
+	<Mousekin_ManureToSaltpeter.labelOverride>用200单位巨豚鼠粪便和50单位木灰浸润生成100单位硝石</Mousekin_ManureToSaltpeter.labelOverride>
 	
 	<!-- EN: Carbonize wood logs into charcoal -->
 	<Mousekin_WoodLogToCharcoal.label>用原木碳化制作木炭</Mousekin_WoodLogToCharcoal.label>

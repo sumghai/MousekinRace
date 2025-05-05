@@ -5,10 +5,10 @@
 	<Mousekin_ManureToSaltpeter.label>糞尿を硝石に変える</Mousekin_ManureToSaltpeter.label>
 	
 	<!-- EN: Turns 200 giant cavy pellets and 50 wood ash into 100 saltpeter. -->
-	<Mousekin_ManureToSaltpeter.label>ジャイアントキャビー盲腸便200個と木灰50個を塩硝100個に変える.</Mousekin_ManureToSaltpeter.label>
+	<Mousekin_ManureToSaltpeter.description>ジャイアントキャビー盲腸便200個と木灰50個を塩硝100個に変える.</Mousekin_ManureToSaltpeter.description>
 	
 	<!-- EN: Convert 200 giant cavy pellets and 50 wood ash into 100 saltpeter -->
-	<Mousekin_ManureToSaltpeter.label>ジャイアントキャビー盲腸便200個と木灰50個を塩硝100個に変える</Mousekin_ManureToSaltpeter.label>
+	<Mousekin_ManureToSaltpeter.labelOverride>ジャイアントキャビー盲腸便200個と木灰50個を塩硝100個に変える</Mousekin_ManureToSaltpeter.labelOverride>
 	
 	<!-- EN: Carbonize wood logs into charcoal -->
 	<Mousekin_WoodLogToCharcoal.label>木材を木炭にする</Mousekin_WoodLogToCharcoal.label>

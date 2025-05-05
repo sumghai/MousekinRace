@@ -5,10 +5,10 @@
 	<Mousekin_ManureToSaltpeter.label>분뇨를 질산염으로 전환</Mousekin_ManureToSaltpeter.label>
 	
 	<!-- EN: Turns 200 giant cavy pellets and 50 wood ash into 100 saltpeter. -->
-	<Mousekin_ManureToSaltpeter.label>자이언트 캐비어 펠릿 200개와 나무 재 50개를 100개의 질산염으로 변환합니다.</Mousekin_ManureToSaltpeter.label>
+	<Mousekin_ManureToSaltpeter.description>자이언트 캐비어 펠릿 200개와 나무 재 50개를 100개의 질산염으로 변환합니다.</Mousekin_ManureToSaltpeter.description>
 	
 	<!-- EN: Convert 200 giant cavy pellets and 50 wood ash into 100 saltpeter -->
-	<Mousekin_ManureToSaltpeter.label>자이언트 캐비어 펠릿 200개와 나무 재 50개를 100개의 질산염으로 변환합니다</Mousekin_ManureToSaltpeter.label>
+	<Mousekin_ManureToSaltpeter.labelOverride>자이언트 캐비어 펠릿 200개와 나무 재 50개를 100개의 질산염으로 변환합니다</Mousekin_ManureToSaltpeter.labelOverride>
 	
 	<!-- EN: Carbonize wood logs into charcoal -->
 	<Mousekin_WoodLogToCharcoal.label>나무 통나무를 숯으로 탄화</Mousekin_WoodLogToCharcoal.label>
