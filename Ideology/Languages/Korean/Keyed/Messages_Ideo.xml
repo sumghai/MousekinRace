@@ -10,6 +10,18 @@
 	<!-- EN: No Mousekin ideoligions found. -->
 	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>마우스킨 이데올로기를 찾을 수 없습니다.</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
 	
+	<!-- EN: Too many escorts. -->
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>에스코트가 너무 많습니다.</MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>
+	
+	<!-- EN: Each heretic must have one escort. -->
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>각 이교도에는 호위병이 한 명씩 있어야 합니다.</MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>
+	
+	<!-- EN: {0_labelShort} must be either a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner. -->
+	<MousekinRace_MessageRitualRoleMustBeHeretic>{0_labelShort}는 배교자 또는 헌신주의자 특성을 가진 마우스킨 포로이거나 마우스킨이 아닌 설치류 종족 포로이어야 합니다.</MousekinRace_MessageRitualRoleMustBeHeretic>
+	
+	<!-- EN: {0} must not have the Apostate or Devotionist traits. -->
+	<MousekinRace_MessageRitualRoleMustBeNonHeretic>{0}은 배교자 또는 헌신주의자 특성이 없어야 합니다.</MousekinRace_MessageRitualRoleMustBeNonHeretic>
+	
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}(은)는 {1} 합니다.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	

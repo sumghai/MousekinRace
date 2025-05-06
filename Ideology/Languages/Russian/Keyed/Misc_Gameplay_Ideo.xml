@@ -21,5 +21,14 @@
 	
 	<!-- EN: Any lingering thoughts and mood debuffs among your colonists from recent deaths have been placated. -->
 	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>Все затянувшиеся мысли и ухудшение настроения ваших колонистов после недавних смертей улеглись.</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
+	
+	<!-- EN: These colonists were outraged by the unjustified barbarity of the Inquisition, and have gained the Apostate trait:\n{0} -->
+	<MousekinRace_RitualOutcome_HereticExecutionNewApostates>Эти колонисты были возмущены неоправданным варварством инквизиции и получили черту Отступник:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewApostates>
+	
+	<!-- EN: These colonists became radicalized and have gained the Inquisitionist trait:\n{0} -->
+	<MousekinRace_RitualOutcome_HereticExecutionNewInquisitionists>Эти колонисты стали радикально настроенными и приобрели черты инквизиторов:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewInquisitionists>
+	
+	<!-- EN: These colonists became awed by the terrifying power of the Inquisition, and have gained the Pious trait:\n{0} -->
+	<MousekinRace_RitualOutcome_HereticExecutionNewPious>Эти колонисты были потрясены ужасающей мощью Инквизиции и получили черту Благочестие:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewPious>
 
 </LanguageData>

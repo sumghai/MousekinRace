@@ -21,5 +21,14 @@
 	
 	<!-- EN: Any lingering thoughts and mood debuffs among your colonists from recent deaths have been placated. -->
 	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>您的殖民者因最近的死亡而產生的任何揮之不去的念頭和情緒衰減都已被平息。</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
+	
+	<!-- EN: These colonists were outraged by the unjustified barbarity of the Inquisition, and have gained the Apostate trait:\n{0} -->
+	<MousekinRace_RitualOutcome_HereticExecutionNewApostates>以下的殖民者因宗教裁判所無理的野蠻行為而感到憤怒，並獲得了叛教者特性:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewApostates>
+	
+	<!-- EN: These colonists became radicalized and have gained the Inquisitionist trait:\n{0} -->
+	<MousekinRace_RitualOutcome_HereticExecutionNewInquisitionists>以下的殖民者變得激進，並獲得了審判者特性:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewInquisitionists>
+	
+	<!-- EN: These colonists became awed by the terrifying power of the Inquisition, and have gained the Pious trait:\n{0} -->
+	<MousekinRace_RitualOutcome_HereticExecutionNewPious>以下的殖民者被宗教裁判所的恐怖力量嚇怕了，並且獲得了虔誠者特性:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewPious>
 
 </LanguageData>

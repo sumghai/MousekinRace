@@ -10,6 +10,18 @@
 	<!-- EN: No Mousekin ideoligions found. -->
 	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>マウスキン思想は見つからなかった.</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
 	
+	<!-- EN: Too many escorts. -->
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>付添が多すぎます.</MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>
+	
+	<!-- EN: Each heretic must have one escort. -->
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>異端者は1人につき1人の付添をつけなければならない.</MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>
+	
+	<!-- EN: {0_labelShort} must be either a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner. -->
+	<MousekinRace_MessageRitualRoleMustBeHeretic>{0_labelShort}は背教者や献身者の特性を持つマウスキンの囚人か、他の非マウスキン齧歯類種族の囚人でなければならない.</MousekinRace_MessageRitualRoleMustBeHeretic>
+	
+	<!-- EN: {0} must not have the Apostate or Devotionist traits. -->
+	<MousekinRace_MessageRitualRoleMustBeNonHeretic>{0}は背教者や献身者の特性を持ってはならない.</MousekinRace_MessageRitualRoleMustBeNonHeretic>
+	
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}は{1}である必要があります.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	

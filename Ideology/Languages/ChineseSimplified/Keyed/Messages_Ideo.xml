@@ -10,6 +10,18 @@
 	<!-- EN: No Mousekin ideoligions found. -->
 	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>未找到任何白鼠族的文化形态。</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
 	
+	<!-- EN: Too many escorts. -->
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>太多押卫了。</MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>
+	
+	<!-- EN: Each heretic must have one escort. -->
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>每个异教徒必须有一个押卫。</MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>
+	
+	<!-- EN: {0_labelShort} must be either a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner. -->
+	<MousekinRace_MessageRitualRoleMustBeHeretic>{0_labelShort}必须是具有叛教者或奉献者特性的白鼠族囚犯，或是非白鼠族的鼠族种族囚犯。</MousekinRace_MessageRitualRoleMustBeHeretic>
+	
+	<!-- EN: {0} must not have the Apostate or Devotionist traits. -->
+	<MousekinRace_MessageRitualRoleMustBeNonHeretic>{0}必须没有叛教者或奉献者的特性。</MousekinRace_MessageRitualRoleMustBeNonHeretic>
+	
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}必须是{1}。</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	

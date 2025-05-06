@@ -10,6 +10,18 @@
 	<!-- EN: No Mousekin ideoligions found. -->
 	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>Мышкины идеологии не обнаружены.</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
 	
+	<!-- EN: Too many escorts. -->
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>Слишком много эскорта.</MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>
+	
+	<!-- EN: Each heretic must have one escort. -->
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>У каждого еретика должен быть один сопровождающий.</MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>
+	
+	<!-- EN: {0_labelShort} must be either a Mousekin prisoner with the Apostate or Devotionist trait, or a non-Mousekin rodentkind prisoner. -->
+	<MousekinRace_MessageRitualRoleMustBeHeretic>{0_labelShort} должен быть либо заключенным Мышкина с чертой Отступник или преданный, либо заключенным грызуна, не являющегося Мышкиным.</MousekinRace_MessageRitualRoleMustBeHeretic>
+	
+	<!-- EN: {0} must not have the Apostate or Devotionist traits. -->
+	<MousekinRace_MessageRitualRoleMustBeNonHeretic>{0} не должен обладать чертами Отступник или преданный.</MousekinRace_MessageRitualRoleMustBeNonHeretic>
+	
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0} должна быть {1}.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	
