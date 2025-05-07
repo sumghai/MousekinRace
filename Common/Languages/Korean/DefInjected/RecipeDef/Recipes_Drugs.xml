@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: make Mousekin Elixir of Courage x25 -->
+	<Mousekin_Make_PotionCourage.label>마우스킨 용기의 엘릭서 x25 만들기</Mousekin_Make_PotionCourage.label>
+	
+	<!-- EN: Concoct a batch of Elixirs of Courage from medicinal herbs and a special secret ingredient. -->
+	<Mousekin_Make_PotionCourage.description>약초와 특별한 비밀 재료로 용기의 비약을 만들어 보세요.</Mousekin_Make_PotionCourage.description>
+	
+	<!-- EN: Making Elixirs of Courage -->
+	<Mousekin_Make_PotionCourage.jobString>용기의 비약 만들기</Mousekin_Make_PotionCourage.jobString>
+	
+	<!-- EN: make Mousekin Elixir of Harmony x25 -->
+	<Mousekin_Make_PotionHarmony.label>조화의 마우스킨 엘릭서 x25 만들기</Mousekin_Make_PotionHarmony.label>
+	
+	<!-- EN: Concoct a batch of Elixirs of Harmony from medicinal herbs and various other ingredients. -->
+	<Mousekin_Make_PotionHarmony.description>약초와 다양한 재료로 조화의 비약을 만들어 보세요.</Mousekin_Make_PotionHarmony.description>
+	
+	<!-- EN: Making Elixirs of Harmony -->
+	<Mousekin_Make_PotionHarmony.jobString>조화의 묘약 만들기</Mousekin_Make_PotionHarmony.jobString>
+	
+</LanguageData>

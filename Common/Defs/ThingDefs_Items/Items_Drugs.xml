@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef Name="Mousekin_PotionBase" ParentName="DrugBase" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<drugCategory>Medical</drugCategory>
+			<nurseable>true</nurseable>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+		</ingestible>
+		<tradeTags Inherit="false">
+			<li>Mousekin_TradeGoods_Potions</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- Elixir of Courage -->
+	<ThingDef ParentName="Mousekin_PotionBase">
+		<defName>Mousekin_PotionCourage</defName>
+		<label>Mousekin Elixir of Courage</label>
+		<description>A glass flask containing a medicinal potion that boosts adrenaline levels while reducing pain sensitivity, allowing the user to move faster and fight harder for a period of time.</description>
+		<graphicData>
+			<texPath>Things/Items/Drug/Mousekin_PotionCourage</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>12</MarketValue>
+		</statBases>
+		<ingestible>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_PotionCourageHigh</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>910</listOrder>
+				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Elixir of Harmony -->
+	<ThingDef ParentName="Mousekin_PotionBase">
+		<defName>Mousekin_PotionHarmony</defName>
+		<label>Mousekin Elixir of Harmony</label>
+		<description>A glass flask containing a medicinal potion that boosts recovery and suppresses infections. Required for operations involving the transplant of organic Mousekin body parts.</description>
+		<graphicData>
+			<texPath>Things/Items/Drug/Mousekin_PotionHarmony</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>12</MarketValue>
+		</statBases>
+		<ingestible>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_PotionHarmonyHigh</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>920</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

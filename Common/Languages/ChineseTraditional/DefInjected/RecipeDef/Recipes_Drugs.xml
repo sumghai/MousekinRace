@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: make Mousekin Elixir of Courage x25 -->
+	<Mousekin_Make_PotionCourage.label>提煉白鼠族勇氣靈丹x25</Mousekin_Make_PotionCourage.label>
+	
+	<!-- EN: Concoct a batch of Elixirs of Courage from medicinal herbs and a special secret ingredient. -->
+	<Mousekin_Make_PotionCourage.description>使用藥草和秘方提煉一批勇氣靈丹。</Mousekin_Make_PotionCourage.description>
+	
+	<!-- EN: Making Elixirs of Courage -->
+	<Mousekin_Make_PotionCourage.jobString>提煉勇氣靈丹</Mousekin_Make_PotionCourage.jobString>
+	
+	<!-- EN: make Mousekin Elixir of Harmony x25 -->
+	<Mousekin_Make_PotionHarmony.label>提煉白鼠族和諧靈丹x25</Mousekin_Make_PotionHarmony.label>
+	
+	<!-- EN: Concoct a batch of Elixirs of Harmony from medicinal herbs and various other ingredients. -->
+	<Mousekin_Make_PotionHarmony.description>使用藥草和其他各種材料提煉一批和諧靈丹。</Mousekin_Make_PotionHarmony.description>
+	
+	<!-- EN: Making Elixirs of Harmony -->
+	<Mousekin_Make_PotionHarmony.jobString>提煉和諧靈丹</Mousekin_Make_PotionHarmony.jobString>
+	
+</LanguageData>

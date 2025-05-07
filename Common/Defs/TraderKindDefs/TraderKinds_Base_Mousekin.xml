@@ -172,6 +172,13 @@
 				<thingDef>Mousekin_Sulfur</thingDef>
 				<countRange>3000~4000</countRange>
 			</li>
+			
+			<!-- Mousekin Potions -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Potions</tradeTag>
+				<thingDefCountRange>2</thingDefCountRange>
+				<countRange>200~300</countRange>
+			</li>
 
 			<!-- Apparel -->
 

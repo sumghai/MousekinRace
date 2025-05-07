@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Elixir of Courage -->
+	<Mousekin_PotionCourage.label>Мышкин Эликсир храбрости</Mousekin_PotionCourage.label>
+	
+	<!-- EN: A glass flask containing a medicinal potion that boosts adrenaline levels while reducing pain sensitivity, allowing the user to move faster and fight harder for a period of time. -->
+	<Mousekin_PotionCourage.description>Стеклянная колба с лекарственным зельем, повышающим уровень адреналина и снижающим чувствительность к боли, что позволяет пользователю двигаться быстрее и сражаться сильнее в течение некоторого времени.</Mousekin_PotionCourage.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_PotionCourage.ingestible.ingestCommandString>Пить {lookup: {0}; Case; 3}</Mousekin_PotionCourage.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_PotionCourage.ingestible.ingestReportString>Пьёт {lookup: {0}; Case; 3}</Mousekin_PotionCourage.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin Elixir of Harmony -->
+	<Mousekin_PotionHarmony.label>Мышкин Эликсир гармонии</Mousekin_PotionHarmony.label>
+	
+	<!-- EN: A glass flask containing a medicinal potion that boosts recovery and suppresses infections. Required for operations involving the transplant of organic Mousekin body parts. -->
+	<Mousekin_PotionHarmony.description>Стеклянная колба, содержащая лечебное зелье, которое ускоряет восстановление и подавляет инфекции. Необходима для операций по пересадке натуральных частей тела Мышкина.</Mousekin_PotionHarmony.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_PotionHarmony.ingestible.ingestCommandString>Пить {lookup: {0}; Case; 3}</Mousekin_PotionHarmony.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_PotionHarmony.ingestible.ingestReportString>Пьёт {lookup: {0}; Case; 3}</Mousekin_PotionHarmony.ingestible.ingestReportString>
+	
+</LanguageData>

@@ -88,4 +88,22 @@
 	<!-- EN: Consuming a bread bowl lowers hunger rate by 35% for 12 hours.</Mousekin_SatiatedHunger35.description> -->
 	<Mousekin_SatiatedHunger35.description>食用濃湯麵包碗可使飢餓率降低35%，持續12小時。</Mousekin_SatiatedHunger35.description>
 	
+	<!-- EN: Adrenaline boost -->
+	<Mousekin_PotionCourageHigh.label>腎上腺素增強</Mousekin_PotionCourageHigh.label>
+	
+	<!-- EN: A temporary boost in adrenaline levels and reduction in pain sensitivity resulting from the consumption of a Mousekin Elixir of Courage, allowing the user to move faster and fight harder for a period of time. -->
+	<Mousekin_PotionCourageHigh.description>因服用白鼠族勇氣靈丹而暫時提升腎上腺素的濃度，並降低對疼痛的敏感度，讓使用者在一段時間內動作更快，戰鬥力更強。</Mousekin_PotionCourageHigh.description>
+	
+	<!-- EN: Adrenaline crash -->
+	<Mousekin_PotionCourageHigh.stages.0.overrideLabel>腎上腺素崩潰</Mousekin_PotionCourageHigh.stages.0.overrideLabel>
+	
+	<!-- EN: Physical and mental exhaustion following a period of high adrenaline release, as the effects of a Mousekin Elixir of Courage wear off. -->
+	<Mousekin_PotionCourageHigh.stages.0.overrideTooltip>由於白鼠族勇氣靈丹的效果消失，腎上腺素高度釋放一段時間後，身心俱疲。</Mousekin_PotionCourageHigh.stages.0.overrideTooltip>
+	
+	<!-- EN: Elixir of Harmony -->
+	<Mousekin_PotionHarmonyHigh.label>和諧靈丹</Mousekin_PotionHarmonyHigh.label>
+	
+	<!-- EN: Improved wound healing, immunity gain and suppression of bacterial infections at the cost of drowsiness, resulting from the consumption of a Mousekin Elixir of Harmony. -->
+	<Mousekin_PotionHarmonyHigh.description>由於服用白鼠族和諧靈丹，改善傷口癒合、增加免疫力和抑制細菌感染，代價是昏昏欲睡。</Mousekin_PotionHarmonyHigh.description>
+	
 </LanguageData>

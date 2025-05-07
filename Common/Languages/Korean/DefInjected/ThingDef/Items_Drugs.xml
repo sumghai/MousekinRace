@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Elixir of Courage -->
+	<Mousekin_PotionCourage.label>마우스킨 용기의 엘릭서</Mousekin_PotionCourage.label>
+	
+	<!-- EN: A glass flask containing a medicinal potion that boosts adrenaline levels while reducing pain sensitivity, allowing the user to move faster and fight harder for a period of time. -->
+	<Mousekin_PotionCourage.description>아드레날린 수치를 높이는 동시에 통증 민감도를 낮춰 일정 시간 동안 더 빠르게 움직이고 더 열심히 싸울 수 있게 해주는 약용 물약이 들어 있는 유리병입니다.</Mousekin_PotionCourage.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_PotionCourage.ingestible.ingestCommandString>{0} 마시기</Mousekin_PotionCourage.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_PotionCourage.ingestible.ingestReportString>{0} 마시는 중</Mousekin_PotionCourage.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin Elixir of Harmony -->
+	<Mousekin_PotionHarmony.label>마우스킨 하모니 엘릭서</Mousekin_PotionHarmony.label>
+	
+	<!-- EN: A glass flask containing a medicinal potion that boosts recovery and suppresses infections. Required for operations involving the transplant of organic Mousekin body parts. -->
+	<Mousekin_PotionHarmony.description>회복을 촉진하고 감염을 억제하는 약용 물약이 들어 있는 유리 플라스크입니다. 자연 마우스킨 신체 부위를 이식하는 수술에 필요합니다. </Mousekin_PotionHarmony.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_PotionHarmony.ingestible.ingestCommandString>{0} 마시기</Mousekin_PotionHarmony.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_PotionHarmony.ingestible.ingestReportString>{0} 마시는 중</Mousekin_PotionHarmony.ingestible.ingestReportString>
+	
+</LanguageData>

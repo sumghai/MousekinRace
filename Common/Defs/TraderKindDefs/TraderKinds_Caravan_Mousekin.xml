@@ -189,6 +189,13 @@
 				<price>Expensive</price>
 			</li>
 			
+			<!-- Mousekin Potions -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Potions</tradeTag>
+				<thingDefCountRange>2</thingDefCountRange>
+				<countRange>20~30</countRange>
+			</li>
+			
 			<!-- Books -->
 			
 			<li Class="StockGenerator_SingleDef">
@@ -668,6 +675,13 @@
 			
 			<li Class="StockGenerator_BuyTradeTag">
 				<tag>Mousekin_TradeGoods_FoodProcessed</tag>
+			</li>
+			
+			<!-- Mousekin Potions -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Potions</tradeTag>
+				<thingDefCountRange>2</thingDefCountRange>
+				<countRange>20~30</countRange>
 			</li>
 			
 			<!-- Tool-style melee weapons -->

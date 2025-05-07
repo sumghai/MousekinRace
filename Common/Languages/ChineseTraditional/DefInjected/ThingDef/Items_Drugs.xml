@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Elixir of Courage -->
+	<Mousekin_PotionCourage.label>白鼠族勇氣靈丹</Mousekin_PotionCourage.label>
+	
+	<!-- EN: A glass flask containing a medicinal potion that boosts adrenaline levels while reducing pain sensitivity, allowing the user to move faster and fight harder for a period of time. -->
+	<Mousekin_PotionCourage.description>一個裝有藥水的玻璃瓶，可以提升腎上腺素的濃度，同時降低疼痛的敏感度，讓使用者在一段時間內動作更快，戰鬥力更強。</Mousekin_PotionCourage.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_PotionCourage.ingestible.ingestCommandString>服用{0}</Mousekin_PotionCourage.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_PotionCourage.ingestible.ingestReportString>服用{0}</Mousekin_PotionCourage.ingestible.ingestReportString>
+	
+	<!-- EN: Mousekin Elixir of Harmony -->
+	<Mousekin_PotionHarmony.label>白鼠族和諧靈丹</Mousekin_PotionHarmony.label>
+	
+	<!-- EN: A glass flask containing a medicinal potion that boosts recovery and suppresses infections. Required for operations involving the transplant of organic Mousekin body parts. -->
+	<Mousekin_PotionHarmony.description>一個裝有藥水的玻璃瓶，能促進復原和抑制感染。移植白鼠族天然身體部位的手術必須使用。</Mousekin_PotionHarmony.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_PotionHarmony.ingestible.ingestCommandString>服用{0}</Mousekin_PotionHarmony.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_PotionHarmony.ingestible.ingestReportString>服用{0}</Mousekin_PotionHarmony.ingestible.ingestReportString>
+	
+</LanguageData>

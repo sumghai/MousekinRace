@@ -88,4 +88,22 @@
 	<!-- EN: Consuming a bread bowl lowers hunger rate by 35% for 12 hours. -->
 	<Mousekin_SatiatedHunger35.description>Употребление хлебной чаши снижает уровень голода на 35% на 12 часов.</Mousekin_SatiatedHunger35.description>
 	
+	<!-- EN: Adrenaline boost -->
+	<Mousekin_PotionCourageHigh.label>Адреналиновый заряд</Mousekin_PotionCourageHigh.label>
+	
+	<!-- EN: A temporary boost in adrenaline levels and reduction in pain sensitivity resulting from the consumption of a Mousekin Elixir of Courage, allowing the user to move faster and fight harder for a period of time. -->
+	<Mousekin_PotionCourageHigh.description>Временное повышение уровня адреналина и снижение болевой чувствительности, вызванное употреблением эликсира храбрости Мышкина, позволяет пользователю двигаться быстрее и сражаться сильнее в течение некоторого времени.</Mousekin_PotionCourageHigh.description>
+	
+	<!-- EN: Adrenaline crash -->
+	<Mousekin_PotionCourageHigh.stages.0.overrideLabel>Адреналиновая катастрофа</Mousekin_PotionCourageHigh.stages.0.overrideLabel>
+	
+	<!-- EN: Physical and mental exhaustion following a period of high adrenaline release, as the effects of a Mousekin Elixir of Courage wear off. -->
+	<Mousekin_PotionCourageHigh.stages.0.overrideTooltip>Физическое и умственное истощение после периода выброса адреналина, когда действие эликсира храбрости Мышкина ослабевает</Mousekin_PotionCourageHigh.stages.0.overrideTooltip>
+	
+	<!-- EN: Elixir of Harmony -->
+	<Mousekin_PotionHarmonyHigh.label>Эликсир гармонии</Mousekin_PotionHarmonyHigh.label>
+	
+	<!-- EN: Improved wound healing, immunity gain and suppression of bacterial infections at the cost of drowsiness, resulting from the consumption of a Mousekin Elixir of Harmony. -->
+	<Mousekin_PotionHarmonyHigh.description>Улучшение заживления ран, повышение иммунитета и подавление бактериальных инфекций ценой сонливости, вызванной употреблением эликсира гармонии Мышкина.</Mousekin_PotionHarmonyHigh.description>
+	
 </LanguageData>
