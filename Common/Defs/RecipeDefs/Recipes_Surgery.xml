@@ -13,12 +13,11 @@
 		<skillRequirements>
 			<Medicine>6</Medicine>
 		</skillRequirements>
-		<!-- todo - replace with special Mousekin potion for organic implants -->
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Mousekin_MedicinePoultice</li>
+						<li>Mousekin_PotionHarmony</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -26,9 +25,15 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Mousekin_MedicinePoultice</li>
+				<li>Mousekin_PotionHarmony</li>
 			</thingDefs>
 		</fixedIngredientFilter>
+		<modExtensions>
+			<li Class="MousekinRace.SurgeryExtraHediffExtension">
+				<extraHediff>Mousekin_PotionHarmonyHigh</extraHediff>
+				<severity>1.0</severity>
+			</li>
+		</modExtensions>
 	</RecipeDef>
 
 	<!-- Installing Craftable Prosthetics -->

@@ -343,6 +343,7 @@
     <Compile Include="Comps\MapComponent_FlowerTracker.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
     <Compile Include="DefModExtensions\IdeoMemeRitualsExtension.cs" />
+    <Compile Include="DefModExtensions\SurgeryExtraHediffExtension.cs" />
     <Compile Include="DefModExtensions\TraderExtension.cs" />
     <Compile Include="Defs\FlowerListDef.cs" />
     <Compile Include="Enums\ReligiousTraitAffinity.cs" />
@@ -405,6 +406,7 @@
     <Compile Include="Patches\Harmony_QuestNode_GetFaction.cs" />
     <Compile Include="Patches\Harmony_QuestPart_EndGame.cs" />
     <Compile Include="Patches\Harmony_RecipeDef.cs" />
+    <Compile Include="Patches\Harmony_Recipe_InstallNaturalBodyPart.cs" />
     <Compile Include="Patches\Harmony_RefuelWorkGiverUtility.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker.cs" />
     <Compile Include="Patches\Harmony_RitualBehaviorWorker_Conversion.cs" />
