@@ -912,6 +912,96 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
+	<!-- Mousekin mine entrance -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_MineEntrance</defName>
+		<label>Mousekin Mine Entrance</label>
+		<description>[todo - description]</description>
+		<thingClass>MousekinRace.Building_MineEntrance</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_Windmill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_Windmill_MenuIcon</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
+		<costList>
+			<WoodLog>800</WoodLog>
+			<Hay>200</Hay>
+			<Steel>50</Steel>
+		</costList>
+		<rotatable>false</rotatable>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>75000</WorkToBuild>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Mass>10000</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,4)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Impassable</passability>
+		<pathCost>900</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<blockWind>true</blockWind>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<inspectorTabs>
+		</inspectorTabs>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<comps>
+			<li Class="MousekinRace.CompProperties_UndergroundMineDeposits">
+				<mineables>
+					<li>
+						<mineableThing>Steel</mineableThing>
+						<depositSize>10000~20000</depositSize>
+					</li>
+					<li>
+						<mineableThing>Silver</mineableThing>
+						<depositSize>10000~20000</depositSize>
+						<ticksPerStackMined>3750</ticksPerStackMined>
+					</li>
+					<li>
+						<mineableThing>Gold</mineableThing>
+						<depositSize>10000~20000</depositSize>
+						<ticksPerStackMined>5000</ticksPerStackMined>
+					</li>
+					<li>
+						<mineableThing>Mousekin_Sulfur</mineableThing>
+						<depositSize>10000~20000</depositSize>
+					</li>
+					<li>
+						<mineableThing>Mousekin_Saltpeter</mineableThing>
+						<depositSize>10000~20000</depositSize>
+					</li>
+				</mineables>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_OnlyOnePerMap</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<!--<li>PlaceWorker_PreventInteractionSpotOverlap</li>-->
+		</placeWorkers>
+		<researchPrerequisites Inherit="false">
+			<li>Mousekin_ResearchMining</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+	
 	<!-- Mousekin nitrary -->
 	
 	<ThingDef ParentName="BuildingBase">
