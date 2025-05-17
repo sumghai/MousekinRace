@@ -913,6 +913,7 @@
 	</ThingDef>
 	
 	<!-- Mousekin mine entrance -->
+	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_MineEntrance</defName>
 		<label>Mousekin Mine Entrance</label>
@@ -968,25 +969,25 @@
 				<mineables>
 					<li>
 						<mineableThing>Steel</mineableThing>
-						<depositSize>10000~20000</depositSize>
+						<depositSize>275000~325000</depositSize>
 					</li>
 					<li>
 						<mineableThing>Silver</mineableThing>
-						<depositSize>10000~20000</depositSize>
+						<depositSize>45000~55000</depositSize>
 						<ticksPerStackMined>3750</ticksPerStackMined>
 					</li>
 					<li>
 						<mineableThing>Gold</mineableThing>
-						<depositSize>10000~20000</depositSize>
+						<depositSize>10000~15000</depositSize>
 						<ticksPerStackMined>5000</ticksPerStackMined>
 					</li>
 					<li>
 						<mineableThing>Mousekin_Sulfur</mineableThing>
-						<depositSize>10000~20000</depositSize>
+						<depositSize>550000~650000</depositSize>
 					</li>
 					<li>
 						<mineableThing>Mousekin_Saltpeter</mineableThing>
-						<depositSize>10000~20000</depositSize>
+						<depositSize>550000~650000</depositSize>
 					</li>
 				</mineables>
 			</li>
