@@ -986,6 +986,18 @@
 						<ticksPerPortionMined>20000</ticksPerPortionMined>
 					</li>
 					<li>
+						<mineableThing>Jade</mineableThing>
+						<depositSize>10000~15000</depositSize>
+						<minedPortionSize>5</minedPortionSize>
+						<ticksPerPortionMined>20000</ticksPerPortionMined>
+					</li>
+					<li>
+						<mineableThing>Uranium</mineableThing>
+						<depositSize>10000~15000</depositSize>
+						<minedPortionSize>5</minedPortionSize>
+						<ticksPerPortionMined>20000</ticksPerPortionMined>
+					</li>
+					<li>
 						<mineableThing>Mousekin_Sulfur</mineableThing>
 						<depositSize>550000~650000</depositSize>
 						<minedPortionSize>50</minedPortionSize>
