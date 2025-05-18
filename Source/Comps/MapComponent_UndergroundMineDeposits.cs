@@ -15,8 +15,7 @@ namespace MousekinRace
         // Update all underground deposits on current map, and add/remove deposits as required        
         public void RescanDeposits(List<MineableCountRange> mineablesAvailable)
         {
-            float mapScaleFactor = (map.Size.x * map.Size.z) / (250 * 250);
-            Log.Warning($"mapScaleFactor = {mapScaleFactor}");
+            float mapScaleFactor = (float)(map.Size.x * map.Size.z) / (float)(250 * 250);
 
             // Add any new mineables
             foreach (MineableCountRange mineable in mineablesAvailable)
@@ -24,8 +23,7 @@ namespace MousekinRace
                 if (!deposits.Where(x => x.mineableThing == mineable.mineableThing).Any())
                 {
                     // Larger maps (by cell area) get larger deposits
-                    //int depositSizeScaled = (int)(mineable.depositSize.RandomInRange * mapScaleFactor);
-                    int depositSizeScaled = mineable.depositSize.RandomInRange;
+                    int depositSizeScaled = (int)(mineable.depositSize.RandomInRange * mapScaleFactor);
                     deposits.Add(new(mineable.mineableThing, depositSizeScaled));
                 }
             }
