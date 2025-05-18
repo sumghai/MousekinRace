@@ -957,6 +957,7 @@
 		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<inspectorTabs>
+			<li>MousekinRace.ITab_BillsMine</li>
 		</inspectorTabs>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>

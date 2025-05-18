@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 using Verse;
 
 namespace MousekinRace
@@ -9,10 +10,41 @@ namespace MousekinRace
 
         public MapComponent_UndergroundMineDeposits mapComp;
 
+        public List<FloatMenuOption> miningOptions;
+
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
             mapComp = Find.CurrentMap.GetComponent<MapComponent_UndergroundMineDeposits>();
+        }
+
+        public List<FloatMenuOption> MiningOptions 
+        {
+            get 
+            { 
+                miningOptions = [];
+
+                for (int i = 0; i < Props.mineables.Count; i++) 
+                { 
+                    MineableCountRange miningOption = Props.mineables[i];
+
+                    string label = "Mine " + miningOption.mineableThing.LabelCap + " x" + miningOption.minedPortionSize;
+
+                    miningOptions.Add(new FloatMenuOption(label, 
+                        () => Log.Warning($"Adding bill \"{label}\""),
+                        miningOption.mineableThing,
+                        null,
+                        false,
+                        MenuOptionPriority.Default,
+                        (Rect rect) => miningOption.DoOptionInfoWindow(i, rect),
+                        null,
+                        29f,
+                        (Rect rect) => miningOption.mineableThing != null && Widgets.InfoCardButton(rect.x + 5f, rect.y + (rect.height - 24f) / 2f, miningOption.mineableThing),
+                        null,
+                        true));
+                }
+                return miningOptions;
+            }
         }
 
         public override IEnumerable<Gizmo> CompGetGizmosExtra()

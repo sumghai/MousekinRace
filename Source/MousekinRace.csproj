@@ -545,12 +545,14 @@
     <Compile Include="UI\Dialog_AllegianceExtraInfo.cs" />
     <Compile Include="UI\Dialog_AllegianceQueuedNewColonists.cs" />
     <Compile Include="UI\Dialog_AllegianceRenamePlayerFaction.cs" />
+    <Compile Include="UI\ITab_BillsMine.cs" />
     <Compile Include="UI\ITab_ContentsCellar.cs" />
     <Compile Include="UI\ITab_FuelFilter.cs" />
     <Compile Include="UI\MainButtonWorker_Allegiance.cs" />
     <Compile Include="UI\MainTabWindow_Allegiance.cs" />
     <Compile Include="UI\Page_IdeoFixedByScenario.cs" />
     <Compile Include="UI\UI_Extensions.cs" />
+    <Compile Include="UndergroundMineSystem\UndergroundMineSys_Utils.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
