@@ -970,24 +970,32 @@
 					<li>
 						<mineableThing>Steel</mineableThing>
 						<depositSize>275000~325000</depositSize>
+						<minedPortionSize>25</minedPortionSize>
+						<ticksPerPortionMined>10000</ticksPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Silver</mineableThing>
 						<depositSize>45000~55000</depositSize>
-						<ticksPerStackMined>3750</ticksPerStackMined>
+						<minedPortionSize>10</minedPortionSize>
+						<ticksPerPortionMined>20000</ticksPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Gold</mineableThing>
 						<depositSize>10000~15000</depositSize>
-						<ticksPerStackMined>5000</ticksPerStackMined>
+						<minedPortionSize>5</minedPortionSize>
+						<ticksPerPortionMined>20000</ticksPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Mousekin_Sulfur</mineableThing>
 						<depositSize>550000~650000</depositSize>
+						<minedPortionSize>50</minedPortionSize>
+						<ticksPerPortionMined>10000</ticksPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Mousekin_Saltpeter</mineableThing>
 						<depositSize>550000~650000</depositSize>
+						<minedPortionSize>50</minedPortionSize>
+						<ticksPerPortionMined>10000</ticksPerPortionMined>
 					</li>
 				</mineables>
 			</li>

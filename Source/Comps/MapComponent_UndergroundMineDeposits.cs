@@ -16,6 +16,7 @@ namespace MousekinRace
         public void RescanDeposits(List<MineableCountRange> mineablesAvailable)
         {
             float mapScaleFactor = (map.Size.x * map.Size.z) / (250 * 250);
+            Log.Warning($"mapScaleFactor = {mapScaleFactor}");
 
             // Add any new mineables
             foreach (MineableCountRange mineable in mineablesAvailable)
@@ -23,7 +24,8 @@ namespace MousekinRace
                 if (!deposits.Where(x => x.mineableThing == mineable.mineableThing).Any())
                 {
                     // Larger maps (by cell area) get larger deposits
-                    int depositSizeScaled = (int)(mineable.depositSize.RandomInRange * mapScaleFactor);
+                    //int depositSizeScaled = (int)(mineable.depositSize.RandomInRange * mapScaleFactor);
+                    int depositSizeScaled = mineable.depositSize.RandomInRange;
                     deposits.Add(new(mineable.mineableThing, depositSizeScaled));
                 }
             }

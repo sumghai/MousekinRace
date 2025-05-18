@@ -18,6 +18,7 @@ namespace MousekinRace
     {
         public ThingDef mineableThing;
         public IntRange depositSize = new (10000, 10000);
-        public int ticksPerStackMined = GenDate.TicksPerHour;
+        public int minedPortionSize = 1;
+        public int ticksPerPortionMined = GenDate.TicksPerHour;
     }
 }
