@@ -14,7 +14,7 @@ namespace MousekinRace
             MiningOptionTooltip(mineable, false);
             if (!miningOptionTooltip.Empty) {
                 Rect windowRect = Find.WindowStack.currentlyDrawnWindow.windowRect;
-                Rect immRect = new Rect(windowRect.x + rect.xMax + 10f, windowRect.y + rect.y, miningOptionTooltip.Size.x, miningOptionTooltip.Size.y);
+                Rect immRect = new(windowRect.x + rect.xMax + 10f, windowRect.y + rect.y, miningOptionTooltip.Size.x, miningOptionTooltip.Size.y);
                 immRect.x = Mathf.Min(immRect.x, (float)UI.screenWidth - immRect.width);
                 immRect.y = Mathf.Min(immRect.y, (float)UI.screenHeight - immRect.height);
                 Find.WindowStack.ImmediateWindow(123 * (mineableOptionIndex + 1), immRect, WindowLayer.Super, delegate
@@ -34,7 +34,7 @@ namespace MousekinRace
             miningOptionTooltip.Reset(6f);
             miningOptionTooltip.Label(("Products".Translate() + ": ").AsTipTitle(), draw);
             miningOptionTooltip.Newline();
-            DisplayIngredientIconRow(new List<TextureAndColor>() { ToTextureAndColor(mineable.mineableThing) }, draw, mineable.minedPortionSize);
+            DisplayIngredientIconRow([ToTextureAndColor(mineable.mineableThing)], draw, mineable.minedPortionSize);
             if (!miningOptionTooltip.Empty)
             {
                 miningOptionTooltip.Expand(6f, 6f);
