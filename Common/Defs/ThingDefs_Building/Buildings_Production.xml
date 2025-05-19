@@ -1015,6 +1015,7 @@
 		</comps>
 		<placeWorkers>
 			<li>MousekinRace.PlaceWorker_OnlyOnePerMap</li>
+			<li>MousekinRace.PlaceWorker_NeverOnSeaIce</li>
 			<li>PlaceWorker_NotUnderRoof</li>
 			<!--<li>PlaceWorker_PreventInteractionSpotOverlap</li>-->
 		</placeWorkers>

@@ -96,6 +96,9 @@
 
 	<!-- EN: {0} must be placed clear of any obstructions. -->
 	<MousekinRace_PlaceWorker_MustBeClearOfObstructions>{0}은 장애물이 없는 곳에 배치해야 합니다.</MousekinRace_PlaceWorker_MustBeClearOfObstructions>
+	
+	<!-- EN: {0} cannot be built on sea ice. -->
+	<MousekinRace_PlaceWorker_NeverOnSeaIce>{0}은 해빙 위에 지을 수 없습니다.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 
 	<!-- EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>삽입할 곡물</MousekinRace_Windmill_InsertWheatDesc>

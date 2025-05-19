@@ -63,7 +63,9 @@
 	
 	<MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>{0} must be placed at least {1} cells away from any other {0}s.</MousekinRace_PlaceWorker_MustBeAwayFromOtherWindmills>
 	
-	<MousekinRace_PlaceWorker_MustBeClearOfObstructions>{0} must be placed clear of any obstructions. </MousekinRace_PlaceWorker_MustBeClearOfObstructions>
+	<MousekinRace_PlaceWorker_MustBeClearOfObstructions>{0} must be placed clear of any obstructions.</MousekinRace_PlaceWorker_MustBeClearOfObstructions>
+	
+	<MousekinRace_PlaceWorker_NeverOnSeaIce>{0} cannot be built on sea ice.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 	
 	<MousekinRace_Windmill_InsertWheatDesc>Grain to Insert</MousekinRace_Windmill_InsertWheatDesc>
 	

@@ -96,6 +96,9 @@
 
 	<!-- EN: {0} must be placed clear of any obstructions. -->
 	<MousekinRace_PlaceWorker_MustBeClearOfObstructions>{0}は障害物から離して置かなければなりません.</MousekinRace_PlaceWorker_MustBeClearOfObstructions>
+	
+	<!-- EN: {0} cannot be built on sea ice. -->
+	<MousekinRace_PlaceWorker_NeverOnSeaIce>海氷上に{0}を構築することはできません.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 
 	<!-- EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>風車で粉砕する穀物を選択します.</MousekinRace_Windmill_InsertWheatDesc>

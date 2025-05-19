@@ -500,6 +500,7 @@
     <Compile Include="Patches\Harmony_Pawn_IdeoTracker_ExposeData.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_CellarOutdoor.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_NeverAdjacentUnstandableAncestralOfferings.cs" />
+    <Compile Include="PlaceWorkers\PlaceWorker_NeverOnSeaIce.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_OnlyOnePerMap.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_TownSquare.cs" />
