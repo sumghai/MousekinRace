@@ -553,6 +553,8 @@
     <Compile Include="UI\MainTabWindow_Allegiance.cs" />
     <Compile Include="UI\Page_IdeoFixedByScenario.cs" />
     <Compile Include="UI\UI_Extensions.cs" />
+    <Compile Include="UndergroundMineSystem\MiningBill.cs" />
+    <Compile Include="UndergroundMineSystem\MiningBillStack.cs" />
     <Compile Include="UndergroundMineSystem\UndergroundMineSys_Utils.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>

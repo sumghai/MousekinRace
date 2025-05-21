@@ -8,6 +8,10 @@ namespace MousekinRace
     {
         public HashSet<MineableThingCount> deposits = [];
 
+        private int nextMiningBillID;
+
+        private bool wasLoaded;
+
         public MapComponent_UndergroundMineDeposits(Map map) : base(map)
         {
         }
@@ -36,6 +40,34 @@ namespace MousekinRace
         {
             base.ExposeData();
             Scribe_Collections.Look(ref deposits, "deposits", LookMode.Deep);
+            Scribe_Values.Look(ref nextMiningBillID, "nextMiningBillID", 0);
+            if (Scribe.mode == LoadSaveMode.LoadingVars) 
+            { 
+                wasLoaded = true;
+            }
+        }
+
+        public int GetNextMiningBillID(Map map) => GetNextID(map, ref nextMiningBillID);
+
+        private static int GetNextID(Map map, ref int nextID)
+        {
+            if (Scribe.mode == LoadSaveMode.LoadingVars && !map.GetComponent<MapComponent_UndergroundMineDeposits>().wasLoaded)
+            {
+                Log.Warning("Getting next unique ID during LoadingVars before UniqueIDsManager in MapComponent_UndergroundMineDeposits was loaded. Assigning a random value.");
+                return Rand.Int;
+            }
+            if (Scribe.mode == LoadSaveMode.Saving)
+            {
+                Log.Warning("Getting next unique ID during saving. This may cause bugs.");
+            }
+            int result = nextID;
+            nextID++;
+            if (nextID == int.MaxValue)
+            {
+                Log.Warning("Next ID is at max value. Resetting to 0. This may cause bugs.");
+                nextID = 0;
+            }
+            return result;
         }
     }
 

@@ -12,6 +12,12 @@ namespace MousekinRace
 
         public List<FloatMenuOption> miningOptions;
 
+        public MiningBillStack miningBillStack = new();
+
+        public MiningBillStack MiningBillStack => miningBillStack;
+
+        public MiningBill MiningBill => miningBillStack.FirstCanDo;
+
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
@@ -31,7 +37,7 @@ namespace MousekinRace
                     string label = "Mine " + miningOption.mineableThing.LabelCap + " x" + miningOption.minedPortionSize;
 
                     miningOptions.Add(new FloatMenuOption(label, 
-                        () => Log.Warning($"Adding bill \"{label}\""),
+                        () => miningBillStack.AddMiningBill(miningOption.mineableThing, parent),
                         miningOption.mineableThing,
                         null,
                         false,
@@ -45,6 +51,38 @@ namespace MousekinRace
                 }
                 return miningOptions;
             }
+        }
+
+
+        public override void PostDeSpawn(Map map)
+        {
+            foreach (MiningBill miningBill in miningBillStack)
+            { 
+                miningBill.ResetMiningBill();
+            }
+        }
+
+        public override void PostExposeData()
+        {
+            Scribe_Deep.Look(ref miningBillStack, "miningBillStack");
+        }
+
+        public override void CompTick()
+        {
+            if (parent.IsHashIntervalTick(100))
+            {
+                Tick(100);
+            }
+        }
+
+        public override void CompTickRare() => Tick(GenTicks.TickRareInterval);
+
+        public override void CompTickLong() => Tick(GenTicks.TickLongInterval);
+
+        private void Tick(int ticks)
+        { 
+            // todo - tick current mining bill progress depending on number of pawns working inside building
+            //MiningBill?.Tick(ticks);
         }
 
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
