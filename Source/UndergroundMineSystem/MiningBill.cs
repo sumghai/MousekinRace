@@ -9,21 +9,24 @@ namespace MousekinRace
 {
     public class MiningBill : IExposable, ILoadReferenceable
     {
+        public BillRepeatModeDef repeatMode = BillRepeatModeDefOf.RepeatCount;  // bill repeat mode (default to "repeat X times")
+        
         private ThingWithComps parent;                      // parent thing
-        private ThingDef mineableThing;                     // mineable resource thingDef
+        public ThingDef mineableThing;                     // mineable resource thingDef
         private int minedPortionSize;                       // mined portion size
         public int tickLeft;                                // ticks left before spawning product
         private float progress;                             // progress percentage
 
         public bool suspended;                              // is process suspended?
-
-        public int targetCount;                             // number of times this mining bill should repeat
-        private int currRepeatCount;                        // number of times this mining bill has been repeated
+        public int targetCount = 1;                         // number of times this mining bill should repeat
+        private int currRepeatCount = 0;                    // number of times this mining bill has been repeated
         public int ticksRequired;
 
         private string id;                                  // mining bill unique ID
 
         private List<FloatMenuOption> billRepeatOptions;
+
+        public Map Map => parent.Map;
 
         private CompUndergroundMineDeposits CompUMD => parent.TryGetComp<CompUndergroundMineDeposits>();
 
@@ -45,23 +48,19 @@ namespace MousekinRace
         {
             get
             {
-                if (targetCount == -1)
+                if (repeatMode == BillRepeatModeDefOf.Forever)
                 {
                     return "Forever".Translate();
                 }
-                return $"{targetCount - currRepeatCount}x";
-            }
-        }
-
-        public string RepeatLabel
-        {
-            get
-            {
-                if (targetCount == -1)
+                if (repeatMode == BillRepeatModeDefOf.RepeatCount)
                 {
-                    return BillRepeatModeDefOf.Forever.LabelCap;
+                    return targetCount + "x";
                 }
-                return BillRepeatModeDefOf.RepeatCount.LabelCap;
+                if (repeatMode == BillRepeatModeDefOf.TargetCount)
+                {
+                    return UndergroundMineSys_Utils.CountMinedProductsOnMap(this) + "/" + targetCount;
+                }
+                throw new InvalidOperationException();
             }
         }
 
@@ -69,21 +68,24 @@ namespace MousekinRace
         {
             get
             {
-                billRepeatOptions ??= new List<FloatMenuOption>
-                {
+                billRepeatOptions ??=
+                [
                     new(BillRepeatModeDefOf.RepeatCount.LabelCap, delegate
                     {
-                        currRepeatCount = 0;
-                        targetCount = 1;
+                        repeatMode = BillRepeatModeDefOf.RepeatCount;
+                        CompUMD.MiningBillStack.Notify_MiningBillChange();
+                    }),
+                    new(BillRepeatModeDefOf.TargetCount.LabelCap, delegate
+                    {
+                        repeatMode = BillRepeatModeDefOf.TargetCount;
                         CompUMD.MiningBillStack.Notify_MiningBillChange();
                     }),
                     new(BillRepeatModeDefOf.Forever.LabelCap, delegate
                     {
-                        currRepeatCount = 0;
-                        targetCount = -1;
+                        repeatMode = BillRepeatModeDefOf.Forever;
                         CompUMD.MiningBillStack.Notify_MiningBillChange();
                     })
-                };
+                ];
                 return billRepeatOptions;
             }
         }
@@ -124,6 +126,7 @@ namespace MousekinRace
 
         public void ExposeData()
         {
+            Scribe_Defs.Look(ref repeatMode, "repeatMode");
             Scribe_Defs.Look(ref mineableThing, "miningBillThing");
             Scribe_Values.Look(ref id, "id");
             Scribe_Values.Look(ref minedPortionSize, "minedPortionSize");
@@ -146,13 +149,19 @@ namespace MousekinRace
             {
                 return false;
             }
-
-            if (targetCount == -1)
+            if (repeatMode == BillRepeatModeDefOf.Forever) 
             {
                 return true;
             }
-
-            return currRepeatCount < targetCount;
+            if (repeatMode == BillRepeatModeDefOf.RepeatCount)
+            {
+                return currRepeatCount < targetCount;
+            }
+            if (repeatMode == BillRepeatModeDefOf.TargetCount) 
+            { 
+                return UndergroundMineSys_Utils.CountMinedProductsOnMap(this) < targetCount;
+            }
+            throw new InvalidOperationException();
         }
 
         public void Setup()
@@ -254,7 +263,7 @@ namespace MousekinRace
             GUI.color = color;
 
             var widgetRow = new WidgetRow(baseRect.xMax, baseRect.y + 29f, UIDirection.LeftThenUp);
-            if (widgetRow.ButtonText(RepeatLabel.PadRight(20)))
+            if (widgetRow.ButtonText(repeatMode.LabelCap.Resolve().PadRight(20)))
             {
                 Find.WindowStack.Add(new FloatMenu(Options));
             }

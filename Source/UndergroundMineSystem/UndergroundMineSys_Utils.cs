@@ -67,5 +67,31 @@ namespace MousekinRace
         }
 
         private static TextureAndColor ToTextureAndColor(ThingDef td) => new(Widgets.GetIconFor(td), td.uiIconColor);
+
+        public static int CountMinedProductsOnMap(MiningBill bill)
+        {
+            int num = 0;
+
+            // Count items spawned in storage on the map 
+            num += bill.Map.resourceCounter.GetCount(bill.mineableThing);
+
+            // Count items being carried by pawns on the same map
+            foreach (Pawn pawn in bill.Map.mapPawns.FreeColonistsSpawned)
+            { 
+                Thing carriedThing = pawn.carryTracker.CarriedThing;
+                if (carriedThing != null && carriedThing.def == bill.mineableThing) 
+                { 
+                    int carriedStackCount = carriedThing.stackCount;
+                    carriedThing = carriedThing.GetInnerIfMinified();
+                    if (carriedThing.SpawnedOrAnyParentSpawned && !carriedThing.PositionHeld.Fogged(carriedThing.MapHeld))
+                    {
+                        Log.Warning($"Also counting {carriedStackCount} {carriedThing} carried by {pawn}");
+                        num += carriedStackCount;
+                    }
+                }
+            }
+            
+            return num;
+        }
     }
 }
