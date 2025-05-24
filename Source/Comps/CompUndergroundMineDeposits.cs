@@ -34,9 +34,9 @@ namespace MousekinRace
                 { 
                     MineableCountRange miningOption = Props.mineables[i];
 
-                    string label = "Mine " + miningOption.mineableThing.LabelCap + " x" + miningOption.minedPortionSize;
+                    string label = "MousekinRace_MineEntrance_Mine".Translate(miningOption.mineableThing.LabelCap, "x" + miningOption.minedPortionSize);
 
-                    miningOptions.Add(new FloatMenuOption(label, 
+                    miningOptions.Add(new FloatMenuOption(label.CapitalizeFirst(), 
                         () => miningBillStack.AddMiningBill(miningOption.mineableThing, parent),
                         miningOption.mineableThing,
                         null,

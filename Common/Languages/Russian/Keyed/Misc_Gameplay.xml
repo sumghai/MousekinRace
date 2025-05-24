@@ -79,6 +79,9 @@
 	<!-- EN: They are {0} -->
 	<MousekinRace_MemeGoodwillImpact_Other>Они {0}</MousekinRace_MemeGoodwillImpact_Other>
 	
+	<!-- EN: mine {0} {1} -->
+	<MousekinRace_MineEntrance_Mine>Копать {lookup: {0}; Case; 3} {1}</MousekinRace_MineEntrance_Mine>
+	
 	<!-- EN: This nitrary is not working at the moment-->
 	<MousekinRace_NitraryNotWorking>Этот селитряницах сейчас не работает</MousekinRace_NitraryNotWorking>
 	

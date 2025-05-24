@@ -254,7 +254,7 @@ namespace MousekinRace
             GUI.color = color;
 
             // Mining bill label
-            Widgets.Label(new Rect(28f, 0f, rect.width - 48f - 40f, rect.height + 5f), mineableThing.LabelCap + " x" + minedPortionSize + " (" + ticksRequired.ToStringTicksToDays() + ")");
+            Widgets.Label(new Rect(28f, 0f, rect.width - 48f - 40f, rect.height + 5f), "MousekinRace_MineEntrance_Mine".Translate(mineableThing.LabelCap, "x" + minedPortionSize).CapitalizeFirst() + " (" + ticksRequired.ToStringTicksToDays() + ")");
 
             // Config
             var baseRect = rect.AtZero();
