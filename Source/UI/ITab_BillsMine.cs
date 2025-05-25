@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Verse;
+using Verse.Sound;
 
 namespace MousekinRace
 {
@@ -22,7 +23,38 @@ namespace MousekinRace
         public override void FillTab()
         {
             CompUndergroundMineDeposits comp = SelThing.TryGetComp<CompUndergroundMineDeposits>();
-            
+            List<MiningBill> miningBills = comp.MiningBillStack.MiningBills;
+
+            // Add paste mining bill button
+            Rect pasteRect = new(WinSize.x - ITab_Bills.PasteX, ITab_Bills.PasteY, ITab_Bills.PasteSize, ITab_Bills.PasteSize);
+            if (UndergroundMineSys_Utils.Clipboard != null)
+            {
+                if (miningBills.Count >= 15)
+                {
+                    GUI.color = Color.gray;
+                    Widgets.DrawTextureFitted(pasteRect, TexButton.Paste, 1f);
+                    GUI.color = Color.white;
+                    if (Mouse.IsOver(pasteRect))
+                    {
+                        TooltipHandler.TipRegion(pasteRect, "PasteBillTip".Translate() + " (" + "PasteBillTip_LimitReached".Translate() + "): " + UndergroundMineSys_Utils.Clipboard.Label);
+                    }
+                }
+                else
+                {
+                    if (Widgets.ButtonImageFitted(pasteRect, TexButton.Paste, Color.white))
+                    {
+                        MiningBill bill = UndergroundMineSys_Utils.Clipboard.Clone();
+                        bill.InitializeAfterClone();
+                        comp.miningBillStack.AddMiningBill(bill, (ThingWithComps)SelThing);
+                        SoundDefOf.Tick_Low.PlayOneShotOnCamera();
+                    }
+                    if (Mouse.IsOver(pasteRect))
+                    {
+                        TooltipHandler.TipRegion(pasteRect, "PasteBillTip".Translate() + ": " + UndergroundMineSys_Utils.Clipboard.Label);
+                    }
+                }
+            }
+
             Rect rect = new Rect(0f, 0f, WinSize.x, WinSize.y).ContractedBy(10f);
             Widgets.BeginGroup(rect);
 
@@ -33,13 +65,12 @@ namespace MousekinRace
                 Find.WindowStack.Add(new FloatMenu(comp.MiningOptions));
             }
 
-            // Draw processes
+            // Draw mining bills
             Text.Anchor = TextAnchor.UpperLeft;
             GUI.color = Color.white;
             Rect outRect = new(0f, 35f, rect.width, rect.height - 35f - 24f - 6f - 6f);
             Rect viewRect = new(0f, 0f, outRect.width - 16f, viewHeight);
             Widgets.BeginScrollView(outRect, ref scrollPosition, viewRect);
-            List<MiningBill> miningBills = comp.MiningBillStack.MiningBills;
             float num = 0f;
             for (int i = 0; i < miningBills.Count; i++)
             {

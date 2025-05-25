@@ -52,6 +52,17 @@ namespace MousekinRace
         {
             Scribe_References.Look(ref currentMiningBill, "currentMiningBill");
             Scribe_Collections.Look(ref miningBills, "miningBills", LookMode.Deep);
+            if (Scribe.mode == LoadSaveMode.ResolvingCrossRefs)
+            {
+                if (miningBills.RemoveAll((MiningBill x) => x == null) != 0)
+                {
+                    Log.Error("Some mining bills were null after loading.");
+                }
+                for (int i = 0; i < miningBills.Count; i++)
+                {
+                    miningBills[i].miningBillStack = this;
+                }
+            }
         }
 
         public IEnumerator<MiningBill> GetEnumerator() => miningBills.GetEnumerator();
@@ -75,6 +86,14 @@ namespace MousekinRace
             MiningBill miningBill = new(mineableThing, parent);
             miningBill.Setup();
             miningBill.targetCount = targetCount;
+            miningBills.Add(miningBill);
+            Notify_MiningBillChange();
+        }
+
+        public void AddMiningBill(MiningBill miningBill, ThingWithComps parent)
+        {
+            miningBill.miningBillStack = this;
+            miningBill.parent = parent;
             miningBills.Add(miningBill);
             Notify_MiningBillChange();
         }

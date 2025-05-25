@@ -96,7 +96,7 @@ namespace MousekinRace
 
         public string GetUniqueLoadID()
         {
-            return "MousekinMineDeposit_" + mineableThing.defName;
+            return "MousekinMineDeposit_" + mineableThing.defName + GetHashCode();
         }
     }
 }

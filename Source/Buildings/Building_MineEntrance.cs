@@ -12,7 +12,7 @@ namespace MousekinRace
         {
             base.SpawnSetup(map, respawningAfterLoad);
             compUndergroundMineDeposits = GetComp<CompUndergroundMineDeposits>();
-            mapComponent_UndergroundMineDeposits = Find.CurrentMap.GetComponent<MapComponent_UndergroundMineDeposits>();
+            mapComponent_UndergroundMineDeposits = map.GetComponent<MapComponent_UndergroundMineDeposits>();
             mapComponent_UndergroundMineDeposits.RescanDeposits(compUndergroundMineDeposits.Props.mineables);
         }
     }

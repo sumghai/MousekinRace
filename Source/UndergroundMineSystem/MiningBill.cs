@@ -9,10 +9,13 @@ namespace MousekinRace
 {
     public class MiningBill : IExposable, ILoadReferenceable
     {
-        public BillRepeatModeDef repeatMode = BillRepeatModeDefOf.RepeatCount;  // bill repeat mode (default to "repeat X times")
+        [Unsaved(false)]
+        public MiningBillStack miningBillStack;
+
+        public int loadID = -1;                             // mining bill unique ID
         
-        private ThingWithComps parent;                      // parent thing
-        public ThingDef mineableThing;                     // mineable resource thingDef
+        public ThingWithComps parent;                      // parent thing
+        public ThingDef mineableThing;                      // mineable resource thingDef
         private int minedPortionSize;                       // mined portion size
         public int tickLeft;                                // ticks left before spawning product
         private float progress;                             // progress percentage
@@ -21,12 +24,13 @@ namespace MousekinRace
         public int targetCount = 1;                         // number of times this mining bill should repeat
         private int currRepeatCount = 0;                    // number of times this mining bill has been repeated
         public int ticksRequired;
-
-        private string id;                                  // mining bill unique ID
+        public BillRepeatModeDef repeatMode = BillRepeatModeDefOf.RepeatCount;  // bill repeat mode (default to "repeat X times")
 
         private List<FloatMenuOption> billRepeatOptions;
 
         public Map Map => parent.Map;
+
+        public string Label => "MousekinRace_MineEntrance_Mine".Translate(mineableThing.LabelCap, "x" + minedPortionSize).CapitalizeFirst();
 
         private CompUndergroundMineDeposits CompUMD => parent.TryGetComp<CompUndergroundMineDeposits>();
 
@@ -118,28 +122,26 @@ namespace MousekinRace
             minedPortionSize = CompUMD.Props.mineables.Find(x => x.mineableThing == mineableThing).minedPortionSize;
             tickLeft = ticksRequired;
             progress = 0f;
-
-            Map map = parent.Map;
-
-            id = $"UndergroundMiningBill_{map.uniqueID}_{mineableThing.defName}_{map.GetComponent<MapComponent_UndergroundMineDeposits>().GetNextMiningBillID(map)}";
+            InitializeAfterClone();
         }
 
         public void ExposeData()
         {
-            Scribe_Defs.Look(ref repeatMode, "repeatMode");
+            Scribe_Values.Look(ref loadID, "loadID", 0, true);
             Scribe_Defs.Look(ref mineableThing, "miningBillThing");
-            Scribe_Values.Look(ref id, "id");
             Scribe_Values.Look(ref minedPortionSize, "minedPortionSize");
+            Scribe_Defs.Look(ref repeatMode, "repeatMode");
             Scribe_Values.Look(ref tickLeft, "tickLeft");
             Scribe_Values.Look(ref progress, "progress");
             Scribe_Values.Look(ref suspended, "suspended");
             Scribe_Values.Look(ref targetCount, "targetCount");
             Scribe_Values.Look(ref currRepeatCount, "currRepeatCount");
             Scribe_Values.Look(ref ticksRequired, "ticksRequired");
+
             Scribe_References.Look(ref parent, "parent");
         }
 
-        public string GetUniqueLoadID() => id;
+        public string GetUniqueLoadID() => "MousekinRace_MiningBill_" + mineableThing.defName + "_" + loadID;
 
         public override string ToString() => GetUniqueLoadID();
 
@@ -254,7 +256,7 @@ namespace MousekinRace
             GUI.color = color;
 
             // Mining bill label
-            Widgets.Label(new Rect(28f, 0f, rect.width - 48f - 40f, rect.height + 5f), "MousekinRace_MineEntrance_Mine".Translate(mineableThing.LabelCap, "x" + minedPortionSize).CapitalizeFirst() + " (" + ticksRequired.ToStringTicksToDays() + ")");
+            Widgets.Label(new Rect(28f, 0f, rect.width - 48f - 40f, rect.height + 5f), Label + " (" + ticksRequired.ToStringTicksToDays() + ")");
 
             // Config
             var baseRect = rect.AtZero();
@@ -263,6 +265,7 @@ namespace MousekinRace
             GUI.color = color;
 
             var widgetRow = new WidgetRow(baseRect.xMax, baseRect.y + 29f, UIDirection.LeftThenUp);
+            // todo - details button and dialog
             if (widgetRow.ButtonText(repeatMode.LabelCap.Resolve().PadRight(20)))
             {
                 Find.WindowStack.Add(new FloatMenu(Options));
@@ -299,7 +302,7 @@ namespace MousekinRace
             }
 
             // Delete bill
-            var deleteRect = new Rect(rect.width - 24f, 0f, 24f, 24f);
+            Rect deleteRect = new(rect.width - 24f, 0f, 24f, 24f);
             if (Widgets.ButtonImage(deleteRect, TexButton.Delete, color, color * GenUI.SubtleMouseoverColor))
             {
                 stack.Delete(this);
@@ -307,8 +310,16 @@ namespace MousekinRace
             }
             TooltipHandler.TipRegionByKey(deleteRect, "DeleteBillTip");
 
+            // Copy bill
+            Rect copyRect = new(rect.width - (2f * 24f), 0f, 24f, 24f);
+            if (Widgets.ButtonImageFitted(copyRect, TexButton.Copy, color))
+            {
+                UndergroundMineSys_Utils.Clipboard = Clone();
+                SoundDefOf.Tick_High.PlayOneShotOnCamera();
+            }
+
             // Suspend
-            var suspendRect = new Rect(rect.width - 24f - 24f, 0f, 24f, 24f);
+            Rect suspendRect = new(rect.width - (3f * 24f), 0f, 24f, 24f);
             if (Widgets.ButtonImage(suspendRect, TexButton.Suspend, color))
             {
                 suspended = !suspended;
@@ -324,7 +335,7 @@ namespace MousekinRace
             {
                 Text.Font = GameFont.Medium;
                 Text.Anchor = TextAnchor.MiddleCenter;
-                var suspendedRect = new Rect(rect.x + rect.width / 2f - 70f, rect.y + rect.height / 2f - 20f, 140f, 40f);
+                Rect suspendedRect = new(rect.x + rect.width / 2f - 70f, rect.y + rect.height / 2f - 20f, 140f, 40f);
                 GUI.DrawTexture(suspendedRect, TexUI.GrayTextBG);
                 Widgets.Label(suspendedRect, "SuspendedCaps".Translate());
                 Text.Anchor = TextAnchor.UpperLeft;
@@ -334,6 +345,27 @@ namespace MousekinRace
             GUI.color = Color.white;
 
             return rect;
+        }
+
+        public MiningBill Clone()
+        { 
+            MiningBill obj = (MiningBill)Activator.CreateInstance(GetType());
+            obj.repeatMode = repeatMode;
+            obj.mineableThing = mineableThing;
+            obj.minedPortionSize = minedPortionSize;
+            obj.tickLeft = ticksRequired; // Reset progress when cloning
+            obj.suspended = suspended;
+            obj.targetCount = targetCount;
+            obj.currRepeatCount = currRepeatCount;
+            obj.ticksRequired = ticksRequired;
+            obj.parent = parent;
+
+            return obj;
+        }
+
+        public void InitializeAfterClone()
+        {
+            loadID = Map.GetComponent<MapComponent_UndergroundMineDeposits>().GetNextMiningBillID(Map);
         }
     }
 }

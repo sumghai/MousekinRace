@@ -99,7 +99,7 @@ namespace MousekinRace
                         { 
                             output += deposit.mineableThing.defName + " = " + deposit.amountRemaining + " remaining\n";
                         }
-                        Log.Warning($"Current deposits:\n" + output);
+                        Log.Warning($"Current deposits in {mapComp.map}:\n" + output);
                         if (!PlayDataLoader.Loaded || Prefs.DevMode)
                         {
                             Log.TryOpenLogWindow();
@@ -115,7 +115,7 @@ namespace MousekinRace
                     {
                         mapComp.deposits.Clear();
                         mapComp.RescanDeposits(Props.mineables);
-                        Log.Warning($"Regenerated {mapComp.deposits.Count} deposits");
+                        Log.Warning($"Regenerated {mapComp.deposits.Count} deposits in {mapComp.map}");
                     }
                 };
                 yield return command_ActionRegenDeposits;

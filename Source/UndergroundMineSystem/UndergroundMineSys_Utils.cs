@@ -7,6 +7,8 @@ namespace MousekinRace
 {
     public static class UndergroundMineSys_Utils
     {
+        public static MiningBill Clipboard = null;
+        
         private static readonly RecipeTooltipLayout miningOptionTooltip = new();
 
         public static void DoOptionInfoWindow(this MineableCountRange mineable, int mineableOptionIndex, Rect rect)
@@ -85,7 +87,6 @@ namespace MousekinRace
                     carriedThing = carriedThing.GetInnerIfMinified();
                     if (carriedThing.SpawnedOrAnyParentSpawned && !carriedThing.PositionHeld.Fogged(carriedThing.MapHeld))
                     {
-                        Log.Warning($"Also counting {carriedStackCount} {carriedThing} carried by {pawn}");
                         num += carriedStackCount;
                     }
                 }

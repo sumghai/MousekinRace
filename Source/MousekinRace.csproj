@@ -392,6 +392,7 @@
     <Compile Include="Patches\Harmony_LordJob_Ritual.cs" />
     <Compile Include="Patches\Harmony_LordToil_Ritual.cs" />
     <Compile Include="Patches\Harmony_LWM_DeepStorage_Open_DS_Tab_On_Select.cs" />
+    <Compile Include="Patches\Harmony_MemoryUtility.cs" />
     <Compile Include="Patches\Harmony_MentalState_IdeoChange.cs" />
     <Compile Include="Patches\Harmony_MouseoverReadout.cs" />
     <Compile Include="Patches\Harmony_PawnDownedWiggler.cs" />
