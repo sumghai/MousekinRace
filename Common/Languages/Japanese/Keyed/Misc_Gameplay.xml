@@ -82,6 +82,9 @@
 	<!-- EN: mine {0} {1} -->
 	<MousekinRace_MineEntrance_Mine>{0}を採掘する {1}</MousekinRace_MineEntrance_Mine>
 	
+	<!-- EN: Mine {0} from the {1}. -->
+	<MousekinRace_MineEntrance_MineDescription>{1}から{0}を採掘します.</MousekinRace_MineEntrance_MineDescription>
+	
 	<!-- EN: This nitrary is not working at the moment-->
 	<MousekinRace_NitraryNotWorking>この硝石丘は現在稼働していない</MousekinRace_NitraryNotWorking>
 	

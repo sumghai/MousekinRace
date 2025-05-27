@@ -82,6 +82,9 @@
 	<!-- EN: mine {0} {1} -->
 	<MousekinRace_MineEntrance_Mine>Копать {lookup: {0}; Case; 3} {1}</MousekinRace_MineEntrance_Mine>
 	
+	<!-- EN: Mine {0} from the {1}. -->
+	<MousekinRace_MineEntrance_MineDescription>Выкопайте {0} из {1}.</MousekinRace_MineEntrance_MineDescription>
+	
 	<!-- EN: This nitrary is not working at the moment-->
 	<MousekinRace_NitraryNotWorking>Этот селитряницах сейчас не работает</MousekinRace_NitraryNotWorking>
 	

@@ -82,6 +82,9 @@
 	<!-- EN: mine {0} {1} -->
 	<MousekinRace_MineEntrance_Mine>开采{0}{1}</MousekinRace_MineEntrance_Mine>
 	
+	<!-- EN: Mine {0} from the {1}. -->
+	<MousekinRace_MineEntrance_MineDescription>从{1}开采{0}。</MousekinRace_MineEntrance_MineDescription>
+	
 	<!-- EN: This nitrary is not working at the moment-->
 	<MousekinRace_NitraryNotWorking>硝土堆未处于工作状态</MousekinRace_NitraryNotWorking>
 	

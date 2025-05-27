@@ -22,15 +22,47 @@ namespace MousekinRace
 
         public bool suspended;                              // is process suspended?
         public int targetCount = 1;                         // number of times this mining bill should repeat
-        private int currRepeatCount = 0;                    // number of times this mining bill has been repeated
+        public int currRepeatCount = 0;                    // number of times this mining bill has been repeated
         public int ticksRequired;
         public BillRepeatModeDef repeatMode = BillRepeatModeDefOf.RepeatCount;  // bill repeat mode (default to "repeat X times")
 
+        public bool paused;
+        public bool pauseWhenSatisfied;
+        public int unpauseWhenYouHave = 5;
+
         private List<FloatMenuOption> billRepeatOptions;
+
+        public BillStoreModeDef storeMode = BillStoreModeDefOf.BestStockpile;
+        public ISlotGroup storeGroup;
+        public ISlotGroup includeGroup;
 
         public Map Map => parent.Map;
 
         public string Label => "MousekinRace_MineEntrance_Mine".Translate(mineableThing.LabelCap, "x" + minedPortionSize).CapitalizeFirst();
+
+        public string StatusString
+        {
+            get
+            {
+                if (paused)
+                {
+                    return " " + "Paused".Translate().CapitalizeFirst();
+                }
+                return "";
+            }
+        }
+
+        public float StatusLineMinHeight
+        {
+            get
+            {
+                if (!CanUnpause())
+                {
+                    return 0f;
+                }
+                return 24f;
+            }
+        }
 
         private CompUndergroundMineDeposits CompUMD => parent.TryGetComp<CompUndergroundMineDeposits>();
 
@@ -139,6 +171,88 @@ namespace MousekinRace
             Scribe_Values.Look(ref ticksRequired, "ticksRequired");
 
             Scribe_References.Look(ref parent, "parent");
+
+            if (Scribe.mode == LoadSaveMode.Saving)
+            {
+                SaveSlotReferencable(storeGroup, "storeGroup");
+                SaveSlotReferencable(includeGroup, "includeGroup");
+            }
+            else if (Scribe.mode == LoadSaveMode.ResolvingCrossRefs || Scribe.mode == LoadSaveMode.LoadingVars)
+            {
+                LoadSlotReferencable(ref storeGroup, "storeGroup");
+                LoadSlotReferencable(ref includeGroup, "includeGroup");
+            }
+
+            Scribe_Values.Look(ref pauseWhenSatisfied, "pauseWhenSatisfied", defaultValue: false);
+            Scribe_Values.Look(ref unpauseWhenYouHave, "unpauseWhenYouHave", 0);
+            Scribe_Values.Look(ref paused, "paused", defaultValue: false);
+
+            if (repeatMode == null)
+            {
+                repeatMode = BillRepeatModeDefOf.RepeatCount;
+            }
+            if (storeMode == null)
+            {
+                storeMode = BillStoreModeDefOf.BestStockpile;
+            }
+        }
+
+        public static void SaveSlotReferencable(ISlotGroup slot, string key)
+        {
+            ILoadReferenceable refee = null;
+            if (slot is ILoadReferenceable loadReferenceable)
+            {
+                refee = loadReferenceable;
+            }
+            else if (slot is SlotGroup { parent: ILoadReferenceable parent })
+            {
+                refee = parent;
+            }
+            Scribe_References.Look(ref refee, key);
+        }
+
+        public static void LoadSlotReferencable(ref ISlotGroup slot, string key)
+        {
+            ILoadReferenceable refee = null;
+            Scribe_References.Look(ref refee, key);
+            if (refee is ISlotGroup slotGroup)
+            {
+                slot = slotGroup;
+            }
+            else if (refee is ISlotGroupParent slotGroupParent)
+            {
+                slot = slotGroupParent.GetSlotGroup();
+            }
+        }
+
+        public BillStoreModeDef GetStoreMode()
+        {
+            return storeMode;
+        }
+
+        public ISlotGroup GetSlotGroup()
+        {
+            return storeGroup;
+        }
+
+        public void SetIncludeGroup(ISlotGroup group)
+        {
+            includeGroup = group;
+        }
+
+        public ISlotGroup GetIncludeSlotGroup()
+        {
+            return includeGroup;
+        }
+
+        public void SetStoreMode(BillStoreModeDef mode, ISlotGroup group = null)
+        {
+            storeGroup = group;
+            storeMode = mode;
+            if (storeMode == BillStoreModeDefOf.SpecificStockpile != (group != null))
+            {
+                Log.ErrorOnce("Inconsistent bill StoreMode data set", 75645354);
+            }
         }
 
         public string GetUniqueLoadID() => "MousekinRace_MiningBill_" + mineableThing.defName + "_" + loadID;
@@ -147,21 +261,39 @@ namespace MousekinRace
 
         public bool ShouldDoNow()
         {
+            if (repeatMode != BillRepeatModeDefOf.TargetCount)
+            {
+                paused = false;
+            }
             if (suspended)
             {
                 return false;
             }
-            if (repeatMode == BillRepeatModeDefOf.Forever) 
+            if (repeatMode == BillRepeatModeDefOf.Forever)
             {
                 return true;
             }
             if (repeatMode == BillRepeatModeDefOf.RepeatCount)
             {
+                //return repeatCount > 0;
                 return currRepeatCount < targetCount;
             }
-            if (repeatMode == BillRepeatModeDefOf.TargetCount) 
-            { 
-                return UndergroundMineSys_Utils.CountMinedProductsOnMap(this) < targetCount;
+            if (repeatMode == BillRepeatModeDefOf.TargetCount)
+            {
+                int num = UndergroundMineSys_Utils.CountMinedProductsOnMap(this);
+                if (pauseWhenSatisfied && num >= targetCount)
+                {
+                    paused = true;
+                }
+                if (num <= unpauseWhenYouHave || !pauseWhenSatisfied)
+                {
+                    paused = false;
+                }
+                if (paused)
+                {
+                    return false;
+                }
+                return num < targetCount;
             }
             throw new InvalidOperationException();
         }
@@ -220,6 +352,14 @@ namespace MousekinRace
             Color color = (GUI.color = BaseColor);
             Text.Font = GameFont.Small;
 
+            // Optionally expand rect to make room for status line
+            float statusLineOffset = 0f;
+            if (!StatusString.NullOrEmpty())
+            {
+                statusLineOffset = Mathf.Max(Text.TinyFontSupported ? 17f : 21f, StatusLineMinHeight);
+            }
+            rect.height += statusLineOffset;
+
             // Draw row background
             if (index % 2 == 0) 
             {
@@ -265,7 +405,10 @@ namespace MousekinRace
             GUI.color = color;
 
             var widgetRow = new WidgetRow(baseRect.xMax, baseRect.y + 29f, UIDirection.LeftThenUp);
-            // todo - details button and dialog
+            if (widgetRow.ButtonText("Details".Translate() + "..."))
+            {
+                Find.WindowStack.Add(GetMiningBillDialog());
+            }
             if (widgetRow.ButtonText(repeatMode.LabelCap.Resolve().PadRight(20)))
             {
                 Find.WindowStack.Add(new FloatMenu(Options));
@@ -328,6 +471,15 @@ namespace MousekinRace
             }
             TooltipHandler.TipRegionByKey(suspendRect, "SuspendBillTip");
 
+            // Status line (i.e. "paused")
+            if (!StatusString.NullOrEmpty())
+            {
+                Text.Font = GameFont.Tiny;
+                Rect statusLineRect = new(24f, rect.height - statusLineOffset, rect.width - 24f, statusLineOffset);
+                Widgets.Label(statusLineRect, StatusString);
+                DoStatusLineInterface(statusLineRect);
+            }
+
             Widgets.EndGroup();
 
             // Draw suspended
@@ -347,6 +499,28 @@ namespace MousekinRace
             return rect;
         }
 
+        public Window GetMiningBillDialog()
+        {
+            return new Dialog_MiningBillConfig(this, parent.Position);
+        }
+
+        public bool CanUnpause()
+        {
+            if (repeatMode == BillRepeatModeDefOf.TargetCount && paused && pauseWhenSatisfied)
+            {
+                return UndergroundMineSys_Utils.CountMinedProductsOnMap(this) < targetCount;
+            }
+            return false;
+        }
+
+        public void DoStatusLineInterface(Rect rect)
+        {
+            if (paused && new WidgetRow(rect.xMax, rect.y, UIDirection.LeftThenUp).ButtonText("Unpause".Translate()))
+            {
+                paused = false;
+            }
+        }
+
         public MiningBill Clone()
         { 
             MiningBill obj = (MiningBill)Activator.CreateInstance(GetType());
@@ -359,6 +533,9 @@ namespace MousekinRace
             obj.currRepeatCount = currRepeatCount;
             obj.ticksRequired = ticksRequired;
             obj.parent = parent;
+            obj.pauseWhenSatisfied = pauseWhenSatisfied;
+            obj.unpauseWhenYouHave = unpauseWhenYouHave;
+            obj.paused = paused;
 
             return obj;
         }

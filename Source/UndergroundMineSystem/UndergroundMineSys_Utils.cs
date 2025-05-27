@@ -73,25 +73,40 @@ namespace MousekinRace
         public static int CountMinedProductsOnMap(MiningBill bill)
         {
             int num = 0;
+            ISlotGroup includeSlotGroup = bill.GetIncludeSlotGroup();
 
-            // Count items spawned in storage on the map 
-            num += bill.Map.resourceCounter.GetCount(bill.mineableThing);
+            // Standard behaviour: count matching items in (cached) storage across the map and things carried by pawns on the same map
+            if (includeSlotGroup == null) 
+            {
+                num += bill.Map.resourceCounter.GetCount(bill.mineableThing);
 
-            // Count items being carried by pawns on the same map
-            foreach (Pawn pawn in bill.Map.mapPawns.FreeColonistsSpawned)
-            { 
-                Thing carriedThing = pawn.carryTracker.CarriedThing;
-                if (carriedThing != null && carriedThing.def == bill.mineableThing) 
-                { 
-                    int carriedStackCount = carriedThing.stackCount;
-                    carriedThing = carriedThing.GetInnerIfMinified();
-                    if (carriedThing.SpawnedOrAnyParentSpawned && !carriedThing.PositionHeld.Fogged(carriedThing.MapHeld))
+                foreach (Pawn pawn in bill.Map.mapPawns.FreeColonistsSpawned)
+                {
+                    Thing carriedThing = pawn.carryTracker.CarriedThing;
+                    if (carriedThing != null && carriedThing.def == bill.mineableThing)
                     {
-                        num += carriedStackCount;
+                        int carriedStackCount = carriedThing.stackCount;
+                        carriedThing = carriedThing.GetInnerIfMinified();
+                        if (carriedThing.SpawnedOrAnyParentSpawned && !carriedThing.PositionHeld.Fogged(carriedThing.MapHeld))
+                        {
+                            num += carriedStackCount;
+                        }
                     }
                 }
             }
-            
+            // Alternative: count only items in the specified storage slot group
+            else
+            {                
+                foreach (Thing heldThing in includeSlotGroup.HeldThings)
+                {
+                    Thing innerIfMinified = heldThing.GetInnerIfMinified();
+                    if (innerIfMinified.def == bill.mineableThing)
+                    {
+                        num += innerIfMinified.stackCount;
+                    }
+                }
+            }
+
             return num;
         }
     }
