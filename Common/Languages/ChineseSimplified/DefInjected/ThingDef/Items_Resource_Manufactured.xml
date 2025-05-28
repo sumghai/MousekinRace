@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: Mousekin Candle -->
+	<!-- EN: Mousekin candle -->
 	<Mousekin_Candle.label>白鼠族蜡烛</Mousekin_Candle.label>
 	
 	<!-- EN: Slow-burning beeswax candles used in lamps and lanterns. -->
 	<Mousekin_Candle.description>缓慢燃烧的蜂蜡蜡烛，用于灯具。</Mousekin_Candle.description>
 	
-	<!-- EN: Charcoal -->
+	<!-- EN: charcoal -->
 	<Mousekin_Charcoal.label>木炭</Mousekin_Charcoal.label>
 	
 	<!-- EN: Lightweight carbon residue formed by strongly heating wood in the absence of oxygen to remove all water and volatile compounds. Can be used as an efficient source of heating fuel, or for making gunpowder. -->
 	<Mousekin_Charcoal.description>一种轻质的碳残留物，在没有氧气的情况下强烈加热木材以去除所有水分和挥发性化合物而形成。可用作高效的加热燃料来源，或用于制造火药。</Mousekin_Charcoal.description>
 	
-	<!-- EN: Clockwork Mechanism -->
+	<!-- EN: clockwork mechanism -->
 	<Mousekin_ClockworkComponent.label>发条机构</Mousekin_ClockworkComponent.label>
 	
 	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
 	<Mousekin_ClockworkComponent.description>各种金属弹簧、齿轮和杠杆，用于制作复杂的白鼠族器具。</Mousekin_ClockworkComponent.description>
 	
-	<!-- EN: Gunpowder -->
+	<!-- EN: gunpowder -->
 	<Mousekin_Gunpowder.label>火药</Mousekin_Gunpowder.label>
 	
 	<!-- EN: An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful. -->

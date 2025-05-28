@@ -16,11 +16,11 @@
 	
 	<!-- ========================= Work tables ==========================-->
 
-	<!-- Mousekin Cast-Iron Stove -->
+	<!-- Mousekin cast-iron stove -->
 	
 	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_CastIronStove</defName>
-		<label>Mousekin Cast-Iron Stove</label>
+		<label>Mousekin cast-iron stove</label>
 		<description>A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals.</description>
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>

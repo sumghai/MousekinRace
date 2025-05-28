@@ -4,7 +4,7 @@
 	<!-- Mousekin Candle -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>Mousekin_Candle</defName>
-		<label>Mousekin Candle</label>
+		<label>Mousekin candle</label>
 		<description>Slow-burning beeswax candles used in lamps and lanterns.</description>
 		<graphicData>
 			<texPath>Things/Items/Manufactured/Mousekin_Candle</texPath>
@@ -27,7 +27,7 @@
 	<!-- Charcoal -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>Mousekin_Charcoal</defName>
-		<label>Charcoal</label>
+		<label>charcoal</label>
 		<description>Lightweight carbon residue formed by strongly heating wood in the absence of oxygen to remove all water and volatile compounds. Can be used as an efficient source of heating fuel, or for making gunpowder.</description>
 		<graphicData>
 			<texPath>Things/Items/Manufactured/Mousekin_Charcoal</texPath>
@@ -52,7 +52,7 @@
 	<!-- Clockwork Mechanism (pre-industrial component) -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>Mousekin_ClockworkComponent</defName>
-		<label>Clockwork Mechanism</label>
+		<label>clockwork mechanism</label>
 		<description>Assorted metal springs, gears and levers used for crafting complex Mousekin devices.</description>
 		<graphicData>
 			<texPath>Things/Items/Manufactured/Mousekin_ClockworkComponent</texPath>
@@ -78,7 +78,7 @@
 	<!-- Gunpowder -->
 	<ThingDef ParentName="ResourceBase">
 		<defName>Mousekin_Gunpowder</defName>
-		<label>Gunpowder</label>
+		<label>gunpowder</label>
 		<description>An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful.</description>
 		<graphicData>
 			<texPath>Things/Items/Manufactured/Mousekin_Gunpowder</texPath>
