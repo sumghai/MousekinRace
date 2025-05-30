@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: mine resources from mine entrances -->
+	<Mousekin_MineResourcesFromMineEntrance.label>坑道入口から資源を採掘</Mousekin_MineResourcesFromMineEntrance.label>
+	
+	<!-- EN: mine -->
+	<Mousekin_MineResourcesFromMineEntrance.verb>採掘する</Mousekin_MineResourcesFromMineEntrance.verb>
+	
+	<!-- EN: mining -->
+	<Mousekin_MineResourcesFromMineEntrance.gerund>を採掘する</Mousekin_MineResourcesFromMineEntrance.gerund>
+
 	<!-- EN: make things at crafting bench -->
 	<Mousekin_DoBillsUseCraftingBench.label>工芸品を加工</Mousekin_DoBillsUseCraftingBench.label>
 

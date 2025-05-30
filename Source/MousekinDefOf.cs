@@ -34,6 +34,7 @@ namespace MousekinRace
         public static ThingDef Mousekin_ChurchPew;
         public static ThingDef Mousekin_Windmill;
         public static ThingDef Mousekin_WorkbenchCrafting;
+        public static ThingDef Mousekin_MineEntrance;
         public static ThingDef Mousekin_TownSquare;
 
         public static ThingDef Blueprint_Mousekin_Windmill;
@@ -98,6 +99,7 @@ namespace MousekinRace
         public static JobDef Mousekin_Job_CommitSuicideWithPoison;
         public static JobDef Mousekin_Job_EmptyAshesFromHearth;
         public static JobDef Mousekin_Job_HarvestFromBeehive;
+        public static JobDef Mousekin_Job_MineResourcesFromMineEntrance;
 
         public static DutyDef Mousekin_DutyChurchServiceGiveSermon;
         public static DutyDef Mousekin_DutyChurchServiceSpectate;

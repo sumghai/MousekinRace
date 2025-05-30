@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- ============= Mining ============= -->
+	
+	<WorkGiverDef>
+		<defName>Mousekin_MineResourcesFromMineEntrance</defName>
+		<label>mine resources from mine entrances</label>
+		<giverClass>MousekinRace.WorkGiver_MineResourcesFromMineEntrance</giverClass>
+		<workType>Mining</workType>
+		<priorityInType>75</priorityInType>
+		<verb>mine</verb>
+		<gerund>mining</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
 	<!-- ============= Crafting ============= -->
 
 	<!-- Crafting miscellaneous items at the Mousekin Crafting Bench -->

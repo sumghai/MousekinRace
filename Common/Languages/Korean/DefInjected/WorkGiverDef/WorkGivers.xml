@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: mine resources from mine entrances -->
+	<Mousekin_MineResourcesFromMineEntrance.label>광산 입구에서 자원 채굴</Mousekin_MineResourcesFromMineEntrance.label>
+	
+	<!-- EN: mine -->
+	<Mousekin_MineResourcesFromMineEntrance.verb>채굴</Mousekin_MineResourcesFromMineEntrance.verb>
+	
+	<!-- EN: mining -->
+	<Mousekin_MineResourcesFromMineEntrance.gerund> 채굴</Mousekin_MineResourcesFromMineEntrance.gerund>
+
 	<!-- EN: make things at crafting bench -->
 	<Mousekin_DoBillsUseCraftingBench.label>작업대에서 물건 만들기</Mousekin_DoBillsUseCraftingBench.label>
 

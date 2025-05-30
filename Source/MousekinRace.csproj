@@ -356,6 +356,7 @@
     <Compile Include="Jobs\JobDriver_ChurchServiceGiveSermon.cs" />
     <Compile Include="Jobs\JobDriver_EatAtBarbecueTable.cs" />
     <Compile Include="Jobs\JobDriver_EmptyAshesFromHearth.cs" />
+    <Compile Include="Jobs\JobDriver_MineResourcesFromMineEntrance.cs" />
     <Compile Include="Jobs\JobDriver_PerformFlowerDance.cs" />
     <Compile Include="Jobs\JobDriver_SetHereticOnFire.cs" />
     <Compile Include="Jobs\JobGiver_ChurchServiceAttendSermon.cs" />
@@ -369,6 +370,7 @@
     <Compile Include="Jobs\LordToilData_ChurchService.cs" />
     <Compile Include="Jobs\LordToil_ChurchService.cs" />
     <Compile Include="Jobs\WorkGiver_EmptyAshesFromHearth.cs" />
+    <Compile Include="Jobs\WorkGiver_MineResourcesFromMineEntrance.cs" />
     <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
     <Compile Include="Patches\Harmony_CompRefuelable.cs" />

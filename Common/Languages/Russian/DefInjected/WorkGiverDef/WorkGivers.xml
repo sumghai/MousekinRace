@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: mine resources from mine entrances -->
+	<Mousekin_MineResourcesFromMineEntrance.label>добыча полезных ископаемых у входов в шахты</Mousekin_MineResourcesFromMineEntrance.label>
+	
+	<!-- EN: mine -->
+	<Mousekin_MineResourcesFromMineEntrance.verb>разработать</Mousekin_MineResourcesFromMineEntrance.verb>
+	
+	<!-- EN: mining -->
+	<Mousekin_MineResourcesFromMineEntrance.gerund>разработать</Mousekin_MineResourcesFromMineEntrance.gerund>
+
 	<!-- EN: make things at crafting bench -->
 	<Mousekin_DoBillsUseCraftingBench.label>Изготавливать вещи на верстаке</Mousekin_DoBillsUseCraftingBench.label>
 

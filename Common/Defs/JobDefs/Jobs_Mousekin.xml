@@ -46,6 +46,13 @@
 	</JobDef>
 	
 	<JobDef>
+		<defName>Mousekin_Job_MineResourcesFromMineEntrance</defName>
+		<driverClass>MousekinRace.JobDriver_MineResourcesFromMineEntrance</driverClass>
+		<reportString>mining resources from from TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
+	<JobDef>
 		<defName>Mousekin_Job_PlayTabletopGame</defName>
 		<driverClass>JobDriver_SitFacingBuilding</driverClass>
 		<reportString>playing Mousie-Go-Home.</reportString>

@@ -275,7 +275,6 @@ namespace MousekinRace
             }
             if (repeatMode == BillRepeatModeDefOf.RepeatCount)
             {
-                //return repeatCount > 0;
                 return currRepeatCount < targetCount;
             }
             if (repeatMode == BillRepeatModeDefOf.TargetCount)
