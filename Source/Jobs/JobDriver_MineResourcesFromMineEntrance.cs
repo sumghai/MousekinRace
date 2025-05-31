@@ -21,8 +21,8 @@ namespace MousekinRace
         {
             this.FailOnDespawnedNullOrForbidden(MineEntranceInd);
             this.FailOnBurningImmobile(MineEntranceInd);
-            yield return Toils_Goto.GotoThing(MineEntranceInd, PathEndMode.Touch);
-            yield return Toils_General.Wait(Duration).FailOnDestroyedNullOrForbidden(MineEntranceInd).FailOnCannotTouch(MineEntranceInd, PathEndMode.Touch)
+            yield return Toils_Goto.GotoThing(MineEntranceInd, PathEndMode.InteractionCell);
+            yield return Toils_General.Wait(Duration).FailOnDestroyedNullOrForbidden(MineEntranceInd).FailOnCannotTouch(MineEntranceInd, PathEndMode.InteractionCell)
                 .FailOn(() => (MineEntranceThing as Building_MineEntrance).compUndergroundMineDeposits.MiningBill.ShouldDoNow() == false)
                 .WithProgressBarToilDelay(MineEntranceInd);
             // todo - add more toils for mining

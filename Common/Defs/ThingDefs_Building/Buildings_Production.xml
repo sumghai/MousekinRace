@@ -1017,7 +1017,7 @@
 			<li>MousekinRace.PlaceWorker_OnlyOnePerMap</li>
 			<li>MousekinRace.PlaceWorker_NeverOnSeaIce</li>
 			<li>PlaceWorker_NotUnderRoof</li>
-			<!--<li>PlaceWorker_PreventInteractionSpotOverlap</li>-->
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<researchPrerequisites Inherit="false">
 			<li>Mousekin_ResearchMining</li>
