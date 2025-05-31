@@ -67,6 +67,12 @@
 	<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
 	<Mousekin_FermentingBarrel.description>Большая бочка для ферментации различных алкогольных напитков Мышкина. Требует прохладное, темное помещение.</Mousekin_FermentingBarrel.description>
 	
+	<!-- EN: Mousekin mine entrance -->
+	<Mousekin_MineEntrance.label>Мышкинская входов в шахты</Mousekin_MineEntrance.label>
+	
+	<!-- EN: A large wattle-and-daub building flanked by a pair of treadwheels, which serves as an enclosed entrance to an underground mineshaft. Multiple colonists can simultaneously mine for resources here until deposits are depleted. -->
+	<Mousekin_MineEntrance.description>Большое здание из плетня и дуба, окруженное парой беговых колес, служит закрытым входом в подземную шахту. Несколько колонистов могут одновременно добывать здесь ресурсы, пока запасы не иссякнут.</Mousekin_MineEntrance.description>
+	
 	<!-- EN: Mousekin nitrary -->
 	<Mousekin_Nitrary.label>Мышкинская селитряницах</Mousekin_Nitrary.label>
 	

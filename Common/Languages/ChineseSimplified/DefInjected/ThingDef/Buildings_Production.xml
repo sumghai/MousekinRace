@@ -65,6 +65,12 @@
 	<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
 	<Mousekin_FermentingBarrel.description>一种用于发酵各种白鼠族酒类的大桶。需要阴凉、黑暗的房间。</Mousekin_FermentingBarrel.description>
 	
+	<!-- EN: Mousekin mine entrance -->
+	<Mousekin_MineEntrance.label>白鼠族矿井入口</Mousekin_MineEntrance.label>
+	
+	<!-- EN: A large wattle-and-daub building flanked by a pair of treadwheels, which serves as an enclosed entrance to an underground mineshaft. Multiple colonists can simultaneously mine for resources here until deposits are depleted. -->
+	<Mousekin_MineEntrance.description>一栋大型的抹灰篱笆墙建筑物，两侧有一对踏板轮，是通往地下矿井的入口。多名殖民者可同时在此开采资源，直到资源耗尽为止。</Mousekin_MineEntrance.description>
+	
 	<!-- EN: Mousekin nitrary -->
 	<Mousekin_Nitrary.label>白鼠族硝土堆</Mousekin_Nitrary.label>
 	

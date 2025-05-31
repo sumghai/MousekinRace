@@ -27,6 +27,12 @@
 	<Mousekin_FermentingBarrel.label>마우스킨 발효 통</Mousekin_FermentingBarrel.label>		<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
 	<Mousekin_FermentingBarrel.description>다양한 마우스킨 알코올 음료를 발효시키기 위한 큰 통. 시원하고 어두운 방이 필요합니다.</Mousekin_FermentingBarrel.description>
 	
+	<!-- EN: Mousekin mine entrance -->
+	<Mousekin_MineEntrance.label>마우스킨 광산 입구</Mousekin_MineEntrance.label>
+	
+	<!-- EN: A large wattle-and-daub building flanked by a pair of treadwheels, which serves as an enclosed entrance to an underground mineshaft. Multiple colonists can simultaneously mine for resources here until deposits are depleted. -->
+	<Mousekin_MineEntrance.description>한 쌍의 수레바퀴로 둘러싸인 커다란 나무와 흙으로 지어진 건물로, 지하 갱도로 통하는 밀폐된 입구 역할을 합니다. 매장량이 고갈될 때까지 여러 식민지 주민이 동시에 이곳에서 자원을 채굴할 수 있습니다.</Mousekin_MineEntrance.description>
+	
 	<!-- EN: Mousekin nitrary -->
 	<Mousekin_Nitrary.label>마우스킨 질산염층은</Mousekin_Nitrary.label>
 	
