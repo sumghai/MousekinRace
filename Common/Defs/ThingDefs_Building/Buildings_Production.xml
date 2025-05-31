@@ -1029,7 +1029,7 @@
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_Nitrary</defName>
-		<label>Mousekin Nitrary</label>
+		<label>Mousekin nitrary</label>
 		<description>Piles of manure mixed with wood ash, moistened by rain and urine. Produces saltpeter through efflorescence after 15 days.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Rare</tickerType>
