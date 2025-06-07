@@ -36,6 +36,12 @@
 				</value>
 			</li>
 			
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName="Bullet_Mousekin_BlunderbussPellets"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>BlunderbussShotBullet</value>
+			</li>
+			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Bullet_Mousekin_BlunderbussPellets"]/projectile</xpath>
 				<value>
