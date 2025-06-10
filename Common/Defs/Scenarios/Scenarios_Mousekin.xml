@@ -47,6 +47,12 @@
 					<count>2000</count>
 				</li>
 				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gold</thingDef>
+					<count>50</count>
+				</li>
+				
 				<!-- Bedrolls to sleep in while building the first shelters -->
 				
 				<li Class="ScenPart_StartingThing_Defined">
@@ -240,6 +246,12 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>Silver</thingDef>
 					<count>500</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gold</thingDef>
+					<count>30</count>
 				</li>
 				
 				<!-- One worn old backpack -->
