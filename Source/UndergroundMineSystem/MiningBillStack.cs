@@ -72,22 +72,12 @@ namespace MousekinRace
             currentMiningBill = null;
         }
 
-        public void Notify_MiningBillChange()
-        {
-            // Current process isn't started, so we set it to null
-            if (currentMiningBill != null && currentMiningBill.ticksRequired == currentMiningBill.TickLeft)
-            {
-                currentMiningBill = null;
-            }
-        }
-
         public void AddMiningBill(ThingDef mineableThing, ThingWithComps parent, int targetCount = 1)
         {
             MiningBill miningBill = new(mineableThing, parent);
             miningBill.Setup();
             miningBill.targetCount = targetCount;
             miningBills.Add(miningBill);
-            Notify_MiningBillChange();
         }
 
         public void AddMiningBill(MiningBill miningBill, ThingWithComps parent)
@@ -95,7 +85,6 @@ namespace MousekinRace
             miningBill.miningBillStack = this;
             miningBill.parent = parent;
             miningBills.Add(miningBill);
-            Notify_MiningBillChange();
         }
 
         public void Delete(MiningBill miningBill)
@@ -105,8 +94,8 @@ namespace MousekinRace
                 miningBills.Remove(miningBill);
             }
                 
-            // If current process is the one we delete and it didn't start, kill it
-            if (miningBill == currentMiningBill && miningBill.Progress == 0f)
+            // If current process is the one we delete, kill it
+            if (miningBill == currentMiningBill)
             {
                 currentMiningBill = null;
             }
@@ -121,7 +110,6 @@ namespace MousekinRace
                 miningBills.Remove(miningBill);
                 miningBills.Insert(num, miningBill);
             }
-            Notify_MiningBillChange();
         }
 
         public int IndexOf(MiningBill miningBill) => miningBills.IndexOf(miningBill);

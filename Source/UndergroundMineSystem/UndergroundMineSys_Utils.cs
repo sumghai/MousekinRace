@@ -1,5 +1,6 @@
 ﻿using RimWorld;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Verse;
 
@@ -96,7 +97,8 @@ namespace MousekinRace
             }
             // Alternative: count only items in the specified storage slot group
             else
-            {                
+            {
+                Log.Warning($"\tSlot group {includeSlotGroup.GroupingLabel}");
                 foreach (Thing heldThing in includeSlotGroup.HeldThings)
                 {
                     Thing innerIfMinified = heldThing.GetInnerIfMinified();
@@ -108,6 +110,11 @@ namespace MousekinRace
             }
 
             return num;
+        }
+
+        public static int GetWorkRequiredToMineResource(ThingDef mineable)
+        {
+            return MousekinDefOf.Mousekin_MineEntrance.GetCompProperties<CompProperties_UndergroundMineDeposits>().mineables.First(x => x.mineableThing == mineable).workRequiredPerPortionMined;
         }
     }
 }

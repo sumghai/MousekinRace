@@ -190,7 +190,7 @@ namespace MousekinRace
             StringBuilder stringBuilder = new();
             stringBuilder.AppendLine("MousekinRace_MineEntrance_MineDescription".Translate(miningBill.mineableThing.label, miningBill.parent.LabelCap));
             stringBuilder.AppendLine();
-            stringBuilder.AppendLine("[todo - time required per portion?]");
+            stringBuilder.AppendLine("WorkAmount".Translate() + ": " + ((float)UndergroundMineSys_Utils.GetWorkRequiredToMineResource(miningBill.mineableThing)).ToStringWorkAmount());
             Text.Font = GameFont.Small;
             string text4 = stringBuilder.ToString();
             if (Text.CalcHeight(text4, rect.width) > rect.height)
@@ -202,6 +202,11 @@ namespace MousekinRace
             listing_Standard_MiningBillInfo.End();
 
             Widgets.InfoCardButton(rect.x, rect2.y, miningBill.mineableThing);
+        }
+
+        public override void PostClose()
+        {
+            (miningBill.parent as Building_MineEntrance).UpdateMiningJobSlots();
         }
 
         public void FillOutputDropdownOptions(ref List<FloatMenuOption> opts, string prefix, Action<ISlotGroup> selected)

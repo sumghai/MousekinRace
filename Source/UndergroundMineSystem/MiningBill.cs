@@ -12,18 +12,15 @@ namespace MousekinRace
         [Unsaved(false)]
         public MiningBillStack miningBillStack;
 
-        public int loadID = -1;                             // mining bill unique ID
+        public int loadID = -1;                 // mining bill unique ID
         
-        public ThingWithComps parent;                      // parent thing
-        public ThingDef mineableThing;                      // mineable resource thingDef
-        private int minedPortionSize;                       // mined portion size
-        public int tickLeft;                                // ticks left before spawning product
-        private float progress;                             // progress percentage
+        public ThingWithComps parent;           // parent thing
+        public ThingDef mineableThing;          // mineable resource thingDef
+        public int minedPortionSize;            // mined portion size
 
-        public bool suspended;                              // is process suspended?
-        public int targetCount = 1;                         // number of times this mining bill should repeat
-        public int currRepeatCount = 0;                    // number of times this mining bill has been repeated
-        public int ticksRequired;
+        public bool suspended;                  // is process suspended?
+        public int targetCount = 1;             // number of times this mining bill should repeat
+        public int currRepeatCount = 0;         // number of times this mining bill has been repeated                          
         public BillRepeatModeDef repeatMode = BillRepeatModeDefOf.RepeatCount;  // bill repeat mode (default to "repeat X times")
 
         public bool paused;
@@ -63,6 +60,8 @@ namespace MousekinRace
                 return 24f;
             }
         }
+
+        private Building_MineEntrance MineEntrance => parent as Building_MineEntrance;
 
         private CompUndergroundMineDeposits CompUMD => parent.TryGetComp<CompUndergroundMineDeposits>();
 
@@ -109,37 +108,19 @@ namespace MousekinRace
                     new(BillRepeatModeDefOf.RepeatCount.LabelCap, delegate
                     {
                         repeatMode = BillRepeatModeDefOf.RepeatCount;
-                        CompUMD.MiningBillStack.Notify_MiningBillChange();
                     }),
                     new(BillRepeatModeDefOf.TargetCount.LabelCap, delegate
                     {
                         repeatMode = BillRepeatModeDefOf.TargetCount;
-                        CompUMD.MiningBillStack.Notify_MiningBillChange();
                     }),
                     new(BillRepeatModeDefOf.Forever.LabelCap, delegate
                     {
                         repeatMode = BillRepeatModeDefOf.Forever;
-                        CompUMD.MiningBillStack.Notify_MiningBillChange();
                     })
                 ];
                 return billRepeatOptions;
             }
         }
-
-        public float Progress
-        {
-            get
-            {
-
-                return progress;
-            }
-            set
-            {
-                progress = value;
-            }
-        }
-
-        public int TickLeft => tickLeft;
 
         public MiningBill()
         { 
@@ -149,11 +130,7 @@ namespace MousekinRace
         {
             this.parent = parent;
             mineableThing = mineableThingInput;
-
-            ticksRequired = CompUMD.Props.mineables.Find(x => x.mineableThing == mineableThing).ticksPerPortionMined;
             minedPortionSize = CompUMD.Props.mineables.Find(x => x.mineableThing == mineableThing).minedPortionSize;
-            tickLeft = ticksRequired;
-            progress = 0f;
             InitializeAfterClone();
         }
 
@@ -163,12 +140,9 @@ namespace MousekinRace
             Scribe_Defs.Look(ref mineableThing, "miningBillThing");
             Scribe_Values.Look(ref minedPortionSize, "minedPortionSize");
             Scribe_Defs.Look(ref repeatMode, "repeatMode");
-            Scribe_Values.Look(ref tickLeft, "tickLeft");
-            Scribe_Values.Look(ref progress, "progress");
             Scribe_Values.Look(ref suspended, "suspended");
             Scribe_Values.Look(ref targetCount, "targetCount");
             Scribe_Values.Look(ref currRepeatCount, "currRepeatCount");
-            Scribe_Values.Look(ref ticksRequired, "ticksRequired");
 
             Scribe_References.Look(ref parent, "parent");
 
@@ -302,37 +276,8 @@ namespace MousekinRace
             targetCount = 1;
         }
 
-        public void Tick(int ticks)
-        {
-            // todo - continue only if there is corresponding deposit is not empty
-            /*
-             * if (deposit for current mineable is empty)
-             * {
-             *      return;
-             * }
-             */ 
-             
-            // We are active for ticks
-            if (tickLeft > 0)
-            {
-                tickLeft -= ticks;
-            }
-            // Set progress (for the bar)
-
-            progress = Math.Min(1f - (tickLeft / (float)ticksRequired), 1);
-
-            // Check if processor should produce this tick
-            if (tickLeft <= 0)
-            {
-                // todo - spawn the appropriate portion-sized mined resource
-            }
-        }
-
         public void ResetMiningBill(bool finished = true)
         {
-            tickLeft = ticksRequired;
-            progress = 0;
-
             if (finished)
             {
                 if (targetCount - currRepeatCount == 0)
@@ -342,7 +287,7 @@ namespace MousekinRace
                 currRepeatCount++;
             }
 
-            CompUMD.MiningBillStack.Notify_MiningBillEnded();
+            MineEntrance.MiningBillStack.Notify_MiningBillEnded();
         }
 
         public Rect DoInterface(float x, float y, float width, int index)
@@ -366,7 +311,7 @@ namespace MousekinRace
             }
 
             Widgets.BeginGroup(rect);
-            MiningBillStack stack = CompUMD.MiningBillStack;
+            MiningBillStack stack = MineEntrance.MiningBillStack;
 
             // If the current mining bill isn't the first, we can move it up
             var miningBillIndex = stack.IndexOf(this);
@@ -376,6 +321,7 @@ namespace MousekinRace
                 if (Widgets.ButtonImage(upRect, TexButton.ReorderUp, color))
                 {
                     stack.Reorder(this, -1);
+                    MineEntrance.UpdateMiningJobSlots();
                     SoundDefOf.Tick_High.PlayOneShotOnCamera();
                 }
                 TooltipHandler.TipRegionByKey(upRect, "ReorderBillUpTip");
@@ -388,6 +334,7 @@ namespace MousekinRace
                 if (Widgets.ButtonImage(downRect, TexButton.ReorderDown, color))
                 {
                     stack.Reorder(this, 1);
+                    MineEntrance.UpdateMiningJobSlots();
                     SoundDefOf.Tick_Low.PlayOneShotOnCamera();
                 }
                 TooltipHandler.TipRegionByKey(downRect, "ReorderBillDownTip");
@@ -395,7 +342,7 @@ namespace MousekinRace
             GUI.color = color;
 
             // Mining bill label
-            Widgets.Label(new Rect(28f, 0f, rect.width - 48f - 40f, rect.height + 5f), Label + " (" + ticksRequired.ToStringTicksToDays() + ")");
+            Widgets.Label(new Rect(28f, 0f, rect.width - 48f - 40f, rect.height + 5f), Label);
 
             // Config
             var baseRect = rect.AtZero();
@@ -425,7 +372,6 @@ namespace MousekinRace
                     targetCount += GenUI.CurrentAdjustmentMultiplier();
                 }
                 SoundDefOf.DragSlider.PlayOneShotOnCamera();
-                CompUMD.MiningBillStack.Notify_MiningBillChange();
             }
             if (widgetRow.ButtonIcon(TexButton.Minus))
             {
@@ -440,7 +386,6 @@ namespace MousekinRace
                     targetCount = Mathf.Max(0, targetCount - GenUI.CurrentAdjustmentMultiplier());
                 }
                 SoundDefOf.DragSlider.PlayOneShotOnCamera();
-                CompUMD.MiningBillStack.Notify_MiningBillChange();
             }
 
             // Delete bill
@@ -448,6 +393,7 @@ namespace MousekinRace
             if (Widgets.ButtonImage(deleteRect, TexButton.Delete, color, color * GenUI.SubtleMouseoverColor))
             {
                 stack.Delete(this);
+                MineEntrance.UpdateMiningJobSlots();
                 SoundDefOf.Click.PlayOneShotOnCamera();
             }
             TooltipHandler.TipRegionByKey(deleteRect, "DeleteBillTip");
@@ -465,8 +411,8 @@ namespace MousekinRace
             if (Widgets.ButtonImage(suspendRect, TexButton.Suspend, color))
             {
                 suspended = !suspended;
+                MineEntrance.UpdateMiningJobSlots();
                 SoundDefOf.Click.PlayOneShotOnCamera();
-                CompUMD.MiningBillStack.Notify_MiningBillChange();
             }
             TooltipHandler.TipRegionByKey(suspendRect, "SuspendBillTip");
 
@@ -526,11 +472,9 @@ namespace MousekinRace
             obj.repeatMode = repeatMode;
             obj.mineableThing = mineableThing;
             obj.minedPortionSize = minedPortionSize;
-            obj.tickLeft = ticksRequired; // Reset progress when cloning
             obj.suspended = suspended;
             obj.targetCount = targetCount;
             obj.currRepeatCount = currRepeatCount;
-            obj.ticksRequired = ticksRequired;
             obj.parent = parent;
             obj.pauseWhenSatisfied = pauseWhenSatisfied;
             obj.unpauseWhenYouHave = unpauseWhenYouHave;
@@ -542,6 +486,21 @@ namespace MousekinRace
         public void InitializeAfterClone()
         {
             loadID = Map.GetComponent<MapComponent_UndergroundMineDeposits>().GetNextMiningBillID(Map);
+        }
+
+        public void Notify_IterationCompleted(Pawn miner)
+        {
+            if (repeatMode == BillRepeatModeDefOf.RepeatCount)
+            {
+                if (targetCount > 0)
+                {
+                    targetCount--;
+                }
+                if (targetCount == 0)
+                {
+                    Messages.Message("MessageBillComplete".Translate(Label), parent, MessageTypeDefOf.TaskCompletion);
+                }
+            }
         }
     }
 }

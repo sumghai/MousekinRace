@@ -972,43 +972,43 @@
 						<mineableThing>Steel</mineableThing>
 						<depositSize>275000~325000</depositSize>
 						<minedPortionSize>25</minedPortionSize>
-						<ticksPerPortionMined>10000</ticksPerPortionMined>
+						<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Silver</mineableThing>
 						<depositSize>45000~55000</depositSize>
 						<minedPortionSize>10</minedPortionSize>
-						<ticksPerPortionMined>20000</ticksPerPortionMined>
+						<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Gold</mineableThing>
 						<depositSize>10000~15000</depositSize>
 						<minedPortionSize>5</minedPortionSize>
-						<ticksPerPortionMined>20000</ticksPerPortionMined>
+						<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Jade</mineableThing>
 						<depositSize>10000~15000</depositSize>
 						<minedPortionSize>5</minedPortionSize>
-						<ticksPerPortionMined>20000</ticksPerPortionMined>
+						<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Uranium</mineableThing>
 						<depositSize>10000~15000</depositSize>
 						<minedPortionSize>5</minedPortionSize>
-						<ticksPerPortionMined>20000</ticksPerPortionMined>
+						<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Mousekin_Sulfur</mineableThing>
 						<depositSize>550000~650000</depositSize>
 						<minedPortionSize>50</minedPortionSize>
-						<ticksPerPortionMined>10000</ticksPerPortionMined>
+						<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
 					</li>
 					<li>
 						<mineableThing>Mousekin_Saltpeter</mineableThing>
 						<depositSize>550000~650000</depositSize>
 						<minedPortionSize>50</minedPortionSize>
-						<ticksPerPortionMined>10000</ticksPerPortionMined>
+						<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
 					</li>
 				</mineables>
 			</li>

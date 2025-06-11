@@ -369,6 +369,7 @@
     <Compile Include="Jobs\LordJob_Ritual_HereticExecution.cs" />
     <Compile Include="Jobs\LordToilData_ChurchService.cs" />
     <Compile Include="Jobs\LordToil_ChurchService.cs" />
+    <Compile Include="Jobs\Toils_MineEntrance.cs" />
     <Compile Include="Jobs\WorkGiver_EmptyAshesFromHearth.cs" />
     <Compile Include="Jobs\WorkGiver_MineResourcesFromMineEntrance.cs" />
     <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />

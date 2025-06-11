@@ -14,7 +14,9 @@ namespace MousekinRace
             List<Thing> list = pawn.Map.listerThings.ThingsOfDef(MousekinDefOf.Mousekin_MineEntrance);
             for (int i = 0; i < list.Count; i++)
             {
-                if (((Building_MineEntrance)list[i]).compUndergroundMineDeposits.MiningBill.ShouldDoNow())
+                Building_MineEntrance mineEntrance = (Building_MineEntrance)list[i];
+                
+                if (mineEntrance.MiningBillStack.FirstCanDo.ShouldDoNow() && mineEntrance.UnassignedMiningJobSlotAvailable)
                 {
                     return false;
                 }
@@ -24,7 +26,7 @@ namespace MousekinRace
 
         public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
-            if (t is not Building_MineEntrance building_MineEntrance || !building_MineEntrance.compUndergroundMineDeposits.MiningBill.ShouldDoNow())
+            if (t is not Building_MineEntrance building_MineEntrance || !building_MineEntrance.MiningBillStack.FirstCanDo.ShouldDoNow() || !building_MineEntrance.UnassignedMiningJobSlotAvailable)
             {
                 return false;
             }

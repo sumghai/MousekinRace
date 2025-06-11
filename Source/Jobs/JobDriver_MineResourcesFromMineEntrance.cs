@@ -6,14 +6,28 @@ namespace MousekinRace
 {
     public class JobDriver_MineResourcesFromMineEntrance : JobDriver
     {
+        public int miningBillStartTick;
+
+        public int ticksSpentDoingMiningWork;
+        
         public const TargetIndex MineEntranceInd = TargetIndex.A;
 
-        public const int Duration = 200; // todo - temp, replace with mined resource-specific durations
+        public Building_MineEntrance MineEntrance => job.GetTarget(MineEntranceInd).Thing as Building_MineEntrance;
 
-        public Thing MineEntranceThing => job.GetTarget(MineEntranceInd).Thing;
+        public override string GetReport()
+        {
+            return base.GetReport();
+        }
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look(ref miningBillStartTick, "miningBillStartTick", 0);
+            Scribe_Values.Look(ref ticksSpentDoingMiningWork, "ticksSpentDoingMiningWork", 0);
+        }
 
         public override bool TryMakePreToilReservations(bool errorOnFailed)
-        {
+        {            
             return true;
         }
 
@@ -21,11 +35,10 @@ namespace MousekinRace
         {
             this.FailOnDespawnedNullOrForbidden(MineEntranceInd);
             this.FailOnBurningImmobile(MineEntranceInd);
-            yield return Toils_Goto.GotoThing(MineEntranceInd, PathEndMode.InteractionCell);
-            yield return Toils_General.Wait(Duration).FailOnDestroyedNullOrForbidden(MineEntranceInd).FailOnCannotTouch(MineEntranceInd, PathEndMode.InteractionCell)
-                .FailOn(() => (MineEntranceThing as Building_MineEntrance).compUndergroundMineDeposits.MiningBill.ShouldDoNow() == false)
-                .WithProgressBarToilDelay(MineEntranceInd);
-            // todo - add more toils for mining
+            this.FailOn(() => !MineEntrance.UnassignedMiningJobSlotAvailable);
+            yield return Toils_Goto.GotoThing(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntrance.UnassignedMiningJobSlotAvailable);
+            yield return Toils_MineEntrance.MineResource().FailOnDespawnedNullOrForbiddenPlacedThings(MineEntranceInd).FailOnCannotTouch(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntrance.UnassignedMiningJobSlotAvailable);
+            yield return Toils_MineEntrance.FinishMiningAndStartStoringProduct();
         }
     }
 }

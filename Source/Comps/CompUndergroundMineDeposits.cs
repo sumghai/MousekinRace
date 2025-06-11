@@ -10,79 +10,10 @@ namespace MousekinRace
 
         public MapComponent_UndergroundMineDeposits mapComp;
 
-        public List<FloatMenuOption> miningOptions;
-
-        public MiningBillStack miningBillStack = new();
-
-        public MiningBillStack MiningBillStack => miningBillStack;
-
-        public MiningBill MiningBill => miningBillStack.FirstCanDo;
-
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
             mapComp = Find.CurrentMap.GetComponent<MapComponent_UndergroundMineDeposits>();
-        }
-
-        public List<FloatMenuOption> MiningOptions 
-        {
-            get 
-            { 
-                miningOptions = [];
-
-                for (int i = 0; i < Props.mineables.Count; i++) 
-                { 
-                    MineableCountRange miningOption = Props.mineables[i];
-
-                    string label = "MousekinRace_MineEntrance_Mine".Translate(miningOption.mineableThing.LabelCap, "x" + miningOption.minedPortionSize);
-
-                    miningOptions.Add(new FloatMenuOption(label.CapitalizeFirst(), 
-                        () => miningBillStack.AddMiningBill(miningOption.mineableThing, parent),
-                        miningOption.mineableThing,
-                        null,
-                        false,
-                        MenuOptionPriority.Default,
-                        (Rect rect) => miningOption.DoOptionInfoWindow(i, rect),
-                        null,
-                        29f,
-                        (Rect rect) => miningOption.mineableThing != null && Widgets.InfoCardButton(rect.x + 5f, rect.y + (rect.height - 24f) / 2f, miningOption.mineableThing),
-                        null,
-                        true));
-                }
-                return miningOptions;
-            }
-        }
-
-
-        public override void PostDeSpawn(Map map)
-        {
-            foreach (MiningBill miningBill in miningBillStack)
-            { 
-                miningBill.ResetMiningBill();
-            }
-        }
-
-        public override void PostExposeData()
-        {
-            Scribe_Deep.Look(ref miningBillStack, "miningBillStack");
-        }
-
-        public override void CompTick()
-        {
-            if (parent.IsHashIntervalTick(100))
-            {
-                Tick(100);
-            }
-        }
-
-        public override void CompTickRare() => Tick(GenTicks.TickRareInterval);
-
-        public override void CompTickLong() => Tick(GenTicks.TickLongInterval);
-
-        private void Tick(int ticks)
-        { 
-            // todo - tick current mining bill progress depending on number of pawns working inside building
-            //MiningBill?.Tick(ticks);
         }
 
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
