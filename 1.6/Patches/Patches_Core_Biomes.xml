@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Add wild nut bushes to boreal and temperate forests -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[
+					defName="BorealForest" or
+					defName="TemperateForest"
+				]/wildPlants</xpath>
+				<value>
+					<Mousekin_Plant_NutChonko>0.05</Mousekin_Plant_NutChonko>
+					<Mousekin_Plant_NutNyam>0.05</Mousekin_Plant_NutNyam>
+				</value>
+			</li>
+			
+			<!-- 
+				Add pines to temperate forests
+				 - IRL pines can and do grow well in such forests, seems to be an oversight by Tynan
+				 - Uses a conditional check to ensure compatibility with mods like ReGrowth: Core (which also adds pines to temperate biomes)
+			-->
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants/Plant_TreePine</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+					<value>
+						<Plant_TreePine>0.1</Plant_TreePine>
+					</value>
+				</nomatch>
+			</li>
+			
+			<!-- Add wild giant cavies to boreal and temperate forests -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[
+					defName="BorealForest" or
+					defName="TemperateForest"
+				]/wildAnimals</xpath>
+				<value>
+					<Mousekin_AnimalGiantCavy>0.50</Mousekin_AnimalGiantCavy>
+				</value>
+			</li>
+
+			<!-- Allow giant cavies to be used as pack animals in all biomes -->
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/BiomeDef/allowedPackAnimals</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/BiomeDef</xpath>
+					<value>
+						<allowedPackAnimals/>
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef/allowedPackAnimals</xpath>
+				<value>
+					<li>Mousekin_AnimalGiantCavy</li>
+				</value>
+			</li>
+
+
+		</operations>
+	</Operation>
+
+</Patch>

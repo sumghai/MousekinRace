@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Plants Expanded - More Plants</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- Allow VPE:MP flowers to be recognized by Mousekin beehives for honey and beeswax production,
+					 and for the Flowers: desired precept -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/MousekinRace.FlowerListDef[defName="Mousekin_ValidFlowers"]/flowerPlants</xpath>
+					<value>
+						<li>VCE_Canola</li>
+						<li>VCE_FragrantbloomRose</li>
+						<li>VCE_Hyacinth</li>
+						<li>VCE_Jasmine</li>
+						<li>VCE_Lavender</li>
+						<li>VCE_Lily</li>
+						<li>VCE_Orchid</li>
+						<li>VCE_Plumeria</li>
+						<li>VCE_Sunflower</li>
+						<li>VCE_Tulip</li>
+						<li>VCE_Vanilla</li>
+						<li>VCE_Violet</li>
+						<li>VCE_YlangYlang</li>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>

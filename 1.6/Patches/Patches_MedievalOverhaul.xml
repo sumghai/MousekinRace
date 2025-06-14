@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Move Cloverbury Cheese to MO cheese category -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_FoodCheese"]/thingCategories</xpath>
+					<value>
+						<thingCategories>
+							<li>DankPyon_Cheese</li>
+						</thingCategories>
+					</value>
+				</li>
+				
+				<!-- Add cheeses to blacklist and disable associated ingested thoughts (in favor of the Mousekin system) -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+					<value>
+						<li>DankPyon_MealCheese</li>
+						<li>DankPyon_MealGoatCheese</li>
+						<li>DankPyon_MealGrilledCheese</li>
+						<li>DankPyon_MealSheepCheese</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+					<value>
+						<li>DankPyon_AteCheese</li>
+						<li>DankPyon_AteGrilledCheese</li>
+					</value>
+				</li>			
+				
+				<!-- Replace Windmill ItemProcessor inputs and outputs with MO Wheat and Flour -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName="Mousekin_IP_WindmillFirstItem"]/items</xpath>
+					<value>
+						<items>
+							<li>DankPyon_RawWheat</li>
+						</items>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ItemProcessor.CombinationDef[defName="Mousekin_RawWheatToFlour"]/items</xpath>
+					<value>
+						<items>
+							<li>DankPyon_RawWheat</li>
+						</items>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ItemProcessor.CombinationDef[defName="Mousekin_RawWheatToFlour"]/result</xpath>
+					<value>
+						<result>DankPyon_Flour</result>
+					</value>
+				</li>				
+				
+				<!-- Replace flour from Country bread recipes with MO Flour -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[
+						contains(defName, "Mousekin_Make_CountryBread")
+					]/ingredients/li/filter/thingDefs/li</xpath>
+					<value>
+						<li>DankPyon_Flour</li>
+					</value>
+				</li>
+				
+				<!-- Replace flour from Root Cellar storage filters with MO Flour -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_CellarOutdoor"]/building/fixedStorageSettings/filter/thingDefs/li[.="Mousekin_Flour"]</xpath>
+					<value>
+						<li>DankPyon_Flour</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_CellarOutdoor"]/building/defaultStorageSettings/filter/thingDefs/li[.="Mousekin_Flour"]</xpath>
+					<value>
+						<li>DankPyon_Flour</li>
+					</value>
+				</li>
+				
+				<!-- Allow Country bread to be stored in MO's bread cupboards -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_RusticCupboardBread"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+					<value>
+						<li>Mousekin_FoodCountryBread</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_RusticCupboardBread"]/building/defaultStorageSettings/filter/thingDefs</xpath>
+					<value>
+						<li>Mousekin_FoodCountryBread</li>
+					</value>
+				</li>
+				
+				<!-- Exclude Mousekin candle sconce from MO's forced stuffcategories patch for all torches -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_FurnitureWallCandle"]</xpath>
+					<value>
+						<stuffCategories Inherit="false" />
+						<costStuffCount>0</costStuffCount>
+					</value>
+				</li>
+
+				<!-- Add MO wort and wine must recipes to Mousekin brewery workbench -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[
+						@Name="DankPyon_Make_WortBase" or
+						defName="DankPyon_MakeMustWine" or
+						defName="DankPyon_MakeMustMulberry" or
+						defName="DankPyon_MakeMustGriffon"
+					]/recipeUsers</xpath>
+					<value>
+						<li>Mousekin_WorkbenchBrewery</li>
+					</value>
+				</li>
+
+				<!-- Replace all instances of steel in building/apparel/weapon/item costs and recipes with iron ingots (DankPyon_IronIngot) -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[@Name="Mousekin_FactionBase"]/apparelStuffFilter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[contains(defName, "Mousekin") or contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][fixedIngredientFilter/thingDefs/li[.="Steel"]]/fixedIngredientFilter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[contains(defName, "Mousekin") or contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][ingredients/li/filter/thingDefs/li[.="Steel"]]/ingredients/li/filter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[contains(defName, "Mousekin")]/scenario/parts/li[thingDef="Steel"]/thingDef</xpath>
+					<value>
+						<thingDef>DankPyon_IronIngot</thingDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[contains(@Name, "Mousekin")][defaultStuff="Steel"]/defaultStuff</xpath>
+					<value>
+						<defaultStuff>DankPyon_IronIngot</defaultStuff>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationSetName">
+					<xpath>Defs/ThingDef[contains(defName, "Mousekin")][costList/Steel]/costList/Steel</xpath>
+					<name>DankPyon_IronIngot</name>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TraderKindDef[contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][stockGenerators/li[thingDef="Steel"]]/stockGenerators/li[thingDef="Steel"]/thingDef</xpath>
+					<value>
+						<thingDef>DankPyon_IronIngot</thingDef>
+					</value>
+				</li>
+			
+			</operations>
+		</match>
+	</Operation>
+</Patch>

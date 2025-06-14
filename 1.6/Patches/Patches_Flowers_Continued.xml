@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Flowers (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Allow selected flowers to be recognized by Mousekin beehives for honey and beeswax production,
+					 and for the Flowers: desired precept -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/MousekinRace.FlowerListDef[defName="Mousekin_ValidFlowers"]/flowerPlants</xpath>
+					<value>
+						<li>Plant_Buttercup</li>
+						<li>Plant_Chrysanthemum</li>
+						<li>Plant_Crocus</li>
+						<li>Plant_Daffodil</li>
+						<li>Plant_Dahlia</li>
+						<li>Plant_Daisy</li>
+						<li>Plant_Iris</li>
+						<li>Plant_Lily</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

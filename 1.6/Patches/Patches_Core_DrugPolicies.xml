@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Allow Mousekin beverages to be consumed for joy by default in drug policies -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/DrugPolicyDef[
+					defName="SocialDrugs" or
+					defName="OneDrinkPerDay"
+				]/entries</xpath>
+				<value>
+					<li>
+						<drug>Mousekin_DrinkChonkoNutBrew</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkLager</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadAwful</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadPoor</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadNormal</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadGood</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadExcellent</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadMasterwork</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+					<li>
+						<drug>Mousekin_DrinkMeadLegendary</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
+				</value>
+			</li>
+		
+		</operations>
+	</Operation>
+</Patch>

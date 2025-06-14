@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Add Mousekin-specific trade tags -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+					defName="Chicken" or
+					defName="Cow" or
+					defName="Duck" or
+					defName="Goose" or
+					defName="Goat" or
+					defName="Pig" or
+					defName="Sheep"
+				]/tradeTags</xpath>
+				<value>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>

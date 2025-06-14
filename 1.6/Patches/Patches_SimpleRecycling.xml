@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Simple Recycling</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Allow apparel to be recycled at the Mousekin seamstress bench -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/WorkGiverDef[defName="DoBillsRecycleApparel"]/fixedBillGiverDefs</xpath>
+					<value>
+						<li>Mousekin_WorkbenchTailor</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="SimpleRecycleApparel"]/recipeUsers</xpath>
+					<value>
+						<li>Mousekin_WorkbenchTailor</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

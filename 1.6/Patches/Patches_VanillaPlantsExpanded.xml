@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Plants Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- Add (pickled) onions to Ploughman's lunch recipe -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="Mousekin_Make_PloughmansLunch"]/ingredients</xpath>
+					<value>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>VCE_RawOnion</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
