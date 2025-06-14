@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ScenarioDef Name="Mousekin_ScenarioBase" Abstract="true">
+		<scenario>
+			<parts>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>GiveQuest_EndGame_ShipEscape</incident>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	<ScenarioDef ParentName="Mousekin_ScenarioBase">
+		<defName>Mousekin_Scenario_Settlers</defName>
+		<label>Mousekin Settlers</label>
+		<description>With the blessings of the village elders and your families, you and seven of your friends have set out to start your own hamlet.\n\nMany challenges await, but should you succeed, your accomplishments and the beauty of your flower gardens will be exalted for generations to come.</description>
+		<scenario>
+			<summary>Eight Mousekin settlers establish a new hamlet.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>Mousekin_PlayerFaction_Settlers</factionDef>
+			</playerFaction>
+			<parts>
+
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>Today is the day!\n\nAfter months of scouting, your friends have finally found a good plot of land to call your own. Perhaps you'll grow hedges of the most delicious nuts, build the most impressive lodges housing hundreds of your fellow Mousekins, or maybe plant a beautiful flower garden that will draw visitors from all over the kingdom.\n\nBidding goodbye to your families, you and your friends set out on an adventure of a lifetime.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>8</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>2000</count>
+				</li>
+				
+				<!-- Bedrolls to sleep in while building the first shelters -->
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Bedroll</thingDef>
+					<stuff>Cloth</stuff>
+					<count>8</count>
+				</li>
+				
+				<!-- Spare settler outfits, dresses and cloaks for winter -->
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_ApparelSettlerOutfit</thingDef>
+					<stuff>Cloth</stuff>
+					<count>2</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_ApparelSettlerDress</thingDef>
+					<stuff>Cloth</stuff>
+					<count>2</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_ApparelCloak</thingDef>
+					<stuff>Cloth</stuff>
+					<count>10</count>
+				</li>
+				
+				<!-- Backpacks carried by the settlers -->
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BackpackLeather</thingDef>
+					<stuff>Leather_Plain</stuff>
+					<count>2</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BackpackWicker</thingDef>
+					<count>2</count>
+				</li>
+
+				<!-- Trail mix to feed 8 mice for around 12 days, enough time for the mice to plant and harvest a crop of strawberries -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MealTrailMix</thingDef>
+					<count>300</count>
+				</li>
+
+				<!-- Plenty of poultices for dealing with cuts and scrapes from the first couple of weeks of establishing a new hamlet -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MedicinePoultice</thingDef>
+					<count>75</count>
+				</li>
+				
+				<!-- Plenty of cloth to make more apparel, or cloth ear and tail prosthetics -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Cloth</thingDef>
+					<count>300</count>
+				</li>
+
+				<!-- Mousekin Hunter's Crossbows, for hunting and early self-defense -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_RangedWeapon_Crossbow</thingDef>
+					<count>2</count>
+				</li>
+				
+				<!-- Mousekin Axe, for cutting down trees -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_Axe</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Dagger, for early self-defense -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_Dagger</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Hammer, for blacksmithing -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_HammerMetal</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Mallet, for wood and stoneworking -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_HammerWood</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Hoe, for cultivating crops -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_Hoe</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- Mousekin Pickaxe, for mining -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_Pickaxe</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- A small library of Mousekin treatises, to help with starting research -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BookResearch</thingDef>
+					<count>5</count>
+				</li>
+				
+				<!-- Giant cavies as pack animals that helped the settlers carry their inventory -->				
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Mousekin_AnimalGiantCavy</animalKind>
+					<count>4</count>
+				</li>
+				
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>400</count>
+				</li>
+
+				<!-- Requires Mousekin Kingdom and Independent Mousekin factions during world generation -->
+				
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Mousekin_FactionKingdom</factionDef>
+					<useFactionIdeoForPlayer>true</useFactionIdeoForPlayer>
+				</li>
+				
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Mousekin_FactionIndyTown</factionDef>
+				</li>
+
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+	<ScenarioDef ParentName="Mousekin_ScenarioBase">
+		<defName>Mousekin_Scenario_Refugees</defName>
+		<label>Mousekin Refugees</label>
+		<description>Your home village has been razed by the stormtroopers of the Grimalkin Dominion, and only five of you managed to escape. Now, it's time to build a new home.\n\nNote: Since you'll start with fewer items and provisions, this is a difficult scenario.</description>
+		<scenario>
+			<summary>Five Mousekin survivors attempt to rebuild. Difficult.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>Mousekin_PlayerFaction_Refugees</factionDef>
+			</playerFaction>
+			<parts>
+
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>The Grimalkins came in the night, just before supper.\n\nThe barrels of their rapid-fire muskets glinting eerily in the moonlight like their wicked grins, they smashed through the town walls with their mechanical beasts. The Guardeners and Knights fought a gallant but doomed battle so that the rest of the village could escape, but you could still hear the horrific cries and squeals behind you as the cats slaughtered your fathers, brothers and sons, raped your mothers, sisters and daughters, and feasted on the little, helpless pups.\n\nWith what few possessions you and a few others managed to grab, you find yourselves far from home, the village behind you engulfed in flames. You should set up camp here before deciding what to do next.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>5</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>500</count>
+				</li>
+				
+				<!-- One worn old backpack -->
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BackpackLeather</thingDef>
+					<stuff>Leather_Patch</stuff>
+					<count>1</count>
+				</li>
+
+				<!-- Trail mix to feed 5 mice for around 3 days, as the mice were fleeing in a hurry -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MealTrailMix</thingDef>
+					<count>50</count>
+				</li>
+
+				<!-- A few bundles of poultices, again grabbed in a hurry -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MedicinePoultice</thingDef>
+					<count>10</count>
+				</li>
+
+				<!-- A single Mousekin Hunter's Crossbow, Dagger and Hammer, probably used while fighting off pursuing Grimalkins -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_RangedWeapon_Crossbow</thingDef>
+					<count>1</count>
+				</li>
+
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_Dagger</thingDef>
+					<count>1</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_MeleeWeapon_HammerMetal</thingDef>
+					<count>1</count>
+				</li>
+				
+				<!-- A single Mousekin treatise to help with starting research, grabbed in a hurry -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mousekin_BookResearch</thingDef>
+					<count>1</count>
+				</li>
+
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>400</count>
+				</li>
+
+				<!-- Requires Mousekin Kingdom and Independent Mousekin factions during world generation -->
+
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Mousekin_FactionKingdom</factionDef>
+					<useFactionIdeoForPlayer>true</useFactionIdeoForPlayer>
+				</li>
+				
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Mousekin_FactionIndyTown</factionDef>
+				</li>
+
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

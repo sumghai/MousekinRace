@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ========================= Base abtracts ========================== -->
+
+	<ThingDef Name="Mousekin_RangedWeapon_Base" ParentName="BaseGunWithQuality" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<relicChance>0</relicChance>
+		<thingCategories>
+			<li>Mousekin_WeaponsRanged</li>
+		</thingCategories>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+				<li>Mousekin_WorkbenchSmithy</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+		<tradeTags Inherit="false">
+			<li>Mousekin_WeaponRanged</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- ========================= Crossbows ========================== -->
+
+	<!-- Mousekin Hunter’s Crossbow -->
+	<ThingDef ParentName="Mousekin_RangedWeapon_Base">
+		<defName>Mousekin_RangedWeapon_Crossbow</defName>
+		<label>Mousekin Hunter’s Crossbow</label>
+		<description>A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used for hunting or self-defense, firing one bolt at a time using fiber or sinew strings under tension, and comes with a miniature crank wheel to allow the relatively weak Mousekins to quickly and easily draw the bow after firing. Its grip and trigger are too small for a human to wield and operate properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Mousekin_Crossbow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Bow_Recurve</soundInteract>
+		<costList>
+			<WoodLog>35</WoodLog>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.0</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<HuntingStealth>0.15</HuntingStealth>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>Greatbow</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bolt_Mousekin_RangedWeapon_Crossbow</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>25</range>
+				<soundCast>Mousekin_Crossbow_Fire</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stirrup</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- Mousekin Automatic Crossbow -->
+	<ThingDef ParentName="Mousekin_RangedWeapon_Base">
+		<defName>Mousekin_RangedWeapon_CrossbowAuto</defName>
+		<label>Mousekin Automatic Crossbow</label>
+		<description>A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used in combat, firing multiple bolts in quick succession from a removable drum magazine using fiber or sinew strings under tension, and uses a wind-up spring mechanism to automatically reload and fire the next shot. Its grip and trigger are too small for a human to wield and operate properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Mousekin_CrossbowAuto</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Bow_Recurve</soundInteract>
+		<costList>
+			<WoodLog>30</WoodLog>
+			<Steel>50</Steel>
+			<Mousekin_ClockworkComponent>2</Mousekin_ClockworkComponent>
+		</costList>
+		<statBases>
+			<WorkToMake>8500</WorkToMake>
+			<Mass>1.75</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon</li>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchMachineryBasic</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bolt_Mousekin_RangedWeapon_Crossbow</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>30</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Mousekin_Crossbow_Fire</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stirrup</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<!-- ========================= Flintlocks ========================== -->
+
+	<!-- Mousekin Musket -->
+	<ThingDef ParentName="Mousekin_RangedWeapon_Base">
+		<defName>Mousekin_RangedWeapon_MusketLong</defName>
+		<label>Mousekin Musket</label>
+		<description>A slow-firing firearm that propels small, smooth cast iron balls at distant targets, with a longer effective range and greater damage than crossbows. Its grip and trigger are too small for a human to wield and operate properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Mousekin_MusketLong</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<costList>
+			<WoodLog>45</WoodLog>
+			<Steel>35</Steel>
+			<Mousekin_ClockworkComponent>1</Mousekin_ClockworkComponent>
+		</costList>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>2.0</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>3.4</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
+			<li>Mousekin_RangedWeapon_Musketeer</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>LongShots</li>
+			<li>Ranged</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchGunpowder</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>SmokingGun.Verb_ShootWithSmoke</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Mousekin_MusketBall</defaultProjectile>
+				<warmupTime>1.55</warmupTime>
+				<range>35</range>
+				<soundCast>Mousekin_Musket_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0, 0, -0.09)</drawOffset>
+						<angleOffset>152</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1, 0, 0.02)</drawOffset>
+						<angleOffset>-83</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(0, 0, 0.02)</drawOffset>					
+						<angleOffset>-78</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1, 0, 0.02)</drawOffset>
+						<angleOffset>83</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- Mousekin Blunderbuss -->
+	<ThingDef ParentName="Mousekin_RangedWeapon_Base">
+		<defName>Mousekin_RangedWeapon_MusketShort</defName>
+		<label>Mousekin Blunderbuss</label>
+		<description>A slow-firing firearm shorter than the regular Mousekin Musket, with a comparably shorter effective range but capable of great damage against armored targets. Its grip and trigger are too small for a human to wield and operate properly.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Mousekin_MusketShort</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<costList>
+			<WoodLog>35</WoodLog>
+			<Steel>25</Steel>
+			<Mousekin_ClockworkComponent>1</Mousekin_ClockworkComponent>
+		</costList>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>1.5</Mass>
+			<AccuracyTouch>0.91</AccuracyTouch>
+			<AccuracyShort>0.71</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchGunpowder</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>SmokingGun.Verb_ShootWithSmoke</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Mousekin_BlunderbussPellets</defaultProjectile>
+				<warmupTime>1.55</warmupTime>
+				<range>20</range>
+				<soundCast>Mousekin_Blunderbuss_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0, 0, -0.09)</drawOffset>
+						<angleOffset>152</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.1, 0, 0.02)</drawOffset>
+						<angleOffset>-83</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(0, 0, 0.02)</drawOffset>					
+						<angleOffset>-78</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.1, 0, 0.02)</drawOffset>
+						<angleOffset>83</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

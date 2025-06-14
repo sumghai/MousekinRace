@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Giant cavy pellets -->
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>Mousekin_PoopGiantCavy</defName>
+		<label>Giant Cavy pellet</label>
+		<description>Caecal pellets excreted and re-consumed by Giant Cavies to recycle vital trace nutrients. While very unpleasant for humanoids to eat on its own, it has some medicinal and culinary uses.</description>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/AnimalProducts/PoopGiantCavy</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<Nutrition>0.2</Nutrition>
+			<MarketValue>0.5</MarketValue>
+			<Beauty>-15</Beauty>
+			<Mass>0.25</Mass>
+			<FoodPoisonChanceFixedHuman>1</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<ingestible>
+			<foodType>Kibble</foodType>
+			<preferability>NeverForNutrition</preferability>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<tasteThought>Humanlike_Thought_AtePoopGiantCavy</tasteThought>
+			<optimalityOffsetHumanlikes>-40</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>10</optimalityOffsetFeedingAnimals>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+
+	<!-- Cloverbury Cheese -->
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>Mousekin_FoodCheese</defName>
+		<label>Cloverbury Cheese</label>
+		<description>A medium-hard cheese with a sharp and pungent flavor, traditionally made with cow’s milk. Can be eaten on its own, as well as grated or melted as an ingredient in other dishes.</description>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_FoodProcessed</li>
+		</tradeTags>
+		<graphicData>
+			<texPath>Things/Items/AnimalProducts/Mousekin_FoodCheese</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<Nutrition>0.15</Nutrition>
+			<MarketValue>10</MarketValue>
+			<Mass>0.36</Mass>
+		</statBases>
+		<ingestible>
+			<foodType>Meal, Processed, AnimalProduct</foodType>
+			<preferability>RawTasty</preferability>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Mousekin Honey -->
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>Mousekin_RawHoney</defName>
+		<label>Mousekin Honey</label>
+		<description>A jar of sweet, viscous amber-colored fluid produced by bees, eaten as a snack on its own, spread generously over thick slices of country bread, or used as an ingredient in Mousekin desserts.</description>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_FoodProcessed</li>
+		</tradeTags>
+		<graphicData>
+			<texPath>Things/Items/AnimalProducts/Mousekin_RawHoney</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<Nutrition>0.1</Nutrition>
+			<MarketValue>4</MarketValue>
+			<Mass>0.3</Mass>
+			<FoodPoisonChanceFixedHuman>0.04</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+			<joy>0.10</joy>
+			<joyKind>Gluttonous</joyKind>
+			<preferability>RawTasty</preferability>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+</Defs>

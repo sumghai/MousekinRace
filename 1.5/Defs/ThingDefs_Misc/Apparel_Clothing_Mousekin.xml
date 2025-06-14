@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Commoner Apparel -->
+
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelSettlerOutfit</defName>
+		<label>Mousekin Settler’s Outfit</label>
+		<description>A simple shirt, pair of trousers and a vest, typically worn by Mousekin settlers and homesteaders.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinSettlerOutfit/MousekinSettlerOutfit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only vest (20) part of apparel is stuffable -->
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- actual shirt (30) and trousers (30) are always made from cloth -->
+			<Cloth>60</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>3600</WorkToMake>
+			<Mass>1.0</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.05</PlantWorkSpeed>
+			<CookSpeed>0.05</CookSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinSettlerOutfit/MousekinSettlerOutfit</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinStartingColonist</li>
+				<li>MousekinDoctor</li>
+				<!-- Temporary -->
+				<li>MousekinNoble</li>
+				<li>MousekinNomad</li>
+				<li>MousekinRoyalty</li>
+				<li>MousekinServant</li>
+				<li>MousekinServantChef</li>
+				<li>MousekinServantHighClass</li>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Male</gender>
+		</apparel>
+		<!-- Vest color options (for cloth fabric type only) -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<!-- Dark green -->
+					<weight>10</weight>
+					<only>(33, 69, 33)</only>
+				</li>
+				<li>
+					<!-- Forest green -->
+					<weight>10</weight>
+					<only>(0, 49, 0)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelSettlerDress</defName>
+		<label>Mousekin Settler’s Dress</label>
+		<description>A simple full-body dress with an apron and shawl, typically worn by Mousekin settlers and homesteaders.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinSettlerDress/MousekinSettlerDress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only outer dress layer (50) and shawl (10) are stuffable -->
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- apron (10) and inner petticoat layer (60) -->
+			<Cloth>70</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>4800</WorkToMake>
+			<Mass>1.75</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>9</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.05</PlantWorkSpeed>
+			<CookSpeed>0.05</CookSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinSettlerDress/MousekinSettlerDress</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinStartingColonist</li>
+				<li>MousekinWanderer</li>
+				<!-- Temporary -->
+				<li>MousekinNoble</li>
+				<li>MousekinNomad</li>
+				<li>MousekinRoyalty</li>
+				<li>MousekinServant</li>
+				<li>MousekinServantChef</li>
+				<li>MousekinServantHighClass</li>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<!-- Dress and shawl color options (for cloth fabric type only) -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<!-- Dark pastel red -->
+					<weight>10</weight>
+					<only>(107, 81, 81)</only>
+				</li>
+				<li>
+					<!-- Dark pastel green -->
+					<weight>10</weight>
+					<only>(91, 105, 83)</only>
+				</li>
+				<li>
+					<!-- Dark pastel blue -->
+					<weight>10</weight>
+					<only>(81, 98, 107)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelWorkerOutfit</defName>
+		<label>Mousekin Worker’s Outfit</label>
+		<description>A simple shirt, pair of trousers and a brown vest, typically worn by Mousekin peasants and laborers.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinWorkerOutfit/MousekinWorkerOutfit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only vest (20) part of apparel is stuffable -->
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- actual shirt (30) and trousers (30) are always made from cloth -->
+			<Cloth>60</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>3600</WorkToMake>
+			<Mass>1.0</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>-0.10</NegotiationAbility>
+			<SocialImpact>-0.10</SocialImpact>
+			<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinWorkerOutfit/MousekinWorkerOutfit</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinPeasant</li>
+				<li>MousekinRaider</li>
+				<li>MousekinWanderer</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Male</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelWorkerDress</defName>
+		<label>Mousekin Worker’s Dress</label>
+		<description>A blouse and bodice paired with a dress, typically worn by Mousekin peasants, laborers and domestic servants.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinWorkerDress/MousekinWorkerDress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only bodice and outer dress layer (45) is stuffable -->
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- blouse, inner petticoat layer (60) and optional apron (10) are always made from cloth -->
+			<Cloth>70</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>4800</WorkToMake>
+			<Mass>1.75</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>9</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>-0.10</NegotiationAbility>
+			<SocialImpact>-0.10</SocialImpact>
+			<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPaths>
+				<li>Things/Pawn/Humanlike/Apparel/MousekinWorkerDress/MousekinWorkerDressA</li>
+				<li>Things/Pawn/Humanlike/Apparel/MousekinWorkerDress/MousekinWorkerDressB</li>
+				<li>Things/Pawn/Humanlike/Apparel/MousekinWorkerDress/MousekinWorkerDressC</li>
+			</wornGraphicPaths>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinPeasant</li>
+				<li>MousekinRaider</li>
+				<li>MousekinTradesman</li>
+				<li>MousekinWanderer</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<!-- Dress color options (for cloth fabric type only) -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<!-- Dark pastel red -->
+					<weight>10</weight>
+					<only>(107, 81, 81)</only>
+				</li>
+				<li>
+					<!-- Dark pastel green -->
+					<weight>10</weight>
+					<only>(91, 105, 83)</only>
+				</li>
+				<li>
+					<!-- Dark pastel blue -->
+					<weight>10</weight>
+					<only>(81, 98, 107)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelCraftsmanOutfit</defName>
+		<label>Mousekin Craftsman’s Outfit</label>
+		<description>A loose shirt and trousers protected by a hard-wearing craftsman's apron, practical for all sorts of crafting. Increases the wearer's general labor speed.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCraftsmanOutfit/MousekinCraftsmanOutfit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only apron (30) part of apparel is stuffable -->
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<!-- actual shirt (30) and trousers (30) are always made from cloth -->
+			<Cloth>60</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>240</MaxHitPoints>
+			<WorkToMake>5200</WorkToMake>
+			<Mass>1.35</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>6</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.40</GeneralLaborSpeed>
+			<NegotiationAbility>-0.10</NegotiationAbility>
+			<SocialImpact>-0.10</SocialImpact>
+			<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCraftsmanOutfit/MousekinCraftsmanOutfit</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinTradesman</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Male</gender>
+		</apparel>
+		<!-- Color gen hack to get masks working properly -->
+		<colorGenerator Class="ColorGenerator_White" />
+	</ThingDef>
+
+	<ThingDef ParentName="Mousekin_ApparelCommonerMakeableBase">
+		<defName>Mousekin_ApparelCloak</defName>
+		<label>Mousekin Cloak</label>
+		<description>A simple hooded cloak worn by Mousekin villagers or travellers in colder climates.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCloak/MousekinCloak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<!-- hood (50) and cloak (70) -->
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<HuntingStealth>0.15</HuntingStealth>
+		</equippedStatOffsets>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCloak/MousekinCloak</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MousekinDoctor</li>
+				<li>MousekinGuardener</li>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinNomad</li>
+				<li>MousekinNun</li>
+				<li>MousekinPeasant</li>
+				<li>MousekinPriest</li>
+				<li>MousekinRaider</li>
+				<li>MousekinServant</li>
+				<li>MousekinServantChef</li>
+				<li>MousekinServantHighClass</li>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderNomad</li>
+				<li>MousekinTraderSlaver</li>
+				<li>MousekinTradesman</li>
+				<li>MousekinWanderer</li>
+				<!-- Placeholders until upper-class pawnkinds get unique cloaks -->
+				<li>MousekinNoble</li>
+				<li>MousekinRoyalty</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<!-- Color options (for cloth fabric type only) -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<!-- Default cloth color -->
+					<weight>10</weight>
+					<only>(162,157,152)</only>
+				</li>
+				<li>
+					<!-- Dark pastel red -->
+					<weight>10</weight>
+					<only>(107, 81, 81)</only>
+				</li>
+				<li>
+					<!-- Dark pastel green -->
+					<weight>10</weight>
+					<only>(91, 105, 83)</only>
+				</li>
+				<li>
+					<!-- Dark pastel blue -->
+					<weight>10</weight>
+					<only>(81, 98, 107)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
+				<attachedHeadgearLabel>hood</attachedHeadgearLabel>
+				<attachedHeadgearGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</attachedHeadgearGraphicPath>
+				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinCloakHood/MousekinCloakHood</toggleUiIconPath>
+				<hideHarBodyAddonsWithTag>
+					<li>Mousekin_HideEars</li>
+				</hideHarBodyAddonsWithTag>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Middle-class Apparel -->
+	
+	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
+		<defName>Mousekin_ApparelGuardenerGown</defName>
+		<label>Mousekin Guardener’s Gown</label>
+		<description>A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerGown/MousekinGuardenerGown</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only outer dress layer (50) is stuffable -->
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- inner petticoat layer (60) is always made from cloth -->
+			<Cloth>60</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.75</Mass>
+			<StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>9</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ArrestSuccessChance>0.35</ArrestSuccessChance>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<PlantWorkSpeed>0.30</PlantWorkSpeed>
+			<SocialImpact>0.15</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerGown/MousekinGuardenerGown</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinGuardener</li>
+				<li>MousekinGuardenerElite</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+		
+	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
+		<defName>Mousekin_ApparelGuardenerRobe</defName>
+		<label>Mousekin Guardener’s Robe</label>
+		<description>A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobe/MousekinGuardenerRobe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- hood (50) and cloak (70) -->
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.15</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobe/MousekinGuardenerRobe</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MousekinGuardenerElite</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_ApparelWithAttachedHeadgear">
+				<attachedHeadgearLabel>hood</attachedHeadgearLabel>
+				<attachedHeadgearGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</attachedHeadgearGraphicPath>
+				<toggleUiIconPath>Things/Pawn/Humanlike/Apparel/MousekinGuardenerRobeHood/MousekinGuardenerRobeHood</toggleUiIconPath>
+				<hideHarBodyAddonsWithTag>
+					<li>Mousekin_HideEars</li>
+				</hideHarBodyAddonsWithTag>
+			</li>
+		</comps>
+	</ThingDef>
+		
+	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
+		<defName>Mousekin_ApparelNunHabit</defName>
+		<label>Mousekin Nun’s Habit</label>
+		<description>A demure habit, practical for administering religious rites as well as caring for the sick and orphaned.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinNunHabit/MousekinNunHabit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only outer habit layer (40) is stuffable -->
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- wimple (5) and inner undertunic layer (40) are always made from cloth -->
+			<Cloth>45</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MedicalTendQuality>0.10</MedicalTendQuality>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinNunHabit/MousekinNunHabit</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinNun</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_ApparelMiddleMakeableBase">
+		<defName>Mousekin_ApparelPriestCassock</defName>
+		<label>Mousekin Priest’s Cassock</label>
+		<description>An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinPriestCassock/MousekinPriestCassock</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only outer tunic layer (40) is stuffable -->
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- inner rochet (40) is always made from cloth -->
+			<Cloth>40</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.20</NegotiationAbility>
+			<SocialImpact>0.30</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinPriestCassock/MousekinPriestCassock</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinPriest</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Male</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Military Apparel -->
+	
+	<ThingDef ParentName="Mousekin_ApparelMilitaryMakeableBase">
+		<defName>Mousekin_ApparelGambeson</defName>
+		<label>Mousekin Gambeson</label>
+		<description>A thick, padded defensive jacket and pair of trousers worn by Mousekin soldiers, squires and knights, designed to cushion blows to plate armor. Comfortable to wear in cold climates.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGambeson/MousekinGambeson</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- 1.5x the usual amount of material, for padding -->
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<!-- No additional fixed materials -->
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>2.5</Mass>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGambeson/MousekinGambeson</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>MousekinCrossbowman</li>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinKnight</li>
+				<li>MousekinKnightApprentice</li>
+				<li>MousekinKnightCommander</li>
+				<li>MousekinMusketeer</li>
+				<li>MousekinPikeman</li>
+				<li>MousekinRaider</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<!-- Base color (for cloth fabric type only) -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<!-- Default cloth color -->
+					<weight>10</weight>
+					<only>(162,157,152)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Uncraftable -->
+	
+	<ThingDef ParentName="Mousekin_ApparelBase">
+		<defName>Mousekin_ApparelKnightCommanderCape</defName>
+		<label>Mousekin Knight Commander’s Cape</label>
+		<description>A stylish blue cape worn by Mousekin knight commanders to inspire awe from both allies and enemies alike.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinKnightCommanderCape/MousekinKnightCommanderCape</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- cape clasps -->
+			<Silver>10</Silver>
+		</costList>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<!-- Intr -->
+			<MarketValue>250</MarketValue>
+			<!-- Additional effort needed to craft intricate silver flower-shaped cape clasps -->
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.75</NegotiationAbility>
+			<SocialImpact>0.75</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinKnightCommanderCape/MousekinKnightCommanderCape</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MousekinKnightCommander</li>
+				<li>MousekinLordProtector</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<secondaryApparelGraphics>
+					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
+				</secondaryApparelGraphics>
+			</li>
+		</modExtensions>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryKingdomElite</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- Dummy Defs for rendering purposes -->
+	
+	<ThingDef ParentName="ApparelBase">
+		<defName>Mousekin_ApparelKnightCommanderCapeBack</defName>
+		<label>Knight Commander’s Cape Back</label>
+		<description>Back of the Knight Commander’s Cape</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinKnightCommanderCape/MousekinKnightCommanderCapeBack_Mousekin_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinKnightCommanderCape/MousekinKnightCommanderCapeBack</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<drawData>
+				<dataSouth>
+					<offset>(0, -0.1, 0)</offset>
+				</dataSouth>
+			</drawData>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>Mousekin_NoSpawn</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

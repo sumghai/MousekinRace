@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ChemicalDef>
+		<defName>Mousekin_Muroidine</defName>
+		<label>muroidine</label>
+		<addictionHediff>Mousekin_MuroidineAddiction</addictionHediff>
+		<toleranceHediff>Mousekin_MuroidineTolerance</toleranceHediff>
+		<onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
+	</ChemicalDef>
+
+</Defs>

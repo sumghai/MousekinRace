@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<RulePackDef>
+		<defName>NamerFaction_MousekinKingdom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->The Kingdom of [Herb]</li>
+				<li>r_name->The Kingdom of the [Flower]</li>
+				<li>r_name->Kingdom of [Herb]</li>
+				<li>r_name->Kingdom of the [Flower]</li>
+				<li>r_name->The [Flower] Kingdom</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>Herb->Words/Nouns/CommonHerbs</li>
+				<li>Flower->Words/Nouns/CommonFlowers</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerFaction_MousekinIndyTown</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->Free Mousekin [PoliticalUnion]</li>
+				<li>r_name->[PoliticalUnion] of Free Mousekins</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>PoliticalUnion->Words/Nouns/PoliticalUnions_IndyTown</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerFaction_MousekinPlayerUtility</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>PlaceName->[Herb][Postfix]</li>
+				<li>PlaceName->[Flower][Postfix]</li>
+				<li>PlaceName->[Tree][Postfix]</li>
+				<li>PlaceName->[CompassDir][Postfix]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>Herb->Words/Nouns/CommonHerbs</li>
+				<li>Flower->Words/Nouns/CommonFlowers</li>
+				<li>Tree->Words/Nouns/CommonTrees</li>
+				<li>CompassDir->Words/Nouns/CompassDirections</li>
+				<li>Postfix->Words/Nouns/PlayerFaction_Name_Postfix</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerFaction_MousekinPlayerKingdom</defName>
+		<include>
+			<li>NamerFaction_MousekinPlayerUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[RegionType] of [PlaceName]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>RegionType->Words/Nouns/RegionTypes_Kingdom</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerFaction_MousekinPlayerIndyTown</defName>
+		<include>
+			<li>NamerFaction_MousekinPlayerUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[RegionType] of [PlaceName]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>RegionType->Words/Nouns/RegionTypes_IndyTown</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerFaction_MousekinBrigands</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->The [MousekinGangName]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>MousekinGangName->Names/Mousekin_FactionBrigand_GangNames</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+		<defName>Mousekin</defName>
+		<label>Mousekin</label>
+		<description>Species: &lt;i&gt;Mus sapiens albus&lt;/i&gt; ("Wise white mouse")\n\nA race of small and agile anthropomorphic mice, readily identified by their large round ears, short-snouted faces, black beady eyes, pink noses, slight overbite, thin scaly tails and white fur.\n\nMousekin adult males can grow up to 100 centimeters tall, while females tend to reach 90 centimeters in height. They have a smaller head-to-body ratio compared with other humanoid races, resembling oversized toddlers with short legs and noticeable hind rumps.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single pup; twins, triplets and other multiple births are rare.\n\nVariations among individual Mousekin include different head hair color and lengths independent of their white body fur, as well as moustaches and other forms of facial hair for males.\n\nWhile the vast majority of humanoid rodent-like races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is generally understood that Mousekins are among the very few species that have evolved naturally from their non-sapient mouse ancestors.\n\nBarring accidents, injury or disease, a Mousekin’s average life expectancy is 90~100 years; their head hair turns fully grey by around 60 years of age, but no Mousekin will experience baldness.</description>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.5</maleGenderProbability>
+				<childBackstoryFilter>
+					<li>
+						<categories>
+							<li>MousekinGenericColonyChild</li>
+						</categories>
+					</li>
+				</childBackstoryFilter>
+				<adultBackstoryFilter>
+					<li>
+						<categories>
+							<li>MousekinGenericColonyAdult</li>
+						</categories>
+					</li>
+				</adultBackstoryFilter>
+				<reproduction>
+					<childKindDef MayRequire="Ludeon.RimWorld.Biotech">MousekinChild</childKindDef>
+				</reproduction>
+				<disallowedTraits>
+					<li>
+						<defName>AnnoyingVoice</defName>
+					</li>
+					<li>
+						<defName>Ascetic</defName>
+					</li>
+					<li>
+						<defName Degree="-1">Beauty</defName>
+					</li>
+					<li>
+						<defName Degree="-2">Beauty</defName>
+					</li>
+					<li>
+						<defName>BodyPurist</defName>
+					</li>
+					<li>
+						<defName>Cannibal</defName>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+					</li>
+					<li>
+						<defName>DislikesMen</defName>
+					</li>
+					<li>
+						<defName>DislikesWomen</defName>
+					</li>
+					<li>
+						<defName Degree="2">DrugDesire</defName>
+					</li>
+					<li>
+						<defName Degree="1">DrugDesire</defName>
+					</li>
+					<li>
+						<defName Degree="-1">DrugDesire</defName>
+					</li>
+					<li>
+						<defName>NightOwl</defName>
+					</li>
+					<li>
+						<defName>Nudist</defName>
+					</li>
+					<li>
+						<defName>Pyromaniac</defName>
+					</li>
+					<li>
+						<defName>TorturedArtist</defName>
+					</li>
+					<li>
+						<defName>Transhumanist</defName>
+					</li>
+				</disallowedTraits>
+				<maxDamageForSocialfight>5</maxDamageForSocialfight>
+				<!-- Allows patches to make Mousekin always not be xenophobic towards certain races (e.g. Otters) -->
+				<notXenophobistTowards/>
+				<minAgeForAdulthood>18</minAgeForAdulthood>
+				<humanRecipeImport>true</humanRecipeImport>
+				<alienPartGenerator>
+					<headTypes Inherit="false">
+						<li>Mousekin</li>
+					</headTypes>
+					<bodyTypes Inherit="false">
+						<li>Mousekin</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+					</bodyTypes>
+					<headOffsetDirectional>
+						<north>
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+					</headOffsetDirectional>
+					<atlasScale>4</atlasScale>
+					<oldHairAgeRange>60~65</oldHairAgeRange>
+					<customDrawSize>(0.9, 0.9)</customDrawSize>
+					<customHeadDrawSize>(0.9, 0.9)</customHeadDrawSize>
+					<customPortraitDrawSize>(0.9, 0.9)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!-- White fur only -->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,1.0,1.0,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!-- Black to Dark Brown -->
+									<li>
+										<weight>10</weight>
+										<min>(26, 0, 0)</min>
+										<max>(51, 26, 13)</max>
+									</li>
+									<!-- Burgundy to Mahogany Brown -->
+									<li>
+										<weight>15</weight>
+										<min>(64, 26, 0)</min>
+										<max>(102, 38, 13)</max>
+									</li>
+									<!-- Medium to Ash Brown -->
+									<li>
+										<weight>15</weight>
+										<min>(128, 89, 26)</min>
+										<max>(153, 102, 51)</max>
+									</li>
+									<!-- Honey to Golden Blonde -->
+									<li>
+										<weight>10</weight>
+										<min>(204, 153, 102)</min>
+										<max>(255, 191, 115)</max>
+									</li>
+									<!-- Platinum Blonde -->
+									<li>
+										<weight>10</weight>
+										<min>(230, 217, 179)</min>
+										<max>(255, 230, 204)</max>
+									</li>
+									<!-- Copper to Strawberry Blonde -->
+									<li>
+										<weight>5</weight>
+										<min>(217, 38, 0)</min>
+										<max>(255, 128, 38)</max>
+									</li>
+									<!-- Red to Copper -->
+									<li>
+										<weight>5</weight>
+										<min>(230, 77, 0)</min>
+										<max>(227, 56, 10)</max>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					<bodyAddons>
+						<li>
+							<path>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarLeft</path>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Mousekin_Ear</bodyPart>
+									<bodyPartLabel>left ear</bodyPartLabel>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Mousekin_HideEars</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<extendedGraphics>
+								<Hediff For="Mousekin_ProstheticClothEar">Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarClothLeft</Hediff>
+							</extendedGraphics>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<offsets>
+								<north>
+									<layerOffset>-0.3</layerOffset> <!-- draw ears behind pike when drafted -->
+								</north>
+								<east>
+									<layerOffset>-0.3</layerOffset>
+								</east>
+								<south>
+									<layerOffset>-0.2655</layerOffset> <!-- draw ears behind pike when drafted, but also over Ideology DLC Burkas -->
+								</south>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+						</li>
+						<li>
+							<path>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarRight</path>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Mousekin_Ear</bodyPart>
+									<bodyPartLabel>right ear</bodyPartLabel>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Mousekin_HideEars</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<extendedGraphics>
+								<Hediff For="Mousekin_ProstheticClothEar">Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarClothRight</Hediff>
+							</extendedGraphics>
+							<inFrontOfBody>true</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<offsets>
+								<north>
+									<layerOffset>-0.3</layerOffset> <!-- draw ears behind pike when drafted -->
+								</north>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<south>
+									<layerOffset>-0.2655</layerOffset> <!-- draw ears behind pike when drafted, but also over Ideology DLC Burkas -->
+								</south>
+								<west>
+									<layerOffset>-0.3</layerOffset>
+								</west>
+							</offsets>
+						</li>
+						<li>
+							<path>Things/Pawn/Humanlike/BodyAttachments/MousekinTail/MousekinTail</path>
+							<conditions>
+								<BodyPart>
+									<bodyPartLabel>tail</bodyPartLabel>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Mousekin_HideTail</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+								<Posture>
+									<drawnInBed>false</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+								</Posture>
+							</conditions>
+							<extendedGraphics>
+								<Hediff For="Mousekin_ProstheticClothTail">Things/Pawn/Humanlike/BodyAttachments/MousekinTail/MousekinTailCloth</Hediff>
+							</extendedGraphics>
+							<!-- Draws tail above naked body, then uses layerOffsets below to draw them above or below skin layer apparel depending on orientation -->
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>false</layerInvert>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<colorChannel>skin</colorChannel>
+							<offsets>
+								<north>
+									<layerOffset>-0.29</layerOffset>
+									<bodyTypes>
+										<Mousekin>(0,-0.343)</Mousekin>
+										<Child MayRequire="Ludeon.RimWorld.Biotech">(0,-0.255)</Child>
+										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,-0.1715)</Baby>
+									</bodyTypes>
+								</north>
+								<east>
+									<layerOffset>-0.295</layerOffset>
+									<bodyTypes>
+										<Mousekin>(0.345,-0.330)</Mousekin>
+										<Child MayRequire="Ludeon.RimWorld.Biotech">(0.255,-0.255)</Child>
+										<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.145,-0.095)</Baby>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
+					</bodyAddons>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths>
+				<!-- Need to define whole tree, even if only some body types are having replacement graphics -->
+				<body>
+					<bodytypeGraphics>
+						<Baby MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Naked_Child</Baby>
+						<Child MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Naked_Mousekin</Child>
+						<Mousekin>Things/Pawn/Humanlike/Bodies/Naked_Mousekin</Mousekin>
+					</bodytypeGraphics>
+				</body>
+				<skull>
+					<path>Things/Pawn/Humanlike/Heads/Skull_Mousekin</path>
+				</skull>
+				<skinShader>Cutout</skinShader>
+				<!-- Override apparel graphics -->
+				<apparel>
+					<individualPaths />
+					<!-- Use base game Female body type as fallback for apparel without Mousekin body type texture support -->
+					<bodyTypeFallback>Female</bodyTypeFallback>
+				</apparel>
+			</graphicPaths>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<styleTagsOverride>
+							<!--<li>Mousekin_HairUncivilized</li>-->
+							<li>Mousekin_HairRural</li>
+							<li>Mousekin_HairUrban</li>
+							<li>Mousekin_HairNoble</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<styleTagsOverride>
+							<li>Mousekin_BeardRural</li>
+							<li>Mousekin_BeardUrban</li>
+							<li>Mousekin_BeardNoble</li>
+							<li>NoBeard</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<!-- Mousekins don't have tattoos, as their fur would cover it anyway -->
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+			<thoughtSettings>
+				<replacerList>
+					<li>
+						<original>AteCorpse</original>
+						<replacer>Mousekin_Thought_AteCorpse</replacer>
+					</li>
+					<li>
+						<original>AteKibble</original>
+						<replacer>Mousekin_Thought_AteKibble</replacer>
+					</li>
+					<li>
+						<original>AteRawFood</original>
+						<replacer>Mousekin_Thought_AteRawFood</replacer>
+					</li>
+					<li>
+						<original>AteWithoutTable</original>
+						<replacer>Mousekin_Thought_AteWithoutTable</replacer>
+					</li>
+					<li>
+						<original>AttendedWedding</original>
+						<replacer>Mousekin_Thought_AttendedWedding</replacer>
+					</li>
+					<li>
+						<original>ColonistLeftUnburied</original>
+						<replacer>Mousekin_Thought_ColonistLeftUnburied</replacer>
+					</li>
+					<li>
+						<original>GotMarried</original>
+						<replacer>Mousekin_Thought_GotMarried</replacer>
+					</li>
+					<li>
+						<original>Humanlike_Thought_AteTrailMix</original>
+						<replacer>Mousekin_Thought_AteTrailMix</replacer>
+					</li>
+					<li>
+						<original>Humanlike_Thought_DrankChonkoNutBrew</original>
+						<replacer>Mousekin_Thought_DrankChonkoNutBrew</replacer>
+					</li>
+					<li>
+						<original>Humanlike_Thought_SawNearbyPudgemouse</original>
+						<replacer>Mousekin_Thought_SawNearbyPudgemouse</replacer>
+					</li>
+					<li>
+						<original>KnowBuriedInSarcophagus</original>
+						<replacer>Mousekin_Thought_KnowBuriedInSarcophagus</replacer>
+					</li>
+					<li>
+						<original>KnowColonistDied</original>
+						<replacer>Mousekin_Thought_KnowColonistDied</replacer>
+					</li>
+					<li>
+						<original>KnowColonistExecuted</original>
+						<replacer>Mousekin_Thought_KnowColonistExecuted</replacer>
+					</li>
+					<li>
+						<original>KnowColonistOrganHarvested</original>
+						<replacer>Mousekin_Thought_KnowColonistOrganHarvested</replacer>
+					</li>
+					<li>
+						<original>KnowGuestExecuted</original>
+						<replacer>Mousekin_Thought_KnowGuestExecuted</replacer>
+					</li>
+					<li>
+						<original>KnowGuestOrganHarvested</original>
+						<replacer>Mousekin_Thought_KnowGuestOrganHarvested</replacer>
+					</li>
+					<li>
+						<original>MyAuntDied</original>
+						<replacer>Mousekin_Thought_MyAuntDied</replacer>
+					</li>
+					<li>
+						<original>MyBrotherDied</original>
+						<replacer>Mousekin_Thought_MyBrotherDied</replacer>
+					</li>
+					<li>
+						<original>MyCousinDied</original>
+						<replacer>Mousekin_Thought_MyCousinDied</replacer>
+					</li>
+					<li>
+						<original>MyDaughterDied</original>
+						<replacer>Mousekin_Thought_MyDaughterDied</replacer>
+					</li>
+					<li>
+						<original>MyFatherDied</original>
+						<replacer>Mousekin_Thought_MyFatherDied</replacer>
+					</li>
+					<li>
+						<original>MyFianceDied</original>
+						<replacer>Mousekin_Thought_MyFianceDied</replacer>
+					</li>
+					<li>
+						<original>MyFianceeDied</original>
+						<replacer>Mousekin_Thought_MyFianceeDied</replacer>
+					</li>
+					<li>
+						<original>MyGrandchildDied</original>
+						<replacer>Mousekin_Thought_MyGrandchildDied</replacer>
+					</li>
+					<li>
+						<original>MyGrandparentDied</original>
+						<replacer>Mousekin_Thought_MyGrandparentDied</replacer>
+					</li>
+					<li>
+						<original>MyHalfSiblingDied</original>
+						<replacer>Mousekin_Thought_MyHalfSiblingDied</replacer>
+					</li>
+					<li>
+						<original>MyHusbandDied</original>
+						<replacer>Mousekin_Thought_MyHusbandDied</replacer>
+					</li>
+					<li>
+						<original>MyKinDied</original>
+						<replacer>Mousekin_Thought_MyKinDied</replacer>
+					</li>
+					<li>
+						<original>MyMotherDied</original>
+						<replacer>Mousekin_Thought_MyMotherDied</replacer>
+					</li>
+					<li>
+						<original>MyNieceDied</original>
+						<replacer>Mousekin_Thought_MyNieceDied</replacer>
+					</li>
+					<li>
+						<original>MyNephewDied</original>
+						<replacer>Mousekin_Thought_MyNephewDied</replacer>
+					</li>
+					<li>
+						<original>MyOrganHarvested</original>
+						<replacer>Mousekin_Thought_MyOrganHarvested</replacer>
+					</li>
+					<li>
+						<original>MySisterDied</original>
+						<replacer>Mousekin_Thought_MySisterDied</replacer>
+					</li>
+					<li>
+						<original>MySonDied</original>
+						<replacer>Mousekin_Thought_MySonDied</replacer>
+					</li>
+					<li>
+						<original>MyUncleDied</original>
+						<replacer>Mousekin_Thought_MyUncleDied</replacer>
+					</li>
+					<li>
+						<original>MyWifeDied</original>
+						<replacer>Mousekin_Thought_MyWifeDied</replacer>
+					</li>
+					<li>
+						<original>PawnWithBadOpinionDied</original>
+						<replacer>Mousekin_Thought_PawnWithBadOpinionDied</replacer>
+					</li>
+					<li>
+						<original>PawnWithBadOpinionLost</original>
+						<replacer>Mousekin_Thought_PawnWithBadOpinionLost</replacer>
+					</li>
+					<li>
+						<original>PawnWithGoodOpinionDied</original>
+						<replacer>Mousekin_Thought_PawnWithGoodOpinionDied</replacer>
+					</li>
+					<li>
+						<original>PawnWithGoodOpinionLost</original>
+						<replacer>Mousekin_Thought_PawnWithGoodOpinionLost</replacer>
+					</li>
+					<li>
+						<original>ReleasedHealthyPrisoner</original>
+						<replacer>Mousekin_Thought_ReleasedHealthyPrisoner</replacer>
+					</li>
+					<li>
+						<original>SleptInCold</original>
+						<replacer>Mousekin_Thought_SleptInCold</replacer>
+					</li>
+					<li>
+						<original>SleptInHeat</original>
+						<replacer>Mousekin_Thought_SleptInHeat</replacer>
+					</li>
+					<li>
+						<original>SleptOnGround</original>
+						<replacer>Mousekin_Thought_SleptOnGround</replacer>
+					</li>
+					<li>
+						<original>SleptOutside</original>
+						<replacer>Mousekin_Thought_SleptOutside</replacer>
+					</li>
+				</replacerList>
+				<cannotReceiveThoughts>
+					<li>AteHumanlikeMeatAsIngredient</li>
+					<li>AteHumanlikeMeatAsIngredientCannibal</li>
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteHumanlikeMeatDirectCannibal</li>
+					<li>AteRawHumanlikeMeat</li>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>ButcheredHumanlikeCorpseOpinion</li>
+					<li>EnvironmentDark</li>
+					<li>HumanLeatherApparelHappy</li>
+					<li>HumanLeatherApparelSad</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>NeedOutdoors</li>
+					<li>NeedRoomSize</li>
+				</cannotReceiveThoughts>
+				<restrictedThoughts>
+					<li>Mousekin_Thought_AteCheese</li>
+					<li>Mousekin_Thought_AteCorpse</li>
+					<li>Mousekin_Thought_AteKibble</li>
+					<li>Mousekin_Thought_AteRawFood</li>
+					<li>Mousekin_Thought_AteWithoutTable</li>
+					<li>Mousekin_Thought_AttendedWedding</li>
+					<li>Mousekin_Thought_ChurchMissedService</li>
+					<li>Mousekin_Thought_ColonistLeftUnburied</li>
+					<li>Mousekin_Thought_DrankChonkoNutBrew</li>
+					<li>Mousekin_Thought_GotMarried</li>
+					<li>Mousekin_Thought_AteTrailMix</li>
+					<li>Mousekin_Thought_KnowBuriedInSarcophagus</li>
+					<li>Mousekin_Thought_KnowColonistDied</li>
+					<li>Mousekin_Thought_KnowColonistExecuted</li>
+					<li>Mousekin_Thought_KnowColonistOrganHarvested</li>
+					<li>Mousekin_Thought_KnowGuestExecuted</li>
+					<li>Mousekin_Thought_KnowGuestOrganHarvested</li>
+					<li>Mousekin_Thought_MyAuntDied</li>
+					<li>Mousekin_Thought_MyBrotherDied</li>
+					<li>Mousekin_Thought_MyCousinDied</li>
+					<li>Mousekin_Thought_MyDaughterDied</li>
+					<li>Mousekin_Thought_MyFatherDied</li>
+					<li>Mousekin_Thought_MyFianceDied</li>
+					<li>Mousekin_Thought_MyFianceeDied</li>
+					<li>Mousekin_Thought_MyGrandchildDied</li>
+					<li>Mousekin_Thought_MyGrandparentDied</li>
+					<li>Mousekin_Thought_MyHalfSiblingDied</li>
+					<li>Mousekin_Thought_MyHusbandDied</li>
+					<li>Mousekin_Thought_MyKinDied</li>
+					<li>Mousekin_Thought_MyMotherDied</li>
+					<li>Mousekin_Thought_MyNieceDied</li>
+					<li>Mousekin_Thought_MyNephewDied</li>
+					<li>Mousekin_Thought_MyOrganHarvested</li>
+					<li>Mousekin_Thought_MySisterDied</li>
+					<li>Mousekin_Thought_MySonDied</li>
+					<li>Mousekin_Thought_MyUncleDied</li>
+					<li>Mousekin_Thought_MyWifeDied</li>
+					<li>Mousekin_Thought_NeedRoomSize</li>
+					<li>Mousekin_Thought_PawnWithBadOpinionDied</li>
+					<li>Mousekin_Thought_PawnWithBadOpinionLost</li>
+					<li>Mousekin_Thought_PawnWithGoodOpinionDied</li>
+					<li>Mousekin_Thought_PawnWithGoodOpinionLost</li>
+					<li>Mousekin_Thought_ReleasedHealthyPrisoner</li>
+					<li>Mousekin_Thought_SleptInCold</li>
+					<li>Mousekin_Thought_SleptInHeat</li>
+					<li>Mousekin_Thought_SleptOnGround</li>
+					<li>Mousekin_Thought_SleptOutside</li>
+				</restrictedThoughts>
+				<butcherThoughtSpecific>
+					<li>
+						<raceList>
+							<li>Human</li>
+						</raceList>
+						<thought>Mousekin_Thought_ButcheredHumanCorpse</thought>
+						<knowThought>Mousekin_Thought_KnowButcheredHumanCorpse</knowThought>
+					</li>
+					<li>
+						<raceList>
+							<li>Mousekin</li>
+						</raceList>
+						<thought>Mousekin_Thought_ButcheredMousekinCorpse</thought>
+						<knowThought>Mousekin_Thought_KnowButcheredMousekinCorpse</knowThought>
+					</li>
+				</butcherThoughtSpecific>
+				<ateThoughtSpecific>
+					<li>
+						<raceList>
+							<li>Human</li>
+						</raceList>
+						<thought>Mousekin_Thought_AteHumanlikeMeatDirect</thought>
+						<ingredientThought>Mousekin_Thought_AteHumanlikeMeatAsIngredient</ingredientThought>
+					</li>
+					<li>
+						<raceList>
+							<li>Mousekin</li>
+						</raceList>
+						<thought>Mousekin_Thought_AteMousekinMeatDirect</thought>
+						<ingredientThought>Mousekin_Thought_AteMousekinMeatAsIngredient</ingredientThought>
+					</li>
+				</ateThoughtSpecific>
+			</thoughtSettings>
+			<relationSettings>
+				<!-- Most Mousekins mate for life, and divorces are unheard of in Mousekin society -->
+				<relationChanceModifierLover>1</relationChanceModifierLover>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierFiance>1</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierParent>1</relationChanceModifierParent>
+				<relationChanceModifierChild>1</relationChanceModifierChild>
+				<relationChanceModifierSibling>1</relationChanceModifierSibling>
+			</relationSettings>
+			<raceRestriction>
+			
+				<!-- Only Mousekins can conduct Mousekin-related research, and some projects require Research Glasses to be worn -->
+				<researchList>
+					<li>
+						<projects>
+							<li>Mousekin_ResearchApparelCommoner</li>
+							<li>Mousekin_ResearchAlchemy</li>
+							<li>Mousekin_ResearchCharcoal</li>
+							<li>Mousekin_ResearchCookingIronStoves</li>
+							<li>Mousekin_ResearchBeekeeping</li>
+							<li>Mousekin_ResearchBuildingVillage</li>
+							<li>Mousekin_ResearchBuildingCastle</li>
+						</projects>
+					</li>
+					<li>
+						<projects>
+							<li>Mousekin_ResearchApparelMiddle</li>
+							<li>Mousekin_ResearchApparelMilitary</li>
+							<li>Mousekin_ResearchApparelNoble</li>
+							<li>Mousekin_ResearchMachineryBasic</li>
+							<li>Mousekin_ResearchMachineryAdvanced</li>
+							<li>Mousekin_ResearchMining</li>
+							<li>Mousekin_ResearchGunpowder</li>
+							<li>Mousekin_ResearchCookingNoble</li>
+						</projects>
+						<apparelList>
+							<li>Mousekin_GlassesLarge</li>
+						</apparelList>
+					</li>
+				</researchList>
+			
+				<!-- Restrict the following apparel for Mousekin wear only -->
+				<apparelList>
+					<li>Mousekin_ApparelCloak</li>
+					<li>Mousekin_ApparelCraftsmanOutfit</li>
+					<li>Mousekin_ApparelGambeson</li>
+					<li>Mousekin_ApparelGuardenerGown</li>
+					<li>Mousekin_ApparelGuardenerRobe</li>
+					<li>Mousekin_ApparelKnightCommanderCape</li>
+					<li>Mousekin_ApparelNunHabit</li>
+					<li>Mousekin_ApparelPriestCassock</li>
+					<li>Mousekin_ApparelSettlerDress</li>
+					<li>Mousekin_ApparelSettlerOutfit</li>
+					<li>Mousekin_ApparelWorkerDress</li>
+					<li>Mousekin_ApparelWorkerOutfit</li>
+					<li>Mousekin_ArmorCuirass</li>
+					<li>Mousekin_ArmorPlate</li>
+					<li>Mousekin_BackpackWicker</li>
+					<li>Mousekin_BackpackLeather</li>
+					<li>Mousekin_GlassesLarge</li>
+					<li>Mousekin_GlassesSmall</li>
+					<li>Mousekin_HatHeadscarf</li>
+					<li>Mousekin_HatNunVeil</li>
+					<li>Mousekin_HatNunVeilBack</li>
+					<li>Mousekin_HatStraw</li>
+					<li>Mousekin_HatWoodsman</li>
+					<li>Mousekin_HelmetKettle</li>
+					<li>Mousekin_HelmetKnight</li>
+					<li>Mousekin_HelmetKnightCommander</li>
+					<li>Mousekin_HelmetMorion</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Mousekin_ApparelChildDress</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Mousekin_ApparelChildOutfit</li>
+					<!-- Dummy defs used for rendering -->
+					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
+					<li>Mousekin_HatNunVeilBack</li>
+				</apparelList>
+				<!-- Blacklist selected Core and DLC apparel (mainly for mod lore reasons) -->
+				<blackApparelList>
+					<!-- Mousekins have their own race-specific medieval plate armor -->
+					<li>Apparel_PlateArmor</li> 
+					<!-- The Empire prohibits Mousekins from wearing Imperial power armor -->
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphract</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphractPhoenix</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphractPrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetCataphract</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetCataphractPrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetReconPrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorLocust</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarineGrenadier</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarineHelmetPrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarinePrestige</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorReconPrestige</li>
+				</blackApparelList>
+				<!-- 
+					Any apparel not explicitly blacklisted can generally be worn by Mousekins, with some caveats:
+					- The game will first try to look for Mousekin-specific textures in Textures/Things/Pawn/Humanlike/Apparel
+					- The HAR framework will then try to perform individual path replacements for specific apparel (see graphicPaths node above)
+					- If none are available, the game will fall back to Female body textures (closest body shape to Mousekin hind rumps)
+					
+					List of wearable apparel that should (eventually) get better Mousekin-specific graphic replacements:
+					- Multiple DLCs
+						- Apparel_Cape
+					- Royalty DLC
+						- Apparel_Corset
+						- Apparel_PsyfocusRobe
+						- Apparel_PsyfocusShirt
+						- Apparel_PsyfocusVest
+						- Apparel_RobeRoyal
+						- Apparel_ShirtRuffle
+						- Apparel_VestRoyal
+					- Biotech DLC
+						- Apparel_Bandolier
+						- Apparel_MechlordSuit
+						- Apparel_Sash
+				-->
+
+				<!-- Restrict the following weapons for Mousekin use only -->
+				<weaponList>
+					<li>Mousekin_MeleeWeapon_Axe</li>
+					<li>Mousekin_MeleeWeapon_Cleaver</li>
+					<li>Mousekin_MeleeWeapon_Dagger</li>
+					<li>Mousekin_MeleeWeapon_HammerMetal</li>
+					<li>Mousekin_MeleeWeapon_HammerWood</li>
+					<li>Mousekin_MeleeWeapon_Hoe</li>
+					<li>Mousekin_MeleeWeapon_Pickaxe</li>
+					<li>Mousekin_MeleeWeapon_Pitchfork</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardener</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardenerTraining</li>
+					<li>Mousekin_MeleeWeapon_SwordKnight</li>
+					<li>Mousekin_RangedWeapon_Crossbow</li>
+					<li>Mousekin_RangedWeapon_CrossbowAuto</li>
+					<li>Mousekin_RangedWeapon_MusketLong</li>
+					<li>Mousekin_RangedWeapon_MusketShort</li>
+				</weaponList>
+				<!-- 
+					Note: The following Mousekin weapons have handles/grips large enough for other races to use: 
+					- Mousekin_MeleeWeapon_PikeRegular
+					- Mousekin_MeleeWeapon_PikeThunder
+					- Mousekin_MeleeWeapon_SwordKnightLarge
+				-->
+
+				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction only -->
+				<buildingList>
+					<li>Mousekin_Beehive</li>
+					<li>Mousekin_CastIronStove</li>
+					<li>Mousekin_CellarOutdoor</li>
+					<li>Mousekin_CheesePress</li>
+					<li>Mousekin_ChurchAltar</li>
+					<li>Mousekin_ChurchLectern</li>
+					<li>Mousekin_ChurchPew</li>
+					<li>Mousekin_DoorBasic</li>
+					<li>Mousekin_DoorReinforced</li>
+					<li>Mousekin_FermentingBarrel</li>
+					<li>Mousekin_Fireplace</li>
+					<li>Mousekin_JoyTabletopGame</li>
+					<li>Mousekin_ResearchBench</li>
+					<li>Mousekin_TownSquare</li>
+					<li>Mousekin_WallVent</li>
+					<li>Mousekin_Windmill</li>
+					<li>Mousekin_WorkbenchAlchemy</li>
+					<li>Mousekin_WorkbenchBrewery</li>
+					<li>Mousekin_WorkbenchButcher</li>
+					<li>Mousekin_WorkbenchCrafting</li>
+					<li>Mousekin_WorkbenchSmithy</li>
+					<li>Mousekin_WorkbenchTailor</li>
+				</buildingList>
+				<blackBuildingList>
+					<li>Brewery</li>
+					<li>FermentingBarrel</li>
+					<li>FueledSmithy</li>
+					<li>FueledStove</li>
+					<li>HandTailoringBench</li>
+					<li>SimpleResearchBench</li>
+					<li>TableButcher</li>
+					<li>TableSculpting</li>
+					<li>TableStonecutter</li>
+				</blackBuildingList>
+				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
+				
+				<!-- Restrict the following traits for Mousekin pawns only -->
+				<traitList>
+					<li>Mousekin_TraitSpectrum_Faith</li>
+				</traitList>
+				
+				<!-- Mousekins can only use their race-exclusive xenotype -->
+				<xenotypeList>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Mousekin_XenotypeMousekin</li>
+				</xenotypeList>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+				
+				<!-- Restrict genes available to Mousekin (Biotech DLC) -->
+				<geneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Mousekin_GeneVoiceMousekin</li>
+				</geneList>
+				<whiteGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Fertile</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Beauty_Beautiful</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Beauty_Pretty</li>
+				</whiteGeneList>
+				<whiteGeneTags>
+					<li>Addiction</li>
+					<li>Aggression</li>
+					<li>Aptitude</li>
+					<li>Immunity</li>
+					<li>Learning</li>
+					<li>Libido</li>
+					<li>MaxTemperature</li>
+					<li>MeleeDamage</li>
+					<li>MinTemperature</li>
+					<li>Mood</li>
+					<li>MoveSpeed</li>
+					<li>PsychicAbility</li>
+					<li>ShootingAccuracy</li>
+					<li>Sleep</li>
+					<li>WoundHealingRate</li>
+				</whiteGeneTags>
+				<blackGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Neversleep</li>
+				</blackGeneList>
+				<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
+				
+				<!-- Mousekin can only breed with other Mousekin (Biotech DLC) -->
+				<reproductionList>
+					<li>Mousekin</li>
+				</reproductionList>
+				<onlyReproduceWithRestrictedRaces>true</onlyReproduceWithRestrictedRaces>
+				
+			</raceRestriction>
+		</alienRace>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>45</Mass>
+			<MoveSpeed>4.85</MoveSpeed>
+			<Flammability>1.0</Flammability>
+			<PsychicSensitivity>1.1</PsychicSensitivity>
+			<EatingSpeed>1.2</EatingSpeed>
+			<LeatherAmount>50</LeatherAmount>
+			<ComfyTemperatureMin>16</ComfyTemperatureMin>
+			<ComfyTemperatureMax>26</ComfyTemperatureMax>
+			<ImmunityGainSpeed>1.10</ImmunityGainSpeed>
+			<PainShockThreshold>0.75</PainShockThreshold>
+			<MeleeDodgeChance>1.50</MeleeDodgeChance>
+			<AimingDelayFactor>1.35</AimingDelayFactor>
+			<NegotiationAbility>0.75</NegotiationAbility>
+			<SocialImpact>0.9</SocialImpact>
+			<MiningSpeed>1.5</MiningSpeed>
+			<ResearchSpeed>0.8</ResearchSpeed>
+			<PlantWorkSpeed>1.5</PlantWorkSpeed>
+			<HuntingStealth>1.5</HuntingStealth>
+			<ConstructionSpeed>0.85</ConstructionSpeed>
+		</statBases>
+		<tools>
+			<li>
+				<label>left paw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Scratch</def>
+							<amount>8</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right paw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Scratch</def>
+							<amount>8</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Bite</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>100</lifeExpectancy>
+			<renderTree>Humanlike</renderTree>
+			<leatherDef>Mousekin_Leather_Mousekin</leatherDef>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<hasGenders>true</hasGenders>
+			<body>Mousekin</body>
+			<baseBodySize>0.7</baseBodySize>
+			<baseHungerRate>0.625</baseHungerRate>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>18</gestationPeriodDays>
+			<meatMarketValue>0.65</meatMarketValue>
+			<manhunterOnDamageChance>0.0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
+			<litterSizeCurve>
+				<!-- Usually only one birth per pregnancy, with twins and triplets being exceedingly rare -->
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 0.10)</li>
+					<li>(3, 0.05)</li>
+					<li>(4, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+					<headOffset>(0, -0.125)</headOffset>
+					<headFemaleOffset>(0, -0.125)</headFemaleOffset>
+				</li>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>HumanlikeChild</def>
+					<minAge>3</minAge>
+					<headOffsetDirectional>
+						<north>
+							<offset>(0, -0.075)</offset>
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+						<east>
+							<offset>(-0.025, -0.075)</offset>
+						</east>
+						<south>
+							<offset>(0, -0.075)</offset>
+						</south>
+						<west>
+							<offset>(0.025, -0.075)</offset>
+						</west>
+					</headOffsetDirectional>
+					<headFemaleOffsetDirectional>
+						<north>
+							<offset>(0, -0.075)</offset>
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+						<east>
+							<offset>(-0.025, -0.075)</offset>
+						</east>
+						<south>
+							<offset>(0, -0.075)</offset>
+						</south>
+						<west>
+							<offset>(0.025, -0.075)</offset>
+						</west>
+					</headFemaleOffsetDirectional>
+					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+					<soundDeath>Pawn_Mousekin_Death</soundDeath>
+					<soundCall>Pawn_Mousekin_Call</soundCall>
+					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
+				</li>
+				<li Class="AlienRace.LifeStageAgeAlien" MayRequire="Ludeon.RimWorld.Biotech">
+					<def>HumanlikePreTeenager</def>
+					<minAge>9</minAge>
+					<headOffsetDirectional>
+						<north>
+							<offset>(0, -0.1375)</offset>
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+						<east>
+							<offset>(-0.02875, -0.1375)</offset>
+						</east>
+						<south>
+							<offset>(0, -0.1375)</offset>
+						</south>
+						<west>
+							<offset>(0.02875, -0.1375)</offset>
+						</west>
+					</headOffsetDirectional>
+					<headFemaleOffsetDirectional>
+						<north>
+							<offset>(0, -0.1375)</offset>
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+						<east>
+							<offset>(-0.02875, -0.1375)</offset>
+						</east>
+						<south>
+							<offset>(0, -0.1375)</offset>
+						</south>
+						<west>
+							<offset>(0.02875, -0.1375)</offset>
+						</west>
+					</headFemaleOffsetDirectional>
+					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+					<soundDeath>Pawn_Mousekin_Death</soundDeath>
+					<soundCall>Pawn_Mousekin_Call</soundCall>
+					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
+				</li>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>HumanlikeTeenager</def>
+					<minAge>13</minAge>
+					<headOffset>(0, -0.015)</headOffset>
+					<headOffsetDirectional>
+						<north>
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+					</headOffsetDirectional>
+					<headFemaleOffsetDirectional>
+						<north>
+							<layerOffset>0.01</layerOffset> <!-- Ensures that heads (and hoods) are drawn over bodies (and cloaks) -->
+						</north>
+					</headFemaleOffsetDirectional>
+					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+					<soundDeath>Pawn_Mousekin_Death</soundDeath>
+					<soundCall>Pawn_Mousekin_Call</soundCall>
+					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
+				</li>
+				<li Class="AlienRace.LifeStageAgeAlien">
+					<def>HumanlikeAdult</def>
+					<minAge>18</minAge>
+					<soundWounded>Pawn_Mousekin_Wounded</soundWounded>
+					<soundDeath>Pawn_Mousekin_Death</soundDeath>
+					<soundCall>Pawn_Mousekin_Call</soundCall>
+					<soundAngry>Pawn_Mousekin_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>7</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>10</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>3</BasicWorker>
+				<Warden>10</Warden>
+				<Handling>7</Handling>
+				<Cooking>7</Cooking>
+				<Hunting>7</Hunting>
+				<Construction>10</Construction>
+				<Growing>7</Growing>
+				<Mining>7</Mining>
+				<PlantCutting>7</PlantCutting>
+				<Smithing>13</Smithing>
+				<Tailoring>7</Tailoring>
+				<Art>10</Art>
+				<Crafting>7</Crafting>
+				<Hauling>3</Hauling>
+				<Cleaning>3</Cleaning>
+				<Research>13</Research>
+				<DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">13</DarkStudy>
+			</lifeStageWorkSettings>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+					<li>(14,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+					<li>(16,100)</li>
+					<li>(20,100)</li>
+					<li>(30,100)</li>
+					<li>(40,100)</li>
+					<li>(50,100)</li>
+					<li>(60,100)</li>
+					<li>(70,75)</li>
+					<li>(80,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<li>Mousekin_InstallProstheticClothEar</li>
+			<li>Mousekin_InstallProstheticClothTail</li>
+			<li>Mousekin_InstallNaturalEar</li>
+			<li>Mousekin_InstallNaturalTail</li>
+		</recipes>
+		<comps>
+			<li Class="MousekinRace.CompProperties_RemembersCheeseEaten">
+				<cheeseDefs>
+					<li>Mousekin_FoodCheese</li>
+				</cheeseDefs>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="MousekinRace.OtherRodentRacesExtension">
+				<!-- Rodent races that are simply "different" to Mousekins -->
+				<differentRodentRaces/>
+				<!-- Rodent races that are actively hostile to Mousekins -->
+				<hostileRodentRaces/>
+			</li>
+		</modExtensions>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

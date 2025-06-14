@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- ========== Survival meal ========== -->
+	
+	<!-- Mousekin trail mix -->
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>Mousekin_MealTrailMix</defName>
+		<label>Mousekin trail mix</label>
+		<description>A pouch of roasted nuts, dried berries and popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekin that consumes it. Great for traveling.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealTrailMix</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<Nutrition>0.33</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Meal</foodType>
+			<preferability>MealSimple</preferability>
+			<tasteThought>Humanlike_Thought_AteTrailMix</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<optimalityOffsetHumanlikes>8</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>16</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients"/>
+			<li Class="CompProperties_FoodPoisonable"/>
+		</comps>
+	</ThingDef>
+	
+	<!-- ========== Meal precursors / processed ingredients ========== -->
+	
+	<!-- Country bread -->
+	<ThingDef ParentName="MealCooked">
+		<defName>Mousekin_FoodCountryBread</defName>
+		<label>country bread</label>
+		<description>A round loaf of bread with a thick, crunchy crust and fluffy crumb, often eaten to stave off hunger or used as an ingredient in other dishes. Reduces hunger rate by 10% for 12 hours.</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_FoodCountryBread</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<Mass>0.3</Mass>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_SatiatedHunger10</hediffDef>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<!-- ========== Simple meals ========== -->
+
+	<!-- Barley porridge -->
+	<ThingDef ParentName="MealCookedIngredientless">
+		<defName>Mousekin_MealBarleyPorridge</defName>
+		<label>barley porridge</label>
+		<description>A simple and nutritious bowl of barley grains cooked in milk, often eaten as a simple meal by farmhands and laborers, fed to baby Mousekin pups, or served by Mousekin nuns to recuperating patients.</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealBarleyPorridge</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<Mass>0.12</Mass>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.33</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<babiesCanIngest>true</babiesCanIngest>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- Eggs on toast -->
+	<ThingDef ParentName="MealCooked">
+		<defName>Mousekin_MealEggsOnToast</defName>
+		<label>eggs on toast</label>
+		<description>Thick slices of country bread topped with eggs fried sunny-side up. The perfect breakfast to start the day!</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealEggsOnToast</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.18</Mass>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				<splitTransferableFoodKind>true</splitTransferableFoodKind>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Ploughman's lunch -->
+	<ThingDef ParentName="MealCooked">
+		<defName>Mousekin_MealPloughmansLunch</defName>
+		<label>ploughman's lunch</label>
+		<description>Slices of country bread accompanied by cheese, pickled vegetables and a handful of roasted nuts, often eaten as a simple meal by farm laborers. Reduces hunger rate by 20% for 12 hours.</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealPloughmansLunch</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>16</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_SatiatedHunger20</hediffDef>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- ========== Fine meals ========== -->
+	
+	<!-- Bread bowl -->
+	<ThingDef ParentName="MealFineBase">
+		<defName>Mousekin_MealBreadBowl</defName>
+		<label>bread bowl</label>
+		<description>A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours.</description>
+		<graphicData>
+			<texPath>Things/Items/Meal/Mousekin_MealBreadBowl</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_SatiatedHunger35</hediffDef>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				<splitTransferableFoodKind>true</splitTransferableFoodKind>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

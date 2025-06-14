@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ItemProcessor.CombinationDef>
+		<defName>Mousekin_MilkToCheese</defName>
+		<building>Mousekin_CheesePress</building>
+		<items>
+			<li>Milk</li>
+		</items>
+		<amount>
+			<li>50</li>
+		</amount>
+		<result>Mousekin_FoodCheese</result>
+		<yield>25</yield>
+		<useQualityIncreasing>false</useQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>15</singleTimeIfNotQualityIncreasing>
+	</ItemProcessor.CombinationDef>
+	
+	<ItemProcessor.CombinationDef>
+		<defName>Mousekin_RawWheatToFlour</defName>
+		<building>Mousekin_Windmill</building>
+		<items>
+			<li>Mousekin_RawWheat</li>
+		</items>
+		<amount>
+			<li>100</li>
+		</amount>
+		<result>Mousekin_Flour</result>
+		<yield>75</yield>
+		<useQualityIncreasing>false</useQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>2</singleTimeIfNotQualityIncreasing>
+	</ItemProcessor.CombinationDef>
+	
+	<ItemProcessor.CombinationDef>
+		<defName>Mousekin_WortLagerToDrinkLager</defName>
+		<building>Mousekin_FermentingBarrel</building>
+		<items>
+			<li>Mousekin_WortLager</li>
+		</items>
+		<amount>
+			<li>25</li>
+		</amount>
+		<result>Mousekin_DrinkLager</result>
+		<yield>25</yield>
+		<useQualityIncreasing>false</useQualityIncreasing>
+		<singleTimeIfNotQualityIncreasing>10</singleTimeIfNotQualityIncreasing>
+	</ItemProcessor.CombinationDef>
+
+	<ItemProcessor.CombinationDef>
+		<defName>Mousekin_WortMeadToDrinkMead</defName>
+		<building>Mousekin_FermentingBarrel</building>
+		<items>
+			<li>Mousekin_WortMead</li>
+		</items>
+		<amount>
+			<li>25</li>
+		</amount>
+		<!-- product dependent on quality - see below -->
+		<yield>25</yield>
+		<useQualityIncreasing>true</useQualityIncreasing>
+		<awfulQualityAgeDaysThreshold>5</awfulQualityAgeDaysThreshold>
+		<poorQualityAgeDaysThreshold>10</poorQualityAgeDaysThreshold>
+		<normalQualityAgeDaysThreshold>15</normalQualityAgeDaysThreshold>
+		<goodQualityAgeDaysThreshold>30</goodQualityAgeDaysThreshold>
+		<excellentQualityAgeDaysThreshold>60</excellentQualityAgeDaysThreshold>
+		<masterworkQualityAgeDaysThreshold>90</masterworkQualityAgeDaysThreshold>
+		<legendaryQualityAgeDaysThreshold>120</legendaryQualityAgeDaysThreshold>
+		<differentProductsByQuality>true</differentProductsByQuality>
+		<productsByQuality>
+			<li>Mousekin_DrinkMeadAwful</li>
+			<li>Mousekin_DrinkMeadPoor</li>
+			<li>Mousekin_DrinkMeadNormal</li>
+			<li>Mousekin_DrinkMeadGood</li>
+			<li>Mousekin_DrinkMeadExcellent</li>
+			<li>Mousekin_DrinkMeadMasterwork</li>
+			<li>Mousekin_DrinkMeadLegendary</li>
+		</productsByQuality>
+	</ItemProcessor.CombinationDef>
+
+</Defs>

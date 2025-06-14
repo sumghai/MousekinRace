@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Mousekin Church Service-specific work frenzy inspiration - shorter duration, but more potent than vanilla -->
+
+	<InspirationDef>
+		<defName>Mousekin_Inspiration_FrenzyWork</defName>
+		<label>work frenzy</label>
+		<baseDurationDays>3</baseDurationDays>
+		<!-- No letters, superseded by church service end letter -->
+		<endMessage>{0} is no longer inspired (work frenzy).</endMessage>
+		<baseInspectLine>Inspired: Work frenzy</baseInspectLine>
+		<requiredNonDisabledWorkTags>AllWork</requiredNonDisabledWorkTags>
+		<minAge>10</minAge>
+		<statFactors>
+			<WorkSpeedGlobal>2.5</WorkSpeedGlobal>
+		</statFactors>
+	</InspirationDef>
+	
+</Defs>

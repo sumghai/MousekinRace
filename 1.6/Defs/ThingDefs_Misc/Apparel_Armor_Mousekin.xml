@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="Mousekin_ApparelMilitaryArmorSmithableBase">
+		<defName>Mousekin_ArmorCuirass</defName>
+		<label>Mousekin Cuirass</label>
+		<description>A piece of medieval plate armor that protects the torso from most injuries, worn by Mousekin pikemen, crossbowmen and Mouseketeers.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinCuirass/MousekinCuirass</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>3.0</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeDodgeChance>-0.05</MeleeDodgeChance>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinCuirass/MousekinCuirass</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>MousekinCrossbowman</li>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinMusketeer</li>
+				<li>MousekinPikeman</li>
+				<li>MousekinRaider</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_ApparelMilitaryArmorSmithableBase">
+		<defName>Mousekin_ArmorPlate</defName>
+		<label>Mousekin Plate Armor</label>
+		<description>A set of medieval plate armor sized for Mousekin Knights, with overlapping solid metal plates offering increased protection for its wearer.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinPlateArmor/MousekinPlateArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>120</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>8</Mass>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeDodgeChance>-0.1</MeleeDodgeChance>
+			<PainShockThreshold>0.2</PainShockThreshold>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinPlateArmor/MousekinPlateArmor</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>MousekinKnight</li>
+				<li>MousekinKnightCommander</li>
+				<li>MousekinLordProtector</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryKingdom</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Church Service: Led by priest pawnkind, attendees are non-Apostate Mousekin colonists -->
+	
+	<GatheringDef>
+		<defName>Mousekin_GatheringChurchService</defName>
+		<label>church service</label>
+		<randomSelectionWeight>0</randomSelectionWeight> <!-- only called programmatically, never randomly -->
+		<letterTitle>Church service</letterTitle>
+		<letterText>{ORGANIZER_labelShort} is holding a weekly church service for all Mousekin worshippers of Valerian the Wise in your colony.\n\nEveryone who attends will gain work speed and positive mood bonuses for the next few days, while silver will be collected as tithes.</letterText>
+		<calledOffMessage>The church service has been called off.</calledOffMessage>
+		<finishedMessage>The church service has finished.</finishedMessage>
+		<duty>Mousekin_DutyChurchServiceSpectate</duty>
+		<workerClass>MousekinRace.GatheringWorker_ChurchService</workerClass>
+		<gatherSpotDefs>
+			<li>Mousekin_ChurchLectern</li>
+		</gatherSpotDefs>
+	</GatheringDef>
+
+</Defs>

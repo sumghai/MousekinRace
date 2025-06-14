@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Beeswax -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Beeswax</defName>
+		<label>Beeswax</label>
+		<description>Wax produced by honeybees from Mousekin Beehives, mainly used for crafting candles.</description>
+		<graphicData>
+			<texPath>Things/Items/Resources/Mousekin_Beeswax</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>5</MarketValue>
+			<Mass>0.2</Mass>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

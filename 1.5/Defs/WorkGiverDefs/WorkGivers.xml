@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ============= Crafting ============= -->
+
+	<!-- Crafting miscellaneous items at the Mousekin Crafting Bench -->
+
+	<WorkGiverDef>
+		<defName>Mousekin_DoBillsUseCraftingBench</defName>
+		<label>make things at crafting bench</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>105</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Mousekin_WorkbenchCrafting</li>
+		</fixedBillGiverDefs>
+		<verb>craft</verb>
+		<gerund>crafting at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<!-- ============= Hauling ============= -->
+	
+	<!-- Harvesting products from the Mousekin Beehive -->
+	
+	<WorkGiverDef>
+		<defName>Mousekin_HarvestFromBeehive</defName>
+		<label>harvest products from beehives</label>
+		<giverClass>MousekinRace.WorkGiver_HarvestFromBeehive</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>25</priorityInType>
+		<verb>harvest products from</verb>
+		<gerund>harvestinf products from</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>

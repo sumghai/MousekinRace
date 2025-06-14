@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Commoner Headgear -->
+	
+	<ThingDef ParentName="Mousekin_HatCommonerMakeableBase">
+		<defName>Mousekin_HatStraw</defName>
+		<label>Mousekin Straw Hat</label>
+		<description>A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatStraw/MousekinHatStraw</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<!-- 45 Hay is equivalent to 25 cloth for the similar-shaped cowboy hat -->
+			<Hay>45</Hay>
+		</costList>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.08</Mass>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>-0.10</NegotiationAbility>
+			<SocialImpact>-0.10</SocialImpact>
+			<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatStraw/MousekinHatStraw</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinPeasant</li>
+				<li>MousekinTrader</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_HatCommonerMakeableBase">
+		<defName>Mousekin_HatHeadscarf</defName>
+		<label>Mousekin Headscarf</label>
+		<description>A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatHeadscarf/MousekinHatHeadscarf</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<!-- Always cloth only -->
+			<Cloth>20</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>600</WorkToMake>
+			<Mass>0.08</Mass>
+			<ArmorRating_Sharp>0.072</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.036</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>1.8</Insulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>-0.10</NegotiationAbility>
+			<SocialImpact>-0.10</SocialImpact>
+			<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatHeadscarf/MousekinHatHeadscarf</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinPeasant</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+	</ThingDef>
+	
+	<!-- Middle-class Headgear -->
+	
+	<ThingDef ParentName="Mousekin_HatMiddleMakeableBase">
+		<defName>Mousekin_HatNunVeil</defName>
+		<label>Mousekin Nun’s Veil</label>
+		<description>A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatNunVeil/MousekinHatNunVeil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- only outer veil (10) is stuffable -->
+		<costStuffCount>10</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<!-- inner coif (20) is always made from cloth -->
+			<Cloth>20</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MedicalTendQuality>0.10</MedicalTendQuality>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatNunVeil/MousekinHatNunVeil</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinNun</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<secondaryApparelGraphics>
+					<li>Mousekin_HatNunVeilBack</li>
+				</secondaryApparelGraphics>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_HatMiddleMakeableBase">
+		<defName>Mousekin_HatWoodsman</defName>
+		<label>Mousekin Woodsman’s Bycocket</label>
+		<description>A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatWoodsman/MousekinHatWoodsman</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.10</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatWoodsman/MousekinHatWoodsman</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinIndyTownCouncilor</li>
+				<li>MousekinIndyTownSoldier</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelIndyTown</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- Military Headgear -->
+	
+	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
+		<defName>Mousekin_HelmetKettle</defName>
+		<label>Mousekin Kettle Hat</label>
+		<description>A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKettle/MousekinHelmetKettle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>1.75</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKettle/MousekinHelmetKettle</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinCrossbowman</li>
+				<li>MousekinRaider</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
+		<defName>Mousekin_HelmetMorion</defName>
+		<label>Mousekin Morion Helmet</label>
+		<description>A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetMorion/MousekinHelmetMorion</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>45</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetMorion/MousekinHelmetMorion</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinIndyTownSoldier</li>
+				<li>MousekinMusketeer</li>
+				<li>MousekinPikeman</li>
+				<li>MousekinRaider</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryBasic</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_HelmetMilitarySmithableBase">
+		<defName>Mousekin_HelmetKnight</defName>
+		<label>Mousekin Knight's Helmet</label>
+		<description>A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2.75</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinKnight</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<comps>
+			<li Class="MousekinRace.CompProperties_ApparelWithAltStateGraphics">
+				<toggleLabel>Toggle visor</toggleLabel>
+				<toggleDesc>Open or close the helmet's visor.</toggleDesc>
+				<altStateWornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnight/MousekinHelmetKnight_VisorUp</altStateWornGraphicPath>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryKingdom</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
+	</ThingDef>
+	
+	<!-- Uncraftable -->
+	
+	<ThingDef ParentName="Mousekin_HatBase">
+		<defName>Mousekin_HelmetKnightCommander</defName>
+		<label>Mousekin Knight Commander’s Helmet</label>
+		<description>A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnightCommander/MousekinHelmetKnightCommander</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<defaultStuff>Silver</defaultStuff>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2.75</Mass>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnightCommander/MousekinHelmetKnightCommander</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>MousekinKnightCommander</li>
+				<li>MousekinLordProtector</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<!-- Unisex -->
+		</apparel>
+		<!-- Color gen hack to get masks working properly -->
+		<colorGenerator Class="ColorGenerator_White" />
+		<comps>
+			<li Class="MousekinRace.CompProperties_ApparelWithAltStateGraphics">
+				<toggleLabel>Toggle visor</toggleLabel>
+				<toggleDesc>Open or close the helmet's visor.</toggleDesc>
+				<altStateWornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHelmetKnightCommander/MousekinHelmetKnightCommander_VisorUp</altStateWornGraphicPath>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitaryKingdomElite</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
+	</ThingDef>
+	
+	<!-- Dummy Defs for rendering purposes -->
+	
+	<ThingDef ParentName="HatBase">
+		<defName>Mousekin_HatNunVeilBack</defName>
+		<label>Veil Back</label>
+		<description>Back of the Mousekin Nun’s Veil.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinHatNunVeil/MousekinHatNunVeilBack_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinHatNunVeil/MousekinHatNunVeilBack</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<drawData>
+				<dataSouth>
+					<offset>(0, -0.1, 0)</offset>
+				</dataSouth>
+			</drawData>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>Mousekin_NoSpawn</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li>
+				<compClass>MousekinRace.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

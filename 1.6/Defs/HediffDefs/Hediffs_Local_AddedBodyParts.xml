@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Craftable Prosthetics -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Mousekin_ProstheticClothEar</defName>
+		<label>Cloth Mousekin Ear</label>
+		<description>A fake Mousekin ear sewn from cloth.\n\nMousekins take great pride in their large rounded ears, as their presence (or absence) greatly affects their standing in Mousekin society. Those who have lost their natural ears through injury or disease wear fake ears to hide their humiliating disfigurement.</description>
+		<labelNoun>a Cloth Mousekin Ear</labelNoun>
+		<spawnThingOnRemoved>Mousekin_ProstheticClothEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.05</partEfficiency>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Mousekin_ProstheticClothTail</defName>
+		<label>Cloth Mousekin Tail</label>
+		<description>A fake Mousekin tail made from cloth twisted and braided into rope.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving. Those who have lost their natural tails through injury and disease wear fake tails, and while the non-living rope tail does not fully restore their loss of balancing ability, it at least attracts less attention than a stump.</description>
+		<labelNoun>a Cloth Mousekin Tail</labelNoun>
+		<spawnThingOnRemoved>Mousekin_ProstheticClothTail</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.35</partEfficiency>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ScenPartDef>
+		<defName>MousekinRace_ScenPart_RequiredFaction</defName>
+		<label>required faction</label>
+		<scenPartClass>MousekinRace.ScenPart_RequiredFaction</scenPartClass>
+		<category>Misc</category>
+	</ScenPartDef>
+	
+</Defs>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Mousekin_Make_DrinkChonkoNutBrew</defName>
+		<label>make Chonko nut brew</label>
+		<description>Make a warm, coffee-like beverage brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick. Temporarily improves mood, consciousness and blood circulation.</description>
+		<jobString>Making Chonko nut brew</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>800</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Mousekin_Fireplace</li>
+			<li>Mousekin_CastIronStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_RawNutChonko</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_PoopGiantCavy</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_RawNutChonko</li>
+				<li>Mousekin_PoopGiantCavy</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_DrinkChonkoNutBrew>5</Mousekin_DrinkChonkoNutBrew>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Mousekin_Make_WortLager</defName>
+		<label>make Mousekin lager wort</label>
+		<description>Make Mousekin lager wort from Mouse-ear barley and hops.</description>
+		<jobString>Making Mousekin lager wort</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchBrewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_RawBarley</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawHops</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_RawBarley</li>
+				<li>RawHops</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_WortLager>5</Mousekin_WortLager>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Brewing</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Mousekin_Make_WortMead</defName>
+		<label>make Mousekin mead must</label>
+		<description>Make Mousekin mead must from Mousekin honey.</description>
+		<jobString>Making Mousekin mead must</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchBrewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_RawHoney</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_RawHoney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_WortMead>5</Mousekin_WortMead>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Brewing</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

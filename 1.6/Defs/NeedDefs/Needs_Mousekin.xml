@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>Mousekin_Chemical_Muroidine</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>muroidine</label>
+		<description>Because of a muroidine addiction, this person needs to regularly consume Chonko nut brew to avoid withdrawal symptoms.</description>
+		<listPriority>35</listPriority>
+	</NeedDef>
+
+</Defs>

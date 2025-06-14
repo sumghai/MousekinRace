@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<CultureDef Name="Mousekin_CultureBase" Abstract="True">
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityMousekin</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerMousekin</deityTypeMaker>
+		<allowedPlaceTags>
+			<li>OriginTribal</li> <!-- Placeholder, should never be used due to forced ideo description override -->
+		</allowedPlaceTags>
+		<styleItemTags>
+			<!--<li>
+				<tag>Mousekin_HairUncivilized</tag>
+				<baseWeight>0.1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>-->
+			<li>
+				<tag>Mousekin_HairRural</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_HairUrban</tag>
+				<baseWeight>0.5</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_HairNoble</tag>
+				<baseWeight>0.33</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>10</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_BeardRural</tag>
+				<baseWeight>0.5</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_BeardUrban</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Mousekin_BeardNoble</tag>
+				<baseWeight>0.33</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<modExtensions>
+			<li Class="MousekinRace.IdeoSymbolIgnoreRandomExtension" />
+		</modExtensions>
+	</CultureDef>
+
+	<CultureDef ParentName="Mousekin_CultureBase">
+		<defName>Mousekin_CultureKingdom</defName>
+		<label>Traditional Mousekinian</label>
+		<description>A feudal agrarian culture resembling Regency-era England, characterized by institutionalised patriarchy, rigid social strata and a deep reverence for flowers.</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinChurch</ideoNameMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinChurch</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
+		<iconPath>World/WorldObjects/Expanding/MousekinKingdom</iconPath>
+	</CultureDef>
+
+	<CultureDef ParentName="Mousekin_CultureBase">
+		<defName>Mousekin_CultureIndyTown</defName>
+		<label>Enlightened Mousekinian</label>
+		<description>A hardy agrarian culture that embraces egalitarian and democratic ideals.</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinRepublic</ideoNameMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinRepublic</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
+		<iconPath>World/WorldObjects/Expanding/MousekinIndyTown</iconPath>
+	</CultureDef>
+
+	<CultureDef ParentName="Mousekin_CultureBase">
+		<defName>Mousekin_CultureNomad</defName>
+		<label>Rodemanian</label>
+		<description>A nomadic culture that celebrates wanderlust, generosity and hospitality.</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinNomad</ideoNameMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinNomad</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
+		<iconPath>World/WorldObjects/Expanding/MousekinNomads</iconPath>
+	</CultureDef>
+
+	<CultureDef ParentName="Mousekin_CultureBase">
+		<defName>Mousekin_CultureBrigand</defName>
+		<label>Outpawian</label>
+		<description>A pragmatic, Social Darwinist culture common amongst rodent gangs that values personal strength, winning at all costs and having the biggest nut stash.</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMousekinBrigands</ideoNameMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_MousekinBrigands</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
+		<iconPath>World/WorldObjects/Expanding/MousekinBrigands</iconPath>
+	</CultureDef>
+
+</Defs>

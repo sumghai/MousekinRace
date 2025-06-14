@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BookBase">
+		<defName>Mousekin_BookResearch</defName>
+		<label>Mousekin treatise</label>
+		<description>A leather-bound book with moveable-type printed and hand-illuminated pages, detailing insights into new Mousekin technology and methods for using it.</description>
+		<graphicData>
+			<texPath>Things/Items/Book/Mousekin_BookResearch/Mousekin_BookResearch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Items/Book/Mousekin_BookResearch/Mousekin_BookResearch</uiIconPath>
+		<statBases>
+			<MarketValue>160</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Book">
+				<nameMaker>NamerBook_Mousekin_BookResearch</nameMaker>
+				<descriptionMaker>Description_Mousekin_BookResearch</descriptionMaker>
+				<ageYearsRange>5~200</ageYearsRange>
+				<openGraphic>
+					<texPath>Things/Items/Book/Mousekin_BookResearch/Mousekin_BookResearch_Open</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.7</drawSize>
+				</openGraphic>
+				<verticalGraphic>
+					<texPath>Things/Items/Book/Mousekin_BookResearch/Mousekin_BookResearch_Vertical</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<addTopAltitudeBias>true</addTopAltitudeBias>
+				</verticalGraphic>
+				<doers>
+					<li Class="BookOutcomeProperties_GainResearch">
+						<tabs>
+							<Mousekin_Tech />
+						</tabs>
+					</li>
+				</doers>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- todo
+	 - Mousekin textbook (Mousekin_BookSkills) - for learning skills
+	 - Mousekin tale (Mousekin_BookNovel) - for entertainment
+	-->
+	
+</Defs>

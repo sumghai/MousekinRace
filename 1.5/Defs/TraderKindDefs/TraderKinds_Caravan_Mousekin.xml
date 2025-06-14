@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Common inventory for all Mousekin caravan traders -->
+
+	<TraderKindDef Name="Mousekin_TraderCaravanBase" Abstract="True">
+		<stockGenerators>
+
+			<!-- Currency -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~1200</countRange>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+
+			<!-- Trail Mix (because mouse caravan traders love having extra snacks) -->
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_MealTrailMix</thingDef>
+			</li>
+			
+			<!-- Hay (to feed the giant cavies carrying goods) -->
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Hay</thingDef>
+			</li>
+
+		</stockGenerators>
+	</TraderKindDef>
+
+	<!-- Bulk goods trader (Kingdom and Independent factions) - buys and sells Mousekin-themed crops, meats, alcohols, resources and misc manufactured items -->
+
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
+		<defName>Mousekin_TraderCaravan_Bulk</defName>
+		<label>bulk goods trader</label>
+		<commonality>3</commonality>
+		<stockGenerators>
+
+			<!-- Resources -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>WoodLog</thingDef>
+				<countRange>300~600</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Steel</thingDef>
+				<countRange>250~400</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>StoneBlocks</categoryDef>
+				<thingDefCountRange>2~3</thingDefCountRange>
+				<countRange>50~80</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>PlantMatter</categoryDef>
+				<excludedThingDefs>
+					<li>SmokeleafLeaves</li>
+				</excludedThingDefs>
+				<thingDefCountRange>4~5</thingDefCountRange>
+				<countRange>200~400</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Crops -->
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>PlantFoodRaw</categoryDef>
+				<!-- Nuts are handled separately -->
+				<excludedThingDefs>
+					<li>Mousekin_RawNutChonko</li>
+					<li>Mousekin_RawNutNyam</li>
+				</excludedThingDefs>
+				<thingDefCountRange>10~12</thingDefCountRange>
+				<countRange>200~300</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_RawNutChonko</thingDef>
+				<countRange>150~200</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_RawNutNyam</thingDef>
+				<countRange>150~200</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Meat -->
+
+			<li Class="StockGenerator_Tag">
+				<!-- As meats are dynamically-generated defs, selected meat types known to Mousekins are assigned a custom tradeTag at runtime via the mod assembly -->
+				<tradeTag>Mousekin_TradeGoods_Meat</tradeTag>
+				<thingDefCountRange>5~7</thingDefCountRange>
+				<countRange>100~150</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Beverages -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Beverages</tradeTag>
+				<thingDefCountRange>3</thingDefCountRange>
+				<countRange>20~50</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Processed Food / Ingredients (e.g. Mousekin Honey, Cloverbury Cheese) -->
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_FoodProcessed</tradeTag>
+				<thingDefCountRange>2</thingDefCountRange>
+				<countRange>20~50</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Misc manufactured items -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chocolate</thingDef>
+				<totalPriceRange>10~40</totalPriceRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_ClockworkComponent</thingDef>
+				<countRange>10~20</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Beeswax</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_Candle</thingDef>
+				<countRange>75~150</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Dye</thingDef>
+				<countRange>15~20</countRange>
+			</li>
+			
+			<!-- Basic medicines -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineHerbal</thingDef>
+				<countRange>200~300</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_MedicinePoultice</thingDef>
+				<countRange>50~100</countRange>
+				<price>Expensive</price>
+			</li>
+			
+			<!-- Books -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_BookResearch</thingDef>
+				<countRange>2~5</countRange>
+			</li>
+			
+			<!-- Buying -->
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>MedicineUltratech</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderBulk</iconPath>
+			</li>
+		</modExtensions>
+	</TraderKindDef>
+
+	<!-- Clothing merchant (Kingdom and Independent factions) - buys and sells Mousekin commoner and middle-class apparel, accessories, fabrics, wools and leathers -->
+
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
+		<defName>Mousekin_TraderCaravan_Apparel</defName>
+		<label>clothing merchant</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+
+			<!-- Apparel -->
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelCommoner</tradeTag>
+				<thingDefCountRange>8~10</thingDefCountRange>
+				<countRange>2~3</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelMiddle</tradeTag>
+				<thingDefCountRange>6~8</thingDefCountRange>
+				<countRange>2~3</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_AccessoryCommoner</tradeTag>
+				<thingDefCountRange>4~4</thingDefCountRange>
+				<countRange>1~2</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Fabrics, Leathers and Wools -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Cloth</thingDef>
+				<countRange>150~200</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DevilstrandCloth</thingDef>
+				<countRange>50~100</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>Leathers</categoryDef>
+				<!-- No Mousekin or Pudgemouse fur -->
+				<excludedThingDefs>
+					<li>Mousekin_Leather_Mousekin</li>
+					<li>Mousekin_LeatherPudgemouse</li>
+				</excludedThingDefs>
+				<thingDefCountRange>5~6</thingDefCountRange>
+				<countRange>10~20</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>WoolSheep</thingDef>
+				<countRange>100~150</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_WoolGiantCavy</thingDef>
+				<countRange>100~150</countRange>
+				<price>Expensive</price>
+			</li>
+
+			<!-- Dyes -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Dye</thingDef>
+				<countRange>15~20</countRange>
+			</li>
+			
+			<!-- Buying -->
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Hyperweave</thingDef>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Synthread</thingDef>
+			</li>
+
+		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderApparel</iconPath>
+			</li>
+		</modExtensions>
+	</TraderKindDef>
+
+	<!-- Livestock trader (Kingdom and Independent factions) - sells common Mousekin farm animals, and buys most other animals -->
+
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
+		<defName>Mousekin_TraderCaravan_Animals</defName>
+		<label>livestock trader</label>
+		<commonality>2</commonality>
+		<stockGenerators>
+
+			<!-- Animals -->
+
+			<li Class="StockGenerator_Animals">
+				<tradeTagsSell>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+				</tradeTagsSell>
+				<tradeTagsBuy>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+					<li>AnimalExotic</li>
+					<li>AnimalFarm</li>
+					<li>AnimalFighter</li>
+					<li>AnimalPet</li>
+					<li>AnimalUncommon</li>
+				</tradeTagsBuy>
+				<kindCountRange>8~8</kindCountRange>
+				<countRange>15~20</countRange>
+				<createMatingPair>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+				</createMatingPair>
+				<customCountRanges>
+					<Chicken>2~3</Chicken>
+					<Cow>1~2</Cow>
+					<Duck>1~2</Duck>
+					<Goose>1~2</Goose>
+					<Goat>2~3</Goat>
+					<Mousekin_AnimalGiantCavy>2~2</Mousekin_AnimalGiantCavy>
+					<Pig>2~3</Pig>
+					<Sheep>2~3</Sheep>
+				</customCountRanges>
+				<price>Cheap</price>
+			</li>
+
+		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderLivestock</iconPath>
+			</li>
+		</modExtensions>
+	</TraderKindDef>
+
+	<!-- Ironmonger - sells tools, melee and ranged weapons, as well as ammo, explosives, military apparel, combat and healing potions
+		 - The Kingdom variant tends towards more melee weapons and knight armor
+		 - The Indy Town variant tends towards more ranged weapons and a special Thunderpike weapon -->
+
+	<TraderKindDef Name="Mousekin_TraderCaravanMilitaryBase" ParentName="Mousekin_TraderCaravanBase" Abstract="True">
+		<label>ironmonger</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+
+			<!-- Tool-style melee weapons -->
+
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponMelee</tradeTag>
+				<weaponTag>Mousekin_Tool</weaponTag>
+				<countRange>10~15</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Basic military apparel (including gambesons) -->
+			
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_TradeGoods_ApparelMilitaryBasic</tradeTag>
+				<!--<thingDefCountRange>6~8</thingDefCountRange>-->
+				<countRange>4~6</countRange>
+				<price>Cheap</price>
+			</li>
+
+		</stockGenerators>
+		<modExtensions>
+			<li Class="MousekinRace.TraderExtension">
+				<iconPath>UI/Icons/AllegianceSystem/TraderIronmonger</iconPath>
+			</li>
+		</modExtensions>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="Mousekin_TraderCaravanMilitaryBase">
+		<defName>Mousekin_TraderCaravan_MilitaryKingdom</defName>
+		<stockGenerators>
+
+			<!-- Melee weapons -->
+
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponMelee</tradeTag>
+				<weaponTag>Mousekin_MeleeWeapon</weaponTag>
+				<countRange>15~20</countRange>
+				<customCountRanges>
+					<Mousekin_MeleeWeapon_Dagger>8~10</Mousekin_MeleeWeapon_Dagger>
+					<Mousekin_MeleeWeapon_PikeRegular>2~4</Mousekin_MeleeWeapon_PikeRegular>
+					<Mousekin_MeleeWeapon_SwordGuardener>1~2</Mousekin_MeleeWeapon_SwordGuardener>
+					<Mousekin_MeleeWeapon_SwordGuardenerTraining>1~2</Mousekin_MeleeWeapon_SwordGuardenerTraining>
+					<Mousekin_MeleeWeapon_SwordKnight>1~2</Mousekin_MeleeWeapon_SwordKnight>
+				</customCountRanges>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Ranged weapons (basic only) -->
+
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponRanged</tradeTag>
+				<weaponTag>Mousekin_RangedWeapon_Basic</weaponTag>
+				<countRange>5~10</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Mid-tier military apparel (knight helmet and armor) -->
+			
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_TradeGoods_ApparelMilitaryKingdom</tradeTag>
+				<!--<thingDefCountRange>3~4</thingDefCountRange>-->
+				<countRange>1~2</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Elite-tier military apparel (knight commander apparel, buyback only) -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_ApparelMilitaryKingdomElite</tag>
+				<price>Expensive</price>
+			</li>
+			
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="Mousekin_TraderCaravanMilitaryBase">
+		<defName>Mousekin_TraderCaravan_MilitaryIndyTown</defName>
+		<stockGenerators>
+		
+			<!-- Melee weapons (basic only) -->
+
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponMelee</tradeTag>
+				<weaponTag>Mousekin_MeleeWeapon_Basic</weaponTag>
+				<countRange>5~10</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Ranged weapons -->
+
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponRanged</tradeTag>
+				<weaponTag>Mousekin_RangedWeapon</weaponTag>
+				<countRange>15~20</countRange>
+				<customCountRanges>
+					<Mousekin_MeleeWeapon_PikeThunder>3~4</Mousekin_MeleeWeapon_PikeThunder>
+					<Mousekin_RangedWeapon_Crossbow>2~4</Mousekin_RangedWeapon_Crossbow>
+					<Mousekin_RangedWeapon_CrossbowAuto>2~2</Mousekin_RangedWeapon_CrossbowAuto>
+					<Mousekin_RangedWeapon_MusketLong>4~6</Mousekin_RangedWeapon_MusketLong>
+					<Mousekin_RangedWeapon_MusketShort>2~3</Mousekin_RangedWeapon_MusketShort>
+				</customCountRanges>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Mid-tier military apparel (knight helmet and armor, buying for material value only) -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_ApparelMilitaryKingdom</tag>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Buying back any Indy Town Bycockets -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_ApparelIndyTown</tag>
+				<price>Cheap</price>
+			</li>
+
+		</stockGenerators>
+	</TraderKindDef>
+
+	<!-- Exotic goods trader (Rodemani faction) - buys and sells gold, uranium, jade, industrial/glittertech medicines, industrial/advanced components, artifacts, techprints and other exotic industrial/spacer/ultratech items (that they themselves don't understand); may also offer small quantities of basic goods -->
+
+	<TraderKindDef ParentName="Mousekin_TraderCaravanBase">
+		<defName>Mousekin_TraderCaravan_Exotic</defName>
+		<label>exotic goods trader</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+
+			<!-- Resources -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Gold</thingDef>
+				<countRange>40~80</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Uranium</thingDef>
+				<countRange>0~20</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Jade</thingDef>
+				<countRange>0~40</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<!-- Misc manufactured items -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chocolate</thingDef>
+				<totalPriceRange>10~40</totalPriceRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>5~10</countRange>
+				<price>Expensive</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineUltratech</thingDef>
+				<countRange>2~4</countRange>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_ClockworkComponent</thingDef>
+				<countRange>10~20</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>5~10</countRange>
+				<price>Expensive</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<countRange>2~4</countRange>
+				<price>Expensive</price>
+			</li>
+
+			<!--  Artifacts, Techprints and Exotic goods -->
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Artifact</tradeTag>
+				<thingDefCountRange>2~2</thingDefCountRange>
+				<countRange>1~1</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Techprints">
+				<countChances>
+					<li>
+						<count>3</count>
+						<chance>1</chance>
+					</li>
+				</countChances>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Television</tradeTag>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<countRange>1~1</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Telescope</thingDef>
+				<countRange>0~1</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>ExoticMisc</tradeTag>
+				<thingDefCountRange>5~5</thingDefCountRange>
+				<countRange>1~1</countRange>
+				<excludedThingDefs>
+					<li>MedicineUltratech</li><!-- Already handled by single def -->
+					<li>ComponentSpacer</li><!-- Already handled by single def -->
+					<li>Luciferium</li>
+				</excludedThingDefs>
+				<customCountRanges>
+					<Hyperweave>50~100</Hyperweave>
+				</customCountRanges>
+				<price>Cheap</price>
+			</li>
+			
+			<!-- Books -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_BookResearch</thingDef>
+				<countRange>5~10</countRange>
+			</li>
+			
+			<!-- Raw food at regular prices (just enough to sustain their nomadic lifestyle) -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>PlantFoodRaw</categoryDef>
+				<thingDefCountRange>4~6</thingDefCountRange>
+				<countRange>30~50</countRange>
+			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<!-- As meats are dynamically-generated defs, selected meat types known to Mousekins are assigned a custom tradeTag at runtime via the mod assembly -->
+				<tradeTag>Mousekin_TradeGoods_Meat</tradeTag>
+				<thingDefCountRange>2~3</thingDefCountRange>
+				<countRange>30~50</countRange>
+			</li>
+			
+			<!-- Buys beverages only, as they cannot brew it themselves -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_Beverages</tag>
+			</li>
+			
+			<!-- Buy Processed Food / Ingredients (e.g. Mousekin Honey, Cloverbury Cheese) only, as they cannot make it themselves -->
+			
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Mousekin_TradeGoods_FoodProcessed</tag>
+			</li>
+			
+			<!-- Tool-style melee weapons -->
+
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_WeaponMelee</tradeTag>
+				<weaponTag>Mousekin_Tool</weaponTag>
+				<countRange>5~8</countRange>
+			</li>
+			
+			<!-- Apparel -->
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_ApparelCommoner</tradeTag>
+				<thingDefCountRange>3~4</thingDefCountRange>
+				<countRange>2~3</countRange>
+			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_AccessoryCommoner</tradeTag>
+				<thingDefCountRange>4~4</thingDefCountRange>
+				<countRange>1~2</countRange>
+			</li>
+			
+			<!-- Textiles -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>Textiles</categoryDef>
+				<!-- No Mousekin or Pudgemouse fur -->
+				<excludedThingDefs>
+					<li>Mousekin_Leather_Mousekin</li>
+					<li>Mousekin_LeatherPudgemouse</li>
+				</excludedThingDefs>
+				<thingDefCountRange>4~6</thingDefCountRange>
+				<countRange>10~20</countRange>
+			</li>
+
+			<!-- Buys pets and exotic animals only, and sells Pudgemouse pets -->
+
+			<li Class="StockGenerator_Animals">
+				<tradeTagsBuy>
+					<li>AnimalExotic</li>
+					<li>AnimalFighter</li>
+					<li>AnimalPet</li>
+					<li>AnimalUncommon</li>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>Mousekin_TradeGoods_AnimalPet</li>
+				</tradeTagsSell>
+				<countRange>2~3</countRange>
+			</li>
+			
+			<!-- Buys basic resources at regular prices (to sustain their nomadic lifestyle) -->
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>WoodLog</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Steel</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_MedicinePoultice</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_Beeswax</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_Candle</thingDef>
+			</li>
+					
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Glasses -->
+
+	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
+		<defName>Mousekin_GlassesSmall</defName>
+		<label>Mousekin Pince-Nez Glasses</label>
+		<description>A pair of spectacles with small round lenses, designed to sit directly on the wearer’s nose. Often worn by elderly Mousekins to compensate for their poor eyesight in old age - or to inspire respect from younger Mousekins.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesSmall/MousekinGlassesSmall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Steel>6</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>800</WorkToMake>
+			<Mass>0.020</Mass>
+			<EquipDelay>0.3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.05</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+			<TradePriceImprovement>0.05</TradePriceImprovement>
+		</equippedStatOffsets>
+		<generateCommonality>0.125</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesSmall/MousekinGlassesSmall</wornGraphicPath>
+			<layers>
+				<li>EyeCover</li>
+			</layers>
+			<drawData>
+				<defaultData>
+					<layer>61</layer>
+				</defaultData>
+			</drawData>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinPriest</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
+		<defName>Mousekin_GlassesLarge</defName>
+		<label>Mousekin Research Glasses</label>
+		<description>A pair of spectacles with large round lenses, designed to specifically fit the unique head and ear anatomy of Mousekins. Often worn by Mousekins with myopia, these glasses help increase research speed and are required to unlock high level Mousekin research projects - as well as making the wearer look and feel smarter.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesLarge/MousekinGlassesLarge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.025</Mass>
+			<EquipDelay>0.4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ResearchSpeed>0.5</ResearchSpeed>
+			<MedicalTendQuality>0.10</MedicalTendQuality>
+			<MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
+		<generateCommonality>0.125</generateCommonality>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinGlassesLarge/MousekinGlassesLarge</wornGraphicPath>
+			<layers>
+				<li>EyeCover</li>
+			</layers>
+			<drawData>
+				<defaultData>
+					<layer>61</layer>
+				</defaultData>
+			</drawData>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags>
+				<li>MousekinDoctor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+		</apparel>
+	</ThingDef>
+
+	<!-- Backpacks -->
+
+	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
+		<defName>Mousekin_BackpackWicker</defName>
+		<label>Mousekin Wicker Backpack</label>
+		<description>A wicker basket with shoulder straps, often used by Mousekin peasants to transport crops to storehouses. Has a large carrying capacity but is less durable than a leather backpack.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinBackpackWicker/MousekinBackpackWicker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<WoodLog>2</WoodLog>
+		</costList>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>0.4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<!-- Equivalent to a 70% increase for a Mousekin body size of 0.7 -->
+			<CarryingCapacity>52.5</CarryingCapacity>
+			<!-- Big and bulky, harder to run while carrying one -->
+			<MoveSpeed>-0.5</MoveSpeed>
+			<!-- Viewed as a laborer / peasant accessory -->
+			<SocialImpact>-0.4</SocialImpact>
+			<!-- Peasants having more volume to carry harvested crops -->
+			<PlantHarvestYield>0.1</PlantHarvestYield>
+		</equippedStatOffsets>
+		<generateAllowChance>0.5</generateAllowChance>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinBackpackWicker/MousekinBackpackWicker</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>MousekinIndyTownFarmer</li>
+				<li>MousekinPeasant</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_AccessoryMakeableBase">
+		<defName>Mousekin_BackpackLeather</defName>
+		<label>Mousekin Leather Backpack</label>
+		<description>A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MousekinBackpackLeather/MousekinBackpackLeather</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<!-- For the metal canteen tankard -->
+			<Steel>5</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>0.4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<!-- Equivalent to a 40% increase for a Mousekin body size of 0.7 -->
+			<CarryingCapacity>30</CarryingCapacity>
+			<!-- Better at preserving foraged food while travelling -->
+			<ForagedNutritionPerDay>0.3</ForagedNutritionPerDay>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<recipeUsers Inherit="false">
+				<li>Mousekin_WorkbenchTailor</li>
+			</recipeUsers>
+		</recipeMaker>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MousekinBackpackLeather/MousekinBackpackLeather</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>MousekinMusketeer</li>
+				<li>MousekinCrossbowman</li>
+				<li>MousekinPikeman</li>
+				<li>MousekinTrader</li>
+				<li>MousekinTraderSlaver</li>
+				<li>MousekinIndyTownSoldier</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<!-- Color gen hack to get masks working properly -->
+		<colorGenerator Class="ColorGenerator_White" />
+	</ThingDef>
+	
+</Defs>

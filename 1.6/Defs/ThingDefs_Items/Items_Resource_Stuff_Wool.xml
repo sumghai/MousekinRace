@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>Mousekin_WoolGiantCavy</defName>
+		<label>giant cavy wool</label>
+		<description>Soft, light and provides very good insulation, with a very luxurious feel. Clothes woven from giant cavy wool can help keep the body warm and well-ventilated, even in extreme conditions.</description>
+		<statBases>
+			<MarketValue>3.8</MarketValue>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+		</statBases>
+		<graphicData>
+			<color>(180, 148, 109)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(180, 148, 109)</color>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

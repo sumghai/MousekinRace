@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Apparel, headgear, armor and accessory bases -->
+
+	<ThingDef Name="Mousekin_ApparelBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<thingCategories>
+			<li>Mousekin_Apparel</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="Mousekin_ApparelMakeableBase" ParentName="Mousekin_ApparelBase" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>Mousekin_WorkbenchTailor</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_AccessoryMakeableBase" ParentName="Mousekin_ApparelBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_AccessoryCommoner</li>
+		</tradeTags>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>Mousekin_WorkbenchCrafting</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories Inherit="false">
+			<li>Mousekin_Accessories</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="Mousekin_HatBase" ParentName="Mousekin_ApparelBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>Mousekin_Headgear</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_HatMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>Mousekin_Headgear</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_ApparelCommonerMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelCommoner</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_ApparelMiddleMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMiddle</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelMiddle</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_ApparelMilitaryMakeableBase" ParentName="Mousekin_ApparelMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitary</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelMilitary</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_ApparelMilitaryArmorSmithableBase" ParentName="Mousekin_ApparelMilitaryMakeableBase" Abstract="True">
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>true</smeltable>
+		<defaultStuff>Steel</defaultStuff>
+		<recipeMaker>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers Inherit="false">
+				<li>Mousekin_WorkbenchSmithy</li>
+			</recipeUsers>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<disallowedThingDefs>
+					<li>Gold</li>
+					<li>Silver</li>
+					<li>Plasteel</li>
+					<li>Uranium</li>
+				</disallowedThingDefs>
+			</defaultIngredientFilter>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+		</recipeMaker>
+		<apparel>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_HatCommonerMakeableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelCommoner</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelCommoner</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_HatMiddleMakeableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMiddle</li>
+		</tradeTags>
+		<recipeMaker>
+			<researchPrerequisite>Mousekin_ResearchApparelMiddle</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_HelmetMilitarySmithableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>true</smeltable>
+		<defaultStuff>Steel</defaultStuff>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_ApparelMilitary</li>
+		</tradeTags>
+		<recipeMaker>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers Inherit="false">
+				<li>Mousekin_WorkbenchSmithy</li>
+			</recipeUsers>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<disallowedThingDefs>
+					<li>Gold</li>
+					<li>Silver</li>
+					<li>Plasteel</li>
+					<li>Uranium</li>
+				</disallowedThingDefs>
+			</defaultIngredientFilter>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>Mousekin_ResearchApparelMilitary</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

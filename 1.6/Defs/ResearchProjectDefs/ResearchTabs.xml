@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>Mousekin_Tech</defName>
+		<label>Mousekin Tech</label>
+		<generalTitle>Mousekin research projects</generalTitle>
+		<generalDescription>Unlock medieval technology exclusive to the Mousekin race. You can only have one active project at a time, and some projects require a Mousekin researcher wearing special Research Glasses.</generalDescription>
+	</ResearchTabDef>
+	
+</Defs>

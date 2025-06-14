@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Faction bases with common settings -->
+
+	<FactionDef Abstract="True" Name="Mousekin_FactionBase" ParentName="FactionBase">
+		<pawnSingular>Mousekin</pawnSingular>
+		<pawnsPlural>Mousekins</pawnsPlural>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Mousekin_XenotypeMousekin MayRequire="Ludeon.Rimworld.Biotech">1</Mousekin_XenotypeMousekin>
+			</xenotypeChances>
+		</xenotypeSet>
+		<categoryTag>Mousekin</categoryTag>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HAR_Xenophilia</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HAR_Xenophobia</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeding</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Ritualist</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<!-- Mousekins don't really venerate any animal in particular (requires Harmony postfix) -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalVenerated</li>
+			<!-- Mousekins regard mushrooms and fungi as just another food source -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Preferred</li>
+			<!-- Mousekins don't really do relics - at least, not the RimWorld version of relics -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRelic</li>
+			<!-- Mousekins don't have noble/despised weapons (requires Harmony postfix) -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
+		</disallowedPrecepts>
+		<techLevel>Medieval</techLevel>
+		<startingResearchTags>
+			<li>MousekinStartingResearch</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>MousekinStartingResearch</li>
+		</startingTechprintsResearchTags>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+				<li>Leather_Patch</li>
+				<li>Leather_Plain</li>
+				<li>Steel</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<melaninRange>1</melaninRange>
+	</FactionDef>
+
+	<FactionDef Abstract="True" Name="Mousekin_PlayerFactionBase" ParentName="Mousekin_FactionBase">
+		<isPlayer>true</isPlayer>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinPlayer</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<colorSpectrum>
+			<li>(0, 188, 216)</li>
+		</colorSpectrum>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<allowedCultures>
+			<li>Mousekin_CultureKingdom</li>
+		</allowedCultures>
+		<factionNameMaker>NamerFaction_MousekinPlayerKingdom</factionNameMaker>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinStartingColonist</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+	</FactionDef>
+
+	<!-- Playable Mousekin Settler and Refugee factions -->
+
+	<FactionDef ParentName="Mousekin_PlayerFactionBase">
+		<defName>Mousekin_PlayerFaction_Settlers</defName>
+		<label>New Mousekin Settlers</label>
+		<description>A newly-established hamlet of Mousekin settlers.</description>
+		<basicMemberKind>MousekinColonist</basicMemberKind>
+		<settlementNameMaker>NamerSettlement_MousekinStandard</settlementNameMaker>
+	</FactionDef>
+
+	<FactionDef ParentName="Mousekin_PlayerFactionBase">
+		<defName>Mousekin_PlayerFaction_Refugees</defName>
+		<label>New Mousekin Refugees</label>
+		<description>A group of Mousekin who have lost their home village to Grimalkin invaders.</description>
+		<basicMemberKind>MousekinColonist</basicMemberKind>
+		<settlementNameMaker>NamerSettlement_MousekinPlayerRefugees</settlementNameMaker>
+	</FactionDef>
+
+	<!-- NPC Mousekin factions -->
+
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionKingdom</defName>
+		<label>Mousekin Kingdom</label>
+		<description>A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified, patriarchal and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or persistent enemies if angered.</description>
+		<basicMemberKind>MousekinColonist</basicMemberKind>
+		<listOrderPriority>29</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Lord Protector</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinKingdom</factionIconPath>
+		<colorSpectrum>
+			<li>(255, 215, 0)</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>21</configurationListOrderPriority>
+		<!-- Mousekin Kingdom tends to be aloof towards outsiders, especially non-Mousekins. -->
+		<fixedLeaderKinds>
+			<li>MousekinLordProtector</li>
+		</fixedLeaderKinds>
+		<factionNameMaker>NamerFaction_MousekinKingdom</factionNameMaker>
+		<settlementNameMaker>NamerSettlement_MousekinKingdom</settlementNameMaker>
+		<allowedCultures>
+			<li>Mousekin_CultureKingdom</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+			<Structure_OriginMousekin MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginMousekin>
+		</structureMemeWeights>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinCrossbowman</li>
+					<li>MousekinDoctor</li>
+					<li>MousekinGuardener</li>
+					<li>MousekinInquisitor</li>
+					<li>MousekinKnight</li>
+					<li>MousekinKnightCommander</li>
+					<li>MousekinLordProtector</li>
+					<li>MousekinLostChild</li>
+					<li>MousekinMusketeer</li>
+					<li>MousekinNoble</li>
+					<li>MousekinNun</li>
+					<li>MousekinPeasant</li>
+					<li>MousekinPikeman</li>
+					<li>MousekinPriest</li>
+					<li>MousekinRoyalty</li>
+					<li>MousekinServant</li>
+					<li>MousekinServantChef</li>
+					<li>MousekinServantHighClass</li>
+					<li>MousekinSlave</li>
+					<li>MousekinStartingColonist</li>
+					<li>MousekinTrader</li>
+					<li>MousekinTraderSlaver</li>
+					<li>MousekinTradesman</li>
+					<li>MousekinWanderer</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>Mousekin_TraderCaravan_Bulk</li>
+			<li>Mousekin_TraderCaravan_Apparel</li>
+			<li>Mousekin_TraderCaravan_Animals</li>
+			<li>Mousekin_TraderCaravan_MilitaryKingdom</li>
+		</caravanTraderKinds>
+		<baseTraderKinds>
+			<li>Mousekin_TraderSettlement_Kingdom</li>
+		</baseTraderKinds>
+		<pawnGroupMakers>
+
+			<!-- ===== Violent ===== -->
+
+			<!-- Peasant Militia -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSmart</li>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+					<li>StageThenAttack</li>
+				</disallowedStrategies>
+				<commonality>100</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<MousekinPeasant>5</MousekinPeasant>
+					<MousekinTradesman>1</MousekinTradesman>
+				</options>
+			</li>
+
+			<!-- Guardeners (Basic) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>25</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<MousekinGuardenerApprentice>2</MousekinGuardenerApprentice>
+					<MousekinGuardener>1</MousekinGuardener>
+				</options>
+			</li>
+
+			<!-- Guardeners (Medium) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>50</commonality>
+				<maxTotalPoints>1500</maxTotalPoints>
+				<options>
+					<MousekinGuardener>3</MousekinGuardener>
+					<MousekinGuardenerElite>1</MousekinGuardenerElite>
+				</options>
+			</li>
+
+			<!-- Guardeners (Elite) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<maxTotalPoints>2000</maxTotalPoints>
+				<options>
+					<MousekinGuardenerElite>5</MousekinGuardenerElite>
+				</options>
+			</li>
+
+			<!-- Guardener-led Peasant Militia -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<maxTotalPoints>2000</maxTotalPoints>
+				<options>
+					<MousekinPeasant>5</MousekinPeasant>
+					<MousekinTradesman>1</MousekinTradesman>
+					<MousekinGuardenerApprentice>2</MousekinGuardenerApprentice>
+					<MousekinGuardener>3</MousekinGuardener>
+					<MousekinGuardenerElite>1</MousekinGuardenerElite>
+				</options>
+			</li>
+
+			<!-- Knights (Basic) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>25</commonality>
+				<maxTotalPoints>2000</maxTotalPoints>
+				<options>
+					<MousekinKnightApprentice>2</MousekinKnightApprentice>
+					<MousekinKnight>1</MousekinKnight>
+				</options>
+			</li>
+
+			<!-- Knights (Medium) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<options>
+					<MousekinKnightApprentice>1</MousekinKnightApprentice>
+					<MousekinKnight>4</MousekinKnight>
+				</options>
+			</li>
+
+			<!-- Knights (Elite) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>20</commonality>
+				<options>
+					<MousekinKnight>6</MousekinKnight>
+					<MousekinKnightCommander>1</MousekinKnightCommander>
+				</options>
+			</li>
+
+			<!-- Kingdom Army (Basic) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<maxTotalPoints>2000</maxTotalPoints>
+				<options>
+					<MousekinPikeman>10</MousekinPikeman>
+					<MousekinCrossbowman>6</MousekinCrossbowman>
+					<MousekinKnightApprentice>2</MousekinKnightApprentice>
+					<MousekinKnight>5</MousekinKnight>
+				</options>
+			</li>
+
+			<!-- Kingdom Army (Medium) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<maxTotalPoints>4000</maxTotalPoints>
+				<options>
+					<MousekinPikeman>20</MousekinPikeman>
+					<MousekinCrossbowman>15</MousekinCrossbowman>
+					<MousekinMusketeer>5</MousekinMusketeer>
+					<MousekinGuardener>6</MousekinGuardener>
+					<MousekinGuardenerElite>2</MousekinGuardenerElite>
+					<MousekinKnight>10</MousekinKnight>
+					<MousekinKnightCommander>2</MousekinKnightCommander>
+				</options>
+			</li>
+
+			<!-- Kingdom Army (Elite) -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<options>
+					<MousekinPikeman>20</MousekinPikeman>
+					<MousekinCrossbowman>20</MousekinCrossbowman>
+					<MousekinMusketeer>20</MousekinMusketeer>
+					<MousekinGuardener>10</MousekinGuardener>
+					<MousekinGuardenerElite>4</MousekinGuardenerElite>
+					<MousekinKnight>15</MousekinKnight>
+					<MousekinKnightCommander>5</MousekinKnightCommander>
+					<MousekinLordProtector>1</MousekinLordProtector>
+				</options>
+			</li>
+
+			<!-- ===== Peaceful - Passing Travellers or Visitors ===== -->
+
+			<!-- Settlers on their way to start a new village -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<MousekinColonist>10</MousekinColonist>
+					<MousekinPeasant>30</MousekinPeasant>
+					<MousekinTradesman>5</MousekinTradesman>
+					<MousekinGuardener>2</MousekinGuardener>
+					<MousekinGuardenerElite>1</MousekinGuardenerElite>
+					<MousekinPriest>1</MousekinPriest>
+					<MousekinNun>2</MousekinNun>
+				</options>
+			</li>
+
+			<!-- Journeying Craftsmen -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<MousekinTradesman>10</MousekinTradesman>
+				</options>
+			</li>
+
+			<!-- Religious Pilgrims with armed escort  -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<MousekinPriest>3</MousekinPriest>
+					<MousekinNun>10</MousekinNun>
+					<MousekinCrossbowman>3</MousekinCrossbowman>
+				</options>
+			</li>
+
+			<!-- Noble Family Outing with armed escort -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<MousekinNoble>4</MousekinNoble>
+					<MousekinServantHighClass>2</MousekinServantHighClass>
+					<MousekinServantChef>3</MousekinServantChef>
+					<MousekinServant>8</MousekinServant>
+					<MousekinCrossbowman>3</MousekinCrossbowman>
+				</options>
+			</li>
+
+			<!-- Royal Entourage -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<MousekinRoyalty>3</MousekinRoyalty>
+					<MousekinServantHighClass>4</MousekinServantHighClass>
+					<MousekinServantChef>6</MousekinServantChef>
+					<MousekinPikeman>8</MousekinPikeman>
+					<MousekinCrossbowman>6</MousekinCrossbowman>
+					<MousekinKnight>4</MousekinKnight>
+				</options>
+			</li>
+
+			<!-- ===== Traders ===== -->
+
+			<!-- Regular Caravan Trader -->
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<MousekinTrader>1</MousekinTrader>
+				</traders>
+				<carriers>
+					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
+				</carriers>
+				<guards>
+					<MousekinColonist>2</MousekinColonist>
+					<MousekinCrossbowman>1</MousekinCrossbowman>
+					<MousekinPikeman>1</MousekinPikeman>
+				</guards>
+			</li>
+
+			<!-- ===== Settlements ===== -->
+
+			<!-- Village -->
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>75</commonality>
+				<options>
+					<MousekinColonist>10</MousekinColonist>
+					<MousekinPeasant>30</MousekinPeasant>
+					<MousekinTradesman>5</MousekinTradesman>
+					<MousekinGuardenerApprentice>2</MousekinGuardenerApprentice>
+					<MousekinGuardener>4</MousekinGuardener>
+					<MousekinGuardenerElite>2</MousekinGuardenerElite>
+					<MousekinPriest>1</MousekinPriest>
+					<MousekinNun>1</MousekinNun>
+				</options>
+			</li>
+
+			<!-- Town -->
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<MousekinColonist>5</MousekinColonist>
+					<MousekinPeasant>10</MousekinPeasant>
+					<MousekinTradesman>10</MousekinTradesman>
+					<MousekinGuardener>10</MousekinGuardener>
+					<MousekinGuardenerElite>5</MousekinGuardenerElite>
+					<MousekinKnight>5</MousekinKnight>
+					<MousekinPikeman>10</MousekinPikeman>
+					<MousekinServant>4</MousekinServant>
+					<MousekinServantChef>2</MousekinServantChef>
+					<MousekinServantHighClass>3</MousekinServantHighClass>
+					<MousekinNoble>2</MousekinNoble>
+					<MousekinPriest>2</MousekinPriest>
+					<MousekinNun>4</MousekinNun>
+				</options>
+			</li>
+
+			<!-- City -->
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>25</commonality>
+				<options>
+					<MousekinColonist>5</MousekinColonist>
+					<MousekinTradesman>10</MousekinTradesman>
+					<MousekinGuardener>10</MousekinGuardener>
+					<MousekinGuardenerElite>5</MousekinGuardenerElite>
+					<MousekinKnight>10</MousekinKnight>
+					<MousekinKnightCommander>2</MousekinKnightCommander>
+					<MousekinPikeman>30</MousekinPikeman>
+					<MousekinMusketeer>10</MousekinMusketeer>
+					<MousekinServant>8</MousekinServant>
+					<MousekinServantChef>4</MousekinServantChef>
+					<MousekinServantHighClass>6</MousekinServantHighClass>
+					<MousekinRoyalty>3</MousekinRoyalty>
+					<MousekinPriest>2</MousekinPriest>
+					<MousekinNun>4</MousekinNun>
+				</options>
+			</li>
+
+		</pawnGroupMakers>
+		<modExtensions>
+			<li Class="VFECore.FactionDefExtension">
+				<startingGoodwillByFactionDefs>
+					<Mousekin_PlayerFaction_Settlers>10~20</Mousekin_PlayerFaction_Settlers>
+					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>
+					<Mousekin_FactionIndyTown>-100~-80</Mousekin_FactionIndyTown>
+					<Mousekin_FactionNomad>30~40</Mousekin_FactionNomad>
+				</startingGoodwillByFactionDefs>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>TemperateForest</li>
+				</allowedBiomes>
+				<excludeFromQuests>true</excludeFromQuests>
+				<excludeFromCommConsole>true</excludeFromCommConsole>
+			</li>
+			<li Class="MousekinRace.AlliableFactionExtension">
+				<joinButtonLabel>Pledge fealty to The Mousekin King</joinButtonLabel>
+				<membershipTypeLabel>vassal</membershipTypeLabel>
+				<playerFactionNameMaker>NamerFaction_MousekinPlayerKingdom</playerFactionNameMaker>
+				<hostileToFactionTypes>
+					<li>Mousekin_FactionIndyTown</li>
+				</hostileToFactionTypes>
+				<flagGraphicData>
+					<texPath>Things/Building/Misc/Mousekin_FlagKingdom</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+					<drawOffset>(0,2.5,3)</drawOffset>
+				</flagGraphicData>
+				<quittingPawnKinds>
+					<!-- Revolutionaries will flee back to the Independent Towns -->
+					<li>MousekinIndyTownCouncilor</li>
+					<li>MousekinIndyTownSoldier</li>
+				</quittingPawnKinds>
+				<tradePriceFactor>0.75</tradePriceFactor>
+				<factionRestrictedCraftableThingDefs>
+					<li>Mousekin_ApparelGuardenerGown</li>
+					<li>Mousekin_ApparelGuardenerRobe</li>
+					<li>Mousekin_ArmorPlate</li>
+					<li>Mousekin_HelmetKnight</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardenerTraining</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardener</li>
+					<li>Mousekin_MeleeWeapon_SwordKnight</li>
+				</factionRestrictedCraftableThingDefs>
+				<recruitableColonistSettings>
+					<defaultSpousePawnKind>MousekinColonist</defaultSpousePawnKind>
+					<options>
+						<li>
+							<pawnKind>MousekinColonist</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekin</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1300</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinTradesman</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinCraftsman</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1500</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinDoctor</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinDoctor</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1750</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinPeasant</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinFarmer</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<overrideSpousePawnKind>MousekinPeasant</overrideSpousePawnKind>
+						</li>
+						<li>
+							<pawnKind>MousekinPriest</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinPriest</iconPath>
+							<basePrice>1800</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinNun</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinNun</iconPath>
+							<basePrice>1400</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinGuardenerElite</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinGuardenerElite</iconPath>
+							<basePrice>1700</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinGuardener</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinGuardener</iconPath>
+							<basePrice>1600</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinCrossbowman</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinSoldierCrossbow</iconPath>
+							<count>3</count>
+							<basePrice>3600</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinPikeman</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinSoldierPike</iconPath>
+							<count>3</count>
+							<basePrice>3600</basePrice>
+						</li>
+					</options>
+				</recruitableColonistSettings>
+			</li>
+		</modExtensions>
+	</FactionDef>
+
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionIndyTown</defName>
+		<label>Independent Mousekins</label>
+		<description>A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom.</description>
+		<basicMemberKind>MousekinIndyTownFarmer</basicMemberKind>
+		<listOrderPriority>28</listOrderPriority>
+		<settlementGenerationWeight>0.1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Prime Councilor</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinIndyTown</factionIconPath>
+		<colorSpectrum>
+			<li>(0, 128, 0)</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>22</configurationListOrderPriority>
+		<!-- Independent Mousekins are friendly to outsiders, mainly out of desperation and necessity. -->
+		<fixedLeaderKinds>
+			<li>MousekinIndyTownCouncilor</li>
+		</fixedLeaderKinds>
+		<factionNameMaker>NamerFaction_MousekinIndyTown</factionNameMaker>
+		<settlementNameMaker>NamerSettlement_MousekinIndyTown</settlementNameMaker>
+		<allowedCultures>
+			<li>Mousekin_CultureIndyTown</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinIndyTownCouncilor</li>
+					<li>MousekinIndyTownFarmer</li>
+					<li>MousekinIndyTownSoldier</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>Mousekin_TraderCaravan_Bulk</li>
+			<li>Mousekin_TraderCaravan_Apparel</li>
+			<li>Mousekin_TraderCaravan_Animals</li>
+			<li>Mousekin_TraderCaravan_MilitaryIndyTown</li>
+		</caravanTraderKinds>
+		<baseTraderKinds>
+			<li>Mousekin_TraderSettlement_IndyTown</li>
+		</baseTraderKinds>
+		<pawnGroupMakers>
+
+			<!-- ===== Violent ===== -->
+
+			<!-- Indy Town Farmer Militia -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>
+					<li>Siege</li>
+					<li>StageThenAttack</li>
+				</disallowedStrategies>
+				<commonality>100</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<MousekinIndyTownFarmer>5</MousekinIndyTownFarmer>
+				</options>
+			</li>
+
+			<!-- Indy Town Basic Army -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>75</commonality>
+				<maxTotalPoints>3000</maxTotalPoints>
+				<options>
+					<MousekinIndyTownFarmer>5</MousekinIndyTownFarmer>
+					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
+				</options>
+			</li>
+
+			<!-- Indy Town Advanced Army -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>50</commonality>
+				<options>
+					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
+					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
+				</options>
+			</li>
+
+			<!-- ===== Peaceful - Passing Travellers or Visitors ===== -->
+
+			<!-- Indy Town soldiers escorting farmers -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<MousekinIndyTownFarmer>10</MousekinIndyTownFarmer>
+					<MousekinIndyTownSoldier>5</MousekinIndyTownSoldier>
+					<MousekinIndyTownCouncilor>2</MousekinIndyTownCouncilor>
+				</options>
+			</li>
+
+			<!-- ===== Traders ===== -->
+
+			<!-- Regular Caravan Trader -->
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<MousekinTrader>1</MousekinTrader>
+				</traders>
+				<carriers>
+					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
+				</carriers>
+				<guards>
+					<MousekinIndyTownFarmer>1</MousekinIndyTownFarmer>
+					<MousekinIndyTownSoldier>1</MousekinIndyTownSoldier>
+				</guards>
+			</li>
+
+			<!-- ===== Settlements ===== -->
+
+			<!-- Indy Town -->
+
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<MousekinIndyTownFarmer>20</MousekinIndyTownFarmer>
+					<MousekinTradesman>5</MousekinTradesman>
+					<MousekinIndyTownSoldier>10</MousekinIndyTownSoldier>
+					<MousekinPriest>2</MousekinPriest>
+					<MousekinNun>4</MousekinNun>
+					<MousekinIndyTownCouncilor>5</MousekinIndyTownCouncilor>
+				</options>
+			</li>
+
+		</pawnGroupMakers>
+		<modExtensions>
+			<li Class="VFECore.FactionDefExtension">
+				<startingGoodwillByFactionDefs>
+					<Mousekin_PlayerFaction_Settlers>10~20</Mousekin_PlayerFaction_Settlers>
+					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>
+					<Mousekin_FactionNomad>40~50</Mousekin_FactionNomad>
+				</startingGoodwillByFactionDefs>
+				<allowedBiomes>
+					<li>BorealForest</li>
+					<li>TemperateForest</li>
+				</allowedBiomes>
+				<excludeFromQuests>true</excludeFromQuests>
+				<excludeFromCommConsole>true</excludeFromCommConsole>
+			</li>
+			<li Class="MousekinRace.AlliableFactionExtension">
+				<joinRequirements>
+					<minGoodwill>80</minGoodwill>
+				</joinRequirements>
+				<joinButtonLabel>Long Live the Revolution!</joinButtonLabel>
+				<membershipTypeLabel>member</membershipTypeLabel>
+				<playerFactionNameMaker>NamerFaction_MousekinPlayerIndyTown</playerFactionNameMaker>
+				<hostileToFactionTypes>
+					<li>Mousekin_FactionKingdom</li>
+				</hostileToFactionTypes>
+				<flagGraphicData>
+					<texPath>Things/Building/Misc/Mousekin_FlagIndyTown</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+					<drawOffset>(1,2.5,3)</drawOffset>
+				</flagGraphicData>
+				<quittingPawnKinds>
+					<!-- Guardeners are loyal to the Kingdom -->
+					<li>MousekinGuardenerElite</li>
+					<li>MousekinGuardener</li>
+					<li>MousekinGuardenerApprentice</li>
+				</quittingPawnKinds>
+				<quittingPawnsWithTraits>
+					<!-- Inquisitionists will leave -->
+					<Mousekin_TraitSpectrum_Faith>4</Mousekin_TraitSpectrum_Faith>
+				</quittingPawnsWithTraits>
+				<tradePriceFactor>0.8</tradePriceFactor>
+				<factionRestrictedCraftableThingDefs>
+					<li>Mousekin_HatWoodsman</li>
+					<li>Mousekin_MeleeWeapon_PikeThunder</li>
+					<li>Mousekin_RangedWeapon_MusketShort</li>
+				</factionRestrictedCraftableThingDefs>
+				<recruitableColonistSettings>
+					<defaultSpousePawnKind>MousekinIndyTownFarmer</defaultSpousePawnKind>
+					<priceOffsetWithSpouse>900</priceOffsetWithSpouse>
+					<priceOffsetWithChildren>900</priceOffsetWithChildren>
+					<options>
+						<li>
+							<pawnKind>MousekinColonist</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekin</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1170</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinTradesman</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinCraftsman</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1350</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinDoctor</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinDoctor</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>1575</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinIndyTownFarmer</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinFarmer</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>900</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinPriest</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinPriest</iconPath>
+							<basePrice>1620</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinNun</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinNun</iconPath>
+							<basePrice>1260</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinIndyTownCouncilor</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinBycocket</iconPath>
+							<canHaveFamily>true</canHaveFamily>
+							<basePrice>2000</basePrice>
+						</li>
+						<li>
+							<pawnKind>MousekinIndyTownSoldier</pawnKind>
+							<iconPath>UI/Icons/AllegianceSystem/RecruitMousekinSoldierMusket</iconPath>
+							<count>3</count>
+							<basePrice>3600</basePrice>
+						</li>
+					</options>
+				</recruitableColonistSettings>
+			</li>
+		</modExtensions>
+	</FactionDef>
+
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionNomad</defName>
+		<fixedName>Rodemani</fixedName>
+		<label>Mousekin Nomads</label>
+		<description>A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in giant cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves.</description>
+		<basicMemberKind>MousekinTraderNomad</basicMemberKind>
+		<listOrderPriority>27</listOrderPriority>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canSiege>false</canSiege>
+		<canStageAttacks>false</canStageAttacks>
+		<leaderTitle>Wagon Master</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinNomads</factionIconPath>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<colorSpectrum>
+			<li>(115, 102, 230)</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>23</configurationListOrderPriority>
+		<!-- Mousekin Nomads are more friendly and forgiving to outsiders than Independents, because their entire livelihood depends on trade with other factions. -->
+		<fixedLeaderKinds>
+			<li>MousekinTraderNomad</li>
+		</fixedLeaderKinds>
+		<allowedCultures>
+			<li>Mousekin_CultureNomad</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinNomad</li>
+					<li>MousekinTraderNomad</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>Mousekin_TraderCaravan_Exotic</li>
+		</caravanTraderKinds>
+		<pawnGroupMakers>
+
+			<!-- ===== Peaceful - Passing Travellers or Visitors ===== -->
+
+			<!-- Nomad caravan -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<MousekinNomad>10</MousekinNomad>
+					<MousekinTraderNomad>2</MousekinTraderNomad>
+				</options>
+			</li>
+
+			<!-- ===== Traders ===== -->
+
+			<!-- Regular Caravan Trader -->
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<MousekinTraderNomad>1</MousekinTraderNomad>
+				</traders>
+				<carriers>
+					<Mousekin_AnimalGiantCavy>10</Mousekin_AnimalGiantCavy>
+				</carriers>
+				<guards>
+					<MousekinNomad>1</MousekinNomad>
+				</guards>
+			</li>
+
+		</pawnGroupMakers>
+		<modExtensions>
+			<li Class="KCSG.CustomGenOption">
+				<canSpawnSettlements>false</canSpawnSettlements>
+			</li>
+			<li Class="VFECore.FactionDefExtension">
+				<startingGoodwillByFactionDefs>
+					<OutlanderCivil>5~20</OutlanderCivil>
+				</startingGoodwillByFactionDefs>
+				<excludeFromQuests>true</excludeFromQuests>
+				<excludeFromCommConsole>true</excludeFromCommConsole>
+			</li>
+		</modExtensions>
+	</FactionDef>
+
+	<FactionDef ParentName="Mousekin_FactionBase">
+		<defName>Mousekin_FactionBrigand</defName>
+		<label>Mousekin Brigands</label>
+		<description>A roving band of Mousekin raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate.</description>
+		<basicMemberKind>MousekinRaider</basicMemberKind>
+		<listOrderPriority>9</listOrderPriority>
+		<settlementGenerationWeight>0</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Ringleader</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/MousekinBrigands</factionIconPath>
+		<colorSpectrum>
+			<li>(187, 54, 13)</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>24</configurationListOrderPriority>
+		<fixedLeaderKinds>
+			<li>MousekinRaider</li>
+		</fixedLeaderKinds>
+		<permanentEnemy>true</permanentEnemy>
+		<factionNameMaker>NamerFaction_MousekinBrigands</factionNameMaker>
+		<allowedCultures>
+			<li>Mousekin_CultureBrigand</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Raider</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_AncestorWorship</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_FloralReverence</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Monarchy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Republic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentDiversity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_RodentPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mousekin_IdeoMeme_Wanderlust</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>MousekinRaider</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<pawnGroupMakers>
+			<!-- Raiding party - Melee & Ranged -->
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>100</commonality>
+				<options>
+					<MousekinRaider>1</MousekinRaider>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<modExtensions>
+			<li Class="KCSG.CustomGenOption">
+				<canSpawnSettlements>false</canSpawnSettlements>
+			</li>
+			<li Class="VFECore.FactionDefExtension">
+				<excludeFromQuests>true</excludeFromQuests>
+				<excludeFromCommConsole>true</excludeFromCommConsole>
+			</li>
+		</modExtensions>
+	</FactionDef>
+
+</Defs>

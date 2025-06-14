@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef Name="Mousekin_WortBase" ParentName="ResourceBase" Abstract="True">
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>2.5</MarketValue>
+			<Mass>0.8</Mass>
+			<Flammability>0.2</Flammability>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_WortBase">
+		<defName>Mousekin_WortLager</defName>
+		<label>Mousekin lager wort</label>
+		<description>A cloudy mixture of Mouse-ear barley, hops, water and yeast, ready to be fermented into Mousekin Lager.</description>
+		<graphicData>
+			<texPath>Things/Items/Beverage/Mousekin_WortLager</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_WortBase">
+		<defName>Mousekin_WortMead</defName>
+		<label>Mousekin mead must</label>
+		<description>A mixture of Mousekin Honey, water and yeast, ready to be fermented into Mousekin Mead.</description>
+		<graphicData>
+			<texPath>Things/Items/Beverage/Mousekin_WortMead</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

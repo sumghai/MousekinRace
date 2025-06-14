@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Notes on initialWillRange and initialResistanceRange:
+		- Mice are harder to recruit, due to their mild mistrust of humans
+		- Paradoxically, they are usually easier to enslave due to their small size and weakness, and can be more quickly cowed into submission
+	-->
+
+	<PawnKindDef Abstract="True" Name="Mousekin_BasePawnKind">
+		<race>Mousekin</race>
+		<combatPower>20</combatPower>
+		<nameMaker>NamerPerson_MousekinMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinFemale</nameMakerFemale>
+		<isFighter>false</isFighter>
+		<!-- Most Mousekins (or their unseen world pawn relatives) are assumed to be from the Kingdom faction -->
+		<defaultFactionType>Mousekin_FactionKingdom</defaultFactionType>
+		<invFoodDef>Mousekin_MealTrailMix</invFoodDef>
+		<invNutrition>3</invNutrition>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>350~600</apparelMoney>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Mousekin_XenotypeMousekin MayRequire="Ludeon.Rimworld.Biotech">1</Mousekin_XenotypeMousekin>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- Player starting colonists -->
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinColonist</defName>
+		<label>Mousekin settler</label>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinStartingColonist</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<defaultFactionType>Mousekin_PlayerFaction_Settlers</defaultFactionType>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinStartingColonist</li>
+		</apparelTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	</PawnKindDef>
+
+	<!-- NPCs from Mousekin Kingdom faction type -->
+	
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinLordProtector</defName>
+		<label>Lord Protector</label>
+		<combatPower>130</combatPower>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
+		<isFighter>true</isFighter>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinLordProtector</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<forceWeaponQuality>Legendary</forceWeaponQuality>
+		<weaponMoney>1000~2000</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_KnightCommander</li>
+		</weaponTags>
+		<initialWillRange>13~15</initialWillRange>
+		<initialResistanceRange>45~65</initialResistanceRange>	
+		<minGenerationAge>40</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
+		<apparelMoney>9999999</apparelMoney>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<ignoreFactionApparelStuffRequirements>true</ignoreFactionApparelStuffRequirements>
+		<apparelTags>
+			<li>MousekinKnightCommander</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorPlate</li>
+			<li>Mousekin_ApparelKnightCommanderCape</li>
+			<li>Mousekin_HelmetKnightCommander</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<stuff>Mousekin_WoolGiantCavy</stuff>
+				<quality>Legendary</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorPlate</apparelDef>
+				<stuff>Silver</stuff>
+				<quality>Legendary</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<apparelDef>Mousekin_ApparelKnightCommanderCape</apparelDef>
+				<stuff>Cloth</stuff>
+				<quality>Legendary</quality>
+			</li>
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetKnightCommander</apparelDef>
+				<stuff>Silver</stuff>
+				<quality>Legendary</quality>
+			</li>
+		</specificApparelRequirements>
+		<modExtensions>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinRoyalty</defName>
+		<label>Mousekin royalty</label>
+		<combatPower>60</combatPower>
+		<nameMaker>NamerPerson_MousekinRoyalMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinRoyalFemale</nameMakerFemale>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinRoyalty</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+		<initialWillRange>11~14</initialWillRange>
+		<initialResistanceRange>41~61</initialResistanceRange>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinRoyalty</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinNoble</defName>
+		<label>Mousekin noble</label>
+		<combatPower>50</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinNoble</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>70</maxGenerationAge>
+		<initialWillRange>8~12</initialWillRange>
+		<initialResistanceRange>41~61</initialResistanceRange>
+		<apparelTags>
+			<li>MousekinNoble</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinInquisitor</defName>
+		<label>Mousekin inquisitor</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinInquisitor</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
+		<!-- Placeholder apparel -->
+		<apparelTags>
+			<li>MousekinStartingColonist</li>
+		</apparelTags>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>999~999</initialResistanceRange>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<modExtensions>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinPriest</defName>
+		<label>Mousekin priest</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinPriest</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
+		<apparelTags>
+			<li>MousekinPriest</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelPriestCassock</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>33~49</initialResistanceRange>
+		<modExtensions>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinNun</defName>
+		<label>Mousekin nun</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinNun</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
+		<apparelTags>
+			<li>MousekinNun</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelNunHabit</li>
+			<li>Mousekin_HatNunVeil</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>31~47</initialResistanceRange>
+		<modExtensions>
+			<li Class="MousekinRace.RomanceUtilsExtension">
+				<preventNewRomances>true</preventNewRomances>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinKnightCommander</defName>
+		<label>Mousekin knight commander</label>
+		<combatPower>120</combatPower>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinKnightCommander</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<itemQuality>Masterwork</itemQuality>
+		<weaponMoney>180~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_KnightCommander</li>
+		</weaponTags>
+		<initialWillRange>9~13</initialWillRange>
+		<initialResistanceRange>41~61</initialResistanceRange>
+		<minGenerationAge>40</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<apparelMoney>9999999</apparelMoney>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<ignoreFactionApparelStuffRequirements>true</ignoreFactionApparelStuffRequirements>
+		<apparelTags>
+			<li>MousekinKnightCommander</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorPlate</li>
+			<li>Mousekin_ApparelKnightCommanderCape</li>
+			<li>Mousekin_HelmetKnightCommander</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<stuff>Mousekin_WoolGiantCavy</stuff>
+				<quality>Masterwork</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorPlate</apparelDef>
+				<stuff>Silver</stuff>
+				<quality>Masterwork</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<apparelDef>Mousekin_ApparelKnightCommanderCape</apparelDef>
+				<stuff>Cloth</stuff>
+				<quality>Masterwork</quality>
+			</li>
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetKnightCommander</apparelDef>
+				<stuff>Silver</stuff>
+				<quality>Masterwork</quality>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinGuardenerElite</defName>
+		<label>Mousekin elite Guardener</label>
+		<combatPower>80</combatPower>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinGuardener</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<itemQuality>Excellent</itemQuality>
+		<weaponMoney>150~550</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Guardener</li>
+		</weaponTags>
+		<minGenerationAge>30</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinGuardenerElite</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGuardenerGown</li>
+			<li>Mousekin_ApparelGuardenerRobe</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGuardenerGown</apparelDef>
+				<quality>Good</quality>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGuardenerRobe</apparelDef>
+				<quality>Excellent</quality>
+			</li>
+		</specificApparelRequirements>
+		<initialWillRange>8~12</initialWillRange>
+		<initialResistanceRange>41~61</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinKnight</defName>
+		<label>Mousekin knight</label>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
+		<combatPower>100</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinKnight</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>160~180</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Knight</li>
+		</weaponTags>
+		<initialWillRange>7~10</initialWillRange>
+		<initialResistanceRange>39~59</initialResistanceRange>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinKnight</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorPlate</li>
+			<li>Mousekin_HelmetKnight</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<quality>Good</quality>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Burgundy -->
+							<only>(56, 38, 48)</only>
+						</li>
+						<li>
+							<!-- Dark blue-grey -->
+							<only>(38, 52, 62)</only>
+						</li>
+						<li>
+							<!-- Black -->
+							<only>(45, 45, 45)</only>
+						</li>
+						<li>
+							<!-- Dark brown -->
+							<only>(79, 62, 45)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorPlate</apparelDef>
+				<!-- Use faction default of steel -->
+				<quality>Good</quality>
+			</li>
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetKnight</apparelDef>
+				<!-- Use faction default of steel -->
+				<quality>Good</quality>
+			</li>
+		</specificApparelRequirements>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.80</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinGuardener</defName>
+		<label>Mousekin Guardener</label>
+		<nameMaker>NamerPerson_MousekinHeroicMale</nameMaker>
+		<nameMakerFemale>NamerPerson_MousekinHeroicFemale</nameMakerFemale>
+		<combatPower>60</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinGuardener</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Guardener</li>
+		</weaponTags>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinGuardener</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGuardenerGown</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGuardenerGown</apparelDef>
+				<quality>Good</quality>
+			</li>
+		</specificApparelRequirements>
+		<initialWillRange>6~9</initialWillRange>
+		<initialResistanceRange>39~59</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinKnightApprentice</defName>
+		<label>Mousekin squire</label>
+		<combatPower>40</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinKnight</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>130~180</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Knight</li>
+		</weaponTags>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>8~12</initialResistanceRange>
+		<minGenerationAge>14</minGenerationAge>
+		<maxGenerationAge>17</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinKnightApprentice</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<quality>Good</quality>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Burgundy -->
+							<only>(56, 38, 48)</only>
+						</li>
+						<li>
+							<!-- Dark blue-grey -->
+							<only>(38, 52, 62)</only>
+						</li>
+						<li>
+							<!-- Black -->
+							<only>(45, 45, 45)</only>
+						</li>
+						<li>
+							<!-- Dark brown -->
+							<only>(79, 62, 45)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.80</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinGuardenerApprentice</defName>
+		<label>Mousekin apprentice Guardener</label>
+		<combatPower>35</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinGuardener</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>100~100</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_GuardenerApprentice</li>
+		</weaponTags>
+		<minGenerationAge>10</minGenerationAge>
+		<maxGenerationAge>17</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinGuardener</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGuardenerGown</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGuardenerGown</apparelDef>
+				<quality>Normal</quality>
+			</li>
+		</specificApparelRequirements>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>8~12</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinDoctor</defName>
+		<label>Mousekin doctor</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinDoctor</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>30</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
+		<apparelTags>
+			<li>MousekinDoctor</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_GlassesLarge</li>
+		</apparelRequired>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinServantHighClass</defName>
+		<label>Mousekin servant</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinServantHighClass</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinServantHighClass</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinServantChef</defName>
+		<label>Mousekin chef</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinServantChef</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>60~150</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_Tool_Chef</li>
+		</weaponTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinServantChef</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinServant</defName>
+		<label>Mousekin servant</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinServant</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>25</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinServant</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinTradesman</defName>
+		<label>Mousekin tradesman</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTradesman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>50~150</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_Tool_Tradesman</li>
+		</weaponTags>
+		<minGenerationAge>25</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinTradesman</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinMusketeer</defName>
+		<label>Mousekin mouseketeer</label>
+		<combatPower>55</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinMusketeer</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<forceWeaponQuality>Normal</forceWeaponQuality>
+		<weaponMoney>250</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Musketeer</li>
+		</weaponTags>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinMusketeer</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorCuirass</li>
+			<li>Mousekin_BackpackLeather</li>
+			<li>Mousekin_HelmetMorion</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Dark pastel blue -->
+							<only>(81, 98, 107)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetMorion</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+		</specificApparelRequirements>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>18~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinCrossbowman</defName>
+		<label>Mousekin crossbowman</label>
+		<labelPlural>Mousekin crossbowmen</labelPlural>
+		<combatPower>45</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinCrossbowman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.9~1.5</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>200~250</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
+		</weaponTags>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>18~27</initialResistanceRange>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinCrossbowman</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorCuirass</li>
+			<li>Mousekin_BackpackLeather</li>
+			<li>Mousekin_HelmetKettle</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Dark pastel red -->
+							<only>(107, 81, 81)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetKettle</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+		</specificApparelRequirements>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.67</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinPikeman</defName>
+		<label>Mousekin pikeman</label>
+		<labelPlural>Mousekin pikemen</labelPlural>
+		<combatPower>45</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinPikeman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.8~1.0</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~160</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Pikeman</li>
+		</weaponTags>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinPikeman</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorCuirass</li>
+			<li>Mousekin_BackpackLeather</li>
+			<li>Mousekin_HelmetMorion</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<!-- Use default cloth stuff color -->
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Mousekin_HelmetMorion</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+		</specificApparelRequirements>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>18~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinTrader</defName>
+		<label>Mousekin trader</label>
+		<trader>true</trader>
+		<combatPower>35</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTrader</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.8~1.0</gearHealthRange>
+		<weaponMoney>50~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinTrader</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_BackpackLeather</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
+		</specificApparelRequirements>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinPeasant</defName>
+		<label>Mousekin peasant</label>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinPeasant</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.4~0.8</gearHealthRange>
+		<weaponMoney>65~150</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_Tool_Peasant</li>
+		</weaponTags>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>60</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinPeasant</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinTraderSlaver</defName>
+		<label>Mousekin slaver</label>
+		<combatPower>40</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTraderSlaver</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.8~1</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinTraderSlaver</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_BackpackLeather</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
+		</specificApparelRequirements>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinSlave</defName>
+		<label>Mousekin slave</label>
+		<combatPower>10</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinSlave</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>30</maxGenerationAge>
+		<!-- Temporarily naked, will replace with slave rags -->
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>0~0</apparelMoney>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- NPCs from Independent Mousekins faction type (tougher to enslave, because they fought hard for their own freedom in the first place) -->
+
+	<PawnKindDef Abstract="True" Name="Mousekin_FactionIndyTown_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defaultFactionType>Mousekin_FactionIndyTown</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
+		<defName>MousekinIndyTownCouncilor</defName>
+		<label>Mousekin councilor</label>
+		<combatPower>40</combatPower>
+		<isFighter>true</isFighter>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinIndyTownCouncilor</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>2~3</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>150~300</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
+		</weaponTags>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinIndyTownCouncilor</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_HatWoodsman</li>
+			<li>Mousekin_ApparelCloak</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Evergreen -->
+							<only>(44, 56, 33)</only>
+						</li>
+						<li>
+							<!-- Artichoke green -->
+							<only>(62, 80, 42)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<apparelDef>Mousekin_ApparelCloak</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Evergreen -->
+							<only>(44, 56, 33)</only>
+						</li>
+						<li>
+							<!-- Artichoke green -->
+							<only>(62, 80, 42)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+		</specificApparelRequirements>
+		<initialWillRange>9~11</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
+		<defName>MousekinIndyTownSoldier</defName>
+		<label>Mousekin town soldier</label>
+		<labelPlural>Mousekin town soldiers</labelPlural>
+		<combatPower>50</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinIndyTownSoldier</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>1~2</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~250</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_IndyTown</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
+		</weaponTags>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelTags>
+			<li>MousekinIndyTownSoldier</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_ApparelGambeson</li>
+			<li>Mousekin_ArmorCuirass</li>
+			<li>Mousekin_BackpackLeather</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Evergreen -->
+							<only>(44, 56, 33)</only>
+						</li>
+						<li>
+							<!-- Artichoke green -->
+							<only>(62, 80, 42)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+				<!-- Use faction default of plainleather or patchleather -->
+			</li>
+		</specificApparelRequirements>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<initialWillRange>8~9</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.90</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_FactionIndyTown_BasePawnKind">
+		<defName>MousekinIndyTownFarmer</defName>
+		<label>Mousekin town farmer</label>
+		<combatPower>30</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinIndyTownFarmer</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_Tool_Peasant</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinIndyTownFarmer</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+		<initialWillRange>5~6</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- NPCs from Rodemani faction type -->
+
+	<PawnKindDef Abstract="True" Name="Mousekin_FactionNomad_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defaultFactionType>Mousekin_FactionNomad</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_FactionNomad_BasePawnKind">
+		<defName>MousekinTraderNomad</defName>
+		<label>Mousekin nomad trader</label>
+		<trader>true</trader>
+		<combatPower>35</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinTraderNomad</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinNomad</li>
+		</apparelTags>
+		<initialWillRange>3~4</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_FactionNomad_BasePawnKind">
+		<defName>MousekinNomad</defName>
+		<label>Mousekin nomad</label>
+		<combatPower>35</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinNomad</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinNomad</li>
+		</apparelTags>
+		<initialWillRange>3~4</initialWillRange>
+		<initialResistanceRange>19~28</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- NPCs from Mousekin Brigand faction type -->
+
+	<PawnKindDef Abstract="True" Name="Mousekin_FactionBrigand_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defaultFactionType>Mousekin_FactionBrigand</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Mousekin_FactionBrigand_BasePawnKind">
+		<defName>MousekinRaider</defName>
+		<label>Mousekin brigand</label>
+		<combatPower>45</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinRaider</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.4~0.8</gearHealthRange>
+		<itemQuality>Poor</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Pikeman</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Intermediate</li>
+			<li>Mousekin_RangedWeapon_Advanced</li>
+			<li>Mousekin_Weapon_Criminal</li>
+		</weaponTags>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinRaider</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Mousekin_ApparelGambeson</apparelDef>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<!-- Default cloth color -->
+							<weight>10</weight>
+							<only>(162,157,152)</only>
+						</li>
+						<li>
+							<!-- Dark pastel red -->
+							<weight>4</weight>
+							<only>(107, 81, 81)</only>
+						</li>
+						<li>
+							<!-- Dark pastel blue -->
+							<weight>1</weight>
+							<only>(81, 98, 107)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Mousekin_ArmorCuirass</apparelDef>
+				<!-- Use faction default of steel -->
+			</li>
+		</specificApparelRequirements>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>33~49</initialResistanceRange>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.85</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- Miscellaneous Mousekin NPCs -->
+
+	<PawnKindDef ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinWanderer</defName>
+		<label>Mousekin wanderer</label>
+		<combatPower>45</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinWanderer</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.4~0.8</gearHealthRange>
+		<itemQuality>Poor</itemQuality>
+		<weaponMoney>150~200</weaponMoney>
+		<weaponTags>
+			<li>Mousekin_MeleeWeapon_Basic</li>
+			<li>Mousekin_RangedWeapon_Basic</li>
+		</weaponTags>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
+		<apparelTags>
+			<li>MousekinWanderer</li>
+		</apparelTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>33~49</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>

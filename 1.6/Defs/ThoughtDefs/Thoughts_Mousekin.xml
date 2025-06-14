@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteCheese</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Cheese</icon>
+		<workerClass>MousekinRace.ThoughtWorker_AteCheese</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>ate cheese</label>
+				<description>I ate some cheese. I guess it tastes alright, but I'd prefer some crunchy roasted nuts or juicy berries.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>ate cheese x2</label>
+				<description>I ate some more cheese. I'm starting to get sick of this.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>ate cheese x3</label>
+				<description>Cheese again? Ugh.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<li>
+				<label>ate cheese x4</label>
+				<description>No...more...cheese...please...</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteCorpse</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate corpse</label>
+				<description>I had to eat the flesh of a dead creature without even butchering or cooking it, like a filthy, primitive rat.</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteHumanlikeMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate cooked human meat</label>
+				<description>Huh. Who knew cooked smoothskin meat tastes like pork tenderloin?</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteHumanlikeMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate raw human meat</label>
+				<description>Ew, it tastes like raw pork!</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteKibble</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate kibble</label>
+				<description>I had to eat animal kibble, like a filthy, primitive rat.</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteMousekinMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>cooked cannibalism</label>
+				<description>My meal was made from the cooked meat of my brethren! Valerian forgive me, for I have sinned!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteMousekinMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>raw cannibalism</label>
+				<description>I ate the raw flesh of my brethren! Valerian forgive me, for I have sinned!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteRawFood</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate raw food</label>
+				<description>I had to eat raw food. We should be cooking that kind of food before eating it. We're not filthy, primitive rats.</description>
+				<baseMoodEffect>-7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteTrailMix</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate Mousekin trail mix</label>
+				<description>I love trail mix! Crunchy nuts, chewy dried berries, yummy popcorn!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AteWithoutTable</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>ate without table</label>
+				<description>I had to eat a meal off the ground, like a filthy, primitive rat. Can't we get a joiner to make us a proper table?</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_AttendedWedding</defName>
+		<durationDays>10.0</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>attended wedding</label>
+				<description>May they grow the biggest and most beautiful garden together!</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ButcheredHumanCorpse</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>I butchered human corpse</label>
+				<description>Huh, these smoothskins have such strange bones and meat.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ButcheredMousekinCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>I butchered another Mousekin</label>
+				<description>I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ChurchAttendedService</defName>
+		<showBubble>true</showBubble>
+		<icon>UI/Ideoligions/FlowerCross</icon>
+		<durationDays>2</durationDays>
+		<stages>
+			<li>
+				<label>attended church service</label>
+				<description>May the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt;</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ChurchHeldService</defName>
+		<showBubble>true</showBubble>
+		<icon>UI/Ideoligions/FlowerCross</icon>
+		<durationDays>2</durationDays>
+		<stages>
+			<li>
+				<label>held church service</label>
+				<description>&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt;</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ChurchMissedService</defName>
+		<showBubble>true</showBubble>
+		<icon>UI/Ideoligions/FlowerCross</icon>
+		<durationDays>2</durationDays>
+		<stages>
+			<li>
+				<label>missed church service</label>
+				<description>I missed church this week. Valerian forgive me, for I have strayed.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ColonistLeftUnburied</defName>
+		<workerClass>ThoughtWorker_ColonistLeftUnburied</workerClass>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>colonist left unburied</label>
+				<description>One of us died and we're just leaving them lying in the open. We should give them a proper burial, or their soul will never reach The Great Garden.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_DrankChonkoNutBrew</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Items/Beverage/DrinkChonkoNutBrew/DrinkChonkoNutBrew_a</icon>
+		<durationDays>0.333</durationDays>
+		<stages>
+			<li>
+				<label>drank Chonko nut brew</label>
+				<description>Mmm, delicious! I feel so much more awake already!</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_FaithAffinityOpinions</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_FaithAffinityOpinions</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+		
+			<!-- ========== Apostate ========== -->
+			
+			<!-- Apostates vs Nones -->
+			<li IsNull="True" />
+			<!-- Apostates vs Apostate -->
+			<li>
+				<label>fellow apostates</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			<!-- Apostates vs Devotionist -->
+			<li IsNull="True" />
+			<!-- Apostates vs Pious -->
+			<li IsNull="True" />
+			<!-- Apostates vs Inquisitionist -->
+			<li>
+				<label>apostate vs inquisitionist</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+			
+			<!-- ========== Devotionist ========== -->
+			
+			<!-- Devotionist vs Nones -->
+			<li IsNull="True" />
+			<!-- Devotionist vs Apostate -->
+			<li>
+				<label>devotionist vs apostate</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+			<!-- Devotionist vs Devotionist -->
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>10</baseOpinionOffset>
+			</li>
+			<!-- Devotionist vs Pious -->
+			<li IsNull="True" />
+			<!-- Devotionist vs Inquisitionist -->
+			<li>
+				<label>devotionist vs inquisitionist</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+			
+			<!-- ========== Pious ========== -->
+			
+			<!-- Pious vs Nones -->
+			<li IsNull="True" />
+			<!-- Pious vs Apostate -->
+			<li>
+				<label>pious vs apostate</label>
+				<baseOpinionOffset>-10</baseOpinionOffset>
+			</li>
+			<!-- Pious vs Devotionist -->
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			<!-- Pious vs Pious -->
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>15</baseOpinionOffset>
+			</li>
+			<!-- Pious vs Inquisitionist -->
+			<li>
+				<label>cautious respect for inquisitionist</label>
+				<baseOpinionOffset>5</baseOpinionOffset>
+			</li>
+			
+			<!-- ========== Inquisitionist ========== -->
+			
+			<!-- Inquisitionist vs Nones -->
+			<li>
+				<label>inquisitionist vs non-pious</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+			<!-- Inquisitionist vs Apostate -->
+			<li>
+				<label>inquisitionist vs apostate</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+			<!-- Inquisitionist vs Devotionist -->
+			<li>
+				<label>inquisitionist vs devotionist</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+			<!-- Inquisitionist vs Pious -->
+			<li>
+				<label>shared faith in The Great Garden</label>
+				<baseOpinionOffset>10</baseOpinionOffset>
+			</li>
+			<!-- Inquisitionist vs Inquisitionist -->
+			<li>
+				<label>shared zealotry in the Inquisition</label>
+				<baseOpinionOffset>20</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_GotMarried</defName>
+		<durationDays>30.0</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>got married to {0}</label>
+				<description>I got married! May we grow the biggest and most beautiful garden together!</description>
+				<baseMoodEffect>40</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_KnowBuriedInSarcophagus</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>4</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>buried in sarcophagus</label>
+				<description>We buried someone in an ornamented sarcophagus. May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_KnowButcheredHumanCorpse</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>we butchered human corpse</label>
+				<description>We butchered up a smoothskin. Apparently, they have really tiny ears, stiff ribs and long leg bones. How do they hear anything, squeeze through small gaps, and not fall over all the time?</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_KnowButcheredMousekinCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>we butchered another Mousekin</label>
+				<description>We butchered up one of our brethren like an animal. Now we'll never be allowed into The Great Garden!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemory">
+		<defName>Mousekin_Thought_KnowColonistDied</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>5</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>colonist died</label>
+				<description>May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemory">
+		<defName>Mousekin_Thought_KnowColonistExecuted</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>5</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>justified execution of colonist</label>
+				<description>A guilty colonist was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>colonist euthanized</label>
+				<!-- generic humane, can't be worse than KnowColonistDied -->
+				<description>A colonist was euthanized. May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>colonist executed</label>
+				<!-- generic brutal -->
+				<description>A colonist was killed in cold blood. Their blood is on our paws.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>colonist organ-harvested</label>
+				<!-- died because of organ harvesting -->
+				<description>A colonist died because we cut them up for body parts. Our souls will be damned to The Wasteland!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_KnowColonistOrganHarvested</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Bloodlust</li>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>colonist's organ harvested</label>
+				<description>We cut up one of our own for body parts. Our souls will be damned to The Wasteland!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemory">
+		<defName>Mousekin_Thought_KnowGuestExecuted</defName>
+		<durationDays>6</durationDays>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>justified execution</label>
+				<description>A guilty prisoner or guest was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>someone was euthanized</label>
+				<!-- generic humane -->
+				<description>A prisoner or guest was euthanized. May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>someone was executed</label>
+				<!-- generic brutal -->
+				<description>A prisoner or guest was killed in cold blood. Their blood is on our paws.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>someone was organ-murdered</label>
+				<!-- died because of organ harvesting -->
+				<description>A prisoner or guest died because we cut them up for body parts. Our souls will be damned to The Wasteland!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_KnowGuestOrganHarvested</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Bloodlust</li>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>someone's organ harvested</label>
+				<description>We cut up a guest or prisoner for body parts. Our souls will be damned to The Wasteland!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_MissingEars</defName>
+		<workerClass>MousekinRace.ThoughtWorker_MissingEars</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<!-- One missing ear replaced with prosthetic -->
+			<li>
+				<label>One prosthetic ear</label>
+				<description>I had to get my missing ear replaced with a cloth prosthetic. I hope nobody else notices.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<!-- Two missing ears replaced with prosthetics -->
+			<li>
+				<label>Two prosthetic ears</label>
+				<description>I had to get both my missing ears replaced with cloth prosthetics. I hope nobody else notices.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+			<!-- One missing ear, no prosthetic -->
+			<li>
+				<label>One ear missing</label>
+				<description>I've lost one of my ears. This is humiliating!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<!-- Two missing ears, only one replaced with prosthetic -->
+			<li>
+				<label>One prosthetic and one missing ear</label>
+				<description>I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating!</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+			<!-- Two missing ears, no prosthetics -->
+			<li>
+				<label>Both ears missing</label>
+				<description>I've lost both my ears! I'd rather die than live with this humiliation!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>			
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyAuntDied</defName>
+		<stages>
+			<li>
+				<label>my aunt {0} died</label>
+				<description>My aunt died. May her soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyBrotherDied</defName>
+		<stages>
+			<li>
+				<label>my brother {0} died</label>
+				<description>My brother died. May his soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-14</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyCousinDied</defName>
+		<stages>
+			<li>
+				<label>my cousin {0} died</label>
+				<description>My cousin died. May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyDaughterDied</defName>
+		<stages>
+			<li>
+				<label>my daughter {0} died</label>
+				<description>My poor, poor baby! I should've taken better care of you!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyFatherDied</defName>
+		<stages>
+			<li>
+				<label>my father {0} died</label>
+				<description>My father died. May his soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyFianceDied</defName>
+		<stages>
+			<li>
+				<label>my fiance {0} died</label>
+				<description>My fiance died. We promised we'd grow our garden together!</description>
+				<baseMoodEffect>-18</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyFianceeDied</defName>
+		<stages>
+			<li>
+				<label>my fiancée {0} died</label>
+				<description>My fiancée died. We promised we'd grow our garden together!</description>
+				<baseMoodEffect>-18</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyGrandchildDied</defName>
+		<stages>
+			<li>
+				<label>my grandchild {0} died</label>
+				<description>My grandchild died. Our family's future, taken away from us forever...</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyGrandparentDied</defName>
+		<stages>
+			<li>
+				<label>my grandparent {0} died</label>
+				<description>My grandparent died. May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyHalfSiblingDied</defName>
+		<stages>
+			<li>
+				<label>my half-sibling {0} died</label>
+				<description>My half-sibling died. May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyHusbandDied</defName>
+		<stages>
+			<li>
+				<label>my husband {0} died</label>
+				<description>My husband is dead. May we be reunited in The Great Garden someday.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyKinDied</defName>
+		<stages>
+			<li>
+				<label>my kin {0} died</label>
+				<description>My kin died. May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyMotherDied</defName>
+		<stages>
+			<li>
+				<label>my mother {0} died</label>
+				<description>My mother died. May her soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyNieceDied</defName>
+		<stages>
+			<li>
+				<label>my niece {0} died</label>
+				<description>My niece died. May her soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyNephewDied</defName>
+		<stages>
+			<li>
+				<label>my nephew {0} died</label>
+				<description>My nephew died. May her soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_MyOrganHarvested</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>5</stackLimit>
+		<stages>
+			<li>
+				<label>my organ harvested</label>
+				<description>The colony's cutting me up for parts! Damn you all to The Wasteland!</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MySisterDied</defName>
+		<stages>
+			<li>
+				<label>my sister {0} died</label>
+				<description>My sister died. May her soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-14</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MySonDied</defName>
+		<stages>
+			<li>
+				<label>my son {0} died</label>
+				<description>My poor, poor baby! I should've taken better care of you!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyUncleDied</defName>
+		<stages>
+			<li>
+				<label>my uncle {0} died</label>
+				<description>My uncle died. May her soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemoryFamily">
+		<defName>Mousekin_Thought_MyWifeDied</defName>
+		<stages>
+			<li>
+				<label>my wife {0} died</label>
+				<description>My wife is dead. May we be reunited in The Great Garden someday.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>	
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_NeedRoomSize</defName>
+		<workerClass>ThoughtWorker_NeedRoomSize</workerClass>
+		<stages>
+			<li>
+				<label>cramped interior</label>
+				<description>Squeak, somebody let me out of here!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>cosy interior</label>
+				<description>Nice and cosy, snug as a burrow!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>spacious interior</label>
+				<description>So much space, we can hold a town meeting in here!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_OtherMousekinHasProstheticOpinions</defName>
+		<thoughtClass>MousekinRace.Thought_OtherMousekinHasProstheticOpinions</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_OtherMousekinHasProstheticOpinions</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<!-- Only experienced by Devotionists, Pious and Inquisitionists -->
+			<li>
+				<label>body defiled by prosthetics</label>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemory">
+		<defName>Mousekin_Thought_PawnWithBadOpinionDied</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stages>
+			<li>
+				<label>my rival {0} died</label>
+				<description>Serves them right. May they rot in The Wasteland forever!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="LostMemory">
+		<defName>Mousekin_Thought_PawnWithBadOpinionLost</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stages>
+			<li>
+				<label>my rival {0} lost</label>
+				<description>Serves them right. I hope they never come back, and wander in The Wasteland forever!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="DeathMemory">
+		<defName>Mousekin_Thought_PawnWithGoodOpinionDied</defName>
+		<durationDays>20</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>my friend {0} died</label>
+				<description>Such a wonderful person. May their soul rest forever in The Great Garden.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="LostMemory">
+		<defName>Mousekin_Thought_PawnWithGoodOpinionLost</defName>
+		<durationDays>20</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>my friend {0} lost</label>
+				<description>Such a wonderful person, lost. I hope they will get back to us someday.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ReleasedHealthyPrisoner</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>5</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stages>
+			<li>
+				<label>prisoner released</label>
+				<description>We released a healthy prisoner. Valerian the Wise would be proud we followed his teachings of mercy.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts</defName>
+		<workerClass>MousekinRace.ThoughtWorker_ReligiousDisgustAtOwnArtificalBodyParts</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Mousekin_TraitSpectrum_Faith</li>
+		</requiredTraits>
+		<stages>
+			<!-- Devotionist & Pious - 1 artificial body part -->
+			<li>
+				<label>devout with prosthetic</label>
+				<description>I hate having this unnatural thing attached to me. It goes against my faith.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<!-- Devotionist & Pious - 2~3 artificial body parts -->
+			<li>
+				<label>devout with {0} prosthetics</label>
+				<description>These artificial parts are violating the sanctity of my body!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Devotionist & Pious - 4 or more artificial body parts -->
+			<li>
+				<label>devout with {0} prosthetics</label>
+				<description>My flesh has been defiled by all these artificial parts! Now I'll never be allowed into The Great Garden!</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+			<!-- Inquisitionist - 1 artificial body part -->
+			<li>
+				<label>inquisitionist with prosthetic</label>
+				<description>This witchcraft taints my body! Get it off me!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<!-- Inquisitionist - 2~3 artificial body parts -->
+			<li>
+				<label>inquisitionist with {0} prosthetics</label>
+				<description>More witchcraft, polluting my pure, natural flesh!</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+			<!-- Inquisitionist - 4 or more artificial body parts -->
+			<li>
+				<label>inquisitionist with {0} prosthetics</label>
+				<description>My flesh has been defiled by all this witchcraft! I'm no better than those heretics!</description>
+				<baseMoodEffect>-45</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_SawNearbyPudgemouse</defName>
+		<showBubble>true</showBubble>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>saw a Pudgemouse</label>
+				<description>Squeak! Pudgemice are the best!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_SleptInCold</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>slept in the cold</label>
+				<description>I had to sleep in the cold. We should get a fireplace going.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_SleptInHeat</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>slept in the heat</label>
+				<description>I had to sleep in unbearable heat. Can't we have some ventilation around here?</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_SleptOnGround</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>slept on ground</label>
+				<description>I had to sleep on the ground like a filthy, primitive rat.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Mousekin_Thought_SleptOutside</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>slept outside</label>
+				<description>I had to sleep outdoors without any protection from the elements, like a filthy, primitive rat.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_WearingMousekinFurApparel</defName>
+		<workerClass>MousekinRace.ThoughtWorker_WearingMousekinFurApparel</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>wearing Mousekin fur apparel</label>
+				<description>I'm wearing clothes made from the fur of my brethren! Valerian forgive me, for I have sinned!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Mousekin_Thought_WearingPudgemouseFurApparel</defName>
+		<workerClass>MousekinRace.ThoughtWorker_WearingPudgemouseFurApparel</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>wearing Pudgemouse fur apparel</label>
+				<description>I'm wearing clothes made from the fur of a pudgemouse. That poor innocent creature didn't deserve this!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

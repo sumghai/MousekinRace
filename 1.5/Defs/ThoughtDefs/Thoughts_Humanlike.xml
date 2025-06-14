@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_AtePoopGiantCavy</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate Giant Cavy pellet</label>
+				<description>Yuck! I just ate a big lump of poop!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Humanlike_Thought_AteTrailMix</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate Mousekin trail mix</label>
+				<description>I guess this tastes nice, but why do Mousekins like it so much?</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_DrankChonkoNutBrew</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Items/Beverage/DrinkChonkoNutBrew/DrinkChonkoNutBrew_a</icon>
+		<durationDays>0.333</durationDays>
+		<stages>
+			<li>
+				<label>drank Chonko nut brew</label>
+				<description>Wow, this actually tastes pretty good.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowerDanceTerrible</defName>
+		<thoughtClass>Thought_AttendedRitual</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>terrible flower dance</label>
+				<description>Those nuns hobbled around like they've had a bit too much to drink beforehand, and they trampled all over the offerings. Our ancestors would weep at such a disgrace!</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowerDanceMediocre</defName>
+		<thoughtClass>Thought_AttendedRitual</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>mediocre flower dance</label>
+				<description>The nuns' movements were stiff, unnatural and passionless. There was hardly any dignity to the ceremony.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowerDanceBeautiful</defName>
+		<thoughtClass>Thought_AttendedRitual</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>beautiful flower dance</label>
+				<description>The flower dance was beautiful. The nuns really moved with grace and finesse. Our ancestors would be pleased with our devotion to their memory.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowerDanceUnforgettable</defName>
+		<thoughtClass>Thought_AttendedRitual</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>unforgettable flower dance</label>
+				<description>The flower dance was specatular! The nuns danced with otherworldly grace, their movements flowing like a gentle breeze, flower petals raining everywhere. It was as if the spirits of our very ancestors were here with us!</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowersDestroyed</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_FlowersDestroyed</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>few flowers destroyed</label>
+				<description>A handful of flowers were snuffed out before they could fully blossom...what a shame!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>some flowers destroyed</label>
+				<description>Our flower beds are blemished with missing blooms, every broken stem a reminder of how fragile the beauty of nature can be.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>many flowers destroyed</label>
+				<description>Our gardens are scarred with swaths of ravaged stems, where dozens of colored petals once danced gaily in the breeze, a place of tranquility now a stark testament to all that has been lost.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<li>
+				<label>countless flowers destroyed</label>
+				<description>Our gardens are ruined! Valerian forgive us, for we have failed our stewardship of this land!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_FlowersPlanted</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_FlowersPlanted</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>no flowers planted</label>
+				<description>Our beds lay bare and the the soil unturned. There are no new blooms this year...</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>few flowers planted</label>
+				<description>Our gardens look so sparse... We've barely planted any new flowers this year.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>some flowers planted</label>
+				<description>Our gardens has sprouted new blooms, but there is plenty of room for more flowers.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>many flowers planted</label>
+				<description>Our gardens flourish! The breeze is sweet with the colors and scents of this year's flower beds.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>plethora of flowers planted</label>
+				<description>Such a delightful riot of colors and shapes. Valerian must be smiling upon us for taking good care of this land!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_GardensDesired</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_GardensDesired</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>no flower gardens</label>
+				<description>We don't have a flower garden to admire and relax in, not even a shrubbery. Our community feels so drab and colorless.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>inadequate flower gardens</label>
+				<description>What is this, a garden for Pudgemice? It needs to be at least three times as big!</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_HereticExecutionTerrible</defName>
+		<thoughtClass>MousekinRace.Thought_AttendedRitual_StageByReligiousAffinity</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<!-- Non-Mousekin rodentkinds or non-player ideo colonists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>Such barbarism! I don't feel safe here anymore... </description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Apostates and Devotionists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>Everyone knew this was all wrong! I don't feel safe here anymore...</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<!-- Pious and nones -->
+			<li>
+				<label>Terrible heretic execution</label>
+				<description>None of the charges made any sense, and yet the prisoners were condemned to the fires. Is this what Valerian would have wanted?</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<!-- Inquisitionists -->
+			<li>
+				<label>Terrible heretic execution</label>
+				<description>Mediocre! How would anyone take the divine truth seriously after this display of incompetence?</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_HereticExecutionSatisfying</defName>
+		<thoughtClass>MousekinRace.Thought_AttendedRitual_StageByReligiousAffinity</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<!-- Non-Mousekin rodentkinds or non-player ideo colonists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>Such barbarism! I don't feel safe here anymore... </description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Apostates and Devotionists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>They're persecuting us! I don't feel safe here anymore...</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Pious and nones -->
+			<li>
+				<label>Satisfying heretic execution</label>
+				<description>Justice had to be served against those heretics. May Valerian the Wise be merciful and grant them a place in The Great Garden.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<!-- Inquisitionists -->
+			<li>
+				<label>Satisfying heretic execution</label>
+				<description>Serves those heretics right!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_HereticExecutionSpectacular</defName>
+		<thoughtClass>MousekinRace.Thought_AttendedRitual_StageByReligiousAffinity</thoughtClass>
+		<durationDays>6</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<!-- Non-Mousekin rodentkinds or non-player ideo colonists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>Such barbarism! I don't feel safe here anymore... </description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Apostates and Devotionists -->
+			<li>
+				<label>Horrified by heretic execution</label>
+				<description>They're persecuting us! I don't feel safe here anymore...</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<!-- Pious and nones -->
+			<li>
+				<label>Spectacular heretic execution</label>
+				<description>To think such depraved individuals once lived among us... we were right to purge the impure from this community!</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+			<!-- Inquisitionists -->
+			<li>
+				<label>Spectacular heretic execution</label>
+				<description>The flames, the screams! Valerian be praised, for thy will has been done!</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_PrejudicedTowardsMousekins</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>MousekinRace.ThoughtWorker_PrejudicedTowardsMousekins</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>prejudiced towards talking mice</label>
+				<baseOpinionOffset>-10</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Humanlike_Thought_SawNearbyPudgemouse</defName>
+		<showBubble>true</showBubble>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>saw a Pudgemouse</label>
+				<description>What a cute little rodent!</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

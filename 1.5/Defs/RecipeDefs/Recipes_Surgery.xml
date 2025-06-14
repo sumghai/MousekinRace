@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef Name="MousekinSurgeryInstallBodyPartProstheticBase" ParentName="SurgeryFlesh" Abstract="True">
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef Name="MousekinSurgeryInstallBodyPartNaturalBase" ParentName="SurgeryFlesh" Abstract="True">
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+		<!-- todo - replace with special Mousekin potion for organic implants -->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_MedicinePoultice</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_MedicinePoultice</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Installing Craftable Prosthetics -->
+
+	<RecipeDef ParentName="MousekinSurgeryInstallBodyPartProstheticBase">
+		<defName>Mousekin_InstallProstheticClothEar</defName>
+		<label>Install Cloth Mousekin Ear</label>
+		<description>Install a cloth Mousekin ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mousekin_ProstheticClothEar</ThingDef>
+			<HediffDef>Mousekin_ProstheticClothEar</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Cloth Mousekin Ear.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_ProstheticClothEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_ProstheticClothEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Mousekin_Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Mousekin_ProstheticClothEar</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MousekinSurgeryInstallBodyPartProstheticBase">
+		<defName>Mousekin_InstallProstheticClothTail</defName>
+		<label>Install Cloth Mousekin Tail</label>
+		<description>Install a cloth Mousekin tail.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mousekin_ProstheticClothTail</ThingDef>
+			<HediffDef>Mousekin_ProstheticClothTail</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Cloth Mousekin Tail.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_ProstheticClothTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_ProstheticClothTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Mousekin_Tail</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Mousekin_ProstheticClothTail</addsHediff>
+	</RecipeDef>
+
+	<!-- Installing Organic Body Parts -->
+
+	<RecipeDef ParentName="MousekinSurgeryInstallBodyPartNaturalBase">
+		<defName>Mousekin_InstallNaturalEar</defName>
+		<label>Install Mousekin Ear</label>
+		<description>Install a biological Mousekin ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mousekin_BodyPartEar</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Mousekin Ear</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_BodyPartEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_BodyPartEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Mousekin_Ear</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MousekinSurgeryInstallBodyPartNaturalBase">
+		<defName>Mousekin_InstallNaturalTail</defName>
+		<label>Install Mousekin Tail</label>
+		<description>Install a biological Mousekin tail.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mousekin_BodyPartTail</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Installing Mousekin Tail</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_BodyPartTail</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mousekin_BodyPartTail</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Mousekin_Tail</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+</Defs>

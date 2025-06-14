@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Hemlock poisoning from earless suicide mental break -->
+
+	<HediffDef>
+		<defName>Mousekin_HemlockPoisoning</defName>
+		<label>hemlock poisoning</label>
+		<description>Poison in the bloodstream, from accidental or deliberate ingestion of the high toxic hemlock plant. The smallest of doses is enough to be rapidly fatal to most humanoids.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(176, 255, 176)</defaultLabelColor>
+		<lethalSeverity>1</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<taleOnVisible>ToxicityRevealed</taleOnVisible>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>24</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial</label>
+				<minSeverity>0.20</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.50</minSeverity>
+				<vomitMtbDays>5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>fatal</label>
+				<minSeverity>0.99</minSeverity>
+				<vomitMtbDays>0.5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.0</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!-- Muroidine effects from consuming Chonko nut brew -->
+
+	<HediffDef>
+		<defName>Mousekin_MuroidineHigh</defName>
+		<label>Chonko nut brew high</label>
+		<labelNoun>a Chonko nut brew high</labelNoun>
+		<description>The methylxanthine alkaloid muroidine, naturally present in trace quantities in Chonko and Nyam nuts or concentrated in beverages like Chonko nut brew, increases the stimuli in one's nervous system once metabolised, suppressing the urge to sleep and clearing the mind. Increases consciousness by 10% and blood circulation by 5%, as well as reducing rest fall rate by 10%.</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Drunk</stateEffecter>
+				<severityIndices>3~5</severityIndices>
+			</li>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4.8</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<restFallFactor>0.85</restFallFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.10</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="DrugToleranceBase">
+		<defName>Mousekin_MuroidineTolerance</defName>
+		<label>Muroidine tolerance</label>
+		<description>A built-up tolerance to muroidine found in Chonko nut brew. The more severe this tolerance is, the more muroidine it takes to get the same effect.</description>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.016</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_DrugEffectFactor">
+				<chemical>Mousekin_Muroidine</chemical>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddictionBase">
+		<defName>Mousekin_MuroidineAddiction</defName>
+		<label>Muroidine addiction</label>
+		<description>A chemical addiction to muroidine. Long-term presence of muroidine has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the methylxanthine alkaloid.\n\nWithout regular consumption of muroidine-rich beverages like Chonko nut brew, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<causesNeed>Mousekin_Chemical_Muroidine</causesNeed>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.047</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li />
+			<li>
+				<label>withdrawal</label>
+				<restFallFactorOffset>0.3</restFallFactorOffset>
+				<socialFightChanceFactor>5.0</socialFightChanceFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>Binging_DrugMajor</mentalState>
+						<mtbDays>80</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!-- Dopamine high from consuming Mousekin mead -->
+
+	<HediffDef>
+		<defName>Mousekin_MeadHigh</defName>
+		<label>Mousekin mead high</label>
+		<description>Increase dopamine levels in the body from consuming Mousekin mead reduces chances of mental breaks.</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.75</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>warm</label>
+				<statOffsets>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.25</minSeverity>
+				<label>tipsy</label>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>drunk</label>
+				<statOffsets>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.7</minSeverity>
+				<label>hammered</label>
+				<statOffsets>
+					<MentalBreakThreshold>-0.50</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<label>blackout</label>
+				<!-- MentalBreakThreshold not applied -->
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<!-- Satiated hunger from eating various meals (12 hours) -->
+	
+	<HediffDef Name="Mousekin_SatiatedHungerBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0,176,240)</defaultLabelColor>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef ParentName="Mousekin_SatiatedHungerBase">
+		<defName>Mousekin_SatiatedHunger10</defName>
+		<label>Satiated hunger (from country bread)</label>
+		<description>Consuming country bread lowers hunger rate by 10% for 12 hours.</description>
+		<stages>
+			<li>   
+				 <hungerRateFactorOffset>-0.10</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="Mousekin_SatiatedHungerBase">
+		<defName>Mousekin_SatiatedHunger20</defName>
+		<label>Satiated hunger (from ploughman's lunch)</label>
+		<description>Consuming a serving of ploughman's lunch lowers hunger rate by 20% for 12 hours.</description>
+		<stages>
+			<li>   
+				 <hungerRateFactorOffset>-0.20</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="Mousekin_SatiatedHungerBase">
+		<defName>Mousekin_SatiatedHunger35</defName>
+		<label>Satiated hunger (from bread bowl)</label>
+		<description>Consuming a bread bowl lowers hunger rate by 35% for 12 hours.</description>
+		<stages>
+			<li>   
+				 <hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

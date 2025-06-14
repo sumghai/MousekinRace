@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Mousekin Candle -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Candle</defName>
+		<label>Mousekin Candle</label>
+		<description>Slow-burning beeswax candles used in lamps and lanterns.</description>
+		<graphicData>
+			<texPath>Things/Items/Manufactured/Mousekin_Candle</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>75</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<MarketValue>12</MarketValue>
+			<Mass>0.04</Mass>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<!-- Clockwork Mechanism (pre-industrial component) -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_ClockworkComponent</defName>
+		<label>Clockwork Mechanism</label>
+		<description>Assorted metal springs, gears and levers used for crafting complex Mousekin devices.</description>
+		<graphicData>
+			<texPath>Things/Items/Manufactured/Mousekin_ClockworkComponent</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>50</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<MarketValue>14</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- Mousekin poultice (potency between vanilla herbal and industrial medicine) -->
+	<ThingDef ParentName="MedicineBase">
+		<defName>Mousekin_MedicinePoultice</defName>
+		<label>Mousekin poultice</label>
+		<description>A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals.</description>
+		<graphicData>
+			<texPath>Things/Items/Medicine/Mousekin_Poultice</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>14</MarketValue>
+			<Mass>0.15</Mass>
+			<Flammability>1.0</Flammability>
+			<MedicalPotency>0.90</MedicalPotency>
+			<MedicalQualityMax>0.80</MedicalQualityMax>
+			<DeteriorationRate>3</DeteriorationRate>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>300</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

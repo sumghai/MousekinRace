@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef Name="MousekinBodyPartProstheticBase" ParentName="BodyPartBase" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<thingCategories>
+			<li>BodyPartsProsthetic</li>
+		</thingCategories>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>Mousekin_WorkbenchTailor</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Name="MousekinBodyPartNaturalBase" ParentName="BodyPartBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>BodyPartsNatural</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>4.0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<!-- Craftable Prosthetics -->
+
+	<ThingDef ParentName="MousekinBodyPartProstheticBase">
+		<defName>Mousekin_ProstheticClothEar</defName>
+		<label>Cloth Mousekin Ear</label>
+		<description>A fake Mousekin ear sewn from cloth.\n\nMousekins take great pride in their large rounded ears, as their presence (or absence) greatly affects their standing in Mousekin society. Those who have lost their natural ears through injury or disease wear fake ears to hide their humiliating disfigurement.</description>
+		<graphicData>
+			<texPath>Things/Items/BodyPartsArtificial/Mousekin_ProstheticClothEar</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<RecipeDef>Mousekin_InstallProstheticClothEar</RecipeDef>
+		</descriptionHyperlinks>
+		<costList>
+			<Cloth>5</Cloth>
+		</costList>
+		<statBases>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="MousekinBodyPartProstheticBase">
+		<defName>Mousekin_ProstheticClothTail</defName>
+		<label>Cloth Mousekin Tail</label>
+		<description>A fake Mousekin tail made from cloth twisted and braided into rope.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving. Those who have lost their natural tails through injury and disease wear fake tails, and while the non-living rope tail does not fully restore their loss of balancing ability, it at least attracts less attention than a stump.</description>
+		<graphicData>
+			<texPath>Things/Items/BodyPartsArtificial/Mousekin_ProstheticClothTail</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<RecipeDef>Mousekin_InstallProstheticClothTail</RecipeDef>
+		</descriptionHyperlinks>
+		<costList>
+			<Cloth>5</Cloth>
+		</costList>
+		<statBases>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.35</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- Organic Body Parts -->
+
+	<ThingDef ParentName="MousekinBodyPartNaturalBase">
+		<defName>Mousekin_BodyPartEar</defName>
+		<label>Mousekin Ear</label>
+		<description>A biological Mousekin ear, most likely harvested from a dead or unwilling Mousekin.\n\nBesides allowing Mousekins to pick up quiet, distant sounds, large rounded ears represent a Mousekin’s personal honor, dignity and standing in their society, and this replacement ear fully restores their loss of hearing ability as well as their social status.</description>
+		<graphicData>
+			<texPath>Things/Items/BodyPartsOrganic/Mousekin_BodyPartEar</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<RecipeDef>Mousekin_InstallNaturalEar</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>400</MarketValue>
+			<Mass>0.15</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MousekinBodyPartNaturalBase">
+		<defName>Mousekin_BodyPartTail</defName>
+		<label>Mousekin Tail</label>
+		<description>A biological Mousekin tail, most likely harvested from a dead or unwilling Mousekin.\n\nLike ordinary non-humanoid mice, Mousekins use their tails for balance while moving, and this replacement tail fully restores their loss of balancing ability.</description>
+		<graphicData>
+			<texPath>Things/Items/BodyPartsOrganic/Mousekin_BodyPartTail</texPath>
+		</graphicData>
+		<descriptionHyperlinks>
+			<RecipeDef>Mousekin_InstallNaturalTail</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>400</MarketValue>
+			<Mass>0.4</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>
