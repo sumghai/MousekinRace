@@ -28,7 +28,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/FactionDef[defName="PlayerKrysaTribe"]/modExtensions</xpath>
 				<value>
-					<li Class="VFECore.FactionDefExtension">
+					<li Class="VEF.Factions.FactionDefExtension">
 						<startingGoodwillByFactionDefs>
 							<Mousekin_PlayerFaction_Settlers>0~5</Mousekin_PlayerFaction_Settlers>
 							<Mousekin_PlayerFaction_Refugees>0~5</Mousekin_PlayerFaction_Refugees>

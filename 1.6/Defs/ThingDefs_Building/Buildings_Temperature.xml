@@ -113,7 +113,7 @@
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<modExtensions>
-			<li Class="RecipeInheritance.ThingDefExtension">
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>Campfire</li>
 				</inheritRecipesFrom>
@@ -168,12 +168,12 @@
 				<commandLabelKey>CommandDesignateOpenCloseVentLabel</commandLabelKey>
 				<commandDescKey>CommandDesignateOpenCloseVentDesc</commandDescKey>
 			</li>
-			<li Class="VanillaFurnitureExpanded.CompProperties_MountableOnWall"/>
+			<li Class="VEF.Buildings.CompProperties_MountableOnWall"/>
 		</comps>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<placeWorkers>
 			<li>PlaceWorker_Vent</li>
-			<li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
+			<li>VEF.Buildings.PlaceWorker_OnWall</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>Mousekin_ResearchBuildingVillage</li>

@@ -5,7 +5,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class GameComponent_Allegiance : GameComponent
+    /*public class GameComponent_Allegiance : GameComponent
     {
         public const int requestArrivalDelayDays = 2;
 
@@ -386,5 +386,5 @@ namespace MousekinRace
         RandTraderArrival,
         ReqTraderArrival,
         MilitaryAid
-    }
+    }*/
 }

@@ -4,7 +4,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class MapComponent_UndergroundMineDeposits : MapComponent
+    /*public class MapComponent_UndergroundMineDeposits : MapComponent
     {
         public HashSet<MineableThingCount> deposits = [];
 
@@ -16,6 +16,7 @@ namespace MousekinRace
         {
         }
 
+        
         // Update all underground deposits on current map, and add/remove deposits as required        
         public void RescanDeposits(List<MineableCountRange> mineablesAvailable)
         {
@@ -69,7 +70,7 @@ namespace MousekinRace
             }
             return result;
         }
-    }
+    }*/
 
     public class MineableThingCount : IExposable, ILoadReferenceable
     {

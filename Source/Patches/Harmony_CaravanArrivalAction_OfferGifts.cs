@@ -14,14 +14,14 @@ namespace MousekinRace
         static IEnumerable<MethodBase> TargetMethods()
         {
             yield return AccessTools.Method(typeof(CaravanArrivalAction_OfferGifts), nameof(CaravanArrivalAction_OfferGifts.CanOfferGiftsTo));
-            yield return AccessTools.Method(typeof(TransportPodsArrivalAction_GiveGift), nameof(TransportPodsArrivalAction_GiveGift.CanGiveGiftTo));
+            yield return AccessTools.Method(typeof(TransportersArrivalAction_GiveGift), nameof(TransportersArrivalAction_GiveGift.CanGiveGiftTo));
         }
         static void Postfix(ref FloatMenuAcceptanceReport __result, Settlement settlement)
         {
-            if (AllegianceSys_Utils.IsEnemyBecauseOfAllegiance(Faction.OfPlayer, settlement.Faction))
+            /*if (AllegianceSys_Utils.IsEnemyBecauseOfAllegiance(Faction.OfPlayer, settlement.Faction))
             {
                 __result = false;
-            }
+            }*/
         }
     }
 }

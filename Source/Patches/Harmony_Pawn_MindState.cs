@@ -1,13 +1,12 @@
 ﻿using HarmonyLib;
-using RimWorld;
 using Verse;
 using Verse.AI;
 
 namespace MousekinRace
 {
     // Put earless Mousekins in a suicidal state once they have reached the critical time threshold
-    [HarmonyPatch(typeof(Pawn_MindState), nameof(Pawn_MindState.MindStateTick))]
-    public static class Harmony_Pawn_MindState_EarlessMousekinSuicideWatcher
+    [HarmonyPatch(typeof(Pawn_MindState), nameof(Pawn_MindState.MindStateTickInterval))]
+    public static class Harmony_Pawn_MindState_MindStateTickInterval_EarlessMousekinSuicideWatcher
     {
         static void Postfix(Pawn_MindState __instance)
         {

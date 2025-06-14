@@ -16,12 +16,12 @@ namespace MousekinRace
 
         static void Postfix()
         {
-            GameComponent_Allegiance gameComp = GameComponent_Allegiance.Instance;
+            /*GameComponent_Allegiance gameComp = GameComponent_Allegiance.Instance;
             
             if (gameComp != null && gameComp.HasDeclaredAllegiance)
             {
                 AllegianceSys_Utils.SyncRelationsWithAllegianceFaction(gameComp.alignedFaction);
-            }
+            }*/
         }
     }
 }

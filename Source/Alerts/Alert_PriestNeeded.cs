@@ -4,7 +4,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class Alert_PriestNeeded : Alert
+    /*public class Alert_PriestNeeded : Alert
     {
         public TaggedString PriestPawnkindLabel = Find.ActiveLanguageWorker.ToTitleCase(MousekinDefOf.MousekinPriest.LabelCap);
 
@@ -39,5 +39,5 @@ namespace MousekinRace
             }
             return false;
         }
-    }
+    }*/
 }

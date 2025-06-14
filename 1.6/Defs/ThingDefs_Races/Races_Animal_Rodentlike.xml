@@ -14,6 +14,7 @@
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<!-- Faster than donkeys, but not capable of galloping like horses -->
 			<CaravanRidingSpeedFactor>1.45</CaravanRidingSpeedFactor>
+			<Wildness>0.0</Wildness>
 		</statBases>
 		<race>
 			<body>QuadrupedAnimalWithPaws</body>
@@ -26,7 +27,6 @@
 			<nameGeneratorFemale>MousekinNamerAnimalGiantCavy</nameGeneratorFemale>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
-			<wildness>0.0</wildness>
 			<roamMtbDays>2</roamMtbDays>
 			<trainability>Intermediate</trainability>
 			<packAnimal>true</packAnimal>
@@ -215,6 +215,7 @@
 			<MarketValue>250</MarketValue>
 			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<Wildness>0.0</Wildness>
 		</statBases>
 		<race>
 			<body>QuadrupedAnimalWithPaws</body>
@@ -228,7 +229,6 @@
 			<nameGeneratorFemale>MousekinNamerAnimalPudgemouse</nameGeneratorFemale>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
-			<wildness>0.0</wildness>
 			<trainability>Advanced</trainability>
 			<!-- Pudgemice are generally adopted by young Mouselings, and generally live long enough to see their Mousekin masters reach middle age -->
 			<lifeExpectancy>40</lifeExpectancy>
@@ -324,8 +324,8 @@
 			</li>
 		</tools>
 		<comps>
-			<li Class="AnimalBehaviours.CompProperties_Draftable" />
-			<li Class="AnimalBehaviours.CompProperties_ThoughtEffecter">
+			<li Class="VEF.AnimalBehaviours.CompProperties_Draftable" />
+			<li Class="VEF.AnimalBehaviours.CompProperties_ThoughtEffecter">
 				<radius>10</radius>
 				<thoughtDef>Humanlike_Thought_SawNearbyPudgemouse</thoughtDef>
 			</li>

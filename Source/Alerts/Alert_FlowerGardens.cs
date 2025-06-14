@@ -5,7 +5,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class Alert_FlowerGardens : Alert
+    /*public class Alert_FlowerGardens : Alert
     {
         public List<string> gardenQualityRating = new()
         {
@@ -145,5 +145,5 @@ namespace MousekinRace
 
             return gardenQualityRating[grade].Colorize(gradeColor);
         }
-    }
+    }*/
 }

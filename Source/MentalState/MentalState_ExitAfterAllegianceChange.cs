@@ -13,7 +13,7 @@ namespace MousekinRace
         public override void PostEnd()
         {
             base.PostEnd();
-            AllegianceSys_Utils.SetFactionToOpposingAllegiance(pawn);
+            //AllegianceSys_Utils.SetFactionToOpposingAllegiance(pawn);
         }
     }
 }

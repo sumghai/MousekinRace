@@ -85,7 +85,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
 					<north>
 						<drawOffset>(0.25, 0, 0.36)</drawOffset>
@@ -163,7 +163,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>
@@ -224,7 +224,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>
@@ -282,7 +282,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>
@@ -342,7 +342,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>
@@ -409,7 +409,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>
@@ -737,7 +737,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>
@@ -800,7 +800,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>
@@ -862,7 +862,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>

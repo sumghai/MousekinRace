@@ -17,11 +17,11 @@ namespace MousekinRace
 
             yield return Toils_Goto.GotoCell(MySpotOrChairInd, PathEndMode.OnCell);
             Toil toil = ToilMaker.MakeToil("MakeNewToils");
-            toil.tickAction = delegate
+            toil.tickIntervalAction = delegate (int delta)
             {
                 Building churchLectern = TargetThingB as Building;
                 pawn.Rotation = churchLectern.Rotation.Opposite;
-                pawn.GainComfortFromCellIfPossible();
+                pawn.GainComfortFromCellIfPossible(delta);
 
                 if (pawn.IsHashIntervalTick(100))
                 {

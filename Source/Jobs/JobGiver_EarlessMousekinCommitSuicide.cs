@@ -16,7 +16,7 @@ namespace MousekinRace
             MentalState_EarlessSuicide mentalState_EarlessSuicide = pawn.MentalState as MentalState_EarlessSuicide;
 
             // Don't attempt suicide if the the pawn doesn't have the Earless Suicide mental state, or if they cannot find/reach their target destination (i.e. their bed)
-            if (mentalState_EarlessSuicide == null || mentalState_EarlessSuicide.target == null || !pawn.CanReach(mentalState_EarlessSuicide.target, PathEndMode.Touch, Danger.Deadly))
+            if (mentalState_EarlessSuicide == null || !mentalState_EarlessSuicide.target.IsValid || !pawn.CanReach(mentalState_EarlessSuicide.target, PathEndMode.Touch, Danger.Deadly))
             {
                 return null;
             }

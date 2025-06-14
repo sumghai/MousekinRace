@@ -1,14 +1,13 @@
 ﻿using HarmonyLib;
 using RimWorld;
 using System.Collections.Generic;
-using System.Linq;
 using Verse;
 
 namespace MousekinRace
 {
     // Add a pawn render node for the toggleable hood, and hide all other headgear if the hood is enabled
-    [HarmonyPatch(typeof(PawnRenderTree), nameof(PawnRenderTree.ProcessApparel))]
-    public static class Harmony_PawnRenderTree_ProcessApparel_AddHoodNodeAndHideOtherHeadgear
+    [HarmonyPatch(typeof(DynamicPawnRenderNodeSetup_Apparel), nameof(DynamicPawnRenderNodeSetup_Apparel.ProcessApparel))]
+    public static class Harmony_DynamicPawnRenderNodeSetup_Apparel_ProcessApparel_AddHoodNodeAndHideOtherHeadgear
     {
         // Hide all other headgear is the hood is enabled
         static bool Prefix(PawnRenderTree __instance, Apparel ap, PawnRenderNode headApparelNode)

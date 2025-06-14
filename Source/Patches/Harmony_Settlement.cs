@@ -14,11 +14,11 @@ namespace MousekinRace
         {
             foreach(Gizmo gizmo in __result) 
             {
-                if (gizmo is Command_Action command_Action && command_Action.defaultLabel == "CommandShowSellableItems".Translate() && GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction && allegianceFaction.def.GetModExtension<AlliableFactionExtension>() is AlliableFactionExtension allegianceFactionExtension && allegianceFactionExtension.hostileToFactionTypes.Contains(__instance.Faction.def))
+                /*if (gizmo is Command_Action command_Action && command_Action.defaultLabel == "CommandShowSellableItems".Translate() && GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction && allegianceFaction.def.GetModExtension<AlliableFactionExtension>() is AlliableFactionExtension allegianceFactionExtension && allegianceFactionExtension.hostileToFactionTypes.Contains(__instance.Faction.def))
                 { 
                     command_Action.disabled = true;
                     command_Action.disabledReason = "MousekinRace_CommandShowSellableItemsDesc_DisabledReason".Translate(AllegianceSys_Utils.MembershipToFactionLabel(allegianceFaction));
-                }
+                }*/
                 yield return gizmo;
             }
         }

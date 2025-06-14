@@ -47,10 +47,10 @@ namespace MousekinRace
             get 
             {
                 List<ThingDef> thingDefs = new();
-                foreach (Faction faction in GameComponent_Allegiance.Instance.alliableFactions)
+                /*foreach (Faction faction in GameComponent_Allegiance.Instance.alliableFactions)
                 {
                     thingDefs.AddRange(faction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs);
-                }
+                }*/
                 return thingDefs;
             }
         }

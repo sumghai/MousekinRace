@@ -197,7 +197,7 @@
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<verbs>
 			<li>
-				<verbClass>SmokingGun.Verb_ShootWithSmoke</verbClass>
+				<verbClass>VEF.Weapons.Verb_ShootWithSmoke</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_Mousekin_MusketBall</defaultProjectile>
 				<warmupTime>1.55</warmupTime>
@@ -227,7 +227,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
 					<north>
 						<drawOffset>(0, 0, -0.09)</drawOffset>
@@ -290,7 +290,7 @@
 		</recipeMaker>
 		<verbs>
 			<li>
-				<verbClass>SmokingGun.Verb_ShootWithSmoke</verbClass>
+				<verbClass>VEF.Weapons.Verb_ShootWithSmoke</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_Mousekin_BlunderbussPellets</defaultProjectile>
 				<warmupTime>1.55</warmupTime>
@@ -320,7 +320,7 @@
 			</li>
 		</tools>
 		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
+			<li Class="VEF.Things.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
 					<north>
 						<drawOffset>(0, 0, -0.09)</drawOffset>

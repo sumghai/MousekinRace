@@ -3,7 +3,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class MapComponent_ChurchService : MapComponent
+    /*public class MapComponent_ChurchService : MapComponent
     {
         public const int churchServiceBeginHour = 9; // 9 am
         
@@ -44,5 +44,5 @@ namespace MousekinRace
                 }
             }
         }
-    }
+    }*/
 }

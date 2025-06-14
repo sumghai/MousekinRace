@@ -19,10 +19,10 @@ namespace MousekinRace
         public override void Notify_ThingSelected()
         {
             base.Notify_ThingSelected();
-            GameComponent_Allegiance.Instance.RecacheAvailableSilver();
+            //GameComponent_Allegiance.Instance.RecacheAvailableSilver();
         }
 
-        public override string GetInspectString()
+        /*public override string GetInspectString()
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append(base.GetInspectString());
@@ -38,9 +38,9 @@ namespace MousekinRace
             }
 
             return stringBuilder.ToString();
-        }
+        }*/
 
-        public override IEnumerable<Gizmo> GetGizmos()
+        /*public override IEnumerable<Gizmo> GetGizmos()
         {
             foreach (Gizmo c in base.GetGizmos())
             {
@@ -85,6 +85,6 @@ namespace MousekinRace
                     }
                 };
             }
-        }
+        }*/
     }
 }

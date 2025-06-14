@@ -105,11 +105,11 @@ namespace MousekinRace
                 Graphics.DrawMesh(flagPoleMesh, parent.DrawPos + flagPoleGraphicData.drawOffset, Quaternion.identity, flagPoleGraphicData.Graphic.GetColoredVersion(flagPoleGraphicData.Graphic.Shader, parent.DrawColor, parent.DrawColorTwo).MatAt(parent.Rotation), 0);
             }
 
-            if (GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction && allegianceFaction.def.GetModExtension<AlliableFactionExtension>() is AlliableFactionExtension facExt && facExt.flagGraphicData != null)
+            /*if (GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction && allegianceFaction.def.GetModExtension<AlliableFactionExtension>() is AlliableFactionExtension facExt && facExt.flagGraphicData != null)
             {
                 Mesh flagMesh = facExt.flagGraphicData.Graphic.MeshAt(parent.Rotation);
                 Graphics.DrawMesh(flagMesh, parent.DrawPos + facExt.flagGraphicData.drawOffset, Quaternion.identity, facExt.flagGraphicData.Graphic.GetColoredVersion(facExt.flagGraphicData.Graphic.Shader, parent.DrawColor, parent.DrawColorTwo).MatAt(parent.Rotation), 0);
-            }
+            }*/
         }
     }
 }

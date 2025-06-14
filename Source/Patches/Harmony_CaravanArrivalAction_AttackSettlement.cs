@@ -14,14 +14,14 @@ namespace MousekinRace
         static IEnumerable<MethodBase> TargetMethods()
         {
             yield return AccessTools.Method(typeof(CaravanArrivalAction_AttackSettlement), nameof(CaravanArrivalAction_AttackSettlement.CanAttack));
-            yield return AccessTools.Method(typeof(TransportPodsArrivalAction_AttackSettlement), nameof(TransportPodsArrivalAction_AttackSettlement.CanAttack));
+            yield return AccessTools.Method(typeof(TransportersArrivalAction_AttackSettlement), nameof(TransportersArrivalAction_AttackSettlement.CanAttack));
         }
         static void Postfix(ref FloatMenuAcceptanceReport __result, Settlement settlement)
         {
-            if (GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction && settlement.Faction == allegianceFaction)
+            /*if (GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction && settlement.Faction == allegianceFaction)
             {
                 __result = false;
-            }
+            }*/
         }
     }
 }

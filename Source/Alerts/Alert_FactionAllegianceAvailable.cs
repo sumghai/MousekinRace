@@ -3,7 +3,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class Alert_FactionAllegianceAvailable : Alert
+    /*public class Alert_FactionAllegianceAvailable : Alert
     {
         public Alert_FactionAllegianceAvailable()
         {           
@@ -27,5 +27,5 @@ namespace MousekinRace
 
             return allegianceGameComp.HasAnyTownSquares && !allegianceGameComp.HasDeclaredAllegiance && allegianceGameComp.anyAllegianceFactionJoinReqsMet;
         }
-    }
+    }*/
 }

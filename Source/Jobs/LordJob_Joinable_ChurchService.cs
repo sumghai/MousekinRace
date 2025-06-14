@@ -58,10 +58,10 @@ namespace MousekinRace
         public override float VoluntaryJoinPriorityFor(Pawn p)
         {
             // Priests and all worshippers must attend
-            if (p == organizer || ChurchService_Utils.GetMousekinPotentialWorshippers(p.Map).Contains(p)) 
+            /*if (p == organizer || ChurchService_Utils.GetMousekinPotentialWorshippers(p.Map).Contains(p)) 
             {
                 return 100f;
-            }
+            }*/
 
             // Non-Apostate Mousekin guests can attend socially
             if (IsGuest(p))
@@ -154,11 +154,11 @@ namespace MousekinRace
             }
 
             // Send letter summarizing outcome of sermon and calculate tithe amount
-            Find.LetterStack.ReceiveLetter("MousekinRace_Letter_ChurchServiceConcluded".Translate(), ChurchService_Utils.GetSummaryAndTitheAmount(organizer, attendeePawns, absentPawns, out int titheAmount), LetterDefOf.NeutralEvent);
+            //Find.LetterStack.ReceiveLetter("MousekinRace_Letter_ChurchServiceConcluded".Translate(), ChurchService_Utils.GetSummaryAndTitheAmount(organizer, attendeePawns, absentPawns, out int titheAmount), LetterDefOf.NeutralEvent);
 
             // Spawn silver at altar
             Thing t = ThingMaker.MakeThing(ThingDefOf.Silver);
-            t.stackCount = titheAmount;
+            //t.stackCount = titheAmount;
             GenPlace.TryPlaceThing(t, churchAltar.positionInt, Map, ThingPlaceMode.Direct);
         }
     }

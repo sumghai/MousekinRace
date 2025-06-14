@@ -6,7 +6,7 @@ using Verse.AI.Group;
 
 namespace MousekinRace
 {
-    public class GatheringWorker_ChurchService : GatheringWorker
+    /*public class GatheringWorker_ChurchService : GatheringWorker
     {
         public override Pawn FindOrganizer(Map map)
         {
@@ -48,5 +48,5 @@ namespace MousekinRace
 
             return true;
         }
-    }
+    }*/
 }

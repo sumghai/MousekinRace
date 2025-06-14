@@ -24,14 +24,14 @@ namespace MousekinRace
 
         public override List<PawnRenderNode> CompRenderNodes()
         {
-            List<PawnRenderNode> hoodRenderNode = new();
+            List<PawnRenderNode> hoodRenderNode = [];
             PawnRenderNodeProperties properties = new();
 
             // Calculate rendering offset for head apparel layer
             PawnRenderNode value;
             PawnRenderNode headApparelNode = (Pawn.drawer.renderer.renderTree.nodesByTag.TryGetValue(PawnRenderNodeTagDefOf.ApparelHead, out value) ? value : null);
-            float value2;
-            float num = (Pawn.drawer.renderer.renderTree.layerOffsets.TryGetValue(headApparelNode, out value2) ? value2 : 0f);
+            //float value2;
+            float num = 0f;// (Pawn.drawer.renderer.renderTree.layerOffsets.TryGetValue(headApparelNode, out value2) ? value2 : 0f);
 
             // Set up rendering properties for the hood
             properties.texPath = Props.attachedHeadgearGraphicPath;
@@ -42,8 +42,10 @@ namespace MousekinRace
             properties.parentTagDef = PawnRenderNodeTagDefOf.ApparelHead;
             properties.baseLayer = headApparelNode.Props.baseLayer + num;
 
-            PawnRenderNode_ApparelToggleableHood hoodApparelNode = new(Pawn, properties, Pawn.drawer.renderer.renderTree);
-            hoodApparelNode.attachedHeadgearComp = this;
+            PawnRenderNode_ApparelToggleableHood hoodApparelNode = new(Pawn, properties, Pawn.drawer.renderer.renderTree)
+            {
+                attachedHeadgearComp = this
+            };
             hoodRenderNode.Add(hoodApparelNode);
 
             return hoodRenderNode;

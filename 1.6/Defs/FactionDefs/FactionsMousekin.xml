@@ -531,7 +531,7 @@
 
 		</pawnGroupMakers>
 		<modExtensions>
-			<li Class="VFECore.FactionDefExtension">
+			<li Class="VEF.Factions.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<Mousekin_PlayerFaction_Settlers>10~20</Mousekin_PlayerFaction_Settlers>
 					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>
@@ -794,7 +794,7 @@
 
 		</pawnGroupMakers>
 		<modExtensions>
-			<li Class="VFECore.FactionDefExtension">
+			<li Class="VEF.Factions.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<Mousekin_PlayerFaction_Settlers>10~20</Mousekin_PlayerFaction_Settlers>
 					<Mousekin_PlayerFaction_Refugees>10~20</Mousekin_PlayerFaction_Refugees>
@@ -988,7 +988,7 @@
 			<li Class="KCSG.CustomGenOption">
 				<canSpawnSettlements>false</canSpawnSettlements>
 			</li>
-			<li Class="VFECore.FactionDefExtension">
+			<li Class="VEF.Factions.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<OutlanderCivil>5~20</OutlanderCivil>
 				</startingGoodwillByFactionDefs>
@@ -1065,7 +1065,7 @@
 			<li Class="KCSG.CustomGenOption">
 				<canSpawnSettlements>false</canSpawnSettlements>
 			</li>
-			<li Class="VFECore.FactionDefExtension">
+			<li Class="VEF.Factions.FactionDefExtension">
 				<excludeFromQuests>true</excludeFromQuests>
 				<excludeFromCommConsole>true</excludeFromCommConsole>
 			</li>

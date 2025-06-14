@@ -13,7 +13,7 @@ namespace MousekinRace
         
         public CompUndergroundMineDeposits compUMD;
 
-        public MapComponent_UndergroundMineDeposits mapComp_UMD;
+        //public MapComponent_UndergroundMineDeposits mapComp_UMD;
 
         public const int maxMiningJobSlots = 20;
 
@@ -33,8 +33,8 @@ namespace MousekinRace
             base.SpawnSetup(map, respawningAfterLoad);
             Map.resourceCounter.UpdateResourceCounts();
             compUMD = GetComp<CompUndergroundMineDeposits>();
-            mapComp_UMD = map.GetComponent<MapComponent_UndergroundMineDeposits>();
-            mapComp_UMD.RescanDeposits(compUMD.Props.mineables);
+            //mapComp_UMD = map.GetComponent<MapComponent_UndergroundMineDeposits>();
+            //mapComp_UMD.RescanDeposits(compUMD.Props.mineables);
             miningJobSlots ??= new(maxMiningJobSlots);
             UpdateMiningJobSlots();
         }

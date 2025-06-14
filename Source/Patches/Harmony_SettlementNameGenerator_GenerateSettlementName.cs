@@ -10,7 +10,7 @@ namespace MousekinRace
     // Rename 1~2 Mousekin Kingdom settlements with custom names
     // - Every kingdom will have one city representing the capital
     // - Large kingdoms will get an extra city representing a major fort
-    [HarmonyPatch(typeof(FactionGenerator), nameof(FactionGenerator.GenerateFactionsIntoWorld))]
+    [HarmonyPatch(typeof(FactionGenerator), nameof(FactionGenerator.GenerateFactionsIntoWorldLayer))]
     public static class Harmony_FactionGenerator_GenerateFactionsIntoWorld_CustomMousekinKingdomSettlementNames
     {
         // Tune this as required

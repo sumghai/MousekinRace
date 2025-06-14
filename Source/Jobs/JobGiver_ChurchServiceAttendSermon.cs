@@ -48,7 +48,8 @@ namespace MousekinRace
 
             // Fallback: free standing spot behind last row of seats/pews
             Building lectern = spot.GetRoom(p.MapHeld).ContainedThings(MousekinDefOf.Mousekin_ChurchLectern).FirstOrDefault() as Building;
-            bool spotBehindSeatsIsStandable = ChurchService_Utils.GetStandableCellsBehindPews(map, lectern).Contains(spot);
+            //bool spotBehindSeatsIsStandable = ChurchService_Utils.GetStandableCellsBehindPews(map, lectern).Contains(spot);
+            bool spotBehindSeatsIsStandable = true;
 
             return spotIsSeat || spotBehindSeatsIsStandable;
         }

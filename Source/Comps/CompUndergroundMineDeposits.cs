@@ -8,12 +8,12 @@ namespace MousekinRace
     {
         public CompProperties_UndergroundMineDeposits Props => (CompProperties_UndergroundMineDeposits)props;
 
-        public MapComponent_UndergroundMineDeposits mapComp;
+        //public MapComponent_UndergroundMineDeposits mapComp;
 
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
-            mapComp = Find.CurrentMap.GetComponent<MapComponent_UndergroundMineDeposits>();
+            //mapComp = Find.CurrentMap.GetComponent<MapComponent_UndergroundMineDeposits>();
         }
 
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
@@ -26,7 +26,7 @@ namespace MousekinRace
                     action = delegate
                     {
                         string output = "";
-                        foreach (MineableThingCount deposit in mapComp.deposits) 
+                        /*foreach (MineableThingCount deposit in mapComp.deposits) 
                         { 
                             output += deposit.mineableThing.defName + " = " + deposit.amountRemaining + " remaining\n";
                         }
@@ -34,7 +34,7 @@ namespace MousekinRace
                         if (!PlayDataLoader.Loaded || Prefs.DevMode)
                         {
                             Log.TryOpenLogWindow();
-                        }
+                        }*/
                     }
                 };
                 yield return command_ActionShowCurrentDeposits;
@@ -44,9 +44,9 @@ namespace MousekinRace
                     defaultLabel = "DEV: Regen deposits",
                     action = delegate
                     {
-                        mapComp.deposits.Clear();
-                        mapComp.RescanDeposits(Props.mineables);
-                        Log.Warning($"Regenerated {mapComp.deposits.Count} deposits in {mapComp.map}");
+                        //mapComp.deposits.Clear();
+                        //mapComp.RescanDeposits(Props.mineables);
+                        //Log.Warning($"Regenerated {mapComp.deposits.Count} deposits in {mapComp.map}");
                     }
                 };
                 yield return command_ActionRegenDeposits;

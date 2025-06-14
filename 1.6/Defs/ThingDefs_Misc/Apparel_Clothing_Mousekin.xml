@@ -962,7 +962,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="VFECore.ApparelDrawPosExtension">
+			<li Class="VEF.Pawns.ApparelDrawPosExtension">
 				<secondaryApparelGraphics>
 					<li>Mousekin_ApparelKnightCommanderCapeBack</li>
 				</secondaryApparelGraphics>

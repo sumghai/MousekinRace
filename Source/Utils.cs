@@ -85,7 +85,7 @@ namespace MousekinRace
         // Get percentage of player faction free colonists that are Mousekins
         public static float PercentColonistsAreMousekins()
         {
-            List<Pawn> allColonists = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists.Where(p => !p.IsSlave && !p.IsPrisoner).ToList();
+            List<Pawn> allColonists = PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_FreeColonists.Where(p => !p.IsSlave && !p.IsPrisoner).ToList();
             int playerFactionTotalColonistCount = allColonists.Count();
             int playerFactionMousekinColonistCount = allColonists.Where(p => IsMousekin(p)).Count();
             return (playerFactionTotalColonistCount == 0) ? 0 : (float) playerFactionMousekinColonistCount / playerFactionTotalColonistCount;

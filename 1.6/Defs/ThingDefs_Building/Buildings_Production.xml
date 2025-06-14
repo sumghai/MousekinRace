@@ -123,7 +123,7 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="RecipeInheritance.ThingDefExtension">
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>FueledStove</li>
 				</inheritRecipesFrom>
@@ -351,7 +351,7 @@
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
 		<modExtensions>
-			<li Class="RecipeInheritance.ThingDefExtension">
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>TableButcher</li>
 				</inheritRecipesFrom>
@@ -418,7 +418,7 @@
 		</placeWorkers>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="RecipeInheritance.ThingDefExtension">
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>TableSculpting</li>
 					<li>TableStonecutter</li>
@@ -740,7 +740,7 @@
 		<defName>Mousekin_CheesePress</defName>
 		<label>Mousekin cheese press</label>
 		<description>A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese.</description>
-		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+		<!--<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>-->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Rare</tickerType>
 		<graphicData>
@@ -829,7 +829,7 @@
 		<defName>Mousekin_FermentingBarrel</defName>
 		<label>Mousekin fermenting barrel</label>
 		<description>A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room.</description>
-		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+		<!--<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>-->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Rare</tickerType>
 		<graphicData>
@@ -1140,7 +1140,7 @@
 		<defName>Mousekin_Windmill</defName>
 		<label>Mousekin windmill</label>
 		<description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water.</description>
-		<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>
+		<!--<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>-->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
 		<graphicData>

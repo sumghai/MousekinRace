@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ScenarioDef Name="Mousekin_ScenarioBase" Abstract="true">
+	<ScenarioDef Name="Mousekin_ScenarioBase" ParentName="ScenarioBase" Abstract="true">
 		<scenario>
 			<parts>
 				<li Class="ScenPart_DisableIncident">

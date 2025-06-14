@@ -7,7 +7,7 @@ namespace MousekinRace
 	{
 		public override ThoughtState ShouldHaveThought(Pawn p)
 		{
-			MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
+			/*MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
 			int flowersDestroyed = flowerTracker.playerFlowerDestructionTicks.Count;
 			
 			// Number of flowers destroyed are fixed for each stage, and does not scale with number of ideo/precept believers
@@ -26,7 +26,7 @@ namespace MousekinRace
 			if (flowersDestroyed >= 20)
 			{
 				return ThoughtState.ActiveAtStage(3);
-			}
+			}*/
 			return ThoughtState.Inactive;
 		}
 	}

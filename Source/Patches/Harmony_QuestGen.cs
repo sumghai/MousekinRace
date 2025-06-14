@@ -15,7 +15,7 @@ namespace MousekinRace
         
         public static void Postfix(QuestScriptDef root, Slate initialVars, ref Quest __result)
         {
-            if (GameComponent_Allegiance.Instance.alignedFaction != null) 
+            /*if (GameComponent_Allegiance.Instance.alignedFaction != null) 
             {                
                 if (RealInvolvedFactions(__result).Any(f => f == Faction.OfEmpire))
                 {
@@ -33,7 +33,7 @@ namespace MousekinRace
                 {
                     iterationNumber = 0;
                 }
-            }
+            }*/
         }
 
         private static List<Faction> RealInvolvedFactions(Quest quest)

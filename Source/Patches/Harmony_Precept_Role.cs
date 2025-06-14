@@ -79,7 +79,7 @@ namespace MousekinRace
     {
         static void Postfix(ref string __result, ref Precept_Role __instance)
         {
-            if (Utils.IsMousekin(__instance.ideo.culture) && Faction.OfPlayer.ideos.Has(__instance.ideo))
+            /*if (Utils.IsMousekin(__instance.ideo.culture) && Faction.OfPlayer.ideos.Has(__instance.ideo))
             {
                 string originalTipText = __result;
 
@@ -110,7 +110,7 @@ namespace MousekinRace
                         AllegianceSys_Utils.FactionNameWithDefiniteArticle(kingdomFaction.name.Colorize(kingdomFaction.Color))
                         ).Colorize(ColoredText.ImpactColor) + "\n\n" + originalTipText;
                 }
-            }
+            }*/
         }
     }
     
@@ -134,7 +134,7 @@ namespace MousekinRace
     {
         static void Postfix(ref string __result, ref Precept_Role __instance)
         {
-            if (Utils.IsMousekin(__instance.ideo.culture) && Faction.OfPlayer.ideos.Has(__instance.ideo))
+            /*if (Utils.IsMousekin(__instance.ideo.culture) && Faction.OfPlayer.ideos.Has(__instance.ideo))
             {
                 // Leader titles should only be appended if
                 // - the player's allegiance faction ideo/culture matches the current role's ideo/culture
@@ -152,7 +152,7 @@ namespace MousekinRace
                     string playerVariantRoleTitle = Utils.ReplaceIdeoRoleTitlesForMousekinPlayer(__result, __instance);
                     __result = originalRoleTitle + ((playerVariantRoleTitle != originalRoleTitle) ? " (" + playerVariantRoleTitle + ")" : "");
                 }
-            }
+            }*/
         }
     }
 }

@@ -8,7 +8,7 @@ using Verse.Sound;
 
 namespace MousekinRace
 {
-    public class MainTabWindow_Allegiance : MainTabWindow
+    /*public class MainTabWindow_Allegiance : MainTabWindow
     {
         public List<MenuOption> menuOptions = new()
         {
@@ -1009,5 +1009,5 @@ namespace MousekinRace
                 buttonLabel = buttonLabelInput;
             }
         }
-    }
+    }*/
 }

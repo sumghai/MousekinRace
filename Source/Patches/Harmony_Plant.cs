@@ -4,7 +4,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    [HarmonyPatch(typeof(Plant), nameof(Plant.Kill))]
+    /*[HarmonyPatch(typeof(Plant), nameof(Plant.Kill))]
     public static class Harmony_Plant_Kill_NotifyFlowerDestroyed
     {
         static void Prefix(Plant __instance, DamageInfo? dinfo)
@@ -38,5 +38,5 @@ namespace MousekinRace
                 __instance.Map?.GetComponent<MapComponent_FlowerTracker>()?.Notify_FlowerDestroyed(__instance, null);
             }
         }
-    }
+    }*/
 }

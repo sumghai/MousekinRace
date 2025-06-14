@@ -24,10 +24,10 @@ namespace MousekinRace
             yield return Toils_Goto.Goto(CellIndex, PathEndMode.OnCell);
             float totalBuildingNutrition = base.TargetA.Thing.def.CostList.Sum((ThingDefCountClass x) => x.thingDef.GetStatValueAbstract(StatDefOf.Nutrition) * (float)x.count);
             Toil eat = ToilMaker.MakeToil("MakeNewToils");
-            eat.tickAction = delegate
+            eat.tickIntervalAction = delegate (int delta)
             {
                 pawn.rotationTracker.FaceCell(base.TargetA.Thing.OccupiedRect().ClosestCellTo(pawn.Position));
-                pawn.GainComfortFromCellIfPossible();
+                pawn.GainComfortFromCellIfPossible(delta);
                 if (pawn.needs.food != null)
                 {
                     pawn.needs.food.CurLevel += totalBuildingNutrition / (float)pawn.GetLord().ownedPawns.Count / (float)eat.defaultDuration;
