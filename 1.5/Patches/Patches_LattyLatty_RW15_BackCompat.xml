@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>NewRatkinPlus</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Back compat for RW 1.5 - use older Vanilla Expanded Framework namespace for faction starting relations patch -->
+				
+				<li Class="PatchOperationAttributeSet">
+					<xpath>Defs/FactionDef[
+						defName="Rakinia" or
+						defName="RK_PlayerFaction"
+					]/modExtensions/li[@Class="VEF.Factions.FactionDefExtension"]</xpath>
+					<attribute>Class</attribute>
+					<value>VFECore.FactionDefExtension</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
