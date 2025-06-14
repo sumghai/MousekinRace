@@ -788,7 +788,7 @@
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<comps>
-			<li Class="ItemProcessor.CompProperties_ItemProcessor">
+			<!--<li Class="ItemProcessor.CompProperties_ItemProcessor">
 				<buildingOnGraphic>Things/Building/Production/Mousekin_CheesePressFull</buildingOnGraphic>
 				<numberOfInputs>1</numberOfInputs>
 				<acceptsNoneAsInput>false</acceptsNoneAsInput>
@@ -811,12 +811,12 @@
 				
 				<noPowerDestroysProgress>false</noPowerDestroysProgress>
 				
-				<!--<removeProductText>MousekinRace_CheesePress_RemoveCheese</removeProductText>
+				<removeProductText>MousekinRace_CheesePress_RemoveCheese</removeProductText>
 				<removeProductDesc>MousekinRace_CheesePress_RemoveCheeseDesc</removeProductDesc>
-				<removeProductIcon>UI/ItemProcessors/Mousekin_CheesePress_RemoveCheese</removeProductIcon>-->
+				<removeProductIcon>UI/ItemProcessors/Mousekin_CheesePress_RemoveCheese</removeProductIcon>
 				
 				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
-			</li>
+			</li>-->
 		</comps>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
@@ -877,7 +877,7 @@
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<comps>
-			<li Class="ItemProcessor.CompProperties_ItemProcessor">
+			<!--<li Class="ItemProcessor.CompProperties_ItemProcessor">
 				<buildingOnGraphic>Things/Building/Production/Mousekin_FermentingBarrel</buildingOnGraphic>
 				<numberOfInputs>1</numberOfInputs>
 				<acceptsNoneAsInput>false</acceptsNoneAsInput>
@@ -901,11 +901,11 @@
 				<minLight>-1</minLight>
 				<maxLight>0.5</maxLight>
 				<isTemperatureDependingMachine>true</isTemperatureDependingMachine>
-				<!-- Good compromise for both lagers and meads -->
+				Good compromise for both lagers and meads
 				<minTemp>5</minTemp>
 				<maxTemp>20</maxTemp>
 				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
-			</li>
+			</li>-->
 		</comps>
 		<researchPrerequisites>
 			<li>Brewing</li>
@@ -1192,7 +1192,7 @@
 			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
 		</building>
 		<comps>
-			<li Class="MousekinRace.CompProperties_Windmill">
+			<!--<li Class="MousekinRace.CompProperties_Windmill">
 				<obstructionFreeRadius>9.9</obstructionFreeRadius>
 				<terraformRadius>14.9</terraformRadius>
 				<daysToTerraformRadius>120</daysToTerraformRadius>
@@ -1234,7 +1234,7 @@
 				<cancelIngredientsDesc>MousekinRace_Windmill_CancelBringingWheatDesc</cancelIngredientsDesc>
 				<cancelIngredientsIcon>UI/ItemProcessors/Mousekin_Windmill_CancelWheat</cancelIngredientsIcon>
 				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
-			</li>
+			</li>-->
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_NotUnderRoof</li>
