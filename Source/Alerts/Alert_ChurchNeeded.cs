@@ -7,7 +7,7 @@ namespace MousekinRace
 {
     // Alerts the player that they need to build a church if their current map population has 5 or more non-Apostate Mousekins
     // (Checked for each player-owned colony map)
-    /*public class Alert_ChurchNeeded : Alert
+    public class Alert_ChurchNeeded : Alert
     {
         private TaggedString requirementsList;
         
@@ -57,5 +57,5 @@ namespace MousekinRace
             }
             return false;
         }
-    }*/
+    }
 }

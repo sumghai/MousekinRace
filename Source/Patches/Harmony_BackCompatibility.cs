@@ -1,5 +1,4 @@
 ﻿using HarmonyLib;
-using ItemProcessor;
 using RimWorld;
 using System;
 using System.Collections.Generic;
@@ -82,7 +81,7 @@ namespace MousekinRace
                 // Otherwise, restore ItemProcessor if VCE is disabled/uninstalled
                 else
                 {
-                    __result = typeof(ItemProcessor.Building_ItemProcessor);
+                    //__result = typeof(ItemProcessor.Building_ItemProcessor);
                 }
             }
         }
@@ -100,7 +99,7 @@ namespace MousekinRace
                 List<Thing> windmills = map.listerThings.AllThings.Where(t => t.def == MousekinDefOf.Mousekin_Windmill).ToList();
                 if (!windmills.NullOrEmpty())
                 {
-                    foreach (Building_ItemProcessor oldWindmill in windmills.Cast<Building_ItemProcessor>())
+                    /*foreach (Building_ItemProcessor oldWindmill in windmills.Cast<Building_ItemProcessor>())
                     {
                         if (oldWindmill.innerContainerFirst == null)
                         {
@@ -116,7 +115,7 @@ namespace MousekinRace
                             newWindmill.ThingID = oldID;
                             GenSpawn.Spawn(newWindmill, oldPosition, map);
                         }
-                    }
+                    }*/
                 }
             }
         }

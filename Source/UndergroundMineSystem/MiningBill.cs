@@ -485,7 +485,7 @@ namespace MousekinRace
 
         public void InitializeAfterClone()
         {
-            //loadID = Map.GetComponent<MapComponent_UndergroundMineDeposits>().GetNextMiningBillID(Map);
+            loadID = Map.GetComponent<MapComponent_UndergroundMineDeposits>().GetNextMiningBillID(Map);
         }
 
         public void Notify_IterationCompleted(Pawn miner)

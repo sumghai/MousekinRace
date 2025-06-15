@@ -12,10 +12,10 @@ namespace MousekinRace
             ThingDef currentDef = __instance.ProducedThingDef;
             if (MousekinDefOf.FactionRestrictedThingDefs.Contains(currentDef))
             {
-                /*if (GameComponent_Allegiance.Instance.alignedFaction == null || !GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs.Contains(currentDef))
+                if (GameComponent_Allegiance.Instance.alignedFaction == null || !GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs.Contains(currentDef))
                 {
                     __result = false;
-                }*/
+                }
             }
         }
     }

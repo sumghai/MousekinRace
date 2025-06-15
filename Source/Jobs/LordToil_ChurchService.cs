@@ -39,7 +39,7 @@ namespace MousekinRace
         public override void Init()
         {
             base.Init();
-            //ChurchService_Utils.ValidChurchFound(organizer.MapHeld, out Data.churchAltar);
+            ChurchService_Utils.ValidChurchFound(organizer.MapHeld, out Data.churchAltar);
             Data.spectateRect = CellRect.CenteredOn(spot, 0);
             Rot4 rotation = GetLecternFromInteractionCell(spot, organizer.MapHeld).Rotation;
             Data.spectateRectAllowedSides = SpectateRectSide.All & ~rotation.Opposite.AsSpectateSide;

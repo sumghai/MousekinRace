@@ -4,7 +4,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    /*public class MapComponent_UndergroundMineDeposits : MapComponent
+    public class MapComponent_UndergroundMineDeposits : MapComponent
     {
         public HashSet<MineableThingCount> deposits = [];
 
@@ -70,7 +70,7 @@ namespace MousekinRace
             }
             return result;
         }
-    }*/
+    }
 
     public class MineableThingCount : IExposable, ILoadReferenceable
     {

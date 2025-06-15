@@ -1,6 +1,5 @@
 ﻿using HarmonyLib;
 using RimWorld;
-using System;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using Verse;
@@ -8,8 +7,8 @@ using Verse;
 namespace MousekinRace
 {
     // Force Mousekin-unique animals to use name generators if tamed by a Mousekin
-    [HarmonyPatch(typeof(InteractionWorker_RecruitAttempt), nameof(InteractionWorker_RecruitAttempt.DoRecruit), new Type[] { typeof(Pawn), typeof(Pawn), typeof(string), typeof(string), typeof(bool), typeof(bool) },
-        new ArgumentType[] { ArgumentType.Normal, ArgumentType.Normal, ArgumentType.Out, ArgumentType.Out, ArgumentType.Normal, ArgumentType.Normal })]
+    [HarmonyPatch(typeof(InteractionWorker_RecruitAttempt), nameof(InteractionWorker_RecruitAttempt.DoRecruit), [typeof(Pawn), typeof(Pawn), typeof(string), typeof(string), typeof(bool), typeof(bool)],
+        [ArgumentType.Normal, ArgumentType.Normal, ArgumentType.Out, ArgumentType.Out, ArgumentType.Normal, ArgumentType.Normal])]
     public static class Harmony_InteractionWorker_RecruitAttempt_DoRecruit_NameAnimalOnTame
     {
         [HarmonyTranspiler]
@@ -17,17 +16,17 @@ namespace MousekinRace
         {
             var codeMatcher = new CodeMatcher(instructions);
 
-            CodeMatch[] toMatch = new CodeMatch[] 
-            {
+            CodeMatch[] toMatch =
+            [
                 new CodeMatch(OpCodes.Ldstr, "MessageTameAndNameSuccess")
-            };
+            ];
 
-            CodeInstruction[] toInsert = new CodeInstruction[]
-            {
+            CodeInstruction[] toInsert =
+            [
                 new CodeInstruction(OpCodes.Ldarg_0, null),
                 new CodeInstruction(OpCodes.Ldarg_1, null),
                 new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_InteractionWorker_RecruitAttempt_DoRecruit_NameAnimalOnTame), nameof(Harmony_InteractionWorker_RecruitAttempt_DoRecruit_NameAnimalOnTame.ConditionallySetAnimalName)))
-            };
+            ];
 
             codeMatcher.MatchEndForward(toMatch);
             codeMatcher.Insert(toInsert);

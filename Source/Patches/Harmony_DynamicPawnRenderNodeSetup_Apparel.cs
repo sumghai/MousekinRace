@@ -10,9 +10,9 @@ namespace MousekinRace
     public static class Harmony_DynamicPawnRenderNodeSetup_Apparel_ProcessApparel_AddHoodNodeAndHideOtherHeadgear
     {
         // Hide all other headgear is the hood is enabled
-        static bool Prefix(PawnRenderTree __instance, Apparel ap, PawnRenderNode headApparelNode)
+        static bool Prefix(Pawn pawn, Apparel ap)
         {
-            if (ap.def.apparel.layers.Contains(ApparelLayerDefOf.Overhead) && __instance.pawn.apparel.WornApparel.Exists(ap => ap.GetComp<CompApparelWithAttachedHeadgear>()?.isHatOn ?? false))
+            if (ap.def.apparel.layers.Contains(ApparelLayerDefOf.Overhead) && pawn.apparel.WornApparel.Exists(ap => ap.GetComp<CompApparelWithAttachedHeadgear>()?.isHatOn ?? false))
             {
                 return false; // Hide
             }
@@ -20,15 +20,15 @@ namespace MousekinRace
         }
 
         // Add the hooded headgear render node
-        static void Postfix(PawnRenderTree __instance, Apparel ap)
+        static void Postfix(PawnRenderTree tree, Apparel ap)
         {
             if (ap.GetComp<CompApparelWithAttachedHeadgear>()?.CompRenderNodes() is List<PawnRenderNode> renderNodes)
             {
                 foreach(PawnRenderNode node in renderNodes) 
                 {
-                    if (__instance.ShouldAddNodeToTree(node?.Props))
+                    if (tree.ShouldAddNodeToTree(node?.Props))
                     {
-                        __instance.AddChild(node, null);
+                        tree.AddChild(node, null);
                     }
                 }
             }
@@ -45,9 +45,10 @@ namespace MousekinRace
             
             if (pawn.apparel != null && PawnRenderNodeWorker_Apparel_Head.HeadgearVisible(parms))
             {
-                if(pawn.apparel.WornApparel.Exists(ap => ap.GetComp<CompApparelWithAttachedHeadgear>()?.isHatOn ?? false))
-                
-                parms.skipFlags |= RenderSkipFlagDefOf.Hair;
+                if (pawn.apparel.WornApparel.Exists(ap => ap.GetComp<CompApparelWithAttachedHeadgear>()?.isHatOn ?? false))
+                {
+                    parms.skipFlags |= RenderSkipFlagDefOf.Hair;
+                }
             }
         }
     }

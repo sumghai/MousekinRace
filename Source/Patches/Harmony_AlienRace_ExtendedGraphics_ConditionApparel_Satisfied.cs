@@ -1,7 +1,6 @@
 ﻿using AlienRace;
 using AlienRace.ExtendedGraphics;
 using HarmonyLib;
-using RimWorld;
 using System.Linq;
 using Verse;
 

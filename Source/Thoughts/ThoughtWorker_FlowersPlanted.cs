@@ -12,7 +12,7 @@ namespace MousekinRace
 
         public int ThoughtStageIndex(Pawn p)
         {
-            /*MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
+            MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
             int flowersPlanted = flowerTracker.playerFlowersPlanted.Count;
             int varietyCount = flowerTracker.PlayerFlowerVarietiesPlanted;
 
@@ -34,7 +34,7 @@ namespace MousekinRace
                 {
                     return 4;
                 }
-            }*/
+            }
             return 2;
         }
     }

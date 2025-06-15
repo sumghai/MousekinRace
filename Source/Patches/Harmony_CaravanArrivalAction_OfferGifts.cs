@@ -18,10 +18,10 @@ namespace MousekinRace
         }
         static void Postfix(ref FloatMenuAcceptanceReport __result, Settlement settlement)
         {
-            /*if (AllegianceSys_Utils.IsEnemyBecauseOfAllegiance(Faction.OfPlayer, settlement.Faction))
+            if (AllegianceSys_Utils.IsEnemyBecauseOfAllegiance(Faction.OfPlayer, settlement.Faction))
             {
                 __result = false;
-            }*/
+            }
         }
     }
 }

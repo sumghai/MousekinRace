@@ -7,7 +7,7 @@ namespace MousekinRace
     {
         public override ThoughtState ShouldHaveThought(Pawn p)
         {
-            /*MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
+            MapComponent_FlowerTracker flowerTracker = p.Map.GetComponent<MapComponent_FlowerTracker>();
             int gardenSize = flowerTracker.gardenSize;
 
             // Garden area thresholds are fixed for each stage, and does not scale with number of ideo/precept believers
@@ -18,7 +18,7 @@ namespace MousekinRace
             if (gardenSize > 0 && gardenSize < flowerTracker.GardenAreaThresLow)
             {
                 return ThoughtState.ActiveAtStage(1);
-            }*/
+            }
             return ThoughtState.Inactive;
         }
     }

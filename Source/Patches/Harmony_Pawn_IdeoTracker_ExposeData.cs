@@ -23,7 +23,7 @@ namespace MousekinRace
                 if (scenParts.Any() && scenParts.FirstOrDefault(scenPart => scenPart.useFactionIdeoForPlayer == true) != null)
                 {                   
                     // Only for player Mousekin colonists
-                    /*if (__instance.pawn.IsColonist && __instance.pawn.IsMousekin())
+                    if (__instance.pawn.IsColonist && __instance.pawn.IsMousekin())
                     {
                         GameComponent_Allegiance gameComp_Allegiance_Instance = GameComponent_Allegiance.Instance;
                         Faction alignedFaction = gameComp_Allegiance_Instance.alignedFaction;
@@ -38,7 +38,7 @@ namespace MousekinRace
                         __instance.pawn.Faction.ideos.SetPrimary(tgtIdeo);
                         __instance.pawn.Faction.ideos.ideosMinor.Clear();
                         Find.IdeoManager.RemoveUnusedStartingIdeos();
-                    }*/
+                    }
                 }
             }
         }

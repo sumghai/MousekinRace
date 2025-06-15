@@ -11,9 +11,10 @@ namespace MousekinRace
     // Tweak world pawn generation such that:
     // - Parents of Mousekin colonists only ever spawn in the first available Mousekin Kingdom faction
     // - Parents of non-Mousekins do not spawn in any Mousekin factions
-    [HarmonyPatch(typeof(PawnRelationWorker_Sibling), nameof(PawnRelationWorker_Sibling.GenerateParent))]
+    /*[HarmonyPatch(typeof(PawnRelationWorker_Sibling), nameof(PawnRelationWorker_Sibling.GenerateParent))]
     public static class Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom
     {
+        [HarmonyTranspiler]
         static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var factionOriginalMethod = AccessTools.Method(typeof(FactionManager), nameof(FactionManager.TryGetRandomNonColonyHumanlikeFaction));
@@ -60,7 +61,7 @@ namespace MousekinRace
 
             return PawnGenerator.GeneratePawn(request);
         }
-    }
+    }*/
 
     // Ensure Mousekin parents are at least 20~30 years older than their oldest child, and have no cryptosleep-related shenanigans
     [HarmonyPatch(typeof(PawnRelationWorker_Sibling), nameof(PawnRelationWorker_Sibling.GenerateParentParams))]

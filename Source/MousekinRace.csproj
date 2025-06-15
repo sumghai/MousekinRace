@@ -24,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>12</LangVersion>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -36,10 +37,6 @@
     <LangVersion>12</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.3.6.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Lib.Harmony.2.3.6\lib\net48\0Harmony.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="AlienRace">
       <HintPath>..\..\AlienRaces\1.6\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
@@ -286,9 +283,8 @@
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="VFECore">
-      <HintPath>..\..\Vanilla Expanded Framework\1.5\Assemblies\VFECore.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="VEF">
+      <HintPath>..\..\Vanilla Expanded Framework\1.6\Assemblies\VEF.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -429,12 +425,12 @@
     <Compile Include="Patches\Harmony_Thought_IdeoRoleGeneric.cs" />
     <Compile Include="Patches\Harmony_WildPlantSpawner.cs" />
     <Compile Include="Patches\Harmony_Tradeable.cs" />
-    <Compile Include="Patches\Harmony_VFE_NewFactionSpawningUtility.cs" />
+    <Compile Include="Patches\Harmony_VEF_Factions_NewFactionSpawningUtility.cs" />
     <Compile Include="Patches\Harmony_WorkGiver_ConstructDeliverResources.cs" />
     <Compile Include="Patches\LwmDeepStorageCompatPatch.cs" />
     <Compile Include="PawnRendering\PawnRenderNodeWorker_FlowerBouquet.cs" />
     <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderTree.cs" />
+    <Compile Include="Patches\Harmony_DynamicPawnRenderNodeSetup_Apparel.cs" />
     <Compile Include="PawnRendering\PawnRenderNodeWorker_Apparel_Head_ToggleableHood.cs" />
     <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
     <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
@@ -492,7 +488,6 @@
     <Compile Include="Patches\Harmony_Thing.cs" />
     <Compile Include="DefModExtensions\IdeoSymbolIgnoreRandomExtension.cs" />
     <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoRow.cs" />
-    <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoWindowContents.cs" />
     <Compile Include="Patches\Harmony_Pawn_IdeoTracker_ExposeData.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_CellarOutdoor.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_NeverAdjacentUnstandableAncestralOfferings.cs" />
@@ -559,7 +554,9 @@
     <Compile Include="Thoughts\ThoughtWorker_FlowersDestroyed.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <PackageReference Include="Lib.Harmony">
+      <Version>2.3.6</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

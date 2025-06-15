@@ -11,10 +11,10 @@ namespace MousekinRace
     {
         public static void Postfix(ref bool __result, Pawn pawn)
         {
-            /*if (GameComponent_Allegiance.Instance.alignedFaction != null && pawn.Faction == Faction.OfEmpire)
+            if (GameComponent_Allegiance.Instance.alignedFaction != null && pawn.Faction == Faction.OfEmpire)
             {
                 __result = false;
-            }*/
+            }
         }
     }
 }

@@ -11,7 +11,7 @@ namespace MousekinRace
 {
     // Conditionally patch leader and moral guide titles for Mousekin player faction
     // for ideo role assign confirmation text in the begin ritual dialog(s)
-    [HarmonyPatch]
+    /*[HarmonyPatch]
     public static class Harmony_Dialog_BeginRitual_DrawRoleSelection_AssignConfirmation_ReplaceRoleTitlesForMousekinPlayer
     {
         // Original:
@@ -46,11 +46,11 @@ namespace MousekinRace
 
             return codeMatcher.InstructionEnumeration();
         }
-    }
+    }*/
 
     // Conditionally patch leader and moral guide titles for Mousekin player faction
     // for ideo role unassign confirmation text in the begin ritual dialog(s)
-    [HarmonyPatch]
+    /*[HarmonyPatch]
     public static class Harmony_Dialog_BeginRitual_DrawRoleSelection_UnassignConfirmation_ReplaceRoleTitlesForMousekinPlayer
     {
         // Original:
@@ -83,5 +83,5 @@ namespace MousekinRace
 
             return codeMatcher.InstructionEnumeration();
         }
-    }
+    }*/
 }

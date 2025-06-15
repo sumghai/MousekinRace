@@ -9,13 +9,13 @@ namespace MousekinRace
     {
         static void Postfix(IncidentWorker_GiveQuest __instance, ref bool __result)
         { 
-            /*if (GameComponent_Allegiance.Instance.alignedFaction != null && Faction.OfEmpire != null) 
+            if (GameComponent_Allegiance.Instance.alignedFaction != null && Faction.OfEmpire != null) 
             {
                 if (__instance.def == IncidentDef.Named("GiveQuest_Intro_Wimp") || __instance.def == IncidentDef.Named("GiveQuest_Intro_Deserter"))
                 {
                     __result = false;
                 }
-            }*/
+            }
         }
     }
 }

@@ -5,7 +5,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    /*public static class ChurchService_Utils
+    public static class ChurchService_Utils
     {
         public const int MinNumWorshippers = 5;
 
@@ -205,5 +205,5 @@ namespace MousekinRace
                 silverAmount
             );
         }
-    }*/
+    }
 }

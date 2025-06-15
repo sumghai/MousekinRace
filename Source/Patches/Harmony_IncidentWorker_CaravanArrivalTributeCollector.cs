@@ -7,12 +7,12 @@ namespace MousekinRace
     [HarmonyPatch(typeof(IncidentWorker_CaravanArrivalTributeCollector), nameof(IncidentWorker_CaravanArrivalTributeCollector.CanFireNowSub))]
     public static class Harmony_IncidentWorker_CaravanArrivalTributeCollector_CanFireNowSub_DisableIfAllegianceSet
     {
-        /*static void Postfix(ref bool __result)
+        static void Postfix(ref bool __result)
         {
             if (GameComponent_Allegiance.Instance.alignedFaction != null) 
             {
                 __result = false;
             }
-        }*/
+        }
     }
 }

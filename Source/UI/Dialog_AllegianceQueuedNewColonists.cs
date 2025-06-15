@@ -5,7 +5,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    /*public class Dialog_AllegianceQueuedNewColonists : Window
+    public class Dialog_AllegianceQueuedNewColonists : Window
     {
         public TaggedString title = "MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title".Translate();
 
@@ -78,5 +78,5 @@ namespace MousekinRace
             }
             Widgets.EndScrollView();
         }
-    }*/
+    }
 }

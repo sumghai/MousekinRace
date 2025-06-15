@@ -278,16 +278,16 @@ namespace MousekinRace
 
             public int GetHashCode(ThingDef def) 
             {
-                //Check whether the def is null
-                if (ReferenceEquals(def, null))
+                // Check whether the def is null
+                if (def is null)
                 {
                     return 0;
                 }
 
-                //Get hash code for the label
+                // Get hash code for the label
                 var hashLabel = def.LabelCap.GetHashCode();
 
-                //Calculate the hash code for the SomeClass.
+                // Calculate the hash code for the SomeClass.
                 return hashLabel;
             }
         }

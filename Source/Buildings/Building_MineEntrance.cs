@@ -13,7 +13,7 @@ namespace MousekinRace
         
         public CompUndergroundMineDeposits compUMD;
 
-        //public MapComponent_UndergroundMineDeposits mapComp_UMD;
+        public MapComponent_UndergroundMineDeposits mapComp_UMD;
 
         public const int maxMiningJobSlots = 20;
 
@@ -33,8 +33,8 @@ namespace MousekinRace
             base.SpawnSetup(map, respawningAfterLoad);
             Map.resourceCounter.UpdateResourceCounts();
             compUMD = GetComp<CompUndergroundMineDeposits>();
-            //mapComp_UMD = map.GetComponent<MapComponent_UndergroundMineDeposits>();
-            //mapComp_UMD.RescanDeposits(compUMD.Props.mineables);
+            mapComp_UMD = map.GetComponent<MapComponent_UndergroundMineDeposits>();
+            mapComp_UMD.RescanDeposits(compUMD.Props.mineables);
             miningJobSlots ??= new(maxMiningJobSlots);
             UpdateMiningJobSlots();
         }
@@ -102,9 +102,9 @@ namespace MousekinRace
 
         public MiningJobSlot GetMiningJobSlotForPawn(Pawn pawn)
         {
-            /*Log.Warning($"GetMiningJobSlotForPawn() :: Looking for existing job slot for {pawn.NameShortColored} ({pawn.ThingID}) across {miningJobSlots.Count} slots...");
+            Log.Warning($"GetMiningJobSlotForPawn() :: Looking for existing job slot for {pawn.NameShortColored} ({pawn.ThingID}) across {miningJobSlots.Count} slots...");
             Log.Warning($"{miningJobSlots.ToStringSafeEnumerable()}");
-            Log.Warning($"{miningJobSlots.FindIndex(x => x.currentMiner == pawn)}");*/
+            Log.Warning($"{miningJobSlots.FindIndex(x => x.currentMiner == pawn)}");
             
             
             return miningJobSlots.First(x => x.currentMiner == pawn);

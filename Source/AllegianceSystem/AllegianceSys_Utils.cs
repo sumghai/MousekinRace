@@ -9,7 +9,7 @@ using Verse.AI;
 
 namespace MousekinRace
 {
-    /*public static class AllegianceSys_Utils
+    public static class AllegianceSys_Utils
     {
         public static TaggedString FactionNameWithDefiniteArticle(TaggedString name)
         {
@@ -656,5 +656,5 @@ namespace MousekinRace
             incidentParms.forced = true;
             incidentDef.Worker.TryExecuteWorker(incidentParms);
         }
-    }*/
+    }
 }

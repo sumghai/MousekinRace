@@ -10,12 +10,12 @@ namespace MousekinRace
     {
         static void Postfix(ref Tradeable __instance, ref float __result)
         {
-            /*Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction;
+            Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction;
             if (alignedFaction != null && alignedFaction == TradeSession.trader.Faction)
             {
                 float tradePriceFactor = alignedFaction.def.GetModExtension<AlliableFactionExtension>().tradePriceFactor;
                 __result *= tradePriceFactor;
-            }*/
+            }
         }
     }
 
@@ -30,7 +30,7 @@ namespace MousekinRace
                 return;
             } 
 
-            /*Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction;
+            Faction alignedFaction = GameComponent_Allegiance.Instance.alignedFaction;
             if (alignedFaction != null && alignedFaction == TradeSession.trader.Faction )
             {
                 float tradePriceFactor = alignedFaction.def.GetModExtension<AlliableFactionExtension>().tradePriceFactor;
@@ -42,7 +42,7 @@ namespace MousekinRace
                     __result += "\n  x " + tradePriceFactor.ToString("F2") + " (" + "MousekinRace_TradePriceFactor_FactionAllegiance".Translate() + ")";
                     __result += finalBit;
                 }
-            }*/
+            }
         }
     }
 }

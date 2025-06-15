@@ -18,10 +18,10 @@ namespace MousekinRace
         }
         static void Postfix(ref FloatMenuAcceptanceReport __result, Settlement settlement)
         {
-            /*if (GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction && settlement.Faction == allegianceFaction)
+            if (GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction && settlement.Faction == allegianceFaction)
             {
                 __result = false;
-            }*/
+            }
         }
     }
 }

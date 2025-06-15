@@ -14,22 +14,22 @@ namespace MousekinRace
         {
             var codeMatcher = new CodeMatcher(instructions);
 
-            CodeMatch[] toMatch = new CodeMatch[]
-            {
+            CodeMatch[] toMatch =
+            [
                 new CodeMatch(OpCodes.Ldloca_S),
                 new CodeMatch(OpCodes.Call),
                 new CodeMatch(OpCodes.Brfalse_S)
-            };
+            ];
 
             codeMatcher.MatchEndForward(toMatch);
             object label = codeMatcher.Instruction.operand;
 
-            CodeInstruction[] toInsert = new CodeInstruction[]
-            {
+            CodeInstruction[] toInsert =
+            [
                 new CodeInstruction(OpCodes.Ldarg_0),
                 new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_Ideo_ExposeData_PreventRitualSeatRespawnForMousekinIdeos), nameof(IdeoIsNotMousekin))),
                 new CodeInstruction(OpCodes.Brfalse_S, label)
-            };
+            ];
 
             codeMatcher.Insert(toInsert);
 

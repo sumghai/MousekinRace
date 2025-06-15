@@ -9,7 +9,7 @@ namespace MousekinRace
     {
         static void Postfix()
         {
-            //GameComponent_Allegiance.Instance.anyColonistsWithShatteredEmpireTitle = AllegianceSys_Utils.AnyColonistsWithShatteredEmpireTitle();
+            GameComponent_Allegiance.Instance.anyColonistsWithShatteredEmpireTitle = AllegianceSys_Utils.AnyColonistsWithShatteredEmpireTitle();
         }
     }
 }

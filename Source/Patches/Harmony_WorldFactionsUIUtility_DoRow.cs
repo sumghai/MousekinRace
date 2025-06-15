@@ -1,70 +1,52 @@
 ﻿using HarmonyLib;
 using RimWorld;
 using RimWorld.Planet;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
-using UnityEngine;
 using Verse;
 
 namespace MousekinRace
 {
-    // At world gen faction setup, replace the Remove button with a "(Required)" label if the faction in the current row is required by the scenario
-    [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
-    public static class Harmony_WorldFactionsUIUtility_DoRow_CondRequireFactionsForScenarios
+    // At world gen faction setup, use the custom ScenPart_RequiredFaction to prevent the removal of a specified faction for the scenario
+    /*[HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
+    public static class Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond
     {
         [HarmonyTranspiler]
-        private static IEnumerable<CodeInstruction> ScenarioRequiredFaction_HideRemoveButton_Transpiler(IEnumerable<CodeInstruction> instructions)
+        public static IEnumerable<CodeInstruction> ScenarioRequiredFactionExtraCond_Transpiler(IEnumerable<CodeInstruction> instructions)
         {
-            var codeMatcher = new CodeMatcher(instructions);        
+            var codeMatcher = new CodeMatcher(instructions);
 
-            CodeMatch[] toMatch = new CodeMatch[]
+            CodeMatch[] toMatch =
+            [
+                new CodeMatch(OpCodes.Ldfld),
+                new CodeMatch(OpCodes.Ldfld),
+                new CodeMatch(OpCodes.Ldarg_1),
+                new CodeMatch(OpCodes.Bne_Un_S)
+            ];
+
+            CodeInstruction[] toInsert =
+            [
+                new CodeInstruction(OpCodes.Call, typeof(ScenPart).GetMethod("get_Current()")),
+                new CodeInstruction(OpCodes.Ldarg_1),
+                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond), nameof(Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond.CheckCurrentScenPartForRequiredFaction))),
+                new CodeInstruction(OpCodes.Brfalse)
+            ];
+
+            codeMatcher.MatchEndForward(toMatch);
+            if (!codeMatcher.IsInvalid)
             { 
-                new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(Widgets), nameof(Widgets.ButtonImage), new Type[] { typeof(Rect), typeof(Texture2D), typeof(bool), typeof(string) }))
-            };
-
-            CodeInstruction[] toInsert = new CodeInstruction[]
-            {
-                new CodeInstruction(OpCodes.Ldarg_1),  // factionDef
-                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoRow_CondRequireFactionsForScenarios), nameof(Harmony_WorldFactionsUIUtility_DoRow_CondRequireFactionsForScenarios.CondScenarioRequiredButtonImage)))
-            };
-
-            codeMatcher.MatchStartForward(toMatch);
-            codeMatcher.RemoveInstruction();
+                toInsert.Last().operand = codeMatcher.Instruction.operand;
+            }
             codeMatcher.Insert(toInsert);
 
             return codeMatcher.InstructionEnumeration();
         }
 
-        // Show either a clickable Remove button, or a non-clickable "(Required)" label
-        private static bool CondScenarioRequiredButtonImage(Rect butRect, Texture2D tex, bool doMouseoverSound, string tooltip, FactionDef factionDef)
+        private static bool CheckCurrentScenPartForRequiredFaction(ScenPart scenPart, FactionDef faction)
         {
-            List<FactionDef> factionsRequiredByScenario = new();
-
-            IEnumerable<ScenPart_RequiredFaction> scenParts = Current.Game.Scenario.AllParts.OfType<ScenPart_RequiredFaction>();
-
-            if (scenParts.Any())
-            {
-                foreach (var part in scenParts)
-                {
-                    factionsRequiredByScenario.AddDistinct(part.factionDef);
-                }
-            }
-
-            bool output = false;
-
-            if (factionsRequiredByScenario.Contains(factionDef))
-            {
-                Text.Anchor = TextAnchor.MiddleRight;
-                Widgets.Label(new Rect(butRect.x - 100f + 20f, butRect.y, 100f, butRect.height), "MousekinRace_CreateWorldFactionType_RequiredByScenario".Translate().Colorize(Color.yellow));
-                Text.Anchor = TextAnchor.UpperLeft;
-            }
-            else
-            {
-                output = Widgets.ButtonImage(butRect, tex, doMouseoverSound, tooltip);
-            }
-            return output;
+            Log.Warning($"Running check for {faction}");
+            return scenPart is ScenPart_RequiredFaction scenPart_RequiredFaction && scenPart_RequiredFaction.factionDef == faction;
         }
-    }
+    }*/
 }

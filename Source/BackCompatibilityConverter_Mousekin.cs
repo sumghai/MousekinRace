@@ -17,8 +17,8 @@ namespace MousekinRace
         public override void PostLoadSavegame(string loadingVersion)
         {
             base.PostLoadSavegame(loadingVersion);
-            //AllegianceSys_Utils.UpdatePlayerFactionToMousekinOnJoining();
-            //AllegianceSys_Utils.ResetFactionRestrictedCraftingBills();
+            AllegianceSys_Utils.UpdatePlayerFactionToMousekinOnJoining();
+            AllegianceSys_Utils.ResetFactionRestrictedCraftingBills();
 
             
             Find.Maps.ForEach(map => {
@@ -26,12 +26,12 @@ namespace MousekinRace
                 // Remove null or missing flowers from the flower tracker map comps
                 // This handles the edge case where a player plants some flowers from a third-party mod, saves the game,
                 // removes the mod, and then reloads the savegame with missing references to the uninstalled flower mod
-                //map.GetComponent<MapComponent_FlowerTracker>()?.playerFlowersPlanted.RemoveWhere(t => t == null);
+                map.GetComponent<MapComponent_FlowerTracker>()?.playerFlowersPlanted.RemoveWhere(t => t == null);
 
                 // Remove null or missing mineable defs from the underground mine deposits map comps
                 // This handles the edge case where a player adds some mineables a third-party mod, saves the game,
                 // removes the mod, and then reloads the savegame with missing references to the uninstalled mod
-                //map.GetComponent<MapComponent_UndergroundMineDeposits>()?.deposits.RemoveWhere(t => t == null);
+                map.GetComponent<MapComponent_UndergroundMineDeposits>()?.deposits.RemoveWhere(t => t == null);
             });
         }
     }

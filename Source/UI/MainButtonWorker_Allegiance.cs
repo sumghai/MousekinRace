@@ -7,8 +7,7 @@ namespace MousekinRace
 	public class MainButtonWorker_Allegiance : MainButtonWorker
     {
         // Only show the button if the savegame has at least one player-owned town square in their colony map(s)
-		//public override bool Visible => base.Visible && Current.Game.GetComponent<GameComponent_Allegiance>().HasAnyTownSquares;
-        public override bool Visible => true;
+		public override bool Visible => base.Visible && Current.Game.GetComponent<GameComponent_Allegiance>().HasAnyTownSquares;
 
         public override void Activate()
         {

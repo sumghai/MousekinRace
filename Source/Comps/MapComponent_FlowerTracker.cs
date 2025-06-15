@@ -6,7 +6,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    /*public class MapComponent_FlowerTracker : MapComponent
+    public class MapComponent_FlowerTracker : MapComponent
     {
         public const int FlowersPlantedThresMedBaseline = 20;
 
@@ -174,5 +174,5 @@ namespace MousekinRace
             Scribe_Collections.Look(ref playerFlowersPlanted, "playerFlowersPlanted", LookMode.Reference);
             Scribe_Collections.Look(ref playerFlowerDestructionTicks, "playerFlowerDestructionTicks", LookMode.Value);
         }
-    }*/
+    }
 }

@@ -12,7 +12,7 @@ namespace MousekinRace
         {
             if (__instance.pawn.IsColonist && __instance.pawn.MentalStateDef == MousekinDefOf.Mousekin_MentalState_ExitAfterAllegianceChange)
             {
-                //AllegianceSys_Utils.SetFactionToOpposingAllegiance(__instance.pawn);
+                AllegianceSys_Utils.SetFactionToOpposingAllegiance(__instance.pawn);
             }
         }
     }

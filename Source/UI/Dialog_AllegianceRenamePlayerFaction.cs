@@ -12,7 +12,7 @@ namespace MousekinRace
 
         public Dialog_AllegianceRenamePlayerFaction()
         {
-            //allegianceFaction = GameComponent_Allegiance.Instance.alignedFaction;
+            allegianceFaction = GameComponent_Allegiance.Instance.alignedFaction;
             suggestingPawn = allegianceFaction.leader;
             RulePackDef newFactionNameMaker = allegianceFaction.def.GetModExtension<AlliableFactionExtension>().playerFactionNameMaker ?? Faction.OfPlayer.def.factionNameMaker;
             nameGenerator = () => NameGenerator.GenerateName(newFactionNameMaker, IsValidName);
@@ -34,8 +34,7 @@ namespace MousekinRace
             Rect rect2;
 
             TaggedString factionLeaderNameAndTitle = "MousekinRace_AllegianceSys_LeaderTitleFullName".Translate(allegianceFaction.LeaderTitle, suggestingPawn.NameFullColored);
-            //TaggedString membershipToFactionLabel = AllegianceSys_Utils.MembershipToFactionLabel(allegianceFaction, true);
-            TaggedString membershipToFactionLabel = "Test";
+            TaggedString membershipToFactionLabel = AllegianceSys_Utils.MembershipToFactionLabel(allegianceFaction, true);
             Widgets.Label(new Rect(0f, 0f, rect.width, rect.height), nameMessageKey.Translate(factionLeaderNameAndTitle, membershipToFactionLabel));
             if (nameGenerator != null && Widgets.ButtonText(new Rect(rect.width / 2f + 90f, 80f, rect.width / 2f - 90f, 35f), "Randomize".Translate()))
             {

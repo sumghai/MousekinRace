@@ -1,12 +1,12 @@
 ﻿using HarmonyLib;
 using System.Collections.Generic;
 using System.Reflection;
-using VFECore;
+using VEF.Factions;
 
 namespace MousekinRace
 {
     [HarmonyPatch]
-    public static class Harmony_VFE_NewFactionSpawningUtility_SyncRelationsWithAllegianceFaction
+    public static class Harmony_VEF_Factions_NewFactionSpawningUtility_SyncRelationsWithAllegianceFaction
     {
         static IEnumerable<MethodBase> TargetMethods()
         {
@@ -16,12 +16,12 @@ namespace MousekinRace
 
         static void Postfix()
         {
-            /*GameComponent_Allegiance gameComp = GameComponent_Allegiance.Instance;
+            GameComponent_Allegiance gameComp = GameComponent_Allegiance.Instance;
             
             if (gameComp != null && gameComp.HasDeclaredAllegiance)
             {
                 AllegianceSys_Utils.SyncRelationsWithAllegianceFaction(gameComp.alignedFaction);
-            }*/
+            }
         }
     }
 }

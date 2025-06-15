@@ -51,7 +51,7 @@ namespace MousekinRace
                 else if (playerSettlementsCount > 1)
                 {
                     string quantifier = "";
-                    //If only one of multiple settlements needs a town square
+                    // If only one of multiple settlements needs a town square
                     if (mapsNeedingTownSquaresCount == 1)
                     {
                         // Use the (default) singular alert label and plural desc with "one"
