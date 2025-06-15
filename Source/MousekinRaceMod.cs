@@ -43,6 +43,8 @@ namespace MousekinRace
                 AccessTools.StaticFieldRefAccess<List<BackCompatibilityConverter>>(typeof(BackCompatibility), "conversionChain");
 
             compatibilityConverters.Add(new BackCompatibilityConverter_Mousekin());
+
+            Log.Message($"Mousekin Race :: successfully applied {harmony.GetPatchedMethods().Select(Harmony.GetPatchInfo).SelectMany(selector: p => p.Prefixes.Concat(p.Postfixes).Concat(p.Transpilers)).Count(predicate: p => p.owner == harmony.Id)} patches with Harmony.");
         }
         public override void DoSettingsWindowContents(Rect canvas)
         {
