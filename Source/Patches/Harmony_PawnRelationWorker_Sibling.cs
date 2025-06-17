@@ -11,17 +11,17 @@ namespace MousekinRace
     // Tweak world pawn generation such that:
     // - Parents of Mousekin colonists only ever spawn in the first available Mousekin Kingdom faction
     // - Parents of non-Mousekins do not spawn in any Mousekin factions
-    /*[HarmonyPatch(typeof(PawnRelationWorker_Sibling), nameof(PawnRelationWorker_Sibling.GenerateParent))]
+    [HarmonyPatch(typeof(PawnRelationWorker_Sibling), nameof(PawnRelationWorker_Sibling.GenerateParent))]
     public static class Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom
     {
         [HarmonyTranspiler]
         static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var factionOriginalMethod = AccessTools.Method(typeof(FactionManager), nameof(FactionManager.TryGetRandomNonColonyHumanlikeFaction));
-            var factionNewMethod = AccessTools.Method(typeof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom), nameof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom.SetFactionByRace));
+            var factionNewMethod = AccessTools.Method(typeof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom), nameof(SetFactionByRace));
 
-            var generatedParentPawnOriginalMethod = AccessTools.Method(typeof(PawnGenerator), nameof(PawnGenerator.GeneratePawn), new Type[] { typeof(PawnGenerationRequest) });
-            var generatedParentPawnNewMethod = AccessTools.Method(typeof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom), nameof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom.GeneratePawnKindByRace));
+            var generatedParentPawnOriginalMethod = AccessTools.Method(typeof(PawnGenerator), nameof(PawnGenerator.GeneratePawn), [typeof(PawnGenerationRequest)]);
+            var generatedParentPawnNewMethod = AccessTools.Method(typeof(Harmony_PawnRelationWorker_Sibling_GenerateParent_KeepMiceInMouseKingdom), nameof(GeneratePawnKindByRace));
 
             foreach (var instruction in instructions)
             {
@@ -41,7 +41,7 @@ namespace MousekinRace
             }
         }
 
-        public static bool SetFactionByRace(this FactionManager factionManager, out Faction faction, bool tryMedievalOrBetter, bool allowDefeated, TechLevel minTechLevel, bool allowTemporary, Pawn forPawn)
+        public static bool SetFactionByRace(this FactionManager factionManager, out Faction faction, bool tryMedievalOrBetter, bool allowDefeated, TechLevel minTechLevel, TechLevel maxTechLevel, bool allowTemporary, bool requireHostile, Pawn forPawn)
         {
             if (Utils.IsMousekin(forPawn))
             {
@@ -50,7 +50,7 @@ namespace MousekinRace
             }
             else
             {
-                return factionManager.AllFactions.Where((Faction x) => !x.IsPlayer && !x.Hidden && x.def.humanlikeFaction && (allowDefeated || !x.defeated) && (allowTemporary || !x.temporary) && (minTechLevel == TechLevel.Undefined || (int)x.def.techLevel >= (int)minTechLevel) && Utils.GetRaceOfFaction(x.def) != MousekinDefOf.Mousekin).TryRandomElementByWeight((Faction x) => (tryMedievalOrBetter && (int)x.def.techLevel < 3) ? 0.1f : 1f, out faction);
+                return factionManager.AllFactions.Where((Faction x) => !x.IsPlayer && !x.Hidden && x.def.humanlikeFaction && (allowDefeated || !x.defeated) && (allowTemporary || !x.temporary) && (minTechLevel == TechLevel.Undefined || (int)x.def.techLevel >= (int)minTechLevel) && (maxTechLevel == TechLevel.Undefined || (int)x.def.techLevel <= (int)maxTechLevel) && (!requireHostile || x.HostileTo(Faction.OfPlayer)) && Utils.GetRaceOfFaction(x.def) != MousekinDefOf.Mousekin).TryRandomElementByWeight((Faction x) => (tryMedievalOrBetter && (int)x.def.techLevel < 3) ? 0.1f : 1f, out faction);
             }
         }
 
@@ -61,7 +61,7 @@ namespace MousekinRace
 
             return PawnGenerator.GeneratePawn(request);
         }
-    }*/
+    }
 
     // Ensure Mousekin parents are at least 20~30 years older than their oldest child, and have no cryptosleep-related shenanigans
     [HarmonyPatch(typeof(PawnRelationWorker_Sibling), nameof(PawnRelationWorker_Sibling.GenerateParentParams))]
