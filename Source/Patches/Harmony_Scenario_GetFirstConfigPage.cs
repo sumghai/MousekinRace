@@ -16,26 +16,29 @@ namespace MousekinRace
         {
             var codeMatcher = new CodeMatcher(instructions);
 
-            CodeMatch[] toMatch = new CodeMatch[]
-            {
-                new CodeMatch(OpCodes.Ldarg_0),
-                new CodeMatch(OpCodes.Ldfld)
-            };
+            CodeMatch[] toMatch =
+            [
+                new CodeMatch(OpCodes.Brfalse_S),
+                new CodeMatch(OpCodes.Ldloc_0),
+                new CodeMatch(OpCodes.Newobj),
+                new CodeMatch(OpCodes.Callvirt),
+                new CodeMatch(OpCodes.Ldarg_0)
+            ];
 
-            CodeInstruction[] toInsert = new CodeInstruction[]
-            { 
+            CodeInstruction[] toInsert =
+            [
                 new CodeInstruction(OpCodes.Ldloc_0),
-                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_Scenario_GetFirstConfigPage_PreselectIdeoForMousekinScenarios), nameof(Harmony_Scenario_GetFirstConfigPage_PreselectIdeoForMousekinScenarios.CondReplaceChooseIdeoPageWithIdeoPreselectedPage)))
-            };
+                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_Scenario_GetFirstConfigPage_PreselectIdeoForMousekinScenarios), nameof(CondReplaceChooseIdeoPageWithIdeoPreselectedPage)))
+            ];
 
-            codeMatcher.MatchStartForward(toMatch);
+            codeMatcher.MatchEndForward(toMatch);
             codeMatcher.Insert(toInsert);
 
             return codeMatcher.InstructionEnumeration();
         }
 
         private static void CondReplaceChooseIdeoPageWithIdeoPreselectedPage(List<Page> pagesList)
-        {
+        {            
             IEnumerable<ScenPart_RequiredFaction> scenParts = Current.Game.Scenario.AllParts.OfType<ScenPart_RequiredFaction>();
 
             if (scenParts.Any() && scenParts.FirstOrDefault(scenPart => scenPart.useFactionIdeoForPlayer == true) != null)

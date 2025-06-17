@@ -285,6 +285,7 @@
     </Reference>
     <Reference Include="VEF">
       <HintPath>..\..\Vanilla Expanded Framework\1.6\Assemblies\VEF.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -523,6 +524,7 @@
     <Compile Include="Stats\StatPart_IgnoreStuffEffectForGildedItems.cs" />
     <Compile Include="Thoughts\ThoughtWorker_AteCheese.cs" />
     <Compile Include="Thoughts\ThoughtWorker_FaithAffinityOpinions.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_FlowersDestroyed.cs" />
     <Compile Include="Thoughts\ThoughtWorker_FlowersPlanted.cs" />
     <Compile Include="Thoughts\ThoughtWorker_GardensDesired.cs" />
     <Compile Include="Thoughts\ThoughtWorker_MissingEars.cs" />
@@ -550,12 +552,10 @@
     <Compile Include="UndergroundMineSystem\UndergroundMineSys_Utils.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Thoughts\ThoughtWorker_FlowersDestroyed.cs" />
-  </ItemGroup>
-  <ItemGroup>
+	<ItemGroup>
     <PackageReference Include="Lib.Harmony">
       <Version>2.3.6</Version>
+      <Private>false</Private>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
