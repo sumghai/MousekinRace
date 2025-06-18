@@ -11,16 +11,16 @@ namespace MousekinRace
 {
     // Conditionally patch leader and moral guide titles for Mousekin player faction
     // for ideo role assign confirmation text in the begin ritual dialog(s)
-    /*[HarmonyPatch]
+    [HarmonyPatch]
     public static class Harmony_Dialog_BeginRitual_DrawRoleSelection_AssignConfirmation_ReplaceRoleTitlesForMousekinPlayer
     {
         // Original:
         // confirmText = confirmTextLocal + "\n\n" + extraConfirmText + "\n\n" + "ChooseRoleConfirmAssignPostfix".Translate();
-        static MethodInfo TargetMethod() => AccessTools.Method(AccessTools.Inner(typeof(Dialog_BeginRitual), "<>c__DisplayClass52_2"), "<DrawRoleSelection>b__3");
+        static MethodInfo TargetMethod() => AccessTools.Method(AccessTools.Inner(typeof(Dialog_BeginRitual), "<>c__DisplayClass54_2"), "<DrawRoleSelection>b__3");
 
         // Get the internal fields for later use
-        static readonly FieldInfo localsField = AccessTools.Field(typeof(Dialog_BeginRitual).GetNestedTypes(AccessTools.all).FirstOrDefault((Type c) => c.Name.Contains("<>c__DisplayClass52_2")), "CS$<>8__locals2");
-        static readonly FieldInfo newRoleField = AccessTools.Field(AccessTools.Inner(typeof(Dialog_BeginRitual), "<>c__DisplayClass52_1"), "newRole");
+        static readonly FieldInfo localsField = AccessTools.Field(typeof(Dialog_BeginRitual).GetNestedTypes(AccessTools.all).FirstOrDefault((Type c) => c.Name.Contains("<>c__DisplayClass54_2")), "CS$<>8__locals2");
+        static readonly FieldInfo newRoleField = AccessTools.Field(AccessTools.Inner(typeof(Dialog_BeginRitual), "<>c__DisplayClass54_1"), "newRole");
 
         [HarmonyTranspiler]
         public static IEnumerable<CodeInstruction> AssignConfirmText_Transpiler(IEnumerable<CodeInstruction> instructions)
@@ -46,19 +46,19 @@ namespace MousekinRace
 
             return codeMatcher.InstructionEnumeration();
         }
-    }*/
+    }
 
     // Conditionally patch leader and moral guide titles for Mousekin player faction
     // for ideo role unassign confirmation text in the begin ritual dialog(s)
-    /*[HarmonyPatch]
+    [HarmonyPatch]
     public static class Harmony_Dialog_BeginRitual_DrawRoleSelection_UnassignConfirmation_ReplaceRoleTitlesForMousekinPlayer
     {
         // Original:
         // confirmText = "ChooseRoleConfirmUnassign".Translate(currentRole.Named("ROLE"), pawn.Named("PAWN")) + "\n\n" + "ChooseRoleConfirmAssignPostfix".Translate();
-        static MethodInfo TargetMethod() => AccessTools.Method(AccessTools.Inner(typeof(Dialog_BeginRitual), "<>c__DisplayClass52_0"), "<DrawRoleSelection>b__0");
+        static MethodInfo TargetMethod() => AccessTools.Method(AccessTools.Inner(typeof(Dialog_BeginRitual), "<>c__DisplayClass54_0"), "<DrawRoleSelection>b__0");
 
         // Get the internal currentRole field for later use
-        static readonly FieldInfo currentRoleField = AccessTools.Field(AccessTools.Inner(typeof(Dialog_BeginRitual), "<>c__DisplayClass52_0"), "currentRole");
+        static readonly FieldInfo currentRoleField = AccessTools.Field(AccessTools.Inner(typeof(Dialog_BeginRitual), "<>c__DisplayClass54_0"), "currentRole");
 
         [HarmonyTranspiler]
         public static IEnumerable<CodeInstruction> UnassignConfirmText_Transpiler(IEnumerable<CodeInstruction> instructions)
@@ -83,5 +83,5 @@ namespace MousekinRace
 
             return codeMatcher.InstructionEnumeration();
         }
-    }*/
+    }
 }
