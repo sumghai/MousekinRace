@@ -9,7 +9,7 @@ using Verse;
 namespace MousekinRace
 {
     // At world gen faction setup, use the custom ScenPart_RequiredFaction to prevent the removal of a specified faction for the scenario
-    /*[HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
+    [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
     public static class Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond
     {
         [HarmonyTranspiler]
@@ -27,18 +27,18 @@ namespace MousekinRace
 
             CodeInstruction[] toInsert =
             [
-                new CodeInstruction(OpCodes.Call, typeof(ScenPart).GetMethod("get_Current()")),
-                new CodeInstruction(OpCodes.Ldarg_1),
-                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond), nameof(Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond.CheckCurrentScenPartForRequiredFaction))),
-                new CodeInstruction(OpCodes.Brfalse)
+                new CodeInstruction(OpCodes.Ldloca_S, 3),
+                new CodeInstruction(OpCodes.Call, typeof(List<ScenPart>.Enumerator).Method("get_Current")),
+                new CodeInstruction(OpCodes.Ldarg_1), // FactionDef faction
+                new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond), nameof(CheckCurrentScenPartForRequiredFaction))),
+                new CodeInstruction(OpCodes.Brfalse_S)
             ];
 
             codeMatcher.MatchEndForward(toMatch);
-            if (!codeMatcher.IsInvalid)
-            { 
-                toInsert.Last().operand = codeMatcher.Instruction.operand;
-            }
-            codeMatcher.Insert(toInsert);
+            codeMatcher.Opcode = OpCodes.Brfalse_S; // Change the last operand to allow a logical ||
+            toInsert.Last().operand = codeMatcher.Instruction.operand;
+            codeMatcher.Advance(1); // make sure we actually move beyond the previous conditon check
+            codeMatcher.Insert(toInsert);          
 
             return codeMatcher.InstructionEnumeration();
         }
@@ -48,5 +48,5 @@ namespace MousekinRace
             Log.Warning($"Running check for {faction}");
             return scenPart is ScenPart_RequiredFaction scenPart_RequiredFaction && scenPart_RequiredFaction.factionDef == faction;
         }
-    }*/
+    }
 }
