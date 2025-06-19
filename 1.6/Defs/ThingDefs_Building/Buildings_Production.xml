@@ -914,6 +914,8 @@
 	
 	<!-- Mousekin mine entrance -->
 	
+	<!-- todo re-enabled once multi-pawn mining logic is fixed
+	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_MineEntrance</defName>
 		<label>Mousekin mine entrance</label>
@@ -1023,7 +1025,7 @@
 			<li>Mousekin_ResearchMining</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-	</ThingDef>
+	</ThingDef>-->
 	
 	<!-- Mousekin nitrary -->
 	
