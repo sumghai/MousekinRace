@@ -146,7 +146,9 @@
 	</ThingDef>
 	
 	<!-- Mousekin mead (multiple quality levels) -->
-	<ThingDef Name="Mousekin_DrinkMeadBase" ParentName="Mousekin_BeverageBase" Abstract="True">
+	<ThingDef ParentName="Mousekin_BeverageBase">
+		<defName>Mousekin_DrinkMead</defName>
+		<label>Mousekin mead</label>
 		<description>An alcoholic beverage made by fermenting honey and water. Mousekin meads tend to be sweeter than human-made meads, with a strong fruity undertone. Makes drinkers happy and reduces chances of mental breaks.</description>
 		<descriptionHyperlinks>
 			<HediffDef>AlcoholHigh</HediffDef>
@@ -162,6 +164,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
+			<MarketValue>15</MarketValue>
 			<Mass>0.3</Mass>
 			<Flammability>0.5</Flammability>
 			<DeteriorationRate>0.5</DeteriorationRate>
@@ -190,6 +193,9 @@
 		</ingestible>
 		<techLevel>Medieval</techLevel>
 		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
 			<li Class="CompProperties_Drug">
 				<chemical>Alcohol</chemical>
 				<addictiveness>0.015</addictiveness>
@@ -199,62 +205,6 @@
 				<listOrder>10</listOrder>
 			</li>
 		</comps>
-	</ThingDef>
-	
-	<ThingDef ParentName="Mousekin_DrinkMeadBase">
-		<defName>Mousekin_DrinkMeadAwful</defName>
-		<label>Mousekin mead (awful)</label>
-		<statBases>
-			<MarketValue>10</MarketValue>
-		</statBases>
-	</ThingDef>
-	
-	<ThingDef ParentName="Mousekin_DrinkMeadBase">
-		<defName>Mousekin_DrinkMeadPoor</defName>
-		<label>Mousekin mead (poor)</label>
-		<statBases>
-			<MarketValue>15</MarketValue>
-		</statBases>
-	</ThingDef>
-	
-	<ThingDef ParentName="Mousekin_DrinkMeadBase">
-		<defName>Mousekin_DrinkMeadNormal</defName>
-		<label>Mousekin mead (normal)</label>
-		<statBases>
-			<MarketValue>20</MarketValue>
-		</statBases>
-	</ThingDef>
-	
-	<ThingDef ParentName="Mousekin_DrinkMeadBase">
-		<defName>Mousekin_DrinkMeadGood</defName>
-		<label>Mousekin mead (good)</label>
-		<statBases>
-			<MarketValue>30</MarketValue>
-		</statBases>
-	</ThingDef>
-	
-	<ThingDef ParentName="Mousekin_DrinkMeadBase">
-		<defName>Mousekin_DrinkMeadExcellent</defName>
-		<label>Mousekin mead (excellent)</label>
-		<statBases>
-			<MarketValue>40</MarketValue>
-		</statBases>
-	</ThingDef>
-	
-	<ThingDef ParentName="Mousekin_DrinkMeadBase">
-		<defName>Mousekin_DrinkMeadMasterwork</defName>
-		<label>Mousekin mead (masterwork)</label>
-		<statBases>
-			<MarketValue>60</MarketValue>
-		</statBases>
-	</ThingDef>
-	
-	<ThingDef ParentName="Mousekin_DrinkMeadBase">
-		<defName>Mousekin_DrinkMeadLegendary</defName>
-		<label>Mousekin mead (legendary)</label>
-		<statBases>
-			<MarketValue>80</MarketValue>
-		</statBases>
 	</ThingDef>
 	
 </Defs>
