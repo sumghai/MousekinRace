@@ -101,12 +101,6 @@ namespace MousekinRace
                     }
                 }
             }
-
-            // Pause VFE item processor if sails are not spinning
-            /*if (parent is Building_ItemProcessor itemProcessor)
-            {
-                itemProcessor.isPaused = !Working;
-            }*/
         }
 
         public override void CompTickRare()

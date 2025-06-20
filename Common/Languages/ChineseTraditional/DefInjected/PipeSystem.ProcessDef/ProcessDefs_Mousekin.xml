@@ -10,6 +10,24 @@
 	<!-- EN: Convert 200 giant cavy pellets and 50 wood ash into 100 saltpeter -->
 	<Mousekin_ManureToSaltpeter.labelOverride>用200單位巨豚鼠糞便和50單位木灰浸潤生成100單位硝石</Mousekin_ManureToSaltpeter.labelOverride>
 	
+	<!-- EN: Make milk into Cloverbury cheese -->
+	<Mousekin_MilkToCheese.label>用牛奶製作三葉草伯里起司</Mousekin_MilkToCheese.label>
+	
+	<!-- EN: Turns 50 milk into 25 Cloverbury cheese. -->
+	<Mousekin_MilkToCheese.description>用50單位牛奶壓榨成25單位三葉草伯里起司。</Mousekin_MilkToCheese.description>
+	
+	<!-- EN: Turn 50 milk into 25 Cloverbury cheese -->
+	<Mousekin_MilkToCheese.labelOverride>用50單位牛奶壓榨成25單位三葉草伯里起司</Mousekin_MilkToCheese.labelOverride>
+	
+	<!-- EN: Mill wheat into flour -->
+	<Mousekin_WheatToFlour.label>將小麥磨成麵粉</Mousekin_WheatToFlour.label>
+	
+	<!-- EN: Turns 100 wheat into 75 flour -->
+	<Mousekin_WheatToFlour.description>將100單位小麥磨成75單位麵粉。</Mousekin_WheatToFlour.description>
+	
+	<!-- EN: Mill 100 wheat into 75 flour -->
+	<Mousekin_WheatToFlour.labelOverride>將100單位小麥磨成75單位麵粉</Mousekin_WheatToFlour.labelOverride>
+	
 	<!-- EN: Carbonize wood logs into charcoal -->
 	<Mousekin_WoodLogToCharcoal.label>用木頭碳化製作木炭</Mousekin_WoodLogToCharcoal.label>
 	
@@ -18,5 +36,23 @@
 	
 	<!-- EN: Carbonize 300 wood logs into 600 charcoal -->
 	<Mousekin_WoodLogToCharcoal.labelOverride>用300單位木頭碳化製作600單位木炭</Mousekin_WoodLogToCharcoal.labelOverride>
+	
+	<!-- EN: Ferment lager wort into lager -->
+	<Mousekin_WortLagerToLager.label>將拉格麥汁發酵成拉格啤酒</Mousekin_WortLagerToLager.label>
+	
+	<!-- EN: Turns 25 Mousekin lager wort into 25 Mousekin lager -->
+	<Mousekin_WortLagerToLager.description>將25單位白鼠族拉格麥汁發酵成白鼠族拉格啤酒。</Mousekin_WortLagerToLager.description>
+	
+	<!-- EN: Ferment 25 Mousekin lager wort into 25 Mousekin lager -->
+	<Mousekin_WortLagerToLager.labelOverride>將25單位白鼠族拉格麥汁發酵成白鼠族拉格啤酒</Mousekin_WortLagerToLager.labelOverride>
+	
+	<!-- EN: Ferment mead must into mead -->
+	<Mousekin_WortMeadToMead.label>將蜂蜜酒原漿發酵成蜂蜜酒</Mousekin_WortMeadToMead.label>
+	
+	<!-- EN: Turns 25 Mousekin mead must into 25 Mousekin mead -->
+	<Mousekin_WortMeadToMead.description>將25單位白鼠族蜂蜜酒原漿發酵成白鼠族蜂蜜酒。</Mousekin_WortMeadToMead.description>
+	
+	<!-- EN: Ferment 25 Mousekin mead must into 25 Mousekin mead -->
+	<Mousekin_WortMeadToMead.labelOverride>將25單位白鼠族蜂蜜酒原漿發酵成白鼠族蜂蜜酒</Mousekin_WortMeadToMead.labelOverride>
 	
 </LanguageData>

@@ -38,30 +38,19 @@
 					</value>
 				</li>			
 				
-				<!-- Replace Windmill ItemProcessor inputs and outputs with MO Wheat and Flour -->
+				<!-- Replace Wheat to Flour PipeSystem ProcessDef inputs and outputs with MO Wheat and Flour -->
 				
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName="Mousekin_IP_WindmillFirstItem"]/items</xpath>
+					<xpath>Defs/PipeSystem.ProcessDef[defName="Mousekin_WheatToFlour"]/ingredients/li[thing="Mousekin_RawWheat"]/thing</xpath>
 					<value>
-						<items>
-							<li>DankPyon_RawWheat</li>
-						</items>
+						<thing>DankPyon_RawWheat</thing>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ItemProcessor.CombinationDef[defName="Mousekin_RawWheatToFlour"]/items</xpath>
+					<xpath>Defs/PipeSystem.ProcessDef[defName="Mousekin_WheatToFlour"]/results/li[thing="Mousekin_Flour"]/thing</xpath>
 					<value>
-						<items>
-							<li>DankPyon_RawWheat</li>
-						</items>
-					</value>
-				</li>
-				
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ItemProcessor.CombinationDef[defName="Mousekin_RawWheatToFlour"]/result</xpath>
-					<value>
-						<result>DankPyon_Flour</result>
+						<thing>DankPyon_Flour</thing>
 					</value>
 				</li>				
 				

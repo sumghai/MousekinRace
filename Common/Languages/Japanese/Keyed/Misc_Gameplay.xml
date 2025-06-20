@@ -33,44 +33,50 @@
 	
 	<!-- EN: This charcoal pile is not working at the moment -->
 	<MousekinRace_CharcoalPileNotWorking>この木炭窯は現在稼働していない</MousekinRace_CharcoalPileNotWorking>
+	
+	<!-- EN: This cheese press is not working at the moment -->
+	<MousekinRace_CheesePressNotWorking>このチーズプレス機は現在稼働していない</MousekinRace_CheesePressNotWorking>
 
-	<!-- EN: Milk to Insert -->
+	<!-- (RW 1.5 only) EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>チーズプレス機で押すミルクを選択します. ミルクにより、違う種類のチーズができるかもしれません.</MousekinRace_CheesePress_InsertMilkDesc>
 
-	<!-- EN: Bring Milk -->
+	<!-- (RW 1.5 only) EN: Bring Milk -->
 	<MousekinRace_CheesePress_StartInsertionMilk>ミルクを運ぶ</MousekinRace_CheesePress_StartInsertionMilk>
 
-	<!-- EN: Bring milk to the cheese press to start the cheesemaking process -->
+	<!-- (RW 1.5 only) EN: Bring milk to the cheese press to start the cheesemaking process -->
 	<MousekinRace_CheesePress_StartInsertionMilkDesc>ミルクを運び、プレスを開始する</MousekinRace_CheesePress_StartInsertionMilkDesc>
 
-	<!-- EN: Cancel bringing Milk -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Milk -->
 	<MousekinRace_CheesePress_CancelBringingMilk>運搬をやめる</MousekinRace_CheesePress_CancelBringingMilk>
 
-	<!-- EN: Cancel bringing Milk to the cheese press. -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Milk to the cheese press. -->
 	<MousekinRace_CheesePress_CancelBringingMilkDesc>ミルクの運搬をやめる</MousekinRace_CheesePress_CancelBringingMilkDesc>
 
-	<!-- EN: Remove Cheese -->
+	<!-- (RW 1.5 only) EN: Remove Cheese -->
 	<MousekinRace_CheesePress_RemoveCheese>チーズを取り除く</MousekinRace_CheesePress_RemoveCheese>
 
-	<!-- EN: Remove cheese from the press. -->
+	<!-- (RW 1.5 only) EN: Remove cheese from the press. -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>チーズプレス機からチーズを取り出します.</MousekinRace_CheesePress_RemoveCheeseDesc>
 	
 	<!-- EN: New {0} will arrive in {1}. -->
 	<MousekinRace_ChurchAltar_NewClergyArrivalTime>新しい{0}が{1}後に到着します.</MousekinRace_ChurchAltar_NewClergyArrivalTime>
+	
+	<!-- EN: This fermenting barrel is not working at the moment -->
+	<MousekinRace_FermentingBarrelNotWorking>このビア樽は現在稼働していない</MousekinRace_FermentingBarrelNotWorking>
 
-	<!-- EN: Must or Wort to Insert -->
+	<!-- (RW 1.5 only) EN: Must or Wort to Insert -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>ビア樽で発酵させてムストや麦汁を選択します.</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
 
-	<!-- EN: Bring Must or Wort -->
+	<!-- (RW 1.5 only) EN: Bring Must or Wort -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWort>ムストや麦汁を運ぶ</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
 
-	<!-- EN: Bring mead must or lager wort to the barrel to start fermentation process -->
+	<!-- (RW 1.5 only) EN: Bring mead must or lager wort to the barrel to start fermentation process -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>ムストや麦汁を運び、発酵を開始する</MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
 
-	<!-- EN: Cancel bringing Must or Wort -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Must or Wort -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWort>運搬をやめる</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
 
-	<!-- EN: Cancel bringing mead must or lager wort to the barrel. -->
+	<!-- (RW 1.5 only) EN: Cancel bringing mead must or lager wort to the barrel. -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>ムストや麦汁の運搬をやめる</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
 
 	<!-- EN: We are {0} -->
@@ -106,23 +112,26 @@
 	<!-- EN: {0} cannot be built on sea ice. -->
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>海氷上に{0}を構築することはできません.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 
-	<!-- EN: Grain to Insert -->
+	<!-- (RW 1.5 only) EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>風車で粉砕する穀物を選択します.</MousekinRace_Windmill_InsertWheatDesc>
 
-	<!-- EN: Bring Wheat -->
+	<!-- (RW 1.5 only) EN: Bring Wheat -->
 	<MousekinRace_Windmill_StartInsertionWheat>小麦を運ぶ</MousekinRace_Windmill_StartInsertionWheat>
 
-	<!-- EN: Bring raw wheat to the windmill for milling into flour -->
+	<!-- (RW 1.5 only) EN: Bring raw wheat to the windmill for milling into flour -->
 	<MousekinRace_Windmill_StartInsertionWheatDesc>小麦を運び、粉砕を開始する</MousekinRace_Windmill_StartInsertionWheatDesc>
 
-	<!-- EN: Cancel bringing Wheat -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Wheat -->
 	<MousekinRace_Windmill_CancelBringingWheat>運搬をやめる</MousekinRace_Windmill_CancelBringingWheat>
 
-	<!-- EN: Cancel bringing raw wheat to the windmill -->
+	<!-- (RW 1.5 only) EN: Cancel bringing raw wheat to the windmill -->
 	<MousekinRace_Windmill_CancelBringingWheatDesc>小麦の運搬をやめる</MousekinRace_Windmill_CancelBringingWheatDesc>
 
 	<!-- EN: Irrigation paused: Insufficient wind speed -->
 	<MousekinRace_Windmill_LowWindspeed>灌漑が一時停止︰風速不足</MousekinRace_Windmill_LowWindspeed>
+	
+	<!-- EN: This windmill is not working at the moment -->
+	<MousekinRace_WindmillNotWorking>この風車は現在稼働していない</MousekinRace_WindmillNotWorking>
 	
 	<!-- EN: But as for the Mousekins amongst the departing colonists, they will soon discover that regardless of noble title, the Empire extends no such courtesies to lesser races like them, and they will spend the rest of their days as glorified circus animals and "talking pets" performing for the amusement of the Imperial court.\n\nSuch is the fate of mice who naively believe in the lies of men. -->
 	<MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>しかし、入植者の中のマウスキンについては、高貴な肩書きに関係なく、帝国が劣等人種にそのような礼儀を許さないことをすぐに知ることになります.そうして彼らは、帝国宮廷の娯楽のためにパフォーマンスをする、サーカスの動物にも劣る「おしゃべりなペット」として残りの日々を過ごすことになります.\n\n人間の嘘を信じたネズミの運命はこんなものです.</MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>

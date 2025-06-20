@@ -33,44 +33,50 @@
 	
 	<!-- EN: This charcoal pile is not working at the moment -->
 	<MousekinRace_CharcoalPileNotWorking>이 숯 더미는 현재 작동하지 않습니다.</MousekinRace_CharcoalPileNotWorking>
+	
+	<!-- EN: This cheese press is not working at the moment -->
+	<MousekinRace_CheesePressNotWorking>이 치즈 프레스는 현재 작동하지 않습니다.</MousekinRace_CheesePressNotWorking>
 
-	<!-- EN: Milk to Insert -->
+	<!-- (RW 1.5 only) EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>삽입할 우유</MousekinRace_CheesePress_InsertMilkDesc>
 
-	<!-- EN: Bring Milk -->
+	<!-- (RW 1.5 only) EN: Bring Milk -->
 	<MousekinRace_CheesePress_StartInsertionMilk>우유 가져오기</MousekinRace_CheesePress_StartInsertionMilk>
 
-	<!-- EN: Bring milk to the cheese press to start the cheesemaking process -->
+	<!-- (RW 1.5 only) EN: Bring milk to the cheese press to start the cheesemaking process -->
 	<MousekinRace_CheesePress_StartInsertionMilkDesc>우유를 치즈 프레스로 가져와 치즈 제조 과정을 시작합니다.</MousekinRace_CheesePress_StartInsertionMilkDesc>
 
-	<!-- EN: Cancel bringing Milk -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Milk -->
 	<MousekinRace_CheesePress_CancelBringingMilk>우유 반입 취소</MousekinRace_CheesePress_CancelBringingMilk>
 
-	<!-- EN: Cancel bringing Milk to the cheese press. -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Milk to the cheese press. -->
 	<MousekinRace_CheesePress_CancelBringingMilkDesc>우유를 치즈 프레스로 가져가는 것을 취소하십시오.</MousekinRace_CheesePress_CancelBringingMilkDesc>
 
-	<!-- EN: Remove Cheese -->
+	<!-- (RW 1.5 only) EN: Remove Cheese -->
 	<MousekinRace_CheesePress_RemoveCheese>치즈 제거</MousekinRace_CheesePress_RemoveCheese>
 
-	<!-- EN: Remove cheese from the press. -->
+	<!-- (RW 1.5 only) EN: Remove cheese from the press. -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>언론에서 치즈를 제거하십시오.</MousekinRace_CheesePress_RemoveCheeseDesc>
 	
 	<!-- EN: New {0} will arrive in {1}. -->
 	<MousekinRace_ChurchAltar_NewClergyArrivalTime>새로운 {0}가 {1} 후에 도착합니다.</MousekinRace_ChurchAltar_NewClergyArrivalTime>
+	
+	<!-- EN: This fermenting barrel is not working at the moment -->
+	<MousekinRace_FermentingBarrelNotWorking>이 배럴 현재 작동하지 않습니다.</MousekinRace_FermentingBarrelNotWorking>
 
-	<!-- EN: Must or Wort to Insert -->
+	<!-- (RW 1.5 only) EN: Must or Wort to Insert -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>삽입할 맥즙</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
 
-	<!-- EN: Bring Must or Wort -->
+	<!-- (RW 1.5 only) EN: Bring Must or Wort -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWort>맥아즙을 가져오다</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
 
-	<!-- EN: Bring mead must or lager wort to the barrel to start fermentation process -->
+	<!-- (RW 1.5 only) EN: Bring mead must or lager wort to the barrel to start fermentation process -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>미드 맥아 즙 또는 라거 맥아 즙을 배럴에 가져와 발효 과정을 시작하십시오.</MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
 
-	<!-- EN: Cancel bringing Must or Wort -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Must or Wort -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWort>맥아즙 가져오기 취소</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
 
-	<!-- EN: Cancel bringing mead must or lager wort to the barrel. -->
+	<!-- (RW 1.5 only) EN: Cancel bringing mead must or lager wort to the barrel. -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>미드 맥아 즙 또는 라거 맥아 즙을 배럴로 가져가는 것을 취소하십시오.</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
 
 	<!-- EN: We are {0} -->
@@ -106,23 +112,26 @@
 	<!-- EN: {0} cannot be built on sea ice. -->
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>{0}은 해빙 위에 지을 수 없습니다.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 
-	<!-- EN: Grain to Insert -->
+	<!-- (RW 1.5 only) EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>삽입할 곡물</MousekinRace_Windmill_InsertWheatDesc>
 
-	<!-- EN: Bring Wheat -->
+	<!-- (RW 1.5 only) EN: Bring Wheat -->
 	<MousekinRace_Windmill_StartInsertionWheat>밀 가져오기</MousekinRace_Windmill_StartInsertionWheat>
 
-	<!-- EN: Bring raw wheat to the windmill for milling into flour -->
+	<!-- (RW 1.5 only) EN: Bring raw wheat to the windmill for milling into flour -->
 	<MousekinRace_Windmill_StartInsertionWheatDesc>생밀을 풍차로 가져와 밀가루로 만들기</MousekinRace_Windmill_StartInsertionWheatDesc>
 
-	<!-- EN: Cancel bringing Wheat -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Wheat -->
 	<MousekinRace_Windmill_CancelBringingWheat>밀 반입 취소</MousekinRace_Windmill_CancelBringingWheat>
 
-	<!-- EN: Cancel bringing raw wheat to the windmill -->
+	<!-- (RW 1.5 only) EN: Cancel bringing raw wheat to the windmill -->
 	<MousekinRace_Windmill_CancelBringingWheatDesc>풍차에 생밀 반입 취소</MousekinRace_Windmill_CancelBringingWheatDesc>
 
 	<!-- EN: Irrigation paused: Insufficient wind speed -->
 	<MousekinRace_Windmill_LowWindspeed>관개 일시 중지: 풍속 부족</MousekinRace_Windmill_LowWindspeed>
+	
+	<!-- EN: This windmill is not working at the moment -->
+	<MousekinRace_WindmillNotWorking>이 풍차로 현재 작동하지 않습니다.</MousekinRace_WindmillNotWorking>
 	
 	<!-- EN: But as for the Mousekins amongst the departing colonists, they will soon discover that regardless of noble title, the Empire extends no such courtesies to lesser races like them, and they will spend the rest of their days as glorified circus animals and "talking pets" performing for the amusement of the Imperial court.\n\nSuch is the fate of mice who naively believe in the lies of men. -->
 	<MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>그러나 떠나는 식민지 주민들 중 마우스킨은 쥐가 어떤 고귀한 칭호를 가지고 있든 제국이 자신과 같은 하급 종족에게 그러한 예의를 베풀지 않는다는 사실을 곧 알게 될 것이며, 남은 여생을 미화된 서커스 동물이자 황실의 즐거움을 위해 공연하는 “말하는 애완동물”로 보내게 될 거예요.\n\n이것이 인간의 거짓말을 순진하게 믿는 생쥐의 운명입니다.</MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>

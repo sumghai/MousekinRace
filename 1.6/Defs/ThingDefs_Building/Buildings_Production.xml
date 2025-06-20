@@ -734,13 +734,12 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
-	<!-- Mousekin cheese press (old VEF ItemProcessor) -->
+	<!-- Mousekin cheese press -->
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_CheesePress</defName>
 		<label>Mousekin cheese press</label>
 		<description>A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese.</description>
-		<!--<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>-->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Rare</tickerType>
 		<graphicData>
@@ -782,54 +781,36 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<comps>
-			<!--<li Class="ItemProcessor.CompProperties_ItemProcessor">
-				<buildingOnGraphic>Things/Building/Production/Mousekin_CheesePressFull</buildingOnGraphic>
-				<numberOfInputs>1</numberOfInputs>
-				<acceptsNoneAsInput>false</acceptsNoneAsInput>
-				<InsertFirstItemDesc>MousekinRace_CheesePress_InsertMilkDesc</InsertFirstItemDesc>
-				<ignoresIngredientLists>true</ignoresIngredientLists>
-				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
-				<mustLoadFromInteractionSpot>true</mustLoadFromInteractionSpot>
-				<mustUnloadFromInteractionSpot>true</mustUnloadFromInteractionSpot>
-				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_CheesePress_ResetMilk</resetSemiautomaticIcon>
-				<qualitySelector>false</qualitySelector>
-				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_CheesePress_EmptyMilkIcon</chooseIngredientsIcon>
-
-				<bringIngredientsText>MousekinRace_CheesePress_StartInsertionMilk</bringIngredientsText>
-				<bringIngredientsDesc>MousekinRace_CheesePress_StartInsertionMilkDesc</bringIngredientsDesc>
-				<bringIngredientsIcon>UI/ItemProcessors/Mousekin_CheesePress_InsertMilk</bringIngredientsIcon>
-
-				<cancelIngredientsText>MousekinRace_CheesePress_CancelBringingMilk</cancelIngredientsText>
-				<cancelIngredientsDesc>MousekinRace_CheesePress_CancelBringingMilkDesc</cancelIngredientsDesc>
-				<cancelIngredientsIcon>UI/ItemProcessors/Mousekin_CheesePress_CancelMilk</cancelIngredientsIcon>
-				
-				<noPowerDestroysProgress>false</noPowerDestroysProgress>
-				
-				<removeProductText>MousekinRace_CheesePress_RemoveCheese</removeProductText>
-				<removeProductDesc>MousekinRace_CheesePress_RemoveCheeseDesc</removeProductDesc>
-				<removeProductIcon>UI/ItemProcessors/Mousekin_CheesePress_RemoveCheese</removeProductIcon>
-				
-				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
-			</li>-->
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_CheesePressNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_MilkToCheese</li>
+				</processes>
+				<inProgressTexture>Things/Building/Production/Mousekin_CheesePressFull</inProgressTexture>
+				<finishedTexture>Things/Building/Production/Mousekin_CheesePressFull</finishedTexture>
+				<hideSettings>true</hideSettings>
+			</li>
 		</comps>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
-	<!-- Mousekin fermenting barrel (old VEF ItemProcessor) -->
+	<!-- Mousekin fermenting barrel -->
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_FermentingBarrel</defName>
 		<label>Mousekin fermenting barrel</label>
 		<description>A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room.</description>
-		<!--<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>-->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Rare</tickerType>
 		<graphicData>
@@ -871,41 +852,23 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<comps>
-			<!--<li Class="ItemProcessor.CompProperties_ItemProcessor">
-				<buildingOnGraphic>Things/Building/Production/Mousekin_FermentingBarrel</buildingOnGraphic>
-				<numberOfInputs>1</numberOfInputs>
-				<acceptsNoneAsInput>false</acceptsNoneAsInput>
-				<InsertFirstItemDesc>MousekinRace_FermentingBarrel_InsertMustOrWortDesc</InsertFirstItemDesc>
-				<ignoresIngredientLists>true</ignoresIngredientLists>
-				<showProgressBar>true</showProgressBar>
-				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
-				<mustLoadFromInteractionSpot>true</mustLoadFromInteractionSpot>
-				<mustUnloadFromInteractionSpot>true</mustUnloadFromInteractionSpot>
-				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_ResetMustOrWort</resetSemiautomaticIcon>
-				<qualitySelector>true</qualitySelector>
-				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_EmptyMustOrWortIcon</chooseIngredientsIcon>
-
-				<bringIngredientsText>MousekinRace_FermentingBarrel_StartInsertionMustOrWort</bringIngredientsText>
-				<bringIngredientsDesc>MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc</bringIngredientsDesc>
-				<bringIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_InsertMustOrWort</bringIngredientsIcon >
-
-				<cancelIngredientsDesc>MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc</cancelIngredientsDesc>
-				<cancelIngredientsIcon>UI/ItemProcessors/Mousekin_FermentingBarrel_CancelMustOrWort</cancelIngredientsIcon> 
-				<isLightDependingMachine>true</isLightDependingMachine>
-				<minLight>-1</minLight>
-				<maxLight>0.5</maxLight>
-				<isTemperatureDependingMachine>true</isTemperatureDependingMachine>
-				Good compromise for both lagers and meads
-				<minTemp>5</minTemp>
-				<maxTemp>20</maxTemp>
-				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
-			</li>-->
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_FermentingBarrelNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_WortLagerToLager</li>
+					<li>Mousekin_WortMeadToMead</li>
+				</processes>
+				<hideSettings>true</hideSettings>
+			</li>
 		</comps>
 		<researchPrerequisites>
 			<li>Brewing</li>
@@ -1136,13 +1099,12 @@
 		</placeWorkers>
 	</ThingDef>
 
-	<!-- Mousekin windmill (old VEF ItemProcessor) -->
+	<!-- Mousekin windmill -->
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_Windmill</defName>
 		<label>Mousekin windmill</label>
 		<description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water.</description>
-		<!--<thingClass>ItemProcessor.Building_ItemProcessor</thingClass>-->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -1185,6 +1147,7 @@
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<surfaceType>Item</surfaceType>
 		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
 			<li>ITab_WindTurbineAutoCut</li>
 		</inspectorTabs>
 		<constructEffect>ConstructWood</constructEffect>
@@ -1194,7 +1157,7 @@
 			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
 		</building>
 		<comps>
-			<!--<li Class="MousekinRace.CompProperties_Windmill">
+			<li Class="MousekinRace.CompProperties_Windmill">
 				<obstructionFreeRadius>9.9</obstructionFreeRadius>
 				<terraformRadius>14.9</terraformRadius>
 				<daysToTerraformRadius>120</daysToTerraformRadius>
@@ -1217,26 +1180,13 @@
 			<li>
 				<compClass>MousekinRace.CompAutoCutWindmill</compClass>
 			</li>
-			<li Class="ItemProcessor.CompProperties_ItemProcessor">
-				<numberOfInputs>1</numberOfInputs>
-				<acceptsNoneAsInput>false</acceptsNoneAsInput>
-				<InsertFirstItemDesc>MousekinRace_Windmill_InsertWheatDesc</InsertFirstItemDesc>
-				<ignoresIngredientLists>true</ignoresIngredientLists>
-				<isSemiAutomaticMachine>true</isSemiAutomaticMachine>
-				<mustLoadFromInteractionSpot>true</mustLoadFromInteractionSpot>
-				<mustUnloadFromInteractionSpot>true</mustUnloadFromInteractionSpot>
-				<resetSemiautomaticIcon>UI/ItemProcessors/Mousekin_Windmill_ResetWheat</resetSemiautomaticIcon>
-				<chooseIngredientsIcon>UI/ItemProcessors/Mousekin_Windmill_EmptyWheatIcon</chooseIngredientsIcon>
-
-				<bringIngredientsText>MousekinRace_Windmill_StartInsertionWheat</bringIngredientsText>
-				<bringIngredientsDesc>MousekinRace_Windmill_StartInsertionWheatDesc</bringIngredientsDesc>
-				<bringIngredientsIcon>UI/ItemProcessors/Mousekin_Windmill_InsertWheat</bringIngredientsIcon >
-
-				<cancelIngredientsText>MousekinRace_Windmill_CancelBringingWheat</cancelIngredientsText>
-				<cancelIngredientsDesc>MousekinRace_Windmill_CancelBringingWheatDesc</cancelIngredientsDesc>
-				<cancelIngredientsIcon>UI/ItemProcessors/Mousekin_Windmill_CancelWheat</cancelIngredientsIcon>
-				<destroyIngredientsAtStartOfProcess>true</destroyIngredientsAtStartOfProcess>
-			</li>-->
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_WindmillNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_WheatToFlour</li>
+				</processes>
+				<hideSettings>true</hideSettings>
+			</li>
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_NotUnderRoof</li>

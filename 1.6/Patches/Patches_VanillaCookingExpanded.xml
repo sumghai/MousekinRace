@@ -101,25 +101,10 @@
 					<nomatch Class="PatchOperationSequence">
 						<operations>
 						
-							<!-- Disable Item Processor and associated recipes in Mousekin Windmill -->
-				
-							<li Class="PatchOperationReplace">
-								<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/thingClass</xpath>
-								<value>
-									<thingClass>Building</thingClass>
-								</value>
-							</li>
+							<!-- Disable PipeSystem Processor in Mousekin Windmill -->
 							
 							<li Class="PatchOperationRemove">
-								<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/comps/li[@Class="ItemProcessor.CompProperties_ItemProcessor"]</xpath>
-							</li>
-							
-							<li Class="PatchOperationRemove">
-								<xpath>Defs/ItemProcessor.ItemAcceptedDef[defName="Mousekin_IP_WindmillFirstItem"]</xpath>
-							</li>
-							
-							<li Class="PatchOperationRemove">
-								<xpath>Defs/ItemProcessor.CombinationDef[defName="Mousekin_RawWheatToFlour"]</xpath>
+								<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]</xpath>
 							</li>
 							
 							<!-- Replace flour from Country bread recipes with VCE Flour -->

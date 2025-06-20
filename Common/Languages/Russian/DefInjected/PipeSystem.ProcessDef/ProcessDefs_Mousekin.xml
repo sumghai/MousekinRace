@@ -10,6 +10,24 @@
 	<!-- EN: Convert 200 giant cavy pellets and 50 wood ash into 100 saltpeter -->
 	<Mousekin_ManureToSaltpeter.labelOverride>Переработка 200 Какашка гигантского кави и 50 древесной золы в 100 селитры</Mousekin_ManureToSaltpeter.labelOverride>
 	
+	<!-- EN: Make milk into Cloverbury cheese -->
+	<Mousekin_MilkToCheese.label>Сделайте из молока Сыр Кловербери</Mousekin_MilkToCheese.label>
+	
+	<!-- EN: Turns 50 milk into 25 Cloverbury cheese. -->
+	<Mousekin_MilkToCheese.description>Превратите 50 молока в 25 Сыр Кловербери.</Mousekin_MilkToCheese.description>
+	
+	<!-- EN: Turn 50 milk into 25 Cloverbury cheese -->
+	<Mousekin_MilkToCheese.labelOverride>Превратите 50 молока в 25 Сыр Кловербери.</Mousekin_MilkToCheese.labelOverride>
+	
+	<!-- EN: Mill wheat into flour -->
+	<Mousekin_WheatToFlour.label>Измельчение пшеницы в пшено</Mousekin_WheatToFlour.label>
+	
+	<!-- EN: Turns 100 wheat into 75 flour -->
+	<Mousekin_WheatToFlour.description>Перемолоть 100 пшеницы в 75 муки.</Mousekin_WheatToFlour.description>
+	
+	<!-- EN: Mill 100 wheat into 75 flour -->
+	<Mousekin_WheatToFlour.labelOverride>Перемолоть 100 пшеницы в 75 муки</Mousekin_WheatToFlour.labelOverride>
+	
 	<!-- EN: Carbonize wood logs into charcoal -->
 	<Mousekin_WoodLogToCharcoal.label>обугливать древесина в угольная</Mousekin_WoodLogToCharcoal.label>
 	
@@ -18,5 +36,23 @@
 	
 	<!-- EN: Carbonize 300 wood logs into 600 charcoal -->
 	<Mousekin_WoodLogToCharcoal.labelOverride>обугливать 300 древесина в 600 угольная</Mousekin_WoodLogToCharcoal.labelOverride>
+	
+	<!-- EN: Ferment lager wort into lager -->
+	<Mousekin_WortLagerToLager.label>Сбродить сусло в лагер</Mousekin_WortLagerToLager.label>
+	
+	<!-- EN: Turns 25 Mousekin lager wort into 25 Mousekin lager -->
+	<Mousekin_WortLagerToLager.description>Сбродить сусло из 25 Мышкиных в 25 Мышкин лагер.</Mousekin_WortLagerToLager.description>
+	
+	<!-- EN: Ferment 25 Mousekin lager wort into 25 Mousekin lager -->
+	<Mousekin_WortLagerToLager.labelOverride>Сбродить сусло из 25 Мышкиных в 25 Мышкин лагер</Mousekin_WortLagerToLager.labelOverride>
+	
+	<!-- EN: Ferment mead must into mead -->
+	<Mousekin_WortMeadToMead.label>Сбродить сусло в медовуху</Mousekin_WortMeadToMead.label>
+	
+	<!-- EN: Turns 25 Mousekin mead must into 25 Mousekin mead -->
+	<Mousekin_WortMeadToMead.description>Сбродите 25 сусла для медовухи из Мышкина в 25 медовухи.</Mousekin_WortMeadToMead.description>
+	
+	<!-- EN: Ferment 25 Mousekin mead must into 25 Mousekin mead -->
+	<Mousekin_WortMeadToMead.labelOverride>Сбродите 25 сусла для медовухи из Мышкина в 25 медовухи</Mousekin_WortMeadToMead.labelOverride>
 	
 </LanguageData>

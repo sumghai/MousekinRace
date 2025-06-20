@@ -23,30 +23,46 @@
 	
 	<MousekinRace_CharcoalPileNotWorking>This charcoal pile is not working at the moment</MousekinRace_CharcoalPileNotWorking>
 	
+	<MousekinRace_CheesePressNotWorking>This cheese press is not working at the moment</MousekinRace_CheesePressNotWorking>
+	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_CheesePress_InsertMilkDesc>Milk to Insert</MousekinRace_CheesePress_InsertMilkDesc>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_CheesePress_StartInsertionMilk>Bring Milk</MousekinRace_CheesePress_StartInsertionMilk>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_CheesePress_StartInsertionMilkDesc>Bring milk to the cheese press to start the cheesemaking process</MousekinRace_CheesePress_StartInsertionMilkDesc>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_CheesePress_CancelBringingMilk>Cancel bringing Milk</MousekinRace_CheesePress_CancelBringingMilk>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_CheesePress_CancelBringingMilkDesc>Cancel bringing Milk to the cheese press.</MousekinRace_CheesePress_CancelBringingMilkDesc>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_CheesePress_RemoveCheese>Remove Cheese</MousekinRace_CheesePress_RemoveCheese>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>Remove cheese from the press.</MousekinRace_CheesePress_RemoveCheeseDesc>
 	
 	<MousekinRace_ChurchAltar_NewClergyArrivalTime>New {0} will arrive in {1}.</MousekinRace_ChurchAltar_NewClergyArrivalTime>
 	
+	<MousekinRace_FermentingBarrelNotWorking>This fermenting barrel is not working at the moment</MousekinRace_FermentingBarrelNotWorking>
+	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>Must or Wort to Insert</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWort>Bring Must or Wort</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>Bring mead must or lager wort to the barrel to start fermentation process</MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWort>Cancel bringing Must or Wort</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>Cancel bringing mead must or lager wort to the barrel.</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
 	
 	<MousekinRace_MemeGoodwillImpact_Player>We are {0}</MousekinRace_MemeGoodwillImpact_Player>
@@ -71,17 +87,24 @@
 	
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>{0} cannot be built on sea ice.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_Windmill_InsertWheatDesc>Grain to Insert</MousekinRace_Windmill_InsertWheatDesc>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_Windmill_StartInsertionWheat>Bring Wheat</MousekinRace_Windmill_StartInsertionWheat>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_Windmill_StartInsertionWheatDesc>Bring raw wheat to the windmill for milling into flour</MousekinRace_Windmill_StartInsertionWheatDesc>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_Windmill_CancelBringingWheat>Cancel bringing Wheat</MousekinRace_Windmill_CancelBringingWheat>
 	
+	<!-- (RW 1.5 only) -->
 	<MousekinRace_Windmill_CancelBringingWheatDesc>Cancel rining raw wheat to the windmill</MousekinRace_Windmill_CancelBringingWheatDesc>
 	
 	<MousekinRace_Windmill_LowWindspeed>Irrigation paused: Insufficient wind speed</MousekinRace_Windmill_LowWindspeed>
+	
+	<MousekinRace_WindmillNotWorking>This windmill is not working at the moment</MousekinRace_WindmillNotWorking>
 	
 	<MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>But as for the Mousekins amongst the departing colonists, they will soon discover that regardless of noble title, the Empire extends no such courtesies to lesser races like them, and they will spend the rest of their days as glorified circus animals and "talking pets" performing for the amusement of the Imperial court.\n\nSuch is the fate of mice who naively believe in the lies of men.</MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>
 	

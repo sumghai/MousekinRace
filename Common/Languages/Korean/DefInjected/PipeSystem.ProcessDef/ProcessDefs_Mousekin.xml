@@ -10,6 +10,24 @@
 	<!-- EN: Convert 200 giant cavy pellets and 50 wood ash into 100 saltpeter -->
 	<Mousekin_ManureToSaltpeter.labelOverride>자이언트 캐비어 펠릿 200개와 나무 재 50개를 100개의 질산염으로 변환합니다</Mousekin_ManureToSaltpeter.labelOverride>
 	
+	<!-- EN: Make milk into Cloverbury cheese -->
+	<Mousekin_MilkToCheese.label>우유를 클로버베리 치즈로 만들기</Mousekin_MilkToCheese.label>
+	
+	<!-- EN: Turns 50 milk into 25 Cloverbury cheese. -->
+	<Mousekin_MilkToCheese.description>우유 50개를 클로버베리 치즈 25개로 바꿉니다.</Mousekin_MilkToCheese.description>
+	
+	<!-- EN: Turn 50 milk into 25 Cloverbury cheese -->
+	<Mousekin_MilkToCheese.labelOverride>우유 50개를 클로버베리 치즈 25개로 바꿉니다</Mousekin_MilkToCheese.labelOverride>
+	
+	<!-- EN: Mill wheat into flour -->
+	<Mousekin_WheatToFlour.label>밀을 밀가루로 분쇄</Mousekin_WheatToFlour.label>
+	
+	<!-- EN: Turns 100 wheat into 75 flour -->
+	<Mousekin_WheatToFlour.description>밀 100개를 밀가루 75개로 바꾸기.</Mousekin_WheatToFlour.description>
+	
+	<!-- EN: Mill 100 wheat into 75 flour -->
+	<Mousekin_WheatToFlour.labelOverride>밀 100개를 밀가루 75개로 바꾸기</Mousekin_WheatToFlour.labelOverride>
+	
 	<!-- EN: Carbonize wood logs into charcoal -->
 	<Mousekin_WoodLogToCharcoal.label>나무 통나무를 숯으로 탄화</Mousekin_WoodLogToCharcoal.label>
 	
@@ -18,5 +36,23 @@
 	
 	<!-- EN: Carbonize 300 wood logs into 600 charcoal -->
 	<Mousekin_WoodLogToCharcoal.labelOverride>나무 통나무 300개를 탄화시켜 숯 600개로 만들기</Mousekin_WoodLogToCharcoal.labelOverride>
+	
+	<!-- EN: Ferment lager wort into lager -->
+	<Mousekin_WortLagerToLager.label>라거 맥아즙을 라거로 발효</Mousekin_WortLagerToLager.label>
+	
+	<!-- EN: Turns 25 Mousekin lager wort into 25 Mousekin lager -->
+	<Mousekin_WortLagerToLager.description>마우스킨 라거 워트 25개를 마우스킨 라거 25개로 바꿉니다.</Mousekin_WortLagerToLager.description>
+	
+	<!-- EN: Ferment 25 Mousekin lager wort into 25 Mousekin lager -->
+	<Mousekin_WortLagerToLager.labelOverride>마우스킨 라거 워트 25개를 마우스킨 라거 25개로 바꿉니다</Mousekin_WortLagerToLager.labelOverride>
+	
+	<!-- EN: Ferment mead must into mead -->
+	<Mousekin_WortMeadToMead.label>발효 미드 머스트를 미드로 발효</Mousekin_WortMeadToMead.label>
+	
+	<!-- EN: Turns 25 Mousekin mead must into 25 Mousekin mead -->
+	<Mousekin_WortMeadToMead.description>마우스킨 미드 25개를 마우스킨 미드 25개로 바꿉니다.</Mousekin_WortMeadToMead.description>
+	
+	<!-- EN: Ferment 25 Mousekin mead must into 25 Mousekin mead -->
+	<Mousekin_WortMeadToMead.labelOverride>마우스킨 미드 25개를 마우스킨 미드 25개로 바꿉니다</Mousekin_WortMeadToMead.labelOverride>
 	
 </LanguageData>

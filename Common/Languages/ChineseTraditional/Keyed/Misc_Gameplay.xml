@@ -34,43 +34,49 @@
 	<!-- EN: This charcoal pile is not working at the moment -->
 	<MousekinRace_CharcoalPileNotWorking>木炭堆未處於工作狀態</MousekinRace_CharcoalPileNotWorking>
 	
-	<!-- EN: Milk to Insert -->
+	<!-- EN: This cheese press is not working at the moment -->
+	<MousekinRace_CheesePressNotWorking>起司壓制器未處於工作狀態</MousekinRace_CheesePressNotWorking>
+	
+	<!-- (RW 1.5 only) EN: Milk to Insert -->
 	<MousekinRace_CheesePress_InsertMilkDesc>選原乳</MousekinRace_CheesePress_InsertMilkDesc>
 	
-	<!-- EN: Bring Milk -->
+	<!-- (RW 1.5 only) EN: Bring Milk -->
 	<MousekinRace_CheesePress_StartInsertionMilk>添加原乳</MousekinRace_CheesePress_StartInsertionMilk>
 	
-	<!-- EN: Bring milk to the cheese press to start the cheesemaking process -->
+	<!-- (RW 1.5 only) EN: Bring milk to the cheese press to start the cheesemaking process -->
 	<MousekinRace_CheesePress_StartInsertionMilkDesc>往該起司壓制器添加原乳以開始壓制。</MousekinRace_CheesePress_StartInsertionMilkDesc>
 	
-	<!-- EN: Cancel bringing Milk -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Milk -->
 	<MousekinRace_CheesePress_CancelBringingMilk>取消添加原乳</MousekinRace_CheesePress_CancelBringingMilk>
 	
-	<!-- EN: Cancel bringing Milk to the cheese press. -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Milk to the cheese press. -->
 	<MousekinRace_CheesePress_CancelBringingMilkDesc>取消往該起司壓制器添加原乳。</MousekinRace_CheesePress_CancelBringingMilkDesc>
 	
-	<!-- EN: Remove Cheese -->
+	<!-- (RW 1.5 only) EN: Remove Cheese -->
 	<MousekinRace_CheesePress_RemoveCheese>移除起司</MousekinRace_CheesePress_RemoveCheese>
 	
-	<!-- EN: Remove cheese from the press. -->
+	<!-- (RW 1.5 only) EN: Remove cheese from the press. -->
 	<MousekinRace_CheesePress_RemoveCheeseDesc>從起司壓制器移除起司。</MousekinRace_CheesePress_RemoveCheeseDesc>
 	
 	<!-- EN: New {0} will arrive in {1}. -->
 	<MousekinRace_ChurchAltar_NewClergyArrivalTime>新的{0}在{1}後抵達。</MousekinRace_ChurchAltar_NewClergyArrivalTime>
 	
-	<!-- EN: Must or Wort to Insert -->
+	<!-- EN: This fermenting barrel is not working at the moment -->
+	<MousekinRace_FermentingBarrelNotWorking>發酵桶未處於工作狀態</MousekinRace_FermentingBarrelNotWorking>
+	
+	<!-- (RW 1.5 only) EN: Must or Wort to Insert -->
 	<MousekinRace_FermentingBarrel_InsertMustOrWortDesc>選原漿或麥汁</MousekinRace_FermentingBarrel_InsertMustOrWortDesc>
 	
-	<!-- EN: Bring Must or Wort -->
+	<!-- (RW 1.5 only) EN: Bring Must or Wort -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWort>添加原漿或麥汁</MousekinRace_FermentingBarrel_StartInsertionMustOrWort>
 	
-	<!-- EN: Bring mead must or lager wort to the barrel to start fermentation process -->
+	<!-- (RW 1.5 only) EN: Bring mead must or lager wort to the barrel to start fermentation process -->
 	<MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>往該發酵桶添加原漿或麥汁以開始釀造。</MousekinRace_FermentingBarrel_StartInsertionMustOrWortDesc>
 	
-	<!-- EN: Cancel bringing Must or Wort -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Must or Wort -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWort>取消添加原漿或麥汁</MousekinRace_FermentingBarrel_CancelBringingMustOrWort>
 	
-	<!-- EN: Cancel bringing mead must or lager wort to the barrel. -->
+	<!-- (RW 1.5 only) EN: Cancel bringing mead must or lager wort to the barrel. -->
 	<MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>取消往該發酵桶添加原漿或麥汁。</MousekinRace_FermentingBarrel_CancelBringingMustOrWortDesc>
 	
 	<!-- EN: We are {0} -->
@@ -106,23 +112,26 @@
 	<!-- EN: {0} cannot be built on sea ice. -->
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>不能在冰海上建造{0}。</MousekinRace_PlaceWorker_NeverOnSeaIce>
 	
-	<!-- EN: Grain to Insert -->
+	<!-- (RW 1.5 only) EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>選穀物</MousekinRace_Windmill_InsertWheatDesc>
 	
-	<!-- EN: Bring Wheat -->
+	<!-- (RW 1.5 only) EN: Bring Wheat -->
 	<MousekinRace_Windmill_StartInsertionWheat>添加小麥</MousekinRace_Windmill_StartInsertionWheat>
 	
-	<!-- EN: Bring raw wheat to the windmill for milling into flour -->
+	<!-- (RW 1.5 only) EN: Bring raw wheat to the windmill for milling into flour -->
 	<MousekinRace_Windmill_StartInsertionWheatDesc>往該風車添加小麥以開始磨成麵粉。</MousekinRace_Windmill_StartInsertionWheatDesc>
 	
-	<!-- EN: Cancel bringing Wheat -->
+	<!-- (RW 1.5 only) EN: Cancel bringing Wheat -->
 	<MousekinRace_Windmill_CancelBringingWheat>取消添加小麥</MousekinRace_Windmill_CancelBringingWheat>
 	
-	<!-- EN: Cancel bringing raw wheat to the windmill -->
+	<!-- (RW 1.5 only) EN: Cancel bringing raw wheat to the windmill -->
 	<MousekinRace_Windmill_CancelBringingWheatDesc>取消往該風車添加小麥。</MousekinRace_Windmill_CancelBringingWheatDesc>
 	
 	<!-- EN: Irrigation paused: Insufficient wind speed -->
 	<MousekinRace_Windmill_LowWindspeed>灌溉暫停︰風速不足</MousekinRace_Windmill_LowWindspeed>
+	
+	<!-- EN: This windmill is not working at the moment -->
+	<MousekinRace_WindmillNotWorking>風車未處於工作狀態</MousekinRace_WindmillNotWorking>
 	
 	<!-- EN: But as for the Mousekins amongst the departing colonists, they will soon discover that regardless of noble title, the Empire extends no such courtesies to lesser races like them, and they will spend the rest of their days as glorified circus animals and "talking pets" performing for the amusement of the Imperial court.\n\nSuch is the fate of mice who naively believe in the lies of men. -->
 	<MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>但至於你的殖民者中的白鼠族們，他們很快就會發現，無論擁有多麼高貴的頭銜，帝國都不會對像他們這樣的低等種族給予這樣的禮遇。因此，他們將在餘下的日子裡被當作 「會說話的寵物」，為帝國宮廷的娛樂而表演，與馬戲團的動物無異。\n\n這就是天真地相信人類謊言的老鼠的命運。</MousekinRace_GameOver_RoyalAscent_DeparteesIncludeMice_EndingTextSuffix>

@@ -29,6 +29,52 @@
 	</PipeSystem.ProcessDef>
 	
 	<PipeSystem.ProcessDef>
+		<defName>Mousekin_MilkToCheese</defName>
+		<label>Make milk into Cloverbury cheese</label>
+		<description>Turns 50 milk into 25 Cloverbury cheese.</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Turn 50 milk into 25 Cloverbury cheese</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Milk</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>900000</ticks>
+		<results>
+			<li>
+				<thing>Mousekin_FoodCheese</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>Mousekin_WheatToFlour</defName>
+		<label>Mill wheat into flour</label>
+		<description>Turns 100 wheat into 75 flour</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Mill 100 wheat into 75 flour</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Mousekin_RawWheat</thing>
+				<countNeeded>100</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>120000</ticks>
+		<results>
+			<li>
+				<thing>Mousekin_Flour</thing>
+				<count>75</count>
+			</li>
+		</results>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
 		<defName>Mousekin_WoodLogToCharcoal</defName>
 		<label>Carbonize wood logs into charcoal</label>
 		<description>Turns 300 wood logs into 600 charcoal.</description>
@@ -48,6 +94,73 @@
 				<count>600</count>
 			</li>
 		</results>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef Name="Mousekin_BrewingProcessBase" Abstract="true">
+		<!-- Should be kept out of (strong) sunlight -->
+		<isLightDependingProcess>true</isLightDependingProcess>
+		<minLight>-1</minLight>
+		<maxLight>0.5</maxLight>
+		<!-- Good compromise for both lagers and meads -->
+		<temperatureRuinable>true</temperatureRuinable>
+		<minSafeTemperature>5</minSafeTemperature>
+		<maxSafeTemperature>20</maxSafeTemperature>
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef ParentName="Mousekin_BrewingProcessBase">
+		<defName>Mousekin_WortLagerToLager</defName>
+		<label>Ferment lager wort into lager</label>
+		<description>Turns 25 Mousekin lager wort into 25 Mousekin lager</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 25 Mousekin lager wort into 25 Mousekin lager</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Mousekin_WortLager</thing>
+				<countNeeded>25</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>600000</ticks>
+		<results>
+			<li>
+				<thing>Mousekin_DrinkLager</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef ParentName="Mousekin_BrewingProcessBase">
+		<defName>Mousekin_WortMeadToMead</defName>
+		<label>Ferment mead must into mead</label>
+		<description>Turns 25 Mousekin mead must into 25 Mousekin mead</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 25 Mousekin mead must into 25 Mousekin mead</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Mousekin_WortMead</thing>
+				<countNeeded>25</countNeeded>
+			</li>
+		</ingredients>
+		<ticksQuality>
+			<li>300000</li>
+			<li>600000</li>
+			<li>900000</li>
+			<li>1800000</li>
+			<li>3600000</li>
+			<li>5400000</li>
+			<li>7200000</li>
+		</ticksQuality>
+		<results>
+			<li>
+				<thing>Mousekin_DrinkMead</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<stopAtQuality>true</stopAtQuality>
+		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
 		<autoExtract>false</autoExtract>
 	</PipeSystem.ProcessDef>
 	
