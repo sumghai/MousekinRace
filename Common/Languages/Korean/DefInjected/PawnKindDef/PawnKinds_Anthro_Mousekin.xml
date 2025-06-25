@@ -193,4 +193,16 @@
 	<!-- EN: Mousekin wanderers -->
 	<MousekinWanderer.labelPlural>마우스킨 뜨내기</MousekinWanderer.labelPlural>
 	
+	<!-- EN: villager -->
+	<MousekinOutlander.label>주민</MousekinOutlander.label>
+	
+	<!-- EN: villagers -->
+	<MousekinOutlander.labelPlural>주민</MousekinOutlander.labelPlural>
+	
+	<!-- EN: villager -->
+	<MousekinOutlanderSpacer.label>주민</MousekinOutlanderSpacer.label>
+	
+	<!-- EN: villagers -->
+	<MousekinOutlanderSpacer.labelPlural>주민</MousekinOutlanderSpacer.labelPlural>
+	
 </LanguageData>

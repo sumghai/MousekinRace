@@ -1435,5 +1435,58 @@
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>33~49</initialResistanceRange>
 	</PawnKindDef>
+	
+	<PawnKindDef Name="Mousekin_FactionHumanOutlander_BasePawnKind" ParentName="Mousekin_BasePawnKind">
+		<defName>MousekinOutlander</defName>
+		<label>villager</label><!-- same as vanilla human villager pawnkind -->
+		<defaultFactionDef>OutlanderCivil</defaultFactionDef>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<combatPower>45</combatPower>
+		<isFighter>true</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MousekinOutlanderMedieval</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>0.4~2.0</gearHealthRange>
+		<itemQuality>Poor</itemQuality>
+		<weaponMoney>150~250</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>MedievalMeleeBasic</li>
+		</weaponTags>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>45</maxGenerationAge>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Mousekin_BackpackLeather</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Shoulders</bodyPartGroup>
+				<apparelLayer>Belt</apparelLayer>
+				<apparelDef>Mousekin_BackpackLeather</apparelDef>
+			</li>
+		</specificApparelRequirements>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>16~24</initialResistanceRange>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Mousekin_FactionHumanOutlander_BasePawnKind">
+		<defName>MousekinOutlanderSpacer</defName>
+		<backstoryFiltersOverride Inherit="false">
+			<li>
+				<categories>
+					<li>MousekinOutlanderSpacer</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
 
 </Defs>

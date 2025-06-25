@@ -193,4 +193,16 @@
 	<!-- EN: Mousekin wanderers -->
 	<MousekinWanderer.labelPlural>マウスキン放浪者</MousekinWanderer.labelPlural>
 	
+	<!-- EN: villager -->
+	<MousekinOutlander.label>村民</MousekinOutlander.label>
+	
+	<!-- EN: villagers -->
+	<MousekinOutlander.labelPlural>村民</MousekinOutlander.labelPlural>
+	
+	<!-- EN: villager -->
+	<MousekinOutlanderSpacer.label>村民</MousekinOutlanderSpacer.label>
+	
+	<!-- EN: villagers -->
+	<MousekinOutlanderSpacer.labelPlural>村民</MousekinOutlanderSpacer.labelPlural>
+	
 </LanguageData>

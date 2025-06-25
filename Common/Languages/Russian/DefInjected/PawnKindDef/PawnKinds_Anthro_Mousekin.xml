@@ -193,4 +193,16 @@
 	<!-- EN: Mousekin wanderers -->
 	<MousekinWanderer.labelPlural>Мышкины-бродяги</MousekinWanderer.labelPlural>
 	
+	<!-- EN: villager -->
+	<MousekinOutlander.label>житель</MousekinOutlander.label>
+	
+	<!-- EN: villagers -->
+	<MousekinOutlander.labelPlural>жители</MousekinOutlander.labelPlural>
+	
+	<!-- EN: villager -->
+	<MousekinOutlanderSpacer.label>житель</MousekinOutlanderSpacer.label>
+	
+	<!-- EN: villagers -->
+	<MousekinOutlanderSpacer.labelPlural>жители</MousekinOutlanderSpacer.labelPlural>
+	
 </LanguageData>

@@ -68,7 +68,7 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	
-	<!-- ========== Childhood Backstories ========== -->
+	<!-- ========== Childhood Backstories (Medieval/Feudal) ========== -->
 
 	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Childhood_AlchemistApprentice</defName>
@@ -135,6 +135,7 @@
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
+			<li>MousekinOutlanderMedieval</li>
 			<li>MousekinPeasant</li>
 			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
@@ -898,6 +899,7 @@
 			<li>MousekinCrossbowman</li>
 			<li>MousekinIndyTownFarmer</li>
 			<li>MousekinMusketeer</li>
+			<li>MousekinOutlanderMedieval</li>
 			<li>MousekinPeasant</li>
 			<li>MousekinPikeman</li>
 			<li>MousekinRaider</li>
@@ -1093,6 +1095,7 @@
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
+			<li>MousekinOutlanderMedieval</li>
 			<li>MousekinPeasant</li>
 			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
@@ -1140,6 +1143,7 @@
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
+			<li>MousekinOutlanderMedieval</li>
 			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
 			<li>MousekinRaider</li>
@@ -1270,6 +1274,7 @@
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
+			<li>MousekinOutlanderMedieval</li>
 			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
 			<li>MousekinRaider</li>
@@ -1321,6 +1326,7 @@
 			<li>MousekinInquisitor</li>
 			<li>MousekinMusketeer</li>
 			<li>MousekinNun</li>
+			<li>MousekinOutlanderMedieval</li>
 			<li>MousekinPeasant</li>
 			<li>MousekinPikeman</li>
 			<li>MousekinPriest</li>
@@ -1333,7 +1339,7 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
-	<!-- ========== Adulthood Backstories ========== -->
+	<!-- ========== Adulthood Backstories (Medieval/Feudal) ========== -->
 
 	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_AbandonedSoldier</defName>
@@ -3053,7 +3059,7 @@
 			<li>Mining</li>
 		</workDisables>
 		<spawnCategories>
-			<li>MousekinServant</li>
+			<li>MousekinOutlanderMedieval</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	
@@ -4223,6 +4229,117 @@
 			<li>MousekinNun</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderCook</defName>
+		<title>Outlander cook</title>
+		<titleShort>Cook</titleShort>
+		<description>Entranced by the taste of a peanut butter sandwich shared by a human trader visiting [PAWN_possessive] hometown, [PAWN_nameDef] accompanied the trader all the way back to the human settlement she came from, and originally planned to spend a year there learning the secrets of human cuisine. However, the locals convinced [PAWN_objective] to stay after being similarly impressed by [PAWN_possessive] hearty Mousekin stews and roasts, and eventually appointed [PAWN_objective] as the head cook of their entire community.\n\n[PAWN_pronoun] also developed a small talent for sign painting, after refurbishing the cookhouse's sign and menu boards.</description>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Artistic>1</Artistic>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderMedieval</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderDoctor</defName>
+		<title>Outlander doctor</title>
+		<titleShort>Doctor</titleShort>
+		<description>[PAWN_nameDef]'s unconventionally progressive ideas about medicine and treatment earned [PAWN_objective] the ire of [PAWN_possessive] hometown's mayor and priest, and [PAWN_pronoun] wisely left the Kingdom before the Inquisition came to arrest [PAWN_objective].\n\nStumbling upon a human trade caravan, [PAWN_pronoun] managed to save the caravan leader's daughter from dysentery, and was invited by the grateful travellers to accompany them back to their settlement, where [PAWN_pronoun] went on to become a trusted doctor in the community.</description>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>5</Medicine>
+			<Intellectual>5</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>MousekinOutlanderMedieval</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderFarmhand</defName>
+		<title>Outlander farmhand</title>
+		<titleShort>Farmhand</titleShort>
+		<description>Following a series of bad harvests in several Mousekin villages and dwindling work opportunities, [PAWN_nameDef] took [PAWN_possessive] chances and migrated to a nearby human settlement.\n\n[PAWN_pronoun] was amazed by the immense scale and variety of human crops, as well as agricultural technology far beyond [PAWN_possessive] wildest imagination, and soon ingrained [PAWN_objective]self as a honest, reliable farmhand.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Construction>3</Construction>
+			<Plants>3</Plants>
+			<Animals>2</Animals>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="2">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="1">Industriousness</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Industriousness</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Industriousness</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderMedieval</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderMiner</defName>
+		<title>Outlander miner</title>
+		<titleShort>Miner</titleShort>
+		<description>[PAWN_nameDef] migrated to a nearby human settlement in search of well-paying work, and found employment at a mining outpost.\n\n[PAWN_pronoun] helped identify hard-to-reach mineral veins, erected tunnel scaffolds, and graded mined ores, while using [PAWN_possessive] free time to reverse-engineer human deep-crust drilling rigs, in the hopes of one day revolutionizing his homeland's mining industry.</description>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Mining>4</Mining>
+			<Construction>3</Construction>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="2">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="1">Industriousness</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Industriousness</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Industriousness</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderMedieval</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryAdulthoodBase">
 		<defName>Mousekin_Adulthood_Priest</defName>
@@ -5186,6 +5303,481 @@
 		<spawnCategories>
 			<li>MousekinPeasant</li>
 			<li>MousekinStartingColonist</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- ========== Childhood Backstories (Spacer) -->
+	
+	<AlienRace.AlienBackstoryDef Name="Mousekin_BackStoryOutlanderSpacerChildhoodBase" ParentName="Mousekin_BackstoryBase" Abstract="True">
+		<relationSettings>
+			<!-- We don't meet their parents or siblings -->
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackStoryOutlanderSpacerChildhoodBase">
+		<defName>Mousekin_Childhood_OutlanderSpaceAgStation</defName>
+		<title>space station child</title>
+		<titleShort>station child</titleShort>
+		<description>[PAWN_nameDef]'s parents worked on an agricultural space station orbiting Carrelius, the provisional capital planet of the restored United Colonial Federation.\n\nAfter school, [PAWN_pronoun] and [PAWN_possessive] friends enjoyed playing in the station's greenhouse modules, ocassionally helping the technicians there with minor errands or simple repairs to the aeroponics towers in exchange for free strawberries.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Crafting>1</Crafting>
+			<Plants>1</Plants>
+		</skillGains>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackStoryOutlanderSpacerChildhoodBase">
+		<defName>Mousekin_Childhood_OutlanderSpaceAsteroid1</defName>
+		<title>asteroid child</title>
+		<titleShort>asteroid child</titleShort>
+		<description>[PAWN_nameDef] was born on an impoverished asteroid mining colony far from major interstellar shipping lanes, where miners of all ages and various races eked out a living from refining tons of regolith into a measly few kilograms of rare minerals, while suffering weak hearts and brittle bones from living long-term in a low-gravity environment.\n\nWanting a better life for their only Mouseling, [PAWN_possessive] parents poured their life savings to pay for [PAWN_objective] to undergo cardiovascular and bone-density enhancement retroviral therapies, so that [PAWN_pronoun] may survive on planets with regular gravity.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Mining>2</Mining>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Tough</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>Undergrounder</defName>
+				<chance>33</chance>
+			</li>
+			<li>
+				<defName Degree="-1">HAR_Xenophobia</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName Degree="1">HAR_Xenophobia</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+		<linkedBackstory>Mousekin_Adulthood_OutlanderSpaceAsteroid</linkedBackstory>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackStoryOutlanderSpacerChildhoodBase">
+		<defName>Mousekin_Childhood_OutlanderSpaceAsteroid2</defName>
+		<title>asteroid child</title>
+		<titleShort>asteroid child</titleShort>
+		<description>[PAWN_nameDef] grew up on an asteroid mining colony that joined the multi-species United Colonial Federation shortly after [PAWN_pronoun] was born.\n\nIn the sweeping reforms that followed, [PAWN_possessive] father was promoted to a higher-paying job as mine foreman, allowing [PAWN_objective] and [PAWN_possessive] siblings to attend school.\n\nWhen not focusing on [PAWN_possessive] studies, [PAWN_nameDef] liked to hang out with friends at the colony's docking bay, becoming acquainted with the alien crews of visiting ships.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Intellectual>1</Intellectual>
+			<Social>3</Social>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">NaturalMood</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName Degree="-1">HAR_Xenophobia</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName Degree="1">HAR_Xenophobia</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackStoryOutlanderSpacerChildhoodBase">
+		<defName>Mousekin_Childhood_OutlanderSpaceCaravan</defName>
+		<title>flotilla child</title>
+		<titleShort>flotilla child</titleShort>
+		<description>Like [PAWN_possessive] parents and grandparents before [PAWN_objective], [PAWN_nameDef] was born on one of many ships making up an interstellar trading flotilla crewed entirely by Mousekins.\n\nOutside of school, [PAWN_pronoun] helped the crew of [PAWN_possessive] homeship replace atmospheric scrubbers, clean EPS conduits, and repair micro hull breaches.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Construction>2</Construction>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="2">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="1">Industriousness</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Industriousness</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Industriousness</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackStoryOutlanderSpacerChildhoodBase">
+		<defName>Mousekin_Childhood_OutlanderSpaceDreamer</defName>
+		<title>dreamer</title>
+		<titleShort>dreamer</titleShort>
+		<description>[PAWN_nameDef] grew up on a peaceful, prosperous glitterworld in the multi-species United Colonial Federation.\n\nInspired by a school trip to a museum chronicling the explorers and pioneers that founded the Federation, [PAWN_pronoun] dreamed of adventures on distant worlds, filling [PAWN_possessive] journal with detailed sketches of planets and star constellations.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Artistic>3</Artistic>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="-1">HAR_Xenophobia</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName Degree="2">NaturalMood</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName Degree="1">NaturalMood</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="1">HAR_Xenophobia</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackStoryOutlanderSpacerChildhoodBase">
+		<defName>Mousekin_Childhood_OutlanderSpaceFrontier</defName>
+		<title>frontier child</title>
+		<titleShort>frontier child</titleShort>
+		<description>[PAWN_nameDef] spent much of [PAWN_possessive] childhood at a remote wildlife monitoring station on a nature preserve planet in the multi-species United Colonial Federation, where [PAWN_possessive] parents worked as wildlife rangers.\n\nDuring the day, [PAWN_pronoun] would help care for injured and sick wild animals in special enclosures, while at night [PAWN_pronoun] would remotely attend school over FedNet.\n\n[PAWN_pronoun] also learnt basic first aid and stun rifle shooting skills from a reformed human pirate-turned-ranger.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Animals>3</Animals>
+			<Intellectual>2</Intellectual>
+			<Shooting>2</Shooting>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="1">ShootingAccuracy</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackStoryOutlanderSpacerChildhoodBase">
+		<defName>Mousekin_Childhood_OutlanderSpaceTalented</defName>
+		<title>talented child</title>
+		<titleShort>talented</titleShort>
+		<description>[PAWN_nameDef] grew up on a peaceful, prosperous glitterworld in the multi-species United Colonial Federation.\n\nIn high school, [PAWN_pronoun] and a group of friends won first prize for a science fair project comparing the efficiency of different methods for distilling medicinal compounds from exotic plants, and were awarded with a two-month summer internship at one of the largest tribal-run pharmaceutical cooperatives in the Federation.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Medicine>1</Medicine>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>FastLearner</defName>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackStoryOutlanderSpacerChildhoodBase">
+		<defName>Mousekin_Childhood_OutlanderSpaceTinkerer</defName>
+		<title>tinkering child</title>
+		<titleShort>tinkerer</titleShort>
+		<description>[PAWN_nameDef]'s talent for machinery manifested at an early age, when as a young child [PAWN_pronoun] managed to fix a faulty home Replimat Terminal that had plagued the family for weeks.\n\n[PAWN_possessive] bedroom soon became a small workshop filled with all sorts of second-hand tools and instruments, as well as various half-finished projects.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Crafting>3</Crafting>
+			<Construction>3</Construction>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- ========== Adulthood Backstories (Spacer) -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderSpaceAsteroid</defName>
+		<title>asteroid miner</title>
+		<titleShort>miner</titleShort>
+		<description>While toiling in the asteroid's mines, a tunnel collapse trapped dozens of [PAWN_nameDef]'s fellow miners in a steadily shrinking rock cavity.\n\nUsing [PAWN_possessive] species' innate ability to squeeze through small gaps, [PAWN_pronoun] took initiative and reached the stranded miners with spare oxygen tanks and blasting charges, saving everyone's lives.\n\nIn gratitude, the miners collectively pooled their wages so that [PAWN_nameDef] could pay for passage off the asteroid to the nearest inhabitable planet.</description>
+		<maleCommonality>33</maleCommonality>
+		<femaleCommonality>33</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Construction>3</Construction>
+			<Mining>5</Mining>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="2">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="1">Industriousness</defName>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName Degree="2">Nerves</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Industriousness</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Industriousness</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+		<linkedBackstory>Mousekin_Childhood_OutlanderSpaceAsteroid1</linkedBackstory>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderExRanger</defName>
+		<title>retired ranger</title>
+		<titleShort>ex-ranger</titleShort>
+		<description>[PAWN_nameDef] served with distinction in the United Colonial Federation's 13th Marine Special Operations Regiment "Mousekin Rangers", fighting the oppressive Obsidian Star Empire deep behind enemy lines with sheer grit, ingenuity and valor.\n\nAfter retiring with an honorable discharge but restless for adventure, [PAWN_pronoun] set out to explore the frontier planets on [PAWN_possessive] own.</description>
+		<!-- At this point in the lore, only two Mousekin women have ever become Mousekin Rangers. Also quite rare in general! -->
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<slot>Adulthood</slot>
+		<bioAgeRange>
+			<min>35</min>
+			<max>55</max>
+		</bioAgeRange>
+		<chronoAgeRange>
+			<min>35</min>
+			<max>55</max>
+		</chronoAgeRange>
+		<skillGains>
+			<Shooting>8</Shooting>
+			<Melee>8</Melee>
+			<Cooking>4</Cooking>
+			<Medicine>3</Medicine>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nimble</defName>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName Degree="2">Industriousness</defName>
+				<chance>75</chance>
+			</li>
+			<li>
+				<defName Degree="2">Nerves</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName Degree="1">ShootingAccuracy</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName Degree="2">SpeedOffset</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraitsChance>
+		<relationSettings>
+			<!-- No known family or relatives -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderNavyEngineer</defName>
+		<title>navy engineer</title>
+		<titleShort>engineer</titleShort>
+		<description>[PAWN_nameDef] served as an engineering officer aboard a destroyer in the multispecies United Colonial Federation Navy, responsible for maintaining the ship's fusion-powered sublight impulse engines.\n\nAfter the ship was destroyed in a battle with the human supremacist Obsidian Star Empire, and the victorious Imperial fleet began destroying defenseless Federation escape pods one-by-one, [PAWN_pronoun] used [PAWN_possessive] ingenuity to rewire the controls of [PAWN_possessive] pod and make planetfall on the nearest inhabitable neutral planet.</description>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Melee>6</Melee>
+			<Construction>4</Construction>
+			<Crafting>4</Crafting>
+			<Medicine>1</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderSpacePioneer</defName>
+		<title>colonial pioneer</title>
+		<titleShort>pioneer</titleShort>
+		<description>While most Mousekins in the United Colonial Federation prefer the safety of the core worlds or joining government-sponsored colonization programs, [PAWN_nameDef] was adamant that [PAWN_pronoun] could make it on [PAWN_objective] own.\n\nAfter years of preparation and various odd jobs to gain experience, [PAWN_pronoun] hitchhiked [PAWN_possessive] way on various freighters to a frontier planet, where [PAWN_pronoun] hopes to be recognized by the Federation as the founding pioneer of a new colony.</description>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<!-- lol -->
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Construction>2</Construction>
+			<Mining>2</Mining>
+			<Cooking>3</Cooking>
+			<Plants>3</Plants>
+			<Animals>2</Animals>
+			<Crafting>3</Crafting>
+			<Medicine>3</Medicine>
+			<Social>1</Social>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderXenoanthropologist</defName>
+		<title>xenoanthropologist</title>
+		<titleShort>xenoanthropologist</titleShort>
+		<description>[PAWN_nameDef]'s fascination with alien cultures and societies led [PAWN_objective] to a career in xenoanthropology at a prestigious university in the United Colonial Federation, specializing in the study of convergent social development on planets otherwise distant and isolated from each other.\n\n[PAWN_pronoun] travelled extensively through multiple star systems, immersing [PAWN_objective]self deeply in local communities for years at a time, while sending weekly reports back home via faster-than-light subspace comms.</description>
+		<maleCommonality>33</maleCommonality>
+		<femaleCommonality>33</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>8</Social>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Kind</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName Degree="-1">HAR_Xenophobia</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>DislikesMen</defName>
+			</li>
+			<li>
+				<defName>DislikesWomen</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
+		<defName>Mousekin_Adulthood_OutlanderXenobotanist</defName>
+		<title>xenobotanist</title>
+		<titleShort>xenobotanist</titleShort>
+		<description>[PAWN_nameDef] was part of a federal xenobotany research team from the United Colonial Federation, dispatched to distant worlds to catalog new exotic flora.\n\n[PAWN_pronoun] became so obsessed with the hunt for a particularly rare species, that [PAWN_pronoun] chose to remain on the planet while the rest of the team moved on to new assignments elsewhere.</description>
+		<maleCommonality>33</maleCommonality>
+		<femaleCommonality>33</femaleCommonality>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>2</Plants>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>MousekinOutlanderSpacer</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
