@@ -91,7 +91,7 @@
 	<Mousekin_ChildHood_CookApprentice.titleShort>廚師學徒</Mousekin_ChildHood_CookApprentice.titleShort>
 	
 	<!-- EN: After [PAWN_possessive] talent in the kitchen was discovered at an young age, [PAWN_nameDef]'s parents arranged for [PAWN_objective] to be taken in as an apprentice to a Mousekin cook who worked at the village inn.\n\n[PAWN_pronoun] spent [PAWN_possessive] days washing dirty dishes, cleaning benchtops and taking out the garbage, while [PAWN_possessive] master toiled in front of the stove and dealt with customers.\n\nIn time, [PAWN_nameDef] learned to prepare basic ingredients and soup bases, as well as how to choose and utilize the best herbs and nuts in a variety of dishes. -->
-	<Mousekin_ChildHood_CookApprentice.description>[PAWN_nameDef]小時候在廚房的天分被發現之後，[PAWN_possessive]的父母安排[PAWN_objective]被村里一個在旅店的白鼠族廚師收為學徒。\n\n[PAWN_possessive]師傅每天在爐子前辛勤工作並與客戶打交道的時候，[PAWN_objective]負責洗碗、清潔工作台和倒垃圾。\n\n隨著時間的推移，[PAWN_nameDef]學會了準備基本食材和湯底，以及如何在各種菜餚中選擇和使用最好的香草和堅果。</Mousekin_ChildHood_CookApprentice.description>
+	<Mousekin_ChildHood_CookApprentice.description>[PAWN_nameDef]小時候在廚房的天分被發現之後，[PAWN_possessive]父母安排[PAWN_objective]被村里一個在旅店的白鼠族廚師收為學徒。\n\n[PAWN_possessive]師傅每天在爐子前辛勤工作並與客戶打交道的時候，[PAWN_objective]負責洗碗、清潔工作台和倒垃圾。\n\n隨著時間的推移，[PAWN_nameDef]學會了準備基本食材和湯底，以及如何在各種菜餚中選擇和使用最好的香草和堅果。</Mousekin_ChildHood_CookApprentice.description>
 	
 	<!-- EN: Apprentice cooper -->
 	<Mousekin_Childhood_CooperApprentice.title>桶匠學徒</Mousekin_Childhood_CooperApprentice.title>
@@ -145,7 +145,7 @@
 	<Mousekin_Childhood_Hallboy.titleShort>門童</Mousekin_Childhood_Hallboy.titleShort>
 	
 	<!-- EN: When [PAWN_nameDef]'s peasant family could no longer afford to feed [PAWN_objective] and [PAWN_possessive] many sibling pups, [PAWN_possessive] parents sent [PAWN_objective] to work as a servant in the household of a wealthy Mousekin landowner.\n\n[PAWN_pronoun] duties included polishing the shoes of both [PAWN_possessive] master's family and all the older servants, waiting the tables for the master's mouselings, and emptying the chamber pots. In the evenings, [PAWN_possessive] master's butler would give him lessons in social etiquette, in preparation for becoming a footman, valet or butler. -->
-	<Mousekin_Childhood_Hallboy.description>當[PAWN_nameDef]的農民家庭再也無法養活[PAWN_objective]和[PAWN_possessive]許多兄弟姐妹時，[PAWN_possessive]的父母派[PAWN_objective]去一個富有的白鼠族地主家里當僕人。\n\n[PAWN_possessive]職責包括為主人的家人和所有年長的僕人擦鞋，為主人的孩子們餐桌，以及清空便壺。晚上，主人的管家會給他上交際禮儀課，為[PAWN_objective]成為男僕、近侍或管家做準備。</Mousekin_Childhood_Hallboy.description>
+	<Mousekin_Childhood_Hallboy.description>當[PAWN_nameDef]的農民家庭再也無法養活[PAWN_objective]和[PAWN_possessive]許多兄弟姐妹時，[PAWN_possessive]父母派[PAWN_objective]去一個富有的白鼠族地主家里當僕人。\n\n[PAWN_possessive]職責包括為主人的家人和所有年長的僕人擦鞋，為主人的孩子們餐桌，以及清空便壺。晚上，主人的管家會給他上交際禮儀課，為[PAWN_objective]成為男僕、近侍或管家做準備。</Mousekin_Childhood_Hallboy.description>
 	
 	<!-- EN: Hamlet child -->
 	<Mousekin_Childhood_HamletChild.title>小村鼠童</Mousekin_Childhood_HamletChild.title>
@@ -703,8 +703,7 @@
 	<Mousekin_Adulthood_Knight.description>[PAWN_nameDef]被一名地區騎士長封為騎士，並作為白鼠族王國的眾多防禦堡壘之一，帶領整支農民軍和士兵參戰。\n\n[PAWN_pronoun]偶爾也會被當地花園衛女的召喚，來幫助她們抓捕危險的罪犯，如白鼠族土匪或精神病殺人犯。</Mousekin_Adulthood_Knight.description>
 	
 	<!-- EN: Knight Commander -->
-	<Mousekin_Adulthood_KnightCommander.title>騎士長
-	</Mousekin_Adulthood_KnightCommander.title>
+	<Mousekin_Adulthood_KnightCommander.title>騎士長</Mousekin_Adulthood_KnightCommander.title>
 	
 	<!-- EN: Commander -->
 	<Mousekin_Adulthood_KnightCommander.titleShort>騎士長</Mousekin_Adulthood_KnightCommander.titleShort>
@@ -819,6 +818,42 @@
 	
 	<!-- EN: [PAWN_nameDef] conducted regular ancestral rites to help guide the souls of deceased Mousekins to The Great Garden, collected tithes at the end of church services, and kept the church grounds clean and sanctified. [PAWN_pronoun] and [PAWN_possessive] fellow nuns also cared for the sick and orphaned. -->
 	<Mousekin_Adulthood_Nun.description>[PAWN_nameDef]定期舉行祖先儀式，幫助將已故白鼠族的靈魂引導到大花園，在教會禮拜結束時收取什一稅，並保持教堂場地清潔和神聖化。[PAWN_pronoun]和[PAWN_possessive]修女同伴也照顧病人和孤兒。</Mousekin_Adulthood_Nun.description>
+	
+	<!-- EN: Outlander cook -->
+	<Mousekin_Adulthood_OutlanderCook.title>外鄉廚師</Mousekin_Adulthood_OutlanderCook.title>
+	
+	<!-- EN: Cook -->
+	<Mousekin_Adulthood_OutlanderCook.titleShort>廚師</Mousekin_Adulthood_OutlanderCook.titleShort>
+	
+	<!-- EN: Entranced by the taste of a peanut butter sandwich shared by a human trader visiting [PAWN_possessive] hometown, [PAWN_nameDef] accompanied the trader all the way back to the human settlement she came from, and originally planned to spend a year there learning the secrets of human cuisine. However, the locals convinced [PAWN_objective] to stay after being similarly impressed by [PAWN_possessive] hearty Mousekin stews and roasts, and eventually appointed [PAWN_objective] as the head cook of their entire community.\n\n[PAWN_pronoun] also developed a small talent for sign painting, after refurbishing the cookhouse's sign and menu boards. -->
+	<Mousekin_Adulthood_OutlanderCook.description>被來到[PAWN_possessive]家鄉的人類商人分享的花生醬三明治的味道所吸引，[PAWN_nameDef]跟隨商人一路回到她來自的人類聚落，原本打算花一年的時間學習人類美食的秘密。然而，當地人在被[PAWN_possessive]豐富的白鼠族燉肉和烤肉同樣打動後，說服[PAWN_objective]留下來，並最終任命[PAWN_objective]為他們整個社區的首席廚師。\n\n[PAWN_pronoun]在翻新了廚房的招牌和菜單板後，還發展了一點招牌繪畫的天賦。</Mousekin_Adulthood_OutlanderCook.description>
+	
+	<!-- EN: Outlander doctor -->
+	<Mousekin_Adulthood_OutlanderDoctor.title>外鄉醫師</Mousekin_Adulthood_OutlanderDoctor.title>
+	
+	<!-- EN: Doctor -->
+	<Mousekin_Adulthood_OutlanderDoctor.titleShort>醫師</Mousekin_Adulthood_OutlanderDoctor.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s unconventionally progressive ideas about medicine and treatment earned [PAWN_objective] the ire of [PAWN_possessive] hometown's mayor and priest, and [PAWN_pronoun] wisely left the Kingdom before the Inquisition came to arrest [PAWN_objective].\n\nStumbling upon a human trade caravan, [PAWN_pronoun] managed to save the caravan leader's daughter from dysentery, and was invited by the grateful travellers to accompany them back to their settlement, where [PAWN_pronoun] went on to become a trusted doctor in the community. -->
+	<Mousekin_Adulthood_OutlanderDoctor.description>[PAWN_nameDef]對於醫學和治療的非傳統進步想法引起了[PAWN_objective]故鄉市長和牧師的憤怒，[PAWN_pronoun]在宗教裁判所來逮捕[PAWN_objective]之前明智地離開了王國。\n\n在一次偶然的機會下，[PAWN_pronoun]遇到了一個人類貿易商隊，成功地救了商隊首領患痢疾的女兒，並被感激的商隊邀請一起回到他們的居住地，在那裡，[PAWN_pronoun]成為了社區裡值得信賴的醫生。</Mousekin_Adulthood_OutlanderDoctor.description>
+	
+	<!-- EN: Outlander farmhand -->
+	<Mousekin_Adulthood_OutlanderFarmhand.title>外鄉農場工人</Mousekin_Adulthood_OutlanderFarmhand.title>
+	
+	<!-- EN: Farmhand -->
+	<Mousekin_Adulthood_OutlanderFarmhand.titleShort>農場工人</Mousekin_Adulthood_OutlanderFarmhand.titleShort>
+	
+	<!-- EN: Following a series of bad harvests in several Mousekin villages and dwindling work opportunities, [PAWN_nameDef] took [PAWN_possessive] chances and migrated to a nearby human settlement.\n\n[PAWN_pronoun] was amazed by the immense scale and variety of human crops, as well as agricultural technology far beyond [PAWN_possessive] wildest imagination, and soon ingrained [PAWN_objective]self as a honest, reliable farmhand. -->
+	<Mousekin_Adulthood_OutlanderFarmhand.description>在幾個白鼠族村莊接連歉收，工作機會越來越少之後，[PAWN_nameDef]遷移到附近的人類聚落。\n\n[PAWN_pronoun]對於人類農作物的龐大規模和多樣性，以及遠超過[PAWN_possessive]想像力的農業技術感到驚訝，並很快將[PAWN_objective]自己訓練成一個誠實可靠的農夫。</Mousekin_Adulthood_OutlanderFarmhand.description>
+	
+	<!-- EN: Outlander miner -->
+	<Mousekin_Adulthood_OutlanderMiner.title>外鄉礦工</Mousekin_Adulthood_OutlanderMiner.title>
+	
+	<!-- EN: Miner -->
+	<Mousekin_Adulthood_OutlanderMiner.titleShort>礦工</Mousekin_Adulthood_OutlanderMiner.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] migrated to a nearby human settlement in search of well-paying work, and found employment at a mining outpost.\n\n[PAWN_pronoun] helped identify hard-to-reach mineral veins, erected tunnel scaffolds, and graded mined ores, while using [PAWN_possessive] free time to reverse-engineer human deep-crust drilling rigs, in the hopes of one day revolutionizing his homeland's mining industry. -->
+	<Mousekin_Adulthood_OutlanderMiner.description>[PAWN_nameDef]移居到附近的人類聚居地尋找高薪工作，並在一個採礦前哨站找到工作。\n\n[PAWN_pronoun]協助尋找難以到達的礦脈、架設隧道棚架、分級開採礦石，同時利用[PAWN_possessive]空閒時間逆向設計人類的深層開採鑽井裝置，希望有朝一日能為故鄉的採礦業帶來革命性的改變。</Mousekin_Adulthood_OutlanderMiner.description>
 	
 	<!-- EN: Priest -->
 	<Mousekin_Adulthood_Priest.title>牧師</Mousekin_Adulthood_Priest.title>
@@ -985,5 +1020,113 @@
 	
 	<!-- EN: [PAWN_nameDef] toiled day and night in the forests near [PAWN_possessive] hometown, felling, delimbing and bucking trees into logs.\n\n[PAWN_pronoun] had a keen eye for choosing the best trees depending on whether a Mousekin needed the logs for building houses or furniture. -->
 	<Mousekin_Adulthood_Woodcutter.description>[PAWN_nameDef]在[PAWN_pronoun]家鄉附近的森林裡日以繼夜地勞作，砍伐、分枝並將樹木砍成原木。\n\n[PAWN_pronoun]有敏銳的眼光來選擇最好的樹木，取決於某隻白鼠族是否需要這些原木來建造房屋或家具。</Mousekin_Adulthood_Woodcutter.description>
+	
+	<!-- EN: space station child -->
+	<Mousekin_Childhood_OutlanderSpaceAgStation.title>太空站兒童</Mousekin_Childhood_OutlanderSpaceAgStation.title>
+	
+	<!-- EN: station child -->
+	<Mousekin_Childhood_OutlanderSpaceAgStation.titleShort>太空站兒童</Mousekin_Childhood_OutlanderSpaceAgStation.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s parents worked on an agricultural space station orbiting Carrelius, the provisional capital planet of the restored United Colonial Federation.\n\nAfter school, [PAWN_pronoun] and [PAWN_possessive] friends enjoyed playing in the station's greenhouse modules, ocassionally helping the technicians there with minor errands or simple repairs to the aeroponics towers in exchange for free strawberries. -->
+	<Mousekin_Childhood_OutlanderSpaceAgStation.description>[PAWN_nameDef]的父母在軌道繞著Carrelius（復興後的聯合殖民聯盟的臨時首都行星）運轉的農業太空站工作。\n\n放學後，[PAWN_pronoun]和[PAWN_possessive]朋友喜歡在太空站的溫室模組裡玩耍，偶爾幫那裡的技術人員做一些小差事，或是簡單維修一下氣霧耕塔，以換取免費的草莓。</Mousekin_Childhood_OutlanderSpaceAgStation.description>
+	
+	<!-- EN: asteroid child -->
+	<Mousekin_Childhood_OutlanderSpaceAsteroid1.title>小行星兒童</Mousekin_Childhood_OutlanderSpaceAsteroid1.title>
+	
+	<!-- EN: asteroid child -->
+	<Mousekin_Childhood_OutlanderSpaceAsteroid1.titleShort>小行星兒童</Mousekin_Childhood_OutlanderSpaceAsteroid1.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was born on an impoverished asteroid mining colony far from major interstellar shipping lanes, where miners of all ages and various races eked out a living from refining tons of regolith into a measly few kilograms of rare minerals, while suffering weak hearts and brittle bones from living long-term in a low-gravity environment.\n\nWanting a better life for their only Mouseling, [PAWN_possessive] parents poured their life savings to pay for [PAWN_objective] to undergo cardiovascular and bone-density enhancement retroviral gene therapies, so that [PAWN_pronoun] may survive on planets with regular gravity. -->
+	<Mousekin_Childhood_OutlanderSpaceAsteroid1.description>[PAWN_nameDef]出生在一個貧困的小行星採礦殖民地，那裡遠離主要的星際航道，不同年齡、不同種族的礦工們靠著將成噸的碎石提煉成幾公斤的稀有礦物勉強度日，卻因長期生活在低重力環境下而導致心臟衰弱、骨頭脆弱。\n\n為了讓他們唯一的鼠童有更好的將來，[PAWN_possessive]父母傾盡畢生積蓄，讓[PAWN_objective]接受心血管與骨骼密度增強的逆轉病毒基因療法，讓[PAWN_pronoun]可以在有正常重力的行星上生存。</Mousekin_Childhood_OutlanderSpaceAsteroid1.description>
+	
+	<!-- EN: asteroid child -->
+	<Mousekin_Childhood_OutlanderSpaceAsteroid2.title>小行星兒童</Mousekin_Childhood_OutlanderSpaceAsteroid2.title>
+	
+	<!-- EN: asteroid child -->
+	<Mousekin_Childhood_OutlanderSpaceAsteroid2.titleShort>小行星兒童</Mousekin_Childhood_OutlanderSpaceAsteroid2.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up on an asteroid mining colony that joined the multi-species United Colonial Federation shortly after [PAWN_pronoun] was born.\n\nIn the sweeping reforms that followed, [PAWN_possessive] father was promoted to a higher-paying job as mine foreman, allowing [PAWN_objective] and [PAWN_possessive] siblings to attend school.\n\nWhen not focusing on [PAWN_possessive] studies, [PAWN_nameDef] liked to hang out with friends at the colony's docking bay, becoming acquainted with the alien crews of visiting ships. -->
+	<Mousekin_Childhood_OutlanderSpaceAsteroid2.description>[PAWN_nameDef]在一個小行星採礦殖民地長大，該殖民地在[PAWN_pronoun]出生後不久就加入了多種族的聯合殖民聯盟。\n\n在接下來的大規模改革中，[PAWN_possessive]的父親被擢升為礦場工頭，獲得更高薪的工作，讓 [PAWN_objective]和[PAWN_possessive]兄弟姊妹得以上學。\n\n不讀書的時候，[PAWN_nameDef]喜歡和朋友在殖民地的停靠處閒逛，和來訪船艦的外星船員混熟。</Mousekin_Childhood_OutlanderSpaceAsteroid2.description>
+	
+	<!-- EN: flotilla child -->
+	<Mousekin_Childhood_OutlanderSpaceCaravan.title>太空貿易船隊兒童</Mousekin_Childhood_OutlanderSpaceCaravan.title>
+	
+	<!-- EN: flotilla child -->
+	<Mousekin_Childhood_OutlanderSpaceCaravan.titleShort>貿易船隊兒童</Mousekin_Childhood_OutlanderSpaceCaravan.titleShort>
+	
+	<!-- EN: Like [PAWN_possessive] parents and grandparents before [PAWN_objective], [PAWN_nameDef] was born on one of many ships making up an interstellar trading flotilla crewed entirely by Mousekins.\n\nOutside of school, [PAWN_pronoun] helped the crew of [PAWN_possessive] homeship replace atmospheric scrubbers, clean EPS conduits, and repair micro hull breaches. -->
+	<Mousekin_Childhood_OutlanderSpaceCaravan.description>[PAWN_nameDef]像[PAWN_possessive]父母和祖父母一樣，[PAWN_nameDef]出生在一艘全白鼠族船員組成的星際貿易船隊中。\n\n在課餘時間，[PAWN_pronoun]協助[PAWN_possessive]家船的船員更換大氣洗滌器、清潔EPS導管，以及維修微小的船體破損。</Mousekin_Childhood_OutlanderSpaceCaravan.description>
+	
+	<!-- EN: dreamer -->
+	<Mousekin_Childhood_OutlanderSpaceDreamer.title>夢想家</Mousekin_Childhood_OutlanderSpaceDreamer.title>
+	
+	<!-- EN: dreamer -->
+	<Mousekin_Childhood_OutlanderSpaceDreamer.titleShort>夢想家</Mousekin_Childhood_OutlanderSpaceDreamer.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up on a peaceful, prosperous glitterworld in the multi-species United Colonial Federation.\n\nInspired by a school trip to a museum chronicling the explorers and pioneers that founded the Federation, [PAWN_pronoun] dreamed of adventures on distant worlds, filling [PAWN_possessive] journal with detailed sketches of planets and star constellations. -->
+	<Mousekin_Childhood_OutlanderSpaceDreamer.description>[PAWN_nameDef]在多種族的聯合殖民聯盟的一個和平、繁榮的閃耀世界長大。\n\n在一次學校旅行中，[PAWN_pronoun]參觀了一座記載了建立聯邦的探險家和先驅的事跡的博物館之後，[PAWN_pronoun]受到啟發，開始夢想在遙遠的世界冒險，在[PAWN_possessive]日記中寫滿了行星和星座的詳細插圖。</Mousekin_Childhood_OutlanderSpaceDreamer.description>
+	
+	<!-- EN: frontier child -->
+	<Mousekin_Childhood_OutlanderSpaceFrontier.title>邊境兒童</Mousekin_Childhood_OutlanderSpaceFrontier.title>
+	
+	<!-- EN: frontier child -->
+	<Mousekin_Childhood_OutlanderSpaceFrontier.titleShort>邊境兒童</Mousekin_Childhood_OutlanderSpaceFrontier.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] spent much of [PAWN_possessive] childhood at a remote wildlife monitoring station on a nature preserve planet in the multi-species United Colonial Federation, where [PAWN_possessive] parents worked as wildlife rangers.\n\nDuring the day, [PAWN_pronoun] would help care for injured and sick wild animals in special enclosures, while at night [PAWN_pronoun] would remotely attend school over FedNet.\n\n[PAWN_pronoun] also learnt basic first aid and stun rifle shooting skills from a reformed human pirate-turned-ranger. -->
+	<Mousekin_Childhood_OutlanderSpaceFrontier.description>[PAWN_nameDef]童年的大部分時間都是在多種族的聯合殖民聯盟的一個自然保護星球上的遠程野生動物監測站度過的，[PAWN_possessive]父母在那裡擔任野生動物護林員。\n\n白天，[PAWN_pronoun]會在特殊的圍欄中協助照顧受傷或生病的野生動物，晚上[PAWN_pronoun]則會透過聯邦網路遠端上學。\n\n[PAWN_pronoun]還向一位改過自新的人類海盜轉職的護林員學習基本的急救和眩暈步槍射擊技能。</Mousekin_Childhood_OutlanderSpaceFrontier.description>
+	
+	<!-- EN: talented child -->
+	<Mousekin_Childhood_OutlanderSpaceTalented.title>天才兒童</Mousekin_Childhood_OutlanderSpaceTalented.title>
+	
+	<!-- EN: talented -->
+	<Mousekin_Childhood_OutlanderSpaceTalented.titleShort>天才兒童</Mousekin_Childhood_OutlanderSpaceTalented.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up on a peaceful, prosperous glitterworld in the multi-species United Colonial Federation.\n\nIn high school, [PAWN_pronoun] and a group of friends won first prize for a science fair project comparing the efficiency of different methods for distilling medicinal compounds from exotic plants, and were awarded with a two-month summer internship at one of the largest tribal-run pharmaceutical cooperatives in the Federation. -->
+	<Mousekin_Childhood_OutlanderSpaceTalented.description>[PAWN_nameDef]在多種族的聯合殖民聯盟的一個和平、繁榮的閃耀世界長大。\n\n高中時，[PAWN_pronoun]和一群朋友在比較不同方法從外來植物提煉出藥用化合物的效率的科學競賽專案中贏得一等獎，並獲得在聯合殖民聯盟最大的部落民營製藥合作社之一進行為期兩個月的暑期實習。</Mousekin_Childhood_OutlanderSpaceTalented.description>
+	
+	<!-- EN: tinkering child -->
+	<Mousekin_Childhood_OutlanderSpaceTinkerer.title>小工匠</Mousekin_Childhood_OutlanderSpaceTinkerer.title>
+	
+	<!-- EN: tinkerer -->
+	<Mousekin_Childhood_OutlanderSpaceTinkerer.titleShort>小工匠</Mousekin_Childhood_OutlanderSpaceTinkerer.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s talent for machinery manifested at an early age, when as a young child [PAWN_pronoun] managed to fix a faulty home Replimat Terminal that had plagued the family for weeks.\n\n[PAWN_possessive] bedroom soon became a small workshop filled with all sorts of second-hand tools and instruments, as well as various half-finished projects. -->
+	<Mousekin_Childhood_OutlanderSpaceTinkerer.description>[PAWN_nameDef]對於機械的天賦在很小的時候就已經顯現出來了，年幼時 [PAWN_pronoun]就曾經修復了困擾家人幾個星期的家用食品合成器終端機故障。\n\n[PAWN_possessive]臥室很快就變成了一個小工作室，裡面堆滿了各式各樣的二手工具和儀器，以及各種半成品。</Mousekin_Childhood_OutlanderSpaceTinkerer.description>
+	
+	<!-- EN: asteroid miner -->
+	<Mousekin_Adulthood_OutlanderSpaceAsteroid.title>小行星礦工</Mousekin_Adulthood_OutlanderSpaceAsteroid.title>
+	
+	<!-- EN: miner -->
+	<Mousekin_Adulthood_OutlanderSpaceAsteroid.titleShort>礦工</Mousekin_Adulthood_OutlanderSpaceAsteroid.titleShort>
+	
+	<!-- EN: While toiling in the asteroid's mines, a tunnel collapse trapped dozens of [PAWN_nameDef]'s fellow miners in a steadily shrinking rock cavity.\n\nUsing [PAWN_possessive] species' innate ability to squeeze through small gaps, [PAWN_pronoun] took initiative and reached the stranded miners with spare oxygen tanks and blasting charges, saving everyone's lives.\n\nIn gratitude, the miners collectively pooled their wages so that [PAWN_nameDef] could pay for passage off the asteroid to the nearest inhabitable planet. -->
+	<Mousekin_Adulthood_OutlanderSpaceAsteroid.description>在小行星的礦坑中辛勤工作時，隧道崩塌將[PAWN_nameDef]的數十個礦工同伴困在不斷縮小的岩洞中。\n\n[PAWN_pronoun]利用 自己種族與生俱來的縫隙擠壓能力，主動帶著備用氧氣罐和爆破藥到達擱淺的礦工處，拯救了大家的生命。\n\n為了報答[PAWN_objective]，礦工們集體集中工資，讓[PAWN_nameDef]可以支付到最近的可居住星球的旅費。</Mousekin_Adulthood_OutlanderSpaceAsteroid.description>
+	
+	<!-- EN: retired ranger -->
+	<Mousekin_Adulthood_OutlanderExRanger.title>退役游騎兵</Mousekin_Adulthood_OutlanderExRanger.title>
+	
+	<!-- EN: ex-ranger -->
+	<Mousekin_Adulthood_OutlanderExRanger.titleShort>退役游騎兵</Mousekin_Adulthood_OutlanderExRanger.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served with distinction in the United Colonial Federation's 13th Marine Special Operations Regiment "Mousekin Rangers", fighting the oppressive Obsidian Star Empire deep behind enemy lines with sheer grit, ingenuity and valor.\n\nAfter retiring with an honorable discharge but restless for adventure, [PAWN_pronoun] set out to explore the frontier planets on [PAWN_possessive] own. -->
+	<Mousekin_Adulthood_OutlanderExRanger.description>[PAWN_nameDef]曾在聯合殖民聯盟的第13海軍陸戰隊特種作戰團「白鼠族游騎兵」服役，表現優異，憑藉堅毅、機智和英勇，深入敵後與黑曜星帝國作戰。\n\n在名譽退伍後，[PAWN_pronoun]卻對冒險充滿興趣，於是開始自行探索邊陲行星。</Mousekin_Adulthood_OutlanderExRanger.description>
+	
+	<!-- EN: navy engineer -->
+	<Mousekin_Adulthood_OutlanderNavyEngineer.title>艦隊輪機師</Mousekin_Adulthood_OutlanderNavyEngineer.title>
+	
+	<!-- EN: engineer -->
+	<Mousekin_Adulthood_OutlanderNavyEngineer.titleShort>輪機師</Mousekin_Adulthood_OutlanderNavyEngineer.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as an engineering officer aboard a destroyer in the multispecies United Colonial Federation Navy, responsible for maintaining the ship's fusion-powered sublight impulse engines.\n\nAfter the ship was destroyed in a battle with the human supremacist Obsidian Star Empire, and the victorious Imperial fleet began destroying defenseless Federation escape pods one-by-one, [PAWN_pronoun] used [PAWN_possessive] ingenuity to rewire the controls of [PAWN_possessive] pod and make planetfall on the nearest inhabitable neutral planet. -->
+	<Mousekin_Adulthood_OutlanderNavyEngineer.description>[PAWN_nameDef]在多種族的聯合殖民聯盟艦隊的一艘驅逐艦上擔任輪機師，負責維護船上的聚變驅動亞光脈衝引擎。\n\n驅逐艦在與人類至上主義的黑曜星帝國的戰鬥中被摧毀，勝利的帝國艦隊開始逐一摧毀手無寸鐵的聯盟艦隊逃生艙後，[PAWN_pronoun]運用智慧，重新接線控制[PAWN_possessive]逃生艙，並在最近的可居住中立星球上降落。</Mousekin_Adulthood_OutlanderNavyEngineer.description>
+	
+	<!-- EN: colonial pioneer -->
+	<Mousekin_Adulthood_OutlanderSpacePioneer.title>殖民先驅者</Mousekin_Adulthood_OutlanderSpacePioneer.title>
+	
+	<!-- EN: pioneer -->
+	<Mousekin_Adulthood_OutlanderSpacePioneer.titleShort>先驅者</Mousekin_Adulthood_OutlanderSpacePioneer.titleShort>
+	
+	<!-- EN: While most Mousekins in the United Colonial Federation prefer the safety of the core worlds or joining government-sponsored colonization programs, [PAWN_nameDef] was adamant that [PAWN_pronoun] could make it on [PAWN_objective] own.\n\nAfter years of preparation and various odd jobs to gain experience, [PAWN_pronoun] hitchhiked [PAWN_possessive] way on various freighters to a frontier planet, where [PAWN_pronoun] hopes to be recognized by the Federation as the founding pioneer of a new colony. -->
+	<Mousekin_Adulthood_OutlanderSpacePioneer.description>當聯合殖民聯盟中的大多數白鼠族寧願選擇安全的核心世界，或是加入政府贊助的殖民計畫時，[PAWN_nameDef]卻堅持可以靠自己的力量建立殖民地。\n\n經過多年的準備和各種零散工作累積經驗之後，[PAWN_pronoun]搭便各式各樣的貨船到達一個邊陲星球，希望在那裡被聯邦認可為新殖民地的創始先驅。</Mousekin_Adulthood_OutlanderSpacePioneer.description>
 	
 </LanguageData>
