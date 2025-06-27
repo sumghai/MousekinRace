@@ -5306,7 +5306,7 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
-	<!-- ========== Childhood Backstories (Spacer) -->
+	<!-- ========== Childhood Backstories (Spacer) ========== -->
 	
 	<AlienRace.AlienBackstoryDef Name="Mousekin_BackStoryOutlanderSpacerChildhoodBase" ParentName="Mousekin_BackstoryBase" Abstract="True">
 		<relationSettings>
@@ -5340,7 +5340,7 @@
 		<defName>Mousekin_Childhood_OutlanderSpaceAsteroid1</defName>
 		<title>asteroid child</title>
 		<titleShort>asteroid child</titleShort>
-		<description>[PAWN_nameDef] was born on an impoverished asteroid mining colony far from major interstellar shipping lanes, where miners of all ages and various races eked out a living from refining tons of regolith into a measly few kilograms of rare minerals, while suffering weak hearts and brittle bones from living long-term in a low-gravity environment.\n\nWanting a better life for their only Mouseling, [PAWN_possessive] parents poured their life savings to pay for [PAWN_objective] to undergo cardiovascular and bone-density enhancement retroviral therapies, so that [PAWN_pronoun] may survive on planets with regular gravity.</description>
+		<description>[PAWN_nameDef] was born on an impoverished asteroid mining colony far from major interstellar shipping lanes, where miners of all ages and various races eked out a living from refining tons of regolith into a measly few kilograms of rare minerals, while suffering weak hearts and brittle bones from living long-term in a low-gravity environment.\n\nWanting a better life for their only Mouseling, [PAWN_possessive] parents poured their life savings to pay for [PAWN_objective] to undergo cardiovascular and bone-density enhancement retroviral gene therapies, so that [PAWN_pronoun] may survive on planets with regular gravity.</description>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Mining>2</Mining>
@@ -5546,7 +5546,7 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	
-	<!-- ========== Adulthood Backstories (Spacer) -->
+	<!-- ========== Adulthood Backstories (Spacer) ========== -->
 	
 	<AlienRace.AlienBackstoryDef ParentName="Mousekin_BackstoryBase">
 		<defName>Mousekin_Adulthood_OutlanderSpaceAsteroid</defName>
