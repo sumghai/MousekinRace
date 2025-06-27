@@ -3055,7 +3055,7 @@
 		<defName>Mousekin_Adulthood_Hunter</defName>
 		<title>Hunter</title>
 		<titleShort>Hunter</titleShort>
-		<description>[PAWN_nameDef] hunted wild animals at first mainly to feed [PAWN_possessive] family, but was soon earning a healthy income by supplying game birds to butchers, cooks and chefs.\n\[PAWN_pronoun] was exceptionally skilled with [PAWN_possessive] trusty hunting crossbow, and took advantange of [PAWN_possessive] race's inherently small but nimble body and animal-like scent to ambush unsuspecting prey.\n\n[PAWN_pronoun] also often cooked up a really mean roast boar for visitors to [PAWN_possessive] hunting lodge.</description>
+		<description>[PAWN_nameDef] hunted wild animals at first mainly to feed [PAWN_possessive] family, but was soon earning a healthy income by supplying game birds to butchers, cooks and chefs.\n\n[PAWN_pronoun] was exceptionally skilled with [PAWN_possessive] trusty hunting crossbow, and took advantange of [PAWN_possessive] race's inherently small but nimble body and animal-like scent to ambush unsuspecting prey.\n\n[PAWN_pronoun] also often cooked up a really mean roast boar for visitors to [PAWN_possessive] hunting lodge.</description>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 		<slot>Adulthood</slot>
