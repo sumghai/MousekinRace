@@ -2845,7 +2845,7 @@
 		<defName>Mousekin_Adulthood_GuardenerVillage</defName>
 		<title>Village Guardener</title>
 		<titleShort>Guardener</titleShort>
-		<description>[PAWN_nameDef] was a Guardener based in a small Mousekin village, and lived with a few other Guardeners and their apprentices in a small cottage-like lodge.\n\nIn addition to tending and protecting the village gardens, [PAWN_pronoun] she was often called on the resolve disputes between Mousekin citizens, catch Mousekin criminals, and bless newborn female Mousekin pups.\n\n[PAWN_pronoun] also enforced the law in nearby hamlets that were too small and remote to have their own Guardener lodges.</description>
+		<description>[PAWN_nameDef] was a Guardener based in a small Mousekin village, and lived with a few other Guardeners and their apprentices in a small cottage-like lodge.\n\nIn addition to tending and protecting the village gardens, [PAWN_pronoun] was often called on the resolve disputes between Mousekin citizens, catch Mousekin criminals, and bless newborn female Mousekin pups.\n\n[PAWN_pronoun] also enforced the law in nearby hamlets that were too small and remote to have their own Guardener lodges.</description>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<slot>Adulthood</slot>
