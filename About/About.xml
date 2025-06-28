@@ -20,6 +20,9 @@
 		</li>
 		<li>
 			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<alternativePackageIds IgnoreIfNoMatchingField="True">
+				<li>erdelf.HumanoidAlienRaces.dev</li>
+			</alternativePackageIds>
 			<displayName>Humanoid Alien Races</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
 		</li>
@@ -38,6 +41,7 @@
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>Ludeon.RimWorld.Anomaly</li>
 		<li>erdelf.HumanoidAlienRaces</li>
+		<li>erdelf.HumanoidAlienRaces.dev</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>CETeam.CombatExtended</li>
 		<li>Solaris.RatkinRaceMod</li>
