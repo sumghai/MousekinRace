@@ -4076,7 +4076,7 @@
 		<defName>Mousekin_Adulthood_NomadMagician</defName>
 		<title>Magician</title>
 		<titleShort>Magician</titleShort>
-		<description>Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_objective] friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike.</description>
+		<description>Entranced as a child by [PAWN_possessive] grandfather's "vanishing paws" trick, [PAWN_nameDef] taught [PAWN_objective]self how to perform it to [PAWN_possessive] friends, and loved the attention that it brought [PAWN_objective].\n\nBefore long, [PAWN_pronoun] was conjuring nuts and silver coins from behind other Mousekins' ears, pulling pudgemice out from empty headscarves, and making flowers bloom from barren soil - to rapturous applause from Mousekin townsfolk and nobles alike.</description>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
 		<slot>Adulthood</slot>
