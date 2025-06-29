@@ -16,6 +16,8 @@ namespace MousekinRace
 
             toil.initAction = () =>
             {
+                Log.Warning($"{miner} :: checking toil.initAction for curDriver = {miner.jobs.curDriver.ToStringSafe()}");
+
                 JobDriver_MineResourcesFromMineEntrance jobDriver_MineResources = (JobDriver_MineResourcesFromMineEntrance)miner.jobs.curDriver;
                 Building_MineEntrance mineEntrance = jobDriver_MineResources.MineEntrance;
                 mineEntrance.miningJobSlots.First(x => (x.currentMiner == null) || (x.currentMiner == miner)).currentMiner = miner;
@@ -25,6 +27,8 @@ namespace MousekinRace
 
             toil.tickAction = () =>
             {
+                Log.Warning($"{miner} :: checking toil.tickAction for curDriver = {miner.jobs.curDriver.ToStringSafe()}");
+
                 JobDriver_MineResourcesFromMineEntrance jobDriver_MineResources = (JobDriver_MineResourcesFromMineEntrance)miner.jobs.curDriver;
                 Building_MineEntrance mineEntrance = jobDriver_MineResources.MineEntrance;
 
@@ -58,6 +62,8 @@ namespace MousekinRace
 
             toil.AddFinishAction(() => 
             {
+                Log.Warning($"{miner} :: checking toil.AddFinishAction() for curDriver = {miner.jobs.curDriver.ToStringSafe()}");
+
                 JobDriver_MineResourcesFromMineEntrance jobDriver_MineResources = (JobDriver_MineResourcesFromMineEntrance)miner.jobs.curDriver;
                 Building_MineEntrance mineEntrance = jobDriver_MineResources.MineEntrance;
 
@@ -71,6 +77,9 @@ namespace MousekinRace
 
             toil.FailOn((Func<bool>)delegate
             {
+                // BUG - invalid casting of job (curDriver is actually JobDriver_
+                Log.Warning($"{miner} :: checking toil.FailOn for curDriver = {miner.jobs.curDriver.ToStringSafe()}");
+                
                 JobDriver_MineResourcesFromMineEntrance jobDriver_MineResources = (JobDriver_MineResourcesFromMineEntrance)miner.jobs.curDriver;
                 Building_MineEntrance mineEntrance = jobDriver_MineResources.MineEntrance;
 

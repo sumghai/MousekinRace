@@ -35,10 +35,16 @@ namespace MousekinRace
         {
             this.FailOnDespawnedNullOrForbidden(MineEntranceInd);
             this.FailOnBurningImmobile(MineEntranceInd);
-            this.FailOn(() => !MineEntrance.UnassignedMiningJobSlotAvailable);
-            yield return Toils_Goto.GotoThing(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntrance.UnassignedMiningJobSlotAvailable);
-            yield return Toils_MineEntrance.MineResource().FailOnDespawnedNullOrForbiddenPlacedThings(MineEntranceInd).FailOnCannotTouch(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntrance.UnassignedMiningJobSlotAvailable);
+            this.FailOn(() => !MineEntranceJobsAvailable(MineEntrance));
+            yield return Toils_Goto.GotoThing(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntranceJobsAvailable(MineEntrance));
+            yield return Toils_MineEntrance.MineResource().FailOnDespawnedNullOrForbiddenPlacedThings(MineEntranceInd).FailOnCannotTouch(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntranceJobsAvailable(MineEntrance));
             yield return Toils_MineEntrance.FinishMiningAndStartStoringProduct();
+        }
+
+        public bool MineEntranceJobsAvailable(Building_MineEntrance mineEntrance)
+        {
+            Log.Warning($"\t{mineEntrance} :: MineEntranceJobsAvailable={(!MineEntrance.MiningBillStack.FirstCanDo.suspended && MineEntrance.UnassignedMiningJobSlotAvailable).ToStringYesNo()}");
+            return !MineEntrance.MiningBillStack.FirstCanDo.suspended && MineEntrance.UnassignedMiningJobSlotAvailable;
         }
     }
 }
