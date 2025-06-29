@@ -98,7 +98,6 @@ namespace MousekinRace
             // Alternative: count only items in the specified storage slot group
             else
             {
-                Log.Warning($"\tSlot group {includeSlotGroup.GroupingLabel}");
                 foreach (Thing heldThing in includeSlotGroup.HeldThings)
                 {
                     Thing innerIfMinified = heldThing.GetInnerIfMinified();

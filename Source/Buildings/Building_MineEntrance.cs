@@ -102,11 +102,6 @@ namespace MousekinRace
 
         public MiningJobSlot GetMiningJobSlotForPawn(Pawn pawn)
         {
-            Log.Warning($"GetMiningJobSlotForPawn() :: Looking for existing job slot for {pawn.NameShortColored} ({pawn.ThingID}) across {miningJobSlots.Count} slots...");
-            Log.Warning($"{miningJobSlots.ToStringSafeEnumerable()}");
-            Log.Warning($"{miningJobSlots.FindIndex(x => x.currentMiner == pawn)}");
-            
-            
             return miningJobSlots.First(x => x.currentMiner == pawn);
         }
 
