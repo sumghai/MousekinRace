@@ -91,11 +91,13 @@ namespace MousekinRace
             mineResourcesToil.FailOnDespawnedNullOrForbiddenPlacedThings(MineEntranceInd).FailOnCannotTouch(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntranceJobsAvailable(MineEntrance));
             yield return mineResourcesToil;
 
-            // Handles hauling of mined product to storage
+            // Handles generating and hauling of mined product to storage
             Toil storeMinedResourceToil = ToilMaker.MakeToil("MakeNewToils");
             storeMinedResourceToil.initAction = () =>
             {
                 Pawn miner = storeMinedResourceToil.actor;
+
+                // Increase the miner's mining skill
                 if (miner.skills != null)
                 {
                     float xp = ticksSpentDoingMiningWork * 0.1f;
@@ -106,22 +108,25 @@ namespace MousekinRace
                 // (emphasis on **finished**, as it is possible a pawn may have jumped between slots in the interim)
                 MiningJobSlot finishedSlot = MineEntrance.miningJobSlots.First(x => x.previousMiner == miner && x.complete);
 
+                // Generate and extract the stack of mined resource 
                 ThingDef minedThingDef = finishedSlot.mineableThing;
                 Thing minedThing = ThingMaker.MakeThing(minedThingDef);
                 minedThing.stackCount = MineEntrance.TryGetComp<CompUndergroundMineDeposits>().Props.mineables.First(x => x.mineableThing == minedThingDef).minedPortionSize;
+                MineEntrance.mapComp_UMD.TryExtractResource(ref minedThing);
 
+                // Notify various places regarding the mined resource
                 MineEntrance.MiningBillStack.FirstCanDo.Notify_IterationCompleted(miner);
                 RecordsUtility.Notify_BillDone(miner, [minedThing]);
-
+                Find.QuestManager.Notify_ThingsProduced(miner, [minedThing]);
                 if (UndergroundMineSys_Utils.GetWorkRequiredToMineResource(finishedSlot.mineableThing) >= 10000f)
                 {
                     TaleRecorder.RecordTale(TaleDefOf.CompletedLongCraftingProject, miner, minedThingDef);
                 }
 
+                // Remove the now-completed mining job slot
                 MineEntrance.miningJobSlots.Remove(finishedSlot);
 
-                Find.QuestManager.Notify_ThingsProduced(miner, [minedThing]);
-
+                // Determine whether to drop the mined resource directly outside the mine, or get the miner to haul it to storage
                 if (MineEntrance.MiningBillStack.FirstCanDo.GetStoreMode() == BillStoreModeDefOf.DropOnFloor)
                 {
                     if (!GenPlace.TryPlaceThing(minedThing, MineEntrance.InteractionCell, miner.Map, ThingPlaceMode.Near))

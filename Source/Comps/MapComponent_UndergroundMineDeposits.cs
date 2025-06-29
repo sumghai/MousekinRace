@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Verse;
 
@@ -35,6 +36,17 @@ namespace MousekinRace
 
             // Remove any obsolete (i.e. deleted) mineables
             deposits.RemoveWhere(x => !mineablesAvailable.Select(y => y.mineableThing).Contains(x.mineableThing));
+        }
+
+        // Find the appropriate deposit by def, and deduct the smaller of
+        // - the actual amount remaining in the deposit
+        // - the requested amount specified by minedThing
+        // If the actual amount remaining is smaller, then only extract that much (essentially emptying the deposit), and change the original input stackcount accordingly
+        public void TryExtractResource(ref Thing minedThing)
+        {
+            ThingDef thingDef = minedThing.def;
+            minedThing.stackCount = Math.Min(minedThing.stackCount, deposits.First(x => x.mineableThing == thingDef).amountRemaining);
+            deposits.First(x => x.mineableThing == thingDef).amountRemaining -= minedThing.stackCount;
         }
 
         public override void ExposeData()
