@@ -222,7 +222,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="VEF.Pawns.ApparelDrawPosExtension">
+			<li Class="VEF.Apparels.ApparelExtension">
 				<secondaryApparelGraphics>
 					<li>Mousekin_HatNunVeilBack</li>
 				</secondaryApparelGraphics>
