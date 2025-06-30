@@ -1129,4 +1129,22 @@
 	<!-- EN: While most Mousekins in the United Colonial Federation prefer the safety of the core worlds or joining government-sponsored colonization programs, [PAWN_nameDef] was adamant that [PAWN_pronoun] could make it on [PAWN_objective] own.\n\nAfter years of preparation and various odd jobs to gain experience, [PAWN_pronoun] hitchhiked [PAWN_possessive] way on various freighters to a frontier planet, where [PAWN_pronoun] hopes to be recognized by the Federation as the founding pioneer of a new colony. -->
 	<Mousekin_Adulthood_OutlanderSpacePioneer.description>植民惑星連邦のほとんどのマウスキンは中核世界の安全を好み、または政府主導の植民地化プログラムに参加することを好みますが、[PAWN_nameDef]は、自分一人でやっていけるという強い意志を持っていました.\n\n何年もの準備と、経験を積むための様々な雑用を経て、[PAWN_pronoun]は様々な貨物船にヒッチハイクして辺境の惑星へと旅立ちました.そこで[PAWN_pronoun]は、連邦から新しい植民地の創始者として認められることを望んでいます.</Mousekin_Adulthood_OutlanderSpacePioneer.description>
 	
+	<!-- EN: xenoanthropologist -->
+	<Mousekin_Adulthood_OutlanderXenoanthropologist.title>異人類学者</Mousekin_Adulthood_OutlanderXenoanthropologist.title>
+	
+	<!-- EN: xenoanthropologist -->
+	<Mousekin_Adulthood_OutlanderXenoanthropologist.titleShort>異人類学者</Mousekin_Adulthood_OutlanderXenoanthropologist.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s fascination with alien cultures and societies led [PAWN_objective] to a career in xenoanthropology at a prestigious university in the United Colonial Federation, specializing in the study of convergent social development on planets otherwise distant and isolated from each other.\n\n[PAWN_pronoun] travelled extensively through multiple star systems, immersing [PAWN_objective]self deeply in local communities for years at a time, while sending weekly reports back home via faster-than-light subspace comms. -->
+	<Mousekin_Adulthood_OutlanderXenoanthropologist.description>異星人の文化や社会に魅了された[PAWN_nameDef]は、植民惑星連邦の名門大学で異人類学のキャリアを積んだ.\n\n[PAWN_pronoun]は複数の星系を広範囲に旅し、一度に何年もその土地のコミュニティに深く入り込み、光よりも速い亜空間通信で毎週故郷にレポートを送っていた.</Mousekin_Adulthood_OutlanderXenoanthropologist.description>
+	
+	<!-- EN: xenobotanist -->
+	<Mousekin_Adulthood_OutlanderXenobotanist.title>異種植物学者</Mousekin_Adulthood_OutlanderXenobotanist.title>
+	
+	<!-- EN: xenobotanist -->
+	<Mousekin_Adulthood_OutlanderXenobotanist.titleShort>異種植物学者</Mousekin_Adulthood_OutlanderXenobotanist.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] was part of a federal xenobotany research team from the United Colonial Federation, dispatched to distant worlds to catalog new exotic flora.\n\n[PAWN_pronoun] became so obsessed with the hunt for a particularly rare species, that [PAWN_pronoun] chose to remain on the planet while the rest of the team moved on to new assignments elsewhere. -->
+	<Mousekin_Adulthood_OutlanderXenobotanist.description>[PAWN_pronounは植民惑星連邦の異植物学研究チームの一員で、新種の外来植物を分類するために遠い惑星に派遣されていた.\n\n[PAWN_pronoun]は特に珍しい種を探すことに夢中になり、チームの他のメンバーが別の場所で新しい任務に移る間、その惑星に残ることを選んだ.</Mousekin_Adulthood_OutlanderXenobotanist.description>
+	
 </LanguageData>
