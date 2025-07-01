@@ -36,7 +36,10 @@ namespace MousekinRace
                     string label = "MousekinRace_MineEntrance_Mine".Translate(miningOption.mineableThing.LabelCap, "x" + miningOption.minedPortionSize);
 
                     miningOptions.Add(new FloatMenuOption(label.CapitalizeFirst(),
-                        () => SelMineEntrance.MiningBillStack.AddMiningBill(miningOption.mineableThing, SelMineEntrance),
+                        delegate {
+                            SelMineEntrance.MiningBillStack.AddMiningBill(miningOption.mineableThing, SelMineEntrance);
+                            SelMineEntrance.UpdateMiningJobSlots();
+                        },
                         miningOption.mineableThing,
                         null,
                         false,
@@ -95,7 +98,6 @@ namespace MousekinRace
             if (Widgets.ButtonText(billsButton, "AddBill".Translate()))
             {
                 Find.WindowStack.Add(new FloatMenu(MiningOptions));
-                SelMineEntrance.UpdateMiningJobSlots();
             }
 
             // Draw mining bills
