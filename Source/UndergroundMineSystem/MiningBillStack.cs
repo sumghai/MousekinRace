@@ -31,6 +31,21 @@ namespace MousekinRace
             }
         }
 
+        public bool AnyShouldDoNow
+        {
+            get
+            {
+                for (int i = 0; i < miningBills.Count; i++)
+                {
+                    if (miningBills[i].ShouldDoNow())
+                    {
+                        return true;
+                    }
+                }
+                return false;
+            }
+        }
+
         public List<MiningBill> MiningBills
         {
             get

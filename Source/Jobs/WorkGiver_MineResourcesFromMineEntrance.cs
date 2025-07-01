@@ -16,7 +16,7 @@ namespace MousekinRace
             {
                 Building_MineEntrance mineEntrance = (Building_MineEntrance)list[i];
                 
-                if (mineEntrance.MiningBillStack.FirstCanDo.ShouldDoNow() && mineEntrance.UnassignedMiningJobSlotAvailable)
+                if (mineEntrance.MiningBillStack.AnyShouldDoNow && mineEntrance.UnassignedMiningJobSlotAvailable)
                 {
                     return false;
                 }
@@ -26,7 +26,7 @@ namespace MousekinRace
 
         public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
-            if (t is not Building_MineEntrance building_MineEntrance || !building_MineEntrance.MiningBillStack.FirstCanDo.ShouldDoNow() || !building_MineEntrance.UnassignedMiningJobSlotAvailable)
+            if (t is not Building_MineEntrance building_MineEntrance || !building_MineEntrance.MiningBillStack.AnyShouldDoNow || !building_MineEntrance.UnassignedMiningJobSlotAvailable)
             {
                 return false;
             }
