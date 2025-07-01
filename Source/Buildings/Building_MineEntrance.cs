@@ -50,7 +50,7 @@ namespace MousekinRace
         {
             Log.Warning($"UpdateMiningJobSlots() @ {Find.TickManager.TicksGame}");
 
-            MiningBill currentMiningBill = MiningBillStack.FirstCanDo;
+            MiningBill currentMiningBill = MiningBillStack.FirstShouldDoNow;
 
             // If there is a valid and active mining bill,
             if (currentMiningBill != null && currentMiningBill.ShouldDoNow())

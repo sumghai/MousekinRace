@@ -286,8 +286,6 @@ namespace MousekinRace
                 }
                 currRepeatCount++;
             }
-
-            MineEntrance.MiningBillStack.Notify_MiningBillEnded();
         }
 
         public Rect DoInterface(float x, float y, float width, int index)

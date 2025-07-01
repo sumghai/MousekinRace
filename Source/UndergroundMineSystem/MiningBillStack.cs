@@ -9,25 +9,18 @@ namespace MousekinRace
 
         public List<MiningBill> miningBills = [];
 
-        public MiningBill currentMiningBill;
-
-        public MiningBill FirstCanDo
+        public MiningBill FirstShouldDoNow
         {
             get
             {
-                if (currentMiningBill == null)
+                for (int i = 0; i < miningBills.Count; i++)
                 {
-                    for (int i = 0; i < miningBills.Count; i++)
+                    if (miningBills[i].ShouldDoNow())
                     {
-                        var process = miningBills[i];
-                        if (process.ShouldDoNow())
-                        {
-                            currentMiningBill = process;
-                            break;
-                        }
+                        return miningBills[i];
                     }
                 }
-                return currentMiningBill;
+                return null;
             }
         }
 
@@ -65,7 +58,6 @@ namespace MousekinRace
 
         public void ExposeData()
         {
-            Scribe_References.Look(ref currentMiningBill, "currentMiningBill");
             Scribe_Collections.Look(ref miningBills, "miningBills", LookMode.Deep);
             if (Scribe.mode == LoadSaveMode.ResolvingCrossRefs)
             {
@@ -81,11 +73,6 @@ namespace MousekinRace
         }
 
         public IEnumerator<MiningBill> GetEnumerator() => miningBills.GetEnumerator();
-
-        public void Notify_MiningBillEnded()
-        {
-            currentMiningBill = null;
-        }
 
         public void AddMiningBill(ThingDef mineableThing, ThingWithComps parent, int targetCount = 1)
         {
@@ -107,12 +94,6 @@ namespace MousekinRace
             if (miningBills.Contains(miningBill))
             {
                 miningBills.Remove(miningBill);
-            }
-                
-            // If current process is the one we delete, kill it
-            if (miningBill == currentMiningBill)
-            {
-                currentMiningBill = null;
             }
         }
 

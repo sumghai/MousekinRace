@@ -115,7 +115,7 @@ namespace MousekinRace
                 MineEntrance.mapComp_UMD.TryExtractResource(ref minedThing);
 
                 // Notify various places regarding the mined resource
-                MineEntrance.MiningBillStack.FirstCanDo.Notify_IterationCompleted(miner);
+                MineEntrance.MiningBillStack.FirstShouldDoNow.Notify_IterationCompleted(miner);
                 RecordsUtility.Notify_BillDone(miner, [minedThing]);
                 Find.QuestManager.Notify_ThingsProduced(miner, [minedThing]);
                 if (UndergroundMineSys_Utils.GetWorkRequiredToMineResource(finishedSlot.mineableThing) >= 10000f)
@@ -127,7 +127,7 @@ namespace MousekinRace
                 MineEntrance.miningJobSlots.Remove(finishedSlot);
 
                 // Determine whether to drop the mined resource directly outside the mine, or get the miner to haul it to storage
-                if (MineEntrance.MiningBillStack.FirstCanDo.GetStoreMode() == BillStoreModeDefOf.DropOnFloor)
+                if (MineEntrance.MiningBillStack.FirstShouldDoNow.GetStoreMode() == BillStoreModeDefOf.DropOnFloor)
                 {
                     if (!GenPlace.TryPlaceThing(minedThing, MineEntrance.InteractionCell, miner.Map, ThingPlaceMode.Near))
                     {
@@ -138,13 +138,13 @@ namespace MousekinRace
                 else
                 {
                     IntVec3 foundCell = IntVec3.Invalid;
-                    if (MineEntrance.MiningBillStack.FirstCanDo.GetStoreMode() == BillStoreModeDefOf.BestStockpile)
+                    if (MineEntrance.MiningBillStack.FirstShouldDoNow.GetStoreMode() == BillStoreModeDefOf.BestStockpile)
                     {
                         StoreUtility.TryFindBestBetterStoreCellFor(minedThing, miner, miner.Map, StoragePriority.Unstored, miner.Faction, out foundCell);
                     }
-                    else if (MineEntrance.MiningBillStack.FirstCanDo.GetStoreMode() == BillStoreModeDefOf.SpecificStockpile)
+                    else if (MineEntrance.MiningBillStack.FirstShouldDoNow.GetStoreMode() == BillStoreModeDefOf.SpecificStockpile)
                     {
-                        StoreUtility.TryFindBestBetterStoreCellForIn(minedThing, miner, miner.Map, StoragePriority.Unstored, miner.Faction, MineEntrance.MiningBillStack.FirstCanDo.GetSlotGroup(), out foundCell);
+                        StoreUtility.TryFindBestBetterStoreCellForIn(minedThing, miner, miner.Map, StoragePriority.Unstored, miner.Faction, MineEntrance.MiningBillStack.FirstShouldDoNow.GetSlotGroup(), out foundCell);
                     }
                     else
                     {
@@ -185,7 +185,7 @@ namespace MousekinRace
             storeMinedResourceToil.AddFinishAction(() => 
             {
                 Pawn miner = storeMinedResourceToil.actor;
-                if (MineEntrance.MiningBillStack.FirstCanDo.repeatMode == BillRepeatModeDefOf.TargetCount)
+                if (MineEntrance.MiningBillStack.FirstShouldDoNow.repeatMode == BillRepeatModeDefOf.TargetCount)
                 {
                     miner.Map.resourceCounter.UpdateResourceCounts();
                 }
@@ -195,7 +195,7 @@ namespace MousekinRace
 
         public bool MineEntranceJobsAvailable(Building_MineEntrance mineEntrance)
         {
-            return !MineEntrance.MiningBillStack.FirstCanDo.suspended && MineEntrance.UnassignedMiningJobSlotAvailable;
+            return !MineEntrance.MiningBillStack.FirstShouldDoNow.suspended && MineEntrance.UnassignedMiningJobSlotAvailable;
         }
     }
 }
