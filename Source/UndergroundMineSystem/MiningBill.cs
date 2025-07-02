@@ -108,14 +108,17 @@ namespace MousekinRace
                     new(BillRepeatModeDefOf.RepeatCount.LabelCap, delegate
                     {
                         repeatMode = BillRepeatModeDefOf.RepeatCount;
+                        MineEntrance.UpdateMiningJobSlots();
                     }),
                     new(BillRepeatModeDefOf.TargetCount.LabelCap, delegate
                     {
                         repeatMode = BillRepeatModeDefOf.TargetCount;
+                        MineEntrance.UpdateMiningJobSlots();
                     }),
                     new(BillRepeatModeDefOf.Forever.LabelCap, delegate
                     {
                         repeatMode = BillRepeatModeDefOf.Forever;
+                        MineEntrance.UpdateMiningJobSlots();
                     })
                 ];
                 return billRepeatOptions;
@@ -369,6 +372,7 @@ namespace MousekinRace
                 {
                     targetCount += GenUI.CurrentAdjustmentMultiplier();
                 }
+                MineEntrance.UpdateMiningJobSlots();
                 SoundDefOf.DragSlider.PlayOneShotOnCamera();
             }
             if (widgetRow.ButtonIcon(TexButton.Minus))
@@ -383,6 +387,7 @@ namespace MousekinRace
                 {
                     targetCount = Mathf.Max(0, targetCount - GenUI.CurrentAdjustmentMultiplier());
                 }
+                MineEntrance.UpdateMiningJobSlots();
                 SoundDefOf.DragSlider.PlayOneShotOnCamera();
             }
 
@@ -461,6 +466,7 @@ namespace MousekinRace
             if (paused && new WidgetRow(rect.xMax, rect.y, UIDirection.LeftThenUp).ButtonText("Unpause".Translate()))
             {
                 paused = false;
+                MineEntrance.UpdateMiningJobSlots();
             }
         }
 
@@ -486,7 +492,7 @@ namespace MousekinRace
             loadID = Map.GetComponent<MapComponent_UndergroundMineDeposits>().GetNextMiningBillID(Map);
         }
 
-        public void Notify_IterationCompleted(Pawn miner)
+        public void Notify_IterationCompleted()
         {
             if (repeatMode == BillRepeatModeDefOf.RepeatCount)
             {
@@ -499,6 +505,7 @@ namespace MousekinRace
                     Messages.Message("MessageBillComplete".Translate(Label), parent, MessageTypeDefOf.TaskCompletion);
                 }
             }
+            MineEntrance.UpdateMiningJobSlots();
         }
     }
 }

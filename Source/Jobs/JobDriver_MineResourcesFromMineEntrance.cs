@@ -118,7 +118,7 @@ namespace MousekinRace
                 MineEntrance.mapComp_UMD.TryExtractResource(ref minedThing);
 
                 // Notify various places regarding the mined resource
-                MineEntrance.MiningBillStack.FirstShouldDoNow.Notify_IterationCompleted(miner);
+                MineEntrance.MiningBillStack.FirstShouldDoNow.Notify_IterationCompleted();
                 RecordsUtility.Notify_BillDone(miner, [minedThing]);
                 Find.QuestManager.Notify_ThingsProduced(miner, [minedThing]);
                 if (UndergroundMineSys_Utils.GetWorkRequiredToMineResource(finishedSlot.mineableThing) >= 10000f)
