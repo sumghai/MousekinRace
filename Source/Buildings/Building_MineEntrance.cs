@@ -102,7 +102,7 @@ namespace MousekinRace
 
         public MiningJobSlot GetMiningJobSlotForPawn(Pawn pawn)
         {
-            return miningJobSlots.First(x => x.currentMiner == pawn);
+            return miningJobSlots.Empty() ? null : miningJobSlots.FirstOrDefault(x => x.currentMiner == pawn);
         }
 
         public override string GetInspectString()

@@ -83,8 +83,11 @@ namespace MousekinRace
             mineResourcesToil.AddFinishAction(() =>
             {
                 Pawn miner = mineResourcesToil.actor;
-                MineEntrance.GetMiningJobSlotForPawn(miner).previousMiner = miner;
-                MineEntrance.GetMiningJobSlotForPawn(miner).currentMiner = null;
+                if (MineEntrance.GetMiningJobSlotForPawn(miner) != null)
+                {
+                    MineEntrance.GetMiningJobSlotForPawn(miner).previousMiner = miner;
+                    MineEntrance.GetMiningJobSlotForPawn(miner).currentMiner = null;
+                }
             });
             mineResourcesToil.defaultCompleteMode = ToilCompleteMode.Never;
             // todo - mineResources.PlaySustainerOrSound(() => mining sound?);
@@ -195,7 +198,7 @@ namespace MousekinRace
 
         public bool MineEntranceJobsAvailable(Building_MineEntrance mineEntrance)
         {
-            return !MineEntrance.MiningBillStack.FirstShouldDoNow.suspended && MineEntrance.UnassignedMiningJobSlotAvailable;
+            return mineEntrance.MiningBillStack.AnyShouldDoNow && mineEntrance.UnassignedMiningJobSlotAvailable;
         }
     }
 }
