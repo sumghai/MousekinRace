@@ -52,10 +52,18 @@ namespace MousekinRace
             mineResourcesToil.tickAction = () =>
             {
                 Pawn miner = mineResourcesToil.actor;
+                if (MineEntrance.Destroyed || !MineEntrance.MiningBillStack.AnyShouldDoNow)
+                { 
+                    miner.jobs.EndCurrentJob(JobCondition.Incompletable);
+                }
+            };
+            mineResourcesToil.tickIntervalAction = (int delta) =>
+            {
+                Pawn miner = mineResourcesToil.actor;
                 
-                ticksSpentDoingMiningWork++;
+                ticksSpentDoingMiningWork += delta;
 
-                miner.skills?.Learn(SkillDefOf.Mining, 0.1f);
+                miner.skills?.Learn(SkillDefOf.Mining, 0.1f * (float)delta);
 
                 float miningWorkSpeed = miner.GetStatValue(StatDefOf.MiningSpeed);
 
@@ -64,7 +72,7 @@ namespace MousekinRace
                     miningWorkSpeed *= 30f;
                 }
 
-                MineEntrance.GetMiningJobSlotForPawn(miner).progress += miningWorkSpeed;
+                MineEntrance.GetMiningJobSlotForPawn(miner).progress += miningWorkSpeed * delta;
 
                 if (MineEntrance.GetMiningJobSlotForPawn(miner).progress >= UndergroundMineSys_Utils.GetWorkRequiredToMineResource(MineEntrance.GetMiningJobSlotForPawn(miner).mineableThing))
                 {
