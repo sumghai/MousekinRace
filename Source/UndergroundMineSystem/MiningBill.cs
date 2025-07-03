@@ -505,7 +505,6 @@ namespace MousekinRace
                     Messages.Message("MessageBillComplete".Translate(Label), parent, MessageTypeDefOf.TaskCompletion);
                 }
             }
-            MineEntrance.UpdateMiningJobSlots();
         }
     }
 }

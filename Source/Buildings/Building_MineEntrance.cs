@@ -50,48 +50,76 @@ namespace MousekinRace
         {
             Log.Warning($"UpdateMiningJobSlots() @ {Find.TickManager.TicksGame}");
 
-            MiningBill currentMiningBill = MiningBillStack.FirstShouldDoNow;
-
-            // If there is a valid and active mining bill,
-            if (currentMiningBill != null && currentMiningBill.ShouldDoNow())
+            if (MiningBillStack.AnyShouldDoNow)
             {
-                // If there are existing mining jobs in the queue, but the bill ID doesn't match,
-                // clear the queue (and regenerate in the next conditional
-                if (miningJobSlots.FirstOrDefault() is MiningJobSlot firstSlot && firstSlot.billLoadId != currentMiningBill.loadID)
+                MiningBill currentMiningBill = MiningBillStack.FirstShouldDoNow;
+                int slotsToAdd = 0;
+
+                if (miningJobSlots.FirstOrDefault() is MiningJobSlot firstSlot)
                 {
-                    miningJobSlots.Clear();
+                    // If existing mining job(s) are for the current active mining bill, add/remove additional jobs as needed
+                    if (firstSlot.billLoadId == currentMiningBill.loadID)
+                    {
+                        // Do X times
+                        if (currentMiningBill.repeatMode == BillRepeatModeDefOf.RepeatCount)
+                        {
+                            slotsToAdd = currentMiningBill.targetCount - miningJobSlots.Count;
+                        }
+                        // Do until you have X
+                        else if (currentMiningBill.repeatMode == BillRepeatModeDefOf.TargetCount)
+                        {
+                            int originalTargetCount = currentMiningBill.minedPortionSize * miningJobSlots.Count;
+                            double newTargetCount = (currentMiningBill.targetCount - originalTargetCount - UndergroundMineSys_Utils.CountMinedProductsOnMap(currentMiningBill)) / currentMiningBill.minedPortionSize;
+                            slotsToAdd = (int)Math.Floor(newTargetCount);
+                        }
+                        // Do forever
+                        else
+                        {
+                            slotsToAdd = maxMiningJobSlots - miningJobSlots.Count;
+                        }
+                    }
+                    // Otherwise, clear the queue (and regenerate from scatch later)
+                    else
+                    {
+                        miningJobSlots.Clear();
+                    }
                 }
 
                 // If there are no mining jobs in the queue (reasons: never initialized, last mining bill just ended)
                 if (miningJobSlots.Empty())
                 {
-                    int slotsRequired;
-
                     // Do X times
                     if (currentMiningBill.repeatMode == BillRepeatModeDefOf.RepeatCount)
                     {
-                        slotsRequired = currentMiningBill.targetCount;
+                        slotsToAdd = currentMiningBill.targetCount;
                     }
                     // Do until you have X
                     else if (currentMiningBill.repeatMode == BillRepeatModeDefOf.TargetCount)
                     {
                         int amountRequired = currentMiningBill.targetCount - UndergroundMineSys_Utils.CountMinedProductsOnMap(currentMiningBill);
-                        slotsRequired = (int)Math.Ceiling((float)amountRequired / (float)currentMiningBill.minedPortionSize);
+                        slotsToAdd = (int)Math.Ceiling((float)amountRequired / (float)currentMiningBill.minedPortionSize);
                     }
                     // Do forever
                     else
                     {
-                        slotsRequired = maxMiningJobSlots;
+                        slotsToAdd = maxMiningJobSlots;
                     }
+                }
 
-                    // Cap number of slots generated up to max limit
-                    int slotsToReserve = Math.Min(slotsRequired, maxMiningJobSlots);
+                // Cap number of slots generated up to max limit
+                slotsToAdd = Math.Min(slotsToAdd, maxMiningJobSlots);
 
-                    // Reserve the required number of mining job slots
-                    for (int i = 0; i < slotsToReserve; i++)
+                // Add or remove the required number of mining job slots
+                if (slotsToAdd >= 0)
+                {
+                    for (int i = 0; i < slotsToAdd; i++)
                     {
                         miningJobSlots.Add(new(currentMiningBill.loadID, currentMiningBill.mineableThing));
                     }
+                }
+                else
+                {
+                    miningJobSlots.RemoveRange(miningJobSlots.Count - Math.Abs(slotsToAdd), Math.Abs(slotsToAdd));
                 }
             }
             else
@@ -114,7 +142,7 @@ namespace MousekinRace
             {
                 if (miningJobSlots.Count > 0)
                 {
-                    stringBuilder.Append($"Job slots: {miningJobSlots.Count(x => x.currentMiner is not null)} / {miningJobSlots.Count}");
+                    stringBuilder.Append($"Job slots: {miningJobSlots.Count(x => x.currentMiner is not null)} / {miningJobSlots.Count}\n");
                     stringBuilder.Append($"Unoccupied slots: {miningJobSlots.Count(x => x.currentMiner is null)}");
                 }
                 else

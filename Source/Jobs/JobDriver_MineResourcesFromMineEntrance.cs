@@ -129,6 +129,9 @@ namespace MousekinRace
                 // Remove the now-completed mining job slot
                 MineEntrance.miningJobSlots.Remove(finishedSlot);
 
+                // Update mining job slots as needed
+                MineEntrance.UpdateMiningJobSlots();
+
                 // Determine whether to drop the mined resource directly outside the mine, or get the miner to haul it to storage
                 if (MineEntrance.MiningBillStack.FirstShouldDoNow.GetStoreMode() == BillStoreModeDefOf.DropOnFloor)
                 {
