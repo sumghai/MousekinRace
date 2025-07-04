@@ -9,6 +9,8 @@ namespace MousekinRace
 
         public List<MiningBill> miningBills = [];
 
+        public MiningBill mostRecentMiningBill;
+
         public MiningBill FirstShouldDoNow
         {
             get
@@ -17,6 +19,7 @@ namespace MousekinRace
                 {
                     if (miningBills[i].ShouldDoNow())
                     {
+                        mostRecentMiningBill = miningBills[i];
                         return miningBills[i];
                     }
                 }

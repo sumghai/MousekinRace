@@ -48,8 +48,6 @@ namespace MousekinRace
 
         public void UpdateMiningJobSlots()
         {
-            Log.Warning($"UpdateMiningJobSlots() @ {Find.TickManager.TicksGame}");
-
             if (MiningBillStack.AnyShouldDoNow)
             {
                 MiningBill currentMiningBill = MiningBillStack.FirstShouldDoNow;
@@ -126,6 +124,7 @@ namespace MousekinRace
             {
                 miningJobSlots.Clear();
             }
+            Log.Warning($"UpdateMiningJobSlots() fin");
         }
 
         public MiningJobSlot GetMiningJobSlotForPawn(Pawn pawn)
@@ -160,9 +159,10 @@ namespace MousekinRace
         public int billLoadId;
         public ThingDef mineableThing;
         public float progress = 0f;
-        public bool complete;
         public Pawn currentMiner;
         public Pawn previousMiner;
+
+        public bool Complete => progress >= UndergroundMineSys_Utils.GetWorkRequiredToMineResource(mineableThing);
 
         public MiningJobSlot()
         {
@@ -179,7 +179,6 @@ namespace MousekinRace
             Scribe_Values.Look(ref billLoadId, "billLoadId");
             Scribe_Defs.Look(ref mineableThing, "mineableThing");
             Scribe_Values.Look(ref progress, "progress", 0);
-            Scribe_Values.Look(ref complete, "complete");
             Scribe_References.Look(ref currentMiner, "currentMiner");
             Scribe_References.Look(ref previousMiner, "previousMiner");
         }

@@ -29,7 +29,7 @@ namespace MousekinRace
         }
 
         public override bool TryMakePreToilReservations(bool errorOnFailed)
-        {            
+        {
             return true;
         }
 
@@ -45,16 +45,10 @@ namespace MousekinRace
             mineResourcesToil.initAction = () =>
             {
                 Pawn miner = mineResourcesToil.actor;
-                MineEntrance.miningJobSlots.First(x => (x.currentMiner == null) || (x.currentMiner == miner)).currentMiner = miner;
-                miningBillStartTick = Find.TickManager.TicksGame;
-                ticksSpentDoingMiningWork = 0;
-            };
-            mineResourcesToil.tickAction = () =>
-            {
-                Pawn miner = mineResourcesToil.actor;
-                if (MineEntrance.Destroyed || !MineEntrance.MiningBillStack.AnyShouldDoNow)
-                { 
-                    miner.jobs.EndCurrentJob(JobCondition.Incompletable);
+                if (MineEntrance.miningJobSlots.Any()) {
+                    MineEntrance.miningJobSlots.First(x => (x.currentMiner == null) || (x.currentMiner == miner)).currentMiner = miner;
+                    miningBillStartTick = Find.TickManager.TicksGame;
+                    ticksSpentDoingMiningWork = 0;
                 }
             };
             mineResourcesToil.tickIntervalAction = (int delta) =>
@@ -72,29 +66,31 @@ namespace MousekinRace
                     miningWorkSpeed *= 30f;
                 }
 
-                MineEntrance.GetMiningJobSlotForPawn(miner).progress += miningWorkSpeed * delta;
+                if (MineEntrance.GetMiningJobSlotForPawn(miner) is MiningJobSlot miningJobSlot)
+                {
+                    miningJobSlot.progress += miningWorkSpeed * delta;
 
-                if (MineEntrance.GetMiningJobSlotForPawn(miner).progress >= UndergroundMineSys_Utils.GetWorkRequiredToMineResource(MineEntrance.GetMiningJobSlotForPawn(miner).mineableThing))
-                {
-                    MineEntrance.GetMiningJobSlotForPawn(miner).complete = true;
-                    ReadyForNextToil();
-                }
-                else
-                {
-                    int ticksSinceMiningStarted = Find.TickManager.TicksGame - miningBillStartTick;
-                    if (ticksSinceMiningStarted >= 3000 && ticksSinceMiningStarted % 1000 == 0)
+                    if (miningJobSlot.Complete)
                     {
-                        miner.jobs.CheckForJobOverride();
+                        ReadyForNextToil();
+                    }
+                    else
+                    {
+                        int ticksSinceMiningStarted = Find.TickManager.TicksGame - miningBillStartTick;
+                        if (ticksSinceMiningStarted >= 3000 && ticksSinceMiningStarted % 1000 == 0)
+                        {
+                            miner.jobs.CheckForJobOverride();
+                        }
                     }
                 }
             };
             mineResourcesToil.AddFinishAction(() =>
             {
                 Pawn miner = mineResourcesToil.actor;
-                if (MineEntrance.GetMiningJobSlotForPawn(miner) != null)
+                if (MineEntrance.GetMiningJobSlotForPawn(miner) is MiningJobSlot miningJobSlot)
                 {
-                    MineEntrance.GetMiningJobSlotForPawn(miner).previousMiner = miner;
-                    MineEntrance.GetMiningJobSlotForPawn(miner).currentMiner = null;
+                    miningJobSlot.previousMiner = miner;
+                    miningJobSlot.currentMiner = null;
                 }
             });
             mineResourcesToil.defaultCompleteMode = ToilCompleteMode.Never;
@@ -117,7 +113,7 @@ namespace MousekinRace
 
                 // Look for the finished slot whose last/previous miner is the current pawn
                 // (emphasis on **finished**, as it is possible a pawn may have jumped between slots in the interim)
-                MiningJobSlot finishedSlot = MineEntrance.miningJobSlots.First(x => x.previousMiner == miner && x.complete);
+                MiningJobSlot finishedSlot = MineEntrance.miningJobSlots.First(x => x.previousMiner == miner && x.Complete);
 
                 // Generate and extract the stack of mined resource 
                 ThingDef minedThingDef = finishedSlot.mineableThing;
@@ -137,11 +133,8 @@ namespace MousekinRace
                 // Remove the now-completed mining job slot
                 MineEntrance.miningJobSlots.Remove(finishedSlot);
 
-                // Update mining job slots as needed
-                MineEntrance.UpdateMiningJobSlots();
-
                 // Determine whether to drop the mined resource directly outside the mine, or get the miner to haul it to storage
-                if (MineEntrance.MiningBillStack.FirstShouldDoNow.GetStoreMode() == BillStoreModeDefOf.DropOnFloor)
+                if (MineEntrance.MiningBillStack.mostRecentMiningBill.GetStoreMode() == BillStoreModeDefOf.DropOnFloor)
                 {
                     if (!GenPlace.TryPlaceThing(minedThing, MineEntrance.InteractionCell, miner.Map, ThingPlaceMode.Near))
                     {
@@ -152,11 +145,11 @@ namespace MousekinRace
                 else
                 {
                     IntVec3 foundCell = IntVec3.Invalid;
-                    if (MineEntrance.MiningBillStack.FirstShouldDoNow.GetStoreMode() == BillStoreModeDefOf.BestStockpile)
+                    if (MineEntrance.MiningBillStack.mostRecentMiningBill.GetStoreMode() == BillStoreModeDefOf.BestStockpile)
                     {
                         StoreUtility.TryFindBestBetterStoreCellFor(minedThing, miner, miner.Map, StoragePriority.Unstored, miner.Faction, out foundCell);
                     }
-                    else if (MineEntrance.MiningBillStack.FirstShouldDoNow.GetStoreMode() == BillStoreModeDefOf.SpecificStockpile)
+                    else if (MineEntrance.MiningBillStack.mostRecentMiningBill.GetStoreMode() == BillStoreModeDefOf.SpecificStockpile)
                     {
                         StoreUtility.TryFindBestBetterStoreCellForIn(minedThing, miner, miner.Map, StoragePriority.Unstored, miner.Faction, MineEntrance.MiningBillStack.FirstShouldDoNow.GetSlotGroup(), out foundCell);
                     }
@@ -199,10 +192,13 @@ namespace MousekinRace
             storeMinedResourceToil.AddFinishAction(() => 
             {
                 Pawn miner = storeMinedResourceToil.actor;
-                if (MineEntrance.MiningBillStack.FirstShouldDoNow.repeatMode == BillRepeatModeDefOf.TargetCount)
+                if (MineEntrance.MiningBillStack.mostRecentMiningBill.repeatMode == BillRepeatModeDefOf.TargetCount)
                 {
                     miner.Map.resourceCounter.UpdateResourceCounts();
                 }
+
+                // Update mining job slots as needed
+                MineEntrance.UpdateMiningJobSlots();
             });
             yield return storeMinedResourceToil;
         }
