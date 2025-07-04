@@ -65,8 +65,6 @@ namespace MousekinRace
 
         private CompUndergroundMineDeposits CompUMD => parent.TryGetComp<CompUndergroundMineDeposits>();
 
-        public bool IsRunning => ShouldDoNow();
-
         private Color BaseColor
         {
             get
@@ -263,6 +261,10 @@ namespace MousekinRace
                 }
                 if (num <= unpauseWhenYouHave || !pauseWhenSatisfied)
                 {
+                    if (paused)
+                    { 
+                        MineEntrance.triggerAutoSlotUpdate = true; // oneshot
+                    }
                     paused = false;
                 }
                 if (paused)

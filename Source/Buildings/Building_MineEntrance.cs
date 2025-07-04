@@ -21,6 +21,8 @@ namespace MousekinRace
 
         public MiningBillStack MiningBillStack => miningBillStack;
 
+        public bool triggerAutoSlotUpdate = false;
+
         public bool UnassignedMiningJobSlotAvailable => miningJobSlots.Count(x => x.currentMiner is null) > 0;
 
         public Building_MineEntrance() 
@@ -37,6 +39,16 @@ namespace MousekinRace
             mapComp_UMD.RescanDeposits(compUMD.Props.mineables);
             miningJobSlots ??= new(maxMiningJobSlots);
             UpdateMiningJobSlots();
+        }
+
+        public override void Tick()
+        {
+            base.Tick();
+            if (triggerAutoSlotUpdate)
+            {
+                UpdateMiningJobSlots();
+                triggerAutoSlotUpdate = false;
+            }
         }
 
         public override void ExposeData()
@@ -124,7 +136,6 @@ namespace MousekinRace
             {
                 miningJobSlots.Clear();
             }
-            Log.Warning($"UpdateMiningJobSlots() fin");
         }
 
         public MiningJobSlot GetMiningJobSlotForPawn(Pawn pawn)
