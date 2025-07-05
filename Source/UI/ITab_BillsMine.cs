@@ -32,11 +32,13 @@ namespace MousekinRace
                 for (int i = 0; i < compUMD.Props.mineables.Count; i++)
                 {
                     MineableCountRange miningOption = compUMD.Props.mineables[i];
+                    bool isDepleted = SelMineEntrance.mapComp_UMD.DepositIsDepleted(miningOption.mineableThing);
 
-                    string label = "MousekinRace_MineEntrance_Mine".Translate(miningOption.mineableThing.LabelCap, "x" + miningOption.minedPortionSize);
+                    string label = "MousekinRace_MineEntrance_Mine".Translate(miningOption.mineableThing.LabelCap, "x" + miningOption.minedPortionSize + (isDepleted ? " ("+ "MousekinRace_MineEntrance_DepositDepleted".Translate().CapitalizeFirst() + ")" : ""));
 
-                    miningOptions.Add(new FloatMenuOption(label.CapitalizeFirst(),
-                        delegate {
+                    FloatMenuOption option = new(label.CapitalizeFirst(),
+                        delegate
+                        {
                             SelMineEntrance.MiningBillStack.AddMiningBill(miningOption.mineableThing, SelMineEntrance);
                             SelMineEntrance.UpdateMiningJobSlots();
                         },
@@ -49,7 +51,12 @@ namespace MousekinRace
                         29f,
                         (Rect rect) => miningOption.mineableThing != null && Widgets.InfoCardButton(rect.x + 5f, rect.y + (rect.height - 24f) / 2f, miningOption.mineableThing),
                         null,
-                        true));
+                        true)
+                    {
+                        Disabled = isDepleted
+                    };
+
+                    miningOptions.Add(option);
                 }
                 return miningOptions;
             }

@@ -60,6 +60,11 @@ namespace MousekinRace
             }
         }
 
+        public bool DepositIsDepleted(ThingDef minedThingDef)
+        {
+            return deposits.First(x => x.mineableThing == minedThingDef).amountRemaining <= 0; 
+        }
+
         public int GetNextMiningBillID(Map map) => GetNextID(map, ref nextMiningBillID);
 
         private static int GetNextID(Map map, ref int nextID)

@@ -65,11 +65,13 @@ namespace MousekinRace
 
         private CompUndergroundMineDeposits CompUMD => parent.TryGetComp<CompUndergroundMineDeposits>();
 
+        public bool DepositIsDepleted => MineEntrance.mapComp_UMD.DepositIsDepleted(mineableThing);
+
         private Color BaseColor
         {
             get
             {
-                if (ShouldDoNow())
+                if (ShouldDoNow() && !DepositIsDepleted)
                 {
                     return Color.white;
                 }
@@ -235,12 +237,12 @@ namespace MousekinRace
         public override string ToString() => GetUniqueLoadID();
 
         public bool ShouldDoNow()
-        {
+        {           
             if (repeatMode != BillRepeatModeDefOf.TargetCount)
             {
                 paused = false;
             }
-            if (suspended)
+            if (suspended || DepositIsDepleted)
             {
                 return false;
             }
@@ -432,17 +434,20 @@ namespace MousekinRace
 
             Widgets.EndGroup();
 
-            // Draw suspended
-            if (suspended)
+            // Draw suspended or deposit depleted overlays
+            if (suspended || DepositIsDepleted)
             {
                 Text.Font = GameFont.Medium;
                 Text.Anchor = TextAnchor.MiddleCenter;
-                Rect suspendedRect = new(rect.x + rect.width / 2f - 70f, rect.y + rect.height / 2f - 20f, 140f, 40f);
-                GUI.DrawTexture(suspendedRect, TexUI.GrayTextBG);
-                Widgets.Label(suspendedRect, "SuspendedCaps".Translate());
+                float overlayWidth = 250f;
+                float overlayHeight = 40f;
+                Rect overlayRect = new(rect.x + rect.width / 2f - overlayWidth / 2f, rect.y + rect.height / 2f - overlayHeight / 2f, overlayWidth, overlayHeight);
+                GUI.DrawTexture(overlayRect, TexUI.GrayTextBG);
+                Widgets.Label(overlayRect, suspended ? "SuspendedCaps".Translate() : (TaggedString)"MousekinRace_MineEntrance_DepositDepleted".Translate().ToString().ToUpper());
                 Text.Anchor = TextAnchor.UpperLeft;
                 Text.Font = GameFont.Small;
             }
+
             Text.Font = GameFont.Small;
             GUI.color = Color.white;
 
