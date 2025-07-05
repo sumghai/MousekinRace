@@ -41,7 +41,7 @@ namespace MousekinRace
             yield return Toils_Goto.GotoThing(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntranceJobsAvailable(MineEntrance));
             
             // Handles actual mining of resources inside the mine entrance building
-            Toil mineResourcesToil = ToilMaker.MakeToil("MakeNewToils");
+            Toil mineResourcesToil = ToilMaker.MakeToil("Mousekin_Toil_MineResources");
             mineResourcesToil.initAction = () =>
             {
                 Pawn miner = mineResourcesToil.actor;
@@ -99,7 +99,7 @@ namespace MousekinRace
             yield return mineResourcesToil;
 
             // Handles generating and hauling of mined product to storage
-            Toil storeMinedResourceToil = ToilMaker.MakeToil("MakeNewToils");
+            Toil storeMinedResourceToil = ToilMaker.MakeToil("Mousekin_Toil_StoreMinedResources");
             storeMinedResourceToil.initAction = () =>
             {
                 Pawn miner = storeMinedResourceToil.actor;
