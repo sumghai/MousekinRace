@@ -391,6 +391,7 @@
     <Compile Include="Patches\Harmony_PawnPortraitIconsDrawer.cs" />
     <Compile Include="Patches\Harmony_PawnRenderer.cs" />
     <Compile Include="Patches\Harmony_PawnRitualRoleSelectionWidget.cs" />
+    <Compile Include="Patches\Harmony_Pawn_DrawTracker.cs" />
     <Compile Include="Patches\Harmony_Pawn_RoyaltyTracker.cs" />
     <Compile Include="Patches\Harmony_Plant.cs" />
     <Compile Include="Patches\Harmony_Precept_Building.cs" />
