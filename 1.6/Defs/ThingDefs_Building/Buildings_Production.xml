@@ -880,7 +880,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Mousekin_MineEntrance</defName>
 		<label>Mousekin mine entrance</label>
-		<description>A large wattle-and-daub building flanked by a pair of treadwheels, which serves as an enclosed entrance to an underground mineshaft. Multiple colonists can simultaneously mine for resources here until deposits are depleted.</description>
+		<description>A large wooden building with a pair of treadwheels flanking a central scaffold tower, which serves as an enclosed entrance to an underground mineshaft. Multiple colonists can simultaneously mine for resources here until deposits are depleted.</description>
 		<thingClass>MousekinRace.Building_MineEntrance</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
