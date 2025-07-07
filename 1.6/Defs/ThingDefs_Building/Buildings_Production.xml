@@ -884,9 +884,11 @@
 		<thingClass>MousekinRace.Building_MineEntrance</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>Things/Building/Production/Mousekin_Windmill</texPath>
+			<texPath>Things/Building/Production/Mousekin_MineEntrance</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,5)</drawSize>
+			<drawSize>(6,6)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shaderType>Transparent</shaderType>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -894,8 +896,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Production/Mousekin_Windmill_MenuIcon</uiIconPath>
-		<uiIconScale>1.25</uiIconScale>
+		<uiIconPath>Things/Building/Production/Mousekin_MineEntrance</uiIconPath>
 		<costList>
 			<WoodLog>800</WoodLog>
 			<Steel>50</Steel>
@@ -909,7 +910,7 @@
 			<Mass>10000</Mass>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<size>(3,4)</size>
+		<size>(5,4)</size>
 		<designationCategory>Production</designationCategory>
 		<passability>Impassable</passability>
 		<pathCost>900</pathCost>
