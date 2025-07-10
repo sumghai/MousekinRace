@@ -74,6 +74,8 @@
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<comps>
 			<li Class="CompProperties_Refuelable">
@@ -176,6 +178,8 @@
 		</inspectorTabs>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -245,6 +249,8 @@
 		<constructEffect />
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<comps>
 			<li Class="CompProperties_Refuelable">
@@ -338,6 +344,7 @@
 		</inspectorTabs>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole />
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -404,6 +411,8 @@
 		</inspectorTabs>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -480,6 +489,8 @@
 		<constructEffect />
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<comps>
 			<li Class="CompProperties_Refuelable">
@@ -581,6 +592,8 @@
 		</inspectorTabs>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -645,6 +658,9 @@
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<comps />
@@ -712,6 +728,9 @@
 				<color>(1, 1, 1, 1)</color>
 			</blueprintGraphicData>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
 			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
 		</building>
 		<placeWorkers>
@@ -787,7 +806,12 @@
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<comps>
 			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
@@ -858,6 +882,9 @@
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<comps>
@@ -925,6 +952,9 @@
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
 			<allowAutoroof>false</allowAutoroof>
 			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
 		</building>
@@ -1031,6 +1061,9 @@
 			<ai_chillDestination>false</ai_chillDestination>
 			<allowAutoroof>false</allowAutoroof>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
 			<destroySound>BuildingDestroyed_Soft_Medium</destroySound>
 		</building>
 		<placeWorkers>
@@ -1091,6 +1124,10 @@
 		<hasInteractionCell>true</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
+		<building>
+			<workTableRoomRole>Laboratory</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
@@ -1151,6 +1188,9 @@
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
 			<allowAutoroof>false</allowAutoroof>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
 			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
 		</building>
 		<comps>
