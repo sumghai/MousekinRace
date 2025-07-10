@@ -1082,7 +1082,6 @@
 			<WorkToBuild>1000</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<Cleanliness>-3</Cleanliness>
 			<ResearchSpeedFactor>0.875</ResearchSpeedFactor>
 		</statBases>
 		<size>(2,1)</size>
