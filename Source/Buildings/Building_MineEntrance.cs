@@ -41,6 +41,11 @@ namespace MousekinRace
             UpdateMiningJobSlots();
         }
 
+        public override bool IsWorking()
+        {
+            return miningJobSlots.Any(x => x.currentMiner is not null);
+        }
+
         public override void Tick()
         {
             base.Tick();

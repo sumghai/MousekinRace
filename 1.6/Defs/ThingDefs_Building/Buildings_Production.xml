@@ -909,12 +909,12 @@
 		<label>Mousekin mine entrance</label>
 		<description>A large wooden building with a pair of treadwheels flanking a central scaffold tower, which serves as an enclosed entrance to an underground mineshaft. Multiple colonists can simultaneously mine for resources here until deposits are depleted.</description>
 		<thingClass>MousekinRace.Building_MineEntrance</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Building/Production/Mousekin_MineEntrance</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(6,6)</drawSize>
-			<drawOffset>(0,0,0.5)</drawOffset>
+			<drawSize>(5,5)</drawSize>
 			<shaderType>Transparent</shaderType>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
@@ -923,7 +923,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Production/Mousekin_MineEntrance</uiIconPath>
+		<uiIconPath>Things/Building/Production/Mousekin_MineEntrance_MenuIcon</uiIconPath>
 		<costList>
 			<WoodLog>800</WoodLog>
 			<Steel>50</Steel>
@@ -1004,6 +1004,23 @@
 						<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
 					</li>
 				</mineables>
+			</li>
+			<li Class="MousekinRace.CompProperties_MineEntranceAnim">
+				<towerGraphicData>
+					<texPath>Things/Building/Production/Mousekin_MineEntrance_tower</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(5,5)</drawSize>
+					<drawOffset>(0,3,1.5)</drawOffset>
+					<shaderType>Transparent</shaderType>
+				</towerGraphicData>
+				<wheelSegmentGraphicData>
+					<texPath>Things/Building/Production/Mousekin_MineEntrance_wheelSegment</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawOffset>(0,3,1.03)</drawOffset>
+				</wheelSegmentGraphicData>
+				<wheelPairOffset>1.1875</wheelPairOffset>
+				<wheelDiameter>2.5</wheelDiameter>
+				<wheelSegmentsPerWheel>32</wheelSegmentsPerWheel>
 			</li>
 		</comps>
 		<placeWorkers>
