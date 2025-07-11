@@ -107,6 +107,16 @@
 								<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]</xpath>
 							</li>
 							
+							<li Class="PatchOperationRemove">
+								<xpath>Defs/ThingDef[defName="Mousekin_Windmill"]/inspectorTabs/li[.="PipeSystem.ITab_Processor"]</xpath>
+							</li>
+							
+							<!-- Remove wheat to flour ProcessDef -->
+							
+							<li Class="PatchOperationRemove">
+								<xpath>Defs/PipeSystem.ProcessDef[defName="Mousekin_WheatToFlour"]</xpath>
+							</li>
+							
 							<!-- Replace flour from Country bread recipes with VCE Flour -->
 				
 							<li Class="PatchOperationReplace">
