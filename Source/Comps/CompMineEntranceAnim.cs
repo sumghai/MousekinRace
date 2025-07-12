@@ -12,7 +12,11 @@ namespace MousekinRace
 
         public bool IsWorking => (parent as Building_MineEntrance).IsWorking();
 
-        public float TreadwheelSpeed => IsWorking ? 0.2f : 0f; // todo - randomly reverse direction while running
+        public float treadwheelDirection = 1f;
+
+        public int ticksToChangeTreadwheelDirection = 0;
+
+        public float TreadwheelSpeed => IsWorking ? Props.wheelSpeed * treadwheelDirection : 0f;
 
         public override void CompTick()
         {
@@ -30,6 +34,16 @@ namespace MousekinRace
             {
                 treadwheelPosition += TreadwheelSpeed;
             }
+
+            if (ticksToChangeTreadwheelDirection <= 0)
+            {
+                ticksToChangeTreadwheelDirection = Rand.Range(Props.ticksToChangeWheelDirection.min, Props.ticksToChangeWheelDirection.max);
+                treadwheelDirection *= -1f;
+            }
+            else 
+            {
+                ticksToChangeTreadwheelDirection--;
+            }
         }
 
         public override void PostDraw()
@@ -37,10 +51,17 @@ namespace MousekinRace
             base.PostDraw();
 
             GraphicData towerGraphicData = Props.towerGraphicData;
+            GraphicData workGlowGraphicData = Props.workGlowGraphicData;
             GraphicData wheelSegmentGraphicData = Props.wheelSegmentGraphicData;
             Vector3 wheelPairOffsetVector = new(Props.wheelPairOffset, 0);
             float wheelDiameter = Props.wheelDiameter;
             int wheelSegmentsPerWheel = Props.wheelSegmentsPerWheel;
+
+            if (workGlowGraphicData != null && IsWorking)
+            { 
+                Mesh workGlowMesh = Props.workGlowGraphicData.Graphic.MeshAt(parent.Rotation);
+                Graphics.DrawMesh(workGlowMesh, parent.DrawPos + workGlowGraphicData.drawOffset, Quaternion.identity, FadedMaterialPool.FadedVersionOf(workGlowGraphicData.Graphic.MatAt(parent.Rotation, null), 1), 0);
+            }
 
             if (towerGraphicData != null) 
             {

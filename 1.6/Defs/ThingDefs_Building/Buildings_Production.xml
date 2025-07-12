@@ -1013,6 +1013,12 @@
 					<drawOffset>(0,3,1.5)</drawOffset>
 					<shaderType>Transparent</shaderType>
 				</towerGraphicData>
+				<workGlowGraphicData>
+					<texPath>Things/Building/Production/FX/Mousekin_MineEntrance_workGlow</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(5,5)</drawSize>
+					<shaderType>MoteGlow</shaderType>
+				</workGlowGraphicData>
 				<wheelSegmentGraphicData>
 					<texPath>Things/Building/Production/Mousekin_MineEntrance_wheelSegment</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -1021,6 +1027,8 @@
 				<wheelPairOffset>1.1875</wheelPairOffset>
 				<wheelDiameter>2.5</wheelDiameter>
 				<wheelSegmentsPerWheel>32</wheelSegmentsPerWheel>
+				<wheelSpeed>0.2</wheelSpeed>
+				<ticksToChangeWheelDirection>1250~2500</ticksToChangeWheelDirection>
 			</li>
 		</comps>
 		<placeWorkers>
