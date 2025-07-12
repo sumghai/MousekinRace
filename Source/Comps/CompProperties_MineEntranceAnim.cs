@@ -20,6 +20,8 @@ namespace MousekinRace
 
         public IntRange ticksToChangeWheelDirection = new(2500, 2500);
 
+        public SoundDef soundWorking;
+
 
         public CompProperties_MineEntranceAnim() 
         {

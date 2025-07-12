@@ -1029,6 +1029,7 @@
 				<wheelSegmentsPerWheel>32</wheelSegmentsPerWheel>
 				<wheelSpeed>0.2</wheelSpeed>
 				<ticksToChangeWheelDirection>1250~2500</ticksToChangeWheelDirection>
+				<soundWorking>Recipe_Smith</soundWorking>
 			</li>
 		</comps>
 		<placeWorkers>

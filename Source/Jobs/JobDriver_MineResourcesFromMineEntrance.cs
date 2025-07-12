@@ -94,7 +94,7 @@ namespace MousekinRace
                 }
             });
             mineResourcesToil.defaultCompleteMode = ToilCompleteMode.Never;
-            // todo - mineResources.PlaySustainerOrSound(() => mining sound?);
+            mineResourcesToil.PlaySustainerOrSound(MineEntrance.compMEA.Props.soundWorking);
             mineResourcesToil.FailOnDespawnedNullOrForbiddenPlacedThings(MineEntranceInd).FailOnCannotTouch(MineEntranceInd, PathEndMode.InteractionCell).FailOn(() => !MineEntranceJobsAvailable(MineEntrance));
             yield return mineResourcesToil;
 
