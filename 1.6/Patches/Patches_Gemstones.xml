@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Gemstones</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Allow Mine Entrances to have a small chance of producing various gemstones as bonus products -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/bonusMineables</xpath>
+					<value>
+						<Z_Diamond>0.6</Z_Diamond>
+						<Z_Emerald>0.6</Z_Emerald>
+						<Z_Ruby>0.6</Z_Ruby>
+						<Z_Sapphire>0.6</Z_Sapphire>
+						<Z_Amethyst>0.8</Z_Amethyst>
+						<Z_Chalcedony>0.8</Z_Chalcedony>
+						<Z_Citrine>0.8</Z_Citrine>
+						<Z_Garnet>0.8</Z_Garnet>
+						<Z_Lapis>0.8</Z_Lapis>
+						<Z_Quartz>1</Z_Quartz>
+						<Z_Serpentine>1</Z_Serpentine>
+						<Z_Turquoise>0.3</Z_Turquoise>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
