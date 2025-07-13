@@ -1004,6 +1004,13 @@
 						<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
 					</li>
 				</mineables>
+				<bonusMineables>
+					<ChunkSandstone>1</ChunkSandstone>
+					<ChunkGranite>1</ChunkGranite>
+					<ChunkLimestone>1</ChunkLimestone>
+					<ChunkSlate>1</ChunkSlate>
+					<ChunkMarble>1</ChunkMarble>
+				</bonusMineables>
 			</li>
 			<li Class="MousekinRace.CompProperties_MineEntranceAnim">
 				<towerGraphicData>

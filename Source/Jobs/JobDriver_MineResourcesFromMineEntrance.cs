@@ -133,6 +133,17 @@ namespace MousekinRace
                 // Remove the now-completed mining job slot
                 MineEntrance.miningJobSlots.Remove(finishedSlot);
 
+                // 20% chance to drop a bonus product (with selection weight)
+                if (Rand.RangeInclusive(0, 4) == 0)
+                {
+                    if (MineEntrance.TryGetComp<CompUndergroundMineDeposits>().Props.bonusMineables.RandomElementByWeight(x => x.selectionWeight) is BonusMineableOption bonusMineableOption)
+                    {
+                        ThingDef bonusThingDef = bonusMineableOption.bonusThing;
+                        Thing bonusThing = ThingMaker.MakeThing(bonusThingDef);
+                        GenPlace.TryPlaceThing(bonusThing, MineEntrance.InteractionCell, miner.Map, ThingPlaceMode.Near);
+                    }
+                }
+
                 // Determine whether to drop the mined resource directly outside the mine, or get the miner to haul it to storage
                 if (MineEntrance.MiningBillStack.mostRecentMiningBill.GetStoreMode() == BillStoreModeDefOf.DropOnFloor)
                 {
