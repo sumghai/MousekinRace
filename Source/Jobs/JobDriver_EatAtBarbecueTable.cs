@@ -39,8 +39,6 @@ namespace MousekinRace
                 {
                     pawn.needs.mood.thoughts.memories.TryGainMemory(MousekinDefOf.AteLavishMeal);
                 }
-                // todo - replace with new history event for eating at bbq?
-                //Find.HistoryEventsManager.RecordEvent(new HistoryEvent(HistoryEventDefOf.AteHumanMeat, pawn.Named(HistoryEventArgsNames.Doer)));
             });
             eat.WithEffect(EffecterDefOf.EatMeat, BarbecueTableIndex);
             eat.PlaySustainerOrSound(MousekinDefOf.Meal_Eat);
