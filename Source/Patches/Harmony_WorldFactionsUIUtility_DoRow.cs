@@ -45,7 +45,6 @@ namespace MousekinRace
 
         private static bool CheckCurrentScenPartForRequiredFaction(ScenPart scenPart, FactionDef faction)
         {
-            Log.Warning($"Running check for {faction}");
             return scenPart is ScenPart_RequiredFaction scenPart_RequiredFaction && scenPart_RequiredFaction.factionDef == faction;
         }
     }
