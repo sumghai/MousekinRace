@@ -125,7 +125,7 @@ namespace MousekinRace
                 }
 
                 // Cap number of slots generated up to max limit
-                slotsToAdd = Math.Min(slotsToAdd, maxMiningJobSlots);
+                slotsToAdd = miningJobSlots.Count < maxMiningJobSlots ? Math.Min(slotsToAdd, maxMiningJobSlots) : 0;
 
                 // Add or remove the required number of mining job slots
                 if (slotsToAdd >= 0)
