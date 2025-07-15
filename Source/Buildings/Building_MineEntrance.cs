@@ -87,8 +87,8 @@ namespace MousekinRace
                         else if (currentMiningBill.repeatMode == BillRepeatModeDefOf.TargetCount)
                         {
                             int originalTargetCount = currentMiningBill.minedPortionSize * miningJobSlots.Count;
-                            double newTargetCount = (currentMiningBill.targetCount - originalTargetCount - UndergroundMineSys_Utils.CountMinedProductsOnMap(currentMiningBill)) / currentMiningBill.minedPortionSize;
-                            slotsToAdd = (int)Math.Floor(newTargetCount);
+                            float slotsToAddRaw = (float) (currentMiningBill.targetCount - originalTargetCount - UndergroundMineSys_Utils.CountMinedProductsOnMap(currentMiningBill)) / (float) currentMiningBill.minedPortionSize;
+                            slotsToAdd = (int)Math.Ceiling(slotsToAddRaw);
                         }
                         // Do forever
                         else
@@ -124,14 +124,17 @@ namespace MousekinRace
                     }
                 }
 
-                // Cap number of slots generated up to max limit
-                slotsToAdd = miningJobSlots.Count < maxMiningJobSlots ? Math.Min(slotsToAdd, maxMiningJobSlots) : 0;
-
                 // Add or remove the required number of mining job slots
                 if (slotsToAdd >= 0)
                 {
                     for (int i = 0; i < slotsToAdd; i++)
                     {
+                        // Cap number of slots generated up to max limit
+                        if (miningJobSlots.Count >= maxMiningJobSlots)
+                        {
+                            break;
+                        }
+
                         miningJobSlots.Add(new(currentMiningBill.loadID, currentMiningBill.mineableThing));
                     }
                 }
