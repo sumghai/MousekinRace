@@ -16,7 +16,7 @@ namespace MousekinRace
         {
             get
             {
-                return "- " + string.Join("\n- ", MousekinDefOf.Mousekin_TownSquare.GetCompProperties<CompProperties_TownSquare>().acceptablePavedTerrainDefs.Select(d => d.LabelCap).ToList());
+                return "- " + string.Join("\n- ", MousekinDefOf.Mousekin_TownSquare.GetCompProperties<CompProperties_TownSquare>().acceptablePavedTerrainDefs.Select(d => d.LabelCap).OrderBy(d => d.RawText).ToList());
             }
         }
         
