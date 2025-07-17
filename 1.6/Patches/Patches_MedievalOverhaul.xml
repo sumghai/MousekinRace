@@ -190,6 +190,50 @@
 						<li>DankPyon_CharcoalPile</li>
 					</value>
 				</li>
+				
+				<!-- Allow additional stone tiles and cobblestone terrain from MO to be used for the Mousekin Town Square -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_TownSquare"]/comps/li[@Class="MousekinRace.CompProperties_TownSquare"]/acceptablePavedTerrainDefs</xpath>
+					<value>
+						<li>DankPyon_Floor_CobbleStone_Clay</li>
+						<li>DankPyon_Floor_CobbleStone_Granite</li>
+						<li>DankPyon_Floor_CobbleStone_Limestone</li>
+						<li>DankPyon_Floor_CobbleStone_Marble</li>
+						<li>DankPyon_Floor_CobbleStone_Sandstone</li>
+						<li>DankPyon_Floor_CobbleStone_Slate</li>
+						<li>DankPyon_Floor_Cobblestone_Clay</li>
+						<li>DankPyon_Floor_Cobblestone_Granite</li>
+						<li>DankPyon_Floor_Cobblestone_Limestone</li>
+						<li>DankPyon_Floor_Cobblestone_Marble</li>
+						<li>DankPyon_Floor_Cobblestone_Sandstone</li>
+						<li>DankPyon_Floor_Cobblestone_Slate</li>
+						<li>DankPyon_Floor_Herringbone_Clay</li>
+						<li>DankPyon_Floor_Herringbone_Granite</li>
+						<li>DankPyon_Floor_Herringbone_Limestone</li>
+						<li>DankPyon_Floor_Herringbone_Marble</li>
+						<li>DankPyon_Floor_Herringbone_Sandstone</li>
+						<li>DankPyon_Floor_Herringbone_Slate</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Clay</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Granite</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Limestone</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Marble</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Sandstone</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Slate</li>
+						<li>DankPyon_Floor_Versailles_Clay</li>
+						<li>DankPyon_Floor_Versailles_Granite</li>
+						<li>DankPyon_Floor_Versailles_Limestone</li>
+						<li>DankPyon_Floor_Versailles_Marble</li>
+						<li>DankPyon_Floor_Versailles_Sandstone</li>
+						<li>DankPyon_Floor_Versailles_Slate</li>
+						<li>DankPyon_Floor_Windmill_Clay</li>
+						<li>DankPyon_Floor_Windmill_Granite</li>
+						<li>DankPyon_Floor_Windmill_Limestone</li>
+						<li>DankPyon_Floor_Windmill_Marble</li>
+						<li>DankPyon_Floor_Windmill_Sandstone</li>
+						<li>DankPyon_Floor_Windmill_Slate</li>
+					</value>
+				</li>
 			
 			</operations>
 		</match>
