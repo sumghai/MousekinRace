@@ -22,7 +22,7 @@ namespace MousekinRace
     {
         public static bool Prefix(Pawn ___pawn)
         {
-            if (___pawn?.Map != null && ___pawn.Spawned && ___pawn.jobs.curDriver.CurToilString == "Mousekin_Toil_MineResources")
+            if (___pawn?.Map != null && ___pawn.Spawned && ___pawn.jobs?.curDriver?.CurToilString == "Mousekin_Toil_MineResources")
             {
                 return false;
             }
