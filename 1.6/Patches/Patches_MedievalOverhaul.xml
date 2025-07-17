@@ -170,6 +170,18 @@
 					</value>
 				</li>
 			
+				<!-- Add Mousekin charcoal as a fuel option to MO furnances/stoves/etc. -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter[thingDefs[li="DankPyon_Coal"]]</xpath>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+						<value>
+							<li>Mousekin_Charcoal</li>
+						</value>
+					</match>
+				</li>
+			
 			</operations>
 		</match>
 	</Operation>
