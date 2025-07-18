@@ -191,6 +191,15 @@
 					</value>
 				</li>
 				
+				<!-- Update Mousekin charcoal pile processor recipes to use MO raw wood (MO's own patches renames all instances of the vanilla WoodLog into wood planks) -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PipeSystem.ProcessDef[defName="Mousekin_WoodLogToCharcoal"]/ingredients/li[thing="WoodLog"]/thing</xpath>
+					<value>
+						<thing>DankPyon_RawWood</thing>
+					</value>
+				</li>
+				
 				<!-- Allow additional stone tiles and cobblestone terrain from MO to be used for the Mousekin Town Square -->
 				
 				<li Class="PatchOperationAdd">
