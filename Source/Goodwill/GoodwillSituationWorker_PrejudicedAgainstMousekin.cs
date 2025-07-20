@@ -1,4 +1,5 @@
 ﻿using RimWorld;
+using System.Linq;
 using Verse;
 
 namespace MousekinRace
@@ -30,7 +31,9 @@ namespace MousekinRace
 
         private bool Applies(Faction a, Faction b)
         {
-            return Utils.IsMousekin(a.def.basicMemberKind) && !Utils.IsMousekin(b.def.basicMemberKind) && !b.ideos.PrimaryIdeo.HasMeme(MousekinDefOf.HAR_Xenophilia);
+            bool hasHarXenophiliaMeme = b.ideos.AllIdeos.Any() && b.ideos.HasAnyIdeoWithMeme(MousekinDefOf.HAR_Xenophilia);
+
+            return Utils.IsMousekin(a.def.basicMemberKind) && !Utils.IsMousekin(b.def.basicMemberKind) && !hasHarXenophiliaMeme;
         }
     }
 }
