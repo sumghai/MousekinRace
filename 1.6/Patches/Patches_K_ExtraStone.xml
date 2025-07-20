@@ -83,7 +83,39 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="Mousekin_TownSquare"]/comps/li[@Class="MousekinRace.CompProperties_TownSquare"]/acceptablePavedTerrainDefs</xpath>
 					<value>
-						<li>TileKura_DarkAndesite</li>
+						<li>FlagstoneKura_Alurgite</li>
+						<li>FlagstoneKura_Anorthosite</li>
+						<li>FlagstoneKura_Basalt</li>
+						<li>FlagstoneKura_Blueschist</li>
+						<li>FlagstoneKura_Chalk</li>
+						<li>FlagstoneKura_Charnockite</li>
+						<li>FlagstoneKura_CreoleMarble</li>
+						<li>FlagstoneKura_Dacite</li>
+						<li>FlagstoneKura_DarkAndesite</li>
+						<li>FlagstoneKura_Emperadordark</li>
+						<li>FlagstoneKura_EtowahMarble</li>
+						<li>FlagstoneKura_GreenGabbro</li>
+						<li>FlagstoneKura_GreenSchist</li>
+						<li>FlagstoneKura_Jaspillite</li>
+						<li>FlagstoneKura_Lepidolite</li>
+						<li>FlagstoneKura_Lherzolite</li>
+						<li>FlagstoneKura_Lignite</li>
+						<li>FlagstoneKura_Migmatite</li>
+						<li>FlagstoneKura_Monzonite</li>
+						<li>FlagstoneKura_Obsidian</li>
+						<li>FlagstoneKura_Prehnite</li>
+						<li>FlagstoneKura_Rhodonite</li>
+						<li>FlagstoneKura_Rhyolite</li>
+						<li>FlagstoneKura_Scoria</li>
+						<li>FlagstoneKura_Serpentinite</li>
+						<li>FlagstoneKura_Siltstone</li>
+						<li>FlagstoneKura_Sodalite</li>
+						<li>FlagstoneKura_Sovite</li>
+						<li>FlagstoneKura_Stitchtite</li>
+						<li>FlagstoneKura_Thometzekite</li>
+						<li>FlagstoneKura_VibrantDunite</li>
+						<li>FlagstoneKura_Volkonskoite</li>
+						<li>TileKura_Alurgite</li>
 						<li>TileKura_Anorthosite</li>
 						<li>TileKura_Basalt</li>
 						<li>TileKura_Blueschist</li>
@@ -91,7 +123,7 @@
 						<li>TileKura_Charnockite</li>
 						<li>TileKura_CreoleMarble</li>
 						<li>TileKura_Dacite</li>
-						<li>TileKura_VibrantDunite</li>
+						<li>TileKura_DarkAndesite</li>
 						<li>TileKura_Emperadordark</li>
 						<li>TileKura_EtowahMarble</li>
 						<li>TileKura_GreenGabbro</li>
@@ -103,38 +135,18 @@
 						<li>TileKura_Migmatite</li>
 						<li>TileKura_Monzonite</li>
 						<li>TileKura_Obsidian</li>
+						<li>TileKura_Prehnite</li>
+						<li>TileKura_Rhodonite</li>
 						<li>TileKura_Rhyolite</li>
 						<li>TileKura_Scoria</li>
 						<li>TileKura_Serpentinite</li>
 						<li>TileKura_Siltstone</li>
+						<li>TileKura_Sodalite</li>
 						<li>TileKura_Sovite</li>
+						<li>TileKura_Stitchtite</li>
 						<li>TileKura_Thometzekite</li>
-						<li>FlagstoneDarkAndesite</li>
-						<li>FlagstoneAnorthosite</li>
-						<li>FlagstoneBasalt</li>
-						<li>FlagstoneBlueschist</li>
-						<li>FlagstoneChalk</li>
-						<li>FlagstoneCharnockite</li>
-						<li>FlagstoneCreoleMarble</li>
-						<li>FlagstoneDacite</li>
-						<li>FlagstoneVibrantDunite</li>
-						<li>FlagstoneEmperadordark</li>
-						<li>FlagstoneEtowahMarble</li>
-						<li>FlagstoneGreenGabbro</li>
-						<li>FlagstoneGreenSchist</li>
-						<li>FlagstoneJaspillite</li>
-						<li>FlagstoneLepidolite</li>
-						<li>FlagstoneLherzolite</li>
-						<li>FlagstoneLignite</li>
-						<li>FlagstoneMigmatite</li>
-						<li>FlagstoneMonzonite</li>
-						<li>FlagstoneObsidian</li>
-						<li>FlagstoneRhyolite</li>
-						<li>FlagstoneScoria</li>
-						<li>FlagstoneSerpentinite</li>
-						<li>FlagstoneSiltstone</li>
-						<li>FlagstoneSovite</li>
-						<li>FlagstoneThometzekite</li>
+						<li>TileKura_VibrantDunite</li>
+						<li>TileKura_Volkonskoite</li>
 					</value>
 				</li>
 
