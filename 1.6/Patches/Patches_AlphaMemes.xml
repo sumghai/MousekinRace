@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Memes</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- Ensure Mousekin faction ideologies only use default funerals (and not Alpha Memes' random funeral precepts/types) -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/FactionDef[contains(defName, "Mousekin")]/modExtensions</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/FactionDef[contains(defName, "Mousekin")]</xpath>
+						<value>
+							<modExtensions/>
+						</value>
+					</nomatch>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[contains(defName, "Mousekin")]/modExtensions</xpath>
+					<value>
+						<li Class="AlphaMemes.FuneralFramework_FactionDefExtension">
+							<defaultFuneral>true</defaultFuneral>
+						</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
