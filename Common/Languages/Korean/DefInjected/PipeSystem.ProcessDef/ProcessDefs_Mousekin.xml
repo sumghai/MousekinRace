@@ -55,4 +55,13 @@
 	<!-- EN: Ferment 25 Mousekin mead must into 25 Mousekin mead -->
 	<Mousekin_WortMeadToMead.labelOverride>마우스킨 미드 25개를 마우스킨 미드 25개로 바꿉니다</Mousekin_WortMeadToMead.labelOverride>
 	
+	<!-- EN: Ferment root beer syrup into root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.label>루트 비어 시럽 루트 비어 발효</Mousekin_SyrupRootBeerToRootBeer.label>
+	
+	<!-- EN: Turns 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.description>1 마우스킨 루트 비어 시럽을 25 마우스킨 루트 비어로 변환.</Mousekin_SyrupRootBeerToRootBeer.description>
+	
+	<!-- EN: Ferment 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.labelOverride>마우스킨 루트 비어 시럽 1개를 25개의 마우스킨 루트 비어로 발효시키세요</Mousekin_SyrupRootBeerToRootBeer.labelOverride>
+	
 </LanguageData>

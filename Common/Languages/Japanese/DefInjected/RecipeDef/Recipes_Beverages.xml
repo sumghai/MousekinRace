@@ -28,4 +28,13 @@
 	<!-- EN: Making Mousekin mead must -->
 	<Mousekin_Make_WortMead.jobString>マウスキン蜂蜜酒のムストを作成中</Mousekin_Make_WortMead.jobString>
 	
+	<!-- EN: make Mousekin root beer syrup -->
+	<Mousekin_Make_SyrupRootBeer.label>マウスキンルートビアシロップを作る</Mousekin_Make_SyrupRootBeer.label>
+	
+	<!-- EN: Make Mousekin root beer syrup from healroot. -->
+	<Mousekin_Make_SyrupRootBeer.description>ヒールルートでマウスキンルートビアシロップを作ります.</Mousekin_Make_SyrupRootBeer.description>
+	
+	<!-- EN: Making Mousekin root beer syrup -->
+	<Mousekin_Make_SyrupRootBeer.jobString>マウスキンルートビアシロップを作成中</Mousekin_Make_SyrupRootBeer.jobString>
+	
 </LanguageData>

@@ -128,7 +128,7 @@
 			<!-- Beverages -->
 			<li Class="StockGenerator_Tag">
 				<tradeTag>Mousekin_TradeGoods_Beverages</tradeTag>
-				<thingDefCountRange>3</thingDefCountRange>
+				<thingDefCountRange>4</thingDefCountRange>
 				<countRange>20~50</countRange>
 				<price>Cheap</price>
 			</li>
@@ -190,6 +190,7 @@
 			</li>
 			
 			<!-- Mousekin Potions -->
+			
 			<li Class="StockGenerator_Tag">
 				<tradeTag>Mousekin_TradeGoods_Potions</tradeTag>
 				<thingDefCountRange>2</thingDefCountRange>
@@ -213,6 +214,11 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>MedicineIndustrial</thingDef>
 				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Mousekin_SyrupRootBeer</thingDef>
+				<price>Cheap</price>
 			</li>
 			
 		</stockGenerators>

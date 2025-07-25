@@ -41,18 +41,27 @@
 	<Mousekin_WortLagerToLager.label>麦汁をラガーに発酵させる</Mousekin_WortLagerToLager.label>
 	
 	<!-- EN: Turns 25 Mousekin lager wort into 25 Mousekin lager -->
-	<Mousekin_WortLagerToLager.description>50杯分のマウスキン麦汁を25杯分のマウスキンラガーに発酵させる.</Mousekin_WortLagerToLager.description>
+	<Mousekin_WortLagerToLager.description>25杯分のマウスキン麦汁を25杯分のマウスキンラガーに発酵させる.</Mousekin_WortLagerToLager.description>
 	
 	<!-- EN: Ferment 25 Mousekin lager wort into 25 Mousekin lager -->
-	<Mousekin_WortLagerToLager.labelOverride>50杯分のマウスキン麦汁を25杯分のマウスキンラガーに発酵させる</Mousekin_WortLagerToLager.labelOverride>
+	<Mousekin_WortLagerToLager.labelOverride>25杯分のマウスキン麦汁を25杯分のマウスキンラガーに発酵させる</Mousekin_WortLagerToLager.labelOverride>
 	
 	<!-- EN: Ferment mead must into mead -->
 	<Mousekin_WortMeadToMead.label>蜂蜜酒のムストを蜂蜜酒に発酵させる</Mousekin_WortMeadToMead.label>
 	
 	<!-- EN: Turns 25 Mousekin mead must into 25 Mousekin mead -->
-	<Mousekin_WortMeadToMead.description>50杯分のマウスキン蜂蜜酒のムストを25杯分のマウスキン蜂蜜酒に発酵させる.</Mousekin_WortMeadToMead.description>
+	<Mousekin_WortMeadToMead.description>25杯分のマウスキン蜂蜜酒のムストを25杯分のマウスキン蜂蜜酒に発酵させる.</Mousekin_WortMeadToMead.description>
 	
 	<!-- EN: Ferment 25 Mousekin mead must into 25 Mousekin mead -->
-	<Mousekin_WortMeadToMead.labelOverride>50杯分のマウスキン蜂蜜酒のムストを25杯分のマウスキン蜂蜜酒に発酵させる</Mousekin_WortMeadToMead.labelOverride>
+	<Mousekin_WortMeadToMead.labelOverride>25杯分のマウスキン蜂蜜酒のムストを25杯分のマウスキン蜂蜜酒に発酵させる</Mousekin_WortMeadToMead.labelOverride>
+	
+	<!-- EN: Ferment root beer syrup into root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.label>ルートビアシロップをルートビアに発酵させる</Mousekin_SyrupRootBeerToRootBeer.label>
+	
+	<!-- EN: Turns 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.description>1瓶のマウスキンルートビアシロップを25杯分のマウスキンルートビアに発酵させる.</Mousekin_SyrupRootBeerToRootBeer.description>
+	
+	<!-- EN: Ferment 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.labelOverride>1瓶のマウスキンルートビアシロップを25杯分のマウスキンルートビアに発酵させる</Mousekin_SyrupRootBeerToRootBeer.labelOverride>
 	
 </LanguageData>

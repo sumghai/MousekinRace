@@ -55,4 +55,13 @@
 	<!-- EN: Ferment 25 Mousekin mead must into 25 Mousekin mead -->
 	<Mousekin_WortMeadToMead.labelOverride>將25單位白鼠族蜂蜜酒原漿發酵成白鼠族蜂蜜酒</Mousekin_WortMeadToMead.labelOverride>
 	
+	<!-- EN: Ferment root beer syrup into root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.label>將根汁啤酒糖漿發酵成根汁啤酒</Mousekin_SyrupRootBeerToRootBeer.label>
+	
+	<!-- EN: Turns 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.description>將1瓶白鼠族根汁啤酒糖漿發酵成25單位白鼠族根汁啤酒。</Mousekin_SyrupRootBeerToRootBeer.description>
+	
+	<!-- EN: Ferment 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.labelOverride>將1瓶白鼠族根汁啤酒糖漿發酵成25單位白鼠族根汁啤酒</Mousekin_SyrupRootBeerToRootBeer.labelOverride>
+	
 </LanguageData>

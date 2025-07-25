@@ -44,6 +44,20 @@
 	</ThoughtDef>
 	
 	<ThoughtDef>
+		<defName>Humanlike_Thought_DrankRootBeer</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Items/Beverage/Mousekin_DrinkRootBeer/Mousekin_DrinkRootBeer_a</icon>
+		<durationDays>0.333</durationDays>
+		<stages>
+			<li>
+				<label>drank root beer</label>
+				<description>So bubbly, cloying...and happy...</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Humanlike_Thought_FlowerDanceTerrible</defName>
 		<thoughtClass>Thought_AttendedRitual</thoughtClass>
 		<durationDays>6</durationDays>

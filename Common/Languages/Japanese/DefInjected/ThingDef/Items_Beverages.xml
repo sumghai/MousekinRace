@@ -121,4 +121,16 @@
 	<!-- (RW 1.5 only) EN: Drinking {0}. -->
 	<Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>{0}を飲んでいる</Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>
 	
+	<!-- EN: Mousekin root beer -->
+	<Mousekin_DrinkRootBeer.label>マウスキンルートビア</Mousekin_DrinkRootBeer.label>
+	
+	<!-- EN: A non-alcoholic carbonated beverage traditionally brewed from medicinal roots, spices and molasses. Makes drinkers happy and improves both digestion and blood filtration. -->
+	<Mousekin_DrinkRootBeer.description>伝統的に薬用植物の根、スパイス、および糖蜜から製造されるノンアルコールの炭酸飲料.飲用者に喜びをもたらし、消化機能と血液の浄化を改善します.</Mousekin_DrinkRootBeer.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkRootBeer.ingestible.ingestCommandString>{0}を飲む</Mousekin_DrinkRootBeer.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkRootBeer.ingestible.ingestReportString>{0}を飲んでいる</Mousekin_DrinkRootBeer.ingestible.ingestReportString>
+	
 </LanguageData>

@@ -164,4 +164,30 @@
 		<autoExtract>false</autoExtract>
 	</PipeSystem.ProcessDef>
 	
+	<PipeSystem.ProcessDef ParentName="Mousekin_BrewingProcessBase">
+		<defName>Mousekin_SyrupRootBeerToRootBeer</defName>
+		<label>Ferment root beer syrup into root beer</label>
+		<description>Turns 1 Mousekin root beer syrup into 25 Mousekin root beer</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 1 Mousekin root beer syrup into 25 Mousekin root beer</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Mousekin_SyrupRootBeer</thing>
+				<countNeeded>1</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>180000</ticks>
+		<results>
+			<li>
+				<thing>Mousekin_DrinkRootBeer</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<autoExtract>false</autoExtract>
+		<!-- Close to room temperature -->
+		<minSafeTemperature>16</minSafeTemperature>
+		<maxSafeTemperature>28</maxSafeTemperature>
+	</PipeSystem.ProcessDef>
+	
 </Defs>

@@ -121,4 +121,16 @@
 	<!-- (RW 1.5 only) EN: Drinking {0}. -->
 	<Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>Пьет {0}.</Mousekin_DrinkMeadLegendary.ingestible.ingestReportString>
 	
+	<!-- EN: Mousekin root beer -->
+	<Mousekin_DrinkRootBeer.label>корневого пива Мышкиных</Mousekin_DrinkRootBeer.label>
+	
+	<!-- EN: A non-alcoholic carbonated beverage traditionally brewed from medicinal roots, spices and molasses. Makes drinkers happy and improves both digestion and blood filtration. -->
+	<Mousekin_DrinkRootBeer.description>Безалкогольный газированный напиток, традиционно приготовленный из лекарственных корней, специй и мелассы. Делает пьющих счастливыми и улучшает как пищеварение, так и фильтрацию крови.</Mousekin_DrinkRootBeer.description>
+	
+	<!-- EN: Drink {0} -->
+	<Mousekin_DrinkRootBeer.ingestible.ingestCommandString>Выпить {0}</Mousekin_DrinkRootBeer.ingestible.ingestCommandString>
+	
+	<!-- EN: Drinking {0}. -->
+	<Mousekin_DrinkRootBeer.ingestible.ingestReportString>Пьет {0}.</Mousekin_DrinkRootBeer.ingestible.ingestReportString>
+	
 </LanguageData>

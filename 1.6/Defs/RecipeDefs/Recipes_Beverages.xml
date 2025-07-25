@@ -126,5 +126,40 @@
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>Brewing</researchPrerequisite>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Mousekin_Make_SyrupRootBeer</defName>
+		<label>make Mousekin root beer syrup</label>
+		<description>Make Mousekin root beer syrup from healroot.</description>
+		<jobString>Making Mousekin root beer syrup</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchBrewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_SyrupRootBeer>25</Mousekin_SyrupRootBeer>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Brewing</researchPrerequisite>
+	</RecipeDef>
 
 </Defs>

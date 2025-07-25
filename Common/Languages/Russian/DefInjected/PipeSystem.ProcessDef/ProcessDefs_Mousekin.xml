@@ -55,4 +55,13 @@
 	<!-- EN: Ferment 25 Mousekin mead must into 25 Mousekin mead -->
 	<Mousekin_WortMeadToMead.labelOverride>Сбродите 25 сусла для медовухи из Мышкина в 25 медовухи</Mousekin_WortMeadToMead.labelOverride>
 	
+	<!-- EN: Ferment root beer syrup into root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.label>Сбродить сироп рутбира в корневое пиво</Mousekin_SyrupRootBeerToRootBeer.label>
+	
+	<!-- EN: Turns 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.description>Сбродите 1 Мышкиных сироп рутбира в 25 Мышкиных рутбиром.</Mousekin_SyrupRootBeerToRootBeer.description>
+	
+	<!-- EN: Ferment 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.labelOverride>Сбродите 1 Мышкиных сироп рутбира в 25 Мышкиных рутбиром</Mousekin_SyrupRootBeerToRootBeer.labelOverride>
+	
 </LanguageData>

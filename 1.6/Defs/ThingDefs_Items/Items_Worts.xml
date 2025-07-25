@@ -43,5 +43,20 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_WortBase">
+		<defName>Mousekin_SyrupRootBeer</defName>
+		<label>Mousekin root beer syrup</label>
+		<description>A concentrated mixture of medicinal herbs, spices, water and molasses, ready to be fermented into Mousekin root beer.</description>
+		<graphicData>
+			<texPath>Things/Items/Beverage/Mousekin_SyrupRootBeer</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.05</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<comps Inherit="false" />
+	</ThingDef>
 
 </Defs>

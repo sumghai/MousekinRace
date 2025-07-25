@@ -69,6 +69,12 @@
 
 	<!-- EN: blackout -->
 	<Mousekin_MeadHigh.stages.4.label>昏酔</Mousekin_MeadHigh.stages.4.label>
+	
+	<!-- EN: Drank root beer -->
+	<Mousekin_DrankRootBeer.label>ルートビアを飲んだ</Mousekin_DrankRootBeer.label>
+	
+	<!-- EN: Consuming Mousekin root beer provides a short-lived burst of energy, as well as improving digestion and blood filtration by 10% for 12 hours. -->
+	<Mousekin_DrankRootBeer.description>マウスキンのルートビアを飲むと、短時間のエネルギーの爆発的な増加に加え、12時間の間にわたって消化と血液のろ過が10%向上する.</Mousekin_DrankRootBeer.description>	
 
 	<!-- EN: Satiated hunger (from country bread) -->
 	<Mousekin_SatiatedHunger10.label>満腹感（田舎パン）</Mousekin_SatiatedHunger10.label>

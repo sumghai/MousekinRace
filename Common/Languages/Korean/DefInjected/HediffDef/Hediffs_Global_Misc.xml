@@ -69,6 +69,12 @@
 
 	<!-- EN: blackout -->
 	<Mousekin_MeadHigh.stages.4.label>정전</Mousekin_MeadHigh.stages.4.label>
+	
+	<!-- EN: Drank root beer -->
+	<Mousekin_DrankRootBeer.label>루트 비어를 마셨다</Mousekin_DrankRootBeer.label>
+	
+	<!-- EN: Consuming Mousekin root beer provides a short-lived burst of energy, as well as improving digestion and blood filtration by 10% for 12 hours. -->
+	<Mousekin_DrankRootBeer.description>마우스킨 루트 비어를 마시면 일시적인 에너지가 넘치고, 12시간 동안 소화와 혈액 여과 능력이 10% 향상됩니다.</Mousekin_DrankRootBeer.description>	
 
 	<!-- EN: Satiated hunger (from country bread) -->
 	<Mousekin_SatiatedHunger10.label>포만감있는 허기 (시골 빵)</Mousekin_SatiatedHunger10.label>

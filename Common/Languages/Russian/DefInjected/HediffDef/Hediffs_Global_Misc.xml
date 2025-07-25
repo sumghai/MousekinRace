@@ -69,6 +69,12 @@
 
 	<!-- EN: blackout -->
 	<Mousekin_MeadHigh.stages.4.label>Потеря сознания</Mousekin_MeadHigh.stages.4.label>
+	
+	<!-- EN: Drank root beer -->
+	<Mousekin_DrankRootBeer.label>пил корневое пиво</Mousekin_DrankRootBeer.label>
+	
+	<!-- EN: Consuming Mousekin root beer provides a short-lived burst of energy, as well as improving digestion and blood filtration by 10% for 12 hours. -->
+	<Mousekin_DrankRootBeer.description>Употребление корневого пива Мышкиных дает кратковременный прилив энергии, а также улучшает пищеварение и фильтрацию крови на 10% в течение 12 часов.</Mousekin_DrankRootBeer.description>	
 
 	<!-- EN: Satiated hunger (from country bread) -->
 	<Mousekin_SatiatedHunger10.label>Устранение голода (деревенский хлеб)</Mousekin_SatiatedHunger10.label>

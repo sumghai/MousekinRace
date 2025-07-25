@@ -69,6 +69,12 @@
 
 	<!-- EN: blackout -->
 	<Mousekin_MeadHigh.stages.4.label>不省人事</Mousekin_MeadHigh.stages.4.label>
+	
+	<!-- EN: Drank root beer -->
+	<Mousekin_DrankRootBeer.label>喝了根汁啤酒</Mousekin_DrankRootBeer.label>
+	
+	<!-- EN: Consuming Mousekin root beer provides a short-lived burst of energy, as well as improving digestion and blood filtration by 10% for 12 hours. -->
+	<Mousekin_DrankRootBeer.description>飲用白鼠族根汁啤酒可提供短暫的能量爆發，並可使消化與血液過濾提升10%，持續12小時。</Mousekin_DrankRootBeer.description>	
 
 	<!-- EN: Satiated hunger (from country bread) -->
 	<Mousekin_SatiatedHunger10.label>飽腹感（鄉村麵包）</Mousekin_SatiatedHunger10.label>

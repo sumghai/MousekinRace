@@ -28,4 +28,13 @@
 	<!-- EN: Making Mousekin mead must -->
 	<Mousekin_Make_WortMead.jobString>製作白鼠族蜂蜜酒原漿。</Mousekin_Make_WortMead.jobString>
 	
+	<!-- EN: make Mousekin root beer syrup -->
+	<Mousekin_Make_SyrupRootBeer.label>製作白鼠族根汁啤酒糖浆</Mousekin_Make_SyrupRootBeer.label>
+	
+	<!-- EN: Make Mousekin root beer syrup from healroot. -->
+	<Mousekin_Make_SyrupRootBeer.description>用藥草製作白鼠族根汁啤酒糖浆。</Mousekin_Make_SyrupRootBeer.description>
+	
+	<!-- EN: Making Mousekin root beer syrup -->
+	<Mousekin_Make_SyrupRootBeer.jobString>製作白鼠族根汁啤酒糖浆。</Mousekin_Make_SyrupRootBeer.jobString>
+	
 </LanguageData>

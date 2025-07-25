@@ -24,6 +24,10 @@
 						<drug>Mousekin_DrinkMead</drug>
 						<allowedForJoy>true</allowedForJoy>
 					</li>
+					<li>
+						<drug>Mousekin_DrinkRootBeer</drug>
+						<allowedForJoy>true</allowedForJoy>
+					</li>
 				</value>
 			</li>
 		

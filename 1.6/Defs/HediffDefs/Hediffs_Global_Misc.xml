@@ -191,6 +191,42 @@
 		</stages>
 	</HediffDef>
 	
+	<!-- Minor health buffs from consuming Mousekin root beer -->
+	
+	<HediffDef>
+		<defName>Mousekin_DrankRootBeer</defName>
+		<label>Drank root beer</label>
+		<description>Consuming Mousekin root beer provides a short-lived burst of energy, as well as improving digestion and blood filtration by 10% for 12 hours.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0,176,240)</defaultLabelColor>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				 <restFallFactor>0.90</restFallFactor>
+				 <capMods>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.10</offset>
+					</li>
+					
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.10</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
 	<!-- Satiated hunger from eating various meals (12 hours) -->
 	
 	<HediffDef Name="Mousekin_SatiatedHungerBase" Abstract="True">

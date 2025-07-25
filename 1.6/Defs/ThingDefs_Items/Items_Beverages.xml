@@ -13,7 +13,8 @@
 		<ingestible>
 			<joyKind>Chemical</joyKind>
 			<nurseable>true</nurseable>
-			<drugCategory>Social</drugCategory><ingestSound>Ingest_Drink</ingestSound>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
 			<ingestHoldOffsetStanding>
 				<northDefault>
 					<offset>(0.18,0,0)</offset>
@@ -202,6 +203,47 @@
 				<minToleranceToAddict>0.25</minToleranceToAddict>
 				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
 				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>10</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Mousekin root beer  -->
+	<ThingDef ParentName="Mousekin_BeverageBase">
+		<defName>Mousekin_DrinkRootBeer</defName>
+		<label>Mousekin root beer</label>
+		<description>A non-alcoholic carbonated beverage traditionally brewed from medicinal roots, spices and molasses. Makes drinkers happy and improves both digestion and blood filtration.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mousekin_DrankRootBeer</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Items/Beverage/Mousekin_DrinkRootBeer</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<Nutrition>0.07</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<joyKind>Gluttonous</joyKind>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.1</joy>
+			<tasteThought>Humanlike_Thought_DrankRootBeer</tasteThought>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Mousekin_DrankRootBeer</hediffDef>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<techLevel>Medieval</techLevel>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<!-- no associated chemical -->
+				<teetotalerCanConsume>true</teetotalerCanConsume>
 				<listOrder>10</listOrder>
 			</li>
 		</comps>

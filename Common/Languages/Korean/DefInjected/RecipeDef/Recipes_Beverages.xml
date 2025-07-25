@@ -28,4 +28,13 @@
 	<!-- EN: Making Mousekin mead must -->
 	<Mousekin_Make_WortMead.jobString>마우스킨 미드워트 만들기.</Mousekin_Make_WortMead.jobString>
 	
+	<!-- EN: make Mousekin root beer syrup -->
+	<Mousekin_Make_SyrupRootBeer.label>마우스킨 루트 비어 시럽 만들기</Mousekin_Make_SyrupRootBeer.label>
+	
+	<!-- EN: Make Mousekin root beer syrup from healroot. -->
+	<Mousekin_Make_SyrupRootBeer.description>뿌리 추출물로 마우스킨 루트 비어 시럽을 만드세요.</Mousekin_Make_SyrupRootBeer.description>
+	
+	<!-- EN: Making Mousekin root beer syrup -->
+	<Mousekin_Make_SyrupRootBeer.jobString>마우스킨 루트 비어 시럽 만들기.</Mousekin_Make_SyrupRootBeer.jobString>
+	
 </LanguageData>

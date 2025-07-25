@@ -838,6 +838,8 @@
 					<li>Mousekin_HatWoodsman</li>
 					<li>Mousekin_MeleeWeapon_PikeThunder</li>
 					<li>Mousekin_RangedWeapon_MusketShort</li>
+					<li>Mousekin_SyrupRootBeer</li>
+					<li>Mousekin_DrinkRootBeer</li>
 				</factionRestrictedCraftableThingDefs>
 				<recruitableColonistSettings>
 					<defaultSpousePawnKind>MousekinIndyTownFarmer</defaultSpousePawnKind>

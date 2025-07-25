@@ -427,6 +427,13 @@
 				<price>Cheap</price>
 			</li>
 			
+			<!-- Root beer syrup -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mousekin_SyrupRootBeer</thingDef>
+				<countRange>100~200</countRange>
+				<price>Cheap</price>
+			</li>
+			
 			<!-- Buying (Indy towns are more accepting of industrial/advanced goods) -->
 			
 			<li Class="StockGenerator_BuySingleDef">
