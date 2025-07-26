@@ -36,7 +36,7 @@
 		<label>Mousekin beverages</label>
 		<parent>Foods</parent>
 		<resourceReadoutRoot>false</resourceReadoutRoot>
-		<iconPath>Things/Items/Beverage/DrinkChonkoNutBrew/DrinkChonkoNutBrew_b</iconPath>
+		<iconPath>Things/Items/Beverage/Mousekin_DrinkChonkoNutBrew/Mousekin_DrinkChonkoNutBrew_b</iconPath>
 	</ThingCategoryDef>
 
 </Defs>

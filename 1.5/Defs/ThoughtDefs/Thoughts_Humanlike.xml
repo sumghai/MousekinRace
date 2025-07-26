@@ -32,7 +32,7 @@
 	<ThoughtDef>
 		<defName>Humanlike_Thought_DrankChonkoNutBrew</defName>
 		<showBubble>true</showBubble>
-		<icon>Things/Items/Beverage/DrinkChonkoNutBrew/DrinkChonkoNutBrew_a</icon>
+		<icon>Things/Items/Beverage/Mousekin_DrinkChonkoNutBrew/Mousekin_DrinkChonkoNutBrew_a</icon>
 		<durationDays>0.333</durationDays>
 		<stages>
 			<li>
