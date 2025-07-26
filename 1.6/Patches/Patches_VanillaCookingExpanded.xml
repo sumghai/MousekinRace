@@ -200,6 +200,29 @@
 					</value>
 				</li>
 				
+				<!-- Require sugar for producing Mousekin root beer syrup -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="Mousekin_Make_SyrupRootBeer"]/ingredients</xpath>
+					<value>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>VCE_RawSugar</li>
+								</thingDefs>
+							</filter>
+							<count>2</count>
+						</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="Mousekin_Make_SyrupRootBeer"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawSugar</li>
+					</value>
+				</li>
+				
 			</operations>
 		</match>
 	</Operation>
