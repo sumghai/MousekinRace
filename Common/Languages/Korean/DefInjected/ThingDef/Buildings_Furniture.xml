@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin stool -->
+	<Mousekin_Stool.label>마우스킨 의자</Mousekin_Stool.label>
+	
+	<!-- EN: A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere. -->
+	<Mousekin_Stool.description>앉을 수 있는 간단한 받침대입니다.</Mousekin_Stool.description>
+	
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>마우스킨 촛불 보루</Mousekin_FurnitureWallCandle.label>
 	

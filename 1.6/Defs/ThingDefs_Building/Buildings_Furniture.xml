@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- ========================= Mousekin variants of vanilla furniture ==========================-->
+	<!-- See Patches folder for PatchOps that add custom Name attributes to each furniture -->
+	
+	<!-- Mousekin stool -->
+	
+	<ThingDef ParentName="Core_Stool">
+		<defName>Mousekin_Stool</defName>
+		<label>Mousekin stool</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Stool</texPath>
+		</graphicData>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+	</ThingDef>
+	
+	
 	<!-- ========================= Lighting ==========================-->
 
 	<!-- Mousekin Candle Sconce -->

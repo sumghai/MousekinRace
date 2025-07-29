@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin stool -->
+	<Mousekin_Stool.label>白鼠族板凳</Mousekin_Stool.label>
+	
+	<!-- EN: A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere. -->
+	<Mousekin_Stool.description>一種可以坐的簡單板凳。不算很舒適，但有總比沒有好。可以放置在桌子、工作台旁等等。</Mousekin_Stool.description>
+
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>白鼠族燭台</Mousekin_FurnitureWallCandle.label>
 	

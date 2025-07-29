@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Add custom Name attributes to selected vanilla furniture, so that we can derive variants elsewhere -->
+		
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Stool"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Stool</value>
+			</li>
+		
+		</operations>
+	</Operation>
+</Patch>
