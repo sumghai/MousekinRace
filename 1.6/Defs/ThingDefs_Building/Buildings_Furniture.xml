@@ -15,6 +15,9 @@
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
+		<building>
+			<paintable>false</paintable>
+		</building>
 	</ThingDef>
 	
 	
