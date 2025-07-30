@@ -4,6 +4,22 @@
 	<!-- ========================= Mousekin variants of vanilla furniture ==========================-->
 	<!-- See Patches folder for PatchOps that add custom Name attributes to each furniture -->
 	
+	<!-- Mousekin dining chair -->
+	
+	<ThingDef ParentName="Core_DiningChair">
+		<defName>Mousekin_Chair</defName>
+		<label>Mousekin chair</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Chair</texPath>
+		</graphicData>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<building>
+			<paintable>false</paintable>
+		</building>
+	</ThingDef>
+	
 	<!-- Mousekin stool -->
 	
 	<ThingDef ParentName="Core_Stool">

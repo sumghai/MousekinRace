@@ -6,9 +6,31 @@
 			<!-- Add custom Name attributes to selected vanilla furniture, so that we can derive variants elsewhere -->
 		
 			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="DiningChair"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_DiningChair</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
 				<xpath>Defs/ThingDef[defName="Stool"]</xpath>
 				<attribute>Name</attribute>
 				<value>Core_Stool</value>
+			</li>
+			
+			<!-- Disable art comp and tabs from Mousekin furniture variants (patchops are used to ensure compatibility with third-party mods) -->
+			
+			<li Class="PostInheritanceOperation.Patch">
+				<operation Class="PatchOperationSequence">
+					<operations>
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/ThingDef[defName="Mousekin_Chair"]/comps/li[@Class="CompProperties_Art"]</xpath>
+						</li>
+						
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/ThingDef[defName="Mousekin_Chair"]/inspectorTabs/li[.="ITab_Art"]</xpath>
+						</li>
+					</operations>
+				</operation>
 			</li>
 		
 		</operations>

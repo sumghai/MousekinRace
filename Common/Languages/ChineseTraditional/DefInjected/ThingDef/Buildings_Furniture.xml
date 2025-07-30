@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin chair -->
+	<Mousekin_Chair.label>白鼠族扶手椅</Mousekin_Chair.label>
+	
+	<!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
+	<Mousekin_Chair.description>一種舒適、優雅的餐椅。可以放置在桌子、工作台旁等等。</Mousekin_Chair.description>
+
 	<!-- EN: Mousekin stool -->
 	<Mousekin_Stool.label>白鼠族板凳</Mousekin_Stool.label>
 	
