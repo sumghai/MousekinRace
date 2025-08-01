@@ -31,7 +31,7 @@ namespace MousekinRace
 
         private bool Applies(Faction a, Faction b)
         {
-            bool hasHarXenophiliaMeme = b.ideos.AllIdeos.Any() && b.ideos.HasAnyIdeoWithMeme(MousekinDefOf.HAR_Xenophilia);
+            bool hasHarXenophiliaMeme = (b.ideos?.AllIdeos.Any() ?? false) && (b.ideos?.HasAnyIdeoWithMeme(MousekinDefOf.HAR_Xenophilia) ?? false);
 
             return Utils.IsMousekin(a.def.basicMemberKind) && !Utils.IsMousekin(b.def.basicMemberKind) && !hasHarXenophiliaMeme;
         }
