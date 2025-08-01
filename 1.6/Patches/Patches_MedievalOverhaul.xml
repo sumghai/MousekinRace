@@ -243,6 +243,20 @@
 						<li>DankPyon_Floor_Windmill_Slate</li>
 					</value>
 				</li>
+				
+				<!-- Allow Mine Entrances to have a small chance of producing various gemstones as bonus products -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/bonusMineables</xpath>
+					<value>					
+						<DankPyon_Amber>1</DankPyon_Amber>
+						<DankPyon_Citrine>0.8</DankPyon_Citrine>
+						<DankPyon_Emerald>0.6</DankPyon_Emerald>
+						<DankPyon_Onyx>0.3</DankPyon_Onyx>
+						<DankPyon_Ruby>0.6</DankPyon_Ruby>
+						<DankPyon_Sapphire>0.6</DankPyon_Sapphire>
+					</value>
+				</li>
 			
 			</operations>
 		</match>
