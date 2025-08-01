@@ -44,6 +44,26 @@
 					</operations>
 				</operation>
 			</li>
+			
+			<!-- Disable styling of Mousekin furniture variants -->
+			<li Class="PostInheritanceOperation.Patch">
+				<operation Class="PatchOperationSequence">
+					<operations>
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Chair" or
+								defName="Mousekin_Stool" or
+								defName="Mousekin_Table1x1c" or
+								defName="Mousekin_Table1x1r" or
+								defName="Mousekin_Table1x2c" or
+								defName="Mousekin_Table1x3c" or
+								defName="Mousekin_Table2x2c" or
+								defName="Mousekin_Table2x2r"
+							]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+						</li>
+					</operations>
+				</operation>
+			</li>
 		
 		</operations>
 	</Operation>
