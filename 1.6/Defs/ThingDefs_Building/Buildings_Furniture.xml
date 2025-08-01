@@ -12,6 +12,9 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/Mousekin_Chair</texPath>
 		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
@@ -28,6 +31,9 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/Mousekin_Stool</texPath>
 		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
