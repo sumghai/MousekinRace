@@ -12,6 +12,42 @@
 	
 	<!-- EN: A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere. -->
 	<Mousekin_Stool.description>一種可以坐的簡單板凳。不算很舒適，但有總比沒有好。可以放置在桌子、工作台旁等等。</Mousekin_Stool.description>
+	
+	<!-- EN: Mousekin table (1x1) -->
+	<Mousekin_Table1x1c.label>白鼠族桌子(1x1)</Mousekin_Table1x1c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x1c.description>當椅子放置在桌子旁時，人們就會在此用餐。</Mousekin_Table1x1c.description>
+	
+	<!-- EN: Mousekin table (1x1 round) -->
+	<Mousekin_Table1x1r.label>白鼠族桌子(1x1圓)</Mousekin_Table1x1r.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x1r.description>當椅子放置在桌子旁時，人們就會在此用餐。</Mousekin_Table1x1r.description>
+	
+	<!-- EN: Mousekin table (1x2) -->
+	<Mousekin_Table1x2c.label>白鼠族桌子(1x2)</Mousekin_Table1x2c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x2c.description>當椅子放置在桌子旁時，人們就會在此用餐。</Mousekin_Table1x2c.description>
+	
+	<!-- EN: Mousekin table (1x3) -->
+	<Mousekin_Table1x3c.label>白鼠族桌子(1x3)</Mousekin_Table1x3c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x3c.description>當椅子放置在桌子旁時，人們就會在此用餐。</Mousekin_Table1x3c.description>
+	
+	<!-- EN: Mousekin table (2x2) -->
+	<Mousekin_Table2x2c.label>白鼠族桌子(2x2)</Mousekin_Table2x2c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table2x2c.description>當椅子放置在桌子旁時，人們就會在此用餐。</Mousekin_Table2x2c.description>
+	
+	<!-- EN: Mousekin table (2x2 round) -->
+	<Mousekin_Table2x2r.label>白鼠族桌子(2x2圓)</Mousekin_Table2x2r.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table2x2r.description>當椅子放置在桌子旁時，人們就會在此用餐。</Mousekin_Table2x2r.description>
 
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>白鼠族燭台</Mousekin_FurnitureWallCandle.label>

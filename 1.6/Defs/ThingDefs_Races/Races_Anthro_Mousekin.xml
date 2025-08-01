@@ -784,6 +784,12 @@
 					<li>Mousekin_Nitrary</li>
 					<li>Mousekin_ResearchBench</li>
 					<li>Mousekin_Stool</li>
+					<li>Mousekin_Table1x1c</li>
+					<li>Mousekin_Table1x1r</li>
+					<li>Mousekin_Table1x2c</li>
+					<li>Mousekin_Table1x3c</li>
+					<li>Mousekin_Table2x2c</li>
+					<li>Mousekin_Table2x2r</li>
 					<li>Mousekin_TownSquare</li>
 					<li>Mousekin_WallVent</li>
 					<li>Mousekin_Windmill</li>
@@ -803,6 +809,10 @@
 					<li>HandTailoringBench</li>
 					<li>SimpleResearchBench</li>
 					<li>Stool</li>
+					<li>Table1x2c</li>
+					<li>Table2x2c</li>
+					<li>Table2x4c</li>
+					<li>Table3x3c</li>
 					<li>TableButcher</li>
 					<li>TableSculpting</li>
 					<li>TableStonecutter</li>

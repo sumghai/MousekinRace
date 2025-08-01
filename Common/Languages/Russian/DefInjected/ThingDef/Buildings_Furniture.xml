@@ -13,6 +13,42 @@
 	<!-- EN: A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere. -->
 	<Mousekin_Stool.description>Жёсткое сиденье на четырёх ножках. Не очень удобно, но лучше, чем ничего. Можно ставить рядом со столами, рабочими станками и в любых других местах.</Mousekin_Stool.description>
 	
+	<!-- EN: Mousekin table (1x1) -->
+	<Mousekin_Table1x1c.label>Мышкины стол (1x1)</Mousekin_Table1x1c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x1c.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Mousekin_Table1x1c.description>
+	
+	<!-- EN: Mousekin table (1x1 round) -->
+	<Mousekin_Table1x1r.label>Мышкины стол (1x1 круглый)</Mousekin_Table1x1r.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x1r.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Mousekin_Table1x1r.description>
+	
+	<!-- EN: Mousekin table (1x2) -->
+	<Mousekin_Table1x2c.label>Мышкины стол (1x2)</Mousekin_Table1x2c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x2c.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Mousekin_Table1x2c.description>
+	
+	<!-- EN: Mousekin table (1x3) -->
+	<Mousekin_Table1x3c.label>Мышкины стол (1x3)</Mousekin_Table1x3c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x3c.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Mousekin_Table1x3c.description>
+	
+	<!-- EN: Mousekin table (2x2) -->
+	<Mousekin_Table2x2c.label>Мышкины стол (2x2)</Mousekin_Table2x2c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table2x2c.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Mousekin_Table2x2c.description>
+	
+	<!-- EN: Mousekin table (2x2 round) -->
+	<Mousekin_Table2x2r.label>Мышкины стол (2x2 круглый)</Mousekin_Table2x2r.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table2x2r.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Mousekin_Table2x2r.description>
+	
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>Мышкин настенный подсвечник</Mousekin_FurnitureWallCandle.label>
 	

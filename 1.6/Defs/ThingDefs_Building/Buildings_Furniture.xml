@@ -36,6 +36,136 @@
 		</building>
 	</ThingDef>
 	
+	<!-- Mousekin table 1x1 square -->
+	
+	<ThingDef ParentName="Core_Table1x2c" Name="Mousekin_Table1x1Base">
+		<defName>Mousekin_Table1x1c</defName>
+		<label>Mousekin table (1x1)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Table1x1</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>375</WorkToBuild>
+			<Mass>2.5</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<size>(1,1)</size>
+		<costStuffCount>14</costStuffCount>
+		<building>
+			<paintable>false</paintable>
+		</building>
+	</ThingDef>
+	
+	<!-- Mousekin table 1x1 round (slightly larger) -->
+	
+	<ThingDef ParentName="Mousekin_Table1x1Base">
+		<defName>Mousekin_Table1x1r</defName>
+		<label>Mousekin table (1x1 round)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Table1x1round</texPath>
+			<drawOffset>(0,0.1,0)</drawOffset><!-- draw slightly above any chairs/stools -->
+			<damageData Inherit="false" />
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>65</MaxHitPoints>
+			<WorkToBuild>500</WorkToBuild>
+			<Mass>4</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<costStuffCount>22</costStuffCount>
+	</ThingDef>
+	
+	<!-- Mousekin table 1x2 rect -->
+	
+	<ThingDef ParentName="Core_Table1x2c">
+		<defName>Mousekin_Table1x2c</defName>
+		<label>Mousekin table (1x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Table1x2</texPath>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<building>
+			<paintable>false</paintable>
+		</building>
+	</ThingDef>
+	
+	<!-- Mousekin table 1x3 rect -->
+	
+	<ThingDef ParentName="Core_Table1x2c">
+		<defName>Mousekin_Table1x3c</defName>
+		<label>Mousekin table (1x3)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Table1x3</texPath>
+			<drawSize>(3,5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<WorkToBuild>1125</WorkToBuild>
+			<Mass>7.5</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<size>(1,3)</size>
+		<costStuffCount>42</costStuffCount>
+		<building>
+			<paintable>false</paintable>
+		</building>
+	</ThingDef>
+	
+	<!-- Mousekin table 2x2 square -->
+	
+	<ThingDef ParentName="Core_Table2x2c">
+		<defName>Mousekin_Table2x2c</defName>
+		<label>Mousekin table (2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Table2x2</texPath>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<rotatable>true</rotatable>
+		<building>
+			<paintable>false</paintable>
+		</building>
+	</ThingDef>
+	
+	<!-- Mousekin table 2x2 round -->
+	
+	<ThingDef ParentName="Core_Table2x2c">
+		<defName>Mousekin_Table2x2r</defName>
+		<label>Mousekin table (2x2 round)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Table2x2round</texPath>
+			<damageData Inherit="false" />
+		</graphicData>
+		<statBases>
+			<Mass>7.85</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<rotatable>true</rotatable>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<paintable>false</paintable>
+		</building>
+	</ThingDef>
 	
 	<!-- ========================= Lighting ==========================-->
 

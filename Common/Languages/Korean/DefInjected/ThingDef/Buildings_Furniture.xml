@@ -13,6 +13,42 @@
 	<!-- EN: A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere. -->
 	<Mousekin_Stool.description>앉을 수 있는 간단한 받침대입니다.</Mousekin_Stool.description>
 	
+	<!-- EN: Mousekin table (1x1) -->
+	<Mousekin_Table1x1c.label>마우스킨 식탁 (1x1)</Mousekin_Table1x1c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x1c.description>의자가 있으면 여기서 밥을 먹습니다.</Mousekin_Table1x1c.description>
+	
+	<!-- EN: Mousekin table (1x1 round) -->
+	<Mousekin_Table1x1r.label>마우스킨 식탁 (1x1 원형)</Mousekin_Table1x1r.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x1r.description>의자가 있으면 여기서 밥을 먹습니다.</Mousekin_Table1x1r.description>
+	
+	<!-- EN: Mousekin table (1x2) -->
+	<Mousekin_Table1x2c.label>마우스킨 식탁 (1x2)</Mousekin_Table1x2c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x2c.description>의자가 있으면 여기서 밥을 먹습니다.</Mousekin_Table1x2c.description>
+	
+	<!-- EN: Mousekin table (1x3) -->
+	<Mousekin_Table1x3c.label>마우스킨 식탁 (1x3)</Mousekin_Table1x3c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x3c.description>의자가 있으면 여기서 밥을 먹습니다.</Mousekin_Table1x3c.description>
+	
+	<!-- EN: Mousekin table (2x2) -->
+	<Mousekin_Table2x2c.label>마우스킨 식탁 (2x2)</Mousekin_Table2x2c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table2x2c.description>의자가 있으면 여기서 밥을 먹습니다.</Mousekin_Table2x2c.description>
+	
+	<!-- EN: Mousekin table (2x2 round) -->
+	<Mousekin_Table2x2r.label>마우스킨 식탁 (2x2 원형)</Mousekin_Table2x2r.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table2x2r.description>의자가 있으면 여기서 밥을 먹습니다.</Mousekin_Table2x2r.description>
+	
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>마우스킨 촛불 보루</Mousekin_FurnitureWallCandle.label>
 	
