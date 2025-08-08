@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin tool cabinet -->
+	<Mousekin_ToolCabinet.label>マウスキンツールキャビネット</Mousekin_ToolCabinet.label>
+	
+	<!-- EN: Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets. -->
+	<Mousekin_ToolCabinet.description>作業速度が上がります,工作台のそばに配置する必要があります.一つの工作台は,二つのツールキャビネットとだけ接続できます.</Mousekin_ToolCabinet.description>	
+	
 	<!-- EN: Mousekin Town Square -->
 	<Mousekin_TownSquare.label>マウスキン広場</Mousekin_TownSquare.label>
 	

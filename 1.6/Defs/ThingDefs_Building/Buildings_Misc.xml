@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- Mousekin tool cabinet -->
+	
+	<ThingDef ParentName="Core_ToolCabinet">
+		<defName>Mousekin_ToolCabinet</defName>
+		<label>Mousekin tool cabinet</label>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mousekin_ToolCabinet</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<color>(1,1,1)</color>
+		</graphicData>
+		<costList Inherit="false">
+			<WoodLog>75</WoodLog>
+		</costList>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>900</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+	</ThingDef>
+	
 	<!-- Mousekin Town Square -->
 	
 	<ThingDef ParentName="BuildingBase">

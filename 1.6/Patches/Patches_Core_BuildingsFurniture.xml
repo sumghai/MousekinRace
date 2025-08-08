@@ -29,6 +29,12 @@
 				<value>Core_Table2x2c</value>
 			</li>
 			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="ToolCabinet"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_ToolCabinet</value>
+			</li>
+			
 			<!-- Disable art comp and tabs from Mousekin furniture variants (patchops are used to ensure compatibility with third-party mods) -->
 			
 			<li Class="PostInheritanceOperation.Patch">

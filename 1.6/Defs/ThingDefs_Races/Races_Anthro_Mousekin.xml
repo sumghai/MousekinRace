@@ -791,6 +791,7 @@
 					<li>Mousekin_Table1x3c</li>
 					<li>Mousekin_Table2x2c</li>
 					<li>Mousekin_Table2x2r</li>
+					<li>Mousekin_ToolCabinet</li>
 					<li>Mousekin_TownSquare</li>
 					<li>Mousekin_WallVent</li>
 					<li>Mousekin_Windmill</li>
@@ -817,6 +818,7 @@
 					<li>TableButcher</li>
 					<li>TableSculpting</li>
 					<li>TableStonecutter</li>
+					<li>ToolCabinet</li>
 				</blackBuildingList>
 				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
 				
