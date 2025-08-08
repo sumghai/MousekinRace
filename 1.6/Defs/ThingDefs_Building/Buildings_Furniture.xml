@@ -173,6 +173,36 @@
 		</building>
 	</ThingDef>
 	
+	<!-- ========================= General furniture ==========================-->
+	
+	<ThingDef ParentName="Core_Stool">
+		<defName>Mousekin_Bench</defName>
+		<label>Mousekin bench</label>
+		<description>A simple platform for up to two people to sit together side-by-side.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Bench</texPath>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(1.85, 0.26, 0.65)</volume>
+			</shadowData>
+		</graphicData>
+		<uiOrder>2415</uiOrder>
+		<statBases>
+			<WorkToBuild>550</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>10</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<size>(2,1)</size>
+		<building>
+			<paintable>false</paintable>
+			<multiSittable>true</multiSittable>
+		</building>
+	</ThingDef>
+	
 	<!-- ========================= Lighting ==========================-->
 
 	<!-- Mousekin Candle Sconce -->

@@ -49,6 +49,12 @@
 	<!-- EN: People eat off tables when chairs are placed facing them. -->
 	<Mousekin_Table2x2r.description>의자가 있으면 여기서 밥을 먹습니다.</Mousekin_Table2x2r.description>
 	
+	<!-- EN: Mousekin bench -->
+	<Mousekin_Bench.label>마우스킨 벤치</Mousekin_Bench.label>
+	
+	<!-- EN: A simple platform for up to two people to sit together side-by-side. -->
+	<Mousekin_Bench.description>두 사람이 나란히 앉을 수 있는 심플한 플랫폼.</Mousekin_Bench.description>
+	
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>마우스킨 촛불 보루</Mousekin_FurnitureWallCandle.label>
 	

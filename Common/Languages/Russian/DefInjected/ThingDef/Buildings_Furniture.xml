@@ -49,6 +49,12 @@
 	<!-- EN: People eat off tables when chairs are placed facing them. -->
 	<Mousekin_Table2x2r.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Mousekin_Table2x2r.description>
 	
+	<!-- EN: Mousekin bench -->
+	<Mousekin_Bench.label>Мышкины скамейка</Mousekin_Bench.label>
+	
+	<!-- EN: A simple platform for up to two people to sit together side-by-side. -->
+	<Mousekin_Bench.description>Простая платформа для двоих, чтобы сидеть вместе бок о бок.</Mousekin_Bench.description>
+	
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>Мышкин настенный подсвечник</Mousekin_FurnitureWallCandle.label>
 	

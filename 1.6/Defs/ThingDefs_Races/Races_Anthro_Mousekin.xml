@@ -767,6 +767,7 @@
 				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction only -->
 				<buildingList>
 					<li>Mousekin_Beehive</li>
+					<li>Mousekin_Bench</li>
 					<li>Mousekin_CastIronStove</li>
 					<li>Mousekin_CellarOutdoor</li>
 					<li>Mousekin_Chair</li>

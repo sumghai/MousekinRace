@@ -48,6 +48,12 @@
 	
 	<!-- EN: People eat off tables when chairs are placed facing them. -->
 	<Mousekin_Table2x2r.description>當椅子放置在桌子旁時，人們就會在此用餐。</Mousekin_Table2x2r.description>
+	
+	<!-- EN: Mousekin bench -->
+	<Mousekin_Bench.label>白鼠族長凳</Mousekin_Bench.label>
+	
+	<!-- EN: A simple platform for up to two people to sit together side-by-side. -->
+	<Mousekin_Bench.description>一個簡單的板凳，可供兩個人並排坐在一起。</Mousekin_Bench.description>
 
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>白鼠族燭台</Mousekin_FurnitureWallCandle.label>

@@ -49,6 +49,12 @@
 	<!-- EN: People eat off tables when chairs are placed facing them. -->
 	<Mousekin_Table2x2r.description>イスを向き合うように配置すると,ここで食事を摂るようになります.</Mousekin_Table2x2r.description>
 	
+	<!-- EN: Mousekin bench -->
+	<Mousekin_Bench.label>マウスキンベンチ</Mousekin_Bench.label>
+	
+	<!-- EN: A simple platform for up to two people to sit together side-by-side. -->
+	<Mousekin_Bench.description>2人が並んで座れるシンプルな骨格です.</Mousekin_Bench.description>
+	
 	<!-- EN: Mousekin candle sconce -->
 	<Mousekin_FurnitureWallCandle.label>マウスキン突出し燭台</Mousekin_FurnitureWallCandle.label>
 	
