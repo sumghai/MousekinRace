@@ -142,6 +142,9 @@
 		<apparel>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
+		<thingCategories Inherit="false">
+			<li>Mousekin_ApparelArmor</li>
+		</thingCategories>
 	</ThingDef>
 	
 	<ThingDef Name="Mousekin_HatCommonerMakeableBase" ParentName="Mousekin_HatMakeableBase" Abstract="True">
@@ -192,6 +195,9 @@
 		<apparel>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
+		<thingCategories Inherit="false">
+			<li>Mousekin_ApparelArmorHeadgear</li>
+		</thingCategories>
 	</ThingDef>
 	
 </Defs>

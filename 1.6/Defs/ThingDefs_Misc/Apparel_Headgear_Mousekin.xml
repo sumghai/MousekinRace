@@ -540,6 +540,9 @@
 			</defaultOutfitTags>
 			<!-- Unisex -->
 		</apparel>
+		<thingCategories Inherit="false">
+			<li>Mousekin_ApparelArmorHeadgear</li>
+		</thingCategories>
 		<!-- Color gen hack to get masks working properly -->
 		<colorGenerator Class="ColorGenerator_White" />
 		<comps>

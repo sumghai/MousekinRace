@@ -12,6 +12,18 @@
 		<label>Mousekin accessories</label>
 		<parent>Apparel</parent>
 	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Mousekin_ApparelArmor</defName>
+		<label>Mousekin armor</label>
+		<parent>ApparelArmor</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Mousekin_ApparelArmorHeadgear</defName>
+		<label>Mousekin helmets</label>
+		<parent>ApparelArmor</parent>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>Mousekin_Headgear</defName>
