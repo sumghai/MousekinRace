@@ -778,6 +778,7 @@
 					<li>Mousekin_ChurchPew</li>
 					<li>Mousekin_DoorBasic</li>
 					<li>Mousekin_DoorReinforced</li>
+					<li>Mousekin_EndTable</li>
 					<li>Mousekin_FermentingBarrel</li>
 					<li>Mousekin_Fireplace</li>
 					<li>Mousekin_JoyTabletopGame</li>
@@ -805,6 +806,7 @@
 				<blackBuildingList>
 					<li>Brewery</li>
 					<li>DiningChair</li>
+					<li>EndTable</li>
 					<li>FermentingBarrel</li>
 					<li>FueledSmithy</li>
 					<li>FueledStove</li>

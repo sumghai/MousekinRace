@@ -6,6 +6,12 @@
 	
 	<!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
 	<Mousekin_Chair.description>一種舒適、優雅的餐椅。可以放置在桌子、工作台旁等等。</Mousekin_Chair.description>
+	
+	<!-- EN: Mousekin end table -->
+	<Mousekin_EndTable.label>白鼠族床頭櫃</Mousekin_EndTable.label>
+	
+	<!-- EN: A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. -->
+	<Mousekin_EndTable.description>一個小床頭櫃，能讓附近的床小幅提昇舒適度。必須放置在床頭旁邊。一張床只能受到一個床頭櫃的影響。</Mousekin_EndTable.description>
 
 	<!-- EN: Mousekin stool -->
 	<Mousekin_Stool.label>白鼠族板凳</Mousekin_Stool.label>

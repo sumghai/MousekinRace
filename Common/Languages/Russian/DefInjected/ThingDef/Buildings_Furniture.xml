@@ -6,6 +6,12 @@
 	
 	<!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
 	<Mousekin_Chair.description>Удобный и красивый стул. Можно ставить рядом со столами, рабочими станками и в любых других местах.</Mousekin_Chair.description>
+	
+	<!-- EN: Mousekin end tabel -->
+	<Mousekin_EndTable.label>Мышкины прикроватный столик</Mousekin_EndTable.label>
+	
+	<!-- EN: A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. -->
+	<Mousekin_EndTable.description>Небольшой прикроватный столик. Добавляет удобства кроватям, если расположен непосредственно рядом с изголовьем. Второй столик не принесёт положительного эффекта.</Mousekin_EndTable.description>
 
 	<!-- EN: Mousekin stool -->
 	<Mousekin_Stool.label>Мышкины табурет</Mousekin_Stool.label>

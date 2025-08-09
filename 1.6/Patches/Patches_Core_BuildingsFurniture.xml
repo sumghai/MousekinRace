@@ -12,6 +12,12 @@
 			</li>
 			
 			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="EndTable"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_EndTable</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
 				<xpath>Defs/ThingDef[defName="Stool"]</xpath>
 				<attribute>Name</attribute>
 				<value>Core_Stool</value>
