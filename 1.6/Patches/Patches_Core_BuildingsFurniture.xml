@@ -12,6 +12,12 @@
 			</li>
 			
 			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Dresser"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Dresser</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
 				<xpath>Defs/ThingDef[defName="EndTable"]</xpath>
 				<attribute>Name</attribute>
 				<value>Core_EndTable</value>
@@ -47,11 +53,17 @@
 				<operation Class="PatchOperationSequence">
 					<operations>
 						<li Class="PatchOperationRemove">
-							<xpath>Defs/ThingDef[defName="Mousekin_Chair"]/comps/li[@Class="CompProperties_Art"]</xpath>
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Chair" or
+								defName="Mousekin_Dresser"
+							]/comps/li[@Class="CompProperties_Art"]</xpath>
 						</li>
 						
 						<li Class="PatchOperationRemove">
-							<xpath>Defs/ThingDef[defName="Mousekin_Chair"]/inspectorTabs/li[.="ITab_Art"]</xpath>
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Chair" or
+								defName="Mousekin_Dresser"
+							]/inspectorTabs/li[.="ITab_Art"]</xpath>
 						</li>
 					</operations>
 				</operation>

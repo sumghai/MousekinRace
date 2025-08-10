@@ -7,6 +7,12 @@
 	<!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
 	<Mousekin_Chair.description>Удобный и красивый стул. Можно ставить рядом со столами, рабочими станками и в любых других местах.</Mousekin_Chair.description>
 	
+	<!-- EN: Mousekin dresser -->
+	<Mousekin_Dresser.label>Мышкины комод</Mousekin_Dresser.label>
+	
+	<!-- EN: A dresser for storing clothes, but not armor or helmets. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.-->
+	<Mousekin_Dresser.description>Комод для хранения одежды, но не доспехов и шлемов. Добавляет удобства кроватям, стоящим рядом. Размещение более одного комода рядом с одной кроватью не принесёт положительного эффекта.</Mousekin_Dresser.description>
+	
 	<!-- EN: Mousekin end tabel -->
 	<Mousekin_EndTable.label>Мышкины прикроватный столик</Mousekin_EndTable.label>
 	

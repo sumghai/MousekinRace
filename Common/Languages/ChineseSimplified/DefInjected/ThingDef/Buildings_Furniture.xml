@@ -7,6 +7,12 @@
 	<!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
 	<Mousekin_Chair.description>一张看起来很舒适和招人喜爱的椅子。可以在餐桌和工作台或者别的什么附近使用。</Mousekin_Chair.description>
 	
+	<!-- EN: Mousekin dresser -->
+	<Mousekin_Dresser.label>白鼠族矮柜</Mousekin_Dresser.label>
+	
+	<!-- EN: A dresser for storing clothes, but not armor or helmets. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.-->
+	<Mousekin_Dresser.description>一个可以存放衣物的矮柜，但不包括盔甲或头盔。给旁边所有的床提供少量舒适度奖励。在同一个床旁放置多个矮柜不会产生叠加效果。</Mousekin_Dresser.description>
+	
 	<!-- EN: Mousekin end table -->
 	<Mousekin_EndTable.label>白鼠族床头柜</Mousekin_EndTable.label>
 	
