@@ -19,21 +19,24 @@ namespace MousekinRace
         }
     }
 
-    // Hide items stored in Root Cellars from rendering on the map
+    // Hide items stored in Root Cellars or storage buildings with the CompStorageHiddenContents comp from rendering on the map
     [HarmonyPatch]
     public static class Harmony_Thing_DrawGUIOverlay_HideRootCellarContents
     {
         static IEnumerable<MethodBase> TargetMethods()
         {
+            yield return AccessTools.Method(typeof(Apparel), nameof(Apparel.DrawAt));
+            yield return AccessTools.Method(typeof(Book), nameof(Book.DrawAt));
             yield return AccessTools.Method(typeof(Thing), nameof(Thing.DrawGUIOverlay));
             yield return AccessTools.Method(typeof(Thing), nameof(Thing.Print));
             yield return AccessTools.Method(typeof(ThingWithComps), nameof(ThingWithComps.DrawGUIOverlay));
+            yield return AccessTools.Method(typeof(ThingWithComps), nameof(ThingWithComps.Print));
             yield return AccessTools.Method(typeof(MinifiedThing), nameof(MinifiedThing.Print));
         }
 
         static bool Prefix(Thing __instance)
         {
-            if (Building_CellarOutdoor.ThingIsInCellar(__instance))
+            if (Building_CellarOutdoor.ThingIsInCellar(__instance) || CompStorageHiddenContents.ThingIsInStorage(__instance))
             {
                 return false;
             }

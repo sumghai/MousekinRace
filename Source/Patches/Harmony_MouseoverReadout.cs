@@ -6,7 +6,8 @@ using Verse;
 
 namespace MousekinRace
 {
-    // Skip listing items stored inside Root Cellars in the Mouseover Readout at the bottom-left corner of the GUI
+    // Skip listing items stored inside Root Cellars or storage buildings with the CompStorageHiddenContents comp
+    // in the Mouseover Readout at the bottom-left corner of the GUI
     [HarmonyPatch(typeof(MouseoverReadout), nameof(MouseoverReadout.MouseoverReadoutOnGUI))]
     public static class Harmony_MouseoverReadout_MouseoverReadoutOnGUI_RootCellarsSkipListingContents
     {
@@ -34,7 +35,7 @@ namespace MousekinRace
 
         private static List<Thing> GetThingListSkipRootCellarContents(this IntVec3 c, Map map)
         {
-            return c.GetThingList(map).Where(t => !Building_CellarOutdoor.ThingIsInCellar(t)).ToList();
+            return c.GetThingList(map).Where(t => !Building_CellarOutdoor.ThingIsInCellar(t) && !CompStorageHiddenContents.ThingIsInStorage(t)).ToList();
         }
     }
 }

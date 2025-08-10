@@ -48,7 +48,7 @@
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<inspectorTabs>
 			<li>ITab_Storage</li>
-			<li>MousekinRace.ITab_ContentsCellar</li>
+			<li>MousekinRace.ITab_ContentsStorage</li>
 		</inspectorTabs>
 		<constructEffect />
 		<repairEffect>ConstructWood</repairEffect>

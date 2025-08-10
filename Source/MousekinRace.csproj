@@ -324,12 +324,14 @@
     <Compile Include="Comps\CompProperties_MineEntranceAnim.cs" />
     <Compile Include="Comps\CompProperties_RemembersCheeseEaten.cs" />
     <Compile Include="Comps\CompProperties_StateDependentBuildingEmissive.cs" />
+    <Compile Include="Comps\CompProperties_StorageHiddenContents.cs" />
     <Compile Include="Comps\CompProperties_TownSquare.cs" />
     <Compile Include="Comps\CompProperties_UndergroundMineDeposits.cs" />
     <Compile Include="Comps\CompProperties_Windmill.cs" />
     <Compile Include="Comps\CompRemembersCheeseEaten.cs" />
     <Compile Include="Comps\CompStateDependentBuildingEmissive.cs" />
     <Compile Include="Comps\CompFireplaceRenderer.cs" />
+    <Compile Include="Comps\CompStorageHiddenContents.cs" />
     <Compile Include="Comps\CompTownSquare.cs" />
     <Compile Include="Comps\CompUndergroundMineDeposits.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
@@ -364,6 +366,7 @@
     <Compile Include="Jobs\WorkGiver_MineResourcesFromMineEntrance.cs" />
     <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
+    <Compile Include="Patches\Harmony_Building_Storage.cs" />
     <Compile Include="Patches\Harmony_CompRefuelable.cs" />
     <Compile Include="Patches\Harmony_DesignationCategoryDef.cs" />
     <Compile Include="Patches\Harmony_Designator_Build.cs" />
@@ -543,7 +546,7 @@
     <Compile Include="UI\Dialog_AllegianceRenamePlayerFaction.cs" />
     <Compile Include="UI\Dialog_MiningBillConfig.cs" />
     <Compile Include="UI\ITab_BillsMine.cs" />
-    <Compile Include="UI\ITab_ContentsCellar.cs" />
+    <Compile Include="UI\ITab_ContentsStorage.cs" />
     <Compile Include="UI\ITab_FuelFilter.cs" />
     <Compile Include="UI\MainButtonWorker_Allegiance.cs" />
     <Compile Include="UI\MainTabWindow_Allegiance.cs" />

@@ -6,7 +6,7 @@ using Verse;
 
 namespace MousekinRace
 {
-    public class ITab_ContentsCellar : ITab_ContentsBase
+    public class ITab_ContentsStorage : ITab_ContentsBase
     {
         public static readonly CachedTexture DropTex = new CachedTexture("UI/Buttons/Drop");
 
@@ -16,7 +16,11 @@ namespace MousekinRace
 
         public Building_CellarOutdoor RootCellar => SelThing as Building_CellarOutdoor;
 
-        public override IList<Thing> container => RootCellar.GetSlotGroup().HeldThings.ToList();
+        public Building_Storage Storage => SelThing as Building_Storage;
+
+        public int MaxStoredItems => Storage.def.building.maxItemsInCell * Storage.AllSlotCellsList().Count();
+
+        public override IList<Thing> container => Storage.GetSlotGroup().HeldThings.ToList();
 
         public override bool IsVisible
         {
@@ -32,7 +36,7 @@ namespace MousekinRace
 
         public override bool VisibleInBlueprintMode => false;
 
-        public ITab_ContentsCellar()
+        public ITab_ContentsStorage()
         {
             labelKey = "TabCasketContents";
             containedItemsKey = "TabCasketContents";
@@ -73,7 +77,7 @@ namespace MousekinRace
 
             // Tab heading (with item count and temperature) and tooltip
             float num = curY;
-            Widgets.ListSeparator(ref curY, inRectWidthNoScrollbar, containedItemsKey.Translate() + " (" + container.Count + " / " + RootCellar.MaxStoredItems + " " + "ItemsLower".Translate() + ", " + GenText.ToStringTemperature(MousekinRaceMod.Settings.RootCellarTemperature, "F0") + ")");
+            Widgets.ListSeparator(ref curY, inRectWidthNoScrollbar, containedItemsKey.Translate() + " (" + container.Count + " / " + MaxStoredItems + " " + "ItemsLower".Translate() + (SelThing is Building_CellarOutdoor ? ", " + GenText.ToStringTemperature(MousekinRaceMod.Settings.RootCellarTemperature, "F0") : null ) + ")");
             Rect headingRect = new Rect(0f, num, inRectWidthNoScrollbar, curY - num - 3f);
             if (Mouse.IsOver(headingRect))
             {
@@ -122,7 +126,11 @@ namespace MousekinRace
             Rect ejectItemButtonRect = new Rect(curRowRect.width - buttonSize, curY, buttonSize, buttonSize);
             if (Widgets.ButtonImage(ejectItemButtonRect, DropTex.Texture))
             {
-                RootCellar.EjectThing(item);
+                RootCellar?.EjectThing(item);
+                if (Storage != null && Storage.HasComp<CompStorageHiddenContents>())
+                { 
+                    CompStorageHiddenContents.EjectThing(item);
+                }
             }
             TooltipHandler.TipRegionByKey(ejectItemButtonRect, "MousekinRace_CellarOutdoor_EjectItemTooltip");
 

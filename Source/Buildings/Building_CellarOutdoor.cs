@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Verse;
-using static HarmonyLib.Code;
 
 namespace MousekinRace
 {
@@ -10,11 +9,9 @@ namespace MousekinRace
     {
         public IntVec3 StorageCellPos => Position + new IntVec3(0, 0, -2);
 
-        public int MaxStoredItems => def.building.maxItemsInCell;
-
         public override IEnumerable<IntVec3> AllSlotCells()
         {
-            if (!base.Spawned)
+            if (!Spawned)
             {
                 yield break;
             }
