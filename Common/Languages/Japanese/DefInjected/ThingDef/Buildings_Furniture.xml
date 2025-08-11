@@ -61,6 +61,12 @@
 	<!-- EN: People eat off tables when chairs are placed facing them. -->
 	<Mousekin_Table2x2r.description>イスを向き合うように配置すると,ここで食事を摂るようになります.</Mousekin_Table2x2r.description>
 	
+	<!-- EN: Mousekin wardrobe -->
+	<Mousekin_Wardrobe.label>マウスキンワードローブ</Mousekin_Wardrobe.label>
+	
+	<!-- EN: A wardrobe for storing clothes and headgear. Gives a small comfort bonus to all nearby beds. Placing more than one wardrobe near the same bed has no effect. -->
+	<Mousekin_Wardrobe.description>服や頭装備を収納するためのワードローブです.どのベッドでもそばに置くことで僅かな快適性ボーナスを与えてくれます.同じベッドに一つより多くのワードローブを置いても効果はありません.</Mousekin_Wardrobe.description>
+	
 	<!-- EN: Mousekin bench -->
 	<Mousekin_Bench.label>マウスキンベンチ</Mousekin_Bench.label>
 	

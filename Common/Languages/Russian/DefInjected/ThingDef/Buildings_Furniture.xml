@@ -61,6 +61,12 @@
 	<!-- EN: People eat off tables when chairs are placed facing them. -->
 	<Mousekin_Table2x2r.description>Люди будут есть за столом, если рядом расположить стулья сиденьем к столу.</Mousekin_Table2x2r.description>
 	
+	<!-- EN: Mousekin wardrobe -->
+	<Mousekin_Wardrobe.label>Мышкины шкаф</Mousekin_Wardrobe.label>
+	
+	<!-- EN: A wardrobe for storing clothes and headgear. Gives a small comfort bonus to all nearby beds. Placing more than one wardrobe near the same bed has no effect. -->
+	<Mousekin_Wardrobe.description>Шкаф для хранения одежды и головных уборов. для хранения одежды, но не доспехов и шлемов. Добавляет удобства кроватям, стоящим рядом. Размещение более одного шкафов рядом с одной кроватью не принесёт положительного эффекта.</Mousekin_Wardrobe.description>
+	
 	<!-- EN: Mousekin bench -->
 	<Mousekin_Bench.label>Мышкины скамейка</Mousekin_Bench.label>
 	

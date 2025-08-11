@@ -61,6 +61,12 @@
 	<!-- EN: People eat off tables when chairs are placed facing them. -->
 	<Mousekin_Table2x2r.description>当放置有朝向桌子的椅子时，人们会在上面吃饭。</Mousekin_Table2x2r.description>
 	
+	<!-- EN: Mousekin wardrobe -->
+	<Mousekin_Wardrobe.label>白鼠族衣柜</Mousekin_Wardrobe.label>
+	
+	<!-- EN: A wardrobe for storing clothes and headgear. Gives a small comfort bonus to all nearby beds. Placing more than one wardrobe near the same bed has no effect. -->
+	<Mousekin_Wardrobe.description>一个可以存放衣物与头饰的衣柜。给旁边所有的床提供少量舒适度奖励。在同一个床旁放置多个衣柜不会产生叠加效果。</Mousekin_Wardrobe.description>
+	
 	<!-- EN: Mousekin bench -->
 	<Mousekin_Bench.label>白鼠族长凳</Mousekin_Bench.label>
 	

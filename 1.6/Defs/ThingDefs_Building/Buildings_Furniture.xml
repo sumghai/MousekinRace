@@ -251,6 +251,63 @@
 		</building>
 	</ThingDef>
 	
+	<!-- Mousekin wardrobe -->
+	
+	<ThingDef ParentName="Core_Dresser">
+		<defName>Mousekin_Wardrobe</defName>
+		<label>Mousekin wardrobe</label>
+		<description>A wardrobe for storing clothes and headgear. Gives a small comfort bonus to all nearby beds. Placing more than one wardrobe near the same bed has no effect.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Mousekin_Wardrobe</texPath>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 0.5)</volume>
+				<offset>(0, 0, 0.3)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/Mousekin_Wardrobe_MenuIcon</uiIconPath>
+		<uiIconScale>1.6</uiIconScale>
+		<staticSunShadowHeight Inherit="false" />
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<size>(1,1)</size>
+		<fillPercent>0.9</fillPercent>
+		<defaultPlacingRot Inherit="false" />
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+			<li>MousekinRace.ITab_ContentsStorage</li>
+		</inspectorTabs>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<maxItemsInCell>5</maxItemsInCell>
+			<blueprintClass>Blueprint_Storage</blueprintClass>
+			<paintable>false</paintable>
+			<storageGroupTag>Mousekin_Apparel</storageGroupTag>
+			<fixedStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<comps>
+			<li Class="MousekinRace.CompProperties_StorageHiddenContents" />
+		</comps>
+	</ThingDef>
+	
 	<!-- ========================= General furniture ==========================-->
 	
 	<ThingDef ParentName="Core_Stool">

@@ -55,14 +55,16 @@
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/ThingDef[
 								defName="Mousekin_Chair" or
-								defName="Mousekin_Dresser"
+								defName="Mousekin_Dresser" or
+								defName="Mousekin_Wardrobe"
 							]/comps/li[@Class="CompProperties_Art"]</xpath>
 						</li>
 						
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/ThingDef[
 								defName="Mousekin_Chair" or
-								defName="Mousekin_Dresser"
+								defName="Mousekin_Dresser" or
+								defName="Mousekin_Wardrobe"
 							]/inspectorTabs/li[.="ITab_Art"]</xpath>
 						</li>
 					</operations>
