@@ -794,6 +794,7 @@
 		</weaponTags>
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>40</maxGenerationAge>
+		<fixedGender>Male</fixedGender>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>18~27</initialResistanceRange>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -839,12 +840,6 @@
 				<!-- Use faction default of steel -->
 			</li>
 		</specificApparelRequirements>
-		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>0.67</maleGenderProbability>
-			</li>
-		</modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
