@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Events Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- Allow VEE flowers to be recognized by Mousekin beehives for honey and beeswax production,
+					 and for the Flowers: desired precept -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/MousekinRace.FlowerListDef[defName="Mousekin_ValidFlowers"]/flowerPlants</xpath>
+					<value>
+						<li>VEE_Plant_Bluebell</li>
+						<li>VEE_Plant_Gardenia</li>
+						<li>VEE_Plant_Gentian</li>
+						<li>VEE_Plant_Petunia</li>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
