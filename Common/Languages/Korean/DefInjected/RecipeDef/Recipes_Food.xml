@@ -18,6 +18,9 @@
 
 	<!-- EN: Preparing Mousekin trail mix -->
 	<Mousekin_Make_TrailMix.jobString>마우스킨 믹스넛 만들기.</Mousekin_Make_TrailMix.jobString>
+	
+	<!-- EN: berries -->
+	<Mousekin_Make_TrailMix.ingredients.0.filter.customSummary>열매</Mousekin_Make_TrailMix.ingredients.0.filter.customSummary>
 
 	<!-- EN: make Mousekin trail mix x3 -->
 	<Mousekin_Make_TrailMixBulk.label>마우스킨 믹스넛 만들기 x3</Mousekin_Make_TrailMixBulk.label>
@@ -27,6 +30,9 @@
 
 	<!-- EN: Preparing bulk Mousekin trail mix -->
 	<Mousekin_Make_TrailMixBulk.jobString>마우스킨 믹스넛 만들기.</Mousekin_Make_TrailMixBulk.jobString>
+	
+	<!-- EN: berries -->
+	<Mousekin_Make_TrailMixBulk.ingredients.0.filter.customSummary>열매</Mousekin_Make_TrailMixBulk.ingredients.0.filter.customSummary>
 
 	<!-- EN: bake country bread -->
 	<Mousekin_Make_CountryBread.label>컨트리 빵을 굽다</Mousekin_Make_CountryBread.label>

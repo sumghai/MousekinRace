@@ -61,6 +61,7 @@
 		<ingredients>
 			<li>
 				<filter>
+					<customSummary>berries</customSummary>
 					<thingDefs>
 						<!-- 0.05 nutrition per unit-->
 						<li>RawBerries</li>
@@ -96,14 +97,16 @@
 				<count>1.44</count>
 			</li>
 		</ingredients>
-		<fixedIngredientFilter>
+		<fixedIngredientFilter Inherit="false">
 			<thingDefs>
 				<li>RawBerries</li>
-				<li>RawCorn</li>
-				<li>Mousekin_RawNutChonko</li>
-				<li>Mousekin_RawNutNyam</li>
 			</thingDefs>
 		</fixedIngredientFilter>
+		<defaultIngredientFilter Inherit="false">
+			<thingDefs>
+				<li>RawBerries</li>
+			</thingDefs>
+		</defaultIngredientFilter>
 		<products>
 			<Mousekin_MealTrailMix>25</Mousekin_MealTrailMix>
 		</products>
@@ -118,6 +121,7 @@
 		<ingredients Inherit="false">
 			<li>
 				<filter>
+					<customSummary>berries</customSummary>
 					<thingDefs>
 						<!-- 0.05 nutrition per unit-->
 						<li>RawBerries</li>
