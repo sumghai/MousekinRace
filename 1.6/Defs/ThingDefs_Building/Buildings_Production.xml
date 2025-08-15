@@ -6,6 +6,7 @@
 	<ThingDef Name="Mousekin_BenchBase" ParentName="BenchBase" Abstract="True">
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
+		<interactionCellIcon>Mousekin_Stool</interactionCellIcon>
 		<building>
 			<destroySound>BuildingDestroyed_Wood_Medium</destroySound>
 		</building>
