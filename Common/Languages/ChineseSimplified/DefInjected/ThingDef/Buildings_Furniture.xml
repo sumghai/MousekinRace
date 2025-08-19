@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin bed -->
+	<Mousekin_Bed.label>白鼠族单人床</Mousekin_Bed.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillow on a wooden frame, for a single person to rest on. -->
+	<Mousekin_Bed.description>软绵绵的床垫，木架上有厚厚的毛毯蓬松的枕头，可供单人休息。</Mousekin_Bed.description>
+	
+	<!-- EN: Mousekin double bed -->
+	<Mousekin_BedDouble.label>白鼠族双人床</Mousekin_BedDouble.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillows on a wooden frame, large enough for two people to rest on. -->
+	<Mousekin_BedDouble.description>软绵绵的床垫，木架上有厚厚的毛毯蓬松的枕头，大到足以让两个人休息。</Mousekin_BedDouble.description>
+
 	<!-- EN: Mousekin chair -->
 	<Mousekin_Chair.label>白鼠族椅子</Mousekin_Chair.label>
 	

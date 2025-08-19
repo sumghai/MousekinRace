@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin bed -->
+	<Mousekin_Bed.label>Мышкины кровать</Mousekin_Bed.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillow on a wooden frame, for a single person to rest on. -->
+	<Mousekin_Bed.description>Мягкий плюшевый матрас с толстым одеялом и пушистой подушкой на деревянной раме, на котором может отдыхать один человек.</Mousekin_Bed.description>
+	
+	<!-- EN: Mousekin double bed -->
+	<Mousekin_BedDouble.label>Мышкины двойная кровать</Mousekin_BedDouble.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillows on a wooden frame, large enough for two people to rest on. -->
+	<Mousekin_BedDouble.description>Мягкий плюшевый матрас с толстым одеялом и пушистыми подушками на деревянной раме, достаточно большой, чтобы на нем могли отдохнуть два человека.</Mousekin_BedDouble.description>
+
 	<!-- EN: Mousekin chair -->
 	<Mousekin_Chair.label>Мышкины стул</Mousekin_Chair.label>
 	

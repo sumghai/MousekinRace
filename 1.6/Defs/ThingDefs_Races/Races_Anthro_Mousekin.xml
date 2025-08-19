@@ -766,6 +766,8 @@
 
 				<!-- Restrict the following buildings, furniture and facilities for Mousekin construction only -->
 				<buildingList>
+					<li>Mousekin_Bed</li>
+					<li>Mousekin_BedDouble</li>
 					<li>Mousekin_Beehive</li>
 					<li>Mousekin_Bench</li>
 					<li>Mousekin_CastIronStove</li>
@@ -806,14 +808,17 @@
 					<li>Mousekin_WorkbenchTailor</li>
 				</buildingList>
 				<blackBuildingList>
+					<li>Bed</li>
 					<li>Brewery</li>
 					<li>DiningChair</li>
+					<li>DoubleBed</li>
 					<li>Dresser</li>
 					<li>EndTable</li>
 					<li>FermentingBarrel</li>
 					<li>FueledSmithy</li>
 					<li>FueledStove</li>
 					<li>HandTailoringBench</li>
+					<li>RoyalBed</li>
 					<li>SimpleResearchBench</li>
 					<li>Stool</li>
 					<li>Table1x2c</li>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin bed -->
+	<Mousekin_Bed.label>マウスキンベッド</Mousekin_Bed.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillow on a wooden frame, for a single person to rest on. -->
+	<Mousekin_Bed.description>木製のフレームに、柔らかくふかふかしたマットレス、厚手のブランケット、そしてふわふわの枕がセットになった、1人が休むための寝具です.</Mousekin_Bed.description>
+	
+	<!-- EN: Mousekin double bed -->
+	<Mousekin_BedDouble.label>マウスキンダブルベッド</Mousekin_BedDouble.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillows on a wooden frame, large enough for two people to rest on. -->
+	<Mousekin_BedDouble.description>木製のフレームに、柔らかくふかふかしたマットレス、厚手のブランケット、そしてふわふわの枕がセットになった、2人が休むための寝具です.</Mousekin_BedDouble.description>
+
 	<!-- EN: Mousekin chair -->
 	<Mousekin_Chair.label>マウスキンチェア</Mousekin_Chair.label>
 	

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin bed -->
+	<Mousekin_Bed.label>마우스킨 침대</Mousekin_Bed.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillow on a wooden frame, for a single person to rest on. -->
+	<Mousekin_Bed.description>목재 프레임 위에 부드럽고 풍성한 매트리스, 두꺼운 이불, 그리고 폭신한 베개가 놓여 있는, 한 사람이 휴식을 취할 수 있는 침대입니다.</Mousekin_Bed.description>
+	
+	<!-- EN: Mousekin double bed -->
+	<Mousekin_BedDouble.label>마우스킨 큰 침대</Mousekin_BedDouble.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillows on a wooden frame, large enough for two people to rest on. -->
+	<Mousekin_BedDouble.description>부드럽고 풍성한 매트리스에 두꺼운 이불과 푹신한 베개가 나무 프레임 위에 놓여 있으며, 두 사람이 편안하게 쉴 수 있을 만큼 넓습니다.</Mousekin_BedDouble.description>
+
 	<!-- EN: Mousekin chair -->
 	<Mousekin_Chair.label>마우스킨 의자</Mousekin_Chair.label>
 	

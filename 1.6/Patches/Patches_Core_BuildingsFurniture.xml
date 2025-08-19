@@ -47,13 +47,18 @@
 				<value>Core_ToolCabinet</value>
 			</li>
 			
-			<!-- Disable art comp and tabs from Mousekin furniture variants (patchops are used to ensure compatibility with third-party mods) -->
+			<!-- Post-inheritance patches -->
 			
 			<li Class="PostInheritanceOperation.Patch">
 				<operation Class="PatchOperationSequence">
 					<operations>
+					
+						<!-- Disable art comp and tabs from Mousekin furniture variants (patchops are used to ensure compatibility with third-party mods) -->
+					
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bed" or
+								defName="Mousekin_BedDouble" or
 								defName="Mousekin_Chair" or
 								defName="Mousekin_Dresser" or
 								defName="Mousekin_Wardrobe"
@@ -62,19 +67,16 @@
 						
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bed" or
+								defName="Mousekin_BedDouble" or
 								defName="Mousekin_Chair" or
 								defName="Mousekin_Dresser" or
 								defName="Mousekin_Wardrobe"
 							]/inspectorTabs/li[.="ITab_Art"]</xpath>
 						</li>
-					</operations>
-				</operation>
-			</li>
-			
-			<!-- Disable styling of Mousekin furniture variants -->
-			<li Class="PostInheritanceOperation.Patch">
-				<operation Class="PatchOperationSequence">
-					<operations>
+						
+						<!-- Disable styling of Mousekin furniture variants -->
+						
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/ThingDef[
 								defName="Mousekin_Chair" or
@@ -87,6 +89,33 @@
 								defName="Mousekin_Table2x2r"
 							]/comps/li[@Class="CompProperties_Styleable"]</xpath>
 						</li>
+						
+						<!-- 
+							Change some linkables for Mousekin beds to use Mousekin bedside tables/dressers/etc. instead of their vanilla variants
+							(Mousekin beds can still use Sleep Accelerators from Ideology DLC)
+						-->
+						
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bed" or
+								defName="Mousekin_BedDouble"
+							]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[.="EndTable"]</xpath>
+							<value>
+								<li>Mousekin_EndTable</li>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bed" or
+								defName="Mousekin_BedDouble"
+							]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[.="Dresser"]</xpath>
+							<value>
+								<li>Mousekin_Dresser</li>
+								<li>Mousekin_Wardrobe</li>
+							</value>
+						</li>
+						
 					</operations>
 				</operation>
 			</li>
