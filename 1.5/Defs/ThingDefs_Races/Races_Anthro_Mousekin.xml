@@ -786,17 +786,6 @@
 					<li>Mousekin_WorkbenchSmithy</li>
 					<li>Mousekin_WorkbenchTailor</li>
 				</buildingList>
-				<blackBuildingList>
-					<li>Brewery</li>
-					<li>FermentingBarrel</li>
-					<li>FueledSmithy</li>
-					<li>FueledStove</li>
-					<li>HandTailoringBench</li>
-					<li>SimpleResearchBench</li>
-					<li>TableButcher</li>
-					<li>TableSculpting</li>
-					<li>TableStonecutter</li>
-				</blackBuildingList>
 				<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
 				
 				<!-- Restrict the following traits for Mousekin pawns only -->
