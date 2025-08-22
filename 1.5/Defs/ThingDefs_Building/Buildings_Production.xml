@@ -4,6 +4,7 @@
 	<!-- ========================= Production building base abstracts ==========================-->
 	
 	<ThingDef Name="Mousekin_BenchBase" ParentName="BenchBase" Abstract="True">
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
 		<building>
@@ -156,7 +157,6 @@
 			<Cleanliness>-3</Cleanliness>
 		</statBases>
 		<size>(2,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -223,7 +223,6 @@
 			<Cleanliness>-3</Cleanliness>
 		</statBases>
 		<size>(2,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -310,7 +309,6 @@
 			<Cleanliness>-3</Cleanliness>
 		</statBases>
 		<size>(2,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -376,7 +374,6 @@
 			<Cleanliness>-3</Cleanliness>
 		</statBases>
 		<size>(2,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -449,7 +446,6 @@
 		<minifiedDef />
 		<thingCategories Inherit="false" />
 		<size>(3,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -545,7 +541,6 @@
 			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
 		</statBases>
 		<size>(2,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -611,7 +606,6 @@
 		</statBases>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<size>(1,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>42</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -679,7 +673,6 @@
 		</statBases>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<size>(1,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>42</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -768,7 +761,6 @@
 		</statBases>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<size>(1,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>42</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -850,7 +842,6 @@
 			<ResearchSpeedFactor>0.875</ResearchSpeedFactor>
 		</statBases>
 		<size>(2,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>true</hasInteractionCell>
@@ -900,7 +891,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<size>(3,4)</size>
-		<designationCategory>Production</designationCategory>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<passability>Impassable</passability>
 		<pathCost>900</pathCost>
 		<canOverlapZones>false</canOverlapZones>

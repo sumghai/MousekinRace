@@ -25,6 +25,7 @@
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -51,6 +52,7 @@
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -70,6 +72,7 @@
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -90,6 +93,7 @@
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<inspectorTabs>
 			<li>ITab_Storage</li>
 			<li>MousekinRace.ITab_ContentsStorage</li>
@@ -148,6 +152,7 @@
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -167,6 +172,7 @@
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -192,6 +198,7 @@
 		</stuffCategories>
 		<size>(1,1)</size>
 		<costStuffCount>14</costStuffCount>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -214,6 +221,7 @@
 			<Beauty>1</Beauty>
 		</statBases>
 		<costStuffCount>22</costStuffCount>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 	</ThingDef>
 	
 	<!-- Mousekin table 1x2 rect -->
@@ -230,6 +238,7 @@
 		<stuffCategories Inherit="false">
 			<li>Woody</li>
 		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -255,6 +264,7 @@
 		</stuffCategories>
 		<size>(1,3)</size>
 		<costStuffCount>42</costStuffCount>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -275,6 +285,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<rotatable>true</rotatable>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -298,6 +309,7 @@
 		</stuffCategories>
 		<rotatable>true</rotatable>
 		<costStuffCount>40</costStuffCount>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 		</building>
@@ -331,6 +343,7 @@
 			<li>ITab_Storage</li>
 			<li>MousekinRace.ITab_ContentsStorage</li>
 		</inspectorTabs>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
@@ -384,6 +397,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<size>(2,1)</size>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<paintable>false</paintable>
 			<multiSittable>true</multiSittable>
@@ -422,13 +436,13 @@
 			<Flammability>0.0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		<designationCategory>Furniture</designationCategory>
 		<uiOrder>2815</uiOrder>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
 		<repairEffect>ConstructMetal</repairEffect>
 		<clearBuildingArea>false</clearBuildingArea>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<isEdifice>false</isEdifice>
 			<isAttachment>true</isAttachment>
@@ -514,6 +528,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<relatedBuildCommands>
 				<li>Mousekin_ChurchLectern</li>
@@ -628,6 +643,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
@@ -672,6 +688,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<isSittable>true</isSittable>
 			<multiSittable>true</multiSittable>

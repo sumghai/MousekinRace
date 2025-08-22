@@ -33,13 +33,13 @@
 			<Flammability>0.0</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		<designationCategory>Furniture</designationCategory>
 		<uiOrder>2815</uiOrder>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
 		<constructEffect>ConstructMetal</constructEffect>
 		<repairEffect>ConstructMetal</repairEffect>
 		<clearBuildingArea>false</clearBuildingArea>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<isEdifice>false</isEdifice>
 			<isAttachment>true</isAttachment>
@@ -125,6 +125,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<relatedBuildCommands>
 				<li>Mousekin_ChurchLectern</li>
@@ -239,6 +240,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
@@ -283,6 +285,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<constructEffect>ConstructWood</constructEffect>
 		<repairEffect>ConstructWood</repairEffect>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<building>
 			<isSittable>true</isSittable>
 			<multiSittable>true</multiSittable>

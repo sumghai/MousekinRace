@@ -34,7 +34,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<size>(3,1)</size>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>900</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>

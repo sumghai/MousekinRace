@@ -42,7 +42,7 @@
 		<minifiedDef />
 		<thingCategories Inherit="false" />
 		<size>(1,1)</size>
-		<designationCategory>Temperature</designationCategory>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>

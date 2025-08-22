@@ -39,7 +39,7 @@
 			<Flammability>0.25</Flammability>
 		</statBases>
 		<size>(5,5)</size>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
 		<passability>Standable</passability>
 		<pathCost>200</pathCost>
 		<canOverlapZones>false</canOverlapZones>
