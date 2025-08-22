@@ -15,6 +15,10 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
+	<ThingDef Name="Mousekin_ProductionBuildingBase" ParentName="BuildingBase" Abstract="True">
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+	</ThingDef>
+	
 	<!-- ========================= Work tables ==========================-->
 
 	<!-- Mousekin Cast-Iron Stove -->
@@ -570,7 +574,7 @@
 
 	<!-- Mousekin beehive -->
 	
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
 		<defName>Mousekin_Beehive</defName>
 		<label>Mousekin beehive</label>
 		<description>A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate.</description>
@@ -633,7 +637,7 @@
 	
 	<!-- Mousekin cheese press -->
 	
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
 		<defName>Mousekin_CheesePress</defName>
 		<label>Mousekin cheese press</label>
 		<description>A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese.</description>
@@ -721,7 +725,7 @@
 	
 	<!-- Mousekin fermenting barrel -->
 	
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
 		<defName>Mousekin_FermentingBarrel</defName>
 		<label>Mousekin fermenting barrel</label>
 		<description>A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room.</description>
@@ -854,7 +858,7 @@
 
 	<!-- Mousekin windmill -->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
 		<defName>Mousekin_Windmill</defName>
 		<label>Mousekin windmill</label>
 		<description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water.</description>
