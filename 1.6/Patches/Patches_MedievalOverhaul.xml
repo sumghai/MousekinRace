@@ -235,6 +235,54 @@
 					</value>
 				</li>
 				
+				<!-- Allow Mine Entrances to produce various MO ores and other resources -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables/li[mineableThing="Steel"]/mineableThing</xpath>
+					<value>
+						<mineableThing>DankPyon_IronOre</mineableThing>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables/li[mineableThing="Silver"]/mineableThing</xpath>
+					<value>
+						<mineableThing>DankPyon_SilverOre</mineableThing>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables/li[mineableThing="Gold"]/mineableThing</xpath>
+					<value>
+						<mineableThing>DankPyon_GoldOre</mineableThing>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationInsert">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables/li[mineableThing="Uranium"]</xpath>
+					<order>Append</order>
+					<value>
+						<li>
+							<mineableThing>DankPyon_PlasteelOre</mineableThing>
+							<depositSize>10000~15000</depositSize>
+							<minedPortionSize>5</minedPortionSize>
+							<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
+						</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables</xpath>
+					<value>
+						<li>
+							<mineableThing>DankPyon_Coal</mineableThing>
+							<depositSize>550000~650000</depositSize>
+							<minedPortionSize>50</minedPortionSize>
+							<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
+						</li>
+					</value>
+				</li>
+				
 				<!-- Allow Mine Entrances to have a small chance of producing various gemstones as bonus products -->
 				
 				<li Class="PatchOperationAdd">
