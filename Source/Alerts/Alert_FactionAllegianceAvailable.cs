@@ -25,7 +25,7 @@ namespace MousekinRace
         {
             GameComponent_Allegiance allegianceGameComp = GameComponent_Allegiance.Instance;
 
-            return allegianceGameComp.HasAnyTownSquares && !allegianceGameComp.HasDeclaredAllegiance && allegianceGameComp.anyAllegianceFactionJoinReqsMet;
+            return allegianceGameComp.HasAnyTownSquares && !allegianceGameComp.HasDeclaredAllegiance && allegianceGameComp.HasAnyAllegianceFactionJoinRequirementsMet;
         }
     }
 }
