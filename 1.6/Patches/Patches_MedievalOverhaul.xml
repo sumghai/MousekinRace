@@ -182,15 +182,6 @@
 					</match>
 				</li>
 				
-				<!-- Disable MO charcoal pile for Mousekin-only colonies -->
-				
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/raceRestriction/blackBuildingList</xpath>
-					<value>
-						<li>DankPyon_CharcoalPile</li>
-					</value>
-				</li>
-				
 				<!-- Update Mousekin charcoal pile processor recipes to use MO raw wood (MO's own patches renames all instances of the vanilla WoodLog into wood planks) -->
 				
 				<li Class="PatchOperationReplace">
