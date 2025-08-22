@@ -4,7 +4,7 @@
 	<DesignationCategoryDef>
 		<defName>Mousekin_DesignationCategory</defName>
 		<label>Mousekin</label>
-		<order>501</order>
+		<order>401</order>
 		<specialDesignatorClasses>
 			<li>Designator_Cancel</li>
 			<li>Designator_Deconstruct</li>
