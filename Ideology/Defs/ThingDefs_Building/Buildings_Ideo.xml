@@ -55,6 +55,13 @@
 		<tradeTags>
 			<li>Mousekin_TownSquare_NotObstruction</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="MousekinRace.GreatPineAllowedTreesExtension">
+				<allowedTreeDefs>
+					<li>Plant_TreePine</li>
+				</allowedTreeDefs>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<!-- Ancestral offerings -->

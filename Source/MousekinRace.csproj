@@ -339,6 +339,7 @@
     <Compile Include="Comps\MapComponent_FlowerTracker.cs" />
     <Compile Include="Comps\MapComponent_UndergroundMineDeposits.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
+    <Compile Include="DefModExtensions\GreatPineAllowedTreesExtension.cs" />
     <Compile Include="DefModExtensions\IdeoMemeRitualsExtension.cs" />
     <Compile Include="DefModExtensions\SurgeryExtraHediffExtension.cs" />
     <Compile Include="DefModExtensions\TraderExtension.cs" />

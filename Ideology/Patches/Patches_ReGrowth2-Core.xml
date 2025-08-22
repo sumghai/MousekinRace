@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth 2</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- Allow the Mousekin Great Pine ideo building to be made with pine trees from the ReGrowth 2 mod -->
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_IdeoXmasTree"]/modExtensions/li[@Class="MousekinRace.GreatPineAllowedTreesExtension"]/allowedTreeDefs</xpath>
+					<value>
+						<li>RG_Plant_BlueTreePine</li>
+						<li>RG_Plant_LargeTreePine</li>
+						<li>RG_Plant_OrangeTreePine</li>
+						<li>RG_Tree_TundraTreePine</li>
+					</value>
+				</li>
+			
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -56,7 +56,10 @@ namespace MousekinRace
         {
             if (thing is MinifiedTree minifiedTree && Harmony_WorkGiver_ConstructDeliverResources_ResourceDeliverJobFor_PrefetchConstructible.constructible.ToString().Contains(MousekinDefOf.Mousekin_IdeoXmasTree.defName))
             {
-                return input && minifiedTree.InnerTree.def == ThingDefOf.Plant_TreePine;
+                // Mod extension contains list of valid pine trees (including those from third-party mods)
+                List<ThingDef> allowedTreeDefs = MousekinDefOf.Mousekin_IdeoXmasTree.GetModExtension<GreatPineAllowedTreesExtension>().allowedTreeDefs;
+
+                return input && allowedTreeDefs.Contains(minifiedTree.InnerTree.def);
             }
             return input;
         }
