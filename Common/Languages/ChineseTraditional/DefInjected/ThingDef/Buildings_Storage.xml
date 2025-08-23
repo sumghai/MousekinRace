@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin shelf -->
+	<Mousekin_Shelf.label>白鼠族置物架</Mousekin_Shelf.label>
+	
+	<!-- EN: A triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+	<Mousekin_Shelf.description>三層的置物架可以比單放在空地收納多三倍的物品。架內的物品永不衰敗，也不會影響周圍的美觀。\n\n由於置物架空間有限，它不能收納塊堆、建築物、植物和大型屍體。</Mousekin_Shelf.description>
+	
+	<!-- EN: Mousekin small shelf -->
+	<Mousekin_ShelfSmall.label>白鼠族小置物架</Mousekin_ShelfSmall.label>
+	
+	<!-- EN: A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+	<Mousekin_ShelfSmall.description>較小型的三層置物架可以比單放在空地收納多三倍的物品。架內的物品永不衰敗，也不會影響周圍的美觀。\n\n由於置物架空間有限，它不能收納塊堆、建築物、植物和大型屍體。</Mousekin_ShelfSmall.description>
+
 	<!-- EN: Mousekin root cellar -->
 	<Mousekin_CellarOutdoor.label>白鼠族根窖</Mousekin_CellarOutdoor.label>
 	

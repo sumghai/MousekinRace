@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin shelf -->
+	<Mousekin_Shelf.label>Мышкинский стеллаж</Mousekin_Shelf.label>
+	
+	<!-- EN: A triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+	<Mousekin_Shelf.description>Стеллаж c тремя полками, способный хранить в три раза больше предметов, чем клетка пола. Хранимые предметы не будут влиять на красоту окружения и ветшать. Так как вместимость стеллажа ограничена, в нём не могут храниться обломки, сооружения и крупные трупы.</Mousekin_Shelf.description>
+	
+	<!-- EN: Mousekin small shelf -->
+	<Mousekin_ShelfSmall.label>Мышкинский небольшой стеллаж</Mousekin_ShelfSmall.label>
+	
+	<!-- EN: A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+	<Mousekin_ShelfSmall.description>Небольшой стеллаж с тремя полками, способный хранить в три раза больше предметов, чем клетка пола. Хранимые предметы не будут влиять на красоту окружения и ветшать. Так как вместимость стеллажа ограничена, в нём не могут храниться обломки, сооружения и крупные трупы.</Mousekin_ShelfSmall.description>
+
 	<!-- EN: Mousekin root cellar -->
 	<Mousekin_CellarOutdoor.label>Мышкинский погреб</Mousekin_CellarOutdoor.label>
 	

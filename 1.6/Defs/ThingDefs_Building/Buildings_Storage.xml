@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- ========================= Mousekin variants of vanilla storage ==========================-->
+	<!-- See Patches folder for PatchOps that add custom Name attributes to each furniture -->
+	
+	<ThingDef ParentName="Core_Shelf">
+		<defName>Mousekin_Shelf</defName>
+		<label>Mousekin shelf</label>
+		<graphicData>
+			<texPath>Things/Building/Storage/Mousekin_Shelf</texPath>
+		</graphicData>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<building>
+			<relatedBuildCommands Inherit="false">
+				<li>Mousekin_ShelfSmall</li>
+			</relatedBuildCommands>
+		</building>
+	</ThingDef>
+	
+	<ThingDef ParentName="Core_ShelfSmall">
+		<defName>Mousekin_ShelfSmall</defName>
+		<label>Mousekin small shelf</label>
+		<graphicData>
+			<texPath>Things/Building/Storage/Mousekin_ShelfSmall</texPath>
+		</graphicData>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<building>
+			<relatedBuildCommands Inherit="false">
+				<li>Mousekin_Shelf</li>
+			</relatedBuildCommands>
+		</building>
+	</ThingDef>
+	
+	<!-- ========================= Mousekin-unique storage ==========================-->
+	
 	<!-- Mousekin root cellar -->
 	
 	<ThingDef ParentName="BuildingBase">

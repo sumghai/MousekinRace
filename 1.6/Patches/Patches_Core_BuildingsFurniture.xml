@@ -24,6 +24,18 @@
 			</li>
 			
 			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Shelf"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Shelf</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="ShelfSmall"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_ShelfSmall</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
 				<xpath>Defs/ThingDef[defName="Stool"]</xpath>
 				<attribute>Name</attribute>
 				<value>Core_Stool</value>
@@ -80,6 +92,8 @@
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/ThingDef[
 								defName="Mousekin_Chair" or
+								defName="Mousekin_Shelf" or
+								defName="Mousekin_ShelfSmall" or
 								defName="Mousekin_Stool" or
 								defName="Mousekin_Table1x1c" or
 								defName="Mousekin_Table1x1r" or

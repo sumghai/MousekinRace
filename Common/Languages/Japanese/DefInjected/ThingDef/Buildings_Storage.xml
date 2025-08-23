@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin shelf -->
+	<Mousekin_Shelf.label>マウスキンロッカー</Mousekin_Shelf.label>
+	
+	<!-- EN: A triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+	<Mousekin_Shelf.description>地べたに置くときと比べ3倍の収納力を誇る3段重ねのロッカーです.中に保管されたアイテムは劣化せず,周囲の美しさに影響を与えません.\n\nロッカーのスペースが限られているため,塊,建築物,植物,大きな死骸を入れることができません.</Mousekin_Shelf.description>
+	
+	<!-- EN: Mousekin small shelf -->
+	<Mousekin_ShelfSmall.label>マウスキン小型ロッカー</Mousekin_ShelfSmall.label>
+	
+	<!-- EN: A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+	<Mousekin_ShelfSmall.description>地べたに置くときと比べ3倍の収納力を誇る小さな3段重ねのロッカーです.中に保管されたアイテムは劣化せず,周囲の美しさに影響を与えません.\n\nロッカーのスペースが限られているため,塊,建築物,植物,大きな死骸を入れることができません.</Mousekin_ShelfSmall.description>
+
 	<!-- EN: Mousekin root cellar -->
 	<Mousekin_CellarOutdoor.label>マウスキン地下貯蔵庫</Mousekin_CellarOutdoor.label>
 	
