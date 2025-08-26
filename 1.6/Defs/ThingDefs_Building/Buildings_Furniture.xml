@@ -6,7 +6,7 @@
 	
 	<!-- Mousekin bed -->
 	
-	<ThingDef ParentName="Bed" Name="Mousekin_TempBed">
+	<ThingDef ParentName="Bed">
 		<defName>Mousekin_Bed</defName>
 		<label>Mousekin bed</label>
 		<description>A soft, plush mattress with a thick blanket and fluffy pillow on a wooden frame, for a single person to rest on.</description>
