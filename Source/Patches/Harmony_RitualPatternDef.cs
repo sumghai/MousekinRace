@@ -11,7 +11,8 @@ namespace MousekinRace
     {
         static void Postfix(Precept_Ritual ritual)
         {
-            if (ritual.ideo.culture.IsMousekin())
+            // Odyssey DLC compatibility: Use null propagation operator in case the ritual has no ideo associated with it 
+            if (ritual.ideo?.culture?.IsMousekin() ?? false)
             {
                 if (ritual.def == PreceptDefOf.Funeral) 
                 {
