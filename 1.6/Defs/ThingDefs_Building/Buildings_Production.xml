@@ -741,7 +741,7 @@
 				</processes>
 				<progressBarOffset>(0,1,-0.5)</progressBarOffset>
 				<inProgressTexture>Things/Building/Production/Mousekin_CharcoalPileFull</inProgressTexture>
-				<finishedTexture>Things/Building/Production/Mousekin_CharcoalPileFull</finishedTexture>
+				<finishedTexture>Things/Building/Production/Mousekin_CharcoalPileFinished</finishedTexture>
 				<hideSettings>true</hideSettings>
 			</li>
 		</comps>
