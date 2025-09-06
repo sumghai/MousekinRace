@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin bookcase -->
+	<Mousekin_Bookcase.label>Мышкинский книжный шкаф</Mousekin_Bookcase.label>
+	
+	<!-- EN: A wide bookcase for storing and displaying up to twenty books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+	<Mousekin_Bookcase.description>Широкий книжный шкаф, в который помещается до двадцать книг. Хранящиеся в шкафу книги ускорят изучение технологий поблизости и добавят красоты самому шкафу, а также не будут ветшать.</Mousekin_Bookcase.description>
+	
+	<!-- EN: Mousekin small bookcase -->
+	<Mousekin_BookcaseSmall.label>Мышкинский малый книжный шкаф</Mousekin_BookcaseSmall.label>
+	
+	<!-- EN: A narrow bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+	<Mousekin_BookcaseSmall.description>Узкий книжный шкаф, в который помещается до десяти книг. Хранящиеся в шкафу книги ускорят изучение технологий поблизости и добавят красоты самому шкафу, а также не будут ветшать.</Mousekin_BookcaseSmall.description>
+
 	<!-- EN: Mousekin shelf -->
 	<Mousekin_Shelf.label>Мышкинский стеллаж</Mousekin_Shelf.label>
 	

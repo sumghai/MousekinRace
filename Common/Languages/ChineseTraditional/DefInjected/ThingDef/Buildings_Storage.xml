@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin bookcase -->
+	<Mousekin_Bookcase.label>白鼠族書櫃</Mousekin_Bookcase.label>
+	
+	<!-- EN: A wide bookcase for storing and displaying up to twenty books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+	<Mousekin_Bookcase.description>一個寬大的書櫃，最多可存放和展示20本書。存放在這裡的書籍會加強在周圍進行的學術工作，並增加書櫃的美觀度。櫃中的書籍永遠不會衰敗。</Mousekin_Bookcase.description>
+	
+	<!-- EN: Mousekin small bookcase -->
+	<Mousekin_BookcaseSmall.label>白鼠族小書櫃</Mousekin_BookcaseSmall.label>
+	
+	<!-- EN: A narrow bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+	<Mousekin_BookcaseSmall.description>一個狹窄的書櫃，最多可存放和展示10本書。存放在這裡的書籍會加強在周圍進行的學術工作，並增加書櫃的美觀度。櫃中的書籍永遠不會衰敗。</Mousekin_BookcaseSmall.description>
+
 	<!-- EN: Mousekin shelf -->
 	<Mousekin_Shelf.label>白鼠族置物架</Mousekin_Shelf.label>
 	

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin bookcase -->
+	<Mousekin_Bookcase.label>マウスキン本棚</Mousekin_Bookcase.label>
+	
+	<!-- EN: A wide bookcase for storing and displaying up to twenty books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+	<Mousekin_Bookcase.description>20冊までの本を収納・展示できる大きな本棚です.棚に本を収納することで,本棚の美しさをより高め,そばで行われる研究速度を高めます.収納されている本は劣化しません.</Mousekin_Bookcase.description>
+	
+	<!-- EN: Mousekin small bookcase -->
+	<Mousekin_BookcaseSmall.label>マウスキン小型本棚</Mousekin_BookcaseSmall.label>
+	
+	<!-- EN: A narrow bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+	<Mousekin_BookcaseSmall.description>10冊までの本を収納・展示できる小さな本棚です.棚に本を収納することで,本棚の美しさをより高め,そばで行われる研究速度を高めます.収納されている本は劣化しません.</Mousekin_BookcaseSmall.description>
+
 	<!-- EN: Mousekin shelf -->
 	<Mousekin_Shelf.label>マウスキンロッカー</Mousekin_Shelf.label>
 	

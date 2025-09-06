@@ -4,6 +4,18 @@
 		<operations>
 		
 			<!-- Add custom Name attributes to selected vanilla furniture, so that we can derive variants elsewhere -->
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Bookcase"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Bookcase</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="BookcaseSmall"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_BookcaseSmall</value>
+			</li>
 		
 			<li Class="PatchOperationAttributeAdd">
 				<xpath>Defs/ThingDef[defName="DiningChair"]</xpath>
@@ -91,6 +103,8 @@
 						
 						<li Class="PatchOperationRemove">
 							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bookcase" or
+								defName="Mousekin_BookcaseSmall" or
 								defName="Mousekin_Chair" or
 								defName="Mousekin_Shelf" or
 								defName="Mousekin_ShelfSmall" or
