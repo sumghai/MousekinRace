@@ -793,15 +793,15 @@
 					<li>Poke</li>
 				</capacities>
 				<power>9</power>
-				<cooldownTime>1.5</cooldownTime>
+				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
 				<label>wooden blade</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>16</power>
-				<cooldownTime>1.5</cooldownTime>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
 		<modExtensions>
