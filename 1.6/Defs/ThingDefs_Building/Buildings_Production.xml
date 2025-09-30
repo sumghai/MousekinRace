@@ -61,7 +61,6 @@
 			<WorkToBuild>2000</WorkToBuild>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Flammability>0.0</Flammability>
-			<Cleanliness>-3</Cleanliness>
 		</statBases>
 		<size>(2,1)</size>
 		<passability>PassThroughOnly</passability>
