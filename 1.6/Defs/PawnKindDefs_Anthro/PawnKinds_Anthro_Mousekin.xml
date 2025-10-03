@@ -1197,8 +1197,8 @@
 			<li>Mousekin_RangedWeapon_Advanced</li>
 			<li>Mousekin_RangedWeapon_Explosive</li>
 		</weaponTags>
-		<minGenerationAge>35</minGenerationAge>
-		<maxGenerationAge>65</maxGenerationAge>
+		<minGenerationAge>21</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<apparelTags>
 			<li>MousekinIndyTownSoldier</li>
@@ -1269,7 +1269,7 @@
 			<li>Mousekin_Tool_Peasant</li>
 			<li>Mousekin_RangedWeapon_Basic</li>
 		</weaponTags>
-		<minGenerationAge>35</minGenerationAge>
+		<minGenerationAge>21</minGenerationAge>
 		<maxGenerationAge>65</maxGenerationAge>
 		<apparelTags>
 			<li>MousekinIndyTownFarmer</li>
