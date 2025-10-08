@@ -295,9 +295,10 @@
 			
 			<!-- Books -->
 			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>Mousekin_BookResearch</thingDef>
-				<countRange>10~20</countRange>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Books</tradeTag>
+				<thingDefCountRange>3</thingDefCountRange>
+				<countRange>20~40</countRange>
 			</li>
 
 			<!-- Buying -->

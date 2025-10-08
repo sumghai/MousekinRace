@@ -340,6 +340,7 @@
     <Compile Include="Comps\MapComponent_FlowerTracker.cs" />
     <Compile Include="Comps\MapComponent_UndergroundMineDeposits.cs" />
     <Compile Include="DefModExtensions\BookcaseRenderExtension.cs" />
+    <Compile Include="DefModExtensions\BookNameDescByGenreExtension.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
     <Compile Include="DefModExtensions\GreatPineAllowedTreesExtension.cs" />
     <Compile Include="DefModExtensions\IdeoMemeRitualsExtension.cs" />
@@ -369,6 +370,7 @@
     <Compile Include="Jobs\WorkGiver_MineResourcesFromMineEntrance.cs" />
     <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
+    <Compile Include="Patches\Harmony_Book.cs" />
     <Compile Include="Patches\Harmony_Building_Storage.cs" />
     <Compile Include="Patches\Harmony_CompRefuelable.cs" />
     <Compile Include="Patches\Harmony_DesignationCategoryDef.cs" />

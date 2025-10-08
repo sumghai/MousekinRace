@@ -8,7 +8,9 @@
 		</include>
 		<rulePack>
 			<rulesStrings>
+			
 				<!-- Volume and Edition numbers for titles -->
+				
 				<li>volNumeral->I</li>
 				<li>volNumeral->II</li>
 				<li>volNumeral->III</li>
@@ -26,33 +28,54 @@
 				<li>titleSuffix->[editionOrdinal] Edition</li>
 				
 				<!-- Authors usually are Mousekin males from the commoner and middle classes -->
+				
 				<li>authorSurname(p=10)->[Mousekin_LastName_Commoner]</li>
 				<li>authorSurname->[Mousekin_LastName_Heroic]</li>
 				<li>authorFullname(p=8)->[Mousekin_FirstName_Male] [authorSurname]</li>
 				<li>authorFullname->[Mousekin_FirstName_Female] [authorSurname]</li>
 				
-				<!-- Quality is entirely dependent on how the previous owner (if any) treated the book, rather than the quality of the written content -->
-				<li>bookQualityBad->Almost all of the pages are on the verge of splitting from the spine.</li>
-				<li>bookQualityBad->Maggots have infested the leather covers and spine.</li>
-				<li>bookQualityBad->Nearly every page has been discolored by smoke from a fire, rendering the contents barely legible.</li>
-				<li>bookQualityBad->Opening the cover unleashes a rancid odor of urine, suggesting the previous owner had been using this copy to prop up a chamberpot.</li>
-				<li>bookQualityBad->Several pages have stains from a mug of Chonko nut brew.</li>				
-				<li>bookQualityBad->The contents and introductory pages have been completely obscured by spilled black ink that has thoroughly soaked through several layers of paper.</li>
-				<li>bookQualityBad->The front and back flyleaves are almost entirely covered by the previous owner's amateurish attempts at practicing their signature.</li>
-				<li>bookQualityBad->The pages from one entire chapter have been torn out, leaving ragged stumps of paper.</li>
-				<li>bookQualityBad->The previous owner of this copy has underlined every other word on every single page with different colored inks.</li>
-				<li>bookQualityBad->The top-left corner of several dozen pages contain crude sequential doodles, depicting a Mousekin farmer repeatedly bludgeoning a Grimalkin rapid-musketeer with a gardening hoe.</li>
+				<!-- Book type (non-fiction) -->
 				
-				<li>bookQualityNormal(p=3)-></li>
-				<li>bookQualityNormal->A few pages of this copy have been dogeared.</li>
-				<li>bookQualityNormal->A pressed flower has been left inside the middle pages.</li>
-				<li>bookQualityNormal->The gold inlay on the cover has dulled with age, but the book is otherwise in good condition.</li>
-				<li>bookQualityNormal->The spine on this copy has been broken in several places, and the edges on several chapters are slightly worn, suggesting the previous owner found this book particularly useful.</li>
+				<li>bookTypeNonFic->codex</li>
+				<li>bookTypeNonFic->compendium</li>
+				<li>bookTypeNonFic->guidebook</li>
+				<li>bookTypeNonFic->manual</li>
+				<li>bookTypeNonFic->reference book</li>
+				<li>bookTypeNonFic->tome</li>
 				
-				<li>bookQualityGood->The book bears the imprint of a respected printing house in the capital city of Arcadia.</li>
-				<li>bookQualityGood->All the illuminations from the book have been richly illustrated with colored ink, and in some cases, adorned with gold leaf.</li>
-				<li>bookQualityGood->The cover, spine and pages are practically pristine, almost as if the previous owner treated it with great reverence - or simply never read its contents.</li>
-				<li>bookQualityGood->The cover bears intricate craftsmanship, in the form of fine details in the gold inlay illustrating the book's subject matter.</li>
+				<!-- Book descriptions (non-fiction) -->
+				
+				<li>bookDescNonFiction->Drawing on [authorFullname]'s years of practical experience, this [bookTypeNonFic] establishes the author as a leading authority in [subject] throughout the Mousekin Kingdom.</li>
+				
+				<!-- Quality (non-fiction) - based on how the previous owner (if any) treated the book -->
+				
+				<li>bookQualityNonFic(quality[less_than]2)->[bookQualityNonFicBad]</li>
+				<li>bookQualityNonFic(quality[less_than]4,quality[greater_than]1)->[bookQualityNonFicNormal]</li>
+				<li>bookQualityNonFic(quality[greater_than]3)->[bookQualityNonFicGood]</li>
+				
+				<li>bookQualityNonFicBad->Almost all of the pages are on the verge of splitting from the spine.</li>
+				<li>bookQualityNonFicBad->Maggots have infested the leather covers and spine.</li>
+				<li>bookQualityNonFicBad->Nearly every page has been discolored by smoke from a fire, rendering the contents barely legible.</li>
+				<li>bookQualityNonFicBad->Opening the cover unleashes a rancid odor of urine, suggesting the previous owner had been using this copy to prop up a chamberpot.</li>
+				<li>bookQualityNonFicBad->Several pages have stains from a mug of Chonko nut brew.</li>				
+				<li>bookQualityNonFicBad->The contents and introductory pages have been completely obscured by spilled black ink that has thoroughly soaked through several layers of paper.</li>
+				<li>bookQualityNonFicBad->The front and back flyleaves are almost entirely covered by the previous owner's amateurish attempts at practicing their signature.</li>
+				<li>bookQualityNonFicBad->The pages from one entire chapter have been torn out, leaving ragged stumps of paper.</li>
+				<li>bookQualityNonFicBad->The previous owner of this copy has underlined every other word on every single page with different colored inks.</li>
+				<li>bookQualityNonFicBad->The top-left corner of several dozen pages contain crude sequential doodles, depicting a Mousekin farmer repeatedly bludgeoning a Grimalkin rapid-musketeer with a gardening hoe.</li>
+				
+				<li>bookQualityNonFicNormal(p=3)-></li>
+				<li>bookQualityNonFicNormal->A few pages of this copy have been dogeared.</li>
+				<li>bookQualityNonFicNormal->A pressed flower has been left inside the middle pages.</li>
+				<li>bookQualityNonFicNormal->The gold inlay on the cover has dulled with age, but the book is otherwise in good condition.</li>
+				<li>bookQualityNonFicNormal->The spine on this copy has been broken in several places, and the edges on several chapters are slightly worn, suggesting the previous owner found this book particularly useful.</li>
+				
+				<li>bookQualityNonFicGood->The book bears the imprint of a respected printing house in the capital city of Arcadia.</li>
+				<li>bookQualityNonFicGood->All the illuminations from the book have been richly illustrated with colored ink, and in some cases, adorned with gold leaf.</li>
+				<li>bookQualityNonFicGood->The cover, spine and pages are practically pristine, almost as if the previous owner treated it with great reverence - or simply never read its contents.</li>
+				<li>bookQualityNonFicGood->The cover bears intricate craftsmanship, in the form of fine details in the gold inlay illustrating the book's subject matter.</li>
+				
+				
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
@@ -84,20 +107,14 @@
 			<rulesStrings>
 				<li>subject->[subject_primary]</li>
 				
-				<li>desc->[bookDesc]\n\n[bookQuality]</li>
+				<li>desc->[bookDescNonFiction]\n\n[bookQualityNonFic]</li>
 				
-				<li>bookDesc->Drawing on [authorFullname]'s years of practical experience, this [bookType] establishes the author as a leading authority in [subject] throughout the Mousekin Kingdom.</li>
-				<li>bookDesc->[authorFullname] [subject_primary_story]. This [bookType] is the author's collation of various notes, rules of thumb, and case studies on [subject_primary_gerund].</li>
-				<li>bookDesc->This [bookType] by [authorFullname] is widely regarded as an excellent introductory text on [subject], covering fundamental theories, history, common techniques and practical applications.</li>
-				<li>bookDesc->This [bookType] by [authorFullname] is primarily a collection of detailed sketches and notes on practical examples of [subject], with the occasional witty but topical anecdote.</li>
+				<li>bookDescNonFiction->[bookDescNonFictionNonFic]</li>
+				<li>bookDescNonFiction->[authorFullname] [subject_primary_story]. This [bookType] is the author's collation of various notes, rules of thumb, and case studies on [subject_primary_gerund].</li>
+				<li>bookDescNonFiction->This [bookType] by [authorFullname] is widely regarded as an excellent introductory text on [subject], covering fundamental theories, history, common techniques and practical applications.</li>
+				<li>bookDescNonFiction->This [bookType] by [authorFullname] is primarily a collection of detailed sketches and notes on practical examples of [subject], with the occasional witty but topical anecdote.</li>
 				
-				<li>bookType->codex</li>
-				<li>bookType->compendium</li>
-				<li>bookType->tome</li>
-				
-				<li>bookQuality(quality[less_than]2)->[bookQualityBad]</li>
-				<li>bookQuality(quality[less_than]4,quality[greater_than]1)->[bookQualityNormal]</li>
-				<li>bookQuality(quality[greater_than]3)->[bookQualityGood]</li>
+				<li>bookType->[bookTypeNonFic]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

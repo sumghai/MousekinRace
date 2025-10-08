@@ -199,9 +199,10 @@
 			
 			<!-- Books -->
 			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>Mousekin_BookResearch</thingDef>
-				<countRange>2~5</countRange>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Books</tradeTag>
+				<thingDefCountRange>3</thingDefCountRange>
+				<countRange>5~10</countRange>
 			</li>
 			
 			<!-- Buying -->
@@ -652,8 +653,9 @@
 			
 			<!-- Books -->
 			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>Mousekin_BookResearch</thingDef>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Mousekin_TradeGoods_Books</tradeTag>
+				<thingDefCountRange>3</thingDefCountRange>
 				<countRange>5~10</countRange>
 			</li>
 			

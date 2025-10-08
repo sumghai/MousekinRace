@@ -1,7 +1,95 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BookBase">
+	<ThingDef Name="Mousekin_BookBase" ParentName="BookBase" Abstract="true">
+		<tradeTags>
+			<li>Mousekin_TradeGoods_Books</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_BookBase">
+		<defName>Mousekin_BookNovel</defName>
+		<label>Mousekin tale</label>
+		<description>A leather-bound book with moveable-type printed and hand-illuminated pages, containing fictional or true stories of Mousekins for the pleasure and edification of the reader.</description>
+		<graphicData>
+			<texPath>Things/Items/Book/Mousekin_BookNovel/Mousekin_BookNovel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Items/Book/Mousekin_BookNovel/Mousekin_BookNovel</uiIconPath>
+		<statBases>
+			<MarketValue>160</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Book">
+				<!-- Titles and descriptions will be overridden by mod def extension -->
+				<nameMaker>Namer_Novel</nameMaker>
+				<descriptionMaker>Description_Novel</descriptionMaker>
+				<ageYearsRange>5~200</ageYearsRange>
+				<openGraphic>
+					<texPath>Things/Items/Book/Mousekin_BookNovel/Mousekin_BookNovel_Open</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.7</drawSize>
+				</openGraphic>
+				<verticalGraphic>
+					<texPath>Things/Items/Book/Mousekin_BookNovel/Mousekin_BookNovel_Vertical</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<addTopAltitudeBias>true</addTopAltitudeBias>
+				</verticalGraphic>
+				<doers>
+					<li Class="BookOutcomeProperties_JoyFactorModifier" />
+				</doers>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="MousekinRace.BookNameDescByGenreExtension">
+				<nameDescPairs>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelAdventure</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelAdventure</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelChildren</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelChildren</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelComedy</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelComedy</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelIntrigue</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelIntrigue</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelTragedy</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelTragedy</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelRomanceCommoners</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelRomanceCommoners</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelRomanceNobleMaleCommonerFemale</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelRomanceNobleMaleCommonerFemale</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelRomanceCommonerMaleNobleFemale</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelRomanceCommonerMaleNobleFemale</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelRomanceKnightLady</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelRomanceKnightLady</descriptionMaker>
+					</li>
+					<li>
+						<nameMaker>NamerBook_Mousekin_BookNovelRomanceKnightGuardener</nameMaker>
+						<descriptionMaker>Description_Mousekin_BookNovelRomanceKnightGuardener</descriptionMaker>
+					</li>
+				</nameDescPairs>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Mousekin_BookBase">
 		<defName>Mousekin_BookResearch</defName>
 		<label>Mousekin treatise</label>
 		<description>A leather-bound book with moveable-type printed and hand-illuminated pages, detailing insights into new Mousekin technology and methods for using it.</description>
@@ -40,9 +128,39 @@
 		</comps>
 	</ThingDef>
 	
-	<!-- todo
-	 - Mousekin textbook (Mousekin_BookSkills) - for learning skills
-	 - Mousekin tale (Mousekin_BookNovel) - for entertainment
-	-->
+	<ThingDef ParentName="Mousekin_BookBase">
+		<defName>Mousekin_BookSkills</defName>
+		<label>Mousekin textbook</label>
+		<description>A leather-bound book with moveable-type printed and hand-illuminated pages, which focuses on teaching skills.</description>
+		<graphicData>
+			<texPath>Things/Items/Book/Mousekin_BookSkills/Mousekin_BookSkills</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Items/Book/Mousekin_BookSkills/Mousekin_BookSkills</uiIconPath>
+		<statBases>
+			<MarketValue>160</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Book">
+				<nameMaker>NamerBook_Mousekin_BookSkills</nameMaker>
+				<descriptionMaker>Description_Mousekin_BookSkills</descriptionMaker>
+				<ageYearsRange>5~200</ageYearsRange>
+				<openGraphic>
+					<texPath>Things/Items/Book/Mousekin_BookSkills/Mousekin_BookSkills_Open</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.7</drawSize>
+				</openGraphic>
+				<verticalGraphic>
+					<texPath>Things/Items/Book/Mousekin_BookSkills/Mousekin_BookSkills_Vertical</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<addTopAltitudeBias>true</addTopAltitudeBias>
+				</verticalGraphic>
+				<doers>
+					<li Class="BookOutcomeProperties_GainSkillExp" />
+				</doers>
+			</li>
+		</comps>
+	</ThingDef>
 	
 </Defs>
