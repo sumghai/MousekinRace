@@ -30,7 +30,7 @@ namespace MousekinRace
         // Determine if there are enough (i.e. 5 or more) Mousekin worshippers on a given map
         public static bool EnoughPlayerMousekinWorshippers(Map map)
         {
-            return GetMousekinPotentialWorshippers(map).Count() > MinNumWorshippers;
+            return GetMousekinPotentialWorshippers(map).Count() >= MinNumWorshippers;
         }
 
         // Determine if there is a properly-configured church room/building on a given map
