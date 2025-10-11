@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Hunter’s Crossbow -->
+	<Mousekin_RangedWeapon_Crossbow.label>Besta de Caça Mousekin</Mousekin_RangedWeapon_Crossbow.label>
+	
+	<!-- EN: A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used for hunting or self-defense, firing one bolt at a time using fiber or sinew strings under tension, and comes with a miniature crank wheel to allow the relatively weak Mousekins to quickly and easily draw the bow after firing. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_Crossbow.description>Uma arma de longo alcance que dispara virotes de madeira a alvos distantes.\n\nEsta besta é principalmente usada para caça ou defesa pessoal, disparando um virote por vez usando cordas de fibra ou tendão tensionadas, e vem com uma pequena roda de manivela que permite que os Mousekins relativamente fracos armem a besta rapidamente após o disparo. Seu cabo e gatilho são pequenos demais para que um humano a manuseie corretamente.</Mousekin_RangedWeapon_Crossbow.description>
+	
+	<!-- EN: stirrup -->
+	<Mousekin_RangedWeapon_Crossbow.tools.0.label>Espora</Mousekin_RangedWeapon_Crossbow.tools.0.label>
+	
+	<!-- EN: Mousekin Hunter’s Crossbow -->
+	<Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>Besta de Caça Mousekin</Mousekin_RangedWeapon_Crossbow.verbs.Verb_Shoot.label>
+	
+	<!-- EN: Mousekin Automatic Crossbow -->
+	<Mousekin_RangedWeapon_CrossbowAuto.label>Besta Automático Mousekin</Mousekin_RangedWeapon_CrossbowAuto.label>
+	
+	<!-- EN: A ranged weapon that elastically launches wooden bolts at distant targets.\n\nThis particular crossbow is mainly used in combat, firing multiple bolts in quick succession from a removable drum magazine using fiber or sinew strings under tension, and uses a wind-up spring mechanism to automatically reload and fire the next shot. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_CrossbowAuto.description>Uma arma de longo alcance que dispara virotes de madeira a alvos distantes.\n\nEsta besta é usada em combate, disparando múltiplos virotes rapidamente de um carregador em tambor removível usando cordas de fibra ou tendão tensionadas, e usa um mecanismo de mola para recarregar e disparar automaticamente o próximo tiro. Seu cabo e gatilho são pequenos demais para que um humano a manuseie corretamente.</Mousekin_RangedWeapon_CrossbowAuto.description>
+	
+	<!-- EN: stirrup -->
+	<Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>Espora</Mousekin_RangedWeapon_CrossbowAuto.tools.0.label>
+	
+	<!-- EN: Mousekin Automatic Crossbow -->
+	<Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>Besta Automático Mousekin</Mousekin_RangedWeapon_CrossbowAuto.verbs.Verb_Shoot.label>
+	
+	<!-- EN: Mousekin Musket -->
+	<Mousekin_RangedWeapon_MusketLong.label>Mosquete Mousekin</Mousekin_RangedWeapon_MusketLong.label>
+	
+	<!-- EN: A slow-firing firearm that propels small, smooth cast iron balls at distant targets, with a longer effective range and greater damage than crossbows. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_MusketLong.description>Uma arma de fogo de disparo lento que projeta pequenas bolas de ferro fundido lisas em alvos distantes, com maior alcance efetivo e dano superior às bestas. Seu cabo e gatilho são pequenos demais para que um humano a manuseie corretamente.</Mousekin_RangedWeapon_MusketLong.description>
+	
+	<!-- EN: stock -->
+	<Mousekin_RangedWeapon_MusketLong.tools.0.label>Cabo</Mousekin_RangedWeapon_MusketLong.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Mousekin_RangedWeapon_MusketLong.tools.1.label>Cano</Mousekin_RangedWeapon_MusketLong.tools.1.label>
+	
+	<!-- EN: Mousekin Musket -->
+	<Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>Mosquete Mousekin</Mousekin_RangedWeapon_MusketLong.verbs.Verb_ShootWithSmoke.label>
+	
+	<!-- EN: Mousekin Blunderbuss -->
+	<Mousekin_RangedWeapon_MusketShort.label>Espingarda Mousekin</Mousekin_RangedWeapon_MusketShort.label>
+	
+	<!-- EN: A slow-firing firearm shorter than the regular Mousekin Musket, with a comparably shorter effective range but capable of great damage against armored targets. Its grip and trigger are too small for a human to wield and operate properly. -->
+	<Mousekin_RangedWeapon_MusketShort.description>Uma arma de fogo de disparo lento, mais curta que o Mosquete Mousekin normal, com alcance efetivo menor, mas capaz de causar grande dano a alvos blindados. Seu cabo e gatilho são pequenos demais para que um humano a manuseie corretamente.</Mousekin_RangedWeapon_MusketShort.description>
+	
+	<!-- EN: stock -->
+	<Mousekin_RangedWeapon_MusketShort.tools.0.label>Cabo</Mousekin_RangedWeapon_MusketShort.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Mousekin_RangedWeapon_MusketShort.tools.1.label>Cano</Mousekin_RangedWeapon_MusketShort.tools.1.label>
+	
+	<!-- EN: Mousekin Blunderbuss -->
+	<Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>Espingarda Mousekin</Mousekin_RangedWeapon_MusketShort.verbs.Verb_ShootWithSmoke.label>
+	
+	<!-- EN: Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.label>Granada de Bolota Mousekin</Mousekin_GrenadeAcorn.label>
+	
+	<!-- EN: A small explosive weapon consisting of a cast iron casing shaped like an oversized acorn and filled with gunpowder. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. -->
+	<Mousekin_GrenadeAcorn.description>Uma pequena arma explosiva composta por uma carcaça de ferro fundido em forma de bolota gigante, cheia de pólvora. Podem ser arremessadas a curta distância, onde explodem, causando dano a qualquer coisa ou pessoa próxima.</Mousekin_GrenadeAcorn.description>
+	
+	<!-- EN: throw Mousekin Acorn Grenade -->
+	<Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>Lançar Granada de Bolota Mousekin</Mousekin_GrenadeAcorn.verbs.Verb_LaunchProjectile.label>
+	
+</LanguageData>

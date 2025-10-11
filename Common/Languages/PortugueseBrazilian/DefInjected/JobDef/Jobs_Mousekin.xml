@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: attending church service. -->
+	<Mousekin_Job_ChurchServiceAttendSermon.reportString>Assistindo ao serviço da igreja.</Mousekin_Job_ChurchServiceAttendSermon.reportString>
+	
+	<!-- EN: holding church service. -->
+	<Mousekin_Job_ChurchServiceGiveSermon.reportString>Ministrando o serviço da igreja.</Mousekin_Job_ChurchServiceGiveSermon.reportString>
+
+	<!-- EN: Doing something. -->
+	<Mousekin_Job_CommitSuicideWithKnife.reportString>Fazendo algo.</Mousekin_Job_CommitSuicideWithKnife.reportString>
+
+	<!-- EN: Doing something. -->
+	<Mousekin_Job_CommitSuicideWithPoison.reportString>Fazendo algo.</Mousekin_Job_CommitSuicideWithPoison.reportString>
+	
+	<!-- EN: emptying ashes from TargetA. -->
+	<Mousekin_Job_EmptyAshesFromHearth.reportString>Esvaziando as cinzas de TargetA.</Mousekin_Job_EmptyAshesFromHearth.reportString>
+
+	<!-- EN: harvesting products from TargetA. -->
+	<Mousekin_Job_HarvestFromBeehive.reportString>Colhendo produtos de TargetA.</Mousekin_Job_HarvestFromBeehive.reportString>
+	
+	<!-- EN: mining resources from from TargetA. -->
+	<Mousekin_Job_MineResourcesFromMineEntrance.reportString>Extraindo recursos de TargetA.</Mousekin_Job_MineResourcesFromMineEntrance.reportString>
+	
+	<!-- EN: playing Mousie-Go-Home. -->
+	<Mousekin_Job_PlayTabletopGame.reportString>Jogando Ratito-Para-Casa.</Mousekin_Job_PlayTabletopGame.reportString>
+	
+</LanguageData>

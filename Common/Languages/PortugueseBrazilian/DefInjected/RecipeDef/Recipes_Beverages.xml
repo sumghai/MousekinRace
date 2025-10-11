@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: make Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.label>Preparar café de Chonko</Mousekin_Make_DrinkChonkoNutBrew.label>
+	
+	<!-- EN: Make a warm, coffee-like beverage brewed from roasted and ground Chonko nuts, plus a "secret ingredient" for that extra kick. Temporarily improves mood, consciousness and blood circulation. -->
+	<Mousekin_Make_DrinkChonkoNutBrew.description>Prepare uma bebida quente, semelhante ao café, feita de nozes Chonko torradas e moídas, junto com um "ingrediente secreto" para dar um toque extra. Melhora temporariamente o humor, a consciência e a circulação sanguínea.</Mousekin_Make_DrinkChonkoNutBrew.description>
+	
+	<!-- EN: Making Chonko nut brew -->
+	<Mousekin_Make_DrinkChonkoNutBrew.jobString>Preparando café de Chonko.</Mousekin_Make_DrinkChonkoNutBrew.jobString>
+	
+	<!-- EN: make Mousekin lager wort -->
+	<Mousekin_Make_WortLager.label>Preparar mosto de lager Mousekin</Mousekin_Make_WortLager.label>
+	
+	<!-- EN: Make Mousekin lager wort from Mouse-ear barley and hops. -->
+	<Mousekin_Make_WortLager.description>用Faça mosto de lager Mousekin a partir de cevada-orelha-de-rato e lúpulo.</Mousekin_Make_WortLager.description>
+	
+	<!-- EN: Making Mousekin lager wort -->
+	<Mousekin_Make_WortLager.jobString>Preparando mosto de lager Mousekin</Mousekin_Make_WortLager.jobString>
+	
+	<!-- EN: make Mousekin mead must -->
+	<Mousekin_Make_WortMead.label>Preparar mosto de hidromel Mousekin</Mousekin_Make_WortMead.label>
+	
+	<!-- EN: Make Mousekin mead must from Mousekin honey. -->
+	<Mousekin_Make_WortMead.description>Faça mosto de hidromel Mousekin a partir de mel Mousekin.</Mousekin_Make_WortMead.description>
+	
+	<!-- EN: Making Mousekin mead must -->
+	<Mousekin_Make_WortMead.jobString>Preparando mosto de hidromel Mousekin</Mousekin_Make_WortMead.jobString>
+	
+	<!-- EN: make Mousekin root beer syrup -->
+	<Mousekin_Make_SyrupRootBeer.label>Preparar xarope de root beer Mousekin</Mousekin_Make_SyrupRootBeer.label>
+	
+	<!-- EN: Make Mousekin root beer syrup from healroot. -->
+	<Mousekin_Make_SyrupRootBeer.description>Faça xarope de root beer Mousekin a partir de raiz medicinal.</Mousekin_Make_SyrupRootBeer.description>
+	
+	<!-- EN: Making Mousekin root beer syrup -->
+	<Mousekin_Make_SyrupRootBeer.jobString>Preparando xarope de root beer Mousekin</Mousekin_Make_SyrupRootBeer.jobString>
+	
+</LanguageData>

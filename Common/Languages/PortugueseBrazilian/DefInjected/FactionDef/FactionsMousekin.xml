@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: New Mousekin Settlers -->
+	<Mousekin_PlayerFaction_Settlers.label>Nova Mousekin Colónia</Mousekin_PlayerFaction_Settlers.label>
+
+	<!-- EN:  newly-established hamlet of Mousekin settlers. -->
+	<Mousekin_PlayerFaction_Settlers.description>Uma aldeia nova estabelecida de Mousekin。</Mousekin_PlayerFaction_Settlers.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Settlers.pawnSingular>Mousekin</Mousekin_PlayerFaction_Settlers.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_PlayerFaction_Settlers.pawnsPlural>Mousekin</Mousekin_PlayerFaction_Settlers.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Settlers.leaderTitle>Líder</Mousekin_PlayerFaction_Settlers.leaderTitle>
+
+	<!-- EN: New Mousekin Refugees -->
+	<Mousekin_PlayerFaction_Refugees.label>Novos Mousekin Refugiados</Mousekin_PlayerFaction_Refugees.label>
+
+	<!-- EN: A group of Mousekin who have lost their home village to Grimalkin invaders. -->
+	<Mousekin_PlayerFaction_Refugees.description>Um grupo de Mousekin Refugiados por causa dos Grimálquios.</Mousekin_PlayerFaction_Refugees.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_PlayerFaction_Refugees.pawnSingular>Mousekin</Mousekin_PlayerFaction_Refugees.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_PlayerFaction_Refugees.pawnsPlural>Mousekins</Mousekin_PlayerFaction_Refugees.pawnsPlural>
+	
+	<!-- EN: leader -->
+	<Mousekin_PlayerFaction_Refugees.leaderTitle>Líder</Mousekin_PlayerFaction_Refugees.leaderTitle>
+
+	<!-- EN: Mousekin Kingdom -->
+	<Mousekin_FactionKingdom.label>Reino de Mousekin</Mousekin_FactionKingdom.label>
+
+	<!-- EN: A monarchical civilization of Mousekins primarily engaged in agriculture, mining and commerce, with a late-medieval to pre-industrial level of technology.\n\nSuch societies are highly stratified, patriarchal and organized along feudal lines, with royalty at the top of the social pyramid, followed by nobility and clergy, the knight and Guardener classes, common citizens and tradesmen, and finally peasants and laborers at the very bottom.\n\nAlthough nominally ruled by the Mousekin King, the real executive power in overseeing the military and domestic affairs of the kingdom lies in the hands of the Lord Protector, a veteran Mousekin Knight Commander chosen for exemplifying the highest ideals of chivalry amongst the Order of Knights.\n\nWhile generally wary of outsiders due to being frequently looked down upon by most non-Mousekin humanoids, they can be firm, loyal friends if allied - or persistent enemies if angered. -->
+	<Mousekin_FactionKingdom.description>Uma civilização monárquica de Mousekins, primariamente dedicada à agricultura, mineração e comércio, com um nível tecnológico do final da Idade Média ao pré-industrial.\n\nTais sociedades são altamente estratificadas, patriarcais e organizadas segundo linhas feudais, com a realeza no topo da pirâmide social, seguida pela nobreza e clero, as classes de cavaleiros e Florineiras, cidadãos comuns e comerciantes, e finalmente camponeses e trabalhadores na base.\n\nEmbora nominalmente governados pelo Rei Mousekin, o verdadeiro poder executivo na supervisão dos assuntos militares e domésticos do reino está nas mãos do Lorde Protetor, um veterano Comandante de Cavaleiros Mousekin escolhido por exemplificar os mais altos ideais de cavalaria da Ordem dos Cavaleiros.\n\nEmbora geralmente desconfiados de forasteiros devido a serem frequentemente menosprezados pela maioria dos humanoides não-Mousekin, podem ser amigos firmes e leais se aliados – ou inimigos persistentes se irritados.</Mousekin_FactionKingdom.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionKingdom.pawnSingular>Mousekin</Mousekin_FactionKingdom.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionKingdom.pawnsPlural>Mousekin</Mousekin_FactionKingdom.pawnsPlural>
+
+	<!-- EN: Lord Protector -->
+	<Mousekin_FactionKingdom.leaderTitle>Lorde Protetor</Mousekin_FactionKingdom.leaderTitle>
+	
+	<!-- EN: Pledge fealty to The Mousekin King -->
+	<Mousekin_FactionKingdom.modExtensions.1.joinButtonLabel>Jurar fidelidade ao Rei Mousekin</Mousekin_FactionKingdom.modExtensions.1.joinButtonLabel>
+	
+	<!-- EN: vassal -->
+	<Mousekin_FactionKingdom.modExtensions.1.membershipTypeLabel>Vassalo</Mousekin_FactionKingdom.modExtensions.1.membershipTypeLabel>
+
+	<!-- EN: Independent Mousekins -->
+	<Mousekin_FactionIndyTown.label>Independente Mousekins</Mousekin_FactionIndyTown.label>
+
+	<!-- EN: A loose confederation of Mousekin towns and villages, whose inhabitants declared independence from the Mousekin Kingdom after balking under its regressive, monarchical rule, and practice a crude form of democracy.\n\nThey are somewhat more willing to trade with non-Mousekin outsiders, in an attempt to compensate for their military and economic disadvantages compared to the Mousekin Kingdom. -->
+	<Mousekin_FactionIndyTown.description>Uma confederação frouxa de cidades e vilarejos Mousekin, cujos habitantes declararam independência do Reino Mousekin após se revoltarem contra seu governo monárquico retrógrado, e praticam uma forma rudimentar de democracia.\n\nEles estão um pouco mais dispostos a negociar com forasteiros não-Mousekin, numa tentativa de compensar suas desvantagens militares e econômicas em comparação com o Reino Mousekin.</Mousekin_FactionIndyTown.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionIndyTown.pawnSingular>Mousekin</Mousekin_FactionIndyTown.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionIndyTown.pawnsPlural>Mousekins</Mousekin_FactionIndyTown.pawnsPlural>
+
+	<!-- EN: Prime Councilor -->
+	<Mousekin_FactionIndyTown.leaderTitle>Conselheiro</Mousekin_FactionIndyTown.leaderTitle>
+	
+	<!-- EN: Long Live the Revolution! -->
+	<Mousekin_FactionIndyTown.modExtensions.1.joinButtonLabel>Viva a Revolução!</Mousekin_FactionIndyTown.modExtensions.1.joinButtonLabel>
+	
+	<!-- EN: member -->
+	<Mousekin_FactionIndyTown.modExtensions.1.membershipTypeLabel>Membro</Mousekin_FactionIndyTown.modExtensions.1.membershipTypeLabel>
+
+	<!-- EN: Mousekin Nomads -->
+	<Mousekin_FactionNomad.label>Nômade Mousekin</Mousekin_FactionNomad.label>
+
+	<!-- EN: A loose band of Mousekin nomads who spend their entire lives travelling throughout the lands in giant cavy-pulled caravans, trading freely with Mousekins and non-Mousekins alike.\n\nThey are friendly towards most outsiders, and generally lack any sort of organized military to defend themselves. -->
+	<Mousekin_FactionNomad.description>Uma banda solta de nômades Mousekin que passam toda a vida viajando pelas terras em caravanas puxadas por Cobaiões gigantes, comerciando livremente com Mousekins e não-Mousekins.\n\nEles são amigáveis com a maioria dos forasteiros e, geralmente, não possuem nenhum tipo de força militar organizada para se defender.</Mousekin_FactionNomad.description>
+
+	<!-- EN: Rodemani -->
+	<Mousekin_FactionNomad.fixedName>Rodemano</Mousekin_FactionNomad.fixedName>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionNomad.pawnSingular>Mousekin</Mousekin_FactionNomad.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionNomad.pawnsPlural>Mousekins</Mousekin_FactionNomad.pawnsPlural>
+
+	<!-- EN: Wagon Master -->
+	<Mousekin_FactionNomad.leaderTitle>Mestre de Vagão</Mousekin_FactionNomad.leaderTitle>
+
+	<!-- EN: Mousekin Brigands -->
+	<Mousekin_FactionBrigand.label>Bandido Mousekin</Mousekin_FactionBrigand.label>
+
+	<!-- EN: A roving band of Mousekin raiders that plunder and raze any settlement they come across, either for survival or financial gain. They usually consist of military deserters, exiles, escaped criminals and starving peasants from famine-ravaged villages.\n\nAs they have no fixed base of operations of any kind, they are generally impossible to eradicate. -->
+	<Mousekin_FactionBrigand.description>Uma banda nômade de saqueadores Mousekin que pilha e arrasa qualquer assentamento que encontram, seja por sobrevivência ou ganho financeiro. Normalmente consistem de desertores militares, exilados, criminosos fugitivos e camponeses famintos de vilarejos devastados pela fome.\n\nComo não possuem nenhuma base fixa de operações, geralmente são impossíveis de erradicar.</Mousekin_FactionBrigand.description>
+	
+	<!-- EN: Mousekin -->
+	<Mousekin_FactionBrigand.pawnSingular>Mousekin</Mousekin_FactionBrigand.pawnSingular>
+
+	<!-- EN: Mousekins -->
+	<Mousekin_FactionBrigand.pawnsPlural>Mousekins</Mousekin_FactionBrigand.pawnsPlural>
+
+	<!-- EN: Ringleader -->
+	<Mousekin_FactionBrigand.leaderTitle>Líder</Mousekin_FactionBrigand.leaderTitle>
+	
+</LanguageData>

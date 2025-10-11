@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: 
+		<li>Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name->[Tree]bridge</li>
+		<li>Settlement_Name->[Metal]bridge</li>
+		<li>Settlement_Name->[Metal]forge</li>
+	-->
+	<MousekinSettlementNameUtility.rulePack.rulesStrings>
+		<li>Settlement_Name(p=3)->[Herb][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name(p=3)->[Flower][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name(p=3)->[Tree][Settlement_Name_Postfix]</li>
+		<li>Settlement_Name->Ponte de [Tree]</li>
+		<li>Settlement_Name->Ponte de [Metal]</li>
+		<li>Settlement_Name->Forja de [Metal]</li>
+	</MousekinSettlementNameUtility.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_name->[Settlement_Name]</li>
+	-->
+	<NamerSettlement_MousekinStandard.rulePack.rulesStrings>
+		<li>r_name->[Settlement_Name][Settlement_Type]</li>
+	</NamerSettlement_MousekinStandard.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_name->[Settlement_Name]</li>
+	-->
+	<NamerSettlement_MousekinKingdom.rulePack.rulesStrings>
+		<li>r_name->[Settlement_Name][Settlement_Type]</li>
+	</NamerSettlement_MousekinKingdom.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_name->New [Settlement_Name]</li>
+		<li>r_name->[Mousekin_LastName_Commoner]'s Rest</li>
+		<li>r_name->[Mousekin_LastName_Commoner]'s Sorrow</li>
+	-->
+	<NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings>
+		<li>r_name->Novo [Settlement_Name][Settlement_Type]</li>
+		<li>r_name->Descanso de [Mousekin_LastName_Commoner]</li>
+		<li>r_name->Saudade de [Mousekin_LastName_Commoner]</li>
+	</NamerSettlement_MousekinPlayerRefugees.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_name->Free [Settlement_Type] of [Settlement_Name]</li>
+	-->
+	<NamerSettlement_MousekinIndyTown.rulePack.rulesStrings>
+		<li>r_name->Independente [Settlement_Type] de [Settlement_Name]</li>
+	</NamerSettlement_MousekinIndyTown.rulePack.rulesStrings>
+	
+</LanguageData>

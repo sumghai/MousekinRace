@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: ate cheese -->
+	<Mousekin_Thought_AteCheese.stages.0.label>Comeu queijo</Mousekin_Thought_AteCheese.stages.0.label>
+
+	<!-- EN: I ate some cheese. I guess it tastes alright, but I'd prefer some crunchy roasted nuts or juicy berries. -->
+	<Mousekin_Thought_AteCheese.stages.0.description>Comi um pouco de queijo. Acho que o gosto está ok, mas eu prefiro algumas nozes torradas crocantes ou frutas vermelhas suculentas.</Mousekin_Thought_AteCheese.stages.0.description>
+
+	<!-- EN: ate cheese x2 -->
+	<Mousekin_Thought_AteCheese.stages.1.label>Comeu queijo x2</Mousekin_Thought_AteCheese.stages.1.label>
+
+	<!-- EN: I ate some more cheese. I'm starting to get sick of this. -->
+	<Mousekin_Thought_AteCheese.stages.1.description>Comi um pouco mais de queijo. Estou começando a me enjoar disso.</Mousekin_Thought_AteCheese.stages.1.description>
+
+	<!-- EN: ate cheese x3 -->
+	<Mousekin_Thought_AteCheese.stages.2.label>Comeu queijo x3</Mousekin_Thought_AteCheese.stages.2.label>
+
+	<!-- EN: Cheese again? Ugh. -->
+	<Mousekin_Thought_AteCheese.stages.2.description>Queijo de novo? Argh.</Mousekin_Thought_AteCheese.stages.2.description>
+
+	<!-- EN: ate cheese x4 -->
+	<Mousekin_Thought_AteCheese.stages.3.label>Comeu queijo x4</Mousekin_Thought_AteCheese.stages.3.label>
+
+	<!-- EN: No...more...cheese...please... -->
+	<Mousekin_Thought_AteCheese.stages.3.description>Não...mais...queijo...por...favor...</Mousekin_Thought_AteCheese.stages.3.description>
+
+	<!-- EN: ate corpse -->
+	<Mousekin_Thought_AteCorpse.stages.0.label>Comeu cadáver</Mousekin_Thought_AteCorpse.stages.0.label>
+
+	<!-- EN: I had to eat the flesh of a dead creature without even butchering or cooking it, like a filthy, primitive rat. -->
+	<Mousekin_Thought_AteCorpse.stages.0.description>Tive que comer a carne de uma criatura morta sem sequer abatê-la ou cozinhá-la, como um rato primitivo e sujo.</Mousekin_Thought_AteCorpse.stages.0.description>
+
+	<!-- EN: ate cooked human meat -->
+	<Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.label>Comeu carne humana cozida</Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.label>
+
+	<!-- EN: Huh. Who knew cooked smoothskin meat tastes like pork tenderloin? -->
+	<Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.description>Hum. Quem diria que carne de pele-lisa cozida tem gosto de filé de porco?</Mousekin_Thought_AteHumanlikeMeatAsIngredient.stages.0.description>
+
+	<!-- EN: ate raw human meat -->
+	<Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.label>Comeu carne humana crua</Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.label>
+
+	<!-- EN: Ew, it tastes like raw pork! -->
+	<Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.description>Ei, tem gosto de carne de porco crua!</Mousekin_Thought_AteHumanlikeMeatDirect.stages.0.description>
+
+	<!-- EN: ate kibble -->
+	<Mousekin_Thought_AteKibble.stages.0.label>Comeu ração</Mousekin_Thought_AteKibble.stages.0.label>
+
+	<!-- EN: I had to eat animal kibble, like a filthy, primitive rat. -->
+	<Mousekin_Thought_AteKibble.stages.0.description>Fui obrigado a comer ração animal, como um rato sujo e primitivo.</Mousekin_Thought_AteKibble.stages.0.description>
+
+	<!-- EN: cooked cannibalism -->
+	<Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.label>Comeu carne de Mousekin cozida</Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.label>
+
+	<!-- EN: My meal was made from the cooked meat of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.description>Minha refeição foi feita com a carne cozida dos meus irmãos! Valeriano, perdoe-me pois pequei!</Mousekin_Thought_AteMousekinMeatAsIngredient.stages.0.description>
+
+	<!-- EN: raw cannibalism -->
+	<Mousekin_Thought_AteMousekinMeatDirect.stages.0.label>Comeu carne de Mousekin crua</Mousekin_Thought_AteMousekinMeatDirect.stages.0.label>
+
+	<!-- EN: I ate the raw flesh of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_AteMousekinMeatDirect.stages.0.description>Comi a carne crua dos meus irmãos! Valeriano, perdoe-me pois pequei!</Mousekin_Thought_AteMousekinMeatDirect.stages.0.description>
+
+	<!-- EN: ate raw food -->
+	<Mousekin_Thought_AteRawFood.stages.0.label>Comeu comida crua</Mousekin_Thought_AteRawFood.stages.0.label>
+
+	<!-- EN: I had to eat raw food. We should be cooking that kind of food before eating it. We're not filthy, primitive rats. -->
+	<Mousekin_Thought_AteRawFood.stages.0.description>Tive que comer comida crua. Devíamos cozinhar esse tipo de alimento antes de comer. Não somos ratos primitivos e sujos.</Mousekin_Thought_AteRawFood.stages.0.description>
+
+	<!-- EN: ate Mousekin trail mix -->
+	<Mousekin_Thought_AteTrailMix.stages.0.label>Comeu mix de castanhas Mousekin</Mousekin_Thought_AteTrailMix.stages.0.label>
+
+	<!-- EN: I love trail mix! Crunchy nuts, chewy dried berries, yummy popcorn! -->
+	<Mousekin_Thought_AteTrailMix.stages.0.description>Adoro mix de castanhas! Nozes crocantes, frutas secas mastigáveis, pipoca deliciosa!</Mousekin_Thought_AteTrailMix.stages.0.description>
+
+	<!-- EN: ate without table -->
+	<Mousekin_Thought_AteWithoutTable.stages.0.label>Comeu sem mesa</Mousekin_Thought_AteWithoutTable.stages.0.label>
+
+	<!-- EN: I had to eat a meal off the ground, like a filthy, primitive rat. Can't we get a joiner to make us a proper table? -->
+	<Mousekin_Thought_AteWithoutTable.stages.0.description>Tive que comer no chão, como um rato primitivo e sujo. Não podemos chamar um carpinteiro para fazer uma mesa decente?</Mousekin_Thought_AteWithoutTable.stages.0.description>
+
+	<!-- EN: attended wedding -->
+	<Mousekin_Thought_AttendedWedding.stages.0.label>Compareceu a um casamento</Mousekin_Thought_AttendedWedding.stages.0.label>
+
+	<!-- EN: May they grow the biggest and most beautiful garden together! -->
+	<Mousekin_Thought_AttendedWedding.stages.0.description>Que eles cultivem juntos o maior e mais belo jardim!</Mousekin_Thought_AttendedWedding.stages.0.description>
+
+	<!-- EN: I butchered human corpse -->
+	<Mousekin_Thought_ButcheredHumanCorpse.stages.0.label>Abateu humano</Mousekin_Thought_ButcheredHumanCorpse.stages.0.label>
+
+	<!-- EN: Huh, these smoothskins have such strange bones and meat. -->
+	<Mousekin_Thought_ButcheredHumanCorpse.stages.0.description>Hum, esse pele-lisa têm ossos e carne tão estranhos.</Mousekin_Thought_ButcheredHumanCorpse.stages.0.description>
+
+	<!-- EN: I butchered another Mousekin -->
+	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.label>Abateu Mousekin</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.label>
+
+	<!-- EN: I butchered up one of our brethren like an animal. Now I'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>Abati um dos nossos irmãos como se fosse um animal. Agora nunca mais serei permitido entrar no Grande Jardim!</Mousekin_Thought_ButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: attended church service -->
+	<Mousekin_Thought_ChurchAttendedService.stages.0.label>Compareceu à messa</Mousekin_Thought_ChurchAttendedService.stages.0.label>
+	
+	<!-- EN: May the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt; -->
+	<Mousekin_Thought_ChurchAttendedService.stages.0.description>Que os ensinamentos de Valeriano o Sábio nos guiem até o Grande Jardim.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt;</Mousekin_Thought_ChurchAttendedService.stages.0.description>
+	
+	<!-- EN: held church service -->
+	<Mousekin_Thought_ChurchHeldService.stages.0.label>Realizou messa</Mousekin_Thought_ChurchHeldService.stages.0.label>
+	
+	<!-- EN: &lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;\n\nMay the teachings of Valerian the Wise guide us to The Great Garden.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt; -->
+	<Mousekin_Thought_ChurchHeldService.stages.0.description>&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;\n\Que os ensinamentos de Valeriano o Sábio nos guiem até o Grande Jardim.\n\n&lt;i&gt;Ameno Ameno.&lt;/i&gt;</Mousekin_Thought_ChurchHeldService.stages.0.description>
+	
+	<!-- EN: missed church service -->
+	<Mousekin_Thought_ChurchMissedService.stages.0.label>Perdeu a messa</Mousekin_Thought_ChurchMissedService.stages.0.label>
+	
+	<!-- EN: I missed church this week. Valerian forgive me, for I have strayed. -->
+	<Mousekin_Thought_ChurchMissedService.stages.0.description>Perdi o serviço da igreja esta semana. Valeriano, perdoe-me pois me afastei</Mousekin_Thought_ChurchMissedService.stages.0.description>
+
+	<!-- EN: colonist left unburied -->
+	<Mousekin_Thought_ColonistLeftUnburied.stages.0.label>Colonista deixado sem sepultura</Mousekin_Thought_ColonistLeftUnburied.stages.0.label>
+
+	<!-- EN: One of us died and we're just leaving them lying in the open. We should give them a proper burial, or their soul will never reach The Great Garden. -->
+	<Mousekin_Thought_ColonistLeftUnburied.stages.0.description>Um de nós morreu e estamos deixando-o exposto. Devemos dar um enterro adequado, ou sua alma nunca chegará ao Grande Jardim.</Mousekin_Thought_ColonistLeftUnburied.stages.0.description>
+
+	<!-- EN: drank Chonko nut brew -->
+	<Mousekin_Thought_DrankChonkoNutBrew.stages.0.label>Tomou Café de Chonko</Mousekin_Thought_DrankChonkoNutBrew.stages.0.label>
+
+	<!-- EN: Mmm, delicious! I feel so much more awake already! -->
+	<Mousekin_Thought_DrankChonkoNutBrew.stages.0.description>Humm, delicioso! Já me sinto muito mais acordado!</Mousekin_Thought_DrankChonkoNutBrew.stages.0.description>
+
+	<!-- EN: fellow apostates -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.1.label>Companheiros apóstatas</Mousekin_Thought_FaithAffinityOpinions.stages.1.label>
+
+	<!-- EN: apostate vs inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.4.label>Apóstata vs Inquisidor</Mousekin_Thought_FaithAffinityOpinions.stages.4.label>
+
+	<!-- EN: devotionist vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.6.label>Devocionista vs Apóstata</Mousekin_Thought_FaithAffinityOpinions.stages.6.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.7.label>Fé compartilhada no Grande Jardim</Mousekin_Thought_FaithAffinityOpinions.stages.7.label>
+
+	<!-- EN: devotionist vs inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.9.label>Devocionista vs Inquisidor</Mousekin_Thought_FaithAffinityOpinions.stages.9.label>
+
+	<!-- EN: pious vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.11.label>Piedoso vs Apóstata</Mousekin_Thought_FaithAffinityOpinions.stages.11.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.12.label>Fé compartilhada no Grande Jardim</Mousekin_Thought_FaithAffinityOpinions.stages.12.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.13.label>Fé compartilhada no Grande Jardim</Mousekin_Thought_FaithAffinityOpinions.stages.13.label>
+
+	<!-- EN: cautious respect for inquisitionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.14.label>Respeito cauteloso pelo Inquisidor</Mousekin_Thought_FaithAffinityOpinions.stages.14.label>
+
+	<!-- EN: inquisitionist vs non-pious -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.15.label>Inquisidor vs Não-piedoso</Mousekin_Thought_FaithAffinityOpinions.stages.15.label>
+
+	<!-- EN: inquisitionist vs apostate -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.16.label>Inquisidor vs Apóstata</Mousekin_Thought_FaithAffinityOpinions.stages.16.label>
+
+	<!-- EN: inquisitionist vs devotionist -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.17.label>Inquisidor vs Devocionista</Mousekin_Thought_FaithAffinityOpinions.stages.17.label>
+
+	<!-- EN: shared faith in The Great Garden -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.18.label>Fé compartilhada no Grande Jardim</Mousekin_Thought_FaithAffinityOpinions.stages.18.label>
+
+	<!-- EN: shared zealotry in the Inquisition -->
+	<Mousekin_Thought_FaithAffinityOpinions.stages.19.label>Fanatismo compartilhado na Inquisição</Mousekin_Thought_FaithAffinityOpinions.stages.19.label>
+
+	<!-- EN: got married to {0} -->
+	<Mousekin_Thought_GotMarried.stages.0.label>Casou-se com {0}</Mousekin_Thought_GotMarried.stages.0.label>
+
+	<!-- EN: I got married! May we grow the biggest and most beautiful garden together! -->
+	<Mousekin_Thought_GotMarried.stages.0.description>Casei-me! Que possamos cultivar juntos o maior e mais belo jardim!</Mousekin_Thought_GotMarried.stages.0.description>
+
+	<!-- EN: buried in sarcophagus -->
+	<Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.label>Enterrado em sarcófago</Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.label>
+
+	<!-- EN: We buried someone in an ornamented sarcophagus. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.description>Enterramos alguém em um sarcófago ornamentado. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_KnowBuriedInSarcophagus.stages.0.description>
+
+	<!-- EN: we butchered human corpse -->
+	<Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.label>Abatemos um humano</Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.label>
+
+	<!-- EN: We butchered up a smoothskin. Apparently, they have really tiny ears, stiff ribs and long leg bones. How do they hear anything, squeeze through small gaps, and not fall over all the time? -->
+	<Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.description>Abatemos uma pele-lisa. Aparentemente, eles têm orelhas minúsculas, costelas rígidas e ossos das pernas longos. Como conseguem ouvir algo, passar por pequenas fendas e não cair o tempo todo?</Mousekin_Thought_KnowButcheredHumanCorpse.stages.0.description>
+
+	<!-- EN: we butchered another Mousekin -->
+	<Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.label>Abatemos outro Mousekin</Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.label>
+
+	<!-- EN: We butchered up one of our brethren like an animal. Now we'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.description>Abatemos um de nossos semelhantes como um animal. Agora nunca mais seremos permitidos no Grande Jardim！</Mousekin_Thought_KnowButcheredMousekinCorpse.stages.0.description>
+
+	<!-- EN: colonist died -->
+	<Mousekin_Thought_KnowColonistDied.stages.0.label>Colonista morreu</Mousekin_Thought_KnowColonistDied.stages.0.label>
+
+	<!-- EN: May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistDied.stages.0.description>Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_KnowColonistDied.stages.0.description>
+
+	<!-- EN: justified execution of colonist -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.0.label>Colonista executado</Mousekin_Thought_KnowColonistExecuted.stages.0.label>
+
+	<!-- EN: A guilty colonist was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.0.description>Um colonista culpado foi executado. Que Valeriano o Sábio seja misericordioso e lhes conceda um lugar no Grande Jardim.</Mousekin_Thought_KnowColonistExecuted.stages.0.description>
+
+	<!-- EN: colonist euthanized -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.1.label>Colonista eutanasiado</Mousekin_Thought_KnowColonistExecuted.stages.1.label>
+
+	<!-- EN: A colonist was euthanized. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.1.description>Um colonista foi eutanasiado. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_KnowColonistExecuted.stages.1.description>
+
+	<!-- EN: colonist executed -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.2.label>Colonista executado</Mousekin_Thought_KnowColonistExecuted.stages.2.label>
+
+	<!-- EN: A colonist was killed in cold blood. Their blood is on our paws. -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.2.description>Um colonista foi morto friamente. Seu sangue está em nossas patas.</Mousekin_Thought_KnowColonistExecuted.stages.2.description>
+
+	<!-- EN: colonist organ-harvested -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.3.label>Colonista teve órgãos retirados</Mousekin_Thought_KnowColonistExecuted.stages.3.label>
+
+	<!-- EN: A colonist died because we cut them up for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowColonistExecuted.stages.3.description>Um colonista morreu porque cortamos partes do seu corpo. Nossas almas serão amaldiçoadas no Deserto!</Mousekin_Thought_KnowColonistExecuted.stages.3.description>
+
+	<!-- EN: colonist's organ harvested -->
+	<Mousekin_Thought_KnowColonistOrganHarvested.stages.0.label>Órgãos do colonista retirados</Mousekin_Thought_KnowColonistOrganHarvested.stages.0.label>
+
+	<!-- EN: We cut up one of our own for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowColonistOrganHarvested.stages.0.description>Cortamos partes do corpo de um dos nossos. Nossas almas serão amaldiçoadas no Deserto!</Mousekin_Thought_KnowColonistOrganHarvested.stages.0.description>
+
+	<!-- EN: justified execution -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.0.label>Execução justa</Mousekin_Thought_KnowGuestExecuted.stages.0.label>
+
+	<!-- EN: A guilty prisoner or guest was executed. May Valerian the Wise be merciful and grant them a place in The Great Garden. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.0.description>Um prisioneiro ou visitante culpado foi executado. Que Valeriano o Sábio seja misericordioso e lhes conceda um lugar no Grande Jardim.</Mousekin_Thought_KnowGuestExecuted.stages.0.description>
+
+	<!-- EN: someone was euthanized -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.1.label>Alguém foi eutanasiado</Mousekin_Thought_KnowGuestExecuted.stages.1.label>
+
+	<!-- EN: A prisoner or guest was euthanized. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.1.description>Um prisioneiro ou visitante foi eutanasiado. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_KnowGuestExecuted.stages.1.description>
+
+	<!-- EN: someone was executed -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.2.label>Alguém foi executado</Mousekin_Thought_KnowGuestExecuted.stages.2.label>
+
+	<!-- EN: A prisoner or guest was killed in cold blood. Their blood is on our paws. -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.2.description>Um prisioneiro ou visitante foi executado friamente. O sangue dele está em nossas patas.</Mousekin_Thought_KnowGuestExecuted.stages.2.description>
+
+	<!-- EN: someone was organ-murdered -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.3.label>Alguém morreu por retirada de órgãos</Mousekin_Thought_KnowGuestExecuted.stages.3.label>
+
+	<!-- EN: A prisoner or guest died because we cut them up for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowGuestExecuted.stages.3.description>Um prisioneiro ou visitante morreu porque retiramos seus órgãos. Nossas almas serão condenadas ao Deserto!</Mousekin_Thought_KnowGuestExecuted.stages.3.description>
+
+	<!-- EN: someone's organ harvested -->
+	<Mousekin_Thought_KnowGuestOrganHarvested.stages.0.label>Órgãos de alguém foram retirados</Mousekin_Thought_KnowGuestOrganHarvested.stages.0.label>
+
+	<!-- EN: We cut up a guest or prisoner for body parts. Our souls will be damned to The Wasteland! -->
+	<Mousekin_Thought_KnowGuestOrganHarvested.stages.0.description>Retiramos órgãos de um visitante ou prisioneiro. Nossas almas serão condenadas ao Deserto!</Mousekin_Thought_KnowGuestOrganHarvested.stages.0.description>
+
+	<!-- EN: One prosthetic ear -->
+	<Mousekin_Thought_MissingEars.stages.0.label>Uma orelha protética</Mousekin_Thought_MissingEars.stages.0.label>
+
+	<!-- EN: I had to get my missing ear replaced with a cloth prosthetic. I hope nobody else notices. -->
+	<Mousekin_Thought_MissingEars.stages.0.description>Tive que substituir minha orelha perdida por uma protética de tecido. Espero que ninguém perceba.</Mousekin_Thought_MissingEars.stages.0.description>
+
+	<!-- EN: Two prosthetic ears -->
+	<Mousekin_Thought_MissingEars.stages.1.label>Duas orelhas protéticas</Mousekin_Thought_MissingEars.stages.1.label>
+
+	<!-- EN: I had to get both my missing ears replaced with cloth prosthetics. I hope nobody else notices. -->
+	<Mousekin_Thought_MissingEars.stages.1.description>Tive que substituir minhas duas orelhas perdidas por protéticas de tecido. Espero que ninguém perceba.</Mousekin_Thought_MissingEars.stages.1.description>
+
+	<!-- EN: One ear missing -->
+	<Mousekin_Thought_MissingEars.stages.2.label>Falta uma orelha</Mousekin_Thought_MissingEars.stages.2.label>
+
+	<!-- EN: I've lost one of my ears. This is humiliating! -->
+	<Mousekin_Thought_MissingEars.stages.2.description>Perdi uma das minhas orelhas. Isso é humilhante!</Mousekin_Thought_MissingEars.stages.2.description>
+
+	<!-- EN: One prosthetic and one missing ear -->
+	<Mousekin_Thought_MissingEars.stages.3.label>Uma protética, uma ausente</Mousekin_Thought_MissingEars.stages.3.label>
+
+	<!-- EN: I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating! -->
+	<Mousekin_Thought_MissingEars.stages.3.description>Perdi ambas as orelhas, mas só uma foi substituída por uma protética de tecido. Isso é humilhante!</Mousekin_Thought_MissingEars.stages.3.description>
+
+	<!-- EN: Both ears missing -->
+	<Mousekin_Thought_MissingEars.stages.4.label>Faltam ambas as orelhas</Mousekin_Thought_MissingEars.stages.4.label>
+
+	<!-- EN: I've lost both my ears! I'd rather die than live with this humiliation! -->
+	<Mousekin_Thought_MissingEars.stages.4.description>Perdi ambas as orelhas! Prefiro morrer a viver com essa humilhação!</Mousekin_Thought_MissingEars.stages.4.description>
+
+	<!-- EN: my aunt {0} died -->
+	<Mousekin_Thought_MyAuntDied.stages.0.label>Minha tia {0} morreu</Mousekin_Thought_MyAuntDied.stages.0.label>
+
+	<!-- EN: My aunt died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyAuntDied.stages.0.description>Minha tia morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyAuntDied.stages.0.description>
+
+	<!-- EN: my brother {0} died -->
+	<Mousekin_Thought_MyBrotherDied.stages.0.label>Meu irmão {0} morreu</Mousekin_Thought_MyBrotherDied.stages.0.label>
+
+	<!-- EN: My brother died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyBrotherDied.stages.0.description>Meu irmão morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyBrotherDied.stages.0.description>
+
+	<!-- EN: my cousin {0} died -->
+	<Mousekin_Thought_MyCousinDied.stages.0.label>Meu primo {0} morreu</Mousekin_Thought_MyCousinDied.stages.0.label>
+
+	<!-- EN: My cousin died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyCousinDied.stages.0.description>Meu primo morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyCousinDied.stages.0.description>
+
+	<!-- EN: my daughter {0} died -->
+	<Mousekin_Thought_MyDaughterDied.stages.0.label>Minha filha {0} morreu</Mousekin_Thought_MyDaughterDied.stages.0.label>
+
+	<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+	<Mousekin_Thought_MyDaughterDied.stages.0.description>Meu pobre, pobre bebê! Eu deveria ter cuidado melhor de você!</Mousekin_Thought_MyDaughterDied.stages.0.description>
+
+	<!-- EN: my father {0} died -->
+	<Mousekin_Thought_MyFatherDied.stages.0.label>Meu pai {0} morreu</Mousekin_Thought_MyFatherDied.stages.0.label>
+
+	<!-- EN: My father died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyFatherDied.stages.0.description>Meu pai morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyFatherDied.stages.0.description>
+
+	<!-- EN: my fiance {0} died -->
+	<Mousekin_Thought_MyFianceDied.stages.0.label>Meu noivo {0} morreu</Mousekin_Thought_MyFianceDied.stages.0.label>
+
+	<!-- EN: My fiance died. We promised we'd grow our garden together! -->
+	<Mousekin_Thought_MyFianceDied.stages.0.description>Meu noivo morreu. Prometemos cultivar nosso jardim juntos!</Mousekin_Thought_MyFianceDied.stages.0.description>
+
+	<!-- EN: my fiancée {0} died -->
+	<Mousekin_Thought_MyFianceeDied.stages.0.label>Minha noiva {0} morreu</Mousekin_Thought_MyFianceeDied.stages.0.label>
+
+	<!-- EN: My fiancée died. We promised we'd grow our garden together! -->
+	<Mousekin_Thought_MyFianceeDied.stages.0.description>Minha noiva morreu. Prometemos cultivar nosso jardim juntos!</Mousekin_Thought_MyFianceeDied.stages.0.description>
+
+	<!-- EN: my grandchild {0} died -->
+	<Mousekin_Thought_MyGrandchildDied.stages.0.label>Meu neto(a) {0} morreu</Mousekin_Thought_MyGrandchildDied.stages.0.label>
+
+	<!-- EN: My grandchild died. Our family's future, taken away from us forever... -->
+	<Mousekin_Thought_MyGrandchildDied.stages.0.description>Meu neto(a) morreu. O futuro da nossa família foi tirado de nós para sempre...</Mousekin_Thought_MyGrandchildDied.stages.0.description>
+
+	<!-- EN: my grandparent {0} died -->
+	<Mousekin_Thought_MyGrandparentDied.stages.0.label>Meu avô/avó {0} morreu</Mousekin_Thought_MyGrandparentDied.stages.0.label>
+
+	<!-- EN: My grandparent died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyGrandparentDied.stages.0.description>Meu avô/avó morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyGrandparentDied.stages.0.description>
+
+	<!-- EN: my half-sibling {0} died -->
+	<Mousekin_Thought_MyHalfSiblingDied.stages.0.label>Meu meio-irmão(a) {0} morreu</Mousekin_Thought_MyHalfSiblingDied.stages.0.label>
+
+	<!-- EN: My half-sibling died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyHalfSiblingDied.stages.0.description>Meu meio-irmão(a) morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyHalfSiblingDied.stages.0.description>
+
+	<!-- EN: my husband {0} died -->
+	<Mousekin_Thought_MyHusbandDied.stages.0.label>Meu marido {0} morreu</Mousekin_Thought_MyHusbandDied.stages.0.label>
+
+	<!-- EN: My husband is dead. May we be reunited in The Great Garden someday. -->
+	<Mousekin_Thought_MyHusbandDied.stages.0.description>Meu marido morreu. Que possamos nos reunir no Grande Jardim algum dia.</Mousekin_Thought_MyHusbandDied.stages.0.description>
+
+	<!-- EN: my kin {0} died -->
+	<Mousekin_Thought_MyKinDied.stages.0.label>Meu parente {0} morreu</Mousekin_Thought_MyKinDied.stages.0.label>
+
+	<!-- EN: My kin died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyKinDied.stages.0.description>Meu parente morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyKinDied.stages.0.description>
+
+	<!-- EN: my mother {0} died -->
+	<Mousekin_Thought_MyMotherDied.stages.0.label>Minha mãe {0} morreu</Mousekin_Thought_MyMotherDied.stages.0.label>
+
+	<!-- EN: My mother died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyMotherDied.stages.0.description>Minha mãe morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyMotherDied.stages.0.description>
+
+	<!-- EN: my niece {0} died -->
+	<Mousekin_Thought_MyNieceDied.stages.0.label>Minha sobrinha {0} morreu</Mousekin_Thought_MyNieceDied.stages.0.label>
+
+	<!-- EN: My niece died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyNieceDied.stages.0.description>Minha sobrinha morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyNieceDied.stages.0.description>
+
+	<!-- EN: my nephew {0} died -->
+	<Mousekin_Thought_MyNephewDied.stages.0.label>Meu sobrinho {0} morreu</Mousekin_Thought_MyNephewDied.stages.0.label>
+
+	<!-- EN: My nephew died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyNephewDied.stages.0.description>Meu sobrinho morreu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyNephewDied.stages.0.description>
+
+	<!-- EN: my organ harvested -->
+	<Mousekin_Thought_MyOrganHarvested.stages.0.label>Órgão foi removido</Mousekin_Thought_MyOrganHarvested.stages.0.label>
+
+	<!-- EN: The colony's cutting me up for parts! Damn you all to The Wasteland! -->
+	<Mousekin_Thought_MyOrganHarvested.stages.0.description>Algum colono retirou meus órgãos! Maldição a todos vocês no Deserto!</Mousekin_Thought_MyOrganHarvested.stages.0.description>
+
+	<!-- EN: my sister {0} died -->
+	<Mousekin_Thought_MySisterDied.stages.0.label>Minha irmã {0} morreu</Mousekin_Thought_MySisterDied.stages.0.label>
+
+	<!-- EN: My sister died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MySisterDied.stages.0.description>Minha irmã faleceu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MySisterDied.stages.0.description>
+
+	<!-- EN: my son {0} died -->
+	<Mousekin_Thought_MySonDied.stages.0.label>Meu filho {0} morreu</Mousekin_Thought_MySonDied.stages.0.label>
+
+	<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+	<Mousekin_Thought_MySonDied.stages.0.description>Meu pobre, pobre bebê! Eu deveria ter cuidado melhor de você!</Mousekin_Thought_MySonDied.stages.0.description>
+
+	<!-- EN: my uncle {0} died -->
+	<Mousekin_Thought_MyUncleDied.stages.0.label>Meu tio {0} morreu</Mousekin_Thought_MyUncleDied.stages.0.label>
+
+	<!-- EN: My uncle died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyUncleDied.stages.0.description>Meu tio faleceu. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_MyUncleDied.stages.0.description>
+
+	<!-- EN: my wife {0} died -->
+	<Mousekin_Thought_MyWifeDied.stages.0.label>Minha esposa {0} morreu</Mousekin_Thought_MyWifeDied.stages.0.label>
+
+	<!-- EN: My wife is dead. May we be reunited in The Great Garden someday. -->
+	<Mousekin_Thought_MyWifeDied.stages.0.description>Minha esposa faleceu. Que um dia possamos nos reunir novamente no Grande Jardim.</Mousekin_Thought_MyWifeDied.stages.0.description>
+
+	<!-- EN: cramped interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.0.label>Interior apertado</Mousekin_Thought_NeedRoomSize.stages.0.label>
+
+	<!-- EN: Squeak, somebody let me out of here! -->
+	<Mousekin_Thought_NeedRoomSize.stages.0.description>Chilique! Alguém me tire daqui!</Mousekin_Thought_NeedRoomSize.stages.0.description>
+
+	<!-- EN: cosy interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.1.label>Interior aconchegante</Mousekin_Thought_NeedRoomSize.stages.1.label>
+
+	<!-- EN: Nice and cosy, snug as a burrow! -->
+	<Mousekin_Thought_NeedRoomSize.stages.1.description>Aconchegante, confortável como uma toca!</Mousekin_Thought_NeedRoomSize.stages.1.description>
+
+	<!-- EN: spacious interior -->
+	<Mousekin_Thought_NeedRoomSize.stages.2.label>Interior espaçoso</Mousekin_Thought_NeedRoomSize.stages.2.label>
+
+	<!-- EN: So much space, we can hold a town meeting in here! -->
+	<Mousekin_Thought_NeedRoomSize.stages.2.description>Tanto espaço! Podemos fazer uma reunião da cidade aqui dentro!</Mousekin_Thought_NeedRoomSize.stages.2.description>
+
+	<!-- EN: body defiled by prosthetics -->
+	<Mousekin_Thought_OtherMousekinHasProstheticOpinions.stages.0.label>Corpo profanado por próteses</Mousekin_Thought_OtherMousekinHasProstheticOpinions.stages.0.label>
+
+	<!-- EN: my rival {0} died -->
+	<Mousekin_Thought_PawnWithBadOpinionDied.stages.0.label>Meu rival {0} morreu</Mousekin_Thought_PawnWithBadOpinionDied.stages.0.label>
+
+	<!-- EN: Serves them right. May they rot in The Wasteland forever! -->
+	<Mousekin_Thought_PawnWithBadOpinionDied.stages.0.description>Bem feito! Que apodreçam no Deserto para sempre!</Mousekin_Thought_PawnWithBadOpinionDied.stages.0.description>
+
+	<!-- EN: my rival {0} lost -->
+	<Mousekin_Thought_PawnWithBadOpinionLost.stages.0.label>Inimigo {0} desapareceu</Mousekin_Thought_PawnWithBadOpinionLost.stages.0.label>
+
+	<!-- EN: Serves them right. I hope they never come back, and wander in The Wasteland forever! -->
+	<Mousekin_Thought_PawnWithBadOpinionLost.stages.0.description>Bem feito! Espero que nunca voltem, vagando pelo Deserto para sempre!</Mousekin_Thought_PawnWithBadOpinionLost.stages.0.description>
+
+	<!-- EN: my friend {0} died -->
+	<Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.label>Meu amigo {0} faleceu</Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.label>
+
+	<!-- EN: Such a wonderful person. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.description>Que pessoa maravilhosa. Que sua alma descanse para sempre no Grande Jardim.</Mousekin_Thought_PawnWithGoodOpinionDied.stages.0.description>
+
+	<!-- EN: my friend {0} lost -->
+	<Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.label>Amigo {0} desapareceu</Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.label>
+
+	<!-- EN: Such a wonderful person, lost. I hope they will get back to us someday. -->
+	<Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.description>Que pessoa maravilhosa, perdida. Espero que um dia volte para nós.</Mousekin_Thought_PawnWithGoodOpinionLost.stages.0.description>
+
+	<!-- EN: prisoner released -->
+	<Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.label>Prisioneiro libertado</Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.label>
+
+	<!-- EN: We released a healthy prisoner. Valerian the Wise would be proud we followed his teachings of mercy. -->
+	<Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.description>Libertamos um prisioneiro saudável. Valeriano o Sábio ficaria orgulhoso de nós por seguir seus ensinamentos de misericórdia.</Mousekin_Thought_ReleasedHealthyPrisoner.stages.0.description>
+
+	<!-- EN: devout with prosthetic -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.label>Devoto com prótese</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.label>
+
+	<!-- EN: I hate having this unnatural thing attached to me. It goes against my faith. -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.description>Odeio ter essa coisa artificial ligada a mim. Isso vai contra minha fé.</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.0.description>
+
+	<!-- EN: devout with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.label>Devoto com {0} próteses</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.label>
+
+	<!-- EN: These artificial parts are violating the sanctity of my body! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.description>Essas partes artificiais estão violando a santidade do meu corpo!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.1.description>
+
+	<!-- EN: devout with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.label>Devoto com {0} próteses</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.label>
+
+	<!-- EN: My flesh has been defiled by all these artificial parts! Now I'll never be allowed into The Great Garden! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.description>Minha carne foi profanada por todas essas partes artificiais! Nunca mais poderei entrar no Grande Jardim!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.2.description>
+
+	<!-- EN: inquisitionist with prosthetic -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.label>Inquisidor com prótese</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.label>
+
+	<!-- EN: This witchcraft taints my body! Get it off me! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.description>Essa feitiçaria contamina meu corpo! Tire isso de mim!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.3.description>
+
+	<!-- EN: inquisitionist with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.label>Inquisidor com {0} próteses</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.label>
+
+	<!-- EN: More witchcraft, polluting my pure, natural flesh! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.description>Mais feitiçaria, poluindo minha carne pura e natural!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.4.description>
+
+	<!-- EN: inquisitionist with {0} prosthetics -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.label>Inquisidor com {0} próteses</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.label>
+
+	<!-- EN: My flesh has been defiled by all this witchcraft! I'm no better than those heretics! -->
+	<Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.description>inha carne foi profanada por toda essa feitiçaria! Não sou melhor que aqueles hereges!</Mousekin_Thought_ReligiousDisgustAtOwnArtificalBodyParts.stages.5.description>
+
+	<!-- EN: saw a Pudgemouse -->
+	<Mousekin_Thought_SawNearbyPudgemouse.stages.0.label>Vi um ratinho-gordinho</Mousekin_Thought_SawNearbyPudgemouse.stages.0.label>
+
+	<!-- EN: Squeak! Pudgemice are the best! -->
+	<Mousekin_Thought_SawNearbyPudgemouse.stages.0.description>Chilique! Ratinhos-gordinhos são os melhores!</Mousekin_Thought_SawNearbyPudgemouse.stages.0.description>
+
+	<!-- EN: slept in the cold -->
+	<Mousekin_Thought_SleptInCold.stages.0.label>Dormi no frio</Mousekin_Thought_SleptInCold.stages.0.label>
+
+	<!-- EN: I had to sleep in the cold. We should get a fireplace going. -->
+	<Mousekin_Thought_SleptInCold.stages.0.description>Tive que dormir no frio. Devemos acender a lareira.</Mousekin_Thought_SleptInCold.stages.0.description>
+
+	<!-- EN: slept in the heat -->
+	<Mousekin_Thought_SleptInHeat.stages.0.label>Dormi no calor</Mousekin_Thought_SleptInHeat.stages.0.label>
+
+	<!-- EN: I had to sleep in unbearable heat. Can't we have some ventilation around here? -->
+	<Mousekin_Thought_SleptInHeat.stages.0.description>Tive que dormir em um calor insuportável. Não podemos ter alguma ventilação aqui?</Mousekin_Thought_SleptInHeat.stages.0.description>
+
+	<!-- EN: slept on ground -->
+	<Mousekin_Thought_SleptOnGround.stages.0.label>Dormi no chão</Mousekin_Thought_SleptOnGround.stages.0.label>
+
+	<!-- EN: I had to sleep on the ground like a filthy, primitive rat. -->
+	<Mousekin_Thought_SleptOnGround.stages.0.description>Tive que dormir no chão como um rato selvagem e sujo.</Mousekin_Thought_SleptOnGround.stages.0.description>
+
+	<!-- EN: slept outside -->
+	<Mousekin_Thought_SleptOutside.stages.0.label>Dormi ao ar livre</Mousekin_Thought_SleptOutside.stages.0.label>
+
+	<!-- EN: I had to sleep outdoors without any protection from the elements, like a filthy, primitive rat. -->
+	<Mousekin_Thought_SleptOutside.stages.0.description>Tive que dormir ao ar livre sem proteção contra os elementos, como um rato selvagem e sujo.</Mousekin_Thought_SleptOutside.stages.0.description>
+
+	<!-- EN: wearing Mousekin fur apparel -->
+	<Mousekin_Thought_WearingMousekinFurApparel.stages.0.label>Vestindo roupas de pele de Mousekin</Mousekin_Thought_WearingMousekinFurApparel.stages.0.label>
+
+	<!-- EN: I'm wearing clothes made from the fur of my brethren! Valerian forgive me, for I have sinned! -->
+	<Mousekin_Thought_WearingMousekinFurApparel.stages.0.description>Estou vestindo roupas feitas com a pele de meus irmãos! Valeriano, perdoe-me, pois pequei!</Mousekin_Thought_WearingMousekinFurApparel.stages.0.description>
+
+	<!-- EN: wearing Pudgemouse fur apparel -->
+	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.label>Vestindo roupas de pele de Ratinho-gordinho</Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.label>
+
+	<!-- EN: I'm wearing clothes made from the fur of a pudgemouse. That poor innocent creature didn't deserve this! -->
+	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>Estou vestindo roupas feitas com a pele de um ratinho-gordinho. Essa pobre criatura inocente não merecia isso!</Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>
+	
+</LanguageData>

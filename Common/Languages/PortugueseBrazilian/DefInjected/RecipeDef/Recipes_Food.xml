@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: grind flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.label>Moa farinha de trigo</Mousekin_Make_FlourFromWheat.label>
+
+	<!-- EN: Grind flour from wheat grains in a mortar and pestle. The process is slow, labour-intensive and inefficient due to the small quantities involved. -->
+	<Mousekin_Make_FlourFromWheat.description>Moer grãos de trigo em um pilão. O processo é lento, trabalhoso e ineficiente devido às pequenas quantidades envolvidas.</Mousekin_Make_FlourFromWheat.description>
+
+	<!-- EN: Grinding flour from wheat -->
+	<Mousekin_Make_FlourFromWheat.jobString>Moendo farinha de trigo</Mousekin_Make_FlourFromWheat.jobString>
+
+	<!-- EN: make Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.label>Preparar mix de castanhas Mousekin</Mousekin_Make_TrailMix.label>
+
+	<!-- EN: Make trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMix.description>Prepare um mix nutritivo e saboroso assando castanhas, secando frutas vermelhas e fazendo pipoca. Dá um leve aumento de humor a qualquer Mousekin que o consuma.</Mousekin_Make_TrailMix.description>
+
+	<!-- EN: Preparing Mousekin trail mix -->
+	<Mousekin_Make_TrailMix.jobString>Preparando mix de castanhas Mousekin</Mousekin_Make_TrailMix.jobString>
+	
+	<!-- EN: berries -->
+	<Mousekin_Make_TrailMix.ingredients.0.filter.customSummary>frutas vermelhas</Mousekin_Make_TrailMix.ingredients.0.filter.customSummary>
+
+	<!-- EN: make Mousekin trail mix x3 -->
+	<Mousekin_Make_TrailMixBulk.label>Preparar mix de castanhas Mousekin x3</Mousekin_Make_TrailMixBulk.label>
+
+	<!-- EN: Make bulk trail mix by roasting nuts, drying berries and cooking popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekins that consume it. -->
+	<Mousekin_Make_TrailMixBulk.description>Prepare um mix nutritivo e saboroso assando castanhas, secando frutas vermelhas e fazendo pipoca. Dá um leve aumento de humor a qualquer Mousekin que o consuma.</Mousekin_Make_TrailMixBulk.description>
+
+	<!-- EN: Preparing bulk Mousekin trail mix -->
+	<Mousekin_Make_TrailMixBulk.jobString>Preparando mix de castanhas Mousekin</Mousekin_Make_TrailMixBulk.jobString>
+	
+	<!-- EN: berries -->
+	<Mousekin_Make_TrailMixBulk.ingredients.0.filter.customSummary>frutas vermelhas</Mousekin_Make_TrailMixBulk.ingredients.0.filter.customSummary>
+
+	<!-- EN: bake country bread -->
+	<Mousekin_Make_CountryBread.label>Assar pão rústico</Mousekin_Make_CountryBread.label>
+
+	<!-- EN: Bake a loaf of country bread from flour. -->
+	<Mousekin_Make_CountryBread.description>Asse um pão rústico com farinha.</Mousekin_Make_CountryBread.description>
+
+	<!-- EN: Baking country bread -->
+	<Mousekin_Make_CountryBread.jobString>Assando pão rústico</Mousekin_Make_CountryBread.jobString>
+
+	<!-- EN: bake country bread x4 -->
+	<Mousekin_Make_CountryBreadBulk.label>Assar pão rústico x4</Mousekin_Make_CountryBreadBulk.label>
+
+	<!-- EN: Bake 4 loaves of country bread from flour. -->
+	<Mousekin_Make_CountryBreadBulk.description>Asse 4 pães rústico com farinha.</Mousekin_Make_CountryBreadBulk.description>
+
+	<!-- EN: Baking 4 loaves of country bread -->
+	<Mousekin_Make_CountryBreadBulk.jobString>Assando pão rústico x4</Mousekin_Make_CountryBreadBulk.jobString>
+
+	<!-- EN: cook barley porridge -->
+	<Mousekin_Make_BarleyPorridge.label>Cozinhar mingau de cevada</Mousekin_Make_BarleyPorridge.label>
+
+	<!-- EN: Cook a bowl of barley porridge. -->
+	<Mousekin_Make_BarleyPorridge.description>Cozinhe uma tigela de mingau de cevada.</Mousekin_Make_BarleyPorridge.description>
+
+	<!-- EN: Cooking barley porridge -->
+	<Mousekin_Make_BarleyPorridge.jobString>Cozinhando mingau de cevada</Mousekin_Make_BarleyPorridge.jobString>
+
+	<!-- EN: cook barley porridge x4 -->
+	<Mousekin_Make_BarleyPorridgeBulk.label>Cozinhar mingau de cevada x4</Mousekin_Make_BarleyPorridgeBulk.label>
+
+	<!-- EN: Cook 4 bowls of barley porridge. -->
+	<Mousekin_Make_BarleyPorridgeBulk.description>Cozinhe 4 tigelas de mingau de cevada.</Mousekin_Make_BarleyPorridgeBulk.description>
+
+	<!-- EN: Cooking 4 bowls of barley porridge -->
+	<Mousekin_Make_BarleyPorridgeBulk.jobString>Cozinhando mingau de cevada x4</Mousekin_Make_BarleyPorridgeBulk.jobString>
+
+	<!-- EN: cook eggs on toast x4 -->
+	<Mousekin_Make_EggsOnToast.label>Cozinhar ovos na torrada x4</Mousekin_Make_EggsOnToast.label>
+
+	<!-- EN: Cook 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.description>Cozinhe 4 porções de ovos na torrada.</Mousekin_Make_EggsOnToast.description>
+
+	<!-- EN: Cooking 4 servings of eggs on toast -->
+	<Mousekin_Make_EggsOnToast.jobString>Cozinhando ovos na torrada x4</Mousekin_Make_EggsOnToast.jobString>
+
+	<!-- EN: make ploughman's lunch x4 -->
+	<Mousekin_Make_PloughmansLunch.label>Preparar almoço camponês x4</Mousekin_Make_PloughmansLunch.label>
+
+	<!-- EN: Make 4 servings of ploughman's lunch. -->
+	<Mousekin_Make_PloughmansLunch.description>Prepare 4 porções de almoço camponês.</Mousekin_Make_PloughmansLunch.description>
+
+	<!-- EN: Making 4 servings of ploughman's lunch -->
+	<Mousekin_Make_PloughmansLunch.jobString>Preparando almoço camponês x4</Mousekin_Make_PloughmansLunch.jobString>
+	
+	<!-- EN: nuts -->
+	<Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>castanhas</Mousekin_Make_PloughmansLunch.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl -->
+	<Mousekin_Make_BreadBowl.label>Preparar sopa no pão</Mousekin_Make_BreadBowl.label>
+
+	<!-- EN: Hollow out a loaf of country bread and fill it with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowl.description>Cave um pão rústico e recheie com um creme de carne e legumes.</Mousekin_Make_BreadBowl.description>
+
+	<!-- EN: Making bread bowl -->
+	<Mousekin_Make_BreadBowl.jobString>Preparando sopa no pão</Mousekin_Make_BreadBowl.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>proteína</Mousekin_Make_BreadBowl.ingredients.2.filter.customSummary>
+
+	<!-- EN: make bread bowl x4 -->
+	<Mousekin_Make_BreadBowlBulk.label>Preparar sopa no pão x4</Mousekin_Make_BreadBowlBulk.label>
+
+	<!-- EN: Hollow out 4 loaves of country bread and fill them with a creamy meat and vegetable potage. -->
+	<Mousekin_Make_BreadBowlBulk.description>Cave 4 pães rústicos e recheie com um creme de carne e legumes.</Mousekin_Make_BreadBowlBulk.description>
+
+	<!-- EN: Making 4 bread bowls -->
+	<Mousekin_Make_BreadBowlBulk.jobString>Preparando sopa no pão</Mousekin_Make_BreadBowlBulk.jobString>
+	
+	<!-- EN: protein -->
+	<Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>proteína</Mousekin_Make_BreadBowlBulk.ingredients.2.filter.customSummary>
+	
+</LanguageData>

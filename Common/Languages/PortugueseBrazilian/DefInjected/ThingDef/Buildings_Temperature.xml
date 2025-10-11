@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin fireplace -->
+	<Mousekin_Fireplace.label>Lareira Mousekin</Mousekin_Fireplace.label>
+	
+	<!-- EN: A sturdy stone fireplace for heating rooms as well as cooking simple meals. -->
+	<Mousekin_Fireplace.description>Uma lareira de pedra resistente, usada para aquecer os cômodos e também cozinhar refeições simples.</Mousekin_Fireplace.description>
+	
+	<!-- EN: cast-iron wall vent -->
+	<Mousekin_WallVent.label>Ventilação de parede Mousekin</Mousekin_WallVent.label>
+	
+	<!-- EN: A wall-mounted vent with a cast-iron grille for equalizing the temperature between two rooms without allowing people to walk between them. -->
+	<Mousekin_WallVent.description>Uma ventilação de parede com grade de ferro fundido, usada para equilibrar a temperatura entre dois cômodos sem permitir que pessoas passem de um para o outro.</Mousekin_WallVent.description>
+	
+</LanguageData>

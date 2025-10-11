@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Convert manure into saltpeter -->
+	<Mousekin_ManureToSaltpeter.label>Converter esterco em salitre</Mousekin_ManureToSaltpeter.label>
+	
+	<!-- EN: Turns 200 giant cavy pellets and 50 wood ash into 100 saltpeter. -->
+	<Mousekin_ManureToSaltpeter.description>Transforma 200 fezes de cobaião e 50 cinzas de madeira em 100 salitre.</Mousekin_ManureToSaltpeter.description>
+	
+	<!-- EN: Convert 200 giant cavy pellets and 50 wood ash into 100 saltpeter -->
+	<Mousekin_ManureToSaltpeter.labelOverride>Transformar 200 fezes de cobaião e 50 cinzas de madeira em 100 salitre.</Mousekin_ManureToSaltpeter.labelOverride>
+	
+	<!-- EN: Make milk into Cloverbury cheese -->
+	<Mousekin_MilkToCheese.label>Fazer leite virar Queijo-Trevo</Mousekin_MilkToCheese.label>
+	
+	<!-- EN: Turns 50 milk into 25 Cloverbury cheese. -->
+	<Mousekin_MilkToCheese.description>Transforma 50 de leite em 25 de Queijo-Trevo.</Mousekin_MilkToCheese.description>
+	
+	<!-- EN: Turn 50 milk into 25 Cloverbury cheese -->
+	<Mousekin_MilkToCheese.labelOverride>Transformar 50 de leite em 25 de Queijo-Trevo.</Mousekin_MilkToCheese.labelOverride>
+	
+	<!-- EN: Mill wheat into flour -->
+	<Mousekin_WheatToFlour.label>Misturar trigo em farinha</Mousekin_WheatToFlour.label>
+	
+	<!-- EN: Turns 100 wheat into 75 flour -->
+	<Mousekin_WheatToFlour.description>Transforma 100 de trigo em 75 de farinha.</Mousekin_WheatToFlour.description>
+	
+	<!-- EN: Mill 100 wheat into 75 flour -->
+	<Mousekin_WheatToFlour.labelOverride>Misturar 100 de trigo em 75 de farinha.</Mousekin_WheatToFlour.labelOverride>
+	
+	<!-- EN: Carbonize wood logs into charcoal -->
+	<Mousekin_WoodLogToCharcoal.label>Carbonizar toras de madeira em carvão</Mousekin_WoodLogToCharcoal.label>
+	
+	<!-- EN: Turns 300 wood logs into 600 charcoal. -->
+	<Mousekin_WoodLogToCharcoal.description>Transforma 300 toras de madeira em 600 de carvão.</Mousekin_WoodLogToCharcoal.description>
+	
+	<!-- EN: Carbonize 300 wood logs into 600 charcoal -->
+	<Mousekin_WoodLogToCharcoal.labelOverride>Carbonizar 300 toras de madeira em 600 de carvão.</Mousekin_WoodLogToCharcoal.labelOverride>
+	
+	<!-- EN: Ferment lager wort into lager -->
+	<Mousekin_WortLagerToLager.label>Fermentar mosto lager em cerveja lager</Mousekin_WortLagerToLager.label>
+	
+	<!-- EN: Turns 25 Mousekin lager wort into 25 Mousekin lager -->
+	<Mousekin_WortLagerToLager.description>Transforma 25 mosto lager Mousekin em 25 cervejas lager Mousekin.</Mousekin_WortLagerToLager.description>
+	
+	<!-- EN: Ferment 25 Mousekin lager wort into 25 Mousekin lager -->
+	<Mousekin_WortLagerToLager.labelOverride>Transformar 25 mosto lager Mousekin em 25 cervejas lager Mousekin.</Mousekin_WortLagerToLager.labelOverride>
+	
+	<!-- EN: Ferment mead must into mead -->
+	<Mousekin_WortMeadToMead.label>Fermentar mosto de hidromel em hidromel</Mousekin_WortMeadToMead.label>
+	
+	<!-- EN: Turns 25 Mousekin mead must into 25 Mousekin mead -->
+	<Mousekin_WortMeadToMead.description>Transforma 25 mosto de hidromel Mousekin em 25 hidroméis Mousekin.</Mousekin_WortMeadToMead.description>
+	
+	<!-- EN: Ferment 25 Mousekin mead must into 25 Mousekin mead -->
+	<Mousekin_WortMeadToMead.labelOverride>Fermentar 25 mosto de hidromel Mousekin em 25 hidroméis Mousekin.</Mousekin_WortMeadToMead.labelOverride>
+	
+	<!-- EN: Ferment root beer syrup into root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.label>Fermentar xarope de root beer em root beer</Mousekin_SyrupRootBeerToRootBeer.label>
+	
+	<!-- EN: Turns 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.description>Transforma 1 xarope de root beer Mousekin em 25 root beers Mousekin.</Mousekin_SyrupRootBeerToRootBeer.description>
+	
+	<!-- EN: Ferment 1 Mousekin root beer syrup into 25 Mousekin root beer -->
+	<Mousekin_SyrupRootBeerToRootBeer.labelOverride>Fermentar 1 xarope de root beer Mousekin em 25 root beers Mousekin.</Mousekin_SyrupRootBeerToRootBeer.labelOverride>
+	
+</LanguageData>

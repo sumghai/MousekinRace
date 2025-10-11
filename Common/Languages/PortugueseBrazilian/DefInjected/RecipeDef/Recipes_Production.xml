@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Make Mousekin Candle x5 -->
+	<Mousekin_Make_CandleBulkSmall.label>Fazer Velas Mousekin x5</Mousekin_Make_CandleBulkSmall.label>
+
+	<!-- EN: Melt beeswax and cast a small batch of candles. -->
+	<Mousekin_Make_CandleBulkSmall.description>Derreta cera de abelha e molde um pequeno lote de velas.</Mousekin_Make_CandleBulkSmall.description>
+
+	<!-- EN: Making Mousekin Candles. -->
+	<Mousekin_Make_CandleBulkSmall.jobString>Fazendo Velas Mousekin.</Mousekin_Make_CandleBulkSmall.jobString>
+
+	<!-- EN: Make Mousekin Candle x25 -->
+	<Mousekin_Make_CandleBulkLarge.label>Fazer Velas Mousekin x25</Mousekin_Make_CandleBulkLarge.label>
+
+	<!-- EN: Melt beeswax and cast a large batch of candles. -->
+	<Mousekin_Make_CandleBulkLarge.description>Derreta cera de abelha e molde um lote de velas.</Mousekin_Make_CandleBulkLarge.description>
+
+	<!-- EN: Making Mousekin Candles. -->
+	<Mousekin_Make_CandleBulkLarge.jobString>Fazendo Velas Mousekin.</Mousekin_Make_CandleBulkLarge.jobString>
+
+	<!-- EN: make Clockwork Mechanism -->
+	<Mousekin_Make_ClockworkComponent.label>Fazer Mecanismo de Relógio</Mousekin_Make_ClockworkComponent.label>
+
+	<!-- EN: Make a Clockwork Mechanism by forming and trimming steel into intricate metal components. -->
+	<Mousekin_Make_ClockworkComponent.description>Modele e ajuste o aço em componentes metálicos intrincados para fazer um lote de mecanismos de relógio.</Mousekin_Make_ClockworkComponent.description>
+
+	<!-- EN: Making a Clockwork Mechanism. -->
+	<Mousekin_Make_ClockworkComponent.jobString>Fazendo Mecanismo de Relógio.</Mousekin_Make_ClockworkComponent.jobString>
+
+	<!-- EN: make Clockwork Mechanism x5 -->
+	<Mousekin_Make_ClockworkComponentBulk.label>Fazer Mecanismo de Relógio x5</Mousekin_Make_ClockworkComponentBulk.label>
+
+	<!-- EN: Make a batch of Clockwork Mechanisms by forming and trimming steel into intricate metal components. -->
+	<Mousekin_Make_ClockworkComponentBulk.description>Modele e ajuste o aço em componentes metálicos intrincados para fazer um lote de mecanismos de relógio.</Mousekin_Make_ClockworkComponentBulk.description>
+
+	<!-- EN: Making Clockwork Mechanisms. -->
+	<Mousekin_Make_ClockworkComponentBulk.jobString>Fazendo Mecanismo de Relógio.</Mousekin_Make_ClockworkComponentBulk.jobString>
+	
+	<!-- EN: Make gunpowder x20 -->
+	<Mousekin_Make_GunpowderBulkSmall.label>Fazer Pólvora x20</Mousekin_Make_GunpowderBulkSmall.label>
+	
+	<!-- EN: Make a small batch of gunpowder. -->
+	<Mousekin_Make_GunpowderBulkSmall.description>Fazer um pequeno lote de pólvora.</Mousekin_Make_GunpowderBulkSmall.description>
+	
+	<!-- EN: Making gunpowder. -->
+	<Mousekin_Make_GunpowderBulkSmall.jobString>Fazendo Pólvora.</Mousekin_Make_GunpowderBulkSmall.jobString>
+	
+	<!-- EN: Make gunpowder x100 -->
+	<Mousekin_Make_GunpowderBulkLarge.label>Fazer Pólvora x100</Mousekin_Make_GunpowderBulkLarge.label>
+	
+	<!-- EN: Make a large batch of gunpowder. -->
+	<Mousekin_Make_GunpowderBulkLarge.description>Fazer um lote de pólvora.</Mousekin_Make_GunpowderBulkLarge.description>
+	
+	<!-- EN: Making gunpowder. -->
+	<Mousekin_Make_GunpowderBulkLarge.jobString>Fazendo Pólvora.</Mousekin_Make_GunpowderBulkLarge.jobString>
+	
+</LanguageData>

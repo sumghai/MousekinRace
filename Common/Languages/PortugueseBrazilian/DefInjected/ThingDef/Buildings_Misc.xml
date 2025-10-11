@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin tool cabinet -->
+	<Mousekin_ToolCabinet.label>Armário de Ferramentas Mousekin</Mousekin_ToolCabinet.label>
+	
+	<!-- EN: Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets. -->
+	<Mousekin_ToolCabinet.description>Aumenta a velocidade de trabalho quando colocado perto de uma bancada. Uma única bancada pode utilizar até dois armários de ferramentas ao mesmo tempo.</Mousekin_ToolCabinet.description>	
+	
+	<!-- EN: Mousekin Town Square -->
+	<Mousekin_TownSquare.label>Praça Mousekin</Mousekin_TownSquare.label>
+	
+	<!-- EN: A town square with a community notice board and flagpole, where Mousekin colonists gather for special events. Traders visiting your colony will also congregate here. -->
+	<Mousekin_TownSquare.description>Uma praça com mural comunitário e mastro de bandeira, onde os colonos Mousekin se reúnem para eventos especiais. Comerciantes que visitam sua colônia também vão se concentrar neste local.</Mousekin_TownSquare.description>
+	
+</LanguageData>

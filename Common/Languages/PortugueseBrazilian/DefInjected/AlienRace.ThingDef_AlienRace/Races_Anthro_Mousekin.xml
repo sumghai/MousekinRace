@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin -->
+	<Mousekin.label>Mousekin</Mousekin.label>
+
+	<!-- EN: Species: &lt;i&gt;Mus sapiens albus&lt;/i&gt; ("Wise white mouse")\n\nA race of small and agile anthropomorphic mice, readily identified by their large round ears, short-snouted faces, black beady eyes, pink noses, slight overbite, thin scaly tails and white fur.\n\nMousekin adult males can grow up to 100 centimeters tall, while females tend to reach 90 centimeters in height. They have a smaller head-to-body ratio compared with other humanoid races, resembling oversized toddlers with short legs and noticeable hind rumps.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single pup; twins, triplets and other multiple births are rare.\n\nVariations among individual Mousekin include different head hair color and lengths independent of their white body fur, as well as moustaches and other forms of facial hair for males.\n\nWhile the vast majority of humanoid rodent-like races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is generally understood that Mousekins are among the very few species that have evolved naturally from their non-sapient mouse ancestors.\n\nBarring accidents, injury or disease, a Mousekin’s average life expectancy is 90~100 years; their head hair turns fully grey by around 60 years of age, but no Mousekin will experience baldness. -->
+	<Mousekin.description>Espécie:Mus sapiens albus ("Rato Branco Sábio")\n\nUma raça de pequenos ratos antropomórficos ágeis, reconhecíveis pelas grandes orelhas redondas, focinho curto, olhos pretos brilhantes, narizes rosados, leve sobressaliência dentária, caudas finas e pelagem branca.\n\nMachos adultos alcançam até 100 cm e fêmeas cerca de 90 cm. Têm proporção cabeça-corpo menor que outros humanóides, lembrando crianças grandes de pernas curtas e traseiro proeminente.\n\nA gestação é semelhante à humana, resultando normalmente em um único filhote; múltiplos são raros.\n\nVariações entre Mousekins incluem cor e comprimento do cabelo na cabeça, independentes da pelagem, e bigodes ou barba em machos.\n\nEmbora a maioria das raças roedoras humanoides tenha origem em experimentos genéticos antigos, acredita-se que os Mousekin evoluíram naturalmente de ancestrais não sencientes.\n\nExceto em caso de acidentes, ferimentos ou doenças, a expectativa média de vida de um Mousekin é de 90~100 anos.\n\nSem acidentes ou doenças, vivem em média 90–100 anos; o cabelo fica grisalho por volta dos 60, mas nunca ficam carecas.</Mousekin.description>
+
+	<!-- EN: left paw -->
+	<Mousekin.tools.0.label>Pata Esquerda</Mousekin.tools.0.label>
+
+	<!-- EN: right paw -->
+	<Mousekin.tools.1.label>Pata Direita</Mousekin.tools.1.label>
+
+	<!-- EN: teeth -->
+	<Mousekin.tools.2.label>Dente</Mousekin.tools.2.label>
+	
+</LanguageData>

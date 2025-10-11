@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN:
+		<li>r_leaderTitle->Lord Protector</li>
+	-->
+	<LeaderTitleMaker_MousekinChurch.rulePack.rulesStrings>
+		<li>r_leaderTitle->Lorde Protetor</li>
+	</LeaderTitleMaker_MousekinChurch.rulePack.rulesStrings>
+
+	<!-- EN:
+		<li>r_leaderTitle->Prime Councilor</li>
+	-->
+	<LeaderTitleMaker_MousekinRepublic.rulePack.rulesStrings>
+		<li>r_leaderTitle->Concelheiro</li>
+	</LeaderTitleMaker_MousekinRepublic.rulePack.rulesStrings>
+
+	<!-- EN:
+		<li>r_leaderTitle->Wagon Master</li>
+	-->
+	<LeaderTitleMaker_MousekinNomad.rulePack.rulesStrings>
+		<li>r_leaderTitle->Mestre</li>
+	</LeaderTitleMaker_MousekinNomad.rulePack.rulesStrings>
+
+	<!-- EN:
+		<li>r_leaderTitle->Leader</li>
+	-->
+	<LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
+		<li>r_leaderTitle->Líder</li>
+	</LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
+	
+</LanguageData>

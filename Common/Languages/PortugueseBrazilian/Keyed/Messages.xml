@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MousekinRace_MessagePurchasedAnimalNamed>Um {0} comprado agora se chama {1}.</MousekinRace_MessagePurchasedAnimalNamed>
+	
+	<MousekinRace_MessageChurchMissedService>Seus colonos Mousekin estão insatisfeitos por terem perdido a messa semanal. Certifique-se de ter construído uma igreja e ter um padre disponível para ministrar os serviços.</MousekinRace_MessageChurchMissedService>
+	
+	<MousekinRace_MessageCannotJoinFaction>Não é possível jurar lealdade a {0}: requisitos não atendidos.</MousekinRace_MessageCannotJoinFaction>
+	
+	<MousekinRace_MessageFactionRenamedViaAllegiance>Sua facção agora é conhecida como {0}, {1}.</MousekinRace_MessageFactionRenamedViaAllegiance>
+	
+	<MousekinRace_MessageNewColonistsQueueEmpty>Nenhum novo colono a caminho.</MousekinRace_MessageNewColonistsQueueEmpty>
+	
+	<MousekinRace_MessageNewColonistsWillArrive>{0} novos colonos chegarão em {1}.</MousekinRace_MessageNewColonistsWillArrive>
+	
+	<MousekinRace_MessageCannotRequestTraderCooldownActive>Não é possível solicitar comerciante: você precisa esperar mais {0}.</MousekinRace_MessageCannotRequestTraderCooldownActive>
+	
+	<MousekinRace_MessageMilitaryAidWillArrive>Os reforços de {0} chegarão em {1}.</MousekinRace_MessageMilitaryAidWillArrive>
+	
+	<MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>Ajuda militar já solicitada: {0}.</MousekinRace_MessageCannotCallMilitaryAidAlreadyRequested>
+	
+	<MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>Não é possível solicitar ajuda militar: não há inimigos no mapa.</MousekinRace_MessageCannotCallMilitaryAidNoHostilesOnMap>
+	
+</LanguageData>

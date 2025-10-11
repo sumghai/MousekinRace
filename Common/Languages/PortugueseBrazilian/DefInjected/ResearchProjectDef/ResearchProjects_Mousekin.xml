@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: commoner apparel -->
+	<Mousekin_ResearchApparelCommoner.label>Roupas de Plebeus</Mousekin_ResearchApparelCommoner.label>
+
+	<!-- EN: Tailor various Regency-era outfits and accessories for practical everyday wear by Mousekin commoners. -->
+	<Mousekin_ResearchApparelCommoner.description>Confeccionar várias roupas e acessórios da era Regência para o uso prático diário dos plebeus Mousekin.</Mousekin_ResearchApparelCommoner.description>
+	
+	<!-- EN : 
+		<li>subject->practical apparel</li>
+		<li>subject->everyday apparel</li>
+		
+		<li>subject_story->established a tailor's shop in a bustling Mousekin city</li>
+		<li>subject_story->altered clothes as a favor to family and friends, before eventually taking on paid work from other Mousekins in the village</li>
+		<li>subject_story->apprenticed under an experienced Mousekin seamstress in a faraway Mousekin town</li>
+		
+		<li>subject_gerund->tailoring practical apparel</li>
+		<li>subject_gerund->tailoring everyday apparel</li>
+	-->
+	<Mousekin_ResearchApparelCommoner.generalRules.rulesStrings>
+		<li>subject->Roupas práticas</li>
+		<li>subject->Roupas do dia a dia</li>
+
+		<li>subject_story->Abriu uma loja de costura em uma movimentada cidade Mousekin</li>
+		<li>subject_story->Ajustou roupas para familiares e amigos, antes de eventualmente aceitar trabalho pago de outros Mousekins na vila</li>
+		<li>subject_story->Foi aprendiz de uma experiente costureira Mousekin em uma cidade distante</li>
+
+		<li>subject_gerund->Confeccionando roupas práticas</li>
+		<li>subject_gerund->Confeccionando roupas do dia a dia</li>
+	</Mousekin_ResearchApparelCommoner.generalRules.rulesStrings>
+
+	<!-- EN: middle-class apparel -->
+	<Mousekin_ResearchApparelMiddle.label>Roupas da Classe Média</Mousekin_ResearchApparelMiddle.label>
+
+	<!-- EN: Tailor various outfits worn by Mousekin professionals, including high-class servants, Guardeners, priests and nuns. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMiddle.description>Confeccionar várias roupas e acessórios para Mousekins da classe média (ex.: servos de alto nível, Guardeners, padres e freiras). Requer um Mousekin usando Óculos de Pesquisa para estudar.</Mousekin_ResearchApparelMiddle.description>
+	
+	<!-- EN:
+		<li>subject->middle-class apparel</li>
+		
+		<li>subject_story->mended clothes for their fellow servants while working in the household of a wealthy Mousekin landowner</li>
+		<li>subject_story->earned the patronage of the local Mousekin church by fixing a tear in a bishop's clerical robes just before an important religious mass</li>
+		<li>subject_story->supplied uniforms to the local Mousekin Guardener order</li>
+		
+		<li>subject_gerund->tailoring middle-class apparel</li>
+	-->
+	<Mousekin_ResearchApparelMiddle.generalRules.rulesStrings>
+		<li>subject->Roupas da classe média</li>
+
+		<li>subject_story->Remendou roupas de outros servos enquanto trabalhava na casa de um rico proprietário Mousekin</li>
+		<li>subject_story->Conquistou o patrocínio da igreja local Mousekin ao consertar uma rasgadura na batina de um bispo antes de uma missa importante</li>
+		<li>subject_story->Forneceu uniformes à ordem local das Florineiras Mousekin</li>
+
+		<li>subject_gerund->Confeccionando roupas da classe média</li>
+	</Mousekin_ResearchApparelMiddle.generalRules.rulesStrings>
+
+	<!-- EN: military apparel -->
+	<Mousekin_ResearchApparelMilitary.label>Roupas Militares</Mousekin_ResearchApparelMilitary.label>
+
+	<!-- EN: Tailor padded gambesons and smith various armors and helmets to protect Mousekin soldiers and knights in battle. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelMilitary.description>Confeccionar gambesões acolchoados, forjar várias armaduras e capacetes para proteger soldados e cavaleiros Mousekin em batalha. Requer um Mousekin usando Óculos de Pesquisa para estudar.</Mousekin_ResearchApparelMilitary.description>
+	
+	<!-- EN: 
+		<li>subject->Mousekin military apparel</li>
+		
+		<li>subject_story->was commissioned by a local Mousekin Knight Commander to supply gambesons for his soldiers</li>
+		<li>subject_story->apprenticed under a Mousekin blacksmith and forged armor for the town garrison</li>
+		<li>subject_story->made padded liners for the kettle hats and morions worn by Mousekin soldiers</li>
+		
+		<li>subject_gerund->tailoring Mousekin gambesons</li>
+		<li>subject_gerund->smithing Mousekin armor</li>
+	-->
+	<Mousekin_ResearchApparelMilitary.generalRules.rulesStrings>
+		<li>subject->Roupas Militares Mousekin</li>
+
+		<li>subject_story->Foi comissionado por um Comandante de Cavaleiros Mousekin local para fornecer gambesões aos seus soldados</li>
+		<li>subject_story->Foi aprendiz de um ferreiro Mousekin e forjou armaduras para a guarnição da cidade</li>
+		<li>subject_story->Fez forros acolchoados para os capacetes de Panela e Morion usados pelos soldados Mousekin</li>
+
+		<li>subject_gerund->Confeccionando gambesões Mousekin</li>
+		<li>subject_gerund->Forjando armaduras Mousekin</li>
+	</Mousekin_ResearchApparelMilitary.generalRules.rulesStrings>
+
+	<!-- EN: aristocratic apparel -->
+	<Mousekin_ResearchApparelNoble.label>Roupas Nobres</Mousekin_ResearchApparelNoble.label>
+
+	<!-- EN: Tailor stylish formal apparel for aristocratic Mousekins with discerning tastes. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchApparelNoble.description>Confeccionar roupas formais e elegantes para Mousekins aristocráticos de gostos exigentes. Requer um Mousekin usando Óculos de Pesquisa para estudar.</Mousekin_ResearchApparelNoble.description>
+	
+	<!-- EN:
+		<li>subject->aristocratic apparel</li>
+		<li>subject->formal apparel</li>
+		<li>subject->noble apparel</li>
+		
+		<li>subject_story->mended clothes for their master, a local Mousekin baron</li>
+		<li>subject_story->was commissioned to tailor an elaborate suit for a groom in a wedding between two Mousekin noble families</li>
+		<li>subject_story->apprenticed under a Mousekin seamstress, whose clients included members of the Mousekin Royal Family</li>
+		
+		<li>subject_gerund->tailoring aristocratic apparel</li>
+		<li>subject_gerund->tailoring for the nobility</li>
+	-->
+	<Mousekin_ResearchApparelNoble.generalRules.rulesStrings>
+		<li>subject->Roupas nobres</li>
+		<li>subject->Roupas formais</li>
+		<li>subject->Trajes aristocráticos</li>
+
+		<li>subject_story->Remendou roupas de seu mestre, um barão Mousekin local</li>
+		<li>subject_story->Foi comissionado para confeccionar um traje elaborado para o noivo em um casamento entre duas famílias nobres Mousekin</li>
+		<li>subject_story->Aprendeu como aprendiz com uma costureira Mousekin cujos clientes incluíam membros da Família Real Mousekin</li>
+
+		<li>subject_gerund->Confeccionando roupas nobres</li>
+		<li>subject_gerund->Costurando para a nobreza</li>
+	</Mousekin_ResearchApparelNoble.generalRules.rulesStrings>
+
+	<!-- EN: medicinal alchemy -->
+	<Mousekin_ResearchAlchemy.label>Alquimia Medicinal</Mousekin_ResearchAlchemy.label>
+
+	<!-- EN: Concoct poultices and potions from a variety of herbal and mineral ingredients. -->
+	<Mousekin_ResearchAlchemy.description>Preparar pomadas e poções usando uma variedade de ingredientes herbais e minerais.</Mousekin_ResearchAlchemy.description>
+	
+	<!-- EN: 
+		<li>subject->potions</li>
+		<li>subject->medicinal poultices</li>
+		
+		<li>subject_story->concocted potions of courage for a cowardly Mousekin soldier, who later became a fearless Mousekin Knight Commander</li>
+		<li>subject_story->cultivated and sold herbal medicines wholesale to Mousekin doctors and Guardeners</li>
+		<li>subject_story->spent a lifetime attempting to transmutate cheap gravel into gold and silver</li>
+		
+		<li>subject_gerund->concocting potions</li>
+		<li>subject_gerund->preparing medicinal poultices</li>	
+	-->
+	<Mousekin_ResearchAlchemy.generalRules.rulesStrings>
+		<li>subject->Poções</li>
+		<li>subject->Pomadas</li>
+
+		<li>subject_story->Preparou poções de coragem para um soldado Mousekin covarde, que mais tarde se tornou um destemido Comandante de Cavaleiros Mousekin</li>
+		<li>subject_story->Cultivou ervas e vendeu medicamentos em atacado para médicos e Florineiras Mousekin</li>
+		<li>subject_story->Passou a vida tentando transmutar cascalho barato em ouro e prata</li>
+
+		<li>subject_gerund->Preparando poções</li>
+		<li>subject_gerund->Preparando pomadas</li>
+	</Mousekin_ResearchAlchemy.generalRules.rulesStrings>
+
+	<!-- EN: charcoal -->
+	<Mousekin_ResearchCharcoal.label>Carvão</Mousekin_ResearchCharcoal.label>
+
+	<!-- EN: Refine wood into charcoal, which can be used as a highly-efficient fuel source or as an ingredient in various Mousekin medicinal potions. -->
+	<Mousekin_ResearchCharcoal.description>Refinar madeira em carvão, que pode ser usado como fonte de combustível eficiente ou como ingrediente em diversas poções medicinais Mousekin.</Mousekin_ResearchCharcoal.description>
+	
+	<!-- EN: 
+		<li>subject->charcoal making</li>
+		
+		<li>subject_story->apprenticed under a collier in a distant Mousekin village</li>
+		<li>subject_story->noticed how unburnt chunks of wood left over from a campfire burned better than new firewood</li>
+		<li>subject_story->lived alone on the outskirts of a Mousekin town tending charcoal piles</li>
+		
+		<li>subject_gerund->making charcoal</li>
+	-->
+	<Mousekin_ResearchCharcoal.generalRules.rulesStrings>
+		<li>subject->Produção de carvão</li>
+
+		<li>subject_story->Aprendeu com um carvoeiro em uma vila Mousekin distante</li>
+		<li>subject_story->Notou que pedaços de madeira não queimados de uma fogueira queimavam melhor que lenha nova</li>
+		<li>subject_story->Viveu sozinho nos arredores de uma cidade Mousekin cuidando de pilhas de carvão</li>
+
+		<li>subject_gerund->Produzindo carvão</li>
+	</Mousekin_ResearchCharcoal.generalRules.rulesStrings>
+
+	<!-- EN: clockwork mechanisms -->
+	<Mousekin_ResearchMachineryBasic.label>Mecanismos de Relógios</Mousekin_ResearchMachineryBasic.label>
+
+	<!-- EN: Craft intricate components and wind-up spring mechanisms for use in a variety of devices, such as automatic crossbows. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryBasic.description>Fabricar componentes intricados e mecanismos de molas para uso em diversos dispositivos, como bestas automáticas. Requer um Mousekin usando Óculos de Pesquisa para estudar.</Mousekin_ResearchMachineryBasic.description>
+	
+	<!-- EN:
+		<li>subject->clockwork mechanisms</li>
+		
+		<li>subject_story->crafted small mechanical toys from scraps of metal to amuse local Mouselings</li>
+		<li>subject_story->apprenticed under a Mousekin master craftsman commissioned to make automatic crossbows for the Mousekin Kingdom's army</li>
+		<li>subject_story->repaired clocks and pocket watches for wealthy Mousekin nobles</li>
+		
+		<li>subject_gerund->crafting clockwork mechanisms</li>
+	-->
+	<Mousekin_ResearchMachineryBasic.generalRules.rulesStrings>
+		<li>subject->Mecanismos de relógios</li>
+
+		<li>subject_story->Fabricou pequenos brinquedos mecânicos a partir de pedaços de metal para divertir os ratitos locais</li>
+		<li>subject_story->Aprendeu como aprendiz de um mestre Mousekin, comissionado para fabricar bestas automáticas para o exército Mousekin</li>
+		<li>subject_story->Consertou relógios e relógios de bolso para nobres Mousekin ricos</li>
+
+		<li>subject_gerund->Fabricando Mecanismos de relógio</li>
+	</Mousekin_ResearchMachineryBasic.generalRules.rulesStrings>
+
+	<!-- EN: heavy machinery -->
+	<Mousekin_ResearchMachineryAdvanced.label>Máquinas Pesadas</Mousekin_ResearchMachineryAdvanced.label>
+
+	<!-- EN: Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryAdvanced.description>Construir máquinas pesadas, como fornos hidráulicos e onagros lançadores de pedras. Requer um Mousekin usando Óculos de Pesquisa para estudar.</Mousekin_ResearchMachineryAdvanced.description>
+	
+	<!-- EN:
+		<li>subject->heavy machinery</li>
+		
+		<li>subject_story->erected and operated rock-throwing onagers in the Mousekin Kingdom's army</li>
+		<li>subject_story->witnessed a terrifying flood that decimated a Mousekin village, and became determined to tame the raw power of the flowing river</li>
+		<li>subject_story->toiled day and night in the treadwheel cranes at the construction site of a grand Mousekin fortress</li>
+		
+		<li>subject_gerund->constructing heavy machinery</li>
+	-->
+	<Mousekin_ResearchMachineryAdvanced.generalRules.rulesStrings>
+		<li>subject->Máquinas pesadas</li>
+
+		<li>subject_story->Ergueu e operou onagros lançadores de pedras no exército Mousekin</li>
+		<li>subject_story->Presenciou uma inundação terrível que destruiu uma vila Mousekin e decidiu dominar o poder bruto do rio</li>
+		<li>subject_story->Trabalhou dia e noite em guindastes de roda nos canteiros de construção de uma grande fortaleza Mousekin</li>
+
+		<li>subject_gerund->Construindo máquinas pesadas</li>
+	</Mousekin_ResearchMachineryAdvanced.generalRules.rulesStrings>
+
+	<!-- EN: deep mining -->
+	<Mousekin_ResearchMining.label>Mineração Profunda</Mousekin_ResearchMining.label>
+
+	<!-- EN: Build deep shaft mine entrances to allow underground mining of common and exotic minerals. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMining.description>Construir entradas de minas profundas para permitir a mineração subterrânea de minerais comuns e exóticos. Requer um Mousekin usando Óculos de Pesquisa para estudar.</Mousekin_ResearchMining.description>
+	
+	<!-- EN:
+		<li>subject->deep underground mining</li>
+		
+		<li>subject_story->survived a cave-in that left dozens of other Mousekin miners buried alive under rubble</li>
+		<li>subject_story->made a fortune from discovering an untapped gold vein</li>
+		<li>subject_story->erected bracing for tunnels deep inside a Mousekin underground mine</li>
+		
+		<li>subject_gerund->toiling in deep underground mines</li>
+	-->
+	<Mousekin_ResearchMining.generalRules.rulesStrings>
+		<li>subject->Mineração subterrânea profunda</li>
+
+		<li>subject_story->Sobreviveu a um desabamento que deixou dezenas de mineradores Mousekin enterrados vivos</li>
+		<li>subject_story->Enriqueceu ao descobrir uma veia de ouro inexplorada</li>
+		<li>subject_story->Instalou suportes para túneis no fundo de uma mina subterrânea Mousekin</li>
+
+		<li>subject_gerund->Trabalhando em minas subterrâneas profundas</li>
+	</Mousekin_ResearchMining.generalRules.rulesStrings>
+
+	<!-- EN: gunpowder -->
+	<Mousekin_ResearchGunpowder.label>Pólvera</Mousekin_ResearchGunpowder.label>
+
+	<!-- EN: Craft primitive Mousekin explosives used as propellants in weapons such as muskets, swivel guns and cannons. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchGunpowder.description>Fabricar explosivos primitivos Mousekin usados como propelentes em armas como mosquetes, canhões giratórios e grandes canhões. Requer um Mousekin usando Óculos de Pesquisa para estudar.</Mousekin_ResearchGunpowder.description>
+	
+	<!-- EN: 
+		<li>subject->making gunpowder</li>
+		
+		<li>subject_story->was commissioned by the Mousekin Kingdom's army to craft acorn grenades</li>
+		<li>subject_story->witnessed the terrifying power of rockets fired by Mousekin rebels from their Thunderpikes</li>
+		
+		<li>subject_gerund->making gunpowder</li>
+	-->
+	<Mousekin_ResearchGunpowder.generalRules.rulesStrings>
+		<li>subject->Fabricando pólvora</li>
+
+		<li>subject_story->Comissionado pelo exército Mousekin para fabricar Granadas da Bolota</li>
+		<li>subject_story->Presenciou o poder terrível dos foguetes disparados pelos rebeldes Mousekin de suas Lanças Trovão</li>
+
+		<li>subject_gerund->Fabricando pólvora</li>
+	</Mousekin_ResearchGunpowder.generalRules.rulesStrings>
+
+	<!-- EN: cast-iron stoves -->
+	<Mousekin_ResearchCookingIronStoves.label>Fogões de Ferro Fundido</Mousekin_ResearchCookingIronStoves.label>
+
+	<!-- EN: Build cast-iron stoves for cooking more complex Mousekin dishes. -->
+	<Mousekin_ResearchCookingIronStoves.description>Construir fogões de ferro fundido para cozinhar pratos Mousekin mais complexos.</Mousekin_ResearchCookingIronStoves.description>
+	
+	<!-- EN:
+		<li>subject->cast-iron stoves</li>
+		
+		<li>subject_story->stoked the furnaces of an iron foundry in a bustling Mousekin town</li>
+		<li>subject_story->trained a succession of apprentices on the art of iron casting</li>
+		
+		<li>subject_gerund->casting iron stoves</li>
+	-->
+	<Mousekin_ResearchCookingIronStoves.generalRules.rulesStrings>
+		<li>subject->Fogões de ferro fundido</li>
+
+		<li>subject_story->Alimentou os fornos de uma fundição de ferro em uma movimentada cidade Mousekin</li>
+		<li>subject_story->Treinou várias gerações de aprendizes na arte da fundição de ferro</li>
+
+		<li>subject_gerund->Construindo fogões de ferro fundido</li>
+	</Mousekin_ResearchCookingIronStoves.generalRules.rulesStrings>
+
+	<!-- EN: apiaries -->
+	<Mousekin_ResearchBeekeeping.label>Colmias</Mousekin_ResearchBeekeeping.label>
+
+	<!-- EN: Build wooden beehives to obtain honey for culinary and brewing purposes, as well as beeswax for candles. -->
+	<Mousekin_ResearchBeekeeping.description>Construir colmeias de madeira para obter mel para culinária e fermentação, além de cera de abelha para velas.</Mousekin_ResearchBeekeeping.description>
+	
+	<!-- EN:
+		<li>subject->apiculture</li>
+		<li>subject->beekeeping</li>
+		
+		<li>subject_story->was repeatedly stung in the ears while harvesting honey for a banquet celebrating the coming-of-age of a local Mousekin feudal lord's eldest daughter</li>
+		<li>subject_story->invented a new kind of beehive that allowed honey to be easily harvested without disturbing the bees inside</li>
+		<li>subject_story->made a fortune after switching from making and selling cheap tallow candles to higher-quality beeswax ones</li>
+		
+		<li>subject_gerund->beekeeping</li>
+	-->
+	<Mousekin_ResearchBeekeeping.generalRules.rulesStrings>
+		<li>subject->Apricultura</li>
+		<li>subject->Criação de abelhas</li>
+
+		<li>subject_story->Foi repetidamente picado nas orelhas ao colher mel para um banquete celebrando a maioridade da filha mais velha de um senhor feudal Mousekin local</li>
+		<li>subject_story->Inventou um novo tipo de colmeia que permitia colher mel sem perturbar as abelhas dentro</li>
+		<li>subject_story->Enriqueceu ao trocar a fabricação e venda de velas baratas de sebo por velas de cera de abelha de alta qualidade</li>
+
+		<li>subject_gerund->Criando abelhas</li>
+	</Mousekin_ResearchBeekeeping.generalRules.rulesStrings>
+
+	<!-- EN: aristocratic cuisine -->
+	<Mousekin_ResearchCookingNoble.label>Culinária Nobre</Mousekin_ResearchCookingNoble.label>
+
+	<!-- EN: Prepare culinary masterpieces for the most discerning of Mousekin palates. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchCookingNoble.description>Preparar obras-primas culinárias para os paladares mais exigentes dos Mousekin. Requer um Mousekin usando Óculos de Pesquisa para estudar.</Mousekin_ResearchCookingNoble.description>
+	
+	<!-- EN:
+		<li>subject->aristocratic cuisine</li>
+		
+		<li>subject_story->crafted exquisite dishes as the head chef in the household of a wealthy Mousekin landowner</li>
+		<li>subject_story->impressed a visiting Mousekin ambassador with an old family recipe for Nyam nut-flavored ice cream</li>
+		<li>subject_story->apprenticed in the kitchens of the Mousekin King's palace</li>
+		
+		<li>subject_gerund->preparing aristocratic cuisine</li>
+		<li>subject_gerund->cooking for noble palates</li>	
+	-->
+	<Mousekin_ResearchCookingNoble.generalRules.rulesStrings>
+		<li>subject->Culinária Nobre</li>
+
+		<li>subject_story->Criou pratos requintados como chef principal na casa de um rico proprietário Mousekin</li>
+		<li>subject_story->Impressionou um embaixador Mousekin visitante com uma antiga receita de sorvete sabor noz Nyam</li>
+		<li>subject_story->Foi aprendiz nas cozinhas do palácio do Rei Mousekin</li>
+
+		<li>subject_gerund->Preparando culinária nobre</li>
+		<li>subject_gerund->Cozinhando para paladares nobres</li>
+	</Mousekin_ResearchCookingNoble.generalRules.rulesStrings>
+
+	<!-- EN: cottage building -->
+	<Mousekin_ResearchBuildingVillage.label>Construção de Casas Rurais</Mousekin_ResearchBuildingVillage.label>
+
+	<!-- EN: Build houses for Mousekin commoners using wattle-and-daub walls, doors and windows. -->
+	<Mousekin_ResearchBuildingVillage.description>Construir casas para camponeses Mousekin usando paredes de vimes e argamassa, portas e janelas.</Mousekin_ResearchBuildingVillage.description>
+	
+	<!-- EN:
+		<li>subject->wattle-and-daub construction</li>
+		<li>subject->practical joinery for country cottages</li>
+		
+		<li>subject_story->erected a cosy Mousekin cottage with nothing but their own two paws</li>
+		<li>subject_story->thatched straw roofs for houses in a growing Mousekin village</li>
+		
+		<li>subject_gerund->building cottages</li>
+		<li>subject_gerund->erecting wattle-and-daub walls</li>
+	-->
+	<Mousekin_ResearchBuildingVillage.generalRules.rulesStrings>
+		<li>subject->Construção com vimes e argamassa</li>
+		<li>subject->Carpintaria prática para casas rurais</li>
+
+		<li>subject_story->Ergueu uma aconchegante casa Mousekin usando apenas suas duas patas</li>
+		<li>subject_story->Cobriu casas em uma vila Mousekin em crescimento com telhados de palha</li>
+
+		<li>subject_gerund->Construindo casas rurais</li>
+		<li>subject_gerund->Erguendo paredes de vimes e argamassa</li>
+	</Mousekin_ResearchBuildingVillage.generalRules.rulesStrings>
+
+	<!-- EN: castle architecture -->
+	<Mousekin_ResearchBuildingCastle.label>Arquitetura de Castelos</Mousekin_ResearchBuildingCastle.label>
+
+	<!-- EN: Build mansions for Mousekin nobles, and construct fortifications to protect Mousekin communities from outside threats. -->
+	<Mousekin_ResearchBuildingCastle.description>Construir mansões para nobres Mousekin e fortificações para proteger as comunidades Mousekin de ameaças externas.</Mousekin_ResearchBuildingCastle.description>
+	
+	<!-- EN: 
+		<li>subject->castle architecture</li>
+		<li>subject->castle construction</li>
+		<li>subject->castle fortifications</li>
+		
+		<li>subject_story->joined a stonemason's guild in a nearby Mousekin town</li>
+		<li>subject_story->apprenticed under their own father, whose forefathers once set the foundation stones of the grand Mousekin fortress, Whitefur's Keep</li>
+		<li>subject_story->cut and shaped decorative stone lintels for a discerning Mousekin duke</li>
+		
+		<li>subject_gerund->constructing castles</li>
+	-->
+	<Mousekin_ResearchBuildingCastle.generalRules.rulesStrings>
+		<li>subject->Arquitetura de castelos</li>
+		<li>subject->Construção de castelos</li>
+		<li>subject->Fortificações de castelos</li>
+
+		<li>subject_story->Ingressou na guilda de pedreiros de uma cidade Mousekin próxima</li>
+		<li>subject_story->Foi aprendiz sob seu próprio pai, cujo antepassados haviam lançado as pedras fundamentais da grande fortaleza Mousekin, Whitefur's Keep</li>
+		<li>subject_story->Cortou e moldou lintéis decorativos de pedra para um exigente duque Mousekin</li>
+
+		<li>subject_gerund->Construindo castelos</li>
+	</Mousekin_ResearchBuildingCastle.generalRules.rulesStrings>
+	
+</LanguageData>

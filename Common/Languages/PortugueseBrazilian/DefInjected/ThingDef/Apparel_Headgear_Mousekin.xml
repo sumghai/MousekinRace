@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin Straw Hat -->
+	<Mousekin_HatStraw.label>Chapéu de Palha Mousekin</Mousekin_HatStraw.label>
+
+	<!-- EN: A wide-brimmed hat woven from straw, worn by Mousekin peasants and laborers as sun protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatStraw.description>Um chapéu de aba larga trançado de palha, usado por camponeses e trabalhadores Mousekin como proteção contra o sol. Possui furos para acomodar as orelhas.</Mousekin_HatStraw.description>
+
+	<!-- EN: Mousekin Headscarf -->
+	<Mousekin_HatHeadscarf.label>Lenço de Cabeça Mousekin</Mousekin_HatHeadscarf.label>
+
+	<!-- EN: A piece of cloth that covers the top, sides and back of the head, worn by female Mousekin peasants and laborers to keep hair out of the way during work. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatHeadscarf.description>Um pedaço de tecido que cobre o topo, os lados e a nuca, usado por camponesas Mousekin para manter o cabelo afastado durante o trabalho. Possui furos para acomodar as orelhas.</Mousekin_HatHeadscarf.description>
+	
+	<!-- EN: Mousekin Frontier Hat -->
+	<Mousekin_HatFrontier.label>Chapéu de Fronteira Mousekin</Mousekin_HatFrontier.label>
+	
+	<!-- EN: A hard-wearing leather hat with a wide brim that offers protection from both sunlight and rain - as well as making the wearer look more mysterious and tough. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatFrontier.description>Um resistente chapéu de couro de aba larga que protege do sol e da chuva, além de dar ao usuário uma aparência mais misteriosa e firme. Possui furos para acomodar as orelhas.</Mousekin_HatFrontier.description>
+
+	<!-- EN: Mousekin Nun’s Veil -->
+	<Mousekin_HatNunVeil.label>Véu de Freira Mousekin</Mousekin_HatNunVeil.label>
+
+	<!-- EN: A demure veil worn by Mousekin nuns to keep hair out of their faces while administering rites, as well as caring for the sick and orphaned. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HatNunVeil.description>Um véu modesto usado por freiras Mousekin para manter o cabelo afastado enquanto conduzem ritos, cuidam dos doentes e dos órfãos. Possui furos para acomodar as orelhas.</Mousekin_HatNunVeil.description>
+
+	<!-- EN: Mousekin Kettle Hat -->
+	<Mousekin_HelmetKettle.label>Capacete de Panela Mousekin</Mousekin_HelmetKettle.label>
+
+	<!-- EN: A wide-brimmed steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin crossbowmen, it is named for its resemblance to a type of common cooking vessel. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKettle.description>Um capacete de aço de aba larga que protege o topo da cabeça contra a maioria dos ferimentos, deixando a parte inferior exposta para melhor visão e conforto. Usado por besteiratos, recebeu esse nome por se assemelhar a um utensílio de cozinha comum. Possui aberturas para as orelhas.</Mousekin_HelmetKettle.description>
+
+	<!-- EN: Mousekin Morion Helmet -->
+	<Mousekin_HelmetMorion.label>Capacete Morion Mousekin</Mousekin_HelmetMorion.label>
+
+	<!-- EN: A flat-brimmed and crested steel helmet that protects the top of the head from most injuries, while leaving the lower head and face exposed to maximise visibility and comfort. Worn by Mousekin pikemen and Mouseketeers. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetMorion.description>Um capacete de aço com aba plana e crista, que protege o topo da cabeça contra a maioria dos ferimentos, mantendo a parte inferior exposta para máxima visão e conforto. Usado por piqueiratos e mosqueratos. Possui aberturas para as orelhas.</Mousekin_HelmetMorion.description>
+
+	<!-- EN: Mousekin Knight's Helmet -->
+	<Mousekin_HelmetKnight.label>Capacete de Cavaleiro Mousekin</Mousekin_HelmetKnight.label>
+
+	<!-- EN: A medieval plate helmet worn by Mousekin knights, with a pivoting visor offering visibility without compromising protection. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnight.description>Um elmo medieval de placas usado por cavaleiros Mousekin, com viseira móvel que mantém a visibilidade sem comprometer a proteção. Possui furos para acomodar as orelhas.</Mousekin_HelmetKnight.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>Abrir/Fechar Viseira</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>Abrir ou fechar a viseira do capacete.</Mousekin_HelmetKnight.comps.CompApparelWithAltStateGraphics.toggleDesc>
+
+	<!-- EN: Mousekin Woodsman’s Bycocket -->
+	<Mousekin_HatWoodsman.label>Chapéu Bicorne do Lenhador Mousekin</Mousekin_HatWoodsman.label>
+
+	<!-- EN: A fabric hat with a pointed front and a wide, upturned brim at the back, often adorned with feathers. Originally worn by Mousekin woodsmen, these have now been adopted by Mousekin revolutionaries. -->
+	<Mousekin_HatWoodsman.description>Um chapéu de tecido com frente pontuda e aba larga virada para cima atrás, frequentemente adornado com penas. Originalmente usado por lenhadores Mousekin, foi adotado pelos revolucionários.</Mousekin_HatWoodsman.description>
+
+	<!-- EN: Mousekin Knight Commander’s Helmet -->
+	<Mousekin_HelmetKnightCommander.label>Capacete de Comandante de Cavaleiro Mousekin</Mousekin_HelmetKnightCommander.label>
+
+	<!-- EN: A medieval plate helmet worn by Mousekin knight commanders, with a pivoting visor offering visibility without compromising protection, and adorned with a plume of brightly-colored feathers to help other Mousekin knights find their commander during battle. Has holes to accommodate Mousekin ears. -->
+	<Mousekin_HelmetKnightCommander.description>Um elmo medieval de placas usado por comandantes de cavaleiros Mousekin, com viseira móvel que garante visibilidade sem reduzir a proteção, adornado com uma pluma colorida para ajudar os cavaleiros a localizar seu líder na batalha. Possui furos para as orelhas.</Mousekin_HelmetKnightCommander.description>
+	
+	<!-- EN: Toggle visor -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>Abrir/Fechar Viseira</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleLabel>
+	
+	<!-- EN: Open or close the helmet's visor. -->
+	<Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>Abrir ou fechar a viseira do capacete.</Mousekin_HelmetKnightCommander.comps.CompApparelWithAltStateGraphics.toggleDesc>
+
+	<!-- EN: Veil Back -->
+	<Mousekin_HatNunVeilBack.label>Véu de Freira Mousekin (Traseira)</Mousekin_HatNunVeilBack.label>
+
+	<!-- EN: Back of the Mousekin Nun’s Veil. -->
+	<Mousekin_HatNunVeilBack.description>Parte traseira do véu da freira Mousekin.</Mousekin_HatNunVeilBack.description>
+	
+</LanguageData>

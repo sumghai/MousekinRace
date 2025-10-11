@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin bed -->
+	<Mousekin_Bed.label>Cama Mousekins</Mousekin_Bed.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillow on a wooden frame, for a single person to rest on. -->
+	<Mousekin_Bed.description>Um colchão macio e fofo, com um cobertor grosso e travesseiro felpudo sobre uma estrutura de madeira, para uma única pessoa descansar.</Mousekin_Bed.description>
+	
+	<!-- EN: Mousekin double bed -->
+	<Mousekin_BedDouble.label>Cama de Casal Mousekin</Mousekin_BedDouble.label>
+	
+	<!-- EN: A soft, plush mattress with a thick blanket and fluffy pillows on a wooden frame, large enough for two people to rest on. -->
+	<Mousekin_BedDouble.description>Um colchão macio e fofo, com um cobertor grosso e travesseiros felpudos sobre uma estrutura de madeira, grande o suficiente para duas pessoas descansarem.</Mousekin_BedDouble.description>
+
+	<!-- EN: Mousekin chair -->
+	<Mousekin_Chair.label>Cadeira Mousekin</Mousekin_Chair.label>
+	
+	<!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
+	<Mousekin_Chair.description>Uma cadeira confortável e atraente. Pode ser usada em mesas, estações de trabalho ou em outros lugares.</Mousekin_Chair.description>
+	
+	<!-- EN: Mousekin dresser -->
+	<Mousekin_Dresser.label>Cômoda Mousekin</Mousekin_Dresser.label>
+	
+	<!-- EN: A dresser for storing clothes, but not armor or helmets. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.-->
+	<Mousekin_Dresser.description>Uma cômoda para guardar roupas, mas não armaduras ou capacetes. Dá um pequeno bônus de conforto a todas as camas próximas. Colocar mais de uma cômoda perto da mesma cama não gera efeito adicional.</Mousekin_Dresser.description>
+	
+	<!-- EN: Mousekin end table -->
+	<Mousekin_EndTable.label>Mesa de Cabeceira Mousekin</Mousekin_EndTable.label>
+	
+	<!-- EN: A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. -->
+	<Mousekin_EndTable.description>Uma pequena mesa de cabeceira que torna as camas próximas um pouco mais confortáveis. Deve ser colocada diretamente ao lado da cabeceira da cama. Colocar mais de uma perto da mesma cama não gera efeito adicional.</Mousekin_EndTable.description>
+
+	<!-- EN: Mousekin stool -->
+	<Mousekin_Stool.label>Banquinho Mousekin</Mousekin_Stool.label>
+	
+	<!-- EN: A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere. -->
+	<Mousekin_Stool.description>Um assento simples para se sentar. Não é muito confortável, mas é melhor que nada. Pode ser usado em mesas, estações de trabalho e outros lugares.</Mousekin_Stool.description>
+	
+	<!-- EN: Mousekin table (1x1) -->
+	<Mousekin_Table1x1c.label>Mesa Mousekin (1x1)</Mousekin_Table1x1c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x1c.description>As pessoas comem nas mesas quando há cadeiras colocadas de frente para elas.</Mousekin_Table1x1c.description>
+	
+	<!-- EN: Mousekin table (1x1 round) -->
+	<Mousekin_Table1x1r.label>Mesa Mousekin (1x1 redonda)</Mousekin_Table1x1r.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x1r.description>As pessoas comem nas mesas quando há cadeiras colocadas de frente para elas.</Mousekin_Table1x1r.description>
+	
+	<!-- EN: Mousekin table (1x2) -->
+	<Mousekin_Table1x2c.label>Mesa Mousekin (1x2)</Mousekin_Table1x2c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x2c.description>As pessoas comem nas mesas quando há cadeiras colocadas de frente para elas.</Mousekin_Table1x2c.description>
+	
+	<!-- EN: Mousekin table (1x3) -->
+	<Mousekin_Table1x3c.label>Mesa Mousekin (1x3)</Mousekin_Table1x3c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table1x3c.description>As pessoas comem nas mesas quando há cadeiras colocadas de frente para elas.</Mousekin_Table1x3c.description>
+	
+	<!-- EN: Mousekin table (2x2) -->
+	<Mousekin_Table2x2c.label>Mesa Mousekin (2x2)</Mousekin_Table2x2c.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table2x2c.description>As pessoas comem nas mesas quando há cadeiras colocadas de frente para elas.</Mousekin_Table2x2c.description>
+	
+	<!-- EN: Mousekin table (2x2 round) -->
+	<Mousekin_Table2x2r.label>Mesa Mousekin (2x2 redonda)</Mousekin_Table2x2r.label>
+	
+	<!-- EN: People eat off tables when chairs are placed facing them. -->
+	<Mousekin_Table2x2r.description>As pessoas comem nas mesas quando há cadeiras colocadas de frente para elas.</Mousekin_Table2x2r.description>
+	
+	<!-- EN: Mousekin wardrobe -->
+	<Mousekin_Wardrobe.label>Guarda-Roupa Mousekin</Mousekin_Wardrobe.label>
+	
+	<!-- EN: A wardrobe for storing clothes and headgear. Gives a small comfort bonus to all nearby beds. Placing more than one wardrobe near the same bed has no effect. -->
+	<Mousekin_Wardrobe.description>Um guarda-roupa para armazenar roupas e adornos de cabeça. Dá um pequeno bônus de conforto a todas as camas próximas. Colocar mais de um perto da mesma cama não gera efeito adicional.</Mousekin_Wardrobe.description>
+	
+	<!-- EN: Mousekin bench -->
+	<Mousekin_Bench.label>Banco Mousekin</Mousekin_Bench.label>
+	
+	<!-- EN: A simple platform for up to two people to sit together side-by-side. -->
+	<Mousekin_Bench.description>>Um banco simples onde até duas pessoas podem se sentar lado a lado.</Mousekin_Bench.description>
+
+	<!-- EN: Mousekin candle sconce -->
+	<Mousekin_FurnitureWallCandle.label>Castiçal Mousekin</Mousekin_FurnitureWallCandle.label>
+	
+	<!-- EN: A wall-mounted candle for lighting an area. Mousekins need light to move and work at full speed. Can be automatically refueled with candles. Does not produce heat. -->
+	<Mousekin_FurnitureWallCandle.description>Um castiçal de parede para iluminar uma área. Os Mousekins precisam de luz para se mover e trabalhar em velocidade máxima. Pode ser reabastecido automaticamente com velas. Não produz calor.</Mousekin_FurnitureWallCandle.description>
+	
+	<!-- EN: Mousekin altar -->
+	<Mousekin_ChurchAltar.label>Alter Mousekin</Mousekin_ChurchAltar.label>
+	
+	<!-- EN: A table used by Mousekin clergy for rituals related to the worship of the deity Valerian the Wise. Silver from tithes are collected here at the end of church services. -->
+	<Mousekin_ChurchAltar.description>Uma mesa usada pelo clero Mousekin para rituais ligados ao culto da divindade Valeriano o Sábio. As pratas do dízimo são recolhidas aqui ao final dos serviços religiosos.</Mousekin_ChurchAltar.description>
+	
+	<!-- EN: Mousekin lectern -->
+	<Mousekin_ChurchLectern.label>Púlpito Mousekin</Mousekin_ChurchLectern.label>
+	
+	<!-- EN: A standing desk with a slanted top to support liturgical books and other literature to be read aloud. Mousekin Priests use lecterns to conduct church services. -->
+	<Mousekin_ChurchLectern.description>Uma mesa em pé com topo inclinado para apoiar livros litúrgicos e outros textos a serem lidos em voz alta. Os padres Mousekin usam o púlpito para conduzir os cultos.</Mousekin_ChurchLectern.description>
+	
+	<!-- EN: Mousekin pew -->
+	<Mousekin_ChurchPew.label>Banco comprido Mousekin</Mousekin_ChurchPew.label>
+	
+	<!-- EN: A long bench with a back, for Mousekin colonists to sit on while attending church services. -->
+	<Mousekin_ChurchPew.description>Um banco comprido com encosto, para os colonos Mousekin se sentarem durante os serviços religiosos.</Mousekin_ChurchPew.description>
+	
+</LanguageData>

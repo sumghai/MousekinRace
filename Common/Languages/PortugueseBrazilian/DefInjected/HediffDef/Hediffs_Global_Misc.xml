@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: hemlock poisoning -->
+	<Mousekin_HemlockPoisoning.label>Envenenamento por Cicuta</Mousekin_HemlockPoisoning.label>
+
+	<!-- EN: Poison in the bloodstream, from accidental or deliberate ingestion of the high toxic hemlock plant. The smallest of doses is enough to be rapidly fatal to most humanoids. -->
+	<Mousekin_HemlockPoisoning.description>Veneno na corrente sanguínea, proveniente da ingestão acidental ou deliberada da altamente tóxica planta cicuta. A menor das doses é suficiente para ser rapidamente fatal para a maioria dos humanoides.</Mousekin_HemlockPoisoning.description>
+
+	<!-- EN: initial -->
+	<Mousekin_HemlockPoisoning.stages.0.label>Leve</Mousekin_HemlockPoisoning.stages.0.label>
+
+	<!-- EN: moderate -->
+	<Mousekin_HemlockPoisoning.stages.1.label>Moderado</Mousekin_HemlockPoisoning.stages.1.label>
+
+	<!-- EN: fatal -->
+	<Mousekin_HemlockPoisoning.stages.2.label>Fatal</Mousekin_HemlockPoisoning.stages.2.label>
+
+	<!-- EN: Chonko nut brew high -->
+	<Mousekin_MuroidineHigh.label>Excitação por Café de Chonko</Mousekin_MuroidineHigh.label>
+
+	<!-- EN: The methylxanthine alkaloid muroidine, naturally present in trace quantities in Chonko and Nyam nuts or concentrated in beverages like Chonko nut brew, increases the stimuli in one's nervous system once metabolised, suppressing the urge to sleep and clearing the mind. Increases consciousness by 10% and blood circulation by 5%, as well as reducing rest fall rate by 10%. -->
+	<Mousekin_MuroidineHigh.description>O alcaloide metilxantina muroidina, presente naturalmente em pequenas quantidades nas nozes Chonko e Nyam ou concentrado em bebidas como o café de Chonko, aumenta os estímulos do sistema nervoso uma vez metabolizado, suprimindo a vontade de dormir e clareando a mente. Aumenta a consciência em 10% e a circulação sanguínea em 5%, além de reduzir a taxa de queda de descanso em 10%.</Mousekin_MuroidineHigh.description>
+
+	<!-- EN: a Chonko nut brew high -->
+	<Mousekin_MuroidineHigh.labelNoun>A excitação por Café de Chonko</Mousekin_MuroidineHigh.labelNoun>
+
+	<!-- EN: Muroidine tolerance -->
+	<Mousekin_MuroidineTolerance.label>Tolerância à Muroidina</Mousekin_MuroidineTolerance.label>
+
+	<!-- EN: A built-up tolerance to muroidine found in Chonko nut brew. The more severe this tolerance is, the more muroidine it takes to get the same effect. -->
+	<Mousekin_MuroidineTolerance.description>Tolerância desenvolvida à muroidina presente no café de Chonko. Quanto mais intensa a tolerância, mais muroidina é necessária para obter o mesmo efeito.</Mousekin_MuroidineTolerance.description>
+
+	<!-- EN: small -->
+	<Mousekin_MuroidineTolerance.stages.0.label>Leve</Mousekin_MuroidineTolerance.stages.0.label>
+
+	<!-- EN: large -->
+	<Mousekin_MuroidineTolerance.stages.1.label>Forte</Mousekin_MuroidineTolerance.stages.1.label>
+
+	<!-- EN: massive -->
+	<Mousekin_MuroidineTolerance.stages.2.label>Extremo</Mousekin_MuroidineTolerance.stages.2.label>
+
+	<!-- EN: Muroidine addiction -->
+	<Mousekin_MuroidineAddiction.label>Dependência de Muroidina</Mousekin_MuroidineAddiction.label>
+
+	<!-- EN: A chemical addiction to muroidine. Long-term presence of muroidine has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the methylxanthine alkaloid.\n\nWithout regular consumption of muroidine-rich beverages like Chonko nut brew, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction. -->
+	<Mousekin_MuroidineAddiction.description>Dependência química de muroidina. A presença prolongada de muroidina provoca adaptações neurológicas a nível celular, de modo que o cérebro não funciona corretamente sem o alcaloide metilxantina.\n\nSem o consumo regular de bebidas ricas em muroidina, como o chá de nozes Chonko, os sintomas de abstinência começam. No entanto, uma abstinência prolongada força o cérebro a se adaptar de volta ao seu estado normal, resolvendo a dependência.</Mousekin_MuroidineAddiction.description>
+
+	<!-- EN: withdrawal -->
+	<Mousekin_MuroidineAddiction.stages.1.label>Abstinência</Mousekin_MuroidineAddiction.stages.1.label>
+
+	<!-- EN: Mousekin mead high -->
+	<Mousekin_MeadHigh.label>Excitação por Hidromel Mousekin</Mousekin_MeadHigh.label>
+
+	<!-- EN: Increased dopamine levels in the body from consuming Mousekin mead reduces chances of mental breaks. -->
+	<Mousekin_MeadHigh.description>Consumir hidromel Mousekin aumentou os níveis de dopamina no corpo, reduzindo as chances de colapsos mentais.</Mousekin_MeadHigh.description>
+
+	<!-- EN: warm -->
+	<Mousekin_MeadHigh.stages.0.label>Levemente embriagado</Mousekin_MeadHigh.stages.0.label>
+
+	<!-- EN: tipsy -->
+	<Mousekin_MeadHigh.stages.1.label>Embriagado</Mousekin_MeadHigh.stages.1.label>
+
+	<!-- EN: drunk -->
+	<Mousekin_MeadHigh.stages.2.label>Bêbado</Mousekin_MeadHigh.stages.2.label>
+
+	<!-- EN: hammered -->
+	<Mousekin_MeadHigh.stages.3.label>Muito bêbado</Mousekin_MeadHigh.stages.3.label>
+
+	<!-- EN: blackout -->
+	<Mousekin_MeadHigh.stages.4.label>Desmaiado</Mousekin_MeadHigh.stages.4.label>
+	
+	<!-- EN: Drank root beer -->
+	<Mousekin_DrankRootBeer.label>Bebeu Root Beer</Mousekin_DrankRootBeer.label>
+	
+	<!-- EN: Consuming Mousekin root beer provides a short-lived burst of energy, as well as improving digestion and blood filtration by 10% for 12 hours. -->
+	<Mousekin_DrankRootBeer.description>Consumir root beer Mousekin fornece um breve surto de energia, além de melhorar a digestão e a filtração do sangue em 10% por 12 horas.</Mousekin_DrankRootBeer.description>	
+
+	<!-- EN: Satiated hunger (from country bread) -->
+	<Mousekin_SatiatedHunger10.label>Saciedade (pão rústico)</Mousekin_SatiatedHunger10.label>
+
+	<!-- EN: Consuming country bread lowers hunger rate by 10% for 12 hours. -->
+	<Mousekin_SatiatedHunger10.description>Consumir pão rústico reduz a taxa de fome em 10% por 12 horas.</Mousekin_SatiatedHunger10.description>
+
+	<!-- EN: Satiated hunger (from ploughman's lunch) -->
+	<Mousekin_SatiatedHunger20.label>Saciedade (almoço camponês)</Mousekin_SatiatedHunger20.label>
+
+	<!-- EN: Consuming a serving of ploughman's lunch lowers hunger rate by 20% for 12 hours. -->
+	<Mousekin_SatiatedHunger20.description>Consumir uma porção de almoço camponês reduz a taxa de fome em 20% por 12 horas.</Mousekin_SatiatedHunger20.description>
+
+	<!-- EN: Satiated hunger (from bread bowl) -->
+	<Mousekin_SatiatedHunger35.label>Saciedade (sopa no pão)</Mousekin_SatiatedHunger35.label>
+
+	<!-- EN: Consuming a bread bowl lowers hunger rate by 35% for 12 hours.</Mousekin_SatiatedHunger35.description> -->
+	<Mousekin_SatiatedHunger35.description>Consumir uma sopa no pão reduz a taxa de fome em 35% por 12 horas.</Mousekin_SatiatedHunger35.description>
+	
+	<!-- EN: Adrenaline boost -->
+	<Mousekin_PotionCourageHigh.label>Aumento de Adrenalina</Mousekin_PotionCourageHigh.label>
+	
+	<!-- EN: A temporary boost in adrenaline levels and reduction in pain sensitivity resulting from the consumption of a Mousekin Elixir of Courage, allowing the user to move faster and fight harder for a period of time. -->
+	<Mousekin_PotionCourageHigh.description>O consumo de um Elixir da Coragem mousekin provoca aumento temporário de adrenalina e redução da sensibilidade à dor, permitindo que o usuário se mova mais rápido e lute com mais força por um período de tempo.</Mousekin_PotionCourageHigh.description>
+	
+	<!-- EN: Adrenaline crash -->
+	<Mousekin_PotionCourageHigh.stages.0.overrideLabel>Colapso de Adrenalina</Mousekin_PotionCourageHigh.stages.0.overrideLabel>
+	
+	<!-- EN: Physical and mental exhaustion following a period of high adrenaline release, as the effects of a Mousekin Elixir of Courage wear off. -->
+	<Mousekin_PotionCourageHigh.stages.0.overrideTooltip>Após o efeito do Elixir da Coragem Mousekin desaparecer, ocorre exaustão física e mental devido à liberação prolongada de adrenalina.</Mousekin_PotionCourageHigh.stages.0.overrideTooltip>
+	
+	<!-- EN: Elixir of Harmony -->
+	<Mousekin_PotionHarmonyHigh.label>Elixir da Harmonia</Mousekin_PotionHarmonyHigh.label>
+	
+	<!-- EN: Improved wound healing, immunity gain and suppression of bacterial infections at the cost of drowsiness, resulting from the consumption of a Mousekin Elixir of Harmony. -->
+	<Mousekin_PotionHarmonyHigh.description>Consumir o Elixir da Harmonia Mousekin melhora a cicatrização de feridas, aumenta a imunidade e suprime infecções bacterianas, ao custo de sonolência.</Mousekin_PotionHarmonyHigh.description>
+	
+</LanguageData>

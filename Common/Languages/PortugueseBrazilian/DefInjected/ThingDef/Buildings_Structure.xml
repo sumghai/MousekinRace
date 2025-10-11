@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin door -->
+	<Mousekin_DoorBasic.label>Porta Mousekin</Mousekin_DoorBasic.label>
+	
+	<!-- EN: A simple wooden door typically found in cottages and other Mousekin commoner buildings. Divides rooms and must be manually opened, which slows people down. -->
+	<Mousekin_DoorBasic.description>Uma porta de madeira simples, comum em chalés e outras construções dos camponeses Mousekin. Serve para dividir cômodos e precisa ser aberta manualmente, o que reduz a velocidade de quem passa por ela.</Mousekin_DoorBasic.description>
+	
+	<!-- EN: Mousekin reinforced door -->
+	<Mousekin_DoorReinforced.label>Porta reforçada Mousekin</Mousekin_DoorReinforced.label>
+	
+	<!-- EN: A heavy wooden door reinforced with steel straps, typically found in middle- and upper-class Mousekin buildings. Divides rooms and must be manually opened, which slows people down. -->
+	<Mousekin_DoorReinforced.description>Uma porta de madeira pesada reforçada com tiras de aço, comum em edifícios Mousekin de classe média e alta. Serve para dividir cômodos e precisa ser aberta manualmente, o que reduz a velocidade de quem passa por ela.</Mousekin_DoorReinforced.description>
+
+	<!-- EN: wattle and daub wall -->
+	<Mousekin_WallCottage.label>Parede de Taipa</Mousekin_WallCottage.label>
+	
+	<!-- EN: An impassable wall, constructed from a wooden lattice covered with an insulating and fire-resistant mixture of wet clay and straw. Capable of holding up a roof. -->
+	<Mousekin_WallCottage.description>Uma parede intransponível, feita de treliça de madeira coberta por uma mistura isolante e resistente ao fogo de argila úmida e palha. É capaz de sustentar um telhado.</Mousekin_WallCottage.description>
+	
+</LanguageData>
