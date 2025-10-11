@@ -101,6 +101,11 @@ namespace MousekinRace
                     }
                 }
             }
+
+            if (Find.TickManager.TicksGame % 250 == 0)
+            {
+                CompTickRare();
+            }
         }
 
         public override void CompTickRare()
