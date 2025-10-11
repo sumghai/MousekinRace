@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin tale -->
+	<Mousekin_BookNovel.label>マウスキン物語</Mousekin_BookNovel.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, containing fictional or true stories of Mousekins for the pleasure and edification of the reader. -->
+	<Mousekin_BookNovel.description>革装本で、活字印刷と手描きイラストのページがあり、読者の楽しみと啓発のために、マウスキンたちの虚構あるいは実話が集められている.</Mousekin_BookNovel.description>
+
 	<!-- EN: Mousekin treatise -->
 	<Mousekin_BookResearch.label>マウスキン論文</Mousekin_BookResearch.label>
 	
 	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, detailing insights into new Mousekin technology and methods for using it. -->
 	<Mousekin_BookResearch.description>革装本で、活字印刷と手描きイラストのページがあり、マウスキンの新技術とその使用方法が説明されています.</Mousekin_BookResearch.description>
+	
+	<!-- EN: Mousekin textbook -->
+	<Mousekin_BookSkills.label>マウスキン教科書</Mousekin_BookSkills.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, which focuses on teaching skills. -->
+	<Mousekin_BookSkills.description>革装本で、活字印刷と手描きイラストのページがあり、技能教育に重点を置いています.</Mousekin_BookSkills.description>
 
 </LanguageData>

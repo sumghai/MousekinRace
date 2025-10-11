@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin tale -->
+	<Mousekin_BookNovel.label>Conto do Mousekin</Mousekin_BookNovel.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, containing fictional or true stories of Mousekins for the pleasure and edification of the reader. -->
+	<Mousekin_BookNovel.description>Um livro encadernado em couro, com páginas impressas em tipos móveis e iluminadas à mão, contendo histórias fictícias ou reais sobre os Mousekins para o prazer e a edificação do leitor.</Mousekin_BookNovel.description>
+
 	<!-- EN: Mousekin treatise -->
 	<Mousekin_BookResearch.label>Tratado Mousekin</Mousekin_BookResearch.label>
 	
 	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, detailing insights into new Mousekin technology and methods for using it. -->
 	<Mousekin_BookResearch.description>Um livro encadernado em couro, com páginas impressas em tipos móveis e iluminadas à mão, detalhando conhecimentos sobre novas tecnologias dos Mousekins e métodos de utilizá-las.</Mousekin_BookResearch.description>
+	
+	<!-- EN: Mousekin textbook -->
+	<Mousekin_BookSkills.label>Livro didático do Mousekin</Mousekin_BookSkills.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, which focuses on teaching skills. -->
+	<Mousekin_BookSkills.description>Um livro encadernado em couro, com páginas impressas em tipos móveis e iluminadas à mão, que se concentra no ensino de habilidades.</Mousekin_BookSkills.description>
 
 </LanguageData>
