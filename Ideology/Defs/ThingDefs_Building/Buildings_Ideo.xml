@@ -7,6 +7,7 @@
 		<defName>Mousekin_IdeoXmasTree</defName>
 		<label>great pine</label>
 		<description>A giant pine tree, traditionally decorated with ribbons and ornaments as part of Tree Festival celebrations. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<ideoBuildingNamerBase>NamerIdeoBuildingMousekinPlaceholder</ideoBuildingNamerBase>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Building/Misc/Mousekin_IdeoXmasTree</texPath>
@@ -70,6 +71,7 @@
 		<defName>Mousekin_IdeoFlowerDanceOfferings</defName>
 		<label>Ancestral offerings</label>
 		<description>Food, candles and flowers offered in veneration to Mousekin ancestors as part of the Ancestral Flower Dance ritual. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<ideoBuildingNamerBase>NamerIdeoBuildingMousekinPlaceholder</ideoBuildingNamerBase>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
 		<graphicData>
@@ -175,6 +177,7 @@
 		<defName>Mousekin_IdeoBarbecueTable</defName>
 		<label>Barbecue table</label>
 		<description>A gridiron over a hot fire, accompanied by a wooden table filled with various grilled meats, corn and potatoes, collectively serving as the centerpiece of Countryside Cookout celebrations. Can be placed directly on a Mousekin Town Square without obstructing it.</description>
+		<ideoBuildingNamerBase>NamerIdeoBuildingMousekinPlaceholder</ideoBuildingNamerBase>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Things/Building/Misc/Mousekin_IdeoBarbecueTable</texPath>
