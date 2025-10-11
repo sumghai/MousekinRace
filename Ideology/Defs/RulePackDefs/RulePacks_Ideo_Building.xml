@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Blank placeholder for Mousekin ideo buildings (as they will always use their default names) -->
+	<RulePackDef>
+		<defName>NamerIdeoBuildingMousekinPlaceholder</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ideoBuildingName-></li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>

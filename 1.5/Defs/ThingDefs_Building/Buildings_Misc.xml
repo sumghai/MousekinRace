@@ -7,6 +7,7 @@
 		<defName>Mousekin_TownSquare</defName>
 		<label>Mousekin Town Square</label>
 		<description>A town square with a community notice board and flagpole, where Mousekin colonists gather for special events. Traders visiting your colony will also congregate here.</description>
+		<ideoBuildingNamerBase MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoBuildingMousekinPlaceholder</ideoBuildingNamerBase>
 		<thingClass>MousekinRace.Building_TownSquare</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<tickerType>Normal</tickerType>
