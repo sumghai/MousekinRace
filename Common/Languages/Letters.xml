@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MousekinRace_Letter_AllegianceSysIntro>Sistema da aliança disponível</MousekinRace_Letter_AllegianceSysIntro>
+	
+	<MousekinRace_Letter_AllegianceSysIntroDesc>Ao construir uma praça da cidade, você desbloqueou o sistema de Aliança de Facções.\n\nDepois de construir boa vontade suficiente com certas facções, você pode escolher a qual facção declarar aliança e acessar vários benefícios.\n\nPara mais informações, clique no botão Aliança na barra de menu inferior.</MousekinRace_Letter_AllegianceSysIntroDesc>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFaction>Pledjar lealdade a {0}</MousekinRace_Letter_AllegianceSysJoinedFaction>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc>Sua façcão está {0} agora.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>Os seguintes colonos ficaram insatisfeitos com sua nova aliança e decidiram deixar sua facção:\n{0}</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartQuittingColonists>
+	
+	<MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>Todos os seus colonos adotaram a ideologia {0} da facção original.</MousekinRace_Letter_AllegianceSysJoinedFactionDesc_PartIdeoChanged>
+	
+	<MousekinRace_Letter_AllegianceSysNewColonists>Novos Colonos</MousekinRace_Letter_AllegianceSysNewColonists>
+	
+	<MousekinRace_Letter_AllegianceSysNewColonistsDesc>Novos colonos chegaram:\n{0}</MousekinRace_Letter_AllegianceSysNewColonistsDesc>
+	
+	<MousekinRace_Letter_ChurchServiceConcluded>Serviço da igreja concluído</MousekinRace_Letter_ChurchServiceConcluded>
+	
+	<MousekinRace_Letter_ChurchServiceConcludedDesc>&lt;b&gt;&lt;i&gt;Dorime, Interimo Adapare.&lt;/i&gt;&lt;/b&gt;\n\nO serviço religioso de {0} foi concluído.\n\nPadre celebrante: {1}\nHabilidade social do padre: {2}\nFreiras: {3}\n\nParticipantes: {4}\nAfinidades religiosas: {5}\nAusências: {6}\n\nDízimo arrecadado: {7} moedas de prata\n\nQue os ensinamentos de Valeriano o Sábio, nos guiem ao Grande Jardim.\n\n&lt;b&gt;&lt;i&gt;Ameno, Ameno.&lt;/i&gt;&lt;/b&gt;</MousekinRace_Letter_ChurchServiceConcludedDesc>
+
+</LanguageData>

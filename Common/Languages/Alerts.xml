@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AlertEarlessMousekinFeelingMiserableLabel>Mousekin Sem Orelhas Triste</AlertEarlessMousekinFeelingMiserableLabel>
+	
+	<AlertEarlessMousekinFeelingMiserableDesc>Estes Mousekins recentemente perderam ambas as orelhas devido a doença ou ferimento, e sentem vergonha de sua desfiguração:\n\n{0}}</AlertEarlessMousekinFeelingMiserableDesc>
+	
+	<AlertEarlessMousekinFeelingSuicidalLabel>Mousekin Sem Orelhas Suicida</AlertEarlessMousekinFeelingSuicidalLabel>
+	
+	<AlertEarlessMousekinFeelingSuicidalDesc>Estes Mousekins estão humilhados pela perda prolongada das orelhas devido a doença ou ferimento, e têm altíssimo risco de cometer suicídio por desespero nos próximos dias:\n\n{0}</AlertEarlessMousekinFeelingSuicidalDesc>
+	
+	<AlertEarlessMousekinDescEnding>Faça algumas orelhas protéticas com tecido ou obtenha orelhas naturais de outros Mousekins.</AlertEarlessMousekinDescEnding>
+	
+	<AlertFactionAllegianceAvailableLabel>Oferta de Aliança com Facção Disponível</AlertFactionAllegianceAvailableLabel>
+	
+	<AlertFactionAllegianceAvailableDesc>Seus colonos Mousekin agora conquistaram boa vontade suficiente com uma ou mais facções Mousekin, e eles gostariam de convidar sua colônia a se alinhar com eles.\n\nEm troca de jurar lealdade à facção, seus colonos se beneficiarão de comerciantes regulares, desbloqueios de crafting, ajuda militar e a possibilidade de convidar mais colonos para se juntar ao seu assentamento.\n\nConsidere cuidadosamente as ofertas.\n\n(Clique para abrir a janela de lealdade.)</AlertFactionAllegianceAvailableDesc>
+	
+	<AlertNeedChurchLabel>Necessidade de Igreja</AlertNeedChurchLabel>
+	
+	<AlertNeedChurchDesc>Os Mousekins em seu assentamento exigem um local para adorar Valeriano o Sábio.\n\nConstrua uma sala fechada que satisfaça os seguintes requisitos:</AlertNeedChurchDesc>
+	
+	<AlertNeedPriestLabel>Necessário {0}</AlertNeedPriestLabel>
+	
+	<AlertNeedPriestDesc>Sua igreja requer pelo menos um {0} para conduzir serviços regulares para seus colonos Mousekin.\n\nVocê pode recrutá-los diretamente do {1}, ou convidar um para se juntar à sua colônia através do sistema de Aliança com Facção.</AlertNeedPriestDesc>
+	
+	<AlertNeedTownSquareSingularLabel>Praça Necessária</AlertNeedTownSquareSingularLabel>
+	
+	<AlertNeedTownSquarePluralLabel>Praças Necessárias</AlertNeedTownSquarePluralLabel>
+	
+	<AlertNeedTownSquareSingularDesc>Os Mousekins em seu assentamento estão exigindo um local para se reunir.\n\n</AlertNeedTownSquareSingularDesc>
+	
+	<AlertNeedTownSquarePluralDesc>Os Mousekins em {0} de seu assentamento estão exigindo um local para se reunir:{1}\n\n</AlertNeedTownSquarePluralDesc>
+	
+	<AlertNeedTownSquareDescEnding>Construa um {0} em um espaço aberto sem construções.</AlertNeedTownSquareDescEnding>
+	
+	<AlertUnpavedTownSquareSingularLabel>Praça Não Pavimentada</AlertUnpavedTownSquareSingularLabel>
+	
+	<AlertUnpavedTownSquarePluralLabel>Praças Não Pavimentadas</AlertUnpavedTownSquarePluralLabel>
+	
+	<AlertUnpavedTownSquareSingularDesc>Seu {0} precisa ser totalmente pavimentado com um dos seguintes pisos ou ladrilhos:\n\n{1}</AlertUnpavedTownSquareSingularDesc>
+	
+	<AlertUnpavedTownSquarePluralDesc>{0} de seus {1} precisam ser totalmente pavimentados com um dos seguintes pisos ou ladrilhos:\n\n{2}</AlertUnpavedTownSquarePluralDesc>
+	
+	<AlertObstructedTownSquareSingularLabel>Praça Obstruída</AlertObstructedTownSquareSingularLabel>
+	
+	<AlertObstructedTownSquarePluralLabel>Praças Obstruídas</AlertObstructedTownSquarePluralLabel>
+	
+	<AlertObstructedTownSquareSingularDesc>Seu {0} possui obstruções dentro da área delimitada.\n\n</AlertObstructedTownSquareSingularDesc>
+	
+	<AlertObstructedTownSquarePluralDesc>{0} de seu {1} possuem obstruções dentro da área delimitada.\n\n</AlertObstructedTownSquarePluralDesc>
+	
+	<AlertObstructedTownSquareDescEnding>Remova todos os edifícios e móveis que estejam obstruindo.</AlertObstructedTownSquareDescEnding>
+	
+	<AlertResearchProjNeedsGlassesLabel>Projeto de Pesquisa Precisa de {0}</AlertResearchProjNeedsGlassesLabel>
+	
+	<AlertResearchProjNeedsGlassesDesc>Você tem um projeto de pesquisa ativo '{0}' que requer um pesquisador usando {1}, mas nenhum de seus colonos atende a esse requisito.\n\nCrie um par de {2} em um {3}, e assegure-se de que quaisquer colonos usando-os sejam designados para trabalho de pesquisa.</AlertResearchProjNeedsGlassesDesc>
+
+</LanguageData>

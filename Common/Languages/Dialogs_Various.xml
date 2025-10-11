@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>O sistema de Aliança com Facção está desativado, pois pelo menos um de seus colonos possui um título real com {0}.\n\nPara acessar este sistema, todos os seus colonos devem renunciar aos títulos reais.</MousekinRace_AllegianceSys_DisabledDueToShatteredEmpire>
+	
+	<MousekinRace_AllegianceSys_ReqSubheading>Requisitos:</MousekinRace_AllegianceSys_ReqSubheading>
+	
+	<MousekinRace_AllegianceSys_ReqMinColonyAge>A colônia deve ter pelo menos {0} de idade</MousekinRace_AllegianceSys_ReqMinColonyAge>
+	
+	<MousekinRace_AllegianceSys_ReqMinMousekinPopPct>Pelo menos {0} da população deve ser Mousekin</MousekinRace_AllegianceSys_ReqMinMousekinPopPct>
+	
+	<MousekinRace_AllegianceSys_ReqMinGoodwill>Pelo menos {0} de boa vontade com a facção</MousekinRace_AllegianceSys_ReqMinGoodwill>
+	
+	<MousekinRace_AllegianceSys_Overview>Visão Geral</MousekinRace_AllegianceSys_Overview>
+	
+	<MousekinRace_AllegianceSys_Benefits>Benefícios</MousekinRace_AllegianceSys_Benefits>
+	
+	<MousekinRace_AllegianceSys_Costs>Custos</MousekinRace_AllegianceSys_Costs>
+	
+	<MousekinRace_AllegianceSys_Recruit>Invitar Colonos</MousekinRace_AllegianceSys_Recruit>
+	
+	<MousekinRace_AllegianceSys_CallTrader>Solicitar Comerciantes</MousekinRace_AllegianceSys_CallTrader>
+	
+	<MousekinRace_AllegianceSys_CallMilitaryAid>Pedir Ajuda Militar</MousekinRace_AllegianceSys_CallMilitaryAid>
+	
+	<MousekinRace_AllegianceSys_Log>Visualizar Log</MousekinRace_AllegianceSys_Log>
+	
+	<MousekinRace_AllegianceSys_Change>Alterar Aliança</MousekinRace_AllegianceSys_Change>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>Ver {0}...</MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>{0} de tornar-se a {1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>Você não receberá mais missões e coletores de tributo de {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>As seguintes facções são inimigas de {0} e se tornarão hostis à sua facção:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>Os seguintes itens exclusivos da facção estarão disponíveis para fabricação:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>Sua facção adotará a ideologia {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>Os seguintes tipos de colonos da facção podem ser convidados a se juntar ao seu assentamento:\n{0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>Os comerciantes desta facção oferecerão mercadorias a {0} do valor de mercado típico</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>Os seguintes colonos ficarão insatisfeitos se você jurar lealdade a esta facção e irão sair:\n{0}}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns>
+	
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>Traço de {0}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_Trait>
+	
+	<MousekinRace_AllegianceSys_ReqDesc>Para jurar lealdade a esta facção, você precisa atender aos requisitos listados acima.</MousekinRace_AllegianceSys_ReqDesc>
+	
+	<MousekinRace_AllegianceSys_JoinConfirmation>Tem certeza de que deseja jurar lealdade a {0}?</MousekinRace_AllegianceSys_JoinConfirmation>
+	
+	<MousekinRace_AllegianceSys_SubtitleFactionRelationship>{0} de {1}</MousekinRace_AllegianceSys_SubtitleFactionRelationship>
+	
+	<MousekinRace_AllegianceSys_LeaderTitleFullName>{0} {1}</MousekinRace_AllegianceSys_LeaderTitleFullName>
+	
+	<MousekinRace_AllegianceSys_RenameFactionDialog_Message>{0} recomenda que sua facção seja renomeada para algo mais apropriado para um novo {1}.\n\nQual deve ser o nome da sua facção?</MousekinRace_AllegianceSys_RenameFactionDialog_Message>
+	
+	<MousekinRace_AllegianceSys_Overview_GeneralCatHeading>General</MousekinRace_AllegianceSys_Overview_GeneralCatHeading>
+	
+	<MousekinRace_AllegianceSys_Overview_GeneralJoinDate>Data da Lealdade</MousekinRace_AllegianceSys_Overview_GeneralJoinDate>
+	
+	<MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>Tempo como {0}</MousekinRace_AllegianceSys_Overview_GeneralTimeAsMember>
+	
+	<MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>Demografia</MousekinRace_AllegianceSys_Overview_DemographicsCatHeading>
+	
+	<MousekinRace_AllegianceSys_Overview_DemographicsPopulation>População</MousekinRace_AllegianceSys_Overview_DemographicsPopulation>
+	
+	<MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>Roedores não-Mousekin</MousekinRace_AllegianceSys_Overview_DemographicsNonMousekinRodents>
+	
+	<MousekinRace_AllegianceSys_Overview_DemographicsOther>Outros</MousekinRace_AllegianceSys_Overview_DemographicsOther>
+	
+	<MousekinRace_AllegianceSys_Overview_DemographicsRaces>Raças</MousekinRace_AllegianceSys_Overview_DemographicsRaces>
+	
+	<MousekinRace_AllegianceSys_Overview_DemographicsAges>Idades</MousekinRace_AllegianceSys_Overview_DemographicsAges>
+	
+	<MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>Religião</MousekinRace_AllegianceSys_Overview_DemographicsReligiousAffinity>
+	
+	<MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>Estatística</MousekinRace_AllegianceSys_Overview_StatisticsCatHeading>
+	
+	<MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>Novos colonos invitados</MousekinRace_AllegianceSys_Overview_StatisticsNewSettlersInvited>
+	
+	<MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>Comerciantes aleatórios Visitados</MousekinRace_AllegianceSys_Overview_StatisticsRandCaravanVisits>
+	
+	<MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>Comerciantes convitados</MousekinRace_AllegianceSys_Overview_StatisticsRequestedCaravanVisits>
+	
+	<MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>Ajudas militares Pedidas</MousekinRace_AllegianceSys_Overview_StatisticsMilitaryAid>
+	
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>Ver colonos a caminho</MousekinRace_AllegianceSys_Recruit_ViewQueueButtonLabel>
+	
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>Colonos a caminho</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_Title>
+	
+	<MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>Chegarão em {0}.</MousekinRace_AllegianceSys_Recruit_ViewQueueDialog_ArrivalTime>
+	
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>Nota: o opção de convidar família inclui um cônjuge {0}.</MousekinRace_AllegianceSys_Recruit_FamilyNoteDesc>
+	
+	<MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>e 2~3 ratitos</MousekinRace_AllegianceSys_Recruit_FamilyNoteBiotechSuffix>
+	
+	<MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>Invitar\n({0})</MousekinRace_AllegianceSys_Recruit_InviteSingleButtonLabel>
+	
+	<MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>Invitar Família\n({0})</MousekinRace_AllegianceSys_Recruit_InviteFamilyButtonLabel>
+	
+	<MousekinRace_AllegianceSys_Recruit_Confirmation>Tem certeza invitar {0}{1} para nosso assentamento？\n\n(Custo：{2}R$)</MousekinRace_AllegianceSys_Recruit_Confirmation>
+	
+	<MousekinRace_AllegianceSys_Recruit_ConfirmationFamily> e sua família</MousekinRace_AllegianceSys_Recruit_ConfirmationFamily>
+	
+	<MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>Próximo comerciante aleatório em: {0}</MousekinRace_AllegianceSys_Trader_NextRandomCaravanArrivesIn>
+	
+	<MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>Próximo comerciante convidado em: {0} ({1})</MousekinRace_AllegianceSys_Trader_NextRequestedCaravanArrivesIn>
+	
+	<MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>Reutilização de comerciante pedido: {0}</MousekinRace_AllegianceSys_Trader_RequestedCaravanCooldown>
+	
+	<MousekinRace_AllegianceSys_Trader_Confirmation>Tem certeza convidar {0} para invitar nosso assentamento?\n\nChegará em {1}.</MousekinRace_AllegianceSys_Trader_Confirmation>
+	
+	<MousekinRace_AllegianceSys_MilitaryAid_Desc>Como{0}, pode pedir ajuda militar grátis.</MousekinRace_AllegianceSys_MilitaryAid_Desc>
+	
+	<MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>Reforço em {0}</MousekinRace_AllegianceSys_MilitaryAid_ArrivesIn>
+	
+	<MousekinRace_AllegianceSys_MilitaryAid_Confirmation>Tem certeza pedir reforço?\n\nChegará em {0}.</MousekinRace_AllegianceSys_MilitaryAid_Confirmation>
+	
+	<MousekinRace_AllegianceSys_Log_JoinedFaction>Jurou lealdade a {0}</MousekinRace_AllegianceSys_Log_JoinedFaction>
+	
+	<MousekinRace_AllegianceSys_Log_NewColonists>Novos colonos convidados: {0}</MousekinRace_AllegianceSys_Log_NewColonists>
+	
+	<MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>com família</MousekinRace_AllegianceSys_Log_NewColonistsFamilySuffix>
+	
+	<MousekinRace_AllegianceSys_Log_RandTraderArrival>Comerciante aleatório chegou</MousekinRace_AllegianceSys_Log_RandTraderArrival>
+	
+	<MousekinRace_AllegianceSys_Log_ReqTraderArrival>Comerciante convidado chegou: {0}</MousekinRace_AllegianceSys_Log_ReqTraderArrival>
+	
+	<MousekinRace_AllegianceSys_Log_MilitaryAid>Ajuda militar pedido</MousekinRace_AllegianceSys_Log_MilitaryAid>
+	
+	<MousekinRace_Minimum>pelo menos</MousekinRace_Minimum>
+	
+	<MousekinRace_TradePriceFactor_FactionAllegiance>Aliança de fação</MousekinRace_TradePriceFactor_FactionAllegiance>
+
+</LanguageData>

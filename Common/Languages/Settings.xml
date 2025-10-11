@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MousekinRace_SettingsCategory_Heading>Raça Mousekin</MousekinRace_SettingsCategory_Heading>
+	
+	<MousekinRace_Settings_SectionRace_Heading>Raça</MousekinRace_Settings_SectionRace_Heading>
+	
+	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>Mousekins sem orelhas suicidas</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Label>
+	
+	<MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>>Mousekins que perdem ambas as orelhas e não recebem próteses ou implantes naturais cometerão suicídio após 15 dias de jogo devido ao estigma social.\n\nDesativar esta opção manterá eles vivos, mas continuarão a sofrer penalidades de humor devido à falta das orelhas.</MousekinRace_Settings_SectionRace_EarlessMousekinsAreSuicidal_Tooltip>
+	
+	<MousekinRace_Settings_SectionMisc_Heading>Miscellaneous</MousekinRace_Settings_SectionMisc_Heading>
+	
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>Multiplicador do dízimo da igreja: {0}x</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Label>
+	
+	<MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>Especifique o multiplicador aplicado à quantidade de dízimo de prata gerada ao final das reuniões de serviço da igreja.</MousekinRace_Settings_SectionMisc_ChurchTitheMultiplier_Tooltip>
+	
+	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>Temperatura da adega: {0}</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Label>
+	
+	<MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>Especifique a temperatura em que as adegas refrigeram seu conteúdo.</MousekinRace_Settings_SectionMisc_RootCellarTemperature_Tooltip>
+	
+	<MousekinRace_Settings_SectionAllegianceSys_Heading>Sistema de lealdade à facção</MousekinRace_Settings_SectionAllegianceSys_Heading>
+	
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>Intervalo de caravanas comerciais aleatórias: {0}</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Label>
+	
+	<MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>Especifique com que frequência um comerciante de caravana aleatório da facção escolhida deve visitar seus assentamentos.</MousekinRace_Settings_SectionAllegianceSys_RandomTradeCaravanInterval_Tooltip>
+
+</LanguageData>
