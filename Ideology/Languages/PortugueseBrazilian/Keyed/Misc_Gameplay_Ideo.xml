@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MousekinRace_Page_IdeoFixedByScenario_Title>Ideoligião pré-selecionada para cenário</MousekinRace_Page_IdeoFixedByScenario_Title>
+	
+	<MousekinRace_Page_IdeoFixedByScenario_Desc>Para o cenário {0}, a ideologia inicial da sua facção foi definida como:</MousekinRace_Page_IdeoFixedByScenario_Desc>
+	
+	<MousekinRace_MemeTip_RitualDisabledByMeme>(Desativado por {0} meme)</MousekinRace_MemeTip_RitualDisabledByMeme>
+	
+	<MousekinRace_PreceptRole_PlayerLeaderTitle>Prefeito</MousekinRace_PreceptRole_PlayerLeaderTitle>
+	
+	<MousekinRace_PreceptRole_PlayerTitleChangedAllegiance>O título da função {0} da sua facção foi renomeado para {1}, pois você é um {2}.</MousekinRace_PreceptRole_PlayerTitleChangedAllegiance>
+	
+	<MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>O título da função {0} da sua facção foi renomeado para {1}, pois seus colonos são originários de {2}.</MousekinRace_PreceptRole_PlayerTitleChangedStartingIdeo>
+	
+	<MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>Quaisquer pensamentos persistentes e mudanças de humor entre seus colonos devido a mortes recentes foram aplacados.</MousekinRace_RitualOutcome_FlowerDanceDeathThoughtsRemoved>
+	
+	<MousekinRace_RitualOutcome_HereticExecutionNewApostates>Esses colonos ficaram indignados com a barbárie injustificada da Inquisição e ganharam a característica Apóstata:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewApostates>
+	
+	<MousekinRace_RitualOutcome_HereticExecutionNewInquisitionists>Esses colonos se radicalizaram e ganharam o traço inquisicionista:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewInquisitionists>
+	
+	<MousekinRace_RitualOutcome_HereticExecutionNewPious>Esses colonos ficaram impressionados com o poder aterrorizante da Inquisição e ganharam a característica Piedosa:\n{0}</MousekinRace_RitualOutcome_HereticExecutionNewPious>
+
+</LanguageData>

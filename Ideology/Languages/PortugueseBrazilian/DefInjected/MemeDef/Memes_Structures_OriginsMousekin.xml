@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin origin -->
+	<Structure_OriginMousekin.label>Origem Mousekin</Structure_OriginMousekin.label>
+
+	<!-- EN: This is a variant of the embodied theist structure. This ideoligion superficially resembles ancient Christianity, but independently evolved thousands of years ago from precepts first preached by Valerian the Wise to his fellow proto-Mousekins. -->
+	<Structure_OriginMousekin.description>Uma variante da estrutura teísta incorporada. Esta ideologia superficialmente se assemelha ao cristianismo antigo, mas evoluiu independentemente há milhares de anos a partir dos preceitos primeiramente pregados por Valeriano o Sábio, aos seus companheiros proto-Mousekins.</Structure_OriginMousekin.description>
+
+	<!-- EN:
+		<li>memeMoralistMousekin->Mousekin Pope</li>
+	-->
+	<Structure_OriginMousekin.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->Papa Mousekin</li>
+	</Structure_OriginMousekin.generalRules.rulesStrings>
+
+	<!-- EN: Mousekin -->
+	<Structure_OriginMousekin.symbolPacks.0.adjective>Mousekin</Structure_OriginMousekin.symbolPacks.0.adjective>
+	
+	<!-- EN: Christianity -->
+	<Structure_OriginMousekin.symbolPacks.0.ideoName>Cristianismo</Structure_OriginMousekin.symbolPacks.0.ideoName>
+	
+	<!-- EN: Christian -->
+	<Structure_OriginMousekin.symbolPacks.0.member>Cristão</Structure_OriginMousekin.symbolPacks.0.member>
+	
+	<!-- EN: church -->
+	<Structure_OriginMousekin.worshipRoomLabel>Igreja</Structure_OriginMousekin.worshipRoomLabel>
+	
+</LanguageData>

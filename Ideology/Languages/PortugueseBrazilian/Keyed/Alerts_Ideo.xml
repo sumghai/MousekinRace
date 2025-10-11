@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<AlertFlowerGardenLabel>{0} jardim das flores</AlertFlowerGardenLabel>
+	
+	<AlertFlowerGardenDesc>Como adeptos de {IDEO_name}, seus colonos plantaram um jardim de flores.\n\nÁrea total de todos os jardins: {1} células\nFlores plantadas no ano passado: {2}\nVariedades de flores plantadas: {3}\n\nClassificação geral: {4}</AlertFlowerGardenDesc>
+	
+	<AlertFlowerGardenDesc_PlantMoreSuffix>Considere plantar mais e uma variedade maior de flores.</AlertFlowerGardenDesc_PlantMoreSuffix>
+	
+	<AlertNoFlowerGardensDesc>{IDEO_name} requer que você tenha um jardim das flores em sua colônia.\n\nColoque uma ou mais zonas de cultivo e configure-as para cultivar flores.</AlertNoFlowerGardensDesc>
+
+</LanguageData>

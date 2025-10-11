@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: A party around a pine tree, which symbolizes endurance during winter and other times of hardship. Participants will gather around the tree and make merry. -->
+	<Mousekin_RitualPatternTreeFestival.descOverride>Uma festa em torno de um pinheiro, que simboliza resistência durante o inverno e outros períodos de dificuldade. Os participantes se reunirão ao redor da árvore e se alegrarão.</Mousekin_RitualPatternTreeFestival.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternTreeFestival.ritualExpectedDesc>Cada ano em {DATE}, {MEMBERS} podem ter uma celebração especial.</Mousekin_RitualPatternTreeFestival.ritualExpectedDesc>
+	
+	<!-- EN: tree festival -->
+	<Mousekin_RitualPatternTreeFestival.shortDescOverride>Festival da Árvore</Mousekin_RitualPatternTreeFestival.shortDescOverride>
+	
+	<!-- EN: A ancestral rite unique to Mousekin societies, often held to venerate ancestors or appease the souls of the dead after a major calamity. Participants will gather to watch nuns dance with flower bouquets around a pile of offerings. -->
+	<Mousekin_RitualPatternFlowerDance.descOverride>Um rito ancestral único das sociedades Mousekin, frequentemente realizado para venerar os antepassados ou apaziguar as almas dos mortos após uma grande calamidade. Os participantes se reunirão para assistir freiras dançando com buquês de flores em torno de uma pilha de oferendas.</Mousekin_RitualPatternFlowerDance.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>Cada ano em {DATE}, {MEMBERS} podem ter uma celebração especial.</Mousekin_RitualPatternFlowerDance.ritualExpectedDesc>
+	
+	<!-- EN: ancestor worship -->
+	<Mousekin_RitualPatternFlowerDance.shortDescOverride>Adoração aos Antepassados</Mousekin_RitualPatternFlowerDance.shortDescOverride>
+	
+	<!-- EN: A communal outdoor cooking and dining party. Participants will gather around a barbecue table and feast on grilled meat and vegetables. -->
+	<Mousekin_RitualPatternBarbecue.descOverride>Uma festa comunitária de culinária e refeição ao ar livre. Os participantes se reunirão em torno de uma mesa de churrasco e se deliciarão com carnes e vegetais grelhados.</Mousekin_RitualPatternBarbecue.descOverride>
+	
+	<!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
+	<Mousekin_RitualPatternBarbecue.ritualExpectedDesc>Cada ano em {DATE}, {MEMBERS} podem ter uma celebração especial.</Mousekin_RitualPatternBarbecue.ritualExpectedDesc>
+	
+	<!-- EN: barbecue -->
+	<Mousekin_RitualPatternBarbecue.shortDescOverride>Churrasco</Mousekin_RitualPatternBarbecue.shortDescOverride>
+	
+</LanguageData>

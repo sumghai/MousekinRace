@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<MousekinRace_MessageIdeoPreceptRegen_Done>Preceitos para {0} ideoligações Mousekin regeneradas.</MousekinRace_MessageIdeoPreceptRegen_Done>
+	
+	<MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>Carregue um jogo salvo antes de regenerar os preceitos.</MousekinRace_MessageIdeoPreceptRegen_MustLoadSavegame>
+	
+	<MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>Nenhuma ideoligião Mousekin encontrada.</MousekinRace_MessageIdeoPreceptRegen_NoMouseIdeosFound>
+	
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>Muitas acompanhantes.</MousekinRace_MessageRitualOutcomeBlocked_TooManyEscorts>
+	
+	<MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>Cada herege deve ter uma escolta.</MousekinRace_MessageRitualOutcomeBlocked_TooManyHeretics>
+	
+	<MousekinRace_MessageRitualRoleMustBeHeretic>{0_labelShort} deve ser um prisioneiro Mousekin com a característica Apóstata ou Devocionista, ou um prisioneiro roedor não-Mousekin.</MousekinRace_MessageRitualRoleMustBeHeretic>
+	
+	<MousekinRace_MessageRitualRoleMustBeNonHeretic>{0} não deve ter as características Apóstata ou Devocionista.</MousekinRace_MessageRitualRoleMustBeNonHeretic>
+	
+	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0_labelShort} deve ser um {1}.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
+	
+</LanguageData>

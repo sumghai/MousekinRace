@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Rodent Feudalism -->
+	<Mousekin_IdeoMeme_Monarchy.label>Feudalismo dos Roedores</Mousekin_IdeoMeme_Monarchy.label>
+
+	<!-- EN: Only the priviledged few may lead; all others must know their place in the great social order. -->
+	<Mousekin_IdeoMeme_Monarchy.description>Apenas os poucos privilegiados podem liderar; todos os outros devem conhecer seu lugar na grande ordem social.</Mousekin_IdeoMeme_Monarchy.description>
+
+	<!-- EN: Rodent Republic -->
+	<Mousekin_IdeoMeme_Republic.label>República dos Roedores</Mousekin_IdeoMeme_Republic.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Republican Secretariat</li>
+	-->
+	<Mousekin_IdeoMeme_Republic.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->Secretariado Republicano</li>
+	</Mousekin_IdeoMeme_Republic.generalRules.rulesStrings>
+
+	<!-- EN: Every mouse has a voice in how their community should be run. -->
+	<Mousekin_IdeoMeme_Republic.description>Cada rato tem voz sobre como sua comunidade deve ser administrada.</Mousekin_IdeoMeme_Republic.description>
+	
+</LanguageData>

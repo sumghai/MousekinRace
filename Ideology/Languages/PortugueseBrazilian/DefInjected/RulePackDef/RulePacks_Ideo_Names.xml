@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: 
+		<li>r_ideoName->Word of Valerian</li>
+		<li>r_ideoAdjective->Valerianist</li>
+		<li>r_memberName->Valerianist</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoMousekinChurch.rulePack.rulesStrings>
+		<li>r_ideoName->Paravra Valeriana</li>
+		<li>r_ideoAdjective->Valeriano</li>
+		<li>r_memberName->Valeriana</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoMousekinChurch.rulePack.rulesStrings>
+
+	<!-- EN:
+		<li>r_ideoName->Agrarian Republicanism</li>
+		<li>r_ideoAdjective->Republican</li>
+		<li>r_memberName->Republican</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoMousekinRepublic.rulePack.rulesStrings>
+		<li>r_ideoName->Agrário Republico</li>
+		<li>r_ideoAdjective->Republico</li>
+		<li>r_memberName->Republica</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoMousekinRepublic.rulePack.rulesStrings>
+
+	<!-- EN:
+		<li>r_ideoName->Way of the Rodemani</li>
+		<li>r_ideoAdjective->Rodemani</li>
+		<li>r_memberName->Rodemani</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoMousekinNomad.rulePack.rulesStrings>
+		<li>r_ideoName->Caminho de Rodemano</li>
+		<li>r_ideoAdjective->Rodemano</li>
+		<li>r_memberName->Rodemana</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoMousekinNomad.rulePack.rulesStrings>
+
+	<!-- EN:
+		<li>r_ideoName->Outpawism</li>
+		<li>r_ideoAdjective->Outpaw</li>
+		<li>r_memberName->Outpawian</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoMousekinBrigands.rulePack.rulesStrings>
+		<li>r_ideoName->Fora-da-Pata</li>
+		<li>r_ideoAdjective->Fora-da-Pata</li>
+		<li>r_memberName->Fora-da-Pata</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoMousekinBrigands.rulePack.rulesStrings>
+	
+</LanguageData>

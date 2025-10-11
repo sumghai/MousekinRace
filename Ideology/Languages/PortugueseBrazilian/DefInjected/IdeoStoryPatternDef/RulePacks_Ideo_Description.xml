@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: 
+		<li>description->In ages past, mice once squabbled over berries, nuts and fertile mouse maidens, their uncivilized ways blighting the land. Through the teachings of [deity0_name] and his thirteen disciples, we came to honor our forefathers for bestowing us the gift of life by keeping our flesh and spirits pure, and to venerate the meadows and forests that nourish us. For those that heed the wisdom of [deity0_name] are rewarded with everlasting life in The Great Garden, while the deviants and the wicked shall wander The Wasteland forevermore.</li>
+	-->
+	<Mousekin_IdeoDesc_Kingdom.rules.rulesStrings>
+		<li>description->Nos tempos antigos, os Mousekins brigavam por bagas, nozes e jovens fêmeas férteis, suas maneiras incivilizadas devastando a terra. Através dos ensinamentos de [deity0_name] e seus treze discípulos, passamos a honrar nossos antepassados por nos concederem o dom da vida, mantendo nossa carne e espírito puros, e a venerar os prados e florestas que nos nutrem. Aqueles que seguem a sabedoria de [deity0_name] são recompensados com a vida eterna no Grande Jardim, enquanto os desviantes e perversos vagarão pelo Deserto para sempre.</li>
+	</Mousekin_IdeoDesc_Kingdom.rules.rulesStrings>
+
+	<!-- EN: 
+		<li>description->For generations, our ancestors toiled in the fields and mines of the Kingdom, chafing under the heavy taxes levied by nobles. The mice of the woods, moved by our plight, shared a feast of vension poached from the King's own forests, while teaching us the ways of brotherhood and equality. Inspired by their generosity and wisdom, we turned our backs on those who would exploit us for their own gain, and built a society where every mouse could squeak their mind and enjoy the fair fruits of their own labors.</li>
+	-->
+	<Mousekin_IdeoDesc_IndyTown.rules.rulesStrings>
+		<li>description->Por gerações, nossos antepassados trabalharam nos campos e minas do Reino, revoltados sob os pesados impostos cobrados pelos nobres. Os mousekins das florestas, comovidos com nosso sofrimento, compartilharam um banquete de carne de veado furtada das próprias florestas do Rei, enquanto nos ensinavam os caminhos da fraternidade e igualdade. Inspirados por sua generosidade e sabedoria, viramos as costas para aqueles que nos explorariam para seu próprio ganho, e construímos uma sociedade onde cada rato poderia expressar sua opinião e desfrutar dos frutos justos de seu próprio trabalho.</li>
+	</Mousekin_IdeoDesc_IndyTown.rules.rulesStrings>
+
+	<!-- EN: 
+		<li>description->Just as our ancestors once roamed the meadows and forests for sustenance, we too wander in search of spritiual succor and beauty. For change is the only constant, and to remain is to stagnate.\n\nThis is the Way.</li>
+	-->
+	<Mousekin_IdeoDesc_Nomad.rules.rulesStrings>
+		<li>description->Assim como nossos antepassados vagaram pelos prados e florestas em busca de sustento, nós também vagamos à procura de alimento espiritual e beleza. Pois a mudança é a única constante, e permanecer é estagnar.\n\nEste é o Caminho.</li>
+	</Mousekin_IdeoDesc_Nomad.rules.rulesStrings>
+
+	<!-- EN: 
+		<li>description->"My nuts! Mine, all mine!"\n\n  - Castor Gnawtooth, while picking through his spoils</li>
+	-->
+	<Mousekin_IdeoDesc_Brigand.rules.rulesStrings>
+		<li>description->"Minhas nozes! Minhas, todas minhas!"\n\n- Castor Gnawtooth, enquanto escolhia seus despojos</li>
+	</Mousekin_IdeoDesc_Brigand.rules.rulesStrings>
+	
+</LanguageData>

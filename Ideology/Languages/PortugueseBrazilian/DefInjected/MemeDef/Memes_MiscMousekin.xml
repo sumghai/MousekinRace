@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+		<!-- EN: Ancestor Worship -->
+	<Mousekin_IdeoMeme_AncestorWorship.label>Adoração aos Antepassados</Mousekin_IdeoMeme_AncestorWorship.label>
+
+	<!-- EN: Our ancestors watch over us from The Great Garden. May they bless and guide us forever. -->
+	<Mousekin_IdeoMeme_AncestorWorship.description>Nossos antepassados nos observam do Grande Jardim. Que eles nos abençoem e guiem para sempre.</Mousekin_IdeoMeme_AncestorWorship.description>
+
+	<!-- EN: Floral Reverence -->
+	<Mousekin_IdeoMeme_FloralReverence.label>Reverência Floral</Mousekin_IdeoMeme_FloralReverence.label>
+
+	<!-- EN: The flowers and trees of the land nourish our bodies and souls; when they blossom, so do we. -->
+	<Mousekin_IdeoMeme_FloralReverence.description>As flores e árvores da terra nutrem nossos corpos e almas; quando florescem, também florescemos nós.</Mousekin_IdeoMeme_FloralReverence.description>
+
+	<!-- EN: Wanderlust -->
+	<Mousekin_IdeoMeme_Wanderlust.label>Desejo de Aventuras</Mousekin_IdeoMeme_Wanderlust.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Trail Guide</li>
+	-->
+	<Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->Guia de Trilhas</li>
+	</Mousekin_IdeoMeme_Wanderlust.generalRules.rulesStrings>
+
+	<!-- EN: There is much that these lands can teach us; to stay in one place is to deny the ourselves new experiences. -->
+	<Mousekin_IdeoMeme_Wanderlust.description>Estas terras têm muito a nos ensinar; permanecer em um só lugar é nos negar novas experiências.</Mousekin_IdeoMeme_Wanderlust.description>
+
+	<!-- EN: Nutsnatching -->
+	<Mousekin_IdeoMeme_Raider.label>Roubo-de-Nozes</Mousekin_IdeoMeme_Raider.label>
+	
+	<!-- EN:
+		<li>memeMoralistMousekin->Right-Paw</li>
+	-->
+	<Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
+		<li>memeMoralistMousekin->Pata Direita</li>
+	</Mousekin_IdeoMeme_Raider.generalRules.rulesStrings>
+
+	<!-- EN: Only the strong deserve to have nuts. -->
+	<Mousekin_IdeoMeme_Raider.description>Apenas os fortes merecem ter nozes.</Mousekin_IdeoMeme_Raider.description>
+	
+</LanguageData>
