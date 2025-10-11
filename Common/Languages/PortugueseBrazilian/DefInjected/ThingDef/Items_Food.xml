@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin trail mix -->
+	<Mousekin_MealTrailMix.label>Mix de castanhas Mousekin</Mousekin_MealTrailMix.label>
+	
+	<!-- EN: A pouch of roasted nuts, dried berries and popcorn. Nutritious and tasty, it provides a slight mood boost to any Mousekin that consumes it. Great for traveling. -->
+	<Mousekin_MealTrailMix.description>Um saquinho de castanhas assadas, frutas secas e pipoca. Nutritivo e saboroso, oferece um pequeno aumento de humor a qualquer Mousekin que o consumir. Ótimo para viagens.</Mousekin_MealTrailMix.description>
+	
+	<!-- EN: country bread -->
+	<Mousekin_FoodCountryBread.label>Pão rústico</Mousekin_FoodCountryBread.label>
+	
+	<!-- EN: A round loaf of bread with a thick, crunchy crust and fluffy crumb, often eaten to stave off hunger or used as an ingredient in other dishes. Reduces hunger rate by 10% for 12 hours. -->
+	<Mousekin_FoodCountryBread.description>Um pão redondo com crosta grossa e crocante e miolo macio, frequentemente usado para matar a fome ou como ingrediente em outras receitas. Reduz a taxa de fome em 10% por 12 horas.</Mousekin_FoodCountryBread.description>
+	
+	<!-- EN: barley porridge -->
+	<Mousekin_MealBarleyPorridge.label>Mingau de cevada</Mousekin_MealBarleyPorridge.label>
+	
+	<!-- EN: A simple and nutritious bowl of barley grains cooked in milk, often eaten as a simple meal by farmhands and laborers, fed to baby Mousekin pups, or served by Mousekin nuns to recuperating patients. -->
+	<Mousekin_MealBarleyPorridge.description>Uma tigela simples e nutritiva de grãos de cevada cozidos no leite, consumida por trabalhadores rurais, dada a filhotes de Mousekin ou servida por freiras para pacientes em recuperação.</Mousekin_MealBarleyPorridge.description>
+	
+	<!-- EN: eggs on toast -->
+	<Mousekin_MealEggsOnToast.label>Ovos na torrada</Mousekin_MealEggsOnToast.label>
+	
+	<!-- EN: Thick slices of country bread topped with eggs fried sunny-side up. The perfect breakfast to start the day! -->
+	<Mousekin_MealEggsOnToast.description>Fatias grossas de pão rústico cobertas com ovos fritos de gema para cima. O café da manhã perfeito para começar o dia!</Mousekin_MealEggsOnToast.description>
+	
+	<!-- EN: ploughman's lunch -->
+	<Mousekin_MealPloughmansLunch.label>Almoço camponês</Mousekin_MealPloughmansLunch.label>
+	
+	<!-- EN: Slices of country bread accompanied by cheese, pickled vegetables and a handful of roasted nuts, often eaten as a simple meal by farm laborers. Reduces hunger rate by 20% for 12 hours. -->
+	<Mousekin_MealPloughmansLunch.description>Fatias de pão rústico acompanhadas de queijo, vegetais em conserva e um punhado de castanhas assadas, refeição simples para trabalhadores rurais. Reduz a taxa de fome em 20% por 12 horas.</Mousekin_MealPloughmansLunch.description>
+	
+	<!-- EN: bread bowl -->
+	<Mousekin_MealBreadBowl.label>Sopa no pão</Mousekin_MealBreadBowl.label>
+	
+	<!-- EN: A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours. -->
+	<Mousekin_MealBreadBowl.description>Um pão rústico oco, recheado com creme de carne e legumes, resultando em uma refeição farta e satisfatória. Reduz a taxa de fome em 35% por 12 horas.</Mousekin_MealBreadBowl.description>
+	
+</LanguageData>

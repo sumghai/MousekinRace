@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>		<!-- EN: Mousekin Settler’s Outfit -->
+	<Mousekin_ApparelSettlerOutfit.label>Roupa de Colonizador Mousekin</Mousekin_ApparelSettlerOutfit.label>
+	
+	<!-- EN: A simple shirt, pair of trousers and a vest, typically worn by Mousekin settlers and homesteaders. -->
+	<Mousekin_ApparelSettlerOutfit.description>Uma camisa simples, calças e um colete, geralmente usados por colonizadores e camponeses Mousekin。</Mousekin_ApparelSettlerOutfit.description>
+	
+	<!-- EN: Mousekin Settler’s Dress -->
+	<Mousekin_ApparelSettlerDress.label>Vestido de Colonizadora Mousekin</Mousekin_ApparelSettlerDress.label>
+	
+	<!-- EN: A simple full-body dress with an apron and shawl, typically worn by Mousekin settlers and homesteaders. -->
+	<Mousekin_ApparelSettlerDress.description>Um vestido simples de corpo inteiro com avental e xale, tipicamente usado por colonizadoras e camponesas Mousekin.</Mousekin_ApparelSettlerDress.description>
+	
+	<!-- EN: Mousekin Worker’s Outfit -->
+	<Mousekin_ApparelWorkerOutfit.label>Roupa de Trabalhador Mousekin</Mousekin_ApparelWorkerOutfit.label>
+	
+	<!-- EN: A simple shirt, pair of trousers and a brown vest, typically worn by Mousekin peasants and laborers. -->
+	<Mousekin_ApparelWorkerOutfit.description>Uma camisa simples, calças e um colete marrom, geralmente usado por camponeses e trabalhadores Mousekin.</Mousekin_ApparelWorkerOutfit.description>
+	
+	<!-- EN: Mousekin Worker’s Dress -->
+	<Mousekin_ApparelWorkerDress.label>Vestido de Trabalhadora Mousekin</Mousekin_ApparelWorkerDress.label>
+	
+	<!-- EN: A blouse and bodice paired with a dress, typically worn by Mousekin peasants, laborers and domestic servants. -->
+	<Mousekin_ApparelWorkerDress.description>Uma blusa com corpete combinada com vestido, geralmente usada por camponesas, trabalhadoras e serviçais Mousekin.</Mousekin_ApparelWorkerDress.description>
+	
+	<!-- EN: Mousekin Craftsman’s Outfit -->
+	<Mousekin_ApparelCraftsmanOutfit.label>Roupa de Artesão Mousekin</Mousekin_ApparelCraftsmanOutfit.label>
+	
+	<!-- EN: A loose shirt and trousers protected by a hard-wearing craftsman's apron, practical for all sorts of crafting. Increases the wearer's general labor speed. -->
+	<Mousekin_ApparelCraftsmanOutfit.description>Camisa solta e calças protegidas por avental resistente de artesão, práticas para qualquer tipo de ofício, aumentando a velocidade geral de trabalho.</Mousekin_ApparelCraftsmanOutfit.description>
+	
+	<!-- EN: Mousekin Cloak -->
+	<Mousekin_ApparelCloak.label>Capa Mousekin</Mousekin_ApparelCloak.label>
+	
+	<!-- EN: A simple hooded cloak worn by Mousekin villagers or travellers in colder climates. -->
+	<Mousekin_ApparelCloak.description>Uma capa simples com capuz, usada por aldeões ou viajantes Mousekin em climas frios.</Mousekin_ApparelCloak.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>Capuz</Mousekin_ApparelCloak.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
+	
+	<!-- EN: Mousekin Frontier Jacket -->
+	<Mousekin_ApparelFrontierJacket.label>Jaqueta de Fronteira Mousekin</Mousekin_ApparelFrontierJacket.label>
+	
+	<!-- EN: A hard-wearing jacket, ideal for those travelling through the wilderness without attracting too much attention from predators and opportunistic pirates. -->
+	<Mousekin_ApparelFrontierJacket.description>Jaqueta resistente, ideal para quem viaja pela natureza sem atrair demasiada atenção de predadores e piratas oportunistas.</Mousekin_ApparelFrontierJacket.description>
+	
+	<!-- EN: Mousekin Guardener’s Gown -->
+	<Mousekin_ApparelGuardenerGown.label>Túnica das Florineiras Mousekin</Mousekin_ApparelGuardenerGown.label>
+	
+	<!-- EN: A grey gown worn by apprentices and fully-ordained members of the Mousekin Kingdom’s Order of the Floral Guardians, designed to be practical for both gardening and combat. -->
+	<Mousekin_ApparelGuardenerGown.description>Túnica cinza usada por aprendizes e membros ordenados da Ordem das Florineiras, prática para jardinagem e combate。</Mousekin_ApparelGuardenerGown.description>
+	
+	<!-- EN: Mousekin Guardener’s Robe -->
+	<Mousekin_ApparelGuardenerRobe.label>Manto das Florineiras Mousekin</Mousekin_ApparelGuardenerRobe.label>
+	
+	<!-- EN: A stylish grey robe worn by elite veterans and Lodge Mothers of Mousekin Kingdom’s Order of the Floral Guardians, designed to inspire awe from both allies and enemies alike. -->
+	<Mousekin_ApparelGuardenerRobe.description>Manto cinza elegante usado por veteranas de elite e Mestras da Ordem das Florineiras, projetado para inspirar respeito em aliados e inimigos.</Mousekin_ApparelGuardenerRobe.description>
+	
+	<!-- EN: hood -->
+	<Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>Capuz</Mousekin_ApparelGuardenerRobe.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
+	
+	<!-- EN: Mousekin Nun’s Habit -->
+	<Mousekin_ApparelNunHabit.label>Hábito de Freira Mousekin</Mousekin_ApparelNunHabit.label>
+	
+	<!-- EN: A demure habit, practical for administering religious rites as well as caring for the sick and orphaned. -->
+	<Mousekin_ApparelNunHabit.description>Hábito recatado, prático para administrar ritos religiosos e cuidar de doentes e órfãos.</Mousekin_ApparelNunHabit.description>
+	
+	<!-- EN: Mousekin Priest’s Cassock -->
+	<Mousekin_ApparelPriestCassock.label>Casula Padre Mousekin</Mousekin_ApparelPriestCassock.label>
+	
+	<!-- EN: An ankle-length tunic with the distinctive cleric collar, which inspires respect for its wearer. -->
+	<Mousekin_ApparelPriestCassock.description>Túnica até os tornozelos com colarinho clerical distintivo, que inspira respeito a quem a veste.</Mousekin_ApparelPriestCassock.description>
+	
+	<!-- EN: Mousekin Gambeson -->
+	<Mousekin_ApparelGambeson.label>Gambesão Mousekin</Mousekin_ApparelGambeson.label>
+	
+	<!-- EN: A thick, padded defensive jacket and pair of trousers worn by Mousekin soldiers, squires and knights, designed to cushion blows to plate armor. Comfortable to wear in cold climates. -->
+	<Mousekin_ApparelGambeson.description>Jaqueta defensiva grossa e acolchoada com calças, usada por soldados, escudeiros e cavaleiros Mousekin, para amortecer golpes em armaduras e confortável no frio.</Mousekin_ApparelGambeson.description>
+	
+	<!-- EN: Mousekin Slave Rags -->
+	<Mousekin_ApparelSlave.label>Trajes de Escravo Mousekin</Mousekin_ApparelSlave.label>
+	
+	<!-- EN: A worn old flour sack with crude holes cut for the arms and the head, worn by Mousekin slaves to protect what little dignity they have left in their short, miserable lives. -->
+	<Mousekin_ApparelSlave.description>Saco de farinha velho e desgastado com furos para braços e cabeça, usado por escravos Mousekin para preservar a pouca dignidade restante em suas vidas miseráveis.</Mousekin_ApparelSlave.description>
+	
+	<!-- EN: Mousekin Knight Commander’s Cape -->
+	<Mousekin_ApparelKnightCommanderCape.label>Capa de Comandante Cavaleiro Mousekin</Mousekin_ApparelKnightCommanderCape.label>
+	
+	<!-- EN: A stylish blue cape worn by Mousekin knight commanders to inspire awe from both allies and enemies alike. -->
+	<Mousekin_ApparelKnightCommanderCape.description>Capa azul elegante usada por comandantes cavaleiros Mousekin, para inspirar respeito e admiração em aliados e inimigos.</Mousekin_ApparelKnightCommanderCape.description>
+	
+	<!-- EN: Knight Commander’s Cape Back -->
+	<Mousekin_ApparelKnightCommanderCapeBack.label>Capa de Comandante Cavaleiro Mousekin (Costas)</Mousekin_ApparelKnightCommanderCapeBack.label>
+	
+	<!-- EN: Back of the Knight Commander’s Cape -->
+	<Mousekin_ApparelKnightCommanderCapeBack.description>Parte traseira da capa do comandante cavaleiro Mousekin.</Mousekin_ApparelKnightCommanderCapeBack.description>
+	
+</LanguageData>

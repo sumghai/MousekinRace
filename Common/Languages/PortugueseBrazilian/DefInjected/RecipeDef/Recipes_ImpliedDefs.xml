@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: administer Chonko nut brew -->
+	<Administer_Mousekin_DrinkChonkoNutBrew.label>Administrar Café de Chonko</Administer_Mousekin_DrinkChonkoNutBrew.label>
+
+	<!-- EN: Administering Chonko nut brew. -->
+	<Administer_Mousekin_DrinkChonkoNutBrew.jobString>Administrando Café de Noz Chonko.</Administer_Mousekin_DrinkChonkoNutBrew.jobString>
+
+	<!-- EN: administer Mousekin lager -->
+	<Administer_Mousekin_DrinkLager.label>Administrar Lager Mousekin</Administer_Mousekin_DrinkLager.label>
+
+	<!-- EN: Administering Mousekin lager. -->
+	<Administer_Mousekin_DrinkLager.jobString>Administrando Lager Mousekin</Administer_Mousekin_DrinkLager.jobString>
+
+	<!-- EN: administer Mousekin mead (awful) -->
+	<Administer_Mousekin_DrinkMeadAwful.label>Administerar Hidromel Mousekin (péssimo)</Administer_Mousekin_DrinkMeadAwful.label>
+
+	<!-- EN: Administering Mousekin mead (awful). -->
+	<Administer_Mousekin_DrinkMeadAwful.jobString>Administerando Hidromel Mousekin (péssimo).</Administer_Mousekin_DrinkMeadAwful.jobString>
+
+	<!-- EN: administer Mousekin mead (poor) -->
+	<Administer_Mousekin_DrinkMeadPoor.label>Administerar Hidromel Mousekin (rulm)</Administer_Mousekin_DrinkMeadPoor.label>
+
+	<!-- EN: Administering Mousekin mead (poor). -->
+	<Administer_Mousekin_DrinkMeadPoor.jobString>Administerando Hidromel Mousekin (rulm).</Administer_Mousekin_DrinkMeadPoor.jobString>
+
+	<!-- EN: administer Mousekin mead (normal) -->
+	<Administer_Mousekin_DrinkMeadNormal.label>Administerar Hidromel Mousekin (normal)</Administer_Mousekin_DrinkMeadNormal.label>
+
+	<!-- EN: Administering Mousekin mead (normal). -->
+	<Administer_Mousekin_DrinkMeadNormal.jobString>Administerando Hidromel Mousekin (normal).</Administer_Mousekin_DrinkMeadNormal.jobString>
+
+	<!-- EN: administer Mousekin mead (good) -->
+	<Administer_Mousekin_DrinkMeadGood.label>Administerar Hidromel Mousekin (bom)</Administer_Mousekin_DrinkMeadGood.label>
+
+	<!-- EN: Administering Mousekin mead (good). -->
+	<Administer_Mousekin_DrinkMeadGood.jobString>Administerando Hidromel Mousekin (bom).</Administer_Mousekin_DrinkMeadGood.jobString>
+
+	<!-- EN: administer Mousekin mead (excellent) -->
+	<Administer_Mousekin_DrinkMeadExcellent.label>Administerar Hidromel Mousekin (excelente)</Administer_Mousekin_DrinkMeadExcellent.label>
+
+	<!-- EN: Administering Mousekin mead (excellent). -->
+	<Administer_Mousekin_DrinkMeadExcellent.jobString>Administerando Hidromel Mousekin (excelente).</Administer_Mousekin_DrinkMeadExcellent.jobString>
+
+	<!-- EN: administer Mousekin mead (masterwork) -->
+	<Administer_Mousekin_DrinkMeadMasterwork.label>Administerar Hidromel Mousekin (mestre).</Administer_Mousekin_DrinkMeadMasterwork.label>
+
+	<!-- EN: Administering Mousekin mead (masterwork). -->
+	<Administer_Mousekin_DrinkMeadMasterwork.jobString>Administerando Hidromel Mousekin (mestre).</Administer_Mousekin_DrinkMeadMasterwork.jobString>
+
+	<!-- EN: administer Mousekin mead (legendary) -->
+	<Administer_Mousekin_DrinkMeadLegendary.label>Administerar Hidromel Mousekin (lendário)</Administer_Mousekin_DrinkMeadLegendary.label>
+
+	<!-- EN: Administering Mousekin mead (legendary). -->
+	<Administer_Mousekin_DrinkMeadLegendary.jobString>Administerando Hidromel Mousekin (lendário).</Administer_Mousekin_DrinkMeadLegendary.jobString>
+
+	<!-- EN: make Cloth Mousekin Ear -->
+	<Make_Mousekin_ProstheticClothEar.label>Fazer Orelha de Pano Mousekin</Make_Mousekin_ProstheticClothEar.label>
+
+	<!-- EN: Make Cloth Mousekin Ear. -->
+	<Make_Mousekin_ProstheticClothEar.description>Fazer Orelha de Pano Mousekin.</Make_Mousekin_ProstheticClothEar.description>
+
+	<!-- EN: Making Cloth Mousekin Ear. -->
+	<Make_Mousekin_ProstheticClothEar.jobString>Fazendo Orelha de Pano Mousekin.</Make_Mousekin_ProstheticClothEar.jobString>
+
+	<!-- EN: make Cloth Mousekin Tail -->
+	<Make_Mousekin_ProstheticClothTail.label>Fazer Cauda de Pano Mousekin</Make_Mousekin_ProstheticClothTail.label>
+
+	<!-- EN: Make Cloth Mousekin Tail. -->
+	<Make_Mousekin_ProstheticClothTail.description>Fazer Cauda de Pano Mousekin.</Make_Mousekin_ProstheticClothTail.description>
+
+	<!-- EN: Making Cloth Mousekin Tail. -->
+	<Make_Mousekin_ProstheticClothTail.jobString>Fazendo Cauda de Pano Mousekin.</Make_Mousekin_ProstheticClothTail.jobString>
+
+	<!-- EN: make Mousekin Pince-Nez Glasses -->
+	<Make_Mousekin_GlassesSmall.label>Fazer Óculos de Pince-nez Mousekin</Make_Mousekin_GlassesSmall.label>
+
+	<!-- EN: Make Mousekin Pince-Nez Glasses. -->
+	<Make_Mousekin_GlassesSmall.description>Fazer Óculos de Pince-nez Mousekin.</Make_Mousekin_GlassesSmall.description>
+
+	<!-- EN: Making Mousekin Pince-Nez Glasses. -->
+	<Make_Mousekin_GlassesSmall.jobString>Fazendo Óculos de Pince-nez Mousekin.</Make_Mousekin_GlassesSmall.jobString>
+
+	<!-- EN: make Mousekin Research Glasses -->
+	<Make_Mousekin_GlassesLarge.label>Fazer Óculos de Pesquisa Mousekin</Make_Mousekin_GlassesLarge.label>
+
+	<!-- EN: Make Mousekin Research Glasses. -->
+	<Make_Mousekin_GlassesLarge.description>Fazer Óculos de Pesquisa Mousekin.</Make_Mousekin_GlassesLarge.description>
+
+	<!-- EN: Making Mousekin Research Glasses. -->
+	<Make_Mousekin_GlassesLarge.jobString>Fazendo Óculos de Pesquisa Mousekin.</Make_Mousekin_GlassesLarge.jobString>
+
+	<!-- EN: make Mousekin Wicker Backpack -->
+	<Make_Mousekin_BackpackWicker.label>Fazer Mochila de Vime Mousekin</Make_Mousekin_BackpackWicker.label>
+
+	<!-- EN: Make Mousekin Wicker Backpack. -->
+	<Make_Mousekin_BackpackWicker.description>Fazer Mochila de Vime Mousekin.</Make_Mousekin_BackpackWicker.description>
+
+	<!-- EN: Making Mousekin Wicker Backpack. -->
+	<Make_Mousekin_BackpackWicker.jobString>Fazendo Mochila de Vime Mousekin.</Make_Mousekin_BackpackWicker.jobString>
+
+	<!-- EN: make Mousekin Leather Backpack -->
+	<Make_Mousekin_BackpackLeather.label>Fazer Mochila de Couro Mousekin</Make_Mousekin_BackpackLeather.label>
+
+	<!-- EN: Make Mousekin Leather Backpack. -->
+	<Make_Mousekin_BackpackLeather.description>Fazer Mochila de Couro Mousekin.</Make_Mousekin_BackpackLeather.description>
+
+	<!-- EN: Making Mousekin Leather Backpack. -->
+	<Make_Mousekin_BackpackLeather.jobString>Fazendo Mochila de Couro Mousekin.</Make_Mousekin_BackpackLeather.jobString>
+
+	<!-- EN: make Mousekin Cuirass -->
+	<Make_Mousekin_ArmorCuirass.label>Fazer Peitoral Mousekin</Make_Mousekin_ArmorCuirass.label>
+
+	<!-- EN: Make Mousekin Cuirass. -->
+	<Make_Mousekin_ArmorCuirass.description>Fazer Peitoral Mousekin.</Make_Mousekin_ArmorCuirass.description>
+
+	<!-- EN: Making Mousekin Cuirass. -->
+	<Make_Mousekin_ArmorCuirass.jobString>Fazendo Peitoral Mousekin.</Make_Mousekin_ArmorCuirass.jobString>
+
+	<!-- EN: make Mousekin Plate Armor -->
+	<Make_Mousekin_ArmorPlate.label>Fazer Armadura de Placas Mousekin</Make_Mousekin_ArmorPlate.label>
+
+	<!-- EN: Make Mousekin Plate Armor. -->
+	<Make_Mousekin_ArmorPlate.description>Fazer Armadura de Placas Mousekin.</Make_Mousekin_ArmorPlate.description>
+
+	<!-- EN: Making Mousekin Plate Armor. -->
+	<Make_Mousekin_ArmorPlate.jobString>Fazendo Armadura de Placas Mousekin.</Make_Mousekin_ArmorPlate.jobString>
+
+	<!-- EN: make Mousekin Settler’s Outfit -->
+	<Make_Mousekin_ApparelSettlerOutfit.label>Fazer Roupa de Colonizador Mousekin</Make_Mousekin_ApparelSettlerOutfit.label>
+
+	<!-- EN: Make Mousekin Settler’s Outfit. -->
+	<Make_Mousekin_ApparelSettlerOutfit.description>Fazer Roupa de Colonizador Mousekin.</Make_Mousekin_ApparelSettlerOutfit.description>
+
+	<!-- EN: Making Mousekin Settler’s Outfit. -->
+	<Make_Mousekin_ApparelSettlerOutfit.jobString>Fazendo Roupa de Colonizador Mousekin.</Make_Mousekin_ApparelSettlerOutfit.jobString>
+
+	<!-- EN: make Mousekin Settler’s Dress -->
+	<Make_Mousekin_ApparelSettlerDress.label>Fazer Vestido de Colonizadora Mousekin</Make_Mousekin_ApparelSettlerDress.label>
+
+	<!-- EN: Make Mousekin Settler’s Dress. -->
+	<Make_Mousekin_ApparelSettlerDress.description>Fazer Vestido de Colonizadora Mousekin.</Make_Mousekin_ApparelSettlerDress.description>
+
+	<!-- EN: Making Mousekin Settler’s Dress. -->
+	<Make_Mousekin_ApparelSettlerDress.jobString>Fazendo Vestido de Colonizadora Mousekin.</Make_Mousekin_ApparelSettlerDress.jobString>
+
+	<!-- EN: make Mousekin Worker’s Outfit -->
+	<Make_Mousekin_ApparelWorkerOutfit.label>Fazer Roupa de Trabalhador Mousekin</Make_Mousekin_ApparelWorkerOutfit.label>
+
+	<!-- EN: Make Mousekin Worker’s Outfit. -->
+	<Make_Mousekin_ApparelWorkerOutfit.description>Fazer Roupa de Trabalhador Mousekin.</Make_Mousekin_ApparelWorkerOutfit.description>
+
+	<!-- EN: Making Mousekin Worker’s Outfit. -->
+	<Make_Mousekin_ApparelWorkerOutfit.jobString>Fazendo Roupa de Trabalhador Mousekin.</Make_Mousekin_ApparelWorkerOutfit.jobString>
+
+	<!-- EN: make Mousekin Worker’s Dress -->
+	<Make_Mousekin_ApparelWorkerDress.label>Fazer Vestido de Trabalhadora Mousekin</Make_Mousekin_ApparelWorkerDress.label>
+
+	<!-- EN: Make Mousekin Worker’s Dress. -->
+	<Make_Mousekin_ApparelWorkerDress.description>Fazer Vestido de Trabalhadora Mousekin.</Make_Mousekin_ApparelWorkerDress.description>
+
+	<!-- EN: Making Mousekin Worker’s Dress. -->
+	<Make_Mousekin_ApparelWorkerDress.jobString>Fazendo Vestido de Trabalhadora Mousekin.</Make_Mousekin_ApparelWorkerDress.jobString>
+
+	<!-- EN: make Mousekin Craftsman’s Outfit -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.label>Fazer Roupa de Artesão Mousekin</Make_Mousekin_ApparelCraftsmanOutfit.label>
+
+	<!-- EN: Make Mousekin Craftsman’s Outfit. -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.description>Fazer Roupa de Artesão Mousekin.</Make_Mousekin_ApparelCraftsmanOutfit.description>
+
+	<!-- EN: Making Mousekin Craftsman’s Outfit. -->
+	<Make_Mousekin_ApparelCraftsmanOutfit.jobString>Fazendo Roupa de Artesão Mousekin.</Make_Mousekin_ApparelCraftsmanOutfit.jobString>
+
+	<!-- EN: make Mousekin Cloak -->
+	<Make_Mousekin_ApparelCloak.label>Fazer Capa Mousekin</Make_Mousekin_ApparelCloak.label>
+
+	<!-- EN: Make Mousekin Cloak. -->
+	<Make_Mousekin_ApparelCloak.description>Fazer Capa Mousekin.</Make_Mousekin_ApparelCloak.description>
+
+	<!-- EN: Making Mousekin Cloak. -->
+	<Make_Mousekin_ApparelCloak.jobString>Fazendo Capa Mousekin</Make_Mousekin_ApparelCloak.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Gown -->
+	<Make_Mousekin_ApparelGuardenerGown.label>Fazer Túnica das Florineiras Mousekin</Make_Mousekin_ApparelGuardenerGown.label>
+
+	<!-- EN: Make Mousekin Guardener’s Gown. -->
+	<Make_Mousekin_ApparelGuardenerGown.description>Fazer Túnica das Florineiras Mousekin.</Make_Mousekin_ApparelGuardenerGown.description>
+
+	<!-- EN: Making Mousekin Guardener’s Gown. -->
+	<Make_Mousekin_ApparelGuardenerGown.jobString>Fazendo Túnica das Florineiras Mousekin.</Make_Mousekin_ApparelGuardenerGown.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Robe -->
+	<Make_Mousekin_ApparelGuardenerRobe.label>Fazer Manto das Florineiras Mousekin</Make_Mousekin_ApparelGuardenerRobe.label>
+
+	<!-- EN: Make Mousekin Guardener’s Robe. -->
+	<Make_Mousekin_ApparelGuardenerRobe.description>Fazer Manto das Florineiras Mousekin.</Make_Mousekin_ApparelGuardenerRobe.description>
+
+	<!-- EN: Making Mousekin Guardener’s Robe. -->
+	<Make_Mousekin_ApparelGuardenerRobe.jobString>Fazendo Manto das Florineiras Mousekin.</Make_Mousekin_ApparelGuardenerRobe.jobString>
+
+	<!-- EN: make Mousekin Nun’s Habit -->
+	<Make_Mousekin_ApparelNunHabit.label>Fazer Hábito de Freira Mousekin</Make_Mousekin_ApparelNunHabit.label>
+
+	<!-- EN: Make Mousekin Nun’s Habit. -->
+	<Make_Mousekin_ApparelNunHabit.description>Fazer Hábito de Freira Mousekin.</Make_Mousekin_ApparelNunHabit.description>
+
+	<!-- EN: Making Mousekin Nun’s Habit. -->
+	<Make_Mousekin_ApparelNunHabit.jobString>Fazendo Hábito de Freisa Mousekin.</Make_Mousekin_ApparelNunHabit.jobString>
+
+	<!-- EN: make Mousekin Priest’s Cassock -->
+	<Make_Mousekin_ApparelPriestCassock.label>Fazer Casula Padre Mousekin</Make_Mousekin_ApparelPriestCassock.label>
+
+	<!-- EN: Make Mousekin Priest’s Cassock. -->
+	<Make_Mousekin_ApparelPriestCassock.description>Fazer Casula Padre Mousekin.</Make_Mousekin_ApparelPriestCassock.description>
+
+	<!-- EN: Making Mousekin Priest’s Cassock. -->
+	<Make_Mousekin_ApparelPriestCassock.jobString>Fazendo Casula Padre Mousekin.</Make_Mousekin_ApparelPriestCassock.jobString>
+
+	<!-- EN: make Mousekin Gambeson -->
+	<Make_Mousekin_ApparelGambeson.label>Fazer Gambesão Mousekin</Make_Mousekin_ApparelGambeson.label>
+
+	<!-- EN: Make Mousekin Gambeson. -->
+	<Make_Mousekin_ApparelGambeson.description>Fazer Gambesão Mousekin.</Make_Mousekin_ApparelGambeson.description>
+
+	<!-- EN: Making Mousekin Gambeson. -->
+	<Make_Mousekin_ApparelGambeson.jobString>Fazendo Gambesão Mousekin.</Make_Mousekin_ApparelGambeson.jobString>
+
+	<!-- EN: make Mousekin Straw Hat -->
+	<Make_Mousekin_HatStraw.label>Fazer Chapéu de Palha Mousekin</Make_Mousekin_HatStraw.label>
+
+	<!-- EN: Make Mousekin Straw Hat. -->
+	<Make_Mousekin_HatStraw.description>Fazer Chapéu de Palha Mousekin.</Make_Mousekin_HatStraw.description>
+
+	<!-- EN: Making Mousekin Straw Hat. -->
+	<Make_Mousekin_HatStraw.jobString>Fazendo Chapéu de Palha Mousekin.</Make_Mousekin_HatStraw.jobString>
+
+	<!-- EN: make Mousekin Headscarf -->
+	<Make_Mousekin_HatHeadscarf.label>Fazer Lenço de Cabeça Mousekin</Make_Mousekin_HatHeadscarf.label>
+
+	<!-- EN: Make Mousekin Headscarf. -->
+	<Make_Mousekin_HatHeadscarf.description>Fazer Lenço de Cabeça Mousekin.</Make_Mousekin_HatHeadscarf.description>
+
+	<!-- EN: Making Mousekin Headscarf. -->
+	<Make_Mousekin_HatHeadscarf.jobString>Fazendo Lenço de Cabeça Mousekin.</Make_Mousekin_HatHeadscarf.jobString>
+
+	<!-- EN: make Mousekin Nun’s Veil -->
+	<Make_Mousekin_HatNunVeil.label>Fazer Véu de Freira Mousekin</Make_Mousekin_HatNunVeil.label>
+
+	<!-- EN: Make Mousekin Nun’s Veil. -->
+	<Make_Mousekin_HatNunVeil.description>Fazer Véu de Freira Mousekin.</Make_Mousekin_HatNunVeil.description>
+
+	<!-- EN: Making Mousekin Nun’s Veil. -->
+	<Make_Mousekin_HatNunVeil.jobString>Fazendo Véu de Freira Mousekin.</Make_Mousekin_HatNunVeil.jobString>
+
+	<!-- EN: make Mousekin Kettle Hat -->
+	<Make_Mousekin_HelmetKettle.label>Fazer Capacete de Panela Mousekin</Make_Mousekin_HelmetKettle.label>
+
+	<!-- EN: Make Mousekin Kettle Hat. -->
+	<Make_Mousekin_HelmetKettle.description>Fazer Capacete de Panela Mousekin.</Make_Mousekin_HelmetKettle.description>
+
+	<!-- EN: Making Mousekin Kettle Hat. -->
+	<Make_Mousekin_HelmetKettle.jobString>Fazendo Capacete de Panela Mousekin.</Make_Mousekin_HelmetKettle.jobString>
+
+	<!-- EN: make Mousekin Morion Helmet -->
+	<Make_Mousekin_HelmetMorion.label>Fazer Capacete Morion Mousekin</Make_Mousekin_HelmetMorion.label>
+
+	<!-- EN: Make Mousekin Morion Helmet. -->
+	<Make_Mousekin_HelmetMorion.description>Fazer Capacete Morion Mousekin.</Make_Mousekin_HelmetMorion.description>
+
+	<!-- EN: Making Mousekin Morion Helmet. -->
+	<Make_Mousekin_HelmetMorion.jobString>Fazendo Capacete Morion Mousekin.</Make_Mousekin_HelmetMorion.jobString>
+
+	<!-- EN: make Mousekin Knight's Helmet -->
+	<Make_Mousekin_HelmetKnight.label>Fazer Capacete de Cavaleiro Mousekin</Make_Mousekin_HelmetKnight.label>
+
+	<!-- EN: Make Mousekin Knight's Helmet. -->
+	<Make_Mousekin_HelmetKnight.description>Fazer Capacete de Cavaleiro Mousekin.</Make_Mousekin_HelmetKnight.description>
+
+	<!-- EN: Making Mousekin Knight's Helmet. -->
+	<Make_Mousekin_HelmetKnight.jobString>Fazendo Capacete de Cavaleiro Mousekin.</Make_Mousekin_HelmetKnight.jobString>
+
+	<!-- EN: make Mousekin Knight Commander’s Helmet -->
+	<Make_Mousekin_HelmetKnightCommander.label>Fazer Capacete de Comandante Cavaleiro Mousekin</Make_Mousekin_HelmetKnightCommander.label>
+
+	<!-- EN: Make Mousekin Knight Commander’s Helmet. -->
+	<Make_Mousekin_HelmetKnightCommander.description>Fazer Capacete de Comandante Cavaleiro Mousekin.</Make_Mousekin_HelmetKnightCommander.description>
+
+	<!-- EN: Making Mousekin Knight Commander’s Helmet. -->
+	<Make_Mousekin_HelmetKnightCommander.jobString>Fazendo Capacete de Comandante Cavaleiro Mousekin.</Make_Mousekin_HelmetKnightCommander.jobString>
+
+	<!-- EN: make Mousekin Axe -->
+	<Make_Mousekin_MeleeWeapon_Axe.label>Fazer Machado Mousekin</Make_Mousekin_MeleeWeapon_Axe.label>
+
+	<!-- EN: Make Mousekin Axe. -->
+	<Make_Mousekin_MeleeWeapon_Axe.description>Fazer Machado Mousekin.</Make_Mousekin_MeleeWeapon_Axe.description>
+
+	<!-- EN: Making Mousekin Axe. -->
+	<Make_Mousekin_MeleeWeapon_Axe.jobString>Fazendo Machado Mousekin.</Make_Mousekin_MeleeWeapon_Axe.jobString>
+
+	<!-- EN: make Mousekin Cleaver -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.label>Fazer Cutelo Mousekin</Make_Mousekin_MeleeWeapon_Cleaver.label>
+
+	<!-- EN: Make Mousekin Cleaver. -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.description>Fazer Cutelo Mousekin.</Make_Mousekin_MeleeWeapon_Cleaver.description>
+
+	<!-- EN: Making Mousekin Cleaver. -->
+	<Make_Mousekin_MeleeWeapon_Cleaver.jobString>Fazendo Cutelo Mousekin.</Make_Mousekin_MeleeWeapon_Cleaver.jobString>
+
+	<!-- EN: make Mousekin Dagger -->
+	<Make_Mousekin_MeleeWeapon_Dagger.label>Fazer Adaga Mousekin</Make_Mousekin_MeleeWeapon_Dagger.label>
+
+	<!-- EN: Make Mousekin Dagger. -->
+	<Make_Mousekin_MeleeWeapon_Dagger.description>Fazer Adaga Mousekin.</Make_Mousekin_MeleeWeapon_Dagger.description>
+
+	<!-- EN: Making Mousekin Dagger. -->
+	<Make_Mousekin_MeleeWeapon_Dagger.jobString>Fazendo Adaga Mousekin.</Make_Mousekin_MeleeWeapon_Dagger.jobString>
+
+	<!-- EN: make Mousekin Hammer -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.label>Fazer Martelo Mousekin</Make_Mousekin_MeleeWeapon_HammerMetal.label>
+
+	<!-- EN: Make Mousekin Hammer. -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.description>Fazer Martelo Mousekin.</Make_Mousekin_MeleeWeapon_HammerMetal.description>
+
+	<!-- EN: Making Mousekin Hammer. -->
+	<Make_Mousekin_MeleeWeapon_HammerMetal.jobString>Fazendo Martelo Mousekin.</Make_Mousekin_MeleeWeapon_HammerMetal.jobString>
+
+	<!-- EN: make Mousekin Mallet -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.label>Fazer Malho Mousekin</Make_Mousekin_MeleeWeapon_HammerWood.label>
+
+	<!-- EN: Make Mousekin Mallet. -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.description>Fazer Malho Mousekin.</Make_Mousekin_MeleeWeapon_HammerWood.description>
+
+	<!-- EN: Making Mousekin Mallet. -->
+	<Make_Mousekin_MeleeWeapon_HammerWood.jobString>Fazendo Malho Mousekin.</Make_Mousekin_MeleeWeapon_HammerWood.jobString>
+
+	<!-- EN: make Mousekin Hoe -->
+	<Make_Mousekin_MeleeWeapon_Hoe.label>Fazer Enxada Mousekin</Make_Mousekin_MeleeWeapon_Hoe.label>
+
+	<!-- EN: Make Mousekin Hoe. -->
+	<Make_Mousekin_MeleeWeapon_Hoe.description>Fazer Enxada Mousekin.</Make_Mousekin_MeleeWeapon_Hoe.description>
+
+	<!-- EN: Making Mousekin Hoe. -->
+	<Make_Mousekin_MeleeWeapon_Hoe.jobString>Fazendo Enxada Mousekin.</Make_Mousekin_MeleeWeapon_Hoe.jobString>
+
+	<!-- EN: make Mousekin Pickaxe -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.label>Fazer Picareta Mousekin</Make_Mousekin_MeleeWeapon_Pickaxe.label>
+
+	<!-- EN: Make Mousekin Pickaxe. -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.description>Fazer Picareta Mousekin.</Make_Mousekin_MeleeWeapon_Pickaxe.description>
+
+	<!-- EN: Making Mousekin Pickaxe. -->
+	<Make_Mousekin_MeleeWeapon_Pickaxe.jobString>Fazendo Picareta Mousekin.</Make_Mousekin_MeleeWeapon_Pickaxe.jobString>
+
+	<!-- EN: make Mousekin Pike -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.label>Fazer Pique Mousekin</Make_Mousekin_MeleeWeapon_PikeRegular.label>
+
+	<!-- EN: Make Mousekin Pike. -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.description>Fazer Pique Mousekin.</Make_Mousekin_MeleeWeapon_PikeRegular.description>
+
+	<!-- EN: Making Mousekin Pike. -->
+	<Make_Mousekin_MeleeWeapon_PikeRegular.jobString>Fazendo Pique Mousekin.</Make_Mousekin_MeleeWeapon_PikeRegular.jobString>
+
+	<!-- EN: make Mousekin Pitchfork -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.label>Fazer Forcado Mousekin</Make_Mousekin_MeleeWeapon_Pitchfork.label>
+
+	<!-- EN: Make Mousekin Pitchfork. -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.description>Fazer Forcado Mousekin.</Make_Mousekin_MeleeWeapon_Pitchfork.description>
+
+	<!-- EN: Making Mousekin Pitchfork. -->
+	<Make_Mousekin_MeleeWeapon_Pitchfork.jobString>Fazendo Forcado Mousekin.</Make_Mousekin_MeleeWeapon_Pitchfork.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.label>Fazer Espada das Florineiras Mousekin</Make_Mousekin_MeleeWeapon_SwordGuardener.label>
+
+	<!-- EN: Make Mousekin Guardener’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.description>Fazer Espada das Florineiras Mousekin.</Make_Mousekin_MeleeWeapon_SwordGuardener.description>
+
+	<!-- EN: Making Mousekin Guardener’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardener.jobString>Fazendo Espada das Florineiras Mousekin.</Make_Mousekin_MeleeWeapon_SwordGuardener.jobString>
+
+	<!-- EN: make Mousekin Guardener’s Training Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.label>Fazer Espada de Treino das Florineiras Mousekin</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.label>
+
+	<!-- EN: Make Mousekin Guardener’s Training Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.description>Fazer Espada de Treino das Florineiras Mousekin.</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.description>
+
+	<!-- EN: Making Mousekin Guardener’s Training Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.jobString>Fazendo Espada de Treino das Florineiras Mousekin.</Make_Mousekin_MeleeWeapon_SwordGuardenerTraining.jobString>
+
+	<!-- EN: make Mousekin Knight’s Sword -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.label>Fazer Espada de Cavaleiro Mousekin</Make_Mousekin_MeleeWeapon_SwordKnight.label>
+
+	<!-- EN: Make Mousekin Knight’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.description>Fazer Espada de Cavaleiro Mousekin.</Make_Mousekin_MeleeWeapon_SwordKnight.description>
+
+	<!-- EN: Making Mousekin Knight’s Sword. -->
+	<Make_Mousekin_MeleeWeapon_SwordKnight.jobString>Fazendo Espada de Cavaleiro Mousekin.</Make_Mousekin_MeleeWeapon_SwordKnight.jobString>
+
+	<!-- EN: make Mousekin Hunter’s Crossbow -->
+	<Make_Mousekin_RangedWeapon_Crossbow.label>Fazer Besta de Caça Mousekin</Make_Mousekin_RangedWeapon_Crossbow.label>
+
+	<!-- EN: Make Mousekin Hunter’s Crossbow. -->
+	<Make_Mousekin_RangedWeapon_Crossbow.description>Fazer Besta de Caça Mousekin.</Make_Mousekin_RangedWeapon_Crossbow.description>
+
+	<!-- EN: Making Mousekin Hunter’s Crossbow. -->
+	<Make_Mousekin_RangedWeapon_Crossbow.jobString>Fazendo Besta de Caça Mousekin.</Make_Mousekin_RangedWeapon_Crossbow.jobString>
+
+	<!-- EN: make Mousekin Automatic Crossbow -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.label>Fazer Besta Automática Mousekin</Make_Mousekin_RangedWeapon_CrossbowAuto.label>
+
+	<!-- EN: Make Mousekin Automatic Crossbow. -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.description>Fazer Besta Automática Mousekin.</Make_Mousekin_RangedWeapon_CrossbowAuto.description>
+
+	<!-- EN: Making Mousekin Automatic Crossbow. -->
+	<Make_Mousekin_RangedWeapon_CrossbowAuto.jobString>Fazendo Besta Automática Mousekin.</Make_Mousekin_RangedWeapon_CrossbowAuto.jobString>
+
+	<!-- EN: make Mousekin Musket -->
+	<Make_Mousekin_RangedWeapon_MusketLong.label>Fazer Mosquete Mousekin</Make_Mousekin_RangedWeapon_MusketLong.label>
+
+	<!-- EN: Make Mousekin Musket. -->
+	<Make_Mousekin_RangedWeapon_MusketLong.description>Fazer Mosquete Mousekin.</Make_Mousekin_RangedWeapon_MusketLong.description>
+
+	<!-- EN: Making Mousekin Musket. -->
+	<Make_Mousekin_RangedWeapon_MusketLong.jobString>Fazendo Mosquete Mousekin.</Make_Mousekin_RangedWeapon_MusketLong.jobString>
+
+	<!-- EN: make Mousekin Blunderbuss -->
+	<Make_Mousekin_RangedWeapon_MusketShort.label>Fazer Espingarda Mousekin</Make_Mousekin_RangedWeapon_MusketShort.label>
+
+	<!-- EN: Make Mousekin Blunderbuss. -->
+	<Make_Mousekin_RangedWeapon_MusketShort.description>Fazer Espingarda Mousekin.</Make_Mousekin_RangedWeapon_MusketShort.description>
+
+	<!-- EN: Making Mousekin Blunderbuss. -->
+	<Make_Mousekin_RangedWeapon_MusketShort.jobString>Fazendo Espingarda Mousekin.</Make_Mousekin_RangedWeapon_MusketShort.jobString>
+	
+</LanguageData>

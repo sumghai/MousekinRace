@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: leaving colony due to allegiance change -->
+	<Mousekin_MentalState_ExitAfterAllegianceChange.label>Saindo da colônia devido à mudança de lealdade</Mousekin_MentalState_ExitAfterAllegianceChange.label>
+	
+	<!-- EN: Mental state: Leaving colony due to allegiance change -->
+	<Mousekin_MentalState_ExitAfterAllegianceChange.baseInspectLine>Estado mental: Saindo da colônia devido à mudança de lealdade.</Mousekin_MentalState_ExitAfterAllegianceChange.baseInspectLine>
+	
+	<!-- EN: suicide from earless despair -->
+	<Mousekin_MentalState_EarlessSuicide.label>Suicídio por desespero de ficar sem orelhas.</Mousekin_MentalState_EarlessSuicide.label>
+
+	<!-- EN: {0} could no longer endure the humiliation of living without [PAWN_possessive] ears, and is attempting suicide. -->
+	<Mousekin_MentalState_EarlessSuicide.beginLetter>{0} não consegue mais suportar a humilhação de viver sem suas orelhas e está tentando suicídio.</Mousekin_MentalState_EarlessSuicide.beginLetter>
+
+	<!-- EN: Earless Mousekin Suicide -->
+	<Mousekin_MentalState_EarlessSuicide.beginLetterLabel>Suicídio de Mousekin sem orelhas</Mousekin_MentalState_EarlessSuicide.beginLetterLabel>
+
+	<!-- EN: {0} is no longer attempting suicide. -->
+	<Mousekin_MentalState_EarlessSuicide.recoveryMessage>{0} não está mais tentando suicídio.</Mousekin_MentalState_EarlessSuicide.recoveryMessage>
+
+	<!-- EN: Mental state: Suicidal -->
+	<Mousekin_MentalState_EarlessSuicide.baseInspectLine>Estado mental: Suicida.</Mousekin_MentalState_EarlessSuicide.baseInspectLine>
+	
+</LanguageData>

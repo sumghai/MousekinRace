@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: make Mousekin poultice x25 -->
+	<Mousekin_Make_MedicinePoultice.label>Fazer Cataplasma Mousekin x25</Mousekin_Make_MedicinePoultice.label>
+
+	<!-- EN: Make a batch of medicinal poultices by crushing and mixing healroot with tree bark from logs. -->
+	<Mousekin_Make_MedicinePoultice.description>Esmague e misture ervas curativas com a casca de madeira para produzir um lote de cataplasmas.</Mousekin_Make_MedicinePoultice.description>
+
+	<!-- EN: Making bags of Mousekin poultice -->
+	<Mousekin_Make_MedicinePoultice.jobString>Fazendo Cataplasma Mousekin</Mousekin_Make_MedicinePoultice.jobString>
+	
+</LanguageData>

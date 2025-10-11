@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: 
+		<li>volNumeral->I</li>
+		<li>volNumeral->II</li>
+		<li>volNumeral->III</li>
+		<li>volNumeral->IV</li>
+		<li>volNumeral->V</li>
+		
+		<li>editionOrdinal->1st</li>
+		<li>editionOrdinal->2nd</li>
+		<li>editionOrdinal->3rd</li>
+		<li>editionOrdinal->4th</li>
+		<li>editionOrdinal->5th</li>
+		
+		<li>titleSuffix->Part [volNumeral]</li>
+		<li>titleSuffix->Vol. [volNumeral]</li>
+		<li>titleSuffix->[editionOrdinal] Edition</li>
+		
+		<li>authorSurname(p=10)->[Mousekin_LastName_Commoner]</li>
+		<li>authorSurname->[Mousekin_LastName_Heroic]</li>
+		<li>authorFullname(p=8)->[Mousekin_FirstName_Male] [authorSurname]</li>
+		<li>authorFullname->[Mousekin_FirstName_Female] [authorSurname]</li>
+		
+		<li>bookQualityBad->Almost all of the pages are on the verge of splitting from the spine.</li>
+		<li>bookQualityBad->Maggots have infested the leather covers and spine.</li>
+		<li>bookQualityBad->Nearly every page has been discolored by smoke from a fire, rendering the contents barely legible.</li>
+		<li>bookQualityBad->Opening the cover unleashes a rancid odor of urine, suggesting the previous owner had been using this copy to prop up a chamberpot.</li>
+		<li>bookQualityBad->Several pages have stains from a mug of Chonko nut brew.</li>				
+		<li>bookQualityBad->The contents and introductory pages have been completely obscured by spilled black ink that has thoroughly soaked through several layers of paper.</li>
+		<li>bookQualityBad->The front and back flyleaves are almost entirely covered by the previous owner's amateurish attempts at practicing their signature.</li>
+		<li>bookQualityBad->The pages from one entire chapter have been torn out, leaving ragged stumps of paper.</li>
+		<li>bookQualityBad->The previous owner of this copy has underlined every other word on every single page with different colored inks.</li>
+		<li>bookQualityBad->The top-left corner of several dozen pages contain crude sequential doodles, depicting a Mousekin farmer repeatedly bludgeoning a Grimalkin rapid-musketeer with a gardening hoe.</li>
+		
+		<li>bookQualityNormal(p=3)-></li>
+		<li>bookQualityNormal->A few pages of this copy have been dogeared.</li>
+		<li>bookQualityNormal->A pressed flower has been left inside the middle pages.</li>
+		<li>bookQualityNormal->The gold inlay on the cover has dulled with age, but the book is otherwise in good condition.</li>
+		<li>bookQualityNormal->The spine on this copy has been broken in several places, and the edges on several chapters are slightly worn, suggesting the previous owner found this book particularly useful.</li>
+		
+		<li>bookQualityGood->The book bears the imprint of a respected printing house in the capital city of Arcadia.</li>
+		<li>bookQualityGood->All the illuminations from the book have been richly illustrated with colored ink, and in some cases, adorned with gold leaf.</li>
+		<li>bookQualityGood->The cover, spine and pages are practically pristine, almost as if the previous owner treated it with great reverence - or simply never read its contents.</li>
+		<li>bookQualityGood->The cover bears intricate craftsmanship, in the form of fine details in the gold inlay illustrating the book's subject matter.</li>
+	-->
+	<MousekinBookUtility.rulePack.rulesStrings>
+		<li>volNumeral->I</li>
+		<li>volNumeral->II</li>
+		<li>volNumeral->III</li>
+		<li>volNumeral->IV</li>
+		<li>volNumeral->V</li>
+
+		<li>editionOrdinal->Primeiro</li>
+		<li>editionOrdinal->Segundo</li>
+		<li>editionOrdinal->Terceiro</li>
+		<li>editionOrdinal->Quarto</li>
+		<li>editionOrdinal->Quinto</li>
+
+		<li>titleSuffix->[volNumeral] parte</li>
+		<li>titleSuffix->[volNumeral] volume</li>
+		<li>titleSuffix->[editionOrdinal] edição</li>
+
+		<li>authorSurname(p=10)->[Mousekin_LastName_Commoner]</li>
+		<li>authorSurname->[Mousekin_LastName_Heroic]</li>
+		<li>authorFullname(p=8)->[Mousekin_FirstName_Male]·[authorSurname]</li>
+		<li>authorFullname->[Mousekin_FirstName_Female]·[authorSurname]</li>
+
+		<li>bookQualityBad->Quase todas as páginas estão prestes a se soltar da lombada.</li>
+		<li>bookQualityBad->Larvas infestaram as capas de couro e a lombada.</li>
+		<li>bookQualityBad->Quase todas as páginas foram descoloridas pela fumaça de um incêndio, tornando o conteúdo quase ilegível.</li>
+		<li>bookQualityBad->Abrir a capa libera um odor rançoso de urina, sugerindo que o proprietário anterior usava este exemplar como apoio para um penico.</li>
+		<li>bookQualityBad->Várias páginas têm manchas de uma caneca de café de Chonko.</li>				
+		<li>bookQualityBad->O conteúdo e as páginas introdutórias foram completamente obscurecidos por tinta preta derramada, que penetrou por várias camadas de papel.</li>
+		<li>bookQualityBad->As folhas de guarda da frente e de trás estão quase totalmente cobertas pelas tentativas amadoras do proprietário anterior de praticar sua assinatura.</li>
+		<li>bookQualityBad->As páginas de um capítulo inteiro foram arrancadas, deixando tocos de papel irregulares.</li>
+		<li>bookQualityBad->O proprietário anterior sublinhou cada outra palavra em todas as páginas com diferentes cores de tinta.</li>
+		<li>bookQualityBad->O canto superior esquerdo de várias dezenas de páginas contém rabiscos sequenciais grosseiros, mostrando um fazendeiro Mousekin repetidamente golpeando um pistoreiro Grimalkin com uma enxada de jardim.</li>
+
+
+		<li>bookQualityNormal(p=3)-></li>
+		<li>bookQualityNormal->Algumas páginas deste exemplar estão dobradas nos cantos.</li>
+		<li>bookQualityNormal->Uma flor prensada foi deixada entre as páginas do meio.</li>
+		<li>bookQualityNormal->O dourado da capa perdeu o brilho com a idade, mas o livro está em boas condições.</li>
+		<li>bookQualityNormal->A lombada deste exemplar está quebrada em vários pontos, e as bordas de vários capítulos estão levemente gastas, sugerindo que o proprietário anterior considerava este livro particularmente útil.</li>
+
+		<li>bookQualityGood->O livro carrega o selo de uma respeitada editora na cidade capital de Arcádia.</li>
+		<li>bookQualityGood->Todas as ilustrações do livro foram ricamente desenhadas com tinta colorida, e em alguns casos adornadas com folha de ouro.</li>
+		<li>bookQualityGood->A capa, lombada e páginas estão praticamente intactas, quase como se o proprietário anterior tivesse tratado o livro com grande reverência – ou simplesmente nunca tivesse lido seu conteúdo.</li>
+		<li>bookQualityGood->A capa apresenta um trabalho artesanal intrincado, com detalhes finos em dourado ilustrando o tema do livro.</li>
+	</MousekinBookUtility.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>title(p=5)->A Treatise on [subject_primary]</li>
+		<li>title(p=5)->Notes on [subject_primary]</li>
+		<li>title(p=5)->Understanding [subject_primary]</li>
+		<li>title(p=5)->Principles of [subject_primary]</li>
+		<li>title(p=5)->The Fundamentals of [subject_primary]</li>
+		<li>title->[subject_primary], [titleSuffix]</li>
+		<li>title->The Guidebook to [subject_primary], [titleSuffix]</li>
+	-->	
+	<NamerBook_Mousekin_BookResearch.rulePack.rulesStrings>
+		<li>title(p=5)->Um Tratado Sobre [subject_primary]</li>
+		<li>title(p=5)->Notas Sobre [subject_primary]</li>
+		<li>title(p=5)->Compreendendo [subject_primary]</li>
+		<li>title(p=5)->Princípios de [subject_primary]</li>
+		<li>title(p=5)->Os Fundamentos de [subject_primary]</li>
+		<li>title->[subject_primary], [titleSuffix]</li>
+		<li>title->O Guia de [subject_primary], [titleSuffix]</li>
+	</NamerBook_Mousekin_BookResearch.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>subject->[subject_primary]</li>
+				
+		<li>desc->[bookDesc]\n\n[bookQuality]</li>
+		
+		<li>bookDesc->Drawing on [authorFullname]'s years of practical experience, this [bookType] establishes the author as a leading authority in [subject] throughout the Mousekin Kingdom.</li>
+		<li>bookDesc->[authorFullname] [subject_primary_story]. This [bookType] is the author's collation of various notes, rules of thumb, and case studies on [subject_primary_gerund].</li>
+		<li>bookDesc->This [bookType] by [authorFullname] is widely regarded as an excellent introductory text on [subject], covering fundamental theories, history, common techniques and practical applications.</li>
+		<li>bookDesc->This [bookType] by [authorFullname] is primarily a collection of detailed sketches and notes on practical examples of [subject], with the occasional witty but topical anecdote.</li>
+		
+		<li>bookType->codex</li>
+		<li>bookType->compendium</li>
+		<li>bookType->tome</li>
+		
+		<li>bookQuality(quality[less_than]2)->[bookQualityBad]</li>
+		<li>bookQuality(quality[less_than]4,quality[greater_than]1)->[bookQualityNormal]</li>
+		<li>bookQuality(quality[greater_than]3)->[bookQualityGood]</li>
+	-->
+	<Description_Mousekin_BookResearch.rulePack.rulesStrings>
+		<li>subject->[subject_primary]</li>
+
+		<li>desc->[bookDesc]\n\n[bookQuality]</li>
+
+		<li>bookDesc->Aproveitando os anos de experiência prática de [authorFullname], este [bookType] estabelece o autor como uma autoridade líder em [subject] em todo o Reino Mousekin.</li>
+		<li>bookDesc->[authorFullname] [subject_primary_story]. Este [bookType] é a compilação do autor de várias notas, regras práticas e estudos de caso sobre [subject_primary_gerund].</li>
+		<li>bookDesc->Este [bookType] de [authorFullname] é amplamente considerado um excelente texto introdutório sobre [subject], cobrindo teorias fundamentais, história, técnicas comuns e aplicações práticas.</li>
+		<li>bookDesc->Este [bookType] de [authorFullname] é principalmente uma coleção de esboços detalhados e notas sobre exemplos práticos de [subject], com ocasionais anedotas espirituosas, porém pertinentes.</li>
+
+
+		<li>bookType->códice</li>
+		<li>bookType->compêndio</li>
+		<li>bookType->tomo</li>
+
+		<li>bookQuality(quality[less_than]2)->[bookQualityBad]</li>
+		<li>bookQuality(quality[less_than]4,quality[greater_than]1)->[bookQualityNormal]</li>
+		<li>bookQuality(quality[greater_than]3)->[bookQualityGood]</li>
+	</Description_Mousekin_BookResearch.rulePack.rulesStrings>
+
+</LanguageData>

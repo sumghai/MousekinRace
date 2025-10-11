@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: bulk goods trader -->
+	<Mousekin_TraderCaravan_Bulk.label>Comerciante de Produtos em Massa</Mousekin_TraderCaravan_Bulk.label>
+
+	<!-- EN: clothing merchant -->
+	<Mousekin_TraderCaravan_Apparel.label>Comerciante de Roupas</Mousekin_TraderCaravan_Apparel.label>
+
+	<!-- EN: livestock trader -->
+	<Mousekin_TraderCaravan_Animals.label>Comerciante de Gado</Mousekin_TraderCaravan_Animals.label>
+
+	<!-- EN: ironmonger -->
+	<Mousekin_TraderCaravan_MilitaryKingdom.label>Ferreiro</Mousekin_TraderCaravan_MilitaryKingdom.label>
+	<Mousekin_TraderCaravan_MilitaryIndyTown.label>Ferreiro</Mousekin_TraderCaravan_MilitaryIndyTown.label>
+	
+	<!-- EN: slave trader -->
+	<Mousekin_TraderCaravan_Slaves.label>Negociante de Escravos</Mousekin_TraderCaravan_Slaves.label>
+	
+	<!-- EN: exotic goods trader -->
+	<Mousekin_TraderCaravan_Exotic.label>Comerciante de Produtos Exóticos</Mousekin_TraderCaravan_Exotic.label>
+	
+</LanguageData>

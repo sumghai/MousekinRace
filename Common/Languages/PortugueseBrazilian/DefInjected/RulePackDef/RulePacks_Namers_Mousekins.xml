@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- No translation required for pawn naming rules -->
+
+	<MousekinNamePackUtility.rulePack.rulesStrings>
+		<li>Mousekin_FirstName_Male(p=10)->[mousekin_firstname_male]</li>
+		<li>Mousekin_FirstName_Female(p=10)->[mousekin_firstname_female]</li>
+		<li>Mousekin_LastName_Commoner->[mousekin_surname_commoner]</li>
+		<li>Mousekin_LastName_Heroic->[mousekin_surname_heroic]</li>
+		<li>Mousekin_LastName_Royal->[mousekin_surname_royal]</li>
+	</MousekinNamePackUtility.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinMale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+	</NamerPerson_MousekinMale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinFemale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+	</NamerPerson_MousekinFemale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinHeroicMale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>r_name(p=2)->[Mousekin_FirstName_Male] [Mousekin_LastName_Heroic]</li>
+	</NamerPerson_MousekinHeroicMale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		<li>r_name(p=2)->[Mousekin_FirstName_Female] [Mousekin_LastName_Heroic]</li>
+	</NamerPerson_MousekinHeroicFemale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinRoyalMale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</li>
+	</NamerPerson_MousekinRoyalMale.rulePack.rulesStrings>
+	
+	<NamerPerson_MousekinRoyalFemale.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</li>
+	</NamerPerson_MousekinRoyalFemale.rulePack.rulesStrings>
+	
+</LanguageData>

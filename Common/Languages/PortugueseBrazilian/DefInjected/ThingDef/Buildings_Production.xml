@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>		<!-- EN: Mousekin cast-iron stove -->
+	<Mousekin_CastIronStove.label>Fogão de Ferro Fundido Mousekin</Mousekin_CastIronStove.label>
+	
+	<!-- EN: A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals. -->
+	<Mousekin_CastIronStove.description>Um pesado fogão de ferro fundido com várias bocas e dois fornos, usado para preparar refeições complexas.</Mousekin_CastIronStove.description>
+	
+	<!-- EN: Mousekin alchemy bench -->
+	<Mousekin_WorkbenchAlchemy.label>Bancada de Alquimia Mousekin</Mousekin_WorkbenchAlchemy.label>
+	
+	<!-- EN: A workbench for concocting various Mousekin herbal poultices, potions and explosives. -->
+	<Mousekin_WorkbenchAlchemy.description>Uma bancada para preparar diversos cataplasmas, poções e explosivos herbais Mousekin.</Mousekin_WorkbenchAlchemy.description>
+	
+	<!-- EN: Mousekin brewery -->
+	<Mousekin_WorkbenchBrewery.label>Bancada de Cervejaria Mousekin</Mousekin_WorkbenchBrewery.label>
+	
+	<!-- EN: A workbench for preparing musts used in the fermentation of various Mousekin alcoholic beverages. -->
+	<Mousekin_WorkbenchBrewery.description>Uma bancada usada para preparar mostos destinados à fermentação de diferentes bebidas alcoólicas Mousekin.</Mousekin_WorkbenchBrewery.description>
+	
+	<!-- EN: Mousekin butcher table -->
+	<Mousekin_WorkbenchButcher.label>Mesa de Açougue Mousekin</Mousekin_WorkbenchButcher.label>
+	
+	<!-- EN: A workbench with a sturdy countertop used for butchering dead creatures into pieces of raw meat. -->
+	<Mousekin_WorkbenchButcher.description>Uma bancada com tampo robusto, usada para esquartejar criaturas mortas em pedaços de carne crua.</Mousekin_WorkbenchButcher.description>
+	
+	<!-- EN: Mousekin crafting bench -->
+	<Mousekin_WorkbenchCrafting.label>Bancada de Artesanato Mousekin</Mousekin_WorkbenchCrafting.label>
+	
+	<!-- EN: A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting stone blocks and carving sculptures. -->
+	<Mousekin_WorkbenchCrafting.description>Uma bancada para produzir desde mecanismos de relojoaria e óculos até martelos de madeira, granadas de bolota, blocos de pedra e esculturas.</Mousekin_WorkbenchCrafting.description>
+	
+	<!-- EN: Mousekin smithy -->
+	<Mousekin_WorkbenchSmithy.label>Forja Mousekin</Mousekin_WorkbenchSmithy.label>
+	
+	<!-- EN: A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty. -->
+	<Mousekin_WorkbenchSmithy.description>Uma forja com bigorna e barril de têmpera, usada para fabricar armas, ferramentas e armaduras Mousekin. Usa madeira como combustível e pode funcionar ao ar livre sem penalidade.</Mousekin_WorkbenchSmithy.description>
+	
+	<!-- EN: Mousekin seamstress bench -->
+	<Mousekin_WorkbenchTailor.label>Bancada de Costura Mousekin</Mousekin_WorkbenchTailor.label>
+	
+	<!-- EN: A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing. -->
+	<Mousekin_WorkbenchTailor.description>Uma bancada equipada com máquina de costura de pedal em ferro fundido, usada para confeccionar roupas Mousekin.</Mousekin_WorkbenchTailor.description>
+	
+	<!-- EN: Mousekin beehive -->
+	<Mousekin_Beehive.label>Colmeia Mousekin</Mousekin_Beehive.label>
+	
+	<!-- EN: A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate. -->
+	<Mousekin_Beehive.description>Uma colmeia de madeira para criação de abelhas. Graças à engenhosidade Mousekin, os favos se abrem com uma simples alavanca, permitindo colher mel e cera sem incomodar as abelhas. Exige ao menos 20 flores no raio marcado para funcionar.</Mousekin_Beehive.description>
+	
+	<!-- EN: Mousekin charcoal pile -->
+	<Mousekin_CharcoalPile.label>Monte de Carvão Mousekin</Mousekin_CharcoalPile.label>
+	
+	<!-- EN: A carefully arranged pile of wood covered with soil, inside which a fire is lit to carbonize the wood in the absence of oxygen. Produces a large amount of charcoal after three days. -->
+	<Mousekin_CharcoalPile.description>Uma pilha de madeira coberta de terra, incendiada internamente para carbonizar sem oxigênio. Após três dias, produz grande quantidade de carvão.</Mousekin_CharcoalPile.description>
+	
+	<!-- EN: Mousekin cheese press -->
+	<Mousekin_CheesePress.label>Prensa de Queijo Mousekin</Mousekin_CheesePress.label>
+	
+	<!-- EN: A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese. -->
+	<Mousekin_CheesePress.description>Um dispositivo de madeira para prensar o soro do leite coalhado, criando rodas de Queijo-Trevo.</Mousekin_CheesePress.description>
+	
+	<!-- EN: Mousekin fermenting barrel -->
+	<Mousekin_FermentingBarrel.label>Barril de Fermentação Mousekin</Mousekin_FermentingBarrel.label>
+	
+	<!-- EN: A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room. -->
+	<Mousekin_FermentingBarrel.description>Um grande barril para fermentar várias bebidas alcoólicas Mousekin. Requer um ambiente fresco e escuro.</Mousekin_FermentingBarrel.description>
+	
+	<!-- EN: Mousekin mine entrance -->
+	<Mousekin_MineEntrance.label>Entrada de Mina Mousekin</Mousekin_MineEntrance.label>
+	
+	<!-- EN: A large wooden building with a pair of treadwheels flanking a central scaffold tower, which serves as an enclosed entrance to an underground mineshaft. Multiple colonists can simultaneously mine for resources here until deposits are depleted. -->
+	<Mousekin_MineEntrance.description>Um edifício de madeira com rodas de tração e torre central, servindo	como entrada fechada de mina subterrânea. Vários colonos podem extrair recursos até esgotarem-se os depósitos.</Mousekin_MineEntrance.description>
+	
+	<!-- EN: Mousekin nitrary -->
+	<Mousekin_Nitrary.label>Monte de salitre Mousekin</Mousekin_Nitrary.label>
+	
+	<!-- EN: Piles of manure mixed with wood ash, moistened by rain and urine. Produces saltpeter through efflorescence after 15 days. -->
+	<Mousekin_Nitrary.description>Montes de esterco misturado a cinzas de madeira, umedecidos por chuva e urina. Após 15 dias, produzem salitre por eflorescência.</Mousekin_Nitrary.description>
+	
+	<!-- EN: Mousekin research bench -->
+	<Mousekin_ResearchBench.label>Bancada de Pesquisa Mousekin</Mousekin_ResearchBench.label>
+	
+	<!-- EN: A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things. -->
+	<Mousekin_ResearchBench.description>Uma mesa com vidrarias, componentes, ferramentas simples, materiais de escrita e livros. Pesquisadores Mousekin a utilizam para descobrir novidades.</Mousekin_ResearchBench.description>
+	
+	<!-- EN: Mousekin windmill -->
+	<Mousekin_Windmill.label>Moinho de Vento Mousekin</Mousekin_Windmill.label>
+	
+	<!-- EN: A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water. -->
+	<Mousekin_Windmill.description>Uma torre de madeira que converte vento em energia rotativa, usada para moagem de grãos e bombeamento de água. Lentamente equilibra a umidade do solo próximo, transformando pântanos e águas rasas em terra seca, areia fofa em areia normal, e solo comum em fértil. Não afeta águas profundas.</Mousekin_Windmill.description>	
+</LanguageData>

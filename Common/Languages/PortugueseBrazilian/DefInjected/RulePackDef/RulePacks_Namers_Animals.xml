@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- No translation required for animal naming rules -->
+	
+	<MousekinNamerAnimalGiantCavy.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_AnimalName_GiantCavy]</li>
+	</MousekinNamerAnimalGiantCavy.rulePack.rulesStrings>
+	
+	<MousekinNamerAnimalPudgemouse.rulePack.rulesStrings>
+		<li>r_name(p=5)->[Mousekin_AnimalName_Pudgemouse]</li>
+	</MousekinNamerAnimalPudgemouse.rulePack.rulesStrings>
+	
+</LanguageData>

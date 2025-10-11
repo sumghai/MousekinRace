@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin candle -->
+	<Mousekin_Candle.label>Vela Mousekin</Mousekin_Candle.label>
+	
+	<!-- EN: Slow-burning beeswax candles used in lamps and lanterns. -->
+	<Mousekin_Candle.description>Velas de cera de abelha de queima lenta, utilizadas em lâmpadas e lanternas.</Mousekin_Candle.description>
+	
+	<!-- EN: charcoal -->
+	<Mousekin_Charcoal.label>Carvão</Mousekin_Charcoal.label>
+	
+	<!-- EN: Lightweight carbon residue formed by strongly heating wood in the absence of oxygen to remove all water and volatile compounds. Can be used as an efficient source of heating fuel, or for making gunpowder. -->
+	<Mousekin_Charcoal.description>Resíduo leve de carbono formado ao aquecer fortemente madeira na ausência de oxigênio para remover toda a água e compostos voláteis. Pode ser usado como fonte eficiente de combustível para aquecimento ou para fabricação de pólvora.</Mousekin_Charcoal.description>
+	
+	<!-- EN: clockwork mechanism -->
+	<Mousekin_ClockworkComponent.label>Mecanismo de corda</Mousekin_ClockworkComponent.label>
+	
+	<!-- EN: Assorted metal springs, gears and levers used for crafting complex Mousekin devices. -->
+	<Mousekin_ClockworkComponent.description>Conjunto de molas, engrenagens e alavancas de metal usadas para construir dispositivos complexos dos Mousekin.</Mousekin_ClockworkComponent.description>
+	
+	<!-- EN: gunpowder -->
+	<Mousekin_Gunpowder.label>Pólvora</Mousekin_Gunpowder.label>
+	
+	<!-- EN: An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful. -->
+	<Mousekin_Gunpowder.description>Um explosivo químico antigo feito ao moer e misturar carvão, salitre e enxofre. As fórmulas Mousekin tendem a deflagrar mais rápido que as humanas, sendo assim menos potentes.</Mousekin_Gunpowder.description>
+	
+	<!-- EN: Mousekin poultice -->
+	<Mousekin_MedicinePoultice.label>Cataplasma Mousekin</Mousekin_MedicinePoultice.label>
+	
+	<!-- EN: A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals. -->
+	<Mousekin_MedicinePoultice.description>Um saco de tecido contendo uma massa macia e úmida de ervas medicinais cuidadosamente selecionadas e casca de árvore em pó. Graças ao conhecimento dos alquimistas Mousekin, são mais potentes que remédios herbais humanos e armazenam bem, embora não sejam tão eficazes quanto produtos farmacêuticos industriais.</Mousekin_MedicinePoultice.description>
+	
+</LanguageData>

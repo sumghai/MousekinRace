@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: giant cavy -->
+	<Mousekin_AnimalGiantCavy.label>Cobaião</Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Giant cavy")\n\nA giant, docile rodent several orders of magnitude larger than the common guinea pig, and can withstand harsh climates fairly well. They subsist on a high-fiber diet of grass, hay, berries, fruits and vegetables, and are known to also consume their own feces in order to recycle vital trace nutrients.\n\nOriginally genetically-engineered and bred by humans millenia ago as a potential food source for austere frontier colonies, prehistoric Mousekins eventually successfully domesticated these peculiar creatures as companions, riding mounts and pack animals. -->
+	<Mousekin_AnimalGiantCavy.description>Species: &lt;i&gt;Cavia giganteus&lt;/i&gt; ("Cobaião")\n\nUm roedor gigante e dócil, vários níveis de magnitude maior que um porquinho-da-índia comum, capaz de suportar climas rigorosos. Alimenta-se de grama, feno, frutas silvestres, frutas e vegetais, e é conhecido por consumir suas próprias fezes para reciclar nutrientes essenciais em traços.\n\nOriginalmente geneticamente modificado e criado por humanos há milênios como fonte de alimento potencial para colônias fronteiriças austeras, os Mousekins pré-históricos eventualmente domesticaram essas criaturas peculiares como companheiros, montarias e animais de carga.</Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalGiantCavy.tools.1.label>Cabeça</Mousekin_AnimalGiantCavy.tools.1.label>
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalGiantCavy.tools.2.label>Garra esquerda</Mousekin_AnimalGiantCavy.tools.2.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalGiantCavy.tools.3.label>Garra direita</Mousekin_AnimalGiantCavy.tools.3.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.label>Carne de Cobaião</Meat_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy meat -->
+	<Meat_Mousekin_AnimalGiantCavy.description>Carne crua do Cobaião, pode ser cozida ou consumida crua.</Meat_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.label>Corpo de Cobaião</Corpse_Mousekin_AnimalGiantCavy.label>
+	
+	<!-- EN: giant cavy corpse -->
+	<Corpse_Mousekin_AnimalGiantCavy.description>Corpo de Cobaião.</Corpse_Mousekin_AnimalGiantCavy.description>
+	
+	<!-- EN: Pudgemouse -->
+	<Mousekin_AnimalPudgemouse.label>Ratinho-gordinho</Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: Species: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Fat ash-grey mouse")\n\nA large chihuahua-sized species of grey-furred rodents capable of walking only on their hind legs for extended periods of time. They subsist on a mixed diet of fruits, seeds and grains, and will happily eat meat as well.\n\nDue to their unusually high level of intelligence and empathy, as well as their apparent ability to understand both written and spoken humanoid languages (despite being incapable of vocalizing actual words themselves beyond squeaking), these mice are easily domesticated as companions and pets by Mousekins, and are universally exempt from any rules that otherwise prohibit pet animals. -->
+	<Mousekin_AnimalPudgemouse.description>Species: &lt;i&gt;Mus albocinereus crassus&lt;/i&gt; ("Ratinho Gurdo Cizento")\n\nUm roedor de tamanho equivalente a um chihuahua com pelagem cinza, capaz de caminhar longos períodos apenas sobre as patas traseiras. Alimenta-se de uma dieta mista de frutas, sementes e grãos, e aceita carne sem problemas.\n\nDevido ao seu nível incomum de inteligência e empatia, assim como à capacidade aparente de compreender tanto línguas escritas quanto faladas de humanoides (apesar de não poder emitir palavras humanas além de guinchos), esses ratos são facilmente domesticados como companheiros e animais de estimação pelos Mousekins, estando isentos de quaisquer regras que normalmente proíbam animais de estimação.</Mousekin_AnimalPudgemouse.description>
+	
+	
+	<!-- EN: left claw -->
+	<Mousekin_AnimalPudgemouse.tools.0.label>Garra esquerda</Mousekin_AnimalPudgemouse.tools.0.label>
+	
+	<!-- EN: right claw -->
+	<Mousekin_AnimalPudgemouse.tools.1.label>Garra direita</Mousekin_AnimalPudgemouse.tools.1.label>
+	
+	<!-- EN: head -->
+	<Mousekin_AnimalPudgemouse.tools.3.label>Cabeça</Mousekin_AnimalPudgemouse.tools.3.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.label>Carne de ratinho-gordinho</Meat_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse meat -->
+	<Meat_Mousekin_AnimalPudgemouse.description>Carne crua do ratinho-gordinho, pode ser cozida ou consumida crua.</Meat_Mousekin_AnimalPudgemouse.description>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.label>Corpo de ratinho-gordinho</Corpse_Mousekin_AnimalPudgemouse.label>
+	
+	<!-- EN: pudgemouse corpse -->
+	<Corpse_Mousekin_AnimalPudgemouse.description>Corpo de ratinho-gordinho.</Corpse_Mousekin_AnimalPudgemouse.description>
+	
+</LanguageData>

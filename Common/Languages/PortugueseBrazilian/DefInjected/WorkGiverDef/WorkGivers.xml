@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: mine resources from mine entrances -->
+	<Mousekin_MineResourcesFromMineEntrance.label>Minerar recursos na mina</Mousekin_MineResourcesFromMineEntrance.label>
+	
+	<!-- EN: mine -->
+	<Mousekin_MineResourcesFromMineEntrance.verb>Minerar</Mousekin_MineResourcesFromMineEntrance.verb>
+	
+	<!-- EN: mining -->
+	<Mousekin_MineResourcesFromMineEntrance.gerund>Minerando</Mousekin_MineResourcesFromMineEntrance.gerund>
+
+	<!-- EN: make things at crafting bench -->
+	<Mousekin_DoBillsUseCraftingBench.label>Fazer itens na bancada de artesanato</Mousekin_DoBillsUseCraftingBench.label>
+
+	<!-- EN: craft -->
+	<Mousekin_DoBillsUseCraftingBench.verb>Fazer</Mousekin_DoBillsUseCraftingBench.verb>
+
+	<!-- EN: crafting at -->
+	<Mousekin_DoBillsUseCraftingBench.gerund>Fazendo</Mousekin_DoBillsUseCraftingBench.gerund>
+	
+	<!-- EN: empty ashes from hearths -->
+	<Mousekin_EmptyAshesFromHearth.label>Esvaziar cinzas do fogão</Mousekin_EmptyAshesFromHearth.label>
+	
+	<!-- EN: empty ashes from -->
+	<Mousekin_EmptyAshesFromHearth.verb>Esvaziar cinzas</Mousekin_EmptyAshesFromHearth.verb>
+	
+	<!-- EN: emptying ashes from -->
+	<Mousekin_EmptyAshesFromHearth.gerund>Esvaziando cinzas</Mousekin_EmptyAshesFromHearth.gerund>
+
+	<!-- EN: harvest products from beehives -->
+	<Mousekin_HarvestFromBeehive.label>Colher produtos da colmeia</Mousekin_HarvestFromBeehive.label>
+
+	<!-- EN: harvest products from -->
+	<Mousekin_HarvestFromBeehive.verb>Colher produtos</Mousekin_HarvestFromBeehive.verb>
+
+	<!-- EN: harvesting products from -->
+	<Mousekin_HarvestFromBeehive.gerund>Colhendo produtos</Mousekin_HarvestFromBeehive.gerund>
+	
+</LanguageData>

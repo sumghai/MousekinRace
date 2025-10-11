@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Install Cloth Mousekin Ear -->
+	<Mousekin_InstallProstheticClothEar.label>Instalar Orelha de Recido Mousekin</Mousekin_InstallProstheticClothEar.label>
+
+	<!-- EN: Install a cloth Mousekin ear. -->
+	<Mousekin_InstallProstheticClothEar.description>Instalar uma Orelha de Recido Mousekin.</Mousekin_InstallProstheticClothEar.description>
+
+	<!-- EN: Installing Cloth Mousekin Ear. -->
+	<Mousekin_InstallProstheticClothEar.jobString>Instalando Orelha de Recido Mousekin.</Mousekin_InstallProstheticClothEar.jobString>
+
+	<!-- EN: Install Cloth Mousekin Tail -->
+	<Mousekin_InstallProstheticClothTail.label>Instalar Cauda de Recido Mousekin</Mousekin_InstallProstheticClothTail.label>
+
+	<!-- EN: Install a cloth Mousekin tail. -->
+	<Mousekin_InstallProstheticClothTail.description>Instalar uma Cauda de Recido Mousekin.</Mousekin_InstallProstheticClothTail.description>
+
+	<!-- EN: Installing Cloth Mousekin Tail. -->
+	<Mousekin_InstallProstheticClothTail.jobString>Instalando Cauda de Recido Mousekin.</Mousekin_InstallProstheticClothTail.jobString>
+
+	<!-- EN: Install Mousekin Ear -->
+	<Mousekin_InstallNaturalEar.label>Instalar Orelha de Mousekin</Mousekin_InstallNaturalEar.label>
+
+	<!-- EN: Install a biological Mousekin ear. -->
+	<Mousekin_InstallNaturalEar.description>Instalar uma Orelha natural de Mousekin.</Mousekin_InstallNaturalEar.description>
+
+	<!-- EN: Installing Mousekin Ear -->
+	<Mousekin_InstallNaturalEar.jobString>Instalando Orelha de Mousekin.</Mousekin_InstallNaturalEar.jobString>
+
+	<!-- EN: Install Mousekin Tail -->
+	<Mousekin_InstallNaturalTail.label>Instalar Cauda de Mousekin</Mousekin_InstallNaturalTail.label>
+
+	<!-- EN: Install a biological Mousekin tail. -->
+	<Mousekin_InstallNaturalTail.description>Instalar uma Cauda natural de Mousekin.</Mousekin_InstallNaturalTail.description>
+
+	<!-- EN: Installing Mousekin Tail -->
+	<Mousekin_InstallNaturalTail.jobString>Instalando Cauda de Mousekin.</Mousekin_InstallNaturalTail.jobString>
+	
+</LanguageData>

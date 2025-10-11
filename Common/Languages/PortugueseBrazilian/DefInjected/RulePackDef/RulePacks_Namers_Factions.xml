@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: 
+		<li>r_name->The Kingdom of [Herb]</li> 
+		<li>r_name->The Kingdom of the [Flower]</li>
+		<li>r_name->Kingdom of [Herb]</li>
+		<li>r_name->Kingdom of the [Flower]</li>
+		<li>r_name->The [Flower] Kingdom</li>
+	-->
+	<NamerFaction_MousekinKingdom.rulePack.rulesStrings>
+		<li>r_name->Reino de [Herb]</li>
+		<li>r_name->Reino de [Flower]</li>
+		<li>r_name->Reino de [Herb]</li>
+		<li>r_name->Reino de [Flower]</li>
+		<li>r_name->Reino de [Flower]</li>
+	</NamerFaction_MousekinKingdom.rulePack.rulesStrings>
+
+	<!-- EN: 
+		<li>r_name->Free Mousekin [PoliticalUnion]</li>
+		<li>r_name->[PoliticalUnion] of Free Mousekins</li>
+	-->
+	<NamerFaction_MousekinIndyTown.rulePack.rulesStrings>
+		<li>r_name->Independente Mousekin [PoliticalUnion]</li>
+		<li>r_name->Democrático Mousekin [PoliticalUnion]</li>
+	</NamerFaction_MousekinIndyTown.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_name->[Region_Type] of [Place_Name]</li>
+	-->
+	<NamerFaction_MousekinPlayerKingdom.rulePack.rulesStrings>
+		<li>r_name->[Region_Type] de [Place_Name]</li>
+	</NamerFaction_MousekinPlayerKingdom.rulePack.rulesStrings>
+	
+	<!-- EN: 
+		<li>r_name->[Region_Type] of [Place_Name]</li>
+	-->
+	<NamerFaction_MousekinPlayerIndyTown.rulePack.rulesStrings>
+		<li>r_name->[Region_Type] de [Place_Name]</li>
+	</NamerFaction_MousekinPlayerIndyTown.rulePack.rulesStrings>
+
+	<!-- EN: 
+		<li>r_name->The [MousekinGangName]</li>
+	-->
+	<NamerFaction_MousekinBrigands.rulePack.rulesStrings>
+		<li>r_name->O [MousekinGangName]</li>
+	</NamerFaction_MousekinBrigands.rulePack.rulesStrings>
+
+</LanguageData>

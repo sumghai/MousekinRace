@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin bookcase -->
+	<Mousekin_Bookcase.label>Estante Mousekin</Mousekin_Bookcase.label>
+	
+	<!-- EN: A wide bookcase for storing and displaying up to twenty books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+	<Mousekin_Bookcase.description>Uma estante larga que pode armazenar até 20 livros. Os livros guardados nela melhoram de forma passiva o trabalho intelectual realizado nas proximidades, aumentam a beleza da estante e nunca se deterioram.</Mousekin_Bookcase.description>
+	
+	<!-- EN: Mousekin small bookcase -->
+	<Mousekin_BookcaseSmall.label>Estante piqueno Mousekin</Mousekin_BookcaseSmall.label>
+	
+	<!-- EN: A narrow bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+	<Mousekin_BookcaseSmall.description>Uma estante estreita que pode armazenar até dez livros. Os livros guardados nela melhoram de forma passiva o trabalho intelectual realizado nas proximidades, aumentam a beleza da estante e nunca se deterioram.</Mousekin_BookcaseSmall.description>
+
+	<!-- EN: Mousekin shelf -->
+	<Mousekin_Shelf.label>Prateleira Mousekin</Mousekin_Shelf.label>
+	
+	<!-- EN: A triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+	<Mousekin_Shelf.description>Uma prateleira de três níveis que armazena três vezes mais que o chão vazio. Os itens guardados nela nunca se deterioram e não afetam a beleza do ambiente.\n\nDevido ao espaço limitado, não é possível guardar blocos, construções, plantas ou grandes cadáveres.</Mousekin_Shelf.description>
+	
+	<!-- EN: Mousekin small shelf -->
+	<Mousekin_ShelfSmall.label>Prateleira Mousekin</Mousekin_ShelfSmall.label>
+	
+	<!-- EN: A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+	<Mousekin_ShelfSmall.description>Uma prateleira de três níveis que armazena três vezes mais que o chão vazio. Os itens guardados nela nunca se deterioram e não afetam a beleza do ambiente.\n\nDevido ao espaço limitado, não é possível guardar blocos, construções, plantas ou grandes cadáveres.</Mousekin_ShelfSmall.description>
+
+	<!-- EN: Mousekin root cellar -->
+	<Mousekin_CellarOutdoor.label>Adega de Raízes Mousekin</Mousekin_CellarOutdoor.label>
+	
+	<!-- EN: An underground structure traditionally used for long-term storage of raw food and alcoholic beverages, taking advantage of the naturally cooler temperatures under the earth mound to passively refrigerate its contents. -->
+	<Mousekin_CellarOutdoor.description>Uma estrutura subterrânea tradicionalmente usada para armazenar alimentos crus e bebidas alcoólicas por longo prazo, aproveitando as temperaturas mais frias sob o monte de terra para refrigerar passivamente o conteúdo.</Mousekin_CellarOutdoor.description>
+	
+</LanguageData>

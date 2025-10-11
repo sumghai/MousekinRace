@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>		<!-- EN: Mousekin Axe -->
+	<Mousekin_MeleeWeapon_Axe.label>Machado Mousekin</Mousekin_MeleeWeapon_Axe.label>
+	
+	<!-- EN: A bladed implement with a handle typically used to cut down trees, hew logs into timber and split firewood, but in a pinch can also be used as a crude but deadly weapon. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Axe.description>Uma ferramenta com lâmina e cabo, normalmente usada para derrubar árvores, cortar toras em madeira e rachar lenha, mas em emergências também pode ser usada como uma arma rústica porém mortal. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_Axe.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Axe.tools.0.label>Cabo</Mousekin_MeleeWeapon_Axe.tools.0.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_Axe.tools.1.label>Lâmina</Mousekin_MeleeWeapon_Axe.tools.1.label>
+	
+	<!-- EN: Mousekin Cleaver -->
+	<Mousekin_MeleeWeapon_Cleaver.label>Cutelo Mousekin</Mousekin_MeleeWeapon_Cleaver.label>
+	
+	<!-- EN: A large knife with a rectangular blade typically used to split large, thick pieces of meat. While it helps increase the amount of meat harvested when butchering animals, it is not a particularly good weapon. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Cleaver.description>Uma faca grande com lâmina retangular, usada para cortar pedaços de carne grandes e grossos. Embora aumente a quantidade de carne obtida ao abater animais, não é uma arma particularmente eficaz. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_Cleaver.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Cleaver.tools.0.label>Cabo</Mousekin_MeleeWeapon_Cleaver.tools.0.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_Cleaver.tools.1.label>Lâmina</Mousekin_MeleeWeapon_Cleaver.tools.1.label>
+	
+	<!-- EN: Mousekin Dagger -->
+	<Mousekin_MeleeWeapon_Dagger.label>Adaga Mousekin</Mousekin_MeleeWeapon_Dagger.label>
+	
+	<!-- EN: A cute little dagger, good for quick stabbing attacks and easily concealed under most Mousekin clothing. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Dagger.description>Uma pequena adaga fofa, boa para ataques rápidos de perfuração e facilmente escondida sob a maioria das roupas Mousekin. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_Dagger.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Dagger.tools.0.label>Cabo</Mousekin_MeleeWeapon_Dagger.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_Dagger.tools.1.label>Ponta</Mousekin_MeleeWeapon_Dagger.tools.1.label>
+	
+	<!-- EN: Mousekin Hammer -->
+	<Mousekin_MeleeWeapon_HammerMetal.label>Martelo Mousekin</Mousekin_MeleeWeapon_HammerMetal.label>
+	
+	<!-- EN: A hammer with a small metal head, used to beat and form metals into shape, as well as general construction work. Despite its small size, a Mousekin armed with a hammer can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_HammerMetal.description>Um martelo com pequena cabeça de metal, usado para bater e moldar metais, bem como para trabalhos de construção em geral. Apesar de seu tamanho pequeno, um Mousekin armado com um martelo ainda pode facilmente esmagar os dedos de um humano adulto. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_HammerMetal.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_HammerMetal.tools.0.label>Cabo</Mousekin_MeleeWeapon_HammerMetal.tools.0.label>
+	
+	<!-- EN: head -->
+	<Mousekin_MeleeWeapon_HammerMetal.tools.1.label>Cabeça</Mousekin_MeleeWeapon_HammerMetal.tools.1.label>
+	
+	<!-- EN: Mousekin Mallet -->
+	<Mousekin_MeleeWeapon_HammerWood.label>Marreta Mousekin</Mousekin_MeleeWeapon_HammerWood.label>
+	
+	<!-- EN: A hammer with a large wooden head, used in carpentry and general construction work. Despite its small size, a Mousekin armed with a mallet can still easily smash the fingers of an adult human. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_HammerWood.description>Um martelo com grande cabeça de madeira, usado na carpintaria e em trabalhos de construção em geral. Apesar do tamanho pequeno, um Mousekin armado com uma marreta ainda pode facilmente esmagar os dedos de um humano adulto. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_HammerWood.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_HammerWood.tools.0.label>Cabo</Mousekin_MeleeWeapon_HammerWood.tools.0.label>
+	
+	<!-- EN: head -->
+	<Mousekin_MeleeWeapon_HammerWood.tools.1.label>Cabeça</Mousekin_MeleeWeapon_HammerWood.tools.1.label>
+	
+	<!-- EN: Mousekin Hoe -->
+	<Mousekin_MeleeWeapon_Hoe.label>Enxada Mousekin</Mousekin_MeleeWeapon_Hoe.label>
+	
+	<!-- EN: A common agricultural hand tool used to break up soil, remove weeds and harvest root vegetables. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Hoe.description>Uma ferramenta agrícola comum usada para soltar o solo, remover ervas daninhas e colher raízes. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_Hoe.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Hoe.tools.0.label>Cabo</Mousekin_MeleeWeapon_Hoe.tools.0.label>
+	
+	<!-- EN: hoe head -->
+	<Mousekin_MeleeWeapon_Hoe.tools.1.label>Cabeça</Mousekin_MeleeWeapon_Hoe.tools.1.label>
+	
+	<!-- EN: hoe blade -->
+	<Mousekin_MeleeWeapon_Hoe.tools.2.label>Lâmina</Mousekin_MeleeWeapon_Hoe.tools.2.label>		<!-- EN: Mousekin Pickaxe -->
+	<Mousekin_MeleeWeapon_Pickaxe.label>Picareta Mousekin</Mousekin_MeleeWeapon_Pickaxe.label>
+	
+	<!-- EN: A hand tool with a large, curved metal blade, used to quickly dig at compacted soil and break up rocks. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Pickaxe.description>Uma ferramenta manual com grande lâmina de metal curva, usada para escavar rapidamente solo compactado e quebrar pedras. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_Pickaxe.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.0.label>Cabo</Mousekin_MeleeWeapon_Pickaxe.tools.0.label>
+	
+	<!-- EN: head -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.1.label>Cabeça</Mousekin_MeleeWeapon_Pickaxe.tools.1.label>
+	
+	<!-- EN: pick -->
+	<Mousekin_MeleeWeapon_Pickaxe.tools.2.label>Lâmina</Mousekin_MeleeWeapon_Pickaxe.tools.2.label>
+	
+	<!-- EN: Mousekin Pike -->
+	<Mousekin_MeleeWeapon_PikeRegular.label>Pique Mousekin</Mousekin_MeleeWeapon_PikeRegular.label>
+	
+	<!-- EN: A long polearm weapon, the Mousekin Pike is technically a pike-halberd hybrid, with a spear tip for fending off enemy cavalry charges, a hooked blade to pull enemy knights off their mounts, and an axe-like blade to deliver the final killing blow. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_PikeRegular.description>Uma arma de haste longa, a Lança Mousekin é tecnicamente um híbrido de alabarda e lança, com ponta para repelir cargas de cavalaria inimiga, lâmina com gancho para derrubar cavaleiros inimigos e lâmina tipo machado para o golpe final. É também uma das poucas armas Mousekin que humanos podem usar corretamente.</Mousekin_MeleeWeapon_PikeRegular.description>
+	
+	<!-- EN: shaft -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.0.label>Cabo</Mousekin_MeleeWeapon_PikeRegular.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.1.label>Ponta</Mousekin_MeleeWeapon_PikeRegular.tools.1.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_PikeRegular.tools.2.label>Lâmina</Mousekin_MeleeWeapon_PikeRegular.tools.2.label>
+	
+	<!-- EN: Mousekin Thunderpike -->
+	<Mousekin_MeleeWeapon_PikeThunder.label>Pique Trovejante Mousekin</Mousekin_MeleeWeapon_PikeThunder.label>
+	
+	<!-- EN: A variant of the standard Mousekin Pike used by soldiers from Independent Mousekin towns, with a large firecracker tied to its spear end capable of blasting enemy Mousekin knights or setting them on fire. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_PikeThunder.description>Uma variante da Lança Mousekin padrão usada por soldados de cidades Mousekin independentes, com um grande foguete preso à ponta, capaz de explodir cavaleiros inimigos ou incendiá-los. É também uma das poucas armas Mousekin que humanos podem usar corretamente.</Mousekin_MeleeWeapon_PikeThunder.description>
+	
+	<!-- EN: shaft -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.0.label>Cabo</Mousekin_MeleeWeapon_PikeThunder.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.1.label>Ponta</Mousekin_MeleeWeapon_PikeThunder.tools.1.label>
+	
+	<!-- EN: blade -->
+	<Mousekin_MeleeWeapon_PikeThunder.tools.2.label>Lâmina</Mousekin_MeleeWeapon_PikeThunder.tools.2.label>
+	
+	<!-- EN: Mousekin Thunderpike -->
+	<Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>Pique Trovejante Mousekin</Mousekin_MeleeWeapon_PikeThunder.verbs.Verb_Shoot.label>
+	
+	<!-- EN: Mousekin Pitchfork -->
+	<Mousekin_MeleeWeapon_Pitchfork.label>Forquilha Mousekin</Mousekin_MeleeWeapon_Pitchfork.label>
+	
+	<!-- EN: An agricultural hand tool with a long handle and three tines, used to pitch and pile straw. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_Pitchfork.description>Uma ferramenta agrícola de cabo longo com três dentes, usada para mover e empilhar palha. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_Pitchfork.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_Pitchfork.tools.0.label>Cabo</Mousekin_MeleeWeapon_Pitchfork.tools.0.label>
+	
+	<!-- EN: tines -->
+	<Mousekin_MeleeWeapon_Pitchfork.tools.1.label>Dentes</Mousekin_MeleeWeapon_Pitchfork.tools.1.label>
+	
+	<!-- EN: Mousekin Guardener’s Sword -->
+	<Mousekin_MeleeWeapon_SwordGuardener.label>Espada das Florineiras Mousekin</Mousekin_MeleeWeapon_SwordGuardener.label>
+	
+	<!-- EN: A one-handed shortsword carried by Guardeners, an elite order dedicated to tending and protecting the flower gardens of the Mousekin Kingdom. The light and compact design exemplifies the femininity and grace of the weapon’s user. Its handle is too small and thin for a human to wield properly -->
+	<Mousekin_MeleeWeapon_SwordGuardener.description>Uma espada curta de uma mão, carregada pelas Guardiãs, uma ordem de elite dedicada a cuidar e proteger os jardins floridos do Reino Mousekin. O design leve e compacto exemplifica a feminilidade e graça de quem a empunha. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_SwordGuardener.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>Cabo</Mousekin_MeleeWeapon_SwordGuardener.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>Ponta</Mousekin_MeleeWeapon_SwordGuardener.tools.1.label>
+	
+	<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>Lâmina</Mousekin_MeleeWeapon_SwordGuardener.tools.2.label>		<!-- EN: Mousekin Guardener’s Training Sword -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.label>Espada de Treino das Florineiras Mousekin</Mousekin_MeleeWeapon_SwordGuardenerTraining.label>
+	
+	<!-- EN: A wooden version of the Guardener shortsword, carried by apprentices as part of their training to tend and protect the flower gardens of the Mousekin Kingdom. The blunted blade reduces risk of injury during training. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.description>Versão de madeira da espada curta das Guardiãs, carregada por aprendizes como parte do treinamento para cuidar e proteger os jardins floridos do Reino Mousekin. A lâmina é cega para reduzir o risco de ferimentos durante o treino. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_SwordGuardenerTraining.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>Cabo</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.0.label>
+	
+	<!-- EN: wooden blade -->
+	<Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>Lãmina de Madeira</Mousekin_MeleeWeapon_SwordGuardenerTraining.tools.1.label>
+	
+	<!-- EN: Mousekin Knight’s Sword -->
+	<Mousekin_MeleeWeapon_SwordKnight.label>Espada de Cavaleiro Mousekin</Mousekin_MeleeWeapon_SwordKnight.label>
+	
+	<!-- EN: A longsword perfectly balanced for one-handed use, good for stabbing or slashing. Its handle is too small and thin for a human to wield properly. -->
+	<Mousekin_MeleeWeapon_SwordKnight.description>Uma espada longa perfeitamente balanceada para uso com uma mão, boa para perfuração ou corte. Seu cabo é pequeno demais para um humano manusear corretamente.</Mousekin_MeleeWeapon_SwordKnight.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.0.label>Cabo</Mousekin_MeleeWeapon_SwordKnight.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.1.label>Ponta</Mousekin_MeleeWeapon_SwordKnight.tools.1.label>
+	
+	<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordKnight.tools.2.label>Lâmina</Mousekin_MeleeWeapon_SwordKnight.tools.2.label>
+	
+	<!-- EN: Mousekin Knight’s Greatsword -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.label>Espada Gigante de Cavaleiro Mousekin</Mousekin_MeleeWeapon_SwordKnightLarge.label>
+	
+	<!-- EN: A long and heavy sword that requires both hands to wield, but if used properly, can literally split an enemy in two. It is also one of the few Mousekin weapons that humans can wield properly. -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.description>Uma espada longa e pesada que requer o uso de ambas as mãos, mas se usada corretamente, pode literalmente dividir um inimigo ao meio. É também uma das poucas armas Mousekin que humanos podem manusear corretamente.</Mousekin_MeleeWeapon_SwordKnightLarge.description>
+	
+	<!-- EN: handle -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>Cabo</Mousekin_MeleeWeapon_SwordKnightLarge.tools.0.label>
+	
+	<!-- EN: point -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>Ponta</Mousekin_MeleeWeapon_SwordKnightLarge.tools.1.label>
+	
+	<!-- EN: edge -->
+	<Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>Lâmina</Mousekin_MeleeWeapon_SwordKnightLarge.tools.2.label>
+	
+</LanguageData>
