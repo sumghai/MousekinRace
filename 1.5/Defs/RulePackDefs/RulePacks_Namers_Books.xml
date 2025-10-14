@@ -109,7 +109,6 @@
 				
 				<li>desc->[bookDescNonFiction]\n\n[bookQualityNonFic]</li>
 				
-				<li>bookDescNonFiction->[bookDescNonFictionNonFic]</li>
 				<li>bookDescNonFiction->[authorFullname] [subject_primary_story]. This [bookType] is the author's collation of various notes, rules of thumb, and case studies on [subject_primary_gerund].</li>
 				<li>bookDescNonFiction->This [bookType] by [authorFullname] is widely regarded as an excellent introductory text on [subject], covering fundamental theories, history, common techniques and practical applications.</li>
 				<li>bookDescNonFiction->This [bookType] by [authorFullname] is primarily a collection of detailed sketches and notes on practical examples of [subject], with the occasional witty but topical anecdote.</li>
