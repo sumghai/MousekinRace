@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Mousekin tale -->
+	<Mousekin_BookNovel.label>白鼠族小說</Mousekin_BookNovel.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, containing fictional or true stories of Mousekins for the pleasure and edification of the reader. -->
+	<Mousekin_BookNovel.description>一本皮面裝訂、活字印刷及泥金裝飾的書籍，記載虛構或真實的白鼠族故事，旨在愉悅和啟發讀者。</Mousekin_BookNovel.description>
+	
 	<!-- EN: Mousekin treatise -->
 	<Mousekin_BookResearch.label>白鼠族論文</Mousekin_BookResearch.label>
 	
 	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, detailing insights into new Mousekin technology and methods for using it. -->
 	<Mousekin_BookResearch.description>一本皮面裝訂、活字印刷及泥金裝飾的書籍，介紹新的白鼠族技術及使用方法。</Mousekin_BookResearch.description>
+	
+	<!-- EN: Mousekin textbook -->
+	<Mousekin_BookSkills.label>白鼠族課本</Mousekin_BookSkills.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, which focuses on teaching skills. -->
+	<Mousekin_BookSkills.description>一本皮面裝訂、活字印刷及泥金裝飾的書籍，專門傳授技巧。</Mousekin_BookSkills.description>
 
 </LanguageData>

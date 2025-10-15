@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Mousekin tale -->
+	<Mousekin_BookNovel.label>Сказка о мышкине</Mousekin_BookNovel.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, containing fictional or true stories of Mousekins for the pleasure and edification of the reader. -->
+	<Mousekin_BookNovel.description>Книга в кожаном переплете с печатными и рукописными иллюстрированными страницами, содержащая вымышленные или реальные истории о Мышкиных для удовольствия и назидания читателя.</Mousekin_BookNovel.description>
+	
+	<!-- EN: Mousekin treatise -->
+	<Mousekin_BookResearch.label>Трактат о мышкиных</Mousekin_BookResearch.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, detailing insights into new Mousekin technology and methods for using it. -->
+	<Mousekin_BookResearch.description>Книга в кожаном переплете с печатными и рукописными иллюстрированными страницами, содержащая подробную информацию о новой технологии Мышкины и методах ее использования.</Mousekin_BookResearch.description>
+	
+	<!-- EN: Mousekin textbook -->
+	<Mousekin_BookSkills.label>Учебник о мышкиных</Mousekin_BookSkills.label>
+	
+	<!-- EN: A leather-bound book with moveable-type printed and hand-illuminated pages, which focuses on teaching skills. -->
+	<Mousekin_BookSkills.description>Книга в кожаном переплете с печатными и рукописными иллюстрированными страницами, посвященная обучению навыкам.</Mousekin_BookSkills.description>
+
+</LanguageData>
