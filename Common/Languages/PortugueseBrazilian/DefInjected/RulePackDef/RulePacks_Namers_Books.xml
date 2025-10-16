@@ -302,7 +302,7 @@
 
 		<li>titleSuffix->No.[volNumeral]</li>
 		<li>titleSuffix->Vol.[volNumeral]</li>
-		<li>titleSuffix->Edição[editionOrdinal]</li>
+		<li>titleSuffix->Edição [editionOrdinal]</li>
 
 		<li>personMale->[Mousekin_FirstName_Male]·[Mousekin_LastName_Commoner]</li>
 		<li>personFemale->[Mousekin_FirstName_Female]·[Mousekin_LastName_Commoner]</li>
@@ -508,7 +508,7 @@
 		<li>bookQualityFic(quality[less_than]4,quality[greater_than]1)->[bookQualityFicNormal]</li>
 		<li>bookQualityFic(quality[greater_than]3)->[bookQualityFicGood]</li>
 
-		<li>bookQualityFicBad->[bookQualityFicBadFirstHalf]，[bookQualityFicBadSecondHalf]。</li>
+		<li>bookQualityFicBad->[bookQualityFicBadFirstHalf],[bookQualityFicBadSecondHalf].</li>
 		<li>bookQualityFicBadFirstHalf->a narrativa é frequentemente interrompida por muitos flashbacks</li>
 		<li>bookQualityFicBadFirstHalf->a narrativa é excessivamente previsível</li>
 		<li>bookQualityFicBadFirstHalf->a trama é cheia de furos e contradições</li>
@@ -522,7 +522,7 @@
 		<li>bookQualityFicBadSecondHalf->e o protagonista não mostra nenhum crescimento pessoal</li>
 		<li>bookQualityFicBadSecondHalf->e o próprio Valeriana o Sábio aparece de repente para resolver tudo, tornando o final forçado</li>
 
-		<li>bookQualityFicNormal->[bookQualityFicNormalFirstHalf]，[bookQualityFicNormalSecondHalf]。</li>
+		<li>bookQualityFicNormal->[bookQualityFicNormalFirstHalf],[bookQualityFicNormalSecondHalf].</li>
 		<li>bookQualityFicNormalFirstHalf->a narrativa da história é bastante envolvente</li>
 		<li>bookQualityFicNormalFirstHalf->o desenvolvimento da história expõe seus pressupostos de forma coerente</li>
 		<li>bookQualityFicNormalFirstHalf->em alguns momentos, a história prende a respiração</li>
@@ -535,7 +535,7 @@
 		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->mas há uma subtrama romântica desnecessária</li>
 		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->mas, para agradar o leitor, o autor usa palavras inadequadas</li>
 
-		<li>bookQualityFicGood->[bookQualityFicGoodFirstHalf]，[bookQualityFicGoodSecondHalf]。</li>
+		<li>bookQualityFicGood->[bookQualityFicGoodFirstHalf],[bookQualityFicGoodSecondHalf].</li>
 		<li>bookQualityFicGoodFirstHalf->o ritmo da narrativa é perfeito</li>
 		<li>bookQualityFicGoodFirstHalf->a história é cuidadosamente planejada e bem pensada</li>
 		<li>bookQualityFicGoodFirstHalf->a trama é extremamente original</li>
@@ -570,7 +570,7 @@
 
 		<li>bookQualityNonFicGood->O livro traz o selo de uma gráfica respeitada da capital de Arcádia.</li>
 		<li>bookQualityNonFicGood->Todas as ilustrações foram ricamente coloridas com tinta e algumas adornadas com folhas de ouro.</li>
-		<li>bookQualityNonFicGood->capa, o dorso e as páginas estão praticamente intactos — como se o antigo dono tivesse grande reverência por ele, ou talvez nunca o tivesse lido.</li>
+		<li>bookQualityNonFicGood->Capa, o dorso e as páginas estão praticamente intactos — como se o antigo dono tivesse grande reverência por ele, ou talvez nunca o tivesse lido.</li>
 		<li>bookQualityNonFicGood->A ilustração dourada na capa revela um trabalho artesanal refinado.</li>
 	</MousekinBookUtility.rulePack.rulesStrings>
 
@@ -730,8 +730,8 @@
 		<li>optionalSecondaryPlot->, ajudando vilas Mousekin isoladas ao longo do caminho</li>
 		<li>optionalSecondaryPlot->, acompanhado pelo filho vaidoso de um nobre que busca impressionar sua amada</li>
 		<li>optionalSecondaryPlot->, acompanhado por uma princesa rebelde com espírito aventureiro</li>
-		<li>optionalSecondaryPlot->, enquanto foge da perseguição de um magistrado zeloso e sua escolta</li></li>
-		<li>optionalSecondaryPlot->, enquanto ajuda uma criança pelelisa perdida a encontrar o caminho de casa</li></li>
+		<li>optionalSecondaryPlot->, enquanto foge da perseguição de um magistrado zeloso e sua escolta</li>
+		<li>optionalSecondaryPlot->, enquanto ajuda uma criança pelelisa perdida a encontrar o caminho de casa</li>
 	</Description_Mousekin_BookNovelAdventure.rulePack.rulesStrings>
 
 	<!-- EN:
@@ -906,7 +906,7 @@
 		<li>bookQualityChildrenGoodSecondHalf->and are filled with clever puns and rhymes</li>
 	-->
 	<Description_Mousekin_BookNovelChildren.rulePack.rulesStrings>
-		<li>desc->Uma coletânea de contos de [noun] para ratitos e ratitas, [authorVerb] por [authorFullname].\n\n[bookQualityChildren]</li></li>
+		<li>desc->Uma coletânea de contos de [noun] para ratitos e ratitas, [authorVerb] por [authorFullname].\n\n[bookQualityChildren]</li>
 
 		<li>noun->aventura</li>
 		<li>noun->cuidade</li>
@@ -927,7 +927,7 @@
 		<li>bookQualityChildren(quality[less_than]4,quality[greater_than]1)->[bookQualityChildrenNormal]</li>
 		<li>bookQualityChildren(quality[greater_than]3)->[bookQualityChildrenGood]</li>
 
-		<li>bookQualityChildrenBad->As histórias são [bookQualityChildrenBadFirstHalf]，[bookQualityChildrenBadSecondHalf]。</li>
+		<li>bookQualityChildrenBad->As histórias são [bookQualityChildrenBadFirstHalf],[bookQualityChildrenBadSecondHalf].</li>
 		<li>bookQualityChildrenBadFirstHalf->difíceis de acompanhar até mesmo para adultos</li>
 		<li>bookQualityChildrenBadFirstHalf->sem imaginação</li>
 		<li>bookQualityChildrenBadFirstHalf->em grande parte sem sentido</li>
@@ -935,7 +935,7 @@
 		<li>bookQualityChildrenBadSecondHalf->e as ilustrações não passam de rabiscos indecifráveis</li>
 		<li>bookQualityChildrenBadSecondHalf->e estão repletas de erros de ortografia</li>
 
-		<li>bookQualityChildrenNormal->As histórias são [bookQualityChildrenNormalFirstHalf]，[bookQualityChildrenNormalSecondHalf]。</li>
+		<li>bookQualityChildrenNormal->As histórias são [bookQualityChildrenNormalFirstHalf],[bookQualityChildrenNormalSecondHalf].</li>
 		<li>bookQualityChildrenNormalFirstHalf->geralmente agradáveis</li>
 		<li>bookQualityChildrenNormalFirstHalf->bem divertidas de ler</li>
 		<li>bookQualityChildrenNormalFirstHalf->bastante engraçadas</li>
@@ -943,7 +943,7 @@
 		<li>bookQualityChildrenNormalSecondHalf->mas alguns trechos da trama não fazem a narrativa avançar</li>
 		<li>bookQualityChildrenNormalSecondHalf->mas há algumas falhas de enredo bem evidentes</li>
 
-		<li>bookQualityChildrenGood->As histórias são [bookQualityChildrenGoodFirstHalf]，[bookQualityChildrenGoodSecondHalf]。</li>
+		<li>bookQualityChildrenGood->As histórias são [bookQualityChildrenGoodFirstHalf],[bookQualityChildrenGoodSecondHalf].</li>
 		<li>bookQualityChildrenGoodFirstHalf->excepcionalmente bem escritas</li>
 		<li>bookQualityChildrenGoodFirstHalf->originais e peculiares</li>
 		<li>bookQualityChildrenGoodFirstHalf->muito envolventes</li>
@@ -1406,7 +1406,7 @@
 
 		<li>plotA->[nobleMale], que busca vingança contra [intrigueNobleRevengeEnemy] por [intrigueNobleRevengeReason], [intrigueNobleRevengeSubplot].</li>
 		<li>plotA->uma amarga rivalidade entre as famílias nobres de [intrigueGenerationalFeudLastName] e [intrigueGenerationalFeudLastName] que se estende por várias gerações, desencadeada por [intrigueGenerationalFeudReason].</li>
-		li>plotA->uma conspiração para [intrigueConspiracy] por [intrigueConspiracyAntagonist], enquanto [intrigueConspiracyProtagonist] tenta frustrá-la.</li>
+		<li>plotA->uma conspiração para [intrigueConspiracy] por [intrigueConspiracyAntagonist], enquanto [intrigueConspiracyProtagonist] tenta frustrá-la.</li>
 		<li>plotB->[intrigueConspiracyProtagonist] descobre uma trama de [intrigueConspiracyAntagonist] para [intrigueConspiracy] e se empenha em impedi-la.</li>
 		<li>plotB->[intrigueConspiracyAntagonist] trama [intrigueConspiracy], enquanto [intrigueConspiracyProtagonist] tenta frustrá-la.</li>
 		<li>plotB->o autor descreve as provações e tribulações de [nobleMale], enquanto ele lida com chantagem, traição, corrupção, assassinato e outros jogos de poder na corte decadente do Rei Mousekin [Mousekin_FirstName_Male] [Mousekin_LastName_Royal], a fim de [intrigueDecadentCourtGoal].</li>
@@ -1546,7 +1546,7 @@
 		<li>tragedyTitleNoun2->Vengeance</li>
 	-->
 	<NamerBook_Mousekin_BookNovelTragedy.rulePack.rulesStrings>
-		<li>title->[tragedyTitleNoun1]与[tragedyTitleNoun2]</li>
+		<li>title->[tragedyTitleNoun1] e [tragedyTitleNoun2]</li>
 
 		<!-- shorter lists for both, due to repeated words in Chinese -->
 		<li>tragedyTitleNoun1->Raiva</li>
@@ -1874,7 +1874,7 @@
 		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->[romanceSubplotFirstMeeting]</li>
 		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->ele vai disfarçado enquanto visita um(a) [romanceSubplotLocation]</li>
 		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->sua carruagem quase a atropela acidentalmente</li>
-		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->ele é viúvo com filhos, e ela gradualmente traz cor de volta à vida da família dele</li>/li>
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->ele é viúvo com filhos, e ela gradualmente traz cor de volta à vida da família dele</li>
 	</Description_Mousekin_BookNovelRomanceNobleMaleCommonerFemale.rulePack.rulesStrings>
 
 	<!-- EN:
@@ -2093,7 +2093,7 @@
 	<Description_Mousekin_BookNovelRomanceKnightGuardener.rulePack.rulesStrings>
 		<li>desc->[bookDescFictionRomance]</li>
 
-		<li>romancePlot-> o romance entre [knightProtagonist] e [guardenerProtagonist]，[romanceSubplotKnightGuardener]。</li>
+		<li>romancePlot-> o romance entre [knightProtagonist] e [guardenerProtagonist],[romanceSubplotKnightGuardener].</li>
 
 		<li>romanceSubplotKnightGuardener->que se conhecem [romanceSubplotKnightGuardenerFirstMeeting]</li>
 		<li>romanceSubplotKnightGuardener->enquanto partem para [romanceSubplotKnightGuardenerQuest]</li>
