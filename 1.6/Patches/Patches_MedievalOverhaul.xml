@@ -175,7 +175,7 @@
 				<li Class="PatchOperationConditional">
 					<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter[thingDefs[li="DankPyon_Coal"]]</xpath>
 					<match Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+						<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs[li="DankPyon_Coal"]</xpath>
 						<value>
 							<li>Mousekin_Charcoal</li>
 						</value>
