@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-	<!-- EN: 
+		
+	<!-- EN:
 		<li>volNumeral->I</li>
 		<li>volNumeral->II</li>
 		<li>volNumeral->III</li>
@@ -18,32 +18,274 @@
 		<li>titleSuffix->Vol. [volNumeral]</li>
 		<li>titleSuffix->[editionOrdinal] Edition</li>
 		
+		<li>personMale->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>personFemale->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		
+		<li>person->[personMale]</li>
+		<li>person->[personFemale]</li>
+		
+		<li>commonerJob->farmer</li>
+		<li>commonerJob->farmhand</li>
+		<li>commonerJob->merchant</li>
+		<li>commonerJob->peasant</li>
+		<li>commonerJob->shopkeeper</li>
+		<li>commonerJob->alchemist</li>
+		
+		<li>commonerJobMale->[commonerJob]</li>
+		<li>commonerJobMale->blacksmith</li>
+		<li>commonerJobMale->carpenter</li>
+		<li>commonerJobMale->cooper</li>
+		<li>commonerJobMale->hunter</li>
+		<li>commonerJobMale->joiner</li>
+		<li>commonerJobMale->laborer</li>
+		<li>commonerJobMale->miner</li>
+		<li>commonerJobMale->shepherd</li>
+		<li>commonerJobMale->soldier</li>
+		<li>commonerJobMale->stonemason</li>
+		<li>commonerJobMale->tailor</li>
+		
+		<li>commonerJobFemale->[commonerJob]</li>
+		<li>commonerJobFemale->maid</li>
+		<li>commonerJobFemale->scullery maid</li>
+		<li>commonerJobFemale->seamstress</li>
+		<li>commonerJobFemale->shepherdess</li>
+		<li>commonerJobFemale->washerwoman</li>
+		
+		<li>commonerMale->[commonerJobMale] [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>commonerFemale->[commonerJobFemale] [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		
+		<li>commonerPerson->[commonerMale]</li>
+		<li>commonerPerson->[commonerFemale]</li>
+		
+		<li>guardenerProtagonist->[guardenerAdj] [guardenerRank] [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		<li>guardenerProtagonist->[guardenerAdj] [guardenerRank] [Mousekin_FirstName_Female] [Mousekin_LastName_Heroic]</li>
+		
+		<li>guardenerRank->Guardener</li>
+		<li>guardenerRank->Elite Guardener</li>
+		
+		<li>knightFullName->Sir [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>knightFullName->Sir [Mousekin_FirstName_Male] [Mousekin_LastName_Heroic]</li>
+		
+		<li>knightProtagonist->[knightAdj] Knight Commander [knightFullName]</li>
+		<li>knightProtagonist->[knightAdj] Knight [knightFullName]</li>
+		
+		<li>nobleRankMale(p=1)->Duke</li>
+		<li>nobleRankMale(p=2)->Marquess</li>
+		<li>nobleRankMale(p=3)->Earl</li>
+		<li>nobleRankMale(p=4)->Baron</li>
+		
+		<li>nobleRankFemale(p=1)->Duchess</li>
+		<li>nobleRankFemale(p=2)->Marchioness</li>
+		<li>nobleRankFemale(p=3)->Countess</li>
+		<li>nobleRankFemale(p=4)->Baroness</li>
+		<li>nobleRankFemale(p=4)->Lady</li>
+		
+		<li>nobleRank(p=3)->[nobleRankMale]</li>
+		<li>nobleRank->[nobleRankFemale]</li>
+		
+		<li>nobleMale->[nobleRankMale] [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>nobleFemale->[nobleRankFemale] [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		
+		<li>noblePerson->[nobleMale]</li>
+		<li>noblePerson->[nobleFemale]</li>
+		
+		<li>apparelFemale->Dress</li>
+		<li>apparelFemale->Gown</li>
+		<li>apparelFemale->Cloak</li>
+		
+		<li>flowerCommon->carnation</li>
+		<li>flowerCommon->lily</li>
+		<li>flowerCommon->peony</li>
+		<li>flowerCommon->rose</li>
+		<li>flowerCommon->tulip</li>
+		
+		<li>flowerCommonCap->Carnation</li>
+		<li>flowerCommonCap->Lily</li>
+		<li>flowerCommonCap->Peony</li>
+		<li>flowerCommonCap->Rose</li>
+		<li>flowerCommonCap->Tulip</li>
+		
+		<li>colorCap->Blue</li>
+		<li>colorCap->Burgundy</li>
+		<li>colorCap->Carmine</li>
+		<li>colorCap->Crimson</li>
+		<li>colorCap->Green</li>
+		<li>colorCap->Grey</li>
+		<li>colorCap->Red</li>
+		<li>colorCap->Saffron</li>
+		<li>colorCap->Scarlet</li>
+		<li>colorCap->Vermilion</li>
+		<li>colorCap->Violet</li>
+		<li>colorCap->Yellow</li>
+		
+		<li>childrenOrdinalAdj->eldest</li>
+		<li>childrenOrdinalAdj->middle</li>
+		<li>childrenOrdinalAdj->youngest</li>
+		
+		<li>guardenerAdj->beautiful</li>
+		<li>guardenerAdj->faithful</li>
+		<li>guardenerAdj->graceful</li>
+		<li>guardenerAdj->pious</li>
+		<li>guardenerAdj->spirited</li>
+		
+		<li>knightAdj->brave</li>
+		<li>knightAdj->courageous</li>
+		<li>knightAdj->dashing</li>
+		<li>knightAdj->fearless</li>
+		<li>knightAdj->gallant</li>
+		<li>knightAdj->honorable</li>
+		<li>knightAdj->noble</li>
+		<li>knightAdj->sagacious</li>
+		<li>knightAdj->valiant</li>
+		
+		<li>macguffin->a legendary elixir to save a Mousekin town from a plague epidemic</li>
+		<li>macguffin->a legendary grove of the most delicious Chonko nuts</li>
+		<li>macguffin->a magical bed that would cure all diseases and injuries of any person that lies upon it, to save a sickly friend</li>
+		<li>macguffin->a magical cupboard containing endless food and drink, to save an impoverished Mousekin village from famine</li>
+		<li>macguffin->a secret treasure cache hidden decades before by the notorious bandit [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>macguffin->a tome of great knowledge</li>
+		<li>macguffin->the greatsword of the legendary Mousekin knight Sir [Mousekin_FirstName_Male] [Mousekin_LastName_Heroic]</li>
+		<li>macguffin->the lost family jewels of [noblePerson]</li>
+		<li>macguffin->the mythical thrumbo of yore</li>
+		
+		<li>noblePersonLocation->Castle</li>
+		<li>noblePersonLocation->Garden</li>
+		<li>noblePersonLocation->Manor</li>
+		<li>noblePersonLocation->Tower</li>
+		
+		<li>trinket->bolt of rare-colored cloth</li>
+		<li>trinket->book</li>
+		<li>trinket->brooch</li>
+		<li>trinket->leather pouch</li>
+		<li>trinket->necklace</li>
+		<li>trinket->ribbon</li>
+		<li>trinket->ring</li>
+		<li>trinket->silk sash</li>
+		
+		<li>useful_information->useful tidbits of information</li>
+		<li>useful_information->useful information</li>
+		<li>useful_information->interesting facts</li>
+		<li>useful_information->valuable insights</li>
+		<li>useful_information->practical insights</li>
+		<li>useful_information->helpful tips</li>
+		<li>useful_information->informative details</li>
+		
 		<li>authorSurname(p=10)->[Mousekin_LastName_Commoner]</li>
 		<li>authorSurname->[Mousekin_LastName_Heroic]</li>
 		<li>authorFullname(p=8)->[Mousekin_FirstName_Male] [authorSurname]</li>
 		<li>authorFullname->[Mousekin_FirstName_Female] [authorSurname]</li>
 		
-		<li>bookQualityBad->Almost all of the pages are on the verge of splitting from the spine.</li>
-		<li>bookQualityBad->Maggots have infested the leather covers and spine.</li>
-		<li>bookQualityBad->Nearly every page has been discolored by smoke from a fire, rendering the contents barely legible.</li>
-		<li>bookQualityBad->Opening the cover unleashes a rancid odor of urine, suggesting the previous owner had been using this copy to prop up a chamberpot.</li>
-		<li>bookQualityBad->Several pages have stains from a mug of Chonko nut brew.</li>				
-		<li>bookQualityBad->The contents and introductory pages have been completely obscured by spilled black ink that has thoroughly soaked through several layers of paper.</li>
-		<li>bookQualityBad->The front and back flyleaves are almost entirely covered by the previous owner's amateurish attempts at practicing their signature.</li>
-		<li>bookQualityBad->The pages from one entire chapter have been torn out, leaving ragged stumps of paper.</li>
-		<li>bookQualityBad->The previous owner of this copy has underlined every other word on every single page with different colored inks.</li>
-		<li>bookQualityBad->The top-left corner of several dozen pages contain crude sequential doodles, depicting a Mousekin farmer repeatedly bludgeoning a Grimalkin rapid-musketeer with a gardening hoe.</li>
+		<li>bookTypeFic->novel</li>
+		<li>bookTypeFic->novella</li>
+		<li>bookTypeFic->tale</li>
 		
-		<li>bookQualityNormal(p=3)-></li>
-		<li>bookQualityNormal->A few pages of this copy have been dogeared.</li>
-		<li>bookQualityNormal->A pressed flower has been left inside the middle pages.</li>
-		<li>bookQualityNormal->The gold inlay on the cover has dulled with age, but the book is otherwise in good condition.</li>
-		<li>bookQualityNormal->The spine on this copy has been broken in several places, and the edges on several chapters are slightly worn, suggesting the previous owner found this book particularly useful.</li>
+		<li>bookTypeNonFic->codex</li>
+		<li>bookTypeNonFic->compendium</li>
+		<li>bookTypeNonFic->guidebook</li>
+		<li>bookTypeNonFic->manual</li>
+		<li>bookTypeNonFic->reference book</li>
+		<li>bookTypeNonFic->tome</li>
 		
-		<li>bookQualityGood->The book bears the imprint of a respected printing house in the capital city of Arcadia.</li>
-		<li>bookQualityGood->All the illuminations from the book have been richly illustrated with colored ink, and in some cases, adorned with gold leaf.</li>
-		<li>bookQualityGood->The cover, spine and pages are practically pristine, almost as if the previous owner treated it with great reverence - or simply never read its contents.</li>
-		<li>bookQualityGood->The cover bears intricate craftsmanship, in the form of fine details in the gold inlay illustrating the book's subject matter.</li>
+		<li>bookDescNonFiction->Drawing on [authorFullname]'s years of practical experience, this [bookTypeNonFic] establishes the author as a leading authority in [subject] throughout the Mousekin Kingdom.</li>
+		
+		<li>bookDescFictionRomance->This [bookTypeFic] by [authorFullname] [tellsALoveStoryOf] [romancePlot]\n\n[bookQualityFic]</li>
+		<li>bookDescFictionRomance->[authorFullname]'s [bookTypeFic] [tellsALoveStoryOf] [romancePlot]\n\n[bookQualityFic]</li>
+		
+		<li>tellsALoveStoryOf->depicts the love affair between</li>
+		<li>tellsALoveStoryOf->describes the courtship between</li>
+		<li>tellsALoveStoryOf->illustrates the romance between</li>
+		<li>tellsALoveStoryOf->tells the love story of</li>
+		
+		<li>romanceSubplotInterclass->and how their defiance of social expectations ultimately brings happiness to everyone around them</li>
+		<li>romanceSubplotInterclass->as they contend with the various challenges that come with their different stations in society</li>
+		
+		<li>romanceSubplotFirstMeeting->he returns a dropped purse to her</li>
+		<li>romanceSubplotFirstMeeting->he saves her from boorish drunks outside of a tavern</li>
+		<li>romanceSubplotFirstMeeting->she offers him shelter from a storm one night</li>
+		
+		<li>romanceSubplotLocationOrEvent->[romanceSubplotEvent]</li>
+		<li>romanceSubplotLocationOrEvent->[romanceSubplotLocation]</li>
+		
+		<li>romanceSubplotEvent->Guardener blessing ceremony</li>
+		<li>romanceSubplotEvent->Tree Festival</li>
+		<li>romanceSubplotEvent->betrothal party</li>
+		<li>romanceSubplotEvent->funeral</li>
+		<li>romanceSubplotEvent->market festival</li>
+		
+		<li>romanceSubplotLocation->bookstore</li>
+		<li>romanceSubplotLocation->church</li>
+		<li>romanceSubplotLocation->market</li>
+		<li>romanceSubplotLocation->tailor's shop</li>
+		<li>romanceSubplotLocation->tavern</li>
+		
+		<li>bookQualityFic(quality[less_than]2)->[bookQualityFicBad]</li>
+		<li>bookQualityFic(quality[less_than]4,quality[greater_than]1)->[bookQualityFicNormal]</li>
+		<li>bookQualityFic(quality[greater_than]3)->[bookQualityFicGood]</li>
+		
+		<li>bookQualityFicBad->[bookQualityFicBadFirstHalf], [bookQualityFicBadSecondHalf].</li>
+		<li>bookQualityFicBadFirstHalf->The narrative is frequently interrupted by too many flashbacks</li>
+		<li>bookQualityFicBadFirstHalf->The narrative is overly formulaic</li>
+		<li>bookQualityFicBadFirstHalf->The plot is riddled with continuity errors</li>
+		<li>bookQualityFicBadFirstHalf->The story is hindered by multiple unrelated subplots</li>
+		<li>bookQualityFicBadSecondHalf->and all the supporting characters lack depth beyond their immediate narrative purpose</li>
+		<li>bookQualityFicBadSecondHalf->and is plagued by wooden dialogue</li>
+		<li>bookQualityFicBadSecondHalf->and spends too long on side chapters involving a supporting character that is obviously based on the author's real-life lover and muse</li>
+		<li>bookQualityFicBadSecondHalf->and the author's use of archaic, flowery language confuses all but the most scholarly of readers</li>
+		<li>bookQualityFicBadSecondHalf->and the climax contains a 90-page monologue by the protagonist that preaches the author's personal view on morality</li>
+		<li>bookQualityFicBadSecondHalf->and the plot twist at the climax lacked the necessary build-up</li>
+		<li>bookQualityFicBadSecondHalf->and the protagonist demonstrates no character growth</li>
+		<li>bookQualityFicBadSecondHalf->and the unexpected appearance of Valerian the Wise himself to resolve the plot makes the ending feel unearned</li>
+		
+		<li>bookQualityFicNormal->[bookQualityFicNormalFirstHalf], [bookQualityFicNormalSecondHalf].</li>
+		<li>bookQualityFicNormalFirstHalf->The narrative is quite engaging</li>
+		<li>bookQualityFicNormalFirstHalf->The story develops its premise reasonably well</li>
+		<li>bookQualityFicNormalFirstHalf->The story is gripping at times</li>
+		<li>bookQualityFicNormalFirstHalf->The narrative offers a fresh take on the genre</li>
+		<li>bookQualityFicNormalSecondHalf(quality[greater_than]2)->and has quite a few humorous moments</li>
+		<li>bookQualityFicNormalSecondHalf(quality[greater_than]2)->and the characters are quite likeable</li>
+		<li>bookQualityFicNormalSecondHalf(quality[greater_than]2)->and the final plot twist is well-executed</li>
+		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->but has a major plot hole that results in a rather contrived conclusion</li>
+		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->but has a rather distracting flashback in the middle of a pivotal scene</li>
+		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->but has an unnecessary romantic subplot</li>
+		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->but the author often uses inappropriate words in an attempt to impress the reader</li>
+		
+		<li>bookQualityFicGood->[bookQualityFicGoodFirstHalf], [bookQualityFicGoodSecondHalf].</li>
+		<li>bookQualityFicGoodFirstHalf->The narrative is well-paced</li>
+		<li>bookQualityFicGoodFirstHalf->The narrative is thoughtfully crafted</li>
+		<li>bookQualityFicGoodFirstHalf->The plot is wildly original</li>
+		<li>bookQualityFicGoodFirstHalf->The story is a heart-pounding tale of excitement</li>
+		<li>bookQualityFicGoodFirstHalf->The story is tightly written with rich emotion</li>
+		<li>bookQualityFicGoodSecondHalf->and many characters demonstrate hidden depths</li>
+		<li>bookQualityFicGoodSecondHalf->and one highly memorable piece of dialogue became popular enough to enter lexicon</li>
+		<li>bookQualityFicGoodSecondHalf->and the author's clever subversion of tropes common to the genre reveals the rich complexity of Mousekin nature</li>
+		<li>bookQualityFicGoodSecondHalf->and the characters are highly relatable due to their complex motivations</li>
+		<li>bookQualityFicGoodSecondHalf->and the witty dialogue is highly memorable</li>
+		
+		<li>bookQualityNonFic(quality[less_than]2)->[bookQualityNonFicBad]</li>
+		<li>bookQualityNonFic(quality[less_than]4,quality[greater_than]1)->[bookQualityNonFicNormal]</li>
+		<li>bookQualityNonFic(quality[greater_than]3)->[bookQualityNonFicGood]</li>
+		
+		<li>bookQualityNonFicBad->Almost all of the pages are on the verge of splitting from the spine.</li>
+		<li>bookQualityNonFicBad->Maggots have infested the leather covers and spine.</li>
+		<li>bookQualityNonFicBad->Nearly every page has been discolored by smoke from a fire, rendering the contents barely legible.</li>
+		<li>bookQualityNonFicBad->Opening the cover unleashes a rancid odor of urine, suggesting the previous owner had been using this copy to prop up a chamberpot.</li>
+		<li>bookQualityNonFicBad->Several pages have stains from a mug of Chonko nut brew.</li>
+		<li>bookQualityNonFicBad->The contents and introductory pages have been completely obscured by spilled black ink that has thoroughly soaked through several layers of paper.</li>
+		<li>bookQualityNonFicBad->The front and back flyleaves are almost entirely covered by the previous owner's amateurish attempts at practicing their signature.</li>
+		<li>bookQualityNonFicBad->The pages from one entire chapter have been torn out, leaving ragged stumps of paper.</li>
+		<li>bookQualityNonFicBad->The previous owner of this copy has underlined every other word on every single page with different colored inks.</li>
+		<li>bookQualityNonFicBad->The top-left corner of several dozen pages contain crude sequential doodles, depicting a Mousekin farmer repeatedly bludgeoning a Grimalkin rapid-musketeer with a gardening hoe.</li>
+		
+		<li>bookQualityNonFicNormal(p=3)-></li>
+		<li>bookQualityNonFicNormal->A few pages of this copy have been dogeared.</li>
+		<li>bookQualityNonFicNormal->A pressed flower has been left inside the middle pages.</li>
+		<li>bookQualityNonFicNormal->The gold inlay on the cover has dulled with age, but the book is otherwise in good condition.</li>
+		<li>bookQualityNonFicNormal->The spine on this copy has been broken in several places, and the edges on several chapters are slightly worn, suggesting the previous owner found this book particularly useful.</li>
+		
+		<li>bookQualityNonFicGood->The book bears the imprint of a respected printing house in the capital city of Arcadia.</li>
+		<li>bookQualityNonFicGood->All the illuminations from the book have been richly illustrated with colored ink, and in some cases, adorned with gold leaf.</li>
+		<li>bookQualityNonFicGood->The cover, spine and pages are practically pristine, almost as if the previous owner treated it with great reverence - or simply never read its contents.</li>
+		<li>bookQualityNonFicGood->The cover bears intricate craftsmanship, in the form of fine details in the gold inlay illustrating the book's subject matter.</li>
 	-->
 	<MousekinBookUtility.rulePack.rulesStrings>
 		<li>volNumeral->1</li>
@@ -62,33 +304,1789 @@
 		<li>titleSuffix->([volNumeral]巻)</li>
 		<li>titleSuffix->(第[editionOrdinal]版)</li>
 		
+		<li>personMale->[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]</li>
+		<li>personFemale->[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]</li>
+		
+		<li>person->[personMale]</li>
+		<li>person->[personFemale]</li>
+		
+		<li>commonerJob->農民</li>
+		<li>commonerJob->農場労働者</li>
+		<li>commonerJob->商人</li>
+		<li>commonerJob->農民</li>
+		<li>commonerJob->店主</li>
+		<li>commonerJob->錬金術師</li>
+		
+		<li>commonerJobMale->[commonerJob]</li>
+		<li>commonerJobMale->鍛冶屋</li>
+        <li>commonerJobMale->大工</li>
+        <li>commonerJobMale->樽職人</li>
+        <li>commonerJobMale->狩人</li>
+        <li>commonerJobMale->建具職人</li>
+		<li>commonerJobMale->労働者</li>
+		<li>commonerJobMale->鉱夫</li>
+        <li>commonerJobMale->羊飼い</li>
+        <li>commonerJobMale->兵士</li>
+        <li>commonerJobMale->石工</li>
+        <li>commonerJobMale->仕立て屋</li>
+		
+		<li>commonerJobFemale->[commonerJob]</li>
+		<li>commonerJobFemale->メイド</li>
+		<li>commonerJobFemale->スカラリーのメイド</li>
+		<li>commonerJobFemale->お針子</li>
+		<li>commonerJobFemale->牧人</li>
+		<li>commonerJobFemale->洗濯婦</li>
+		
+		<li>commonerMale->[commonerJobMale][Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]</li>
+		<li>commonerFemale->[commonerJobFemale][Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]</li>
+		
+		<li>commonerPerson->[commonerMale]</li>
+		<li>commonerPerson->[commonerFemale]</li>
+		
+		<li>guardenerProtagonist->[guardenerAdj][guardenerRank][Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]</li>
+		<li>guardenerProtagonist->[guardenerAdj][guardenerRank][Mousekin_FirstName_Female]・[Mousekin_LastName_Heroic]</li>
+		
+		<li>guardenerRank->花園守護者</li>
+		<li>guardenerRank->精鋭花園守護者</li>
+		
+		<li>knightFullName->[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]卿</li>
+		<li>knightFullName->[Mousekin_FirstName_Male]・[Mousekin_LastName_Heroic]卿</li>
+		
+		<li>knightProtagonist->[knightAdj]騎士団長[knightFullName]</li>
+		<li>knightProtagonist->[knightAdj]騎士[knightFullName]</li>
+		
+		<li>nobleRankMale(p=1)->公爵</li>
+		<li>nobleRankMale(p=2)->侯爵</li>
+		<li>nobleRankMale(p=3)->伯爵</li>
+		<li>nobleRankMale(p=4)->男爵</li>
+		
+		<li>nobleRankFemale(p=1)->公爵夫人</li>
+		<li>nobleRankFemale(p=2)->侯爵夫人</li>
+		<li>nobleRankFemale(p=3)->伯爵夫人</li>
+		<li>nobleRankFemale(p=4)->男爵夫人</li>
+		<li>nobleRankFemale(p=4)->嬢</li>
+		
+		<li>nobleRank(p=3)->[nobleRankMale]</li>
+		<li>nobleRank->[nobleRankFemale]</li>
+		
+		<li>nobleMale->[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner][nobleRankMale] </li>
+		<li>nobleFemale->[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner][nobleRankFemale] </li>
+		
+		<li>noblePerson->[nobleMale]</li>
+		<li>noblePerson->[nobleFemale]</li>
+		
+		<li>apparelFemale->ドレス</li>
+		<li>apparelFemale->ガウン</li>
+		<li>apparelFemale->クローク</li>
+		
+		<li>flowerCommon->カーネーション</li>
+		<li>flowerCommon->百合</li>
+		<li>flowerCommon->ボタン</li>
+		<li>flowerCommon->バラ</li>
+		<li>flowerCommon->チューリップ</li>
+		
+		<li>flowerCommonCap->カーネーション</li>
+		<li>flowerCommonCap->百合</li>
+		<li>flowerCommonCap->ボタン</li>
+		<li>flowerCommonCap->バラ</li>
+		<li>flowerCommonCap->チューリップ</li>
+		
+		<li>colorCap->青</li>
+        <li>colorCap->ボルドー</li>
+        <li>colorCap->カーマイン</li>
+        <li>colorCap->クリムゾン</li>
+        <li>colorCap->緑</li>
+        <li>colorCap->灰色</li>
+        <li>colorCap->赤</li>
+		<li>colorCap->サフラン</li>
+        <li>colorCap->スカーレット</li>
+        <li>colorCap->バーミリオン</li>
+        <li>colorCap->バイオレット</li>
+        <li>colorCap->イエロー</li>
+		
+		<li>childrenOrdinalAdj->長</li>
+		<li>childrenOrdinalAdj->次</li>
+		<li>childrenOrdinalAdj->末</li>
+		
+		<li>guardenerAdj->美しい</li>
+		<li>guardenerAdj->忠実な</li>
+		<li>guardenerAdj->優雅な</li>
+		<li>guardenerAdj->信心深い</li>
+		<li>guardenerAdj->活発な</li>
+		
+		<li>knightAdj->勇敢な</li>
+		<li>knightAdj->颯爽とした</li>
+		<li>knightAdj->恐れを知らない</li>
+		<li>knightAdj->気高い</li>
+		<li>knightAdj->立派な</li>
+		<li>knightAdj->高貴な</li>
+		<li>knightAdj->聡明な</li>
+		<!-- multiple English words are translated as "brave" in Japanese -->
+		
+		<li>macguffin->マウスキンの町を疫病の蔓延から救う伝説の霊薬</li>
+		<li>macguffin->伝説のチョンコの実が最も美味しい木立</li>
+		<li>macguffin->病弱な友人を救うために、その上に横たわる者のあらゆる病気や傷を癒す魔法のベッド</li>
+		<li>macguffin->飢饉から貧しいマウスキンの村を救うため、無限の食べ物と飲み物を秘めた魔法の戸棚</li>
+		<li>macguffin->悪名高い山賊[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]が何十年も前に隠した秘密の宝物庫</li>
+		<li>macguffin->膨大な知識の書物</li>
+		<li>macguffin->伝説のマウスキンの騎士[Mousekin_FirstName_Male]・[Mousekin_LastName_Heroic]卿の大剣</li>
+		<li>macguffin->[noblePerson]の失われた家族の宝石</li>
+		<li>macguffin->伝説のスランボ</li>
+		
+		<li>noblePersonLocation->城</li>
+		<li>noblePersonLocation->花畑</li>
+		<li>noblePersonLocation->荘園</li>
+		<li>noblePersonLocation->塔</li>
+		
+		<li>trinket->珍しい色の布の巻物</li>
+		<li>trinket->本</li>
+        <li>trinket->ブローチ</li>
+        <li>trinket->革袋</li>
+        <li>trinket->ネックレス</li>
+        <li>trinket->リボン</li>
+        <li>trinket->指輪</li>
+        <li>trinket->絹の帯</li>
+		
+		<li>useful_information->役立つ豆知識</li>
+        <li>useful_information->役立つ情報</li>
+        <li>useful_information->興味深い事実</li>
+        <li>useful_information->貴重な知見</li>
+        <li>useful_information->実践的な知見</li>
+		<li>useful_information->役立つヒント</li>
+        <li>useful_information->有益な詳細情報</li>
+		
 		<li>authorSurname(p=10)->[Mousekin_LastName_Commoner]</li>
 		<li>authorSurname->[Mousekin_LastName_Heroic]</li>
 		<li>authorFullname(p=8)->[Mousekin_FirstName_Male]・[authorSurname]</li>
 		<li>authorFullname->[Mousekin_FirstName_Female]・[authorSurname]</li>
 		
-		<li>bookQualityBad->ほとんどすべてのページが本の背から落ちかけています.</li>
-		<li>bookQualityBad->革のカバーと背にウジがはびこった.</li>
-		<li>bookQualityBad->ほぼすべてのページが火災の煙で変色し、内容はほとんど読めない.</li>
-		<li>bookQualityBad->カバーを開けると小便の腐ったような臭いが漂い、前の持ち主がこの本を便器代わりに使っていたことをうかがわせます.</li>
-		<li>bookQualityBad->数ページにチョンコナッツ飲料の染みあります.</li>				
-		<li>bookQualityBad->内容や紹介のページは、こぼれた黒いインクが何層にも重なった紙に染み込み、完全に見えなくなっています.</li>
-		<li>bookQualityBad->表と裏の遊び紙は、前所有者がサインを練習しようとした素人的な試みでほとんど覆われています.</li>
-		<li>bookQualityBad->ある章全体のページが破られ、ぼろぼろの紙の切り株が残っています.</li>
-		<li>bookQualityBad->この本の前所有者は、全ページのすべての単語に異なる色のインクでアンダーラインを引いています.</li>
-		<li>bookQualityBad->数十ページの左上には、マウスキンの農夫がグリマルキン兵を園芸用の鍬で何度も殴打する様子を描いた粗雑な連続落書きがあります.</li>
+		<li>bookTypeFic->小説</li>
+		<li>bookTypeFic->中編小説</li>
+		<li>bookTypeFic->物語</li>
 		
-		<li>bookQualityNormal(p=3)-></li>
-		<li>bookQualityNormal->本書の数ページに角折れがあります.</li>
-		<li>bookQualityNormal->中ページの内側に押し花が残されています.</li>
-		<li>bookQualityNormal->表紙の金象嵌は経年によりくすんでいるが、それ以外は良好な状態.</li>
-		<li>bookQualityNormal->背表紙が数カ所折れ、いくつかの章の縁が少し擦れています.これは、前所有者がこの本を頻繁に参照したことを示唆しています.</li>
+		<li>bookTypeNonFic->コードックス</li>
+        <li>bookTypeNonFic->コンペンディウム</li>
+        <li>bookTypeNonFic->ガイドブック</li>
+        <li>bookTypeNonFic->マニュアル</li>
+        <li>bookTypeNonFic->参考書</li>
+        <li>bookTypeNonFic->大著</li>
 		
-		<li>bookQualityGood->この本には、アルカディア京城の名高い印刷所の印が押されています.</li>
-		<li>bookQualityGood->この本の挿絵はすべてカラーインクで豊かに描かれ、金箔で飾られたものもあります.</li>
-		<li>bookQualityGood->表紙も背表紙もページも、まるで前所有者が大切に扱っていたかのように手つかずだ.あるいは、前の持ち主がまったく読まなかっただけかもしれない.</li>
-		<li>bookQualityGood->表紙には緻密な細工が施され、本の主題のイラストに使われている金の象眼細工のディテールも素晴らしいです.</li>
+		<li>bookDescNonFiction->[authorFullname]の長年の実務経験を生かしたこの[bookType]は、著者をマウスキン王国中の[subject]の第一人者として確立させた.</li>
+		
+		<li>bookDescFictionRomance->この[bookTypeFic]は[authorFullname]による[romancePlot]\n\n[bookQualityFic]</li>
+		<li>bookDescFictionRomance->[authorFullname]の[bookTypeFic]は[romancePlot]\n\n[bookQualityFic]</li>
+		<!-- [tellsALoveStoryOf] keyword moved to individual romance description makers for grammar reasons -->
+		
+		<li>tellsALoveStoryOf->の恋愛模様を描き</li>
+		<li>tellsALoveStoryOf->の求愛の過程と</li>
+		<li>tellsALoveStoryOf->のロマンスを描き</li>
+		<li>tellsALoveStoryOf->の恋物語と</li>
+		
+		<li>romanceSubplotInterclass->二人が社会の期待に逆らったことが、最終的に周囲のすべての人々に幸せをもたらす過程を綴っています</li>
+		<li>romanceSubplotInterclass->二人は社会における異なる立場から生じる様々な困難に立ち向かいながら、愛を育んでいきます</li>
+		
+		<li>romanceSubplotFirstMeeting->彼が彼女に落とした財布を返した</li>
+		<li>romanceSubplotFirstMeeting->彼が酒場の外で彼女を無作法な酔っ払いたちから救った</li>
+		<li>romanceSubplotFirstMeeting->ある夜、彼女が嵐から彼を避難させてくれた</li>
+		
+		<li>romanceSubplotLocationOrEvent->[romanceSubplotEvent]</li>
+		<li>romanceSubplotLocationOrEvent->[romanceSubplotLocation]</li>
+		
+		<li>romanceSubplotEvent->花園守護者の祝福の儀式</li>
+		<li>romanceSubplotEvent->木祭り</li>
+		<li>romanceSubplotEvent->婚約披露宴</li>
+		<li>romanceSubplotEvent->葬儀</li>
+		<li>romanceSubplotEvent->市場祭り</li>
+		
+		<li>romanceSubplotLocation->書店</li>
+		<li>romanceSubplotLocation->教会</li>
+		<li>romanceSubplotLocation->市場</li>
+		<li>romanceSubplotLocation->仕立て屋</li>
+		<li>romanceSubplotLocation->居酒屋</li>
+		
+		<li>bookQualityFic(quality[less_than]2)->[bookQualityFicBad]</li>
+		<li>bookQualityFic(quality[less_than]4,quality[greater_than]1)->[bookQualityFicNormal]</li>
+		<li>bookQualityFic(quality[greater_than]3)->[bookQualityFicGood]</li>
+		
+		<li>bookQualityFicBad->[bookQualityFicBadFirstHalf]、[bookQualityFicBadSecondHalf].</li>
+		<li>bookQualityFicBadFirstHalf->物語は頻繁にフラッシュバックが多すぎて中断され</li>
+		<li>bookQualityFicBadFirstHalf->物語は型にはまりすぎていて</li>
+		<li>bookQualityFicBadFirstHalf->プロットは連続性の矛盾だらけで</li>
+		<li>bookQualityFicBadFirstHalf->物語は複数の無関係なサブプロットによって妨げられており</li>
+		<li>bookQualityFicBadSecondHalf->すべての脇役は即時の物語上の目的を超えて深みが欠けています</li>
+		<li>bookQualityFicBadSecondHalf->不自然な台詞に悩まされています</li>
+		<li>bookQualityFicBadSecondHalf->明らかに作者の実生活の恋人兼ミューズをモデルにした脇役に関するサイドストーリーに時間をかけすぎています</li>
+		<li>bookQualityFicBadSecondHalf->著者の古風で華美な言葉遣いは、最も学識のある読者以外を混乱させます</li>
+		<li>bookQualityFicBadSecondHalf->クライマックスでは主人公による90ページに及ぶ独白が展開される.そこでは作者の個人的な道徳観が説教調で語られています</li>
+		<li>bookQualityFicBadSecondHalf->クライマックスでの展開の転換には必要な伏線が欠けていた</li>
+		<li>bookQualityFicBadSecondHalf->主人公は全く成長を見せていない</li>
+		<li>bookQualityFicBadSecondHalf->さらに予期せぬ形で賢者ヴァレリアン本人が登場して事態を収拾する展開が、結末に無理やり感を与えてしまう</li>
+		
+		<li>bookQualityFicNormal->[bookQualityFicNormalFirstHalf][bookQualityFicNormalSecondHalf].</li>
+		<li>bookQualityFicNormalFirstHalf->物語は非常に魅力的だ</li>
+		<li>bookQualityFicNormalFirstHalf->物語は前提をかなりうまく展開している</li>
+		<li>bookQualityFicNormalFirstHalf->物語は時に引き込まれる</li>
+		<li>bookQualityFicNormalFirstHalf->この物語はジャンルに新たな視点をもたら</li>
+		<li>bookQualityFicNormalSecondHalf(quality[greater_than]2)->し、ユーモアあふれる場面が数多く散りばめられています</li>
+		<li>bookQualityFicNormalSecondHalf(quality[greater_than]2)->し、登場人物たちは非常に好感が持てます</li>
+		<li>bookQualityFicNormalSecondHalf(quality[greater_than]2)->し、最後のどんでん返しは見事に描かれています</li>
+		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->が、重大なプロットホールが存在し、その結果としてかなり作為的な結末となっています</li>
+		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->が、重要な場面の途中にやや気が散るフラッシュバックがあります</li>
+		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->が、不要な恋愛サブプロットが含まれています</li>
+		<li>bookQualityFicNormalSecondHalf(quality[less_than]3)->が、著者は読者に印象づけようと、しばしば不適切な言葉を用いています</li>
+		
+		<li>bookQualityFicGood->[bookQualityFicGoodFirstHalf]、[bookQualityFicGoodSecondHalf].</li>
+		<li>bookQualityFicGoodFirstHalf->物語の展開はテンポが良く</li>
+		<li>bookQualityFicGoodFirstHalf->物語は丁寧に構成されており</li>
+		<li>bookQualityFicGoodFirstHalf->プロットは驚くほど独創的で</li>
+		<li>bookQualityFicGoodFirstHalf->この物語は胸がドキドキする興奮の物語であり</li>
+		<li>bookQualityFicGoodFirstHalf->物語は緊密に構成され、豊かな感情に満ちており</li>
+		<li>bookQualityFicGoodSecondHalf->多くの登場人物が隠された深みを示しています</li>
+		<li>bookQualityFicGoodSecondHalf->特に印象深い台詞の一つは広く認知され、語彙として定着するほどに流行した</li>
+		<li>bookQualityFicGoodSecondHalf->作者がジャンルにありがちな定型を巧みに覆すことで、マウスキンの性質の豊かな複雑さが浮かび上がれます</li>
+		<li>bookQualityFicGoodSecondHalf->複雑な動機を持つ登場人物たちは非常に共感しやすい</li>
+		<li>bookQualityFicGoodSecondHalf->機知に富んだ会話は非常に印象深い</li>
+		
+		<li>bookQualityNonFic(quality[less_than]2)->[bookQualityNonFicBad]</li>
+		<li>bookQualityNonFic(quality[less_than]4,quality[greater_than]1)->[bookQualityNonFicNormal]</li>
+		<li>bookQualityNonFic(quality[greater_than]3)->[bookQualityNonFicGood]</li>
+		
+		<li>bookQualityNonFicBad->ほとんどすべてのページが本の背から落ちかけています.</li>
+		<li>bookQualityNonFicBad->革のカバーと背にウジがはびこった.</li>
+		<li>bookQualityNonFicBad->ほぼすべてのページが火災の煙で変色し、内容はほとんど読めない.</li>
+		<li>bookQualityNonFicBad->カバーを開けると小便の腐ったような臭いが漂い、前の持ち主がこの本を便器代わりに使っていたことをうかがわせます.</li>
+		<li>bookQualityNonFicBad->数ページにチョンコナッツ飲料の染みあります.</li>				
+		<li>bookQualityNonFicBad->内容や紹介のページは、こぼれた黒いインクが何層にも重なった紙に染み込み、完全に見えなくなっています.</li>
+		<li>bookQualityNonFicBad->表と裏の遊び紙は、前所有者がサインを練習しようとした素人的な試みでほとんど覆われています.</li>
+		<li>bookQualityNonFicBad->ある章全体のページが破られ、ぼろぼろの紙の切り株が残っています.</li>
+		<li>bookQualityNonFicBad->この本の前所有者は、全ページのすべての単語に異なる色のインクでアンダーラインを引いています.</li>
+		<li>bookQualityNonFicBad->数十ページの左上には、マウスキンの農夫がグリマルキン兵を園芸用の鍬で何度も殴打する様子を描いた粗雑な連続落書きがあります.</li>
+		
+		<li>bookQualityNonFicNormal(p=3)-></li>
+		<li>bookQualityNonFicNormal->本書の数ページに角折れがあります.</li>
+		<li>bookQualityNonFicNormal->中ページの内側に押し花が残されています.</li>
+		<li>bookQualityNonFicNormal->表紙の金象嵌は経年によりくすんでいるが、それ以外は良好な状態.</li>
+		<li>bookQualityNonFicNormal->背表紙が数カ所折れ、いくつかの章の縁が少し擦れています.これは、前所有者がこの本を頻繁に参照したことを示唆しています.</li>
+		
+		<li>bookQualityNonFicGood->この本には、アルカディア京城の名高い印刷所の印が押されています.</li>
+		<li>bookQualityNonFicGood->この本の挿絵はすべてカラーインクで豊かに描かれ、金箔で飾られたものもあります.</li>
+		<li>bookQualityNonFicGood->表紙も背表紙もページも、まるで前所有者が大切に扱っていたかのように手つかずだ.あるいは、前の持ち主がまったく読まなかっただけかもしれない.</li>
+		<li>bookQualityNonFicGood->表紙には緻密な細工が施され、本の主題のイラストに使われている金の象眼細工のディテールも素晴らしいです.</li>
 	</MousekinBookUtility.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>title(p=5)->The [placeAdjective] [place]</li>
+		<li>title->Journey Through the [placeAdjective] [placeIndeterminateSize]</li>
+		<li>title->Journey to the [placeAdjective] [placeDestination]</li>
+		
+		<li>placeAdjective->Black</li>
+		<li>placeAdjective->Cursed</li>
+		<li>placeAdjective->Dark</li>
+		<li>placeAdjective->Great</li>
+		<li>placeAdjective->Grey</li>
+		<li>placeAdjective->Red</li>
+		<li>placeAdjective->White</li>
+		
+		<li>place->[placeDestination]</li>
+		<li>place->[placeIndeterminateSize]</li>
+		
+		<li>placeDestination->Castle</li>
+		<li>placeDestination->Fortress</li>
+		<li>placeDestination->Lake</li>
+		<li>placeDestination->Redoubt</li>
+		<li>placeDestination->Tower</li>
+		
+		<li>placeIndeterminateSize->Forest</li>
+		<li>placeIndeterminateSize->Mountains</li>
+		<li>placeIndeterminateSize->Valley</li>
+	-->
+	<NamerBook_Mousekin_BookNovelAdventure.rulePack.rulesStrings>
+		<li>title(p=5)->[placeAdjective][place]</li>
+		<li>title->[placeAdjective][placeIndeterminateSize]の旅</li>
+		<li>title->[placeAdjective][placeDestination]への旅</li>
+		
+		<li>placeAdjective->黒い</li>
+		<li>placeAdjective->呪われた</li>
+		<li>placeAdjective->暗い</li>
+		<li>placeAdjective->大いなる</li>
+		<li>placeAdjective->灰色の</li>
+		<li>placeAdjective->赤い</li>
+		<li>placeAdjective->白い</li>
+		
+		<li>place->[placeDestination]</li>
+		<li>place->[placeIndeterminateSize]</li>
+		
+		<li>placeDestination->城</li>
+		<li>placeDestination->要塞</li>
+		<li>placeDestination->湖</li>
+		<li>placeDestination->砦</li>
+		<li>placeDestination->塔</li>
+		
+		<li>placeIndeterminateSize->森</li>
+		<li>placeIndeterminateSize->山々</li>
+		<li>placeIndeterminateSize->谷</li>
+	</NamerBook_Mousekin_BookNovelAdventure.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>desc->[authorFullname]'s [bookTypeFic] [tellsAStoryOf] [protagonist]'s [journey] [task][optionalSecondaryPlot].\n\n[bookQualityFic]</li>
+		<li>desc->This [bookTypeFic] by [authorFullname] [tellsAStoryOf] [protagonist]'s [journey] [task][optionalSecondaryPlot].\n\n[bookQualityFic]</li>
+		<li>desc->In this sequel to [authorFullname]'s [bookTypeFic] "[title]", [protagonistNameOnly] embarks on a new [journey] [task][optionalSecondaryPlot].\n\n[bookQualityFic]</li>
+		
+		<li>bookTypeFic->epic</li>
+		
+		<li>tellsAStoryOf->chronicles</li>
+		<li>tellsAStoryOf->depicts</li>
+		<li>tellsAStoryOf->describes</li>
+		<li>tellsAStoryOf->follows</li>
+		
+		<li>protagonist->the gruff old soldier [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>protagonist->the wandering adventurer [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>protagonist->peasant girl [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		<li>protagonist->shepherd boy [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>protagonist->siblings [Mousekin_FirstName_Male] and [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		<li>protagonist->the dashing young Mousekin Knight [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>protagonist->the young Apprentice Guardener [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		
+		<li>protagonistNameOnly(p=3)->[Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>protagonistNameOnly(p=3)->[Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		<li>protagonistNameOnly->[Mousekin_FirstName_Male] [Mousekin_LastName_Heroic]</li>
+		<li>protagonistNameOnly->[Mousekin_FirstName_Female] [Mousekin_LastName_Heroic]</li>
+		
+		<li>journey->adventure</li>
+		<li>journey->journey</li>
+		<li>journey->odyssey</li>
+		<li>journey->quest</li>
+		
+		<li>task(p=8)->[search] [macguffin]</li>
+		<li>task->to clear the name of a friend wrongly accused of murder</li>
+		<li>task->to destroy a cursed tome before the Cult of the Pink Rat uses it to summon an army of half-rodent, half-smoothskin abominations</li>
+		<li>task->to rescue a princess kidnapped by bandits</li>
+		<li>task->to rescue the kidnapped heir of [noblePerson]</li>
+		<li>task->to slay a giant worm terrorizing several Mousekin villages</li>
+		<li>task->to slay a mythical Beast of Iron threatening the Mousekin Kingdom</li>
+		<li>task->to stop the Mousekin Kingdom from starting a war on false pretenses</li>
+		
+		<li>search->in search of</li>
+		<li>search->to find</li>
+		<li>search->to seek out</li>
+		
+		<li>optionalSecondaryPlot-></li>
+		<li>optionalSecondaryPlot->, accompanied by a faithful giant cavy named [Mousekin_AnimalName_GiantCavy]</li>
+		<li>optionalSecondaryPlot->, accompanied by a faithful pudgemouse named [Mousekin_AnimalName_Pudgemouse]</li>
+		<li>optionalSecondaryPlot->, encountering a dastardly group of Mousekin brigands along the way</li>
+		<li>optionalSecondaryPlot->, helping outlying Mousekin villages along the way</li>
+		<li>optionalSecondaryPlot->, joined by a foppish nobleman's son seeking to impress his lady love</li>
+		<li>optionalSecondaryPlot->, joined by a rebellious princess with an adventurous streak</li>
+		<li>optionalSecondaryPlot->, while evading pursuit by an overzealous magistrate and his posse</li>
+		<li>optionalSecondaryPlot->, while helping a lost smoothskin child find his way back home</li>
+	-->
+	<Description_Mousekin_BookNovelAdventure.rulePack.rulesStrings>
+		<li>desc->[authorFullname]の[bookTypeFic]は、[protagonist]が[task][journey]を[tellsAStoryOf]、その道中で[optionalSecondaryPlot]物語であります.\n\n[bookQualityFic]</li>
+		<!-- first and second patterns are identical in Japanese -->
+		<li>desc->[authorFullname]の[bookTypeFic]『[title]』の続編となる本作で、[optionalSecondaryPlot]、[task]新たな[journey]に出ます.</li>
+		
+		<li>bookTypeFic->叙事詩</li>
+		
+		<li>tellsAStoryOf->書き留め</li>
+		<li>tellsAStoryOf->描き</li>
+		<li>tellsAStoryOf->映し出し</li>
+		<li>tellsAStoryOf->追い</li>
+		
+		<li>protagonist->無愛想な老兵[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]</li>
+		<li>protagonist->放浪の冒険者[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]</li>
+		<li>protagonist->農家の娘[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]</li>
+		<li>protagonist->羊飼いの少年[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]</li>
+		<li>protagonist->[Mousekin_FirstName_Male]と[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]兄妹</li>
+		<li>protagonist->若く颯爽としたマウスキンの騎士[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]</li>
+		<li>protagonist->若い花園守護者見習い[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]</li>
+		
+		<li>protagonistNameOnly(p=3)->[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]</li>
+		<li>protagonistNameOnly(p=3)->[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]</li>
+		<li>protagonistNameOnly->[Mousekin_FirstName_Male]・[Mousekin_LastName_Heroic]</li>
+		<li>protagonistNameOnly->[Mousekin_FirstName_Female]・[Mousekin_LastName_Heroic]</li>
+		
+		<li>journey->冒険</li>
+		<li>journey->旅</li>
+		<li>journey->長い旅</li>
+		<li>journey->探求</li>
+		
+		<li>task(p=8)->[macguffin]を[search]</li>
+		<li>task->誤って殺人罪で告発された友人の汚名を晴らす</li>
+		<li>task->ピンクのネズミの教団が呪われた書物を使って半人半ネズミの忌まわしい軍勢を召喚する前に、それを破壊しようとする</li>
+		<li>task->盗賊に誘拐された姫を救う</li>
+		<li>task->[noblePerson]家の誘拐された後継者を救出する</li>
+		<li>task->複数のマウスキンの村々を恐怖に陥れている巨大な蠕虫を倒す</li>
+		<li>task->マウスキン王国を脅かす伝説の鉄の獣を倒す</li>
+		<li>task->マウスキン王国が偽りの口実で戦争を始めるのを阻止する</li>
+		
+		<li>search->求める</li>
+		<li>search->見つける</li>
+		<li>search->探し求める</li>
+		
+		<!-- always include a secondary plot in Japanese, for grammar and rulepack reasons -->
+		
+		<li>optionalSecondaryPlot->忠実なジャイアントキャビー[Mousekin_AnimalName_GiantCavy]を伴う</li>
+		<li>optionalSecondaryPlot->忠実なパッジマウス[Mousekin_AnimalName_Pudgemouse]を伴う</li>
+		<li>optionalSecondaryPlot->卑劣なマウスキンの山賊団と遭遇</li>
+		<li>optionalSecondaryPlot->辺境のネズミ族の村々を助ける</li>
+		<li>optionalSecondaryPlot->同行するのは恋人に印象づけようとする気取った貴族の息子である</li>
+		<li>optionalSecondaryPlot->同行するのは冒険心旺盛な姫である</li>
+		<li>optionalSecondaryPlot->熱心すぎる治安判事とその手下たちの追跡をかわす</li>
+		<li>optionalSecondaryPlot->迷子になったなめらか肌族の子供を家に帰す助ける</li>
+	</Description_Mousekin_BookNovelAdventure.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>title->The [subStoryTitle] and other [storyPlural]</li>
+		
+		<li>storyPlural->Stories</li>
+		<li>storyPlural->Tales</li>
+		
+		<li>subStoryTitle->[thing] in the [location]</li>
+		<li>subStoryTitle->[characterOne] and the [characterTwo]</li>
+		<li>subStoryTitle->[characterOne] and the [thing]</li>
+		
+		<li>thing->Baby</li>
+		<li>thing->Bird</li>
+		<li>thing->Bull</li>
+		<li>thing->Cat</li>
+		<li>thing->Cavy</li>
+		<li>thing->Chicken</li>
+		<li>thing->Cow</li>
+		<li>thing->Dog</li>
+		<li>thing->Duck</li>
+		<li>thing->Goat</li>
+		<li>thing->Goose</li>
+		<li>thing->Mouse</li>
+		<li>thing->Mouseling</li>
+		<li>thing->Pig</li>
+		<li>thing->Pudgemouse</li>
+		<li>thing->Rooster</li>
+		<li>thing->Snake</li>
+		
+		<li>location->Barn</li>
+		<li>location->Cave</li>
+		<li>location->Cellar</li>
+		<li>location->Church</li>
+		<li>location->Forest</li>
+		<li>location->Manger</li>
+		<li>location->Mine</li>
+		<li>location->Meadow</li>
+		<li>location->River</li>
+		<li>location->Stream</li>
+		<li>location->Tower</li>
+		<li>location->Tree</li>
+		<li>location->Woods</li>
+		
+		<li>characterOne->Doctor</li>
+		<li>characterOne->Farmer</li>
+		<li>characterOne->Guardener</li>
+		<li>characterOne->King</li>
+		<li>characterOne->Knight</li>
+		<li>characterOne->Magistrate</li>
+		<li>characterOne->Priest</li>
+		<li>characterOne->Prince</li>
+		<li>characterOne->Princess</li>
+		<li>characterOne->Queen</li>
+		<li>characterOne->[nobleRankMale]</li>
+		<li>characterOne->[nobleRankFemale]</li>
+		
+		<li>characterTwo->Bandit</li>
+		<li>characterTwo->Maid</li>
+		<li>characterTwo->Maiden</li>
+		<li>characterTwo->Nun</li>
+		<li>characterTwo->Soldier</li>
+	-->
+	<NamerBook_Mousekin_BookNovelChildren.rulePack.rulesStrings>
+		<li>title->[subStoryTitle]とその他の[storyPlural]</li>
+		
+		<li>storyPlural->物語</li>
+		<li>storyPlural->伝説</li>
+		
+		<li>subStoryTitle->[thing]の中の[location]</li>
+		<li>subStoryTitle->[characterOne]と[characterTwo]</li>
+		<li>subStoryTitle->[characterOne]と[thing]</li>
+		
+		<li>thing->赤ちゃん</li>
+        <li>thing->鳥</li>
+        <li>thing->雄牛</li>
+        <li>thing->猫</li>
+        <li>thing->キャビー</li>
+        <li>thing->鶏</li>
+        <li>thing->牛</li>
+        <li>thing->犬</li>
+		<li>thing->アヒル</li>
+        <li>thing->ヤギ</li>
+        <li>thing->ガチョウ</li>
+        <li>thing->ネズミ</li>
+        <li>thing->子ネズミ</li>
+        <li>thing->ブタ</li>
+        <li>thing->パッジマウス</li>
+		<li>thing->雄鶏</li>
+        <li>thing->蛇</li>
+		
+		<li>location->納屋</li>
+        <li>location->洞窟</li>
+        <li>location->地下室</li>
+        <li>location->教会</li>
+        <li>location->森</li>
+        <li>location->飼い葉桶</li>
+        <li>location->鉱山</li>
+		<li>location->草原</li>
+        <li>location->川</li>
+        <li>location->小川</li>
+        <li>location->塔</li>
+        <li>location->木</li>
+        <li>location->森</li>
+		
+		<li>characterOne->医師</li>
+		<li>characterOne->農民</li>
+		<li>characterOne->庭師</li>
+		<li>characterOne->王</li>
+		<li>characterOne->騎士</li>
+		<li>characterOne->判事</li>
+		<li>characterOne->司祭</li>
+		<li>characterOne->王子</li>
+		<li>characterOne->王女</li>
+		<li>characterOne->女王</li>
+		<li>characterOne->[nobleRankMale]</li>
+		<li>characterOne->[nobleRankFemale]</li>
+		
+		<li>characterTwo->盗賊</li>
+		<li>characterTwo->メイド</li>
+		<li>characterTwo->乙女</li>
+		<li>characterTwo->修道女</li>
+		<li>characterTwo->兵士</li>
+	</NamerBook_Mousekin_BookNovelChildren.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>desc->A collection of tales of [noun] for Mouseling boys and girls, [authorVerb] by [authorFullname].\n\n[bookQualityChildren]</li>
+		
+		<li>noun->adventure</li>
+		<li>noun->caution</li>
+		<li>noun->delight</li>
+		<li>noun->excitement</li>
+		<li>noun->wonder</li>
+		<li>noun->humor</li>
+		<li>noun->fun</li>
+		<li>noun->friendship</li>
+		
+		<li>authorVerb->gathered</li>
+		<li>authorVerb->written</li>
+		<li>authorVerb->authored</li>
+		<li>authorVerb->penned</li>
+		<li>authorVerb->compiled</li>
+		
+		<li>bookQualityChildren(quality[less_than]2)->[bookQualityChildrenBad]</li>
+		<li>bookQualityChildren(quality[less_than]4,quality[greater_than]1)->[bookQualityChildrenNormal]</li>
+		<li>bookQualityChildren(quality[greater_than]3)->[bookQualityChildrenGood]</li>
+		
+		<li>bookQualityChildrenBad->The stories are [bookQualityChildrenBadFirstHalf], [bookQualityChildrenBadSecondHalf].</li>
+		<li>bookQualityChildrenBadFirstHalf->hard to follow even for adults</li>
+		<li>bookQualityChildrenBadFirstHalf->unimaginative</li>
+		<li>bookQualityChildrenBadFirstHalf->mostly nonsensical</li>
+		<li>bookQualityChildrenBadSecondHalf->and the characters are uninteresting</li>
+		<li>bookQualityChildrenBadSecondHalf->and the illuminations are little more than incomprehensible chicken scratches</li>
+		<li>bookQualityChildrenBadSecondHalf->and are riddled with spelling errors</li>
+		
+		<li>bookQualityChildrenNormal->The stories are [bookQualityChildrenNormalFirstHalf], [bookQualityChildrenNormalSecondHalf].</li>
+		<li>bookQualityChildrenNormalFirstHalf->generally enjoyable</li>
+		<li>bookQualityChildrenNormalFirstHalf->quite fun to read</li>
+		<li>bookQualityChildrenNormalFirstHalf->quite humorous</li>
+		<li>bookQualityChildrenNormalSecondHalf->and there are a few clever puns</li>
+		<li>bookQualityChildrenNormalSecondHalf->but a few plot beats fail to move the narrative forward</li>
+		<li>bookQualityChildrenNormalSecondHalf->but has a few glaring plot holes</li>
+		
+		<li>bookQualityChildrenGood->The stories are [bookQualityChildrenGoodFirstHalf], [bookQualityChildrenGoodSecondHalf].</li>
+		<li>bookQualityChildrenGoodFirstHalf->exceptionally well-written</li>
+		<li>bookQualityChildrenGoodFirstHalf->original and quirky</li>
+		<li>bookQualityChildrenGoodFirstHalf->very engaging</li>
+		<li>bookQualityChildrenGoodFirstHalf->very entertaining for all ages</li>
+		<li>bookQualityChildrenGoodSecondHalf->and the illuminations are richly illustrated with colored ink</li>
+		<li>bookQualityChildrenGoodSecondHalf->and are highly educational</li>
+		<li>bookQualityChildrenGoodSecondHalf->and deliver important morals effectively</li>
+		<li>bookQualityChildrenGoodSecondHalf->and are filled with clever puns and rhymes</li>
+	-->
+	<Description_Mousekin_BookNovelChildren.rulePack.rulesStrings>
+		<li>desc->マウスキンの少年少女たちのための[noun]物語集、[authorFullname][authorVerb].\n\n[bookQualityChildren]</li>
+		
+		<li>noun->冒険</li>
+		<li>noun->戒めの</li>
+		<li>noun->楽しい</li>
+		<li>noun->ワクワク</li>
+		<li>noun->不思議</li>
+		<li>noun->ユーモア</li>
+		<li>noun->友情</li>
+		<!-- fun and delight are identical in Japanese -->
+		
+		<li>authorVerb->編纂</li>
+		<li>authorVerb->著</li>
+		<li>authorVerb->編</li>
+		<!-- written, authored, penned are identical in Japanese -->
+		
+		<li>bookQualityChildren(quality[less_than]2)->[bookQualityChildrenBad]</li>
+		<li>bookQualityChildren(quality[less_than]4,quality[greater_than]1)->[bookQualityChildrenNormal]</li>
+		<li>bookQualityChildren(quality[greater_than]3)->[bookQualityChildrenGood]</li>
+		
+		<li>bookQualityChildrenBad->物語[bookQualityChildrenBadFirstHalf]、[bookQualityChildrenBadSecondHalf].</li>
+		<li>bookQualityChildrenBadFirstHalf->は大人でも理解しにくく</li>
+		<li>bookQualityChildrenBadFirstHalf->は想像力に乏しく</li>
+		<li>bookQualityChildrenBadFirstHalf->の大半は支離滅裂で</li>
+		<li>bookQualityChildrenBadSecondHalf->登場人物も魅力に欠けます</li>
+		<li>bookQualityChildrenBadSecondHalf->挿絵は理解不能な落書き同然です</li>
+		<li>bookQualityChildrenBadSecondHalf->誤字脱字が散見します</li>
+		
+		<li>bookQualityChildrenNormal->物語[bookQualityChildrenNormalFirstHalf][bookQualityChildrenNormalSecondHalf].</li>
+		<li>bookQualityChildrenNormalFirstHalf->は概して楽し</li>
+		<li>bookQualityChildrenNormalFirstHalf->は読むのが非常に楽しい</li>
+		<li>bookQualityChildrenNormalFirstHalf->はかなりユーモラスだ</li>
+		<li>bookQualityChildrenNormalSecondHalf->く、巧妙な駄洒落もいくつか見られます</li>
+		<li>bookQualityChildrenNormalSecondHalf->が、いくつかの展開が物語を前進させるのに失敗しています</li>
+		<li>bookQualityChildrenNormalSecondHalf->が、目立つプロットの穴がいくつかあります</li>
+		
+		<li>bookQualityChildrenGood->物語[bookQualityChildrenGoodFirstHalf]、[bookQualityChildrenGoodSecondHalf].</li>
+		<li>bookQualityChildrenGoodFirstHalf->は極めてよく書かれており</li>
+		<li>bookQualityChildrenGoodFirstHalf->は独創的で風変わりであり</li>
+		<li>bookQualityChildrenGoodFirstHalf->は非常に魅力的で</li>
+		<li>bookQualityChildrenGoodFirstHalf->は全年齢層にとって非常に楽しく</li>
+		<li>bookQualityChildrenGoodSecondHalf->挿絵は彩色インクで豊かに彩られています</li>
+		<li>bookQualityChildrenGoodSecondHalf->非常に教育的であります</li>
+		<li>bookQualityChildrenGoodSecondHalf->重要な教訓を効果的に伝えています</li>
+		<li>bookQualityChildrenGoodSecondHalf->巧みな駄洒落や韻文に満ちています</li>
+	</Description_Mousekin_BookNovelChildren.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>title->A Comedy of Consequences</li>
+		<li>title->A Disastrous Delight</li>
+		<li>title->A Farce of Fates</li>
+		<li>title->A Farce of Favors</li>
+		<li>title->A Heap of Hilarity</li>
+		<li>title->A Jest in the Works</li>
+		<li>title->A Jumble of Jests</li>
+		<li>title->A Parade of Blunders</li>
+		<li>title->A Tale of Tumble and Trouble</li>
+		<li>title->A Tangle of Troubles</li>
+		<li>title->Civility and Chaos</li>
+		<li>title->Decorum and Discord</li>
+		<li>title->Follies in the Fog</li>
+		<li>title->Folly and Fables</li>
+		<li>title->Folly in the Fold</li>
+		<li>title->Folly in the Footsteps</li>
+		<li>title->Happenstance and Hilarity</li>
+		<li>title->Manners and Missteps</li>
+		<li>title->Misadventures [comedyTitleLocation]</li>
+		<li>title->Mishaps and Misfits</li>
+		<li>title->The Absurdity of Affliction</li>
+		<li>title->The Art of Mishaps</li>
+		<li>title->The Blunder [comedyTitleLocation]</li>
+		<li>title->The Bungling Buffoons</li>
+		<li>title->The Error of Our Ways</li>
+		<li>title->The Fool's Folly</li>
+		<li>title->The Misfit Merrymakers</li>
+		<li>title->The Muddle of Misunderstandings</li>
+		<li>title->The Tumultuous Tangle</li>
+		<li>title->Wisdom and Whimsy</li>
+		<li>title->Wit and Whimsy</li>
+		<li>title->Woes and Wobbles</li>
+		
+		<li>comedyTitleLocation->Across Town</li>
+		<li>comedyTitleLocation->Along the Road</li>
+		<li>comedyTitleLocation->Beneath the Bridge</li>
+		<li>comedyTitleLocation->at Midnight</li>
+		<li>comedyTitleLocation->in Town</li>
+	-->
+	<NamerBook_Mousekin_BookNovelComedy.rulePack.rulesStrings>
+		<li>title->結果の喜劇</li>
+		<li>title->災厄の歓喜</li>
+		<li>title->運命の茶番</li>
+		<li>title->恩恵の茶番</li>
+		<li>title->笑いの一山</li>
+		<li>title->進行中の冗談</li>
+		<li>title->冗談の入り乱れ</li>
+		<li>title->失態のパレード</li>
+		<li>title->転落とトラブルの物語</li>
+		<li>title->トラブルの絡み合い</li>
+		<li>title->礼儀と混沌</li>
+		<li>title->礼節と不和</li>
+		<li>title->霧の中の愚行</li>
+		<li>title->愚行と寓話</li>
+		<li>title->囲いの中の愚行</li>
+		<li>title->足跡の中の愚行</li>
+		<li>title->偶然と滑稽</li>
+		<li>title->礼儀と失態</li>
+		<li>title->[comedyTitleLocation]の事故</li>
+		<li>title->災難と不適合者たち</li>
+		<li>title->苦難の不条理</li>
+		<li>title->災難の芸術</li>
+		<li>title->[comedyTitleLocation]の失態</li>
+		<li>title->間抜けな道化師たち</li>
+        <li>title->我らの過ちの道</li>
+        <li>title->愚か者の愚行</li>
+        <li>title->場違いな宴の者たち</li>
+        <li>title->誤解の混乱</li>
+		<li>title->騒然たるもつれ</li>
+        <li>title->知恵と気まぐれ</li>
+        <li>title->機知と気まぐれ</li>
+        <li>title->悲嘆とよろめき</li>
+		
+		<li>comedyTitleLocation->街を横切る</li>
+		<li>comedyTitleLocation->道に沿って進む</li>
+		<li>comedyTitleLocation->橋の下</li>
+		<li>comedyTitleLocation->真夜中</li>
+		<li>comedyTitleLocation->町</li>
+	</NamerBook_Mousekin_BookNovelComedy.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>desc(p=0.5)->This comedy by [authorFullname] tells the story of [plotA]\n\n[bookQualityFic]</li>
+		<li>desc(p=0.5)->[authorFullname]'s comedic [bookTypeFic] tells the story of [plotA]\n\n[bookQualityFic]</li>
+		<li>desc->In this comedy by [authorFullname], [plotB]\n\n[bookQualityFic]</li>
+		
+		<li>plotA->best friends [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner] and [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner], who have been corresponding with their respective secret lovers through messages passed on by a [commonerJobMale] named [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]. Chaotic hilarity ensues when [comedyLoveMessengerSubplot].</li>
+		<li>plotA->[nobleFemale] and [nobleFemale], who take a fancy to each other's [comedyNoblesSwappingItemFemale] and decide to swap them for a day, with hilarious results.</li>
+		<li>plotA->[nobleMale] and [nobleMale], who take a fancy to each other's [comedyNoblesSwappingItemMale] and decide to swap them for a day, with hilarious results.</li>
+		<li>plotA->three friends - the [commonerJobMale] [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner], the [commonerJobMale] [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner], and the [commonerJobMale] [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner] - who decide to [comedyTrioVenture] despite their lack of experience or preparation, with amusing consequences.</li>
+		<li>plotB(p=0.2)->a down-on-his-luck [commonerJobMale] named [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner] runs out of beer money at a tavern, and impulsively opens a tab under the name of [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner], unaware that the latter is [comedyTavernBarTabCharacter]. Hilarity ensues when old lovers, debt collectors, and long-lost relatives all come calling.</li>
+		<li>plotB->[nobleMale]'s bored [childrenOrdinalAdj] daughter Lady [Mousekin_FirstName_Female] decides to go incognito and experience life [comedyLadyIncognitoLocation] - with amusing consequences.</li>
+		<li>plotB(p=2)->a [commonerJobMale] named [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner] is hired to impersonate [nobleMale] for a day while the latter [comedyIdenticalStrangerExcuse], but is forced to keep up the masquerade after [comedyIdenticalStrangerComplication], with hysterical results.</li>
+		<li>plotB(p=2)->the author explores the lighthearted side of the power dynamics between different classes in Mousekin society when [comedyClassPowerDynamicsSubplot].</li>
+		
+		<li>comedyLoveMessengerSubplot->instructions for each couple's respective first meetings are mixed up with each other</li>
+		<li>comedyLoveMessengerSubplot->both lovers turn out to be the same person</li>
+		<li>comedyLoveMessengerSubplot->both lovers turn out to be the messenger himself</li>
+		
+		<li>comedyNoblesSwappingItemFemale->[comedyNoblesSwappingItem]</li>
+		<li>comedyNoblesSwappingItemFemale->brooches</li>
+		<li>comedyNoblesSwappingItemFemale->dresses</li>
+		<li>comedyNoblesSwappingItemFemale->gowns</li>
+		<li>comedyNoblesSwappingItemFemale->hair corsages</li>
+		<li>comedyNoblesSwappingItemFemale->hairpins</li>
+		<li>comedyNoblesSwappingItemFemale->necklaces</li>
+		
+		<li>comedyNoblesSwappingItemMale->[comedyNoblesSwappingItem]</li>
+		<li>comedyNoblesSwappingItemMale->jackets</li>
+		<li>comedyNoblesSwappingItemMale->signet rings</li>
+		<li>comedyNoblesSwappingItemMale->tunics</li>
+		
+		<li>comedyNoblesSwappingItem->cloaks</li>
+		<li>comedyNoblesSwappingItem->coats</li>
+		<li>comedyNoblesSwappingItem->hats</li>
+		<li>comedyNoblesSwappingItem->mantles</li>
+		
+		<li>comedyTrioVenture->build a cottage</li>
+		<li>comedyTrioVenture->build a wooden cart after one of the trio accidentally breaks the one loaned to him</li>
+		<li>comedyTrioVenture->circumnavigate all the rivers of the Mousekin Kingdom in a second-hand coracle</li>
+		<li>comedyTrioVenture->cultivate a rare variety of [flowerCommon] to win their town's annual flower contest</li>
+		<li>comedyTrioVenture->enter a cup and dice tournament</li>
+		<li>comedyTrioVenture->open a tavern</li>
+		<li>comedyTrioVenture->raise a barn</li>
+		<li>comedyTrioVenture->start a travelling theater troupe</li>
+		<li>comedyTrioVenture->take on a commission to renovate [noblePerson]'s flower garden</li>
+		<li>comedyTrioVenture->tame [noblePerson]'s tempestuous giant cavy</li>
+		<li>comedyTrioVenture->teach pudgemice to dance</li>
+		<li>comedyTrioVenture->teach pudgemice to speak</li>
+		
+		<li>comedyTavernBarTabCharacter->a famed knight</li>
+		<li>comedyTavernBarTabCharacter->a notorious dandy</li>
+		<li>comedyTavernBarTabCharacter->a notorious womanizer</li>
+		<li>comedyTavernBarTabCharacter->a respected bishop</li>
+		<li>comedyTavernBarTabCharacter->a respected cardinal</li>
+		<li>comedyTavernBarTabCharacter->a respected priest</li>
+		<li>comedyTavernBarTabCharacter->a wealthy local landowner</li>
+		<li>comedyTavernBarTabCharacter->an infamous bandit</li>
+		<li>comedyTavernBarTabCharacter->the local [nobleRankMale]</li>
+		
+		<li>comedyIdenticalStrangerExcuse->disguises himself as a servant to observe what his own peers say about him behind his back</li>
+		<li>comedyIdenticalStrangerExcuse->engages in a secret affair with a maid</li>
+		<li>comedyIdenticalStrangerExcuse->enjoys a night on the town incognito</li>
+		<li>comedyIdenticalStrangerExcuse->hides to avoid meeting annoying relatives</li>
+		<li>comedyIdenticalStrangerExcuse->participates in an underground boxing tournament</li>
+		<li>comedyIdenticalStrangerExcuse->secretly negotiates an important business deal</li>
+		<li>comedyIdenticalStrangerExcuse->secretly visits a brothel</li>
+		<li>comedyIdenticalStrangerExcuse->seeks respite from his harridan wife</li>
+		<li>comedyIdenticalStrangerExcuse->seeks treatment for an embarassing medical condition</li>
+		
+		<li>comedyIdenticalStrangerComplication->a flood in the surrounding farmlands traps everyone within the manor grounds</li>
+		<li>comedyIdenticalStrangerComplication->a freak accident involving a pudgemouse, two carrots and a spoon</li>
+		<li>comedyIdenticalStrangerComplication->an unexpected storm forces everyone to shelter in the manor for the night</li>
+		<li>comedyIdenticalStrangerComplication->the nobleman chokes on a Chonko nut</li>
+		<li>comedyIdenticalStrangerComplication->the nobleman's carriage home is waylaid for unknown reasons</li>
+		<li>comedyIdenticalStrangerComplication->the nobleman's wife falls in love with him instead</li>
+		
+		<li>comedyLadyIncognitoLocation->on a farm</li>
+		<li>comedyLadyIncognitoLocation->in a convent</li>
+		<li>comedyLadyIncognitoLocation->as a scullery maid in another noble household</li>
+		
+		<li>comedyClassPowerDynamicsSubplot->a series of misunderstandings between [noblePerson] and [commonerPerson] cause the both of them to believe they owe each other a life debt</li>
+		<li>comedyClassPowerDynamicsSubplot->[noblePerson] and [commonerPerson] decide to swap lives for a day</li>
+		<li>comedyClassPowerDynamicsSubplot->two feuding nobles, [noblePerson] and [noblePerson], task their respective servants with sabotaging each other, only for both servants to become friends and devise a plan to [comedyClassPowerDynamicsServantsPlan]</li>
+		<li>comedyClassPowerDynamicsSubplot->the [commonerPerson] and the aristocrat [noblePerson] covet the same [trinket], and resort to extreme lengths to prevent the other person from obtaining it first</li>
+		<li>comedyClassPowerDynamicsSubplot->the [commonerPerson] and the aristocrat [noblePerson] strike up an unlikely friendship, and have to hide it from their respective social circles</li>
+		
+		<li>comedyClassPowerDynamicsServantsPlan->blackmail their employers for more money</li>
+		<li>comedyClassPowerDynamicsServantsPlan->teach their employers a lesson in humility</li>
+		<li>comedyClassPowerDynamicsServantsPlan->help their employers reconcile</li>
+	-->
+	<Description_Mousekin_BookNovelComedy.rulePack.rulesStrings>
+		<li>desc(p=0.5)->[authorFullname]のこのコメディは、[plotA]物語であります.\n\n[bookQualityFic]</li>
+		<li>desc(p=0.5)->[authorFullname]のコメディ[bookTypeFic]は、[plotA]物語であります.\n\n[bookQualityFic]</li>
+		<li>desc->[authorFullname]のこのコメディでは、[plotB]\n\n[bookQualityFic]</li>
+		
+		<li>plotA->親友の[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]と[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]が、[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]という[commonerJobMale]を介してそれぞれ秘密の恋人と文通を続けていたが、[comedyLoveMessengerSubplot]</li>
+		<li>plotA->互いの[comedyNoblesSwappingItemFemale]に憧れを抱いた[nobleFemale]と[nobleFemale]が一日だけ帽子を交換することになり、笑える結果を招く</li>
+		<li>plotA->互いの[comedyNoblesSwappingItemMale]に憧れを抱いた[nobleMale]と[nobleMale]が一日だけ帽子を交換することになり、笑える結果を招く</li>
+		<li>plotA->[commonerJobMale][Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]、[commonerJobMale][Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]、[commonerJobMale][Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]の三人の友人が、経験も準備も全くないまま[comedyTrioVenture]と決心し、笑える結果を招く</li>
+		<li>plotB(p=0.2)->不運続きの[commonerJobMale][Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]が酒場でビール代を払えなくなり、衝動的に[Mousekin_FirstName_Commoner]・[Mousekin_LastName_Commoner]名義でバーのツケを開ける.しかし彼が[comedyTavernBarTabCharacter]であることに気づいていなかった.元恋人、取立人、行方不明だった親戚たちが次々と現れ、大騒動が巻き起こります.</li>
+		<li>plotB->[nobleMale]の退屈な[childrenOrdinalAdj]女[Mousekin_FirstName_Female]嬢が身分を隠して[comedyLadyIncognitoLocation]生活を体験しようと決意し、笑える結果を招きます.</li>
+		<li>plotB(p=2)->[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]という[commonerJobMale]が[nobleMale]の身代わりとして一日だけ雇います.その間、後者は[comedyIdenticalStrangerExcuse]が、[comedyIdenticalStrangerComplication]、偽装を続けざるを得なくなり、笑いの絶えない結果となります.</li>
+		<li>plotB(p=2)->[comedyClassPowerDynamicsSubplot]、マウスキン社会における階級間の力関係のもつ軽妙な側面が描かれています.</li>
+		
+		<li>comedyLoveMessengerSubplot->二人の初対面の手順が互いに混同されてしまう</li>
+		<li>comedyLoveMessengerSubplot->二人の恋人は実は同一人物だった</li>
+		<li>comedyLoveMessengerSubplot->二人の恋人はなんと使者本人であった</li>
+		
+		<li>comedyNoblesSwappingItemFemale->[comedyNoblesSwappingItem]</li>
+		<li>comedyNoblesSwappingItemFemale->ブローチ</li>
+		<li>comedyNoblesSwappingItemFemale->ドレス</li>
+		<li>comedyNoblesSwappingItemFemale->ガウン</li>
+		<li>comedyNoblesSwappingItemFemale->ヘアコサージュ</li>
+		<li>comedyNoblesSwappingItemFemale->ヘアピン</li>
+		<li>comedyNoblesSwappingItemFemale->ネックレス</li>
+		
+		<li>comedyNoblesSwappingItemMale->[comedyNoblesSwappingItem]</li>
+		<li>comedyNoblesSwappingItemMale->ジャケット</li>
+		<li>comedyNoblesSwappingItemMale->印章指輪</li>
+		<li>comedyNoblesSwappingItemMale->チュニック</li>
+		
+		<li>comedyNoblesSwappingItem->クローク</li>
+		<li>comedyNoblesSwappingItem->コート</li>
+		<li>comedyNoblesSwappingItem->帽子</li>
+		<li>comedyNoblesSwappingItem->マントル</li>
+		
+		<li>comedyTrioVenture->コテージを建てる</li>
+		<li>comedyTrioVenture->三人のうちの一人が借りていた木製のカートを誤って壊してしまった後、新たに木製のカートを作る</li>
+		<li>comedyTrioVenture->中古の丸舟でマウスキン王国のすべての川を一周する</li>
+		<li>comedyTrioVenture->珍しい品種の[flowerCommon]を育て、町の毎年恒例の花コンテストで優勝する</li>
+		<li>comedyTrioVenture->丁半の競技に参加する</li>
+		<li>comedyTrioVenture->居酒屋を開く</li>
+		<li>comedyTrioVenture->納屋を建てる</li>
+		<li>comedyTrioVenture->巡回劇団を始める</li>
+		<li>comedyTrioVenture->[noblePerson]の花園の改修工事を請け負う</li>
+		<li>comedyTrioVenture->[noblePerson]の荒々しいジャイアントキャビーを調教する</li>
+		<li>comedyTrioVenture->パッジマウスに踊りを教える</li>
+		<li>comedyTrioVenture->パッジマウスに話すことを教える</li>
+		
+		<li>comedyTavernBarTabCharacter->有名な騎士</li>
+		<li>comedyTavernBarTabCharacter->有名なダンディ</li>
+		<li>comedyTavernBarTabCharacter->悪名高い女たらし</li>
+		<li>comedyTavernBarTabCharacter->尊敬される司教</li>
+		<li>comedyTavernBarTabCharacter->尊敬される枢機卿</li>
+		<li>comedyTavernBarTabCharacter->尊敬される司祭</li>
+		<li>comedyTavernBarTabCharacter->裕福な地元の地主</li>
+		<li>comedyTavernBarTabCharacter->悪名高い山賊</li>
+		<li>comedyTavernBarTabCharacter->地元の[nobleRankMale]</li>
+		
+		<li>comedyIdenticalStrangerExcuse->使用人に変装し、仲間たちが陰で自分について何を言っているか観察する</li>
+		<li>comedyIdenticalStrangerExcuse->メイドと密かに情事を交わす</li>
+		<li>comedyIdenticalStrangerExcuse->変装して街で夜を楽しむ</li>
+		<li>comedyIdenticalStrangerExcuse->厄介な親戚との面会を避けるため身を隠す</li>
+		<li>comedyIdenticalStrangerExcuse->地下ボクシング大会に参加する</li>
+		<li>comedyIdenticalStrangerExcuse->重要な商談を密かに交渉する</li>
+		<li>comedyIdenticalStrangerExcuse->密かに娼館を訪れる</li>
+		<li>comedyIdenticalStrangerExcuse->煩わしい妻から逃れる</li>
+		<li>comedyIdenticalStrangerExcuse->恥ずかしい病状の治療を求める</li>
+		
+		<li>comedyIdenticalStrangerComplication->周辺の農地が洪水に見舞われ屋敷の敷地内に全員が閉じ込められたため</li>
+		<li>comedyIdenticalStrangerComplication->パッジマウスと人参二本、そしてスプーンが絡んだ奇妙な事故の後</li>
+		<li>comedyIdenticalStrangerComplication->予期せぬ嵐のためその夜全員が屋敷に避難せざるを得なくなり</li>
+		<li>comedyIdenticalStrangerComplication->貴族チョンコナッツを喉に詰まらせてしまい</li>
+		<li>comedyIdenticalStrangerComplication->貴族の帰路の馬車が不可解な理由で襲撃されたため</li>
+		<li>comedyIdenticalStrangerComplication->貴族の妻が前者に恋をしてしまい</li>
+		
+		<li>comedyLadyIncognitoLocation->農場での</li>
+		<li>comedyLadyIncognitoLocation->修道院での</li>
+		<li>comedyLadyIncognitoLocation->別の貴族の家で下働きとして</li>
+		
+		<li>comedyClassPowerDynamicsSubplot->[noblePerson]と[commonerPerson]の間で起きた一連の誤解が、互いに命の借りがあると思い込ませることで</li>
+		<li>comedyClassPowerDynamicsSubplot->[noblePerson]と[commonerPerson]が一日だけ生活を交換することを決めたとき</li>
+		<li>comedyClassPowerDynamicsSubplot->[noblePerson]と[noblePerson]という二つの敵対する貴族が、互いの使用人に相手を妨害するよう命じるが、両方の使用人が友人となり、[comedyClassPowerDynamicsServantsPlan]</li>
+		
+		<li>comedyClassPowerDynamicsServantsPlan->雇い主からより多くの金をゆすり取る計画を練るという</li>
+		<li>comedyClassPowerDynamicsServantsPlan->雇い主に謙虚さを教える計画を練るという</li>
+		<li>comedyClassPowerDynamicsServantsPlan->雇い主たちの和解を助ける計画を練るという</li>
+	</Description_Mousekin_BookNovelComedy.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>title->The [authorSurname] Affair</li>
+		<li>title(p=2)->The [intrigueTitleObject] in the [intrigueTitleLocation]</li>
+		
+		<li>intrigueTitleObject->Barrel</li>
+		<li>intrigueTitleObject->Body</li>
+		<li>intrigueTitleObject->Book</li>
+		<li>intrigueTitleObject->Bottle</li>
+		<li>intrigueTitleObject->Brooch</li>
+		<li>intrigueTitleObject->Chest</li>
+		<li>intrigueTitleObject->Corpse</li>
+		<li>intrigueTitleObject->Dagger</li>
+		<li>intrigueTitleObject->Knife</li>
+		<li>intrigueTitleObject->Lamp</li>
+		<li>intrigueTitleObject->Letter</li>
+		<li>intrigueTitleObject->Manuscript</li>
+		<li>intrigueTitleObject->Markings</li>
+		<li>intrigueTitleObject->Medallion</li>
+		<li>intrigueTitleObject->Painting</li>
+		<li>intrigueTitleObject->Parchment</li>
+		<li>intrigueTitleObject->Pouch</li>
+		<li>intrigueTitleObject->Quill</li>
+		<li>intrigueTitleObject->Skeleton</li>
+		<li>intrigueTitleObject->Tome</li>
+		
+		<li>intrigueTitleLocation->Alcove</li>
+		<li>intrigueTitleLocation->Attic</li>
+		<li>intrigueTitleLocation->Basement</li>
+		<li>intrigueTitleLocation->Bedroom</li>
+		<li>intrigueTitleLocation->Belfry</li>
+		<li>intrigueTitleLocation->Castle</li>
+		<li>intrigueTitleLocation->Cellar</li>
+		<li>intrigueTitleLocation->Chapel</li>
+		<li>intrigueTitleLocation->Church</li>
+		<li>intrigueTitleLocation->Drawing Room</li>
+		<li>intrigueTitleLocation->Fortress</li>
+		<li>intrigueTitleLocation->Garden</li>
+		<li>intrigueTitleLocation->Hall</li>
+		<li>intrigueTitleLocation->Hallway</li>
+		<li>intrigueTitleLocation->House</li>
+		<li>intrigueTitleLocation->Lodge</li>
+		<li>intrigueTitleLocation->Manor</li>
+		<li>intrigueTitleLocation->Throne Room</li>
+		<li>intrigueTitleLocation->Tower</li>
+		<li>intrigueTitleLocation->Tunnel</li>
+	-->
+	<NamerBook_Mousekin_BookNovelIntrigue.rulePack.rulesStrings>
+		<li>title->[authorSurname]事件</li>
+		<li>title(p=2)->[intrigueTitleLocation]の中の[intrigueTitleObject]</li>
+		
+		<li>intrigueTitleObject->樽</li>
+        <li>intrigueTitleObject->遺体</li>
+        <li>intrigueTitleObject->本</li>
+        <li>intrigueTitleObject->瓶</li>
+        <li>intrigueTitleObject->ブローチ</li>
+		<li>intrigueTitleObject->チェスト</li>
+        <li>intrigueTitleObject->死体</li>
+        <li>intrigueTitleObject->短剣</li>
+        <li>intrigueTitleObject->ナイフ</li>
+        <li>intrigueTitleObject->ランプ</li>
+		<li>intrigueTitleObject->手紙</li>
+        <li>intrigueTitleObject->原稿</li>
+        <li>intrigueTitleObject->刻印</li>
+        <li>intrigueTitleObject->メダリオン</li>
+        <li>intrigueTitleObject->絵画</li>
+		<li>intrigueTitleObject->羊皮紙</li>
+        <li>intrigueTitleObject->袋</li>
+        <li>intrigueTitleObject->羽ペン</li>
+        <li>intrigueTitleObject->骸骨</li>
+        <li>intrigueTitleObject->古文書</li>
+		
+		<li>intrigueTitleLocation->アルコーブ</li>
+        <li>intrigueTitleLocation->屋根裏部屋</li>
+        <li>intrigueTitleLocation->地下室</li>
+        <li>intrigueTitleLocation->寝室</li>
+        <li>intrigueTitleLocation->鐘楼</li>
+		<li>intrigueTitleLocation->城</li>
+        <li>intrigueTitleLocation->地下室</li>
+        <li>intrigueTitleLocation->礼拝堂</li>
+        <li>intrigueTitleLocation->教会</li>
+        <li>intrigueTitleLocation->応接間</li>
+		<li>intrigueTitleLocation->要塞</li>
+        <li>intrigueTitleLocation->庭園</li>
+        <li>intrigueTitleLocation->ホール</li>
+        <li>intrigueTitleLocation->廊下</li>
+        <li>intrigueTitleLocation->屋敷</li>
+        <li>intrigueTitleLocation->ロッジ</li>
+		<li>intrigueTitleLocation->大邸宅</li>
+        <li>intrigueTitleLocation->玉座の間</li>
+        <li>intrigueTitleLocation->塔</li>
+        <li>intrigueTitleLocation->トンネル</li>
+	</NamerBook_Mousekin_BookNovelIntrigue.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>desc(p=0.5)->This [bookTypeFic] of intrigue by [authorFullname] tells the story of [plotA]\n\n[bookQualityFic]</li>
+		<li>desc(p=0.5)->[authorFullname]'s [bookTypeFic] of intrigue tells the story of [plotA]\n\n[bookQualityFic]</li>
+		<li>desc->In this [bookTypeFic] of intrigue by [authorFullname], [plotB]\n\n[bookQualityFic]</li>
+		
+		<li>plotA->[nobleMale], who seeks revenge upon [intrigueNobleRevengeEnemy] for [intrigueNobleRevengeReason], [intrigueNobleRevengeSubplot].</li>
+		<li>plotA->a bitter feud between the noble families of [intrigueGenerationalFeudLastName] and [intrigueGenerationalFeudLastName] spanning multiple generations, triggered by [intrigueGenerationalFeudReason].</li>
+		<li>plotA->a plot to [intrigueConspiracy] by [intrigueConspiracyAntagonist], while [intrigueConspiracyProtagonist] attempts to thwart it.</li>
+		<li>plotB->[intrigueConspiracyProtagonist] uncovers a plot by [intrigueConspiracyAntagonist] to [intrigueConspiracy], and sets out to thwart it.</li>
+		<li>plotB->[intrigueConspiracyAntagonist] plots to [intrigueConspiracy], while [intrigueConspiracyProtagonist] attempts to thwart it.</li>
+		<li>plotB->the author describes the trials and tribulations of [nobleMale], as he navigates blackmail, betrayal, corruption, murder, and other acts of power play in the decadent court of the Mousekin King [Mousekin_FirstName_Male] [Mousekin_LastName_Royal], in order to [intrigueDecadentCourtGoal].</li>
+		
+		<li>intrigueNobleRevengeEnemy->[nobleMale]</li>
+		<li>intrigueNobleRevengeEnemy->a group of rival aristocrats led by [nobleMale]</li>
+		<li>intrigueNobleRevengeEnemy->his brother [Mousekin_FirstName_Male]</li>
+		<li>intrigueNobleRevengeEnemy->his vindicative ex-lover Lady [personFemale]</li>
+		<li>intrigueNobleRevengeEnemy->the corrupt magistrate [personMale]</li>
+		
+		<li>intrigueNobleRevengeReason->blackmailing his daughter</li>
+		<li>intrigueNobleRevengeReason->framing him for the crime of [intrigueNobleRevengeFalseCrime]</li>
+		<li>intrigueNobleRevengeReason->humiliating him before the court of the Mousekin King</li>
+		<li>intrigueNobleRevengeReason->murdering his father</li>
+		<li>intrigueNobleRevengeReason->murdering his heir</li>
+		
+		<li>intrigueNobleRevengeFalseCrime->attempting to assassinate a prince</li>
+		<li>intrigueNobleRevengeFalseCrime->blasphemy against the Mousekin Church</li>
+		<li>intrigueNobleRevengeFalseCrime->conspiring with Independent Town rebel mice</li>
+		<li>intrigueNobleRevengeFalseCrime->embezzling taxes</li>
+		<li>intrigueNobleRevengeFalseCrime->plotting a coup against the Mousekin King</li>
+		<li>intrigueNobleRevengeFalseCrime->secretly practicing beliefs from the banned Devotionist sect</li>
+		
+		<li>intrigueNobleRevengeSubplot->helped by a brave knight</li>
+		<li>intrigueNobleRevengeSubplot->helped by a reformed criminal named [personMale]</li>
+		<li>intrigueNobleRevengeSubplot->helped by a sympathetic Guardener</li>
+		<li>intrigueNobleRevengeSubplot->helped by his [intrigueNobleRevengeFamilyMember]</li>
+		<li>intrigueNobleRevengeSubplot->helped by his faithful butler [personMale]</li>
+		<li>intrigueNobleRevengeSubplot->helped by his lover Lady [personFemale]</li>
+		<li>intrigueNobleRevengeSubplot->while attempting to reconcile with his [intrigueNobleRevengeFamilyMember]</li>
+		<li>intrigueNobleRevengeSubplot->while dealing with a famine afflicting his serfs</li>
+		<li>intrigueNobleRevengeSubplot->while trying to restore his family's depleted finances</li>
+		
+		<li>intrigueNobleRevengeFamilyMember->daughter [Mousekin_FirstName_Female]</li>
+		<li>intrigueNobleRevengeFamilyMember->estranged wife [Mousekin_FirstName_Female]</li>
+		<li>intrigueNobleRevengeFamilyMember->long-lost bastard son, a [commonerJobMale] named [Mousekin_FirstName_Male]</li>
+		
+		<li>intrigueGenerationalFeudLastName->[Mousekin_LastName_Commoner]</li>
+		<li>intrigueGenerationalFeudLastName->[Mousekin_LastName_Heroic]</li>
+		
+		<li>intrigueGenerationalFeudReason->a public humiliation before the court of the Mousekin King</li>
+		<li>intrigueGenerationalFeudReason->a vicious disagreement over the outcome of a card game</li>
+		<li>intrigueGenerationalFeudReason->the death of the former's [childrenOrdinalAdj] son by the latter's [childrenOrdinalAdj] son in a duel over the same woman</li>
+		<li>intrigueGenerationalFeudReason->the former falsely accusing the latter of [intrigueNobleRevengeFalseCrime]</li>
+		<li>intrigueGenerationalFeudReason->the rape of the former's [childrenOrdinalAdj] daughter by the latter's [childrenOrdinalAdj] son after a rejected marriage proposal</li>
+		
+		<li>intrigueConspiracy->assassinate [intrigueConspiracyTargetPerson]</li>
+		<li>intrigueConspiracy->blackmail [intrigueConspiracyTargetPerson]</li>
+		<li>intrigueConspiracy->destroy [intrigueConspiracyTargetLocation] with hidden barrels of gunpowder</li>
+		<li>intrigueConspiracy->leak state secrets to an enemy nation</li>
+		<li>intrigueConspiracy->replace key government officials</li>
+		<li>intrigueConspiracy->steal the Mousekin Kingdom's strategic reserve of Chonko and Nyam nuts</li>
+		
+		<li>intrigueConspiracyTargetPerson->the Crown Prince</li>
+		<li>intrigueConspiracyTargetPerson->the Mousekin King</li>
+		<li>intrigueConspiracyTargetPerson->the influential [noblePerson]</li>
+		
+		<li>intrigueConspiracyTargetLocation->the Royal Palace</li>
+		<li>intrigueConspiracyTargetLocation->the Royal flower gardens</li>
+		<li>intrigueConspiracyTargetLocation->the fortress of Whitefur's Keep</li>
+		
+		<li>intrigueConspiracyAntagonist->[intrigueConspiracyCharacter]</li>
+		<li>intrigueConspiracyAntagonist->an influential merchant</li>
+		<li>intrigueConspiracyAntagonist->a deep cover agent of the Independent Town rebel movement</li>
+		<li>intrigueConspiracyAntagonist->the treacherous Knight Commander [knightFullName]</li>
+		<li>intrigueConspiracyAntagonist->the treacherous Knight [knightFullName]</li>
+		
+		<li>intrigueConspiracyProtagonist->[intrigueConspiracyCharacter]</li>
+		<li>intrigueConspiracyProtagonist->the [knightProtagonist]</li>
+		
+		<li>intrigueConspiracyCharacter->Prince [Mousekin_FirstName_Male] [Mousekin_LastName_Royal]</li>
+		<li>intrigueConspiracyCharacter->Princess [Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</li>
+		<li>intrigueConspiracyCharacter->[noblePerson]</li>
+		
+		<li>intrigueDecadentCourtGoal->defeat a political nemesis once and for all</li>
+		<li>intrigueDecadentCourtGoal->gain the hand of marriage to Princess [Mousekin_FirstName_Female] [Mousekin_LastName_Royal]</li>
+		<li>intrigueDecadentCourtGoal->restore his family's reputation</li>
+		<li>intrigueDecadentCourtGoal->rise through the ranks of government bureaucracy and high society</li>
+		<li>intrigueDecadentCourtGoal->root out corruption festering in the government</li>
+		<li>intrigueDecadentCourtGoal->secure a pardon for a wrongly-convicted relative</li>
+	-->
+	<Description_Mousekin_BookNovelIntrigue.rulePack.rulesStrings>
+		<li>desc->[authorFullname]によるこの陰謀[bookTypeFic]は、[plotA]の物語であります.\n\n[bookQualityFic]</li>
+		<!-- first and second patterns are identical in Japanese -->
+		<li>desc->[authorFullname]によるこの陰謀[bookTypeFic]において、[plotB].\n\n[bookQualityFic]</li>
+		
+		<li>plotA->[intrigueNobleRevengeReason][intrigueNobleRevengeEnemy]への復讐を、[intrigueNobleRevengeSubplot]そうとする[nobleMale]</li>
+		<li>plotA->[intrigueGenerationalFeudReason]をきっかけに、[intrigueGenerationalFeudLastName]家と[intrigueGenerationalFeudLastName]家の貴族一族の間で数世代にわたり続く激しい確執</li>
+		<li>plotA->[intrigueConspiracyAntagonist]による[intrigueConspiracy]の陰謀と、[intrigueConspiracyProtagonist]がその計画を阻止しようと試みる</li>
+		<li>plotB->[intrigueConspiracyProtagonist]は[intrigueConspiracyAntagonist]による[intrigueConspiracy]の陰謀を発見し、それを阻止すべく動き出します</li>
+		<li>plotB->[intrigueConspiracyAntagonist]が[intrigueConspiracy]しようと企む一方、[intrigueConspiracyProtagonist]がその計画を阻止しようとします</li>
+		<li>plotB->作者は[nobleMale]が、[intrigueDecadentCourtGoal]ため、マウスキンの王[Mousekin_FirstName_Male]・[Mousekin_LastName_Royal]の退廃した宮廷で、恐喝、裏切り、腐敗、殺人、その他の権力闘争をくぐり抜ける苦難と試練を描いています</li>
+		
+		<li>intrigueNobleRevengeEnemy->[nobleMale]</li>
+		<li>intrigueNobleRevengeEnemy->[nobleMale]率いる対立貴族グループ</li>
+		<li>intrigueNobleRevengeEnemy->彼の兄[Mousekin_FirstName_Male]</li>
+		<li>intrigueNobleRevengeEnemy->復讐心に燃える元恋人[personFemale]嬢</li>
+		<li>intrigueNobleRevengeEnemy->汚職裁判官[personMale]</li>
+		
+		<li>intrigueNobleRevengeReason->娘を脅迫した</li>
+		<li>intrigueNobleRevengeReason->[intrigueNobleRevengeFalseCrime]で冤罪を着せられた</li>
+		<li>intrigueNobleRevengeReason->マウスキンの王の前で自分を辱めた</li>
+		<li>intrigueNobleRevengeReason->父を殺害した</li>
+		<li>intrigueNobleRevengeReason->後継者を殺害した</li>
+		
+		<li>intrigueNobleRevengeFalseCrime->王子暗殺未遂罪</li>
+		<li>intrigueNobleRevengeFalseCrime->マウスキン教会への冒涜罪</li>
+		<li>intrigueNobleRevengeFalseCrime->独立派反乱分子マウスキンとの共謀罪</li>
+		<li>intrigueNobleRevengeFalseCrime->税金の横領罪</li>
+		<li>intrigueNobleRevengeFalseCrime->マウスキンの王に対するクーデター計画の罪</li>
+		<li>intrigueNobleRevengeFalseCrime->禁じられた献身教派の信仰を密かに実践した罪</li>
+		
+		<li>intrigueNobleRevengeSubplot->勇敢な騎士の助けを得て果た</li>
+		<li>intrigueNobleRevengeSubplot->更生した犯罪者[personMale]の助けを得て果た</li>
+		<li>intrigueNobleRevengeSubplot->思いやりのある花園守護者の助けを得て果た</li>
+		<li>intrigueNobleRevengeSubplot->彼の[intrigueNobleRevengeFamilyMember]の助けを得て果た</li>
+		<li>intrigueNobleRevengeSubplot->忠実な執事[personMale]の助けを得て果た</li>
+		<li>intrigueNobleRevengeSubplot->恋人[personFemale]嬢の助けを得て果た</li>
+		<li>intrigueNobleRevengeSubplot->[intrigueNobleRevengeFamilyMember]との和解を図りつつ復讐を企てる</li>
+		<li>intrigueNobleRevengeSubplot->農奴たちを苦しめる飢饉に対処</li>
+		<li>intrigueNobleRevengeSubplot->枯渇した家族の財政を立て直</li>
+		
+		<li>intrigueNobleRevengeFamilyMember->娘の[Mousekin_FirstName_Female]</li>
+		<li>intrigueNobleRevengeFamilyMember->別居中の妻[Mousekin_FirstName_Female]</li>
+		<li>intrigueNobleRevengeFamilyMember->長年行方不明だった非嫡出の息子で[commonerJobMale]である[Mousekin_FirstName_Male]</li>
+		
+		<li>intrigueGenerationalFeudLastName->[Mousekin_LastName_Commoner]</li>
+		<li>intrigueGenerationalFeudLastName->[Mousekin_LastName_Heroic]</li>
+		
+		<li>intrigueGenerationalFeudReason->マウスキンの王の前での公の恥辱</li>
+		<li>intrigueGenerationalFeudReason->カードゲームの結果をめぐる激しい対立</li>
+		<li>intrigueGenerationalFeudReason->前者の[childrenOrdinalAdj]息子が後者の[childrenOrdinalAdj]男と同一の女性を巡る決闘で死亡</li>
+		<li>intrigueGenerationalFeudReason->虚偽の[intrigueNobleRevengeFalseCrime]告発</li>
+		<li>intrigueGenerationalFeudReason->結婚の申し出が拒絶された後における、前者の[childrenOrdinalAdj]娘に対する後者の[childrenOrdinalAdj]男の強姦</li>
+		
+		<li>intrigueConspiracy->[intrigueConspiracyTargetPerson]暗殺</li>
+		<li>intrigueConspiracy->[intrigueConspiracyTargetPerson]恐喝</li>
+		<li>intrigueConspiracy->隠された火薬樽で[intrigueConspiracyTargetLocation]を破壊する</li>
+		<li>intrigueConspiracy->敵国への国家機密漏洩</li>
+		<li>intrigueConspiracy->政府要人の入れ替え</li>
+		<li>intrigueConspiracy->マウスキン王国が戦略的に備蓄するチョンコとニャムのナッツを盗み出す</li>
+		
+		<li>intrigueConspiracyTargetPerson->皇太子</li>
+		<li>intrigueConspiracyTargetPerson->マウスキンの王</li>
+		<li>intrigueConspiracyTargetPerson->有力な[noblePerson]</li>
+		
+		<li>intrigueConspiracyTargetLocation->宮殿</li>
+		<li>intrigueConspiracyTargetLocation->王室の花園</li>
+		<li>intrigueConspiracyTargetLocation->白毛の要塞</li>
+		
+		<li>intrigueConspiracyAntagonist->[intrigueConspiracyCharacter]</li>
+		<li>intrigueConspiracyAntagonist->有力な商人</li>
+		<li>intrigueConspiracyAntagonist->独立町反乱組織マウスキンの潜入工作員</li>
+		<li>intrigueConspiracyAntagonist->裏切り者の騎士団長[knightFullName]</li>
+		<li>intrigueConspiracyAntagonist->裏切り者の騎士[knightFullName]</li>
+		
+		<li>intrigueConspiracyProtagonist->[intrigueConspiracyCharacter]</li>
+		<li>intrigueConspiracyProtagonist->[knightProtagonist]</li>
+		
+		<li>intrigueConspiracyCharacter->[Mousekin_FirstName_Male]・[Mousekin_LastName_Royal]王子</li>
+		<li>intrigueConspiracyCharacter->[Mousekin_FirstName_Female]・[Mousekin_LastName_Royal]姫</li>
+		<li>intrigueConspiracyCharacter->[noblePerson]</li>
+		
+		<li>intrigueDecadentCourtGoal->政治的宿敵を完全に打ち倒す</li>
+		<li>intrigueDecadentCourtGoal->[Mousekin_FirstName_Female]・[Mousekin_LastName_Royal]姫との結婚を手に入れる</li>
+		<li>intrigueDecadentCourtGoal->家族の名誉を回復する</li>
+		<li>intrigueDecadentCourtGoal->政府官僚機構と上流社会で地位を上昇させる</li>
+		<li>intrigueDecadentCourtGoal->腐敗した政府に蔓延る不正を根絶する</li>
+		<li>intrigueDecadentCourtGoal->不当に有罪判決を受けた親族の赦免を得る</li>
+	</Description_Mousekin_BookNovelIntrigue.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>title->[tragedyTitleNoun1] and [tragedyTitleNoun2]</li>
+		
+		<li>tragedyTitleNoun1->Anger</li>
+		<li>tragedyTitleNoun1->Anguish</li>
+		<li>tragedyTitleNoun1->Betrayal</li>
+		<li>tragedyTitleNoun1->Corruption</li>
+		<li>tragedyTitleNoun1->Decay</li>
+		<li>tragedyTitleNoun1->Defeat</li>
+		<li>tragedyTitleNoun1->Desolation</li>
+		<li>tragedyTitleNoun1->Despair</li>
+		<li>tragedyTitleNoun1->Despair</li>
+		<li>tragedyTitleNoun1->Failure</li>
+		<li>tragedyTitleNoun1->Fall</li>
+		<li>tragedyTitleNoun1->Fate</li>
+		<li>tragedyTitleNoun1->Grief</li>
+		<li>tragedyTitleNoun1->Grudge</li>
+		<li>tragedyTitleNoun1->Judgment</li>
+		<li>tragedyTitleNoun1->Misfortune</li>
+		<li>tragedyTitleNoun1->Oblivion</li>
+		<li>tragedyTitleNoun1->Punishment</li>
+		<li>tragedyTitleNoun1->Regret</li>
+		<li>tragedyTitleNoun1->Remorse</li>
+		<li>tragedyTitleNoun1->Revenge</li>
+		<li>tragedyTitleNoun1->Ruination</li>
+		<li>tragedyTitleNoun1->Sorrow</li>
+		<li>tragedyTitleNoun1->Suffering</li>
+		<li>tragedyTitleNoun1->Woe</li>
+		
+		<li>tragedyTitleNoun2->Destiny</li>
+		<li>tragedyTitleNoun2->Doubt</li>
+		<li>tragedyTitleNoun2->Dread</li>
+		<li>tragedyTitleNoun2->Fallacy</li>
+		<li>tragedyTitleNoun2->Fate</li>
+		<li>tragedyTitleNoun2->Folly</li>
+		<li>tragedyTitleNoun2->Judgment</li>
+		<li>tragedyTitleNoun2->Justice</li>
+		<li>tragedyTitleNoun2->Lament</li>
+		<li>tragedyTitleNoun2->Lies</li>
+		<li>tragedyTitleNoun2->Madness</li>
+		<li>tragedyTitleNoun2->Oblivion</li>
+		<li>tragedyTitleNoun2->Obsession</li>
+		<li>tragedyTitleNoun2->Pain</li>
+		<li>tragedyTitleNoun2->Persecution</li>
+		<li>tragedyTitleNoun2->Pride</li>
+		<li>tragedyTitleNoun2->Reckoning</li>
+		<li>tragedyTitleNoun2->Regret</li>
+		<li>tragedyTitleNoun2->Silence</li>
+		<li>tragedyTitleNoun2->Solitude</li>
+		<li>tragedyTitleNoun2->Time</li>
+		<li>tragedyTitleNoun2->Treachery</li>
+		<li>tragedyTitleNoun2->Truth</li>
+		<li>tragedyTitleNoun2->Vainness</li>
+		<li>tragedyTitleNoun2->Vengeance</li>
+	-->
+	<NamerBook_Mousekin_BookNovelTragedy.rulePack.rulesStrings>
+		<li>title->[tragedyTitleNoun1]と[tragedyTitleNoun2]</li>
+		
+		<li>tragedyTitleNoun1->怒り</li>
+        <li>tragedyTitleNoun1->苦悩</li>
+        <li>tragedyTitleNoun1->裏切り</li>
+        <li>tragedyTitleNoun1->堕落</li>
+        <li>tragedyTitleNoun1->腐敗</li>
+		<li>tragedyTitleNoun1->敗北</li>
+        <li>tragedyTitleNoun1->荒廃</li>
+        <li>tragedyTitleNoun1->絶望</li>
+        <li>tragedyTitleNoun1->絶望</li>
+        <li>tragedyTitleNoun1->失敗</li>
+		<li>tragedyTitleNoun1->堕落</li>
+        <li>tragedyTitleNoun1->運命</li>
+        <li>tragedyTitleNoun1->悲嘆</li>
+        <li>tragedyTitleNoun1->怨恨</li>
+        <li>tragedyTitleNoun1->審判</li>
+		<li>tragedyTitleNoun1->不幸</li>
+        <li>tragedyTitleNoun1->忘却</li>
+        <li>tragedyTitleNoun1->罰</li>
+        <li>tragedyTitleNoun1->後悔</li>
+        <li>tragedyTitleNoun1->自責</li>
+		<li>tragedyTitleNoun1->復讐</li>
+        <li>tragedyTitleNoun1->破滅</li>
+        <li>tragedyTitleNoun1->悲嘆</li>
+        <li>tragedyTitleNoun1->苦痛</li>
+        <li>tragedyTitleNoun1->悲哀</li>
+		
+		<li>tragedyTitleNoun2->運命</li>
+        <li>tragedyTitleNoun2->疑念</li>
+        <li>tragedyTitleNoun2->恐怖</li>
+        <li>tragedyTitleNoun2->誤謬</li>
+        <li>tragedyTitleNoun2->宿命</li>
+		<li>tragedyTitleNoun2->愚行</li>
+        <li>tragedyTitleNoun2->審判</li>
+        <li>tragedyTitleNoun2->正義</li>
+        <li>tragedyTitleNoun2->嘆き</li>
+        <li>tragedyTitleNoun2->嘘</li>
+		<li>tragedyTitleNoun2->狂気</li>
+        <li>tragedyTitleNoun2->忘却</li>
+        <li>tragedyTitleNoun2->執着</li>
+        <li>tragedyTitleNoun2->苦痛</li>
+        <li>tragedyTitleNoun2->迫害</li>
+		<li>tragedyTitleNoun2->誇り</li>
+        <li>tragedyTitleNoun2->清算</li>
+        <li>tragedyTitleNoun2->後悔</li>
+        <li>tragedyTitleNoun2->沈黙</li>
+        <li>tragedyTitleNoun2->孤独</li>
+		<li>tragedyTitleNoun2->時間</li>
+        <li>tragedyTitleNoun2->裏切り</li>
+        <li>tragedyTitleNoun2->真実</li>
+        <li>tragedyTitleNoun2->虚栄</li>
+        <li>tragedyTitleNoun2->復讐</li>
+	</NamerBook_Mousekin_BookNovelTragedy.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>desc->This [bookTypeFic] by [authorFullname] tells the story of [plotA]\n\n[bookQualityFic]</li>
+		<li>desc->[authorFullname]'s [bookTypeFic] tells the story of [plotA]\n\n[bookQualityFic]</li>
+		<li>desc->In this [bookTypeFic] by [authorFullname], [plotB]\n\n[bookQualityFic]</li>
+		
+		<li>plotA->[nobleMale]'s forbidden love affair with [tragedyLoveAffairTargetFemale], with [tragedyAdj] consequences.</li>
+		<li>plotA->[nobleFemale]'s forbidden love affair with [tragedyLoveAffairTargetMale], with [tragedyAdj] consequences.</li>
+		<li>plotA->the fall of [nobleMale] due to [tragedyFallenNobleReason].</li>
+		<li>plotA->[commonerMale] who, after [tragedyCommonerRevengeReason], embarks on an ill-advised quest for revenge, with [tragedyAdj] consequences.</li>
+		<li>plotB->[nobleMale] is spurred by the divinations of a Rodemani fortune teller to [tragedyMistoldFortuneAction], with [tragedyAdj] consequences.</li>
+		<li>plotB->the author chronicles the rise and fall of the noble house of [nobleMale], from [tragedyNobleChronicleBeginning], to [tragedyNobleChronicleRise], and eventually [tragedyNobleChronicleFall].</li>
+		
+		<li>tragedyAdj->catastrophic</li>
+		<li>tragedyAdj->disastrous</li>
+		<li>tragedyAdj->ruinous</li>
+		<li>tragedyAdj->tragic</li>
+		
+		<li>tragedyLoveAffairTargetMale->[nobleMale]</li>
+		<li>tragedyLoveAffairTargetMale->a [commonerJobMale] named [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		<li>tragedyLoveAffairTargetFemale->[nobleFemale]</li>
+		<li>tragedyLoveAffairTargetFemale(p=5)->a [commonerJobFemale] named [Mousekin_FirstName_Female] [Mousekin_LastName_Commoner]</li>
+		
+		<li>tragedyFallenNobleReason->an all-consuming obsession with another man's wife</li>
+		<li>tragedyFallenNobleReason->debts accumulated from excessive gambling</li>
+		<li>tragedyFallenNobleReason->debts accumulated from leading an extravagant lifestyle beyond his means</li>
+		<li>tragedyFallenNobleReason->his womanizing ways inviting the wrath of ex-lovers and romantic rivals alike</li>
+		<li>tragedyFallenNobleReason->hubris against [tragedyHubrisTarget]</li>
+		<li>tragedyFallenNobleReason->infighting between his children over inheritance</li>
+		<li>tragedyFallenNobleReason->wrath incurred from the countless enemies he made in pursuit of his ambitions</li>
+		
+		<li>tragedyCommonerRevengeReason->being publicly humiliated by a friend</li>
+		<li>tragedyCommonerRevengeReason(p=4)->being swindled of his money by a [tragedySwindler]</li>
+		<li>tragedyCommonerRevengeReason->his wife is raped and murdered while he was away from home</li>
+		
+		<li>tragedySwindler->card shark</li>
+		<li>tragedySwindler->dishonest merchant</li>
+		<li>tragedySwindler->jealous friend in a game of cup and dice</li>
+		<li>tragedySwindler->lover</li>
+		
+		<li>tragedyMistoldFortuneAction->blackmail [tragedyMistoldFortuneTarget]</li>
+		<li>tragedyMistoldFortuneAction->conspire against [tragedyMistoldFortuneTarget]</li>
+		<li>tragedyMistoldFortuneAction->frame [tragedyMistoldFortuneTarget]</li>
+		<li>tragedyMistoldFortuneAction->make a risky business investment</li>
+		<li>tragedyMistoldFortuneAction->murder [tragedyMistoldFortuneTarget]</li>
+		
+		<li>tragedyNobleChronicleBeginning->humble beginnings as a member of the landed gentry</li>
+		<li>tragedyNobleChronicleBeginning->humble beginnings as the heir of a modest estate</li>
+		<li>tragedyNobleChronicleBeginning->receiving a noble title in recognition of his distinguished past service as a Knight of the Mousekin Kingdom</li>
+		<li>tragedyNobleChronicleRise->his rise through the ranks of government bureaucracy and high society</li>
+		<li>tragedyNobleChronicleRise->his marriage to the daughter of a wealthy merchant family</li>
+		<li>tragedyNobleChronicleRise->the growth of his political and high society influence through his shrewd business dealings and philanthropy</li>
+		<li>tragedyNobleChronicleRise->the growth of his wealth and holdings through adept political manipulation and powerful connections at court</li>
+		<li>tragedyNobleChronicleFall->his fall from grace due to [tragedyFallenNobleReason]</li>
+		
+		<li>tragedyHubrisTarget->[tragedyMistoldFortuneTarget]</li>
+		<li>tragedyHubrisTarget->his household staff</li>
+		<li>tragedyHubrisTarget->his disgruntled serfs</li>
+		
+		<li>tragedyMistoldFortuneTarget->a romantic rival</li>
+		<li>tragedyMistoldFortuneTarget->a political rival</li>
+	-->
+	<Description_Mousekin_BookNovelTragedy.rulePack.rulesStrings>
+		<li>desc->[authorFullname]のこの[bookTypeFic]は、[plotA]を描きます.\n\n[bookQualityFic]</li>
+		<!-- first and second patterns are identical in Japanese -->
+		<li>desc->[authorFullname]のこの[bookTypeFic]では、[plotB].\n\n[bookQualityFic]</li>
+		
+		<li>plotA->[nobleMale]と[tragedyLoveAffairTargetFemale]の禁じられた恋と、その[tragedyAdj]結果</li>
+		<li>plotA->[nobleFemale]と[tragedyLoveAffairTargetMale]の禁じられた恋と、その[tragedyAdj]結果</li>
+		<li>plotA->[tragedyFallenNobleReason]、[nobleMale]の没落</li>
+		<li>plotA->[tragedyCommonerRevengeReason][commonerMale]が、無謀な復讐の旅に出るが、その[tragedyAdj]結果</li>
+		<li>plotB->[nobleMale]がロデマニの占い師の予言に駆り立てられ、[tragedyMistoldFortuneAction]のだが[tragedyAdj]結果を招きました</li>
+		<li>plotB->著者は[nobleMale]家の興亡を綴っています.[tragedyNobleChronicleBeginning]から始まり、[tragedyNobleChronicleRise]、最終的には[tragedyNobleChronicleFall]</li>
+		
+		<li>tragedyAdj->壊滅的な</li>
+		<li>tragedyAdj->悲惨な</li>
+		<li>tragedyAdj->破滅的な</li>
+		<li>tragedyAdj->悲劇的な</li>
+		
+		<li>tragedyLoveAffairTargetMale->[nobleMale]</li>
+		<li>tragedyLoveAffairTargetMale->[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]という名の[commonerJobMale]</li>
+		<li>tragedyLoveAffairTargetFemale->[nobleFemale]</li>
+		<li>tragedyLoveAffairTargetFemale(p=5)->[Mousekin_FirstName_Female]・[Mousekin_LastName_Commoner]という名の[commonerJobFemale]</li>
+		
+		<li>tragedyFallenNobleReason->他人の妻への執着に囚われた</li>
+		<li>tragedyFallenNobleReason->度を越した賭博による借金で破滅した</li>
+		<li>tragedyFallenNobleReason->収入を超えた贅沢な生活による借金で破滅した</li>
+		<li>tragedyFallenNobleReason->女癖の悪さが元恋人や恋愛のライバルたちの怒りを招きました</li>
+		<li>tragedyFallenNobleReason->[tragedyHubrisTarget]に対する侮辱行為が原因で</li>
+		<li>tragedyFallenNobleReason->相続を巡る子供たちの内紛が原因で</li>
+		<li>tragedyFallenNobleReason->野望追求の過程で数えきれないほどの敵を作ったことで招いた怒りが原因で</li>
+		
+		<li>tragedyCommonerRevengeReason->友人によって公の場で恥をかかされた</li>
+		<li>tragedyCommonerRevengeReason(p=4)->[tragedySwindler]にお金を騙し取られた</li>
+		<li>tragedyCommonerRevengeReason->妻が自宅を離れている間に強姦され殺害された</li>
+		
+		<li>tragedySwindler->カード詐欺師</li>
+		<li>tragedySwindler->不誠実な商人</li>
+		<li>tragedySwindler->丁半における嫉妬深い友人</li>
+		<li>tragedySwindler->恋人</li>
+		
+		<li>tragedyMistoldFortuneAction->[tragedyMistoldFortuneTarget]を脅迫する</li>
+		<li>tragedyMistoldFortuneAction->[tragedyMistoldFortuneTarget]を陥れる</li>
+		<li>tragedyMistoldFortuneAction->[tragedyMistoldFortuneTarget]を冤罪に陥れる</li>
+		<li>tragedyMistoldFortuneAction->危険な事業投資を行う</li>
+		<li>tragedyMistoldFortuneAction->[tragedyMistoldFortuneTarget]を殺害する</li>
+		
+		<li>tragedyNobleChronicleBeginning->土地所有貴族の一員として貧しい出自</li>
+		<li>tragedyNobleChronicleBeginning->質素な領地の後継者として始まったその家系</li>
+		<li>tragedyNobleChronicleBeginning->マウスキン王国の騎士としての顕著な過去の功績を認められ貴族の称号を授与されたこと</li>
+		<li>tragedyNobleChronicleRise->政府官僚機構と上流社会での地位を上昇させ</li>
+		<li>tragedyNobleChronicleRise->裕福な商人階級の令嬢との結婚を経て</li>
+		<li>tragedyNobleChronicleRise->鋭い商才と慈善活動を通じて政治的・社交界での影響力を拡大し</li>
+		<li>tragedyNobleChronicleRise->巧みな政治工作と宮廷における有力者との繋がりによって富と領地を拡大し</li>
+		<li>tragedyNobleChronicleFall->[tragedyFallenNobleReason]ことで失脚するまでの軌跡であります</li>
+		
+		<li>tragedyHubrisTarget->[tragedyMistoldFortuneTarget]</li>
+		<li>tragedyHubrisTarget->彼の使用人</li>
+		<li>tragedyHubrisTarget->彼の不満を抱えた農奴たち</li>
+		
+		<li>tragedyMistoldFortuneTarget->恋愛上のライバル</li>
+		<li>tragedyMistoldFortuneTarget->政敵</li>
+	</Description_Mousekin_BookNovelTragedy.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>title->A Match Made in [Settlement_Name]</li>
+		<li>title->A Meeting in [Settlement_Name]</li>
+		<li>title->The Woman With the [colorCap] [womanAccessory]</li>
+		<li>title->The [character] [characterDescriptor]</li>
+		<li>title->The [colorCap] [womanAccessory]</li>
+		<li>title->The [flowerCommonCap] of [Settlement_Name]</li>
+		
+		<li>characterDescriptor->in [colorCap]</li>
+		
+		<li>character->Man</li>
+		<li>character->Woman</li>
+		
+		<li>womanAccessory->Bonnet</li>
+		<li>womanAccessory->Ribbon</li>
+		<li>womanAccessory->Shawl</li>
+	-->
+	<NamerBook_Mousekin_BookNovelRomanceCommoners.rulePack.rulesStrings>
+		<li>title->[Settlement_Name]で結ばれた縁</li>
+		<li>title->[Settlement_Name]での会合</li>
+		<li>title->[colorCap][womanAccessory]の女</li>
+		<li>title->[characterDescriptor]の[character]</li>
+		<li>title->[colorCap][womanAccessory]</li>
+		<li>title->[Settlement_Name]の[flowerCommonCap]</li>
+		
+		<li>characterDescriptor->[colorCap]服</li>
+		
+		<li>character->男</li>
+		<li>character->女</li>
+		
+		<li>womanAccessory->ボンネット</li>
+		<li>womanAccessory->リボン</li>
+		<li>womanAccessory->ショール</li>
+	</NamerBook_Mousekin_BookNovelRomanceCommoners.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->a [commonerJobMale] named [personMale] and a [commonerJobFemale] named [personFemale], [romanceSubplotCommmoners].</li>
+		<li>romancePlot->the [commonerMale] and [commonerFemale], [romanceSubplotCommmoners].</li>
+		
+		<li>romanceSubplotCommmoners->from their [romanceSubplotCommonersFirstMeetingA], through to an unexpected reunion at a [romanceSubplotLocationOrEvent]</li>
+		<li>romanceSubplotCommmoners->as they endure [romanceSubplotCommonersDisaster]</li>
+		<li>romanceSubplotCommmoners->who first meet after [romanceSubplotCommonersFirstMeetingB]</li>
+		<li>romanceSubplotCommmoners->as he finds himself competing against a wealthy romantic rival</li>
+		<li>romanceSubplotCommmoners->as he strives to earn a fortune to win over her father</li>
+		<li>romanceSubplotCommmoners->as he strives to fulfill a childhood marriage promise made between them</li>
+		<li>romanceSubplotCommmoners->as he tries to help her escape an unwanted arranged marriage</li>
+		<li>romanceSubplotCommmoners->as they try to build a new life together after eloping away from disapproving relatives</li>
+		<li>romanceSubplotCommmoners->despite a long-standing family feud</li>
+		
+		<li>romanceSubplotCommonersDisaster->a famine ravaging their village</li>
+		<li>romanceSubplotCommonersDisaster->a plague ravaging their village</li>
+		<li>romanceSubplotCommonersDisaster->years of separation by war</li>
+		
+		<li>romanceSubplotCommonersFirstMeetingA->acrimonious first meeting fighting over a [trinket] at a market</li>
+		<li>romanceSubplotCommonersFirstMeetingA->first meeting as childhood friends</li>
+		
+		<li>romanceSubplotCommonersFirstMeetingB->[romanceSubplotFirstMeeting]</li>
+		<li>romanceSubplotCommonersFirstMeetingB->both are stood up by their respective lovers at the town square</li>
+		<li>romanceSubplotCommonersFirstMeetingB->she moves back to her hometown to take care of her sick father</li>
+	-->
+	<Description_Mousekin_BookNovelRomanceCommoners.rulePack.rulesStrings>
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->[personMale]という名の[commonerJobMale]と[personFemale]という名の[commonerJobFemale][tellsALoveStoryOf]、[romanceSubplotCommmoners].</li>
+		<li>romancePlot->[commonerMale]と[commonerFemale][tellsALoveStoryOf]、[romanceSubplotCommmoners].</li>
+		
+		<li>romanceSubplotCommmoners->[romanceSubplotCommonersFirstMeetingA]初めて出会った時から、[romanceSubplotLocationOrEvent]での予期せぬ再会に至るまで</li>
+		<li>romanceSubplotCommmoners->彼らは[romanceSubplotCommonersDisaster]耐え抜きます</li>
+		<li>romanceSubplotCommmoners->二人は[romanceSubplotCommonersFirstMeetingB]ことで初めて出会った</li>
+		<li>romanceSubplotCommmoners->彼は裕福な恋敵との競争に直面します</li>
+		<li>romanceSubplotCommmoners->彼は彼女の父親を説得するために大金を稼ごうと奮闘します</li>
+		<li>romanceSubplotCommmoners->幼い頃交わした婚約を果たそうと努めながら、彼は彼女との約束を果たそうと奮闘します</li>
+		<li>romanceSubplotCommmoners->彼女が望まない見合い結婚から逃れる手助けをしようと奮闘します</li>
+		<li>romanceSubplotCommmoners->反対する親族から駆け落ちした後、二人は共に新たな生活を築こうと試みています</li>
+		<li>romanceSubplotCommmoners->両家の長年にわたる確執にもかかわらずであります</li>
+		
+		<li>romanceSubplotCommonersDisaster->村を襲う飢饉に</li>
+		<li>romanceSubplotCommonersDisaster->村を襲う疫病に</li>
+		<li>romanceSubplotCommonersDisaster->戦争による長年の離別を</li>
+		
+		<li>romanceSubplotCommonersFirstMeetingA->市場で[trinket]を巡って激しく言い争った</li>
+		<li>romanceSubplotCommonersFirstMeetingA->幼なじみとして</li>
+		
+		<li>romanceSubplotCommonersFirstMeetingB->[romanceSubplotFirstMeeting]</li>
+		<li>romanceSubplotCommonersFirstMeetingB->町の広場で、それぞれ恋人に待ちぼうけを食らった後</li>
+		<li>romanceSubplotCommonersFirstMeetingB->彼女が病気の父親の世話をするために故郷に戻った後</li>
+	</Description_Mousekin_BookNovelRomanceCommoners.rulePack.rulesStrings>
+		
+	<!-- EN:
+		<li>title->The [nobleManTitle] [nobleManDescriptor]</li>
+		
+		<li>nobleManTitle->Gentleman</li>
+		<li>nobleManTitle->Patrician</li>
+		
+		<li>nobleManDescriptor->in [colorCap]</li>
+		<li>nobleManDescriptor->in the [noblePersonLocation]</li>
+		<li>nobleManDescriptor->of [Settlement_Name]</li>
+	-->
+	<NamerBook_Mousekin_BookNovelRomanceNobleMaleCommonerFemale.rulePack.rulesStrings>
+		<li>title->[nobleManDescriptor]の[nobleManTitle]</li>
+		
+		<li>nobleManTitle->紳士</li>
+		<li>nobleManTitle->貴族</li>
+		
+		<li>nobleManDescriptor->[colorCap]服</li>
+		<li>nobleManDescriptor->[noblePersonLocation]の中</li>
+		<li>nobleManDescriptor->[Settlement_Name]</li>
+	</NamerBook_Mousekin_BookNovelRomanceNobleMaleCommonerFemale.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->[nobleMale] and a [commonerJobFemale] named [personFemale], [romanceSubplotNobleMaleCommonerFemale].</li>
+		
+		<li>romanceSubplotNobleMaleCommonerFemale->[romanceSubplotInterclass]</li>
+		<li>romanceSubplotNobleMaleCommonerFemale(p=5)->who first meet after [romanceSubplotNobleMaleCommonerFemaleFirstMeeting]</li>
+		
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->[romanceSubplotFirstMeeting]</li>
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->he goes incognito while visiting a [romanceSubplotLocation]</li>
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->his carriage accidentally almost runs her off the road</li>
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->he is widowed with children, and she gradually brings color back into his family's life</li>
+	-->
+	<Description_Mousekin_BookNovelRomanceNobleMaleCommonerFemale.rulePack.rulesStrings>
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->[nobleMale]と[personFemale]という名の[commonerJobFemale][tellsALoveStoryOf]、[romanceSubplotNobleMaleCommonerFemale].</li>
+		
+		<li>romanceSubplotNobleMaleCommonerFemale->[romanceSubplotInterclass]</li>
+		<li>romanceSubplotNobleMaleCommonerFemale(p=5)->二人は[romanceSubplotNobleMaleCommonerFemaleFirstMeeting]ことで初めて出会った</li>
+		
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->[romanceSubplotFirstMeeting]</li>
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->彼は[romanceSubplotLocation]を訪れる際、変装する</li>
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->彼の馬車が誤って彼女を道から追い出そうとする</li>
+		<li>romanceSubplotNobleMaleCommonerFemaleFirstMeeting->彼は未亡人で子供がいるが、彼女は次第に彼の家族の生活に彩りを取り戻している</li>
+	</Description_Mousekin_BookNovelRomanceNobleMaleCommonerFemale.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>title->The [nobleWomanTitle] [nobleWomanDescriptor]</li>
+		<li>title->The [flowerCommonCap] of [Settlement_Name]</li>
+		
+		<li>nobleWomanTitle(p=3)->Lady</li>
+		<li>nobleWomanTitle->Woman</li>
+		
+		<li>nobleWomanDescriptor->in [colorCap]</li>
+		<li>nobleWomanDescriptor->in the [colorCap] [apparelFemale]</li>
+		<li>nobleWomanDescriptor->in the [noblePersonLocation]</li>
+		<li>nobleWomanDescriptor->with the [nobleWomanAccessory]</li>
+		
+		<li>nobleWomanAccessory->Brooch</li>
+		<li>nobleWomanAccessory->[nobleWomanAccessoryMaterial] Hairpin</li>
+		<li>nobleWomanAccessory->[nobleWomanAccessoryMaterial] Necklace</li>
+		
+		<li>nobleWomanAccessoryMaterial->Gold</li>
+		<li>nobleWomanAccessoryMaterial->Pearl</li>
+		<li>nobleWomanAccessoryMaterial->Silver</li>
+	-->
+	<NamerBook_Mousekin_BookNovelRomanceCommonerMaleNobleFemale.rulePack.rulesStrings>
+		<li>title->[nobleWomanDescriptor]の[nobleWomanTitle] </li>
+		<li>title->[Settlement_Name]の[flowerCommonCap]</li>
+		
+		<li>nobleWomanTitle(p=3)->嬢</li>
+		<li>nobleWomanTitle->女</li>
+		
+		<li>nobleWomanDescriptor->[colorCap]服</li>
+		<li>nobleWomanDescriptor->[colorCap][apparelFemale]</li>
+		<li>nobleWomanDescriptor->[noblePersonLocation]の中</li>
+		<li>nobleWomanDescriptor->[nobleWomanAccessory]</li>
+		
+		<li>nobleWomanAccessory->ブローチ</li>
+		<li>nobleWomanAccessory->[nobleWomanAccessoryMaterial]のヘアピン</li>
+		<li>nobleWomanAccessory->[nobleWomanAccessoryMaterial]のネックレス</li>
+		
+		<li>nobleWomanAccessoryMaterial->金</li>
+		<li>nobleWomanAccessoryMaterial->真珠</li>
+		<li>nobleWomanAccessoryMaterial->銀</li>
+	</NamerBook_Mousekin_BookNovelRomanceCommonerMaleNobleFemale.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->[nobleFemale] and a [commonerJobMale] named [personMale], [romanceSubplotCommonerMaleNobleFemale].</li>
+		
+		<li>romanceSubplotCommonerMaleNobleFemale->[romanceSubplotInterclass]</li>
+		<li>romanceSubplotCommonerMaleNobleFemale->from their first meeting [romanceSubplotCommonerMaleNobleFemaleFirstMeeting], to [romanceSubplotCommonerMaleNobleFemaleSubplot], and their eventual elopement for a simpler life in the countryside away from the expectations of high society</li>
+		
+		<li>romanceSubplotCommonerMaleNobleFemaleFirstMeeting->at a [romanceSubplotLocationOrEvent]</li>
+		<li>romanceSubplotCommonerMaleNobleFemaleFirstMeeting->when [romanceSubplotFirstMeeting]</li>
+		
+		<li>romanceSubplotCommonerMaleNobleFemaleSubplot->him besting the rival suitor [nobleMale] for her affections</li>
+		<li>romanceSubplotCommonerMaleNobleFemaleSubplot->him helping her protect her late husband's fortune from unscrupulous relatives</li>
+		<li>romanceSubplotCommonerMaleNobleFemaleSubplot->him protecting her from the machinations of [nobleMale]</li>
+		<li>romanceSubplotCommonerMaleNobleFemaleSubplot->them contending with disapproving relatives</li>
+	-->
+	<Description_Mousekin_BookNovelRomanceCommonerMaleNobleFemale.rulePack.rulesStrings>
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->[nobleFemale]と[personMale]という名の[commonerJobMale][tellsALoveStoryOf]、[romanceSubplotCommonerMaleNobleFemale].</li>
+		
+		<li>romanceSubplotCommonerMaleNobleFemale->[romanceSubplotInterclass]</li>
+		<li>romanceSubplotCommonerMaleNobleFemale->[romanceSubplotCommonerMaleNobleFemaleFirstMeeting]での初対面から、[romanceSubplotCommonerMaleNobleFemaleSubplot]、最終的に上流社会の期待から逃れ、田舎でより質素な生活を送るため駆け落ちしました</li>
+		
+		<li>romanceSubplotCommonerMaleNobleFemaleFirstMeeting->[romanceSubplotLocationOrEvent]</li>
+		<li>romanceSubplotCommonerMaleNobleFemaleFirstMeeting->[romanceSubplotFirstMeeting]</li>
+		
+		<li>romanceSubplotCommonerMaleNobleFemaleSubplot->ライバルの求婚者[nobleMale]を打ち負かし彼女の心を勝ち取り</li>
+		<li>romanceSubplotCommonerMaleNobleFemaleSubplot->彼が彼女の亡き夫の財産を不届きな親族から守る手助けをし</li>
+		<li>romanceSubplotCommonerMaleNobleFemaleSubplot->彼が[nobleMale]の陰謀から彼女を守り</li>
+		<li>romanceSubplotCommonerMaleNobleFemaleSubplot->反対する親族との対立</li>
+	</Description_Mousekin_BookNovelRomanceCommonerMaleNobleFemale.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>title->The Knight and the [ladyProtagonist]</li>
+		<li>title->The Knight and his [flowerCommonCap]</li>
+		<li>title->The Knight of [Settlement_Name]</li>
+		
+		<li>ladyProtagonist->[womanTitle] [womanDescriptor]</li>
+		<li>ladyProtagonist->[flowerCommonCap] of [Settlement_Name]</li>
+		
+		<li>womanTitle->Lady</li>
+		<li>womanTitle->Woman</li>
+		
+		<li>womanDescriptor->in [colorCap]</li>
+		<li>womanDescriptor->in the [colorCap] [apparelFemale]</li>
+	-->
+	<NamerBook_Mousekin_BookNovelRomanceKnightLady.rulePack.rulesStrings>
+		<li>title->騎士と[ladyProtagonist]</li>
+		<li>title->騎士と彼の[flowerCommonCap]</li>
+		<li>title->[Settlement_Name]の騎士</li>
+		
+		<li>ladyProtagonist->[womanDescriptor]の[womanTitle]</li>
+		<li>ladyProtagonist->[Settlement_Name]の[flowerCommonCap]</li>
+		
+		<li>womanTitle->嬢</li>
+		<li>womanTitle->女</li>
+		
+		<li>womanDescriptor->[colorCap]服</li>
+		<li>womanDescriptor->[colorCap][apparelFemale]</li>
+	</NamerBook_Mousekin_BookNovelRomanceKnightLady.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->the [knightProtagonist] and [ladyProtagonist], [romanceSubplotKnightLady].</li>
+		
+		<li>ladyProtagonist->the [commonerFemale]</li>
+		<li>ladyProtagonist->a [commonerJobFemale] named [personFemale]</li>
+		<li>ladyProtagonist(p=2)->[nobleFemale]</li>
+		
+		<li>romanceSubplotKnightLady->who first meet after [romanceSubplotKnightLadyFirstMeeting]</li>
+		<li>romanceSubplotKnightLady->and him undertaking a quest in her honor to [romanceKnightLadyQuest]</li>
+		
+		<li>romanceSubplotKnightLadyFirstMeeting->[romanceSubplotFirstMeeting]</li>
+		<li>romanceSubplotKnightLadyFirstMeeting->he rescues her from [romanceKnightLadyThreat]</li>
+		
+		<li>romanceKnightLadyThreat->[beast]</li>
+		<li>romanceKnightLadyThreat->a Grimalkin soldier</li>
+		<li>romanceKnightLadyThreat->a collapsing rope bridge</li>
+		<li>romanceKnightLadyThreat->a fire</li>
+		<li>romanceKnightLadyThreat->a group of brigands</li>
+		<li>romanceKnightLadyThreat->the notorious bandit [personMale]</li>
+		<li>romanceKnightLadyThreat->the unwanted advances of [nobleMale]</li>
+		
+		<li>romanceKnightLadyQuest->bring back a legendary flower that only blooms once every hundred years to grant its bearer any wish their heart desires</li>
+		<li>romanceKnightLadyQuest->bring her father's murderer to justice</li>
+		<li>romanceKnightLadyQuest->find her long-lost brother, a soldier held for ransom by an enemy kingdom</li>
+		<li>romanceKnightLadyQuest->find the hidden treasure of her ancestors and restore her family's fortunes</li>
+		<li>romanceKnightLadyQuest->recover a long-lost family heirloom</li>
+		<li>romanceKnightLadyQuest->scale the tallest mountain in the kingdom to retrieve an exceptionally rare [flowerCommon]</li>
+		<li>romanceKnightLadyQuest->slay [beast] terrorizing their town</li>
+		<li>romanceKnightLadyQuest->win the annual jousting tournament held at the capital city of Arcadia</li>
+		
+		<li>beast->a wild beast</li>
+		<li>beast->ravenous beasts</li>
+	-->
+	<Description_Mousekin_BookNovelRomanceKnightLady.rulePack.rulesStrings>
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->[knightProtagonist]と[ladyProtagonist][tellsALoveStoryOf]、[romanceSubplotKnightLady].</li>
+		
+		<li>ladyProtagonist->[commonerFemale]</li>
+		<li>ladyProtagonist->[personFemale]という名の[commonerJobFemale]</li>
+		<li>ladyProtagonist(p=2)->[nobleFemale]</li>
+		
+		<li>romanceSubplotKnightLady->二人は[romanceSubplotKnightLadyFirstMeeting]ことで初めて出会った</li>
+		<li>romanceSubplotKnightLady->そして彼女に捧げる冒険として彼が[romanceKnightLadyQuest]旅に出ます</li>
+		
+		<li>romanceSubplotKnightLadyFirstMeeting->[romanceSubplotFirstMeeting]</li>
+		<li>romanceSubplotKnightLadyFirstMeeting->彼は[romanceKnightLadyThreat]から彼女を救い出す</li>
+		
+		<li>romanceKnightLadyThreat->[beast]</li>
+		<li>romanceKnightLadyThreat->グリマルキン兵士</li>
+		<li>romanceKnightLadyThreat->崩れ落ちる吊り橋</li>
+		<li>romanceKnightLadyThreat->火事</li>
+		<li>romanceKnightLadyThreat->盗賊団</li>
+		<li>romanceKnightLadyThreat->悪名高い山賊[personMale]</li>
+		<li>romanceKnightLadyThreat->[nobleMale]の望まぬ求愛</li>
+		
+		<li>romanceKnightLadyQuest->百年に一度しか咲かない伝説の花を携え、その持ち主の願いを叶える</li>
+		<li>romanceKnightLadyQuest->父を殺した犯人を裁きに付す</li>
+		<li>romanceKnightLadyQuest->敵国に身代金として捕らえられた行方不明の兄、兵士を探す</li>
+		<li>romanceKnightLadyQuest->祖先の隠された財宝を見つけ、家運を回復する</li>
+		<li>romanceKnightLadyQuest->長く失われた家宝を取り戻す</li>
+		<li>romanceKnightLadyQuest->王国で最も高い山に登り、極めて稀な[flowerCommon]を回収する</li>
+		<li>romanceKnightLadyQuest->町を恐怖に陥れている[beast]を討伐する</li>
+		<li>romanceKnightLadyQuest->アルカディア首都で開催される年次キャビー上槍試合で優勝する</li>
+		
+		<li>beast->野獣</li>
+		<li>beast->貪欲な獣たち</li>
+	</Description_Mousekin_BookNovelRomanceKnightLady.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>title->The [knightProtagDescriptor] and [guardenerProtagDescriptor]</li>
+		
+		<li>knightProtagDescriptor->Knight</li>
+		<li>knightProtagDescriptor->Sword</li>
+		
+		<li>guardenerProtagDescriptor->the [flowerCommonCap]</li>
+		<li>guardenerProtagDescriptor(p=6)->the [flowerCommonCap] of [Settlement_Name]</li>
+	-->
+	<NamerBook_Mousekin_BookNovelRomanceKnightGuardener.rulePack.rulesStrings>
+		<li>title->[knightProtagDescriptor]と[guardenerProtagDescriptor]</li>
+		
+		<li>knightProtagDescriptor->騎士</li>
+		<li>knightProtagDescriptor->剣</li>
+		
+		<li>guardenerProtagDescriptor->[flowerCommonCap]</li>
+		<li>guardenerProtagDescriptor(p=6)->[Settlement_Name]の[flowerCommonCap]</li>
+	</NamerBook_Mousekin_BookNovelRomanceKnightGuardener.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->the [knightProtagonist] and [guardenerProtagonist], [romanceSubplotKnightGuardener].</li>
+		
+		<li>romanceSubplotKnightGuardener->who first meet [romanceSubplotKnightGuardenerFirstMeeting]</li>
+		<li>romanceSubplotKnightGuardener->as they set out to [romanceSubplotKnightGuardenerQuest]</li>
+		
+		<li>romanceSubplotKnightGuardenerFirstMeeting->in a time of war against [romanceSubplotKnightGuardenerWarEnemy]</li>
+		<li>romanceSubplotKnightGuardenerFirstMeeting->while pursuing the notorious bandit [Mousekin_FirstName_Male] [Mousekin_LastName_Commoner]</li>
+		
+		<li>romanceSubplotKnightGuardenerWarEnemy->an enemy kingdom</li>
+		<li>romanceSubplotKnightGuardenerWarEnemy->rebel mice</li>
+		<li>romanceSubplotKnightGuardenerWarEnemy->the Grimalkin Dominion</li>
+		
+		<li>romanceSubplotKnightGuardenerQuest->stop the treacherous [noblePerson] from conspiring with [romanceSubplotKnightGuardenerWarEnemy] to overthrow the Mousekin King</li>
+		<li>romanceSubplotKnightGuardenerQuest->find [macguffin]</li>
+	-->
+	<Description_Mousekin_BookNovelRomanceKnightGuardener.rulePack.rulesStrings>
+		<li>desc->[bookDescFictionRomance]</li>
+		
+		<li>romancePlot->[knightProtagonist]と[guardenerProtagonist][tellsALoveStoryOf]、[romanceSubplotKnightGuardener].</li>
+		
+		<li>romanceSubplotKnightGuardener->二人は[romanceSubplotKnightGuardenerFirstMeeting]に初めて出会った</li>
+		<li>romanceSubplotKnightGuardener->二人は[romanceSubplotKnightGuardenerQuest]ために旅に出ます</li>
+		
+		<li>romanceSubplotKnightGuardenerFirstMeeting->[romanceSubplotKnightGuardenerWarEnemy]との戦いの最中</li>
+		<li>romanceSubplotKnightGuardenerFirstMeeting->悪名高い山賊[Mousekin_FirstName_Male]・[Mousekin_LastName_Commoner]追跡中</li>
+		
+		<li>romanceSubplotKnightGuardenerWarEnemy->敵の王国</li>
+		<li>romanceSubplotKnightGuardenerWarEnemy->反逆者マウスキン</li>
+		<li>romanceSubplotKnightGuardenerWarEnemy->グリマルキン人民共和国</li>
+		
+		<li>romanceSubplotKnightGuardenerQuest->裏切り者の[noblePerson]が[romanceSubplotKnightGuardenerWarEnemy]と結託してマウスキンの王を倒そうとする陰謀を阻止する</li>
+		<li>romanceSubplotKnightGuardenerQuest->[macguffin]を探す</li>
+	</Description_Mousekin_BookNovelRomanceKnightGuardener.rulePack.rulesStrings>
 	
 	<!-- EN:
 		<li>title(p=5)->A Treatise on [subject_primary]</li>
@@ -111,39 +2109,81 @@
 	
 	<!-- EN:
 		<li>subject->[subject_primary]</li>
-				
-		<li>desc->[bookDesc]\n\n[bookQuality]</li>
 		
-		<li>bookDesc->Drawing on [authorFullname]'s years of practical experience, this [bookType] establishes the author as a leading authority in [subject] throughout the Mousekin Kingdom.</li>
-		<li>bookDesc->[authorFullname] [subject_primary_story]. This [bookType] is the author's collation of various notes, rules of thumb, and case studies on [subject_primary_gerund].</li>
-		<li>bookDesc->This [bookType] by [authorFullname] is widely regarded as an excellent introductory text on [subject], covering fundamental theories, history, common techniques and practical applications.</li>
-		<li>bookDesc->This [bookType] by [authorFullname] is primarily a collection of detailed sketches and notes on practical examples of [subject], with the occasional witty but topical anecdote.</li>
+		<li>desc->[bookDescNonFiction]\n\n[bookQualityNonFic]</li>
 		
-		<li>bookType->codex</li>
-		<li>bookType->compendium</li>
-		<li>bookType->tome</li>
+		<li>bookDescNonFiction->[authorFullname] [subject_primary_story]. This [bookType] is the author's collation of various notes, rules of thumb, and case studies on [subject_primary_gerund].</li>
+		<li>bookDescNonFiction->This [bookType] by [authorFullname] is widely regarded as an excellent introductory text on [subject], covering fundamental theories, history, common techniques and practical applications.</li>
+		<li>bookDescNonFiction->This [bookType] by [authorFullname] is primarily a collection of detailed sketches and notes on practical examples of [subject], with the occasional witty but topical anecdote.</li>
 		
-		<li>bookQuality(quality[less_than]2)->[bookQualityBad]</li>
-		<li>bookQuality(quality[less_than]4,quality[greater_than]1)->[bookQualityNormal]</li>
-		<li>bookQuality(quality[greater_than]3)->[bookQualityGood]</li>
+		<li>bookType->[bookTypeNonFic]</li>
 	-->
 	<Description_Mousekin_BookResearch.rulePack.rulesStrings>
 		<li>subject->[subject_primary]</li>
-				
-		<li>desc->[bookDesc]\n\n[bookQuality]</li>
 		
-		<li>bookDesc->[authorFullname]の長年の実務経験を生かしたこの[bookType]は、著者をマウスキン王国中の[subject]の第一人者として確立させた.</li>
-		<li>bookDesc->[authorFullname][subject_primary_story].この[bookType]は、[subject_primary_gerund]に関する様々なメモ、経験則、ケーススタディを著者がまとめたものであります.</li>
-		<li>bookDesc->[authorFullname]によるこの[bookType]は、[subject]の優れた入門書として広く評価されており、基本的な理論、歴史、一般的なテクニック、実践的なアプリケーションを網羅しています.</li>
-		<li>bookDesc->[authorFullname]によるこの[bookType]は、主に[subject]の実践例に関する詳細なスケッチとメモを集めたもので、時折ウィットに富んだ、しかし話題性のある逸話も盛り込まれています.</li>
+		<li>desc->[bookDescNonFiction]\n\n[bookQualityNonFic]</li>
 		
-		<li>bookType->写本</li>
-		<li>bookType->大系</li>
-		<li>bookType->学術書</li>
+		<li>bookDescNonFiction->[authorFullname][subject_primary_story].この[bookType]は、[subject_primary_gerund]に関する様々なメモ、経験則、ケーススタディを著者がまとめたものであります.</li>
+		<li>bookDescNonFiction->[authorFullname]によるこの[bookType]は、[subject]の優れた入門書として広く評価されており、基本的な理論、歴史、一般的なテクニック、実践的なアプリケーションを網羅しています.</li>
+		<li>bookDescNonFiction->[authorFullname]によるこの[bookType]は、主に[subject]の実践例に関する詳細なスケッチとメモを集めたもので、時折ウィットに富んだ、しかし話題性のある逸話も盛り込まれています.</li>
 		
-		<li>bookQuality(quality[less_than]2)->[bookQualityBad]</li>
-		<li>bookQuality(quality[less_than]4,quality[greater_than]1)->[bookQualityNormal]</li>
-		<li>bookQuality(quality[greater_than]3)->[bookQualityGood]</li>
+		<li>bookType->[bookTypeNonFic]</li>
 	</Description_Mousekin_BookResearch.rulePack.rulesStrings>
-
+	
+	<!-- EN:
+		<li>title->A Guide to [subject_primary]</li>
+		<li>title->Essentials of [subject_primary]</li>
+		<li>title->Introduction to [subject_primary]</li>
+		<li>title->Lessons in [subject_primary]</li>
+		<li>title->Mastering [subject_primary]</li>
+		<li>title->On the Study of [subject_primary]</li>
+		<li>title->The Fundamentals of [subject_primary]</li>
+		<li>title->Understanding [subject_primary]</li>
+		<li>title->[subject_primary], [titleSuffix]</li>
+	-->
+	<NamerBook_Mousekin_BookSkills.rulePack.rulesStrings>
+		<li>title->[subject_primary]のガイド</li>
+        <li>title->[subject_primary]の基礎</li>
+        <li>title->[subject_primary]の入門</li>
+        <li>title->[subject_primary]レッスン</li>
+		<li>title->[subject_primary]のの習得</li>
+        <li>title->[subject_primary]の研究について</li>
+        <li>title->[subject_primary]の基礎</li>
+        <li>title->[subject_primary]の理解</li>
+		<li>title->[subject_primary]、[titleSuffix]</li>
+	</NamerBook_Mousekin_BookSkills.rulePack.rulesStrings>
+	
+	<!-- EN:
+		<li>subject->[subject_primary]</li>
+		
+		<li>desc->[bookDescNonFiction]\n\n[bookQualityNonFic]</li>
+		
+		<li>bookDescNonFiction->[authorFullname]'s [bookType] on [subject] is a condensed version of study materials originally commissioned by a [nobleRank] in the Mousekin Kingdom for the family's eldest sons, simplified for public consumption.</li>
+		<li>bookDescNonFiction(p=4)->[authorFullname]'s [bookType] provides [useful_information] about [subject][detail]</li>
+		
+		<li>detail(p=4)->, and is required reading as part of the syllabus at the Royal University of Arcadia.</li>
+		<li>detail(p=4)->, despite the author's frequent digressions into personal commentary.</li>
+		<li>detail(p=4)->, with each core concept explained succinctly and accompanied by real-world examples.</li>
+		<li>detail(p=4)->, compiled with knowledge gleaned from the author's leading contemporaries in the subject.</li>
+		<li>detail->, although some readers may be confused by the author's unorthodox use of an extensive framing narrative to teach the subject.</li>
+		
+		<li>bookType->[bookTypeNonFic]</li>
+	-->
+	<Description_Mousekin_BookSkills.rulePack.rulesStrings>
+		<li>subject->[subject_primary]</li>
+		
+		<li>desc->[bookDescNonFiction]\n\n[bookQualityNonFic]</li>
+		
+		<li>bookDescNonFiction->[authorFullname]の[subject]に関する[bookType]は、マウスキン王国の[nobleRank]が家督継承者向けに委託した研究資料を一般向けに簡略化した要約版であります.</li>
+		<li>bookDescNonFiction(p=4)->[authorFullname]の[bookType]は、[subject]に関する[useful_information]を提供[detail]</li>
+		
+		<li>detail(p=4)->し,アルカディア京城王立大学のシラバスの一部として必読文献となっています.</li>
+		<li>detail(p=4)->が、著者は頻繁に個人的な見解に脱線します.</li>
+		<li>detail(p=4)->しており、各核心概念は簡潔に説明され、実例を伴って解説されています.</li>
+		<li>detail(p=4)->し、著者が同分野の第一人者たちから得た知識を基に編纂されています.</li>
+		<li>detail->しているが、著者が主題を教えるために広範な枠組みとなる物語を型破りな方法で用いているため、一部の読者は混乱するかもしれない.</li>
+		
+		<li>bookType->[bookTypeNonFic]</li>
+	</Description_Mousekin_BookSkills.rulePack.rulesStrings>
+		
 </LanguageData>
