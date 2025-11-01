@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Ear rot disease incident - only affects 1 Mousekin -->
+	
+	<IncidentDef ParentName="DiseaseIncident">
+		<defName>Mousekin_Disease_EarRot</defName>
+		<label>ear rot</label>
+		<workerClass>MousekinRace.IncidentWorker_DiseaseMousekin</workerClass>
+		<diseaseIncident>Mousekin_EarRot</diseaseIncident>
+		<diseaseMaxVictims>1</diseaseMaxVictims>
+		<letterLabel>Ear rot: {PAWN_labelShort}</letterLabel>
+		<letterText>{PAWN_labelShort} has developed ear rot in {PAWN_possessive} {2}, due to not washing {PAWN_possessive} ears regularly and properly.\n\nThe affected ear will slowly lose function over the next {3} days, before dying completely.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony.</letterText>
+		<letterSingularForm>true</letterSingularForm>
+		<ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>
+		<diseaseDevelopmentStage>Adult, Child</diseaseDevelopmentStage>
+		<diseasePartsToAffect>
+			<li>Mousekin_Ear</li>
+		</diseasePartsToAffect>
+	</IncidentDef>
+
+</Defs>

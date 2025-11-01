@@ -183,6 +183,12 @@
 							</conditions>
 							<extendedGraphics>
 								<Hediff For="Mousekin_ProstheticClothEar">Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarClothLeft</Hediff>
+								<Hediff For="Mousekin_EarRot">
+									<path>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarRot0Left</path>
+									<extendedGraphics>
+										<Severity For="0.50">Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarRot1Left</Severity>
+									</extendedGraphics>
+								</Hediff>
 							</extendedGraphics>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
@@ -219,6 +225,12 @@
 							</conditions>
 							<extendedGraphics>
 								<Hediff For="Mousekin_ProstheticClothEar">Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarClothRight</Hediff>
+								<Hediff For="Mousekin_EarRot">
+									<path>Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarRot0Right</path>
+									<extendedGraphics>
+										<Severity For="0.50">Things/Pawn/Humanlike/HeadAttachments/MousekinEars/MousekinEarRot1Right</Severity>
+									</extendedGraphics>
+								</Hediff>
 							</extendedGraphics>
 							<inFrontOfBody>true</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: ear rot -->
+	<Mousekin_Disease_EarRot.label>Гниль ушей</Mousekin_Disease_EarRot.label>
+	
+	<!-- EN: Ear rot: {PAWN_labelShort} -->
+	<Mousekin_Disease_EarRot.letterLabel>Гниль ушей: {PAWN_labelShort}</Mousekin_Disease_EarRot.letterLabel>
+	
+	<!-- EN: {PAWN_labelShort} has developed ear rot in {PAWN_possessive} {2}, due to not washing {PAWN_possessive} ears regularly and properly.\n\nThe affected ear will slowly lose function over the next {3} days, before dying completely.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony. -->
+	<Mousekin_Disease_EarRot.letterText>{PAWN_labelShort} заболел гнильем уха в {PAWN_possessive} {2}, поскольку не мыл уши {PAWN_possessive} регулярно и должным образом.\n\nПораженное ухо будет постепенно терять функцию в течение следующих {3} дней, а затем полностью отмирать.\n\nЭту инфекцию можно лечить медленно, повторно применяя лекарство, или быстро вылечить с помощью Эликсира гармонии.</Mousekin_Disease_EarRot.letterText>
+	
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: ear rot -->
+	<Mousekin_EarRot.label>Гниль ушей</Mousekin_EarRot.label>
+	
+	<!-- EN: A fungal infection unique to Mousekins, caused by not cleaning one's ears regularly and properly. If left untreated, the disease gradually necrotizes the ear's tissues and results in permanent hearing loss.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony. -->
+	<Mousekin_EarRot.description>Грибковая инфекция, характерная для Мышкина, вызванная нерегулярной и ненадлежащей чисткой ушей. Если не лечить, болезнь постепенно приводит к некрозу тканей уха и необратимой потере слуха.\n\nЭту инфекцию можно лечить медленно, повторно применяя лекарства, или быстро вылечить с помощью эликсира гармонии.</Mousekin_EarRot.description>
+	
+	<!-- EN: minor -->
+	<Mousekin_EarRot.stages.0.label>лёгкий</Mousekin_EarRot.stages.0.label>
+	
+	<!-- EN: major -->
+	<Mousekin_EarRot.stages.1.label>тяжёлый</Mousekin_EarRot.stages.1.label>
+	
+	<!-- EN: serious -->
+	<Mousekin_EarRot.stages.2.label>серьёзное</Mousekin_EarRot.stages.2.label>
+	
+	<!-- EN: extreme -->
+	<Mousekin_EarRot.stages.3.label>смертельный</Mousekin_EarRot.stages.3.label>
+	
+	<!-- EN: {PAWN_labelShort}'s {1} was destroyed by ear rot. -->
+	<Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>Из-за Гниль ушей у персонажа {PAWN_labelShort} отмирает {1}.</Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>
+	
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: ear rot -->
+	<Mousekin_EarRot.label>귀썩음병</Mousekin_EarRot.label>
+	
+	<!-- EN: A fungal infection unique to Mousekins, caused by not cleaning one's ears regularly and properly. If left untreated, the disease gradually necrotizes the ear's tissues and results in permanent hearing loss.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony. -->
+	<Mousekin_EarRot.description>마우스킨 종족에게만 발생하는 곰팡이 감염으로, 귀를 정기적이고 적절하게 청소하지 않아 발생합니다. 치료하지 않으면 이 질병은 점차 귀 조직을 괴사시켜 영구적인 청력 손실을 초래합니다.\n\n이 감염은 약물로 반복적으로 치료하면 서서히 호전되거나, 조화의 엘릭서를 사용하면 빠르게 완치될 수 있습니다.</Mousekin_EarRot.description>
+	
+	<!-- EN: minor -->
+	<Mousekin_EarRot.stages.0.label>가벼움</Mousekin_EarRot.stages.0.label>
+	
+	<!-- EN: major -->
+	<Mousekin_EarRot.stages.1.label>심각함</Mousekin_EarRot.stages.1.label>
+	
+	<!-- EN: serious -->
+	<Mousekin_EarRot.stages.2.label>심각함</Mousekin_EarRot.stages.2.label>
+	
+	<!-- EN: extreme -->
+	<Mousekin_EarRot.stages.3.label>극심함</Mousekin_EarRot.stages.3.label>
+	
+	<!-- EN: {PAWN_labelShort}'s {1} was destroyed by ear rot. -->
+	<Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort}의 {1}(이)가 장기 귀썩음병 의해 파괴되었습니다.</Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>
+	
+</LanguageData>

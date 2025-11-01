@@ -349,6 +349,8 @@
     <Compile Include="Defs\FlowerListDef.cs" />
     <Compile Include="Enums\ReligiousTraitAffinity.cs" />
     <Compile Include="Gatherings\GatheringWorker_ChurchService.cs" />
+    <Compile Include="IncidentWorkers\IncidentWorker_DiseaseMousekin.cs" />
+    <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_RemoveHediff.cs" />
     <Compile Include="Jobs\JobDriver_ChurchServiceAttendSermon.cs" />
     <Compile Include="Jobs\JobDriver_ChurchServiceGiveSermon.cs" />
     <Compile Include="Jobs\JobDriver_EatAtBarbecueTable.cs" />

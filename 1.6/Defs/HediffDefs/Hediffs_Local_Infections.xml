@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Ear Rot - infects Mousekin ears only -->
+	
+	<HediffDef ParentName="InfectionBase">
+		<defName>Mousekin_EarRot</defName>
+		<label>ear rot</label>
+		<description>A fungal infection unique to Mousekins, caused by not cleaning one's ears regularly and properly. If left untreated, the disease gradually necrotizes the ear's tissues and results in permanent hearing loss.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mousekin_PotionHarmony</ThingDef>
+		</descriptionHyperlinks>
+		<hediffClass>HediffWithComps</hediffClass>
+		<makesSickThought>true</makesSickThought>
+		<minSeverity>0</minSeverity>
+		<initialSeverity>0.1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<stages>
+			<li>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>major</label>
+				<minSeverity>0.25</minSeverity>
+				<painOffset>0.05</painOffset>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.50</minSeverity>
+				<painOffset>0.1</painOffset>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>-0.20</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.85</minSeverity>
+				<painOffset>0.1</painOffset>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>-0.245</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.0666</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>24</baseTendDurationHours>
+				<tendOverlapHours>0.1</tendOverlapHours>
+				<severityPerDayTended>-0.185</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_DestroyOrgan">
+				<messageText>{PAWN_labelShort}'s {1} was destroyed by ear rot.</messageText>
+				<damageType>Decayed</damageType>
+			</li>
+		</comps>
+	</HediffDef>
+
+</Defs>

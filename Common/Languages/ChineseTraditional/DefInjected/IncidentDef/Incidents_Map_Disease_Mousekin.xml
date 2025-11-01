@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: ear rot -->
+	<Mousekin_Disease_EarRot.label>耳腐病</Mousekin_Disease_EarRot.label>
+	
+	<!-- EN: Ear rot: {PAWN_labelShort} -->
+	<Mousekin_Disease_EarRot.letterLabel>耳腐病: {PAWN_labelShort}</Mousekin_Disease_EarRot.letterLabel>
+	
+	<!-- EN: {PAWN_labelShort} has developed ear rot in {PAWN_possessive} {2}, due to not washing {PAWN_possessive} ears regularly and properly.\n\nThe affected ear will slowly lose function over the next {3} days, before dying completely.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony. -->
+	<Mousekin_Disease_EarRot.letterText>{PAWN_labelShort}因未定期妥善清洗{PAWN_possessive}耳朵，導致其{2}側患上耳腐病。\n\n受感染的耳朵將在未來{3}天內逐漸喪失功能，最終完全壞死。\n\n此感染可透過反覆用藥緩慢治療，或使用白鼠族和諧靈丹快速治癒。</Mousekin_Disease_EarRot.letterText>
+	
+</LanguageData>

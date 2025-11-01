@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: ear rot -->
+	<Mousekin_EarRot.label>podridão da orelha</Mousekin_EarRot.label>
+	
+	<!-- EN: A fungal infection unique to Mousekins, caused by not cleaning one's ears regularly and properly. If left untreated, the disease gradually necrotizes the ear's tissues and results in permanent hearing loss.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony. -->
+	<Mousekin_EarRot.description>Infecção fúngica exclusiva dos Mousekins, causada pela falta de limpeza regular e adequada das orelhas. Se não for tratada, a doença necrosará gradualmente os tecidos da orelha e resultará em perda auditiva permanente.\n\nEsta infecção pode ser tratada lentamente com cuidados repetidos com medicamentos ou curada rapidamente com um Elixir de Harmonia.</Mousekin_EarRot.description>
+	
+	<!-- EN: minor -->
+	<Mousekin_EarRot.stages.0.label>leve</Mousekin_EarRot.stages.0.label>
+	
+	<!-- EN: major -->
+	<Mousekin_EarRot.stages.1.label>grave</Mousekin_EarRot.stages.1.label>
+	
+	<!-- EN: serious -->
+	<Mousekin_EarRot.stages.2.label>sério</Mousekin_EarRot.stages.2.label>
+	
+	<!-- EN: extreme -->
+	<Mousekin_EarRot.stages.3.label>extrema</Mousekin_EarRot.stages.3.label>
+	
+	<!-- EN: {PAWN_labelShort}'s {1} was destroyed by ear rot. -->
+	<Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>O {1} de {PAWN_labelShort} foi destruído por podridão da orelha.</Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>
+	
+</LanguageData>

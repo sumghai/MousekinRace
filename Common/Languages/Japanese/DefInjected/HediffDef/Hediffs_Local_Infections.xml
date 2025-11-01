@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: ear rot -->
+	<Mousekin_EarRot.label>耳腐病</Mousekin_EarRot.label>
+	
+	<!-- EN: A fungal infection unique to Mousekins, caused by not cleaning one's ears regularly and properly. If left untreated, the disease gradually necrotizes the ear's tissues and results in permanent hearing loss.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony. -->
+	<Mousekin_EarRot.description>マウスキン特有の真菌感染症で、耳を定期的に適切に掃除しないことが原因で発生する.放置すると、耳の組織が徐々に壊死し、永久的な難聴を引き起こす.\n\nこの感染症は、薬による繰り返しの治療で徐々に治すか、マウスキン調和のエリクサーで即座に治癒させることができる.</Mousekin_EarRot.description>
+	
+	<!-- EN: minor -->
+	<Mousekin_EarRot.stages.0.label>軽度</Mousekin_EarRot.stages.0.label>
+	
+	<!-- EN: major -->
+	<Mousekin_EarRot.stages.1.label>中度</Mousekin_EarRot.stages.1.label>
+	
+	<!-- EN: serious -->
+	<Mousekin_EarRot.stages.2.label>深刻</Mousekin_EarRot.stages.2.label>
+	
+	<!-- EN: extreme -->
+	<Mousekin_EarRot.stages.3.label>極度</Mousekin_EarRot.stages.3.label>
+	
+	<!-- EN: {PAWN_labelShort}'s {1} was destroyed by ear rot. -->
+	<Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort}の{1}は耳腐病によって破壊されました.</Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>
+	
+</LanguageData>

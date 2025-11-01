@@ -67,6 +67,9 @@
 					<hediffDef>Mousekin_PotionHarmonyHigh</hediffDef>
 					<severity>1.0</severity>
 				</li>
+				<li Class="MousekinRace.IngestionOutcomeDoer_RemoveHediff">
+					<hediffDef>Mousekin_EarRot</hediffDef>
+				</li>
 			</outcomeDoers>
 		</ingestible>
 		<comps>

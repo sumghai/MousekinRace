@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: ear rot -->
+	<Mousekin_EarRot.label>耳腐病</Mousekin_EarRot.label>
+	
+	<!-- EN: A fungal infection unique to Mousekins, caused by not cleaning one's ears regularly and properly. If left untreated, the disease gradually necrotizes the ear's tissues and results in permanent hearing loss.\n\nThis infection can be slowly treated by repeated tending with medicine, or quickly cured with an Elixir of Harmony. -->
+	<Mousekin_EarRot.description>白鼠族特有的真菌感染，源於未定期妥善清潔耳部。若未及時治療，此病症將逐漸導致耳部組織壞死，造成永久性聽力損失。\n\n此感染可透過反覆用藥緩慢治療，或使用白鼠族和諧靈丹快速治癒。</Mousekin_EarRot.description>
+	
+	<!-- EN: minor -->
+	<Mousekin_EarRot.stages.0.label>輕度</Mousekin_EarRot.stages.0.label>
+	
+	<!-- EN: major -->
+	<Mousekin_EarRot.stages.1.label>中度</Mousekin_EarRot.stages.1.label>
+	
+	<!-- EN: serious -->
+	<Mousekin_EarRot.stages.2.label>重度</Mousekin_EarRot.stages.2.label>
+	
+	<!-- EN: extreme -->
+	<Mousekin_EarRot.stages.3.label>極重度</Mousekin_EarRot.stages.3.label>
+	
+	<!-- EN: {PAWN_labelShort}'s {1} was destroyed by ear rot. -->
+	<Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort}的{1}因耳腐病而被摧毀。</Mousekin_EarRot.comps.HediffComp_DestroyOrgan.messageText>
+	
+</LanguageData>
