@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Add ear rot disease incident to biomes, with chances -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[defName="Labyrinth"]/diseases</xpath>
+				<value>
+					<li>
+						<diseaseInc>Mousekin_Disease_EarRot</diseaseInc>
+						<commonality>100</commonality>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>
