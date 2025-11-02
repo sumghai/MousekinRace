@@ -32,7 +32,9 @@
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<incompatibleWith />
+	<incompatibleWith>
+		<li>ferny.progressionagriculture</li>
+	</incompatibleWith>
 	<loadAfter>
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
