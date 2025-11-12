@@ -39,9 +39,24 @@ namespace MousekinRace
 
                 Graphics.DrawMesh(glowMesh, glowDrawPos + Props.glowGraphicData.drawOffset.RotatedBy(parent.Rotation), Quaternion.identity, FadedMaterialPool.FadedVersionOf(Props.glowGraphicData.Graphic.MatAt(parent.Rotation, null), 1), 0);
 
-                Vector3 flameDrawPos = parent.DrawPos;
-                flameDrawPos.y -= 0.02f;
-                FireGraphic.Draw(flameDrawPos, Rot4.North, parent);
+                if (parent.Rotation == Rot4.North)
+                {
+                    if (Props.fires.Any())
+                    {
+                        foreach (FiresWithOffsets curFire in Props.fires)
+                        {
+                            Vector3 flameDrawPos = parent.DrawPos + curFire.offset;
+                            flameDrawPos.y -= 0.02f;
+                            FireGraphic.Draw(flameDrawPos, Rot4.North, parent);
+                        }
+                    }
+                    else
+                    {
+                        Vector3 flameDrawPos = parent.DrawPos;
+                        flameDrawPos.y -= 0.02f;
+                        FireGraphic.Draw(flameDrawPos, Rot4.North, parent);
+                    }
+                }
             }
         }
 

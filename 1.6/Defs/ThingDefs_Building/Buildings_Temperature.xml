@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- Mousekin fireplace -->
+	<!-- Mousekin fireplaces (standard, large, grand) -->
+	
+	<ThingDef Name="Mousekin_FireplaceNonBenchBase" ParentName="BuildingBase" Abstract="true">
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<fillPercent>0.75</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<Flammability>0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<minifiedDef />
+		<thingCategories Inherit="false" />
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<inspectorTabs>
+			<li>MousekinRace.ITab_FuelFilter</li>
+		</inspectorTabs>
+		<constructEffect />
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<destroySound>BuildingDestroyed_Wood_Medium</destroySound>
+		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
 	
 	<ThingDef ParentName="Mousekin_BenchBase">
 		<defName>Mousekin_Fireplace</defName>
@@ -22,8 +60,8 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Misc/Mousekin_Fireplace_MenuIcon</uiIconPath>
 		<costList>
-			<!-- Initial wood (50) plus shelf (10) -->
-			<WoodLog>60</WoodLog>
+			<!-- Initial wood fuel (80) plus shelf (10) -->
+			<WoodLog>90</WoodLog>
 		</costList>
 		<stuffCategories>
 			<li>Stony</li>
@@ -122,6 +160,178 @@
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</ThingDef>
 
+	<ThingDef ParentName="Mousekin_FireplaceNonBenchBase">
+		<defName>Mousekin_FireplaceLarge</defName>
+		<label>Mousekin large fireplace</label>
+		<description>A wide, sturdy fireplace for heating large rooms efficiently, such as taverns and lounges. Unlike regular fireplaces, meals cannot be prepared here.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mousekin_FireplaceLarge</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(2, 0.75, 1)</volume>
+				<offset>(0, 0, 0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Misc/Mousekin_FireplaceLarge_MenuIcon</uiIconPath>
+		<costList>
+			<!-- Initial wood fuel (120) plus shelf (20) -->
+			<WoodLog>140</WoodLog>
+		</costList>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>270</MaxHitPoints>
+		</statBases>
+		<size>(2,1)</size>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>15.0</fuelConsumptionRate>
+				<fuelCapacity>120.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
+			</li>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12.5</glowRadius>
+				<glowColor>(252, 187, 113, 0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>60</heatPerSecond>
+				<heatPushMaxTemperature>26</heatPushMaxTemperature>
+			</li>
+			<li Class="MousekinRace.CompProperties_FireplaceRenderer">
+				<fireSize>0.65</fireSize>
+				<offset>(0,0,0.1)</offset>
+				<fires>
+					<li>
+						<offset>(-0.35,0,0.1)</offset>
+					</li>
+					<li>
+						<offset>(0.35,0,0.1)</offset>
+					</li>
+					<li>
+						<offset>(0,0,0.05)</offset>
+					</li>
+				</fires>
+				<fireboxGraphicData>
+					<texPath>Things/Building/Misc/Mousekin_FireplaceLarge_firebox</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+					<drawSize>(3, 3)</drawSize>
+				</fireboxGraphicData>
+				<glowGraphicData>
+					<texPath>Things/Building/Misc/FX/Mousekin_FireplaceLarge_fireboxGlow</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(3, 3)</drawSize>
+				</glowGraphicData>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_FireplaceNonBenchBase">
+		<defName>Mousekin_FireplaceGrand</defName>
+		<label>Mousekin grand fireplace</label>
+		<description>A grand, sturdy fireplace for heating very large rooms, such as mansions and town halls. Unlike regular fireplaces, meals cannot be prepared here.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mousekin_FireplaceGrand</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(3, 0.75, 1)</volume>
+				<offset>(0, 0, 0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Misc/Mousekin_FireplaceGrand_MenuIcon</uiIconPath>
+		<costList>
+			<!-- Initial wood (160) only -->
+			<WoodLog>160</WoodLog>
+		</costList>
+		<costStuffCount>120</costStuffCount>
+		<statBases>
+			<WorkToBuild>4000</WorkToBuild>
+			<MaxHitPoints>360</MaxHitPoints>
+		</statBases>
+		<size>(3,1)</size>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>20.0</fuelConsumptionRate>
+				<fuelCapacity>160.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
+			</li>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>15</glowRadius>
+				<glowColor>(252, 187, 113, 0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>80</heatPerSecond>
+				<heatPushMaxTemperature>26</heatPushMaxTemperature>
+			</li>
+			<li Class="MousekinRace.CompProperties_FireplaceRenderer">
+				<fireSize>0.75</fireSize>
+				<offset>(0,0,0.1)</offset>
+				<fires>
+					<li>
+						<offset>(-0.35,0,0.1)</offset>
+					</li>
+					<li>
+						<offset>(0.35,0,0.1)</offset>
+					</li>
+					<li>
+						<offset>(0,0,0.05)</offset>
+					</li>
+				</fires>
+				<fireboxGraphicData>
+					<texPath>Things/Building/Misc/Mousekin_FireplaceGrand_firebox</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+					<drawSize>(3, 3)</drawSize>
+				</fireboxGraphicData>
+				<glowGraphicData>
+					<texPath>Things/Building/Misc/FX/Mousekin_FireplaceGrand_fireboxGlow</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(3, 3)</drawSize>
+				</glowGraphicData>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+	</ThingDef>
+	
 	<!-- Wall vent -->
 	
 	<ThingDef ParentName="BuildingBase">

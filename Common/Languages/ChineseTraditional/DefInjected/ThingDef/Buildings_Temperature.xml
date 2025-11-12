@@ -7,6 +7,18 @@
 	<!-- EN: A sturdy stone fireplace for heating rooms as well as cooking simple meals. -->
 	<Mousekin_Fireplace.description>堅固的石頭壁爐，用於加熱房間和烹飪簡單的料理。</Mousekin_Fireplace.description>
 	
+	<!-- EN: Mousekin large fireplace -->	
+	<Mousekin_FireplaceLarge.label>白鼠族大型壁爐</Mousekin_FireplaceLarge.label>
+	
+	<!-- EN: A wide, sturdy fireplace for heating large rooms efficiently, such as taverns and lounges. Unlike regular fireplaces, meals cannot be prepared here. -->
+	<Mousekin_FireplaceLarge.description>寬闊而堅固的壁爐，能高效為大型空間供暖，例如酒館和休息室。與普通壁爐不同，此處無法烹調餐點。</Mousekin_FireplaceLarge.description>
+	
+	<!-- EN: Mousekin grand fireplace -->	
+	<Mousekin_FireplaceGrand.label>白鼠族宏偉壁爐</Mousekin_FireplaceGrand.label>
+	
+	<!-- EN: A grand, sturdy fireplace for heating very large rooms, such as mansions and town halls. Unlike regular fireplaces, meals cannot be prepared here. -->
+	<Mousekin_FireplaceGrand.description>宏偉堅固的壁爐，專為超大型空間供暖，例如豪宅與鎮政廳。與普通壁爐不同，此處無法烹調餐點。</Mousekin_FireplaceGrand.description>
+	
 	<!-- EN: cast-iron wall vent -->
 	<Mousekin_WallVent.label>鑄鐵壁式通風口</Mousekin_WallVent.label>
 	

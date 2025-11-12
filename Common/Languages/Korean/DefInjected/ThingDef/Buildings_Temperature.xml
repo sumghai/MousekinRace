@@ -7,6 +7,18 @@
 	<!-- EN: A sturdy stone fireplace for heating rooms as well as cooking simple meals. -->
 	<Mousekin_Fireplace.description>방을 데우고 간단한 식사를 할 수 있는 튼튼한 돌 벽난로.</Mousekin_Fireplace.description>
 	
+	<!-- EN: Mousekin large fireplace -->	
+	<Mousekin_FireplaceLarge.label>마우스킨 대형 벽난로</Mousekin_FireplaceLarge.label>
+	
+	<!-- EN: A wide, sturdy fireplace for heating large rooms efficiently, such as taverns and lounges. Unlike regular fireplaces, meals cannot be prepared here. -->
+	<Mousekin_FireplaceLarge.description>선술집이나 라운지와 같은 넓은 공간을 효율적으로 난방하기 위한 넓고 튼튼한 벽난로입니다. 일반 벽난로와 달리 여기서 요리를 할 수 없습니다.</Mousekin_FireplaceLarge.description>
+	
+	<!-- EN: Mousekin grand fireplace -->	
+	<Mousekin_FireplaceGrand.label>마우스킨 그랜드 벽난로</Mousekin_FireplaceGrand.label>
+	
+	<!-- EN: A grand, sturdy fireplace for heating very large rooms, such as mansions and town halls. Unlike regular fireplaces, meals cannot be prepared here. -->
+	<Mousekin_FireplaceGrand.description>저택이나 시청과 같은 매우 넓은 공간을 난방하기 위한 웅장하고 튼튼한 벽난로입니다. 일반 벽난로와 달리 여기서 요리를 할 수 없습니다.</Mousekin_FireplaceGrand.description>
+	
 	<!-- EN: cast-iron wall vent -->
 	<Mousekin_WallVent.label>주철 벽면 통풍구</Mousekin_WallVent.label>
 	

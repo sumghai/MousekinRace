@@ -7,6 +7,18 @@
 	<!-- EN: A sturdy stone fireplace for heating rooms as well as cooking simple meals. -->
 	<Mousekin_Fireplace.description>石造りの頑丈な暖炉は、部屋を暖めるだけでなく、簡単な料理も作ることができます.</Mousekin_Fireplace.description>
 	
+	<!-- EN: Mousekin large fireplace -->	
+	<Mousekin_FireplaceLarge.label>マウスキン大型暖炉</Mousekin_FireplaceLarge.label>
+	
+	<!-- EN: A wide, sturdy fireplace for heating large rooms efficiently, such as taverns and lounges. Unlike regular fireplaces, meals cannot be prepared here. -->
+	<Mousekin_FireplaceLarge.description>広くて頑丈な暖炉は、居酒屋やラウンジなど広い部屋を効率的に暖めます.通常の暖炉とは異なり、ここで料理を作ることはできません.</Mousekin_FireplaceLarge.description>
+	
+	<!-- EN: Mousekin grand fireplace -->	
+	<Mousekin_FireplaceGrand.label>マウスキン大広間用暖炉</Mousekin_FireplaceGrand.label>
+	
+	<!-- EN: A grand, sturdy fireplace for heating very large rooms, such as mansions and town halls. Unlike regular fireplaces, meals cannot be prepared here. -->
+	<Mousekin_FireplaceGrand.description>壮大で頑丈な暖炉は、大邸宅や市庁舎など非常に広い部屋を暖めます.通常の暖炉とは異なり、ここで料理を作ることはできません.</Mousekin_FireplaceGrand.description>
+	
 	<!-- EN: cast-iron wall vent -->
 	<Mousekin_WallVent.label>鋳鉄製壁掛け換気口</Mousekin_WallVent.label>
 	

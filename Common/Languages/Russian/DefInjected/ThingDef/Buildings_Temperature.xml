@@ -7,6 +7,18 @@
 	<!-- EN: A sturdy stone fireplace for heating rooms as well as cooking simple meals. -->
 	<Mousekin_Fireplace.description>Крепкий каменный камин для обогрева помещений, а также для приготовления простых блюд.</Mousekin_Fireplace.description>
 	
+	<!-- EN: Mousekin large fireplace -->	
+	<Mousekin_FireplaceLarge.label>Мышкинский Большой камин</Mousekin_FireplaceLarge.label>
+	
+	<!-- EN: A wide, sturdy fireplace for heating large rooms efficiently, such as taverns and lounges. Unlike regular fireplaces, meals cannot be prepared here. -->
+	<Mousekin_FireplaceLarge.description>Широкий, прочный камин для эффективного обогрева больших помещений, таких как таверны и гостиные. В отличие от обычных каминов, здесь нельзя готовить еду.</Mousekin_FireplaceLarge.description>
+	
+	<!-- EN: Mousekin grand fireplace -->	
+	<Mousekin_FireplaceGrand.label>Мышкинский Грандиозный камин</Mousekin_FireplaceGrand.label>
+	
+	<!-- EN: A grand, sturdy fireplace for heating very large rooms, such as mansions and town halls. Unlike regular fireplaces, meals cannot be prepared here. -->
+	<Mousekin_FireplaceGrand.description>Грандиозный, прочный камин для обогрева очень больших помещений, таких как особняки и ратуши. В отличие от обычных каминов, здесь нельзя готовить еду.</Mousekin_FireplaceGrand.description>
+	
 	<!-- EN: cast-iron wall vent -->
 	<Mousekin_WallVent.label>Чугунная настенная вентиляция</Mousekin_WallVent.label>
 	
