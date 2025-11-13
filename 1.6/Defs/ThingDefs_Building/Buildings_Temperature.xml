@@ -201,6 +201,7 @@
 			</li>
 			<li Class="MousekinRace.CompProperties_AshMaker">
 				<ashDef>Mousekin_WoodAsh</ashDef>
+				<ashCapacity>10</ashCapacity>
 			</li>
 			<li>
 				<compClass>CompGatherSpot</compClass>
@@ -288,6 +289,7 @@
 			</li>
 			<li Class="MousekinRace.CompProperties_AshMaker">
 				<ashDef>Mousekin_WoodAsh</ashDef>
+				<ashCapacity>15</ashCapacity>
 			</li>
 			<li>
 				<compClass>CompGatherSpot</compClass>
