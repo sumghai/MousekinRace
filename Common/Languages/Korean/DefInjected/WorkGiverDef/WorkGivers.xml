@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: fertilize soil -->
+	<Mousekin_FertilizeSoil.label>토양 비옥화</Mousekin_FertilizeSoil.label>
+	
+	<!-- EN: fertilize -->
+	<Mousekin_FertilizeSoil.verb>비옥화하다</Mousekin_FertilizeSoil.verb>
+	
+	<!-- EN: fertilizing -->
+	<Mousekin_FertilizeSoil.gerund>비옥화</Mousekin_FertilizeSoil.gerund>
+
 	<!-- EN: mine resources from mine entrances -->
 	<Mousekin_MineResourcesFromMineEntrance.label>광산 입구에서 자원 채굴</Mousekin_MineResourcesFromMineEntrance.label>
 	

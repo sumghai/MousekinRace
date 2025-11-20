@@ -337,16 +337,19 @@
     <Compile Include="Comps\CompUndergroundMineDeposits.cs" />
     <Compile Include="Comps\CompWindmill.cs" />
     <Compile Include="Comps\MapComponent_ChurchService.cs" />
+    <Compile Include="Comps\MapComponent_Fertilizer.cs" />
     <Compile Include="Comps\MapComponent_FlowerTracker.cs" />
     <Compile Include="Comps\MapComponent_UndergroundMineDeposits.cs" />
     <Compile Include="DefModExtensions\BookcaseRenderExtension.cs" />
     <Compile Include="DefModExtensions\BookNameDescByGenreExtension.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
+    <Compile Include="DefModExtensions\FertilizerExtension.cs" />
     <Compile Include="DefModExtensions\GreatPineAllowedTreesExtension.cs" />
     <Compile Include="DefModExtensions\IdeoMemeRitualsExtension.cs" />
     <Compile Include="DefModExtensions\SurgeryExtraHediffExtension.cs" />
     <Compile Include="DefModExtensions\TraderExtension.cs" />
     <Compile Include="Defs\FlowerListDef.cs" />
+    <Compile Include="Designators\Designator_FertilizeSoil.cs" />
     <Compile Include="Enums\ReligiousTraitAffinity.cs" />
     <Compile Include="Gatherings\GatheringWorker_ChurchService.cs" />
     <Compile Include="IncidentWorkers\IncidentWorker_DiseaseMousekin.cs" />
@@ -355,6 +358,7 @@
     <Compile Include="Jobs\JobDriver_ChurchServiceGiveSermon.cs" />
     <Compile Include="Jobs\JobDriver_EatAtBarbecueTable.cs" />
     <Compile Include="Jobs\JobDriver_EmptyAshesFromHearth.cs" />
+    <Compile Include="Jobs\JobDriver_FertilizeCell.cs" />
     <Compile Include="Jobs\JobDriver_MineResourcesFromMineEntrance.cs" />
     <Compile Include="Jobs\JobDriver_PerformFlowerDance.cs" />
     <Compile Include="Jobs\JobDriver_SetHereticOnFire.cs" />
@@ -369,6 +373,7 @@
     <Compile Include="Jobs\LordToilData_ChurchService.cs" />
     <Compile Include="Jobs\LordToil_ChurchService.cs" />
     <Compile Include="Jobs\WorkGiver_EmptyAshesFromHearth.cs" />
+    <Compile Include="Jobs\WorkGiver_FertilizeCell.cs" />
     <Compile Include="Jobs\WorkGiver_MineResourcesFromMineEntrance.cs" />
     <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />
     <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
@@ -378,6 +383,7 @@
     <Compile Include="Patches\Harmony_DesignationCategoryDef.cs" />
     <Compile Include="Patches\Harmony_Designator_Build.cs" />
     <Compile Include="Patches\Harmony_AttachableThing.cs" />
+    <Compile Include="Patches\Harmony_FertilityGrid.cs" />
     <Compile Include="Patches\Harmony_Frame.cs" />
     <Compile Include="Patches\Harmony_BuildableDef.cs" />
     <Compile Include="Patches\Harmony_CellInspectorDrawer.cs" />

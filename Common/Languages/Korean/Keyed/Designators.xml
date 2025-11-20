@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- EN: Fertilize soil -->
+	<MousekinRace_DesignatorFertilizeSoil>토양 비옥화</MousekinRace_DesignatorFertilizeSoil>
+	
+	<!-- EN: Designate terrain in growing zones to be fertilized with {0}, boosting fertility by {1}.\n\nAfter harvest, the terrain will revert back to its normal fertility and will need to be fertilized again manually. -->
+	<MousekinRace_DesignatorFertilizeSoilDesc>재배 구역 내 지형을 {0}으로 비옥하게 지정하여 비옥도를 {1}만큼 향상시킵니다.\n\n수확 후 지형은 원래 비옥도로 복원되며 수동으로 다시 비옥하게 지정해야 합니다.</MousekinRace_DesignatorFertilizeSoilDesc>
+	
+	<!-- EN: Cannot fertilize already fertilized terrain. -->
+	<MousekinRace_DesignatorFertilizeSoil_ErrorMsg_CannotFertilizeAlreadyFertilizedCell>이미 비옥하게 지정된 지형은 다시 지정할 수 없습니다.</MousekinRace_DesignatorFertilizeSoil_ErrorMsg_CannotFertilizeAlreadyFertilizedCell>
+	
+	<!-- EN: Must designate terrain in growing zones. -->
+	<MousekinRace_DesignatorFertilizeSoil_ErrorMsg_MustDesignateGrowingZones>재배 구역 내 지형만 지정 가능합니다.</MousekinRace_DesignatorFertilizeSoil_ErrorMsg_MustDesignateGrowingZones>
+	
+</LanguageData>

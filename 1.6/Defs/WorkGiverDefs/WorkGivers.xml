@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- ============= Growing ============= -->
+	<WorkGiverDef>
+		<defName>Mousekin_FertilizeSoil</defName>
+		<label>fertilize soil</label>
+		<giverClass>MousekinRace.WorkGiver_FertilizeCell</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>40</priorityInType>
+		<verb>fertilize</verb>
+		<gerund>fertilizing</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
 	<!-- ============= Mining ============= -->
 	
 	<WorkGiverDef>

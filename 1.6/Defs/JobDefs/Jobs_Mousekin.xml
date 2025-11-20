@@ -39,6 +39,13 @@
 	</JobDef>
 	
 	<JobDef>
+		<defName>Mousekin_Job_FertilizeSoil</defName>
+		<driverClass>MousekinRace.JobDriver_FertilizeCell</driverClass>
+		<reportString>fertilizing soil with TargetB.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
+	<JobDef>
 		<defName>Mousekin_Job_HarvestFromBeehive</defName>
 		<driverClass>MousekinRace.JobDriver_HarvestFromBeehive</driverClass>
 		<reportString>harvesting products from TargetA.</reportString>

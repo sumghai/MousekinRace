@@ -15,6 +15,9 @@
 	
 	<!-- EN: emptying ashes from TargetA. -->
 	<Mousekin_Job_EmptyAshesFromHearth.reportString>TargetA에서 재를 비웁니다.</Mousekin_Job_EmptyAshesFromHearth.reportString>
+	
+	<!-- EN: fertilizing soil with TargetB. -->
+	<Mousekin_Job_FertilizeSoil.reportString>TargetB로 토양 비옥화하기.</Mousekin_Job_FertilizeSoil.reportString>
 
 	<!-- EN: harvesting products from TargetA. -->
 	<Mousekin_Job_HarvestFromBeehive.reportString>TargetA에서 제품을 수확합니다.</Mousekin_Job_HarvestFromBeehive.reportString>

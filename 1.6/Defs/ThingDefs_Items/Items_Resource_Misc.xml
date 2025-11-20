@@ -46,6 +46,11 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
+		<modExtensions>
+			<li Class="MousekinRace.FertilizerExtension">
+				<fertilityBonus>0.5</fertilityBonus>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	
 	<!-- Sulfur -->

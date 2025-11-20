@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: fertilize soil -->
+	<Mousekin_FertilizeSoil.label>Fertilizar o solo</Mousekin_FertilizeSoil.label>
+	
+	<!-- EN: fertilize -->
+	<Mousekin_FertilizeSoil.verb>Fertilizar</Mousekin_FertilizeSoil.verb>
+	
+	<!-- EN: fertilizing -->
+	<Mousekin_FertilizeSoil.gerund>Fertilização</Mousekin_FertilizeSoil.gerund>
+
 	<!-- EN: mine resources from mine entrances -->
 	<Mousekin_MineResourcesFromMineEntrance.label>Minerar recursos na mina</Mousekin_MineResourcesFromMineEntrance.label>
 	

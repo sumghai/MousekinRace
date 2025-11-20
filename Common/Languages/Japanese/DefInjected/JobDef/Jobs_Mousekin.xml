@@ -15,6 +15,9 @@
 	
 	<!-- EN: emptying ashes from TargetA. -->
 	<Mousekin_Job_EmptyAshesFromHearth.reportString>TargetAの灰を空にする</Mousekin_Job_EmptyAshesFromHearth.reportString>
+	
+	<!-- EN: fertilizing soil with TargetB. -->
+	<Mousekin_Job_FertilizeSoil.reportString>TargetBで土壌を肥やす</Mousekin_Job_FertilizeSoil.reportString>
 
 	<!-- EN: harvesting products from TargetA. -->
 	<Mousekin_Job_HarvestFromBeehive.reportString>TargetAから蜂蜜を採取する</Mousekin_Job_HarvestFromBeehive.reportString>

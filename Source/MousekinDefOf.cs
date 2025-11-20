@@ -41,6 +41,7 @@ namespace MousekinRace
 
         public static ThingDef Mousekin_Beeswax;
         public static ThingDef Mousekin_RawHoney;
+        public static ThingDef Mousekin_Saltpeter;
 
         public static List<ThingDef> FactionRestrictedThingDefs
         {
@@ -98,6 +99,7 @@ namespace MousekinRace
         public static JobDef Mousekin_Job_CommitSuicideWithKnife;
         public static JobDef Mousekin_Job_CommitSuicideWithPoison;
         public static JobDef Mousekin_Job_EmptyAshesFromHearth;
+        public static JobDef Mousekin_Job_FertilizeSoil;
         public static JobDef Mousekin_Job_HarvestFromBeehive;
         public static JobDef Mousekin_Job_MineResourcesFromMineEntrance;
 
@@ -105,6 +107,8 @@ namespace MousekinRace
         public static DutyDef Mousekin_DutyChurchServiceSpectate;
 
         public static GatheringDef Mousekin_GatheringChurchService;
+
+        public static DesignationDef Mousekin_FertilizeSoil;
 
         public static PawnKindDef MousekinColonist;
         public static PawnKindDef MousekinPriest;
@@ -121,6 +125,8 @@ namespace MousekinRace
         public static MainButtonDef Mousekin_MainButton_Allegiance;
 
         public static FlowerListDef Mousekin_ValidFlowers;
+
+        public static EffecterDef ExtinguisherPuffSmall; // from Core
 
         public static SoundDef Meal_Eat;
 
