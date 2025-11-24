@@ -164,6 +164,7 @@
 		<structureMemeWeights>
 			<Structure_OriginMousekin MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginMousekin>
 		</structureMemeWeights>
+		<techLevel>Medieval</techLevel>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -680,6 +681,7 @@
 		<structureMemeWeights>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
 		</structureMemeWeights>
+		<techLevel>Medieval</techLevel>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>
@@ -943,6 +945,7 @@
 		<structureMemeWeights>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
 		</structureMemeWeights>
+		<techLevel>Medieval</techLevel>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<backstoryFilters>
 			<li>

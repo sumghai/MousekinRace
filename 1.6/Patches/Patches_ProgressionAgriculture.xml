@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Progression: Agriculture</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Remove agricultural traders from all Mousekin NPC factions -->
+				
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/FactionDef[contains(defName, "Mousekin_Faction")]/caravanTraderKinds/li[text()="AgriculturalTrader"]</xpath>
+				</li>
+				
+				<!-- Add seed bundles to Mousekin starting scenario inventories -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ScenarioDef[contains(defName, "Mousekin")]/scenario/parts</xpath>
+					<value>
+						<li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+							<def>Ferny_StartingSeeds</def>
+							<thingDef>Plant_Healroot_SeedBundle</thingDef>
+						</li>
+						<li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+							<def>Ferny_StartingSeeds</def>
+							<thingDef>Plant_Cotton_SeedBundle</thingDef>
+						</li>
+						<li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+							<_itemCount>4</_itemCount>
+							<def>RandomSeedBundles</def>
+						</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
