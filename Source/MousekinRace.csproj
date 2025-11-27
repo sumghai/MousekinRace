@@ -1,351 +1,352 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B745A7F8-3A16-4D89-A889-F0E11A8DF6C0}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MousekinRace</RootNamespace>
-    <AssemblyName>MousekinRace</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>false</DebugSymbols>
-    <DebugType>none</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>..\1.6\Assemblies\</OutputPath>
-    <DefineConstants>TRACE;DEBUG</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>12</LangVersion>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>none</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>..\1.6\Assemblies\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>12</LangVersion>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="AlienRace">
-      <HintPath>..\..\AlienRaces\1.6\Assemblies\AlienRace.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="VEF">
-      <HintPath>..\..\Vanilla Expanded Framework\1.6\Assemblies\VEF.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Alerts\Alert_ChurchNeeded.cs" />
-    <Compile Include="Alerts\Alert_FactionAllegianceAvailable.cs" />
-    <Compile Include="Alerts\Alert_FlowerGardens.cs" />
-    <Compile Include="Alerts\Alert_MissingEarsSuicidal.cs" />
-    <Compile Include="Alerts\Alert_MissingEarsMiserable.cs" />
-    <Compile Include="Alerts\Alert_PriestNeeded.cs" />
-    <Compile Include="Alerts\Alert_ResearchProjNeedsGlasses.cs" />
-    <Compile Include="Alerts\Alert_TownSquareNeeded.cs" />
-    <Compile Include="Alerts\Alert_TownSquareObstructed.cs" />
-    <Compile Include="Alerts\Alert_TownSquareUnpaved.cs" />
-    <Compile Include="AllegianceSystem\AllegianceSys_Utils.cs" />
-    <Compile Include="BackCompatibilityConverter_Mousekin.cs" />
-    <Compile Include="Buildings\Building_Beehive.cs" />
-    <Compile Include="Buildings\Building_BookcaseRedux.cs" />
-    <Compile Include="Buildings\Building_CellarOutdoor.cs" />
-    <Compile Include="Buildings\Building_ChurchAltar.cs" />
-    <Compile Include="Buildings\Building_DoorSingle.cs" />
-    <Compile Include="Buildings\Building_MineEntrance.cs" />
-    <Compile Include="Buildings\Building_TownSquare.cs" />
-    <Compile Include="ChurchService\ChurchService_Utils.cs" />
-    <Compile Include="Comps\CompAllowedFuelTypes.cs" />
-    <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
-    <Compile Include="Comps\CompApparelWithAltStateGraphics.cs" />
-    <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
-    <Compile Include="Comps\CompAshMaker.cs" />
-    <Compile Include="Comps\CompAutoCutWindmill.cs" />
-    <Compile Include="Comps\CompFireOverlayMulti.cs" />
-    <Compile Include="Comps\CompMineEntranceAnim.cs" />
-    <Compile Include="Comps\CompProperties_ApparelWithAltStateGraphics.cs" />
-    <Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs" />
-    <Compile Include="Comps\CompProperties_AshMaker.cs" />
-    <Compile Include="Comps\CompProperties_FireOverlayMulti.cs" />
-    <Compile Include="Comps\CompProperties_FireplaceRenderer.cs" />
-    <Compile Include="Comps\CompProperties_MineEntranceAnim.cs" />
-    <Compile Include="Comps\CompProperties_RemembersCheeseEaten.cs" />
-    <Compile Include="Comps\CompProperties_StateDependentBuildingEmissive.cs" />
-    <Compile Include="Comps\CompProperties_StorageHiddenContents.cs" />
-    <Compile Include="Comps\CompProperties_TownSquare.cs" />
-    <Compile Include="Comps\CompProperties_UndergroundMineDeposits.cs" />
-    <Compile Include="Comps\CompProperties_Windmill.cs" />
-    <Compile Include="Comps\CompRemembersCheeseEaten.cs" />
-    <Compile Include="Comps\CompStateDependentBuildingEmissive.cs" />
-    <Compile Include="Comps\CompFireplaceRenderer.cs" />
-    <Compile Include="Comps\CompStorageHiddenContents.cs" />
-    <Compile Include="Comps\CompTownSquare.cs" />
-    <Compile Include="Comps\CompUndergroundMineDeposits.cs" />
-    <Compile Include="Comps\CompWindmill.cs" />
-    <Compile Include="Comps\MapComponent_ChurchService.cs" />
-    <Compile Include="Comps\MapComponent_Fertilizer.cs" />
-    <Compile Include="Comps\MapComponent_FlowerTracker.cs" />
-    <Compile Include="Comps\MapComponent_UndergroundMineDeposits.cs" />
-    <Compile Include="DefModExtensions\BookcaseRenderExtension.cs" />
-    <Compile Include="DefModExtensions\BookNameDescByGenreExtension.cs" />
-    <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
-    <Compile Include="DefModExtensions\FertilizerExtension.cs" />
-    <Compile Include="DefModExtensions\GreatPineAllowedTreesExtension.cs" />
-    <Compile Include="DefModExtensions\IdeoMemeRitualsExtension.cs" />
-    <Compile Include="DefModExtensions\SurgeryExtraHediffExtension.cs" />
-    <Compile Include="DefModExtensions\TraderExtension.cs" />
-    <Compile Include="Defs\FlowerListDef.cs" />
-    <Compile Include="Designators\Designator_FertilizeSoil.cs" />
-    <Compile Include="Enums\ReligiousTraitAffinity.cs" />
-    <Compile Include="Gatherings\GatheringWorker_ChurchService.cs" />
-    <Compile Include="IncidentWorkers\IncidentWorker_DiseaseMousekin.cs" />
-    <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_RemoveHediff.cs" />
-    <Compile Include="Jobs\JobDriver_ChurchServiceAttendSermon.cs" />
-    <Compile Include="Jobs\JobDriver_ChurchServiceGiveSermon.cs" />
-    <Compile Include="Jobs\JobDriver_EatAtBarbecueTable.cs" />
-    <Compile Include="Jobs\JobDriver_EmptyAshesFromHearth.cs" />
-    <Compile Include="Jobs\JobDriver_FertilizeCell.cs" />
-    <Compile Include="Jobs\JobDriver_MineResourcesFromMineEntrance.cs" />
-    <Compile Include="Jobs\JobDriver_PerformFlowerDance.cs" />
-    <Compile Include="Jobs\JobDriver_SetHereticOnFire.cs" />
-    <Compile Include="Jobs\JobGiver_ChurchServiceAttendSermon.cs" />
-    <Compile Include="Jobs\JobGiver_ChurchServiceGiveSermon.cs" />
-    <Compile Include="Jobs\JobGiver_EatAtBarbecueTable.cs" />
-    <Compile Include="Jobs\JobGiver_PerformFlowerDance.cs" />
-    <Compile Include="Jobs\JobGiver_SetHereticsOnFire.cs" />
-    <Compile Include="Jobs\LordJob_Joinable_ChurchService.cs" />
-    <Compile Include="Jobs\LordJob_Ritual_FlowerDance.cs" />
-    <Compile Include="Jobs\LordJob_Ritual_HereticExecution.cs" />
-    <Compile Include="Jobs\LordToilData_ChurchService.cs" />
-    <Compile Include="Jobs\LordToil_ChurchService.cs" />
-    <Compile Include="Jobs\WorkGiver_EmptyAshesFromHearth.cs" />
-    <Compile Include="Jobs\WorkGiver_FertilizeCell.cs" />
-    <Compile Include="Jobs\WorkGiver_MineResourcesFromMineEntrance.cs" />
-    <Compile Include="Patches\Harmony_Alert_RolesEmpty.cs" />
-    <Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs" />
-    <Compile Include="Patches\Harmony_Book.cs" />
-    <Compile Include="Patches\Harmony_Building_Storage.cs" />
-    <Compile Include="Patches\Harmony_CompRefuelable.cs" />
-    <Compile Include="Patches\Harmony_DesignationCategoryDef.cs" />
-    <Compile Include="Patches\Harmony_Designator_Build.cs" />
-    <Compile Include="Patches\Harmony_AttachableThing.cs" />
-    <Compile Include="Patches\Harmony_FertilityGrid.cs" />
-    <Compile Include="Patches\Harmony_Frame.cs" />
-    <Compile Include="Patches\Harmony_BuildableDef.cs" />
-    <Compile Include="Patches\Harmony_CellInspectorDrawer.cs" />
-    <Compile Include="Patches\Harmony_CompAbilityEffect_Convert.cs" />
-    <Compile Include="Patches\Harmony_CompForbiddable.cs" />
-    <Compile Include="Patches\Harmony_Dialog_BeginRitual.cs" />
-    <Compile Include="Patches\Harmony_Game.cs" />
-    <Compile Include="Patches\Harmony_Blueprint_Build.cs" />
-    <Compile Include="Patches\Harmony_Ideo.cs" />
-    <Compile Include="Patches\Harmony_IdeoBuildingPresenceDemand.cs" />
-    <Compile Include="Patches\Harmony_IdeoUIUtility.cs" />
-    <Compile Include="Patches\Harmony_IncidentWorker_CaravanArrivalTributeCollector.cs" />
-    <Compile Include="Patches\Harmony_IncidentWorker_GiveQuest.cs" />
-    <Compile Include="Patches\Harmony_JobGiver_LayDownAwake.cs" />
-    <Compile Include="Patches\Harmony_LordJob_Ritual.cs" />
-    <Compile Include="Patches\Harmony_LordToil_Ritual.cs" />
-    <Compile Include="Patches\Harmony_LWM_DeepStorage_Open_DS_Tab_On_Select.cs" />
-    <Compile Include="Patches\Harmony_MemoryUtility.cs" />
-    <Compile Include="Patches\Harmony_MentalState_IdeoChange.cs" />
-    <Compile Include="Patches\Harmony_MouseoverReadout.cs" />
-    <Compile Include="Patches\Harmony_PawnDownedWiggler.cs" />
-    <Compile Include="Patches\Harmony_PawnGroupKindWorker_Trader.cs" />
-    <Compile Include="Patches\Harmony_PawnPortraitIconsDrawer.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderer.cs" />
-    <Compile Include="Patches\Harmony_PawnRitualRoleSelectionWidget.cs" />
-    <Compile Include="Patches\Harmony_Pawn_DrawTracker.cs" />
-    <Compile Include="Patches\Harmony_Pawn_RoyaltyTracker.cs" />
-    <Compile Include="Patches\Harmony_Plant.cs" />
-    <Compile Include="Patches\Harmony_Precept_Building.cs" />
-    <Compile Include="Patches\Harmony_Precept_Ritual.cs" />
-    <Compile Include="Patches\Harmony_Precept_Role.cs" />
-    <Compile Include="Patches\Harmony_Precept_RoleSingle.cs" />
-    <Compile Include="Patches\Harmony_QuestGen.cs" />
-    <Compile Include="Patches\Harmony_QuestNode_GetPawn.cs" />
-    <Compile Include="Patches\Harmony_QuestNode_GetFaction.cs" />
-    <Compile Include="Patches\Harmony_QuestPart_EndGame.cs" />
-    <Compile Include="Patches\Harmony_RecipeDef.cs" />
-    <Compile Include="Patches\Harmony_Recipe_InstallNaturalBodyPart.cs" />
-    <Compile Include="Patches\Harmony_RefuelWorkGiverUtility.cs" />
-    <Compile Include="Patches\Harmony_RitualBehaviorWorker.cs" />
-    <Compile Include="Patches\Harmony_RitualBehaviorWorker_Conversion.cs" />
-    <Compile Include="Patches\Harmony_RitualBehaviorWorker_Speech.cs" />
-    <Compile Include="Patches\Harmony_RitualObligationTargetWorker_AnyRitualSpotIdeogramOrAltar.cs" />
-    <Compile Include="Patches\Harmony_RitualObligationTrigger_Date.cs" />
-    <Compile Include="Patches\Harmony_RitualPatternDef.cs" />
-    <Compile Include="Patches\Harmony_RitualPosition_Generic.cs" />
-    <Compile Include="Patches\Harmony_RitualRoleBehavior.cs" />
-    <Compile Include="Patches\Harmony_RitualRoleTag.cs" />
-    <Compile Include="Patches\Harmony_RitualStage.cs" />
-    <Compile Include="Patches\Harmony_RitualUtility.cs" />
-    <Compile Include="Patches\Harmony_SiteMakerHelper.cs" />
-    <Compile Include="Patches\Harmony_SocialCardUtility.cs" />
-    <Compile Include="Patches\Harmony_SpectatorCellFinder.cs" />
-    <Compile Include="Patches\Harmony_StatPart_RoleConversionPower.cs" />
-    <Compile Include="Patches\Harmony_ThingSelectionUtility.cs" />
-    <Compile Include="Patches\Harmony_ThinkNode_ConditionalBurning.cs" />
-    <Compile Include="Patches\Harmony_ThoughtWorker_Expectations.cs" />
-    <Compile Include="Patches\Harmony_Thought_IdeoRoleGeneric.cs" />
-    <Compile Include="Patches\Harmony_WildPlantSpawner.cs" />
-    <Compile Include="Patches\Harmony_Tradeable.cs" />
-    <Compile Include="Patches\Harmony_VEF_Factions_NewFactionSpawningUtility.cs" />
-    <Compile Include="Patches\Harmony_WorkGiver_ConstructDeliverResources.cs" />
-    <Compile Include="Patches\LwmDeepStorageCompatPatch.cs" />
-    <Compile Include="PawnRendering\PawnRenderNodeWorker_FlowerBouquet.cs" />
-    <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
-    <Compile Include="Patches\Harmony_DynamicPawnRenderNodeSetup_Apparel.cs" />
-    <Compile Include="PawnRendering\PawnRenderNodeWorker_Apparel_Head_ToggleableHood.cs" />
-    <Compile Include="Damages\DamageWorker_GunpowderExplosion.cs" />
-    <Compile Include="Alerts\EarlessMousekinAlertUtility.cs" />
-    <Compile Include="DefModExtensions\AlliableFactionExtension.cs" />
-    <Compile Include="DefModExtensions\ApparelIgnoreStuffStatFactorsExtension.cs" />
-    <Compile Include="DefModExtensions\BeehiveValidFlowersExtension.cs" />
-    <Compile Include="Comps\GameComponent_Allegiance.cs" />
-    <Compile Include="Goodwill\GoodwillSituationWorker_BothMousekin.cs" />
-    <Compile Include="Goodwill\GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs" />
-    <Compile Include="Goodwill\GoodwillSituationWorker_PrejudicedAgainstMousekin.cs" />
-    <Compile Include="DefModExtensions\BuildingIgnoreWorkSpeedPenaltiesExtension.cs" />
-    <Compile Include="Jobs\JobDriver_CommitSuicide.cs" />
-    <Compile Include="Jobs\JobDriver_CommitSuicideWithKnife.cs" />
-    <Compile Include="Jobs\JobDriver_CommitSuicideWithPoison.cs" />
-    <Compile Include="Jobs\JobDriver_HarvestFromBeehive.cs" />
-    <Compile Include="Jobs\JobGiver_EarlessMousekinCommitSuicide.cs" />
-    <Compile Include="Jobs\JobGiver_IntelligentAnimalGenericWorkGiver.cs" />
-    <Compile Include="Jobs\WorkGiver_HarvestFromBeehive.cs" />
-    <Compile Include="MentalState\MentalStateWorker_EarlessSuicide.cs" />
-    <Compile Include="MentalState\MentalState_ExitAfterAllegianceChange.cs" />
-    <Compile Include="MentalState\MentalState_EarlessSuicide.cs" />
-    <Compile Include="ModCompatibility.cs" />
-    <Compile Include="MousekinDefOf.cs" />
-    <Compile Include="MousekinRaceMod.cs" />
-    <Compile Include="DefModExtensions\NameAnimalOnTameExtension.cs" />
-    <Compile Include="DefModExtensions\OtherRodentRacesExtension.cs" />
-    <Compile Include="Patches\Harmony_Apparel_WornGraphicPath.cs" />
-    <Compile Include="Patches\Harmony_BackCompatibility.cs" />
-    <Compile Include="Patches\Harmony_BuildCopyCommandUtility_BuildCopyCommand.cs" />
-    <Compile Include="Patches\Harmony_CaravanArrivalAction_AttackSettlement.cs" />
-    <Compile Include="Patches\Harmony_CaravanArrivalAction_OfferGifts.cs" />
-    <Compile Include="Patches\Harmony_CompSpawner_CheckShouldSpawn.cs" />
-    <Compile Include="Patches\Harmony_Faction.cs" />
-    <Compile Include="Patches\Harmony_GenRecipe.cs" />
-    <Compile Include="Patches\Harmony_GiveSoldThingToPlayer.cs" />
-    <Compile Include="Patches\Harmony_GoodwillSituationWorker_PermanentEnemy.cs" />
-    <Compile Include="Patches\Harmony_IdeoFoundation_Deity.cs" />
-    <Compile Include="Patches\Harmony_IdeoFoundation.cs" />
-    <Compile Include="Patches\Harmony_InteractionWorker_RecruitAttempt_DoRecruit.cs" />
-    <Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs" />
-    <Compile Include="Patches\Harmony_Pawn.cs" />
-    <Compile Include="Patches\Harmony_PawnRelationWorker_Sibling.cs" />
-    <Compile Include="Patches\Harmony_Pawn_GuestTracker.cs" />
-    <Compile Include="Patches\Harmony_Pawn_HealthTracker.cs" />
-    <Compile Include="Patches\Harmony_PawnGenerator.cs" />
-    <Compile Include="Patches\Harmony_Pawn_JobTracker_TryTakeOrderedJob.cs" />
-    <Compile Include="Patches\Harmony_Pawn_MindState.cs" />
-    <Compile Include="Patches\Harmony_Pawn_RelationsTracker_SecondaryRomanceChanceFactor.cs" />
-    <Compile Include="Patches\Harmony_Scenario_GetFirstConfigPage.cs" />
-    <Compile Include="Patches\Harmony_Settlement.cs" />
-    <Compile Include="Patches\Harmony_SettlementNameGenerator_GenerateSettlementName.cs" />
-    <Compile Include="Patches\Harmony_StatPart_WorkTableOutdoors.cs" />
-    <Compile Include="Patches\Harmony_StatPart_WorkTableTemperature.cs" />
-    <Compile Include="Patches\Harmony_StatWorker_GetExplanationUnfinalized.cs" />
-    <Compile Include="Patches\Harmony_Thing.cs" />
-    <Compile Include="DefModExtensions\IdeoSymbolIgnoreRandomExtension.cs" />
-    <Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoRow.cs" />
-    <Compile Include="Patches\Harmony_Pawn_IdeoTracker_ExposeData.cs" />
-    <Compile Include="PlaceWorkers\PlaceWorker_CellarOutdoor.cs" />
-    <Compile Include="PlaceWorkers\PlaceWorker_NeverAdjacentUnstandableAncestralOfferings.cs" />
-    <Compile Include="PlaceWorkers\PlaceWorker_NeverOnSeaIce.cs" />
-    <Compile Include="PlaceWorkers\PlaceWorker_OnlyOnePerMap.cs" />
-    <Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs" />
-    <Compile Include="PlaceWorkers\PlaceWorker_TownSquare.cs" />
-    <Compile Include="PlaceWorkers\PlaceWorker_Windmill.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Patches\RawMeatTradeTagPatch.cs" />
-    <Compile Include="DefModExtensions\RomanceUtilsExtension.cs" />
-    <Compile Include="Rituals\RitualBehaviorWorker_FlowerDance.cs" />
-    <Compile Include="Rituals\RitualBehaviorWorker_HereticExecution.cs" />
-    <Compile Include="Rituals\RitualObligationTargetWorker_TownSquare.cs" />
-    <Compile Include="Rituals\RitualOutcomeComp_DeathThoughts.cs" />
-    <Compile Include="Rituals\RitualOutcomeComp_OneEscortPerHeretic.cs" />
-    <Compile Include="Rituals\RitualOutcomeComp_RoleCount.cs" />
-    <Compile Include="Rituals\RitualOutcomeEffectWorker_FlowerDance.cs" />
-    <Compile Include="Rituals\RitualOutcomeEffectWorker_HereticExecution.cs" />
-    <Compile Include="Rituals\RitualPosition_FlowerDanceSpots.cs" />
-    <Compile Include="Rituals\RitualPosition_HereticExecutionMoralist.cs" />
-    <Compile Include="Rituals\RitualPosition_HereticExecutionStakes.cs" />
-    <Compile Include="Rituals\RitualRoleColonistNonHeretic.cs" />
-    <Compile Include="Rituals\RitualRoleHeretic.cs" />
-    <Compile Include="Rituals\RitualRoleNun.cs" />
-    <Compile Include="Rituals\RitualStage_HereticExecutionEscortToHereticPairing.cs" />
-    <Compile Include="Rituals\StageEndTrigger_PawnDeadMulti.cs" />
-    <Compile Include="Rituals\StageEndTrigger_PawnOnFireMulti.cs" />
-    <Compile Include="Rituals\StageEndTrigger_RolesArrivedMulti.cs" />
-    <Compile Include="Rooms\RoomRoleWorker_Church.cs" />
-    <Compile Include="ScenPart\ScenPart_RequiredFaction.cs" />
-    <Compile Include="Settings.cs" />
-    <Compile Include="Stats\StatPart_IgnoreStuffEffectForGildedItems.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_AteCheese.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_FaithAffinityOpinions.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_FlowersDestroyed.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_FlowersPlanted.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_GardensDesired.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_MissingEars.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_OtherMousekinHasProstheticOpinions.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_PrejudicedTowardsMousekins.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_ReligiousDisgustAtOwnArtificalBodyParts.cs" />
-    <Compile Include="Thoughts\Thought_AttendedRitual_StageByReligiousAffinity.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_WearingPudgemouseFurApparel.cs" />
-    <Compile Include="Thoughts\ThoughtWorker_WearingMousekinFurApparel.cs" />
-    <Compile Include="Thoughts\Thought_OtherMousekinHasProstheticOpinions.cs" />
-    <Compile Include="DefModExtensions\TraitConflictResolverExtension.cs" />
-    <Compile Include="UI\Dialog_AllegianceExtraInfo.cs" />
-    <Compile Include="UI\Dialog_AllegianceQueuedNewColonists.cs" />
-    <Compile Include="UI\Dialog_AllegianceRenamePlayerFaction.cs" />
-    <Compile Include="UI\Dialog_MiningBillConfig.cs" />
-    <Compile Include="UI\ITab_BillsMine.cs" />
-    <Compile Include="UI\ITab_ContentsStorage.cs" />
-    <Compile Include="UI\ITab_FuelFilter.cs" />
-    <Compile Include="UI\MainButtonWorker_Allegiance.cs" />
-    <Compile Include="UI\MainTabWindow_Allegiance.cs" />
-    <Compile Include="UI\Page_IdeoFixedByScenario.cs" />
-    <Compile Include="UI\UI_Extensions.cs" />
-    <Compile Include="UndergroundMineSystem\MiningBill.cs" />
-    <Compile Include="UndergroundMineSystem\MiningBillStack.cs" />
-    <Compile Include="UndergroundMineSystem\UndergroundMineSys_Utils.cs" />
-    <Compile Include="Utils.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Krafs.Publicizer">
-      <Version>2.3.0</Version>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.6.4633</Version>
-    </PackageReference>
-    <PackageReference Include="Lib.Harmony">
-      <Version>2.4.2</Version>
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-      <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-      <ItemGroup>
-        <Publicize Include="Assembly-CSharp;0Harmony;" />
-    </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+	<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProjectGuid>{B745A7F8-3A16-4D89-A889-F0E11A8DF6C0}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
+		<RootNamespace>MousekinRace</RootNamespace>
+		<AssemblyName>MousekinRace</AssemblyName>
+		<TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+		<FileAlignment>512</FileAlignment>
+		<Deterministic>true</Deterministic>
+		<TargetFrameworkProfile/>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugSymbols>false</DebugSymbols>
+		<DebugType>none</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>..\1.6\Assemblies\</OutputPath>
+		<DefineConstants>TRACE;DEBUG</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>12</LangVersion>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>none</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>..\1.6\Assemblies\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>12</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="AlienRace">
+			<HintPath>..\..\AlienRaces\1.6\Assemblies\AlienRace.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="VEF">
+			<HintPath>..\..\Vanilla Expanded Framework\1.6\Assemblies\VEF.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="Alerts\Alert_ChurchNeeded.cs"/>
+		<Compile Include="Alerts\Alert_FactionAllegianceAvailable.cs"/>
+		<Compile Include="Alerts\Alert_FlowerGardens.cs"/>
+		<Compile Include="Alerts\Alert_MissingEarsSuicidal.cs"/>
+		<Compile Include="Alerts\Alert_MissingEarsMiserable.cs"/>
+		<Compile Include="Alerts\Alert_PriestNeeded.cs"/>
+		<Compile Include="Alerts\Alert_ResearchProjNeedsGlasses.cs"/>
+		<Compile Include="Alerts\Alert_TownSquareNeeded.cs"/>
+		<Compile Include="Alerts\Alert_TownSquareObstructed.cs"/>
+		<Compile Include="Alerts\Alert_TownSquareUnpaved.cs"/>
+		<Compile Include="AllegianceSystem\AllegianceSys_Utils.cs"/>
+		<Compile Include="BackCompatibilityConverter_Mousekin.cs"/>
+		<Compile Include="Buildings\Building_Beehive.cs"/>
+		<Compile Include="Buildings\Building_BookcaseRedux.cs"/>
+		<Compile Include="Buildings\Building_CellarOutdoor.cs"/>
+		<Compile Include="Buildings\Building_ChurchAltar.cs"/>
+		<Compile Include="Buildings\Building_DoorSingle.cs"/>
+		<Compile Include="Buildings\Building_MineEntrance.cs"/>
+		<Compile Include="Buildings\Building_TownSquare.cs"/>
+		<Compile Include="ChurchService\ChurchService_Utils.cs"/>
+		<Compile Include="Comps\CompAllowedFuelTypes.cs"/>
+		<Compile Include="Comps\CompApparelIgnoreStuffColor.cs"/>
+		<Compile Include="Comps\CompApparelWithAltStateGraphics.cs"/>
+		<Compile Include="Comps\CompApparelWithAttachedHeadgear.cs"/>
+		<Compile Include="Comps\CompAshMaker.cs"/>
+		<Compile Include="Comps\CompAutoCutWindmill.cs"/>
+		<Compile Include="Comps\CompFireOverlayMulti.cs"/>
+		<Compile Include="Comps\CompMineEntranceAnim.cs"/>
+		<Compile Include="Comps\CompProperties_ApparelWithAltStateGraphics.cs"/>
+		<Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs"/>
+		<Compile Include="Comps\CompProperties_AshMaker.cs"/>
+		<Compile Include="Comps\CompProperties_FireOverlayMulti.cs"/>
+		<Compile Include="Comps\CompProperties_FireplaceRenderer.cs"/>
+		<Compile Include="Comps\CompProperties_MineEntranceAnim.cs"/>
+		<Compile Include="Comps\CompProperties_RemembersCheeseEaten.cs"/>
+		<Compile Include="Comps\CompProperties_StateDependentBuildingEmissive.cs"/>
+		<Compile Include="Comps\CompProperties_StorageHiddenContents.cs"/>
+		<Compile Include="Comps\CompProperties_TownSquare.cs"/>
+		<Compile Include="Comps\CompProperties_UndergroundMineDeposits.cs"/>
+		<Compile Include="Comps\CompProperties_Windmill.cs"/>
+		<Compile Include="Comps\CompRemembersCheeseEaten.cs"/>
+		<Compile Include="Comps\CompStateDependentBuildingEmissive.cs"/>
+		<Compile Include="Comps\CompFireplaceRenderer.cs"/>
+		<Compile Include="Comps\CompStorageHiddenContents.cs"/>
+		<Compile Include="Comps\CompTownSquare.cs"/>
+		<Compile Include="Comps\CompUndergroundMineDeposits.cs"/>
+		<Compile Include="Comps\CompWindmill.cs"/>
+		<Compile Include="Comps\MapComponent_ChurchService.cs"/>
+		<Compile Include="Comps\MapComponent_Fertilizer.cs"/>
+		<Compile Include="Comps\MapComponent_FlowerTracker.cs"/>
+		<Compile Include="Comps\MapComponent_UndergroundMineDeposits.cs"/>
+		<Compile Include="DefModExtensions\BookcaseRenderExtension.cs"/>
+		<Compile Include="DefModExtensions\BookNameDescByGenreExtension.cs"/>
+		<Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs"/>
+		<Compile Include="DefModExtensions\FertilizerExtension.cs"/>
+		<Compile Include="DefModExtensions\GreatPineAllowedTreesExtension.cs"/>
+		<Compile Include="DefModExtensions\IdeoMemeRitualsExtension.cs"/>
+		<Compile Include="DefModExtensions\SurgeryExtraHediffExtension.cs"/>
+		<Compile Include="DefModExtensions\TraderExtension.cs"/>
+		<Compile Include="Defs\FlowerListDef.cs"/>
+		<Compile Include="Designators\Designator_FertilizeSoil.cs"/>
+		<Compile Include="Enums\ReligiousTraitAffinity.cs"/>
+		<Compile Include="Gatherings\GatheringWorker_ChurchService.cs"/>
+		<Compile Include="IncidentWorkers\IncidentWorker_DiseaseMousekin.cs"/>
+		<Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_RemoveHediff.cs"/>
+		<Compile Include="Jobs\JobDriver_ChurchServiceAttendSermon.cs"/>
+		<Compile Include="Jobs\JobDriver_ChurchServiceGiveSermon.cs"/>
+		<Compile Include="Jobs\JobDriver_EatAtBarbecueTable.cs"/>
+		<Compile Include="Jobs\JobDriver_EmptyAshesFromHearth.cs"/>
+		<Compile Include="Jobs\JobDriver_FertilizeCell.cs"/>
+		<Compile Include="Jobs\JobDriver_MineResourcesFromMineEntrance.cs"/>
+		<Compile Include="Jobs\JobDriver_PerformFlowerDance.cs"/>
+		<Compile Include="Jobs\JobDriver_SetHereticOnFire.cs"/>
+		<Compile Include="Jobs\JobGiver_ChurchServiceAttendSermon.cs"/>
+		<Compile Include="Jobs\JobGiver_ChurchServiceGiveSermon.cs"/>
+		<Compile Include="Jobs\JobGiver_EatAtBarbecueTable.cs"/>
+		<Compile Include="Jobs\JobGiver_PerformFlowerDance.cs"/>
+		<Compile Include="Jobs\JobGiver_SetHereticsOnFire.cs"/>
+		<Compile Include="Jobs\LordJob_Joinable_ChurchService.cs"/>
+		<Compile Include="Jobs\LordJob_Ritual_FlowerDance.cs"/>
+		<Compile Include="Jobs\LordJob_Ritual_HereticExecution.cs"/>
+		<Compile Include="Jobs\LordToilData_ChurchService.cs"/>
+		<Compile Include="Jobs\LordToil_ChurchService.cs"/>
+		<Compile Include="Jobs\WorkGiver_EmptyAshesFromHearth.cs"/>
+		<Compile Include="Jobs\WorkGiver_FertilizeCell.cs"/>
+		<Compile Include="Jobs\WorkGiver_MineResourcesFromMineEntrance.cs"/>
+		<Compile Include="Patches\Harmony_Alert_RolesEmpty.cs"/>
+		<Compile Include="Patches\Harmony_AlienRace_ExtendedGraphics_ConditionApparel_Satisfied.cs"/>
+		<Compile Include="Patches\Harmony_Book.cs"/>
+		<Compile Include="Patches\Harmony_Building_Storage.cs"/>
+		<Compile Include="Patches\Harmony_CompRefuelable.cs"/>
+		<Compile Include="Patches\Harmony_DesignationCategoryDef.cs"/>
+		<Compile Include="Patches\Harmony_Designator_Build.cs"/>
+		<Compile Include="Patches\Harmony_AttachableThing.cs"/>
+		<Compile Include="Patches\Harmony_FertilityGrid.cs"/>
+		<Compile Include="Patches\Harmony_Frame.cs"/>
+		<Compile Include="Patches\Harmony_BuildableDef.cs"/>
+		<Compile Include="Patches\Harmony_CellInspectorDrawer.cs"/>
+		<Compile Include="Patches\Harmony_CompAbilityEffect_Convert.cs"/>
+		<Compile Include="Patches\Harmony_CompForbiddable.cs"/>
+		<Compile Include="Patches\Harmony_Dialog_BeginRitual.cs"/>
+		<Compile Include="Patches\Harmony_Game.cs"/>
+		<Compile Include="Patches\Harmony_Blueprint_Build.cs"/>
+		<Compile Include="Patches\Harmony_Ideo.cs"/>
+		<Compile Include="Patches\Harmony_IdeoBuildingPresenceDemand.cs"/>
+		<Compile Include="Patches\Harmony_IdeoUIUtility.cs"/>
+		<Compile Include="Patches\Harmony_IncidentWorker_CaravanArrivalTributeCollector.cs"/>
+		<Compile Include="Patches\Harmony_IncidentWorker_GiveQuest.cs"/>
+		<Compile Include="Patches\Harmony_JobGiver_LayDownAwake.cs"/>
+		<Compile Include="Patches\Harmony_LordJob_Ritual.cs"/>
+		<Compile Include="Patches\Harmony_LordToil_Ritual.cs"/>
+		<Compile Include="Patches\Harmony_LWM_DeepStorage_Open_DS_Tab_On_Select.cs"/>
+		<Compile Include="Patches\Harmony_MemoryUtility.cs"/>
+		<Compile Include="Patches\Harmony_MentalState_IdeoChange.cs"/>
+		<Compile Include="Patches\Harmony_MouseoverReadout.cs"/>
+		<Compile Include="Patches\Harmony_PawnDownedWiggler.cs"/>
+		<Compile Include="Patches\Harmony_PawnGroupKindWorker_Trader.cs"/>
+		<Compile Include="Patches\Harmony_PawnPortraitIconsDrawer.cs"/>
+		<Compile Include="Patches\Harmony_PawnRenderer.cs"/>
+		<Compile Include="Patches\Harmony_PawnRitualRoleSelectionWidget.cs"/>
+		<Compile Include="Patches\Harmony_Pawn_DrawTracker.cs"/>
+		<Compile Include="Patches\Harmony_Pawn_RoyaltyTracker.cs"/>
+		<Compile Include="Patches\Harmony_Plant.cs"/>
+		<Compile Include="Patches\Harmony_Precept_Building.cs"/>
+		<Compile Include="Patches\Harmony_Precept_Ritual.cs"/>
+		<Compile Include="Patches\Harmony_Precept_Role.cs"/>
+		<Compile Include="Patches\Harmony_Precept_RoleSingle.cs"/>
+		<Compile Include="Patches\Harmony_QuestGen.cs"/>
+		<Compile Include="Patches\Harmony_QuestNode_GetPawn.cs"/>
+		<Compile Include="Patches\Harmony_QuestNode_GetFaction.cs"/>
+		<Compile Include="Patches\Harmony_QuestPart_EndGame.cs"/>
+		<Compile Include="Patches\Harmony_RecipeDef.cs"/>
+		<Compile Include="Patches\Harmony_Recipe_InstallNaturalBodyPart.cs"/>
+		<Compile Include="Patches\Harmony_RefuelWorkGiverUtility.cs"/>
+		<Compile Include="Patches\Harmony_RitualBehaviorWorker.cs"/>
+		<Compile Include="Patches\Harmony_RitualBehaviorWorker_Conversion.cs"/>
+		<Compile Include="Patches\Harmony_RitualBehaviorWorker_Speech.cs"/>
+		<Compile Include="Patches\Harmony_RitualObligationTargetWorker_AnyRitualSpotIdeogramOrAltar.cs"/>
+		<Compile Include="Patches\Harmony_RitualObligationTrigger_Date.cs"/>
+		<Compile Include="Patches\Harmony_RitualPatternDef.cs"/>
+		<Compile Include="Patches\Harmony_RitualPosition_Generic.cs"/>
+		<Compile Include="Patches\Harmony_RitualRoleBehavior.cs"/>
+		<Compile Include="Patches\Harmony_RitualRoleTag.cs"/>
+		<Compile Include="Patches\Harmony_RitualStage.cs"/>
+		<Compile Include="Patches\Harmony_RitualUtility.cs"/>
+		<Compile Include="Patches\Harmony_SiteMakerHelper.cs"/>
+		<Compile Include="Patches\Harmony_SocialCardUtility.cs"/>
+		<Compile Include="Patches\Harmony_SpectatorCellFinder.cs"/>
+		<Compile Include="Patches\Harmony_StatPart_RoleConversionPower.cs"/>
+		<Compile Include="Patches\Harmony_ThingSelectionUtility.cs"/>
+		<Compile Include="Patches\Harmony_ThinkNode_ConditionalBurning.cs"/>
+		<Compile Include="Patches\Harmony_ThoughtWorker_Expectations.cs"/>
+		<Compile Include="Patches\Harmony_Thought_IdeoRoleGeneric.cs"/>
+		<Compile Include="Patches\Harmony_WildPlantSpawner.cs"/>
+		<Compile Include="Patches\Harmony_Tradeable.cs"/>
+		<Compile Include="Patches\Harmony_VEF_Factions_NewFactionSpawningUtility.cs"/>
+		<Compile Include="Patches\Harmony_WorkGiver_ConstructDeliverResources.cs"/>
+		<Compile Include="Patches\LwmDeepStorageCompatPatch.cs"/>
+		<Compile Include="PawnRendering\PawnRenderNodeWorker_FlowerBouquet.cs"/>
+		<Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs"/>
+		<Compile Include="Patches\Harmony_DynamicPawnRenderNodeSetup_Apparel.cs"/>
+		<Compile Include="PawnRendering\PawnRenderNodeWorker_Apparel_Head_ToggleableHood.cs"/>
+		<Compile Include="Damages\DamageWorker_GunpowderExplosion.cs"/>
+		<Compile Include="Alerts\EarlessMousekinAlertUtility.cs"/>
+		<Compile Include="DefModExtensions\AlliableFactionExtension.cs"/>
+		<Compile Include="DefModExtensions\ApparelIgnoreStuffStatFactorsExtension.cs"/>
+		<Compile Include="DefModExtensions\BeehiveValidFlowersExtension.cs"/>
+		<Compile Include="Comps\GameComponent_Allegiance.cs"/>
+		<Compile Include="Goodwill\GoodwillSituationWorker_BothMousekin.cs"/>
+		<Compile Include="Goodwill\GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind.cs"/>
+		<Compile Include="Goodwill\GoodwillSituationWorker_PrejudicedAgainstMousekin.cs"/>
+		<Compile Include="DefModExtensions\BuildingIgnoreWorkSpeedPenaltiesExtension.cs"/>
+		<Compile Include="Jobs\JobDriver_CommitSuicide.cs"/>
+		<Compile Include="Jobs\JobDriver_CommitSuicideWithKnife.cs"/>
+		<Compile Include="Jobs\JobDriver_CommitSuicideWithPoison.cs"/>
+		<Compile Include="Jobs\JobDriver_HarvestFromBeehive.cs"/>
+		<Compile Include="Jobs\JobGiver_EarlessMousekinCommitSuicide.cs"/>
+		<Compile Include="Jobs\JobGiver_IntelligentAnimalGenericWorkGiver.cs"/>
+		<Compile Include="Jobs\WorkGiver_HarvestFromBeehive.cs"/>
+		<Compile Include="MentalState\MentalStateWorker_EarlessSuicide.cs"/>
+		<Compile Include="MentalState\MentalState_ExitAfterAllegianceChange.cs"/>
+		<Compile Include="MentalState\MentalState_EarlessSuicide.cs"/>
+		<Compile Include="ModCompatibility.cs"/>
+		<Compile Include="MousekinDefOf.cs"/>
+		<Compile Include="MousekinRaceMod.cs"/>
+		<Compile Include="DefModExtensions\NameAnimalOnTameExtension.cs"/>
+		<Compile Include="DefModExtensions\OtherRodentRacesExtension.cs"/>
+		<Compile Include="Patches\Harmony_Apparel_WornGraphicPath.cs"/>
+		<Compile Include="Patches\Harmony_BackCompatibility.cs"/>
+		<Compile Include="Patches\Harmony_BuildCopyCommandUtility_BuildCopyCommand.cs"/>
+		<Compile Include="Patches\Harmony_CaravanArrivalAction_AttackSettlement.cs"/>
+		<Compile Include="Patches\Harmony_CaravanArrivalAction_OfferGifts.cs"/>
+		<Compile Include="Patches\Harmony_CompSpawner_CheckShouldSpawn.cs"/>
+		<Compile Include="Patches\Harmony_Faction.cs"/>
+		<Compile Include="Patches\Harmony_GenRecipe.cs"/>
+		<Compile Include="Patches\Harmony_GiveSoldThingToPlayer.cs"/>
+		<Compile Include="Patches\Harmony_GoodwillSituationWorker_PermanentEnemy.cs"/>
+		<Compile Include="Patches\Harmony_IdeoFoundation_Deity.cs"/>
+		<Compile Include="Patches\Harmony_IdeoFoundation.cs"/>
+		<Compile Include="Patches\Harmony_InteractionWorker_RecruitAttempt_DoRecruit.cs"/>
+		<Compile Include="Patches\Harmony_JoyGiver_InPrivateRoom.cs"/>
+		<Compile Include="Patches\Harmony_Pawn.cs"/>
+		<Compile Include="Patches\Harmony_PawnRelationWorker_Sibling.cs"/>
+		<Compile Include="Patches\Harmony_Pawn_GuestTracker.cs"/>
+		<Compile Include="Patches\Harmony_Pawn_HealthTracker.cs"/>
+		<Compile Include="Patches\Harmony_PawnGenerator.cs"/>
+		<Compile Include="Patches\Harmony_Pawn_JobTracker_TryTakeOrderedJob.cs"/>
+		<Compile Include="Patches\Harmony_Pawn_MindState.cs"/>
+		<Compile Include="Patches\Harmony_Pawn_RelationsTracker_SecondaryRomanceChanceFactor.cs"/>
+		<Compile Include="Patches\Harmony_Scenario_GetFirstConfigPage.cs"/>
+		<Compile Include="Patches\Harmony_Settlement.cs"/>
+		<Compile Include="Patches\Harmony_SettlementNameGenerator_GenerateSettlementName.cs"/>
+		<Compile Include="Patches\Harmony_StatPart_WorkTableOutdoors.cs"/>
+		<Compile Include="Patches\Harmony_StatPart_WorkTableTemperature.cs"/>
+		<Compile Include="Patches\Harmony_StatWorker_GetExplanationUnfinalized.cs"/>
+		<Compile Include="Patches\Harmony_Thing.cs"/>
+		<Compile Include="DefModExtensions\IdeoSymbolIgnoreRandomExtension.cs"/>
+		<Compile Include="Patches\Harmony_WorldFactionsUIUtility_DoRow.cs"/>
+		<Compile Include="Patches\Harmony_Pawn_IdeoTracker_ExposeData.cs"/>
+		<Compile Include="PlaceWorkers\PlaceWorker_CellarOutdoor.cs"/>
+		<Compile Include="PlaceWorkers\PlaceWorker_NeverAdjacentUnstandableAncestralOfferings.cs"/>
+		<Compile Include="PlaceWorkers\PlaceWorker_NeverOnSeaIce.cs"/>
+		<Compile Include="PlaceWorkers\PlaceWorker_OnlyOnePerMap.cs"/>
+		<Compile Include="PlaceWorkers\PlaceWorker_ShowFlowerSearchRadius.cs"/>
+		<Compile Include="PlaceWorkers\PlaceWorker_TownSquare.cs"/>
+		<Compile Include="PlaceWorkers\PlaceWorker_Windmill.cs"/>
+		<Compile Include="Properties\AssemblyInfo.cs"/>
+		<Compile Include="Patches\RawMeatTradeTagPatch.cs"/>
+		<Compile Include="DefModExtensions\RomanceUtilsExtension.cs"/>
+		<Compile Include="Rituals\RitualBehaviorWorker_FlowerDance.cs"/>
+		<Compile Include="Rituals\RitualBehaviorWorker_HereticExecution.cs"/>
+		<Compile Include="Rituals\RitualObligationTargetWorker_TownSquare.cs"/>
+		<Compile Include="Rituals\RitualOutcomeComp_DeathThoughts.cs"/>
+		<Compile Include="Rituals\RitualOutcomeComp_OneEscortPerHeretic.cs"/>
+		<Compile Include="Rituals\RitualOutcomeComp_RoleCount.cs"/>
+		<Compile Include="Rituals\RitualOutcomeEffectWorker_FlowerDance.cs"/>
+		<Compile Include="Rituals\RitualOutcomeEffectWorker_HereticExecution.cs"/>
+		<Compile Include="Rituals\RitualPosition_FlowerDanceSpots.cs"/>
+		<Compile Include="Rituals\RitualPosition_HereticExecutionMoralist.cs"/>
+		<Compile Include="Rituals\RitualPosition_HereticExecutionStakes.cs"/>
+		<Compile Include="Rituals\RitualRoleColonistNonHeretic.cs"/>
+		<Compile Include="Rituals\RitualRoleHeretic.cs"/>
+		<Compile Include="Rituals\RitualRoleNun.cs"/>
+		<Compile Include="Rituals\RitualStage_HereticExecutionEscortToHereticPairing.cs"/>
+		<Compile Include="Rituals\StageEndTrigger_PawnDeadMulti.cs"/>
+		<Compile Include="Rituals\StageEndTrigger_PawnOnFireMulti.cs"/>
+		<Compile Include="Rituals\StageEndTrigger_RolesArrivedMulti.cs"/>
+		<Compile Include="Rooms\RoomRoleWorker_Church.cs"/>
+		<Compile Include="ScenPart\ScenPart_RequiredFaction.cs"/>
+		<Compile Include="Settings.cs"/>
+		<Compile Include="Stats\StatPart_IgnoreStuffEffectForGildedItems.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_AteCheese.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_FaithAffinityOpinions.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_FlowersDestroyed.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_FlowersPlanted.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_GardensDesired.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_MissingEars.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_OtherMousekinHasProstheticOpinions.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_PrejudicedTowardsMousekins.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_ReligiousDisgustAtOwnArtificalBodyParts.cs"/>
+		<Compile Include="Thoughts\Thought_AttendedRitual_StageByReligiousAffinity.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_WearingPudgemouseFurApparel.cs"/>
+		<Compile Include="Thoughts\ThoughtWorker_WearingMousekinFurApparel.cs"/>
+		<Compile Include="Thoughts\Thought_OtherMousekinHasProstheticOpinions.cs"/>
+		<Compile Include="DefModExtensions\TraitConflictResolverExtension.cs"/>
+		<Compile Include="UI\Dialog_AllegianceExtraInfo.cs"/>
+		<Compile Include="UI\Dialog_AllegianceQueuedNewColonists.cs"/>
+		<Compile Include="UI\Dialog_AllegianceRenamePlayerFaction.cs"/>
+		<Compile Include="UI\Dialog_MiningBillConfig.cs"/>
+		<Compile Include="UI\ITab_BillsMine.cs"/>
+		<Compile Include="UI\ITab_ContentsStorage.cs"/>
+		<Compile Include="UI\ITab_FuelFilter.cs"/>
+		<Compile Include="UI\MainButtonWorker_Allegiance.cs"/>
+		<Compile Include="UI\MainTabWindow_Allegiance.cs"/>
+		<Compile Include="UI\Page_IdeoFixedByScenario.cs"/>
+		<Compile Include="UI\UI_Extensions.cs"/>
+		<Compile Include="UndergroundMineSystem\MiningBill.cs"/>
+		<Compile Include="UndergroundMineSystem\MiningBillStack.cs"/>
+		<Compile Include="UndergroundMineSystem\UndergroundMineSys_Utils.cs"/>
+		<Compile Include="Utils.cs"/>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Krafs.Publicizer">
+			<Version>2.3.0</Version>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Krafs.Rimworld.Ref">
+			<Version>1.6.4633</Version>
+		</PackageReference>
+		<PackageReference Include="Lib.Harmony">
+			<Version>2.4.2</Version>
+			<PrivateAssets>all</PrivateAssets>
+			<ExcludeAssets>runtime</ExcludeAssets>
+			<IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+		<Publicize Include="Assembly-CSharp"/>
+		<Publicize Include="0Harmony"/>
+	</ItemGroup>
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 </Project>
