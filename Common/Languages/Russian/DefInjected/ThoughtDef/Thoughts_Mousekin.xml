@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
     <!-- EN: ate cheese -->
     <Mousekin_Thought_AteCheese.stages.0.label>Съел сыр</Mousekin_Thought_AteCheese.stages.0.label>
 
@@ -251,97 +248,96 @@
 	<Mousekin_Thought_MissingEars.stages.0.description>Мне пришлось заменить отсутствующее ухо на тканевый протез. Надеюсь, никто не заметит.</Mousekin_Thought_MissingEars.stages.0.description>
 
 	<!-- EN: Two prosthetic ears -->
-<Mousekin_Thought_MissingEars.stages.1.label>Две искусственные уши</Mousekin_Thought_MissingEars.stages.1.label>
+	<Mousekin_Thought_MissingEars.stages.1.label>Две искусственные уши</Mousekin_Thought_MissingEars.stages.1.label>
 
-<!-- EN: I had to get both my missing ears replaced with cloth prosthetics. I hope nobody else notices. -->
-<Mousekin_Thought_MissingEars.stages.1.description>Мне пришлось заменить оба потерянных уха на тканевые протезы. Надеюсь, никто не заметит.</Mousekin_Thought_MissingEars.stages.1.description>
+	<!-- EN: I had to get both my missing ears replaced with cloth prosthetics. I hope nobody else notices. -->
+	<Mousekin_Thought_MissingEars.stages.1.description>Мне пришлось заменить оба потерянных уха на тканевые протезы. Надеюсь, никто не заметит.</Mousekin_Thought_MissingEars.stages.1.description>
 
-<!-- EN: One ear missing -->
-<Mousekin_Thought_MissingEars.stages.2.label>Одно ухо пропало</Mousekin_Thought_MissingEars.stages.2.label>
+	<!-- EN: One ear missing -->
+	<Mousekin_Thought_MissingEars.stages.2.label>Одно ухо пропало</Mousekin_Thought_MissingEars.stages.2.label>
 
-<!-- EN: I've lost one of my ears. This is humiliating! -->
-<Mousekin_Thought_MissingEars.stages.2.description>Я потерял одно из ушей. Это унизительно!</Mousekin_Thought_MissingEars.stages.2.description>
+	<!-- EN: I've lost one of my ears. This is humiliating! -->
+	<Mousekin_Thought_MissingEars.stages.2.description>Я потерял одно из ушей. Это унизительно!</Mousekin_Thought_MissingEars.stages.2.description>
 
-<!-- EN: One prosthetic and one missing ear -->
-<Mousekin_Thought_MissingEars.stages.3.label>Одно искусственное и одно пропавшее ухо</Mousekin_Thought_MissingEars.stages.3.label>
+	<!-- EN: One prosthetic and one missing ear -->
+	<Mousekin_Thought_MissingEars.stages.3.label>Одно искусственное и одно пропавшее ухо</Mousekin_Thought_MissingEars.stages.3.label>
 
-<!-- EN: I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating! -->
-<Mousekin_Thought_MissingEars.stages.3.description>Я потерял оба уха, но только одно было заменено на тканевый протез. Это унизительно!</Mousekin_Thought_MissingEars.stages.3.description>
+	<!-- EN: I've lost both my ears, but only one was replaced with a cloth prosthetic. This is humiliating! -->
+	<Mousekin_Thought_MissingEars.stages.3.description>Я потерял оба уха, но только одно было заменено на тканевый протез. Это унизительно!</Mousekin_Thought_MissingEars.stages.3.description>
 
-<!-- EN: Both ears missing -->
-<Mousekin_Thought_MissingEars.stages.4.label>Оба уха пропали</Mousekin_Thought_MissingEars.stages.4.label>
+	<!-- EN: Both ears missing -->
+	<Mousekin_Thought_MissingEars.stages.4.label>Оба уха пропали</Mousekin_Thought_MissingEars.stages.4.label>
 
-<!-- EN: I've lost both my ears! I'd rather die than live with this humiliation! -->
-<Mousekin_Thought_MissingEars.stages.4.description>Я потерял оба уха! Я лучше умру, чем жить с этим унижением!</Mousekin_Thought_MissingEars.stages.4.description>
+	<!-- EN: I've lost both my ears! I'd rather die than live with this humiliation! -->
+	<Mousekin_Thought_MissingEars.stages.4.description>Я потерял оба уха! Я лучше умру, чем жить с этим унижением!</Mousekin_Thought_MissingEars.stages.4.description>
 
-<!-- EN: my aunt {0} died -->
-<Mousekin_Thought_MyAuntDied.stages.0.label>Моя тётя {0} умерла</Mousekin_Thought_MyAuntDied.stages.0.label>
+	<!-- EN: my aunt {0} died -->
+	<Mousekin_Thought_MyAuntDied.stages.0.label>Моя тётя {0} умерла</Mousekin_Thought_MyAuntDied.stages.0.label>
 
-<!-- EN: My aunt died. May her soul rest forever in The Great Garden. -->
-<Mousekin_Thought_MyAuntDied.stages.0.description>Моя тётя умерла. Пусть её душа вечно покоится в Великом Саду.</Mousekin_Thought_MyAuntDied.stages.0.description>
+	<!-- EN: My aunt died. May her soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyAuntDied.stages.0.description>Моя тётя умерла. Пусть её душа вечно покоится в Великом Саду.</Mousekin_Thought_MyAuntDied.stages.0.description>
 
-<!-- EN: my brother {0} died -->
-<Mousekin_Thought_MyBrotherDied.stages.0.label>Мой брат {0} умер</Mousekin_Thought_MyBrotherDied.stages.0.label>
+	<!-- EN: my brother {0} died -->
+	<Mousekin_Thought_MyBrotherDied.stages.0.label>Мой брат {0} умер</Mousekin_Thought_MyBrotherDied.stages.0.label>
 
-<!-- EN: My brother died. May his soul rest forever in The Great Garden. -->
-<Mousekin_Thought_MyBrotherDied.stages.0.description>Мой брат умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyBrotherDied.stages.0.description>
+	<!-- EN: My brother died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyBrotherDied.stages.0.description>Мой брат умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyBrotherDied.stages.0.description>
 
-<!-- EN: my cousin {0} died -->
-<Mousekin_Thought_MyCousinDied.stages.0.label>Мой двоюродный брат {0} умер</Mousekin_Thought_MyCousinDied.stages.0.label>
+	<!-- EN: my cousin {0} died -->
+	<Mousekin_Thought_MyCousinDied.stages.0.label>Мой двоюродный брат {0} умер</Mousekin_Thought_MyCousinDied.stages.0.label>
 
-<!-- EN: My cousin died. May their soul rest forever in The Great Garden. -->
-<Mousekin_Thought_MyCousinDied.stages.0.description>Мой двоюродный брат умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyCousinDied.stages.0.description>
+	<!-- EN: My cousin died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyCousinDied.stages.0.description>Мой двоюродный брат умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyCousinDied.stages.0.description>
 
-<!-- EN: my daughter {0} died -->
-<Mousekin_Thought_MyDaughterDied.stages.0.label>Моя дочь {0} умерла</Mousekin_Thought_MyDaughterDied.stages.0.label>
+	<!-- EN: my daughter {0} died -->
+	<Mousekin_Thought_MyDaughterDied.stages.0.label>Моя дочь {0} умерла</Mousekin_Thought_MyDaughterDied.stages.0.label>
 
-<!-- EN: My poor, poor baby! I should've taken better care of you! -->
-<Mousekin_Thought_MyDaughterDied.stages.0.description>Бедная, бедная девочка! Мне следовало лучше заботиться о тебе!</Mousekin_Thought_MyDaughterDied.stages.0.description>
+	<!-- EN: My poor, poor baby! I should've taken better care of you! -->
+	<Mousekin_Thought_MyDaughterDied.stages.0.description>Бедная, бедная девочка! Мне следовало лучше заботиться о тебе!</Mousekin_Thought_MyDaughterDied.stages.0.description>
 
-<!-- EN: my father {0} died -->
-<Mousekin_Thought_MyFatherDied.stages.0.label>Мой отец {0} умер</Mousekin_Thought_MyFatherDied.stages.0.label>
+	<!-- EN: my father {0} died -->
+	<Mousekin_Thought_MyFatherDied.stages.0.label>Мой отец {0} умер</Mousekin_Thought_MyFatherDied.stages.0.label>
 
-<!-- EN: My father died. May his soul rest forever in The Great Garden. -->
-<Mousekin_Thought_MyFatherDied.stages.0.description>Мой отец умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyFatherDied.stages.0.description>
+	<!-- EN: My father died. May his soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyFatherDied.stages.0.description>Мой отец умер. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyFatherDied.stages.0.description>
 
-<!-- EN: my fiance {0} died -->
-<Mousekin_Thought_MyFianceDied.stages.0.label>Мой жених {0} умер</Mousekin_Thought_MyFianceDied.stages.0.label>
+	<!-- EN: my fiance {0} died -->
+	<Mousekin_Thought_MyFianceDied.stages.0.label>Мой жених {0} умер</Mousekin_Thought_MyFianceDied.stages.0.label>
 
-<!-- EN: My fiance died. We promised we'd grow our garden together! -->
-<Mousekin_Thought_MyFianceDied.stages.0.description>Мой жених умер. Мы обещали, что будем вместе выращивать наш сад!</Mousekin_Thought_MyFianceDied.stages.0.description>
+	<!-- EN: My fiance died. We promised we'd grow our garden together! -->
+	<Mousekin_Thought_MyFianceDied.stages.0.description>Мой жених умер. Мы обещали, что будем вместе выращивать наш сад!</Mousekin_Thought_MyFianceDied.stages.0.description>
 
-<!-- EN: my fiancée {0} died -->
-<Mousekin_Thought_MyFianceeDied.stages.0.label>Моя невеста {0} умерла</Mousekin_Thought_MyFianceeDied.stages.0.label>
+	<!-- EN: my fiancée {0} died -->
+	<Mousekin_Thought_MyFianceeDied.stages.0.label>Моя невеста {0} умерла</Mousekin_Thought_MyFianceeDied.stages.0.label>
 
-<!-- EN: My fiancée died. We promised we'd grow our garden together! -->
-<Mousekin_Thought_MyFianceeDied.stages.0.description>Моя невеста умерла. Мы обещали, что будем вместе выращивать наш сад!</Mousekin_Thought_MyFianceeDied.stages.0.description>
+	<!-- EN: My fiancée died. We promised we'd grow our garden together! -->
+	<Mousekin_Thought_MyFianceeDied.stages.0.description>Моя невеста умерла. Мы обещали, что будем вместе выращивать наш сад!</Mousekin_Thought_MyFianceeDied.stages.0.description>
 
-<!-- EN: my grandchild {0} died -->
-<Mousekin_Thought_MyGrandchildDied.stages.0.label>Мой внук {0} умер</Mousekin_Thought_MyGrandchildDied.stages.0.label>
+	<!-- EN: my grandchild {0} died -->
+	<Mousekin_Thought_MyGrandchildDied.stages.0.label>Мой внук {0} умер</Mousekin_Thought_MyGrandchildDied.stages.0.label>
 
-<!-- EN: My grandchild died. Our family's future, taken away from us forever... -->
-<Mousekin_Thought_MyGrandchildDied.stages.0.description>Мой внук умер. Будущее нашей семьи, навсегда отнято от нас...</Mousekin_Thought_MyGrandchildDied.stages.0.description>
+	<!-- EN: My grandchild died. Our family's future, taken away from us forever... -->
+	<Mousekin_Thought_MyGrandchildDied.stages.0.description>Мой внук умер. Будущее нашей семьи, навсегда отнято от нас...</Mousekin_Thought_MyGrandchildDied.stages.0.description>
 
-<!-- EN: my grandparent {0} died -->
-<Mousekin_Thought_MyGrandparentDied.stages.0.label>Мой дедушка или бабушка {0} умерли</Mousekin_Thought_MyGrandparentDied.stages.0.label>
+	<!-- EN: my grandparent {0} died -->
+	<Mousekin_Thought_MyGrandparentDied.stages.0.label>Мой дедушка или бабушка {0} умерли</Mousekin_Thought_MyGrandparentDied.stages.0.label>
 
-<!-- EN: My grandparent died. May their soul rest forever in The Great Garden. -->
-<Mousekin_Thought_MyGrandparentDied.stages.0.description>Мой дедушка или бабушка умерли. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyGrandparentDied.stages.0.description>
+	<!-- EN: My grandparent died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyGrandparentDied.stages.0.description>Мой дедушка или бабушка умерли. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyGrandparentDied.stages.0.description>
 
-<!-- EN: my half-sibling {0} died -->
-<Mousekin_Thought_MyHalfSiblingDied.stages.0.label>Мой сводный брат или сестра {0} умерли</Mousekin_Thought_MyHalfSiblingDied.stages.0.label>
+	<!-- EN: my half-sibling {0} died -->
+	<Mousekin_Thought_MyHalfSiblingDied.stages.0.label>Мой сводный брат или сестра {0} умерли</Mousekin_Thought_MyHalfSiblingDied.stages.0.label>
 
-<!-- EN: My half-sibling died. May their soul rest forever in The Great Garden. -->
-<Mousekin_Thought_MyHalfSiblingDied.stages.0.description>Мой сводный брат или сестра умерли. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyHalfSiblingDied.stages.0.description>
+	<!-- EN: My half-sibling died. May their soul rest forever in The Great Garden. -->
+	<Mousekin_Thought_MyHalfSiblingDied.stages.0.description>Мой сводный брат или сестра умерли. Пусть его душа вечно покоится в Великом Саду.</Mousekin_Thought_MyHalfSiblingDied.stages.0.description>
 
-<!-- EN: my husband {0} died -->
-<Mousekin_Thought_MyHusbandDied.stages.0.label>Мой муж {0} умер</Mousekin_Thought_MyHusbandDied.stages.0.label>
+	<!-- EN: my husband {0} died -->
+	<Mousekin_Thought_MyHusbandDied.stages.0.label>Мой муж {0} умер</Mousekin_Thought_MyHusbandDied.stages.0.label>
 
-<!-- EN: My husband is dead. May we be reunited in The Great Garden someday. -->
-<Mousekin_Thought_MyHusbandDied.stages.0.description>Мой муж умер. Пусть мы когда-нибудь воссоединимся в Великом Саду.</Mousekin_Thought_MyHusbandDied.stages.0.description>
+	<!-- EN: My husband is dead. May we be reunited in The Great Garden someday. -->
+	<Mousekin_Thought_MyHusbandDied.stages.0.description>Мой муж умер. Пусть мы когда-нибудь воссоединимся в Великом Саду.</Mousekin_Thought_MyHusbandDied.stages.0.description>
 
-
-	<	<!-- EN: my kin {0} died -->
+	<!-- EN: my kin {0} died -->
 	<Mousekin_Thought_MyKinDied.stages.0.label>Мой родственник {0} умер</Mousekin_Thought_MyKinDied.stages.0.label>
 
 	<!-- EN: My kin died. May their soul rest forever in The Great Garden. -->
@@ -525,6 +521,5 @@
 
 	<!-- EN: I'm wearing clothes made from the fur of a pudgemouse. That poor innocent creature didn't deserve this! -->
 	<Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>Я ношу одежду из меха паджмауса. Это бедное невинное существо не заслуживало этого!</Mousekin_Thought_WearingPudgemouseFurApparel.stages.0.description>
-
 	
 </LanguageData>
