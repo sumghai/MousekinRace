@@ -5521,10 +5521,12 @@
 				<defName>FastLearner</defName>
 				<chance>75</chance>
 			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Pyromaniac</defName>
 			</li>
-		</forcedTraitsChance>
+		</disallowedTraitsChance>
 		<spawnCategories>
 			<li>MousekinOutlanderSpacer</li>
 		</spawnCategories>
