@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Reel's Expanded Storage</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- 
+					Exclude Mousekin tool cabinet from RES's patches that turn base game tool cabinets into storage.
+					
+					RSE patches the description of the base game tool cabinet with references to its new storage capacity (2 cells, 3 stacks each),
+					which is not applicable to the 1x1 cell design of the Mousekin tool cabinet, and interferes with translations.
+					
+					The RSE patch also conflicts with the non-stuffable nature of Mousekin tool cabinet, and the Adaptive Storage Framework
+					patches otherwise breaks rendering.
+				-->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_ToolCabinet"]</xpath>
+					<value>
+						<!-- Revert to original base game description -->
+						<description>Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets.</description>
+						<!-- Revert to original thingClass -->
+						<thingClass>Building</thingClass>
+						<!-- Revert to original non-stuffable config -->
+						<stuffCategories Inherit="false" />
+						<costStuffCount>0</costStuffCount>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_ToolCabinet"]/building</xpath>
+					<value>
+						<!-- Manually override RSE adding storage filters and cells to tool cabinets -->
+						<building Inherit="false">
+							<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+							<isInert>true</isInert>
+						</building>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
