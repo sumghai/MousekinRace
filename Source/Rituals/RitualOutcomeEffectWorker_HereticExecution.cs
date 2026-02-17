@@ -63,7 +63,7 @@ namespace MousekinRace
 
             // Generate the quality outcome letter
             TaggedString text = outcome.description.Formatted(jobRitual.Ritual.Label).CapitalizeFirst();
-            TaggedString text2 = def.OutcomeMoodBreakdown(outcome);
+            TaggedString text2 = OutcomeMoodBreakdownHereticExecution(outcome);
             if (!text2.NullOrEmpty())
             {
                 text = text + "\n\n" + text2;
@@ -159,6 +159,21 @@ namespace MousekinRace
                 pawnList += "  - " + pawn.NameShortColored.Resolve() + "\n";
             }
             return pawnList.TrimEndNewlines();
+        }
+
+        // Fork of RitualOutcomeEffectDef.OutcomeMoodBreakdown() that sets the default base mood effect from the ritual outcome
+        // to the *third* (lists in RimWorld are zero-indexed) memory stage, which defines the output for Mousekins with
+        // Pious or no religious affinity traits
+
+        public string OutcomeMoodBreakdownHereticExecution(RitualOutcomePossibility outcome)
+        {
+            int stageForPiousAndNones = 2;
+            
+            if (outcome.memory != null && outcome.memory.stages[stageForPiousAndNones].baseMoodEffect != 0f)
+            {
+                return "RitualOutcomeExtraDesc_Mood".Translate(outcome.memory.stages[stageForPiousAndNones].baseMoodEffect.ToStringWithSign(), outcome.memory.durationDays);
+            }
+            return "";
         }
     }
 }
