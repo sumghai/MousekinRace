@@ -28,5 +28,12 @@
 	<LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
 		<li>r_leaderTitle->두목</li>
 	</LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
+
+	<!-- EN: 
+		<li>r_leaderTitle->Grand Marshal</li>
+	-->
+	<LeaderTitleMaker_Grimalkin.rulePack.rulesStrings>
+		<li>r_leaderTitle->대원수</li>
+	</LeaderTitleMaker_Grimalkin.rulePack.rulesStrings>
 	
 </LanguageData>

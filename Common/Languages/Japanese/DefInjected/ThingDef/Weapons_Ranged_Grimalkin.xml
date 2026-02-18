@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Yaong-58 Assault Rifle -->
+	<Grimalkin_RangedWeapon_Rifle.label>ヤオン-58 突撃銃</Grimalkin_RangedWeapon_Rifle.label>
+	
+	<!-- EN: A robust, durable assault rifle manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet AK-47 design, and the standard-issue weapon of Grimalkin riflemen. -->	
+	<Grimalkin_RangedWeapon_Rifle.description>グリマルキン人民共和国が製造した頑丈で耐久性に優れた突撃銃.古い地球ソビエト連邦のAK-47設計を再現したもので、グリマルキン歩兵の標準装備武器である.</Grimalkin_RangedWeapon_Rifle.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Rifle.tools.0.label>ストック</Grimalkin_RangedWeapon_Rifle.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Rifle.tools.1.label>銃身</Grimalkin_RangedWeapon_Rifle.tools.1.label>
+	
+	<!-- EN: Yaong-59 Light Machine Gun -->
+	<Grimalkin_RangedWeapon_Lmg.label>ヤオン-59 軽機関銃</Grimalkin_RangedWeapon_Lmg.label>
+	
+	<!-- EN: A light machine gun based on the Grimalkin Yaong-58 Assault Rifle, with a strengthened receiver and drum magazine allowing Grimalkin machine gunners to effectively suppress enemy formations. -->
+	<Grimalkin_RangedWeapon_Lmg.description>グリマルキン・ヤオン-58突撃銃を基に開発された軽機関銃.強化レシーバーとドラム式弾倉を備え、グリマルキン機関銃手が敵部隊を効果的に制圧することを可能とする.</Grimalkin_RangedWeapon_Lmg.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Lmg.tools.0.label>ストック</Grimalkin_RangedWeapon_Lmg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Lmg.tools.1.label>銃身</Grimalkin_RangedWeapon_Lmg.tools.1.label>
+	
+	<!-- EN: Yaong-61 Grenade Launcher -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.label>ヤオン-61 擲弾発射器</Grimalkin_RangedWeapon_GrenadeLauncher.label>
+	
+	<!-- EN: A six-shot, revolver-type grenade launcher with a retractable stock for compact storage, used by Grimalkin grenadiers to break up enemy formations or destroy light walls and barricades. -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.description>6連装のリボルバー式擲弾発射器.収納時にコンパクトになる伸縮式ストックを備え、グリマルキン擲弾兵が敵部隊の分散や軽装壁・バリケードの破壊に使用する.</Grimalkin_RangedWeapon_GrenadeLauncher.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.tools.0.label>ストック</Grimalkin_RangedWeapon_GrenadeLauncher.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.tools.1.label>銃身</Grimalkin_RangedWeapon_GrenadeLauncher.tools.1.label>
+	
+	<!-- EN: Yaong-75 Sniper Rifle -->
+	<Grimalkin_RangedWeapon_Sniper.label>ヤオン-75 狙撃銃</Grimalkin_RangedWeapon_Sniper.label>
+	
+	<!-- EN: A semi-automatic sniper rifle based on the Grimalkin Yaong-58 Assault Rifle and equipped with 4x20 optics, allowing Grimalkin snipers to engage high-value targets at range with impunity. -->
+	<Grimalkin_RangedWeapon_Sniper.description>グリマルキン・ヤオン-58突撃銃を基に開発された半自動式狙撃銃.4倍20mm光学照準器を装備し、グリマルキン狙撃兵が遠距離から高価値目標を無傷で撃破することを可能とする.</Grimalkin_RangedWeapon_Sniper.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Sniper.tools.0.label>ストック</Grimalkin_RangedWeapon_Sniper.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Sniper.tools.1.label>銃身</Grimalkin_RangedWeapon_Sniper.tools.1.label>
+	
+	<!-- EN: Yaong-89 SMG -->
+	<Grimalkin_RangedWeapon_Smg.label>ヤオン-89 短機関銃</Grimalkin_RangedWeapon_Smg.label>
+	
+	<!-- EN: An indigenous submachine gun manufactured by the Grimalkin Dominion with a folding stock for compact storage, used by elite Grimalkin stormtroopers for trench warfare and raiding parties. -->
+	<Grimalkin_RangedWeapon_Smg.description>グリマルキン人民共和国製国産短機関銃.折り畳み式ストックでコンパクトに収納可能.精鋭グリマルキン突撃兵が塹壕戦や襲撃部隊で運用.</Grimalkin_RangedWeapon_Smg.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Smg.tools.0.label>グリップ</Grimalkin_RangedWeapon_Smg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Smg.tools.1.label>銃身</Grimalkin_RangedWeapon_Smg.tools.1.label>
+	
+	<!-- EN: Yaong-23 Shotgun -->
+	<Grimalkin_RangedWeapon_Shotgun.label>ヤオン-23 散弾銃</Grimalkin_RangedWeapon_Shotgun.label>
+	
+	<!-- EN: A large caliber pump-action shotgun used by elite Grimalkin stormtroopers for close-quarters combat. -->
+	<Grimalkin_RangedWeapon_Shotgun.description>大口径ポンプアクション式散弾銃.精鋭グリマルキン突撃兵が近接戦闘で運用.</Grimalkin_RangedWeapon_Shotgun.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Smg.tools.0.label>グリップ</Grimalkin_RangedWeapon_Smg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Smg.tools.1.label>銃身</Grimalkin_RangedWeapon_Smg.tools.1.label>
+	
+	<!-- EN: Yaong-69 RPG -->
+	<Grimalkin_RangedWeapon_Rpg.label>ヤオン-69 RPG</Grimalkin_RangedWeapon_Rpg.label>
+	
+	<!-- EN: A reusable shoulder-fired weapon, capable of launching a variety of unguided rockets against enemy fortifications and lightly armored vehicles. -->
+	<Grimalkin_RangedWeapon_Rpg.description>再利用可能な肩撃ち式兵器.敵の要塞や軽装甲車両に対し、各種非誘導ロケットを発射可能.</Grimalkin_RangedWeapon_Rpg.description>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Rpg.tools.0.label>銃身</Grimalkin_RangedWeapon_Rpg.tools.0.label>
+	
+	<!-- EN: Yaong-66 Service Pistol -->
+	<Grimalkin_RangedWeapon_Pistol.label>ヤオン-66 拳銃</Grimalkin_RangedWeapon_Pistol.label>
+	
+	<!-- EN: A compact semi-automatic pistol manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet Makarov design, carried by Grimalkin generals, officers and support staff. -->
+	<Grimalkin_RangedWeapon_Pistol.description>リマルキン人民共和国が製造したコンパクトな半自動拳銃.古い地球ソビエト製マカロフ拳銃の複製品として開発された.</Grimalkin_RangedWeapon_Pistol.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Pistol.tools.0.label>グリップ</Grimalkin_RangedWeapon_Pistol.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Pistol.tools.1.label>銃身</Grimalkin_RangedWeapon_Pistol.tools.1.label>
+	
+</LanguageData>

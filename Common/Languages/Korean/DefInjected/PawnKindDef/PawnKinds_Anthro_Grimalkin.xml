@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: rifleman -->
+	<GrimalkinInfantryRifle.label>소총병</GrimalkinInfantryRifle.label>
+	
+	<!-- EN: riflemen -->
+	<GrimalkinInfantryRifle.labelPlural>소총병</GrimalkinInfantryRifle.labelPlural>
+	
+	<!-- EN: machine gunner -->
+	<GrimalkinInfantryMG.label>기관총 사수</GrimalkinInfantryMG.label>
+	
+	<!-- EN: machine gunners -->
+	<GrimalkinInfantryMG.labelPlural>기관총 사수</GrimalkinInfantryMG.labelPlural>
+	
+	<!-- EN: grenadier -->
+	<GrimalkinInfantryGrenadier.label>그레나디어</GrimalkinInfantryGrenadier.label>
+	
+	<!-- EN: grenadiers -->
+	<GrimalkinInfantryGrenadier.labelPlural>그레나디어</GrimalkinInfantryGrenadier.labelPlural>
+	
+	<!-- EN: sniper -->
+	<GrimalkinInfantrySniper.label>저격수</GrimalkinInfantrySniper.label>
+	
+	<!-- EN: snipers -->
+	<GrimalkinInfantrySniper.labelPlural>저격수</GrimalkinInfantrySniper.labelPlural>
+	
+	<!-- EN: crewman -->
+	<GrimalkinCrewman.label>차량 승무원</GrimalkinCrewman.label>
+	
+	<!-- EN: crewmen -->
+	<GrimalkinCrewman.labelPlural>차량 승무원</GrimalkinCrewman.labelPlural>
+	
+	<!-- EN: stormtrooper -->
+	<GrimalkinStormtrooperAssault.label>충격보병</GrimalkinStormtrooperAssault.label>
+	
+	<!-- EN: stormtroopers -->
+	<GrimalkinStormtrooperAssault.labelPlural>충격보병</GrimalkinStormtrooperAssault.labelPlural>
+	
+	<!-- EN: stormtrooper -->
+	<GrimalkinStormtrooperHeavy.label>충격보병</GrimalkinStormtrooperHeavy.label>
+	
+	<!-- EN: stormtroopers -->
+	<GrimalkinStormtrooperHeavy.labelPlural>충격보병</GrimalkinStormtrooperHeavy.labelPlural>
+	
+	<!-- EN: staff officer -->
+	<GrimalkinStaffOfficer.label>참모 장교</GrimalkinStaffOfficer.label>
+	
+	<!-- EN: staff officers -->
+	<GrimalkinStaffOfficer.labelPlural>참모 장교</GrimalkinStaffOfficer.labelPlural>
+	
+	<!-- EN: colonel -->
+	<GrimalkinColonel.label>대령</GrimalkinColonel.label>
+	
+	<!-- EN: colonels -->
+	<GrimalkinColonel.labelPlural>대령</GrimalkinColonel.labelPlural>
+	
+	<!-- EN: Grand Marshal -->
+	<GrimalkinGrandMarshal.label>대원수</GrimalkinGrandMarshal.label>
+	
+	<!-- EN: Grand Marshals -->
+	<GrimalkinGrandMarshal.labelPlural>대원수</GrimalkinGrandMarshal.labelPlural>
+	
+</LanguageData>

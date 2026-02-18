@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- 
+		Custom name maker called programmatically to override the standard Moralist role namer for Grimalkins to a fixed title, without additional descriptors
+	-->
+
+	<RulePackDef>
+		<defName>NamerRoleMoralist_Grimalkin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_roleName->Commissar</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>

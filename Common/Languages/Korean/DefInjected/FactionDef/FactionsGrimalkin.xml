@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin Dominion -->
+	<Grimalkin_Faction.fixedName>그림알킨 인민 공화국</Grimalkin_Faction.fixedName>
+	
+	<!-- EN: communist feline dictatorship -->
+	<Grimalkin_Faction.label>공산주의 고양이 독재 정권</Grimalkin_Faction.label>
+	
+	<!-- EN: A civilization of Grimalkins governed under a communist military dictatorship, whose ancestors descended from domesticated cats that survived a failed interstellar colony originally founded by a defunct East Asian superpower from Old Earth.\n\nEspousing self-reliance and military might, Grimalkins barely tolerate human societies, and are otherwise hostile to most other non-humans - especially rodentfolk like Mousekins. -->
+	<Grimalkin_Faction.description>공산주의 군사 독재 체제 아래 통치되는 그리말킨 문명은, 고대 지구의 멸망한 동아시아 초강대국이 설립한 실패한 성간 식민지에서 생존한 가축화된 고양이의 후손들이다.\n\n자립과 군사력을 중시하는 그리말킨은 인간 사회를 간신히 용인할 뿐이며, 그 외 대부분의 비인간 종족—특히 마우스킨 같은 설치류 종족—에 대해 적대적이다.</Grimalkin_Faction.description>
+	
+	<!-- EN: Grimalkin -->
+	<Grimalkin_Faction.pawnSingular>그림알킨</Grimalkin_Faction.pawnSingular>
+	
+	<!-- EN: Grimalkins -->
+	<Grimalkin_Faction.pawnsPlural>그림알킨</Grimalkin_Faction.pawnsPlural>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Faction.leaderTitle>대원수</Grimalkin_Faction.leaderTitle>
+	
+	<!-- EN: Feline Juche -->
+	<Grimalkin_Faction.ideoName>고양이 주체</Grimalkin_Faction.ideoName>
+	
+	<!-- EN: "&lt;i&gt;Yaong&lt;/i&gt;, stupid fur mouse lie and steal, make all bad. Cat resolute no forgive stupid fur mouse, kill mouse for make benefit Glorious People's Republic of Grimalkin, &lt;i&gt;yaong&lt;/i&gt;!"\n\n  - Preamble to the Socialist Constitution of the People's Republic of Grimalkin -->
+	<Grimalkin_Faction.ideoDescription>"&lt;i&gt;야옹&lt;/i&gt;, 멍청한 털쥐는 거짓말하고 훔쳐서 온갖 악행을 저지른다. 고양이는 결연히 멍청한 털쥐를 용서하지 않으며, 그 쥐를 죽여 위대한 고양이 인민 공화국에 공을 세운다, &lt;i&gt;야옹&lt;/i&gt;!"\n\n - 그리말킨 인민 공화국 사회주의 헌법 전문</Grimalkin_Faction.ideoDescription>
+	
+</LanguageData>

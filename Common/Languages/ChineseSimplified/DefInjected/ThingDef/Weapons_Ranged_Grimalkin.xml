@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Yaong-58 Assault Rifle -->
+	<Grimalkin_RangedWeapon_Rifle.label>喵-58突击步枪</Grimalkin_RangedWeapon_Rifle.label>
+	
+	<!-- EN: A robust, durable assault rifle manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet AK-47 design, and the standard-issue weapon of Grimalkin riflemen. -->
+	<Grimalkin_RangedWeapon_Rifle.description>由黑猫族制造的坚固耐用突击步枪，仿制老地球苏联AK-47设计，为黑猫族步兵的制式武器。</Grimalkin_RangedWeapon_Rifle.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Rifle.tools.0.label>枪托</Grimalkin_RangedWeapon_Rifle.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Rifle.tools.1.label>枪管</Grimalkin_RangedWeapon_Rifle.tools.1.label>
+	
+	<!-- EN: Yaong-59 Light Machine Gun -->
+	<Grimalkin_RangedWeapon_Lmg.label>喵-59轻机枪</Grimalkin_RangedWeapon_Lmg.label>
+	
+	<!-- EN: A light machine gun based on the Grimalkin Yaong-58 Assault Rifle, with a strengthened receiver and drum magazine allowing Grimalkin machine gunners to effectively suppress enemy formations. -->
+	<Grimalkin_RangedWeapon_Lmg.description>以黑猫族喵-58突击步枪为基础开发的轻机枪，强化枪机结构并配备鼓状弹匣，使黑猫族机枪手能有效压制敌军阵型。</Grimalkin_RangedWeapon_Lmg.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Lmg.tools.0.label>枪托</Grimalkin_RangedWeapon_Lmg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Lmg.tools.1.label>枪管</Grimalkin_RangedWeapon_Lmg.tools.1.label>
+	
+	<!-- EN: Yaong-61 Grenade Launcher -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.label>喵-61榴弹发射器</Grimalkin_RangedWeapon_GrenadeLauncher.label>
+	
+	<!-- EN: A six-shot, revolver-type grenade launcher with a retractable stock for compact storage, used by Grimalkin grenadiers to break up enemy formations or destroy light walls and barricades. -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.description>六发转轮式榴弹发射器，配备可伸缩枪托便于收纳。黑猫族榴弹兵使用此武器瓦解敌军阵型或摧毁轻型墙体与路障。</Grimalkin_RangedWeapon_GrenadeLauncher.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.tools.0.label>枪托</Grimalkin_RangedWeapon_GrenadeLauncher.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.tools.1.label>枪管</Grimalkin_RangedWeapon_GrenadeLauncher.tools.1.label>
+	
+	<!-- EN: Yaong-75 Sniper Rifle -->
+	<Grimalkin_RangedWeapon_Sniper.label>喵-75狙击步枪</Grimalkin_RangedWeapon_Sniper.label>
+	
+	<!-- EN: A semi-automatic sniper rifle based on the Grimalkin Yaong-58 Assault Rifle and equipped with 4x20 optics, allowing Grimalkin snipers to engage high-value targets at range with impunity. -->
+	<Grimalkin_RangedWeapon_Sniper.description>以黑猫族喵-58突击步枪为基础开发的半自动狙击步枪，配备4x20倍瞄准镜，使黑猫族狙击手能从远距离无畏地打击高价值目标。</Grimalkin_RangedWeapon_Sniper.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Sniper.tools.0.label>枪托</Grimalkin_RangedWeapon_Sniper.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Sniper.tools.1.label>枪管</Grimalkin_RangedWeapon_Sniper.tools.1.label>
+	
+	<!-- EN: Yaong-89 SMG -->
+	<Grimalkin_RangedWeapon_Smg.label>喵-89冲锋枪</Grimalkin_RangedWeapon_Smg.label>
+	
+	<!-- EN: An indigenous submachine gun manufactured by the Grimalkin Dominion with a folding stock for compact storage, used by elite Grimalkin stormtroopers for trench warfare and raiding parties. -->
+	<Grimalkin_RangedWeapon_Smg.description>黑猫族民共和国自主研发的冲锋枪，配备折叠枪托便于收纳，供精锐风暴兵执行堑壕战与突袭任务。</Grimalkin_RangedWeapon_Smg.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Smg.tools.0.label>握把</Grimalkin_RangedWeapon_Smg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Smg.tools.1.label>枪管</Grimalkin_RangedWeapon_Smg.tools.1.label>
+	
+	<!-- EN: Yaong-23 Shotgun -->
+	<Grimalkin_RangedWeapon_Shotgun.label>喵-23霰弹枪</Grimalkin_RangedWeapon_Shotgun.label>
+	
+	<!-- EN: A large caliber pump-action shotgun used by elite Grimalkin stormtroopers for close-quarters combat. -->
+	<Grimalkin_RangedWeapon_Shotgun.description>大口径泵动式霰弹枪，供精锐风暴兵执行近身格斗任务。</Grimalkin_RangedWeapon_Shotgun.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Smg.tools.0.label>握把</Grimalkin_RangedWeapon_Smg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Smg.tools.1.label>枪管</Grimalkin_RangedWeapon_Smg.tools.1.label>
+	
+	<!-- EN: Yaong-69 RPG -->
+	<Grimalkin_RangedWeapon_Rpg.label>喵-69RPG火箭筒</Grimalkin_RangedWeapon_Rpg.label>
+	
+	<!-- EN: A reusable shoulder-fired weapon, capable of launching a variety of unguided rockets against enemy fortifications and lightly armored vehicles. -->
+	<Grimalkin_RangedWeapon_Rpg.description>可重复使用的肩扛式武器，能发射多种无导引火箭弹，用于攻击敌方工事及轻型装甲车辆。</Grimalkin_RangedWeapon_Rpg.description>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Rpg.tools.0.label>枪管</Grimalkin_RangedWeapon_Rpg.tools.0.label>
+	
+	<!-- EN: Yaong-66 Service Pistol -->
+	<Grimalkin_RangedWeapon_Pistol.label>喵-66手枪</Grimalkin_RangedWeapon_Pistol.label>
+	
+	<!-- EN: A compact semi-automatic pistol manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet Makarov design, carried by Grimalkin generals, officers and support staff. -->
+	<Grimalkin_RangedWeapon_Pistol.description>由黑猫族民共和国制造的紧凑型半自动手枪，仿制自老地球苏联马卡洛夫设计，配备予黑猫族将领、军官及后勤人员。</Grimalkin_RangedWeapon_Pistol.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Pistol.tools.0.label>握把</Grimalkin_RangedWeapon_Pistol.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Pistol.tools.1.label>枪管</Grimalkin_RangedWeapon_Pistol.tools.1.label>
+	
+</LanguageData>

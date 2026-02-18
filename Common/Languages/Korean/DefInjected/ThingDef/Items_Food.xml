@@ -37,4 +37,10 @@
 	<!-- EN: A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours. -->
 	<Mousekin_MealBreadBowl.description>시골 빵 한 덩어리에 속을 비우고 크림 같은 고기와 야채 포타주를 채워 풍성하고 만족스러운 식사가 되었습니다. 12시간 동안 배고픔 비율이 35% 감소합니다.</Mousekin_MealBreadBowl.description>
 	
+	<!-- EN: Grimalkin rations -->
+	<Grimalkin_MealRations.label>그림알킨의 배급량</Grimalkin_MealRations.label>
+	
+	<!-- EN: Assorted cans of pre-cooked rice, pickled vegetables, and meat, issued to Grimalkin soldiers as field rations. Will never rot, and deteriorates very slowly if left outside. -->
+	<Grimalkin_MealRations.description>그리말킨 병사들에게 야전 급식으로 지급되는 조리된 밥, 김치, 고기 등이 들어 있는 각종 통조림. 절대 썩지 않으며, 야외에 방치해도 매우 천천히 변질된다.</Grimalkin_MealRations.description>
+	
 </LanguageData>

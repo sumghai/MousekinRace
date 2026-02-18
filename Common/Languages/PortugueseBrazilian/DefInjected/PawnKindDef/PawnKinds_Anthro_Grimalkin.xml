@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: rifleman -->
+	<GrimalkinInfantryRifle.label>atirador</GrimalkinInfantryRifle.label>
+	
+	<!-- EN: riflemen -->
+	<GrimalkinInfantryRifle.labelPlural>atiradores</GrimalkinInfantryRifle.labelPlural>
+	
+	<!-- EN: machine gunner -->
+	<GrimalkinInfantryMG.label>metralhador</GrimalkinInfantryMG.label>
+	
+	<!-- EN: machine gunners -->
+	<GrimalkinInfantryMG.labelPlural>metralhadores</GrimalkinInfantryMG.labelPlural>
+	
+	<!-- EN: grenadier -->
+	<GrimalkinInfantryGrenadier.label>granadeiro</GrimalkinInfantryGrenadier.label>
+	
+	<!-- EN: grenadiers -->
+	<GrimalkinInfantryGrenadier.labelPlural>granadeiros</GrimalkinInfantryGrenadier.labelPlural>
+	
+	<!-- EN: sniper -->
+	<GrimalkinInfantrySniper.label>atirador de elite</GrimalkinInfantrySniper.label>
+	
+	<!-- EN: snipers -->
+	<GrimalkinInfantrySniper.labelPlural>atiradores de elite</GrimalkinInfantrySniper.labelPlural>
+	
+	<!-- EN: crewman -->
+	<GrimalkinCrewman.label>tripulante</GrimalkinCrewman.label>
+	
+	<!-- EN: crewmen -->
+	<GrimalkinCrewman.labelPlural>tripulantes</GrimalkinCrewman.labelPlural>
+	
+	<!-- EN: stormtrooper -->
+	<GrimalkinStormtrooperAssault.label>soldado de assalto</GrimalkinStormtrooperAssault.label>
+	
+	<!-- EN: stormtroopers -->
+	<GrimalkinStormtrooperAssault.labelPlural>soldados de assalto</GrimalkinStormtrooperAssault.labelPlural>
+	
+	<!-- EN: stormtrooper -->
+	<GrimalkinStormtrooperHeavy.label>soldado de assalto</GrimalkinStormtrooperHeavy.label>
+	
+	<!-- EN: stormtroopers -->
+	<GrimalkinStormtrooperHeavy.labelPlural>soldados de assalto</GrimalkinStormtrooperHeavy.labelPlural>
+	
+	<!-- EN: staff officer -->
+	<GrimalkinStaffOfficer.label>oficial de estado-maior</GrimalkinStaffOfficer.label>
+	
+	<!-- EN: staff officers -->
+	<GrimalkinStaffOfficer.labelPlural>oficiais de estado-maior</GrimalkinStaffOfficer.labelPlural>
+	
+	<!-- EN: colonel -->
+	<GrimalkinColonel.label>coronel</GrimalkinColonel.label>
+	
+	<!-- EN: colonels -->
+	<GrimalkinColonel.labelPlural>coronéis</GrimalkinColonel.labelPlural>
+	
+	<!-- EN: Grand Marshal -->
+	<GrimalkinGrandMarshal.label>Grão-Marechal</GrimalkinGrandMarshal.label>
+	
+	<!-- EN: Grand Marshals -->
+	<GrimalkinGrandMarshal.labelPlural>Grão-Marechais</GrimalkinGrandMarshal.labelPlural>
+	
+</LanguageData>

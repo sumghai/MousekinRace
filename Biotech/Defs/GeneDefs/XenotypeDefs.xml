@@ -14,5 +14,19 @@
 			<li>Mousekin_GeneVoiceMousekin</li>
 		</genes>
 	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Grimalkin_XenotypeGrimalkin</defName>
+		<label>Grimalkin</label>
+		<descriptionShort>A naturally-evolved Grimalkin with no major significant genetic modifications.</descriptionShort>
+		<description>Species: &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("Wise black cat")\n\nA race of large anthropomorphic cats, readily identified by their triangular ears, uniformly dull black fur, yellow slit-pupiled eyes, protruding upper incisors and long bushy tails.\n\nGrimalkin adults can grow up to 150 centimeters tall, with males and females possessing visible scrotums and subdued chest mammary glands respectively, while individuals are discerned by subtle variations in head fur swirl or body odor. Their anatomical proportions are roughly similar to domesticated cats from Old Earth, save for additional bulk from body hair and fat.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single kitten, but twins, triplets and other multiple births are also possible.\n\nWhile the vast majority of humanoid feline races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is understood that Grimalkins originated from pet cats abandoned by an Old Earth Asian rump superpower's failed attempt at interstellar colonization; environmental and evolutionary pressures accelerated the species’ rise into sapience within a span of a mere few hundred years.\n\nBarring accidents, injury or disease, a Grimalkin’s average life expectancy is 70~80 years; their body fur becomes slightly matted by around over 60 years of age, but no Grimalkin will experience fur loss.</description>
+		<iconPath>UI/Icons/Xenotypes/Grimalkin</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>900</displayPriority>
+		<genes>
+			<li>DarkVision</li>
+			<li>Grimalkin_GeneVoiceGrimalkin</li>
+		</genes>
+	</XenotypeDef>
 	
 </Defs>

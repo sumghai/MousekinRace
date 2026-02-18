@@ -52,5 +52,18 @@
 		<li>r_memberName->非爪者</li>
 		<li>hyphenPrefix-> </li>
 	</NamerIdeoMousekinBrigands.rulePack.rulesStrings>
+
+	<!-- EN: 
+		<li>r_ideoName->Feline Juche</li>
+		<li>r_ideoAdjective->Jucheist</li>
+		<li>r_memberName->Jucheist</li>
+		<li>hyphenPrefix-> (leave blank)</li>
+	-->
+	<NamerIdeoGrimalkin.rulePack.rulesStrings>
+		<li>r_ideoName->猫族主体思想</li>
+		<li>r_ideoAdjective->主体思想</li>
+		<li>r_memberName->主体思想者</li>
+		<li>hyphenPrefix-> </li>
+	</NamerIdeoGrimalkin.rulePack.rulesStrings>
 	
 </LanguageData>

@@ -37,4 +37,10 @@
 	<!-- EN: A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours. -->
 	<Mousekin_MealBreadBowl.description>一糰挖空的鄉村麵包，裡面填滿奶油肉和蔬菜濃湯，是一頓豐盛、令人滿意的料理。可使飢餓率降低35%，持續12小時。</Mousekin_MealBreadBowl.description>
 	
+	<!-- EN: Grimalkin rations -->
+	<Grimalkin_MealRations.label>黑貓族軍糧</Grimalkin_MealRations.label>
+	
+	<!-- EN: Assorted cans of pre-cooked rice, pickled vegetables, and meat, issued to Grimalkin soldiers as field rations. Will never rot, and deteriorates very slowly if left outside. -->
+	<Grimalkin_MealRations.description>各式罐裝熟米飯、泡菜與肉類，作為黑貓族士兵的野戰口糧配給。永不腐壞，即使置於戶外亦僅會極緩慢地變質。</Grimalkin_MealRations.description>
+	
 </LanguageData>

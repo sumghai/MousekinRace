@@ -315,7 +315,7 @@
 					<count>400</count>
 				</li>
 
-				<!-- Requires Mousekin Kingdom and Independent Mousekin factions during world generation -->
+				<!-- Requires Mousekin Kingdom, Independent Mousekin, and Grimalkin Dominion factions during world generation -->
 
 				<li Class="MousekinRace.ScenPart_RequiredFaction">
 					<def>MousekinRace_ScenPart_RequiredFaction</def>
@@ -326,6 +326,11 @@
 				<li Class="MousekinRace.ScenPart_RequiredFaction">
 					<def>MousekinRace_ScenPart_RequiredFaction</def>
 					<factionDef>Mousekin_FactionIndyTown</factionDef>
+				</li>
+				
+				<li Class="MousekinRace.ScenPart_RequiredFaction">
+					<def>MousekinRace_ScenPart_RequiredFaction</def>
+					<factionDef>Grimalkin_Faction</factionDef>
 				</li>
 
 			</parts>

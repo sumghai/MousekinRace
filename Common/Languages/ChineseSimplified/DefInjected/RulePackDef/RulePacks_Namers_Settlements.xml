@@ -50,4 +50,19 @@
 		<li>r_name->[Settlement_Name] 自由[Settlement_Type]</li>
 	</NamerSettlement_MousekinIndyTown.rulePack.rulesStrings>
 	
+	<!-- EN:
+		<li>r_name(p=6)->Observation Post [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=4)->Forward Operating Base [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->Fire Support Base [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->Logistics Base [Letter]-[Digit][Digit]</li>
+		<li>r_name->Main Operating Base [Letter]-[Digit][Digit]</li>
+	-->
+	<NamerSettlement_Grimalkin.rulePack.rulesStrings>
+		<li>r_name(p=6)->观察哨[Letter]-[Digit][Digit]</li>
+		<li>r_name(p=4)->前沿作战基地[Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->火力支援基地[Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->后勤基地[Letter]-[Digit][Digit]</li>
+		<li>r_name->主要作战基地[Letter]-[Digit][Digit]</li>
+	</NamerSettlement_Grimalkin.rulePack.rulesStrings>
+	
 </LanguageData>

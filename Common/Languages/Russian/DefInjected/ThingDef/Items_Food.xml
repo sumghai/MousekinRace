@@ -37,4 +37,10 @@
 	<!-- EN: A loaf of country bread hollowed out and filled with a creamy meat and vegetable potage, resulting in a hearty, satisfying meal. Reduces hunger rate by 35% for 12 hours. -->
 	<Mousekin_MealBreadBowl.description>Булка деревенского хлеба, выдолбленная и наполненная кремовым мясным и овощным потажем, что приводит к сытному и удовлетворительному блюду. Уменьшает уровень голода на 35% на 12 часов.</Mousekin_MealBreadBowl.description>
 	
+	<!-- EN: Grimalkin rations -->
+	<Grimalkin_MealRations.label>Военные пайки Грималкина</Grimalkin_MealRations.label>
+	
+	<!-- EN: Assorted cans of pre-cooked rice, pickled vegetables, and meat, issued to Grimalkin soldiers as field rations. Will never rot, and deteriorates very slowly if left outside. -->
+	<Grimalkin_MealRations.description>Ассорти из банок с готовым рисом, кимчи и мясом, выдаваемое солдатам Грималкина в качестве полевого провианта. Никогда не портится и очень медленно разлагается, если оставить на улице.</Grimalkin_MealRations.description>
+	
 </LanguageData>

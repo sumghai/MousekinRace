@@ -36,5 +36,14 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>LeaderTitleMaker_Grimalkin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->Grand Marshal</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
 
 </Defs>

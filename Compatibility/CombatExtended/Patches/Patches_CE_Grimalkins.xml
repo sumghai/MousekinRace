@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- All-in-one patch file for Grimalkin NPC race -->
+			
+			<!-- ========== RACE - GENERAL ========== -->
+			
+			<!-- Set CE-related stats -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Grimalkin"]/statBases</xpath>
+				<value>
+					<MeleeCritChance>1</MeleeCritChance>
+					<MeleeDodgeChance>1</MeleeDodgeChance>
+					<MeleeParryChance>1</MeleeParryChance>
+					<SmokeSensitivity>1</SmokeSensitivity>
+					<!-- slightly less likely to be suppressed, due to combination of racial trait and training -->
+					<Suppressability>0.9</Suppressability>
+				</value>
+			</li>
+			
+			<!-- Replace base game melee attacks with CE versions -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Grimalkin"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left paw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>2</power>
+							<cooldownTime>0.9</cooldownTime>
+							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.423</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.16</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right paw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>2</power>
+							<cooldownTime>0.9</cooldownTime>
+							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>0.423</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.16</armorPenetrationSharp>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>teeth</label>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>12</power>
+							<cooldownTime>1.35</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>10</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<chanceFactor>0.3</chanceFactor>
+							<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+							<armorPenetrationSharp>2</armorPenetrationSharp>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Add pawn gizmos and suppressibility comps -->
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Grimalkin"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Grimalkin"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Grimalkin"]/comps</xpath>
+				<value>
+					<li>
+						<compClass>CombatExtended.CompPawnGizmo</compClass>
+					</li>
+					<li Class="CombatExtended.CompProperties_Suppressable"/>
+				</value>
+			</li>
+			
+			<!-- ========== RACE - BODIES ========== -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName="Grimalkin"]/corePart/parts/li[def="Shoulder"]/parts/li[customLabel="left arm"]/groups</xpath>
+				<value>
+					<li>LeftArm</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName="Grimalkin"]/corePart/parts/li[def="Shoulder"]/parts/li[customLabel="right arm"]/groups</xpath>
+				<value>
+					<li>RightArm</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName="Grimalkin"]/corePart/parts/li[customLabel="left shoulder"]/groups</xpath>
+				<value>
+					<li>LeftShoulder</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyDef[defName="Grimalkin"]/corePart/parts/li[customLabel="right shoulder"]/groups</xpath>
+				<value>
+					<li>RightShoulder</li>
+				</value>
+			</li>
+			
+			<!-- ========== PAWNKINDS ========== -->
+			
+			<!-- Add backpacks to selected Grimalkin pawnkinds -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[
+					@Name="Grimalkin_InfantryBasicPawnKind" or
+					@Name="Grimalkin_InfantryElitePawnKind"
+				]/apparelRequired</xpath>
+				<value>
+					<li>CE_Apparel_Backpack</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[
+					@Name="Grimalkin_InfantryBasicPawnKind" or
+					@Name="Grimalkin_InfantryElitePawnKind"
+				]/specificApparelRequirements</xpath>
+				<value>
+					<li>
+						<bodyPartGroup>Shoulders</bodyPartGroup>
+						<apparelLayer>Backpack</apparelLayer>
+						<apparelDef>CE_Apparel_Backpack</apparelDef>
+						<stuff>Cloth</stuff>
+						<color>(107, 91, 46)</color>
+					</li>
+				</value>
+			</li>
+			
+			<!-- Give Grimalkin pawnkinds ammo -->
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[
+					defName="GrimalkinInfantryRifle" or
+					defName="GrimalkinInfantryMG" or
+					defName="GrimalkinCrewman" or
+					@Name="Grimalkin_OfficerPawnKind"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>4~5</primaryMagazineCount>
+						<forcedAmmoCategory>FullMetalJacket</forcedAmmoCategory>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="GrimalkinInfantrySniper"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>8~10</primaryMagazineCount>
+						<forcedAmmoCategory>ArmorPiercing</forcedAmmoCategory>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[
+					defName="GrimalkinInfantryGrenadier" or
+					defName="GrimalkinStormtrooperHeavy"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>4~5</primaryMagazineCount>
+						<forcedAmmoCategory>GrenadeHE</forcedAmmoCategory>
+						<weightedAmmoCategories>
+							<!-- heavy weapons stormtroopers armed with RPGs always use HEAT ammo -->
+							<RocketHEAT>999999</RocketHEAT>
+						</weightedAmmoCategories>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[defName="GrimalkinStormtrooperAssault"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>4~5</primaryMagazineCount>
+						<forcedAmmoCategory>ArmorPiercing</forcedAmmoCategory>
+						<weightedAmmoCategories>
+							<!-- assault stormtroopers armed with shotguns always use buckshot ammo -->
+							<BuckShot>999999</BuckShot>
+						</weightedAmmoCategories>
+					</li>
+				</value>
+			</li>
+			
+			<!-- ========== APPAREL ========== -->
+
+			<!-- Patch apparel bulk and stats -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+						defName="Grimalkin_UniformInfantry" or 
+						defName="Grimalkin_UniformVehicle" or
+						defName="Grimalkin_UniformStormtrooper"
+					]/statBases</xpath>
+				<value>
+					<Bulk>1.5</Bulk>
+					<WornBulk>1</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Grimalkin_UniformOfficer"]/statBases</xpath>
+				<value>
+					<Bulk>2</Bulk>
+					<WornBulk>1.5</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+						defName="Grimalkin_UniformInfantry" or
+						defName="Grimalkin_UniformStormtrooper" or
+						defName="Grimalkin_UniformOfficer"
+					]/statBases</xpath>
+				<value>
+					<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.25</ArmorRating_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Grimalkin_UniformVehicle"]/statBases</xpath>
+				<value>
+					<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.4</ArmorRating_Heat>
+				</value>
+			</li>
+			
+			<!-- Patch headgear bulk and stats -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Grimalkin_HatOfficerBeret"]/statBases</xpath>
+				<value>
+					<ArmorRating_Blunt>0.045</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.132</ArmorRating_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Grimalkin_HatOfficerCap"]/statBases</xpath>
+				<value>
+					<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.088</ArmorRating_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Grimalkin_HelmetInfantry"]/statBases</xpath>
+				<value>
+					<Bulk>3</Bulk>
+					<WornBulk>1</WornBulk>
+					<ArmorRating_Blunt>6</ArmorRating_Blunt>
+					<ArmorRating_Sharp>4</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Grimalkin_HelmetVehicle"]/statBases</xpath>
+				<value>
+					<Bulk>2</Bulk>
+					<WornBulk>1</WornBulk>
+					<ArmorRating_Blunt>3</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<!-- ========== WEAPONS ========== -->
+			
+			<!-- Yaong-58 Assault Rifle (AK-47) -->
+			
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Grimalkin_RangedWeapon_Rifle</defName>
+				<statBases>
+					<Bulk>8.80</Bulk>
+					<SwayFactor>1.23</SwayFactor>
+					<ShotSpread>0.09</ShotSpread>
+					<SightsEfficiency>1.00</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+					<warmupTime>1.1</warmupTime>
+					<range>44</range>
+					<burstShotCount>6</burstShotCount>
+					<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+					<soundCast>Shot_AssaultRifle</soundCast>
+					<soundCastTail>GunTail_Medium</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<recoilPattern>Regular</recoilPattern>
+					<recoilAmount>1.82</recoilAmount>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>30</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>true</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+					<aimedBurstShotCount>3</aimedBurstShotCount>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+			
+			<!-- Yaong-59 Light Machine Gun (RPK) -->
+			
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Grimalkin_RangedWeapon_Lmg</defName>
+				<statBases>
+					<Bulk>12.40</Bulk>
+					<SwayFactor>1.2</SwayFactor>
+					<ShotSpread>0.06</ShotSpread>
+					<SightsEfficiency>1.00</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+					<warmupTime>1.3</warmupTime>
+					<range>48</range>
+					<burstShotCount>10</burstShotCount>
+					<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+					<soundCast>Shot_Minigun</soundCast>
+					<soundCastTail>GunTail_Medium</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<recoilPattern>Mounted</recoilPattern>
+					<recoilAmount>1.11</recoilAmount>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>75</magazineSize>
+					<reloadTime>4.8</reloadTime>
+					<ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>false</aiUseBurstMode>
+					<aiAimMode>SuppressFire</aiAimMode>
+					<aimedBurstShotCount>5</aimedBurstShotCount>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+			
+			<!-- Yaong-61 Grenade Launcher (RG-6 design, Milkor MGL stats) -->
+			
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Grimalkin_RangedWeapon_GrenadeLauncher</defName>
+				<statBases>
+					<Bulk>5.65</Bulk>
+					<SwayFactor>1.31</SwayFactor>
+					<ShotSpread>0.18</ShotSpread>
+					<SightsEfficiency>1.10</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_40x53mmVOG25Grenade_HE</defaultProjectile>
+					<warmupTime>1</warmupTime>
+					<range>40</range>
+					<burstShotCount>3</burstShotCount>
+					<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+					<soundCast>Grimalkin_GrenadeLauncher_Fire</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<onlyManualCast>false</onlyManualCast>
+					<stopBurstWithoutLos>false</stopBurstWithoutLos>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<recoilPattern>Regular</recoilPattern>
+					<recoilAmount>2.93</recoilAmount>
+					<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+					<ai_IsDoorDestroyer>true</ai_IsDoorDestroyer>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>6</magazineSize>
+					<reloadTime>5.1</reloadTime>
+					<ammoSet>AmmoSet_40x53mmVOG25Grenade</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>true</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+			
+			<!-- Yaong-75 Sniper Rifle (Dragunov sniper rifle / SVD) -->
+			
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Grimalkin_RangedWeapon_Sniper</defName>
+				<statBases>
+					<Bulk>12.25</Bulk>
+					<SwayFactor>1.70</SwayFactor>
+					<ShotSpread>0.04</ShotSpread>
+					<SightsEfficiency>2.24</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.57</RangedWeapon_Cooldown>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_762x54mmR_FMJ</defaultProjectile>
+					<warmupTime>1.3</warmupTime>
+					<range>75</range>
+					<soundCast>Shot_SniperRifle</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<recoilPattern>Mounted</recoilPattern>
+					<recoilAmount>1.84</recoilAmount>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>10</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_762x54mmR</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>false</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+			
+			<!-- Yaong-89 SMG (indigenous design, PP-19 Bizon stats) -->
+			
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Grimalkin_RangedWeapon_Smg</defName>
+				<statBases>
+					<Bulk>4.25</Bulk>
+					<SwayFactor>0.87</SwayFactor>
+					<ShotSpread>0.14</ShotSpread>
+					<SightsEfficiency>1.00</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>20</range>
+					<burstShotCount>6</burstShotCount>
+					<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+					<soundCast>Shot_HeavySMG</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<recoilPattern>Regular</recoilPattern>
+					<recoilAmount>1.35</recoilAmount>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>35</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x18mmMakarov</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>false</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+					<aimedBurstShotCount>3</aimedBurstShotCount>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+			
+			<!-- Yaong-23 Shotgun (KS-23M) -->
+			
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Grimalkin_RangedWeapon_Shotgun</defName>
+				<statBases>
+					<Bulk>10.40</Bulk>
+					<SwayFactor>1.43</SwayFactor>
+					<ShotSpread>0.14</ShotSpread>
+					<SightsEfficiency>1</SightsEfficiency>
+					<RangedWeapon_Cooldown>1.02</RangedWeapon_Cooldown>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_23x75mmR_Buck</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>20</range>
+					<soundCast>Shot_Shotgun</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<recoilPattern>Regular</recoilPattern>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>4</magazineSize>
+					<reloadTime>3.4</reloadTime>
+					<ammoSet>AmmoSet_23x75mmR</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>false</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+			
+			<!-- Yaong-69 RPG (RPG-7) -->
+			
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Grimalkin_RangedWeapon_Rpg</defName>
+				<statBases>
+					<Bulk>10.50</Bulk>
+					<SwayFactor>1.68</SwayFactor>
+					<ShotSpread>0.2</ShotSpread>
+					<SightsEfficiency>1</SightsEfficiency>
+					<RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_RPG7Grenade_HEAT</defaultProjectile>
+					<warmupTime>2.035</warmupTime>
+					<range>40</range>
+					<soundCast>Grimalkin_Rpg_Fire</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<onlyManualCast>false</onlyManualCast>
+					<stopBurstWithoutLos>false</stopBurstWithoutLos>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<muzzleFlashScale>15</muzzleFlashScale>
+					<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+					<ai_IsDoorDestroyer>true</ai_IsDoorDestroyer>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>1</magazineSize>
+					<reloadTime>5.6</reloadTime>
+					<ammoSet>AmmoSet_RPG7Grenade</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>false</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+						
+			<!-- Yaong-66 Service Pistol (Makarov) --> 
+			
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Grimalkin_RangedWeapon_Pistol</defName>
+				<statBases>
+					<Bulk>1.62</Bulk>
+					<SwayFactor>0.78</SwayFactor>
+					<ShotSpread>0.18</ShotSpread>
+					<SightsEfficiency>0.70</SightsEfficiency>
+					<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>12</range>
+					<soundCast>Shot_Autopistol</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<recoilPattern>Regular</recoilPattern>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>8</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x18mmMakarov</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>false</aiUseBurstMode>
+				</FireModes>
+				<!-- use existing weaponTags -->
+			</li>
+			
+			<!-- Firearm melee tools -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+					defName="Grimalkin_RangedWeapon_Rifle" or
+					defName="Grimalkin_RangedWeapon_Lmg" or
+					defName="Grimalkin_RangedWeapon_Sniper" or
+					defName="Grimalkin_RangedWeapon_Smg" or
+					defName="Grimalkin_RangedWeapon_Shotgun"
+				]/tools</xpath>
+				<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>stock</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.55</cooldownTime>
+						<chanceFactor>1.5</chanceFactor>
+						<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>barrel</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>5</power>
+						<cooldownTime>2.02</cooldownTime>
+						<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>muzzle</label>
+						<capacities>
+							<li>Poke</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.55</cooldownTime>
+						<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+					</li>
+				</tools>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Grimalkin_RangedWeapon_GrenadeLauncher"]/tools</xpath>
+				<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>stock</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.55</cooldownTime>
+						<chanceFactor>1.5</chanceFactor>
+						<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>barrel</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>2.44</cooldownTime>
+						<armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+					</li>
+				</tools>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Grimalkin_RangedWeapon_Rpg"]/tools</xpath>
+				<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>barrel</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>2.44</cooldownTime>
+						<armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+					</li>
+				</tools>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Grimalkin_RangedWeapon_Pistol"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>grip</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>2</power>
+							<cooldownTime>1.54</cooldownTime>
+							<chanceFactor>1.5</chanceFactor>
+							<armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>muzzle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>2</power>
+							<cooldownTime>1.54</cooldownTime>
+							<armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<!-- ========== ITEMS ========== -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Grimalkin_MealRations"]/statBases</xpath>
+				<value>
+					<Bulk>1</Bulk>
+				</value>
+			</li>			
+			
+			<!-- ========== TRADERS ========== -->
+			
+			<!-- Grimalkin military detachment visitor group will only buy standard-issue ammo calibers and classes -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Grimalkin_TraderVisitor_MilitaryDetachment"]/stockGenerators</xpath>
+				<value>
+					
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>Ammo_762x39mmSoviet_FMJ</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>Ammo_762x54mmR_AP</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>Ammo_40x53mmVOG25Grenade_HE</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>Ammo_9x18mmMakarov_FMJ</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>Ammo_23x75mmR_Buck</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>Ammo_RPG7Grenade_HEAT</thingDef>
+					</li>
+				
+				</value>
+			</li>
+			
+			<!-- Grimalkin settlement traders will buy/sell ammo calibers of any class (with exceptions) -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Grimalkin_TraderSettlement"]/stockGenerators</xpath>
+				<value>
+					
+					<li Class="StockGenerator_Category">
+						<categoryDef>Ammo762x39mmSoviet</categoryDef>
+						<thingDefCountRange>6~6</thingDefCountRange>
+						<countRange>4000~5000</countRange>
+					</li>
+					
+					<li Class="StockGenerator_Category">
+						<categoryDef>Ammo762x54mmR</categoryDef>
+						<thingDefCountRange>6~6</thingDefCountRange>
+						<countRange>1500~2000</countRange>
+					</li>
+					
+					<li Class="StockGenerator_Category">
+						<categoryDef>Ammo40x53mmVOG25Grenades</categoryDef>
+						<excludedThingDefs>
+							<li>Ammo_40x53mmVOG25Grenade_EMP</li>
+						</excludedThingDefs>
+						<thingDefCountRange>3~3</thingDefCountRange>
+						<countRange>300~500</countRange>
+					</li>
+					
+					<li Class="StockGenerator_Category">
+						<categoryDef>Ammo9x18mmMakarov</categoryDef>
+						<thingDefCountRange>3~3</thingDefCountRange>
+						<countRange>4000~5000</countRange>
+					</li>
+					
+					<li Class="StockGenerator_Category">
+						<categoryDef>Ammo23x75mmR</categoryDef>
+						<excludedThingDefs>
+							<li>Ammo_23x75mmR_Beanbag</li>
+							<li>Ammo_23x75mmR_ElectroSlug</li>
+						</excludedThingDefs>
+						<thingDefCountRange>2~2</thingDefCountRange>
+						<countRange>1000~1500</countRange>
+					</li>
+					
+					<li Class="StockGenerator_Category">
+						<categoryDef>AmmoRPG7Grenades</categoryDef>
+						<thingDefCountRange>3~3</thingDefCountRange>
+						<countRange>100~150</countRange>
+					</li>
+				
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>

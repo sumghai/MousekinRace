@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- No translation required for pawn naming rules -->
+	
+	<NamerPerson_Grimalkin.rulePack.rulesStrings>
+		<li>r_name(p=5)->[grimalkin_firstname] [grimalkin_surname_prefix][grimalkin_surname_suffix]</li>
+	</NamerPerson_Grimalkin.rulePack.rulesStrings>
+	
+</LanguageData>

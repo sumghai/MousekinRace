@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<FactionDef ParentName="FactionBase">
+		<defName>Grimalkin_Faction</defName>
+		<fixedName>Grimalkin Dominion</fixedName>
+		<label>communist feline dictatorship</label>
+		<description>A civilization of Grimalkins governed under a communist military dictatorship, whose ancestors descended from domesticated cats that survived a failed interstellar colony originally founded by a defunct East Asian superpower from Old Earth.\n\nEspousing self-reliance and military might, Grimalkins barely tolerate human societies, and are otherwise hostile to most other non-humans - especially rodentfolk like Mousekins.</description>
+		<pawnSingular>Grimalkin</pawnSingular>
+		<pawnsPlural>Grimalkins</pawnsPlural>
+		<basicMemberKind>GrimalkinInfantryRifle</basicMemberKind>
+		<listOrderPriority>26</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Grand Marshal</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/GrimalkinDominion</factionIconPath>
+		<colorSpectrum>
+			<li>(237, 28, 39)</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>25</configurationListOrderPriority>
+		<fixedLeaderKinds>
+			<li>GrimalkinGrandMarshal</li>
+		</fixedLeaderKinds>
+		<settlementNameMaker>NamerSettlement_Grimalkin</settlementNameMaker>
+		<allowedCultures>
+			<li>Grimalkin_Culture</li>
+		</allowedCultures>
+		<fixedIdeo>true</fixedIdeo>
+		<ideoName>Feline Juche</ideoName>
+		<ideoDescription>"&lt;i&gt;Yaong&lt;/i&gt;, stupid fur mouse lie and steal, make all bad. Cat resolute no forgive stupid fur mouse, kill mouse for make benefit Glorious Grimalkin People Republic, &lt;i&gt;yaong&lt;/i&gt;!"\n\n  - Preamble to the Socialist Constitution of the People's Republic of Grimalkin</ideoDescription>
+		<forcedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		</forcedMemes>
+		<requiredPreceptsOnly>true</requiredPreceptsOnly>
+		<disallowedPrecepts>
+			<!-- Grimalkins don't really venerate any animal in particular (requires Harmony postfix) -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalVenerated</li>
+			<!-- Grimalkins regard mushrooms and fungi as just another food source -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Preferred</li>
+			<!-- Grimalkins don't really do relics - at least, not the RimWorld version of relics -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRelic</li>
+			<!-- Grimalkins don't have noble/despised weapons (requires Harmony postfix) -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
+		</disallowedPrecepts>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Grimalkin_XenotypeGrimalkin MayRequire="Ludeon.Rimworld.Biotech">1</Grimalkin_XenotypeGrimalkin>
+			</xenotypeChances>
+		</xenotypeSet>
+		<permanentEnemyToEveryoneExcept>
+			<li>OutlanderCivil</li>
+			<li>TribeCivil</li>
+			<li>PlayerTribe</li>
+			<li>PlayerColony</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Empire</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Beggars</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">ResearchExpedition</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">GravshipCrew</li>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">TradersGuild</li>
+		</permanentEnemyToEveryoneExcept>
+		<techLevel>Industrial</techLevel>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinSoldier</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<visitorTraderKinds>
+			<li>Grimalkin_TraderVisitor_MilitaryDetachment</li>
+		</visitorTraderKinds>
+		<!-- no trade caravans -->
+		<baseTraderKinds>
+			<li>Grimalkin_TraderSettlement</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(500, 100)</li>
+				<li>(1000, 150)</li>
+				<li>(2000, 250)</li>
+				<li>(2001, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			
+			<!-- ===== Violent ===== -->
+			
+			<!-- Regular infantry squad -->
+			
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<GrimalkinInfantryRifle>3</GrimalkinInfantryRifle>
+					<GrimalkinInfantryMG>1</GrimalkinInfantryMG>
+					<GrimalkinInfantryGrenadier>1</GrimalkinInfantryGrenadier>
+					<GrimalkinInfantrySniper>1</GrimalkinInfantrySniper>
+				</options>
+			</li>
+			
+			<!-- Stormtrooper squad -->
+			
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<GrimalkinStormtrooperAssault>2</GrimalkinStormtrooperAssault>
+					<GrimalkinStormtrooperHeavy>1</GrimalkinStormtrooperHeavy>
+				</options>
+			</li>
+			
+			<!-- Joint task force -->
+			
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<GrimalkinInfantryRifle>3</GrimalkinInfantryRifle>
+					<GrimalkinInfantryMG>1</GrimalkinInfantryMG>
+					<GrimalkinInfantryGrenadier>1</GrimalkinInfantryGrenadier>
+					<GrimalkinInfantrySniper>1</GrimalkinInfantrySniper>
+					<GrimalkinStormtrooperAssault>2</GrimalkinStormtrooperAssault>
+					<GrimalkinStormtrooperHeavy>1</GrimalkinStormtrooperHeavy>
+					<GrimalkinColonel>1</GrimalkinColonel>
+				</options>
+			</li>
+			
+			<!-- ===== Peaceful ===== -->
+			
+			<!-- Regular infantry escorting Colonel -->
+			
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<GrimalkinColonel>1</GrimalkinColonel>
+					<GrimalkinInfantryRifle>2</GrimalkinInfantryRifle>
+					<GrimalkinInfantryMG>1</GrimalkinInfantryMG>
+				</options>
+			</li>
+			
+			<!-- Regular infantry escorting Staff Officer -->
+			
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<GrimalkinStaffOfficer>1</GrimalkinStaffOfficer>
+					<GrimalkinInfantryRifle>2</GrimalkinInfantryRifle>
+					<GrimalkinInfantryMG>1</GrimalkinInfantryMG>
+				</options>
+			</li>
+			
+			<!-- ===== Traders (none) ===== -->
+			
+			<!-- ===== Settlements ===== -->
+			
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<GrimalkinInfantryRifle>7</GrimalkinInfantryRifle>
+					<GrimalkinInfantryMG>2</GrimalkinInfantryMG>
+					<GrimalkinInfantryGrenadier>2</GrimalkinInfantryGrenadier>
+					<GrimalkinInfantrySniper>2</GrimalkinInfantrySniper>
+					<GrimalkinStormtrooperAssault>3</GrimalkinStormtrooperAssault>
+					<GrimalkinStormtrooperHeavy>2</GrimalkinStormtrooperHeavy>
+					<GrimalkinStaffOfficer>4</GrimalkinStaffOfficer>
+					<GrimalkinColonel>1</GrimalkinColonel>
+				</options>
+			</li>
+			
+		</pawnGroupMakers>
+		<modExtensions>
+			<li Class="VEF.Factions.FactionDefExtension">
+				<startingGoodwillByFactionDefs>
+					<Mousekin_PlayerFaction_Settlers>-100~-100</Mousekin_PlayerFaction_Settlers>
+					<Mousekin_PlayerFaction_Refugees>-100~-100</Mousekin_PlayerFaction_Refugees>
+					<Mousekin_FactionKingdom>-100~-100</Mousekin_FactionKingdom>
+					<Mousekin_FactionIndyTown>-100~-100</Mousekin_FactionIndyTown>
+					<Mousekin_FactionNomad>-100~-100</Mousekin_FactionNomad>
+				</startingGoodwillByFactionDefs>
+				<excludeFromQuests>true</excludeFromQuests>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	
+</Defs>

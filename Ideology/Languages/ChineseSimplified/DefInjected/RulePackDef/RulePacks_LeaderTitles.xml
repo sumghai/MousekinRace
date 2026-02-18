@@ -28,5 +28,12 @@
 	<LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
 		<li>r_leaderTitle->老大</li>
 	</LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
+
+	<!-- EN: 
+		<li>r_leaderTitle->Grand Marshal</li>
+	-->
+	<LeaderTitleMaker_Grimalkin.rulePack.rulesStrings>
+		<li>r_leaderTitle->大元帅</li>
+	</LeaderTitleMaker_Grimalkin.rulePack.rulesStrings>
 	
 </LanguageData>

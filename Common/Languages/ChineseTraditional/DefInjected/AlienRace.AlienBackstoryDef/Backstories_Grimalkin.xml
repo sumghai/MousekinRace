@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: factory kitten -->
+	<Grimalkin_Childhood_FactoryChild.title>工廠小貓</Grimalkin_Childhood_FactoryChild.title>
+	
+	<!-- EN: factory kitten -->
+	<Grimalkin_Childhood_FactoryChild.titleShort>工廠小貓</Grimalkin_Childhood_FactoryChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s father worked in one of the Grimalkin Dominion's many munitions factories, making grenades for the brave soldiers of the Grimalkin People's Liberation Army.\n\nAfter [PAWN_possessive] father bought a dummy grenade home to show [PAWN_objective], [PAWN_nameDef] began spending his free hours after school or studying helping out at the factory, where [PAWN_possessive] small paws made [PAWN_objective] very good at assembling and installing grenade fuzes. -->
+	<Grimalkin_Childhood_FactoryChild.description>[PAWN_nameDef]的父親在黑貓族民共和國眾多軍火工廠中的一間工作，為黑貓族民解放軍的英勇士兵製造手榴彈。\n\n自從[PAWN_possessive]的父親將一枚假手榴彈帶回家給[PAWN_objective]看後，[PAWN_nameDef]便開始利用放學或課餘時間到工廠幫忙。那雙靈巧的小爪子讓[PAWN_objective]在組裝與安裝手榴彈引信方面展現出驚人的天賦。</Grimalkin_Childhood_FactoryChild.description>
+	
+	<!-- EN: farm kitten -->
+	<Grimalkin_Childhood_FarmChild.title>農場小貓</Grimalkin_Childhood_FarmChild.title>
+	
+	<!-- EN: farm kitten -->
+	<Grimalkin_Childhood_FarmChild.titleShort>農場小貓</Grimalkin_Childhood_FarmChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up on one of the Grimalkin Dominion's many collective farms in the countryside, where [PAWN_pronoun] attended school by day, and helped [PAWN_possessive] family in the rice paddies in the afternoon.\n\nInspired by army convoys passing the fields daily, [PAWN_pronoun] vowed to join the Grimalkin People's Liberation Army when [PAWN_pronoun] grew up. -->
+	<Grimalkin_Childhood_FarmChild.description>[PAWN_nameDef]成長於黑貓族民共和國眾多鄉村集體農場之一，白天[PAWN_pronoun]上學，午後則協助[PAWN_possessive]家人在稻田勞作。\n\n每日目睹軍用車隊穿越田野的景象，[PAWN_pronoun]立誓待成年後必加入黑貓族民解放軍。</Grimalkin_Childhood_FarmChild.description>
+	
+	<!-- EN: miner's kitten -->
+	<Grimalkin_Childhood_MineChild.title>礦工小貓</Grimalkin_Childhood_MineChild.title>
+	
+	<!-- EN: miner's kitten -->
+	<Grimalkin_Childhood_MineChild.titleShort>礦工小貓</Grimalkin_Childhood_MineChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s parents toiled in one of the Grimalkin Dominion's many mines, extracting coking coal used in the nation's steelworking and munitions manufacturing industries. After school, [PAWN_pronoun] would help grade and sort coal lumps coming off the conveyor. -->
+	<Grimalkin_Childhood_MineChild.description>[PAWN_nameDef]的父母在黑貓族民共和國眾多礦坑中辛勤勞作，開採供國家鋼鐵業與軍火製造業使用的煉焦煤。放學後，[PAWN_pronoun]便會協助分級與分類輸送帶上運來的煤塊。</Grimalkin_Childhood_MineChild.description>
+	
+	<!-- EN: Young Pioneer -->
+	<Grimalkin_Childhood_YoungPioneer.title>少年先鋒</Grimalkin_Childhood_YoungPioneer.title>
+	
+	<!-- EN: Young Pioneer -->
+	<Grimalkin_Childhood_YoungPioneer.titleShort>少年先鋒</Grimalkin_Childhood_YoungPioneer.titleShort>
+	
+	<!-- EN: After giving a well-received speech at school on the principles and values of The Great Feline Revolution, [PAWN_nameDef] was awarded a red scarf, and nominated by [PAWN_possessive] teacher to become a Young Pioneer, leading [PAWN_possessive] classmates by example to dedicate their lives to the glory of the Grimalkin Dominion.\n\n[PAWN_pronoun] took additional political classes after school, and organized community volunteer activities such as collecting scrap metal for the country's military factories. -->
+	<Grimalkin_Childhood_YoungPioneer.description>[PAWN_nameDef]在學校發表關於偉大貓科革命原則與價值觀的演說廣受好評後，獲頒紅領巾，並由[PAWN_possessive]老師提名成為少年先鋒，以身作則帶領[PAWN_possessive]同學們將生命奉獻給黑貓族民共和國的榮耀。\n\n[PAWN_pronoun]放學後參加額外的政治課程，並組織社區志願活動，例如為國家軍工廠收集廢金屬。</Grimalkin_Childhood_YoungPioneer.description>
+	
+	<!-- EN: rifleman -->
+	<Grimalkin_Adulthood_Rifleman.title>步槍兵</Grimalkin_Adulthood_Rifleman.title>
+	
+	<!-- EN: rifleman -->
+	<Grimalkin_Adulthood_Rifleman.titleShort>步槍兵</Grimalkin_Adulthood_Rifleman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] trained as a rifleman in the Grimalkin People's Liberation Army, and was often deployed on military operations to secure the Grimalkin Dominion's borders from trespassing Mousekins. -->
+	<Grimalkin_Adulthood_Rifleman.description>[PAWN_nameDef]受訓成為黑貓族民解放軍的步槍兵，經常被派往軍事行動中，以確保黑貓族民共和國的邊境免受白鼠族入侵。</Grimalkin_Adulthood_Rifleman.description>
+	
+	<!-- EN: machine gunner -->
+	<Grimalkin_Adulthood_MachineGunner.title>機槍兵</Grimalkin_Adulthood_MachineGunner.title>
+	
+	<!-- EN: machine gunner -->
+	<Grimalkin_Adulthood_MachineGunner.titleShort>機槍兵</Grimalkin_Adulthood_MachineGunner.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served in the Grimalkin People's Liberation Army as a squad machine gunner, laying down suppressive fire to help [PAWN_possessive] comrades advance in the field of battle. -->
+	<Grimalkin_Adulthood_MachineGunner.description>[PAWN_nameDef]於黑貓族民解放軍中擔任班機槍兵，以壓制火力掩護戰場上的[PAWN_possessive]戰友推進。</Grimalkin_Adulthood_MachineGunner.description>
+	
+	<!-- EN: grenadier -->
+	<Grimalkin_Adulthood_Grenadier.title>榴彈兵</Grimalkin_Adulthood_Grenadier.title>
+	
+	<!-- EN: grenadier -->
+	<Grimalkin_Adulthood_Grenadier.titleShort>榴彈兵</Grimalkin_Adulthood_Grenadier.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served in the Grimalkin People's Liberation Army as a squad grenadier, flushing out Mousekins hiding behind cover with indirect fire from [PAWN_possessive] grenade launcher. -->
+	<Grimalkin_Adulthood_Grenadier.description>[PAWN_nameDef]於黑貓族民解放軍中擔任班級榴彈兵，運用[PAWN_possessive]榴彈發射器的間接火力，將躲藏在掩體後方的白鼠族士兵逼出藏身處。</Grimalkin_Adulthood_Grenadier.description>
+	
+	<!-- EN: sniper -->
+	<Grimalkin_Adulthood_Sniper.title>狙擊兵</Grimalkin_Adulthood_Sniper.title>
+	
+	<!-- EN: sniper -->
+	<Grimalkin_Adulthood_Sniper.titleShort>狙擊兵</Grimalkin_Adulthood_Sniper.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] trained as a sniper in the Grimalkin People's Liberation Army, operating either alone, paired with another sniper/spotter, or attached to an infantry squad.\n\n[PAWN_pronoun] was skilled enough to shoot the ears off a Mousekin over five hundred meters away. -->
+	<Grimalkin_Adulthood_Sniper.description>[PAWN_nameDef]受訓於黑貓族民解放軍的狙擊兵科，可獨立行動、與另一名狙擊手/觀察員搭檔，或編入步兵小隊執行任務。\n\n[PAWN_pronoun]技術精湛，能在五百公尺外將白鼠族的耳朵射落。</Grimalkin_Adulthood_Sniper.description>
+	
+	<!-- EN: vehicle crewman -->
+	<Grimalkin_Adulthood_Crewman.title>裝甲車乘員</Grimalkin_Adulthood_Crewman.title>
+	
+	<!-- EN: crewman -->
+	<Grimalkin_Adulthood_Crewman.titleShort>裝甲車乘員</Grimalkin_Adulthood_Crewman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] operated various armored vehicles in the Grimalkin People's Liberation Army, ranging from light scout cars to infantry fighting vehicles and main battle tanks.\n\n[PAWN_pronoun] and [PAWN_possessive] fellow crewmen liked to run betting pools to see who can squash the most Mousekin peasants with their vehicles' wheels and tracked treads. -->
+	<Grimalkin_Adulthood_Crewman.description>[PAWN_nameDef]在黑貓族民解放軍中操作過各類裝甲車輛，從輕型偵察車到裝步戰車乃至主戰坦克皆有涉獵。\n\n[PAWN_pronoun]與[PAWN_possessive]戰友們熱衷於組織賭局，打賭誰能用車輪或履帶壓死最多的白鼠族農民。</Grimalkin_Adulthood_Crewman.description>
+	
+	<!-- EN: stormtrooper -->
+	<Grimalkin_Adulthood_Stormtrooper.title>風暴兵</Grimalkin_Adulthood_Stormtrooper.title>
+	
+	<!-- EN: stormtrooper -->
+	<Grimalkin_Adulthood_Stormtrooper.titleShort>風暴兵</Grimalkin_Adulthood_Stormtrooper.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] displayed zealous ferocity during basic training, and was seconded by [PAWN_possessive] drill sergeant to the Stormtrooper Corps.\n\nAfter many months of grueling training, [PAWN_pronoun] was soon leading [PAWN_possessive] fellow stormtroopers and dozens of regular army infantrymen in assaulting trenches and overwhelming enemy defenses, [PAWN_possessive] combat prowess matched only by [PAWN_possessive] insatiable bloodlust for hapless Mousekins. -->
+	<Grimalkin_Adulthood_Stormtrooper.description>[PAWN_nameDef]在基礎訓練中展現出狂熱的兇悍氣焰，隨後被[PAWN_possessive]教官調派至風暴兵團服役。歷經數月嚴苛訓練後，[PAWN_pronoun]旋即率領風暴兵同袍與數十名正規軍步兵，攻陷敵方塹壕並摧毀防禦陣線。其戰鬥英勇程度，唯獨對無辜白鼠族那永不滿足的嗜血慾望能與之匹敵。</Grimalkin_Adulthood_Stormtrooper.description>
+	
+	<!-- EN: staff officer -->
+	<Grimalkin_Adulthood_StaffOfficer.title>參謀軍官</Grimalkin_Adulthood_StaffOfficer.title>
+	
+	<!-- EN: officer -->
+	<Grimalkin_Adulthood_StaffOfficer.titleShort>參謀軍官</Grimalkin_Adulthood_StaffOfficer.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a staff officer in the Grimalkin People's Liberation Army, performing clerical, logistics and other administrative work within the safe confines of Grimalkin Dominion military bases. -->
+	<Grimalkin_Adulthood_StaffOfficer.description>[PAWN_nameDef]曾任職於黑貓族民解放軍的參謀軍官，在黑貓族民共和國軍事基地的安全範圍內，負責文書、後勤及其他行政事務。</Grimalkin_Adulthood_StaffOfficer.description>
+	
+	<!-- EN: colonel -->
+	<Grimalkin_Adulthood_Colonel.title>上校</Grimalkin_Adulthood_Colonel.title>
+	
+	<!-- EN: colonel -->
+	<Grimalkin_Adulthood_Colonel.titleShort>上校</Grimalkin_Adulthood_Colonel.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] began his career in the Grimalkin People's Liberation Army as a lowly rifleman, whose frequent demonstrations of valor in battle and loyalty to the Fatherland earned [PAWN_objective] a much-coveted letter of recommendation to the prestigious Officers' Academy.\n\nAfter graduating as a First Lieutenant and being welcomed back to [PAWN_possessive] old unit as a platoon leader, [PAWN_pronoun] gradually worked [PAWN_possessive] way up the ranks until [PAWN_pronoun] eventually took command of the entire regiment after [PAWN_possessive] mentor and sponsor retired. -->
+	<Grimalkin_Adulthood_Colonel.description>[PAWN_nameDef]以一名卑微的步槍兵身份，在黑貓族民解放軍開啟軍旅生涯。其在戰場屢次展現的英勇氣概與對祖國的忠誠，為[PAWN_objective]贏得夢寐以求的推薦信，得以進入聲名顯赫的軍官學院深造。\n\n以少尉軍銜畢業後，[PAWN_possessive]重返舊部擔任排長，隨後逐步晉升，直至導師暨提攜者退役後，[PAWN_possessive]終接掌整個團的指揮權。</Grimalkin_Adulthood_Colonel.description>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Adulthood_GrandMarshal.title>大元帥</Grimalkin_Adulthood_GrandMarshal.title>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Adulthood_GrandMarshal.titleShort>大元帥</Grimalkin_Adulthood_GrandMarshal.titleShort>
+	
+	<!-- EN: Through many decades of valorous service and demonstrated loyalty to the Fatherland, [PAWN_nameDef] rose through the ranks to be appointed as a general in the Central Military Commission, the supreme authority of the Grimalkin People's Liberation Army and the Grimalkin Dominion as a whole, and was later groomed by the previous Grand Marshal to eventually succeed him. -->
+	<Grimalkin_Adulthood_GrandMarshal.description>憑藉數十載英勇服役與對祖國的忠誠奉獻，[PAWN_nameDef]逐步晉升，獲任命為黑貓族民解放軍乃至整個黑貓族民共和國最高權力機構的中央軍事委員會將軍。其後，他更受前任大元帥提攜培育，終獲指定為繼任者。</Grimalkin_Adulthood_GrandMarshal.description>
+	
+</LanguageData>

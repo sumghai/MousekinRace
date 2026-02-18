@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Grimalkin -->
+	<Grimalkin.label>黑猫族</Grimalkin.label>
+
+	<!-- EN: left lung -->
+	<Grimalkin.corePart.parts.6.customLabel>左肺</Grimalkin.corePart.parts.6.customLabel>
+
+	<!-- EN: right lung -->
+	<Grimalkin.corePart.parts.7.customLabel>右肺</Grimalkin.corePart.parts.7.customLabel>
+
+	<!-- EN: left kidney -->
+	<Grimalkin.corePart.parts.8.customLabel>左肾</Grimalkin.corePart.parts.8.customLabel>
+
+	<!-- EN: right kidney -->
+	<Grimalkin.corePart.parts.9.customLabel>右肾</Grimalkin.corePart.parts.9.customLabel>
+
+	<!-- EN: left eye -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.1.customLabel>左眼</Grimalkin.corePart.parts.11.parts.0.parts.1.customLabel>
+
+	<!-- EN: right eye -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.2.customLabel>右眼</Grimalkin.corePart.parts.11.parts.0.parts.2.customLabel>
+
+	<!-- EN: left ear -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.3.customLabel>左耳</Grimalkin.corePart.parts.11.parts.0.parts.3.customLabel>
+
+	<!-- EN: right ear -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.4.customLabel>右耳</Grimalkin.corePart.parts.11.parts.0.parts.4.customLabel>
+
+	<!-- EN: left shoulder -->
+	<Grimalkin.corePart.parts.12.customLabel>左肩</Grimalkin.corePart.parts.12.customLabel>
+
+	<!-- EN: left clavicle -->
+	<Grimalkin.corePart.parts.12.parts.0.customLabel>左锁骨</Grimalkin.corePart.parts.12.parts.0.customLabel>
+
+	<!-- EN: left arm -->
+	<Grimalkin.corePart.parts.12.parts.1.customLabel>左臂</Grimalkin.corePart.parts.12.parts.1.customLabel>
+
+	<!-- EN: left humerus -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.0.customLabel>左肱骨</Grimalkin.corePart.parts.12.parts.1.parts.0.customLabel>
+
+	<!-- EN: left radius -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.1.customLabel>左桡骨</Grimalkin.corePart.parts.12.parts.1.parts.1.customLabel>
+
+	<!-- EN: left paw -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.customLabel>左掌</Grimalkin.corePart.parts.12.parts.1.parts.2.customLabel>
+
+	<!-- EN: left pinky -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>左小指</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: left ring finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>左无名指</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>左中指</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: left index finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>左食指</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: left thumb -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>左拇指</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: right shoulder -->
+	<Grimalkin.corePart.parts.13.customLabel>右肩</Grimalkin.corePart.parts.13.customLabel>
+
+	<!-- EN: right clavicle -->
+	<Grimalkin.corePart.parts.13.parts.0.customLabel>右锁骨</Grimalkin.corePart.parts.13.parts.0.customLabel>
+
+	<!-- EN: right arm -->
+	<Grimalkin.corePart.parts.13.parts.1.customLabel>右臂</Grimalkin.corePart.parts.13.parts.1.customLabel>
+
+	<!-- EN: right humerus -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.0.customLabel>右肱骨</Grimalkin.corePart.parts.13.parts.1.parts.0.customLabel>
+
+	<!-- EN: right radius -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.1.customLabel>右桡骨</Grimalkin.corePart.parts.13.parts.1.parts.1.customLabel>
+
+	<!-- EN: right paw -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.customLabel>右掌</Grimalkin.corePart.parts.13.parts.1.parts.2.customLabel>
+
+	<!-- EN: right pinky -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>右小指</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: right ring finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>右无名指</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>右中指</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: right index finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>右食指</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: right thumb -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>右拇指</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: tail -->
+	<Grimalkin.corePart.parts.15.customLabel>尾巴</Grimalkin.corePart.parts.15.customLabel>
+
+	<!-- EN: left leg -->
+	<Grimalkin.corePart.parts.16.customLabel>左腿</Grimalkin.corePart.parts.16.customLabel>
+
+	<!-- EN: left femur -->
+	<Grimalkin.corePart.parts.16.parts.0.customLabel>左股骨</Grimalkin.corePart.parts.16.parts.0.customLabel>
+
+	<!-- EN: left tibia -->
+	<Grimalkin.corePart.parts.16.parts.1.customLabel>左胫骨</Grimalkin.corePart.parts.16.parts.1.customLabel>
+
+	<!-- EN: left hind paw -->
+	<Grimalkin.corePart.parts.16.parts.2.customLabel>左脚</Grimalkin.corePart.parts.16.parts.2.customLabel>
+
+	<!-- EN: left little toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.0.customLabel>左小趾</Grimalkin.corePart.parts.16.parts.2.parts.0.customLabel>
+
+	<!-- EN: left fourth toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.1.customLabel>左四趾</Grimalkin.corePart.parts.16.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.2.customLabel>左中趾</Grimalkin.corePart.parts.16.parts.2.parts.2.customLabel>
+
+	<!-- EN: left second toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.3.customLabel>左二趾</Grimalkin.corePart.parts.16.parts.2.parts.3.customLabel>
+
+	<!-- EN: left big toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.4.customLabel>左拇趾</Grimalkin.corePart.parts.16.parts.2.parts.4.customLabel>
+
+	<!-- EN: right leg -->
+	<Grimalkin.corePart.parts.17.customLabel>右腿</Grimalkin.corePart.parts.17.customLabel>
+
+	<!-- EN: right femur -->
+	<Grimalkin.corePart.parts.17.parts.0.customLabel>右股骨</Grimalkin.corePart.parts.17.parts.0.customLabel>
+
+	<!-- EN: right tibia -->
+	<Grimalkin.corePart.parts.17.parts.1.customLabel>右胫骨</Grimalkin.corePart.parts.17.parts.1.customLabel>
+
+	<!-- EN: right hind paw -->
+	<Grimalkin.corePart.parts.17.parts.2.customLabel>右脚</Grimalkin.corePart.parts.17.parts.2.customLabel>
+
+	<!-- EN: right little toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.0.customLabel>右小趾</Grimalkin.corePart.parts.17.parts.2.parts.0.customLabel>
+
+	<!-- EN: right fourth toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.1.customLabel>右四趾</Grimalkin.corePart.parts.17.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.2.customLabel>右中趾</Grimalkin.corePart.parts.17.parts.2.parts.2.customLabel>
+
+	<!-- EN: right second toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.3.customLabel>右二趾</Grimalkin.corePart.parts.17.parts.2.parts.3.customLabel>
+
+	<!-- EN: right big toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.4.customLabel>右拇趾</Grimalkin.corePart.parts.17.parts.2.parts.4.customLabel>
+	
+</LanguageData>

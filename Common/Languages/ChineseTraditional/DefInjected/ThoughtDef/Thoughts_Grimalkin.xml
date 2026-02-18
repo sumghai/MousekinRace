@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: away from the Fatherland -->
+	<Grimalkin_Thought_0Baseline.stages.0.label>遠離祖國</Grimalkin_Thought_0Baseline.stages.0.label>
+	
+	<!-- EN: Must strong, return and make benefit for glorious Grimalkin People Republic. -->
+	<Grimalkin_Thought_0Baseline.stages.0.description>必須堅強，回歸為光榮黑貓族民共和國創造利益。</Grimalkin_Thought_0Baseline.stages.0.description>
+	
+	<!-- EN: patriotic fervor -->
+	<Grimalkin_Thought_0Baseline.stages.1.label>愛國熱情</Grimalkin_Thought_0Baseline.stages.1.label>
+	
+	<!-- EN: Yaong！ Serve and make benefit for glorious Grimalkin People Republic！ -->
+	<Grimalkin_Thought_0Baseline.stages.1.description>喵！為光榮黑貓族民共和國效力創造利益！</Grimalkin_Thought_0Baseline.stages.1.description>
+	
+	<!-- EN: ate corpse -->
+	<Grimalkin_Thought_AteCorpse.stages.0.label>吃了屍體</Grimalkin_Thought_AteCorpse.stages.0.label>
+	
+	<!-- EN: Bad eat！ -->
+	<Grimalkin_Thought_AteCorpse.stages.0.description>難吃！</Grimalkin_Thought_AteCorpse.stages.0.description>
+	
+	<!-- EN: cooked cannibalism -->
+	<Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.label>吃了烹調過的黑貓族肉</Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.label>
+	
+	<!-- EN: Yaong！ Eat another cat！ Bad bad！ -->
+	<Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.description>喵！吃別貓！壞壞！</Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.description>
+	
+	<!-- EN: raw cannibalism -->
+	<Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.label>吃了生的黑貓族肉</Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.label>
+	
+	<!-- EN: Yaong！ Eat another cat！ Bad bad！ -->
+	<Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.description>喵！吃別貓！壞壞！</Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.description>
+	
+	<!-- EN: ate kibble -->
+	<Grimalkin_Thought_AteKibble.stages.0.label>吃了飼料</Grimalkin_Thought_AteKibble.stages.0.label>
+	
+	<!-- EN: Bad eat！ -->
+	<Grimalkin_Thought_AteKibble.stages.0.description>難吃！</Grimalkin_Thought_AteKibble.stages.0.description>
+	
+	<!-- EN: ate cooked Mousekin meat -->
+	<Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.label>吃了烹調過的白鼠族肉</Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.label>
+	
+	<!-- EN: Mouse meat cook taste juice and good！ Happy happy！ -->
+	<Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.description>鼠肉煮多汁好！開心開心！</Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.description>
+	
+	<!-- EN: ate raw Mousekin meat -->
+	<Grimalkin_Thought_AteMousekinMeatDirect.stages.0.label>吃了生的白鼠族肉</Grimalkin_Thought_AteMousekinMeatDirect.stages.0.label>
+	
+	<!-- EN: Mouse meat no cook taste juice！ Happy！ -->
+	<Grimalkin_Thought_AteMousekinMeatDirect.stages.0.description>鼠肉不煮有汁！開心！</Grimalkin_Thought_AteMousekinMeatDirect.stages.0.description>
+	
+	<!-- EN: ate raw food -->
+	<Grimalkin_Thought_AteRawFood.stages.0.label>吃了生食</Grimalkin_Thought_AteRawFood.stages.0.label>
+	
+	<!-- EN: Yaong, food no cook, bad eat！ -->
+	<Grimalkin_Thought_AteRawFood.stages.0.description>喵！食物不煮，難吃！</Grimalkin_Thought_AteRawFood.stages.0.description>
+	
+	<!-- EN: ate rotten food -->
+	<Grimalkin_Thought_AteRottenFood.stages.0.label>吃了腐爛的食物</Grimalkin_Thought_AteRottenFood.stages.0.label>
+	
+	<!-- EN: Yaong, food rot, bad eat! -->
+	<Grimalkin_Thought_AteRottenFood.stages.0.description>喵！食物腐爛，難吃！</Grimalkin_Thought_AteRottenFood.stages.0.description>
+	
+	<!-- EN: ate without table -->
+	<Grimalkin_Thought_AteWithoutTable.stages.0.label>在地上用餐</Grimalkin_Thought_AteWithoutTable.stages.0.label>
+	
+	<!-- EN: Eat, but no table. Bad! -->
+	<Grimalkin_Thought_AteWithoutTable.stages.0.description>吃，沒桌。壞！</Grimalkin_Thought_AteWithoutTable.stages.0.description>
+	
+	<!-- EN: I butchered another Grimalkin -->
+	<Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.label>屠宰黑貓族</Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.label>
+	
+	<!-- EN: Yaong, chop another cat! Bad! -->
+	<Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.description>喵！切別貓！壞！</Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.description>
+	
+	<!-- EN: I butchered a Mousekin -->
+	<Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.label>屠宰白鼠族</Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.label>
+	
+	<!-- EN: Chop chop, make mouse meat! -->
+	<Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.description>切，切，做鼠肉！</Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: colonist left unburied -->
+	<Grimalkin_Thought_ColonistLeftUnburied.stages.0.label>殖民者未埋葬</Grimalkin_Thought_ColonistLeftUnburied.stages.0.label>
+	
+	<!-- EN: Dead lie outside bad! Bury, give honor! -->
+	<Grimalkin_Thought_ColonistLeftUnburied.stages.0.description>死躺外面壞！葬，給榮耀！</Grimalkin_Thought_ColonistLeftUnburied.stages.0.description>
+	
+	<!-- EN: defeated hostile leader {0} -->
+	<Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.label>擊敗敵對派系領袖{0}</Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.label>
+	
+	<!-- EN: Kill enemy leader, make benefit for glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.description>殺敵領袖，為光榮黑貓族民共和國立功！</Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.description>
+	
+	<!-- EN: chilly -->
+	<Grimalkin_Thought_EnvironmentCold.stages.0.label>涼意</Grimalkin_Thought_EnvironmentCold.stages.0.label>
+	
+	<!-- EN: Cold. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.0.description>冷。</Grimalkin_Thought_EnvironmentCold.stages.0.description>
+	
+	<!-- EN: cold -->
+	<Grimalkin_Thought_EnvironmentCold.stages.1.label>寒冷</Grimalkin_Thought_EnvironmentCold.stages.1.label>
+	
+	<!-- EN: Cold, no feel good. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.1.description>冷，不感好。</Grimalkin_Thought_EnvironmentCold.stages.1.description>
+	
+	<!-- EN: numbing cold -->
+	<Grimalkin_Thought_EnvironmentCold.stages.2.label>凍僵</Grimalkin_Thought_EnvironmentCold.stages.2.label>
+	
+	<!-- EN: Cold, bad bad. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.2.description>冷，壞壞。</Grimalkin_Thought_EnvironmentCold.stages.2.description>
+	
+	<!-- EN: absolutely freezing -->
+	<Grimalkin_Thought_EnvironmentCold.stages.3.label>人體冰棒</Grimalkin_Thought_EnvironmentCold.stages.3.label>
+	
+	<!-- EN: Yaong! Cold cold, bad bad bad! -->
+	<Grimalkin_Thought_EnvironmentCold.stages.3.description>喵！冷冷，壞壞壞！</Grimalkin_Thought_EnvironmentCold.stages.3.description>
+	
+	<!-- EN: sweaty -->
+	<Grimalkin_Thought_EnvironmentHot.stages.0.label>汗如雨下</Grimalkin_Thought_EnvironmentHot.stages.0.label>
+	
+	<!-- EN: Hot. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.0.description>熱。</Grimalkin_Thought_EnvironmentHot.stages.0.description>
+	
+	<!-- EN: hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.1.label>炎熱</Grimalkin_Thought_EnvironmentHot.stages.1.label>
+	
+	<!-- EN: Hot, no feel good. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.1.description>熱，不感好。</Grimalkin_Thought_EnvironmentHot.stages.1.description>
+	
+	<!-- EN: sweltering hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.2.label>夏日炎炎</Grimalkin_Thought_EnvironmentHot.stages.2.label>
+	
+	<!-- EN: Hot, bad bad. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.2.description>熱，壞壞。</Grimalkin_Thought_EnvironmentHot.stages.2.description>
+	
+	<!-- EN: blistering hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.3.label>烈日炎炎</Grimalkin_Thought_EnvironmentHot.stages.3.label>
+	
+	<!-- EN: Yaong! Hot hot, bad bad bad! -->
+	<Grimalkin_Thought_EnvironmentHot.stages.3.description>喵！熱熱，壞壞壞！</Grimalkin_Thought_EnvironmentHot.stages.3.description>
+	
+	<!-- EN: freed from slavery -->
+	<Grimalkin_Thought_FreedFromSlavery.stages.0.label>擺脫奴役</Grimalkin_Thought_FreedFromSlavery.stages.0.label>
+	
+	<!-- EN: Freedom! Good! -->
+	<Grimalkin_Thought_FreedFromSlavery.stages.0.description>自由！好！</Grimalkin_Thought_FreedFromSlavery.stages.0.description>
+	
+	<!-- EN: got married to {0} -->
+	<Grimalkin_Thought_GotMarried.stages.0.label>與{0}結婚</Grimalkin_Thought_GotMarried.stages.0.label>
+	
+	<!-- EN: Marry, make family, benefit glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_GotMarried.stages.0.description>結婚，做家庭，為光榮黑貓族民共和國立功！</Grimalkin_Thought_GotMarried.stages.0.description>
+	
+	<!-- EN: killed a Mousekin -->
+	<Grimalkin_Thought_KilledMousekin.stages.0.label>殺了白鼠族</Grimalkin_Thought_KilledMousekin.stages.0.label>
+	
+	<!-- EN: Yaong! Kill mouse, make benefit for glorious Grimalkin People Republic! Happy happy! -->
+	<Grimalkin_Thought_KilledMousekin.stages.0.description>喵！殺笨白鼠，為光榮黑貓族民共和國立功！開心開心！</Grimalkin_Thought_KilledMousekin.stages.0.description>
+	
+	<!-- EN: we butchered another Grimalkin -->
+	<Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.label>我們屠宰黑貓族</Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.label>
+	
+	<!-- EN: Yaong, cat chop another cat! Bad! -->
+	<Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.description>喵！貓切別貓！壞！</Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.description>
+	
+	<!-- EN: we butchered a Mousekin -->
+	<Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.label>我們屠宰白鼠族</Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.label>
+	
+	<!-- EN: Next time me want chop mouse! -->
+	<Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.description>下次我要切鼠！</Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: colonist died -->
+	<Grimalkin_Thought_KnowColonistDied.stages.0.label>殖民者死亡</Grimalkin_Thought_KnowColonistDied.stages.0.label>
+	
+	<!-- EN: Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_KnowColonistDied.stages.0.description>為光榮黑貓族民共和國效力，現在永息。敬禮。</Grimalkin_Thought_KnowColonistDied.stages.0.description>
+	
+	<!-- EN: colonist's organ harvested -->
+	<Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.label>居民的器官被摘除</Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.label>
+	
+	<!-- EN: Cat chop and take part from another cat, bad! -->
+	<Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.description>貓切別貓，拿走別貓部分，壞！</Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.description>
+	
+	<!-- EN: my organ harvested -->
+	<Grimalkin_Thought_MyOrganHarvested.stages.0.label>器官被摘除了</Grimalkin_Thought_MyOrganHarvested.stages.0.label>
+	
+	<!-- EN: Yaong! You no take my part! Bad bad! -->
+	<Grimalkin_Thought_MyOrganHarvested.stages.0.description>喵！你不拿走我部分！壞壞！</Grimalkin_Thought_MyOrganHarvested.stages.0.description>
+	
+	<!-- EN: hungry -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>餓</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Hunger. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>餓。</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: ravenously hungry -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>非常餓</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Hunger, no feel good. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>餓，不感好。</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: malnourished -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>營養不良</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Much hunger, feel weak. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>多餓，感弱。</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: badly malnourished -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>嚴重營養不良</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Many hunger, belly hurt. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>很多餓，肚子痛。</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: starving -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>飢餓</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Big hunger, want food now. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>大餓，要食物現在。</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: advanced starvation -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>非常飢餓</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Great hunger, want food now now. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>很大餓，要食物現在現在。</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: extreme starvation -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>超級飢餓</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Food...food...hunger...yaong! -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>食物...食物...餓...喵！</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: drowsy -->
+	<Grimalkin_Thought_NeedRest.stages.0.label>昏昏欲睡</Grimalkin_Thought_NeedRest.stages.0.label>
+	
+	<!-- EN: Little tired. -->
+	<Grimalkin_Thought_NeedRest.stages.0.description>小累。</Grimalkin_Thought_NeedRest.stages.0.description>
+	
+	<!-- EN: tired -->
+	<Grimalkin_Thought_NeedRest.stages.1.label>疲憊不堪</Grimalkin_Thought_NeedRest.stages.1.label>
+	
+	<!-- EN: Big tired. Want sleep. -->
+	<Grimalkin_Thought_NeedRest.stages.1.description>大累。要睡。</Grimalkin_Thought_NeedRest.stages.1.description>
+	
+	<!-- EN: exhausted -->
+	<Grimalkin_Thought_NeedRest.stages.2.label>精疲力盡</Grimalkin_Thought_NeedRest.stages.2.label>
+	
+	<!-- EN: Yaong, need sleep now now. -->
+	<Grimalkin_Thought_NeedRest.stages.2.description>喵，要睡現在現在。</Grimalkin_Thought_NeedRest.stages.2.description>
+	
+	<!-- EN: minor pain -->
+	<Grimalkin_Thought_Pain.stages.0.label>小痛</Grimalkin_Thought_Pain.stages.0.label>
+	
+	<!-- EN: Pain. Feel bad. -->
+	<Grimalkin_Thought_Pain.stages.0.description>痛。感壞。</Grimalkin_Thought_Pain.stages.0.description>
+	
+	<!-- EN: serious pain -->
+	<Grimalkin_Thought_Pain.stages.1.label>疼痛</Grimalkin_Thought_Pain.stages.1.label>
+	
+	<!-- EN: Big pain. Bad! -->
+	<Grimalkin_Thought_Pain.stages.1.description>大痛。壞！</Grimalkin_Thought_Pain.stages.1.description>
+	
+	<!-- EN: intense pain -->
+	<Grimalkin_Thought_Pain.stages.2.label>痛不欲生</Grimalkin_Thought_Pain.stages.2.label>
+	
+	<!-- EN: Pain! Pain! Pain! -->
+	<Grimalkin_Thought_Pain.stages.2.description>痛！痛！痛！</Grimalkin_Thought_Pain.stages.2.description>
+	
+	<!-- EN: mind-shattering pain -->
+	<Grimalkin_Thought_Pain.stages.3.label>極痛入骨</Grimalkin_Thought_Pain.stages.3.label>
+	
+	<!-- EN: YAAAAONNNNG! YAAAAONNNNG! -->
+	<Grimalkin_Thought_Pain.stages.3.description>喵！喵！</Grimalkin_Thought_Pain.stages.3.description>
+	
+	<!-- EN: my rival {0} died -->
+	<Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.label>我的死對頭{0}死了</Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.label>
+	
+	<!-- EN: No like {0}. Deserve, good good! -->
+	<Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.description>不喜歡{1}。活該，好好！</Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.description>
+	
+	<!-- EN: my rival {0} lost -->
+	<Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.label>仇人{0}失蹤了</Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.label>
+	
+	<!-- EN: No like {0}. Deserve, good good! -->
+	<Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.description>不喜歡{1}。活該，好好！</Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.description>
+	
+	<!-- EN: my friend {0} died -->
+	<Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.label>我的朋友{0}去世了</Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.label>
+	
+	<!-- EN: Like friend {0}. Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.description>喜歡朋友{1}。為光榮黑貓族民共和國效力，現在永息。敬禮。</Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.description>
+	
+	<!-- EN: saw a Pudgemouse -->
+	<Grimalkin_Thought_SawNearbyPudgemouse.stages.0.label>看到一隻胖胖鼠</Grimalkin_Thought_SawNearbyPudgemouse.stages.0.label>
+	
+	<!-- EN: Grrr, hate little fur mouse. Want kill and make skewer, good taste. -->
+	<Grimalkin_Thought_SawNearbyPudgemouse.stages.0.description>哼，恨小毛鼠。要殺做肉串，好吃。</Grimalkin_Thought_SawNearbyPudgemouse.stages.0.description>
+	
+	<!-- EN: sick -->
+	<Grimalkin_Thought_Sick.stages.0.label>生病</Grimalkin_Thought_Sick.stages.0.label>
+	
+	<!-- EN: Feel bad. -->
+	<Grimalkin_Thought_Sick.stages.0.description>感壞。</Grimalkin_Thought_Sick.stages.0.description>
+	
+	<!-- EN: slept in the cold -->
+	<Grimalkin_Thought_SleptInCold.stages.0.label>睡在寒冷的地方</Grimalkin_Thought_SleptInCold.stages.0.label>
+	
+	<!-- EN: Cold, bad. Need heat. -->
+	<Grimalkin_Thought_SleptInCold.stages.0.description>冷，壞。要熱。</Grimalkin_Thought_SleptInCold.stages.0.description>
+	
+	<!-- EN: slept in the heat -->
+	<Grimalkin_Thought_SleptInHeat.stages.0.label>睡在炎熱的地方</Grimalkin_Thought_SleptInHeat.stages.0.label>
+	
+	<!-- EN: Hot, bad. Need cool. -->
+	<Grimalkin_Thought_SleptInHeat.stages.0.description>熱，壞。要冷。</Grimalkin_Thought_SleptInHeat.stages.0.description>
+	
+	<!-- EN: slept on ground -->
+	<Grimalkin_Thought_SleptOnGround.stages.0.label>睡在地上</Grimalkin_Thought_SleptOnGround.stages.0.label>
+	
+	<!-- EN: Feel bad. No want be stupid dirty fur mouse. -->
+	<Grimalkin_Thought_SleptOnGround.stages.0.description>感壞。不要當笨髒毛鼠。</Grimalkin_Thought_SleptOnGround.stages.0.description>
+	
+	<!-- EN: slept outside -->
+	<Grimalkin_Thought_SleptOutside.stages.0.label>睡在外面</Grimalkin_Thought_SleptOutside.stages.0.label>
+	
+	<!-- EN: Feel bad. Want tent, want barrack. -->
+	<Grimalkin_Thought_SleptOutside.stages.0.description>感壞。要帳篷，要營房。</Grimalkin_Thought_SleptOutside.stages.0.description>
+	
+	<!-- EN: soaking wet -->
+	<Grimalkin_Thought_SoakingWet.stages.0.label>溼透</Grimalkin_Thought_SoakingWet.stages.0.label>
+	
+	<!-- EN: Yaong, fur wet! Bad bad! -->
+	<Grimalkin_Thought_SoakingWet.stages.0.description>喵，毛溼！壞壞！</Grimalkin_Thought_SoakingWet.stages.0.description>
+	
+	<!-- EN: was imprisoned -->
+	<Grimalkin_Thought_WasImprisoned.stages.0.label>被囚禁</Grimalkin_Thought_WasImprisoned.stages.0.label>
+	
+	<!-- EN: Other hold me in cage. Angry! -->
+	<Grimalkin_Thought_WasImprisoned.stages.0.description>別貓放我籠子。生氣！</Grimalkin_Thought_WasImprisoned.stages.0.description>
+	
+	<!-- EN: wearing Grimalkin fur apparel -->
+	<Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.label>穿著黑貓族毛皮服裝</Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.label>
+	
+	<!-- EN: Yaong! Wear another cat skin! Bad! -->
+	<Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.description>喵！穿別貓毛！壞！</Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.description>
+	
+	<!-- EN: wearing Mousekin fur apparel -->
+	<Grimalkin_Thought_WearingMousekinFurApparel.stages.0.label>穿著白鼠族毛皮服裝</Grimalkin_Thought_WearingMousekinFurApparel.stages.0.label>
+	
+	<!-- EN: Mouse stupid, but fur feel good! -->
+	<Grimalkin_Thought_WearingMousekinFurApparel.stages.0.description>鼠笨，但毛感覺好！</Grimalkin_Thought_WearingMousekinFurApparel.stages.0.description>
+	
+	<!-- EN: witnessed ally's death -->
+	<Grimalkin_Thought_WitnessedDeathAlly.stages.0.label>目睹同伴死亡</Grimalkin_Thought_WitnessedDeathAlly.stages.0.label>
+	
+	<!-- EN: Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_WitnessedDeathAlly.stages.0.description>為光榮黑貓族民共和國效力，現在永息。敬禮。</Grimalkin_Thought_WitnessedDeathAlly.stages.0.description>
+	
+</LanguageData>

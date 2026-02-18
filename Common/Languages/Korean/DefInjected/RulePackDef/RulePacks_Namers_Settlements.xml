@@ -50,4 +50,19 @@
 		<li>r_name->[Settlement_Name] 무료[Settlement_Type]</li>
 	</NamerSettlement_MousekinIndyTown.rulePack.rulesStrings>
 	
+	<!-- EN:
+		<li>r_name(p=6)->Observation Post [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=4)->Forward Operating Base [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->Fire Support Base [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->Logistics Base [Letter]-[Digit][Digit]</li>
+		<li>r_name->Main Operating Base [Letter]-[Digit][Digit]</li>
+	-->
+	<NamerSettlement_Grimalkin.rulePack.rulesStrings>
+		<li>r_name(p=6)->관측소[Letter]-[Digit][Digit]</li>
+		<li>r_name(p=4)->전방작전기지[Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->화력지원기지[Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->물류기지[Letter]-[Digit][Digit]</li>
+		<li>r_name->주요운영기지[Letter]-[Digit][Digit]</li>
+	</NamerSettlement_Grimalkin.rulePack.rulesStrings>
+	
 </LanguageData>

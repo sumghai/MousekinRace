@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Yaong-58 Assault Rifle -->
+	<Grimalkin_RangedWeapon_Rifle.label>Fuzil de assalto Yaong-58</Grimalkin_RangedWeapon_Rifle.label>
+	
+	<!-- EN: A robust, durable assault rifle manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet AK-47 design, and the standard-issue weapon of Grimalkin riflemen. -->	
+	<Grimalkin_RangedWeapon_Rifle.description>Um fuzil de assalto robusto e durável fabricado pela República Popular de Grimalkin como uma reprodução do design do AK-47 soviético da Velha Terra, e a arma padrão dos atiradores de Grimalkin.</Grimalkin_RangedWeapon_Rifle.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Rifle.tools.0.label>coronha</Grimalkin_RangedWeapon_Rifle.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Rifle.tools.1.label>cano</Grimalkin_RangedWeapon_Rifle.tools.1.label>
+	
+	<!-- EN: Yaong-59 Light Machine Gun -->
+	<Grimalkin_RangedWeapon_Lmg.label>Metralhadora leve Yaong-59</Grimalkin_RangedWeapon_Lmg.label>
+	
+	<!-- EN: A light machine gun based on the Grimalkin Yaong-58 Assault Rifle, with a strengthened receiver and drum magazine allowing Grimalkin machine gunners to effectively suppress enemy formations. -->
+	<Grimalkin_RangedWeapon_Lmg.description>Uma metralhadora leve baseada no fuzil de assalto Yaong-58 Grimalkin, com um receptor reforçado e um carregador de tambor que permite aos artilheiros Grimalkin suprimir eficazmente as formações inimigas.</Grimalkin_RangedWeapon_Lmg.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Lmg.tools.0.label>coronha</Grimalkin_RangedWeapon_Lmg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Lmg.tools.1.label>cano</Grimalkin_RangedWeapon_Lmg.tools.1.label>
+	
+	<!-- EN: Yaong-61 Grenade Launcher -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.label>Lançador de granadas Yaong-61</Grimalkin_RangedWeapon_GrenadeLauncher.label>
+	
+	<!-- EN: A six-shot, revolver-type grenade launcher with a retractable stock for compact storage, used by Grimalkin grenadiers to break up enemy formations or destroy light walls and barricades. -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.description>Um lançador de granadas tipo revólver de seis tiros com coronha retrátil para armazenamento compacto, usado pelos granadeiros Grimalkin para romper formações inimigas ou destruir paredes leves e barricadas.</Grimalkin_RangedWeapon_GrenadeLauncher.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.tools.0.label>coronha</Grimalkin_RangedWeapon_GrenadeLauncher.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.tools.1.label>cano</Grimalkin_RangedWeapon_GrenadeLauncher.tools.1.label>
+	
+	<!-- EN: Yaong-75 Sniper Rifle -->
+	<Grimalkin_RangedWeapon_Sniper.label>Rifle de precisão Yaong-75</Grimalkin_RangedWeapon_Sniper.label>
+	
+	<!-- EN: A semi-automatic sniper rifle based on the Grimalkin Yaong-58 Assault Rifle and equipped with 4x20 optics, allowing Grimalkin snipers to engage high-value targets at range with impunity. -->
+	<Grimalkin_RangedWeapon_Sniper.description>Um rifle de precisão semiautomático baseado no rifle de assalto Grimalkin Yaong-58 e equipado com óptica 4x20, permitindo que os atiradores Grimalkin enfrentem alvos de alto valor à distância com impunidade.</Grimalkin_RangedWeapon_Sniper.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Sniper.tools.0.label>coronha</Grimalkin_RangedWeapon_Sniper.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Sniper.tools.1.label>cano</Grimalkin_RangedWeapon_Sniper.tools.1.label>
+	
+	<!-- EN: Yaong-89 SMG -->
+	<Grimalkin_RangedWeapon_Smg.label>Submetralhadora Yaong-89</Grimalkin_RangedWeapon_Smg.label>
+	
+	<!-- EN: An indigenous submachine gun manufactured by the Grimalkin Dominion with a folding stock for compact storage, used by elite Grimalkin stormtroopers for trench warfare and raiding parties. -->
+	<Grimalkin_RangedWeapon_Smg.description>Uma submetralhadora fabricada pela República Popular Grimalkin com uma coronha dobrável para armazenamento compacto, usada por soldados de elite Grimalkin para guerra de trincheiras e incursões.</Grimalkin_RangedWeapon_Smg.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Smg.tools.0.label>cabo</Grimalkin_RangedWeapon_Smg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Smg.tools.1.label>cano</Grimalkin_RangedWeapon_Smg.tools.1.label>
+	
+	<!-- EN: Yaong-23 Shotgun -->
+	<Grimalkin_RangedWeapon_Shotgun.label>Espingarda Yaong-23</Grimalkin_RangedWeapon_Shotgun.label>
+	
+	<!-- EN: A large caliber pump-action shotgun used by elite Grimalkin stormtroopers for close-quarters combat. -->
+	<Grimalkin_RangedWeapon_Shotgun.description>Uma espingarda de grande calibre com ação de bombeamento usada por soldados de elite Grimalkin para combate corpo a corpo.</Grimalkin_RangedWeapon_Shotgun.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Smg.tools.0.label>cabo</Grimalkin_RangedWeapon_Smg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Smg.tools.1.label>cano</Grimalkin_RangedWeapon_Smg.tools.1.label>
+	
+	<!-- EN: Yaong-69 RPG -->
+	<Grimalkin_RangedWeapon_Rpg.label>RPG Yaong-69</Grimalkin_RangedWeapon_Rpg.label>
+	
+	<!-- EN: A reusable shoulder-fired weapon, capable of launching a variety of unguided rockets against enemy fortifications and lightly armored vehicles. -->
+	<Grimalkin_RangedWeapon_Rpg.description>Arma reutilizável disparada do ombro, capaz de lançar uma variedade de foguetes não guiados contra fortificações inimigas e veículos blindados leves.</Grimalkin_RangedWeapon_Rpg.description>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Rpg.tools.0.label>cano</Grimalkin_RangedWeapon_Rpg.tools.0.label>
+	
+	<!-- EN: Yaong-66 Service Pistol -->
+	<Grimalkin_RangedWeapon_Pistol.label>Pistola de serviço Yaong-66</Grimalkin_RangedWeapon_Pistol.label>
+	
+	<!-- EN: A compact semi-automatic pistol manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet Makarov design, carried by Grimalkin generals, officers and support staff. -->
+	<Grimalkin_RangedWeapon_Pistol.description>Pistola semiautomática compacta fabricada pela República Popular de Grimalkin como uma reprodução do design soviético Makarov da Velha Terra, usada por generais, oficiais e equipe de apoio de Grimalkin.</Grimalkin_RangedWeapon_Pistol.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Pistol.tools.0.label>cabo</Grimalkin_RangedWeapon_Pistol.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Pistol.tools.1.label>cano</Grimalkin_RangedWeapon_Pistol.tools.1.label>
+	
+</LanguageData>

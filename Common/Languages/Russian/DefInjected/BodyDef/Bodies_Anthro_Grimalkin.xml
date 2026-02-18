@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Grimalkin -->
+	<Grimalkin.label>Грималкин</Grimalkin.label>
+
+	<!-- EN: left lung -->
+	<Grimalkin.corePart.parts.6.customLabel>левое лёгкое</Grimalkin.corePart.parts.6.customLabel>
+
+	<!-- EN: right lung -->
+	<Grimalkin.corePart.parts.7.customLabel>правое лёгкое</Grimalkin.corePart.parts.7.customLabel>
+
+	<!-- EN: left kidney -->
+	<Grimalkin.corePart.parts.8.customLabel>левая почка</Grimalkin.corePart.parts.8.customLabel>
+
+	<!-- EN: right kidney -->
+	<Grimalkin.corePart.parts.9.customLabel>правая почка</Grimalkin.corePart.parts.9.customLabel>
+
+	<!-- EN: left eye -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.1.customLabel>левый глаз</Grimalkin.corePart.parts.11.parts.0.parts.1.customLabel>
+
+	<!-- EN: right eye -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.2.customLabel>правый глаз</Grimalkin.corePart.parts.11.parts.0.parts.2.customLabel>
+
+	<!-- EN: left ear -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.3.customLabel>левое ухо</Grimalkin.corePart.parts.11.parts.0.parts.3.customLabel>
+
+	<!-- EN: right ear -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.4.customLabel>правое ухо</Grimalkin.corePart.parts.11.parts.0.parts.4.customLabel>
+
+	<!-- EN: left shoulder -->
+	<Grimalkin.corePart.parts.12.customLabel>левое плечо</Grimalkin.corePart.parts.12.customLabel>
+
+	<!-- EN: left clavicle -->
+	<Grimalkin.corePart.parts.12.parts.0.customLabel>левая ключица</Grimalkin.corePart.parts.12.parts.0.customLabel>
+
+	<!-- EN: left arm -->
+	<Grimalkin.corePart.parts.12.parts.1.customLabel>левая рука</Grimalkin.corePart.parts.12.parts.1.customLabel>
+
+	<!-- EN: left humerus -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.0.customLabel>левая плечевая кость</Grimalkin.corePart.parts.12.parts.1.parts.0.customLabel>
+
+	<!-- EN: left radius -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.1.customLabel>левая лучевая кость</Grimalkin.corePart.parts.12.parts.1.parts.1.customLabel>
+
+	<!-- EN: left paw -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.customLabel>левая лапа</Grimalkin.corePart.parts.12.parts.1.parts.2.customLabel>
+
+	<!-- EN: left pinky -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>левый мизинец</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: left ring finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>левый безымянный палец</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>левый средний палец</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: left index finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>левый указательный палец</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: left thumb -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>левый большой палец</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: right shoulder -->
+	<Grimalkin.corePart.parts.13.customLabel>правое плечо</Grimalkin.corePart.parts.13.customLabel>
+
+	<!-- EN: right clavicle -->
+	<Grimalkin.corePart.parts.13.parts.0.customLabel>правая ключица</Grimalkin.corePart.parts.13.parts.0.customLabel>
+
+	<!-- EN: right arm -->
+	<Grimalkin.corePart.parts.13.parts.1.customLabel>правая рука</Grimalkin.corePart.parts.13.parts.1.customLabel>
+
+	<!-- EN: right humerus -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.0.customLabel>правая плечевая кость</Grimalkin.corePart.parts.13.parts.1.parts.0.customLabel>
+
+	<!-- EN: right radius -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.1.customLabel>правая лучевая кость</Grimalkin.corePart.parts.13.parts.1.parts.1.customLabel>
+
+	<!-- EN: right paw -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.customLabel>правая лапа</Grimalkin.corePart.parts.13.parts.1.parts.2.customLabel>
+
+	<!-- EN: right pinky -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>правый мизинец</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: right ring finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>правый безымянный палец</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>правый средний палец</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: right index finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>правый указательный палец</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: right thumb -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>правый большой палец</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: tail -->
+	<Grimalkin.corePart.parts.15.customLabel>хвост</Grimalkin.corePart.parts.15.customLabel>
+
+	<!-- EN: left leg -->
+	<Grimalkin.corePart.parts.16.customLabel>левая нога</Grimalkin.corePart.parts.16.customLabel>
+
+	<!-- EN: left femur -->
+	<Grimalkin.corePart.parts.16.parts.0.customLabel>левая бедренная кость</Grimalkin.corePart.parts.16.parts.0.customLabel>
+
+	<!-- EN: left tibia -->
+	<Grimalkin.corePart.parts.16.parts.1.customLabel>левая большеберцовая кость</Grimalkin.corePart.parts.16.parts.1.customLabel>
+
+	<!-- EN: left hind paw -->
+	<Grimalkin.corePart.parts.16.parts.2.customLabel>левая задняя лапа</Grimalkin.corePart.parts.16.parts.2.customLabel>
+
+	<!-- EN: left little toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.0.customLabel>левый мизинец на ноге</Grimalkin.corePart.parts.16.parts.2.parts.0.customLabel>
+
+	<!-- EN: left fourth toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.1.customLabel>левый четвёртый палец на ноге</Grimalkin.corePart.parts.16.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.2.customLabel>левый средний палец на ноге</Grimalkin.corePart.parts.16.parts.2.parts.2.customLabel>
+
+	<!-- EN: left second toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.3.customLabel>левый второй палец на ноге</Grimalkin.corePart.parts.16.parts.2.parts.3.customLabel>
+
+	<!-- EN: left big toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.4.customLabel>левый большой палец на ноге</Grimalkin.corePart.parts.16.parts.2.parts.4.customLabel>
+
+	<!-- EN: right leg -->
+	<Grimalkin.corePart.parts.17.customLabel>правая нога</Grimalkin.corePart.parts.17.customLabel>
+
+	<!-- EN: right femur -->
+	<Grimalkin.corePart.parts.17.parts.0.customLabel>правая бедренная кость</Grimalkin.corePart.parts.17.parts.0.customLabel>
+
+	<!-- EN: right tibia -->
+	<Grimalkin.corePart.parts.17.parts.1.customLabel>правая большеберцовая кость</Grimalkin.corePart.parts.17.parts.1.customLabel>
+
+	<!-- EN: right hind paw -->
+	<Grimalkin.corePart.parts.17.parts.2.customLabel>правая задняя лапа</Grimalkin.corePart.parts.17.parts.2.customLabel>
+
+	<!-- EN: right little toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.0.customLabel>правый мизинец на ноге</Grimalkin.corePart.parts.17.parts.2.parts.0.customLabel>
+
+	<!-- EN: right fourth toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.1.customLabel>правый четвёртый палец на ноге</Grimalkin.corePart.parts.17.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.2.customLabel>правый средний палец на ноге</Grimalkin.corePart.parts.17.parts.2.parts.2.customLabel>
+
+	<!-- EN: right second toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.3.customLabel>правый второй палец на ноге</Grimalkin.corePart.parts.17.parts.2.parts.3.customLabel>
+
+	<!-- EN: right big toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.4.customLabel>правый большой палец на ноге</Grimalkin.corePart.parts.17.parts.2.parts.4.customLabel>
+	
+</LanguageData>

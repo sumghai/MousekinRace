@@ -50,4 +50,19 @@
 		<li>r_name->Independente [Settlement_Type] de [Settlement_Name]</li>
 	</NamerSettlement_MousekinIndyTown.rulePack.rulesStrings>
 	
+	<!-- EN:
+		<li>r_name(p=6)->Observation Post [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=4)->Forward Operating Base [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->Fire Support Base [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->Logistics Base [Letter]-[Digit][Digit]</li>
+		<li>r_name->Main Operating Base [Letter]-[Digit][Digit]</li>
+	-->
+	<NamerSettlement_Grimalkin.rulePack.rulesStrings>
+		<li>r_name(p=6)->Posto de Observação [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=4)->Base Operacional Avançada [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->Base de Apoio de Fogo [Letter]-[Digit][Digit]</li>
+		<li>r_name(p=2)->Base Logística [Letter]-[Digit][Digit]</li>
+		<li>r_name->Base Operacional Principal [Letter]-[Digit][Digit]</li>
+	</NamerSettlement_Grimalkin.rulePack.rulesStrings>
+	
 </LanguageData>

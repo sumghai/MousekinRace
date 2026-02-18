@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<TraderKindDef>
+		<defName>Grimalkin_TraderVisitor_MilitaryDetachment</defName>
+		<label>military detachment</label>
+		<stockGenerators>
+			
+			<!-- Currency -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~1200</countRange>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+			
+			<!-- Grimalkin Weapons -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>Grimalkin_WeaponsRanged</categoryDef>
+				<thingDefCountRange>2~4</thingDefCountRange>
+				<countRange>2~5</countRange>
+			</li>
+			
+			<!-- Misc manufactured items -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>5~10</countRange>
+			</li>
+			
+			<!-- Buying -->
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Grimalkin_MealRations</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Meat_Rat</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Meat_Mousekin</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Meat_Mousekin_AnimalGiantCavy</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Meat_Mousekin_AnimalPudgemouse</thingDef>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>ReinforcedBarrel</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Neutroamine</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Beer</thingDef>
+			</li>
+			
+			<li Class="StockGenerator_BuySlaves" />
+			
+		</stockGenerators>
+	</TraderKindDef>
+	
+</Defs>

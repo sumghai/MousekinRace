@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: away from the Fatherland -->
+	<Grimalkin_Thought_0Baseline.stages.0.label>вдали от Родины</Grimalkin_Thought_0Baseline.stages.0.label>
+	
+	<!-- EN: Must strong, return and make benefit for glorious Grimalkin People Republic. -->
+	<Grimalkin_Thought_0Baseline.stages.0.description>Должен сильный, вернуться и делать польза для славная Грималкин Народная Республика.</Grimalkin_Thought_0Baseline.stages.0.description>
+	
+	<!-- EN: patriotic fervor -->
+	<Grimalkin_Thought_0Baseline.stages.1.label>патриотический пыл</Grimalkin_Thought_0Baseline.stages.1.label>
+	
+	<!-- EN: Yaong! Serve and make benefit for glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_0Baseline.stages.1.description>Яонг! Служить и делать польза для славная Грималкин Народная Республика!</Grimalkin_Thought_0Baseline.stages.1.description>
+	
+	<!-- EN: ate corpse -->
+	<Grimalkin_Thought_AteCorpse.stages.0.label>{PAWN_gender ? Съел : Съела} труп</Grimalkin_Thought_AteCorpse.stages.0.label>
+	
+	<!-- EN: Bad eat! -->
+	<Grimalkin_Thought_AteCorpse.stages.0.description>плохой есть!</Grimalkin_Thought_AteCorpse.stages.0.description>
+	
+	<!-- EN: cooked cannibalism -->
+	<Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.label>{PAWN_gender ? Съел : Съела} приготовленное мясо Грималкина</Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.label>
+	
+	<!-- EN: Yaong! Eat another cat! Bad bad! -->
+	<Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.description>Яонг! съесть еще одну кошку! плохо плохо!</Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.description>
+	
+	<!-- EN: raw cannibalism -->
+	<Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.label>{PAWN_gender ? Съел : Съела} сырое мясо Грималкина</Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.label>
+	
+	<!-- EN: Yaong! Eat another cat! Bad bad! -->
+	<Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.description>Яонг! съесть еще одну кошку! плохо плохо!</Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.description>
+	
+	<!-- EN: ate kibble -->
+	<Grimalkin_Thought_AteKibble.stages.0.label>{PAWN_gender ? Съел : Съела} корм для животных</Grimalkin_Thought_AteKibble.stages.0.label>
+	
+	<!-- EN: Bad eat! -->
+	<Grimalkin_Thought_AteKibble.stages.0.description>плохой есть!</Grimalkin_Thought_AteKibble.stages.0.description>
+	
+	<!-- EN: ate cooked Mousekin meat -->
+	<Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.label>{PAWN_gender ? Съел : Съела} приготовленное мясо мышки</Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.label>
+	
+	<!-- EN: Mouse meat cook taste juice and good! Happy happy! -->
+	<Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.description>Мышь мясо готовить вкус сок и хороший! Счастливый Счастливый!</Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.description>
+	
+	<!-- EN: ate raw Mousekin meat -->
+	<Grimalkin_Thought_AteMousekinMeatDirect.stages.0.label>{PAWN_gender ? Съел : Съела} сырое мясо мышки</Grimalkin_Thought_AteMousekinMeatDirect.stages.0.label>
+	
+	<!-- EN: Mouse meat no cook taste juice! Happy! -->
+	<Grimalkin_Thought_AteMousekinMeatDirect.stages.0.description>Мышь мясо не готовить вкус сок! Счастливый!</Grimalkin_Thought_AteMousekinMeatDirect.stages.0.description>
+	
+	<!-- EN: ate raw food -->
+	<Grimalkin_Thought_AteRawFood.stages.0.label>{PAWN_gender ? Съел : Съела} сырые продукты</Grimalkin_Thought_AteRawFood.stages.0.label>
+	
+	<!-- EN: Yaong, food no cook, bad eat! -->
+	<Grimalkin_Thought_AteRawFood.stages.0.description>Яонг, еда нет готовить,плохой есть!</Grimalkin_Thought_AteRawFood.stages.0.description>
+	
+	<!-- EN: ate rotten food -->
+	<Grimalkin_Thought_AteRottenFood.stages.0.label>{PAWN_gender ? Съел : Съела} гнилую пищу</Grimalkin_Thought_AteRottenFood.stages.0.label>
+	
+	<!-- EN: Yaong, food rot, bad eat! -->
+	<Grimalkin_Thought_AteRottenFood.stages.0.description>Яонг! пища гнить,плохой есть!</Grimalkin_Thought_AteRottenFood.stages.0.description>
+	
+	<!-- EN: ate without table -->
+	<Grimalkin_Thought_AteWithoutTable.stages.0.label>{PAWN_gender ? Ел : Ела} на земле</Grimalkin_Thought_AteWithoutTable.stages.0.label>
+	
+	<!-- EN: Eat, but no table. Bad! -->
+	<Grimalkin_Thought_AteWithoutTable.stages.0.description>"Есть, но нет стол. плохо!</Grimalkin_Thought_AteWithoutTable.stages.0.description>
+	
+	<!-- EN: I butchered another Grimalkin -->
+	<Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.label>Я разделал другого Грималкина</Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.label>
+	
+	<!-- EN: Yaong, chop another cat! Bad! -->
+	<Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.description>Яонг, pубить другой кот! плохо!</Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.description>
+	
+	<!-- EN: I butchered a Mousekin -->
+	<Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.label>Я разделал другого Мышкина</Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.label>
+	
+	<!-- EN: Chop chop, make mouse meat! -->
+	<Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.description>Рубить, рубить, делать мышь мясо!</Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: colonist left unburied -->
+	<Grimalkin_Thought_ColonistLeftUnburied.stages.0.label>Покойся с миром</Grimalkin_Thought_ColonistLeftUnburied.stages.0.label>
+	
+	<!-- EN: Dead lie outside bad! Bury, give honor! -->
+	<Grimalkin_Thought_ColonistLeftUnburied.stages.0.description>Мёртвый ложь снаружи плохой! Хоронить, дать честь!</Grimalkin_Thought_ColonistLeftUnburied.stages.0.description>
+	
+	<!-- EN: defeated hostile leader {0} -->
+	<Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.label>Ликвидация вражеского лидера, {0}</Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.label>
+	
+	<!-- EN: Kill enemy leader, make benefit for glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.description>Убить враг лидер, делать польза для славная Грималкин Народная Республика!</Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.description>
+	
+	<!-- EN: chilly -->
+	<Grimalkin_Thought_EnvironmentCold.stages.0.label>холодно</Grimalkin_Thought_EnvironmentCold.stages.0.label>
+	
+	<!-- EN: Cold. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.0.description>студ.</Grimalkin_Thought_EnvironmentCold.stages.0.description>
+	
+	<!-- EN: cold -->
+	<Grimalkin_Thought_EnvironmentCold.stages.1.label>очень холодно</Grimalkin_Thought_EnvironmentCold.stages.1.label>
+	
+	<!-- EN: Cold, no feel good. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.1.description>студ, нет чувствую хорошо.</Grimalkin_Thought_EnvironmentCold.stages.1.description>
+	
+	<!-- EN: numbing cold -->
+	<Grimalkin_Thought_EnvironmentCold.stages.2.label>ужасно холодно</Grimalkin_Thought_EnvironmentCold.stages.2.label>
+	
+	<!-- EN: Cold, bad bad. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.2.description>студ, плохо плохо.</Grimalkin_Thought_EnvironmentCold.stages.2.description>
+	
+	<!-- EN: absolutely freezing -->
+	<Grimalkin_Thought_EnvironmentCold.stages.3.label>леденящий холод</Grimalkin_Thought_EnvironmentCold.stages.3.label>
+	
+	<!-- EN: Yaong! Cold cold, bad bad bad! -->
+	<Grimalkin_Thought_EnvironmentCold.stages.3.description>Яонг! студ студ, плохо плохо плохо!</Grimalkin_Thought_EnvironmentCold.stages.3.description>
+	
+	<!-- EN: sweaty -->
+	<Grimalkin_Thought_EnvironmentHot.stages.0.label>жарко</Grimalkin_Thought_EnvironmentHot.stages.0.label>
+	
+	<!-- EN: Hot. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.0.description>жарко.</Grimalkin_Thought_EnvironmentHot.stages.0.description>
+	
+	<!-- EN: hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.1.label>очень жарко</Grimalkin_Thought_EnvironmentHot.stages.1.label>
+	
+	<!-- EN: Hot, no feel good. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.1.description>жарко ,нет чувствую хорошо.</Grimalkin_Thought_EnvironmentHot.stages.1.description>
+	
+	<!-- EN: sweltering hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.2.label>слишком жарко</Grimalkin_Thought_EnvironmentHot.stages.2.label>
+	
+	<!-- EN: Hot, bad bad. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.2.description>жарко, плохо плохо.</Grimalkin_Thought_EnvironmentHot.stages.2.description>
+	
+	<!-- EN: blistering hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.3.label>обжигающе жарко</Grimalkin_Thought_EnvironmentHot.stages.3.label>
+	
+	<!-- EN: Yaong! Hot hot, bad bad bad! -->
+	<Grimalkin_Thought_EnvironmentHot.stages.3.description>Яонг! жарко жарко, плохо плохо плохо!</Grimalkin_Thought_EnvironmentHot.stages.3.description>
+	
+	<!-- EN: freed from slavery -->
+	<Grimalkin_Thought_FreedFromSlavery.stages.0.label>{PAWN_gender ? Освобождён : Освобождена} из рабства</Grimalkin_Thought_FreedFromSlavery.stages.0.label>
+	
+	<!-- EN: Freedom! Good! -->
+	<Grimalkin_Thought_FreedFromSlavery.stages.0.description>Свобода! Хорошо!</Grimalkin_Thought_FreedFromSlavery.stages.0.description>
+	
+	<!-- EN: got married to {0} -->
+	<Grimalkin_Thought_GotMarried.stages.0.label>свадьба с {0}</Grimalkin_Thought_GotMarried.stages.0.label>
+	
+	<!-- EN: Marry, make family, benefit glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_GotMarried.stages.0.description>Жениться, делать семья, польза славная Грималкин Народная Республика!</Grimalkin_Thought_GotMarried.stages.0.description>
+	
+	<!-- EN: killed a Mousekin -->
+	<Grimalkin_Thought_KilledMousekin.stages.0.label>Убил Мышкина</Grimalkin_Thought_KilledMousekin.stages.0.label>
+	
+	<!-- EN: Yaong! Kill mouse, make benefit for glorious Grimalkin People Republic! Happy happy! -->
+	<Grimalkin_Thought_KilledMousekin.stages.0.description>Яонг! Убить мышь, делать польза для славная Грималкин Народная Республика! Счастливый Счастливый!</Grimalkin_Thought_KilledMousekin.stages.0.description>
+	
+	<!-- EN: we butchered another Grimalkin -->
+	<Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.label>Мы разделали еще одного Грималкина</Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.label>
+	
+	<!-- EN: Yaong, cat chop another cat! Bad! -->
+	<Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.description>Яонг! Кот pубить другой кот! плохо!</Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.description>
+	
+	<!-- EN: we butchered a Mousekin -->
+	<Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.label>Мы разделали еще одного Мышкина</Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.label>
+	
+	<!-- EN: Next time me want chop mouse! -->
+	<Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.description>В следующий раз я хочу рубить мышь!</Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: colonist died -->
+	<Grimalkin_Thought_KnowColonistDied.stages.0.label>Поселенец умер</Grimalkin_Thought_KnowColonistDied.stages.0.label>
+	
+	<!-- EN: Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_KnowColonistDied.stages.0.description>Служить долг для славная Грималкин Народная Республика, теперь отдыхать. Приветствовать.</Grimalkin_Thought_KnowColonistDied.stages.0.description>
+	
+	<!-- EN: colonist's organ harvested -->
+	<Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.label>У поселенца были изъяты органы</Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.label>
+	
+	<!-- EN: Cat chop and take part from another cat, bad! -->
+	<Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.description>"Кот рубить и брать часть от другой кот, плохо!</Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.description>
+	
+	<!-- EN: my organ harvested -->
+	<Grimalkin_Thought_MyOrganHarvested.stages.0.label>Мои органы были изъяты</Grimalkin_Thought_MyOrganHarvested.stages.0.label>
+	
+	<!-- EN: Yaong! You no take my part! Bad bad! -->
+	<Grimalkin_Thought_MyOrganHarvested.stages.0.description>Яонг! Ты не брать мой часть! плохо плохо!</Grimalkin_Thought_MyOrganHarvested.stages.0.description>
+	
+	<!-- EN: hungry -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>недоедает</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Hunger. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Голод.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: ravenously hungry -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>сильно недоедает</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Hunger, no feel good. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Голод ,нет чувствую хорошо.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: malnourished -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>незначительно голодает</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Much hunger, feel weak. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Много голод, чувствовать слабость.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: badly malnourished -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>слегка голодает</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Many hunger, belly hurt. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Многие голод, живот болит.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: starving -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>средне голодает</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Big hunger, want food now. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Большой голод, хочу еды сейчас.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: advanced starvation -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>сильно голодает</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Great hunger, want food now now. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Великий голод, хочу еды сейчас сейчас.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: extreme starvation -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>экстремально голодает</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Food...food...hunger...yaong! -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Еда...еды...голод...Яонг!</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: drowsy -->
+	<Grimalkin_Thought_NeedRest.stages.0.label>{PAWN_gender ? Устал : Устала}</Grimalkin_Thought_NeedRest.stages.0.label>
+	
+	<!-- EN: Little tired. -->
+	<Grimalkin_Thought_NeedRest.stages.0.description>Немного устал.</Grimalkin_Thought_NeedRest.stages.0.description>
+	
+	<!-- EN: tired -->
+	<Grimalkin_Thought_NeedRest.stages.1.label>сильно {PAWN_gender ? устал : устала}</Grimalkin_Thought_NeedRest.stages.1.label>
+	
+	<!-- EN: Big tired. Want sleep. -->
+	<Grimalkin_Thought_NeedRest.stages.1.description>Очень устал. Хочу спать.</Grimalkin_Thought_NeedRest.stages.1.description>
+	
+	<!-- EN: exhausted -->
+	<Grimalkin_Thought_NeedRest.stages.2.label>{PAWN_gender ? Обессилел : Обессилела}</Grimalkin_Thought_NeedRest.stages.2.label>
+	
+	<!-- EN: Yaong, need sleep now now. -->
+	<Grimalkin_Thought_NeedRest.stages.2.description>Яонг, Хочу спать сейчас сейчас.</Grimalkin_Thought_NeedRest.stages.2.description>
+	
+	<!-- EN: minor pain -->
+	<Grimalkin_Thought_Pain.stages.0.label>лёгкая боль</Grimalkin_Thought_Pain.stages.0.label>
+	
+	<!-- EN: Pain. Feel bad. -->
+	<Grimalkin_Thought_Pain.stages.0.description>Боль. Чувствовать плохо.</Grimalkin_Thought_Pain.stages.0.description>
+	
+	<!-- EN: serious pain -->
+	<Grimalkin_Thought_Pain.stages.1.label>средняя боль</Grimalkin_Thought_Pain.stages.1.label>
+	
+	<!-- EN: Big pain. Bad! -->
+	<Grimalkin_Thought_Pain.stages.1.description>Очень боль. плохо!</Grimalkin_Thought_Pain.stages.1.description>
+	
+	<!-- EN: intense pain -->
+	<Grimalkin_Thought_Pain.stages.2.label>сильная боль</Grimalkin_Thought_Pain.stages.2.label>
+	
+	<!-- EN: Pain! Pain! Pain! -->
+	<Grimalkin_Thought_Pain.stages.2.description>Боль! Боль! Боль!</Grimalkin_Thought_Pain.stages.2.description>
+	
+	<!-- EN: mind-shattering pain -->
+	<Grimalkin_Thought_Pain.stages.3.label>адская боль</Grimalkin_Thought_Pain.stages.3.label>
+	
+	<!-- EN: YAAAAONNNNG! YAAAAONNNNG! -->
+	<Grimalkin_Thought_Pain.stages.3.description>ЯАААОНННГ! ЯАААОНННГ!</Grimalkin_Thought_Pain.stages.3.description>
+	
+	<!-- EN: my rival {0} died -->
+	<Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.label>Мой соперник {0} умер</Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.label>
+	
+	<!-- EN: No like {0}. Deserve, good good! -->
+	<Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.description>Не нравиться {1}. Заслужить, хороший хороший!</Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.description>
+	
+	<!-- EN: my rival {0} lost -->
+	<Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.label>Я потерял своего соперника {0}</Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.label>
+	
+	<!-- EN: No like {0}. Deserve, good good! -->
+	<Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.description>Не нравиться {1}. Заслужить, хороший хороший!</Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.description>
+	
+	<!-- EN: my friend {0} died -->
+	<Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.label>Мой друг {0} умер</Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.label>
+	
+	<!-- EN: Like friend {0}. Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.description>Нравиться друг {1}. Служить долг для славная Грималкин Народная Республика, теперь отдыхать. Приветствовать.</Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.description>
+	
+	<!-- EN: saw a Pudgemouse -->
+	<Grimalkin_Thought_SawNearbyPudgemouse.stages.0.label>Я увидел Паджмауса</Grimalkin_Thought_SawNearbyPudgemouse.stages.0.label>
+	
+	<!-- EN: Grrr, hate little fur mouse. Want kill and make skewer, good taste. -->
+	<Grimalkin_Thought_SawNearbyPudgemouse.stages.0.description>Гррр, ненавидеть маленький меховой мышь. Хотеть убить и делать шампур, хороший вкус.</Grimalkin_Thought_SawNearbyPudgemouse.stages.0.description>
+	
+	<!-- EN: sick -->
+	<Grimalkin_Thought_Sick.stages.0.label>недомогание</Grimalkin_Thought_Sick.stages.0.label>
+	
+	<!-- EN: Feel bad. -->
+	<Grimalkin_Thought_Sick.stages.0.description>Чувствовать плохо.</Grimalkin_Thought_Sick.stages.0.description>
+	
+	<!-- EN: slept in the cold -->
+	<Grimalkin_Thought_SleptInCold.stages.0.label>{PAWN_gender ? Спал : Спала} на холоде</Grimalkin_Thought_SleptInCold.stages.0.label>
+	
+	<!-- EN: Cold, bad. Need heat. -->
+	<Grimalkin_Thought_SleptInCold.stages.0.description>Холод, плохой. Нуждаться горячий.</Grimalkin_Thought_SleptInCold.stages.0.description>
+	
+	<!-- EN: slept in the heat -->
+	<Grimalkin_Thought_SleptInHeat.stages.0.label>{PAWN_gender ? Спал : Спала} на жаре</Grimalkin_Thought_SleptInHeat.stages.0.label>
+	
+	<!-- EN: Hot, bad. Need cool. -->
+	<Grimalkin_Thought_SleptInHeat.stages.0.description>Горячий, плохой. Нуждаться холод.</Grimalkin_Thought_SleptInHeat.stages.0.description>
+	
+	<!-- EN: slept on ground -->
+	<Grimalkin_Thought_SleptOnGround.stages.0.label>{PAWN_gender ? Спал : Спала} на земле</Grimalkin_Thought_SleptOnGround.stages.0.label>
+	
+	<!-- EN: Feel bad. No want be stupid dirty fur mouse. -->
+	<Grimalkin_Thought_SleptOnGround.stages.0.description>Чувствовать плохо. Не хотеть быть тупой грязный меховой мышь.</Grimalkin_Thought_SleptOnGround.stages.0.description>
+	
+	<!-- EN: slept outside -->
+	<Grimalkin_Thought_SleptOutside.stages.0.label>{PAWN_gender ? Спал : Спала} на улице</Grimalkin_Thought_SleptOutside.stages.0.label>
+	
+	<!-- EN: Feel bad. Want tent, want barrack. -->
+	<Grimalkin_Thought_SleptOutside.stages.0.description>Чувствовать плохо. Хотеть палатка, хотеть казарма.</Grimalkin_Thought_SleptOutside.stages.0.description>
+	
+	<!-- EN: soaking wet -->
+	<Grimalkin_Thought_SoakingWet.stages.0.label>{PAWN_gender ? Вымок : Вымокла}</Grimalkin_Thought_SoakingWet.stages.0.label>
+	
+	<!-- EN: Yaong, fur wet! Bad bad! -->
+	<Grimalkin_Thought_SoakingWet.stages.0.description>Яонг, Мех мокрый! плохо плохо!</Grimalkin_Thought_SoakingWet.stages.0.description>
+	
+	<!-- EN: was imprisoned -->
+	<Grimalkin_Thought_WasImprisoned.stages.0.label>{PAWN_gender ? Сидел : Сидела} в тюрьме</Grimalkin_Thought_WasImprisoned.stages.0.label>
+	
+	<!-- EN: Other hold me in cage. Angry! -->
+	<Grimalkin_Thought_WasImprisoned.stages.0.description>Другие держат меня в клетке. Злой!</Grimalkin_Thought_WasImprisoned.stages.0.description>
+	
+	<!-- EN: wearing Grimalkin fur apparel -->
+	<Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.label>Ношу одежду из меха Грималкина</Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.label>
+	
+	<!-- EN: Yaong! Wear another cat skin! Bad! -->
+	<Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.description>Яонг! Носи другую кошачью кожу! плохо!</Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.description>
+	
+	<!-- EN: wearing Mousekin fur apparel -->
+	<Grimalkin_Thought_WearingMousekinFurApparel.stages.0.label>Ношу одежду из меха Маускина</Grimalkin_Thought_WearingMousekinFurApparel.stages.0.label>
+	
+	<!-- EN: Mouse stupid, but fur feel good! -->
+	<Grimalkin_Thought_WearingMousekinFurApparel.stages.0.description>Мышь тупая, но мех чувствует хорошо!</Grimalkin_Thought_WearingMousekinFurApparel.stages.0.description>
+	
+	<!-- EN: witnessed ally's death -->
+	<Grimalkin_Thought_WitnessedDeathAlly.stages.0.label>{PAWN_gender ? Увидел : Увидела} смерть союзника</Grimalkin_Thought_WitnessedDeathAlly.stages.0.label>
+	
+	<!-- EN: Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_WitnessedDeathAlly.stages.0.description>Служить долг для славная Грималкин Народная Республика, теперь отдыхать. Приветствовать.</Grimalkin_Thought_WitnessedDeathAlly.stages.0.description>
+	
+</LanguageData>

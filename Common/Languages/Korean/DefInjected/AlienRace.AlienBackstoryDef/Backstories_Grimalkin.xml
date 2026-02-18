@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: factory kitten -->
+	<Grimalkin_Childhood_FactoryChild.title>공장 새끼 고양이</Grimalkin_Childhood_FactoryChild.title>
+	
+	<!-- EN: factory kitten -->
+	<Grimalkin_Childhood_FactoryChild.titleShort>공장 새끼 고양이</Grimalkin_Childhood_FactoryChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s father worked in one of the Grimalkin Dominion's many munitions factories, making grenades for the brave soldiers of the Grimalkin People's Liberation Army.\n\nAfter [PAWN_possessive] father bought a dummy grenade home to show [PAWN_objective], [PAWN_nameDef] began spending his free hours after school or studying helping out at the factory, where [PAWN_possessive] small paws made [PAWN_objective] very good at assembling and installing grenade fuzes. -->
+	<Grimalkin_Childhood_FactoryChild.description>[PAWN_nameDef]의 아버지는 그리말킨 인민 공화국의 수많은 군수 공장 중 한 곳에서 일하며, 용감한 그리말킨 인민해방군 병사들을 위한 수류탄을 제조했습니다.\n\n[PAWN_possessive] 아버지가 [PAWN_objective]에게 보여주기 위해 모형 수류탄을 집으로 가져온 후, [PAWN_nameDef]는 방과 후나 공부하는 시간 외의 자유 시간을 공장에서 도우며 보내기 시작했습니다. 그곳에서 [PAWN_possessive]의 작은 발톱 덕분에 [PAWN_objective]는 수류탄 신관 조립과 설치에 매우 능숙해졌습니다.</Grimalkin_Childhood_FactoryChild.description>
+	
+	<!-- EN: farm kitten -->
+	<Grimalkin_Childhood_FarmChild.title>농장 새끼 고양이</Grimalkin_Childhood_FarmChild.title>
+	
+	<!-- EN: farm kitten -->
+	<Grimalkin_Childhood_FarmChild.titleShort>농장 새끼 고양이</Grimalkin_Childhood_FarmChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up on one of the Grimalkin Dominion's many collective farms in the countryside, where [PAWN_pronoun] attended school by day, and helped [PAWN_possessive] family in the rice paddies in the afternoon.\n\nInspired by army convoys passing the fields daily, [PAWN_pronoun] vowed to join the Grimalkin People's Liberation Army when [PAWN_pronoun] grew up. -->
+	<Grimalkin_Childhood_FarmChild.description>[PAWN_nameDef]은 시골에 있는 그림알킨 인민 공화국의 수많은 협동 농장 중 한 곳에서 자랐습니다. 낮에는 학교에 다녔고, 오후에는 논에서 [PAWN_possessive] 가족을 도왔습니다.\n\n매일 논밭을 지나가는 군 수송대를 보며 영감을 받은 [PAWN_pronoun]은 자라면 그리말킨 인민해방군에 입대하겠다고 다짐했다.</Grimalkin_Childhood_FarmChild.description>
+	
+	<!-- EN: miner's kitten -->
+	<Grimalkin_Childhood_MineChild.title>광부의 새끼 고양이</Grimalkin_Childhood_MineChild.title>
+	
+	<!-- EN: miner's kitten -->
+	<Grimalkin_Childhood_MineChild.titleShort>광부의 새끼 고양이</Grimalkin_Childhood_MineChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s parents toiled in one of the Grimalkin Dominion's many mines, extracting coking coal used in the nation's steelworking and munitions manufacturing industries. After school, [PAWN_pronoun] would help grade and sort coal lumps coming off the conveyor. -->
+	<Grimalkin_Childhood_MineChild.description>[PAWN_nameDef]의 부모님은 그림알킨 인민 공화국의 수많은 광산 중 한 곳에서 고된 노동을 하며, 국가의 제철 및 군수 산업에 사용되는 코크스용 석탄을 채굴했습니다. 학교가 끝나면 [PAWN_pronoun]은 컨베이어 벨트에서 나오는 석탄 덩어리를 등급별로 분류하는 일을 도왔습니다.</Grimalkin_Childhood_MineChild.description>
+	
+	<!-- EN: Young Pioneer -->
+	<Grimalkin_Childhood_YoungPioneer.title>젊은 선봉대</Grimalkin_Childhood_YoungPioneer.title>
+	
+	<!-- EN: Young Pioneer -->
+	<Grimalkin_Childhood_YoungPioneer.titleShort>젊은 선봉대</Grimalkin_Childhood_YoungPioneer.titleShort>
+	
+	<!-- EN: After giving a well-received speech at school on the principles and values of The Great Feline Revolution, [PAWN_nameDef] was awarded a red scarf, and nominated by [PAWN_possessive] teacher to become a Young Pioneer, leading [PAWN_possessive] classmates by example to dedicate their lives to the glory of the Grimalkin Dominion.\n\n[PAWN_pronoun] took additional political classes after school, and organized community volunteer activities such as collecting scrap metal for the country's military factories. -->
+	<Grimalkin_Childhood_YoungPioneer.description>[PAWN_nameDef]은 학교에서 '위대한 고양이 혁명'의 원칙과 가치에 관한 호평을 받은 연설을 한 후, 빨간 스카프를 수여받았으며 [PAWN_possessive] 선생님의 추천으로 소년 선봉대원으로 선발되었습니다. 이후 [PAWN_possessive] 반 친구들을 모범적으로 이끌며 그림알킨 인민 공화국의 영광을 위해 생명을 바치도록 독려했습니다.\n\n[PAWN_pronoun]은 방과 후 추가 정치 수업을 들었으며, 국가 군수 공장을 위한 고철 수집 등 지역사회 봉사 활동을 조직했다.</Grimalkin_Childhood_YoungPioneer.description>
+	
+	<!-- EN: rifleman -->
+	<Grimalkin_Adulthood_Rifleman.title>소총병</Grimalkin_Adulthood_Rifleman.title>
+	
+	<!-- EN: rifleman -->
+	<Grimalkin_Adulthood_Rifleman.titleShort>소총병</Grimalkin_Adulthood_Rifleman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] trained as a rifleman in the Grimalkin People's Liberation Army, and was often deployed on military operations to secure the Grimalkin Dominion's borders from trespassing Mousekins. -->
+	<Grimalkin_Adulthood_Rifleman.description>[PAWN_nameDef]은 그림알킨 인민해방군에서 소총병으로 훈련받았으며, 침입하는 마우스킨들로부터 그림알킨 인민공화국 국경을 방어하기 위한 군사 작전에 자주 투입되었다.</Grimalkin_Adulthood_Rifleman.description>
+	
+	<!-- EN: machine gunner -->
+	<Grimalkin_Adulthood_MachineGunner.title>기관총 사수</Grimalkin_Adulthood_MachineGunner.title>
+	
+	<!-- EN: machine gunner -->
+	<Grimalkin_Adulthood_MachineGunner.titleShort>기관총 사수</Grimalkin_Adulthood_MachineGunner.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served in the Grimalkin People's Liberation Army as a squad machine gunner, laying down suppressive fire to help [PAWN_possessive] comrades advance in the field of battle. -->
+	<Grimalkin_Adulthood_MachineGunner.description>[PAWN_nameDef]는 그림알킨 인민해방군에서 분대 기관총 사수로 복무하며, 전장에서 [PAWN_possessive] 동지들의 진격을 지원하기 위해 제압 사격을 펼쳤다.</Grimalkin_Adulthood_MachineGunner.description>
+	
+	<!-- EN: grenadier -->
+	<Grimalkin_Adulthood_Grenadier.title>그레나디어</Grimalkin_Adulthood_Grenadier.title>
+	
+	<!-- EN: grenadier -->
+	<Grimalkin_Adulthood_Grenadier.titleShort>그레나디어</Grimalkin_Adulthood_Grenadier.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served in the Grimalkin People's Liberation Army as a squad grenadier, flushing out Mousekins hiding behind cover with indirect fire from [PAWN_possessive] grenade launcher. -->
+	<Grimalkin_Adulthood_Grenadier.description>[PAWN_nameDef]은 그림알킨 인민해방군에서 분대 수류탄병으로 복무하며, [PAWN_possessive] 수류탄 발사기의 간접 사격으로 엄폐물 뒤에 숨은 마우스킨들을 몰아냈다.</Grimalkin_Adulthood_Grenadier.description>
+	
+	<!-- EN: sniper -->
+	<Grimalkin_Adulthood_Sniper.title>저격수</Grimalkin_Adulthood_Sniper.title>
+	
+	<!-- EN: sniper -->
+	<Grimalkin_Adulthood_Sniper.titleShort>저격수</Grimalkin_Adulthood_Sniper.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] trained as a sniper in the Grimalkin People's Liberation Army, operating either alone, paired with another sniper/spotter, or attached to an infantry squad.\n\n[PAWN_pronoun] was skilled enough to shoot the ears off a Mousekin over five hundred meters away. -->
+	<Grimalkin_Adulthood_Sniper.description>[PAWN_nameDef]은 그림알킨 인민해방군에서 저격수로 훈련받았으며, 단독으로 활동하거나 다른 저격수/관측병과 짝을 이루거나 보병 분대에 배속되어 작전을 수행했다.\n\n[PAWN_pronoun]은 500미터 이상 떨어진 마우스킨의 귀를 쏘아 떨어뜨릴 만큼 실력이 뛰어났다.</Grimalkin_Adulthood_Sniper.description>
+	
+	<!-- EN: vehicle crewman -->
+	<Grimalkin_Adulthood_Crewman.title>차량 승무원</Grimalkin_Adulthood_Crewman.title>
+	
+	<!-- EN: crewman -->
+	<Grimalkin_Adulthood_Crewman.titleShort>승무원</Grimalkin_Adulthood_Crewman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] operated various armored vehicles in the Grimalkin People's Liberation Army, ranging from light scout cars to infantry fighting vehicles and main battle tanks.\n\n[PAWN_pronoun] and [PAWN_possessive] fellow crewmen liked to run betting pools to see who can squash the most Mousekin peasants with their vehicles' wheels and tracked treads. -->
+	<Grimalkin_Adulthood_Crewman.description>[PAWN_nameDef]은 그림알킨 인민해방군에서 경정찰차부터 보병전투차, 주전차에 이르기까지 다양한 장갑차를 운용했습니다.\n\n[PAWN_pronoun]과 [PAWN_possessive] 동료 승무원들은 차량의 바퀴와 트랙으로 가장 많은 마우스킨 농민들을 깔아뭉개는 경쟁을 벌이며 내기를 즐겼습니다.</Grimalkin_Adulthood_Crewman.description>
+	
+	<!-- EN: stormtrooper -->
+	<Grimalkin_Adulthood_Stormtrooper.title>충격보병</Grimalkin_Adulthood_Stormtrooper.title>
+	
+	<!-- EN: stormtrooper -->
+	<Grimalkin_Adulthood_Stormtrooper.titleShort>충격보병</Grimalkin_Adulthood_Stormtrooper.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] displayed zealous ferocity during basic training, and was seconded by [PAWN_possessive] drill sergeant to the Stormtrooper Corps.\n\nAfter many months of grueling training, [PAWN_pronoun] was soon leading [PAWN_possessive] fellow stormtroopers and dozens of regular army infantrymen in assaulting trenches and overwhelming enemy defenses, [PAWN_possessive] combat prowess matched only by [PAWN_possessive] insatiable bloodlust for hapless Mousekins. -->
+	<Grimalkin_Adulthood_Stormtrooper.description>[PAWN_nameDef]은 기초 훈련 중 열성적인 맹렬함을 보였으며, [PAWN_possessive] 훈련교관의 추천으로 충격병단으로 파견되었습니다.\n\n수개월에 걸친 혹독한 훈련 끝에, [PAWN_pronoun]은 곧 동료 충격병들과 수십 명의 정규군 보병들을 이끌고 참호를 공격하며 적의 방어선을 압도하기 시작했습니다. [PAWN_possessive]의 전투 능력은 불쌍한 마우스킨들에 대한 [PAWN_possessive]의 끝없는 살육욕과 맞먹을 정도였습니다.</Grimalkin_Adulthood_Stormtrooper.description>
+	
+	<!-- EN: staff officer -->
+	<Grimalkin_Adulthood_StaffOfficer.title>참모 장교</Grimalkin_Adulthood_StaffOfficer.title>
+	
+	<!-- EN: officer -->
+	<Grimalkin_Adulthood_StaffOfficer.titleShort>참모 장교</Grimalkin_Adulthood_StaffOfficer.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a staff officer in the Grimalkin People's Liberation Army, performing clerical, logistics and other administrative work within the safe confines of Grimalkin Dominion military bases. -->
+	<Grimalkin_Adulthood_StaffOfficer.description>[PAWN_nameDef]은 그리말킨 인민해방군에서 참모 장교로 복무하며, 그리말킨 인민공화국 군사 기지 내 안전한 구역에서 문서 업무, 물류 및 기타 행정 업무를 수행했습니다.</Grimalkin_Adulthood_StaffOfficer.description>
+	
+	<!-- EN: colonel -->
+	<Grimalkin_Adulthood_Colonel.title>대령</Grimalkin_Adulthood_Colonel.title>
+	
+	<!-- EN: colonel -->
+	<Grimalkin_Adulthood_Colonel.titleShort>대령</Grimalkin_Adulthood_Colonel.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] began his career in the Grimalkin People's Liberation Army as a lowly rifleman, whose frequent demonstrations of valor in battle and loyalty to the Fatherland earned [PAWN_objective] a much-coveted letter of recommendation to the prestigious Officers' Academy.\n\nAfter graduating as a First Lieutenant and being welcomed back to [PAWN_possessive] old unit as a platoon leader, [PAWN_pronoun] gradually worked [PAWN_possessive] way up the ranks until [PAWN_pronoun] eventually took command of the entire regiment after [PAWN_possessive] mentor and sponsor retired. -->
+	<Grimalkin_Adulthood_Colonel.description>[PAWN_nameDef]은 그림알킨 인민해방군에서 하사관으로 군생활을 시작했으며, 전투에서 보여준 용맹함과 조국에 대한 충성심으로 인해 명문 장교학교에 입학할 수 있는 추천서를 받았습니다.\n\n소위로 졸업한 후 [PAWN_possessive]의 옛 부대로 소대장으로 복귀한 [PAWN_pronoun]은 점차 계급을 올렸고, 결국 [PAWN_possessive]의 멘토이자 후원자가 은퇴한 후 [PAWN_possessive]의 전체 연대 지휘권을 맡게 되었다.</Grimalkin_Adulthood_Colonel.description>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Adulthood_GrandMarshal.title>대원수</Grimalkin_Adulthood_GrandMarshal.title>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Adulthood_GrandMarshal.titleShort>대원수</Grimalkin_Adulthood_GrandMarshal.titleShort>
+	
+	<!-- EN: Through many decades of valorous service and demonstrated loyalty to the Fatherland, [PAWN_nameDef] rose through the ranks to be appointed as a general in the Central Military Commission, the supreme authority of the Grimalkin People's Liberation Army and the Grimalkin Dominion as a whole, and was later groomed by the previous Grand Marshal to eventually succeed him. -->
+	<Grimalkin_Adulthood_GrandMarshal.description>수십 년에 걸친 용맹한 복무와 조국에 대한 충성을 입증한 [PAWN_nameDef]는 계급을 올라 그림알킨 인민해방군 및 그림알킨 인민공화국 전체의 최고 권위 기관인 중앙군사위원회 장군으로 임명되었으며, 이후 전임 총사령관에 의해 후계자로 양성되었다.</Grimalkin_Adulthood_GrandMarshal.description>
+	
+</LanguageData>

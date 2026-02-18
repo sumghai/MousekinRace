@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin infantry uniform -->
+	<Grimalkin_UniformInfantry.label>그림알킨 보병 제복</Grimalkin_UniformInfantry.label>
+	
+	<!-- EN: A standard-issue collared tunic, trousers and knee-high leather boots, worn by most rank and file Grimalkin soldiers. -->
+	<Grimalkin_UniformInfantry.description>표준 지급품인 칼라 달린 튜닉, 바지, 그리고 무릎까지 오는 가죽 부츠로, 대부분의 일반 병사들이 착용한다.</Grimalkin_UniformInfantry.description>
+	
+	<!-- EN: Grimalkin vehicle crew coverall -->
+	<Grimalkin_UniformVehicle.label>그림알킨 차량 승무원 작업복</Grimalkin_UniformVehicle.label>
+	
+	<!-- EN: A full-body flame-resistant jumpsuit, worn by Grimalkin ground vehicle crewmen. -->
+	<Grimalkin_UniformVehicle.description>그림알킨 지상 차량 승무원들이 착용하는 전신용 내화성 점프수트.</Grimalkin_UniformVehicle.description>
+	
+	<!-- EN: Grimalkin stormtrooper uniform -->
+	<Grimalkin_UniformStormtrooper.label>그림알킨 충격 부대 제복</Grimalkin_UniformStormtrooper.label>
+	
+	<!-- EN: A set of camouflage fatigues, typically worn by elite Grimalkin stormtroopers. -->
+	<Grimalkin_UniformStormtrooper.description>정예 그림알킨 돌격병들이 주로 착용하는 위장 전투복 세트.</Grimalkin_UniformStormtrooper.description>
+	
+	<!-- EN: Grimalkin officer's uniform -->
+	<Grimalkin_UniformOfficer.label>그림알킨 장교 제복</Grimalkin_UniformOfficer.label>
+	
+	<!-- EN: A field dress uniform worn by Grimalkin regiment commanders and staff officers. -->
+	<Grimalkin_UniformOfficer.description>그림알킨 연대 지휘관 및 참모 장교들이 착용하는 야전 정복.</Grimalkin_UniformOfficer.description>
+	
+	<!-- EN: Grimalkin officer’s beret -->
+	<Grimalkin_HatOfficerBeret.label>그림알킨 장교 베레모</Grimalkin_HatOfficerBeret.label>
+	
+	<!-- EN: A round and flat-crowned cloth hat, worn by Grimalkin staff officers serving in rear-echelon roles. -->
+	<Grimalkin_HatOfficerBeret.description>후방 지원 임무를 수행하는 그리말킨 참모 장교들이 착용하는 둥글고 평평한 챙의 천 모자.</Grimalkin_HatOfficerBeret.description>
+	
+	<!-- EN: Grimalkin officer’s cap -->
+	<Grimalkin_HatOfficerCap.label>그림알킨 장교 모자</Grimalkin_HatOfficerCap.label>
+	
+	<!-- EN: A large, visored peaked cap, worn by Grimalkin regiment commanders and generals as a symbol of their authority, with the oversized crown designed to intimidate lower-ranked Grimalkins and enemies. -->
+	<Grimalkin_HatOfficerCap.description>그림알킨 연대 지휘관과 장군들이 권위의 상징으로 착용하는 대형 챙이 달린 모자로, 과장된 크라운 디자인은 하급 그림알킨과 적군을 위협하기 위해 고안되었다.</Grimalkin_HatOfficerCap.description>
+	
+	<!-- EN: Grimalkin steel helmet -->
+	<Grimalkin_HelmetInfantry.label>그림알킨 강철 투구</Grimalkin_HelmetInfantry.label>
+	
+	<!-- EN: A painted steel helmet with fabric padding, worn by Grimalkin soldiers for protection against shrapnel. -->
+	<Grimalkin_HelmetInfantry.description>그림알킨 병사들이 파편으로부터 보호하기 위해 착용하는, 천 패딩이 달린 도색 강철 헬멧.</Grimalkin_HelmetInfantry.description>
+	
+	<!-- EN: Grimalkin vehicle crew helmet -->
+	<Grimalkin_HelmetVehicle.label>그림알킨 차량 승무원 헬멧</Grimalkin_HelmetVehicle.label>
+	
+	<!-- EN: A heavily-padded leather helmet, worn by Grimalkin ground vehicle crewmen for protection against head injuries in the confined spaces of most armored vehicles. -->
+	<Grimalkin_HelmetVehicle.description>대부분의 장갑차의 좁은 공간에서 머리 부상으로부터 보호하기 위해 그림알킨 지상 차량 승무원들이 착용하는 두꺼운 패딩 처리된 가죽 헬멧.</Grimalkin_HelmetVehicle.description>
+	
+</LanguageData>

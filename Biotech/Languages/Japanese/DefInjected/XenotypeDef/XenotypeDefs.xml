@@ -9,5 +9,14 @@
 	
 	<!-- EN: A naturally-evolved Mousekin with no major significant genetic modifications. -->
 	<Mousekin_XenotypeMousekin.descriptionShort>自然に進化したマウスキンで,大きな重要な遺伝子改変はありません.</Mousekin_XenotypeMousekin.descriptionShort>
+
+	<!-- EN: Grimalkin -->
+	<Grimalkin_XenotypeGrimalkin.label>グリマルキン</Grimalkin_XenotypeGrimalkin.label>
+	
+	<!-- EN: Species: &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("Wise black cat")\n\nA race of large anthropomorphic cats, readily identified by their triangular ears, uniformly dull black fur, yellow slit-pupiled eyes, protruding upper incisors and long bushy tails.\n\nGrimalkin adults can grow up to 150 centimeters tall, with males and females possessing visible scrotums and subdued chest mammary glands respectively, while individuals are discerned by subtle variations in head fur swirl or body odor. Their anatomical proportions are roughly similar to domesticated cats from Old Earth, save for additional bulk from body hair and fat.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single kitten, but twins, triplets and other multiple births are also possible.\n\nWhile the vast majority of humanoid feline races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is understood that Grimalkins originated from pet cats abandoned by an Old Earth Asian rump superpower's failed attempt at interstellar colonization; environmental and evolutionary pressures accelerated the species’ rise into sapience within a span of a mere few hundred years.\n\nBarring accidents, injury or disease, a Grimalkin’s average life expectancy is 70~80 years; their body fur becomes slightly matted by around over 60 years of age, but no Grimalkin will experience fur loss. -->
+	<Grimalkin_XenotypeGrimalkin.description>学名： &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("聡明な黒猫")\n\n三角形の耳、均一なつやのない黒毛、黄色の細長い瞳孔の眼、突出した上顎切歯、そして長くふさふさした尾で容易に識別できる、大型の人型猫の種族.\n\n成体のグリマルキンは体高150センチメートルに達し、雄は陰嚢が、雌は胸部の乳腺がそれぞれ目立つ.個体識別は頭部の毛の渦巻き模様や体臭の微妙な差異によって行われる.解剖学的プロポーションは旧地球の飼い猫とほぼ同様だが、体毛と脂肪による追加の肉付きが特徴である.\n\n平均妊娠期間は標準人類と同等であり、通常は一匹の子猫を出産するが、双子・三つ子を含む多胎妊娠の可能性もある.\n\n銀河系の人型ネコ科種族の大半は、数千年に遡る基底人類への意図的な遺伝子実験の産物であるが、グリマルキンは古い地球アジア系残存超大国による失敗した恒星間植民計画で放棄された飼い猫が起源とされる.環境的・進化的圧力により、この種はわずか数百年の間に知性獲得へと急速に進化した.\n\n事故・負傷・疾病を除けば、グリマルキンの平均寿命は70～80年である.60歳を超えると体毛がややもつれやすくなるが、毛が抜けることは決してない.</Grimalkin_XenotypeGrimalkin.description>
+	
+	<!-- EN: A naturally-evolved Grimalkin with no major significant genetic modifications. -->
+	<Grimalkin_XenotypeGrimalkin.descriptionShort>自然に進化したグリマルキンで,大きな重要な遺伝子改変はありません.</Grimalkin_XenotypeGrimalkin.descriptionShort>
 	
 </LanguageData>

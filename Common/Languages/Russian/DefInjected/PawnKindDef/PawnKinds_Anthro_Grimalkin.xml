@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: rifleman -->
+	<GrimalkinInfantryRifle.label>стрелок</GrimalkinInfantryRifle.label>
+	
+	<!-- EN: riflemen -->
+	<GrimalkinInfantryRifle.labelPlural>стрелки</GrimalkinInfantryRifle.labelPlural>
+	
+	<!-- EN: machine gunner -->
+	<GrimalkinInfantryMG.label>пулеметчик</GrimalkinInfantryMG.label>
+	
+	<!-- EN: machine gunners -->
+	<GrimalkinInfantryMG.labelPlural>пулеметчики</GrimalkinInfantryMG.labelPlural>
+	
+	<!-- EN: grenadier -->
+	<GrimalkinInfantryGrenadier.label>гренадер</GrimalkinInfantryGrenadier.label>
+	
+	<!-- EN: grenadiers -->
+	<GrimalkinInfantryGrenadier.labelPlural>гренадеры</GrimalkinInfantryGrenadier.labelPlural>
+	
+	<!-- EN: sniper -->
+	<GrimalkinInfantrySniper.label>снайпер</GrimalkinInfantrySniper.label>
+	
+	<!-- EN: snipers -->
+	<GrimalkinInfantrySniper.labelPlural>снайперы</GrimalkinInfantrySniper.labelPlural>
+	
+	<!-- EN: crewman -->
+	<GrimalkinCrewman.label>член экипажа</GrimalkinCrewman.label>
+	
+	<!-- EN: crewmen -->
+	<GrimalkinCrewman.labelPlural>члены экипажа</GrimalkinCrewman.labelPlural>
+	
+	<!-- EN: stormtrooper -->
+	<GrimalkinStormtrooperAssault.label>штурмовик</GrimalkinStormtrooperAssault.label>
+	
+	<!-- EN: stormtroopers -->
+	<GrimalkinStormtrooperAssault.labelPlural>штурмовики</GrimalkinStormtrooperAssault.labelPlural>
+	
+	<!-- EN: stormtrooper -->
+	<GrimalkinStormtrooperHeavy.label>штурмовик</GrimalkinStormtrooperHeavy.label>
+	
+	<!-- EN: stormtroopers -->
+	<GrimalkinStormtrooperHeavy.labelPlural>штурмовики</GrimalkinStormtrooperHeavy.labelPlural>
+	
+	<!-- EN: staff officer -->
+	<GrimalkinStaffOfficer.label>штабной офицер</GrimalkinStaffOfficer.label>
+	
+	<!-- EN: staff officers -->
+	<GrimalkinStaffOfficer.labelPlural>штабные офицеры</GrimalkinStaffOfficer.labelPlural>
+	
+	<!-- EN: colonel -->
+	<GrimalkinColonel.label>полковник</GrimalkinColonel.label>
+	
+	<!-- EN: colonels -->
+	<GrimalkinColonel.labelPlural>полковники</GrimalkinColonel.labelPlural>
+	
+	<!-- EN: Grand Marshal -->
+	<GrimalkinGrandMarshal.label>Генералиссимус</GrimalkinGrandMarshal.label>
+	
+	<!-- EN: Grand Marshals -->
+	<GrimalkinGrandMarshal.labelPlural>Генералиссимусы</GrimalkinGrandMarshal.labelPlural>
+	
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IdeoIconDef>
+		<defName>Grimalkin_IdeoIcon</defName>
+		<iconPath>World/WorldObjects/Expanding/GrimalkinDominion</iconPath>
+		<cultures>
+			<li>Grimalkin_Culture</li>
+		</cultures>
+	</IdeoIconDef>
+	
+</Defs>

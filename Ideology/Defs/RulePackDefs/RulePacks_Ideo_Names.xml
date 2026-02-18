@@ -48,5 +48,17 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerIdeoGrimalkin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ideoName->Feline Juche</li>
+				<li>r_ideoAdjective->Jucheist</li>
+				<li>r_memberName->Jucheist</li>
+				<li>hyphenPrefix-> </li> <!-- No name prefixes -->
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
 
 </Defs>

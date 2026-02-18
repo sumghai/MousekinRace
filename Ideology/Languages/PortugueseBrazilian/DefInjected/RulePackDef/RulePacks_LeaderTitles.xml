@@ -28,5 +28,12 @@
 	<LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
 		<li>r_leaderTitle->Líder</li>
 	</LeaderTitleMaker_MousekinBrigands.rulePack.rulesStrings>
+
+	<!-- EN: 
+		<li>r_leaderTitle->Grand Marshal</li>
+	-->
+	<LeaderTitleMaker_Grimalkin.rulePack.rulesStrings>
+		<li>r_leaderTitle->Grão-Marechal</li>
+	</LeaderTitleMaker_Grimalkin.rulePack.rulesStrings>
 	
 </LanguageData>

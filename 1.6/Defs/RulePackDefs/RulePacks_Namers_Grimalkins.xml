@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerPerson_Grimalkin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=5)->[grimalkin_firstname] [grimalkin_surname_prefix][grimalkin_surname_suffix]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>grimalkin_firstname->Names/Grimalkin_Firstname</li>
+				<li>grimalkin_surname_prefix->Names/Grimalkin_Surname_Prefix</li>
+				<li>grimalkin_surname_suffix->Names/Grimalkin_Surname_Suffix</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

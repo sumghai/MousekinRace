@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Yaong-58 Assault Rifle -->
+	<Grimalkin_RangedWeapon_Rifle.label>Штурмовая винтовка Яонг-58</Grimalkin_RangedWeapon_Rifle.label>
+	
+	<!-- EN: A robust, durable assault rifle manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet AK-47 design, and the standard-issue weapon of Grimalkin riflemen. -->	
+	<Grimalkin_RangedWeapon_Rifle.description>Прочная и надежная штурмовая винтовка, произведенная Народной Республикой Грималкин как копия советской винтовки АК-47 Старой Земли, является стандартным оружием стрелков Грималкина.</Grimalkin_RangedWeapon_Rifle.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Rifle.tools.0.label>приклад</Grimalkin_RangedWeapon_Rifle.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Rifle.tools.1.label>ствол</Grimalkin_RangedWeapon_Rifle.tools.1.label>
+	
+	<!-- EN: Yaong-59 Light Machine Gun -->
+	<Grimalkin_RangedWeapon_Lmg.label>Легкий пулемет Яонг-59</Grimalkin_RangedWeapon_Lmg.label>
+	
+	<!-- EN: A light machine gun based on the Grimalkin Yaong-58 Assault Rifle, with a strengthened receiver and drum magazine allowing Grimalkin machine gunners to effectively suppress enemy formations. -->
+	<Grimalkin_RangedWeapon_Lmg.description>Легкий пулемет, созданный на основе штурмовой винтовки Грималкин Яонг-58, с усиленной ствольной коробкой и барабанным магазином, позволяющий пулеметчикам Грималкин эффективно подавлять вражеские формирования.</Grimalkin_RangedWeapon_Lmg.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Lmg.tools.0.label>приклад</Grimalkin_RangedWeapon_Lmg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Lmg.tools.1.label>ствол</Grimalkin_RangedWeapon_Lmg.tools.1.label>
+	
+	<!-- EN: Yaong-61 Grenade Launcher -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.label>Гранатомет Яонг-61</Grimalkin_RangedWeapon_GrenadeLauncher.label>
+	
+	<!-- EN: A six-shot, revolver-type grenade launcher with a retractable stock for compact storage, used by Grimalkin grenadiers to break up enemy formations or destroy light walls and barricades. -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.description>Шестизарядный гранатомет револьверного типа с выдвижным прикладом для компактного хранения, используемый гранатометчиками Грималкин для разбивания вражеских формирований или уничтожения легких стен и баррикад.</Grimalkin_RangedWeapon_GrenadeLauncher.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.tools.0.label>приклад</Grimalkin_RangedWeapon_GrenadeLauncher.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_GrenadeLauncher.tools.1.label>ствол</Grimalkin_RangedWeapon_GrenadeLauncher.tools.1.label>
+	
+	<!-- EN: Yaong-75 Sniper Rifle -->
+	<Grimalkin_RangedWeapon_Sniper.label>Снайперская винтовка Яонг-75</Grimalkin_RangedWeapon_Sniper.label>
+	
+	<!-- EN: A semi-automatic sniper rifle based on the Grimalkin Yaong-58 Assault Rifle and equipped with 4x20 optics, allowing Grimalkin snipers to engage high-value targets at range with impunity. -->
+	<Grimalkin_RangedWeapon_Sniper.description>Полуавтоматическая снайперская винтовка, созданная на основе штурмовой винтовки Грималкин Яонг-58 и оснащенная оптическим прицелом 4x20, позволяющая снайперам Грималкин безнаказанно поражать ценные цели на большом расстоянии.</Grimalkin_RangedWeapon_Sniper.description>
+	
+	<!-- EN: stock -->
+	<Grimalkin_RangedWeapon_Sniper.tools.0.label>приклад</Grimalkin_RangedWeapon_Sniper.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Sniper.tools.1.label>ствол</Grimalkin_RangedWeapon_Sniper.tools.1.label>
+	
+	<!-- EN: Yaong-89 SMG -->
+	<Grimalkin_RangedWeapon_Smg.label>Пистолет-пулемет Яонг-89</Grimalkin_RangedWeapon_Smg.label>
+	
+	<!-- EN: An indigenous submachine gun manufactured by the Grimalkin Dominion with a folding stock for compact storage, used by elite Grimalkin stormtroopers for trench warfare and raiding parties. -->
+	<Grimalkin_RangedWeapon_Smg.description>Оружие местного производства, изготовленное Народной Республикой Грималкин, со складным прикладом для компактного хранения, используемое элитными штурмовиками Грималкина для ведения окопной войны и рейдов.</Grimalkin_RangedWeapon_Smg.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Smg.tools.0.label>рукоять</Grimalkin_RangedWeapon_Smg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Smg.tools.1.label>ствол</Grimalkin_RangedWeapon_Smg.tools.1.label>
+	
+	<!-- EN: Yaong-23 Shotgun -->
+	<Grimalkin_RangedWeapon_Shotgun.label>Дробовик Яонг-23</Grimalkin_RangedWeapon_Shotgun.label>
+	
+	<!-- EN: A large caliber pump-action shotgun used by elite Grimalkin stormtroopers for close-quarters combat. -->
+	<Grimalkin_RangedWeapon_Shotgun.description>Крупнокалиберное помповое ружье, используемое элитными штурмовиками Грималкина для ближнего боя.</Grimalkin_RangedWeapon_Shotgun.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Smg.tools.0.label>рукоять</Grimalkin_RangedWeapon_Smg.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Smg.tools.1.label>ствол</Grimalkin_RangedWeapon_Smg.tools.1.label>
+	
+	<!-- EN: Yaong-69 RPG -->
+	<Grimalkin_RangedWeapon_Rpg.label>РПГ Яонг-69</Grimalkin_RangedWeapon_Rpg.label>
+	
+	<!-- EN: A reusable shoulder-fired weapon, capable of launching a variety of unguided rockets against enemy fortifications and lightly armored vehicles. -->
+	<Grimalkin_RangedWeapon_Rpg.description>Многоразовое оружие, стреляющее с плеча, способное запускать различные неуправляемые ракеты по укреплениям противника и легкобронированным транспортным средствам.</Grimalkin_RangedWeapon_Rpg.description>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Rpg.tools.0.label>ствол</Grimalkin_RangedWeapon_Rpg.tools.0.label>
+	
+	<!-- EN: Yaong-66 Service Pistol -->
+	<Grimalkin_RangedWeapon_Pistol.label>Служебный пистолет Яонг-66</Grimalkin_RangedWeapon_Pistol.label>
+	
+	<!-- EN: A compact semi-automatic pistol manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet Makarov design, carried by Grimalkin generals, officers and support staff. -->
+	<Grimalkin_RangedWeapon_Pistol.description>Компактный полуавтоматический пистолет, произведенный Народной Республикой Грималкин как копия советского пистолета Макарова старой Земли, который носят генералы, офицеры и вспомогательный персонал Грималкина.</Grimalkin_RangedWeapon_Pistol.description>
+	
+	<!-- EN: grip -->
+	<Grimalkin_RangedWeapon_Pistol.tools.0.label>рукоять</Grimalkin_RangedWeapon_Pistol.tools.0.label>
+	
+	<!-- EN: barrel -->
+	<Grimalkin_RangedWeapon_Pistol.tools.1.label>ствол</Grimalkin_RangedWeapon_Pistol.tools.1.label>
+	
+</LanguageData>

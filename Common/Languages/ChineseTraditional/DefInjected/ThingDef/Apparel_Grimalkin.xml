@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin infantry uniform -->
+	<Grimalkin_UniformInfantry.label>黑貓族步兵制服</Grimalkin_UniformInfantry.label>
+	
+	<!-- EN: A standard-issue collared tunic, trousers and knee-high leather boots, worn by most rank and file Grimalkin soldiers. -->
+	<Grimalkin_UniformInfantry.description>標準配發的立領上衣、長褲及及膝皮靴，為多數基層黑貓族士兵的制式裝束。</Grimalkin_UniformInfantry.description>
+	
+	<!-- EN: Grimalkin vehicle crew coverall -->
+	<Grimalkin_UniformVehicle.label>黑貓族裝甲車乘員防護服</Grimalkin_UniformVehicle.label>
+	
+	<!-- EN: A full-body flame-resistant jumpsuit, worn by Grimalkin ground vehicle crewmen. -->
+	<Grimalkin_UniformVehicle.description>黑貓族裝甲車乘員穿著的全身阻燃連身工作服。</Grimalkin_UniformVehicle.description>
+	
+	<!-- EN: Grimalkin stormtrooper uniform -->
+	<Grimalkin_UniformStormtrooper.label>黑貓族風暴兵制服</Grimalkin_UniformStormtrooper.label>
+	
+	<!-- EN: A set of camouflage fatigues, typically worn by elite Grimalkin stormtroopers. -->
+	<Grimalkin_UniformStormtrooper.description>一套迷彩作戰服，通常由精銳的黑貓族風暴兵穿著。</Grimalkin_UniformStormtrooper.description>
+	
+	<!-- EN: Grimalkin officer's uniform -->
+	<Grimalkin_UniformOfficer.label>黑貓族軍官制服</Grimalkin_UniformOfficer.label>
+	
+	<!-- EN: A field dress uniform worn by Grimalkin regiment commanders and staff officers. -->
+	<Grimalkin_UniformOfficer.description>黑貓族團級指揮官與參謀軍官穿著的禮服。</Grimalkin_UniformOfficer.description>
+	
+	<!-- EN: Grimalkin officer’s beret -->
+	<Grimalkin_HatOfficerBeret.label>黑貓族軍官貝雷帽</Grimalkin_HatOfficerBeret.label>
+	
+	<!-- EN: A round and flat-crowned cloth hat, worn by Grimalkin staff officers serving in rear-echelon roles. -->
+	<Grimalkin_HatOfficerBeret.description>圓頂平檐布製帽款，供後勤職能的黑貓族參謀軍官佩戴。</Grimalkin_HatOfficerBeret.description>
+	
+	<!-- EN: Grimalkin officer’s cap -->
+	<Grimalkin_HatOfficerCap.label>黑貓族軍官帽</Grimalkin_HatOfficerCap.label>
+	
+	<!-- EN: A large, visored peaked cap, worn by Grimalkin regiment commanders and generals as a symbol of their authority, with the oversized crown designed to intimidate lower-ranked Grimalkins and enemies. -->
+	<Grimalkin_HatOfficerCap.description>大型帶帽簷的三角帽，作為黑貓族團級指揮官與將領權威象徵，其超大帽冠設計旨在震懾低階黑貓族成員與敵軍。</Grimalkin_HatOfficerCap.description>
+	
+	<!-- EN: Grimalkin steel helmet -->
+	<Grimalkin_HelmetInfantry.label>黑貓族鋼盔</Grimalkin_HelmetInfantry.label>
+	
+	<!-- EN: A painted steel helmet with fabric padding, worn by Grimalkin soldiers for protection against shrapnel. -->
+	<Grimalkin_HelmetInfantry.description>塗裝鋼盔內襯布質緩衝墊，供黑貓族士兵抵禦彈片傷害。</Grimalkin_HelmetInfantry.description>
+	
+	<!-- EN: Grimalkin vehicle crew helmet -->
+	<Grimalkin_HelmetVehicle.label>黑貓族裝甲車乘員頭盔</Grimalkin_HelmetVehicle.label>
+	
+	<!-- EN: A heavily-padded leather helmet, worn by Grimalkin ground vehicle crewmen for protection against head injuries in the confined spaces of most armored vehicles. -->
+	<Grimalkin_HelmetVehicle.description>黑貓族裝甲車乘員佩戴的加厚皮革頭盔，用於在多數裝甲車狹窄空間內防護頭部受傷。</Grimalkin_HelmetVehicle.description>
+	
+</LanguageData>

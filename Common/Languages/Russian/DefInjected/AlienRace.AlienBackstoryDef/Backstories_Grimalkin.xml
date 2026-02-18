@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: factory kitten -->
+	<Grimalkin_Childhood_FactoryChild.title>заводской котенок</Grimalkin_Childhood_FactoryChild.title>
+	
+	<!-- EN: factory kitten -->
+	<Grimalkin_Childhood_FactoryChild.titleShort>заводской котенок</Grimalkin_Childhood_FactoryChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s father worked in one of the Grimalkin Dominion's many munitions factories, making grenades for the brave soldiers of the Grimalkin People's Liberation Army.\n\nAfter [PAWN_possessive] father bought a dummy grenade home to show [PAWN_objective], [PAWN_nameDef] began spending his free hours after school or studying helping out at the factory, where [PAWN_possessive] small paws made [PAWN_objective] very good at assembling and installing grenade fuzes. -->
+	<Grimalkin_Childhood_FactoryChild.description>Отец [PAWN_nameDef] работал на одном из многочисленных военных заводов Грималкинской Народной Республики, производя гранаты для отважных солдат Грималкинской Народно-освободительной армии.\n\nПосле того как отец [PAWN_possessive] принес домой муляж гранаты, чтобы показать [PAWN_objective], [PAWN_nameDef] начал проводить свободное время после школы или учебы, помогая на заводе, где маленькие лапки [PAWN_possessive] очень хорошо справлялись с сборкой и установкой взрывателей гранат.</Grimalkin_Childhood_FactoryChild.description>
+	
+	<!-- EN: farm kitten -->
+	<Grimalkin_Childhood_FarmChild.title>фермерский котенок</Grimalkin_Childhood_FarmChild.title>
+	
+	<!-- EN: farm kitten -->
+	<Grimalkin_Childhood_FarmChild.titleShort>фермерский котенок</Grimalkin_Childhood_FarmChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] grew up on one of the Grimalkin Dominion's many collective farms in the countryside, where [PAWN_pronoun] attended school by day, and helped [PAWN_possessive] family in the rice paddies in the afternoon.\n\nInspired by army convoys passing the fields daily, [PAWN_pronoun] vowed to join the Grimalkin People's Liberation Army when [PAWN_pronoun] grew up. -->
+	<Grimalkin_Childhood_FarmChild.description>[PAWN_nameDef] вырос в одной из многочисленных колхозов Народной Республики Грималкин в сельской местности, где [PAWN_pronoun] днем ходил в школу, а после обеда помогал [PAWN_possessive] семье на рисовых полях.\n\nВдохновленный армейскими колоннами, ежедневно проезжавшими мимо полей, [PAWN_pronoun] поклялся, что, когда вырастет, вступит в Народно-освободительную армию Грималкина.</Grimalkin_Childhood_FarmChild.description>
+	
+	<!-- EN: miner's kitten -->
+	<Grimalkin_Childhood_MineChild.title>шахтерский котенок</Grimalkin_Childhood_MineChild.title>
+	
+	<!-- EN: miner's kitten -->
+	<Grimalkin_Childhood_MineChild.titleShort>шахтерский котенок</Grimalkin_Childhood_MineChild.titleShort>
+	
+	<!-- EN: [PAWN_nameDef]'s parents toiled in one of the Grimalkin Dominion's many mines, extracting coking coal used in the nation's steelworking and munitions manufacturing industries. After school, [PAWN_pronoun] would help grade and sort coal lumps coming off the conveyor. -->
+	<Grimalkin_Childhood_MineChild.description>Родители [PAWN_nameDef] трудились в одной из многочисленных шахт Народной Республики Грималкин, добывая коксующийся уголь, используемый в сталелитейной и военной промышленности страны. После школы [PAWN_pronoun] помогал сортировать и классифицировать куски угля, сходящие с конвейера.</Grimalkin_Childhood_MineChild.description>
+	
+	<!-- EN: Young Pioneer -->
+	<Grimalkin_Childhood_YoungPioneer.title>Юный пионер</Grimalkin_Childhood_YoungPioneer.title>
+	
+	<!-- EN: Young Pioneer -->
+	<Grimalkin_Childhood_YoungPioneer.titleShort>Юный пионер</Grimalkin_Childhood_YoungPioneer.titleShort>
+	
+	<!-- EN: After giving a well-received speech at school on the principles and values of The Great Feline Revolution, [PAWN_nameDef] was awarded a red scarf, and nominated by [PAWN_possessive] teacher to become a Young Pioneer, leading [PAWN_possessive] classmates by example to dedicate their lives to the glory of the Grimalkin Dominion.\n\n[PAWN_pronoun] took additional political classes after school, and organized community volunteer activities such as collecting scrap metal for the country's military factories. -->
+	<Grimalkin_Childhood_YoungPioneer.description>После того, как [PAWN_nameDef] выступил в школе с речью о принципах и ценностях Великой кошачьей революции, которая была тепло принята, ему был вручен красный платок, и учитель [PAWN_possessive] номинировал его в Молодые пионеры, чтобы он своим примером вдохновлял одноклассников посвятить свою жизнь славе Народной Республики Грималкин.\n\n[PAWN_pronoun] посещал дополнительные уроки по политологии после школы и организовывал волонтерские акции, такие как сбор металлолома для военных заводов страны.</Grimalkin_Childhood_YoungPioneer.description>
+	
+	<!-- EN: rifleman -->
+	<Grimalkin_Adulthood_Rifleman.title>стрелок</Grimalkin_Adulthood_Rifleman.title>
+	
+	<!-- EN: rifleman -->
+	<Grimalkin_Adulthood_Rifleman.titleShort>стрелок</Grimalkin_Adulthood_Rifleman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] trained as a rifleman in the Grimalkin People's Liberation Army, and was often deployed on military operations to secure the Grimalkin Dominion's borders from trespassing Mousekins. -->
+	<Grimalkin_Adulthood_Rifleman.description>[PAWN_nameDef] прошел обучение в качестве стрелка в Народно-освободительной армии Грималкина и часто участвовал в военных операциях по защите границ Грималкинской Народной Республики от вторжения Мышкин.</Grimalkin_Adulthood_Rifleman.description>
+	
+	<!-- EN: machine gunner -->
+	<Grimalkin_Adulthood_MachineGunner.title>пулеметчик</Grimalkin_Adulthood_MachineGunner.title>
+	
+	<!-- EN: machine gunner -->
+	<Grimalkin_Adulthood_MachineGunner.titleShort>пулеметчик</Grimalkin_Adulthood_MachineGunner.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served in the Grimalkin People's Liberation Army as a squad machine gunner, laying down suppressive fire to help [PAWN_possessive] comrades advance in the field of battle. -->
+	<Grimalkin_Adulthood_MachineGunner.description>[PAWN_nameDef] служил в Народно-освободительной армии Грималкина в качестве пулеметчика взвода, ведя угнетающий огонь, чтобы помочь товарищам [PAWN_possessive] продвигаться на поле боя.</Grimalkin_Adulthood_MachineGunner.description>
+	
+	<!-- EN: grenadier -->
+	<Grimalkin_Adulthood_Grenadier.title>гренадер</Grimalkin_Adulthood_Grenadier.title>
+	
+	<!-- EN: grenadier -->
+	<Grimalkin_Adulthood_Grenadier.titleShort>гренадер</Grimalkin_Adulthood_Grenadier.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served in the Grimalkin People's Liberation Army as a squad grenadier, flushing out Mousekins hiding behind cover with indirect fire from [PAWN_possessive] grenade launcher. -->
+	<Grimalkin_Adulthood_Grenadier.description>[PAWN_nameDef] служил в Народно-освободительной армии Грималкина в качестве гранатометчика, выкуривая Мышкин, прячущихся за укрытиями, с помощью непрямой стрельбы из гранатомета [PAWN_possessive].</Grimalkin_Adulthood_Grenadier.description>
+	
+	<!-- EN: sniper -->
+	<Grimalkin_Adulthood_Sniper.title>снайпер</Grimalkin_Adulthood_Sniper.title>
+	
+	<!-- EN: sniper -->
+	<Grimalkin_Adulthood_Sniper.titleShort>снайпер</Grimalkin_Adulthood_Sniper.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] trained as a sniper in the Grimalkin People's Liberation Army, operating either alone, paired with another sniper/spotter, or attached to an infantry squad.\n\n[PAWN_pronoun] was skilled enough to shoot the ears off a Mousekin over five hundred meters away. -->
+	<Grimalkin_Adulthood_Sniper.description>[PAWN_nameDef] прошел обучение снайпера в Народно-освободительной армии Грималкина, действуя либо в одиночку, либо в паре с другим снайпером/наблюдателем, либо в составе пехотного отряда.\n\n[PAWN_pronoun] был настолько искусным, что мог сбить уши Мышкину на расстоянии более пятисот метров.</Grimalkin_Adulthood_Sniper.description>
+	
+	<!-- EN: vehicle crewman -->
+	<Grimalkin_Adulthood_Crewman.title>член экипажа</Grimalkin_Adulthood_Crewman.title>
+	
+	<!-- EN: crewman -->
+	<Grimalkin_Adulthood_Crewman.titleShort>член экипажа</Grimalkin_Adulthood_Crewman.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] operated various armored vehicles in the Grimalkin People's Liberation Army, ranging from light scout cars to infantry fighting vehicles and main battle tanks.\n\n[PAWN_pronoun] and [PAWN_possessive] fellow crewmen liked to run betting pools to see who can squash the most Mousekin peasants with their vehicles' wheels and tracked treads. -->
+	<Grimalkin_Adulthood_Crewman.description>[PAWN_nameDef] управлял различными бронемашинами в Народно-освободительной армии Грималкина, от легких разведывательных машин до боевых машин пехоты и основных боевых танков.\n\n[PAWN_pronoun] и [PAWN_possessive] товарищи по экипажу, любили устраивать пари, кто из них сможет раздавить больше всего Мышкин-крестьян колесами и гусеницами своих машин.</Grimalkin_Adulthood_Crewman.description>
+	
+	<!-- EN: stormtrooper -->
+	<Grimalkin_Adulthood_Stormtrooper.title>штурмовик</Grimalkin_Adulthood_Stormtrooper.title>
+	
+	<!-- EN: stormtrooper -->
+	<Grimalkin_Adulthood_Stormtrooper.titleShort>штурмовик</Grimalkin_Adulthood_Stormtrooper.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] displayed zealous ferocity during basic training, and was seconded by [PAWN_possessive] drill sergeant to the Stormtrooper Corps.\n\nAfter many months of grueling training, [PAWN_pronoun] was soon leading [PAWN_possessive] fellow stormtroopers and dozens of regular army infantrymen in assaulting trenches and overwhelming enemy defenses, [PAWN_possessive] combat prowess matched only by [PAWN_possessive] insatiable bloodlust for hapless Mousekins. -->
+	<Grimalkin_Adulthood_Stormtrooper.description>[PAWN_nameDef] проявил рвение и жестокость во время базовой подготовки и был направлен своим сержантом-инструктором в корпус штурмовиков.\n\nПосле многих месяцев изнурительной подготовки [PAWN_pronoun] вскоре возглавил [PAWN_possessive] штурмовиков и десятки солдат регулярной армии в штурме окопов и разгроме обороны противника. Боевые навыки [PAWN_possessive] могли сравниться разве что с [PAWN_possessive] неутолимой жаждой крови несчастных Мышкинов.</Grimalkin_Adulthood_Stormtrooper.description>
+	
+	<!-- EN: staff officer -->
+	<Grimalkin_Adulthood_StaffOfficer.title>штабной офицер</Grimalkin_Adulthood_StaffOfficer.title>
+	
+	<!-- EN: officer -->
+	<Grimalkin_Adulthood_StaffOfficer.titleShort>офицер</Grimalkin_Adulthood_StaffOfficer.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] served as a staff officer in the Grimalkin People's Liberation Army, performing clerical, logistics and other administrative work within the safe confines of Grimalkin Dominion military bases. -->
+	<Grimalkin_Adulthood_StaffOfficer.description>[PAWN_nameDef] служил штабным офицером в Народно-освободительной армии Грималкин, выполняя канцелярскую, логистическую и другую административную работу в безопасных пределах военных баз Народной Республики Грималкин.</Grimalkin_Adulthood_StaffOfficer.description>
+	
+	<!-- EN: colonel -->
+	<Grimalkin_Adulthood_Colonel.title>полковник</Grimalkin_Adulthood_Colonel.title>
+	
+	<!-- EN: colonel -->
+	<Grimalkin_Adulthood_Colonel.titleShort>полковник</Grimalkin_Adulthood_Colonel.titleShort>
+	
+	<!-- EN: [PAWN_nameDef] began his career in the Grimalkin People's Liberation Army as a lowly rifleman, whose frequent demonstrations of valor in battle and loyalty to the Fatherland earned [PAWN_objective] a much-coveted letter of recommendation to the prestigious Officers' Academy.\n\nAfter graduating as a First Lieutenant and being welcomed back to [PAWN_possessive] old unit as a platoon leader, [PAWN_pronoun] gradually worked [PAWN_possessive] way up the ranks until [PAWN_pronoun] eventually took command of the entire regiment after [PAWN_possessive] mentor and sponsor retired. -->
+	<Grimalkin_Adulthood_Colonel.description>[PAWN_nameDef] начал свою карьеру в Народно-освободительной армии Грималкина в качестве рядового стрелка, чьи частые проявления доблести в бою и верности Родине принесли [PAWN_objective] столь желанное рекомендательное письмо в престижную Офицерскую академию.\n\nПосле окончания академии в звании первого лейтенанта и возвращения в старую часть в качестве командира взвода, [PAWN_pronoun] постепенно продвигался по служебной лестнице, пока, в конце концов, не принял командование всем полком после ухода на пенсию своего наставника и покровителя.</Grimalkin_Adulthood_Colonel.description>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Adulthood_GrandMarshal.title>Генералиссимус</Grimalkin_Adulthood_GrandMarshal.title>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Adulthood_GrandMarshal.titleShort>Генералиссимус</Grimalkin_Adulthood_GrandMarshal.titleShort>
+	
+	<!-- EN: Through many decades of valorous service and demonstrated loyalty to the Fatherland, [PAWN_nameDef] rose through the ranks to be appointed as a general in the Central Military Commission, the supreme authority of the Grimalkin People's Liberation Army and the Grimalkin Dominion as a whole, and was later groomed by the previous Grand Marshal to eventually succeed him. -->
+	<Grimalkin_Adulthood_GrandMarshal.description>Благодаря многолетней доблестной службе и проявленной верности Родине, [PAWN_nameDef] прошел путь от рядового до генерала Центральной военной комиссии, высшего органа власти Народно-освободительной армии Грималкина и Грималкинской Народной Республики в целом, а затем был подготовлен предыдущим генералиссимусом к тому, чтобы в конечном итоге стать его преемником.</Grimalkin_Adulthood_GrandMarshal.description>
+	
+</LanguageData>

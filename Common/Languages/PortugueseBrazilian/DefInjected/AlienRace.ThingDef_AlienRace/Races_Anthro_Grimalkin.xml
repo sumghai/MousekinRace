@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin -->
+	<Grimalkin.label>Grimalkin</Grimalkin.label>
+	
+	<!-- EN: Species: &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("Wise black cat")\n\nA race of large anthropomorphic cats, readily identified by their triangular ears, uniformly dull black fur, yellow slit-pupiled eyes, protruding upper incisors and long bushy tails.\n\nGrimalkin adults can grow up to 150 centimeters tall, with males and females possessing visible scrotums and subdued chest mammary glands respectively, while individuals are discerned by subtle variations in head fur swirl or body odor. Their anatomical proportions are roughly similar to domesticated cats from Old Earth, save for additional bulk from body hair and fat.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single kitten, but twins, triplets and other multiple births are also possible.\n\nWhile the vast majority of humanoid feline races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is understood that Grimalkins originated from pet cats abandoned by an Old Earth Asian rump superpower's failed attempt at interstellar colonization; environmental and evolutionary pressures accelerated the species’ rise into sapience within a span of a mere few hundred years.\n\nBarring accidents, injury or disease, a Grimalkin’s average life expectancy is 70~80 years; their body fur becomes slightly matted by around over 60 years of age, but no Grimalkin will experience fur loss. -->
+	<Grimalkin.description>Espécie: &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("Gato preto sábio")\n\nUma raça de grandes gatos antropomórficos, facilmente identificáveis pelas suas orelhas triangulares, pelagem preta uniforme e opaca, olhos amarelos com pupilas fendidas, incisivos superiores salientes e caudas longas e espessas.\n\nOs adultos Grimalkin podem crescer até 150 centímetros de altura, com machos e fêmeas possuindo escrotos visíveis e glândulas mamárias suaves no peito, respectivamente, enquanto os indivíduos são diferenciados por variações sutis no redemoinho do pelo da cabeça ou no odor corporal. Suas proporções anatômicas são aproximadamente semelhantes às dos gatos domesticados da Velha Terra, exceto pelo volume adicional do pelo corporal e da gordura.\n\nO período médio de gestação é semelhante ao dos humanos comuns, após o qual uma mãe grávida normalmente daria à luz um único filhote, mas gêmeos, trigêmeos e outros nascimentos múltiplos também são possíveis.\n\nEmbora a grande maioria das raças felinas humanóides na galáxia seja produto de experimentos genéticos deliberados em humanos comuns que remontam a milênios, entende-se que os Grimalkins se originaram de gatos de estimação abandonados por uma tentativa fracassada de colonização interestelar de uma superpotência asiática da Velha Terra; pressões ambientais e evolutivas aceleraram o surgimento da espécie em sabedoria em um período de apenas algumas centenas de anos.\n\nExceto em casos de acidentes, ferimentos ou doenças, a expectativa de vida média de um Grimalkin é de 70 a 80 anos; seus pelos ficam ligeiramente emaranhados por volta dos 60 anos de idade, mas nenhum Grimalkin sofre perda de pelos.</Grimalkin.description>
+	
+	<!-- EN: left paw -->
+	<Grimalkin.tools.0.label>Pata Esquerda</Grimalkin.tools.0.label>
+	
+	<!-- EN: right paw -->
+	<Grimalkin.tools.1.label>Pata Direita</Grimalkin.tools.1.label>
+	
+	<!-- EN: teeth -->
+	<Grimalkin.tools.2.label>Dente</Grimalkin.tools.2.label>
+	
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin Dominion -->
+	<Grimalkin_Faction.fixedName>Грималкинская Народная Республика</Grimalkin_Faction.fixedName>
+	
+	<!-- EN: communist feline dictatorship -->
+	<Grimalkin_Faction.label>коммунистическая кошачья диктатура</Grimalkin_Faction.label>
+	
+	<!-- EN: A civilization of Grimalkins governed under a communist military dictatorship, whose ancestors descended from domesticated cats that survived a failed interstellar colony originally founded by a defunct East Asian superpower from Old Earth.\n\nEspousing self-reliance and military might, Grimalkins barely tolerate human societies, and are otherwise hostile to most other non-humans - especially rodentfolk like Mousekins. -->
+	<Grimalkin_Faction.description>Цивилизация Грималкинов, управляемая коммунистической военной диктатурой, чьи предки происходят от одомашненных кошек, выживших в неудавшейся межзвездной колонии, первоначально основанной несуществующей восточноазиатской сверхдержавой со Старой Земли.\n\nПридерживаясь принципов самодостаточности и военной мощи, Грималкины едва терпят человеческие общества и враждебно относятся к большинству других нелюдей, особенно к грызунам, таким как Мышкины.</Grimalkin_Faction.description>
+	
+	<!-- EN: Grimalkin -->
+	<Grimalkin_Faction.pawnSingular>Грималкин</Grimalkin_Faction.pawnSingular>
+	
+	<!-- EN: Grimalkins -->
+	<Grimalkin_Faction.pawnsPlural>Грималкин</Grimalkin_Faction.pawnsPlural>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Faction.leaderTitle>Генералиссимус</Grimalkin_Faction.leaderTitle>
+	
+	<!-- EN: Feline Juche -->
+	<Grimalkin_Faction.ideoName>Кошачий чучхе</Grimalkin_Faction.ideoName>
+	
+	<!-- EN: "&lt;i&gt;Yaong&lt;/i&gt;, stupid fur mouse lie and steal, make all bad. Cat resolute no forgive stupid fur mouse, kill mouse for make benefit Glorious People's Republic of Grimalkin, &lt;i&gt;yaong&lt;/i&gt;!"\n\n  - Preamble to the Socialist Constitution of the People's Republic of Grimalkin -->
+	<Grimalkin_Faction.ideoDescription>"&lt;i&gt;Яонг&lt;/i&gt;, тупой меховой мышь ложь и воровать, делать все плохое. Кот решительный не прощать тупой меховой мышь, убить мышь для сделать польза Славная Грималкинская Народная Республика, &lt;i&gt;Яонг&lt;/i&gt;!"\n\n  - Преамбула к Социалистической Конституции Грималкинская Народная Республика</Grimalkin_Faction.ideoDescription>
+	
+</LanguageData>

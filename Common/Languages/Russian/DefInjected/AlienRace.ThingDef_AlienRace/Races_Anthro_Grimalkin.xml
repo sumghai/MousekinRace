@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin -->
+	<Grimalkin.label>Грималкин</Grimalkin.label>
+	
+	<!-- EN: Species: &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("Wise black cat")\n\nA race of large anthropomorphic cats, readily identified by their triangular ears, uniformly dull black fur, yellow slit-pupiled eyes, protruding upper incisors and long bushy tails.\n\nGrimalkin adults can grow up to 150 centimeters tall, with males and females possessing visible scrotums and subdued chest mammary glands respectively, while individuals are discerned by subtle variations in head fur swirl or body odor. Their anatomical proportions are roughly similar to domesticated cats from Old Earth, save for additional bulk from body hair and fat.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single kitten, but twins, triplets and other multiple births are also possible.\n\nWhile the vast majority of humanoid feline races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is understood that Grimalkins originated from pet cats abandoned by an Old Earth Asian rump superpower's failed attempt at interstellar colonization; environmental and evolutionary pressures accelerated the species’ rise into sapience within a span of a mere few hundred years.\n\nBarring accidents, injury or disease, a Grimalkin’s average life expectancy is 70~80 years; their body fur becomes slightly matted by around over 60 years of age, but no Grimalkin will experience fur loss. -->
+	<Grimalkin.description>Научное название: &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("Мудрый черный кот")\n\nРаса крупных антропоморфных кошек, легко узнаваемых по треугольным ушам, однородной матовой черной шерсти, желтым глазам с щелевидными зрачками, выступающим верхним резцам и длинным пушистым хвостам.\n\nВзрослые Грималкины могут достигать 150 сантиметров в высоту, причем у самцов и самок соответственно имеются видимые мошонки и нежные молочные железы на груди, а отдельные особи различаются по тонким различиям в завитках шерсти на голове или запаху тела. Их анатомические пропорции примерно соответствуют пропорциям домашних кошек Старой Земли, за исключением дополнительной массы, обусловленной шерстью и жиром.\n\nСредний срок беременности аналогичен базовому для людей, после чего беременная самка обычно рождает одного котенка, но возможны также роды двойни, тройни и других многоплодных детей.\n\nХотя подавляющее большинство человекоподобных кошачьих рас в галактике являются результатом преднамеренных генетических экспериментов над обычными людьми, проводившихся тысячелетия назад, считается, что грималкины произошли от домашних кошек, брошенных в результате неудачной попытки межзвездной колонизации со стороны азиатской сверхдержавы Старой Земли; давление окружающей среды и эволюционные факторы ускорили развитие разумности этого вида в течение всего лишь нескольких сотен лет.\n\nЕсли не считать несчастных случаев, травм или болезней, средняя продолжительность жизни грималкина составляет 70-80 лет; их шерсть становится слегка спутанной примерно в 60 лет, но ни один грималкин не теряет шерсть.</Grimalkin.description>
+	
+	<!-- EN: left paw -->
+	<Grimalkin.tools.0.label>левая лапа</Grimalkin.tools.0.label>
+	
+	<!-- EN: right paw -->
+	<Grimalkin.tools.1.label>правая лапа</Grimalkin.tools.1.label>
+	
+	<!-- EN: teeth -->
+	<Grimalkin.tools.2.label>зубы</Grimalkin.tools.2.label>
+	
+</LanguageData>

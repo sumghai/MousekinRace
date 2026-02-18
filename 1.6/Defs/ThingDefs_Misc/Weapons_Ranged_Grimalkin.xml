@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<!-- ========================= Base abtracts ========================== -->
+	
+	<ThingDef Name="Grimalkin_RangedWeapon_Base" ParentName="BaseGunWithQuality" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<relicChance>0</relicChance>
+		<thingCategories>
+			<li>Grimalkin_WeaponsRanged</li>
+		</thingCategories>
+		<tradeTags Inherit="false">
+			<li>WeaponRanged</li><!-- Grimalkins often export weapons to some human factions -->
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- ========================= Infantry weapons (non-craftable) ========================== -->
+	
+	<!-- Yaong-58 Assault Rifle (AK-47) -->
+	<ThingDef ParentName="Grimalkin_RangedWeapon_Base">
+		<defName>Grimalkin_RangedWeapon_Rifle</defName>
+		<label>Yaong-58 Assault Rifle</label>
+		<description>A robust, durable assault rifle manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet AK-47 design, and the standard-issue weapon of Grimalkin riflemen.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Grimalkin_Rifle</texPath>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<Mass>3.47</Mass>
+			<MarketValue>345</MarketValue>
+			<AccuracyTouch>0.64</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.61</AccuracyMedium>
+			<AccuracyLong>0.52</AccuracyLong>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GrimalkinInfantryRifle</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<smeltProducts>
+			<Steel>45</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<!-- Yaong-59 Light Machine Gun (RPK) -->
+	<ThingDef ParentName="Grimalkin_RangedWeapon_Base">
+		<defName>Grimalkin_RangedWeapon_Lmg</defName>
+		<label>Yaong-59 Light Machine Gun</label>
+		<description>A light machine gun based on the Grimalkin Yaong-58 Assault Rifle, with a strengthened receiver and drum magazine allowing Grimalkin machine gunners to effectively suppress enemy formations.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Grimalkin_LMG</texPath>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<Mass>4.8</Mass>
+			<MarketValue>425</MarketValue>
+			<AccuracyTouch>0.52</AccuracyTouch>
+			<AccuracyShort>0.61</AccuracyShort>
+			<AccuracyMedium>0.53</AccuracyMedium>
+			<AccuracyLong>0.42</AccuracyLong>
+			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GrimalkinInfantryMG</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_LMG</defaultProjectile>
+				<warmupTime>1.8</warmupTime>
+				<range>26.9</range>
+				<burstShotCount>6</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>Shot_Minigun</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<smeltProducts>
+			<Steel>65</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<!-- Yaong-61 Grenade Launcher (RG-6 design, Milkor MGL stats) -->
+	<ThingDef ParentName="Grimalkin_RangedWeapon_Base">
+		<defName>Grimalkin_RangedWeapon_GrenadeLauncher</defName>
+		<label>Yaong-61 Grenade Launcher</label>
+		<description>A six-shot, revolver-type grenade launcher with a retractable stock for compact storage, used by Grimalkin grenadiers to break up enemy formations or destroy light walls and barricades.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Grimalkin_GrenadeLauncher</texPath>
+		</graphicData>
+		<soundInteract>Interact_Shotgun</soundInteract>
+		<statBases>
+			<Mass>6.2</Mass>
+			<MarketValue>450</MarketValue>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.50</AccuracyShort>
+			<AccuracyMedium>0.39</AccuracyMedium>
+			<AccuracyLong>0.23</AccuracyLong>
+			<RangedWeapon_Cooldown>3.1</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GrimalkinInfantryGrenadier</li>
+			<li>GrimalkinStormtrooperHeavy</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Grenade_Grimalkin_RangedWeapon_GrenadeLauncher</defaultProjectile>
+				<forcedMissRadius>1.2</forcedMissRadius>
+				<warmupTime>3.8</warmupTime>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<range>35</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<soundCast>Grimalkin_GrenadeLauncher_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast>
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<ai_IsDoorDestroyer>true</ai_IsDoorDestroyer>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<smeltProducts>
+			<Steel>40</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<!-- Yaong-75 Sniper Rifle (Dragunov sniper rifle / SVD) -->
+	<ThingDef ParentName="Grimalkin_RangedWeapon_Base">
+		<defName>Grimalkin_RangedWeapon_Sniper</defName>
+		<label>Yaong-75 Sniper Rifle</label>
+		<description>A semi-automatic sniper rifle based on the Grimalkin Yaong-58 Assault Rifle and equipped with 4x20 optics, allowing Grimalkin snipers to engage high-value targets at range with impunity.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Grimalkin_SniperRifle</texPath>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<Mass>4.3</Mass>
+			<MarketValue>500</MarketValue>
+			<AccuracyTouch>0.61</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.88</AccuracyMedium>
+			<AccuracyLong>0.90</AccuracyLong>
+			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GrimalkinInfantrySniper</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>LongShots</li>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_SniperRifle</defaultProjectile>
+				<warmupTime>1.35</warmupTime>
+				<range>45.9</range>
+				<soundCast>Shot_SniperRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<smeltProducts>
+			<Steel>60</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<!-- ========================= Stormtrooper weapons (non-craftable) ========================== -->
+	
+	<!-- Yaong-89 SMG (indigenous design, PP-19 Bizon stats) -->
+	<ThingDef ParentName="Grimalkin_RangedWeapon_Base">
+		<defName>Grimalkin_RangedWeapon_Smg</defName>
+		<label>Yaong-89 SMG</label>
+		<description>An indigenous submachine gun manufactured by the Grimalkin Dominion with a folding stock for compact storage, used by elite Grimalkin stormtroopers for trench warfare and raiding parties.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Grimalkin_SMG</texPath>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+		<statBases>
+			<Mass>2.1</Mass>
+			<MarketValue>300</MarketValue>
+			<AccuracyTouch>0.87</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
+			<RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GrimalkinStormtrooperAssault</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_HeavySMG</defaultProjectile>
+				<warmupTime>0.7</warmupTime>
+				<range>24</range>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>Shot_HeavySMG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<smeltProducts>
+			<Steel>30</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<!-- Yaong-23 Shotgun (KS-23M) -->
+	<ThingDef ParentName="Grimalkin_RangedWeapon_Base">
+		<defName>Grimalkin_RangedWeapon_Shotgun</defName>
+		<label>Yaong-23 Shotgun</label>
+		<description>A large caliber pump-action shotgun used by elite Grimalkin stormtroopers for close-quarters combat.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Grimalkin_Shotgun</texPath>
+		</graphicData>
+		<soundInteract>Interact_Shotgun</soundInteract>
+		<statBases>
+			<Mass>3.5</Mass>
+			<MarketValue>300</MarketValue>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.67</AccuracyShort>
+			<AccuracyMedium>0.25</AccuracyMedium>
+			<AccuracyLong>0.02</AccuracyLong>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GrimalkinStormtrooperAssault</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Shotgun</defaultProjectile>
+				<warmupTime>0.9</warmupTime>
+				<range>19</range>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<smeltProducts>
+			<Steel>35</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<!-- Yaong-69 RPG (RPG-7) -->
+	<ThingDef ParentName="Grimalkin_RangedWeapon_Base">
+		<defName>Grimalkin_RangedWeapon_Rpg</defName>
+		<label>Yaong-69 RPG</label>
+		<description>A reusable shoulder-fired weapon, capable of launching a variety of unguided rockets against enemy fortifications and lightly armored vehicles.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Grimalkin_RPG</texPath>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<Mass>6.3</Mass>
+			<MarketValue>600</MarketValue>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.78</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.86</AccuracyLong>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GrimalkinStormtrooperHeavy</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<verbs>
+			<li>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Rocket_Grimalkin_RangedWeapon_Rpg</defaultProjectile>
+				<forcedMissRadius>0.9</forcedMissRadius>
+				<warmupTime>3.2</warmupTime>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<range>40</range>
+				<soundCast>Grimalkin_Rpg_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast>
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>15</muzzleFlashScale>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<ai_IsDoorDestroyer>true</ai_IsDoorDestroyer>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<smeltProducts>
+			<Steel>70</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+	<!-- ========================= Officer weapons (non-craftable) ========================== -->
+	
+	<!-- Yaong-66 Service Pistol (Makarov) --> 
+	<ThingDef ParentName="Grimalkin_RangedWeapon_Base">
+		<defName>Grimalkin_RangedWeapon_Pistol</defName>
+		<label>Yaong-66 Service Pistol</label>
+		<description>A compact semi-automatic pistol manufactured by the Grimalkin Dominion as a reproduction of the Old Earth Soviet Makarov design, carried by Grimalkin generals, officers and support staff.</description>
+		<graphicData>
+			<texPath>Things/Items/WeaponRanged/Grimalkin_Pistol</texPath>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<statBases>
+			<Mass>0.73</Mass>
+			<MarketValue>145</MarketValue>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.7</AccuracyShort>
+			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyLong>0.30</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GrimalkinCrewman</li>
+			<li>GrimalkinOfficer</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Autopistol</defaultProjectile>
+				<warmupTime>0.3</warmupTime>
+				<range>25.9</range>
+				<soundCast>Shot_Autopistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<smeltProducts>
+			<Steel>25</Steel>
+		</smeltProducts>
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Grimalkin -->
+	<Grimalkin.label>그림알킨</Grimalkin.label>
+
+	<!-- EN: left lung -->
+	<Grimalkin.corePart.parts.6.customLabel>왼쪽 폐</Grimalkin.corePart.parts.6.customLabel>
+
+	<!-- EN: right lung -->
+	<Grimalkin.corePart.parts.7.customLabel>오른쪽 폐</Grimalkin.corePart.parts.7.customLabel>
+
+	<!-- EN: left kidney -->
+	<Grimalkin.corePart.parts.8.customLabel>왼쪽 신장</Grimalkin.corePart.parts.8.customLabel>
+
+	<!-- EN: right kidney -->
+	<Grimalkin.corePart.parts.9.customLabel>오른쪽 신장</Grimalkin.corePart.parts.9.customLabel>
+
+	<!-- EN: left eye -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.1.customLabel>왼쪽 눈</Grimalkin.corePart.parts.11.parts.0.parts.1.customLabel>
+
+	<!-- EN: right eye -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.2.customLabel>오른쪽 눈</Grimalkin.corePart.parts.11.parts.0.parts.2.customLabel>
+
+	<!-- EN: left ear -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.3.customLabel>왼쪽 귀</Grimalkin.corePart.parts.11.parts.0.parts.3.customLabel>
+
+	<!-- EN: right ear -->
+	<Grimalkin.corePart.parts.11.parts.0.parts.4.customLabel>오른쪽 귀</Grimalkin.corePart.parts.11.parts.0.parts.4.customLabel>
+
+	<!-- EN: left shoulder -->
+	<Grimalkin.corePart.parts.12.customLabel>왼쪽 어깨</Grimalkin.corePart.parts.12.customLabel>
+
+	<!-- EN: left clavicle -->
+	<Grimalkin.corePart.parts.12.parts.0.customLabel>왼쪽 쇄골</Grimalkin.corePart.parts.12.parts.0.customLabel>
+
+	<!-- EN: left arm -->
+	<Grimalkin.corePart.parts.12.parts.1.customLabel>왼쪽 팔</Grimalkin.corePart.parts.12.parts.1.customLabel>
+
+	<!-- EN: left humerus -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.0.customLabel>왼쪽 상완골</Grimalkin.corePart.parts.12.parts.1.parts.0.customLabel>
+
+	<!-- EN: left radius -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.1.customLabel>왼쪽 반경</Grimalkin.corePart.parts.12.parts.1.parts.1.customLabel>
+
+	<!-- EN: left paw -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.customLabel>왼발</Grimalkin.corePart.parts.12.parts.1.parts.2.customLabel>
+
+	<!-- EN: left pinky -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>왼쪽 새끼손가락</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: left ring finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>왼쪽 약지</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>왼쪽 가운데 손가락</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: left index finger -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>왼쪽 집게 손가락</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: left thumb -->
+	<Grimalkin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>왼쪽 엄지</Grimalkin.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: right shoulder -->
+	<Grimalkin.corePart.parts.13.customLabel>오른쪽 어깨</Grimalkin.corePart.parts.13.customLabel>
+
+	<!-- EN: right clavicle -->
+	<Grimalkin.corePart.parts.13.parts.0.customLabel>오른쪽 쇄골</Grimalkin.corePart.parts.13.parts.0.customLabel>
+
+	<!-- EN: right arm -->
+	<Grimalkin.corePart.parts.13.parts.1.customLabel>오른팔</Grimalkin.corePart.parts.13.parts.1.customLabel>
+
+	<!-- EN: right humerus -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.0.customLabel>오른쪽 상완골</Grimalkin.corePart.parts.13.parts.1.parts.0.customLabel>
+
+	<!-- EN: right radius -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.1.customLabel>오른쪽 반지름</Grimalkin.corePart.parts.13.parts.1.parts.1.customLabel>
+
+	<!-- EN: right paw -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.customLabel>오른발</Grimalkin.corePart.parts.13.parts.1.parts.2.customLabel>
+
+	<!-- EN: right pinky -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>오른쪽 새끼손가락</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+
+	<!-- EN: right ring finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>오른쪽 약지</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>오른쪽 가운데 손가락</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+
+	<!-- EN: right index finger -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>오른쪽 검지</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+
+	<!-- EN: right thumb -->
+	<Grimalkin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>오른쪽 엄지</Grimalkin.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+
+	<!-- EN: tail -->
+	<Grimalkin.corePart.parts.15.customLabel>꼬리</Grimalkin.corePart.parts.15.customLabel>
+
+	<!-- EN: left leg -->
+	<Grimalkin.corePart.parts.16.customLabel>왼쪽 다리</Grimalkin.corePart.parts.16.customLabel>
+
+	<!-- EN: left femur -->
+	<Grimalkin.corePart.parts.16.parts.0.customLabel>왼쪽 대퇴골</Grimalkin.corePart.parts.16.parts.0.customLabel>
+
+	<!-- EN: left tibia -->
+	<Grimalkin.corePart.parts.16.parts.1.customLabel>왼쪽 경골</Grimalkin.corePart.parts.16.parts.1.customLabel>
+
+	<!-- EN: left hind paw -->
+	<Grimalkin.corePart.parts.16.parts.2.customLabel>왼쪽 뒷발</Grimalkin.corePart.parts.16.parts.2.customLabel>
+
+	<!-- EN: left little toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.0.customLabel>왼쪽 새끼발가락</Grimalkin.corePart.parts.16.parts.2.parts.0.customLabel>
+
+	<!-- EN: left fourth toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.1.customLabel>왼쪽 네 번째 발가락</Grimalkin.corePart.parts.16.parts.2.parts.1.customLabel>
+
+	<!-- EN: left middle toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.2.customLabel>왼쪽 가운데 발가락</Grimalkin.corePart.parts.16.parts.2.parts.2.customLabel>
+
+	<!-- EN: left second toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.3.customLabel>왼쪽 두 번째 발가락</Grimalkin.corePart.parts.16.parts.2.parts.3.customLabel>
+
+	<!-- EN: left big toe -->
+	<Grimalkin.corePart.parts.16.parts.2.parts.4.customLabel>왼쪽 엄지발가락</Grimalkin.corePart.parts.16.parts.2.parts.4.customLabel>
+
+	<!-- EN: right leg -->
+	<Grimalkin.corePart.parts.17.customLabel>오른쪽 다리</Grimalkin.corePart.parts.17.customLabel>
+
+	<!-- EN: right femur -->
+	<Grimalkin.corePart.parts.17.parts.0.customLabel>오른쪽 대퇴골</Grimalkin.corePart.parts.17.parts.0.customLabel>
+
+	<!-- EN: right tibia -->
+	<Grimalkin.corePart.parts.17.parts.1.customLabel>오른쪽 경골</Grimalkin.corePart.parts.17.parts.1.customLabel>
+
+	<!-- EN: right hind paw -->
+	<Grimalkin.corePart.parts.17.parts.2.customLabel>오른쪽 뒷발</Grimalkin.corePart.parts.17.parts.2.customLabel>
+
+	<!-- EN: right little toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.0.customLabel>오른쪽 새끼발가락</Grimalkin.corePart.parts.17.parts.2.parts.0.customLabel>
+
+	<!-- EN: right fourth toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.1.customLabel>오른쪽 네 번째 발가락</Grimalkin.corePart.parts.17.parts.2.parts.1.customLabel>
+
+	<!-- EN: right middle toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.2.customLabel>오른쪽 가운데 발가락</Grimalkin.corePart.parts.17.parts.2.parts.2.customLabel>
+
+	<!-- EN: right second toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.3.customLabel>오른쪽 두 번째 발가락</Grimalkin.corePart.parts.17.parts.2.parts.3.customLabel>
+
+	<!-- EN: right big toe -->
+	<Grimalkin.corePart.parts.17.parts.2.parts.4.customLabel>오른쪽 엄지발가락</Grimalkin.corePart.parts.17.parts.2.parts.4.customLabel>
+	
+</LanguageData>

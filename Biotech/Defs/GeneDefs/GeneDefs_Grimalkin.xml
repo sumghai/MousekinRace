@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GeneDef ParentName="GeneVoiceBase">
+		<defName>Grimalkin_GeneVoiceGrimalkin</defName>
+		<label>cat voice</label>
+		<description>Carriers have a raspy cat-like voice.</description>
+		<iconPath>UI/Icons/Genes/Gene_VoiceGrimalkin</iconPath>
+		<displayOrderInCategory>122</displayOrderInCategory>
+		<soundCall>Pawn_Cat_Call</soundCall>
+		<soundDeath>Pawn_Cat_Death</soundDeath>
+		<soundWounded>Pawn_Cat_Injured</soundWounded>
+	</GeneDef>
+	
+</Defs>

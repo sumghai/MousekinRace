@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: rifleman -->
+	<GrimalkinInfantryRifle.label>步槍兵</GrimalkinInfantryRifle.label>
+	
+	<!-- EN: riflemen -->
+	<GrimalkinInfantryRifle.labelPlural>步槍兵</GrimalkinInfantryRifle.labelPlural>
+	
+	<!-- EN: machine gunner -->
+	<GrimalkinInfantryMG.label>機槍兵</GrimalkinInfantryMG.label>
+	
+	<!-- EN: machine gunners -->
+	<GrimalkinInfantryMG.labelPlural>機槍兵</GrimalkinInfantryMG.labelPlural>
+	
+	<!-- EN: grenadier -->
+	<GrimalkinInfantryGrenadier.label>榴彈兵</GrimalkinInfantryGrenadier.label>
+	
+	<!-- EN: grenadiers -->
+	<GrimalkinInfantryGrenadier.labelPlural>榴彈兵</GrimalkinInfantryGrenadier.labelPlural>
+	
+	<!-- EN: sniper -->
+	<GrimalkinInfantrySniper.label>狙擊兵</GrimalkinInfantrySniper.label>
+	
+	<!-- EN: snipers -->
+	<GrimalkinInfantrySniper.labelPlural>狙擊兵</GrimalkinInfantrySniper.labelPlural>
+	
+	<!-- EN: crewman -->
+	<GrimalkinCrewman.label>裝甲車乘員</GrimalkinCrewman.label>
+	
+	<!-- EN: crewmen -->
+	<GrimalkinCrewman.labelPlural>裝甲車乘員</GrimalkinCrewman.labelPlural>
+	
+	<!-- EN: stormtrooper -->
+	<GrimalkinStormtrooperAssault.label>風暴兵</GrimalkinStormtrooperAssault.label>
+	
+	<!-- EN: stormtroopers -->
+	<GrimalkinStormtrooperAssault.labelPlural>風暴兵</GrimalkinStormtrooperAssault.labelPlural>
+	
+	<!-- EN: stormtrooper -->
+	<GrimalkinStormtrooperHeavy.label>風暴兵</GrimalkinStormtrooperHeavy.label>
+	
+	<!-- EN: stormtroopers -->
+	<GrimalkinStormtrooperHeavy.labelPlural>風暴兵</GrimalkinStormtrooperHeavy.labelPlural>
+	
+	<!-- EN: staff officer -->
+	<GrimalkinStaffOfficer.label>參謀軍官</GrimalkinStaffOfficer.label>
+	
+	<!-- EN: staff officers -->
+	<GrimalkinStaffOfficer.labelPlural>參謀軍官</GrimalkinStaffOfficer.labelPlural>
+	
+	<!-- EN: colonel -->
+	<GrimalkinColonel.label>上校</GrimalkinColonel.label>
+	
+	<!-- EN: colonels -->
+	<GrimalkinColonel.labelPlural>上校</GrimalkinColonel.labelPlural>
+	
+	<!-- EN: Grand Marshal -->
+	<GrimalkinGrandMarshal.label>大元帥</GrimalkinGrandMarshal.label>
+	
+	<!-- EN: Grand Marshals -->
+	<GrimalkinGrandMarshal.labelPlural>大元帥</GrimalkinGrandMarshal.labelPlural>
+	
+</LanguageData>

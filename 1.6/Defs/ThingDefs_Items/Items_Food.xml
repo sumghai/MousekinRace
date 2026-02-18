@@ -184,4 +184,43 @@
 		</comps>
 	</ThingDef>
 	
+	<!-- ========== Uncraftable ========== -->
+	
+	<!-- Grimalkin Rations (survival meal) -->
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>Grimalkin_MealRations</defName>
+		<label>Grimalkin rations</label>
+		<description>Assorted cans of pre-cooked rice, pickled vegetables, and meat, issued to Grimalkin soldiers as field rations. Will never rot, and deteriorates very slowly if left outside.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/Meal/Grimalkin_MealRations</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>0.1</DeteriorationRate>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<ingestible>
+			<foodType>Meal</foodType>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				<noIngredientsFoodKind>Meat</noIngredientsFoodKind>
+			</li>
+		</comps>
+	</ThingDef>
+	
 </Defs>

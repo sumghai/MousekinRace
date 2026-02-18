@@ -73,5 +73,18 @@
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
-
+	
+	<RulePackDef>
+		<defName>NamerSettlement_Grimalkin</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=6)->Observation Post [Letter]-[Digit][Digit]</li>
+				<li>r_name(p=4)->Forward Operating Base [Letter]-[Digit][Digit]</li>
+				<li>r_name(p=2)->Fire Support Base [Letter]-[Digit][Digit]</li>
+				<li>r_name(p=2)->Logistics Base [Letter]-[Digit][Digit]</li>
+				<li>r_name->Main Operating Base [Letter]-[Digit][Digit]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
 </Defs>

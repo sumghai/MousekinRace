@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin -->
+	<Grimalkin.label>그리말킨</Grimalkin.label>
+	
+	<!-- EN: Species: &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("Wise black cat")\n\nA race of large anthropomorphic cats, readily identified by their triangular ears, uniformly dull black fur, yellow slit-pupiled eyes, protruding upper incisors and long bushy tails.\n\nGrimalkin adults can grow up to 150 centimeters tall, with males and females possessing visible scrotums and subdued chest mammary glands respectively, while individuals are discerned by subtle variations in head fur swirl or body odor. Their anatomical proportions are roughly similar to domesticated cats from Old Earth, save for additional bulk from body hair and fat.\n\nThe average gestation period is similar to baseline humans, after which an pregnant mother would typically give birth to a single kitten, but twins, triplets and other multiple births are also possible.\n\nWhile the vast majority of humanoid feline races in the galaxy are the product of deliberate genetic experimentation on baseline humans dating back millenia, it is understood that Grimalkins originated from pet cats abandoned by an Old Earth Asian rump superpower's failed attempt at interstellar colonization; environmental and evolutionary pressures accelerated the species’ rise into sapience within a span of a mere few hundred years.\n\nBarring accidents, injury or disease, a Grimalkin’s average life expectancy is 70~80 years; their body fur becomes slightly matted by around over 60 years of age, but no Grimalkin will experience fur loss. -->
+	<Grimalkin.description>종： &lt;i&gt;Felis sapiens atratus&lt;/i&gt; ("현명한 검은 고양이")\n\n삼각형 귀, 균일한 무광 검은 털, 노란색 찢어진 동공의 눈, 돌출된 상악 앞니, 그리고 길고 덥수룩한 꼬리로 쉽게 식별되는 대형 의인화된 고양이 종족이다.\n\n성체 그리말킨은 최대 150센티미터까지 성장하며, 수컷은 음낭이, 암컷은 가슴 유선이 뚜렷하게 드러난다. 개체별 차이는 머리털 소용돌이 무늬나 체취의 미묘한 차이로 구분된다. 해부학적 비율은 구지구의 가축화된 고양이와 대체로 유사하나, 체모와 지방으로 인한 추가적인 덩치 차이는 존재한다.\n\n평균 임신 기간은 기본 인간과 유사하며, 임신한 어미는 일반적으로 새끼 고양이 한 마리를 출산하지만 쌍둥이, 세 쌍둥이 및 기타 다태 출산도 가능하다.\n\n은하계 내 대부분의 인간형 고양이 종족이 수천 년 전 기준 인간을 대상으로 한 의도적 유전자 실험의 산물인 반면, 그리말킨은 구 지구 아시아 잔존 초강대국의 실패한 성간 식민지화 시도 과정에서 버려진 애완묘에서 유래한 것으로 알려져 있다. 환경적·진화적 압박으로 인해 이 종은 불과 수백 년 만에 지성체로 진화하는 과정을 가속화했다.\n\n사고, 부상 또는 질병이 없는 한 그리말킨의 평균 수명은 70~80년이다. 60세 이상이 되면 몸털이 약간 엉키기 시작하지만, 털이 빠지는 일은 없다.</Grimalkin.description>
+	
+	<!-- EN: left paw -->
+	<Grimalkin.tools.0.label>왼발</Grimalkin.tools.0.label>
+	
+	<!-- EN: right paw -->
+	<Grimalkin.tools.1.label>오른발</Grimalkin.tools.1.label>
+	
+	<!-- EN: teeth -->
+	<Grimalkin.tools.2.label>이</Grimalkin.tools.2.label>
+	
+</LanguageData>

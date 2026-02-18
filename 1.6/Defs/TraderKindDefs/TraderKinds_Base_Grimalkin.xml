@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<TraderKindDef>
+		<defName>Grimalkin_TraderSettlement</defName>
+		<stockGenerators>
+			
+			<!-- Currency -->
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>3000~5000</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Gold</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			
+			<!-- Resources -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Steel</thingDef>
+				<countRange>500~800</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>WoodLog</thingDef>
+				<countRange>400~700</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Uranium</thingDef>
+				<countRange>40~200</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chemfuel</thingDef>
+				<countRange>300~500</countRange>
+			</li>
+			
+			<!-- Crops -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>PlantFoodRaw</categoryDef>
+				<!-- Grimalkins don't eat Mousekin nut crops -->
+				<excludedThingDefs>
+					<li>Mousekin_RawNutChonko</li>
+					<li>Mousekin_RawNutNyam</li>
+				</excludedThingDefs>
+				<thingDefCountRange>10~12</thingDefCountRange>
+				<countRange>800~1200</countRange>
+			</li>
+
+			<!-- Meat -->
+
+			<li Class="StockGenerator_Tag">
+				<!-- As meats are dynamically-generated defs, selected meat types known to Mousekins (and Grimalkins) are assigned a custom tradeTag at runtime via the mod assembly -->
+				<tradeTag>Mousekin_TradeGoods_Meat</tradeTag>
+				<thingDefCountRange>5~7</thingDefCountRange>
+				<countRange>500~800</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Meat_Rat</thingDef>
+				<countRange>200~300</countRange>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Meat_Mousekin</thingDef>
+				<countRange>50~100</countRange>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Meat_Mousekin_AnimalGiantCavy</thingDef>
+				<countRange>200~300</countRange>
+				<price>Expensive</price>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Meat_Mousekin_AnimalPudgemouse</thingDef>
+				<countRange>200~300</countRange>
+				<price>Expensive</price>
+			</li>
+			
+			<!-- Food -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Grimalkin_MealRations</thingDef>
+				<countRange>200~300</countRange>
+			</li>
+			
+			<li Class="StockGenerator_MultiDef">
+				<thingDefs>
+					<li>Kibble</li>
+					<li>Pemmican</li>
+				</thingDefs>
+			</li>
+			
+			<!-- Beverages -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Beer</thingDef>
+				<countRange>-40~100</countRange>
+			</li>
+			
+			<!-- Misc manufactured items -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>20~70</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>50~100</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Neutroamine</thingDef>
+				<countRange>50~200</countRange>
+			</li>
+
+			<li Class="StockGenerator_ReinforcedBarrels">
+				<countRange>1~4</countRange>
+			</li>
+			
+			<!-- Fabrics, Leathers and Wools -->
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Cloth</thingDef>
+				<countRange>400~600</countRange>
+			</li>
+			
+			<!-- Animals (use same domesticated animals as Mousekins, exclude Mousekin-specific animals) -->
+
+			<li Class="StockGenerator_Animals">
+				<tradeTagsSell>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+				</tradeTagsSell>
+				<tradeTagsBuy>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+					<li>AnimalCommon</li>
+					<li>AnimalExotic</li>
+					<li>AnimalFarm</li>
+					<li>AnimalFighter</li>
+					<li>AnimalPet</li>
+					<li>AnimalUncommon</li>
+				</tradeTagsBuy>
+				<kindCountRange>7~7</kindCountRange>
+				<countRange>100~200</countRange>
+				<createMatingPair>
+					<li>Mousekin_TradeGoods_AnimalFarm</li>
+				</createMatingPair>
+				<customCountRanges>
+					<Chicken>20~30</Chicken>
+					<Cow>10~15</Cow>
+					<Duck>5~10</Duck>
+					<Goose>5~10</Goose>
+					<Goat>5~10</Goat>
+					<Pig>15~20</Pig>
+					<Sheep>15~20</Sheep>
+				</customCountRanges>
+			</li>
+			
+			<!-- Weapons -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>Grimalkin_WeaponsRanged</categoryDef>
+				<thingDefCountRange>6~8</thingDefCountRange>
+				<countRange>20~30</countRange>
+			</li>
+			
+			<li Class="StockGenerator_Tag">
+				<tradeTag>MortarShell</tradeTag>
+				<thingDefCountRange>2~3</thingDefCountRange>
+				<countRange>20~40</countRange>
+				<excludedThingDefs>
+					<li>Shell_AntigrainWarhead</li>
+					<li>Shell_EMP</li>
+					<li>Shell_Firefoam</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Shell_Deadlife</li>
+				</excludedThingDefs>
+			</li>
+			
+			<!-- Books -->
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>Books</categoryDef>
+				<excludedThingDefs>
+					<!-- Grimalkins have no interest in the occult -->
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Tome</li>
+					<!-- Grimalkins have no interest in "degenerate" rodent literature -->
+					<li>Mousekin_BookNovel</li>
+					<li>Mousekin_BookResearch</li>
+					<li>Mousekin_BookSkills</li>
+				</excludedThingDefs>
+				<thingDefCountRange>2</thingDefCountRange>
+				<countRange>5~10</countRange>
+			</li>
+			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Schematic</thingDef>
+				<countRange>1~1</countRange>
+			</li>
+			
+		</stockGenerators>
+	</TraderKindDef>
+	
+</Defs>

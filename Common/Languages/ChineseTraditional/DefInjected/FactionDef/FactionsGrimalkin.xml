@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin Dominion -->
+	<Grimalkin_Faction.fixedName>黑貓族民共和國</Grimalkin_Faction.fixedName>
+	
+	<!-- EN: communist feline dictatorship -->
+	<Grimalkin_Faction.label>共產主義貓科獨裁政權</Grimalkin_Faction.label>
+	
+	<!-- EN: A civilization of Grimalkins governed under a communist military dictatorship, whose ancestors descended from domesticated cats that survived a failed interstellar colony originally founded by a defunct East Asian superpower from Old Earth.\n\nEspousing self-reliance and military might, Grimalkins barely tolerate human societies, and are otherwise hostile to most other non-humans - especially rodentfolk like Mousekins. -->
+	<Grimalkin_Faction.description>一個由共產主義軍事獨裁政權統治的黑貓族文明，其祖先原為家貓，在來自老地球已消亡的東亞超級大國創立的星際殖民企劃失敗後倖存下來。\n\n黑貓族崇尚自力更生與軍事力量，對人類社會僅抱持勉強容忍態度，對其他非人類族群則多持敵意——尤其針對白鼠族等囓齒類生物。</Grimalkin_Faction.description>
+	
+	<!-- EN: Grimalkin -->
+	<Grimalkin_Faction.pawnSingular>黑貓族</Grimalkin_Faction.pawnSingular>
+	
+	<!-- EN: Grimalkins -->
+	<Grimalkin_Faction.pawnsPlural>黑貓族</Grimalkin_Faction.pawnsPlural>
+	
+	<!-- EN: Grand Marshal -->
+	<Grimalkin_Faction.leaderTitle>大元帥</Grimalkin_Faction.leaderTitle>
+	
+	<!-- EN: Feline Juche -->
+	<Grimalkin_Faction.ideoName>貓族主體思想</Grimalkin_Faction.ideoName>
+	
+	<!-- EN: "&lt;i&gt;Yaong&lt;/i&gt;, stupid fur mouse lie and steal, make all bad. Cat resolute no forgive stupid fur mouse, kill mouse for make benefit Glorious People's Republic of Grimalkin, &lt;i&gt;yaong&lt;/i&gt;!"\n\n  - Preamble to the Socialist Constitution of the People's Republic of Grimalkin -->
+	<Grimalkin_Faction.ideoDescription>"&lt;i&gt;喵&lt;/i&gt;，笨白鼠謊言偷竊，作惡多端。貓決心不饒恕笨白鼠，殺白鼠造福光榮黑貓族民共和國，&lt;i&gt;喵&lt;/i&gt;!"\n\n-黑貓族民共和國社會主義憲法序言</Grimalkin_Faction.ideoDescription>
+	
+</LanguageData>

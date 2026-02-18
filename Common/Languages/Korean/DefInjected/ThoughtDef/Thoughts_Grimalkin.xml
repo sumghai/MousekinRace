@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: away from the Fatherland -->
+	<Grimalkin_Thought_0Baseline.stages.0.label>조국을 떠나</Grimalkin_Thought_0Baseline.stages.0.label>
+	
+	<!-- EN: Must strong, return and make benefit for glorious Grimalkin People Republic. -->
+	<Grimalkin_Thought_0Baseline.stages.0.description>강해야, 돌아가고 만들다 이익 위하여 영광스러운 그림알킨 사람들 공화국.</Grimalkin_Thought_0Baseline.stages.0.description>
+	
+	<!-- EN: patriotic fervor -->
+	<Grimalkin_Thought_0Baseline.stages.1.label>애국적 열정</Grimalkin_Thought_0Baseline.stages.1.label>
+	
+	<!-- EN: Yaong! Serve and make benefit for glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_0Baseline.stages.1.description>야옹! 섬기고 만들다 이익 위하여 영광스러운 그림알킨 사람들 공화국!</Grimalkin_Thought_0Baseline.stages.1.description>
+	
+	<!-- EN: ate corpse -->
+	<Grimalkin_Thought_AteCorpse.stages.0.label>시체 섭취</Grimalkin_Thought_AteCorpse.stages.0.label>
+	
+	<!-- EN: Bad eat! -->
+	<Grimalkin_Thought_AteCorpse.stages.0.description>나쁜 먹다!</Grimalkin_Thought_AteCorpse.stages.0.description>
+	
+	<!-- EN: cooked cannibalism -->
+	<Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.label>그림알킨 가공품 섭취</Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.label>
+	
+	<!-- EN: Yaong! Eat another cat! Bad bad! -->
+	<Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.description>야옹! 먹다 또 다른 고양이!나쁜 나쁜!</Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.description>
+	
+	<!-- EN: raw cannibalism -->
+	<Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.label>생 그림알킨 고기를 먹었다</Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.label>
+	
+	<!-- EN: Yaong! Eat another cat! Bad bad! -->
+	<Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.description>야옹! 먹다 또 다른 고양이!나쁜 나쁜!</Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.description>
+	
+	<!-- EN: ate kibble -->
+	<Grimalkin_Thought_AteKibble.stages.0.label>사료 섭취</Grimalkin_Thought_AteKibble.stages.0.label>
+	
+	<!-- EN: Bad eat! -->
+	<Grimalkin_Thought_AteKibble.stages.0.description>나쁜 먹다!</Grimalkin_Thought_AteKibble.stages.0.description>
+	
+	<!-- EN: ate cooked Mousekin meat -->
+	<Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.label>마우스킨 가공품 섭취</Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.label>
+	
+	<!-- EN: Mouse meat cook taste juice and good! Happy happy! -->
+	<Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.description>쥐 고기 조리하다 맛 육즙 좋다! 행복한 행복한!</Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.description>
+	
+	<!-- EN: ate raw Mousekin meat -->
+	<Grimalkin_Thought_AteMousekinMeatDirect.stages.0.label>생 마우스킨 고기를 먹었다</Grimalkin_Thought_AteMousekinMeatDirect.stages.0.label>
+	
+	<!-- EN: Mouse meat no cook taste juice! Happy! -->
+	<Grimalkin_Thought_AteMousekinMeatDirect.stages.0.description>쥐 고기 아니 조리 맛 즙! 행복한!</Grimalkin_Thought_AteMousekinMeatDirect.stages.0.description>
+	
+	<!-- EN: ate raw food -->
+	<Grimalkin_Thought_AteRawFood.stages.0.label>생식</Grimalkin_Thought_AteRawFood.stages.0.label>
+	
+	<!-- EN: Yaong, food no cook, bad eat! -->
+	<Grimalkin_Thought_AteRawFood.stages.0.description>야옹! 조리하지 않은 음식，나쁜 먹다!</Grimalkin_Thought_AteRawFood.stages.0.description>
+	
+	<!-- EN: ate rotten food -->
+	<Grimalkin_Thought_AteRottenFood.stages.0.label>상한 음식</Grimalkin_Thought_AteRottenFood.stages.0.label>
+	
+	<!-- EN: Yaong, food rot, bad eat! -->
+	<Grimalkin_Thought_AteRottenFood.stages.0.description>야옹! 음식 썩음，나쁜 먹다!</Grimalkin_Thought_AteRottenFood.stages.0.description>
+	
+	<!-- EN: ate without table -->
+	<Grimalkin_Thought_AteWithoutTable.stages.0.label>바닥에서 식사</Grimalkin_Thought_AteWithoutTable.stages.0.label>
+	
+	<!-- EN: Eat, but no table. Bad! -->
+	<Grimalkin_Thought_AteWithoutTable.stages.0.description>먹다, 테이블 없음. 나쁜!</Grimalkin_Thought_AteWithoutTable.stages.0.description>
+	
+	<!-- EN: I butchered another Grimalkin -->
+	<Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.label>그리말킨 도축</Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.label>
+	
+	<!-- EN: Yaong, chop another cat! Bad! -->
+	<Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.description>야옹! 또 다른 고양이를 베다! 나쁜!</Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.description>
+	
+	<!-- EN: I butchered a Mousekin -->
+	<Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.label>마우스킨 도축</Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.label>
+	
+	<!-- EN: Chop chop, make mouse meat! -->
+	<Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.description>썰어, 썰어, 만들다 쥐 고기!</Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: colonist left unburied -->
+	<Grimalkin_Thought_ColonistLeftUnburied.stages.0.label>정착민 시체 방치</Grimalkin_Thought_ColonistLeftUnburied.stages.0.label>
+	
+	<!-- EN: Dead lie outside bad! Bury, give honor! -->
+	<Grimalkin_Thought_ColonistLeftUnburied.stages.0.description>죽은 사람 밖에 눕다 나쁘다! 묻다, 명예 주다!</Grimalkin_Thought_ColonistLeftUnburied.stages.0.description>
+	
+	<!-- EN: defeated hostile leader {0} -->
+	<Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.label>적 지도자 {0} 사살</Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.label>
+	
+	<!-- EN: Kill enemy leader, make benefit for glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.description>적 지도자 죽이다, 만들다 이익 위하여 영광스러운 그림알킨 사람들 공화국!</Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.description>
+	
+	<!-- EN: chilly -->
+	<Grimalkin_Thought_EnvironmentCold.stages.0.label>쌀쌀함</Grimalkin_Thought_EnvironmentCold.stages.0.label>
+	
+	<!-- EN: Cold. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.0.description>추움.</Grimalkin_Thought_EnvironmentCold.stages.0.description>
+	
+	<!-- EN: cold -->
+	<Grimalkin_Thought_EnvironmentCold.stages.1.label>추움</Grimalkin_Thought_EnvironmentCold.stages.1.label>
+	
+	<!-- EN: Cold, no feel good. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.1.description>추움，아니 기분 좋아.</Grimalkin_Thought_EnvironmentCold.stages.1.description>
+	
+	<!-- EN: numbing cold -->
+	<Grimalkin_Thought_EnvironmentCold.stages.2.label>얼고있음</Grimalkin_Thought_EnvironmentCold.stages.2.label>
+	
+	<!-- EN: Cold, bad bad. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.2.description>추움，나쁜 나쁜.</Grimalkin_Thought_EnvironmentCold.stages.2.description>
+	
+	<!-- EN: absolutely freezing -->
+	<Grimalkin_Thought_EnvironmentCold.stages.3.label>얼어붙음</Grimalkin_Thought_EnvironmentCold.stages.3.label>
+	
+	<!-- EN: Yaong! Cold cold, bad bad bad! -->
+	<Grimalkin_Thought_EnvironmentCold.stages.3.description>야옹!추움 추움，나쁜 나쁜 나쁜!</Grimalkin_Thought_EnvironmentCold.stages.3.description>
+	
+	<!-- EN: sweaty -->
+	<Grimalkin_Thought_EnvironmentHot.stages.0.label>땀남</Grimalkin_Thought_EnvironmentHot.stages.0.label>
+	
+	<!-- EN: Hot. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.0.description>더움.</Grimalkin_Thought_EnvironmentHot.stages.0.description>
+	
+	<!-- EN: hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.1.label>더움</Grimalkin_Thought_EnvironmentHot.stages.1.label>
+	
+	<!-- EN: Hot, no feel good. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.1.description>더움，아니 기분 좋아.</Grimalkin_Thought_EnvironmentHot.stages.1.description>
+	
+	<!-- EN: sweltering hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.2.label>무더위</Grimalkin_Thought_EnvironmentHot.stages.2.label>
+	
+	<!-- EN: Hot, bad bad. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.2.description>더움，나쁜 나쁜.</Grimalkin_Thought_EnvironmentHot.stages.2.description>
+	
+	<!-- EN: blistering hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.3.label>태워짐</Grimalkin_Thought_EnvironmentHot.stages.3.label>
+	
+	<!-- EN: Yaong! Hot hot, bad bad bad! -->
+	<Grimalkin_Thought_EnvironmentHot.stages.3.description>야옹! 더움 더움，나쁜 나쁜 나쁜!</Grimalkin_Thought_EnvironmentHot.stages.3.description>
+	
+	<!-- EN: freed from slavery -->
+	<Grimalkin_Thought_FreedFromSlavery.stages.0.label>포로 풀려남</Grimalkin_Thought_FreedFromSlavery.stages.0.label>
+	
+	<!-- EN: Freedom! Good! -->
+	<Grimalkin_Thought_FreedFromSlavery.stages.0.description>자유! 좋아!</Grimalkin_Thought_FreedFromSlavery.stages.0.description>
+	
+	<!-- EN: got married to {0} -->
+	<Grimalkin_Thought_GotMarried.stages.0.label>{0}(와)과 결혼</Grimalkin_Thought_GotMarried.stages.0.label>
+	
+	<!-- EN: Marry, make family, benefit glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_GotMarried.stages.0.description>결혼하다, 가족 만들다, 이익 위하여 영광스러운 그림알킨 사람들 공화국!</Grimalkin_Thought_GotMarried.stages.0.description>
+	
+	<!-- EN: killed a Mousekin -->
+	<Grimalkin_Thought_KilledMousekin.stages.0.label>마우스킨을 죽였다</Grimalkin_Thought_KilledMousekin.stages.0.label>
+	
+	<!-- EN: Yaong! Kill mouse, make benefit for glorious Grimalkin People Republic! Happy happy! -->
+	<Grimalkin_Thought_KilledMousekin.stages.0.description>야옹! 쥐 죽이다, 만들다 이익 위하여 영광스러운 그림알킨 사람들 공화국! 행복한 행복한!</Grimalkin_Thought_KilledMousekin.stages.0.description>
+	
+	<!-- EN: we butchered another Grimalkin -->
+	<Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.label>그리말킨 도축 목격</Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.label>
+	
+	<!-- EN: Yaong, cat chop another cat! Bad! -->
+	<Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.description>야옹! 고양이 잘라 또 다른 고양이! 나쁜!</Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.description>
+	
+	<!-- EN: we butchered a Mousekin -->
+	<Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.label>마우스킨 도축 목격</Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.label>
+	
+	<!-- EN: Next time me want chop mouse! -->
+	<Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.description>다음 번에 나 하고 싶어 쥐 잡기!</Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: colonist died -->
+	<Grimalkin_Thought_KnowColonistDied.stages.0.label>정착민 사망</Grimalkin_Thought_KnowColonistDied.stages.0.label>
+	
+	<!-- EN: Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_KnowColonistDied.stages.0.description>의무 섬기다 위하여 영광스러운 그림알킨 사람들 공화국, 지금 쉬다. 경례.</Grimalkin_Thought_KnowColonistDied.stages.0.description>
+	
+	<!-- EN: colonist's organ harvested -->
+	<Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.label>정착민의 장기가 적출됨</Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.label>
+	
+	<!-- EN: Cat chop and take part from another cat, bad! -->
+	<Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.description>고양이 자르다 그리고 다른 고양이에서 부분 가져가다，나쁜!</Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.description>
+	
+	<!-- EN: my organ harvested -->
+	<Grimalkin_Thought_MyOrganHarvested.stages.0.label>내 장기가 적출됨</Grimalkin_Thought_MyOrganHarvested.stages.0.label>
+	
+	<!-- EN: Yaong! You no take my part! Bad bad! -->
+	<Grimalkin_Thought_MyOrganHarvested.stages.0.description>야옹! 너 내 부분 가져가지 않다! 나쁜 나쁜!</Grimalkin_Thought_MyOrganHarvested.stages.0.description>
+	
+	<!-- EN: hungry -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>배고픔</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Hunger. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>배고픔.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: ravenously hungry -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>매우 배고픔</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Hunger, no feel good. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>배고픔，아니 기분 좋아.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: malnourished -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>굶주림 (초기)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Much hunger, feel weak. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>많이 배고픔，느낌 약함.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: badly malnourished -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>굶주림 (약간)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Many hunger, belly hurt. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>많은 배고픔， 배 아파.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: starving -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>굶주림</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Big hunger, want food now. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>큰 배고픔，원해 음식 지금.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: advanced starvation -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>굶주림 (심각)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Great hunger, want food now now. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>훌륭한 배고픔，원해 음식 지금 지금.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: extreme starvation -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>굶주림 (극도)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Food...food...hunger...yaong! -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>음식...음식...배고픔...야옹!</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: drowsy -->
+	<Grimalkin_Thought_NeedRest.stages.0.label>피곤</Grimalkin_Thought_NeedRest.stages.0.label>
+	
+	<!-- EN: Little tired. -->
+	<Grimalkin_Thought_NeedRest.stages.0.description>조금 피곤해.</Grimalkin_Thought_NeedRest.stages.0.description>
+	
+	<!-- EN: tired -->
+	<Grimalkin_Thought_NeedRest.stages.1.label>지침</Grimalkin_Thought_NeedRest.stages.1.label>
+	
+	<!-- EN: Big tired. Want sleep. -->
+	<Grimalkin_Thought_NeedRest.stages.1.description>크다 피곤해. 잠이 오네.</Grimalkin_Thought_NeedRest.stages.1.description>
+	
+	<!-- EN: exhausted -->
+	<Grimalkin_Thought_NeedRest.stages.2.label>탈진</Grimalkin_Thought_NeedRest.stages.2.label>
+	
+	<!-- EN: Yaong, need sleep now now. -->
+	<Grimalkin_Thought_NeedRest.stages.2.description>야옹，잠이 오네 지금 지금.</Grimalkin_Thought_NeedRest.stages.2.description>
+	
+	<!-- EN: minor pain -->
+	<Grimalkin_Thought_Pain.stages.0.label>가벼운 고통</Grimalkin_Thought_Pain.stages.0.label>
+	
+	<!-- EN: Pain. Feel bad. -->
+	<Grimalkin_Thought_Pain.stages.0.description>고통. 느낌 나쁜.</Grimalkin_Thought_Pain.stages.0.description>
+	
+	<!-- EN: serious pain -->
+	<Grimalkin_Thought_Pain.stages.1.label>심각한 고통</Grimalkin_Thought_Pain.stages.1.label>
+	
+	<!-- EN: Big pain. Bad! -->
+	<Grimalkin_Thought_Pain.stages.1.description>큰 고통. 나쁜!</Grimalkin_Thought_Pain.stages.1.description>
+	
+	<!-- EN: intense pain -->
+	<Grimalkin_Thought_Pain.stages.2.label>극심한 고통</Grimalkin_Thought_Pain.stages.2.label>
+	
+	<!-- EN: Pain! Pain! Pain! -->
+	<Grimalkin_Thought_Pain.stages.2.description>고통! 고통! 고통!</Grimalkin_Thought_Pain.stages.2.description>
+	
+	<!-- EN: mind-shattering pain -->
+	<Grimalkin_Thought_Pain.stages.3.label>정신이 찢어지는 고통</Grimalkin_Thought_Pain.stages.3.label>
+	
+	<!-- EN: YAAAAONNNNG! YAAAAONNNNG! -->
+	<Grimalkin_Thought_Pain.stages.3.description>야옹! 야옹!</Grimalkin_Thought_Pain.stages.3.description>
+	
+	<!-- EN: my rival {0} died -->
+	<Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.label>눈엣가시 {0} 사망</Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.label>
+	
+	<!-- EN: No like {0}. Deserve, good good! -->
+	<Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.description>아니 좋아하는 {1}. 받을 자격이 있는，좋은 좋은!</Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.description>
+	
+	<!-- EN: my rival {0} lost -->
+	<Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.label>경쟁자 {0} 잃음</Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.label>
+	
+	<!-- EN: No like {0}. Deserve, good good! -->
+	<Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.description>아니 좋아하는 {1}. 받을 자격이 있는，좋은 좋은!</Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.description>
+	
+	<!-- EN: my friend {0} died -->
+	<Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.label>친구 {0} 사망</Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.label>
+	
+	<!-- EN: Like friend {0}. Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.description>좋아요 친구 {1}. 의무 섬기다 위하여 영광스러운 그림알킨 사람들 공화국, 지금 쉬다. 경례.</Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.description>
+	
+	<!-- EN: saw a Pudgemouse -->
+	<Grimalkin_Thought_SawNearbyPudgemouse.stages.0.label>퍼지마우스를 보았다</Grimalkin_Thought_SawNearbyPudgemouse.stages.0.label>
+	
+	<!-- EN: Grrr, hate little fur mouse. Want kill and make skewer, good taste. -->
+	<Grimalkin_Thought_SawNearbyPudgemouse.stages.0.description>으르릉, 작은 털 쥐 미워하다. 죽이다 그리고 꼬치 만들다, 맛 좋다.</Grimalkin_Thought_SawNearbyPudgemouse.stages.0.description>
+	
+	<!-- EN: sick -->
+	<Grimalkin_Thought_Sick.stages.0.label>아픔</Grimalkin_Thought_Sick.stages.0.label>
+	
+	<!-- EN: Feel bad. -->
+	<Grimalkin_Thought_Sick.stages.0.description>느낌 나쁜.</Grimalkin_Thought_Sick.stages.0.description>
+	
+	<!-- EN: slept in the cold -->
+	<Grimalkin_Thought_SleptInCold.stages.0.label>추운 곳에서 잠</Grimalkin_Thought_SleptInCold.stages.0.label>
+	
+	<!-- EN: Cold, bad. Need heat. -->
+	<Grimalkin_Thought_SleptInCold.stages.0.description>추운，나쁜. 원하다 더운.</Grimalkin_Thought_SleptInCold.stages.0.description>
+	
+	<!-- EN: slept in the heat -->
+	<Grimalkin_Thought_SleptInHeat.stages.0.label>더운 곳에서 잠</Grimalkin_Thought_SleptInHeat.stages.0.label>
+	
+	<!-- EN: Hot, bad. Need cool. -->
+	<Grimalkin_Thought_SleptInHeat.stages.0.description>더운，나쁜. 원하다 추운.</Grimalkin_Thought_SleptInHeat.stages.0.description>
+	
+	<!-- EN: slept on ground -->
+	<Grimalkin_Thought_SleptOnGround.stages.0.label>바닥에서 잠</Grimalkin_Thought_SleptOnGround.stages.0.label>
+	
+	<!-- EN: Feel bad. No want be stupid dirty fur mouse. -->
+	<Grimalkin_Thought_SleptOnGround.stages.0.description>느낌 나쁜. 원하지 않다 바보 더러운 털 쥐 되다.</Grimalkin_Thought_SleptOnGround.stages.0.description>
+	
+	<!-- EN: slept outside -->
+	<Grimalkin_Thought_SleptOutside.stages.0.label>밖에서 잠</Grimalkin_Thought_SleptOutside.stages.0.label>
+	
+	<!-- EN: Feel bad. Want tent, want barrack. -->
+	<Grimalkin_Thought_SleptOutside.stages.0.description>느낌 나쁜. 텐트 원하다, 막사 원하다.</Grimalkin_Thought_SleptOutside.stages.0.description>
+	
+	<!-- EN: soaking wet -->
+	<Grimalkin_Thought_SoakingWet.stages.0.label>흠뻑 젖음</Grimalkin_Thought_SoakingWet.stages.0.label>
+	
+	<!-- EN: Yaong, fur wet! Bad bad! -->
+	<Grimalkin_Thought_SoakingWet.stages.0.description>야옹，털 젖은! 나쁜 나쁜!</Grimalkin_Thought_SoakingWet.stages.0.description>
+	
+	<!-- EN: was imprisoned -->
+	<Grimalkin_Thought_WasImprisoned.stages.0.label>수감된 적이 있음</Grimalkin_Thought_WasImprisoned.stages.0.label>
+	
+	<!-- EN: Other hold me in cage. Angry! -->
+	<Grimalkin_Thought_WasImprisoned.stages.0.description>다른 사람 나를 우리에 잡다. 화나다!</Grimalkin_Thought_WasImprisoned.stages.0.description>
+	
+	<!-- EN: wearing Grimalkin fur apparel -->
+	<Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.label>그리말킨 모피 의류를 입고</Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.label>
+	
+	<!-- EN: Yaong! Wear another cat skin! Bad! -->
+	<Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.description>야옹! 다른 고양이 피부 입다! 나쁜!</Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.description>
+	
+	<!-- EN: wearing Mousekin fur apparel -->
+	<Grimalkin_Thought_WearingMousekinFurApparel.stages.0.label>마우스킨 모피 의류를 입고</Grimalkin_Thought_WearingMousekinFurApparel.stages.0.label>
+	
+	<!-- EN: Mouse stupid, but fur feel good! -->
+	<Grimalkin_Thought_WearingMousekinFurApparel.stages.0.description>쥐 바보, 하지만 털 좋다 느낌!</Grimalkin_Thought_WearingMousekinFurApparel.stages.0.description>
+	
+	<!-- EN: witnessed ally's death -->
+	<Grimalkin_Thought_WitnessedDeathAlly.stages.0.label>우군의 죽음 목격</Grimalkin_Thought_WitnessedDeathAlly.stages.0.label>
+	
+	<!-- EN: Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_WitnessedDeathAlly.stages.0.description>의무 섬기다 위하여 영광스러운 그림알킨 사람들 공화국, 지금 쉬다. 경례.</Grimalkin_Thought_WitnessedDeathAlly.stages.0.description>
+	
+</LanguageData>

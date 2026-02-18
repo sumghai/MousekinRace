@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Grimalkin infantry uniform -->
+	<Grimalkin_UniformInfantry.label>Uniforme de infantaria Grimalkin</Grimalkin_UniformInfantry.label>
+	
+	<!-- EN: A standard-issue collared tunic, trousers and knee-high leather boots, worn by most rank and file Grimalkin soldiers. -->
+	<Grimalkin_UniformInfantry.description>Uma túnica com gola, calças e botas de couro até ao joelho, usada pela maioria dos soldados Grimalkin.</Grimalkin_UniformInfantry.description>
+	
+	<!-- EN: Grimalkin vehicle crew coverall -->
+	<Grimalkin_UniformVehicle.label>Macacão da tripulação de veículos Grimalkin</Grimalkin_UniformVehicle.label>
+	
+	<!-- EN: A full-body flame-resistant jumpsuit, worn by Grimalkin ground vehicle crewmen. -->
+	<Grimalkin_UniformVehicle.description>Um macacão resistente ao fogo, usado pela tripulação dos veículos terrestres Grimalkin.。</Grimalkin_UniformVehicle.description>
+	
+	<!-- EN: Grimalkin stormtrooper uniform -->
+	<Grimalkin_UniformStormtrooper.label>Uniforme de tropa de assalto Grimalkin</Grimalkin_UniformStormtrooper.label>
+	
+	<!-- EN: A set of camouflage fatigues, typically worn by elite Grimalkin stormtroopers. -->
+	<Grimalkin_UniformStormtrooper.description>Um conjunto de fardas camufladas, normalmente usado pelas tropas de assalto de elite Grimalkin.</Grimalkin_UniformStormtrooper.description>
+	
+	<!-- EN: Grimalkin officer's uniform -->
+	<Grimalkin_UniformOfficer.label>Uniforme de oficial Grimalkin</Grimalkin_UniformOfficer.label>
+	
+	<!-- EN: A field dress uniform worn by Grimalkin regiment commanders and staff officers. -->
+	<Grimalkin_UniformOfficer.description>Um uniforme de campo usado pelos comandantes de regimento e oficiais de estado-maior Grimalkin.</Grimalkin_UniformOfficer.description>
+	
+	<!-- EN: Grimalkin officer’s beret -->
+	<Grimalkin_HatOfficerBeret.label>Boina de oficial Grimalkin</Grimalkin_HatOfficerBeret.label>
+	
+	<!-- EN: A round and flat-crowned cloth hat, worn by Grimalkin staff officers serving in rear-echelon roles. -->
+	<Grimalkin_HatOfficerBeret.description>Um chapéu de tecido redondo e de copa plana, usado pelos oficiais Grimalkin que servem em funções de retaguarda.</Grimalkin_HatOfficerBeret.description>
+	
+	<!-- EN: Grimalkin officer’s cap -->
+	<Grimalkin_HatOfficerCap.label>Boné de oficial Grimalkin</Grimalkin_HatOfficerCap.label>
+	
+	<!-- EN: A large, visored peaked cap, worn by Grimalkin regiment commanders and generals as a symbol of their authority, with the oversized crown designed to intimidate lower-ranked Grimalkins and enemies. -->
+	<Grimalkin_HatOfficerCap.description>Um boné grande com viseira, usado pelos comandantes de regimento e generais Grimalkin como símbolo de sua autoridade, com a copa superdimensionada projetada para intimidar os Grimalkins de patente inferior e os inimigos.</Grimalkin_HatOfficerCap.description>
+	
+	<!-- EN: Grimalkin steel helmet -->
+	<Grimalkin_HelmetInfantry.label>Capacete de aço Grimalkin</Grimalkin_HelmetInfantry.label>
+	
+	<!-- EN: A painted steel helmet with fabric padding, worn by Grimalkin soldiers for protection against shrapnel. -->
+	<Grimalkin_HelmetInfantry.description>Um capacete de aço pintado com forro de tecido, usado pelos soldados Grimalkin para proteção contra estilhaços.</Grimalkin_HelmetInfantry.description>
+	
+	<!-- EN: Grimalkin vehicle crew helmet -->
+	<Grimalkin_HelmetVehicle.label>Capacete da tripulação de veículos Grimalkin</Grimalkin_HelmetVehicle.label>
+	
+	<!-- EN: A heavily-padded leather helmet, worn by Grimalkin ground vehicle crewmen for protection against head injuries in the confined spaces of most armored vehicles. -->
+	<Grimalkin_HelmetVehicle.description>Um capacete de couro com forro reforçado, usado pela tripulação de veículos terrestres Grimalkin para proteção contra ferimentos na cabeça nos espaços confinados da maioria dos veículos blindados.</Grimalkin_HelmetVehicle.description>
+	
+</LanguageData>

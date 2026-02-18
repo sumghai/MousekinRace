@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: away from the Fatherland -->
+	<Grimalkin_Thought_0Baseline.stages.0.label>longe da pátria</Grimalkin_Thought_0Baseline.stages.0.label>
+	
+	<!-- EN: Must strong, return and make benefit for glorious Grimalkin People Republic. -->
+	<Grimalkin_Thought_0Baseline.stages.0.description>Deve forte, voltar e fazer benefício para glorioso República Popular de Grimalkin.</Grimalkin_Thought_0Baseline.stages.0.description>
+	
+	<!-- EN: patriotic fervor -->
+	<Grimalkin_Thought_0Baseline.stages.1.label>fervor patriótico</Grimalkin_Thought_0Baseline.stages.1.label>
+	
+	<!-- EN: Yaong! Serve and make benefit for glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_0Baseline.stages.1.description>Yaong! Servir e fazer benefício para glorioso Povo Grimalkin República!</Grimalkin_Thought_0Baseline.stages.1.description>
+	
+	<!-- EN: ate corpse -->
+	<Grimalkin_Thought_AteCorpse.stages.0.label>Comeu cadáver</Grimalkin_Thought_AteCorpse.stages.0.label>
+	
+	<!-- EN: Bad eat! -->
+	<Grimalkin_Thought_AteCorpse.stages.0.description>Mau comer!</Grimalkin_Thought_AteCorpse.stages.0.description>
+	
+	<!-- EN: cooked cannibalism -->
+	<Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.label>Comeu carne de Grimalkin cozida</Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.label>
+	
+	<!-- EN: Yaong! Eat another cat! Bad bad! -->
+	<Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.description>Yaong! Comer outro gato! Mau mau!</Grimalkin_Thought_AteGrimalkinMeatAsIngredient.stages.0.description>
+	
+	<!-- EN: raw cannibalism -->
+	<Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.label>Comeu carne de Grimalkin crua</Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.label>
+	
+	<!-- EN: Yaong! Eat another cat! Bad bad! -->
+	<Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.description>Yaong! Comer outro gato! Mau mau!</Grimalkin_Thought_AteGrimalkinMeatDirect.stages.0.description>
+	
+	<!-- EN: ate kibble -->
+	<Grimalkin_Thought_AteKibble.stages.0.label>Comeu ração</Grimalkin_Thought_AteKibble.stages.0.label>
+	
+	<!-- EN: Bad eat! -->
+	<Grimalkin_Thought_AteKibble.stages.0.description>Mau comer!</Grimalkin_Thought_AteKibble.stages.0.description>
+	
+	<!-- EN: ate cooked Mousekin meat -->
+	<Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.label>Comeu carne de Mousekin cozida</Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.label>
+	
+	<!-- EN: Mouse meat cook taste juice and good! Happy happy! -->
+	<Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.description>Carne rato cozinhar gosto suco e bom! Feliz feliz!</Grimalkin_Thought_AteMousekinMeatAsIngredient.stages.0.description>
+	
+	<!-- EN: ate raw Mousekin meat -->
+	<Grimalkin_Thought_AteMousekinMeatDirect.stages.0.label>Comeu carne de Mousekin crua</Grimalkin_Thought_AteMousekinMeatDirect.stages.0.label>
+	
+	<!-- EN: Mouse meat no cook taste juice! Happy! -->
+	<Grimalkin_Thought_AteMousekinMeatDirect.stages.0.description>Carne rato não cozinhar gosto suco! Feliz!</Grimalkin_Thought_AteMousekinMeatDirect.stages.0.description>
+	
+	<!-- EN: ate raw food -->
+	<Grimalkin_Thought_AteRawFood.stages.0.label>Comeu comida crua</Grimalkin_Thought_AteRawFood.stages.0.label>
+	
+	<!-- EN: Yaong, food no cook, bad eat! -->
+	<Grimalkin_Thought_AteRawFood.stages.0.description>Yaong, comida não cozinhar, mau comer!</Grimalkin_Thought_AteRawFood.stages.0.description>
+	
+	<!-- EN: ate rotten food -->
+	<Grimalkin_Thought_AteRottenFood.stages.0.label>comeu comida estragada</Grimalkin_Thought_AteRottenFood.stages.0.label>
+	
+	<!-- EN: Yaong, food rot, bad eat! -->
+	<Grimalkin_Thought_AteRottenFood.stages.0.description>Yaong, comida podre, mau comer!</Grimalkin_Thought_AteRottenFood.stages.0.description>
+	
+	<!-- EN: ate without table -->
+	<Grimalkin_Thought_AteWithoutTable.stages.0.label>comeu sem mesa</Grimalkin_Thought_AteWithoutTable.stages.0.label>
+	
+	<!-- EN: Eat, but no table. Bad! -->
+	<Grimalkin_Thought_AteWithoutTable.stages.0.description>Comer, não mesa. Mau!</Grimalkin_Thought_AteWithoutTable.stages.0.description>
+	
+	<!-- EN: I butchered another Grimalkin -->
+	<Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.label>Abateu Grimalkin</Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.label>
+	
+	<!-- EN: Yaong, chop another cat! Bad! -->
+	<Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.description>Yaong, cortar outro gato! Mau!</Grimalkin_Thought_ButcheredGrimalkinCorpse.stages.0.description>
+	
+	<!-- EN: I butchered a Mousekin -->
+	<Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.label>Abateu Mousekin</Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.label>
+	
+	<!-- EN: Chop chop, make mouse meat! -->
+	<Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.description>Cortar cortar, fazer carne rato!</Grimalkin_Thought_ButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: colonist left unburied -->
+	<Grimalkin_Thought_ColonistLeftUnburied.stages.0.label>Colonista deixado sem sepultura</Grimalkin_Thought_ColonistLeftUnburied.stages.0.label>
+	
+	<!-- EN: Dead lie outside bad! Bury, give honor! -->
+	<Grimalkin_Thought_ColonistLeftUnburied.stages.0.description>Morto mentir fora mau! Enterrar, dar honra!</Grimalkin_Thought_ColonistLeftUnburied.stages.0.description>
+	
+	<!-- EN: defeated hostile leader {0} -->
+	<Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.label>derrotou líder hostil {0}</Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.label>
+	
+	<!-- EN: Kill enemy leader, make benefit for glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.description>Matar inimigo líder, fazer benefício para glorioso República Popular de Grimalkin!</Grimalkin_Thought_DefeatedHostileFactionLeader.stages.0.description>
+	
+	<!-- EN: chilly -->
+	<Grimalkin_Thought_EnvironmentCold.stages.0.label>frio</Grimalkin_Thought_EnvironmentCold.stages.0.label>
+	
+	<!-- EN: Cold. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.0.description>Frio.</Grimalkin_Thought_EnvironmentCold.stages.0.description>
+	
+	<!-- EN: cold -->
+	<Grimalkin_Thought_EnvironmentCold.stages.1.label>muito frio</Grimalkin_Thought_EnvironmentCold.stages.1.label>
+	
+	<!-- EN: Cold, no feel good. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.1.description>Frio, não sentir bem.</Grimalkin_Thought_EnvironmentCold.stages.1.description>
+	
+	<!-- EN: numbing cold -->
+	<Grimalkin_Thought_EnvironmentCold.stages.2.label>congelando</Grimalkin_Thought_EnvironmentCold.stages.2.label>
+	
+	<!-- EN: Cold, bad bad. -->
+	<Grimalkin_Thought_EnvironmentCold.stages.2.description>Frio, mau mau.</Grimalkin_Thought_EnvironmentCold.stages.2.description>
+	
+	<!-- EN: absolutely freezing -->
+	<Grimalkin_Thought_EnvironmentCold.stages.3.label>absolutamente congelante</Grimalkin_Thought_EnvironmentCold.stages.3.label>
+	
+	<!-- EN: Yaong! Cold cold, bad bad bad! -->
+	<Grimalkin_Thought_EnvironmentCold.stages.3.description>Yaong! Frio frio, mau mau mau!</Grimalkin_Thought_EnvironmentCold.stages.3.description>
+	
+	<!-- EN: sweaty -->
+	<Grimalkin_Thought_EnvironmentHot.stages.0.label>quente</Grimalkin_Thought_EnvironmentHot.stages.0.label>
+	
+	<!-- EN: Hot. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.0.description>Quente.</Grimalkin_Thought_EnvironmentHot.stages.0.description>
+	
+	<!-- EN: hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.1.label>muito quente</Grimalkin_Thought_EnvironmentHot.stages.1.label>
+	
+	<!-- EN: Hot, no feel good. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.1.description>Quente, não sentir bem.</Grimalkin_Thought_EnvironmentHot.stages.1.description>
+	
+	<!-- EN: sweltering hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.2.label>extremamente quente</Grimalkin_Thought_EnvironmentHot.stages.2.label>
+	
+	<!-- EN: Hot, bad bad. -->
+	<Grimalkin_Thought_EnvironmentHot.stages.2.description>Quente, mau mau.</Grimalkin_Thought_EnvironmentHot.stages.2.description>
+	
+	<!-- EN: blistering hot -->
+	<Grimalkin_Thought_EnvironmentHot.stages.3.label>queimando</Grimalkin_Thought_EnvironmentHot.stages.3.label>
+	
+	<!-- EN: Yaong! Hot hot, bad bad bad! -->
+	<Grimalkin_Thought_EnvironmentHot.stages.3.description>Yaong! Quente quente, mau mau mau!</Grimalkin_Thought_EnvironmentHot.stages.3.description>
+	
+	<!-- EN: freed from slavery -->
+	<Grimalkin_Thought_FreedFromSlavery.stages.0.label>libertado da escravidão</Grimalkin_Thought_FreedFromSlavery.stages.0.label>
+	
+	<!-- EN: Freedom! Good! -->
+	<Grimalkin_Thought_FreedFromSlavery.stages.0.description>Liberdade! Ótimo!</Grimalkin_Thought_FreedFromSlavery.stages.0.description>
+	
+	<!-- EN: got married to {0} -->
+	<Grimalkin_Thought_GotMarried.stages.0.label>se casou com {0}</Grimalkin_Thought_GotMarried.stages.0.label>
+	
+	<!-- EN: Marry, make family, benefit glorious Grimalkin People Republic! -->
+	<Grimalkin_Thought_GotMarried.stages.0.description>Casar, fazer família, benefício glorioso República Popular de Grimalkin!</Grimalkin_Thought_GotMarried.stages.0.description>
+	
+	<!-- EN: killed a Mousekin -->
+	<Grimalkin_Thought_KilledMousekin.stages.0.label>Matou um Mousekin</Grimalkin_Thought_KilledMousekin.stages.0.label>
+	
+	<!-- EN: Yaong! Kill mouse, make benefit for glorious Grimalkin People Republic! Happy happy! -->
+	<Grimalkin_Thought_KilledMousekin.stages.0.description>Yaong! Matar rato, fazer benefício para glorioso República Popular de Grimalkin! Feliz feliz!</Grimalkin_Thought_KilledMousekin.stages.0.description>
+	
+	<!-- EN: we butchered another Grimalkin -->
+	<Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.label>Abatemos outro Grimalkin</Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.label>
+	
+	<!-- EN: Yaong, cat chop another cat! Bad! -->
+	<Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.description>Yaong, gato cortar outro gato! Mau!</Grimalkin_Thought_KnowButcheredGrimalkinCorpse.stages.0.description>
+	
+	<!-- EN: we butchered a Mousekin -->
+	<Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.label>Abatemos outro Mousekin</Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.label>
+	
+	<!-- EN: Next time me want chop mouse! -->
+	<Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.description>Próxima vez eu querer cortar rato!</Grimalkin_Thought_KnowButcheredMousekinCorpse.stages.0.description>
+	
+	<!-- EN: colonist died -->
+	<Grimalkin_Thought_KnowColonistDied.stages.0.label>Colonista morreu</Grimalkin_Thought_KnowColonistDied.stages.0.label>
+	
+	<!-- EN: Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_KnowColonistDied.stages.0.description>Servir dever para glorioso República Popular de Grimalkin, agora descansar. Saudação.</Grimalkin_Thought_KnowColonistDied.stages.0.description>
+	
+	<!-- EN: colonist's organ harvested -->
+	<Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.label>Órgãos do colonista retirados</Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.label>
+	
+	<!-- EN: Cat chop and take part from another cat, bad! -->
+	<Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.description>Gato cortar e pegar parte de outro gato, mau!</Grimalkin_Thought_KnowColonistOrganHarvested.stages.0.description>
+	
+	<!-- EN: my organ harvested -->
+	<Grimalkin_Thought_MyOrganHarvested.stages.0.label>Órgão foi removido</Grimalkin_Thought_MyOrganHarvested.stages.0.label>
+	
+	<!-- EN: Yaong! You no take my part! Bad bad! -->
+	<Grimalkin_Thought_MyOrganHarvested.stages.0.description>Yaong! Você não pegar minha parte! Mau mau!</Grimalkin_Thought_MyOrganHarvested.stages.0.description>
+	
+	<!-- EN: hungry -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>com fome</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Hunger. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Fome.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: ravenously hungry -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>urgentemente com fome</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Hunger, no feel good. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Fome, não sentir bem.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: malnourished -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>faminto (trivial)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Much hunger, feel weak. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Muito fome, sentir fraco.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: badly malnourished -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>faminto (leve)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Many hunger, belly hurt. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Muitos fome, barriga doer.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: starving -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>faminto (moderado)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Big hunger, want food now. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Grande fome, querer comida agora.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: advanced starvation -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>faminto (severo)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Great hunger, want food now now. -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Ótima fome, querer comida agora agora.</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: extreme starvation -->
+	<Grimalkin_Thought_NeedFood.stages.0.label>faminto (extremo)</Grimalkin_Thought_NeedFood.stages.0.label>
+	
+	<!-- EN: Food...food...hunger...yaong! -->
+	<Grimalkin_Thought_NeedFood.stages.0.description>Comida...comida...fome...yaong!</Grimalkin_Thought_NeedFood.stages.0.description>
+	
+	<!-- EN: drowsy -->
+	<Grimalkin_Thought_NeedRest.stages.0.label>cansado</Grimalkin_Thought_NeedRest.stages.0.label>
+	
+	<!-- EN: Little tired. -->
+	<Grimalkin_Thought_NeedRest.stages.0.description>Pouco cansado.</Grimalkin_Thought_NeedRest.stages.0.description>
+	
+	<!-- EN: tired -->
+	<Grimalkin_Thought_NeedRest.stages.1.label>muito cansado</Grimalkin_Thought_NeedRest.stages.1.label>
+	
+	<!-- EN: Big tired. Want sleep. -->
+	<Grimalkin_Thought_NeedRest.stages.1.description>Grande cansado. Querer dormir.</Grimalkin_Thought_NeedRest.stages.1.description>
+	
+	<!-- EN: exhausted -->
+	<Grimalkin_Thought_NeedRest.stages.2.label>exausto</Grimalkin_Thought_NeedRest.stages.2.label>
+	
+	<!-- EN: Yaong, need sleep now now. -->
+	<Grimalkin_Thought_NeedRest.stages.2.description>Yaong, precisar dormir agora agora.</Grimalkin_Thought_NeedRest.stages.2.description>
+	
+	<!-- EN: minor pain -->
+	<Grimalkin_Thought_Pain.stages.0.label>com um pouco de dor</Grimalkin_Thought_Pain.stages.0.label>
+	
+	<!-- EN: Pain. Feel bad. -->
+	<Grimalkin_Thought_Pain.stages.0.description>Dor. Sentir mau.</Grimalkin_Thought_Pain.stages.0.description>
+	
+	<!-- EN: serious pain -->
+	<Grimalkin_Thought_Pain.stages.1.label>com quantidade moderada de dor</Grimalkin_Thought_Pain.stages.1.label>
+	
+	<!-- EN: Big pain. Bad! -->
+	<Grimalkin_Thought_Pain.stages.1.description>Grande dor. Mau!</Grimalkin_Thought_Pain.stages.1.description>
+	
+	<!-- EN: intense pain -->
+	<Grimalkin_Thought_Pain.stages.2.label>experimentando dor intensa</Grimalkin_Thought_Pain.stages.2.label>
+	
+	<!-- EN: Pain! Pain! Pain! -->
+	<Grimalkin_Thought_Pain.stages.2.description>Dor! Dor! Dor!</Grimalkin_Thought_Pain.stages.2.description>
+	
+	<!-- EN: mind-shattering pain -->
+	<Grimalkin_Thought_Pain.stages.3.label>em choque de dor excepcional</Grimalkin_Thought_Pain.stages.3.label>
+	
+	<!-- EN: YAAAAONNNNG! YAAAAONNNNG! -->
+	<Grimalkin_Thought_Pain.stages.3.description>YAAAAONNNNG! YAAAAONNNNG!</Grimalkin_Thought_Pain.stages.3.description>
+	
+	<!-- EN: my rival {0} died -->
+	<Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.label>Meu rival {0} morreu</Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.label>
+	
+	<!-- EN: No like {0}. Deserve, good good! -->
+	<Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.description>Não gostar {1}. Merecer, bom bom!</Grimalkin_Thought_PawnWithBadOpinionDied.stages.0.description>
+	
+	<!-- EN: my rival {0} lost -->
+	<Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.label>Inimigo {0} desapareceu</Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.label>
+	
+	<!-- EN: No like {0}. Deserve, good good! -->
+	<Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.description>Não gostar {1}. Merecer, bom bom!</Grimalkin_Thought_PawnWithBadOpinionLost.stages.0.description>
+	
+	<!-- EN: my friend {0} died -->
+	<Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.label>Meu amigo {0} faleceu</Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.label>
+	
+	<!-- EN: Like friend {0}. Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.description>Gostar amigo {1}. Servir dever para glorioso República Popular de Grimalkin, agora descansar. Saudação.</Grimalkin_Thought_PawnWithGoodOpinionDied.stages.0.description>
+	
+	<!-- EN: saw a Pudgemouse -->
+	<Grimalkin_Thought_SawNearbyPudgemouse.stages.0.label>Vi um ratinho-gordinho</Grimalkin_Thought_SawNearbyPudgemouse.stages.0.label>
+	
+	<!-- EN: Grrr, hate little fur mouse. Want kill and make skewer, good taste. -->
+	<Grimalkin_Thought_SawNearbyPudgemouse.stages.0.description>"Grrr, odiar pequeno pelo rato. Querer matar e fazer espetinho, bom gosto.</Grimalkin_Thought_SawNearbyPudgemouse.stages.0.description>
+	
+	<!-- EN: sick -->
+	<Grimalkin_Thought_Sick.stages.0.label>doente</Grimalkin_Thought_Sick.stages.0.label>
+	
+	<!-- EN: Feel bad. -->
+	<Grimalkin_Thought_Sick.stages.0.description>Sentir mau.</Grimalkin_Thought_Sick.stages.0.description>
+	
+	<!-- EN: slept in the cold -->
+	<Grimalkin_Thought_SleptInCold.stages.0.label>dormiu no frio</Grimalkin_Thought_SleptInCold.stages.0.label>
+	
+	<!-- EN: Cold, bad. Need heat. -->
+	<Grimalkin_Thought_SleptInCold.stages.0.description>Frio, mau. Precisar calor.</Grimalkin_Thought_SleptInCold.stages.0.description>
+	
+	<!-- EN: slept in the heat -->
+	<Grimalkin_Thought_SleptInHeat.stages.0.label>dormiu no calor</Grimalkin_Thought_SleptInHeat.stages.0.label>
+	
+	<!-- EN: Hot, bad. Need cool. -->
+	<Grimalkin_Thought_SleptInHeat.stages.0.description>Calor, mau. Precisar frio.</Grimalkin_Thought_SleptInHeat.stages.0.description>
+	
+	<!-- EN: slept on ground -->
+	<Grimalkin_Thought_SleptOnGround.stages.0.label>dormiu no chão</Grimalkin_Thought_SleptOnGround.stages.0.label>
+	
+	<!-- EN: Feel bad. No want be stupid dirty fur mouse. -->
+	<Grimalkin_Thought_SleptOnGround.stages.0.description>Sentir mau. Não querer ser estúpido sujo pelo rato.</Grimalkin_Thought_SleptOnGround.stages.0.description>
+	
+	<!-- EN: slept outside -->
+	<Grimalkin_Thought_SleptOutside.stages.0.label>dormiu no lado de fora</Grimalkin_Thought_SleptOutside.stages.0.label>
+	
+	<!-- EN: Feel bad. Want tent, want barrack. -->
+	<Grimalkin_Thought_SleptOutside.stages.0.description>Sentir mau. Querer tenda, querer barraco.</Grimalkin_Thought_SleptOutside.stages.0.description>
+	
+	<!-- EN: soaking wet -->
+	<Grimalkin_Thought_SoakingWet.stages.0.label>encharcado</Grimalkin_Thought_SoakingWet.stages.0.label>
+	
+	<!-- EN: Yaong, fur wet! Bad bad! -->
+	<Grimalkin_Thought_SoakingWet.stages.0.description>Yaong, pelo molhado! Mau mau!</Grimalkin_Thought_SoakingWet.stages.0.description>
+	
+	<!-- EN: was imprisoned -->
+	<Grimalkin_Thought_WasImprisoned.stages.0.label>foi aprisionado</Grimalkin_Thought_WasImprisoned.stages.0.label>
+	
+	<!-- EN: Other hold me in cage. Angry! -->
+	<Grimalkin_Thought_WasImprisoned.stages.0.description>Outro segurar eu em gaiola. Zangado!</Grimalkin_Thought_WasImprisoned.stages.0.description>
+	
+	<!-- EN: wearing Grimalkin fur apparel -->
+	<Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.label>Vestindo roupas de pele de Grimalkin</Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.label>
+	
+	<!-- EN: Yaong! Wear another cat skin! Bad! -->
+	<Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.description>Yaong! Vestir outra gato pele! Mau!</Grimalkin_Thought_WearingGrimalkinFurApparel.stages.0.description>
+	
+	<!-- EN: wearing Mousekin fur apparel -->
+	<Grimalkin_Thought_WearingMousekinFurApparel.stages.0.label>Vestindo roupas de pele de Mousekin</Grimalkin_Thought_WearingMousekinFurApparel.stages.0.label>
+	
+	<!-- EN: Mouse stupid, but fur feel good! -->
+	<Grimalkin_Thought_WearingMousekinFurApparel.stages.0.description>Rato estúpido, mas pelo sentir bom!</Grimalkin_Thought_WearingMousekinFurApparel.stages.0.description>
+	
+	<!-- EN: witnessed ally's death -->
+	<Grimalkin_Thought_WitnessedDeathAlly.stages.0.label>viu aliado morrer</Grimalkin_Thought_WitnessedDeathAlly.stages.0.label>
+	
+	<!-- EN: Serve duty for glorious Grimalkin People Republic, now rest. Salute. -->
+	<Grimalkin_Thought_WitnessedDeathAlly.stages.0.description>Servir dever para glorioso República Popular de Grimalkin, agora descansar. Saudação.</Grimalkin_Thought_WitnessedDeathAlly.stages.0.description>
+	
+</LanguageData>
