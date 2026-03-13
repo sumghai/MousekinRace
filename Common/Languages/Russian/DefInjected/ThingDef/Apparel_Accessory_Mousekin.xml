@@ -25,4 +25,16 @@
 	<!-- EN: A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness. -->
 	<Mousekin_BackpackLeather.description>Прочный кожаный рюкзак с лямками, множеством отделений и простой флягой, идеально подходит для мышкинов, отправляющихся в длительные путешествия по дикой местности.</Mousekin_BackpackLeather.description>
 	
+	<!-- EN: Mousekin Guardener’s Shield -->
+	<Mousekin_ShieldGuardener.label>Мышкин садовник Щит</Mousekin_ShieldGuardener.label>
+	
+	<!-- EN: A circular wooden shield reinforced with leather edging and a heavy, flower-shaped steel boss, carried by Guardeners as part of the elite order's sworn duty to tend and protect the flower gardens of the Mousekin Kingdom. -->
+	<Mousekin_ShieldGuardener.description>Круглый деревянный щит, укрепленный кожаной окантовкой и тяжелым стальным выступом в форме цветка, который носят Садовники в рамках присяги элитного ордена по уходу и защите цветочных садов Королевства Мышкин.</Mousekin_ShieldGuardener.description>
+	
+	<!-- EN: Mousekin Knight’s Shield -->
+	<Mousekin_ShieldKnight.label>Мышкин рыцарь Щит</Mousekin_ShieldKnight.label>
+	
+	<!-- EN: A durable heater-style metal shield, carried by Mousekin Knights for improved protection during battle. -->
+	<Mousekin_ShieldKnight.description>Прочный металлический щит в виде нагревателя, который носят рыцари-мышки для лучшей защиты во время сражения.</Mousekin_ShieldKnight.description>
+	
 </LanguageData>

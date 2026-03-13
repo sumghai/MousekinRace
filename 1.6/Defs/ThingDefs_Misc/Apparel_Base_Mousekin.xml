@@ -200,4 +200,95 @@
 		</thingCategories>
 	</ThingDef>
 	
+	<ThingDef Name="Mousekin_ShieldMakeableBase" ParentName="Mousekin_AccessoryMakeableBase" Abstract="True">
+		<thingClass>VEF.Apparels.Apparel_Shield</thingClass>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+			<MeleeHitChance>-2</MeleeHitChance>
+			<MeleeDodgeChance>-5</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<tradeTags Inherit="false">
+			<li>Mousekin_TradeGoods_AccessoryShieldsKingdom</li>
+		</tradeTags>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>Mousekin_WorkbenchCrafting</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>Mousekin_ResearchApparelMilitary</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<bodyPartGroups>
+				<li>LeftHand</li>
+			</bodyPartGroups>
+			<layers>
+				<li>VFEC_OuterShell</li>
+			</layers>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+		</apparel>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>base</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>centre</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<comps Inherit="false">
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_ShieldSmithableBase" ParentName="Mousekin_ShieldMakeableBase" Abstract="True">
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>true</smeltable>
+		<defaultStuff>Steel</defaultStuff>
+		<recipeMaker>
+			<recipeUsers Inherit="false">
+				<li>Mousekin_WorkbenchSmithy</li>
+			</recipeUsers>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<disallowedThingDefs>
+					<li>Gold</li>
+					<li>Silver</li>
+					<li>Plasteel</li>
+					<li>Uranium</li>
+				</disallowedThingDefs>
+			</defaultIngredientFilter>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>Mousekin_ResearchApparelMilitary</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
 </Defs>

@@ -573,6 +573,8 @@
 					<li>Mousekin_MeleeWeapon_SwordGuardenerTraining</li>
 					<li>Mousekin_MeleeWeapon_SwordGuardener</li>
 					<li>Mousekin_MeleeWeapon_SwordKnight</li>
+					<li>Mousekin_ShieldGuardener</li>
+					<li>Mousekin_ShieldKnight</li>
 				</factionRestrictedCraftableThingDefs>
 				<recruitableColonistSettings>
 					<defaultSpousePawnKind>MousekinColonist</defaultSpousePawnKind>

@@ -221,4 +221,130 @@
 		<colorGenerator Class="ColorGenerator_White" />
 	</ThingDef>
 	
+	<!-- Shields -->
+	
+	<ThingDef ParentName="Mousekin_ShieldMakeableBase">
+		<defName>Mousekin_ShieldGuardener</defName>
+		<label>Mousekin Guardener’s Shield</label>
+		<description>A circular wooden shield reinforced with leather edging and a heavy, flower-shaped steel boss, carried by Guardeners as part of the elite order's sworn duty to tend and protect the flower gardens of the Mousekin Kingdom.</description>
+		<graphicData>
+			<texPath>Things/Items/Equipment/MousekinShieldGuardener/MousekinShieldGuardener</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<WoodLog>50</WoodLog>
+			<Steel>10</Steel>
+		</costList>
+		<statBases>
+            <MaxHitPoints>75</MaxHitPoints>
+			<WorkToMake>2600</WorkToMake>
+            <Mass>2</Mass>
+            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Heat>0.55</ArmorRating_Heat>
+        </statBases>
+		<comps>
+			<li Class="VEF.Apparels.CompProperties_Shield">
+				<shieldTags>
+					<li>Mousekin_ShieldGuardener</li>
+				</shieldTags>
+				<useDeflectMetalEffect>false</useDeflectMetalEffect>
+				<coveredBodyPartGroups>
+					<li>Neck</li>
+					<li>Torso</li>
+					<li>Arms</li>
+					<li>Hands</li>
+				</coveredBodyPartGroups>
+				<offHandGraphicData>
+					<texPath>Things/Items/Equipment/MousekinShieldGuardener/MousekinShieldGuardener</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.5</drawSize>
+				</offHandGraphicData>
+				<offHandHoldOffset>
+					<northDefault>
+						<offset>(-0.05, 0, 0.2)</offset>
+						<behind>true</behind>
+					</northDefault>
+					<east>
+						<offset>(-0.15, 0, 0.2)</offset>
+						<behind>true</behind>
+					</east>
+					<south>
+						<offset>(0.1, -0.05, 0.2)</offset>
+					</south>
+					<west>
+						<offset>(0.15, 0, 0.2)</offset>
+					</west>
+				</offHandHoldOffset>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="Mousekin_ShieldSmithableBase">
+		<defName>Mousekin_ShieldKnight</defName>
+		<label>Mousekin Knight’s Shield</label>
+		<description>A durable heater-style metal shield, carried by Mousekin Knights for improved protection during battle.</description>
+		<graphicData>
+			<texPath>Things/Items/Equipment/MousekinShieldKnight/MousekinShieldKnight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<!-- for gilding only -->
+		<costStuffCount>1</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<WorkToMake>8000</WorkToMake>
+            <Mass>2</Mass>
+            <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+            <ArmorRating_Heat>0.9</ArmorRating_Heat>
+        </statBases>
+		<comps>
+			<li Class="VEF.Apparels.CompProperties_Shield">
+				<shieldTags>
+					<li>Mousekin_ShieldKnight</li>
+				</shieldTags>
+				<useDeflectMetalEffect>true</useDeflectMetalEffect>
+				<coveredBodyPartGroups>
+					<li>Torso</li>
+					<li>Arms</li>
+					<li>Hands</li>
+				</coveredBodyPartGroups>
+				<offHandGraphicData>
+					<texPath>Things/Items/Equipment/MousekinShieldKnight/MousekinShieldKnight</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Cutout</shaderType>
+					<drawSize>1.5</drawSize>
+				</offHandGraphicData>
+				<offHandHoldOffset>
+					<northDefault>
+						<offset>(0, 0, 0.2)</offset>
+						<behind>true</behind>
+					</northDefault>
+					<east>
+						<offset>(-0.05, 0, 0.2)</offset>
+						<behind>true</behind>
+					</east>
+					<south>
+						<offset>(0.1, -0.045, 0.2)</offset>
+					</south>
+					<west>
+						<offset>(0.05, 0, 0.2)</offset>
+					</west>
+				</offHandHoldOffset>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelIgnoreStuffStatFactorsExtension" />
+		</modExtensions>
+	</ThingDef>
+	
 </Defs>

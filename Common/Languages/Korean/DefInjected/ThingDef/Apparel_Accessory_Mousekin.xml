@@ -25,4 +25,16 @@
 	<!-- EN: A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness. -->
 	<Mousekin_BackpackLeather.description>어깨끈이 있는 내구성이 뛰어난 가죽 가방, 여러 개의 수납 공간, 간소한 캔틴 컵카드, 광야를 통해 긴 여행을 떠나는 마우스킨 에 이상적입니다.</Mousekin_BackpackLeather.description>
 	
+	<!-- EN: Mousekin Guardener’s Shield -->
+	<Mousekin_ShieldGuardener.label>마우스킨 가드너의 방패</Mousekin_ShieldGuardener.label>
+	
+	<!-- EN: A circular wooden shield reinforced with leather edging and a heavy, flower-shaped steel boss, carried by Guardeners as part of the elite order's sworn duty to tend and protect the flower gardens of the Mousekin Kingdom. -->
+	<Mousekin_ShieldGuardener.description>가드너들이 마우스킨 왕국의 꽃 정원을 가꾸고 보호하는 엘리트 기사단의 서약된 의무의 일환으로 휴대하는, 가죽 테두리로 보강된 원형 목제 방패와 무거운 꽃 모양 강철 보스.</Mousekin_ShieldGuardener.description>
+	
+	<!-- EN: Mousekin Knight’s Shield -->
+	<Mousekin_ShieldKnight.label>마우스킨 나이트의 방패</Mousekin_ShieldKnight.label>
+	
+	<!-- EN: A durable heater-style metal shield, carried by Mousekin Knights for improved protection during battle. -->
+	<Mousekin_ShieldKnight.description>마우스킨 기사들이 전투 중 보호력을 높이기 위해 착용하는 내구성 있는 히터 스타일 금속 방패.</Mousekin_ShieldKnight.description>
+	
 </LanguageData>

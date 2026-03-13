@@ -25,4 +25,16 @@
 	<!-- EN: A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness. -->
 	<Mousekin_BackpackLeather.description>Uma bolsa de couro durável com alças de ombro, múltiplos compartimentos e um cantil simples, ideal para Mousekins em longas jornadas pela natureza.</Mousekin_BackpackLeather.description>
 	
+	<!-- EN: Mousekin Guardener’s Shield -->
+	<Mousekin_ShieldGuardener.label>Escudo do Mousekin Guardener</Mousekin_ShieldGuardener.label>
+	
+	<!-- EN: A circular wooden shield reinforced with leather edging and a heavy, flower-shaped steel boss, carried by Guardeners as part of the elite order's sworn duty to tend and protect the flower gardens of the Mousekin Kingdom. -->
+	<Mousekin_ShieldGuardener.description>Um escudo circular de madeira reforçado com bordas de couro e um pesado protetor de aço em forma de flor, carregado pelos Guardeners como parte do dever jurado da ordem de elite de cuidar e proteger os jardins floridos do Reino Mousekin.</Mousekin_ShieldGuardener.description>
+	
+	<!-- EN: Mousekin Knight’s Shield -->
+	<Mousekin_ShieldKnight.label>Escudo do Cavaleiro Mousekin</Mousekin_ShieldKnight.label>
+	
+	<!-- EN: A durable heater-style metal shield, carried by Mousekin Knights for improved protection during battle. -->
+	<Mousekin_ShieldKnight.description>Uma proteção metálica resistente, semelhante a um aquecedor, usada pelos Cavaleiros Mousekin para maior proteção durante as batalhas.</Mousekin_ShieldKnight.description>
+	
 </LanguageData>

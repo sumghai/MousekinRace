@@ -352,10 +352,16 @@
 				<price>Cheap</price>
 			</li>
 			
-			<!-- Mid-tier military apparel (knight helmet and armor) -->
+			<!-- Mid-tier military apparel (knight helmet, armor, shields) -->
 			
 			<li Class="StockGenerator_MarketValue">
 				<tradeTag>Mousekin_TradeGoods_ApparelMilitaryKingdom</tradeTag>
+				<countRange>4~6</countRange>
+				<price>Cheap</price>
+			</li>
+			
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Mousekin_TradeGoods_AccessoryShieldsKingdom</tradeTag>
 				<countRange>4~6</countRange>
 				<price>Cheap</price>
 			</li>

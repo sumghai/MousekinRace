@@ -353,6 +353,7 @@
 		<apparelRequired>
 			<li>Mousekin_ApparelGuardenerGown</li>
 			<li>Mousekin_ApparelGuardenerRobe</li>
+			<li>Mousekin_ShieldGuardener</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -366,6 +367,12 @@
 				<apparelLayer>OnSkin</apparelLayer>
 				<apparelDef>Mousekin_ApparelGuardenerRobe</apparelDef>
 				<quality>Excellent</quality>
+			</li>
+			<li>
+				<bodyPartGroup>LeftHand</bodyPartGroup>
+				<apparelLayer>VFEC_OuterShell</apparelLayer>
+				<apparelDef>Mousekin_ShieldGuardener</apparelDef>
+				<quality>Good</quality>
 			</li>
 		</specificApparelRequirements>
 		<initialWillRange>8~12</initialWillRange>
@@ -403,6 +410,7 @@
 			<li>Mousekin_ApparelGambeson</li>
 			<li>Mousekin_ArmorPlate</li>
 			<li>Mousekin_HelmetKnight</li>
+			<li>Mousekin_ShieldKnight</li>
 		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
@@ -442,6 +450,13 @@
 				<bodyPartGroup>FullHead</bodyPartGroup>
 				<apparelLayer>Overhead</apparelLayer>
 				<apparelDef>Mousekin_HelmetKnight</apparelDef>
+				<!-- Use faction default of steel -->
+				<quality>Good</quality>
+			</li>
+			<li>
+				<bodyPartGroup>LeftHand</bodyPartGroup>
+				<apparelLayer>VFEC_OuterShell</apparelLayer>
+				<apparelDef>Mousekin_ShieldKnight</apparelDef>
 				<!-- Use faction default of steel -->
 				<quality>Good</quality>
 			</li>

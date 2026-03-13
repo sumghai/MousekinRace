@@ -25,4 +25,16 @@
 	<!-- EN: A durable leather bag with shoulder straps, multiple compartments and a simple canteen tankard, ideal for Mousekins undertaking long journeys through the wilderness. -->
 	<Mousekin_BackpackLeather.description>一款耐用的皮包，配有肩帶、多個隔層和一個簡單的水壺，非常適合在荒野中進行長途旅行的白鼠族。</Mousekin_BackpackLeather.description>
 	
+	<!-- EN: Mousekin Guardener’s Shield -->
+	<Mousekin_ShieldGuardener.label>白鼠族花園衛女盾</Mousekin_ShieldGuardener.label>
+	
+	<!-- EN: A circular wooden shield reinforced with leather edging and a heavy, flower-shaped steel boss, carried by Guardeners as part of the elite order's sworn duty to tend and protect the flower gardens of the Mousekin Kingdom. -->
+	<Mousekin_ShieldGuardener.description>花園衛女所佩戴的圓形木盾，以皮革邊緣加固，並配有沉重花形鋼製盾樁。此盾作為精銳衛隊的誓約職責，肩負著照料與守護白鼠族王國花圃的使命。</Mousekin_ShieldGuardener.description>
+	
+	<!-- EN: Mousekin Knight’s Shield -->
+	<Mousekin_ShieldKnight.label>白鼠族騎士盾</Mousekin_ShieldKnight.label>
+	
+	<!-- EN: A durable heater-style metal shield, carried by Mousekin Knights for improved protection during battle. -->
+	<Mousekin_ShieldKnight.description>一種耐用的熨斗式金屬護盾，由白鼠族騎士在戰鬥中佩戴以提升防護力。</Mousekin_ShieldKnight.description>
+	
 </LanguageData>
