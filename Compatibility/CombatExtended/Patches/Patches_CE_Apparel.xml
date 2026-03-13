@@ -355,6 +355,189 @@
 				</value>
 			</li>
 			
+			<!-- Patch shields -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="Mousekin_ShieldMakeableBase"]/thingClass</xpath>
+				<value>
+					<thingClass>CombatExtended.Apparel_Shield</thingClass>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="Mousekin_ShieldMakeableBase"]/apparel/bodyPartGroups</xpath>
+				<value>
+					<bodyPartGroups>
+						<li>LeftShoulder</li>
+					</bodyPartGroups>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="Mousekin_ShieldMakeableBase"]/apparel/layers</xpath>
+				<value>
+					<layers>
+						<li>Shield</li>
+					</layers>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@Name="Mousekin_ShieldMakeableBase"]/tools</xpath>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="Mousekin_ShieldMakeableBase"]/equippedStatOffsets</xpath>
+				<value>
+					<equippedStatOffsets>
+						<ReloadSpeed>-0.2</ReloadSpeed>
+						<MeleeHitChance>-1</MeleeHitChance>
+						<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+						<AimingAccuracy>-0.08</AimingAccuracy>
+						<Suppressability>-0.25</Suppressability>
+						<MeleeCritChance>-0.05</MeleeCritChance>
+						<MeleeParryChance>1.0</MeleeParryChance>
+					</equippedStatOffsets>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[@Name="Mousekin_ShieldMakeableBase"]</xpath>
+				<value>
+					<li Class="CombatExtended.ShieldDefExtension">
+						<shieldCoverage>
+							<li>Hands</li>
+							<li>Arms</li>
+							<li>Shoulders</li>
+							<li>Torso</li>
+							<li>Neck</li>
+						</shieldCoverage>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+					defName="Mousekin_ShieldGuardener" or 
+					defName="Mousekin_ShieldKnight"
+				]/comps/li[@Class="VEF.Apparels.CompProperties_Shield"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+					defName="Mousekin_ShieldGuardener" or
+					defName="Mousekin_ShieldKnight"
+				]/statBases </xpath>
+				<value>
+					<Bulk>6</Bulk>
+					<WornBulk>4</WornBulk>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ShieldGuardener"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ShieldGuardener"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>2.6</ArmorRating_Blunt>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_ShieldGuardener"]</xpath>
+				<value>
+					<apparel>
+						<renderNodeProperties>
+							<li>
+								<nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+								<workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+								<texPath>Things/Items/Equipment/MousekinShieldGuardener/MousekinShieldGuardener</texPath>
+								<shaderTypeDef>CutoutComplex</shaderTypeDef>
+								<parentTagDef>ApparelBody</parentTagDef>
+								<drawData>
+									<scale>0.6</scale>
+									<defaultData>
+										<layer>85</layer>
+									</defaultData>
+									<dataEast>
+										<layer>-5</layer>
+										<offset>(0, 0, -0.2)</offset>
+										<rotationOffset>30</rotationOffset>
+									</dataEast>
+									<dataWest>
+										<rotationOffset>-30</rotationOffset>
+									</dataWest>
+									<dataNorth>
+										<layer>-5</layer>
+										<offset>(-0.2, 0, -0.175)</offset>
+									</dataNorth>
+									<dataSouth>
+										<offset>(0.2, 0, -0.2)</offset>
+									</dataSouth>
+								</drawData>
+							</li>
+						</renderNodeProperties>
+					</apparel>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ShieldKnight"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>3</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mousekin_ShieldKnight"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>4.5</ArmorRating_Blunt>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_ShieldKnight"]</xpath>
+				<value>
+					<apparel>
+						<renderNodeProperties>
+							<li>
+								<nodeClass>CombatExtended.PawnRenderNode_Apparel</nodeClass>
+								<workerClass>CombatExtended.PawnRenderNodeWorker_Drafted</workerClass>
+								<texPath>Things/Items/Equipment/MousekinShieldKnight/MousekinShieldKnight</texPath>
+								<shaderTypeDef>Cutout</shaderTypeDef>
+								<parentTagDef>ApparelBody</parentTagDef>
+								<drawData>
+									<scale>0.55</scale>
+									<defaultData>
+										<layer>85</layer>
+									</defaultData>
+									<dataEast>
+										<layer>-5</layer>
+										<offset>(0, 0, -0.25)</offset>
+										<rotationOffset>30</rotationOffset>
+									</dataEast>
+									<dataWest>
+										<rotationOffset>-30</rotationOffset>
+									</dataWest>
+									<dataNorth>
+										<layer>-5</layer>
+										<offset>(-0.2, 0, -0.2)</offset>
+									</dataNorth>
+									<dataSouth>
+										<offset>(0.2, 0, -0.2)</offset>
+									</dataSouth>
+								</drawData>
+							</li>
+						</renderNodeProperties>
+					</apparel>
+				</value>
+			</li>
+			
 		</operations>
 	</Operation>
 </Patch>
