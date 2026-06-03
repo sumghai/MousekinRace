@@ -64,7 +64,6 @@
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/modExtensions/li[@Class="MousekinRace.OtherRodentRacesExtension"]/differentRodentRaces</xpath>
 				<value>
 					<li>Ratkin</li>
-					<li>Ratkin_Su</li>
 				</value>
 			</li>
 
@@ -76,7 +75,6 @@
 					<li>
 						<raceList>
 							<li>Ratkin</li>
-							<li>Ratkin_Su</li>
 						</raceList>
 						<thought>Mousekin_Thought_ButcheredRatkinCorpse</thought>
 						<knowThought>Mousekin_Thought_KnowButcheredRatkinCorpse</knowThought>
@@ -90,7 +88,6 @@
 					<li>
 						<raceList>
 							<li>Ratkin</li>
-							<li>Ratkin_Su</li>
 						</raceList>
 						<thought>Mousekin_Thought_AteRatkinMeatDirect</thought>
 						<ingredientThought>Mousekin_Thought_AteRatkinMeatAsIngredient</ingredientThought>
@@ -101,9 +98,19 @@
 			<!-- Add custom thought for Ratkins seeing Pudgemice -->
 			
 			<li Class="PatchOperationConditional">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/thoughtSettings/replacerList</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_RaceAttr_Base"]/alienRace/thoughtSettings</xpath>
 				<nomatch Class="PatchOperationAdd">
-					<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/thoughtSettings</xpath>
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_RaceAttr_Base"]/alienRace</xpath>
+					<value>
+						<thoughtSettings/>
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_RaceAttr_Base"]/alienRace/thoughtSettings/replacerList</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_RaceAttr_Base"]/alienRace/thoughtSettings</xpath>
 					<value>
 						<replacerList/>
 					</value>
@@ -111,7 +118,7 @@
 			</li>
 			
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/thoughtSettings/replacerList</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_RaceAttr_Base"]/alienRace/thoughtSettings/replacerList</xpath>
 				<value>
 					<li>
 						<original>Humanlike_Thought_SawNearbyPudgemouse</original>
@@ -123,9 +130,9 @@
 			<!-- Race-restrict Ratkin buildings (reduce Architect menu clutter) -->
 			
 			<li Class="PatchOperationConditional">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/raceRestriction/buildingList</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_RaceAttr_Base"]/alienRace/raceRestriction/buildingList</xpath>
 				<nomatch Class="PatchOperationAdd">
-					<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/raceRestriction</xpath>
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_RaceAttr_Base"]/alienRace/raceRestriction</xpath>
 					<value>
 						<buildingList/>
 					</value>
@@ -133,10 +140,10 @@
 			</li>
 			
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_PawnNormal"]/alienRace/raceRestriction/buildingList</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="RK_RaceAttr_Base"]/alienRace/raceRestriction/buildingList</xpath>
 				<value>
-					<li>RK_Ballista_Strait_Body</li>
-					<li>RK_Cannon_Strait_Body</li>
+					<li>RK_Building_Ballista</li>
+					<li>RK_Building_Cannon</li>
 					<li>RK_ElectricSmithy</li>
 					<li>RK_ElectricTailoringBench</li>
 					<li>RK_FueledSmithy</li>
