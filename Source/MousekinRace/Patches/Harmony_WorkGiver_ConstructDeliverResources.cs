@@ -25,8 +25,8 @@ namespace MousekinRace
     public static class Harmony_WorkGiver_ConstructDeliverResources_ResourceDeliverJobFor_MousekinXmasTreePatch
     {
         // Original: ResourceValidator(pawn, need, r) from inside
-        // GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForDef(need.thingDef), PathEndMode.ClosestTouch, TraverseParms.For(pawn), 9999f, (Thing r) => ResourceValidator(pawn, need, r));
-        public static MethodInfo TargetMethod() => AccessTools.Method(AccessTools.Inner(typeof(WorkGiver_ConstructDeliverResources), "<>c__DisplayClass10_1"), "<ResourceDeliverJobFor>b__1");
+        // GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForDef(need.thingDef), PathEndMode.ClosestTouch, TraverseParms.For(pawn, forced ? Danger.Deadly : pawn.NormalMaxDanger()), 9999f, (Thing r) => ResourceValidator_NewTemp(pawn, need, r, forced));
+        public static MethodInfo TargetMethod() => AccessTools.Method(AccessTools.Inner(typeof(WorkGiver_ConstructDeliverResources), "<>c__DisplayClass16_1"), "<ResourceDeliverJobFor>b__1");
 
         [HarmonyTranspiler]
         public static IEnumerable<CodeInstruction> MinifiedTreeTypeFilter_Transpiler(IEnumerable<CodeInstruction> instructions)
