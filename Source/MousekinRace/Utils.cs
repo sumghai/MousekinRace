@@ -17,7 +17,7 @@ namespace MousekinRace
 
         public static bool IsMousekin(this PawnKindDef pawnKindDef)
         {
-            return (pawnKindDef != null) ? pawnKindDef.race.Equals(MousekinDefOf.Mousekin) : false;
+            return (pawnKindDef != null) && pawnKindDef.race.Equals(MousekinDefOf.Mousekin);
         }
 
         // Determine if a faction's ideo/culture is Mousekin
