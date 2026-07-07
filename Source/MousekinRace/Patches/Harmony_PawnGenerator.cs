@@ -42,6 +42,7 @@ namespace MousekinRace
     }
 
     // Ensure that any Mousekin Slaves generated:
+    // - belongs to the Mousekin Kingdom by default (unless purchased from a non-Mousekin slave trader)
     // - is spawned wearing their default slave rag apparel (instead of being given random clothing for warm)
     // - has the Word of Valerian ideo (if the Mousekin Kingdom faction exists on the map)
     // - child slaves (i.e. those with no adulthoods) should always have the generic Mousekin Slave Child backstory
@@ -52,6 +53,7 @@ namespace MousekinRace
         {
             if (request.KindDef == MousekinDefOf.MousekinSlave)
             {
+                request.Faction = Find.FactionManager.AllFactionsVisible.First((Faction fac) => fac.def == MousekinDefOf.Mousekin_FactionKingdom);
                 request.ForceAddFreeWarmLayerIfNeeded = false;
 
                 if (ModsConfig.IdeologyActive && Find.IdeoManager.ideos.First(x => x.culture.IsMousekinKingdomLike()) is Ideo mousekinDefaultIdeo)
