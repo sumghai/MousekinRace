@@ -25,4 +25,10 @@
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}(은)는 {1} 합니다.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	
+	<!-- EN: {0} must be a {1} (recruited from a {2} or via the {3}). -->
+	<MousekinRace_MessageRitualRoleMustBeMousekinPriest>{0}(은)는 {1}이어야 합니다({2} 또는 {3}에서 영입).</MousekinRace_MessageRitualRoleMustBeMousekinPriest>
+	
+	<!-- EN: {0} cannot be a {1}. -->
+	<MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>{0}(은)는 {1}이(가) 될 수 없습니다.</MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>
+	
 </LanguageData>

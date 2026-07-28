@@ -25,4 +25,10 @@
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0} должна быть {1}.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	
+	<!-- EN: {0} must be a {1} (recruited from a {2} or via the {3}). -->
+	<MousekinRace_MessageRitualRoleMustBeMousekinPriest>{0} должен быть {1} (вербован из {2} или через {3}).</MousekinRace_MessageRitualRoleMustBeMousekinPriest>
+	
+	<!-- EN: {0} cannot be a {1}. -->
+	<MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>{0} не может быть {1}.</MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>
+	
 </LanguageData>

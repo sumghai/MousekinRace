@@ -17,4 +17,8 @@
 	
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0_labelShort} must be a {1}.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	
+	<MousekinRace_MessageRitualRoleMustBeMousekinPriest>{0} must be a {1} (recruited from a {2} or via the {3}).</MousekinRace_MessageRitualRoleMustBeMousekinPriest>
+	
+	<MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>{0} cannot be a {1}.</MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>
+	
 </LanguageData>

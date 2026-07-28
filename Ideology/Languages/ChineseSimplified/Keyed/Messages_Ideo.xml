@@ -25,4 +25,10 @@
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}必须是{1}。</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	
+	<!-- EN: {0} must be a {1} (recruited from a {2} or via the {3}). -->
+	<MousekinRace_MessageRitualRoleMustBeMousekinPriest>{0}必须由{1}来担任职位\n(透过{2}或{3}招募)。</MousekinRace_MessageRitualRoleMustBeMousekinPriest>
+	
+	<!-- EN: {0} cannot be a {1}. -->
+	<MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>{0}不能担任{1}职位。</MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>
+	
 </LanguageData>

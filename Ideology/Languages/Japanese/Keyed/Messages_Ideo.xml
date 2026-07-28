@@ -25,4 +25,10 @@
 	<!-- EN: {0_labelShort} must be a {1}. -->
 	<MousekinRace_MessageRitualRoleMustBeMousekinNun>{0}は{1}である必要があります.</MousekinRace_MessageRitualRoleMustBeMousekinNun>
 	
+	<!-- EN: {0} must be a {1} (recruited from a {2} or via the {3}). -->
+	<MousekinRace_MessageRitualRoleMustBeMousekinPriest>{0}は{1}でなければなりません（{2}または{3}から採用）.</MousekinRace_MessageRitualRoleMustBeMousekinPriest>
+	
+	<!-- EN: {0} cannot be a {1}. -->
+	<MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>{0}を{1}にすることはできません.</MousekinRace_MessageRitualRoleMustBeNonMousekinPriest>
+	
 </LanguageData>
