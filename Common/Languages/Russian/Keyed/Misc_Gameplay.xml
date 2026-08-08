@@ -115,6 +115,18 @@
 	<!-- EN: {0} cannot be built on sea ice. -->
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>На морские льды нельзя построить {0}.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 	
+	<!-- EN: Inappropriate apparel worn: -->
+	<MousekinRace_Thought_InappropriateApparelWorn>Надета неподходящая одежда:</MousekinRace_Thought_InappropriateApparelWorn>
+	
+	<!-- EN: Optional apparel worn: -->
+	<MousekinRace_Thought_OptionalApparelWorn>Надета необязательная одежда:</MousekinRace_Thought_OptionalApparelWorn>
+	
+	<!-- EN: Required apparel missing: -->
+	<MousekinRace_Thought_RequiredApparelMissing>Отсутствует необходимая одежда:</MousekinRace_Thought_RequiredApparelMissing>
+	
+	<!-- EN: Required apparel worn: -->
+	<MousekinRace_Thought_RequiredApparelWorn>Надета необходимая одежда:</MousekinRace_Thought_RequiredApparelWorn>
+	
 	<!-- (RW 1.5 only) EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>Зерно для вставки</MousekinRace_Windmill_InsertWheatDesc>
 	

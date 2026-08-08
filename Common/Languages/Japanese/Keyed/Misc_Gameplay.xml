@@ -114,6 +114,18 @@
 	
 	<!-- EN: {0} cannot be built on sea ice. -->
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>海氷上に{0}を構築することはできません.</MousekinRace_PlaceWorker_NeverOnSeaIce>
+	
+	<!-- EN: Inappropriate apparel worn: -->
+	<MousekinRace_Thought_InappropriateApparelWorn>不適切な服装を着用：</MousekinRace_Thought_InappropriateApparelWorn>
+	
+	<!-- EN: Optional apparel worn: -->
+	<MousekinRace_Thought_OptionalApparelWorn>任意の服装を着用：</MousekinRace_Thought_OptionalApparelWorn>
+	
+	<!-- EN: Required apparel missing: -->
+	<MousekinRace_Thought_RequiredApparelMissing>必須の服装が不足：</MousekinRace_Thought_RequiredApparelMissing>
+	
+	<!-- EN: Required apparel worn: -->
+	<MousekinRace_Thought_RequiredApparelWorn>必須の服装を着用：</MousekinRace_Thought_RequiredApparelWorn>
 
 	<!-- (RW 1.5 only) EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>風車で粉砕する穀物を選択します.</MousekinRace_Windmill_InsertWheatDesc>

@@ -89,6 +89,18 @@
 	
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>Não é possível construir {0} sobre gelo marinho.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 	
+	<!-- EN: Inappropriate apparel worn: -->
+	<MousekinRace_Thought_InappropriateApparelWorn>Vestimenta inadequada usada:</MousekinRace_Thought_InappropriateApparelWorn>
+	
+	<!-- EN: Optional apparel worn: -->
+	<MousekinRace_Thought_OptionalApparelWorn>Vestimenta opcional usada:</MousekinRace_Thought_OptionalApparelWorn>
+	
+	<!-- EN: Required apparel missing: -->
+	<MousekinRace_Thought_RequiredApparelMissing>Falta vestimenta obrigatória:</MousekinRace_Thought_RequiredApparelMissing>
+	
+	<!-- EN: Required apparel worn: -->
+	<MousekinRace_Thought_RequiredApparelWorn>Vestimenta obrigatória usada:</MousekinRace_Thought_RequiredApparelWorn>
+	
 	<!-- (RW 1.5 only) -->
 	<MousekinRace_Windmill_InsertWheatDesc>Grãos para inserir</MousekinRace_Windmill_InsertWheatDesc>
 	

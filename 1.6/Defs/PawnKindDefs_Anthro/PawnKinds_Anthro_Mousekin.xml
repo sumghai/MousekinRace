@@ -125,6 +125,11 @@
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
 			</li>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_ShieldKnight</li>
+				</optionalApparel>
+			</li>
 		</modExtensions>
 	</PawnKindDef>
 
@@ -224,6 +229,14 @@
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
 			</li>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_ApparelCloak</li>
+					<li>Mousekin_BackpackLeather</li>
+					<li>Mousekin_GlassesLarge</li>
+					<li>Mousekin_GlassesSmall</li>
+				</optionalApparel>
+			</li>
 		</modExtensions>
 	</PawnKindDef>
 
@@ -253,6 +266,14 @@
 		<modExtensions>
 			<li Class="MousekinRace.RomanceUtilsExtension">
 				<preventNewRomances>true</preventNewRomances>
+			</li>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_ApparelCloak</li>
+					<li>Mousekin_BackpackLeather</li>
+					<li>Mousekin_GlassesLarge</li>
+					<li>Mousekin_GlassesSmall</li>
+				</optionalApparel>
 			</li>
 		</modExtensions>
 	</PawnKindDef>
@@ -322,6 +343,13 @@
 				<quality>Masterwork</quality>
 			</li>
 		</specificApparelRequirements>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_ShieldKnight</li>
+				</optionalApparel>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -377,6 +405,14 @@
 		</specificApparelRequirements>
 		<initialWillRange>8~12</initialWillRange>
 		<initialResistanceRange>41~61</initialResistanceRange>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_GlassesLarge</li>
+					<li>Mousekin_GlassesSmall</li>
+				</optionalApparel>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -466,6 +502,11 @@
 				<allowHumanBios>false</allowHumanBios>
 				<maleGenderProbability>0.80</maleGenderProbability>
 			</li>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_ApparelCloak</li>
+				</optionalApparel>
+			</li>
 		</modExtensions>
 	</PawnKindDef>
 
@@ -508,6 +549,17 @@
 		</specificApparelRequirements>
 		<initialWillRange>6~9</initialWillRange>
 		<initialResistanceRange>39~59</initialResistanceRange>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_ApparelCloak</li>
+					<li>Mousekin_BackpackLeather</li>
+					<li>Mousekin_GlassesLarge</li>
+					<li>Mousekin_GlassesSmall</li>
+					<li>Mousekin_ShieldGuardener</li>
+				</optionalApparel>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">
@@ -571,6 +623,13 @@
 				<allowHumanBios>false</allowHumanBios>
 				<maleGenderProbability>0.80</maleGenderProbability>
 			</li>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_ApparelCloak</li>
+					<li>Mousekin_BackpackLeather</li>
+					<li>Mousekin_ShieldKnight</li>
+				</optionalApparel>
+			</li>
 		</modExtensions>
 	</PawnKindDef>
 
@@ -611,6 +670,16 @@
 		</specificApparelRequirements>
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>8~12</initialResistanceRange>
+		<modExtensions>
+			<li Class="MousekinRace.ApparelExpectationExtension">
+				<optionalApparel>
+					<li>Mousekin_ApparelCloak</li>
+					<li>Mousekin_BackpackLeather</li>
+					<li>Mousekin_GlassesLarge</li>
+					<li>Mousekin_ShieldGuardener</li>
+				</optionalApparel>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Mousekin_BasePawnKind">

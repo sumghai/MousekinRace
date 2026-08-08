@@ -115,6 +115,18 @@
 	<!-- EN: {0} cannot be built on sea ice. -->
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>不能在海洋冰盖上建造{0}。</MousekinRace_PlaceWorker_NeverOnSeaIce>
 	
+	<!-- EN: Inappropriate apparel worn: -->
+	<MousekinRace_Thought_InappropriateApparelWorn>穿着不合适的服装：</MousekinRace_Thought_InappropriateApparelWorn>
+	
+	<!-- EN: Optional apparel worn: -->
+	<MousekinRace_Thought_OptionalApparelWorn>穿着可接受的服装:</MousekinRace_Thought_OptionalApparelWorn>
+	
+	<!-- EN: Required apparel missing: -->
+	<MousekinRace_Thought_RequiredApparelMissing>缺少必要的服装：</MousekinRace_Thought_RequiredApparelMissing>
+	
+	<!-- EN: Required apparel worn: -->
+	<MousekinRace_Thought_RequiredApparelWorn>穿着必要的服装：</MousekinRace_Thought_RequiredApparelWorn>
+	
 	<!-- (RW 1.5 only) EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>选谷物</MousekinRace_Windmill_InsertWheatDesc>
 

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: improperly attired -->
+	<Mousekin_Thought_ApparelExpectations.stages.0.label>역할에 맞지 않는 복장</Mousekin_Thought_ApparelExpectations.stages.0.label>
+	
+	<!-- EN: My clothing does not suit my role as a {0}. -->
+	<Mousekin_Thought_ApparelExpectations.stages.0.description>내 복장은 {0}(으)로서의 역할에 어울리지 않는다.</Mousekin_Thought_ApparelExpectations.stages.0.description>
+	
+	<!-- EN: properly attired -->
+	<Mousekin_Thought_ApparelExpectations.stages.1.label>역할에 맞는 복장</Mousekin_Thought_ApparelExpectations.stages.1.label>
+	
+	<!-- EN: I am dressed as befits my role as a {0}. -->
+	<Mousekin_Thought_ApparelExpectations.stages.0.description>내 복장은 {0}(으)로서의 역할에 걸맞다.</Mousekin_Thought_ApparelExpectations.stages.0.description>
+	
 	<!-- EN: ate cheese -->
 	<Mousekin_Thought_AteCheese.stages.0.label>치즈를 먹었다</Mousekin_Thought_AteCheese.stages.0.label>
 

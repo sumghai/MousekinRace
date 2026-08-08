@@ -89,6 +89,14 @@
 	
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>{0} cannot be built on sea ice.</MousekinRace_PlaceWorker_NeverOnSeaIce>
 	
+	<MousekinRace_Thought_InappropriateApparelWorn>Inappropriate apparel worn:</MousekinRace_Thought_InappropriateApparelWorn>
+	
+	<MousekinRace_Thought_OptionalApparelWorn>Optional apparel worn:</MousekinRace_Thought_OptionalApparelWorn>
+	
+	<MousekinRace_Thought_RequiredApparelMissing>Required apparel missing:</MousekinRace_Thought_RequiredApparelMissing>
+	
+	<MousekinRace_Thought_RequiredApparelWorn>Required apparel worn:</MousekinRace_Thought_RequiredApparelWorn>
+	
 	<!-- (RW 1.5 only) -->
 	<MousekinRace_Windmill_InsertWheatDesc>Grain to Insert</MousekinRace_Windmill_InsertWheatDesc>
 	

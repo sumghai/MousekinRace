@@ -114,6 +114,18 @@
 	
 	<!-- EN: {0} cannot be built on sea ice. -->
 	<MousekinRace_PlaceWorker_NeverOnSeaIce>{0}은 해빙 위에 지을 수 없습니다.</MousekinRace_PlaceWorker_NeverOnSeaIce>
+	
+	<!-- EN: Inappropriate apparel worn: -->
+	<MousekinRace_Thought_InappropriateApparelWorn>부적절한 복장 착용:</MousekinRace_Thought_InappropriateApparelWorn>
+	
+	<!-- EN: Optional apparel worn: -->
+	<MousekinRace_Thought_OptionalApparelWorn>선택 복장 착용:</MousekinRace_Thought_OptionalApparelWorn>
+	
+	<!-- EN: Required apparel missing: -->
+	<MousekinRace_Thought_RequiredApparelMissing>필수 복장 부족:</MousekinRace_Thought_RequiredApparelMissing>
+	
+	<!-- EN: Required apparel worn: -->
+	<MousekinRace_Thought_RequiredApparelWorn>필수 복장 착용:</MousekinRace_Thought_RequiredApparelWorn>
 
 	<!-- (RW 1.5 only) EN: Grain to Insert -->
 	<MousekinRace_Windmill_InsertWheatDesc>삽입할 곡물</MousekinRace_Windmill_InsertWheatDesc>

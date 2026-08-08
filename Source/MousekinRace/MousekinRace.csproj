@@ -98,6 +98,7 @@
     <Compile Include="Comps\MapComponent_Fertilizer.cs" />
     <Compile Include="Comps\MapComponent_FlowerTracker.cs" />
     <Compile Include="Comps\MapComponent_UndergroundMineDeposits.cs" />
+    <Compile Include="DefModExtensions\ApparelExpectationExtension.cs" />
     <Compile Include="DefModExtensions\BookcaseRenderExtension.cs" />
     <Compile Include="DefModExtensions\BookNameDescByGenreExtension.cs" />
     <Compile Include="DefModExtensions\CellarOutdoorGraphicsExtension.cs" />
@@ -300,6 +301,7 @@
     <Compile Include="ScenPart\ScenPart_RequiredFaction.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Stats\StatPart_IgnoreStuffEffectForGildedItems.cs" />
+    <Compile Include="Thoughts\ThoughtWorker_ApparelExpectations.cs" />
     <Compile Include="Thoughts\ThoughtWorker_AteCheese.cs" />
     <Compile Include="Thoughts\ThoughtWorker_FaithAffinityOpinions.cs" />
     <Compile Include="Thoughts\ThoughtWorker_FlowersDestroyed.cs" />

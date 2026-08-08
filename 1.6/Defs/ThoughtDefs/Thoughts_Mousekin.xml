@@ -2,6 +2,24 @@
 <Defs>
 
 	<ThoughtDef>
+		<defName>Mousekin_Thought_ApparelExpectations</defName>
+		<workerClass>MousekinRace.ThoughtWorker_ApparelExpectations</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>improperly attired</label>
+				<description>My clothing does not suit my role as a {0}.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>properly attired</label>
+				<description>I am dressed as befits my role as a {0}.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
 		<defName>Mousekin_Thought_AteCheese</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Cheese</icon>

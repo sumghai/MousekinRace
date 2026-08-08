@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <!-- EN: ate cheese -->
+    <!-- EN: improperly attired -->
+	<Mousekin_Thought_ApparelExpectations.stages.0.label>Неподобающая одежда</Mousekin_Thought_ApparelExpectations.stages.0.label>
+	
+	<!-- EN: My clothing does not suit my role as a {0}. -->
+	<Mousekin_Thought_ApparelExpectations.stages.0.description>Моя одежда не соответствует моему положению как {0}.</Mousekin_Thought_ApparelExpectations.stages.0.description>
+	
+	<!-- EN: properly attired -->
+	<Mousekin_Thought_ApparelExpectations.stages.1.label>Подобающая одежда</Mousekin_Thought_ApparelExpectations.stages.1.label>
+	
+	<!-- EN: I am dressed as befits my role as a {0}. -->
+	<Mousekin_Thought_ApparelExpectations.stages.0.description>Моя одежда соответствует моему положению как {0}.</Mousekin_Thought_ApparelExpectations.stages.0.description>
+	
+	<!-- EN: ate cheese -->
     <Mousekin_Thought_AteCheese.stages.0.label>Съел сыр</Mousekin_Thought_AteCheese.stages.0.label>
 
     <!-- EN: I ate some cheese. I guess it tastes alright, but I'd prefer some crunchy roasted nuts or juicy berries. -->
