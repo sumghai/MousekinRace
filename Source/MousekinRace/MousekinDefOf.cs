@@ -68,6 +68,7 @@ namespace MousekinRace
         }
 
         public static ThoughtDef AteLavishMeal;
+        public static ThoughtDef Mousekin_Thought_ApparelExpectations;
         public static ThoughtDef Mousekin_Thought_AteCheese;
         public static ThoughtDef Mousekin_Thought_ChurchAttendedService;
         public static ThoughtDef Mousekin_Thought_ChurchHeldService;

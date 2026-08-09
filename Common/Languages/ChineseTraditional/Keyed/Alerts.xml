@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+	<!-- EN: Colonist wearing inappropriate apparel -->
+	<AlertColonistsWearingInappropriateApparelSingularLabel>殖民者穿著不合適的服裝</AlertColonistsWearingInappropriateApparelSingularLabel>
+	
+	<!-- EN: Colonists wearing inappropriate apparel -->
+	<AlertColonistsWearingInappropriateApparelPluralLabel>殖民者們穿著不合適的服裝</AlertColonistsWearingInappropriateApparelPluralLabel>
+	
+	<!-- EN: These colonists are wearing apparel inappropriate to their roles:\n\n{0}\nExamine their "{1}" thoughts to see what apparel they require. -->
+	<AlertColonistsWearingInappropriateApparelDesc>這些殖民者穿著不符合其職責的服裝：\n\n{0}\n查看他們的「{1}」想法，以了解他們需要穿著哪些服裝。</AlertColonistsWearingInappropriateApparelDesc>
+	
 	<!-- EN: Miserable Earless Mousekin -->
 	<AlertEarlessMousekinFeelingMiserableLabel>憂傷的無耳白鼠族</AlertEarlessMousekinFeelingMiserableLabel>
 	

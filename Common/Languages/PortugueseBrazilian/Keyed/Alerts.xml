@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<!-- EN: Colonist wearing inappropriate apparel -->
+	<AlertColonistsWearingInappropriateApparelSingularLabel>Colonista usando roupas inadequadas</AlertColonistsWearingInappropriateApparelSingularLabel>
+	
+	<!-- EN: Colonists wearing inappropriate apparel -->
+	<AlertColonistsWearingInappropriateApparelPluralLabel>Colonistas usando roupas inadequadas</AlertColonistsWearingInappropriateApparelPluralLabel>
+	
+	<!-- EN: These colonists are wearing apparel inappropriate to their roles:\n\n{0}\nExamine their "{1}" thoughts to see what apparel they require. -->
+	<AlertColonistsWearingInappropriateApparelDesc>Estes colonistas estão usando roupas inadequadas para suas funções:\n\n{0}\nExamine os pensamentos "{1}" deles para ver quais roupas eles precisam usar.</AlertColonistsWearingInappropriateApparelDesc>
+
 	<AlertEarlessMousekinFeelingMiserableLabel>Mousekin Sem Orelhas Triste</AlertEarlessMousekinFeelingMiserableLabel>
 	
 	<AlertEarlessMousekinFeelingMiserableDesc>Estes Mousekins recentemente perderam ambas as orelhas devido a doença ou ferimento, e sentem vergonha de sua desfiguração:\n\n{0}}</AlertEarlessMousekinFeelingMiserableDesc>

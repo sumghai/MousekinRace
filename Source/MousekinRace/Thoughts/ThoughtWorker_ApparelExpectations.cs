@@ -83,8 +83,8 @@ namespace MousekinRace
 
         public override ThoughtState CurrentStateInternal(Pawn pawn)
         {
-            // Skip pawns whose kinddefs lack the apparel expectations mod extension
-            if (pawn.kindDef.GetModExtension<ApparelExpectationExtension>() is not ApparelExpectationExtension apparelExpectationExtension)
+            // Skip pawns who don't wear apparel at all, or whose kinddefs lack the apparel expectations mod extension
+            if (pawn.apparel == null || pawn.kindDef.GetModExtension<ApparelExpectationExtension>() is not ApparelExpectationExtension apparelExpectationExtension)
             {
                 return ThoughtState.Inactive;
             }
