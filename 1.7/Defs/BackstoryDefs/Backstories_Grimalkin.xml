@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ========== Backstory Bases ========== -->
+	
+	<AlienRace.AlienBackstoryDef Name="Grimalkin_BackstoryChildhoodBase" Abstract="true">
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>GrimalkinChild</li>
+		</spawnCategories>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef Name="Grimalkin_BackstoryAdulthoodBase" Abstract="true">
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>GrimalkinAdult</li>
+		</spawnCategories>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- ========== Childhood Backstories ========== -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryChildhoodBase">
+		<defName>Grimalkin_Childhood_FactoryChild</defName>
+		<title>factory kitten</title>
+		<titleShort>factory kitten</titleShort>
+		<description>[PAWN_nameDef]'s father worked in one of the Grimalkin Dominion's many munitions factories, making grenades for the brave soldiers of the Grimalkin People's Liberation Army.\n\nAfter [PAWN_possessive] father bought a dummy grenade home to show [PAWN_objective], [PAWN_nameDef] began spending his free hours after school or studying helping out at the factory, where [PAWN_possessive] small paws made [PAWN_objective] very good at assembling and installing grenade fuzes.</description>
+		<skillGains>
+			<Crafting>1</Crafting>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="2">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="1">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryChildhoodBase">
+		<defName>Grimalkin_Childhood_FarmChild</defName>
+		<title>farm kitten</title>
+		<titleShort>farm kitten</titleShort>
+		<description>[PAWN_nameDef] grew up on one of the Grimalkin Dominion's many collective farms in the countryside, where [PAWN_pronoun] attended school by day, and helped [PAWN_possessive] family in the rice paddies in the afternoon.\n\nInspired by army convoys passing the fields daily, [PAWN_pronoun] vowed to join the Grimalkin People's Liberation Army when [PAWN_pronoun] grew up.</description>
+		<skillGains>
+			<Plants>1</Plants>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="2">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="1">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryChildhoodBase">
+		<defName>Grimalkin_Childhood_MineChild</defName>
+		<title>miner's kitten</title>
+		<titleShort>miner's kitten</titleShort>
+		<description>[PAWN_nameDef]'s parents toiled in one of the Grimalkin Dominion's many mines, extracting coking coal used in the nation's steelworking and munitions manufacturing industries. After school, [PAWN_pronoun] would help grade and sort coal lumps coming off the conveyor.</description>
+		<skillGains>
+			<Mining>1</Mining>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName Degree="2">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="1">Industriousness</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryChildhoodBase">
+		<defName>Grimalkin_Childhood_YoungPioneer</defName>
+		<title>Young Pioneer</title>
+		<titleShort>Young Pioneer</titleShort>
+		<description>After giving a well-received speech at school on the principles and values of The Great Feline Revolution, [PAWN_nameDef] was awarded a red scarf, and nominated by [PAWN_possessive] teacher to become a Young Pioneer, leading [PAWN_possessive] classmates by example to dedicate their lives to the glory of the Grimalkin Dominion.\n\n[PAWN_pronoun] took additional political classes after school, and organized community volunteer activities such as collecting scrap metal for the country's military factories.</description>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+		<skillGains>
+			<Social>1</Social>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- ========== Adulthood Backstories ========== -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_Rifleman</defName>
+		<title>rifleman</title>
+		<titleShort>rifleman</titleShort>
+		<description>[PAWN_nameDef] trained as a rifleman in the Grimalkin People's Liberation Army, and was often deployed on military operations to secure the Grimalkin Dominion's borders from trespassing Mousekins.</description>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>5</Melee>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinRifleman</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_MachineGunner</defName>
+		<title>machine gunner</title>
+		<titleShort>machine gunner</titleShort>
+		<description>[PAWN_nameDef] served in the Grimalkin People's Liberation Army as a squad machine gunner, laying down suppressive fire to help [PAWN_possessive] comrades advance in the field of battle.</description>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>1</Melee>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="-1">ShootingAccuracy</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinMachineGunner</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_Grenadier</defName>
+		<title>grenadier</title>
+		<titleShort>grenadier</titleShort>
+		<description>[PAWN_nameDef] served in the Grimalkin People's Liberation Army as a squad grenadier, flushing out Mousekins hiding behind cover with indirect fire from [PAWN_possessive] grenade launcher.</description>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>1</Melee>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinGrenadier</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_Sniper</defName>
+		<title>sniper</title>
+		<titleShort>sniper</titleShort>
+		<description>[PAWN_nameDef] trained as a sniper in the Grimalkin People's Liberation Army, operating either alone, paired with another sniper/spotter, or attached to an infantry squad.\n\n[PAWN_pronoun] was skilled enough to shoot the ears off a Mousekin over five hundred meters away.</description>
+		<skillGains>
+			<Shooting>10</Shooting>
+			<Melee>1</Melee>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName Degree="1">ShootingAccuracy</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinSniper</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_Crewman</defName>
+		<title>vehicle crewman</title>
+		<titleShort>crewman</titleShort>
+		<description>[PAWN_nameDef] operated various armored vehicles in the Grimalkin People's Liberation Army, ranging from light scout cars to infantry fighting vehicles and main battle tanks.\n\n[PAWN_pronoun] and [PAWN_possessive] fellow crewmen liked to run betting pools to see who can squash the most Mousekin peasants with their vehicles' wheels and tracked treads.</description>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>1</Melee>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinCrewman</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_Stormtrooper</defName>
+		<title>stormtrooper</title>
+		<titleShort>stormtrooper</titleShort>
+		<description>[PAWN_nameDef] displayed zealous ferocity during basic training, and was seconded by [PAWN_possessive] drill sergeant to the Stormtrooper Corps.\n\nAfter many months of grueling training, [PAWN_pronoun] was soon leading [PAWN_possessive] fellow stormtroopers and dozens of regular army infantrymen in assaulting trenches and overwhelming enemy defenses, [PAWN_possessive] combat prowess matched only by [PAWN_possessive] insatiable bloodlust for hapless Mousekins.</description>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>5</Melee>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName Degree="2">Nerves</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Nerves</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Nerves</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinStormtrooper</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_StaffOfficer</defName>
+		<title>staff officer</title>
+		<titleShort>officer</titleShort>
+		<description>[PAWN_nameDef] served as a staff officer in the Grimalkin People's Liberation Army, performing clerical, logistics and other administrative work within the safe confines of Grimalkin Dominion military bases.</description>
+		<skillGains>
+			<Shooting>1</Shooting>
+			<Melee>1</Melee>
+			<Social>4</Social>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinStaffOfficer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_Colonel</defName>
+		<title>colonel</title>
+		<titleShort>colonel</titleShort>
+		<description>[PAWN_nameDef] began his career in the Grimalkin People's Liberation Army as a lowly rifleman, whose frequent demonstrations of valor in battle and loyalty to the Fatherland earned [PAWN_objective] a much-coveted letter of recommendation to the prestigious Officers' Academy.\n\nAfter graduating as a First Lieutenant and being welcomed back to [PAWN_possessive] old unit as a platoon leader, [PAWN_pronoun] gradually worked [PAWN_possessive] way up the ranks until [PAWN_pronoun] eventually took command of the entire regiment after [PAWN_possessive] mentor and sponsor retired.</description>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>5</Melee>
+			<Social>6</Social>
+			<Intellectual>6</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Nerves</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Nerves</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinColonel</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Grimalkin_BackstoryAdulthoodBase">
+		<defName>Grimalkin_Adulthood_GrandMarshal</defName>
+		<title>Grand Marshal</title>
+		<titleShort>Grand Marshal</titleShort>
+		<description>Through many decades of valorous service and demonstrated loyalty to the Fatherland, [PAWN_nameDef] rose through the ranks to be appointed as a general in the Central Military Commission, the supreme authority of the Grimalkin People's Liberation Army and the Grimalkin Dominion as a whole, and was later groomed by the previous Grand Marshal to eventually succeed him.</description>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>5</Melee>
+			<Social>8</Social>
+			<Intellectual>6</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Nerves</defName>
+			</li>
+			<li>
+				<defName Degree="-2">Nerves</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>GrimalkinGrandMarshal</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	
+	
+</Defs>

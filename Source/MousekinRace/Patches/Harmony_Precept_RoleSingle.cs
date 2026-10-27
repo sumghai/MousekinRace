@@ -53,7 +53,8 @@ namespace MousekinRace
     {
         static IEnumerable<MethodBase> TargetMethods()
         {
-            yield return AccessTools.Method(typeof(Precept_Ritual), nameof(Precept_Ritual.AddObligation));
+            // TODO - Fix for RW 1.7
+            //yield return AccessTools.Method(typeof(Precept_Ritual), nameof(Precept_Ritual.AddObligation));
             yield return AccessTools.Method(typeof(Precept_RoleSingle), nameof(Precept_RoleSingle.RecacheActivity));
         }
 

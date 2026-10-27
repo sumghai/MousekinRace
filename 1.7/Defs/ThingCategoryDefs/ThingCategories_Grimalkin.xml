@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThingCategoryDef>
+		<defName>Grimalkin_Apparel</defName>
+		<label>Grimalkin apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Grimalkin_ApparelArmorHeadgear</defName>
+		<label>Grimalkin helmets</label>
+		<parent>ApparelArmor</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Grimalkin_Headgear</defName>
+		<label>Grimalkin headgear</label>
+		<parent>Headgear</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Grimalkin_WeaponsRanged</defName>
+		<label>Grimalkin ranged weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+	
+</Defs>

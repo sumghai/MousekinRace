@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>World Tech Level</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Correctly tag Mousekin Kingdom faction leader (Lord Protector) backstories as Medieval  -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<WorldTechLevel.TechLevelConfigDef>
+							<defName>Mousekin_WTL_BackstoryTechLevels</defName>
+							<defType>BackstoryDef</defType>
+							<entries>
+								<li>
+									<defName>Mousekin_Childhood_KnightSquire</defName>
+									<techLevel>Medieval</techLevel>
+								</li>
+								<li>
+									<defName>Mousekin_Adulthood_Knight</defName>
+									<techLevel>Medieval</techLevel>
+								</li>
+								<li>
+									<defName>Mousekin_Adulthood_KnightCommander</defName>
+									<techLevel>Medieval</techLevel>
+								</li>
+								<li>
+									<defName>Mousekin_Adulthood_KnightLordProtector</defName>
+									<techLevel>Medieval</techLevel>
+								</li>
+							</entries>
+						</WorldTechLevel.TechLevelConfigDef>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

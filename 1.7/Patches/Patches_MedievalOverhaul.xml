@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Move Cloverbury Cheese to MO cheese category -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_FoodCheese"]/thingCategories</xpath>
+					<value>
+						<thingCategories>
+							<li>DankPyon_Cheese</li>
+						</thingCategories>
+					</value>
+				</li>
+				
+				<!-- Add cheeses to blacklist and disable associated ingested thoughts (in favor of the Mousekin system) -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+					<value>
+						<li>DankPyon_MealCheese</li>
+						<li>DankPyon_MealGoatCheese</li>
+						<li>DankPyon_MealGrilledCheese</li>
+						<li>DankPyon_MealSheepCheese</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+					<value>
+						<li>DankPyon_AteCheese</li>
+						<li>DankPyon_AteGrilledCheese</li>
+					</value>
+				</li>			
+				
+				<!-- Replace Wheat to Flour PipeSystem ProcessDef inputs and outputs with MO Wheat and Flour -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PipeSystem.ProcessDef[defName="Mousekin_WheatToFlour"]/ingredients/li[thing="Mousekin_RawWheat"]/thing</xpath>
+					<value>
+						<thing>DankPyon_RawWheat</thing>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PipeSystem.ProcessDef[defName="Mousekin_WheatToFlour"]/results/li[thing="Mousekin_Flour"]/thing</xpath>
+					<value>
+						<thing>DankPyon_Flour</thing>
+					</value>
+				</li>				
+				
+				<!-- Replace flour from Country bread recipes with MO Flour -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[
+						contains(defName, "Mousekin_Make_CountryBread")
+					]/ingredients/li/filter/thingDefs/li</xpath>
+					<value>
+						<li>DankPyon_Flour</li>
+					</value>
+				</li>
+				
+				<!-- Replace flour from Root Cellar storage filters with MO Flour -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_CellarOutdoor"]/building/fixedStorageSettings/filter/thingDefs/li[.="Mousekin_Flour"]</xpath>
+					<value>
+						<li>DankPyon_Flour</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_CellarOutdoor"]/building/defaultStorageSettings/filter/thingDefs/li[.="Mousekin_Flour"]</xpath>
+					<value>
+						<li>DankPyon_Flour</li>
+					</value>
+				</li>
+				
+				<!-- Allow Country bread to be stored in MO's bread cupboards -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_RusticCupboardBread"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+					<value>
+						<li>Mousekin_FoodCountryBread</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_RusticCupboardBread"]/building/defaultStorageSettings/filter/thingDefs</xpath>
+					<value>
+						<li>Mousekin_FoodCountryBread</li>
+					</value>
+				</li>
+				
+				<!-- Exclude Mousekin candle sconce from MO's forced stuffcategories patch for all torches -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_FurnitureWallCandle"]</xpath>
+					<value>
+						<stuffCategories Inherit="false" />
+						<costStuffCount>0</costStuffCount>
+					</value>
+				</li>
+
+				<!-- Add MO wort and wine must recipes to Mousekin brewery workbench -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[
+						@Name="DankPyon_Make_WortBase" or
+						defName="DankPyon_MakeMustWine" or
+						defName="DankPyon_MakeMustMulberry" or
+						defName="DankPyon_MakeMustGriffon"
+					]/recipeUsers</xpath>
+					<value>
+						<li>Mousekin_WorkbenchBrewery</li>
+					</value>
+				</li>
+
+				<!-- Replace all instances of steel in building/apparel/weapon/item costs and recipes with iron ingots (DankPyon_IronIngot) -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FactionDef[@Name="Mousekin_FactionBase"]/apparelStuffFilter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[contains(defName, "Mousekin") or contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][fixedIngredientFilter/thingDefs/li[.="Steel"]]/fixedIngredientFilter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[contains(defName, "Mousekin") or contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][ingredients/li/filter/thingDefs/li[.="Steel"]]/ingredients/li/filter/thingDefs/li[.="Steel"]</xpath>
+					<value>
+						<li>DankPyon_IronIngot</li>
+					</value>
+				</li>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ScenarioDef[contains(defName, "Mousekin")]/scenario/parts/li[thingDef="Steel"]/thingDef</xpath>
+					<value>
+						<thingDef>DankPyon_IronIngot</thingDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[contains(@Name, "Mousekin")][defaultStuff="Steel"]/defaultStuff</xpath>
+					<value>
+						<defaultStuff>DankPyon_IronIngot</defaultStuff>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationSetName">
+					<xpath>Defs/ThingDef[contains(defName, "Mousekin")][costList/Steel]/costList/Steel</xpath>
+					<name>DankPyon_IronIngot</name>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TraderKindDef[contains(@Name, "Mousekin") or contains(@ParentName, "Mousekin")][stockGenerators/li[thingDef="Steel"]]/stockGenerators/li[thingDef="Steel"]/thingDef</xpath>
+					<value>
+						<thingDef>DankPyon_IronIngot</thingDef>
+					</value>
+				</li>
+			
+				<!-- Add Mousekin charcoal as a fuel option to MO furnances/stoves/etc. -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter[thingDefs[li="DankPyon_Coal"]]</xpath>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs[li="DankPyon_Coal"]</xpath>
+						<value>
+							<li>Mousekin_Charcoal</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- Update Mousekin charcoal pile processor recipes to use MO raw wood (MO's own patches renames all instances of the vanilla WoodLog into wood planks) -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PipeSystem.ProcessDef[defName="Mousekin_WoodLogToCharcoal"]/ingredients/li[thing="WoodLog"]/thing</xpath>
+					<value>
+						<thing>DankPyon_RawWood</thing>
+					</value>
+				</li>
+				
+				<!-- Allow additional stone tiles and cobblestone terrain from MO to be used for the Mousekin Town Square -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_TownSquare"]/comps/li[@Class="MousekinRace.CompProperties_TownSquare"]/acceptablePavedTerrainDefs</xpath>
+					<value>
+						<li>DankPyon_Floor_CobbleStone_Clay</li>
+						<li>DankPyon_Floor_CobbleStone_Granite</li>
+						<li>DankPyon_Floor_CobbleStone_Limestone</li>
+						<li>DankPyon_Floor_CobbleStone_Marble</li>
+						<li>DankPyon_Floor_CobbleStone_Sandstone</li>
+						<li>DankPyon_Floor_CobbleStone_Slate</li>
+						<li>DankPyon_Floor_Cobblestone_Clay</li>
+						<li>DankPyon_Floor_Cobblestone_Granite</li>
+						<li>DankPyon_Floor_Cobblestone_Limestone</li>
+						<li>DankPyon_Floor_Cobblestone_Marble</li>
+						<li>DankPyon_Floor_Cobblestone_Sandstone</li>
+						<li>DankPyon_Floor_Cobblestone_Slate</li>
+						<li>DankPyon_Floor_Herringbone_Clay</li>
+						<li>DankPyon_Floor_Herringbone_Granite</li>
+						<li>DankPyon_Floor_Herringbone_Limestone</li>
+						<li>DankPyon_Floor_Herringbone_Marble</li>
+						<li>DankPyon_Floor_Herringbone_Sandstone</li>
+						<li>DankPyon_Floor_Herringbone_Slate</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Clay</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Granite</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Limestone</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Marble</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Sandstone</li>
+						<li>DankPyon_Floor_RuinedStoneTile_Slate</li>
+						<li>DankPyon_Floor_Versailles_Clay</li>
+						<li>DankPyon_Floor_Versailles_Granite</li>
+						<li>DankPyon_Floor_Versailles_Limestone</li>
+						<li>DankPyon_Floor_Versailles_Marble</li>
+						<li>DankPyon_Floor_Versailles_Sandstone</li>
+						<li>DankPyon_Floor_Versailles_Slate</li>
+						<li>DankPyon_Floor_Windmill_Clay</li>
+						<li>DankPyon_Floor_Windmill_Granite</li>
+						<li>DankPyon_Floor_Windmill_Limestone</li>
+						<li>DankPyon_Floor_Windmill_Marble</li>
+						<li>DankPyon_Floor_Windmill_Sandstone</li>
+						<li>DankPyon_Floor_Windmill_Slate</li>
+					</value>
+				</li>
+				
+				<!-- Allow Mine Entrances to produce various MO ores and other resources -->
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables/li[mineableThing="Steel"]/mineableThing</xpath>
+					<value>
+						<mineableThing>DankPyon_IronOre</mineableThing>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables/li[mineableThing="Silver"]/mineableThing</xpath>
+					<value>
+						<mineableThing>DankPyon_SilverOre</mineableThing>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables/li[mineableThing="Gold"]/mineableThing</xpath>
+					<value>
+						<mineableThing>DankPyon_GoldOre</mineableThing>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationInsert">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables/li[mineableThing="Uranium"]</xpath>
+					<order>Append</order>
+					<value>
+						<li>
+							<mineableThing>DankPyon_PlasteelOre</mineableThing>
+							<depositSize>10000~15000</depositSize>
+							<minedPortionSize>5</minedPortionSize>
+							<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
+						</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/mineables</xpath>
+					<value>
+						<li>
+							<mineableThing>DankPyon_Coal</mineableThing>
+							<depositSize>550000~650000</depositSize>
+							<minedPortionSize>50</minedPortionSize>
+							<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
+						</li>
+					</value>
+				</li>
+				
+				<!-- Allow Mine Entrances to have a small chance of producing various gemstones as bonus products -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mousekin_MineEntrance"]/comps/li[@Class="MousekinRace.CompProperties_UndergroundMineDeposits"]/bonusMineables</xpath>
+					<value>					
+						<DankPyon_Amber>1</DankPyon_Amber>
+						<DankPyon_Citrine>0.8</DankPyon_Citrine>
+						<DankPyon_Emerald>0.6</DankPyon_Emerald>
+						<DankPyon_Onyx>0.3</DankPyon_Onyx>
+						<DankPyon_Ruby>0.6</DankPyon_Ruby>
+						<DankPyon_Sapphire>0.6</DankPyon_Sapphire>
+					</value>
+				</li>
+			
+			</operations>
+		</match>
+	</Operation>
+</Patch>

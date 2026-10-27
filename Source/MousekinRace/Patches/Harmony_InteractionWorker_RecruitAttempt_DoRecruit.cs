@@ -7,8 +7,7 @@ using Verse;
 namespace MousekinRace
 {
     // Force Mousekin-unique animals to use name generators if tamed by a Mousekin
-    [HarmonyPatch(typeof(InteractionWorker_RecruitAttempt), nameof(InteractionWorker_RecruitAttempt.DoRecruit), [typeof(Pawn), typeof(Pawn), typeof(string), typeof(string), typeof(bool), typeof(bool)],
-        [ArgumentType.Normal, ArgumentType.Normal, ArgumentType.Out, ArgumentType.Out, ArgumentType.Normal, ArgumentType.Normal])]
+    [HarmonyPatch(typeof(InteractionWorker_RecruitAttempt), nameof(InteractionWorker_RecruitAttempt.DoRecruit), [typeof(Pawn), typeof(Pawn), typeof(string), typeof(string), typeof(bool), typeof(bool)], [ArgumentType.Normal, ArgumentType.Normal, ArgumentType.Out, ArgumentType.Out, ArgumentType.Normal, ArgumentType.Normal])]
     public static class Harmony_InteractionWorker_RecruitAttempt_DoRecruit_NameAnimalOnTame
     {
         [HarmonyTranspiler]

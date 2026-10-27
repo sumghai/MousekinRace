@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Add custom Name attributes to selected vanilla furniture, so that we can derive variants elsewhere -->
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Bookcase"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Bookcase</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="BookcaseSmall"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_BookcaseSmall</value>
+			</li>
+		
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="DiningChair"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_DiningChair</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Dresser"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Dresser</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="EndTable"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_EndTable</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Shelf"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Shelf</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="ShelfSmall"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_ShelfSmall</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Stool"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Stool</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Table1x2c"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Table1x2c</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Table2x2c"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_Table2x2c</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="ToolCabinet"]</xpath>
+				<attribute>Name</attribute>
+				<value>Core_ToolCabinet</value>
+			</li>
+			
+			<!-- Post-inheritance patches -->
+			
+			<li Class="PostInheritanceOperation.Patch">
+				<operation Class="PatchOperationSequence">
+					<operations>
+					
+						<!-- Disable art comp and tabs from Mousekin furniture variants (patchops are used to ensure compatibility with third-party mods) -->
+					
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bed" or
+								defName="Mousekin_BedDouble" or
+								defName="Mousekin_Chair" or
+								defName="Mousekin_Dresser" or
+								defName="Mousekin_Wardrobe"
+							]/comps/li[@Class="CompProperties_Art"]</xpath>
+						</li>
+						
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bed" or
+								defName="Mousekin_BedDouble" or
+								defName="Mousekin_Chair" or
+								defName="Mousekin_Dresser" or
+								defName="Mousekin_Wardrobe"
+							]/inspectorTabs/li[.="ITab_Art"]</xpath>
+						</li>
+						
+						<!-- Disable styling of Mousekin furniture variants -->
+						
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bookcase" or
+								defName="Mousekin_BookcaseSmall" or
+								defName="Mousekin_Chair" or
+								defName="Mousekin_Shelf" or
+								defName="Mousekin_ShelfSmall" or
+								defName="Mousekin_Stool" or
+								defName="Mousekin_Table1x1c" or
+								defName="Mousekin_Table1x1r" or
+								defName="Mousekin_Table1x2c" or
+								defName="Mousekin_Table1x3c" or
+								defName="Mousekin_Table2x2c" or
+								defName="Mousekin_Table2x2r"
+							]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+						</li>
+						
+						<!-- 
+							Change some linkables for Mousekin beds to use Mousekin bedside tables/dressers/etc. instead of their vanilla variants
+							(Mousekin beds can still use Sleep Accelerators from Ideology DLC)
+						-->
+						
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bed" or
+								defName="Mousekin_BedDouble"
+							]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[.="EndTable"]</xpath>
+							<value>
+								<li>Mousekin_EndTable</li>
+							</value>
+						</li>
+						
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[
+								defName="Mousekin_Bed" or
+								defName="Mousekin_BedDouble"
+							]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[.="Dresser"]</xpath>
+							<value>
+								<li>Mousekin_Dresser</li>
+								<li>Mousekin_Wardrobe</li>
+							</value>
+						</li>
+						
+					</operations>
+				</operation>
+			</li>
+		
+		</operations>
+	</Operation>
+</Patch>

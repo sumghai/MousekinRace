@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root/children</xpath>
+				<value>
+					<li Class="PawnRenderNodeProperties">
+						<debugLabel>Flower bouquet</debugLabel>
+						<workerClass>MousekinRace.PawnRenderNodeWorker_FlowerBouquet</workerClass>
+						<texPath>Things/Pawn/Humanlike/Misc/FlowerBouquet</texPath>
+						<overlayLayer>Body</overlayLayer>
+						<baseLayer>110</baseLayer>
+					</li>
+				</value>
+			</li>
+		
+		</operations>
+	</Operation>
+	
+</Patch>

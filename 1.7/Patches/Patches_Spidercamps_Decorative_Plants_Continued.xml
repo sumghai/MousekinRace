@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Spidercamp's Decorative Plants (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Allow selected flowers to be recognized by Mousekin beehives for honey and beeswax production,
+					 and for the Flowers: desired precept -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/MousekinRace.FlowerListDef[defName="Mousekin_ValidFlowers"]/flowerPlants</xpath>
+					<value>
+						<li>SCBluehydrangea</li>
+						<li>SCLavender</li>
+						<li>SCPinkhydrangea</li>
+						<li>SCSunflowerBush</li>
+						<li>SCWhitehydrangea</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

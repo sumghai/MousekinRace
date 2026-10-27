@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<CultureDef>
+		<defName>Grimalkin_Culture</defName>
+		<label>Feline Juche</label>
+		<description>An authoritarian feline culture espousing self-reliance, military might, and hatred of all rodentkind.</description>
+		<iconPath>World/WorldObjects/Expanding/GrimalkinDominion</iconPath>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoGrimalkin</ideoNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Grimalkin</leaderTitleMaker>
+		<!-- Placeholders, should never be used due to forced ideo overrides -->
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+		<!-- End placeholders -->
+		<styleItemTags>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>10</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<modExtensions>
+			<li Class="MousekinRace.IdeoSymbolIgnoreRandomExtension" />
+		</modExtensions>
+	</CultureDef>
+	
+</Defs>

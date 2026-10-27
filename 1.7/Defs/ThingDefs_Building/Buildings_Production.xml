@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ========================= Production building base abstracts ==========================-->
+	
+	<ThingDef Name="Mousekin_BenchBase" ParentName="BenchBase" Abstract="True">
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<interactionCellIcon>Mousekin_Stool</interactionCellIcon>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Medium</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_ProductionBuildingBase" ParentName="BuildingBase" Abstract="True">
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+	</ThingDef>
+	
+	<!-- ========================= Work tables ==========================-->
+
+	<!-- Mousekin cast-iron stove -->
+	
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_CastIronStove</defName>
+		<label>Mousekin cast-iron stove</label>
+		<description>A heavy cast-iron stove with multiple hot plates and dual ovens for preparing complex meals.</description>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_CastIronStove</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+			<shadowData>
+				<volume>(1.8,0.5,0.6)</volume>
+				<offset>(0,0,0.2)</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.12,0.12,1.76,0.89)</rectN>
+				<rectS>(0.12,-0.2,1.76,0.87)</rectS>
+				<rectE>(0.14,0.08,0.81,1.8)</rectE>
+				<rectW>(0.04,0.08,0.82,1.8)</rectW>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+			<li>MousekinRace.ITab_FuelFilter</li>
+		</inspectorTabs>
+		<constructEffect>ConstructMetal</constructEffect>
+		<repairEffect>ConstructMetal</repairEffect>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>120.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
+				<ashCapacity>10</ashCapacity>
+			</li>
+			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
+				<emissiveGraphicData>
+					<texPath>Things/Building/Production/FX/Mousekin_CastIronStove_hearthGlow</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(4, 3)</drawSize>
+				</emissiveGraphicData>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>15</heatPerSecond>
+				<heatPushMaxTemperature>26</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Mousekin_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchCookingIronStoves</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>FueledStove</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<!-- Mousekin alchemy bench -->
+
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_WorkbenchAlchemy</defName>
+		<label>Mousekin alchemy bench</label>
+		<description>A workbench for concocting various Mousekin herbal poultices, potions and explosives.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_WorkbenchAlchemy</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<WoodLog>60</WoodLog>
+			<Steel>20</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<size>(2,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Mousekin_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- Mousekin brewery -->
+	
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_WorkbenchBrewery</defName>
+		<label>Mousekin brewery</label>
+		<description>A workbench for preparing musts used in the fermentation of various Mousekin alcoholic beverages.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_WorkbenchBrewery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<WoodLog>40</WoodLog>
+			<Steel>20</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1500</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<size>(2,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+			<li>MousekinRace.ITab_FuelFilter</li>
+		</inspectorTabs>
+		<constructEffect />
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>40.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
+			</li>
+			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
+				<emissiveGraphicData>
+					<texPath>Things/Building/Production/FX/Mousekin_WorkbenchBrewery_hearthGlow</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(4, 3)</drawSize>
+				</emissiveGraphicData>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>21</heatPerSecond>
+				<heatPushMaxTemperature>26</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Mousekin_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Brewing</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<!-- Mousekin butcher table -->
+	
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_WorkbenchButcher</defName>
+		<label>Mousekin butcher table</label>
+		<description>A workbench with a sturdy countertop used for butchering dead creatures into pieces of raw meat.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_WorkbenchButcher</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<WoodLog>70</WoodLog>
+			<Steel>10</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1500</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<size>(2,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole />
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Mousekin_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>TableButcher</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<!-- Mousekin crafting bench -->
+
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_WorkbenchCrafting</defName>
+		<label>Mousekin crafting bench</label>
+		<description>A workbench for crafting various items, from clockwork mechanisms and spectacles to wooden mallets and acorn grenades, as well as cutting stone blocks and carving sculptures.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_WorkbenchCrafting</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<WoodLog>60</WoodLog>
+			<Steel>20</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<size>(2,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Mousekin_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>TableSculpting</li>
+					<li>TableStonecutter</li>
+				</inheritRecipesFrom>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<!-- Mousekin smithy -->
+
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_WorkbenchSmithy</defName>
+		<label>Mousekin smithy</label>
+		<description>A forge, anvil and quench barrel for smithing various Mousekin weapons, tools and plate armor. It requires wood as fuel, and can be used outdoors without any work speed penalty.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_Smithy</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1, 0.75, 1)</volume>
+				<offset>(0, 0, 0)</offset>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<WoodLog>60</WoodLog>
+			<Steel>30</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.75</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<minifiedDef />
+		<thingCategories Inherit="false" />
+		<size>(3,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+			<li>MousekinRace.ITab_FuelFilter</li>
+		</inspectorTabs>
+		<constructEffect />
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>50.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Mousekin_Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAllowedFuelTypes</compClass>
+			</li>
+			<li Class="MousekinRace.CompProperties_AshMaker">
+				<ashDef>Mousekin_WoodAsh</ashDef>
+			</li>
+			<li Class="MousekinRace.CompProperties_StateDependentBuildingEmissive">
+				<emissiveGraphicData>
+					<texPath>Things/Building/Production/FX/Mousekin_Smithy_forgeGlow</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(3, 3)</drawSize>
+				</emissiveGraphicData>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(252, 187, 113, 0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>21</heatPerSecond>
+				<heatPushMaxTemperature>30</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Mousekin_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="MousekinRace.BuildingIgnoreWorkSpeedPenaltiesExtension" />
+		</modExtensions>
+	</ThingDef>
+
+	<!-- Mousekin seamstress bench -->
+
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_WorkbenchTailor</defName>
+		<label>Mousekin seamstress bench</label>
+		<description>A workbench with a cast-iron treadle sewing machine, for tailoring Mousekin clothing.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_WorkbenchTailor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<WoodLog>60</WoodLog>
+			<Steel>30</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+		</statBases>
+		<size>(2,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Mousekin_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!-- ========== Non-standard work buildings ==============-->
+
+	<!-- Mousekin beehive -->
+	
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
+		<defName>Mousekin_Beehive</defName>
+		<label>Mousekin beehive</label>
+		<description>A wooden beehive for keeping honey bees. Thanks to Mousekin ingenuity, the honeycomb cells in the brood frames are designed to split open with a simple pull of a lever, allowing honey and beeswax to be easily harvested without disturbing the bees. Requires at least 20 flowers to be planted within the marked circular radius in order to operate.</description>
+		<thingClass>MousekinRace.Building_Beehive</thingClass>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_Beehive</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>30</WoodLog>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<fillPercent>0.45</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>15</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<size>(1,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+		<comps />
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_ShowFlowerSearchRadius</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchBeekeeping</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="MousekinRace.BeehiveValidFlowersExtension">
+				<validFlowersList>Mousekin_ValidFlowers</validFlowersList>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<!-- Mousekin charcoal pile -->
+	
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
+		<defName>Mousekin_CharcoalPile</defName>
+		<label>Mousekin charcoal pile</label>
+		<description>A carefully arranged pile of wood covered with soil, inside which a fire is lit to carbonize the wood in the absence of oxygen. Produces a large amount of charcoal after three days.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_CharcoalPile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_CharcoalPileFull</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<costList>
+			<WoodLog>10</WoodLog>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.66</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>6000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>200</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowAutoroof>false</allowAutoroof>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Production/Mousekin_CharcoalPileFullBlueprint</texPath>
+				<shaderType>EdgeDetect</shaderType>
+				<color>(1, 1, 1, 1)</color>
+			</blueprintGraphicData>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<comps>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_CharcoalPileNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_WoodLogToCharcoal</li>
+				</processes>
+				<progressBarOffset>(0,1,-0.5)</progressBarOffset>
+				<inProgressTexture>Things/Building/Production/Mousekin_CharcoalPileFull</inProgressTexture>
+				<finishedTexture>Things/Building/Production/Mousekin_CharcoalPileFinished</finishedTexture>
+				<hideSettings>true</hideSettings>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchCharcoal</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<!-- Mousekin cheese press -->
+	
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
+		<defName>Mousekin_CheesePress</defName>
+		<label>Mousekin cheese press</label>
+		<description>A wooden device for pressing whey from milk curds to make wheels of Cloverbury Cheese.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_CheesePress</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_CheesePress_north</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>25</WoodLog>
+			<Steel>5</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.45</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<size>(1,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<comps>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_CheesePressNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_MilkToCheese</li>
+				</processes>
+				<inProgressTexture>Things/Building/Production/Mousekin_CheesePressFull</inProgressTexture>
+				<finishedTexture>Things/Building/Production/Mousekin_CheesePressFull</finishedTexture>
+				<hideSettings>true</hideSettings>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<!-- Mousekin fermenting barrel -->
+	
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
+		<defName>Mousekin_FermentingBarrel</defName>
+		<label>Mousekin fermenting barrel</label>
+		<description>A large barrel for fermenting various Mousekin alcoholic beverages. Requires a cool, dark room.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_FermentingBarrel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_FermentingBarrel_east</uiIconPath>
+		<uiIconScale>2</uiIconScale>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>30</WoodLog>
+			<Steel>10</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.45</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<size>(1,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+		<comps>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_FermentingBarrelNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_WortLagerToLager</li>
+					<li>Mousekin_WortMeadToMead</li>
+					<li>Mousekin_SyrupRootBeerToRootBeer</li>
+				</processes>
+				<hideSettings>true</hideSettings>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Brewing</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<!-- Mousekin mine entrance -->
+	
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
+		<defName>Mousekin_MineEntrance</defName>
+		<label>Mousekin mine entrance</label>
+		<description>A large wooden building with a pair of treadwheels flanking a central scaffold tower, which serves as an enclosed entrance to an underground mineshaft. Multiple colonists can simultaneously mine for resources here until deposits are depleted.</description>
+		<thingClass>MousekinRace.Building_MineEntrance</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_MineEntrance</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_MineEntrance_MenuIcon</uiIconPath>
+		<costList>
+			<WoodLog>800</WoodLog>
+			<Steel>50</Steel>
+		</costList>
+		<rotatable>false</rotatable>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>75000</WorkToBuild>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Mass>10000</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(5,4)</size>
+		<passability>Impassable</passability>
+		<pathCost>900</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<blockWind>true</blockWind>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<inspectorTabs>
+			<li>MousekinRace.ITab_BillsMine</li>
+		</inspectorTabs>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<allowAutoroof>false</allowAutoroof>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<comps>
+			<li Class="MousekinRace.CompProperties_UndergroundMineDeposits">
+				<mineables>
+					<li>
+						<mineableThing>Steel</mineableThing>
+						<depositSize>275000~325000</depositSize>
+						<minedPortionSize>25</minedPortionSize>
+						<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
+					</li>
+					<li>
+						<mineableThing>Silver</mineableThing>
+						<depositSize>45000~55000</depositSize>
+						<minedPortionSize>10</minedPortionSize>
+						<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
+					</li>
+					<li>
+						<mineableThing>Gold</mineableThing>
+						<depositSize>10000~15000</depositSize>
+						<minedPortionSize>5</minedPortionSize>
+						<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
+					</li>
+					<li>
+						<mineableThing>Jade</mineableThing>
+						<depositSize>10000~15000</depositSize>
+						<minedPortionSize>5</minedPortionSize>
+						<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
+					</li>
+					<li>
+						<mineableThing>Uranium</mineableThing>
+						<depositSize>10000~15000</depositSize>
+						<minedPortionSize>5</minedPortionSize>
+						<workRequiredPerPortionMined>20000</workRequiredPerPortionMined>
+					</li>
+					<li>
+						<mineableThing>Mousekin_Sulfur</mineableThing>
+						<depositSize>550000~650000</depositSize>
+						<minedPortionSize>50</minedPortionSize>
+						<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
+					</li>
+					<li>
+						<mineableThing>Mousekin_Saltpeter</mineableThing>
+						<depositSize>550000~650000</depositSize>
+						<minedPortionSize>50</minedPortionSize>
+						<workRequiredPerPortionMined>10000</workRequiredPerPortionMined>
+					</li>
+				</mineables>
+				<bonusMineables>
+					<ChunkSandstone>1</ChunkSandstone>
+					<ChunkGranite>1</ChunkGranite>
+					<ChunkLimestone>1</ChunkLimestone>
+					<ChunkSlate>1</ChunkSlate>
+					<ChunkMarble>1</ChunkMarble>
+				</bonusMineables>
+			</li>
+			<li Class="MousekinRace.CompProperties_MineEntranceAnim">
+				<towerGraphicData>
+					<texPath>Things/Building/Production/Mousekin_MineEntrance_tower</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(5,5)</drawSize>
+					<drawOffset>(0,3,1.5)</drawOffset>
+					<shaderType>Transparent</shaderType>
+				</towerGraphicData>
+				<workGlowGraphicData>
+					<texPath>Things/Building/Production/FX/Mousekin_MineEntrance_workGlow</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(5,5)</drawSize>
+					<shaderType>MoteGlow</shaderType>
+				</workGlowGraphicData>
+				<wheelSegmentGraphicData>
+					<texPath>Things/Building/Production/Mousekin_MineEntrance_wheelSegment</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawOffset>(0,3,1.03)</drawOffset>
+				</wheelSegmentGraphicData>
+				<wheelPairOffset>1.1875</wheelPairOffset>
+				<wheelDiameter>2.5</wheelDiameter>
+				<wheelSegmentsPerWheel>32</wheelSegmentsPerWheel>
+				<wheelSpeed>0.2</wheelSpeed>
+				<ticksToChangeWheelDirection>1250~2500</ticksToChangeWheelDirection>
+				<soundWorking>Recipe_Smith</soundWorking>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_OnlyOnePerMap</li>
+			<li>MousekinRace.PlaceWorker_NeverOnSeaIce</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites Inherit="false">
+			<li>Mousekin_ResearchMining</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- Mousekin nitrary -->
+	
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
+		<defName>Mousekin_Nitrary</defName>
+		<label>Mousekin nitrary</label>
+		<description>Piles of manure mixed with wood ash, moistened by rain and urine. Produces saltpeter through efflorescence after 15 days.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_Nitrary</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_NitraryFull_north</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<costList>
+			<Mousekin_PoopGiantCavy>20</Mousekin_PoopGiantCavy>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>200</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<constructEffect>ConstructDirt</constructEffect>
+		<repairEffect>ConstructDirt</repairEffect>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowAutoroof>false</allowAutoroof>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Soft_Medium</destroySound>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<comps>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_NitraryNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_ManureToSaltpeter</li>
+				</processes>
+				<finishedTexture>Things/Building/Production/Mousekin_NitraryFull</finishedTexture>
+				<hideSettings>true</hideSettings>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchAlchemy</li>
+		</researchPrerequisites>
+	</ThingDef>	
+	
+	<!-- Mousekin research bench -->
+
+	<ThingDef ParentName="Mousekin_BenchBase">
+		<defName>Mousekin_ResearchBench</defName>
+		<label>Mousekin research bench</label>
+		<description>A bench with experimental glassware, assorted components, simple measuring tools, writing implements and reference books. Mousekin researchers work here to discover new things.</description>
+		<thingClass>Building_ResearchBench</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_ResearchBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<WoodLog>60</WoodLog>
+			<Steel>20</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<ResearchSpeedFactor>0.875</ResearchSpeedFactor>
+		</statBases>
+		<size>(2,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<building>
+			<workTableRoomRole>Laboratory</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<!-- Mousekin windmill -->
+
+	<ThingDef ParentName="Mousekin_ProductionBuildingBase">
+		<defName>Mousekin_Windmill</defName>
+		<label>Mousekin windmill</label>
+		<description>A wooden tower that converts wind power to rotational energy for milling grain into flour, or pumping water for irrigation. Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, soft sand into normal sand, and regular soil into rich, fertile soil ideal for planting crops and flower gardens. Does not affect deep water.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Production/Mousekin_Windmill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/Mousekin_Windmill_MenuIcon</uiIconPath>
+		<uiIconScale>1.25</uiIconScale>
+		<costList>
+			<WoodLog>600</WoodLog>
+			<Hay>200</Hay>
+			<Steel>25</Steel>
+			<Mousekin_ClockworkComponent>10</Mousekin_ClockworkComponent>
+		</costList>
+		<altitudeLayer>ItemImportant</altitudeLayer>
+		<rotatable>false</rotatable>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>50000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>10000</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,4)</size>
+		<passability>Impassable</passability>
+		<pathCost>900</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<blockWind>true</blockWind>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+			<li>ITab_WindTurbineAutoCut</li>
+		</inspectorTabs>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<comps>
+			<li Class="MousekinRace.CompProperties_Windmill">
+				<obstructionFreeRadius>9.9</obstructionFreeRadius>
+				<terraformRadius>14.9</terraformRadius>
+				<daysToTerraformRadius>120</daysToTerraformRadius>
+				<capGraphicData>
+					<texPath>Things/Building/Production/Mousekin_Windmill_cap</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3.5,3.5)</drawSize>
+					<drawOffset>(0, 2, 1.25)</drawOffset>
+				</capGraphicData>
+				<sailGraphicData>
+					<texPath>Things/Building/Production/Mousekin_Windmill_sail</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(5,2)</drawSize>
+					<drawOffsetNorth>(0, -0.01, 2.1650)</drawOffsetNorth>
+					<drawOffsetEast>(1.8, 3, 0.9351)</drawOffsetEast>
+					<drawOffsetSouth>(0, 3, 0.1925)</drawOffsetSouth>
+					<drawOffsetWest>(-1.8, 3, 0.9351)</drawOffsetWest>
+				</sailGraphicData>
+			</li>
+			<li>
+				<compClass>MousekinRace.CompAutoCutWindmill</compClass>
+			</li>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>MousekinRace_WindmillNotWorking</notWorkingKey>
+				<processes>
+					<li>Mousekin_WheatToFlour</li>
+				</processes>
+				<hideSettings>true</hideSettings>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>MousekinRace.PlaceWorker_Windmill</li>
+		</placeWorkers>
+		<researchPrerequisites Inherit="false">
+			<li>Mousekin_ResearchMachineryAdvanced</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+	
+</Defs>

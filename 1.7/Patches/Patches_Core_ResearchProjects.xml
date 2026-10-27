@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ResearchProjectDef[
+					defName="Brewing" or
+					defName="CarpetMaking" or
+					defName="Greatbow" or
+					defName="LongBlades" or
+					defName="PlateArmor" or
+					defName="Smithing"
+				]/tags</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ResearchProjectDef[
+						defName="Brewing" or
+						defName="CarpetMaking" or
+						defName="Greatbow" or
+						defName="LongBlades" or
+						defName="PlateArmor" or
+						defName="Smithing"
+					]</xpath>
+					<value>
+						<tags/>
+					</value>
+				</nomatch>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[
+					defName="Brewing" or
+					defName="CarpetMaking" or
+					defName="ComplexClothing" or
+					defName="ComplexFurniture" or
+					defName="Greatbow" or
+					defName="LongBlades" or
+					defName="PassiveCooler" or
+					defName="Pemmican" or
+					defName="PlateArmor" or
+					defName="RecurveBow" or
+					defName="Smithing" or
+					defName="Stonecutting" or
+					defName="TreeSowing"
+				]/tags</xpath>
+				<value>
+					<li>MousekinStartingResearch</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>

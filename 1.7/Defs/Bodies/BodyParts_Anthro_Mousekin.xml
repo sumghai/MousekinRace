@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<BodyPartDef>
+		<defName>Mousekin_Ear</defName>
+		<label>Mousekin ear</label>
+		<hitPoints>12</hitPoints>
+		<frostbiteVulnerability>5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>HearingSource</li>
+		</tags>
+		<spawnThingOnRemoved>Mousekin_BodyPartEar</spawnThingOnRemoved>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>Mousekin_Tail</defName>
+		<label>Mousekin tail</label>
+		<hitPoints>15</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+		<spawnThingOnRemoved>Mousekin_BodyPartTail</spawnThingOnRemoved>
+	</BodyPartDef>
+
+</Defs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<!-- 40x53mm VOG-25 grenades -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Grenade_Grimalkin_RangedWeapon_GrenadeLauncher</defName>
+		<label>40x53mm VOG-25 grenade</label>
+		<graphicData>
+			<texPath>Things/Projectile/Grimalkin_GrenadeLauncherGrenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>		
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>50</damageAmountBase>
+			<explosionRadius>1.9</explosionRadius>
+			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
+			<flyOverhead>true</flyOverhead>
+			<speed>35</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- RPG-7 grenade -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Rocket_Grimalkin_RangedWeapon_Rpg</defName>
+		<label>Yaong-69 RPG rocket</label>
+		<graphicData>
+			<texPath>Things/Projectile/Grimalkin_RpgRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>90</damageAmountBase>
+			<explosionRadius>2.5</explosionRadius>
+			<stoppingPower>4</stoppingPower>
+			<armorPenetrationBase>1</armorPenetrationBase>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+	
+</Defs>

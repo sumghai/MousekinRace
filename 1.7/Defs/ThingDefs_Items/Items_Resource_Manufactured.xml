@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Mousekin Candle -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Candle</defName>
+		<label>Mousekin candle</label>
+		<description>Slow-burning beeswax candles used in lamps and lanterns.</description>
+		<graphicData>
+			<texPath>Things/Items/Manufactured/Mousekin_Candle</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>75</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<Mass>0.04</Mass>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<!-- Charcoal -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Charcoal</defName>
+		<label>charcoal</label>
+		<description>Lightweight carbon residue formed by strongly heating wood in the absence of oxygen to remove all water and volatile compounds. Can be used as an efficient source of heating fuel, or for making gunpowder.</description>
+		<graphicData>
+			<texPath>Things/Items/Manufactured/Mousekin_Charcoal</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1.5</MarketValue>
+			<Mass>0.0666</Mass>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0.2</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>	
+	
+	<!-- Clockwork Mechanism (pre-industrial component) -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_ClockworkComponent</defName>
+		<label>clockwork mechanism</label>
+		<description>Assorted metal springs, gears and levers used for crafting complex Mousekin devices.</description>
+		<graphicData>
+			<texPath>Things/Items/Manufactured/Mousekin_ClockworkComponent</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>50</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<MarketValue>14</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- Gunpowder -->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Gunpowder</defName>
+		<label>gunpowder</label>
+		<description>An early chemical explosive made by grinding and mixing charcoal, saltpeter and sulfur. Mousekin gunpowder formulations tend to deflagrate more quickly than human versions, and are thus less powerful.</description>
+		<graphicData>
+			<texPath>Things/Items/Manufactured/Mousekin_Gunpowder</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>100</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>5</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>15</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.4</explosiveRadius>
+				<explosiveDamageType>Mousekin_GunpowderExplosion</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>15~30</wickTicks>
+				<preExplosionSpawnThingDef>Mousekin_Filth_Gunpowder</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.33</preExplosionSpawnChance>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Mousekin poultice (potency between vanilla herbal and industrial medicine) -->
+	<ThingDef ParentName="MedicineBase">
+		<defName>Mousekin_MedicinePoultice</defName>
+		<label>Mousekin poultice</label>
+		<description>A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals.</description>
+		<graphicData>
+			<texPath>Things/Items/Medicine/Mousekin_Poultice</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>14</MarketValue>
+			<Mass>0.15</Mass>
+			<Flammability>1.0</Flammability>
+			<MedicalPotency>0.90</MedicalPotency>
+			<MedicalQualityMax>0.80</MedicalQualityMax>
+			<DeteriorationRate>3</DeteriorationRate>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>300</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

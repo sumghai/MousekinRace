@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GoodwillSituationDef>
+		<defName>Mousekin_Goodwill_BothMousekin</defName>
+		<label>fellow Mousekin</label>
+		<workerClass>MousekinRace.GoodwillSituationWorker_BothMousekin</workerClass>
+		<naturalGoodwillOffset>20</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+	
+	<GoodwillSituationDef>
+		<defName>Mousekin_Goodwill_MousekinKingdomVsOtherRodentkind</defName>
+		<label>Mousekin Kingdom vs. non-Mousekin Rodentkind</label>
+		<workerClass>MousekinRace.GoodwillSituationWorker_MousekinKingdomVsOtherRodentkind</workerClass>
+		<naturalGoodwillOffset>-50</naturalGoodwillOffset>	
+	</GoodwillSituationDef>
+	
+	<GoodwillSituationDef>
+		<defName>Mousekin_Goodwill_PrejudicedAgainstMousekin</defName>
+		<label>prejudiced against talking mice</label>
+		<workerClass>MousekinRace.GoodwillSituationWorker_PrejudicedAgainstMousekin</workerClass>
+		<naturalGoodwillOffset>-20</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+
+</Defs>

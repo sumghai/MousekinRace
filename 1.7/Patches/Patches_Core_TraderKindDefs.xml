@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Allow basic human factions to buy (but not sell) Mousekin Beverages -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+					defName="Base_Neolithic_Standard" or
+					defName="Base_Outlander_Standard" or
+					defName="Caravan_Neolithic_BulkGoods" or
+					defName="Caravan_Outlander_BulkGoods" or
+					defName="Orbital_BulkGoods" or
+					defName="Visitor_Neolithic_Standard" or
+					defName="Visitor_Outlander_Standard"
+				]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_BuyTradeTag">
+						<tag>Mousekin_TradeGoods_Beverages</tag>
+					</li>
+				</value>
+			</li>
+			
+			<!-- Allow basic human factions to buy (but not sell) Mousekin Animal Products -->
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/TraderKindDef[
+					defName="Base_Neolithic_Standard" or
+					defName="Base_Outlander_Standard" or
+					defName="Caravan_Neolithic_BulkGoods" or
+					defName="Caravan_Outlander_BulkGoods" or
+					defName="Orbital_BulkGoods"
+				]/stockGenerators/li[categoryDef="FoodRaw"]/excludedThingDefs</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[
+						defName="Base_Neolithic_Standard" or
+						defName="Base_Outlander_Standard" or
+						defName="Caravan_Neolithic_BulkGoods" or
+						defName="Caravan_Outlander_BulkGoods" or
+						defName="Orbital_BulkGoods"
+					]/stockGenerators/li[categoryDef="FoodRaw"]</xpath>
+					<value>
+						<excludedThingDefs/>
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+					defName="Base_Neolithic_Standard" or
+					defName="Base_Outlander_Standard" or
+					defName="Caravan_Neolithic_BulkGoods" or
+					defName="Caravan_Outlander_BulkGoods" or
+					defName="Orbital_BulkGoods"
+				]/stockGenerators/li[categoryDef="FoodRaw"]/excludedThingDefs</xpath>
+				<value>
+					<li>Mousekin_PoopGiantCavy</li>
+					<li>Mousekin_FoodCheese</li>
+					<li>Mousekin_RawHoney</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+					defName="Base_Neolithic_Standard" or
+					defName="Base_Outlander_Standard" or
+					defName="Caravan_Neolithic_BulkGoods" or
+					defName="Caravan_Outlander_BulkGoods" or
+					defName="Orbital_BulkGoods" or
+					defName="Visitor_Neolithic_Standard" or
+					defName="Visitor_Outlander_Standard"
+				]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_BuyTradeTag">
+						<tag>Mousekin_TradeGoods_FoodProcessed</tag>
+					</li>
+				</value>
+			</li>
+			
+			<!-- Allow basic human factions to buy (but not sell) Mousekin Miscellaneous Goods -->
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/TraderKindDef[
+					defName="Base_Neolithic_Standard" or
+					defName="Base_Outlander_Standard" or
+					defName="Orbital_BulkGoods"
+				]/stockGenerators/li[categoryDef="ResourcesRaw"]/excludedThingDefs</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[
+						defName="Base_Neolithic_Standard" or
+						defName="Base_Outlander_Standard" or
+						defName="Orbital_BulkGoods"
+					]/stockGenerators/li[categoryDef="ResourcesRaw"]</xpath>
+					<value>
+						<excludedThingDefs/>
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+					defName="Base_Neolithic_Standard" or
+					defName="Base_Outlander_Standard" or
+					defName="Orbital_BulkGoods"
+				]/stockGenerators/li[categoryDef="ResourcesRaw"]/excludedThingDefs</xpath>
+				<value>
+					<li>Mousekin_Beeswax</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+					defName="Base_Neolithic_Standard" or
+					defName="Base_Outlander_Standard" or
+					defName="Caravan_Neolithic_BulkGoods" or
+					defName="Caravan_Outlander_BulkGoods" or
+					defName="Orbital_BulkGoods" or
+					defName="Visitor_Neolithic_Standard" or
+					defName="Visitor_Outlander_Standard"
+				]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>Mousekin_Beeswax</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>Mousekin_Candle</thingDef>
+					</li>
+				</value>
+			</li>
+			
+			<!-- Allow outlander human factions and orbital slave ships to trade in Mousekin Slaves -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Slaves">
+						<countRange>2~10</countRange>
+						<slaveKindDef>MousekinSlave</slaveKindDef>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[
+					defName="Caravan_Outlander_PirateMerchant" or
+					defName="Orbital_PirateMerchant"
+				]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Slaves">
+						<countRange>0~4</countRange>
+						<slaveKindDef>MousekinSlave</slaveKindDef>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>

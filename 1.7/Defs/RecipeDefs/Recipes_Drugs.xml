@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="MousekinMakePotionBase" Abstract="True">
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>20000</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workSkill>Intellectual</workSkill>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+		<recipeUsers>
+			<li>DrugLab</li>
+			<li>Mousekin_WorkbenchAlchemy</li>
+		</recipeUsers>
+		<researchPrerequisite>Mousekin_ResearchAlchemy</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakePotionBase">
+		<defName>Mousekin_Make_PotionCourage</defName>
+		<label>make Mousekin Elixir of Courage x25</label>
+		<description>Concoct a batch of Elixirs of Courage from medicinal herbs and a special secret ingredient.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mousekin_PotionCourage</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Making Elixirs of Courage</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_PoopGiantCavy</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+				<li>Mousekin_PoopGiantCavy</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_PotionCourage>25</Mousekin_PotionCourage>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakePotionBase">
+		<defName>Mousekin_Make_PotionHarmony</defName>
+		<label>make Mousekin Elixir of Harmony x25</label>
+		<description>Concoct a batch of Elixirs of Harmony from medicinal herbs and various other ingredients.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mousekin_PotionHarmony</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Making Elixirs of Harmony</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Saltpeter</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mousekin_Sulfur</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+				<li>Mousekin_Saltpeter</li>
+				<li>Mousekin_Sulfur</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mousekin_PotionHarmony>25</Mousekin_PotionHarmony>
+		</products>
+	</RecipeDef>
+
+</Defs>

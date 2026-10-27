@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Gourmet</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- Move Cloverbury Cheese to VGP Cooking Supplies category -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Mousekin_FoodCheese"]/thingCategories</xpath>
+					<value>
+						<thingCategories>
+							<li>CookingSupplies</li>
+						</thingCategories>
+					</value>
+				</li>
+				
+				<!-- Add cheese to blacklist -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Mousekin"]/comps/li[@Class="MousekinRace.CompProperties_RemembersCheeseEaten"]/cheeseDefs</xpath>
+					<value>
+						<li>cheese</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -5,12 +5,14 @@ using System.Reflection.Emit;
 
 namespace MousekinRace
 {
+    // TODO - Fix for RW 1.7
+
     // Skip regenerating ritual seats for Mousekin ideos when loading/saving ideo data
-    [HarmonyPatch(typeof(Ideo), nameof(Ideo.ExposeData))]
+    //[HarmonyPatch(typeof(Ideo), nameof(Ideo.ExposeData))]
     public static class Harmony_Ideo_ExposeData_PreventRitualSeatRespawnForMousekinIdeos
     {
         [HarmonyTranspiler]
-        private static IEnumerable<CodeInstruction> RitualSeatRespawn_Transpiler(IEnumerable<CodeInstruction> instructions)
+        public static IEnumerable<CodeInstruction> RitualSeatRespawn_Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var codeMatcher = new CodeMatcher(instructions);
 

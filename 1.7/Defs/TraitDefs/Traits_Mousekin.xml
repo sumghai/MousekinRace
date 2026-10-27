@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraitDef>
+		<defName>Mousekin_TraitSpectrum_Faith</defName>
+		<commonality>1</commonality>
+		<degreeDatas>
+			<li>
+				<label>apostate</label>
+				<description>[PAWN_nameDef] prefers to focus on living [PAWN_possessive] life to the fullest, rather than strictly obeying religious doctrine.\n\nAs such, [PAWN_pronoun] is more scientifically- and technically-minded compared with other Mousekins.</description>
+				<degree>1</degree>
+				<commonality>0.2</commonality>
+				<statOffsets>
+					<ConstructSuccessChance>0.20</ConstructSuccessChance>
+					<FixBrokenDownBuildingSuccessChance>0.20</FixBrokenDownBuildingSuccessChance>
+					<GlobalLearningFactor>0.20</GlobalLearningFactor>
+					<ResearchSpeed>0.20</ResearchSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<label>devotionist</label>
+				<description>[PAWN_nameDef] is a member of a splinter sect of Mousekins that seek to follow the spirit of Valerian the Wise's original teachings, rather than the official interpretation espoused by the Mousekin Church. [PAWN_pronoun] has a closer affinity to nature, is more adept at working with plants and has increased sensitivity to psychic phenomena, but is also less susceptible to mental breaks.</description>
+				<degree>2</degree>
+				<commonality>0.2</commonality>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+					<NegotiationAbility>0.05</NegotiationAbility>
+					<PsychicSensitivity>0.50</PsychicSensitivity>
+					<ResearchSpeed>-0.10</ResearchSpeed>
+					<RestRateMultiplier>0.05</RestRateMultiplier>
+				</statOffsets>
+				<skillGains>
+					<Plants>2</Plants>
+				</skillGains>
+				<allowedMeditationFocusTypes>
+					<li>Natural</li>
+				</allowedMeditationFocusTypes>
+				<disallowedMeditationFocusTypes>
+					<li>Artistic</li>
+					<li>Dignified</li>
+					<li>Flame</li>
+					<li>Minimal</li>
+					<li>Morbid</li>
+				</disallowedMeditationFocusTypes>
+			</li>
+			<li>
+				<label>pious</label>
+				<description>[PAWN_nameDef] is a pious follower of the teachings of Valerian the Wise, and believes that industrious Mousekins who perform good deeds and respect the sanctity of their bodies will be rewarded with a peaceful afterlife in The Great Garden. \n\n[PAWN_pronoun] will work harder than most of [PAWN_possessive] fellow Mousekins, and press on even under the greatest of hardships.</description>
+				<degree>3</degree>
+				<commonality>0.4</commonality>
+				<statOffsets>
+					<GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+					<MentalBreakThreshold>-0.20</MentalBreakThreshold>
+					<NegotiationAbility>0.10</NegotiationAbility>
+					<PainShockThreshold>0.10</PainShockThreshold>
+					<PlantHarvestYield>0.10</PlantHarvestYield>
+					<PlantWorkSpeed>0.10</PlantWorkSpeed>					
+					<ResearchSpeed>-0.20</ResearchSpeed>
+					<RestRateMultiplier>0.10</RestRateMultiplier>
+					<SocialImpact>0.10</SocialImpact>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+				</statOffsets>
+				<allowedMeditationFocusTypes>
+					<li>Morbid</li>
+				</allowedMeditationFocusTypes>
+				<disallowedMeditationFocusTypes>
+					<li>Artistic</li>
+					<li>Dignified</li>
+					<li>Flame</li>
+					<li>Minimal</li>
+					<li>Natural</li>
+				</disallowedMeditationFocusTypes>
+			</li>
+			<li>
+				<label>inquisitionist</label>
+				<description>[PAWN_nameDef] believes in the absolute truth and power of The Inquisition, which declares that anyone who strays from the Mousekin Church and the teachings of Valerian the Wise are irredeemable heretics and enemies of all Mousekins - including Apostates, Devotionists and even other non-Mousekin rodentlike races.\n\n[PAWN_pronoun] is better at capturing prisoners and is less susceptible to psychic phenomena, but [PAWN_possessive] religious zealotry greatly impairs [PAWN_possessive] ability to understand technical and scientific matters beyond what is permitted by church doctrine.</description>
+				<degree>4</degree>
+				<commonality>0.2</commonality>
+				<statOffsets>
+					<ArrestSuccessChance>1.00</ArrestSuccessChance>
+					<FixBrokenDownBuildingSuccessChance>-0.20</FixBrokenDownBuildingSuccessChance>
+					<GlobalLearningFactor>-0.20</GlobalLearningFactor>
+					<PainShockThreshold>0.10</PainShockThreshold>
+					<PsychicSensitivity>-0.20</PsychicSensitivity>
+					<ResearchSpeed>-0.50</ResearchSpeed>
+					<SocialImpact>0.20</SocialImpact>
+				</statOffsets>
+				<skillGains>
+					<Melee>2</Melee>
+				</skillGains>
+				<allowedMeditationFocusTypes>
+					<li>Morbid</li>
+				</allowedMeditationFocusTypes>
+				<disallowedMeditationFocusTypes>
+					<li>Artistic</li>
+					<li>Dignified</li>
+					<li>Flame</li>
+					<li>Minimal</li>
+					<li>Natural</li>
+				</disallowedMeditationFocusTypes>
+			</li>
+		</degreeDatas>
+		<modExtensions>
+			<!-- Prevent pawns from spawning with traits that conflict with each degree of the faith spectrum trait -->
+			<li Class="MousekinRace.TraitConflictResolverExtension">
+				<conflictingTraitsByFaithDegree>
+					<li>
+						<!-- Disallowed traits for Devotionists -->
+						<key>2</key>
+						<value>
+							<li>Abrasive</li>
+							<li>Ascetic</li>
+							<li>Bloodlust</li>
+							<li>Cannibal</li>
+							<li>Gourmand</li>
+							<li>Greedy</li>
+							<li>Jealous</li>
+							<li>Nerves</li>
+							<li>PsychicSensitivity</li>
+							<li>Psychopath</li>
+							<li>ShootingAccuracy</li>
+						</value>
+					</li>
+					<li>
+						<!-- Disallowed traits for Pious -->
+						<key>3</key>
+						<value>
+							<li>Abrasive</li>
+							<li>Ascetic</li>
+							<li>Bisexual</li>
+							<li>Bloodlust</li>
+							<li>Cannibal</li>
+							<li>Gay</li>
+							<li>Nerves</li>
+							<li>Psychopath</li>
+						</value>
+					</li>
+					<li>
+						<!-- Disallowed traits for Inquisitionists -->
+						<key>4</key>
+						<value>
+							<li>Ascetic</li>
+							<li>Bisexual</li>
+							<li>Cannibal</li>
+							<li>Gay</li>
+							<li>Kind</li>
+							<li>Nerves</li>
+							<li>Wimp</li>
+						</value>
+					</li>
+				</conflictingTraitsByFaithDegree>
+			</li>
+		</modExtensions>
+	</TraitDef>
+
+</Defs>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ============= Growing ============= -->
+	<WorkGiverDef>
+		<defName>Mousekin_FertilizeSoil</defName>
+		<label>fertilize soil</label>
+		<giverClass>MousekinRace.WorkGiver_FertilizeCell</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>40</priorityInType>
+		<verb>fertilize</verb>
+		<gerund>fertilizing</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<!-- ============= Mining ============= -->
+	
+	<WorkGiverDef>
+		<defName>Mousekin_MineResourcesFromMineEntrance</defName>
+		<label>mine resources from mine entrances</label>
+		<giverClass>MousekinRace.WorkGiver_MineResourcesFromMineEntrance</giverClass>
+		<workType>Mining</workType>
+		<priorityInType>75</priorityInType>
+		<verb>mine</verb>
+		<gerund>mining</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<!-- ============= Crafting ============= -->
+
+	<!-- Crafting miscellaneous items at the Mousekin Crafting Bench -->
+
+	<WorkGiverDef>
+		<defName>Mousekin_DoBillsUseCraftingBench</defName>
+		<label>make things at crafting bench</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>105</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Mousekin_WorkbenchCrafting</li>
+		</fixedBillGiverDefs>
+		<verb>craft</verb>
+		<gerund>crafting at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<!-- ============= Hauling ============= -->
+	
+	<!-- Emptying ashes from hearths (e.g. stoves, fireplaces, smithies) -->
+	
+	<WorkGiverDef>
+		<defName>Mousekin_EmptyAshesFromHearth</defName>
+		<label>empty ashes from hearths</label>
+		<giverClass>MousekinRace.WorkGiver_EmptyAshesFromHearth</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>25</priorityInType>
+		<verb>empty ashes from</verb>
+		<gerund>emptying ashes from</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<!-- Harvesting products from the Mousekin Beehive -->
+	
+	<WorkGiverDef>
+		<defName>Mousekin_HarvestFromBeehive</defName>
+		<label>harvest products from beehives</label>
+		<giverClass>MousekinRace.WorkGiver_HarvestFromBeehive</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>25</priorityInType>
+		<verb>harvest products from</verb>
+		<gerund>harvesting products from</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>

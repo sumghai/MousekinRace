@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>OverflowingFlowers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Allow selected flowers to be recognized by Mousekin beehives for honey and beeswax production,
+					 and for the Flowers: desired precept -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/MousekinRace.FlowerListDef[defName="Mousekin_ValidFlowers"]/flowerPlants</xpath>
+					<value>
+						<li>OF_Allium</li>
+						<li>OF_Alliums</li>
+						<li>OF_Bellflower_P</li>
+						<li>OF_Bellflowers</li>
+						<li>OF_Cornflower</li>
+						<li>OF_Cornflower_P</li>
+						<li>OF_DayLilies</li>
+						<li>OF_DayLily</li>
+						<li>OF_Iris</li>
+						<li>OF_Irises</li>
+						<li>OF_Rose_P_Black</li>
+						<li>OF_Rose_P_Blue</li>
+						<li>OF_Rose_P_Pink</li>
+						<li>OF_Rose_P_Purple</li>
+						<li>OF_Rose_P_Red</li>
+						<li>OF_Rose_P_White</li>
+						<li>OF_Rose_P_Yellow</li>
+						<li>OF_Vanda</li>
+						<li>OF_Vandas</li>
+						<li>OF_WhiteLilies</li>
+						<li>OF_WhiteLily</li>
+						<li>Rose_B_Pink</li>
+						<li>Rose_B_Red</li>
+						<li>Rose_B_White</li>
+						<li>Rose_B_black</li>
+						<li>Rose_B_blue</li>
+						<li>Rose_B_purple</li>
+						<li>Rose_B_yellow</li>
+						<li>Rose_bush</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

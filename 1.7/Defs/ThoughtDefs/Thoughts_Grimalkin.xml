@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_0Baseline</defName>
+		<workerClass>GrimalkinRace.ThoughtWorker_0Baseline</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<!-- Grimalkins not in Grimalkin faction (e.g. player colonist) -->
+			<li>
+				<label>away from the Fatherland</label>
+				<description>Must strong, return and make benefit for glorious Grimalkin People Republic.</description>
+				<baseMoodEffect>30</baseMoodEffect>
+			</li>
+			<!-- Grimalkins from Grimalkin Dominion -->
+			<li>
+				<label>patriotic fervor</label>
+				<description>Yaong! Serve and make benefit for glorious Grimalkin People Republic!</description>
+				<baseMoodEffect>60</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteCorpse</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate corpse</label>
+				<description>Bad eat!</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteGrimalkinMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>cooked cannibalism</label>
+				<description>Yaong! Eat another cat! Bad bad!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteGrimalkinMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>raw cannibalism</label>
+				<description>Yaong! Eat another cat! Bad bad!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteKibble</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate kibble</label>
+				<description>Bad eat!</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteMousekinMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate cooked Mousekin meat</label>
+				<description>Mouse meat cook taste juice and good! Happy happy!</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteMousekinMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate raw Mousekin meat</label>
+				<description>Mouse meat no cook taste juice! Happy!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteRawFood</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate raw food</label>
+				<description>Yaong, food no cook, bad eat!</description>
+				<baseMoodEffect>-7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteRottenFood</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate rotten food</label>
+				<description>Yaong, food rot, bad eat!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_AteWithoutTable</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Ascetic</li>
+		</nullifyingTraits>
+		<nullifyingPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">RoughLiving_Welcomed</li>
+		</nullifyingPrecepts>
+		<stages>
+			<li>
+				<label>ate without table</label>
+				<description>Eat, but no table. Bad!</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_ButcheredGrimalkinCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>I butchered another Grimalkin</label>
+				<description>Yaong, chop another cat! Bad!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_ButcheredMousekinCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>I butchered a Mousekin</label>
+				<description>Chop chop, make mouse meat!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_ColonistLeftUnburied</defName>
+		<workerClass>ThoughtWorker_ColonistLeftUnburied</workerClass>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>colonist left unburied</label>
+				<description>Dead lie outside bad! Bury, give honor!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>	
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_DefeatedHostileFactionLeader</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<durationDays>6</durationDays>
+		<stackLimit>5</stackLimit>
+		<stages>
+			<li>
+				<label>defeated hostile leader {0}</label>
+				<description>Kill enemy leader, make benefit for glorious Grimalkin People Republic!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_EnvironmentCold</defName>
+		<workerClass>ThoughtWorker_Cold</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>chilly</label>
+				<description>Cold.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+			<li>
+				<label>cold</label>
+				<description>Cold, no feel good.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>numbing cold</label>
+				<description>Cold, bad bad.</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+			<li>
+				<label>absolutely freezing</label>
+				<description>Yaong! Cold cold, bad bad bad!</description>
+				<baseMoodEffect>-16</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_EnvironmentHot</defName>
+		<workerClass>ThoughtWorker_Hot</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>sweaty</label>
+				<description>Hot.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+			<li>
+				<label>hot</label>
+				<description>Hot, no feel good.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>sweltering hot</label>
+				<description>Hot, bad bad.</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+			<li>
+				<label>blistering hot</label>
+				<description>Yaong! Hot hot, bad bad bad!</description>
+				<baseMoodEffect>-16</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_FreedFromSlavery</defName>
+		<durationDays>20</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>freed from slavery</label>
+				<description>Freedom! Good!</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_GotMarried</defName>
+		<durationDays>30.0</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>got married to {0}</label>
+				<description>Marry, make family, benefit glorious Grimalkin People Republic!</description>
+				<baseMoodEffect>40</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_KilledMousekin</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<durationDays>1</durationDays>
+		<stackLimit>5</stackLimit>
+		<stages>
+			<li>
+				<label>killed a Mousekin</label>
+				<description>Yaong! Kill mouse, make benefit for glorious Grimalkin People Republic! Happy happy!</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_KnowButcheredGrimalkinCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>we butchered another Grimalkin</label>
+				<description>Yaong, cat chop another cat! Bad!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_KnowButcheredMousekinCorpse</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>we butchered a Mousekin</label>
+				<description>Next time me want chop mouse!</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="DeathMemory">
+		<defName>Grimalkin_Thought_KnowColonistDied</defName>
+		<durationDays>6</durationDays>
+		<stackLimit>5</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>colonist died</label>
+				<description>Serve duty for glorious Grimalkin People Republic, now rest. Salute.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_KnowColonistOrganHarvested</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>colonist's organ harvested</label>
+				<description>Cat chop and take part from another cat, bad!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_MyOrganHarvested</defName>
+		<durationDays>8</durationDays>
+		<stackLimit>5</stackLimit>
+		<stages>
+			<li>
+				<label>my organ harvested</label>
+				<description>Yaong! You no take my part! Bad bad!</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_NeedFood</defName>
+		<workerClass>ThoughtWorker_NeedFood</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>hungry</label>
+				<description>Hunger.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+			<li>
+				<label>ravenously hungry</label>
+				<description>Hunger, no feel good.</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+			<li>
+				<label>malnourished</label>
+				<description>Much hunger, feel weak.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<li>
+				<label>badly malnourished</label>
+				<description>Many hunger, belly hurt.</description>
+				<baseMoodEffect>-26</baseMoodEffect>
+			</li>
+			<li>
+				<label>starving</label>
+				<description>Big hunger, want food now.</description>
+				<baseMoodEffect>-32</baseMoodEffect>
+			</li>
+			<li>
+				<label>advanced starvation</label>
+				<description>Great hunger, want food now now.</description>
+				<baseMoodEffect>-38</baseMoodEffect>
+			</li>
+			<li>
+				<label>extreme starvation</label>
+				<description>Food...food...hunger...yaong!</description>
+				<baseMoodEffect>-44</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_NeedRest</defName>
+		<workerClass>ThoughtWorker_NeedRest</workerClass>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>drowsy</label>
+				<description>Little tired.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+			<li>
+				<label>tired</label>
+				<description>Big tired. Want sleep.</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+			<li>
+				<label>exhausted</label>
+				<description>Yaong, need sleep now now.</description>
+				<baseMoodEffect>-18</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_Pain</defName>
+		<workerClass>ThoughtWorker_Pain</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<nullifyingTraits>
+			<li>Masochist</li>
+		</nullifyingTraits>
+		<neverNullifyIfAnyTrait>
+			<li>Wimp</li>
+		</neverNullifyIfAnyTrait>
+		<nullifyingPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Pain_Idealized</li>
+		</nullifyingPrecepts>
+		<stages>
+			<li>
+				<label>minor pain</label>
+				<description>Pain. Feel bad.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>serious pain</label>
+				<description>Big pain. Bad!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>intense pain</label>
+				<description>Pain! Pain! Pain!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+			<li>
+				<label>mind-shattering pain</label>
+				<description>YAAAAONNNNG! YAAAAONNNNG!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="DeathMemory">
+		<defName>Grimalkin_Thought_PawnWithBadOpinionDied</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stages>
+			<li>
+				<label>my rival {0} died</label>
+				<description>No like {1}. Deserve, good good!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="LostMemory">
+		<defName>Grimalkin_Thought_PawnWithBadOpinionLost</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stages>
+			<li>
+				<label>my rival {0} lost</label>
+				<description>No like {1}. Deserve, good good!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="LostMemory">
+		<defName>Grimalkin_Thought_PawnWithGoodOpinionDied</defName>
+		<durationDays>20</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>my friend {0} died</label>
+				<description>Like friend {1}. Serve duty for glorious Grimalkin People Republic, now rest. Salute.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_SawNearbyPudgemouse</defName>
+		<showBubble>true</showBubble>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>saw a Pudgemouse</label>
+				<description>Grrr, hate little fur mouse. Want kill and make skewer, good taste.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_Sick</defName>
+		<workerClass>ThoughtWorker_Sick</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>sick</label>
+				<description>Feel bad.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_SleptInCold</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>slept in the cold</label>
+				<description>Cold, bad. Need heat.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_SleptInHeat</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>slept in the heat</label>
+				<description>Hot, bad. Need cool.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_SleptOnGround</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>slept on ground</label>
+				<description>Feel bad. No want be stupid dirty fur mouse.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_SleptOutside</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>slept outside</label>
+				<description>Feel bad. Want tent, want barrack.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_SoakingWet</defName>
+		<durationDays>0.1</durationDays>
+		<stackLimit>1</stackLimit>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>soaking wet</label>
+				<description>Yaong, fur wet! Bad bad!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_WasImprisoned</defName>
+		<durationDays>12</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>was imprisoned</label>
+				<description>Other hold me in cage. Angry!</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_WearingGrimalkinFurApparel</defName>
+		<workerClass>GrimalkinRace.ThoughtWorker_WearingGrimalkinFurApparel</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>wearing Grimalkin fur apparel</label>
+				<description>Yaong! Wear another cat skin! Bad!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_WearingMousekinFurApparel</defName>
+		<workerClass>GrimalkinRace.ThoughtWorker_WearingMousekinFurApparel</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>wearing Mousekin fur apparel</label>
+				<description>Mouse stupid, but fur feel good!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Grimalkin_Thought_WitnessedDeathAlly</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<durationDays>2</durationDays>
+		<stackLimit>5</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<nullifyingHediffs>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+		</nullifyingHediffs>
+		<stages>
+			<li>
+				<label>witnessed ally's death</label>
+				<description>Serve duty for glorious Grimalkin People Republic, now rest. Salute.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

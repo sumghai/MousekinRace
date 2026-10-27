@@ -8,8 +8,10 @@ using Verse;
 
 namespace MousekinRace
 {
+    // TODO - Fix for RW 1.7
+
     // At world gen faction setup, use the custom ScenPart_RequiredFaction to prevent the removal of a specified faction for the scenario
-    [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
+    //[HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
     public static class Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond
     {
         [HarmonyTranspiler]

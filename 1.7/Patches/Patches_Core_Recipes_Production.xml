@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Add selected base game production recipes to the appropriate Mousekin workbenches  -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="Make_Patchleather"]/recipeUsers</xpath>
+				<value>
+					<li>Mousekin_WorkbenchTailor</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>

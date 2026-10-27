@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ========================= Mousekin variants of vanilla storage ==========================-->
+	<!-- See Patches folder for PatchOps that add custom Name attributes to each furniture -->
+	
+	<ThingDef ParentName="Core_Bookcase">
+		<defName>Mousekin_Bookcase</defName>
+		<label>Mousekin bookcase</label>
+		<description>A wide bookcase for storing and displaying up to twenty books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate.</description>
+		<thingClass>MousekinRace.Building_BookcaseRedux</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Storage/Mousekin_Bookcase</texPath>
+			<drawOffset>(0,-0.0054,0)</drawOffset>
+			<drawOffsetNorth>(0,-0.5,-0.5)</drawOffsetNorth>
+			<shadowData>
+				<volume>(2, 0.9, 0.5)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<building>
+			<maxItemsInCell>10</maxItemsInCell>
+			<bookendGraphicNorth>
+				<texPath>Things/Building/Storage/Mousekin_Bookcase_Bookend_north</texPath>
+			</bookendGraphicNorth>
+			<bookendGraphicEast>
+				<texPath>Things/Building/Storage/Mousekin_Bookcase_Bookend_east</texPath>
+			</bookendGraphicEast>
+			<relatedBuildCommands Inherit="false">
+				<li>Mousekin_BookcaseSmall</li>
+			</relatedBuildCommands>
+		</building>
+		<modExtensions>
+			<li Class="MousekinRace.BookcaseRenderExtension">
+				<bookshelfGraphicSouth>
+					<texPath>Things/Building/Storage/Mousekin_Bookcase_Bookshelf_south</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,2)</drawSize>
+				</bookshelfGraphicSouth>
+				<bookshelfRotOffsets>
+					<offsetNorth>(-0.081, 0.01, 0.3)</offsetNorth>
+					<offsetEast>(-0.16, 0.0061, 0.28)</offsetEast>
+					<offsetSouth>(0.08, 0.1, 0.4)</offsetSouth>
+					<offsetWest>(0.17, 0.0165, 0.12)</offsetWest>
+				</bookshelfRotOffsets>
+				<bookSouthRotSecondRowOffset>(0, -0.05, -0.41)</bookSouthRotSecondRowOffset>
+				<bookWestRotDecrementOffset>(0, -0.0007, 0)</bookWestRotDecrementOffset>
+				<bookWestRotFalloffOffset>(0, -0.00485, 0)</bookWestRotFalloffOffset>
+				<bookshelfDrawOffsetSouth>(0, 0.05, 0)</bookshelfDrawOffsetSouth>
+				<bookendDrawOffsetNorth>(0, 0.012, 0)</bookendDrawOffsetNorth>
+				<bookendDrawOffsetEast>(0, 0.00908, 0)</bookendDrawOffsetEast>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="Core_BookcaseSmall">
+		<defName>Mousekin_BookcaseSmall</defName>
+		<label>Mousekin small bookcase</label>
+		<description>A narrow bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate.</description>
+		<thingClass>MousekinRace.Building_BookcaseRedux</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Storage/Mousekin_BookcaseSmall</texPath>
+			<drawOffset>(0,-0.0054,0)</drawOffset>
+			<drawOffsetNorth>(0,-0.5,-0.5)</drawOffsetNorth>
+			<shadowData>
+				<volume>(1, 0.9, 0.5)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<building>
+			<maxItemsInCell>10</maxItemsInCell>
+			<bookendGraphicNorth>
+				<texPath>Things/Building/Storage/Mousekin_BookcaseSmall_Bookend_north</texPath>
+			</bookendGraphicNorth>
+			<bookendGraphicEast>
+				<texPath>Things/Building/Storage/Mousekin_BookcaseSmall_Bookend_east</texPath>
+			</bookendGraphicEast>
+			<relatedBuildCommands Inherit="false">
+				<li>Mousekin_Bookcase</li>
+			</relatedBuildCommands>
+		</building>
+		<modExtensions>
+			<li Class="MousekinRace.BookcaseRenderExtension">
+				<bookshelfGraphicSouth>
+					<texPath>Things/Building/Storage/Mousekin_BookcaseSmall_Bookshelf_south</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2,2)</drawSize>
+				</bookshelfGraphicSouth>
+				<bookshelfRotOffsets>
+					<offsetNorth>(-0.081, 0.01, 0.3)</offsetNorth>
+					<offsetEast>(-0.16, 0.005, 0.285)</offsetEast>
+					<offsetSouth>(0.08, 0.1, 0.4)</offsetSouth>
+					<offsetWest>(0.17, 0.016, 0.125)</offsetWest>
+				</bookshelfRotOffsets>
+				<bookSouthRotSecondRowOffset>(0, -0.05, -0.41)</bookSouthRotSecondRowOffset>
+				<bookWestRotDecrementOffset>(0, -0.0035, 0)</bookWestRotDecrementOffset>
+				<bookWestRotFalloffOffset>(0, -0.001, 0)</bookWestRotFalloffOffset>
+				<bookshelfDrawOffsetSouth>(0, 0.05, 0)</bookshelfDrawOffsetSouth>
+				<bookendDrawOffsetNorth>(0, 0.012, 0)</bookendDrawOffsetNorth>
+				<bookendDrawOffsetEast>(0, 0.00863, 0)</bookendDrawOffsetEast>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="Core_Shelf">
+		<defName>Mousekin_Shelf</defName>
+		<label>Mousekin shelf</label>
+		<graphicData>
+			<texPath>Things/Building/Storage/Mousekin_Shelf</texPath>
+		</graphicData>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<building>
+			<relatedBuildCommands Inherit="false">
+				<li>Mousekin_ShelfSmall</li>
+			</relatedBuildCommands>
+		</building>
+	</ThingDef>
+	
+	<ThingDef ParentName="Core_ShelfSmall">
+		<defName>Mousekin_ShelfSmall</defName>
+		<label>Mousekin small shelf</label>
+		<graphicData>
+			<texPath>Things/Building/Storage/Mousekin_ShelfSmall</texPath>
+		</graphicData>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<building>
+			<relatedBuildCommands Inherit="false">
+				<li>Mousekin_Shelf</li>
+			</relatedBuildCommands>
+		</building>
+	</ThingDef>
+	
+	<!-- ========================= Mousekin-unique storage ==========================-->
+	
+	<!-- Mousekin root cellar -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>Mousekin_CellarOutdoor</defName>
+		<label>Mousekin root cellar</label>
+		<description>An underground structure traditionally used for long-term storage of raw food and alcoholic beverages, taking advantage of the naturally cooler temperatures under the earth mound to passively refrigerate its contents.</description>
+		<thingClass>MousekinRace.Building_CellarOutdoor</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/Storage/Mousekin_CellarOutdoor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,6)</drawSize>
+			<drawOffset>(0,0,-0.5)</drawOffset>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.65, 0, 3.675, 4.50)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Storage/Mousekin_CellarOutdoor_IconBlueprint</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<costList>
+			<WoodLog>200</WoodLog>
+		</costList>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>20000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.25</Flammability>
+		</statBases>
+		<size>(5,5)</size>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<passability>Standable</passability>
+		<pathCost>200</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+			<li>MousekinRace.ITab_ContentsStorage</li>
+		</inspectorTabs>
+		<constructEffect />
+		<repairEffect>ConstructWood</repairEffect>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowAutoroof>false</allowAutoroof>
+			<blueprintClass>Blueprint_Storage</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Storage/Mousekin_CellarOutdoor_IconBlueprint</texPath>
+				<drawOffset>(0,0,-0.5)</drawOffset>
+				<shaderType>EdgeDetect</shaderType>
+				<color>(1, 1, 1, 1)</color>
+			</blueprintGraphicData>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<maxItemsInCell>50</maxItemsInCell> <!-- Building_CellarOutdoor only has one hardcoded storage cell, located just above the cellar's interaction cell -->
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<storageGroupTag>Mousekin_FoodCellar</storageGroupTag>
+			<fixedStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+						<li>AnimalProductRaw</li>
+						<li>Mousekin_Beverages</li>
+					</categories>
+					<thingDefs>
+						<li>Mousekin_Flour</li>
+						<li>RawHops</li>
+					</thingDefs>
+					<disallowedCategories>
+						<li>EggsFertilized</li>
+					</disallowedCategories>
+					<disallowedThingDefs>
+						<li>Mousekin_DrinkChonkoNutBrew</li>
+					</disallowedThingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+						<li>AnimalProductRaw</li>
+						<li>Mousekin_Beverages</li>
+					</categories>
+					<thingDefs>
+						<li>Mousekin_Flour</li>
+						<li>RawHops</li>
+					</thingDefs>
+					<disallowedThingDefs>
+						<li>Meat_Human</li>
+						<li>Meat_Megaspider</li>
+						<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+						<li>Meat_Mousekin</li>
+						<li>Meat_Mousekin_AnimalGiantCavy</li>
+						<li>Meat_Mousekin_AnimalPudgemouse</li>
+					</disallowedThingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<placeWorkers>
+			<li>MousekinRace.PlaceWorker_CellarOutdoor</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="MousekinRace.CellarOutdoorGraphicsExtension">
+				<exposedWallGraphicData>
+					<texPath>Things/Building/Storage/Mousekin_CellarOutdoor_ExposedWall</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(4,1.5)</drawSize>
+					<drawOffset>(0, -0.355, -1.75)</drawOffset>
+					<shaderType>CutoutComplex</shaderType>
+				</exposedWallGraphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+</Defs>

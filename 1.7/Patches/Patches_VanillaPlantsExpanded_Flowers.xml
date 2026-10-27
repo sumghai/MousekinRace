@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Plants Expanded - Flowers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- Allow VPE:F flowers to be recognized by Mousekin beehives for honey and beeswax production,
+					 and for the Flowers: desired precept
+
+					 Notes: 
+					 - VPEF_Plant_Hiacynth is not a typo
+					 - VPEF_Plant_Bloomaris, VPEF_Plant_PampasGrass, VPEF_Plant_Sedum are excluded, as they are not flowers
+				 -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/MousekinRace.FlowerListDef[defName="Mousekin_ValidFlowers"]/flowerPlants</xpath>
+					<value>
+						<li>VPEF_Plant_Amaryllis</li>
+						<li>VPEF_Plant_Aster</li>
+						<li>VPEF_Plant_BeardedIris</li>
+						<li>VPEF_Plant_Chrysanthemum</li>
+						<li>VPEF_Plant_Crocus</li>
+						<li>VPEF_Plant_Daffodil</li>
+						<li>VPEF_Plant_Daisy</li>
+						<li>VPEF_Plant_FlameAzalea</li>
+						<li>VPEF_Plant_Hiacynth</li>
+						<li>VPEF_Plant_Hibiscus</li>
+						<li>VPEF_Plant_Hydrangea</li>
+						<li>VPEF_Plant_Lavender</li>
+						<li>VPEF_Plant_Lilac</li>
+						<li>VPEF_Plant_Lily</li>
+						<li>VPEF_Plant_Marigold</li>
+						<li>VPEF_Plant_Pansy</li>
+						<li>VPEF_Plant_Peony</li>
+						<li>VPEF_Plant_PinkCyclamen</li>
+						<li>VPEF_Plant_Plumeria</li>
+						<li>VPEF_Plant_PraireFire</li>
+						<li>VPEF_Plant_RedRoseBush</li>
+						<li>VPEF_Plant_Saintpaulia</li>
+						<li>VPEF_Plant_Strelitzia</li>
+						<li>VPEF_Plant_Tulip</li>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>

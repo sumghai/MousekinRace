@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Add earless Mousekin suicide mental break -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThinkTreeDef[defName="MentalStateCritical"]/thinkRoot/subNodes</xpath>
+				<value>
+					<li Class="ThinkNode_ConditionalMentalState">
+						<state>Mousekin_MentalState_EarlessSuicide</state>
+						<subNodes>
+							<li Class="ThinkNode_Priority">
+								<subNodes>
+									<li Class="MousekinRace.JobGiver_EarlessMousekinCommitSuicide"/>
+								</subNodes>
+							</li>
+						</subNodes>
+					</li>
+				</value>
+			</li>
+			
+			<!-- Add leaving colony due to allegiance break mental break -->
+			
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/ThinkTreeDef[defName="MentalStateNonCritical"]/thinkRoot/subNodes/li[state[text()="GiveUpExit"]]</xpath>
+				<value>
+					<li Class="ThinkNode_ConditionalMentalState">
+						<state>Mousekin_MentalState_ExitAfterAllegianceChange</state>
+						<subNodes>
+						<li Class="JobGiver_ExitMapBest">
+							<defaultLocomotion>Walk</defaultLocomotion>
+						</li>
+						<li Class="JobGiver_WanderAnywhere">
+							<maxDanger>Deadly</maxDanger>
+						</li>
+						</subNodes>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

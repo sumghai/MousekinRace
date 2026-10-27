@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<!-- ========================= Base abtracts ========================== -->
+	
+	<ThingDef Name="GrimalkinApparelBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Flammability>1.2</Flammability><!-- cloth by default, unless otherwise stated -->
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-3</Beauty>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<apparel>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<tags>
+				<li>GrimalkinApparel</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>Grimalkin_Apparel</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef Name="Grimalkin_HatBase" ParentName="GrimalkinApparelBase" Abstract="True">
+		<graphicData>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<thingCategories Inherit="false">
+			<li>Grimalkin_Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef Name="Grimalkin_HelmetBase" ParentName="Grimalkin_HatBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>Grimalkin_ApparelArmorHeadgear</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<!-- ========================= Apparel ========================== -->
+	
+	<!-- Grimalkin infantry uniform -->
+	<ThingDef ParentName="GrimalkinApparelBase">
+		<defName>Grimalkin_UniformInfantry</defName>
+		<label>Grimalkin infantry uniform</label>
+		<description>A standard-issue collared tunic, trousers and knee-high leather boots, worn by most rank and file Grimalkin soldiers.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/GrimalkinUniformInfantry/GrimalkinUniformInfantry</texPath>
+		</graphicData>
+		<statBases>
+			<!-- Some stats equivalent to Cloth jacket (normal) -->
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>200</MarketValue>
+			<Mass>1.7</Mass>
+			<ArmorRating_Sharp>0.108</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.054</ArmorRating_Heat>
+			<Insulation_Cold>14.4</Insulation_Cold>
+			<Insulation_Heat>5.4</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/GrimalkinUniformInfantry/GrimalkinUniformInfantry</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>GrimalkinInfantryBasic</li>
+			</tags>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+	
+	<!-- Grimalkin vehicle crew coverall -->
+	<ThingDef ParentName="GrimalkinApparelBase">
+		<defName>Grimalkin_UniformVehicle</defName>
+		<label>Grimalkin vehicle crew coverall</label>
+		<description>A full-body flame-resistant jumpsuit, worn by Grimalkin ground vehicle crewmen.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/GrimalkinUniformVehicle/GrimalkinUniformVehicle</texPath>
+		</graphicData>
+		<statBases>
+			<!-- Some stats equivalent to Cloth jacket (normal) -->
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>200</MarketValue>
+			<Mass>1.7</Mass>
+			<ArmorRating_Sharp>0.108</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Flammability>0.35</Flammability>
+			<Insulation_Cold>14.4</Insulation_Cold>
+			<Insulation_Heat>5.4</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/GrimalkinUniformVehicle/GrimalkinUniformVehicle</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>GrimalkinVehicleCrew</li>
+			</tags>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+	
+	<!-- Grimalkin stormtrooper uniform -->
+	<ThingDef ParentName="GrimalkinApparelBase">
+		<defName>Grimalkin_UniformStormtrooper</defName>
+		<label>Grimalkin stormtrooper uniform</label>
+		<description>A set of camouflage fatigues, typically worn by elite Grimalkin stormtroopers.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/GrimalkinUniformStormtrooper/GrimalkinUniformStormtrooper</texPath>
+		</graphicData>
+		<statBases>
+			<!-- Some stats equivalent to Cloth jacket (normal) -->
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>200</MarketValue>
+			<Mass>1.7</Mass>
+			<ArmorRating_Sharp>0.108</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.054</ArmorRating_Heat>
+			<Insulation_Cold>14.4</Insulation_Cold>
+			<Insulation_Heat>5.4</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/GrimalkinUniformStormtrooper/GrimalkinUniformStormtrooper</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>GrimalkinInfantryBasic</li>
+			</tags>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+	
+	<!-- Grimalkin officer's uniform -->
+	<ThingDef ParentName="GrimalkinApparelBase">
+		<defName>Grimalkin_UniformOfficer</defName>
+		<label>Grimalkin officer's uniform</label>
+		<description>A field dress uniform worn by Grimalkin regiment commanders and staff officers.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/GrimalkinUniformOfficer/GrimalkinUniformOfficer</texPath>
+		</graphicData>
+		<statBases>
+			<!-- Some stats equivalent to Cloth jacket (normal) -->
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>200</MarketValue>
+			<Mass>1.8</Mass>
+			<ArmorRating_Sharp>0.108</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.054</ArmorRating_Heat>
+			<Insulation_Cold>14.4</Insulation_Cold>
+			<Insulation_Heat>5.4</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.15</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.075</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/GrimalkinUniformOfficer/GrimalkinUniformOfficer</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>GrimalkinOfficer</li>
+			</tags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+	
+	<!-- ========================= Headgear & Helmets ========================== -->
+	
+	<!-- Grimalkin officer’s beret -->
+	<ThingDef ParentName="Grimalkin_HatBase">
+		<defName>Grimalkin_HatOfficerBeret</defName>
+		<label>Grimalkin officer’s beret</label>
+		<description>A round and flat-crowned cloth hat, worn by Grimalkin staff officers serving in rear-echelon roles.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/GrimalkinHatOfficerBeret/GrimalkinHatOfficerBeret</texPath>
+		</graphicData>
+		<statBases>
+			<!-- Equivalent to Cloth beret (normal) from Royalty DLC -->
+			<MaxHitPoints>80</MaxHitPoints>
+			<MarketValue>67</MarketValue>
+			<Mass>0.1</Mass>
+			<Insulation_Cold>1.3</Insulation_Cold>
+			<Insulation_Heat>2.7</Insulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.1</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/GrimalkinHatOfficerBeret/GrimalkinHatOfficerBeret</wornGraphicPath>
+			<drawData>
+				<dataSouth>
+					<offset>(0, 0.01, 0)</offset>
+				</dataSouth>
+			</drawData>
+			<tags>
+				<li>GrimalkinOfficerFemale</li>
+			</tags>
+			<gender>Female</gender>
+		</apparel>
+	</ThingDef>
+	
+	<!-- Grimalkin officer’s cap -->
+	<ThingDef ParentName="Grimalkin_HatBase">
+		<defName>Grimalkin_HatOfficerCap</defName>
+		<label>Grimalkin officer’s cap</label>
+		<description>A large, visored peaked cap, worn by Grimalkin regiment commanders and generals as a symbol of their authority, with the oversized crown designed to intimidate lower-ranked Grimalkins and enemies.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/GrimalkinHatOfficerCap/GrimalkinHatOfficerCap</texPath>
+		</graphicData>
+		<statBases>
+			<!-- (Mostly) Equivalent to Cloth authority cap (normal) from Ideology DLC -->
+			<MaxHitPoints>80</MaxHitPoints>
+			<MarketValue>90</MarketValue>
+			<Mass>0.1</Mass>
+			<ArmorRating_Sharp>0.072</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.036</ArmorRating_Heat>
+			<Insulation_Cold>1.8</Insulation_Cold>
+			<Insulation_Heat>1.8</Insulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.25</SocialImpact>
+			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/GrimalkinHatOfficerCap/GrimalkinHatOfficerCap</wornGraphicPath>
+			<tags>
+				<li>GrimalkinOfficerMale</li>
+				<li>Grimalkin_HideEars</li>
+			</tags>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+	
+	<!-- Grimalkin steel helmet -->
+	<ThingDef ParentName="Grimalkin_HelmetBase">
+		<defName>Grimalkin_HelmetInfantry</defName>
+		<label>Grimalkin steel helmet</label>
+		<description>A painted steel helmet with fabric padding, worn by Grimalkin soldiers for protection against shrapnel.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/GrimalkinHelmetInfantry/GrimalkinHelmetInfantry</texPath>
+		</graphicData>
+		<statBases>
+			<!-- Equivalent to Steel simple helmet (normal) -->
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>88</MarketValue>
+			<Mass>2</Mass>
+			<ArmorRating_Blunt>0.225</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Flammability>0.4</Flammability>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/GrimalkinHelmetInfantry/GrimalkinHelmetInfantry</wornGraphicPath>
+			<tags>
+				<li>GrimalkinInfantryBasic</li>
+				<li>GrimalkinInfantryElite</li>
+				<li>Grimalkin_HideEars</li>
+			</tags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+	
+	<!-- Grimalkin vehicle crew helmet -->
+	<ThingDef ParentName="Grimalkin_HelmetBase">
+		<defName>Grimalkin_HelmetVehicle</defName>
+		<label>Grimalkin vehicle crew helmet</label>
+		<description>A heavily-padded leather helmet, worn by Grimalkin ground vehicle crewmen for protection against head injuries in the confined spaces of most armored vehicles.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/GrimalkinHelmetVehicle/GrimalkinHelmetVehicle</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>70</MarketValue>
+			<Mass>1.2</Mass>
+			<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.22</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.11</ArmorRating_Heat>
+			<Flammability>1.0</Flammability><!-- leather -->
+			<Insulation_Cold>2.3</Insulation_Cold>
+			<Insulation_Heat>18</Insulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.05</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/GrimalkinHelmetVehicle/GrimalkinHelmetVehicle</wornGraphicPath>
+			<tags>
+				<li>GrimalkinVehicleCrew</li>
+				<li>Grimalkin_HideEars</li>
+			</tags>
+			<!-- Unisex -->
+		</apparel>
+	</ThingDef>
+	
+</Defs>

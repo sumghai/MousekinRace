@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Directly harvested from plants -->
+	
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Mousekin_RawBarley</defName>
+		<label>mouse-ear barley</label>
+		<description>Small, edible rounded cereal grains, used in cooking or as animal feed.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/RawBarley</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.08</Nutrition>
+			<MarketValue>1.1</MarketValue>
+			<!-- Default unit mass -->
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<!-- Default preferability -->
+			<foodType>Seed</foodType>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Mousekin_RawNutChonko</defName>
+		<label>chonko nuts</label>
+		<description>Raw chonko nuts, resembling oversized almonds. Nice to eat, even when raw.</description>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/RawChonkoNuts</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.12</Nutrition>
+			<MarketValue>1.3</MarketValue>
+			<Mass>0.060</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>45</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought/>
+			<foodType>Seed</foodType>
+		</ingestible>
+	</ThingDef>
+	
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Mousekin_RawNutNyam</defName>
+		<label>nyam nuts</label>
+		<description>Raw nyam nuts, resembling macadamias with faint stripes. Nice to eat, even when raw.</description>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/RawNyamNuts</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.06</Nutrition>
+			<MarketValue>1.2</MarketValue>
+			<Mass>0.030</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought/>
+			<foodType>Seed</foodType>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>Mousekin_RawWheat</defName>
+		<label>wheat</label>
+		<description>Small, edible oval cereal grains, which can be further processed into flour or used as animal feed.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/RawWheat</texPath>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.06</Nutrition>
+			<MarketValue>1.3</MarketValue>
+			<!-- Default unit mass -->
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<!-- Default preferability -->
+			<foodType>Seed</foodType>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- Processed from raw plant food -->
+	
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>Mousekin_Flour</defName>
+		<label>flour</label>
+		<description>Finely ground powder of wheat, used in baking and cooking.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<thingCategories>
+			<li>FoodRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Mousekin_TradeGoods_FoodProcessed</li>
+		</tradeTags>
+		<graphicData>
+			<texPath>Things/Items/PlantFoodRaw/MousekinFlour</texPath>
+		</graphicData>
+		<statBases>
+			<!-- Default nutrition of 0.05 -->
+			<MarketValue>1.9</MarketValue>
+			<!-- Default unit mass -->
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>40</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+		</ingestible>
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Note on initialWillRange and initialResistanceRange:
+		- Grimalkin are loyal to the Grimalkin Dominion, and are thus very difficult or nearly impossible to recruit or enslave
+        - The Anomaly DLC does come with a Brainwipe ritual, but that is an Outside Context Problem for Grimalkins anyway 		
+	-->
+	
+	<PawnKindDef Name="Grimalkin_BasePawnKind" Abstract="True">
+		<race>Grimalkin</race>
+		<combatPower>50</combatPower>
+		<nameMaker>NamerPerson_Grimalkin</nameMaker>
+		<defaultFactionType>Grimalkin_Faction</defaultFactionType>
+		<invFoodDef>Grimalkin_MealRations</invFoodDef>
+		<invNutrition>3</invNutrition>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<forceWeaponQuality>Normal</forceWeaponQuality>
+		<apparelMoney>1000~1500</apparelMoney>
+		<weaponMoney>1000~1500</weaponMoney>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<initialWillRange>99999~99999</initialWillRange>
+		<initialResistanceRange>99999~99999</initialResistanceRange>
+		<fixedGender>Male</fixedGender> <!-- Usually male unless explicitly overridden -->
+		<xenotypeSet>
+			<xenotypeChances>
+				<Grimalkin_XenotypeGrimalkin MayRequire="Ludeon.Rimworld.Biotech">1</Grimalkin_XenotypeGrimalkin>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	
+	<PawnKindDef Name="Grimalkin_InfantryBasicPawnKind" ParentName="Grimalkin_BasePawnKind" Abstract="True">
+		<apparelTags>
+			<li>GrimalkinInfantryBasic</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Grimalkin_HelmetInfantry</li>
+			<li>Grimalkin_UniformInfantry</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Grimalkin_HelmetInfantry</apparelDef>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Grimalkin_UniformInfantry</apparelDef>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<PawnKindDef Name="Grimalkin_InfantryElitePawnKind" ParentName="Grimalkin_BasePawnKind" Abstract="True">
+		<apparelTags>
+			<li>GrimalkinInfantryElite</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Grimalkin_HelmetInfantry</li>
+			<li>Grimalkin_UniformStormtrooper</li>
+			<li>Apparel_FlakVest</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Grimalkin_HelmetInfantry</apparelDef>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Grimalkin_UniformStormtrooper</apparelDef>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
+				<apparelDef>Apparel_FlakVest</apparelDef>
+				<color>(107, 91, 46)</color>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<PawnKindDef Name="Grimalkin_OfficerPawnKind" ParentName="Grimalkin_BasePawnKind" Abstract="True">
+		<weaponTags>
+			<li>GrimalkinOfficer</li>
+		</weaponTags>
+		<apparelTags>
+			<li>GrimalkinOfficer</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Grimalkin_UniformOfficer</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Grimalkin_UniformOfficer</apparelDef>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<PawnKindDef Name="Grimalkin_OfficerMalePawnKind" ParentName="Grimalkin_OfficerPawnKind" Abstract="True">
+		<apparelTags>
+			<li>GrimalkinOfficerMale</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Grimalkin_HatOfficerCap</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Grimalkin_HatOfficerCap</apparelDef>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<PawnKindDef Name="Grimalkin_OfficerFemalePawnKind" ParentName="Grimalkin_OfficerPawnKind" Abstract="True">
+		<apparelTags>
+			<li>GrimalkinOfficerFemale</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Grimalkin_HatOfficerBeret</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Grimalkin_HatOfficerBeret</apparelDef>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<!-- All Grimalkin pawns are military NPCs only - no civilians -->
+	
+	<PawnKindDef ParentName="Grimalkin_InfantryBasicPawnKind">
+		<defName>GrimalkinInfantryRifle</defName>
+		<label>rifleman</label>
+		<combatPower>60</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinRifleman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>25</maxGenerationAge>
+		<weaponTags>
+			<li>GrimalkinInfantryRifle</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_InfantryBasicPawnKind">
+		<defName>GrimalkinInfantryMG</defName>
+		<label>machine gunner</label>
+		<combatPower>65</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinMachineGunner</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>23</minGenerationAge>
+		<maxGenerationAge>30</maxGenerationAge>
+		<weaponTags>
+			<li>GrimalkinInfantryMG</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_InfantryBasicPawnKind">
+		<defName>GrimalkinInfantryGrenadier</defName>
+		<label>grenadier</label>
+		<combatPower>65</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinGrenadier</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>23</minGenerationAge>
+		<maxGenerationAge>30</maxGenerationAge>
+		<weaponTags>
+			<li>GrimalkinInfantryGrenadier</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_InfantryBasicPawnKind">
+		<defName>GrimalkinInfantrySniper</defName>
+		<label>sniper</label>
+		<combatPower>90</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinSniper</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>25</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<weaponTags>
+			<li>GrimalkinInfantrySniper</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_BasePawnKind">
+		<defName>GrimalkinCrewman</defName>
+		<label>vehicle crewman</label>
+		<combatPower>55</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinCrewman</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>25</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<weaponTags>
+			<li>GrimalkinCrewman</li>
+		</weaponTags>
+		<apparelTags>
+			<li>GrimalkinVehicleCrew</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Grimalkin_HelmetVehicle</li>
+			<li>Grimalkin_UniformVehicle</li>
+		</apparelRequired>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<apparelDef>Grimalkin_HelmetVehicle</apparelDef>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<apparelDef>Grimalkin_UniformVehicle</apparelDef>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_InfantryElitePawnKind">
+		<defName>GrimalkinStormtrooperAssault</defName>
+		<label>stormtrooper</label>
+		<combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinStormtrooper</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>25</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<weaponTags>
+			<li>GrimalkinStormtrooperAssault</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_InfantryElitePawnKind">
+		<defName>GrimalkinStormtrooperHeavy</defName>
+		<label>stormtrooper</label>
+		<combatPower>120</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinStormtrooper</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>25</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<weaponTags>
+			<li>GrimalkinStormtrooperHeavy</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_OfficerFemalePawnKind">
+		<defName>GrimalkinStaffOfficer</defName>
+		<label>staff officer</label>
+		<combatPower>130</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinStaffOfficer</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<fixedGender>Female</fixedGender>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_OfficerMalePawnKind">
+		<defName>GrimalkinColonel</defName>
+		<label>colonel</label>
+		<combatPower>150</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinColonel</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>30</minGenerationAge>
+		<maxGenerationAge>55</maxGenerationAge>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="Grimalkin_OfficerMalePawnKind">
+		<defName>GrimalkinGrandMarshal</defName>
+		<label>Grand Marshal</label>
+		<combatPower>150</combatPower>
+		<factionLeader>true</factionLeader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GrimalkinChild</li>
+					<li>GrimalkinGrandMarshal</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<minGenerationAge>50</minGenerationAge>
+		<maxGenerationAge>60</maxGenerationAge>
+	</PawnKindDef>
+
+</Defs>

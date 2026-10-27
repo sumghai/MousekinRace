@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Chonko Nut Bush -->
+	<ThingDef ParentName="PlantBase">
+		<defName>Mousekin_Plant_NutChonko</defName>
+		<label>chonko nut bush</label>
+		<description>A bushy plant which grows slowly but yields delicious and nutritious chonko nuts, which resemble oversized almonds. Chonko nuts are usually roasted, but they're also good to eat even when raw.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/ChonkoPlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>30</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>30</growDays>
+			<visualSizeRange>0.3~1.7</visualSizeRange>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<topWindExposure>0.3</topWindExposure>
+			<immatureGraphicPath>Things/Plant/ChonkoPlant_Immature</immatureGraphicPath>
+			<leaflessGraphicPath>Things/Plant/ChonkoPlant_Leafless</leaflessGraphicPath>
+			<harvestWork>800</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>25</harvestYield>
+			<harvestedThingDef>Mousekin_RawNutChonko</harvestedThingDef>
+			<harvestAfterGrowth>0.75</harvestAfterGrowth>			
+			<harvestMinGrowth>0.95</harvestMinGrowth>
+			<wildClusterRadius>8</wildClusterRadius>
+			<wildClusterWeight>300</wildClusterWeight>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+
+	<!-- Nyam Nut Bush -->
+	<ThingDef ParentName="PlantBase">
+		<defName>Mousekin_Plant_NutNyam</defName>
+		<label>nyam nut bush</label>
+		<description>A bushy plant which grows relatively quickly and yields lots of delicious nyam nuts, which resemble macadamias with faint stripes once they are removed from their pomengranate-like husks. Nyam nuts are usually roasted or ground into spreadable pastes, but they're also good to eat even when raw.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/NyamPlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>30</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<growDays>20</growDays>
+			<visualSizeRange>0.3~1.7</visualSizeRange>
+			<sowMinSkill>6</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<topWindExposure>0.3</topWindExposure>
+			<immatureGraphicPath>Things/Plant/NyamPlant_Immature</immatureGraphicPath>
+			<leaflessGraphicPath>Things/Plant/NyamPlant_Leafless</leaflessGraphicPath>
+			<harvestWork>800</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>25</harvestYield>
+			<harvestedThingDef>Mousekin_RawNutNyam</harvestedThingDef>
+			<harvestAfterGrowth>0.65</harvestAfterGrowth>
+			<harvestMinGrowth>0.95</harvestMinGrowth>
+			<wildClusterRadius>8</wildClusterRadius>
+			<wildClusterWeight>300</wildClusterWeight>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+
+</Defs>

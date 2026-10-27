@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Biotech DLC: Add Mousekin xenotype as possible choice to human civil outlander union factions -->
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="OutlanderCivil"]</xpath>
+					<value>
+						<xenotypeSet />
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet/xenotypeChances</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet</xpath>
+					<value>
+						<xenotypeChances />
+					</value>
+				</nomatch>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet/xenotypeChances</xpath>
+				<value>
+					<Mousekin_XenotypeMousekin MayRequire="Ludeon.RimWorld.Biotech">0.02</Mousekin_XenotypeMousekin>
+				</value>
+			</li>
+		
+			<!-- Add Mousekin outlander villager pawnkind to human civil outlander union faction pawngroups -->
+			
+			<li Class="PostInheritanceOperation.Patch">
+				<operation Class="PatchOperationSequence">
+					<operations>
+						
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/FactionDef[defName="OutlanderCivil"]/pawnGroupMakers/li[
+								kindDef="Combat" or
+								kindDef="Peaceful" or
+								kindDef="Settlement"
+							]/options</xpath>
+							<value>
+								<MousekinOutlander>4</MousekinOutlander>
+								<MousekinOutlanderSpacer>4</MousekinOutlanderSpacer>
+							</value>
+						</li>
+			
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/FactionDef[defName="OutlanderCivil"]/pawnGroupMakers/li[kindDef="Trader"]/guards</xpath>
+							<value>
+								<MousekinOutlander>3</MousekinOutlander>
+								<MousekinOutlanderSpacer>3</MousekinOutlanderSpacer>
+							</value>
+						</li>
+					
+					</operations>
+				</operation>
+			</li>
+		
+		</operations>
+	</Operation>
+</Patch>
