@@ -5,10 +5,8 @@ using System.Reflection.Emit;
 
 namespace MousekinRace
 {
-    // TODO - Fix for RW 1.7
-
     // Skip regenerating ritual seats for Mousekin ideos when loading/saving ideo data
-    //[HarmonyPatch(typeof(Ideo), nameof(Ideo.ExposeData))]
+    [HarmonyPatch(typeof(Ideo), nameof(Ideo.ExposeData))]
     public static class Harmony_Ideo_ExposeData_PreventRitualSeatRespawnForMousekinIdeos
     {
         [HarmonyTranspiler]
@@ -16,6 +14,8 @@ namespace MousekinRace
         {
             var codeMatcher = new CodeMatcher(instructions);
 
+            // Matches the end of the following conditional block from the original method:
+            // if (ModsConfig.IdeologyActive && !classicMode && RitualSeatDef == null && DefDatabase<PreceptDef>.AllDefs.Where((PreceptDef x) => x.issue == IssueDefOf.IdeoRitualSeat).TryRandomElementByWeight((PreceptDef x) => x.selectionWeight, out var result))
             CodeMatch[] toMatch =
             [
                 new CodeMatch(OpCodes.Ldloca_S),
@@ -33,6 +33,7 @@ namespace MousekinRace
                 new CodeInstruction(OpCodes.Brfalse_S, label)
             ];
 
+            codeMatcher.Advance(); // make sure we actually move beyond the previous condition check
             codeMatcher.Insert(toInsert);
 
             return codeMatcher.InstructionEnumeration();
