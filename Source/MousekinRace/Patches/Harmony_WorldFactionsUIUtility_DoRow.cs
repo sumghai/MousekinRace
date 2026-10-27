@@ -2,16 +2,12 @@
 using RimWorld;
 using RimWorld.Planet;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection.Emit;
-using Verse;
 
 namespace MousekinRace
 {
-    // TODO - Fix for RW 1.7
-
     // At world gen faction setup, use the custom ScenPart_RequiredFaction to prevent the removal of a specified faction for the scenario
-    //[HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
+    [HarmonyPatch(typeof(WorldFactionsUIUtility), nameof(WorldFactionsUIUtility.DoRow))]
     public static class Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond
     {
         [HarmonyTranspiler]
@@ -27,20 +23,24 @@ namespace MousekinRace
                 new CodeMatch(OpCodes.Bne_Un_S)
             ];
 
+            codeMatcher.MatchEndForward(toMatch);
+            object loopHead = codeMatcher.Instruction.operand; // caching the head of the foreach loop
+
             CodeInstruction[] toInsert =
             [
                 new CodeInstruction(OpCodes.Ldloca_S, 3),
                 new CodeInstruction(OpCodes.Call, typeof(List<ScenPart>.Enumerator).Method("get_Current")),
                 new CodeInstruction(OpCodes.Ldarg_1), // FactionDef faction
                 new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Harmony_WorldFactionsUIUtility_DoRow_ScenarioRequiredFactionExtraCond), nameof(CheckCurrentScenPartForRequiredFaction))),
-                new CodeInstruction(OpCodes.Brfalse_S)
+                new CodeInstruction(OpCodes.Brfalse_S, loopHead) // go back to top of loop if CheckCurrentScenPartForRequiredFaction also returns false
             ];
 
-            codeMatcher.MatchEndForward(toMatch);
-            codeMatcher.Opcode = OpCodes.Brfalse_S; // Change the last operand to allow a logical ||
-            toInsert.Last().operand = codeMatcher.Instruction.operand;
+            object originalIfBody = codeMatcher.Instruction.operand; // the start of the original if() body
+            codeMatcher.Start().MatchEndForward(toMatch);
+            codeMatcher.Opcode = OpCodes.Beq_S; // adds logical OR after "if (part.def.preventRemovalOfFaction == factionDef)"
+            codeMatcher.Instruction.operand = originalIfBody; // skip executing the second half of new logical OR conditional if first (original) half is true
             codeMatcher.Advance(1); // make sure we actually move beyond the previous conditon check
-            codeMatcher.Insert(toInsert);          
+            codeMatcher.Insert(toInsert);       
 
             return codeMatcher.InstructionEnumeration();
         }
