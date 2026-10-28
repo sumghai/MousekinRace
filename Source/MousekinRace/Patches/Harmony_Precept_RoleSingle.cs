@@ -9,7 +9,7 @@ namespace MousekinRace
     // Conditionally patch leader and moral guide titles for Mousekin player faction
     // for ideo role lost letter labels and descriptions
     [HarmonyPatch]
-    public static class Harmony_Precept_RoleSingle_Assign_ReplaceRoleTitlesForMousekinPlayer
+    public static class Harmony_Precept_RoleSingle_Generic_ReplaceRoleTitlesForMousekinPlayer
     {
         static IEnumerable<MethodBase> TargetMethods()
         {
@@ -47,17 +47,10 @@ namespace MousekinRace
     }
 
     // Conditionally patch leader and moral guide titles for Mousekin player faction
-    // for ideo role active/inactive and ritual skipped letter labels and descriptions
-    [HarmonyPatch]
+    // for ideo role active/inactive letter labels and descriptions
+    [HarmonyPatch(typeof(Precept_RoleSingle), nameof(Precept_RoleSingle.RecacheActivity))]
     public static class Harmony_Precept_RoleSingle_RecacheActivity_ReplaceRoleTitlesForMousekinPlayer
     {
-        static IEnumerable<MethodBase> TargetMethods()
-        {
-            // TODO - Fix for RW 1.7
-            //yield return AccessTools.Method(typeof(Precept_Ritual), nameof(Precept_Ritual.AddObligation));
-            yield return AccessTools.Method(typeof(Precept_RoleSingle), nameof(Precept_RoleSingle.RecacheActivity));
-        }
-
         private static Precept_Role role;
 
         // Pre-fetch the role data
