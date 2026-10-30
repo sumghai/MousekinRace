@@ -139,6 +139,7 @@
 				<thingToSpawn>Mousekin_PoopGiantCavy</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>50000~60000</spawnIntervalRange>
+				<spawnForbidden>true</spawnForbidden>
 			</li>
 		</comps>
 	</ThingDef>
