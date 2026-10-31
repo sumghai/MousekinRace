@@ -188,7 +188,7 @@
 	<ResearchProjectDef ParentName="Mousekin_ResearchBase">
 		<defName>Mousekin_ResearchMachineryAdvanced</defName>
 		<label>heavy machinery</label>
-		<description>Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research.</description>
+		<description>Build heavy machinery such as windmills and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research.</description>
 		<baseCost>850</baseCost>
 		<prerequisites>
 			<li>Mousekin_ResearchMachineryBasic</li>
@@ -200,7 +200,6 @@
 				<li>subject->heavy machinery</li>
 				
 				<li>subject_story->erected and operated rock-throwing onagers in the Mousekin Kingdom's army</li>
-				<li>subject_story->witnessed a terrifying flood that decimated a Mousekin village, and became determined to tame the raw power of the flowing river</li>
 				<li>subject_story->toiled day and night in the treadwheel cranes at the construction site of a grand Mousekin fortress</li>
 				
 				<li>subject_gerund->constructing heavy machinery</li>

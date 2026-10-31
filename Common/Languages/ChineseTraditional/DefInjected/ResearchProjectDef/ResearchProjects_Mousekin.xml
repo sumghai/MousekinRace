@@ -195,14 +195,13 @@
 	<!-- EN: heavy machinery -->
 	<Mousekin_ResearchMachineryAdvanced.label>重型機械</Mousekin_ResearchMachineryAdvanced.label>
 
-	<!-- EN: Build heavy machinery such as water-powered bloomeries and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
-	<Mousekin_ResearchMachineryAdvanced.description>建造重型機械，例如水力鍛鐵爐和投石機。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchMachineryAdvanced.description>
+	<!-- EN: Build heavy machinery such as windmills and rock-throwing onagers. Requires a Mousekin wearing Research Glasses to research. -->
+	<Mousekin_ResearchMachineryAdvanced.description>建造重型機械，例如風車和投石機。需要一隻戴著研究眼鏡的白鼠族進行研究。</Mousekin_ResearchMachineryAdvanced.description>
 	
 	<!-- EN:
 		<li>subject->heavy machinery</li>
 		
 		<li>subject_story->erected and operated rock-throwing onagers in the Mousekin Kingdom's army</li>
-		<li>subject_story->witnessed a terrifying flood that decimated a Mousekin village, and became determined to tame the raw power of the flowing river</li>
 		<li>subject_story->toiled day and night in the treadwheel cranes at the construction site of a grand Mousekin fortress</li>
 		
 		<li>subject_gerund->constructing heavy machinery</li>
@@ -211,7 +210,6 @@
 		<li>subject->重型機械</li>
 		
 		<li>subject_story->在白鼠族的軍隊中架設並操作投石機</li>
-		<li>subject_story->目睹了一場摧毀白鼠族村莊的可怕洪水，並決定要馴服這條奔流不息的河流的原始力量</li>
 		<li>subject_story->在白鼠族大堡壘的建築工地上，日以繼夜地在踏輪吊車上辛勤工作</li>
 		
 		<li>subject_gerund->建造重型機械</li>
