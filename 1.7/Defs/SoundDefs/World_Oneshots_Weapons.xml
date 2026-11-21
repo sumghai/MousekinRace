@@ -16,6 +16,22 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	
+	<SoundDef>
+		<defName>Mousekin_Ballista_Fire</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>mousekin_crossbow_fire</clipPath>
+					</li>
+				</grains>
+				<volumeRange>65~85</volumeRange>
+				<pitchRange>0.5~0.55</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
 
 	<SoundDef>
 		<defName>Mousekin_Firecracker_Launch</defName>

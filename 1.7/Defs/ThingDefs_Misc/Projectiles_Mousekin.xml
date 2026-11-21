@@ -18,6 +18,25 @@
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
+	
+	<!-- Ballista bolts -->
+	
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>Bolt_Mousekin_TurretWeapon_Ballista</defName>
+		<label>ballista bolt</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mousekin_BallistaBolt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>40</damageAmountBase>
+			<stoppingPower>4</stoppingPower>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<speed>70</speed>
+			<soundImpact>BulletImpact_Wood</soundImpact>
+		</projectile>
+	</ThingDef>
 
 	<!-- Firecracker rockets -->
 
@@ -81,6 +100,7 @@
 	</ThingDef>
 
 	<!-- Acorn grenades -->
+	
 	<ThingDef ParentName="BaseFragGrenadeProjectile">
 		<defName>Proj_Mousekin_GrenadeAcorn</defName>
 		<label>Mousekin Acorn Grenade</label>

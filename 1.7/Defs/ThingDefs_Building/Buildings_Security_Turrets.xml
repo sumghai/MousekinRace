@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThingDef Name="Mousekin_TurretBase" ParentName="BuildingBase" Abstract="true">
+		<thingClass>Building_TurretGun</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer> 
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<statBases>
+			<Flammability>0.7</Flammability>
+			<Beauty>-20</Beauty>	
+			<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<techLevel>Medieval</techLevel>
+		<comps>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<fillPercent>0.85</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<hasTooltip>true</hasTooltip>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Mousekin_DesignationCategory</designationCategory>
+		<constructEffect>ConstructWood</constructEffect>
+		<repairEffect>ConstructWood</repairEffect>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>Mousekin_ResearchMachineryAdvanced</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+			<li>PlaceWorker_TurretTop</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	<ThingDef Name="Mousekin_GunpowderTurretBase" ParentName="Mousekin_TurretBase" Abstract="true">
+		<researchPrerequisites>
+			<li>Mousekin_ResearchGunpowder</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<!-- Kingdom Faction-Exclusive Turrets -->
+	
+	<ThingDef ParentName="Mousekin_TurretBase">
+		<defName>Mousekin_TurretBallista</defName>
+		<label>Mousekin ballista</label>
+		<description>A manually-operated turret that elastically launches multiple large wooden bolts in quick succession at distant targets, using a windlass-cranked wind-up spring mechanism to automatically reload and fire the next shot. These are typically used for point defense of fortification entrances, and can be easily relocated between defensive positions.</description>
+		<graphicData>
+			<texPath>Things/Building/Security/Mousekin_TurretBaseSmall</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/Mousekin_TurretBallista_MenuIcon</uiIconPath>
+		<uiIconScale>1.5</uiIconScale>
+		<costList>
+			<WoodLog>80</WoodLog>
+			<Steel>40</Steel>
+			<Mousekin_ClockworkComponent>2</Mousekin_ClockworkComponent>
+		</costList>
+		<statBases>
+			<WorkToBuild>12000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>65</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<stealable>false</stealable>
+		<building>
+			<turretGunDef>Mousekin_TurretWeapon_Ballista</turretGunDef>
+			<turretBurstCooldownTime>1</turretBurstCooldownTime>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Ballista bolts</fuelLabel>
+				<fuelGizmoLabel>Ballista bolts</fuelGizmoLabel>
+				<outOfFuelMessage>No ballista bolts</outOfFuelMessage>
+				<fuelConsumptionRate>1</fuelConsumptionRate>
+				<fuelCapacity>25</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Mousekin_Ammo_BallistaBolt</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showFuelGizmo>true</showFuelGizmo>
+				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>1</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<fuelIconPath>Things/Items/Ammo/Mousekin_BallistaBolt/Mousekin_BallistaBolt_a</fuelIconPath>
+				<initialFuelPercent>0</initialFuelPercent>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Mousekin_TurretWeapon_Ballista</defName>
+		<label>Mousekin ballista</label>
+		<description>Turret weapon of a Mousekin Ballista.</description>
+		<graphicData>
+			<texPath>Things/Building/Security/Mousekin_TurretBallista</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.7</AccuracyLong>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<Mass>40</Mass>
+		</statBases>
+		<soundInteract>Bow_Large</soundInteract>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bolt_Mousekin_TurretWeapon_Ballista</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<minRange>3</minRange>
+				<range>45</range>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+				<burstShotCount>5</burstShotCount>
+				<soundCast>Mousekin_Ballista_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

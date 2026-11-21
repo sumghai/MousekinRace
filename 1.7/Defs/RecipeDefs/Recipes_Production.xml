@@ -215,5 +215,83 @@
 		</products>
 	</RecipeDef>
 	
-
+	<RecipeDef Name="MousekinMakeBallistaBoltBase" Abstract="True">
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Mousekin_WorkbenchCrafting</li>
+		</recipeUsers>
+		<researchPrerequisite>Mousekin_ResearchMachineryAdvanced</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakeBallistaBoltBase">
+		<defName>Mousekin_Make_BallistaBoltBulkSmall</defName>
+		<label>Make Mousekin ballista bolt x25</label>
+		<description>Make a small batch of ballista bolts.</description>
+		<jobString>Making Mousekin ballista bolts.</jobString>
+		<workAmount>900</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_Ammo_BallistaBolt>25</Mousekin_Ammo_BallistaBolt>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MousekinMakeBallistaBoltBase">
+		<defName>Mousekin_Make_BallistaBoltBulkLarge</defName>
+		<label>Make Mousekin ballista bolt x100</label>
+		<description>Make a large batch of ballista bolts.</description>
+		<jobString>Making Mousekin ballista bolts.</jobString>
+		<workAmount>3600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>64</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<products>
+			<Mousekin_Ammo_BallistaBolt>100</Mousekin_Ammo_BallistaBolt>
+		</products>
+	</RecipeDef>
+	
 </Defs>

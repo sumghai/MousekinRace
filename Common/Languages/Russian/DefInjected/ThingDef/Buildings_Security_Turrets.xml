@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretBallista.label>Мышкинская баллиста</Mousekin_TurretBallista.label>
+	
+	<!-- EN: A manually-operated turret that elastically launches multiple large wooden bolts in quick succession at distant targets, using a windlass-cranked wind-up spring mechanism to automatically reload and fire the next shot. These are typically used for point defense of fortification entrances, and can be easily relocated between defensive positions. -->
+	<Mousekin_TurretBallista.description>Вручную управляемая турель, которая с помощью упругого механизма запускает несколько крупных деревянных болтов подряд по удалённым целям. Механизм оснащён пружиной, которая взводится при помощи воротка и автоматически перезаряжает турель, подготавливая её к следующему выстрелу. Такие турели обычно используются для точечной обороны входов в укрепления и могут быть легко перемещены между оборонительными позициями.</Mousekin_TurretBallista.description>
+	
+	<!-- EN: Ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.fuelGizmoLabel>Болт для баллисты</Mousekin_TurretBallista.comps.CompRefuelable.fuelGizmoLabel>
+	
+	<!-- EN: Ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.fuelLabel>Болт для баллисты</Mousekin_TurretBallista.comps.CompRefuelable.fuelLabel>
+	
+	<!-- EN: No ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.outOfFuelMessage>нет болт для баллисты</Mousekin_TurretBallista.comps.CompRefuelable.outOfFuelMessage>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretWeapon_Ballista.label>Мышкинская баллиста</Mousekin_TurretWeapon_Ballista.label>
+	
+	<!-- EN: Turret weapon of a Mousekin Ballista. -->
+	<Mousekin_TurretWeapon_Ballista.description>Турельное оружие Мышкинская баллиста.</Mousekin_TurretWeapon_Ballista.description>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretWeapon_Ballista.verbs.Verb_Shoot.label>Мышкинская баллиста</Mousekin_TurretWeapon_Ballista.verbs.Verb_Shoot.label>
+	
+</LanguageData>

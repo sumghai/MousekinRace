@@ -140,5 +140,30 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- Mousekin Ballista Bolt -->
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>Mousekin_Ammo_BallistaBolt</defName>
+		<label>Mousekin ballista bolt</label>
+		<description>A large steel-tipped wooden ballista bolt, crafted by Mousekin paws.</description>
+		<graphicData>
+			<texPath>Things/Items/Ammo/Mousekin_BallistaBolt</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>25</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<Mass>0.25</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
 
 </Defs>

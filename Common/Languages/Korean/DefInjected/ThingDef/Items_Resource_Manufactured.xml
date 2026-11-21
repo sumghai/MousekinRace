@@ -31,4 +31,10 @@
 	<!-- EN: A cloth bag containing a soft, moist mass of carefully-selected medicinal herbs and powdered tree bark. Thanks to the know-how of Mousekin alchemists, they are more potent than human-made herbal medicines and store well, but are not as effective as industrial pharmaceuticals. -->
 	<Mousekin_MedicinePoultice.description>엄선한 한약재와 나무껍질 가루를 부드럽고 촉촉하게 뭉친 천주머니. 마우스킨 연금술사들의 노하우 덕분에 사람이 만든 한약보다 효능이 강하고 저장도 잘되지만 공업용 의약품만큼의 효능은 없다.</Mousekin_MedicinePoultice.description>
 	
+	<!-- EN: Mousekin ballista bolt -->
+	<Mousekin_Ammo_BallistaBolt.label>마우스킨 발리스타 볼트</Mousekin_Ammo_BallistaBolt.label>
+	
+	<!-- EN: A large steel-tipped wooden ballista bolt, crafted by Mousekin paws. -->
+	<Mousekin_Ammo_BallistaBolt.description>끝이 강철로 된 나무 발리스타 볼트, 마우스킨에서 수작업으로 제작.</Mousekin_Ammo_BallistaBolt.description>
+	
 </LanguageData>

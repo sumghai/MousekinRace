@@ -51,9 +51,27 @@
 	<Mousekin_Make_GunpowderBulkLarge.label>Создать 100 Порох</Mousekin_Make_GunpowderBulkLarge.label>
 	
 	<!-- EN: Make a large batch of gunpowder. -->
-	<Mousekin_Make_GunpowderBulkLarge.description>Сделайте большую партию пороха</Mousekin_Make_GunpowderBulkLarge.description>
+	<Mousekin_Make_GunpowderBulkLarge.description>Сделайте большую партию пороха.</Mousekin_Make_GunpowderBulkLarge.description>
 	
 	<!-- EN: Making gunpowder. -->
 	<Mousekin_Make_GunpowderBulkLarge.jobString>Создание Порох</Mousekin_Make_GunpowderBulkLarge.jobString>
+	
+	<!-- EN: Make Mousekin ballista bolt x25 -->
+	<Mousekin_Make_BallistaBoltBulkSmall.label>Создать 25 Мышкинский болт для баллисты</Mousekin_Make_BallistaBoltBulkSmall.label>
+	
+	<!-- EN: Make a small batch of ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkSmall.description>Сделайте небольшую партию Мышкинский болт для баллисты.</Mousekin_Make_BallistaBoltBulkSmall.description>
+	
+	<!-- EN: Making Mousekin ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkSmall.jobString>Создание Мышкинский болт для баллисты</Mousekin_Make_BallistaBoltBulkSmall.jobString>
+	
+	<!-- EN: Make Mousekin ballista bolt x100 -->
+	<Mousekin_Make_BallistaBoltBulkLarge.label>Создать 100 Мышкинский болт для баллисты</Mousekin_Make_BallistaBoltBulkLarge.label>
+	
+	<!-- EN: Make a large batch of ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkLarge.description>Сделайте большую партию Мышкинский болт для баллисты.</Mousekin_Make_BallistaBoltBulkLarge.description>
+	
+	<!-- EN: Making Mousekin ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkLarge.jobString>Создание Мышкинский болт для баллисты</Mousekin_Make_BallistaBoltBulkLarge.jobString>
 
 </LanguageData>

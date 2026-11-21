@@ -55,4 +55,22 @@
 	<!-- EN: Making gunpowder. -->
 	<Mousekin_Make_GunpowderBulkLarge.jobString>화약 만들기.</Mousekin_Make_GunpowderBulkLarge.jobString>
 	
+	<!-- EN: Make Mousekin ballista bolt x25 -->
+	<Mousekin_Make_BallistaBoltBulkSmall.label>마우스킨 발리스타 볼트 만들기 x25</Mousekin_Make_BallistaBoltBulkSmall.label>
+	
+	<!-- EN: Make a small batch of ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkSmall.description>소량의 마우스킨 발리스타 볼트를 만드세요.</Mousekin_Make_BallistaBoltBulkSmall.description>
+	
+	<!-- EN: Making Mousekin ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkSmall.jobString>마우스킨 발리스타 볼트 만들기.</Mousekin_Make_BallistaBoltBulkSmall.jobString>
+	
+	<!-- EN: Make Mousekin ballista bolt x100 -->
+	<Mousekin_Make_BallistaBoltBulkLarge.label>마우스킨 발리스타 볼트 만들기 x100</Mousekin_Make_BallistaBoltBulkLarge.label>
+	
+	<!-- EN: Make a large batch of ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkLarge.description>대량의 마우스킨 발리스타 볼트를 만드세요.</Mousekin_Make_BallistaBoltBulkLarge.description>
+	
+	<!-- EN: Making Mousekin ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkLarge.jobString>마우스킨 발리스타 볼트 만들기.</Mousekin_Make_BallistaBoltBulkLarge.jobString>
+	
 </LanguageData>

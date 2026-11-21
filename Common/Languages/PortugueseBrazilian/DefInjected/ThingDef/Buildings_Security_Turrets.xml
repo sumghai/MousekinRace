@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretBallista.label>Balista Mousekin</Mousekin_TurretBallista.label>
+	
+	<!-- EN: A manually-operated turret that elastically launches multiple large wooden bolts in quick succession at distant targets, using a windlass-cranked wind-up spring mechanism to automatically reload and fire the next shot. These are typically used for point defense of fortification entrances, and can be easily relocated between defensive positions. -->
+	<Mousekin_TurretBallista.description>Uma torre de operação manual que lança, por meio de força elástica, vários grandes virotes de madeira em rápida sucessão contra alvos distantes. Utiliza um mecanismo de mola tensionada por manivela, que recarrega e dispara automaticamente o próximo projétil. Essas armas são geralmente utilizadas na defesa de entradas de fortificações e podem ser facilmente realocadas entre posições defensivas.</Mousekin_TurretBallista.description>
+	
+	<!-- EN: Ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.fuelGizmoLabel>Virola de Balista</Mousekin_TurretBallista.comps.CompRefuelable.fuelGizmoLabel>
+	
+	<!-- EN: Ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.fuelLabel>Virola de Balista</Mousekin_TurretBallista.comps.CompRefuelable.fuelLabel>
+	
+	<!-- EN: No ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.outOfFuelMessage>Não é possível disparar: Sem virola de balista</Mousekin_TurretBallista.comps.CompRefuelable.outOfFuelMessage>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretWeapon_Ballista.label>Balista Mousekin</Mousekin_TurretWeapon_Ballista.label>
+	
+	<!-- EN: Turret weapon of a Mousekin Ballista. -->
+	<Mousekin_TurretWeapon_Ballista.description>Arma da torre de uma Balista Mousekin.</Mousekin_TurretWeapon_Ballista.description>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretWeapon_Ballista.verbs.Verb_Shoot.label>Balista Mousekin</Mousekin_TurretWeapon_Ballista.verbs.Verb_Shoot.label>
+	
+</LanguageData>

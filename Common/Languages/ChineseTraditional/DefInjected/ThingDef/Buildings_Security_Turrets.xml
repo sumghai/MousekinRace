@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretBallista.label>白鼠族弩砲</Mousekin_TurretBallista.label>
+	
+	<!-- EN: A manually-operated turret that elastically launches multiple large wooden bolts in quick succession at distant targets, using a windlass-cranked wind-up spring mechanism to automatically reload and fire the next shot. These are typically used for point defense of fortification entrances, and can be easily relocated between defensive positions. -->
+	<Mousekin_TurretBallista.description>一種手動操作的砲塔，利用絞盤上弦的彈簧機構，以彈力快速連續發射多枚大型木製弩箭，攻擊遠處的目標。每次射擊後，機構會自動重新上弦並發射下一發。這類武器通常用於防守要塞入口，可輕易移動並部署於不同的防禦陣地。</Mousekin_TurretBallista.description>
+	
+	<!-- EN: Ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.fuelGizmoLabel>弩砲箭</Mousekin_TurretBallista.comps.CompRefuelable.fuelGizmoLabel>
+	
+	<!-- EN: Ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.fuelLabel>弩砲箭</Mousekin_TurretBallista.comps.CompRefuelable.fuelLabel>
+	
+	<!-- EN: No ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.outOfFuelMessage>沒有弩砲箭</Mousekin_TurretBallista.comps.CompRefuelable.outOfFuelMessage>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretWeapon_Ballista.label>白鼠族弩砲</Mousekin_TurretWeapon_Ballista.label>
+	
+	<!-- EN: Turret weapon of a Mousekin Ballista. -->
+	<Mousekin_TurretWeapon_Ballista.description>白鼠族弩砲的炮塔武器。</Mousekin_TurretWeapon_Ballista.description>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretWeapon_Ballista.verbs.Verb_Shoot.label>白鼠族弩砲</Mousekin_TurretWeapon_Ballista.verbs.Verb_Shoot.label>
+	
+</LanguageData>

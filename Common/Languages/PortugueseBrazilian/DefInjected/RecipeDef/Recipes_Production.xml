@@ -55,4 +55,22 @@
 	<!-- EN: Making gunpowder. -->
 	<Mousekin_Make_GunpowderBulkLarge.jobString>Fazendo Pólvora.</Mousekin_Make_GunpowderBulkLarge.jobString>
 	
+	<!-- EN: Make Mousekin ballista bolt x25 -->
+	<Mousekin_Make_BallistaBoltBulkSmall.label>Fazer Virola de Balista Mousekin x25</Mousekin_Make_BallistaBoltBulkSmall.label>
+	
+	<!-- EN: Make a small batch of ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkSmall.description>Fazer um pequeno lote de Virola de Balista Mousekin.</Mousekin_Make_BallistaBoltBulkSmall.description>
+	
+	<!-- EN: Making Mousekin ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkSmall.jobString>Fazendo Virola de Balista Mousekin.</Mousekin_Make_BallistaBoltBulkSmall.jobString>
+	
+	<!-- EN: Make Mousekin ballista bolt x100 -->
+	<Mousekin_Make_BallistaBoltBulkLarge.label>Fazer Virola de Balista Mousekin x100</Mousekin_Make_BallistaBoltBulkLarge.label>
+	
+	<!-- EN: Make a large batch of ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkLarge.description>Fazer um lote de Virola de Balista Mousekin.</Mousekin_Make_BallistaBoltBulkLarge.description>
+	
+	<!-- EN: Making Mousekin ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkLarge.jobString>Fazendo Virola de Balista Mousekin.</Mousekin_Make_BallistaBoltBulkLarge.jobString>
+	
 </LanguageData>

@@ -55,4 +55,22 @@
 	<!-- EN: Making gunpowder. -->
 	<Mousekin_Make_GunpowderBulkLarge.jobString>製作火藥。</Mousekin_Make_GunpowderBulkLarge.jobString>
 	
+	<!-- EN: Make Mousekin ballista bolt x25 -->
+	<Mousekin_Make_BallistaBoltBulkSmall.label>製作白鼠族弩砲箭x25</Mousekin_Make_BallistaBoltBulkSmall.label>
+	
+	<!-- EN: Make a small batch of ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkSmall.description>製作一小批白鼠族弩砲箭。</Mousekin_Make_BallistaBoltBulkSmall.description>
+	
+	<!-- EN: Making Mousekin ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkSmall.jobString>製作白鼠族弩砲箭。</Mousekin_Make_BallistaBoltBulkSmall.jobString>
+	
+	<!-- EN: Make Mousekin ballista bolt x100 -->
+	<Mousekin_Make_BallistaBoltBulkLarge.label>製作白鼠族弩砲箭x100</Mousekin_Make_BallistaBoltBulkLarge.label>
+	
+	<!-- EN: Make a large batch of ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkLarge.description>製作一大批白鼠族弩砲箭。</Mousekin_Make_BallistaBoltBulkLarge.description>
+	
+	<!-- EN: Making Mousekin ballista bolts. -->
+	<Mousekin_Make_BallistaBoltBulkLarge.jobString>製作白鼠族弩砲箭。</Mousekin_Make_BallistaBoltBulkLarge.jobString>
+	
 </LanguageData>

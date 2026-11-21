@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretBallista.label>マウスキンバリスタ</Mousekin_TurretBallista.label>
+	
+	<!-- EN: A manually-operated turret that elastically launches multiple large wooden bolts in quick succession at distant targets, using a windlass-cranked wind-up spring mechanism to automatically reload and fire the next shot. These are typically used for point defense of fortification entrances, and can be easily relocated between defensive positions. -->
+	<Mousekin_TurretBallista.description>遠方の目標に向けて、大型の木製ボルトを短時間に連続発射する手動操作式のタレットです。巻き上げ機でゼンマイ式のばね機構を巻き上げることで、次弾の自動装填と発射を行います.主に要塞の入口などの防衛拠点で使用され、防衛陣地間の移設も容易に行えます.</Mousekin_TurretBallista.description>
+	
+	<!-- EN: Ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.fuelGizmoLabel>バリスタボルト</Mousekin_TurretBallista.comps.CompRefuelable.fuelGizmoLabel>
+	
+	<!-- EN: Ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.fuelLabel>バリスタボルト</Mousekin_TurretBallista.comps.CompRefuelable.fuelLabel>
+	
+	<!-- EN: No ballista bolts -->
+	<Mousekin_TurretBallista.comps.CompRefuelable.outOfFuelMessage>バリスタボルトがない</Mousekin_TurretBallista.comps.CompRefuelable.outOfFuelMessage>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretWeapon_Ballista.label>マウスキンバリスタ</Mousekin_TurretWeapon_Ballista.label>
+	
+	<!-- EN: Turret weapon of a Mousekin Ballista. -->
+	<Mousekin_TurretWeapon_Ballista.description>マウスキンバリスタの砲塔兵器.</Mousekin_TurretWeapon_Ballista.description>
+	
+	<!-- EN: Mousekin ballista -->
+	<Mousekin_TurretWeapon_Ballista.verbs.Verb_Shoot.label>マウスキンバリスタ</Mousekin_TurretWeapon_Ballista.verbs.Verb_Shoot.label>
+	
+</LanguageData>
