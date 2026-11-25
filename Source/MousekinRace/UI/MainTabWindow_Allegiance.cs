@@ -26,6 +26,8 @@ namespace MousekinRace
 
         public const float uiElementSpacing = 10f;
 
+        public float scrollableContentsHeight = 1f; // Placeholder value, will be auto-updated on next frame
+
         public const float scrollbarWidth = 16f;
 
         public const int optionNumColumns = 2;
@@ -213,12 +215,13 @@ namespace MousekinRace
                 if (Widgets.ButtonText(new Rect(innerRect.xMin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Benefits".Translate())))
                 {
                     SoundDefOf.Click.PlayOneShotOnCamera();
-                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Benefits".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOption, true)), AllegianceSys_Utils.GenerateBenefitsDesc(factionOption), currentFactionExtension.factionRestrictedCraftableThingDefs));
+                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Benefits".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOption, true)),
+                        factionOption, AllegianceExtraInfoMode.Benefits));
                 }
                 if (Widgets.ButtonText(new Rect(innerRect.xMin + infoButtonsWidth + StandardMargin, innerY, infoButtonsWidth, buttonHeight), "MousekinRace_AllegianceSys_ViewExtraInfoButtonLabel".Translate("MousekinRace_AllegianceSys_Costs".Translate())))
                 {
                     SoundDefOf.Click.PlayOneShotOnCamera();
-                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Costs".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOption, true)), AllegianceSys_Utils.GenerateCostsDesc(factionOption)));
+                    Find.WindowStack.Add(new Dialog_AllegianceExtraInfo("MousekinRace_AllegianceSys_ViewExtraInfoDialog_Title".Translate("MousekinRace_AllegianceSys_Costs".Translate(), AllegianceSys_Utils.MembershipToFactionLabel(factionOption, true)), factionOption, AllegianceExtraInfoMode.Costs));
                 }
 
                 innerY += buttonHeight;
@@ -374,10 +377,10 @@ namespace MousekinRace
                     DrawPageOverview(innerRect);
                     break;
                 case PageTag.AllegianceSys_Benefits:
-                    DrawPageBenefits(innerRect); 
+                    DrawPageBenefitCost(innerRect, AllegianceExtraInfoMode.Benefits); 
                     break;
                 case PageTag.AllegianceSys_Costs:
-                    DrawPageCosts(innerRect);
+                    DrawPageBenefitCost(innerRect, AllegianceExtraInfoMode.Costs);
                     break;
                 case PageTag.AllegianceSys_Recruit:
                     DrawPageRecruit(innerRect);
@@ -485,51 +488,18 @@ namespace MousekinRace
             Widgets.EndScrollView();
         }
 
-        public void DrawPageBenefits(Rect r)
+        public void DrawPageBenefitCost(Rect r, AllegianceExtraInfoMode mode)
         {
-            Rect scrollableAreaRect = new Rect(r);
-
-            TaggedString contents = AllegianceSys_Utils.GenerateBenefitsDesc(GameComponent_Allegiance.Instance.alignedFaction);
+            Rect scrollableAreaRect = new(r);
             float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
-            float textBlockHeight = Text.CalcHeight(contents, scrollableContentsWidth);
-
-            float craftableItemsHyperlinksY = textBlockHeight;
-            float craftableItemsHyperlinkRowHeight = 24f;
-            Rect craftableItemsHyperlinksRect = new Rect(0f, craftableItemsHyperlinksY, scrollableContentsWidth, 0f);
-            List<ThingDef> unlockedCraftableThingDefs = GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs;
-            if (unlockedCraftableThingDefs != null && unlockedCraftableThingDefs.Count > 0)
-            {
-                craftableItemsHyperlinksRect.height = craftableItemsHyperlinkRowHeight * unlockedCraftableThingDefs.Count;
-            }
-
-            Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, textBlockHeight + craftableItemsHyperlinksRect.height);
+            Rect scrollableContentsRect = new(0f, 0f, scrollableContentsWidth, scrollableContentsHeight);
 
             Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
-            Widgets.Label(scrollableContentsRect, contents);
-            if (unlockedCraftableThingDefs != null && unlockedCraftableThingDefs.Count > 0)
-            {
-                foreach (ThingDef def in unlockedCraftableThingDefs)
-                {
-                    Dialog_InfoCard.Hyperlink hyperlink = new Dialog_InfoCard.Hyperlink(def);
-                    Widgets.HyperlinkWithIcon(new Rect(0f, craftableItemsHyperlinksY, scrollableContentsWidth, craftableItemsHyperlinkRowHeight), hyperlink);
-                    craftableItemsHyperlinksY += craftableItemsHyperlinkRowHeight;
-                }
-            }
-            Widgets.EndScrollView();
-        }
 
-        public void DrawPageCosts(Rect r)
-        {
-            Rect scrollableAreaRect = new Rect(r);
+            Rect contents = AllegianceSys_Utils.DrawBenefitCostInfoBlock(scrollableContentsWidth, GameComponent_Allegiance.Instance.alignedFaction, mode, true);
 
-            TaggedString contents = AllegianceSys_Utils.GenerateCostsDesc(GameComponent_Allegiance.Instance.alignedFaction);
-            float scrollableContentsWidth = scrollableAreaRect.width - scrollbarWidth;
-            float textBlockHeight = Text.CalcHeight(contents, scrollableContentsWidth);
+            scrollableContentsHeight = contents.height;
 
-            Rect scrollableContentsRect = new Rect(0f, 0f, scrollableContentsWidth, textBlockHeight);
-
-            Widgets.BeginScrollView(scrollableAreaRect, ref scrollPosition, scrollableContentsRect);
-            Widgets.Label(scrollableContentsRect, contents);
             Widgets.EndScrollView();
         }
 

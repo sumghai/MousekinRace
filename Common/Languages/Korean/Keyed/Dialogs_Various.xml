@@ -52,6 +52,9 @@
 	<!-- EN: The following factions are enemies of {0}, and will become hostile to your faction:\n{1} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>다음 진영은 {0}의 적이며, 내 진영에 적대적인 진영이 됩니다:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
 	
+	<!-- EN: The following faction-exclusive buildings will be available for construction: -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionBuildingsUnlocked>다음 진영 전용 건물을 건설할 수 있습니다:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionBuildingsUnlocked>
+	
 	<!-- EN: The following faction-exclusive items will be available for crafting: -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>다음 진영 전용 아이템을 제작할 수 있습니다:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
 	

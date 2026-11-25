@@ -26,6 +26,8 @@ namespace MousekinRace
 
         public float tradePriceFactor = 1f;
 
+        public List<ThingDef> factionRestrictedBuildableThingDefs = new();
+
         public List<ThingDef> factionRestrictedCraftableThingDefs = new();
 
         public RecruitableColonistSettings recruitableColonistSettings = new();

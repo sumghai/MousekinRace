@@ -52,6 +52,9 @@
 	<!-- EN: The following factions are enemies of {0}, and will become hostile to your faction:\n{1} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>Следующие фракции являются врагами {0} и станут враждебными к вашей фракции:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
 	
+	<!-- EN: The following faction-exclusive buildings will be available for construction: -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionBuildingsUnlocked>Следующие здания, эксклюзивные для фракции, будут доступны для строительства:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionBuildingsUnlocked>
+	
 	<!-- EN: The following faction-exclusive items will be available for crafting: -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>Следующие предметы, эксклюзивные для фракции, будут доступны для создания:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
 	

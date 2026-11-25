@@ -52,6 +52,9 @@
 	<!-- EN: The following factions are enemies of {0}, and will become hostile to your faction:\n{1} -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>以下派系是{0}的敵人，將與你的派系敵對:\n{1}</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions>
 	
+	<!-- EN: The following faction-exclusive buildings will be available for construction: -->
+	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionBuildingsUnlocked>您可以建造以下派系專屬建築:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionBuildingsUnlocked>
+	
 	<!-- EN: The following faction-exclusive items will be available for crafting: -->
 	<MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>您可以製作以下派系專屬物品:</MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked>
 	

@@ -43,9 +43,22 @@ namespace MousekinRace
         public static ThingDef Mousekin_RawHoney;
         public static ThingDef Mousekin_Saltpeter;
 
-        public static List<ThingDef> FactionRestrictedThingDefs
+        public static List<ThingDef> FactionRestrictedBuildableThingDefs
         {
             get 
+            {
+                List<ThingDef> thingDefs = new();
+                foreach (Faction faction in GameComponent_Allegiance.Instance.alliableFactions)
+                {
+                    thingDefs.AddRange(faction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedBuildableThingDefs);
+                }
+                return thingDefs;
+            }
+        }
+
+        public static List<ThingDef> FactionRestrictedCraftableThingDefs
+        {
+            get
             {
                 List<ThingDef> thingDefs = new();
                 foreach (Faction faction in GameComponent_Allegiance.Instance.alliableFactions)

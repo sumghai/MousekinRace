@@ -249,7 +249,7 @@ namespace MousekinRace
                 Tuple<Pawn, string> lastQuittingColonist = quittingColonistsWithReasons.Last();
                 foreach (Tuple<Pawn, string> quittingColonist in quittingColonistsWithReasons)
                 {
-                    quittingColonistsListString += "  - " + quittingColonist.Item1.Name.ToStringShort + (", " + quittingColonist.Item1.story.TitleShortCap).Colorize(ColoredText.SubtleGrayColor) + " (" + quittingColonist.Item2 + ")";
+                    quittingColonistsListString += "- " + quittingColonist.Item1.Name.ToStringShort + (", " + quittingColonist.Item1.story.TitleShortCap).Colorize(ColoredText.SubtleGrayColor) + " (" + quittingColonist.Item2 + ")";
                     
                     if (!quittingColonist.Equals(lastQuittingColonist))
                     {
@@ -268,75 +268,151 @@ namespace MousekinRace
             {
                 TaggedString empireNameColored = Faction.OfEmpire.Name.Colorize(Faction.OfEmpire.Color);
                 TaggedString empireNameWithArticle = empireNameColored.RawText.IndexOf("DefiniteArticle".Translate(), StringComparison.OrdinalIgnoreCase) >= 0 ? empireNameColored : "DefiniteArticle".Translate().CapitalizeFirst() + " " + empireNameColored;
-                output = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled".Translate(empireNameWithArticle) + "\n\n";
+                output = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEmpireQuestsDisabled".Translate(empireNameWithArticle);
             }
             return output;
         }
 
-        public static TaggedString GenerateBenefitsDesc(Faction allegianceFaction)
+        public static void DrawBenefitCostInfoRow(Rect rect, bool invertBackground = false)
         {
-            TaggedString descBody = new();
-
-            AlliableFactionExtension alliableFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
-
-            if (alliableFactionExtension.tradePriceFactor != 1f)
+            if (invertBackground)
             {
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor".Translate(alliableFactionExtension.tradePriceFactor.ToStringPercent()) + "\n\n";
+                Widgets.DrawBoxSolid(rect, new Color(0.13f, 0.13f, 0.13f));
             }
-
-            if (alliableFactionExtension.recruitableColonistSettings.options.Count > 0)
+            else
             {
-                string recruitableColonists = "";
-                foreach (RecruitableOptions option in alliableFactionExtension.recruitableColonistSettings.options)
-                {
-                    recruitableColonists += "  - " + option.pawnKind.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() + "\n";
-                }
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists".Translate(recruitableColonists) + "\n";
+                Widgets.DrawMenuSection(rect);
             }
-
-            if (alliableFactionExtension.factionRestrictedCraftableThingDefs != null && alliableFactionExtension.factionRestrictedCraftableThingDefs.Count > 0) 
-            {
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked".Translate();
-            }
-
-            return descBody;
         }
 
-        public static TaggedString GenerateCostsDesc(Faction allegianceFaction)
+        public static Rect DrawBenefitCostInfoBlock(float displayWidth, Faction allegianceFaction, AllegianceExtraInfoMode mode, bool invertBackground = false)
         {
-            TaggedString descBody = new();
-            
-            if (ModsConfig.IdeologyActive)
+            AlliableFactionExtension alliableFactionExtension = allegianceFaction.def.GetModExtension<AlliableFactionExtension>();
+
+            float curY = 0f;
+            float hyperlinkRowIndent = 4f;
+            float hyperlinkRowHeight = 24f;
+            float padding = 8f;
+
+            switch (mode)
             {
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString().Colorize(allegianceFaction.ideos.PrimaryIdeo.Color)) + "\n\n";
+                case AllegianceExtraInfoMode.Benefits:
+                    // Trade price factor
+                    if (alliableFactionExtension.tradePriceFactor != 1f)
+                    {
+                        TaggedString tradePriceFactorText = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartTradePriceFactor".Translate(alliableFactionExtension.tradePriceFactor.ToStringPercent());
+                        float textBlockHeight_TradePriceFactor = Text.CalcHeight(tradePriceFactorText, displayWidth);
+                        Rect rect_TradePriceFactor = new(0, curY, displayWidth, textBlockHeight_TradePriceFactor + 2 * padding);
+                        DrawBenefitCostInfoRow(rect_TradePriceFactor, invertBackground);
+                        Widgets.Label(new Rect(padding, curY + padding, displayWidth, textBlockHeight_TradePriceFactor), tradePriceFactorText);
+                        curY += rect_TradePriceFactor.height + padding;
+                    }
+                    // Recruitable colonist types
+                    if (alliableFactionExtension.recruitableColonistSettings.options.Count > 0)
+                    {
+                        string recruitableColonists = "";
+                        foreach (RecruitableOptions option in alliableFactionExtension.recruitableColonistSettings.options)
+                        {
+                            recruitableColonists += "- " + option.pawnKind.label.Replace(MousekinDefOf.Mousekin.label, "").Trim().CapitalizeFirst() + "\n";
+                        }
+                        TaggedString recruitableColonistsText = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartRecruitableColonists".Translate(recruitableColonists).Trim();
+                        float textBlockHeight_RecruitableColonists = Text.CalcHeight(recruitableColonistsText, displayWidth);
+                        Rect rect_RecruitableColonists = new(0, curY, displayWidth, textBlockHeight_RecruitableColonists + 2 * padding);
+                        DrawBenefitCostInfoRow(rect_RecruitableColonists, invertBackground);
+                        Widgets.Label(new Rect(padding, curY + padding, displayWidth, textBlockHeight_RecruitableColonists), recruitableColonistsText);
+                        curY += rect_RecruitableColonists.height + padding;
+                    }
+                    // Faction-exclusive buildables
+                    if (alliableFactionExtension.factionRestrictedBuildableThingDefs != null && alliableFactionExtension.factionRestrictedBuildableThingDefs.Count > 0)
+                    {
+                        List<ThingDef> buildingsUnlockedThingDefs = alliableFactionExtension.factionRestrictedBuildableThingDefs;
+                        TaggedString buildingsUnlockedText = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionBuildingsUnlocked".Translate();
+                        float textBlockHeight_BuildingsUnlocked = Text.CalcHeight(buildingsUnlockedText, displayWidth);
+                        float hyperlinksBlockHeight_BuildingsUnlocked = hyperlinkRowHeight * buildingsUnlockedThingDefs.Count;
+                        Rect rect_BuildingsUnlocked = new(0, curY, displayWidth, textBlockHeight_BuildingsUnlocked + hyperlinksBlockHeight_BuildingsUnlocked + 2 * padding);
+                        DrawBenefitCostInfoRow(rect_BuildingsUnlocked, invertBackground);
+                        Widgets.Label(new Rect(padding, curY + padding, displayWidth, textBlockHeight_BuildingsUnlocked), buildingsUnlockedText);
+                        float curY_hyperlinksBuildingsUnlocked = curY + padding + textBlockHeight_BuildingsUnlocked;
+                        foreach (ThingDef def in buildingsUnlockedThingDefs)
+                        {
+                            Dialog_InfoCard.Hyperlink hyperlink = new(def);
+                            Widgets.HyperlinkWithIcon(new Rect(hyperlinkRowIndent, curY_hyperlinksBuildingsUnlocked, displayWidth, hyperlinkRowHeight), hyperlink);
+                            curY_hyperlinksBuildingsUnlocked += hyperlinkRowHeight;
+                        }
+                        curY += rect_BuildingsUnlocked.height + padding;
+                    }
+                    // Faction-exclusive craftables
+                    if (alliableFactionExtension.factionRestrictedCraftableThingDefs != null && alliableFactionExtension.factionRestrictedCraftableThingDefs.Count > 0)
+                    {
+                        List<ThingDef> itemsUnlockedThingDefs = alliableFactionExtension.factionRestrictedCraftableThingDefs;
+                        TaggedString itemsUnlockedText = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartFactionItemsUnlocked".Translate();
+                        float textBlockHeight_ItemsUnlocked = Text.CalcHeight(itemsUnlockedText, displayWidth);
+                        float hyperlinksBlockHeight_ItemsUnlocked = hyperlinkRowHeight * itemsUnlockedThingDefs.Count;
+                        Rect rect_ItemsUnlocked = new(0, curY, displayWidth, textBlockHeight_ItemsUnlocked + hyperlinksBlockHeight_ItemsUnlocked + 2 * padding);
+                        DrawBenefitCostInfoRow(rect_ItemsUnlocked, invertBackground);
+                        Widgets.Label(new Rect(padding, curY + padding, displayWidth, textBlockHeight_ItemsUnlocked), itemsUnlockedText);
+                        float curY_hyperlinksItemsUnlocked = curY + padding + textBlockHeight_ItemsUnlocked;
+                        foreach (ThingDef def in itemsUnlockedThingDefs)
+                        {
+                            Dialog_InfoCard.Hyperlink hyperlink = new(def);
+                            Widgets.HyperlinkWithIcon(new Rect(hyperlinkRowIndent, curY_hyperlinksItemsUnlocked, displayWidth, hyperlinkRowHeight), hyperlink);
+                            curY_hyperlinksItemsUnlocked += hyperlinkRowHeight;
+                        }
+                        curY += rect_ItemsUnlocked.height + padding;
+                    }
+                    break;
+                case AllegianceExtraInfoMode.Costs:
+                    // Faction ideology to be adopted
+                    if (ModsConfig.IdeologyActive)
+                    {
+                        TaggedString factionIdeoText = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartIdeoChange".Translate(allegianceFaction.ideos.PrimaryIdeo.ToString());
+                        float textBlockHeight_FactionIdeo = Text.CalcHeight(factionIdeoText, displayWidth);
+                        Rect rect_FactionIdeo = new(0, curY, displayWidth, textBlockHeight_FactionIdeo + 2 * padding);
+                        DrawBenefitCostInfoRow(rect_FactionIdeo, invertBackground);
+                        Widgets.Label(new Rect(padding, curY + padding, displayWidth, textBlockHeight_FactionIdeo), factionIdeoText.Colorize(allegianceFaction.ideos.PrimaryIdeo.Color));
+                        curY += rect_FactionIdeo.height + padding;
+                    }
+                    // Faction enemies
+                    List<Faction> enemiesOfAllegianceFaction = [.. Find.FactionManager.AllFactionsVisible.Where(f => allegianceFaction.def.GetModExtension<AlliableFactionExtension>().hostileToFactionTypes.Contains(f.def))];
+                    if (enemiesOfAllegianceFaction.Count > 0)
+                    {
+                        TaggedString enemyFactionsListString = TaggedString.Empty;
+                        foreach (Faction faction in enemiesOfAllegianceFaction)
+                        {
+                            // faction.Name.Colorize(faction.Color) ensures we get the original faction color
+                            // (and not the automatic allied/hostile green/red overrides)
+                            enemyFactionsListString += "- " + faction.Name.Colorize(faction.Color) + "\n";
+                        }
+                        TaggedString enemiesListText = "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions".Translate(FactionNameWithDefiniteArticle(allegianceFaction.Name.Colorize(allegianceFaction.Color)), enemyFactionsListString).Trim();
+                        float textBlockHeight_FactionEnemies = Text.CalcHeight(enemiesListText, displayWidth);
+                        Rect rect_FactionEnemies = new(0, curY, displayWidth, textBlockHeight_FactionEnemies + 2 * padding);
+                        DrawBenefitCostInfoRow(rect_FactionEnemies, invertBackground);
+                        Widgets.Label(new Rect(padding, curY + padding, displayWidth, textBlockHeight_FactionEnemies), enemiesListText);
+                        curY += rect_FactionEnemies.height + padding;
+                    }
+                    // Royalty quests disabled
+                    if (ModsConfig.RoyaltyActive && Faction.OfEmpire != null)
+                    {
+                        float textBlockHeight_RoyaltyQuestsDisabled = Text.CalcHeight(GenerateShatteredEmpireQuestsDisabledDesc(), displayWidth);
+                        Rect rect_RoyaltyQuestsDisabled = new(0, curY, displayWidth, textBlockHeight_RoyaltyQuestsDisabled + 2 * padding);
+                        DrawBenefitCostInfoRow(rect_RoyaltyQuestsDisabled, invertBackground);
+                        Widgets.Label(new Rect(padding, curY + padding, displayWidth, textBlockHeight_RoyaltyQuestsDisabled), GenerateShatteredEmpireQuestsDisabledDesc());
+                        curY += rect_RoyaltyQuestsDisabled.height + padding;
+                    }
+                    // Quitting colonists
+                    List<Tuple<Pawn, string>> quittingColonists = GetQuittingColonistsWithReasons(allegianceFaction);
+                    if (quittingColonists.Count > 0)
+                    {
+                        TaggedString quittingColonistsText = GenerateQuittingColonistsWithReasonsDesc("MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns", quittingColonists);
+                        float textBlockHeight_QuittingColonists = Text.CalcHeight(quittingColonistsText, displayWidth);
+                        Rect rect_QuittingColonists = new(0, curY, displayWidth, textBlockHeight_QuittingColonists + 2 * padding);
+                        DrawBenefitCostInfoRow(rect_QuittingColonists, invertBackground);
+                        Widgets.Label(new Rect(padding, curY + padding, displayWidth, textBlockHeight_QuittingColonists), quittingColonistsText);
+                        curY += rect_QuittingColonists.height + padding;
+                    }
+                    break;
             }
-
-            List<Faction> enemiesOfAllegianceFaction = Find.FactionManager.AllFactionsVisible.Where(f => allegianceFaction.def.GetModExtension<AlliableFactionExtension>().hostileToFactionTypes.Contains(f.def)).ToList();
-            if (enemiesOfAllegianceFaction.Count > 0)
-            { 
-                TaggedString enemyFactionsListString = TaggedString.Empty;
-                foreach (Faction faction in enemiesOfAllegianceFaction)
-                {
-                    // faction.Name.Colorize(faction.Color) ensures we get the original faction color
-                    // (and not the automatic allied/hostile green/red overrides)
-                    enemyFactionsListString += "  - " + faction.Name.Colorize(faction.Color) + "\n";
-                }
-
-                descBody += "- " + "MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartEnemyFactions".Translate(FactionNameWithDefiniteArticle(allegianceFaction.Name.Colorize(allegianceFaction.Color)), enemyFactionsListString) + "\n";
-            }
-
-            if (ModsConfig.RoyaltyActive && Faction.OfEmpire != null)
-            {
-                descBody += "- " + GenerateShatteredEmpireQuestsDisabledDesc();
-            }
-
-            List<Tuple<Pawn, string>> quittingColonists = GetQuittingColonistsWithReasons(allegianceFaction);
-            if (quittingColonists.Count > 0)
-            {
-                descBody += "- " + GenerateQuittingColonistsWithReasonsDesc("MousekinRace_AllegianceSys_ViewExtraInfoDialog_PartQuittingPawns", quittingColonists);
-            }    
-
-            return descBody;
+            return new Rect(0f, 0f, displayWidth, curY);
         }
 
         public static TaggedString GenerateJoinFactionLetterDesc(Faction allegianceFaction, List<Tuple<Pawn, string>> quittingColonistsWithReasons)
@@ -373,12 +449,12 @@ namespace MousekinRace
             
             foreach (Map map in Find.Maps)
             {
-                colonistWorktablesWithFactionRestrictedItemBills.AddRange(map.listerBuildings.AllColonistBuildingsOfType<Building_WorkTable>().Where(worktable => worktable.BillStack.Bills.Where(bill => MousekinDefOf.FactionRestrictedThingDefs.Contains(bill.recipe.ProducedThingDef)).Count() > 0));
+                colonistWorktablesWithFactionRestrictedItemBills.AddRange(map.listerBuildings.AllColonistBuildingsOfType<Building_WorkTable>().Where(worktable => worktable.BillStack.Bills.Where(bill => MousekinDefOf.FactionRestrictedCraftableThingDefs.Contains(bill.recipe.ProducedThingDef)).Count() > 0));
             }
             
             if (GameComponent_Allegiance.Instance.alignedFaction is Faction allegianceFaction)
             {
-                List<ThingDef> thingDefsToRemove = MousekinDefOf.FactionRestrictedThingDefs.Except(allegianceFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs).ToList();
+                List<ThingDef> thingDefsToRemove = MousekinDefOf.FactionRestrictedCraftableThingDefs.Except(allegianceFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs).ToList();
 
                 foreach (Building_WorkTable worktable in colonistWorktablesWithFactionRestrictedItemBills)
                 {
@@ -389,7 +465,7 @@ namespace MousekinRace
             {
                 foreach (Building_WorkTable worktable in colonistWorktablesWithFactionRestrictedItemBills) 
                 {
-                    worktable.BillStack.bills.RemoveAll(bill => MousekinDefOf.FactionRestrictedThingDefs.Contains(bill.recipe.ProducedThingDef));
+                    worktable.BillStack.bills.RemoveAll(bill => MousekinDefOf.FactionRestrictedCraftableThingDefs.Contains(bill.recipe.ProducedThingDef));
                 }
             }
         }

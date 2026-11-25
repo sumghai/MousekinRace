@@ -10,7 +10,7 @@ namespace MousekinRace
         static void Postfix(RecipeDef __instance, ref bool __result)
         {
             ThingDef currentDef = __instance.ProducedThingDef;
-            if (MousekinDefOf.FactionRestrictedThingDefs.Contains(currentDef))
+            if (MousekinDefOf.FactionRestrictedCraftableThingDefs.Contains(currentDef))
             {
                 if (GameComponent_Allegiance.Instance.alignedFaction == null || !GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedCraftableThingDefs.Contains(currentDef))
                 {
