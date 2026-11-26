@@ -565,13 +565,17 @@
 					<li>MousekinIndyTownSoldier</li>
 				</quittingPawnKinds>
 				<tradePriceFactor>0.75</tradePriceFactor>
+				<factionRestrictedBuildableThingDefs>
+					<li>Mousekin_TurretBallista</li>
+				</factionRestrictedBuildableThingDefs>
 				<factionRestrictedCraftableThingDefs>
+					<li>Mousekin_Ammo_BallistaBolt</li>
 					<li>Mousekin_ApparelGuardenerGown</li>
 					<li>Mousekin_ApparelGuardenerRobe</li>
 					<li>Mousekin_ArmorPlate</li>
 					<li>Mousekin_HelmetKnight</li>
-					<li>Mousekin_MeleeWeapon_SwordGuardenerTraining</li>
 					<li>Mousekin_MeleeWeapon_SwordGuardener</li>
+					<li>Mousekin_MeleeWeapon_SwordGuardenerTraining</li>
 					<li>Mousekin_MeleeWeapon_SwordKnight</li>
 					<li>Mousekin_ShieldGuardener</li>
 					<li>Mousekin_ShieldKnight</li>
