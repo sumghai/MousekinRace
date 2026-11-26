@@ -45,4 +45,23 @@ namespace MousekinRace
             return buildableDef == MousekinDefOf.Mousekin_IdeoXmasTree ? input.PatchMinifiedTreeWithPineTreeSuffix() : input;
         }
     }
+
+    // Restrict crafting of faction-unique buildings to players whose allegiance matches the building's associated faction
+    [HarmonyPatch(typeof(Designator_Build), nameof(Designator_Build.Visible), MethodType.Getter)]
+    public static class Harmony_Designator_Build_Visible_RestrictBuildingsByAllegiance
+    {
+        public static void Postfix(Designator_Build __instance, ref bool __result)
+        {
+            if (!__result) return; // Skip if building is already hidden from menu
+
+            ThingDef currentDef = __instance.PlacingDef as ThingDef;
+            if (MousekinDefOf.FactionRestrictedBuildableThingDefs.Contains(currentDef)) 
+            {
+                if (GameComponent_Allegiance.Instance.alignedFaction == null || !GameComponent_Allegiance.Instance.alignedFaction.def.GetModExtension<AlliableFactionExtension>().factionRestrictedBuildableThingDefs.Contains(currentDef))
+                {
+                    __result = false;
+                }
+            }
+        }
+    }
 }
