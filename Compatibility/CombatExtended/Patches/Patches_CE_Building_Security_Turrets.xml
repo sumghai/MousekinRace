@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+						
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="Mousekin_TurretBase"]/thingClass</xpath>
+				<value>
+					<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+					defName="Mousekin_TurretBallista"
+				]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
+			</li>
+		
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Mousekin_TurretWeapon_Ballista</defName>
+				<statBases>
+					<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+					<SightsEfficiency>1.00</SightsEfficiency>
+					<ShotSpread>0.1</ShotSpread>
+					<SwayFactor>0.5</SwayFactor>
+					<Bulk>10</Bulk>
+				</statBases>
+				<Properties>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bolt_Mousekin_TurretWeapon_Ballista</defaultProjectile>
+					<warmupTime>1.0</warmupTime>
+					<range>55</range>
+					<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+					<burstShotCount>5</burstShotCount>
+					<soundCast>Mousekin_Ballista_Fire</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<recoilPattern>Mounted</recoilPattern>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>25</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>Mousekin_AmmoSet_BallistaBolt</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiAimMode>AimedShot</aiAimMode>
+					<noSingleShot>false</noSingleShot>
+				</FireModes>
+			</li>
+		
+		</operations>
+	</Operation>
+</Patch>

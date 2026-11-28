@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Mousekin ballista bolt ammo and projectiles use existing non-CE defs,
+	with minor tweaks via XML PatchOperation for CE compatibility. -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>Mousekin_AmmoSet_BallistaBolt</defName>
+		<label>ballista bolt</label>
+		<ammoTypes>
+			<Mousekin_Ammo_BallistaBolt>Bolt_Mousekin_TurretWeapon_Ballista</Mousekin_Ammo_BallistaBolt>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+</Defs>

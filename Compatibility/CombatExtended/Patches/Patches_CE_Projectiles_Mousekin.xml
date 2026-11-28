@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Make non-CE projectiles CE compatible -->
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Bolt_Mousekin_TurretWeapon_Ballista"]</xpath>
+				<attribute>Class</attribute>
+				<value>CombatExtended.AmmoDef</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName="Bolt_Mousekin_TurretWeapon_Ballista"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>BaseProjectileNeolithic</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Bolt_Mousekin_TurretWeapon_Ballista"]/projectile</xpath>
+				<value>
+					<projectile Class="CombatExtended.ProjectilePropertiesCE">
+						<damageDef>RangedStab</damageDef>
+						<damageAmountBase>45</damageAmountBase>
+						<armorPenetrationSharp>13</armorPenetrationSharp>
+						<armorPenetrationBlunt>141.12</armorPenetrationBlunt>
+						<speed>60</speed>
+						<preExplosionSpawnChance>0.4</preExplosionSpawnChance>
+						<preExplosionSpawnThingDef>Mousekin_Ammo_BallistaBolt</preExplosionSpawnThingDef>
+					</projectile>
+				</value>
+			</li>
+		
+		</operations>
+	</Operation>
+</Patch>

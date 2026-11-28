@@ -25,7 +25,39 @@
 					<Bulk>0.10</Bulk>
 				</value>
 			</li>
-		
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_Ammo_BallistaBolt"]/statBases</xpath>
+				<value>
+					<Bulk>4</Bulk>
+				</value>
+			</li>
+			
+			<!-- Make non-CE ammo items CE compatible -->
+			
+			<li Class="PatchOperationAttributeAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_Ammo_BallistaBolt"]</xpath>
+				<attribute>Class</attribute>
+				<value>CombatExtended.AmmoDef</value>
+			</li>
+			
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName="Mousekin_Ammo_BallistaBolt"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>AmmoBase</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mousekin_Ammo_BallistaBolt"]</xpath>
+				<value>
+					<ammoClass>Mousekin_AmmoCategory_BallistaBolt</ammoClass>
+					<tradeTags>
+						<li>CE_AutoEnableTrade</li>
+						<li>CE_TradeTag_Mousekin_Ammo_BallistaBolts</li>
+					</tradeTags>
+				</value>
+			</li>
+			
 		</operations>
 	</Operation>
 </Patch>

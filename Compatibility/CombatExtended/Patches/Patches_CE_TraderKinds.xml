@@ -38,6 +38,28 @@
 					</li>
 				</value>
 			</li>
+			
+			<!-- Patch Mousekin Kingdom faction base and Ironmonger caravan traders to specifically also sell Mousekin ballista bolt ammo -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Mousekin_TraderSettlement_Kingdom"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>CE_TradeTag_Mousekin_Ammo_BallistaBolts</tradeTag>
+						<countRange>300~300</countRange>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Mousekin_TraderCaravan_MilitaryKingdom"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>CE_TradeTag_Mousekin_Ammo_BallistaBolts</tradeTag>
+						<countRange>75~75</countRange>
+					</li>
+				</value>
+			</li>
 
 			<!-- Patch Mousekin Indy Town faction base and Ironmonger caravan traders to specifically also sell Firecracker Rocket ammo -->
 
